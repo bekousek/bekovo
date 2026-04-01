@@ -1,0 +1,9 @@
+{
+  "id": "hustota-phet-applet",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "PhET: Hustota",
+  "type": "applet",
+  "description": "Interaktivní simulace od PhET Colorado. Žáci mohou měnit objem a hmotnost předmětů a pozorovat vliv na hustotu a plovatelnost.",
+  "url": "https://phet.colorado.edu/cs/simulations/density"
+}

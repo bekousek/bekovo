@@ -1,0 +1,8 @@
+{
+  "id": "magnetismus",
+  "name": "Magnetismus",
+  "grade": 6,
+  "order": 3,
+  "icon": "🧲",
+  "subtopics": ["magnety", "magneticke-pole-zeme"]
+}

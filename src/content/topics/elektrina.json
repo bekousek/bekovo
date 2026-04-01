@@ -1,0 +1,8 @@
+{
+  "id": "elektrina",
+  "name": "Elektřina",
+  "grade": 9,
+  "order": 17,
+  "icon": "⚡",
+  "subtopics": ["elektromagnetismus-a-indukce", "stridavy-proud", "elektrarny", "elektricke-clanky", "civky-a-kondenzatory", "transformator", "trojfazova-soustava", "elektromotor", "elektromagneticke-vlneni", "silnoproud", "pojistky-a-jistice", "polovodice"]
+}

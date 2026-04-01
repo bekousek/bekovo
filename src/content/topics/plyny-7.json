@@ -1,0 +1,8 @@
+{
+  "id": "plyny-7",
+  "name": "Plyny",
+  "grade": 7,
+  "order": 10,
+  "icon": "💨",
+  "subtopics": ["atmosfera", "vakuum", "vztlak-v-plynech"]
+}

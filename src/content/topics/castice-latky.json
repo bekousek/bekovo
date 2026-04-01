@@ -1,0 +1,8 @@
+{
+  "id": "castice-latky",
+  "name": "Částice látky",
+  "grade": 6,
+  "order": 2,
+  "icon": "⚛️",
+  "subtopics": ["atom", "skaly-castic", "casticove-slozeni-latek", "brownuv-pohyb-difuze"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "skupenstvi-latek",
+  "name": "Skupenství látek",
+  "grade": 8,
+  "order": 14,
+  "icon": "🧊",
+  "subtopics": ["zmeny-skupenstvi-latek", "skupenske-teplo", "vztah-teploty-a-tlaku"]
+}

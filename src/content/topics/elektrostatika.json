@@ -1,0 +1,8 @@
+{
+  "id": "elektrostatika",
+  "name": "Elektrostatika",
+  "grade": 6,
+  "order": 4,
+  "icon": "⚡",
+  "subtopics": ["elektricky-naboj", "ionty"]
+}

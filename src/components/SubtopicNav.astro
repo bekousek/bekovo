@@ -1,0 +1,38 @@
+---
+interface Props {
+  topicId: string;
+  subtopicId: string;
+  currentSection?: string;
+}
+
+const { topicId, subtopicId, currentSection } = Astro.props;
+
+const sections = [
+  { id: 'index', label: 'Přehled', href: `/${topicId}/${subtopicId}`, icon: '📋' },
+  { id: 'zapis', label: 'Zápis do sešitu', href: `/${topicId}/${subtopicId}/zapis`, icon: '📝' },
+  { id: 'priprava', label: 'Příprava na hodinu', href: `/${topicId}/${subtopicId}/priprava`, icon: '📖' },
+  { id: 'generator', label: 'Generátor příkladů', href: `/${topicId}/${subtopicId}/generator`, icon: '🔢' },
+  { id: 'pokusy', label: 'Banka pokusů', href: `/${topicId}/${subtopicId}/pokusy`, icon: '🧪' },
+  { id: 'aktivity', label: 'Banka aktivit', href: `/${topicId}/${subtopicId}/aktivity`, icon: '🎯' },
+  { id: 'materialy', label: 'Další materiály', href: `/${topicId}/${subtopicId}/materialy`, icon: '📚' },
+  { id: 'ukoly', label: 'Domácí úkoly', href: `/${topicId}/${subtopicId}/ukoly`, icon: '🏠' },
+  { id: 'testy', label: 'Minulé testy', href: `/${topicId}/${subtopicId}/testy`, icon: '📄' },
+];
+---
+<nav class="mb-8">
+  <div class="flex flex-wrap gap-2">
+    {sections.map((section) => (
+      <a
+        href={section.href}
+        class={`inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+          currentSection === section.id
+            ? 'bg-primary-600 text-white shadow-sm'
+            : 'bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-700 border border-gray-200'
+        }`}
+      >
+        <span>{section.icon}</span>
+        <span>{section.label}</span>
+      </a>
+    ))}
+  </div>
+</nav>

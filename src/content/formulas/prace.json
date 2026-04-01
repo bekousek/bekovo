@@ -1,0 +1,36 @@
+{
+  "id": "prace",
+  "name": "Práce",
+  "subtopicIds": ["prace"],
+  "formula": "W = F \\cdot s",
+  "variables": [
+    {
+      "symbol": "W",
+      "name": "práce",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [1, 100000]
+    },
+    {
+      "symbol": "F",
+      "name": "síla",
+      "unit": "N",
+      "altUnits": [
+        { "unit": "kN", "factor": 1000 }
+      ],
+      "range": [1, 10000]
+    },
+    {
+      "symbol": "s",
+      "name": "dráha",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "km", "factor": 1000 },
+        { "unit": "cm", "factor": 0.01 }
+      ],
+      "range": [0.1, 1000]
+    }
+  ]
+}

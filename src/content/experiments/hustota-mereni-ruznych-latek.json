@@ -1,0 +1,10 @@
+{
+  "id": "hustota-mereni-ruznych-latek",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Měření hustoty různých látek",
+  "type": "measurement",
+  "description": "Žáci měří hustotu různých předmětů (dřevo, kov, plast, kámen) pomocí váhy a odměrného válce. Výsledky zapisují do tabulky a porovnávají s tabulkovými hodnotami.",
+  "materials": ["odměrný válec", "váha", "vzorky látek (dřevo, kov, plast, kámen)", "voda", "tabulka hustot"],
+  "procedure": "1. Zvažte vzorek na váze a zapište hmotnost. 2. Naplňte odměrný válec vodou a odečtěte objem. 3. Ponořte vzorek a odečtěte nový objem. 4. Vypočítejte objem vzorku jako rozdíl. 5. Vypočítejte hustotu ze vzorce ρ = m/V. 6. Porovnejte s tabulkovou hodnotou."
+}

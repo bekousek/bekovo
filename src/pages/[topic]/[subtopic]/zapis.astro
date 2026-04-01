@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import NotebookExport from '../../../components/NotebookExport';
+import { getSubtopicPaths } from '../../../lib/paths';
+
+export async function getStaticPaths() {
+  return getSubtopicPaths();
+}
+
+const { topic, subtopic } = Astro.props;
+---
+<BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Zápis do sešitu' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="zapis" />
+
+  {subtopic.notebookEntry ? (
+    <div class="space-y-4">
+      <NotebookExport contentId="notebook-content" client:visible />
+
+      <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
+        <div class="notebook-entry prose max-w-none" set:html={subtopic.notebookEntry.content} />
+      </div>
+    </div>
+  ) : (
+    <EmptyState
+      icon="📝"
+      title="Zápis zatím není k dispozici"
+      description="Zápis bude brzy doplněn."
+    />
+  )}
+
+  <style is:global>
+    .notebook-entry h2 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #1e3a8a;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .notebook-entry h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1e40af;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .notebook-entry .formula {
+      text-align: center;
+      margin: 1rem 0;
+      padding: 0.75rem;
+      background: #eff6ff;
+      border-radius: 0.5rem;
+    }
+    .notebook-entry table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.9rem;
+    }
+    .notebook-entry th {
+      background: #1e40af;
+      color: white;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      font-weight: 600;
+    }
+    .notebook-entry td {
+      padding: 0.4rem 0.75rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .notebook-entry tr:nth-child(even) td {
+      background: #f9fafb;
+    }
+    .notebook-entry p {
+      margin: 0.5rem 0;
+      line-height: 1.6;
+    }
+  </style>
+
+  <script>
+    import katex from 'katex';
+
+    function renderMath() {
+      const container = document.getElementById('notebook-content');
+      if (!container) return;
+
+      const html = container.innerHTML;
+      // Replace $$...$$ with rendered KaTeX
+      const rendered = html.replace(/\$\$(.*?)\$\$/g, (_, tex) => {
+        try {
+          return katex.renderToString(tex, { throwOnError: false, displayMode: true });
+        } catch {
+          return tex;
+        }
+      });
+      container.innerHTML = rendered;
+    }
+
+    renderMath();
+    document.addEventListener('astro:page-load', renderMath);
+  </script>
+</BaseLayout>

@@ -1,0 +1,8 @@
+{
+  "id": "mechanika",
+  "name": "Mechanika",
+  "grade": 8,
+  "order": 12,
+  "icon": "⚙️",
+  "subtopics": ["prace", "prace-na-jednoduchych-strojich", "vykon"]
+}

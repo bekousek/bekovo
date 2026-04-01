@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopicsCollection = await getCollection('subtopics');
+  const materialsCollection = await getCollection('materials');
+
+  const paths = [];
+  for (const topic of topics) {
+    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
+    for (const subtopic of topicSubtopics) {
+      const materials = materialsCollection
+        .filter((m) => m.data.topicId === topic.data.id && m.data.subtopicId === subtopic.data.id)
+        .map((m) => m.data);
+      paths.push({
+        params: { topic: topic.data.id, subtopic: subtopic.data.id },
+        props: { topic: topic.data, subtopic: subtopic.data, materials },
+      });
+    }
+  }
+  return paths;
+}
+
+const { topic, subtopic, materials } = Astro.props;
+
+const typeLabels: Record<string, string> = {
+  worksheet: 'Pracovní list',
+  video: 'Video',
+  applet: 'Applet',
+  link: 'Odkaz',
+  other: 'Jiné',
+};
+
+const typeIcons: Record<string, string> = {
+  worksheet: '📋',
+  video: '🎬',
+  applet: '💻',
+  link: '🔗',
+  other: '📎',
+};
+---
+<BaseLayout title={`${subtopic.name} - Další materiály`}>
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Další materiály' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="materialy" />
+
+  {materials.length > 0 ? (
+    <div class="space-y-4">
+      {materials.map((mat) => (
+        <a
+          href={mat.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-start gap-3 bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md hover:border-primary-300 transition-all duration-200"
+        >
+          <span class="text-2xl">{typeIcons[mat.type] || '📎'}</span>
+          <div class="flex-1">
+            <div class="flex items-center gap-2 mb-1">
+              <h3 class="font-semibold text-gray-900">{mat.title}</h3>
+              <span class="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                {typeLabels[mat.type]}
+              </span>
+            </div>
+            {mat.description && <p class="text-sm text-gray-600">{mat.description}</p>}
+            <span class="inline-flex items-center gap-1 mt-1 text-sm text-primary-600">
+              Otevřít ↗
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  ) : (
+    <EmptyState
+      icon="📚"
+      title="Zatím žádné materiály"
+      description="Materiály budou brzy doplněny."
+    />
+  )}
+</BaseLayout>

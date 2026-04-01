@@ -1,0 +1,8 @@
+{
+  "id": "mikrosvet",
+  "name": "Mikrosvět",
+  "grade": 9,
+  "order": 18,
+  "icon": "🔬",
+  "subtopics": ["skaly-v-mikrosvete", "atom-a-jeho-modely", "radioaktivita", "jaderna-energie"]
+}

@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import ExerciseGenerator from '../../../components/generator/ExerciseGenerator';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopicsCollection = await getCollection('subtopics');
+  const formulasCollection = await getCollection('formulas');
+
+  const paths = [];
+  for (const topic of topics) {
+    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
+    for (const subtopic of topicSubtopics) {
+      const formulas = formulasCollection
+        .filter((f) => f.data.subtopicIds.includes(subtopic.data.id))
+        .map((f) => f.data);
+      paths.push({
+        params: { topic: topic.data.id, subtopic: subtopic.data.id },
+        props: { topic: topic.data, subtopic: subtopic.data, formulas },
+      });
+    }
+  }
+  return paths;
+}
+
+const { topic, subtopic, formulas } = Astro.props;
+---
+<BaseLayout title={`${subtopic.name} - Generátor příkladů`}>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Generátor příkladů' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="generator" />
+
+  {formulas.length > 0 ? (
+    <ExerciseGenerator formulas={formulas} client:visible />
+  ) : (
+    <EmptyState
+      icon="🔢"
+      title="Generátor příkladů"
+      description="Pro toto téma zatím nejsou definovány vzorce."
+    />
+  )}
+</BaseLayout>

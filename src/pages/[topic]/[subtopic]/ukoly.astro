@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopicsCollection = await getCollection('subtopics');
+  const homeworkCollection = await getCollection('homework');
+
+  const paths = [];
+  for (const topic of topics) {
+    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
+    for (const subtopic of topicSubtopics) {
+      const homeworkItems = homeworkCollection
+        .filter((h) => h.data.topicId === topic.data.id && h.data.subtopicId === subtopic.data.id)
+        .map((h) => h.data);
+      paths.push({
+        params: { topic: topic.data.id, subtopic: subtopic.data.id },
+        props: { topic: topic.data, subtopic: subtopic.data, homeworkItems },
+      });
+    }
+  }
+  return paths;
+}
+
+const { topic, subtopic, homeworkItems } = Astro.props;
+---
+<BaseLayout title={`${subtopic.name} - Dobrovolné domácí úkoly`}>
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Domácí úkoly' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="ukoly" />
+
+  {homeworkItems.length > 0 ? (
+    <div class="space-y-4">
+      {homeworkItems.map((hw) => (
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+          <div class="flex items-start gap-3">
+            <span class="text-2xl">🏠</span>
+            <div class="flex-1">
+              <h3 class="font-semibold text-gray-900">{hw.title}</h3>
+              <p class="text-sm text-gray-600 mt-1">{hw.description}</p>
+              {hw.driveFileUrl && (
+                <a href={hw.driveFileUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 mt-2 text-sm text-primary-600 hover:text-primary-700">
+                  Soubor na Google Drive ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  ) : (
+    <EmptyState
+      icon="🏠"
+      title="Zatím žádné domácí úkoly"
+      description="Dobrovolné domácí úkoly budou brzy doplněny."
+    />
+  )}
+</BaseLayout>

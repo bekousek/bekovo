@@ -1,0 +1,37 @@
+{
+  "id": "tlak",
+  "name": "Tlak",
+  "subtopicIds": ["tlak"],
+  "formula": "p = \\frac{F}{S}",
+  "variables": [
+    {
+      "symbol": "p",
+      "name": "tlak",
+      "unit": "Pa",
+      "altUnits": [
+        { "unit": "kPa", "factor": 1000 },
+        { "unit": "hPa", "factor": 100 }
+      ],
+      "range": [100, 1000000]
+    },
+    {
+      "symbol": "F",
+      "name": "síla",
+      "unit": "N",
+      "altUnits": [
+        { "unit": "kN", "factor": 1000 }
+      ],
+      "range": [1, 10000]
+    },
+    {
+      "symbol": "S",
+      "name": "obsah plochy",
+      "unit": "m²",
+      "altUnits": [
+        { "unit": "cm²", "factor": 0.0001 },
+        { "unit": "dm²", "factor": 0.01 }
+      ],
+      "range": [0.001, 10]
+    }
+  ]
+}

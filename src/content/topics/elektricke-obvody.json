@@ -1,0 +1,8 @@
+{
+  "id": "elektricke-obvody",
+  "name": "Elektrické obvody",
+  "grade": 6,
+  "order": 6,
+  "icon": "🔌",
+  "subtopics": ["elektricky-obvod", "zkrat", "proud-a-napeti", "multimetr", "elektromagnet", "bezpecnost-pri-praci-s-elektrinou", "vedeni-proudu-v-kapalinach"]
+}

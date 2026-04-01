@@ -1,0 +1,8 @@
+{
+  "id": "kapaliny-7",
+  "name": "Kapaliny",
+  "grade": 7,
+  "order": 9,
+  "icon": "💧",
+  "subtopics": ["tlak", "pascaluv-zakon", "hydrostaticky-tlak", "spojene-nadoby", "vztlakova-sila", "lode"]
+}

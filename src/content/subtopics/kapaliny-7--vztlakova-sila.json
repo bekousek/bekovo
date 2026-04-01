@@ -1,0 +1,9 @@
+{
+  "id": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "name": "Vztlaková síla a Archimédův zákon",
+  "order": 5,
+  "notebookEntry": {
+    "content": "<h2>Vztlaková síla a Archimédův zákon</h2><p><strong>Archimédův zákon:</strong> Těleso ponořené do kapaliny je nadlehčováno silou, která se rovná tíze kapaliny o objemu ponořené části tělesa.</p><h3>Vzorec</h3><div class='formula'>$$F_{vz} = V \\cdot \\rho_k \\cdot g$$</div><table><thead><tr><th>Veličina</th><th>Symbol</th><th>Jednotka</th></tr></thead><tbody><tr><td>vztlaková síla</td><td>F<sub>vz</sub></td><td>N</td></tr><tr><td>objem ponořené části</td><td>V</td><td>m³</td></tr><tr><td>hustota kapaliny</td><td>ρ<sub>k</sub></td><td>kg/m³</td></tr><tr><td>tíhové zrychlení</td><td>g</td><td>m/s² (≈ 10)</td></tr></tbody></table><h3>Kdy těleso plove, vznáší se, klesá?</h3><table><thead><tr><th>Stav</th><th>Podmínka</th></tr></thead><tbody><tr><td>Těleso plove</td><td>ρ<sub>tělesa</sub> &lt; ρ<sub>kapaliny</sub></td></tr><tr><td>Těleso se vznáší</td><td>ρ<sub>tělesa</sub> = ρ<sub>kapaliny</sub></td></tr><tr><td>Těleso klesá</td><td>ρ<sub>tělesa</sub> &gt; ρ<sub>kapaliny</sub></td></tr></tbody></table><h3>Příklad</h3><p>Jaká vztlaková síla působí na kámen o objemu 0,002 m³ ponořený ve vodě?</p><p><strong>Řešení:</strong></p><div class='formula'>$$F_{vz} = V \\cdot \\rho_k \\cdot g = 0{,}002 \\cdot 1000 \\cdot 10 = 20 \\, \\text{N}$$</div>"
+  }
+}

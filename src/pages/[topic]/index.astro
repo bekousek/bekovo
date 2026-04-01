@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopics = await getCollection('subtopics');
+
+  return topics.map((topic) => {
+    const topicSubtopics = subtopics
+      .filter((s) => s.data.topicId === topic.data.id)
+      .sort((a, b) => a.data.order - b.data.order);
+
+    return {
+      params: { topic: topic.data.id },
+      props: { topic: topic.data, subtopics: topicSubtopics.map((s) => s.data) },
+    };
+  });
+}
+
+const { topic, subtopics } = Astro.props;
+
+const gradeColors: Record<number, string> = {
+  6: 'bg-grade-6',
+  7: 'bg-grade-7',
+  8: 'bg-grade-8',
+  9: 'bg-grade-9',
+};
+---
+<BaseLayout title={topic.name}>
+  <Breadcrumb items={[{ label: topic.name }]} />
+
+  <div class="mb-8">
+    <div class="flex items-center gap-3 mb-2">
+      <span class="text-4xl">{topic.icon}</span>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">{topic.name}</h1>
+        <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium text-white ${gradeColors[topic.grade]}`}>
+          {topic.grade}. třída
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {subtopics.map((subtopic, index) => (
+      <a
+        href={`/${topic.id}/${subtopic.id}`}
+        class="flex items-center gap-4 bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md hover:border-primary-300 transition-all duration-200"
+      >
+        <span class="flex-shrink-0 w-10 h-10 rounded-full bg-primary-100 text-primary-700 flex items-center justify-center font-bold text-sm">
+          {index + 1}
+        </span>
+        <div>
+          <h3 class="font-semibold text-gray-900">{subtopic.name}</h3>
+        </div>
+      </a>
+    ))}
+  </div>
+</BaseLayout>

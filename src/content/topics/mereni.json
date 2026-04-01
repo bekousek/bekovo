@@ -1,0 +1,8 @@
+{
+  "id": "mereni",
+  "name": "Měření",
+  "grade": 6,
+  "order": 5,
+  "icon": "📏",
+  "subtopics": ["delka", "objem", "hmotnost", "hustota", "cas", "teplota"]
+}

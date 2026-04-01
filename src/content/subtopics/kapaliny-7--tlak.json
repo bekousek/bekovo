@@ -1,0 +1,9 @@
+{
+  "id": "tlak",
+  "topicId": "kapaliny-7",
+  "name": "Tlak",
+  "order": 1,
+  "notebookEntry": {
+    "content": "<h2>Tlak</h2><p><strong>Tlak</strong> vyjadřuje, jak velká síla působí na jednotku plochy.</p><h3>Vzorec</h3><div class='formula'>$$p = \\frac{F}{S}$$</div><table><thead><tr><th>Veličina</th><th>Symbol</th><th>Jednotka</th></tr></thead><tbody><tr><td>tlak</td><td>p</td><td>Pa (pascal)</td></tr><tr><td>síla</td><td>F</td><td>N (newton)</td></tr><tr><td>obsah plochy</td><td>S</td><td>m²</td></tr></tbody></table><h3>Odvozené vzorce</h3><div class='formula'>$$F = p \\cdot S$$</div><div class='formula'>$$S = \\frac{F}{p}$$</div><h3>Jednotky tlaku</h3><table><thead><tr><th>Jednotka</th><th>Převod</th></tr></thead><tbody><tr><td>1 Pa</td><td>1 N/m²</td></tr><tr><td>1 kPa</td><td>1 000 Pa</td></tr><tr><td>1 hPa</td><td>100 Pa</td></tr><tr><td>1 atm</td><td>101 325 Pa</td></tr></tbody></table><h3>Příklad</h3><p>Na desku o obsahu 0,5 m² působí síla 200 N. Jaký je tlak?</p><p><strong>Řešení:</strong></p><div class='formula'>$$p = \\frac{F}{S} = \\frac{200}{0{,}5} = 400 \\, \\text{Pa}$$</div>"
+  }
+}

@@ -1,0 +1,31 @@
+---
+interface Props {
+  url: string;
+  title?: string;
+  height?: string;
+}
+
+const { url, title = 'Google Dokument', height = '800px' } = Astro.props;
+---
+<div class="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden">
+  {title && (
+    <div class="px-4 py-3 border-b border-gray-200 flex items-center justify-between">
+      <h3 class="font-medium text-gray-900">{title}</h3>
+      <a
+        href={url.replace('/pub?embedded=true', '/pub').replace('/preview', '/view')}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="text-sm text-primary-600 hover:text-primary-700"
+      >
+        Otevřít v novém okně ↗
+      </a>
+    </div>
+  )}
+  <iframe
+    src={url}
+    width="100%"
+    style={`height: ${height}; border: none;`}
+    loading="lazy"
+    title={title}
+  ></iframe>
+</div>

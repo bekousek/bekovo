@@ -1,0 +1,9 @@
+{
+  "id": "vztlak-phet-applet",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Vztlaková síla",
+  "type": "applet",
+  "description": "Interaktivní simulace Archimédova zákona. Žáci mohou měnit hustotu kapaliny a objem tělesa a pozorovat vztlakovou sílu.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy"
+}

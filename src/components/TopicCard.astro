@@ -1,0 +1,42 @@
+---
+interface Props {
+  id: string;
+  name: string;
+  grade: number;
+  icon: string;
+  subtopicCount: number;
+}
+
+const { id, name, grade, icon, subtopicCount } = Astro.props;
+
+const gradeColors: Record<number, string> = {
+  6: 'bg-grade-6',
+  7: 'bg-grade-7',
+  8: 'bg-grade-8',
+  9: 'bg-grade-9',
+};
+
+const gradeColorsBorder: Record<number, string> = {
+  6: 'border-grade-6',
+  7: 'border-grade-7',
+  8: 'border-grade-8',
+  9: 'border-grade-9',
+};
+---
+<a
+  href={`/${id}`}
+  class={`block bg-white rounded-xl shadow-sm border-l-4 ${gradeColorsBorder[grade]} p-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
+>
+  <div class="flex items-start gap-3">
+    <span class="text-3xl">{icon}</span>
+    <div class="flex-1 min-w-0">
+      <h3 class="font-semibold text-gray-900 text-lg leading-tight">{name}</h3>
+      <div class="flex items-center gap-2 mt-2">
+        <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium text-white ${gradeColors[grade]}`}>
+          {grade}. třída
+        </span>
+        <span class="text-sm text-gray-500">{subtopicCount} témat</span>
+      </div>
+    </div>
+  </div>
+</a>

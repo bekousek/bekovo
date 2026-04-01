@@ -1,0 +1,39 @@
+{
+  "id": "hustota",
+  "name": "Hustota",
+  "subtopicIds": ["hustota"],
+  "formula": "\\rho = \\frac{m}{V}",
+  "variables": [
+    {
+      "symbol": "\\rho",
+      "name": "hustota",
+      "unit": "kg/m³",
+      "altUnits": [
+        { "unit": "g/cm³", "factor": 0.001 }
+      ],
+      "range": [100, 20000]
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 1000]
+    },
+    {
+      "symbol": "V",
+      "name": "objem",
+      "unit": "m³",
+      "altUnits": [
+        { "unit": "cm³", "factor": 0.000001 },
+        { "unit": "dm³", "factor": 0.001 },
+        { "unit": "l", "factor": 0.001 },
+        { "unit": "ml", "factor": 0.000001 }
+      ],
+      "range": [0.001, 100]
+    }
+  ]
+}

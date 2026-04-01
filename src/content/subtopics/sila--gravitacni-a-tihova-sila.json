@@ -1,0 +1,9 @@
+{
+  "id": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "name": "Gravitační a tíhová síla",
+  "order": 4,
+  "notebookEntry": {
+    "content": "<h2>Gravitační a tíhová síla</h2><p><strong>Gravitační síla</strong> (F<sub>g</sub>) je síla, kterou na sebe vzájemně působí dvě tělesa. Závisí na jejich hmotnostech a vzdálenosti.</p><p><strong>Tíhová síla</strong> (G) je síla, kterou Země přitahuje tělesa na svém povrchu. Je to výslednice gravitační síly a odstředivé síly (způsobené rotací Země).</p><h3>Vzorec pro tíhovou sílu</h3><div class='formula'>$$G = m \\cdot g$$</div><table><thead><tr><th>Veličina</th><th>Symbol</th><th>Jednotka</th></tr></thead><tbody><tr><td>tíhová síla</td><td>G</td><td>N (newton)</td></tr><tr><td>hmotnost</td><td>m</td><td>kg</td></tr><tr><td>tíhové zrychlení</td><td>g</td><td>m/s² (≈ 10 na Zemi)</td></tr></tbody></table><h3>Tíhové zrychlení na různých tělesech</h3><table><thead><tr><th>Těleso</th><th>g (m/s²)</th></tr></thead><tbody><tr><td>Země</td><td>9,81 ≈ 10</td></tr><tr><td>Měsíc</td><td>1,62</td></tr><tr><td>Mars</td><td>3,72</td></tr><tr><td>Jupiter</td><td>24,79</td></tr></tbody></table><h3>Příklad</h3><p>Jaká tíhová síla působí na těleso o hmotnosti 50 kg na Zemi?</p><p><strong>Řešení:</strong></p><div class='formula'>$$G = m \\cdot g = 50 \\cdot 10 = 500 \\, \\text{N}$$</div>"
+  }
+}

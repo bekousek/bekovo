@@ -1,0 +1,9 @@
+{
+  "id": "hustota",
+  "topicId": "mereni",
+  "name": "Hustota",
+  "order": 4,
+  "notebookEntry": {
+    "content": "<h2>Hustota</h2><p><strong>Hustota</strong> vyjadřuje, kolik kilogramů má jeden metr krychlový dané látky.</p><h3>Vzorec</h3><div class='formula'>$$\\rho = \\frac{m}{V}$$</div><table><thead><tr><th>Veličina</th><th>Symbol</th><th>Jednotka</th></tr></thead><tbody><tr><td>hustota</td><td>ρ (ró)</td><td>kg/m³</td></tr><tr><td>hmotnost</td><td>m</td><td>kg</td></tr><tr><td>objem</td><td>V</td><td>m³</td></tr></tbody></table><h3>Odvozené vzorce</h3><div class='formula'>$$m = \\rho \\cdot V$$</div><div class='formula'>$$V = \\frac{m}{\\rho}$$</div><h3>Příklad</h3><p>Železná kostka má objem 0,5 m³ a hmotnost 3 930 kg. Jaká je hustota železa?</p><p><strong>Řešení:</strong></p><div class='formula'>$$\\rho = \\frac{m}{V} = \\frac{3930}{0{,}5} = 7860 \\, \\text{kg/m}^3$$</div><h3>Hustoty vybraných látek</h3><table><thead><tr><th>Látka</th><th>Hustota (kg/m³)</th></tr></thead><tbody><tr><td>Zlato</td><td>19 300</td></tr><tr><td>Železo</td><td>7 860</td></tr><tr><td>Voda</td><td>1 000</td></tr><tr><td>Led</td><td>917</td></tr><tr><td>Vzduch</td><td>1,29</td></tr></tbody></table>"
+  }
+}

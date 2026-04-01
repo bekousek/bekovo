@@ -1,0 +1,9 @@
+{
+  "id": "tlak-hrebiky",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Fakírovo lůžko z hřebíků",
+  "type": "qualitative",
+  "description": "Demonstrace závislosti tlaku na obsahu plochy. Balónek praskne na jednom hřebíku, ale nepraskne na desce s mnoha hřebíky, protože síla se rozloží na větší plochu a tlak je menší.",
+  "materials": ["deska s mnoha hřebíky", "jeden hřebík", "balónek nafouknutý", "závaží"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "energie",
+  "name": "Energie",
+  "grade": 8,
+  "order": 13,
+  "icon": "🔋",
+  "subtopics": ["energie", "ucinnost", "teplo-a-jeho-sireni"]
+}

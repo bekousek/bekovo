@@ -1,0 +1,8 @@
+{
+  "id": "optika",
+  "name": "Optika",
+  "grade": 7,
+  "order": 11,
+  "icon": "🔦",
+  "subtopics": ["svetlo", "faze-mesice-zatmeni", "zrcadla-zakon-odrazu", "cocky-zakon-lomu", "oko", "opticke-pristroje", "barvy"]
+}

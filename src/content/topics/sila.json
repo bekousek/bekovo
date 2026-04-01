@@ -1,0 +1,8 @@
+{
+  "id": "sila",
+  "name": "Síla",
+  "grade": 7,
+  "order": 8,
+  "icon": "💪",
+  "subtopics": ["sila-a-jeji-znazorneni", "silomer", "skladani-sil", "gravitacni-a-tihova-sila", "newtonovy-zakony", "jednoduche-stroje"]
+}

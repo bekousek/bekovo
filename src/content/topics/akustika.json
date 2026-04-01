@@ -1,0 +1,8 @@
+{
+  "id": "akustika",
+  "name": "Akustika",
+  "grade": 8,
+  "order": 16,
+  "icon": "🔊",
+  "subtopics": ["zdroje-zvuku", "vlneni", "hudebni-nastroje"]
+}

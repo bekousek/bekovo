@@ -1,0 +1,9 @@
+{
+  "id": "hustota-plovani-vajicka",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Plovoucí vajíčko",
+  "type": "qualitative",
+  "description": "Demonstrace vlivu hustoty kapaliny na plovatelnost. Vajíčko se potopí v čisté vodě, ale plave v silně solené vodě. Postupným přidáváním soli lze dosáhnout stavu, kdy se vajíčko vznáší.",
+  "materials": ["skleněná nádoba", "vajíčko", "sůl", "voda", "lžíce"]
+}

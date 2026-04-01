@@ -1,0 +1,8 @@
+{
+  "id": "pohyb",
+  "name": "Pohyb",
+  "grade": 7,
+  "order": 7,
+  "icon": "🏃",
+  "subtopics": ["druhy-pohybu", "rychlost", "grafy"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "tepelne-motory",
+  "name": "Tepelné motory",
+  "grade": 8,
+  "order": 15,
+  "icon": "🚂",
+  "subtopics": ["parni-stroj", "spalovaci-motory", "proudovy-raketovy-motor"]
+}

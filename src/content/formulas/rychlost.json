@@ -1,0 +1,37 @@
+{
+  "id": "rychlost",
+  "name": "Rychlost",
+  "subtopicIds": ["rychlost"],
+  "formula": "v = \\frac{s}{t}",
+  "variables": [
+    {
+      "symbol": "v",
+      "name": "rychlost",
+      "unit": "m/s",
+      "altUnits": [
+        { "unit": "km/h", "factor": 3.6 }
+      ],
+      "range": [0.5, 100]
+    },
+    {
+      "symbol": "s",
+      "name": "dráha",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "km", "factor": 1000 },
+        { "unit": "cm", "factor": 0.01 }
+      ],
+      "range": [1, 10000]
+    },
+    {
+      "symbol": "t",
+      "name": "čas",
+      "unit": "s",
+      "altUnits": [
+        { "unit": "min", "factor": 60 },
+        { "unit": "h", "factor": 3600 }
+      ],
+      "range": [1, 3600]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "vztlak-mereni-silomerem",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Měření vztlakové síly siloměrem",
+  "type": "measurement",
+  "description": "Žáci měří tíhu tělesa na vzduchu a ve vodě pomocí siloměru. Rozdíl obou hodnot je vztlaková síla. Porovnávají výsledek s výpočtem z Archimédova zákona.",
+  "materials": ["siloměr", "závaží", "nádoba s vodou", "provázek"],
+  "procedure": "1. Zavěste závaží na siloměr a odečtěte tíhu na vzduchu (G). 2. Ponořte závaží do vody a odečtěte zdánlivou tíhu (G'). 3. Vypočítejte vztlakovou sílu: Fvz = G - G'. 4. Změřte objem závaží a vypočítejte Fvz z Archimédova zákona. 5. Porovnejte obě hodnoty."
+}

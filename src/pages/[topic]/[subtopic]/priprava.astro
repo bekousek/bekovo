@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import GoogleDocEmbed from '../../../components/GoogleDocEmbed.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import { getSubtopicPaths } from '../../../lib/paths';
+
+export async function getStaticPaths() {
+  return getSubtopicPaths();
+}
+
+const { topic, subtopic } = Astro.props;
+---
+<BaseLayout title={`${subtopic.name} - Příprava na hodinu`}>
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Příprava na hodinu' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="priprava" />
+
+  {subtopic.lessonPrep ? (
+    <GoogleDocEmbed url={subtopic.lessonPrep.googleDocUrl} title="Příprava na hodinu" />
+  ) : (
+    <EmptyState
+      icon="📖"
+      title="Příprava zatím není k dispozici"
+      description="Příprava bude brzy doplněna."
+    />
+  )}
+</BaseLayout>

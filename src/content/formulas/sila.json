@@ -1,0 +1,33 @@
+{
+  "id": "sila",
+  "name": "Síla (2. Newtonův zákon)",
+  "subtopicIds": ["newtonovy-zakony", "gravitacni-a-tihova-sila"],
+  "formula": "F = m \\cdot a",
+  "variables": [
+    {
+      "symbol": "F",
+      "name": "síla",
+      "unit": "N",
+      "altUnits": [
+        { "unit": "kN", "factor": 1000 }
+      ],
+      "range": [0.1, 10000]
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 1000]
+    },
+    {
+      "symbol": "a",
+      "name": "zrychlení",
+      "unit": "m/s²",
+      "range": [0.1, 50]
+    }
+  ]
+}

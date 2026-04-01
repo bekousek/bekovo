@@ -1,0 +1,8 @@
+{
+  "id": "astronomie",
+  "name": "Astronomie",
+  "grade": 9,
+  "order": 19,
+  "icon": "🌌",
+  "subtopics": ["slunecni-soustava", "vesmir", "vznik-a-zanik-hvezd", "nocni-obloha", "dalsi-vesmirna-telesa"]
+}

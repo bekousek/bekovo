@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopicsCollection = await getCollection('subtopics');
+  const experimentsCollection = await getCollection('experiments');
+
+  const paths = [];
+  for (const topic of topics) {
+    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
+    for (const subtopic of topicSubtopics) {
+      const experiments = experimentsCollection
+        .filter((e) => e.data.topicId === topic.data.id && e.data.subtopicId === subtopic.data.id)
+        .map((e) => e.data);
+      paths.push({
+        params: { topic: topic.data.id, subtopic: subtopic.data.id },
+        props: { topic: topic.data, subtopic: subtopic.data, experiments },
+      });
+    }
+  }
+  return paths;
+}
+
+const { topic, subtopic, experiments } = Astro.props;
+
+const typeLabels: Record<string, string> = {
+  qualitative: 'Kvalitativní',
+  measurement: 'S měřením',
+};
+---
+<BaseLayout title={`${subtopic.name} - Banka pokusů`}>
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
+    { label: 'Banka pokusů' },
+  ]} />
+
+  <h1 class="text-2xl font-bold text-gray-900 mb-6">{subtopic.name}</h1>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="pokusy" />
+
+  {experiments.length > 0 ? (
+    <div class="space-y-4">
+      {experiments.map((exp) => (
+        <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+          <div class="flex items-start gap-3">
+            <span class="text-2xl">🧪</span>
+            <div class="flex-1">
+              <div class="flex items-center gap-2 mb-1">
+                <h3 class="font-semibold text-gray-900">{exp.title}</h3>
+                <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${
+                  exp.type === 'measurement' ? 'bg-blue-100 text-blue-800' : 'bg-green-100 text-green-800'
+                }`}>
+                  {typeLabels[exp.type]}
+                </span>
+              </div>
+              <p class="text-sm text-gray-600">{exp.description}</p>
+              {exp.materials && exp.materials.length > 0 && (
+                <div class="mt-2">
+                  <span class="text-xs font-medium text-gray-500">Pomůcky: </span>
+                  <span class="text-xs text-gray-600">{exp.materials.join(', ')}</span>
+                </div>
+              )}
+              {exp.driveFileUrl && (
+                <a href={exp.driveFileUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 mt-2 text-sm text-primary-600 hover:text-primary-700">
+                  Soubor na Google Drive ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  ) : (
+    <EmptyState
+      icon="🧪"
+      title="Zatím žádné pokusy"
+      description="Pokusy budou brzy doplněny."
+    />
+  )}
+</BaseLayout>

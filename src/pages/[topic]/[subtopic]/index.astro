@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import SubtopicNav from '../../../components/SubtopicNav.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const topics = await getCollection('topics');
+  const subtopicsCollection = await getCollection('subtopics');
+
+  const paths = [];
+  for (const topic of topics) {
+    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
+    for (const subtopic of topicSubtopics) {
+      paths.push({
+        params: { topic: topic.data.id, subtopic: subtopic.data.id },
+        props: { topic: topic.data, subtopic: subtopic.data },
+      });
+    }
+  }
+  return paths;
+}
+
+const { topic, subtopic } = Astro.props;
+
+const sections = [
+  { id: 'zapis', label: 'Vzorový zápis do sešitu', icon: '📝', desc: 'Vzorový zápis s možností exportu do PDF' },
+  { id: 'priprava', label: 'Příprava na hodinu', icon: '📖', desc: 'Příprava na hodinu v Google Docs' },
+  { id: 'generator', label: 'Generátor příkladů', icon: '🔢', desc: 'Generování příkladů s exportem do PDF' },
+  { id: 'pokusy', label: 'Banka pokusů', icon: '🧪', desc: 'Kvalitativní pokusy i měření' },
+  { id: 'aktivity', label: 'Banka aktivit', icon: '🎯', desc: 'Hry, metody, skupinové práce' },
+  { id: 'materialy', label: 'Další materiály', icon: '📚', desc: 'Pracovní listy, videa, applety, odkazy' },
+  { id: 'ukoly', label: 'Dobrovolné domácí úkoly', icon: '🏠', desc: 'Výzkumné práce na doma' },
+  { id: 'testy', label: 'Minulé testy', icon: '📄', desc: 'Dokumenty z minulých testů' },
+];
+---
+<BaseLayout title={`${subtopic.name} - Přehled`}>
+  <Breadcrumb items={[
+    { label: topic.name, href: `/${topic.id}` },
+    { label: subtopic.name },
+  ]} />
+
+  <div class="mb-6">
+    <h1 class="text-2xl font-bold text-gray-900">{subtopic.name}</h1>
+  </div>
+
+  <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="index" />
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    {sections.map((section) => (
+      <a
+        href={`/${topic.id}/${subtopic.id}/${section.id}`}
+        class="flex flex-col items-center gap-2 bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md hover:border-primary-300 transition-all duration-200 text-center"
+      >
+        <span class="text-3xl">{section.icon}</span>
+        <h3 class="font-semibold text-gray-900">{section.label}</h3>
+        <p class="text-sm text-gray-500">{section.desc}</p>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
