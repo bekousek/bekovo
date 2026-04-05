@@ -1,0 +1,14 @@
+{
+  "id": "kapaliny-tlak-hloubka",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Měření hydrostatického tlaku v různých hloubkách",
+  "type": "measurement",
+  "description": "Žáci měří tlak v různých hloubkách vody pomocí manometru nebo senzoru. Ověřují lineární závislost tlaku na hloubce. Zkouší, zda záleží na tvaru nádoby – tlak závisí jen na hloubce, ne na objemu.",
+  "materials": [
+    "manometr nebo tlakový senzor",
+    "nádoby různých tvarů",
+    "voda",
+    "pravítko"
+  ]
+}

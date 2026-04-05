@@ -1,0 +1,15 @@
+{
+  "id": "eo-led-charakteristika",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Voltampérová charakteristika LED",
+  "type": "measurement",
+  "description": "Žáci měří závislost proudu na napětí pro LED diody různých barev. Zjišťují, že červená LED se rozsvítí při nižším napětí než modrá. Porovnávají s charakteristikou žárovky a rezistoru.",
+  "materials": [
+    "LED diody různých barev",
+    "zdroj napětí",
+    "voltmetr",
+    "ampérmetr",
+    "rezistor"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "eo-odporna-zkousecka",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Odporná zkoušečka – měření odporu těla",
+  "type": "measurement",
+  "description": "Jednoduchý obvod s LED a odporem slouží jako zkoušečka vodivosti. Žáci měří odpor různých materiálů i vlastního těla (mokré vs. suché ruce). Uvědomí si, proč je elektrický proud nebezpečný.",
+  "materials": [
+    "LED dioda",
+    "rezistor",
+    "baterie",
+    "vodiče",
+    "krokodýlky"
+  ]
+}

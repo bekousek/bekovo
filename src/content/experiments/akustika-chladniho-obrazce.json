@@ -1,0 +1,14 @@
+{
+  "id": "akustika-chladniho-obrazce",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Chladniho obrazce – zvuk zviditelněný",
+  "type": "qualitative",
+  "description": "Na kovovou destičku se nasype jemný písek a destička se rozkmitá smyčcem. Písek se shromáždí v uzlových čarách a vytvoří symetrické obrazce. Demonstrace stojaté vlnění a vlastních frekvencí.",
+  "materials": [
+    "kovová destička",
+    "smyčec",
+    "jemný písek nebo sůl",
+    "stojánek"
+  ]
+}

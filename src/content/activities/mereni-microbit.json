@@ -1,0 +1,8 @@
+{
+  "id": "mereni-microbit",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "S Micro:bitem za měřením",
+  "type": "method",
+  "description": "Měření fyzikálních veličin pomocí mikropočítače Micro:bit: teplota, osvětlení, zrychlení, magnetické pole. Žáci programují jednoduchý kód a používají Micro:bit jako měřicí přístroj."
+}

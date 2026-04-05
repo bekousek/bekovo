@@ -1,0 +1,15 @@
+{
+  "id": "optika-ir-zareni-vlastnosti",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Vlastnosti infračerveného záření",
+  "type": "qualitative",
+  "description": "Experimenty s IR zářením pomocí upravené webkamery: pozorování IR LED ovladačů, průchod IR záření Colou a vínem (ale ne roztokem modré skalice), zobrazení spirály sklokeramického vařiče v IR spektru.",
+  "materials": [
+    "webkamera bez IR filtru",
+    "IR LED",
+    "dálkový ovladač",
+    "Cola",
+    "roztok modré skalice"
+  ]
+}

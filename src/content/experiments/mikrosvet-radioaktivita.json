@@ -1,0 +1,14 @@
+{
+  "id": "mikrosvet-radioaktivita",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Radioaktivita na vlastní oči",
+  "type": "qualitative",
+  "description": "Detekce přirozené radioaktivity pomocí Geiger-Müllerova počítače: měření pozadí, radioaktivita draselných hnojiv (KCl), uranového skla, wolframové elektrody. Bezpečné zdroje pro školní měření.",
+  "materials": [
+    "Geiger-Müllerův počítač nebo detektor MX-10",
+    "draselné hnojivo",
+    "uranové sklo (staré)",
+    "wolframová elektroda"
+  ]
+}

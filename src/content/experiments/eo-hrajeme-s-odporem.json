@@ -1,0 +1,16 @@
+{
+  "id": "eo-hrajeme-s-odporem",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Hrajeme si s odporem",
+  "type": "measurement",
+  "description": "Série pokusů na porozumění elektrickému odporu: měření odporu různých materiálů, závislost odporu na délce a průřezu vodiče, odpor lidského těla, vodivost roztoku soli. Vizualizace pomocí žárovek.",
+  "materials": [
+    "různé vodiče (drát, grafit, voda)",
+    "multimetr",
+    "baterie",
+    "žárovky",
+    "sůl",
+    "voda"
+  ]
+}

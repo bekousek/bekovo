@@ -1,0 +1,14 @@
+{
+  "id": "optika-geometrie-duhy",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Kde leží duha – geometrie a fyzika",
+  "type": "qualitative",
+  "description": "Experimenty vysvětlující geometrii duhy: proč je duha oblouk, jak závisí její poloha na výšce Slunce, proč jsou barvy vždy ve stejném pořadí. Demonstrace s vodní mlhou a laserovým ukazovátkem.",
+  "materials": [
+    "rozprašovač s vodou",
+    "laserové ukazovátko",
+    "skleněná kulička",
+    "bílá deska"
+  ]
+}

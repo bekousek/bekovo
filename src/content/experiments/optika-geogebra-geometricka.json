@@ -1,0 +1,12 @@
+{
+  "id": "optika-geogebra-geometricka",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "GeoGebra v geometrické optice",
+  "type": "qualitative",
+  "description": "Simulace chodu paprsků v GeoGebře: konstrukce obrazu v zrcadle a čočce, měření ohniskové vzdálenosti, ověření zobrazovací rovnice. Žáci interaktivně mění polohu předmětu a pozorují změnu obrazu.",
+  "materials": [
+    "počítač s GeoGebrou",
+    "dataprojektor"
+  ]
+}

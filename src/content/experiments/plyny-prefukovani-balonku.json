@@ -1,0 +1,12 @@
+{
+  "id": "plyny-prefukovani-balonku",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Přefukování balónků",
+  "type": "qualitative",
+  "description": "Dva různě nafouknuté balónky se propojí ventilem. Menší balónek se vyfoukne do většího, protože tlak uvnitř malého balónku je větší než ve velkém. Výsledek je proti intuici.",
+  "materials": [
+    "dva nafukovací balónky",
+    "dvojcestný ventil"
+  ]
+}

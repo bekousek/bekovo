@@ -1,0 +1,14 @@
+{
+  "id": "energie-moment-setrvacnosti-lahve",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Moment setrvačnosti – láhev s vodou vs. rýží",
+  "type": "qualitative",
+  "description": "Dvě PET láhve stejné hmotnosti (voda a rýže) se pouštějí z nakloněné plochy. Láhev s vodou dojede dříve – voda uvnitř nerotuje. Rýže rotuje s láhví a spotřebuje část energie na rotaci.",
+  "materials": [
+    "dvě PET láhve",
+    "voda",
+    "syrová rýže",
+    "nakloněná plocha"
+  ]
+}

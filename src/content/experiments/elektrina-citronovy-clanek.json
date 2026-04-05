@@ -1,0 +1,16 @@
+{
+  "id": "elektrina-citronovy-clanek",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Citronový článek – kouzla s citrony",
+  "type": "measurement",
+  "description": "Výroba galvanického článku ze citronu, měděné mince a pozinkovaného hřebíku. Měření napětí jednoho článku (~0,9 V). Zapojení více citronů sériově pro rozsvícení LED.",
+  "materials": [
+    "citrony",
+    "měděné mince nebo drátky",
+    "pozinkované hřebíky",
+    "vodiče",
+    "LED",
+    "voltmetr"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vysoky-nizky-tlak",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Vysoký a nízký tlak",
+  "type": "qualitative",
+  "description": "Pokusy demonstrující atmosférický tlak: obrácená sklenice s vodou (kartón drží díky atm. tlaku), Magdeburské polokoule z misek, vařené vejce nasáté do láhve, drtící plechovka (ochladíme páru → podtlak).",
+  "materials": [
+    "sklenice",
+    "kartón",
+    "voda",
+    "přísavky nebo misky",
+    "vejce",
+    "láhev",
+    "plechovka",
+    "vařič"
+  ]
+}

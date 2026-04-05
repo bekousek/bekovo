@@ -1,0 +1,14 @@
+{
+  "id": "sila-fyzika-hracek",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Fyzika hraček",
+  "type": "qualitative",
+  "description": "Fyzikální principy ukryté v hračkách: jojo (moment setrvačnosti), bumerang (gyroskopický efekt), Newtonova kolébka (zachování hybnosti), plechová žabka (pružnost). Každá hračka demonstruje jiný fyzikální princip.",
+  "materials": [
+    "jojo",
+    "Newtonova kolébka",
+    "gyroskop",
+    "různé hračky"
+  ]
+}

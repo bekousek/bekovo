@@ -1,0 +1,16 @@
+{
+  "id": "eo-fotorezistor-zs",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Fotorezistor na základní škole",
+  "type": "measurement",
+  "description": "Měření odporu fotorezistoru v závislosti na osvětlení. Žáci pozorují, jak se mění odpor při zakrytí a osvícení. Zapojení jednoduchého obvodu, kde LED svítí jen ve tmě (noční světlo).",
+  "materials": [
+    "fotorezistor",
+    "LED",
+    "rezistor",
+    "baterie",
+    "multimetr",
+    "nepájivé kontaktní pole"
+  ]
+}

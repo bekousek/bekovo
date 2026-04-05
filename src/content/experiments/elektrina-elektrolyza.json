@@ -1,0 +1,16 @@
+{
+  "id": "elektrina-elektrolyza",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Elektrolýza vody",
+  "type": "qualitative",
+  "description": "Rozklad vody elektrickým proudem na vodík a kyslík. Dvě elektrody (tužky) ve vodě s trochou sody. U záporné elektrody se tvoří dvakrát více plynu (H₂) než u kladné (O₂). Ověření hořlavosti vodíku.",
+  "materials": [
+    "sklenice s vodou",
+    "jedlá soda",
+    "dvě grafitové elektrody (tužky)",
+    "baterie 9V",
+    "vodiče",
+    "zápalky"
+  ]
+}

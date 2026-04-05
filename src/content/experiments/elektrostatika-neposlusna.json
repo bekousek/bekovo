@@ -1,0 +1,17 @@
+{
+  "id": "elektrostatika-neposlusna",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Neposlušná elektrostatika",
+  "type": "qualitative",
+  "description": "Série pokusů s elektrickým nábojem: nabíjení tyče třením, přitahování papírků, ohýbání proudu vody nabitou tyčí, „létající\" igelitový kroužek nad nabitou tyčí, elektroskop z alobalu a sklenice.",
+  "materials": [
+    "PVC tyč nebo balónek",
+    "vlněná látka",
+    "papírky",
+    "proud vody",
+    "igelitový sáček",
+    "alobal",
+    "sklenice"
+  ]
+}

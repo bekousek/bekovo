@@ -1,0 +1,15 @@
+{
+  "id": "mereni-hustota-injekce",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustota v injekční stříkačce",
+  "type": "measurement",
+  "description": "Měření hustoty kapalin pomocí injekční stříkačky jako odměrného válce (objem) a digitálních vah (hmotnost). Žáci porovnávají hustotu vody, oleje, slaného roztoku. Jednoduchá a přesná metoda.",
+  "materials": [
+    "injekční stříkačka (bez jehly)",
+    "digitální váhy",
+    "voda",
+    "olej",
+    "sůl"
+  ]
+}

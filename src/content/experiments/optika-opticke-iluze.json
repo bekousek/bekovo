@@ -1,0 +1,14 @@
+{
+  "id": "optika-opticke-iluze",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Optické iluze před a za zrcadlem",
+  "type": "qualitative",
+  "description": "Série optických iluzí využívajících zrcadla a vlastnosti lidského oka: Pepperův duch (polopropustné zrcadlo), nekonečné zrcadlo, thaumatrop (dva obrázky splývající díky setrvačnosti oka). Diskuze o tom, jak mozek zpracovává vizuální informace.",
+  "materials": [
+    "polopropustné zrcadlo nebo sklo",
+    "rovinná zrcadla",
+    "kartičky na thaumatrop",
+    "provázek"
+  ]
+}

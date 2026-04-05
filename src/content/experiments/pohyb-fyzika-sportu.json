@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-fyzika-sportu",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Fyzika sportu – měření rychlosti míče",
+  "type": "measurement",
+  "description": "Žáci měří rychlost hozeného nebo kopaného míče pomocí videoanalýzy na mobilu. Porovnávají rychlosti při různých sportech. Ověřují, jak závisí dolet na úhlu a počáteční rychlosti.",
+  "materials": [
+    "míč",
+    "mobil s kamerou",
+    "program pro videoanalýzu",
+    "pásmo"
+  ]
+}

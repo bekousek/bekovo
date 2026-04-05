@@ -1,0 +1,15 @@
+{
+  "id": "sila-rachejtle",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Měření tahové síly rachejtle",
+  "type": "measurement",
+  "description": "Žáci měří tahovou sílu silvestrovské rachejtle připevněné k siloměru. Pozorují velikost síly v čase a diskutují třetí Newtonův zákon (akce a reakce). Měření ve venkovním prostředí.",
+  "materials": [
+    "silvestrovská rachejtle",
+    "siloměr nebo digitální siloměr",
+    "stojan",
+    "zápalky",
+    "ochranné brýle"
+  ]
+}

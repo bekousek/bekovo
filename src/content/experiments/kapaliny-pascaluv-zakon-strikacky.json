@@ -1,0 +1,13 @@
+{
+  "id": "kapaliny-pascaluv-zakon-strikacky",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Pascalův zákon s injekčními stříkačkami",
+  "type": "qualitative",
+  "description": "Dvě injekční stříkačky různých průměrů propojené hadičkou naplněnou vodou. Stlačením malé stříkačky se velká vysune – model hydraulického lisu. Žáci ověřují, jak se liší síly a dráhy pístů.",
+  "materials": [
+    "dvě injekční stříkačky různých průměrů",
+    "hadička",
+    "voda"
+  ]
+}

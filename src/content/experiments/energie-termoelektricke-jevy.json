@@ -1,0 +1,15 @@
+{
+  "id": "energie-termoelektricke-jevy",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Termočlánek v hodinách fyziky",
+  "type": "measurement",
+  "description": "Výroba termočlánku ze dvou různých drátů (měď + železo). Zahřátí spoje generuje napětí měřitelné multimetrem. Seebeckův jev. Měření závislosti napětí na teplotním rozdílu.",
+  "materials": [
+    "měděný drát",
+    "železný drát",
+    "multimetr",
+    "svíčka nebo plamen",
+    "led"
+  ]
+}

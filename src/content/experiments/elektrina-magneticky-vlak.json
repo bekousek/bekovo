@@ -1,0 +1,13 @@
+{
+  "id": "elektrina-magneticky-vlak",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Magnetický vlak v měděné trubce",
+  "type": "qualitative",
+  "description": "Baterie s neodymovými magnety na koncích se sama pohybuje měděnou trubkou. Magnety indukují v trubce vířivé proudy, které vytváří magnetické pole posunující „vlak\" vpřed. Efektní demonstrace indukce.",
+  "materials": [
+    "měděná trubka (délka ~1 m)",
+    "baterie AA",
+    "neodymové magnety (průměr jako trubka)"
+  ]
+}

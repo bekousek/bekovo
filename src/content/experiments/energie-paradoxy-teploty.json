@@ -1,0 +1,14 @@
+{
+  "id": "energie-paradoxy-teploty",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Paradoxy tepla a teploty",
+  "type": "qualitative",
+  "description": "Překvapivé pokusy s teplem: hliníková fólie z trouby nepálí (malá tepelná kapacita), zmrzlina v novinách taje pomaleji (izolace), horká a studená voda se jinak barví (konvekce). Experimenty vyvrací běžné mýty.",
+  "materials": [
+    "hliníková fólie",
+    "noviny",
+    "potravinářské barvivo",
+    "teplá a studená voda"
+  ]
+}

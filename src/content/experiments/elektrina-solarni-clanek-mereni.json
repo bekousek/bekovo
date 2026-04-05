@@ -1,0 +1,15 @@
+{
+  "id": "elektrina-solarni-clanek-mereni",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Měření charakteristik solárního článku",
+  "type": "measurement",
+  "description": "Žáci měří voltampérovou charakteristiku solárního článku pomocí proměnného odporu. Určují pracovní bod s maximálním výkonem. Porovnávají výkon na slunci a ve stínu – pracovní bod se dramaticky posouvá.",
+  "materials": [
+    "solární článek",
+    "reostat",
+    "voltmetr",
+    "ampérmetr",
+    "vodiče"
+  ]
+}

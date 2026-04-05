@@ -1,0 +1,13 @@
+{
+  "id": "astronomie-foucaultovo-kyvadlo-model",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Model Foucaultova kyvadla",
+  "type": "qualitative",
+  "description": "Jednoduchý model demonstrující princip Foucaultova kyvadla. Kyvadlo zavěšené nad otočnou deskou postupně mění rovinu kyvu – důkaz rotace Země. Žáci pozorují, jak se rovina kyvu stáčí.",
+  "materials": [
+    "závěsné kyvadlo",
+    "otočná deska nebo gramofon",
+    "stojánek"
+  ]
+}

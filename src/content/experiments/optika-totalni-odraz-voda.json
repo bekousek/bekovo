@@ -1,0 +1,12 @@
+{
+  "id": "optika-totalni-odraz-voda",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Totální odraz na rozhraní voda–vzduch",
+  "type": "qualitative",
+  "description": "Zrcadlo ponořené do vody pod určitým úhlem ukazuje totální vnitřní odraz. Při pohledu přes vodní hladinu na prst za zrcadlem se při dostatečném úhlu uplatní totální odraz – prst zmizí.",
+  "materials": [
+    "zrcadlo",
+    "nádoba s vodou"
+  ]
+}

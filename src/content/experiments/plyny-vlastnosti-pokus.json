@@ -1,0 +1,15 @@
+{
+  "id": "plyny-vlastnosti-pokus",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Vlastnosti plynů – experimenty na hranici s chemií",
+  "type": "qualitative",
+  "description": "Experimenty s CO₂: hasení svíčky oxidem uhličitým, přelévání CO₂ z nádoby do nádoby (těžší než vzduch), nafukování balónku reakcí sody s octem. Demonstrace vlastností plynů na pomezí fyziky a chemie.",
+  "materials": [
+    "svíčka",
+    "jedlá soda",
+    "ocet",
+    "sklenice",
+    "balónek"
+  ]
+}

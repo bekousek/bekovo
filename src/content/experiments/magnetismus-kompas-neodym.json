@@ -1,0 +1,13 @@
+{
+  "id": "magnetismus-kompas-neodym",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Výroba kompasu z neodymového magnetu",
+  "type": "qualitative",
+  "description": "Z malých neodymových magnetů na niti se vyrobí jednoduchý kompas. Magnety nad hliníkovou destičkou se rychle utlumí vířivými proudy a ukáží směr sever–jih. Lze pozorovat i inklinaci magnetického pole.",
+  "materials": [
+    "neodymové magnety",
+    "nit",
+    "hliníková destička"
+  ]
+}

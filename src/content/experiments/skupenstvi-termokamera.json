@@ -1,0 +1,14 @@
+{
+  "id": "skupenstvi-termokamera",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Změny skupenství očima termokamery",
+  "type": "qualitative",
+  "description": "Pomocí termokamery (i mobilní) žáci pozorují teplotu při tání ledu, vypařování vody, srážení vodní páry. Viditelné: led zůstává na 0 °C během tání, mokrá ruka je chladnější (odpařování).",
+  "materials": [
+    "termokamera nebo mobilní termovizní nástavec",
+    "led",
+    "voda",
+    "varná konvice"
+  ]
+}

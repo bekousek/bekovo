@@ -1,0 +1,15 @@
+{
+  "id": "optika-pokusy-zatemneni",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Pokusy při zatemnění učebny",
+  "type": "qualitative",
+  "description": "Série jednoduchých pokusů demonstrujících vlastnosti světla: přímočaré šíření (stíny), rozklad bílého světla hranolem, rozptyl světla (Tyndallův jev s mlhou), fluorescence (UV svítilna). Efektní v zatemněné učebně.",
+  "materials": [
+    "laserové ukazovátko",
+    "optický hranol",
+    "UV svítilna",
+    "mlhová trubice nebo kadidlo",
+    "fluorescenční předměty"
+  ]
+}

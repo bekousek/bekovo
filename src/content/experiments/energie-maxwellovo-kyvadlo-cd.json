@@ -1,0 +1,14 @@
+{
+  "id": "energie-maxwellovo-kyvadlo-cd",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Maxwellovo kyvadlo z CD",
+  "type": "qualitative",
+  "description": "Z CD a víček od PET lahví se vyrobí Maxwellovo kyvadlo. CD navíjí nit a klesá pomaleji než volný pád, protože energie se rozdělí mezi pohyb translační a rotační. Demonstruje přeměny potenciální a kinetické energie.",
+  "materials": [
+    "CD",
+    "víčka od PET lahví",
+    "nit",
+    "špejle"
+  ]
+}

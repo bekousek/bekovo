@@ -1,0 +1,15 @@
+{
+  "id": "energie-termoclanek",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Termočlánek v hodinách fyziky",
+  "type": "measurement",
+  "description": "Ze dvou různých drátů (měď a konstantan) se vyrobí termočlánek. Zahříváním spoje vzniká napětí, které se měří voltmetrem. Žáci ověřují závislost napětí na teplotním rozdílu a využití pro měření teploty.",
+  "materials": [
+    "měděný drát",
+    "konstantanový drát",
+    "voltmetr",
+    "kahan",
+    "led"
+  ]
+}

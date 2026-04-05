@@ -1,0 +1,14 @@
+{
+  "id": "plyny-balonek-podtlak",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Balónek vtažený do láhve podtlakem",
+  "type": "qualitative",
+  "description": "Do láhve se vhodí hořící papír a rychle přiloží nafouknutý balónek. Po zhasnutí ohně se balónek vtáhne dovnitř – ochlazení vzduchu sníží tlak a vnější atmosférický tlak zatlačí balónek do láhve.",
+  "materials": [
+    "skleněná láhev",
+    "nafukovací balónek",
+    "papír",
+    "zápalky"
+  ]
+}

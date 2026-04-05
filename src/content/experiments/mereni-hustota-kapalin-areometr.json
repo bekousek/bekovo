@@ -1,0 +1,14 @@
+{
+  "id": "mereni-hustota-kapalin-areometr",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Měření hustoty kapalin areometrem",
+  "type": "measurement",
+  "description": "Žáci vyrábějí jednoduchý areometr z brčka zalepeného plastelínou a měří hustotu různých kapalin (voda, slané roztoky, olej). Areometr se ponoří tím více, čím menší je hustota kapaliny.",
+  "materials": [
+    "brčko",
+    "plastelína",
+    "odměrný válec",
+    "různé kapaliny"
+  ]
+}

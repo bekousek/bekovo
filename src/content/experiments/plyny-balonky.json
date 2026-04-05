@@ -1,0 +1,15 @@
+{
+  "id": "plyny-balonky",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "30+1 experiment s balónky",
+  "type": "qualitative",
+  "description": "Série jednoduchých pokusů s nafukovacími balónky demonstrující vlastnosti plynů a atmosférický tlak: balónek v láhvi (nelze nafouknout), balónek na svíčce (tepelná roztažnost), jet balónku (zákon akce a reakce).",
+  "materials": [
+    "nafukovací balónky",
+    "PET láhve",
+    "svíčky",
+    "jehla",
+    "lepicí páska"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "plyny-balonek-bernoulli",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Bernoulliho princip s balónky",
+  "type": "qualitative",
+  "description": "Dva balónky zavěšené blízko sebe se při foukání brčkem mezi ně přibližují místo vzdalování. Pokus demonstruje snížení tlaku v proudícím vzduchu (Bernoulliho princip).",
+  "materials": [
+    "dva nafukovací balónky",
+    "brčko",
+    "nit"
+  ]
+}

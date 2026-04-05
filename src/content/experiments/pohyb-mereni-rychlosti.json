@@ -1,0 +1,13 @@
+{
+  "id": "pohyb-mereni-rychlosti",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Měření rychlosti pomocí digitálních technologií",
+  "type": "measurement",
+  "description": "Měření rychlosti chůze a běhu žáků na chodbě pomocí stopek a měřicího pásku. Výpočet průměrné rychlosti. Pokročilejší varianta: videoanalýza pohybu pomocí aplikace Tracker.",
+  "materials": [
+    "stopky",
+    "měřicí pásmo",
+    "telefon s aplikací Tracker nebo Phyphox"
+  ]
+}

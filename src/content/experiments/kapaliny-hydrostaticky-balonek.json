@@ -1,0 +1,14 @@
+{
+  "id": "kapaliny-hydrostaticky-balonek",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Hydrostatický tlak stlačuje balónek",
+  "type": "qualitative",
+  "description": "Nafouknutý balónek v PET láhvi je spojen s hadicí plnou vody. Při zvedání hadice hydrostatický tlak stlačuje balónek. Ukazuje závislost tlaku na výšce vodního sloupce.",
+  "materials": [
+    "PET láhev",
+    "balónek",
+    "hadice",
+    "voda"
+  ]
+}

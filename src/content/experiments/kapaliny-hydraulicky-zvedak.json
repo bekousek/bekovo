@@ -1,0 +1,14 @@
+{
+  "id": "kapaliny-hydraulicky-zvedak",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Hydraulický zvedák",
+  "type": "qualitative",
+  "description": "Výroba jednoduchého modelu hydraulického zvedáku ze dvou injekčních stříkaček spojených hadičkou naplněnou vodou. Demonstrace Pascalova zákona – malá síla na malý píst vytvoří velkou sílu na velkém pístu.",
+  "materials": [
+    "dvě injekční stříkačky (různé objemy)",
+    "plastová hadička",
+    "voda",
+    "stojan"
+  ]
+}

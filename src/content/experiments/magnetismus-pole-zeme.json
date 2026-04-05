@@ -1,0 +1,16 @@
+{
+  "id": "magnetismus-pole-zeme",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "O magnetu a velikém magnetu Zemi",
+  "type": "qualitative",
+  "description": "Demonstrace magnetického pole Země: výroba kompasu z jehly potřené magnetem na korku plovoucím na vodě. Měření deklinace. Model Země jako velkého magnetu s póly. Diskuze o přepólování.",
+  "materials": [
+    "jehla",
+    "magnet",
+    "korek",
+    "miska s vodou",
+    "kompas",
+    "globus"
+  ]
+}

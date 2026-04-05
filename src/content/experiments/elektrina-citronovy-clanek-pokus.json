@@ -1,0 +1,16 @@
+{
+  "id": "elektrina-citronovy-clanek-pokus",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Kouzla s citrony – ovocné elektrické články",
+  "type": "measurement",
+  "description": "Žáci zapichují měděnou a zinkovou elektrodu do citronů a měří vznikající napětí. Sériovým zapojením více citronů rozsvítí LED diodu. Zkoumají vliv typu ovoce/zeleniny na velikost napětí.",
+  "materials": [
+    "citrony",
+    "měděné plíšky",
+    "zinkové plíšky",
+    "voltmetr",
+    "LED",
+    "vodiče"
+  ]
+}

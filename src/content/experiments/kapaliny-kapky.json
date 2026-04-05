@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-kapky",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Kapky a kapičky",
+  "type": "qualitative",
+  "description": "Pozorování povrchového napětí vody: kapky na minci (kolik se vejde?), mýdlové bubliny, plovoucí kancelářská sponka na hladině, „pepřový pokus\" (mýdlo rozbije povrchové napětí).",
+  "materials": [
+    "mince",
+    "kapátko",
+    "voda",
+    "saponát",
+    "kancelářská sponka",
+    "pepř",
+    "miska"
+  ]
+}

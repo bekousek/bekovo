@@ -1,0 +1,14 @@
+{
+  "id": "kapaliny-model-rybi-mechyr",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Model rybího měchýře",
+  "type": "qualitative",
+  "description": "Dutá plastová hračka ryby s balónkem spojeným hadičkou. Nafukováním/vyfukováním se mění průměrná hustota modelu – ryba klesá, vznáší se nebo plave. Modeluje princip plynového měchýře ryb.",
+  "materials": [
+    "dutá plastová hračka",
+    "hadička",
+    "balónek",
+    "akvárium s vodou"
+  ]
+}

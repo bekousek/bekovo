@@ -1,0 +1,15 @@
+{
+  "id": "optika-zrcadla-opticka-tabule",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Žákovská optická tabule – zrcadla",
+  "type": "qualitative",
+  "description": "Žáci na optické tabuli (bílá deska s úhloměrem) pozorují odraz laserového paprsku od rovinného zrcadla. Ověřují zákon odrazu – úhel odrazu se rovná úhlu dopadu. Lze rozšířit o dva zrcadla a mnohonásobný odraz.",
+  "materials": [
+    "optická tabule nebo bílá deska",
+    "laserové ukazovátko",
+    "rovinné zrcátko",
+    "úhloměr",
+    "držáky"
+  ]
+}

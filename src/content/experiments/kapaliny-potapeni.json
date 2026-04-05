@@ -1,0 +1,14 @@
+{
+  "id": "kapaliny-potapeni",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Fyzika potápění",
+  "type": "qualitative",
+  "description": "Demonstrace fyzikálních principů potápění: vztlaková síla, vliv tlaku na objem (Boyleův zákon), kartézský potápěč z PET láhve. Žáci si vyrobí kartézského potápěče a zkoumají, jak stlačení láhve ovlivní ponor.",
+  "materials": [
+    "PET láhev",
+    "kečupová sáček nebo pipeta",
+    "voda",
+    "plastelína"
+  ]
+}

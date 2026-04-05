@@ -1,0 +1,15 @@
+{
+  "id": "kapaliny-povrchove-napeti-experimenty",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Pokusy s povrchovým napětím",
+  "type": "qualitative",
+  "description": "Sada pokusů demonstrující povrchové napětí: bublina v drátěném rámečku, lodička poháněná saponátem, kancelářská sponka plovoucí na hladině. Po přidání saponátu sponka klesne – povrchové napětí se snížilo.",
+  "materials": [
+    "drát",
+    "nit",
+    "saponát",
+    "kancelářské sponky",
+    "miska s vodou"
+  ]
+}

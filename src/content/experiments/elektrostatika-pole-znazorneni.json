@@ -1,0 +1,15 @@
+{
+  "id": "elektrostatika-pole-znazorneni",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Znázorňování elektrostatického pole",
+  "type": "qualitative",
+  "description": "Vizualizace elektrického pole pomocí krupice v oleji mezi nabíjenými elektrodami. Krupice se uspořádá podél siločar. Lze ukázat pole bodového náboje, dipólu i deskového kondenzátoru.",
+  "materials": [
+    "Petriho miska",
+    "olej",
+    "krupice nebo semínka trávy",
+    "elektrody",
+    "Van de Graaffův generátor nebo nabíjecí zdroj"
+  ]
+}

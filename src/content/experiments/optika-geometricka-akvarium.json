@@ -1,0 +1,16 @@
+{
+  "id": "optika-geometricka-akvarium",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Geometrická optika v akváriu",
+  "type": "qualitative",
+  "description": "Pomocí malého akvária naplněného vodou s kapkou mléka (pro zviditelnění paprsků) se demonstrují jevy geometrické optiky: lom světla na rozhraní, totální odraz, chod paprsků čočkou. Laserový paprsek je viditelný ve vodě díky rozptýlenému světlu.",
+  "materials": [
+    "akvárium nebo průhledná nádoba",
+    "laserové ukazovátko",
+    "mléko",
+    "voda",
+    "čočky",
+    "zrcátka"
+  ]
+}

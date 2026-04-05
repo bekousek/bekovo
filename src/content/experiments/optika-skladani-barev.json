@@ -1,0 +1,13 @@
+{
+  "id": "optika-skladani-barev",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Skládání barev RGB",
+  "type": "qualitative",
+  "description": "Pomocí tří LED svítilen (červená, zelená, modrá) žáci na bílé stěně skládají barvy: R+G=žlutá, R+B=purpurová, G+B=azurová, R+G+B=bílá. Porovnání aditivního a subtraktivního míchání barev.",
+  "materials": [
+    "tři LED svítilny nebo LED (červená, zelená, modrá)",
+    "bílá stěna nebo papír",
+    "zatemněná učebna"
+  ]
+}

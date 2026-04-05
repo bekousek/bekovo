@@ -1,0 +1,15 @@
+{
+  "id": "optika-lidske-oko-vady",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Lidské oko a jeho vady",
+  "type": "qualitative",
+  "description": "Na modelu oka (spojná čočka + stínítko) žáci demonstrují vznik obrazu na sítnici, krátkozrakost (obraz před sítnicí) a dalekozrakost (obraz za sítnicí). Korekce rozptylkou a spojkou.",
+  "materials": [
+    "spojná čočka",
+    "stínítko",
+    "svíčka nebo LED",
+    "optická lavice",
+    "rozptylná čočka"
+  ]
+}

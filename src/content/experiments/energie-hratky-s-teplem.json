@@ -1,0 +1,15 @@
+{
+  "id": "energie-hratky-s-teplem",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Hrátky s teplem",
+  "type": "qualitative",
+  "description": "Pokusy s šířením tepla: vedení tepla různými materiály (kov vs. dřevo), konvekce (spirála nad svíčkou), záření (porovnání bílého a černého povrchu v IR). Tepelný tok jako analogie el. proudu.",
+  "materials": [
+    "tyčky z různých materiálů (kov, dřevo, plast)",
+    "svíčka",
+    "papírová spirála",
+    "bílý a černý papír",
+    "teploměr"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sila-kecup-setrvacnost",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Záhada kečupu – zákon setrvačnosti",
+  "type": "qualitative",
+  "description": "Pomocí roličky od toaletního papíru se demonstruje zákon setrvačnosti. Při klepnutí shora kulička zůstane na místě, při klepnutí zdola vypadne. Stejný princip se používá při vyklepávání kečupu z láhve.",
+  "materials": [
+    "rolička od toaletního papíru",
+    "list papíru",
+    "kulička"
+  ]
+}

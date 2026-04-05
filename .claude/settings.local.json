@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(cp -r /c/Users/bekon/bekovo-temp/* /c/Users/bekon/bekovo-temp/.* /c/Users/bekon/bekovo/)",
+      "Bash(rm -rf /c/Users/bekon/bekovo-temp)",
+      "Bash(cp /c/Users/bekon/bekovo-temp/.gitignore /c/Users/bekon/bekovo/)",
+      "Bash(cp /c/Users/bekon/bekovo-temp/package.json /c/Users/bekon/bekovo/)",
+      "Bash(cp /c/Users/bekon/bekovo-temp/package-lock.json /c/Users/bekon/bekovo/)",
+      "Bash(cp /c/Users/bekon/bekovo-temp/tsconfig.json /c/Users/bekon/bekovo/)",
+      "Bash(cp -r /c/Users/bekon/bekovo-temp/src /c/Users/bekon/bekovo/)",
+      "Bash(npx astro:*)",
+      "Bash(ls /c/Users/bekon/bekovo/src/pages/[topic]/[subtopic]/)",
+      "Bash(npm run:*)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npm install:*)",
+      "Bash(npx kill-port:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(wrangler --version)",
+      "Bash(wrangler login:*)",
+      "Bash(npx wrangler:*)",
+      "WebFetch(domain:drive.google.com)",
+      "Bash(npx tsx:*)",
+      "Bash(curl -s http://localhost:4321/optika/zrcadla-zakon-odrazu/pokusy/)",
+      "Bash(curl -s http://localhost:4321/elektricke-obvody/elektricky-obvod/pokusy/)",
+      "Bash(curl -s http://localhost:4321/kapaliny-7/pascaluv-zakon/pokusy/)",
+      "Bash(curl -s http://localhost:4321/akustika/zdroje-zvuku/pokusy/)",
+      "Bash(curl -s http://localhost:4321/pohyb/grafy/aktivity/)",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/bekon/bekovo/**)",
+      "Bash(wc -l \"C:/Users/bekon/bekovo/scripts/ai-pipeline/extracted/\"*.txt)",
+      "Bash(for year:*)",
+      "Bash(sed -n '/^ObsahObsah$/,/^[A-Z].*:/p' \"Dílny Heuréky $year.txt\")",
+      "Bash(done)",
+      "Bash(ls \"C:/Users/bekon/bekovo/src/content/experiments/\"sila-t*)"
+    ]
+  }
+}

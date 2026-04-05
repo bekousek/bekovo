@@ -1,0 +1,8 @@
+{
+  "id": "optika-vyroba-ir-kamery",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Výroba IR kamery z webkamery",
+  "type": "other",
+  "description": "Žáci rozebírají levnou USB webkameru a odstraňují IR filtr. Upravená kamera pak „vidí\" infračervené záření – IR LED, dálkové ovladače, teplo vařiče. Praktická aktivita s překvapivými výsledky."
+}

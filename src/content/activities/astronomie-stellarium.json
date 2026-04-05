@@ -1,0 +1,8 @@
+{
+  "id": "astronomie-stellarium",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Stellarium – počítačové planetárium",
+  "type": "method",
+  "description": "Práce s volně dostupným programem Stellarium: zobrazení noční oblohy pro libovolné místo a čas, hledání souhvězdí, planet, fází Měsíce. Simulace zatmění, pohybu planet, východu a západu Slunce."
+}

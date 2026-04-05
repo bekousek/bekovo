@@ -1,0 +1,16 @@
+{
+  "id": "eo-seriove-paralelne",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Sériově, paralelně s Ohmem a viditelně",
+  "type": "measurement",
+  "description": "Žáci zapojují žárovky sériově a paralelně a měří napětí a proud v různých místech obvodu. Pozorují vliv zapojení na jas žárovek. Ověřování Ohmova zákona – měření U a I, výpočet R.",
+  "materials": [
+    "žárovky",
+    "baterie",
+    "vodiče",
+    "voltmetr",
+    "ampérmetr",
+    "přepínače"
+  ]
+}

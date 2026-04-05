@@ -1,0 +1,15 @@
+{
+  "id": "pohyb-volny-pad",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Volný pád a vodorovný vrh",
+  "type": "measurement",
+  "description": "Žáci pouštějí kuličky z různých výšek a měří dobu pádu. Porovnání volného pádu a vodorovného vrhu: puštěná a současně vodorovně vržená kulička dopadnou současně. Fotodokumentace stroboskopem nebo bleskem.",
+  "materials": [
+    "kuličky",
+    "stopky",
+    "metr",
+    "rampa pro vodorovný vrh",
+    "telefon s pomalým záznamem"
+  ]
+}

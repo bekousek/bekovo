@@ -1,0 +1,14 @@
+{
+  "id": "magnetismus-mereni-sily",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Měření síly mezi póly magnetů",
+  "type": "measurement",
+  "description": "Pomocí vahadla z dlouhého magnetu se měří síla mezi dvěma magnety v závislosti na vzdálenosti. Výsledky ukazují, že síla klesá se čtvercem vzdálenosti, analogicky s Coulombovým zákonem.",
+  "materials": [
+    "neodymové magnety",
+    "nit",
+    "pravítko",
+    "váhy"
+  ]
+}

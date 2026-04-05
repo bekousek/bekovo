@@ -1,0 +1,14 @@
+{
+  "id": "sila-treni-experimenty",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Experimenty s třecí silou",
+  "type": "measurement",
+  "description": "Žáci měří třecí sílu pomocí siloměru při tažení kvádru po různých površích (dřevo, papír, sklo). Zkoumají závislost třecí síly na přítlačné síle a druhu povrchu. Porovnávají smykové a valivé tření.",
+  "materials": [
+    "siloměr",
+    "dřevěný kvádr",
+    "různé povrchy",
+    "závaží"
+  ]
+}

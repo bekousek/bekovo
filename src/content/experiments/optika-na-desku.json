@@ -1,0 +1,16 @@
+{
+  "id": "optika-na-desku",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Optika na desku",
+  "type": "qualitative",
+  "description": "Sada pokusů demonstrovaných přímo na desce stolu: lom světla v plexisklovém půlkruhu, chod paprsků spojnou a rozptylnou čočkou, rozklad světla. Žáci si sami na desku kreslí chod paprsků.",
+  "materials": [
+    "plexisklový půlkruh",
+    "laserové ukazovátko",
+    "čočky",
+    "optický hranol",
+    "papír",
+    "tužka"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "plyny-voda-vzduch",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Co umí voda a vzduch",
+  "type": "qualitative",
+  "description": "Experimenty s vlastnostmi vody a vzduchu: vzduch má hmotnost (vážení balónku), tlak vzduchu (Magdeburské polokoule), Bernoulliho jev (ping-pongový míček v proudu vzduchu), vztlak v plynech (horkovzdušný balón z čajové svíčky).",
+  "materials": [
+    "balónky",
+    "váhy",
+    "fén",
+    "ping-pongový míček",
+    "igelitový sáček",
+    "čajová svíčka"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "optika-duha",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Kde leží duha",
+  "type": "qualitative",
+  "description": "Pomocí zahradní hadice a postřikovače žáci vytvářejí duhu a pozorují, pod jakým úhlem vůči slunečním paprskům se objevuje. Měření úhlu (~42°). Vysvětlení lomu a rozkladu světla na kapkách vody.",
+  "materials": [
+    "zahradní hadice s postřikovačem",
+    "slunečné počasí",
+    "úhloměr"
+  ]
+}

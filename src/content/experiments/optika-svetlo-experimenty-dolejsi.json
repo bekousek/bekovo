@@ -1,0 +1,14 @@
+{
+  "id": "optika-svetlo-experimenty-dolejsi",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Trochu si posvítit – pokusy se světlem",
+  "type": "qualitative",
+  "description": "Sada pokusů se světlem: rozklad bílého světla hranolem, míchání barev pomocí LED, polarizace světla pomocí fólií, fluorescence a fosforescence. Experimenty vhodné do zatemnělé učebny.",
+  "materials": [
+    "optický hranol",
+    "LED diody",
+    "polarizační fólie",
+    "UV lampa"
+  ]
+}

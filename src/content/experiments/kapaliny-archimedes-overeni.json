@@ -1,0 +1,15 @@
+{
+  "id": "kapaliny-archimedes-overeni",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Archimédův zákon – přímé ověření",
+  "type": "measurement",
+  "description": "Žáci měří tíhu tělesa na vzduchu a ponořeného ve vodě. Rozdíl je vztlaková síla. Zvážením vytlačené vody ověřují, že vztlaková síla se rovná tíze vytlačené kapaliny – přímý důkaz Archimédova zákona.",
+  "materials": [
+    "siloměr",
+    "závaží",
+    "nádoba s vodou",
+    "přepadová nádobka",
+    "odměrný válec"
+  ]
+}

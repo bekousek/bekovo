@@ -1,0 +1,13 @@
+{
+  "id": "pohyb-spinner-experimenty",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Fyzikální experimenty se spinnery",
+  "type": "measurement",
+  "description": "Spinnery jako pomůcka pro měření otáček, demonstraci momentu setrvačnosti a stroboskopického efektu. Žáci měří dobu rotace, porovnávají spinnery různých hmotností a zkoumají vliv tření na zpomalování.",
+  "materials": [
+    "spinnery různých typů",
+    "stopky",
+    "stroboskop nebo LED"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "akustika-bioakustika-experimenty",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Střípky z bioakustiky",
+  "type": "measurement",
+  "description": "Experimenty propojující akustiku s biologií: měření frekvence lidského hlasu, analýza zvuků zvířat pomocí spektrogramu, vliv rezonance na vnímání zvuku. Žáci nahrávají zvuky a analyzují je v počítači.",
+  "materials": [
+    "mikrofon",
+    "počítač se zvukovým softwarem",
+    "reproduktor"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-rotujici-soustavy",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Pokusy s rotujícími soustavami",
+  "type": "qualitative",
+  "description": "Experimenty s otáčivým pohybem: gyroskopu, točna, rotující válec na nakloněné rovině. Žáci pozorují, jak se mění chování těles při rotaci – gyroskopický efekt, precese, stabilita rotujícího tělesa.",
+  "materials": [
+    "gyroskop nebo setrvačník",
+    "otočná stolička",
+    "válec",
+    "nakloněná rovina"
+  ]
+}

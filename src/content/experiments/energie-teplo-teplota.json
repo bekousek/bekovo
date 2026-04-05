@@ -1,0 +1,14 @@
+{
+  "id": "energie-teplo-teplota",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Teplo a teplota – obtížná interpretace",
+  "type": "qualitative",
+  "description": "Experimenty odhalující běžné miskoncepce o teple a teplotě: „proč kov na dotek chladnější než dřevo?\" (obojí stejná teplota), míchání teplé a studené vody (T se neprůměruje objemově), smáčení rukou – pocit chladu.",
+  "materials": [
+    "teploměr",
+    "teplá a studená voda",
+    "kovové a dřevěné předměty",
+    "nádoby"
+  ]
+}

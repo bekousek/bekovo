@@ -1,0 +1,13 @@
+{
+  "id": "pohyb-grafy-heureka",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Grafy pohybu – pochopení a tvorba",
+  "type": "measurement",
+  "description": "Žáci se pohybují před ultrazvukovým čidlem a pozorují graf dráhy v závislosti na čase v reálném čase. Učí se „číst\" grafy: klid = vodorovná čára, rovnoměrný pohyb = přímka, zrychlení = křivka.",
+  "materials": [
+    "ultrazvukové čidlo (Vernier/Pasco) nebo aplikace Phyphox",
+    "počítač",
+    "metr"
+  ]
+}

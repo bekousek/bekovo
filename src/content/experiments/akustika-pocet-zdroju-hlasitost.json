@@ -1,0 +1,13 @@
+{
+  "id": "akustika-pocet-zdroju-hlasitost",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hladina hlasitosti a počet zdrojů zvuku",
+  "type": "measurement",
+  "description": "Zdvojnásobení počtu zdrojů zvuku způsobí nárůst hladiny hlasitosti o 3 dB, nikoliv na dvojnásobek. Žáci postupně přidávají reproduktory s bílým šumem a měří celkovou hladinu hlasitosti.",
+  "materials": [
+    "několik reproduktorů",
+    "měřič hlasitosti",
+    "zdroj bílého šumu"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "castice-brownuv-pohyb",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Difúze – pozorování šíření látek",
+  "type": "qualitative",
+  "description": "Pozorování difúze: kapka inkoustu ve vodě (bez míchání se postupně rozpustí), vonný olej v místnosti, čajový pytlík ve studené vs. teplé vodě. Závislost rychlosti difúze na teplotě potvrzuje částicovou teorii.",
+  "materials": [
+    "sklenice s vodou (studená a teplá)",
+    "inkoust nebo potravinářské barvivo",
+    "čajové pytlíky"
+  ]
+}

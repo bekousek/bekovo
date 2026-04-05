@@ -1,0 +1,14 @@
+{
+  "id": "mereni-delka-petraskova",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Měření délky – netradiční metody",
+  "type": "measurement",
+  "description": "Měření délky pomocí netradičních metod: odhadování, krokování, měření pomocí těla (píď, loket, stopa). Porovnání přesnosti odhadů s měřením pravítkem a pásmem. Historické jednotky délky.",
+  "materials": [
+    "pravítko",
+    "měřicí pásmo",
+    "provázek",
+    "předměty k měření"
+  ]
+}

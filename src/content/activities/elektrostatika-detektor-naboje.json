@@ -1,0 +1,8 @@
+{
+  "id": "elektrostatika-detektor-naboje",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Kyklop – detektor náboje a EM pole",
+  "type": "other",
+  "description": "Žáci si vyrábějí jednoduchý detektor elektrického náboje a elektromagnetického pole z MOSFET tranzistoru a LED. Detektor reaguje blikáním na nabité předměty i na elektromagnetické vlny z mobilů."
+}

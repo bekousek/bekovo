@@ -1,0 +1,14 @@
+{
+  "id": "plyny-reaktivni-motor-pet",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Reaktivní motor z PET láhve",
+  "type": "qualitative",
+  "description": "Do spodní části PET láhve se propálí otvory a upevní ohnutá brčka. Zavěšená láhev naplněná vodou se roztočí – vytékající voda z brček způsobí otáčení reaktivním principem, podobně jako Héronova baňka.",
+  "materials": [
+    "PET láhev",
+    "brčka",
+    "voda",
+    "provázek"
+  ]
+}

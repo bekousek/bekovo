@@ -1,0 +1,14 @@
+{
+  "id": "magnetismus-tangentova-buzola",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Tangentová buzola – měření proudu magnetem",
+  "type": "measurement",
+  "description": "Žáci si vyrobí tangentovou buzolu z kruhu drátu a magnetky na niti. Průchod proudu kruhovým závitem vychyluje magnetku. Z úhlu výchylky lze určit velikost proudu. Historicky první přesný měřicí přístroj.",
+  "materials": [
+    "lakovaný měděný drát",
+    "magnet na niti",
+    "zdroj proudu",
+    "úhloměr"
+  ]
+}

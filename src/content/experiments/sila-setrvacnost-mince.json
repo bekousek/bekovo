@@ -1,0 +1,14 @@
+{
+  "id": "sila-setrvacnost-mince",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Setrvačnost mince – překvapivá fyzika",
+  "type": "qualitative",
+  "description": "Mince na kartičce položené na sklenici. Rychlým švihnutím kartičky mince spadne do sklenice – setrvačnost ji udrží na místě. Další variace: vytrhnutí ubrusu, vyražení spodní kostky z věže.",
+  "materials": [
+    "mince",
+    "kartička",
+    "sklenice",
+    "ubrus"
+  ]
+}

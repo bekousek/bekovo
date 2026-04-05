@@ -1,0 +1,15 @@
+{
+  "id": "optika-prenos-zvuku-svetlem",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Přenos zvuku světlem (IR zářením)",
+  "type": "qualitative",
+  "description": "Pomocí IR LED modulované zvukovým signálem a fototranzistoru na přijímači se přenáší hudba na vzdálenost několika metrů. Demonstrace přenosu informace optickým vláknem i volným prostorem.",
+  "materials": [
+    "IR LED",
+    "fototranzistor",
+    "reproduktor",
+    "zesilovač",
+    "baterie"
+  ]
+}

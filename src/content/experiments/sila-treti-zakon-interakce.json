@@ -1,0 +1,13 @@
+{
+  "id": "sila-treti-zakon-interakce",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Třetí Newtonův zákon – akce a reakce",
+  "type": "qualitative",
+  "description": "Dva žáci na kolečkových židlích se od sebe odstrkují – oba se rozjedou. Lehčí žák získá větší rychlost. Pokus s dvěma siloměry: při tahání se oba siloměry ukazují stejnou sílu, i když jeden žák je silnější.",
+  "materials": [
+    "dvě kolečkové židle",
+    "dva siloměry",
+    "provázek"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "eo-simulace-obvodu",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Simulace elektrických obvodů",
+  "type": "method",
+  "description": "Využití simulátoru PhET Circuit Construction Kit pro virtuální stavbu obvodů. Žáci zapojují zdroje, žárovky, spínače, měří napětí a proud. Vhodné jako doplněk k reálným pokusům nebo pro domácí práci."
+}

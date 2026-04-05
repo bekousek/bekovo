@@ -1,0 +1,13 @@
+{
+  "id": "akustika-hladina-hlasitosti-mereni",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Měření hladiny hlasitosti – závislost na vzdálenosti",
+  "type": "measurement",
+  "description": "Žáci měří hladinu hlasitosti v různých vzdálenostech od zdroje zvuku. Zdvojnásobení vzdálenosti sníží hladinu o 6 dB. Měření vhodné pro venkovní prostředí, ověření poklesu intenzity se čtvercem vzdálenosti.",
+  "materials": [
+    "reproduktor",
+    "měřič hlasitosti nebo mobil s aplikací",
+    "pásmo"
+  ]
+}

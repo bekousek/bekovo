@@ -1,0 +1,15 @@
+{
+  "id": "sila-beztize-krabicka",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Krabička na demonstraci beztíže",
+  "type": "qualitative",
+  "description": "Krabička s kuličkou a spínačem vydává zvuk, když kulička leží na spínači. Při hodu do vzduchu zvuk utichne – kulička je v beztíži a nespíná kontakt. Demonstrace stavu beztíže při volném pádu.",
+  "materials": [
+    "dřevěná krabička",
+    "kulička",
+    "spínač",
+    "bzučák",
+    "baterie"
+  ]
+}

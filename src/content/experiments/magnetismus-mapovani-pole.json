@@ -1,0 +1,14 @@
+{
+  "id": "magnetismus-mapovani-pole",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Mapování magnetického pole kolem magnetu",
+  "type": "qualitative",
+  "description": "Malý magnet na krátké niti slouží jako střelka. Čárky kreslené na papír ve směru střelky kolem magnetu vytvářejí obraz siločar magnetického pole. Žáci vidí, jak siločáry vycházejí z jednoho pólu a vcházejí do druhého.",
+  "materials": [
+    "neodymový magnet",
+    "nit",
+    "papír",
+    "tužka"
+  ]
+}

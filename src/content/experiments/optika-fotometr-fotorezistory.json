@@ -1,0 +1,14 @@
+{
+  "id": "optika-fotometr-fotorezistory",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Bunsenův fotometr z fotorezistorů",
+  "type": "measurement",
+  "description": "Ze dvou fotorezistorů na dřevěné destičce se vyrobí jednoduchý fotometr. Porovnáním odporů fotorezistorů žáci určují poměr svítivostí dvou zdrojů světla. Lze ověřit zákon o poklesu osvětlení se čtvercem vzdálenosti.",
+  "materials": [
+    "dva fotorezistory",
+    "dřevěná destička",
+    "mosazné hřebíčky",
+    "ohmmetry"
+  ]
+}

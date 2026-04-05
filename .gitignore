@@ -27,3 +27,9 @@ pnpm-debug.log*
 Contacts/
 OneDrive/
 Searches/
+
+# External PDFs (large files, not for git)
+Externí materiály/
+
+# Extracted text from PDFs (generated, large)
+scripts/ai-pipeline/extracted/

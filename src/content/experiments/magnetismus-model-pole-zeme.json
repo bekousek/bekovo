@@ -1,0 +1,14 @@
+{
+  "id": "magnetismus-model-pole-zeme",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Model magnetického pole Země",
+  "type": "qualitative",
+  "description": "Do malého glóbusu se vloží tyčový magnet. Magnetická střelka na niti v různých místech kolem glóbusu ukazuje směr indukce – u rovníku vodorovně, v našich šířkách šikmo dolů. Názorný 3D model zemského magnetismu.",
+  "materials": [
+    "malý plastový glóbus",
+    "tyčový magnet",
+    "nit",
+    "malý kompas"
+  ]
+}

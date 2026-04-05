@@ -1,0 +1,14 @@
+{
+  "id": "vlastnosti-hratky-plasty",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Hrátky s plasty",
+  "type": "qualitative",
+  "description": "Zkoumání vlastností plastů: pružnost, tvrdost, reakce na zahřátí (termoplasty se měknou, reaktoplasty ne), hustota (plovoucí a tonoucí plasty), rozpoznávání typů plastů podle recyklačních symbolů.",
+  "materials": [
+    "vzorky plastů (PET, PE, PP, PS)",
+    "nádoba s vodou",
+    "svíčka nebo horkovzdušná pistole",
+    "nůžky"
+  ]
+}

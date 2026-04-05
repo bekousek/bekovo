@@ -1,0 +1,15 @@
+{
+  "id": "sila-kladka-experimenty",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Experimenty s kladkami",
+  "type": "measurement",
+  "description": "Žáci staví systémy kladek (pevná, volná, kladkostroj) a měří sílu potřebnou ke zvedání závaží. Ověřují zlaté pravidlo mechaniky – co ušetříme na síle, musíme přidat na dráze.",
+  "materials": [
+    "kladky",
+    "provázek",
+    "siloměr",
+    "závaží",
+    "stojánek"
+  ]
+}

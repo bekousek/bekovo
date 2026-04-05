@@ -1,0 +1,15 @@
+{
+  "id": "mereni-teplota-digitalne",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Měříme teplotu digitálně",
+  "type": "measurement",
+  "description": "Využití digitálních teploměrů a teplotních čidel pro přesné měření teploty: tání ledu, var vody, teplota lidského těla. Porovnání s rtuťovým teploměrem. Záznam změny teploty v čase.",
+  "materials": [
+    "digitální teploměr",
+    "teplotní čidlo",
+    "led",
+    "teplá voda",
+    "nádoba"
+  ]
+}

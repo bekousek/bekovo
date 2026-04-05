@@ -1,0 +1,13 @@
+{
+  "id": "optika-zkumavka-cocka",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Zkumavka jako válcová čočka",
+  "type": "qualitative",
+  "description": "Zkumavka naplněná vodou funguje jako válcová čočka. Při čtení textu přes zkumavku se symetrická slova převrátí a nesymetrická jsou nečitelná. Demonstruje lom světla a převracení obrazu čočkou.",
+  "materials": [
+    "zkumavka",
+    "voda",
+    "tištěný text"
+  ]
+}
