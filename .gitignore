@@ -33,3 +33,9 @@ Externí materiály/
 
 # Extracted text from PDFs (generated, large)
 scripts/ai-pipeline/extracted/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
