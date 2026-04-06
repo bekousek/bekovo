@@ -8,7 +8,6 @@ interface Props {
 const { topicId, subtopicId, currentSection } = Astro.props;
 
 const sections = [
-  { id: 'index', label: 'Přehled', href: `/${topicId}/${subtopicId}`, icon: '📋' },
   { id: 'zapis', label: 'Zápis do sešitu', href: `/${topicId}/${subtopicId}/zapis`, icon: '📝' },
   { id: 'priprava', label: 'Příprava na hodinu', href: `/${topicId}/${subtopicId}/priprava`, icon: '📖' },
   { id: 'generator', label: 'Generátor příkladů', href: `/${topicId}/${subtopicId}/generator`, icon: '🔢' },

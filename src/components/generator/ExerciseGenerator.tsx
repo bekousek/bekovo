@@ -16,9 +16,13 @@ function KaTex({ tex, display = false }: { tex: string; display?: boolean }) {
   }
 }
 
+/** Format number: use comma as decimal separator, group thousands with thin space */
 function formatValue(val: number): string {
-  if (Number.isInteger(val)) return val.toString();
-  return val.toString().replace('.', ',');
+  const str = val.toString();
+  const [intPart, decPart] = str.split('.');
+  // Add thin spaces every 3 digits from the right in the integer part
+  const grouped = intPart.replace(/\B(?=(\d{3})+(?!\d))/g, '\u2009');
+  return decPart !== undefined ? `${grouped},${decPart}` : grouped;
 }
 
 /**

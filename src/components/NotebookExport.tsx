@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { toPng } from 'html-to-image';
 
 interface Props {
   contentId: string;
@@ -16,16 +17,23 @@ export default function NotebookExport({ contentId }: Props) {
       const element = document.getElementById(contentId);
       if (!element) return;
 
-      const html2canvas = (await import('html2canvas')).default;
       const { jsPDF } = await import('jspdf');
 
-      const canvas = await html2canvas(element, {
-        scale: 2,
-        useCORS: true,
+      // Use html-to-image which handles modern CSS (oklch etc.) natively
+      const imgData = await toPng(element, {
+        quality: 0.95,
+        pixelRatio: 2,
         backgroundColor: '#ffffff',
       });
 
-      const imgData = canvas.toDataURL('image/png');
+      // Get image dimensions by loading into an Image
+      const img = new Image();
+      await new Promise<void>((resolve, reject) => {
+        img.onload = () => resolve();
+        img.onerror = reject;
+        img.src = imgData;
+      });
+
       const doc = new jsPDF('p', 'mm', 'a4');
       const pageWidth = doc.internal.pageSize.getWidth();
       const pageHeight = doc.internal.pageSize.getHeight();
@@ -35,28 +43,24 @@ export default function NotebookExport({ contentId }: Props) {
       const availHeight = pageHeight - 2 * margin;
 
       if (layout === 1) {
-        // 1 per page — full page
         const imgWidth = availWidth;
-        const imgHeight = (canvas.height * imgWidth) / canvas.width;
+        const imgHeight = (img.height * imgWidth) / img.width;
 
         if (imgHeight <= availHeight) {
           doc.addImage(imgData, 'PNG', margin, margin, imgWidth, imgHeight);
         } else {
-          // Scale to fit height
           const scale = availHeight / imgHeight;
           const scaledWidth = imgWidth * scale;
           const scaledHeight = imgHeight * scale;
           doc.addImage(imgData, 'PNG', margin + (availWidth - scaledWidth) / 2, margin, scaledWidth, scaledHeight);
         }
       } else if (layout === 2) {
-        // 2 per page — top half and bottom half
         const halfHeight = (availHeight - 5) / 2;
         const imgWidth = availWidth;
-        const imgHeight = Math.min((canvas.height * imgWidth) / canvas.width, halfHeight);
+        const imgHeight = Math.min((img.height * imgWidth) / img.width, halfHeight);
 
         doc.addImage(imgData, 'PNG', margin, margin, imgWidth, imgHeight);
 
-        // Dashed line separator
         doc.setDrawColor(200);
         doc.setLineDashPattern([3, 3], 0);
         const midY = margin + halfHeight + 2.5;
@@ -64,11 +68,10 @@ export default function NotebookExport({ contentId }: Props) {
 
         doc.addImage(imgData, 'PNG', margin, midY + 2.5, imgWidth, imgHeight);
       } else {
-        // 4 per page — 2x2 grid
         const cellWidth = (availWidth - 5) / 2;
         const cellHeight = (availHeight - 5) / 2;
         const imgWidth = cellWidth;
-        const imgHeight = Math.min((canvas.height * imgWidth) / canvas.width, cellHeight);
+        const imgHeight = Math.min((img.height * imgWidth) / img.width, cellHeight);
 
         const positions = [
           [margin, margin],
@@ -77,7 +80,6 @@ export default function NotebookExport({ contentId }: Props) {
           [margin + cellWidth + 5, margin + cellHeight + 5],
         ];
 
-        // Dashed lines
         doc.setDrawColor(200);
         doc.setLineDashPattern([3, 3], 0);
         const midX = margin + cellWidth + 2.5;
