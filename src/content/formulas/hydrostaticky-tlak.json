@@ -1,0 +1,40 @@
+{
+  "id": "hydrostaticky-tlak",
+  "name": "Hydrostatický tlak",
+  "subtopicIds": ["hydrostaticky-tlak"],
+  "formula": "p_h = h \\cdot \\rho \\cdot g",
+  "variables": [
+    {
+      "symbol": "p_h",
+      "name": "hydrostatický tlak",
+      "unit": "Pa",
+      "altUnits": [
+        { "unit": "kPa", "factor": 1000 },
+        { "unit": "hPa", "factor": 100 }
+      ],
+      "range": [100, 1000000]
+    },
+    {
+      "symbol": "h",
+      "name": "hloubka",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "cm", "factor": 0.01 },
+        { "unit": "dm", "factor": 0.1 }
+      ],
+      "range": [0.1, 100]
+    },
+    {
+      "symbol": "\\rho",
+      "name": "hustota kapaliny",
+      "unit": "kg/m³",
+      "range": [800, 13600]
+    },
+    {
+      "symbol": "g",
+      "name": "tíhové zrychlení",
+      "unit": "m/s²",
+      "constant": 10
+    }
+  ]
+}

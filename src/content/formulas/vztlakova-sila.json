@@ -1,0 +1,40 @@
+{
+  "id": "vztlakova-sila",
+  "name": "Vztlaková síla",
+  "subtopicIds": ["vztlakova-sila"],
+  "formula": "F_{vz} = V \\cdot \\rho \\cdot g",
+  "variables": [
+    {
+      "symbol": "F_{vz}",
+      "name": "vztlaková síla",
+      "unit": "N",
+      "altUnits": [
+        { "unit": "kN", "factor": 1000 }
+      ],
+      "range": [0.1, 100000]
+    },
+    {
+      "symbol": "V",
+      "name": "objem ponořené části",
+      "unit": "m³",
+      "altUnits": [
+        { "unit": "cm³", "factor": 0.000001 },
+        { "unit": "dm³", "factor": 0.001 },
+        { "unit": "l", "factor": 0.001 }
+      ],
+      "range": [0.001, 10]
+    },
+    {
+      "symbol": "\\rho",
+      "name": "hustota kapaliny",
+      "unit": "kg/m³",
+      "range": [800, 13600]
+    },
+    {
+      "symbol": "g",
+      "name": "tíhové zrychlení",
+      "unit": "m/s²",
+      "constant": 10
+    }
+  ]
+}

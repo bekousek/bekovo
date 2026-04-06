@@ -1,0 +1,32 @@
+{
+  "id": "ucinnost",
+  "name": "Účinnost",
+  "subtopicIds": ["ucinnost"],
+  "formula": "\\eta = \\frac{W_{out}}{W_{in}}",
+  "variables": [
+    {
+      "symbol": "\\eta",
+      "name": "účinnost",
+      "unit": "–",
+      "range": [0.1, 0.99]
+    },
+    {
+      "symbol": "W_{out}",
+      "name": "užitečná práce",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [100, 50000]
+    },
+    {
+      "symbol": "W_{in}",
+      "name": "celková práce",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [200, 100000]
+    }
+  ]
+}

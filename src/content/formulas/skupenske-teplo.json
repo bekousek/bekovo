@@ -1,0 +1,37 @@
+{
+  "id": "skupenske-teplo",
+  "name": "Skupenské teplo",
+  "subtopicIds": ["skupenske-teplo"],
+  "formula": "Q = m \\cdot l",
+  "variables": [
+    {
+      "symbol": "Q",
+      "name": "skupenské teplo",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 },
+        { "unit": "MJ", "factor": 1000000 }
+      ],
+      "range": [1000, 10000000]
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 100]
+    },
+    {
+      "symbol": "l",
+      "name": "měrné skupenské teplo",
+      "unit": "J/kg",
+      "altUnits": [
+        { "unit": "kJ/kg", "factor": 1000 }
+      ],
+      "range": [1000, 2260000]
+    }
+  ]
+}

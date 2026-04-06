@@ -1,0 +1,43 @@
+{
+  "id": "kineticka-energie",
+  "name": "Kinetická energie",
+  "subtopicIds": ["energie"],
+  "formula": "E_k = \\frac{1}{2} \\cdot m \\cdot v^2",
+  "variables": [
+    {
+      "symbol": "E_k",
+      "name": "kinetická energie",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [1, 500000]
+    },
+    {
+      "symbol": "\\frac{1}{2}",
+      "name": "konstanta ½",
+      "unit": "–",
+      "constant": 0.5
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 1000]
+    },
+    {
+      "symbol": "v",
+      "name": "rychlost",
+      "unit": "m/s",
+      "altUnits": [
+        { "unit": "km/h", "factor": 0.2778 }
+      ],
+      "range": [1, 100],
+      "power": 2
+    }
+  ]
+}

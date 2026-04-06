@@ -1,0 +1,37 @@
+{
+  "id": "vztlak-plyny",
+  "name": "Vztlaková síla v plynech",
+  "subtopicIds": ["vztlak-v-plynech"],
+  "formula": "F_{vz} = V \\cdot \\rho \\cdot g",
+  "variables": [
+    {
+      "symbol": "F_{vz}",
+      "name": "vztlaková síla",
+      "unit": "N",
+      "range": [0.001, 100]
+    },
+    {
+      "symbol": "V",
+      "name": "objem tělesa",
+      "unit": "m³",
+      "altUnits": [
+        { "unit": "dm³", "factor": 0.001 },
+        { "unit": "l", "factor": 0.001 },
+        { "unit": "cm³", "factor": 0.000001 }
+      ],
+      "range": [0.001, 100]
+    },
+    {
+      "symbol": "\\rho",
+      "name": "hustota vzduchu",
+      "unit": "kg/m³",
+      "range": [1.1, 1.4]
+    },
+    {
+      "symbol": "g",
+      "name": "tíhové zrychlení",
+      "unit": "m/s²",
+      "constant": 10
+    }
+  ]
+}

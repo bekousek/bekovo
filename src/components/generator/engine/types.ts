@@ -10,6 +10,7 @@ export interface Variable {
   altUnits?: AltUnit[];
   range?: [number, number];
   constant?: number;
+  power?: number;
 }
 
 export interface Formula {
@@ -28,6 +29,7 @@ export interface GeneratedValue {
   originalValue: number;
   originalUnit: string;
   needsConversion: boolean;
+  isConstant?: boolean;
 }
 
 export interface Problem {

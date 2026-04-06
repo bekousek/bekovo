@@ -1,0 +1,39 @@
+{
+  "id": "teplo",
+  "name": "Teplo",
+  "subtopicIds": ["teplo-a-jeho-sireni"],
+  "formula": "Q = m \\cdot c \\cdot \\Delta t",
+  "variables": [
+    {
+      "symbol": "Q",
+      "name": "teplo",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [100, 1000000]
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 100]
+    },
+    {
+      "symbol": "c",
+      "name": "měrná tepelná kapacita",
+      "unit": "J/(kg·°C)",
+      "range": [100, 4200]
+    },
+    {
+      "symbol": "\\Delta t",
+      "name": "změna teploty",
+      "unit": "°C",
+      "range": [1, 100]
+    }
+  ]
+}

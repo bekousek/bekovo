@@ -104,6 +104,7 @@ const formulas = defineCollection({
       })).optional(),
       range: z.tuple([z.number(), z.number()]).optional(),
       constant: z.number().optional(),
+      power: z.number().optional(),
     })),
   }),
 });

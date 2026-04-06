@@ -1,0 +1,37 @@
+{
+  "id": "ohmuv-zakon",
+  "name": "Ohmův zákon",
+  "subtopicIds": ["proud-a-napeti", "elektricky-obvod"],
+  "formula": "R = \\frac{U}{I}",
+  "variables": [
+    {
+      "symbol": "R",
+      "name": "elektrický odpor",
+      "unit": "Ω",
+      "altUnits": [
+        { "unit": "kΩ", "factor": 1000 },
+        { "unit": "MΩ", "factor": 1000000 }
+      ],
+      "range": [1, 10000]
+    },
+    {
+      "symbol": "U",
+      "name": "napětí",
+      "unit": "V",
+      "altUnits": [
+        { "unit": "mV", "factor": 0.001 },
+        { "unit": "kV", "factor": 1000 }
+      ],
+      "range": [0.1, 400]
+    },
+    {
+      "symbol": "I",
+      "name": "proud",
+      "unit": "A",
+      "altUnits": [
+        { "unit": "mA", "factor": 0.001 }
+      ],
+      "range": [0.001, 10]
+    }
+  ]
+}

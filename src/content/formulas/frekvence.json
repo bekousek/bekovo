@@ -1,0 +1,32 @@
+{
+  "id": "frekvence",
+  "name": "Frekvence",
+  "subtopicIds": ["vlneni"],
+  "formula": "f = \\frac{1}{T}",
+  "variables": [
+    {
+      "symbol": "f",
+      "name": "frekvence",
+      "unit": "Hz",
+      "altUnits": [
+        { "unit": "kHz", "factor": 1000 }
+      ],
+      "range": [0.1, 10000]
+    },
+    {
+      "symbol": "1",
+      "name": "konstanta",
+      "unit": "–",
+      "constant": 1
+    },
+    {
+      "symbol": "T",
+      "name": "perioda",
+      "unit": "s",
+      "altUnits": [
+        { "unit": "ms", "factor": 0.001 }
+      ],
+      "range": [0.0001, 10]
+    }
+  ]
+}

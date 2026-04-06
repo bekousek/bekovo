@@ -1,0 +1,43 @@
+{
+  "id": "energie-polohy",
+  "name": "Potenciální energie tíhová",
+  "subtopicIds": ["energie"],
+  "formula": "E_p = m \\cdot g \\cdot h",
+  "variables": [
+    {
+      "symbol": "E_p",
+      "name": "potenciální energie",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 }
+      ],
+      "range": [1, 1000000]
+    },
+    {
+      "symbol": "m",
+      "name": "hmotnost",
+      "unit": "kg",
+      "altUnits": [
+        { "unit": "g", "factor": 0.001 },
+        { "unit": "t", "factor": 1000 }
+      ],
+      "range": [0.1, 1000]
+    },
+    {
+      "symbol": "g",
+      "name": "tíhové zrychlení",
+      "unit": "m/s²",
+      "constant": 10
+    },
+    {
+      "symbol": "h",
+      "name": "výška",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "cm", "factor": 0.01 },
+        { "unit": "km", "factor": 1000 }
+      ],
+      "range": [0.1, 1000]
+    }
+  ]
+}

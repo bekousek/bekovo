@@ -1,0 +1,40 @@
+{
+  "id": "atmosfericky-tlak",
+  "name": "Atmosférický tlak – hydrostatický",
+  "subtopicIds": ["atmosfera"],
+  "formula": "p = h \\cdot \\rho \\cdot g",
+  "variables": [
+    {
+      "symbol": "p",
+      "name": "tlak",
+      "unit": "Pa",
+      "altUnits": [
+        { "unit": "kPa", "factor": 1000 },
+        { "unit": "hPa", "factor": 100 }
+      ],
+      "range": [100, 200000]
+    },
+    {
+      "symbol": "h",
+      "name": "výška sloupce",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "cm", "factor": 0.01 },
+        { "unit": "mm", "factor": 0.001 }
+      ],
+      "range": [0.01, 20]
+    },
+    {
+      "symbol": "\\rho",
+      "name": "hustota kapaliny",
+      "unit": "kg/m³",
+      "range": [800, 13600]
+    },
+    {
+      "symbol": "g",
+      "name": "tíhové zrychlení",
+      "unit": "m/s²",
+      "constant": 10
+    }
+  ]
+}

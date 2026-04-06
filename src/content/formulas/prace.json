@@ -1,7 +1,7 @@
 {
   "id": "prace",
   "name": "Práce",
-  "subtopicIds": ["prace"],
+  "subtopicIds": ["prace", "prace-na-jednoduchych-strojich", "jednoduche-stroje"],
   "formula": "W = F \\cdot s",
   "variables": [
     {

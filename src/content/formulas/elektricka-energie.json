@@ -1,0 +1,38 @@
+{
+  "id": "elektricka-energie",
+  "name": "Elektrická energie",
+  "subtopicIds": ["proud-a-napeti"],
+  "formula": "E = P \\cdot t",
+  "variables": [
+    {
+      "symbol": "E",
+      "name": "elektrická energie",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 },
+        { "unit": "kWh", "factor": 3600000 },
+        { "unit": "Wh", "factor": 3600 }
+      ],
+      "range": [100, 10000000]
+    },
+    {
+      "symbol": "P",
+      "name": "příkon",
+      "unit": "W",
+      "altUnits": [
+        { "unit": "kW", "factor": 1000 }
+      ],
+      "range": [10, 10000]
+    },
+    {
+      "symbol": "t",
+      "name": "čas",
+      "unit": "s",
+      "altUnits": [
+        { "unit": "min", "factor": 60 },
+        { "unit": "h", "factor": 3600 }
+      ],
+      "range": [1, 36000]
+    }
+  ]
+}

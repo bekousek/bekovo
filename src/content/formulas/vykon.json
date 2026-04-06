@@ -1,0 +1,38 @@
+{
+  "id": "vykon",
+  "name": "Výkon",
+  "subtopicIds": ["vykon"],
+  "formula": "P = \\frac{W}{t}",
+  "variables": [
+    {
+      "symbol": "P",
+      "name": "výkon",
+      "unit": "W",
+      "altUnits": [
+        { "unit": "kW", "factor": 1000 },
+        { "unit": "MW", "factor": 1000000 }
+      ],
+      "range": [1, 100000]
+    },
+    {
+      "symbol": "W",
+      "name": "práce",
+      "unit": "J",
+      "altUnits": [
+        { "unit": "kJ", "factor": 1000 },
+        { "unit": "MJ", "factor": 1000000 }
+      ],
+      "range": [100, 10000000]
+    },
+    {
+      "symbol": "t",
+      "name": "čas",
+      "unit": "s",
+      "altUnits": [
+        { "unit": "min", "factor": 60 },
+        { "unit": "h", "factor": 3600 }
+      ],
+      "range": [1, 3600]
+    }
+  ]
+}

@@ -1,18 +1,10 @@
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import type { Formula, Problem, GeneratorSettings } from './engine/types';
 import { generateProblems } from './engine/problemGenerator';
 import katex from 'katex';
 
 interface Props {
   formulas: Formula[];
-}
-
-function renderKatex(tex: string): string {
-  try {
-    return katex.renderToString(tex, { throwOnError: false, displayMode: false });
-  } catch {
-    return tex;
-  }
 }
 
 function KaTex({ tex, display = false }: { tex: string; display?: boolean }) {
@@ -29,234 +21,438 @@ function formatValue(val: number): string {
   return val.toString().replace('.', ',');
 }
 
-export default function ExerciseGenerator({ formulas }: Props) {
-  const [settings, setSettings] = useState<GeneratorSettings>({
-    formulaId: formulas[0]?.id ?? '',
-    count: 5,
-    solveFor: '',
-    withConversion: false,
+/**
+ * Czech accusative (4. pád) — applied word-by-word.
+ *
+ * Adjective endings:   -á  → -ou   (tíhová → tíhovou, elektrická → elektrickou)
+ *                       -ý/-é/-í stay the same (masc. inanimate / neuter)
+ * Noun endings:         -ce → -ci   (práce → práci, frekvence → frekvenci)
+ *                       -ie → -ii   (energie → energii)
+ *                       -a  → -u    (síla → sílu, dráha → dráhu, hustota → hustotu)
+ * Everything else stays the same (hmotnost, objem, tlak, teplo, napětí …)
+ */
+function toAccusative(name: string): string {
+  return name
+    .split(' ')
+    .map((w) => {
+      if (w.endsWith('á')) return w.slice(0, -1) + 'ou';
+      if (w.endsWith('ce')) return w.slice(0, -1) + 'i';
+      if (w.endsWith('ie')) return w.slice(0, -1) + 'i';
+      if (w.endsWith('a')) return w.slice(0, -1) + 'u';
+      return w;
+    })
+    .join(' ');
+}
+
+/** Build a Czech sentence describing the problem */
+function buildSentence(problem: Problem): string {
+  const knowns = problem.knowns.filter((k) => !k.isConstant);
+  const parts = knowns.map((k) => {
+    const conv = k.needsConversion ? ' (převeď!)' : '';
+    return `${k.name} je ${formatValue(k.value)} ${k.unit}${conv}`;
   });
-  const [problems, setProblems] = useState<Problem[]>([]);
+
+  // Capitalize first part
+  if (parts.length > 0) {
+    parts[0] = parts[0].charAt(0).toUpperCase() + parts[0].slice(1);
+  }
+
+  let sentence: string;
+  if (parts.length === 1) {
+    sentence = parts[0];
+  } else if (parts.length === 2) {
+    sentence = `${parts[0]} a ${parts[1]}`;
+  } else {
+    sentence = parts.slice(0, -1).join(', ') + ' a ' + parts[parts.length - 1];
+  }
+
+  const unknownAcc = toAccusative(problem.unknown.name);
+  return `${sentence}. Vypočítej ${unknownAcc}.`;
+}
+
+/** Build a plain-text solution line */
+function buildSolutionText(problem: Problem): string {
+  return `${problem.unknown.name} = ${formatValue(problem.unknown.value)} ${problem.unknown.unit}`;
+}
+
+interface SlotConfig {
+  id: number;
+  formulaId: string;
+  solveFor: string;
+  withConversion: boolean;
+  problem: Problem | null;
+}
+
+const MAX_SLOTS = 10;
+
+export default function ExerciseGenerator({ formulas }: Props) {
+  const [slots, setSlots] = useState<SlotConfig[]>([
+    {
+      id: 1,
+      formulaId: formulas[0]?.id ?? '',
+      solveFor: '',
+      withConversion: false,
+      problem: null,
+    },
+  ]);
   const [showSolutions, setShowSolutions] = useState(false);
-  const problemsRef = useRef<HTMLDivElement>(null);
+  const [nextId, setNextId] = useState(2);
+  const [exporting, setExporting] = useState(false);
 
-  const selectedFormula = formulas.find(f => f.id === settings.formulaId);
-  const solvableVars = selectedFormula?.variables.filter(v => v.constant === undefined) ?? [];
+  function getFormula(formulaId: string) {
+    return formulas.find((f) => f.id === formulaId);
+  }
 
-  // Auto-set solveFor when formula changes
-  const effectiveSolveFor = settings.solveFor && solvableVars.some(v => v.symbol === settings.solveFor)
-    ? settings.solveFor
-    : solvableVars[0]?.symbol ?? '';
+  function getSolvableVars(formulaId: string) {
+    const formula = getFormula(formulaId);
+    return formula?.variables.filter((v) => v.constant === undefined) ?? [];
+  }
 
-  function handleGenerate() {
-    if (!selectedFormula) return;
-    const actualSettings = { ...settings, solveFor: effectiveSolveFor };
-    const generated = generateProblems(selectedFormula, actualSettings);
-    setProblems(generated);
+  function getEffectiveSolveFor(slot: SlotConfig) {
+    const vars = getSolvableVars(slot.formulaId);
+    if (slot.solveFor && vars.some((v) => v.symbol === slot.solveFor)) {
+      return slot.solveFor;
+    }
+    return vars[0]?.symbol ?? '';
+  }
+
+  function updateSlot(slotId: number, updates: Partial<SlotConfig>) {
+    setSlots((prev) => prev.map((s) => (s.id === slotId ? { ...s, ...updates } : s)));
+  }
+
+  function handleGenerate(slotId: number) {
+    const slot = slots.find((s) => s.id === slotId);
+    if (!slot) return;
+    const formula = getFormula(slot.formulaId);
+    if (!formula) return;
+
+    const settings: GeneratorSettings = {
+      formulaId: slot.formulaId,
+      count: 1,
+      solveFor: getEffectiveSolveFor(slot),
+      withConversion: slot.withConversion,
+    };
+    const [problem] = generateProblems(formula, settings);
+    updateSlot(slotId, { problem });
+  }
+
+  function handleAdd() {
+    if (slots.length >= MAX_SLOTS) return;
+    const last = slots[slots.length - 1];
+    setSlots((prev) => [
+      ...prev,
+      {
+        id: nextId,
+        formulaId: last.formulaId,
+        solveFor: last.solveFor,
+        withConversion: last.withConversion,
+        problem: null,
+      },
+    ]);
+    setNextId((n) => n + 1);
+  }
+
+  function handleRemove(slotId: number) {
+    if (slots.length <= 1) return;
+    setSlots((prev) => prev.filter((s) => s.id !== slotId));
+  }
+
+  function handleGenerateAll() {
+    setSlots((prev) =>
+      prev.map((slot) => {
+        const formula = getFormula(slot.formulaId);
+        if (!formula) return slot;
+        const settings: GeneratorSettings = {
+          formulaId: slot.formulaId,
+          count: 1,
+          solveFor: getEffectiveSolveFor(slot),
+          withConversion: slot.withConversion,
+        };
+        const [problem] = generateProblems(formula, settings);
+        return { ...slot, problem };
+      }),
+    );
     setShowSolutions(false);
   }
 
+  const generatedProblems = slots.filter((s) => s.problem !== null);
+
+  /* ── Helper: load font file as base64 string for jsPDF ── */
+  async function loadFontBase64(url: string): Promise<string> {
+    const res = await fetch(url);
+    const buf = await res.arrayBuffer();
+    const bytes = new Uint8Array(buf);
+    let binary = '';
+    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+    return btoa(binary);
+  }
+
+  /* ── PDF export with embedded Roboto font (full Czech diacritics) ── */
   async function handleExportPdf() {
-    const { jsPDF } = await import('jspdf');
-    const doc = new jsPDF('p', 'mm', 'a4');
-    const pageWidth = doc.internal.pageSize.getWidth();
-    const margin = 15;
-    let y = 20;
+    if (generatedProblems.length === 0) return;
+    setExporting(true);
 
-    doc.setFont('helvetica', 'bold');
-    doc.setFontSize(16);
-    doc.text(selectedFormula?.name ?? 'Příklady', margin, y);
-    y += 10;
+    try {
+      const { jsPDF } = await import('jspdf');
 
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(11);
+      // Load Roboto fonts (cached by browser after first download)
+      const [regularB64, boldB64] = await Promise.all([
+        loadFontBase64('/fonts/Roboto-Regular.ttf'),
+        loadFontBase64('/fonts/Roboto-Bold.ttf'),
+      ]);
 
-    for (const problem of problems) {
-      if (y > 270) {
-        doc.addPage();
-        y = 20;
-      }
+      const doc = new jsPDF('p', 'mm', 'a4');
 
-      const knownParts = problem.knowns
-        .filter(k => k.value !== undefined)
-        .map(k => `${k.name} = ${formatValue(k.value)} ${k.unit}`)
-        .join(', ');
+      // Register fonts
+      doc.addFileToVFS('Roboto-Regular.ttf', regularB64);
+      doc.addFont('Roboto-Regular.ttf', 'Roboto', 'normal');
+      doc.addFileToVFS('Roboto-Bold.ttf', boldB64);
+      doc.addFont('Roboto-Bold.ttf', 'Roboto', 'bold');
 
-      const unknownPart = `${problem.unknown.name} = ?`;
+      const margin = 20;
+      const maxW = doc.internal.pageSize.getWidth() - margin * 2;
+      const pageH = doc.internal.pageSize.getHeight();
+      let y = 25;
 
-      doc.text(`${problem.id}. ${knownParts}`, margin, y);
-      y += 6;
-      doc.text(`    Vypočítej: ${unknownPart}`, margin, y);
-      y += 8;
-    }
+      // ── Title ──
+      doc.setFont('Roboto', 'bold');
+      doc.setFontSize(22);
+      doc.text('Příklady', margin, y);
+      y += 4;
 
-    if (showSolutions) {
-      doc.addPage();
-      y = 20;
-      doc.setFont('helvetica', 'bold');
-      doc.setFontSize(14);
-      doc.text('Řešení', margin, y);
-      y += 10;
+      // Decorative line under title
+      doc.setDrawColor(59, 130, 246); // blue-500
+      doc.setLineWidth(0.6);
+      doc.line(margin, y, margin + 40, y);
+      y += 12;
 
-      doc.setFont('helvetica', 'normal');
-      doc.setFontSize(11);
+      // ── Problems ──
+      doc.setFont('Roboto', 'normal');
+      doc.setFontSize(12);
 
-      for (const problem of problems) {
-        if (y > 270) {
+      generatedProblems.forEach((slot, idx) => {
+        const sentence = buildSentence(slot.problem!);
+        const fullText = `${idx + 1}.  ${sentence}`;
+        const lines: string[] = doc.splitTextToSize(fullText, maxW);
+
+        // Page break if needed
+        if (y + lines.length * 7 > pageH - 20) {
           doc.addPage();
-          y = 20;
+          y = 25;
         }
-        doc.text(
-          `${problem.id}. ${problem.unknown.name} = ${formatValue(problem.unknown.value)} ${problem.unknown.unit}`,
-          margin, y
-        );
-        y += 7;
-      }
-    }
 
-    doc.save(`priklady-${selectedFormula?.id ?? 'export'}.pdf`);
+        // Problem number in bold
+        doc.setFont('Roboto', 'bold');
+        doc.text(`${idx + 1}.`, margin, y);
+
+        // Sentence text
+        doc.setFont('Roboto', 'normal');
+        const numWidth = doc.getTextWidth(`${idx + 1}.  `);
+        const sentenceLines: string[] = doc.splitTextToSize(sentence, maxW - numWidth);
+        sentenceLines.forEach((line: string, li: number) => {
+          doc.text(line, margin + numWidth, y + li * 7);
+        });
+
+        y += sentenceLines.length * 7 + 5;
+      });
+
+      // ── Solutions ──
+      if (showSolutions) {
+        // New page for solutions
+        doc.addPage();
+        y = 25;
+
+        doc.setFont('Roboto', 'bold');
+        doc.setFontSize(18);
+        doc.text('Řešení', margin, y);
+        y += 4;
+        doc.setDrawColor(34, 197, 94); // green-500
+        doc.setLineWidth(0.6);
+        doc.line(margin, y, margin + 30, y);
+        y += 12;
+
+        doc.setFontSize(12);
+
+        generatedProblems.forEach((slot, idx) => {
+          if (y > pageH - 20) {
+            doc.addPage();
+            y = 25;
+          }
+
+          doc.setFont('Roboto', 'bold');
+          doc.text(`${idx + 1}.`, margin, y);
+
+          doc.setFont('Roboto', 'normal');
+          const numW = doc.getTextWidth(`${idx + 1}.  `);
+          doc.text(buildSolutionText(slot.problem!), margin + numW, y);
+
+          y += 8;
+        });
+      }
+
+      // ── Footer ──
+      const totalPages = doc.getNumberOfPages();
+      for (let p = 1; p <= totalPages; p++) {
+        doc.setPage(p);
+        doc.setFont('Roboto', 'normal');
+        doc.setFontSize(9);
+        doc.setTextColor(150);
+        doc.text('bekovo.cz', margin, pageH - 10);
+        doc.text(`${p} / ${totalPages}`, doc.internal.pageSize.getWidth() - margin, pageH - 10, { align: 'right' });
+        doc.setTextColor(0);
+      }
+
+      doc.save('priklady.pdf');
+    } finally {
+      setExporting(false);
+    }
   }
 
   return (
-    <div className="space-y-6">
-      {/* Settings Panel */}
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
-        <h3 className="font-semibold text-gray-900 mb-4">Nastavení generátoru</h3>
+    <div className="space-y-4">
+      {/* Slot cards */}
+      {slots.map((slot, idx) => {
+        const formula = getFormula(slot.formulaId);
+        const solvableVars = getSolvableVars(slot.formulaId);
+        const effectiveSolveFor = getEffectiveSolveFor(slot);
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {/* Formula select */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Vzorec</label>
-            <select
-              value={settings.formulaId}
-              onChange={(e) => setSettings(s => ({ ...s, formulaId: e.target.value, solveFor: '' }))}
-              className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            >
-              {formulas.map(f => (
-                <option key={f.id} value={f.id}>{f.name}</option>
-              ))}
-            </select>
+        return (
+          <div key={slot.id} className="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+            <div className="flex items-center justify-between mb-3">
+              <span className="flex items-center gap-2">
+                <span className="w-7 h-7 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">
+                  {idx + 1}
+                </span>
+                <span className="text-sm font-medium text-gray-500">Příklad</span>
+              </span>
+              {slots.length > 1 && (
+                <button
+                  onClick={() => handleRemove(slot.id)}
+                  className="w-7 h-7 flex items-center justify-center rounded-full text-gray-400 hover:text-red-500 hover:bg-red-50 transition-colors"
+                  title="Odebrat příklad"
+                >
+                  ×
+                </button>
+              )}
+            </div>
+
+            {/* Settings row */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+              <div>
+                <label className="block text-xs font-medium text-gray-500 mb-1">Vzorec</label>
+                <select
+                  value={slot.formulaId}
+                  onChange={(e) => updateSlot(slot.id, { formulaId: e.target.value, solveFor: '', problem: null })}
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  {formulas.map((f) => (
+                    <option key={f.id} value={f.id}>{f.name}</option>
+                  ))}
+                </select>
+              </div>
+
+              <div>
+                <label className="block text-xs font-medium text-gray-500 mb-1">Vypočítat</label>
+                <select
+                  value={effectiveSolveFor}
+                  onChange={(e) => updateSlot(slot.id, { solveFor: e.target.value, problem: null })}
+                  className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+                >
+                  {solvableVars.map((v) => (
+                    <option key={v.symbol} value={v.symbol}>{v.name}</option>
+                  ))}
+                </select>
+              </div>
+
+              <div className="flex items-end">
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={slot.withConversion}
+                    onChange={(e) => updateSlot(slot.id, { withConversion: e.target.checked, problem: null })}
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                  />
+                  <span className="text-sm text-gray-700">Převod jednotek</span>
+                </label>
+              </div>
+
+              <div className="flex items-end">
+                <button
+                  onClick={() => handleGenerate(slot.id)}
+                  className="w-full sm:w-auto px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors"
+                >
+                  {slot.problem ? 'Přegenerovat' : 'Vygenerovat'}
+                </button>
+              </div>
+            </div>
+
+            {/* Formula preview */}
+            {formula && (
+              <div className="mt-3 p-2 bg-blue-50 rounded-lg text-center">
+                <KaTex tex={formula.formula} display />
+              </div>
+            )}
+
+            {/* Generated problem sentence */}
+            {slot.problem && (
+              <div className="mt-3 p-4 bg-gray-50 rounded-lg border border-gray-100">
+                <p className="text-gray-800 leading-relaxed">
+                  {buildSentence(slot.problem)}
+                </p>
+
+                {showSolutions && (
+                  <div className="mt-3 pt-3 border-t border-gray-200">
+                    <p className="text-sm font-medium text-green-700">
+                      <KaTex tex={`${slot.problem.unknown.symbol} = ${formatValue(slot.problem.unknown.value)} \\, \\text{${slot.problem.unknown.unit}}`} />
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
+        );
+      })}
 
-          {/* Solve for */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Vypočítat</label>
-            <select
-              value={effectiveSolveFor}
-              onChange={(e) => setSettings(s => ({ ...s, solveFor: e.target.value }))}
-              className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            >
-              {solvableVars.map(v => (
-                <option key={v.symbol} value={v.symbol}>{v.name} ({v.symbol})</option>
-              ))}
-            </select>
-          </div>
+      {/* Add button */}
+      {slots.length < MAX_SLOTS && (
+        <button
+          onClick={handleAdd}
+          className="w-full py-3 border-2 border-dashed border-gray-300 rounded-xl text-gray-500 hover:border-blue-400 hover:text-blue-600 hover:bg-blue-50 transition-colors font-medium flex items-center justify-center gap-2"
+        >
+          <span className="text-xl leading-none">+</span>
+          <span className="text-sm">Přidat příklad ({slots.length}/{MAX_SLOTS})</span>
+        </button>
+      )}
 
-          {/* Count */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">Počet příkladů</label>
-            <select
-              value={settings.count}
-              onChange={(e) => setSettings(s => ({ ...s, count: Number(e.target.value) }))}
-              className="w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
-            >
-              {[3, 5, 8, 10, 15, 20].map(n => (
-                <option key={n} value={n}>{n}</option>
-              ))}
-            </select>
-          </div>
+      {/* Bottom toolbar */}
+      <div className="flex flex-wrap gap-3 items-center justify-between bg-white rounded-xl shadow-sm border border-gray-200 p-4">
+        <button
+          onClick={handleGenerateAll}
+          className="px-5 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors text-sm"
+        >
+          Vygenerovat vše
+        </button>
 
-          {/* Conversion toggle */}
-          <div className="flex items-end">
-            <label className="flex items-center gap-2 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={settings.withConversion}
-                onChange={(e) => setSettings(s => ({ ...s, withConversion: e.target.checked }))}
-                className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
-              />
-              <span className="text-sm text-gray-700">S převodem jednotek</span>
-            </label>
-          </div>
-        </div>
-
-        {/* Formula display */}
-        {selectedFormula && (
-          <div className="mt-4 p-3 bg-blue-50 rounded-lg text-center">
-            <KaTex tex={selectedFormula.formula} display />
-          </div>
-        )}
-
-        <div className="mt-4 flex gap-3">
-          <button
-            onClick={handleGenerate}
-            className="px-5 py-2 bg-blue-600 text-white rounded-lg font-medium hover:bg-blue-700 transition-colors"
-          >
-            Vygenerovat příklady
-          </button>
-        </div>
-      </div>
-
-      {/* Problems display */}
-      {problems.length > 0 && (
-        <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6" ref={problemsRef}>
-          <div className="flex items-center justify-between mb-4">
-            <h3 className="font-semibold text-gray-900">Příklady ({problems.length})</h3>
-            <div className="flex gap-2">
+        <div className="flex gap-2">
+          {generatedProblems.length > 0 && (
+            <>
               <button
                 onClick={() => setShowSolutions(!showSolutions)}
-                className="px-3 py-1.5 text-sm border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+                className="px-4 py-2 text-sm border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
               >
                 {showSolutions ? 'Skrýt řešení' : 'Zobrazit řešení'}
               </button>
               <button
                 onClick={handleExportPdf}
-                className="px-3 py-1.5 text-sm bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
+                disabled={exporting}
+                className="px-4 py-2 text-sm bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50"
               >
-                Export PDF
+                {exporting ? 'Exportuji…' : 'Export PDF'}
               </button>
-            </div>
-          </div>
-
-          <div className="space-y-4">
-            {problems.map((problem) => (
-              <div key={problem.id} className="p-4 border border-gray-100 rounded-lg hover:bg-gray-50">
-                <div className="flex items-start gap-3">
-                  <span className="flex-shrink-0 w-8 h-8 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center font-bold text-sm">
-                    {problem.id}
-                  </span>
-                  <div className="flex-1">
-                    <div className="text-sm text-gray-800">
-                      {problem.knowns
-                        .filter(k => k.value !== undefined)
-                        .map((k, idx) => (
-                          <span key={k.symbol}>
-                            {idx > 0 && <span className="text-gray-400 mx-1">,</span>}
-                            <KaTex tex={`${k.symbol} = ${formatValue(k.value)} \\, \\text{${k.unit}}`} />
-                            {k.needsConversion && (
-                              <span className="ml-1 text-xs text-amber-600 font-medium">(převod!)</span>
-                            )}
-                          </span>
-                        ))}
-                    </div>
-                    <div className="mt-1 text-sm text-gray-600">
-                      Vypočítej: <KaTex tex={`${problem.unknown.symbol} = \\, ?`} />
-                    </div>
-
-                    {showSolutions && (
-                      <div className="mt-3 pt-3 border-t border-gray-200">
-                        <div className="text-sm font-medium text-green-700">
-                          <KaTex tex={`${problem.unknown.symbol} = ${formatValue(problem.unknown.value)} \\, \\text{${problem.unknown.unit}}`} />
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
+            </>
+          )}
         </div>
-      )}
+      </div>
     </div>
   );
 }

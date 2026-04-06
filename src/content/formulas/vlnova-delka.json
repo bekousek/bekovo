@@ -1,0 +1,37 @@
+{
+  "id": "vlnova-delka",
+  "name": "Vlnová délka",
+  "subtopicIds": ["vlneni", "elektromagneticke-vlneni"],
+  "formula": "\\lambda = v \\cdot T",
+  "variables": [
+    {
+      "symbol": "\\lambda",
+      "name": "vlnová délka",
+      "unit": "m",
+      "altUnits": [
+        { "unit": "cm", "factor": 0.01 },
+        { "unit": "mm", "factor": 0.001 },
+        { "unit": "km", "factor": 1000 }
+      ],
+      "range": [0.001, 10000]
+    },
+    {
+      "symbol": "v",
+      "name": "rychlost vlnění",
+      "unit": "m/s",
+      "altUnits": [
+        { "unit": "km/s", "factor": 1000 }
+      ],
+      "range": [1, 300000000]
+    },
+    {
+      "symbol": "T",
+      "name": "perioda",
+      "unit": "s",
+      "altUnits": [
+        { "unit": "ms", "factor": 0.001 }
+      ],
+      "range": [0.0001, 10]
+    }
+  ]
+}

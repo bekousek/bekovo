@@ -23,54 +23,55 @@ function pickRandomAltUnit(variable: Variable): { unit: string; factor: number }
 }
 
 function computeUnknown(formula: Formula, knownValues: Map<string, number>, solveForSymbol: string): number {
-  const get = (sym: string) => knownValues.get(sym)!;
   const formulaStr = formula.formula;
-
-  // Parse formula pattern: result = a * b, result = a / b, result = a + b
-  // We handle: X = Y / Z, X = Y * Z, X = Y * Z * W (with constants)
   const vars = formula.variables;
-  const solveIdx = vars.findIndex(v => v.symbol === solveForSymbol);
 
-  // For formulas like rho = m/V, v = s/t, p = F/S:
-  // var[0] = var[1] / var[2]  (or var[1] * var[2] for F=m*a, W=F*s)
-  // Detect if formula contains \frac (division) or \cdot (multiplication)
-  const isDivision = formulaStr.includes('\\frac');
-  const isMultiplication = formulaStr.includes('\\cdot');
+  // Get value for any variable (from generated values or constants)
+  const get = (v: Variable) => v.constant !== undefined ? v.constant : knownValues.get(v.symbol)!;
+
+  const hasMultiplication = formulaStr.includes('\\cdot');
+  const hasDivision = formulaStr.includes('\\frac');
+  // If formula has \cdot, it's multiplication (even if \frac appears for constants like ½)
+  const isMultiplication = hasMultiplication;
+  const isDivision = hasDivision && !hasMultiplication;
 
   if (isDivision) {
     // Pattern: vars[0] = vars[1] / vars[2]
-    // Find non-constant variables
-    const nonConstVars = vars.filter(v => v.constant === undefined);
-    if (nonConstVars.length === 3) {
-      const [result, numerator, denominator] = nonConstVars;
-      if (solveForSymbol === result.symbol) {
-        return get(numerator.symbol) / get(denominator.symbol);
-      } else if (solveForSymbol === numerator.symbol) {
-        return get(result.symbol) * get(denominator.symbol);
-      } else {
-        return get(numerator.symbol) / get(result.symbol);
-      }
+    // Constants can occupy any position (e.g., f = 1/T where 1 is constant)
+    const [result, numerator, denominator] = vars;
+    if (solveForSymbol === result.symbol) {
+      return get(numerator) / get(denominator);
+    } else if (solveForSymbol === numerator.symbol) {
+      return get(result) * get(denominator);
+    } else {
+      return get(numerator) / get(result);
     }
   }
 
   if (isMultiplication) {
     // Pattern: vars[0] = vars[1] * vars[2] (* vars[3]...)
-    const nonConstVars = vars.filter(v => v.constant === undefined);
-    if (nonConstVars.length >= 2) {
-      const [result, ...factors] = nonConstVars;
-      if (solveForSymbol === result.symbol) {
-        return factors.reduce((acc, f) => acc * get(f.symbol), 1);
-      } else {
-        // Solve for one of the factors
-        const product = get(result.symbol);
-        const otherFactors = factors.filter(f => f.symbol !== solveForSymbol);
-        const otherProduct = otherFactors.reduce((acc, f) => acc * get(f.symbol), 1);
-        return product / otherProduct;
-      }
+    // Supports power (e.g., v² via power: 2) and constants (e.g., g=10)
+    const [result, ...allFactors] = vars;
+
+    // Get factor contribution: value^power (default power = 1)
+    const factorValue = (f: Variable) => Math.pow(get(f), f.power ?? 1);
+
+    if (solveForSymbol === result.symbol) {
+      return allFactors.reduce((acc, f) => acc * factorValue(f), 1);
+    } else {
+      // Solve for one of the factors: divide result by all OTHER factors
+      const product = get(result);
+      const solveVar = allFactors.find(f => f.symbol === solveForSymbol)!;
+      const otherFactors = allFactors.filter(f => f.symbol !== solveForSymbol);
+      const otherProduct = otherFactors.reduce((acc, f) => acc * factorValue(f), 1);
+      const raw = product / otherProduct;
+      // If the variable has a power, take the inverse root
+      const power = solveVar.power ?? 1;
+      return power !== 1 ? Math.pow(raw, 1 / power) : raw;
     }
   }
 
-  // Fallback: shouldn't reach here with valid formulas
+  // Fallback
   return 0;
 }
 
@@ -117,6 +118,7 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
         originalValue: value,
         originalUnit: v.unit,
         needsConversion,
+        isConstant: v.constant !== undefined,
       });
     }
 
