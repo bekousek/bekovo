@@ -70,9 +70,18 @@ function buildSentence(problem: Problem): string {
   return `${sentence}. Vypočítej ${unknownAcc}.`;
 }
 
-/** Build a plain-text solution line */
+/** Build a plain-text solution line (uses symbol, not name) */
 function buildSolutionText(problem: Problem): string {
-  return `${problem.unknown.name} = ${formatValue(problem.unknown.value)} ${problem.unknown.unit}`;
+  // Strip LaTeX commands for plain-text: \rho → ρ, \eta → η, etc.
+  const sym = problem.unknown.symbol
+    .replace(/\\rho/g, 'ρ')
+    .replace(/\\eta/g, 'η')
+    .replace(/\\varphi/g, 'φ')
+    .replace(/\\lambda/g, 'λ')
+    .replace(/\\Delta\s*/g, 'Δ')
+    .replace(/\\frac\{1\}\{2\}/g, '½')
+    .replace(/[_{}\\]/g, '');
+  return `${sym} = ${formatValue(problem.unknown.value)} ${problem.unknown.unit}`;
 }
 
 interface SlotConfig {

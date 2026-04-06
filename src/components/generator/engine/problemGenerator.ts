@@ -85,6 +85,17 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
     const knowns: GeneratedValue[] = [];
 
     // Generate values for known variables
+    // Identify which vars CAN be converted (non-constant with altUnits)
+    const convertibleVars = settings.withConversion
+      ? knownVars.filter(v => v.constant === undefined && v.altUnits && v.altUnits.length > 0)
+      : [];
+
+    // If conversion is on, pick at least one variable to force-convert
+    const forcedConvertIdx = convertibleVars.length > 0
+      ? Math.floor(Math.random() * convertibleVars.length)
+      : -1;
+    const forcedConvertSymbol = forcedConvertIdx >= 0 ? convertibleVars[forcedConvertIdx].symbol : null;
+
     for (const v of knownVars) {
       let value: number;
       if (v.constant !== undefined) {
@@ -101,12 +112,16 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
       let displayUnit = v.unit;
       let needsConversion = false;
 
-      if (settings.withConversion && v.constant === undefined && Math.random() > 0.5) {
-        const altUnit = pickRandomAltUnit(v);
-        if (altUnit) {
-          displayValue = roundNice(value / altUnit.factor);
-          displayUnit = altUnit.unit;
-          needsConversion = true;
+      if (settings.withConversion && v.constant === undefined) {
+        // Force at least one conversion; others get 50% chance
+        const shouldConvert = v.symbol === forcedConvertSymbol || Math.random() > 0.5;
+        if (shouldConvert) {
+          const altUnit = pickRandomAltUnit(v);
+          if (altUnit) {
+            displayValue = roundNice(value / altUnit.factor);
+            displayUnit = altUnit.unit;
+            needsConversion = true;
+          }
         }
       }
 
