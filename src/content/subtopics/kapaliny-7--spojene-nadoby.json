@@ -2,5 +2,8 @@
   "id": "spojene-nadoby",
   "topicId": "kapaliny-7",
   "name": "Spojené nádoby",
-  "order": 4
+  "order": 4,
+  "notebookEntry": {
+    "content": "<h2>Spojené nádoby</h2>\n<p><strong>Spojené nádoby</strong> jsou nádoby propojené u dna.</p>\n<div style=\"text-align:center;margin:1.5rem auto;max-width:520px;\"><svg viewBox='0 0 400 160' xmlns='http://www.w3.org/2000/svg' style='width:100%;font-family:sans-serif'>\n  <text x='200' y='18' text-anchor='middle' font-weight='bold' fill='#1e40af' font-size='13'>Spojené nádoby — stejná kapalina</text>\n  <path d='M40,30 L40,130 L160,130 L160,100 L240,100 L240,130 L360,130 L360,30' fill='none' stroke='#374151' stroke-width='2.5'/>\n  <rect x='42' y='70' width='116' height='58' fill='#93c5fd' opacity='0.4'/><rect x='162' y='70' width='76' height='58' fill='#93c5fd' opacity='0.4'/><rect x='242' y='70' width='116' height='58' fill='#93c5fd' opacity='0.4'/>\n  <line x1='30' y1='70' x2='370' y2='70' stroke='#ef4444' stroke-width='1.5' stroke-dasharray='5'/>\n  <text x='385' y='74' fill='#ef4444' font-size='11' font-weight='bold'>stejná výška</text>\n</svg></div><h3>Zákon spojených nádob</h3>\n<p>V spojených nádobách se <strong>stejná kapalina</strong> ustálí ve <strong>stejné výšce</strong>, bez ohledu na tvar nádob.</p>\n<p>Důvod: hydrostatický tlak na dně musí být ve všech ramenech stejný.</p>\n<h3>Různé kapaliny</h3>\n<p>Pokud jsou v ramenech <strong>různé kapaliny</strong>, ustálí se v různých výškách — lehčí kapalina stoupne výše.</p>\n<div class='formula'>$$h_1 \\cdot \\rho_1 = h_2 \\cdot \\rho_2$$</div>\n<h3>Využití</h3>\n<p><strong>Vodováha</strong> — hladina je vždy vodorovná.</p>\n<p><strong>Vodovod</strong> — voda teče z výše položené nádrže samospádem.</p>\n<p><strong>Fontána</strong> — voda stoupá do výšky hladiny v zásobníku.</p>\n<p><strong>Plavební komora</strong> — vyrovnává hladiny pro lodě.</p>"
+  }
 }
