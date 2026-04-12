@@ -50,13 +50,13 @@ function toAccusative(name: string): string {
 }
 
 /** Render a scenario template by replacing placeholders with values and fillers */
-function renderTemplate(template: string, problem: Problem, fillers?: Record<string, string[]>): string {
+function renderTemplate(template: string, problem: Problem, fillers?: Record<string, string[]>, showConversionHint = false): string {
   let result = template;
 
   // Replace variable placeholders {symbol} with "value unit (převeď!)"
   const allVars = [...problem.knowns.filter((k) => !k.isConstant), problem.unknown];
   for (const v of allVars) {
-    const conv = v.needsConversion ? ' (převeď!)' : '';
+    const conv = showConversionHint && v.needsConversion ? ' (převeď!)' : '';
     const replacement = `${formatValue(v.value)} ${v.unit}${conv}`;
     result = result.replace(new RegExp(`\\{${escapeRegex(v.symbol)}\\}`, 'g'), replacement);
   }
@@ -80,19 +80,19 @@ function escapeRegex(s: string): string {
 }
 
 /** Build a Czech sentence describing the problem */
-function buildSentence(problem: Problem): string {
+function buildSentence(problem: Problem, showConversionHint = false): string {
   // Try scenario template first
   if (problem.scenario) {
     const template = problem.scenario.templates[problem.unknown.symbol];
     if (template) {
-      return renderTemplate(template, problem, problem.fillers);
+      return renderTemplate(template, problem, problem.fillers, showConversionHint);
     }
   }
 
   // Fallback: generic sentence builder
   const knowns = problem.knowns.filter((k) => !k.isConstant);
   const parts = knowns.map((k) => {
-    const conv = k.needsConversion ? ' (převeď!)' : '';
+    const conv = showConversionHint && k.needsConversion ? ' (převeď!)' : '';
     return `${k.name} je ${formatValue(k.value)} ${k.unit}${conv}`;
   });
 
@@ -134,6 +134,7 @@ interface SlotConfig {
   formulaId: string;
   solveFor: string;
   withConversion: boolean;
+  showConversionHint: boolean;
   problem: Problem | null;
 }
 
@@ -146,6 +147,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
       formulaId: formulas[0]?.id ?? '',
       solveFor: '',
       withConversion: false,
+      showConversionHint: false,
       problem: null,
     },
   ]);
@@ -216,6 +218,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
         formulaId: last.formulaId,
         solveFor: last.solveFor,
         withConversion: last.withConversion,
+        showConversionHint: last.showConversionHint,
         problem: null,
       },
     ]);
@@ -305,7 +308,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
       doc.setFontSize(12);
 
       generatedProblems.forEach((slot, idx) => {
-        const sentence = buildSentence(slot.problem!);
+        const sentence = buildSentence(slot.problem!, slot.showConversionHint);
         const fullText = `${idx + 1}.  ${sentence}`;
         const lines: string[] = doc.splitTextToSize(fullText, maxW);
 
@@ -438,16 +441,27 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
                 </select>
               </div>
 
-              <div className="flex items-end">
+              <div className="flex flex-col justify-end gap-2">
                 <label className="flex items-center gap-2 cursor-pointer">
                   <input
                     type="checkbox"
                     checked={slot.withConversion}
-                    onChange={(e) => updateSlot(slot.id, { withConversion: e.target.checked, problem: null })}
+                    onChange={(e) => updateSlot(slot.id, { withConversion: e.target.checked, showConversionHint: e.target.checked ? slot.showConversionHint : false, problem: null })}
                     className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                   />
                   <span className="text-sm text-gray-700">Převod jednotek</span>
                 </label>
+                {slot.withConversion && (
+                  <label className="flex items-center gap-2 cursor-pointer ml-4">
+                    <input
+                      type="checkbox"
+                      checked={slot.showConversionHint}
+                      onChange={(e) => updateSlot(slot.id, { showConversionHint: e.target.checked, problem: null })}
+                      className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
+                    />
+                    <span className="text-sm text-gray-700">Upozornění na převod</span>
+                  </label>
+                )}
               </div>
 
               <div className="flex items-end">
@@ -471,7 +485,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
             {slot.problem && (
               <div className="mt-3 p-4 bg-gray-50 rounded-lg border border-gray-100">
                 <p className="text-gray-800 leading-relaxed">
-                  {buildSentence(slot.problem)}
+                  {buildSentence(slot.problem, slot.showConversionHint)}
                 </p>
 
                 {showSolutions && (

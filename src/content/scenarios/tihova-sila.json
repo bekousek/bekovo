@@ -18,8 +18,8 @@
     {
       "id": "person",
       "templates": {
-        "F_g": "{person} má hmotnost {m}. Jak velkou gravitační silou ho/ji přitahuje Země?",
-        "m": "Na {person} působí gravitační síla {F_g}. Jaká je jeho/její hmotnost?"
+        "F_g": "{person} má hmotnost {m}. Jak velkou gravitační silou působí Země na tuto osobu?",
+        "m": "Na {person} působí gravitační síla {F_g}. Jakou má hmotnost?"
       },
       "ranges": {
         "F_g": [300, 1000],
@@ -29,7 +29,7 @@
     {
       "id": "apple",
       "templates": {
-        "F_g": "Jablko má hmotnost {m}. Jak velkou gravitační silou ho přitahuje Země?",
+        "F_g": "Jablko má hmotnost {m}. Jak velkou gravitační silou působí Země na jablko?",
         "m": "Na jablko visící na stromě působí gravitační síla {F_g}. Jaká je hmotnost jablka?"
       },
       "ranges": {

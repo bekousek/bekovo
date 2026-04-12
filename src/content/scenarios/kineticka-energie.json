@@ -7,8 +7,8 @@
     {
       "id": "running-child",
       "templates": {
-        "E_k": "{person} o hmotnosti {m} běží rychlostí {v}. Jaká je jeho/její kinetická energie?",
-        "m": "{person} běží rychlostí {v} a má kinetickou energii {E_k}. Jaká je jeho/její hmotnost?"
+        "E_k": "{person} o hmotnosti {m} běží rychlostí {v}. Jakou má kinetickou energii?",
+        "m": "{person} běží rychlostí {v} a má kinetickou energii {E_k}. Jakou má hmotnost?"
       },
       "ranges": {
         "E_k": [100, 1000],

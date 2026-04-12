@@ -21,7 +21,7 @@
       "id": "climber",
       "templates": {
         "E_p": "Horolezec o hmotnosti {m} vyleze na skálu do výšky {h}. Jaká je jeho potenciální energie?",
-        "m": "{person} stojí na skále ve výšce {h} a má potenciální energii {E_p}. Jaká je jeho/její hmotnost?",
+        "m": "{person} stojí na skále ve výšce {h} a má potenciální energii {E_p}. Jakou má hmotnost?",
         "h": "Horolezec o hmotnosti {m} má potenciální energii {E_p}. Do jaké výšky vylezl?"
       },
       "ranges": {
