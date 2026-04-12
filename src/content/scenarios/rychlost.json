@@ -1,16 +1,30 @@
 {
   "formulaId": "rychlost",
   "fillers": {
-    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie", "Honza", "Aneta"],
+    "person_m": ["Petr", "Marek", "Tom", "Honza"],
+    "person_f": ["Jana", "Klára", "Lucie", "Aneta"],
     "animal": ["pes", "kočka", "zajíc", "kůň"]
   },
   "scenarios": [
     {
-      "id": "bike",
+      "id": "bike-m",
       "templates": {
-        "v": "{person} jede na kole a za {t} urazí vzdálenost {s}. Jakou měl(a) průměrnou rychlost?",
-        "s": "{person} jede na kole průměrnou rychlostí {v}. Jak daleko dojede za {t}?",
-        "t": "{person} jede na kole průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
+        "v": "{person_m} jede na kole a za {t} urazí vzdálenost {s}. Jakou měl průměrnou rychlost?",
+        "s": "{person_m} jede na kole průměrnou rychlostí {v}. Jak daleko dojede za {t}?",
+        "t": "{person_m} jede na kole průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
+      },
+      "ranges": {
+        "v": [3, 8],
+        "s": [500, 10000],
+        "t": [60, 3600]
+      }
+    },
+    {
+      "id": "bike-f",
+      "templates": {
+        "v": "{person_f} jede na kole a za {t} urazí vzdálenost {s}. Jakou měla průměrnou rychlost?",
+        "s": "{person_f} jede na kole průměrnou rychlostí {v}. Jak daleko dojede za {t}?",
+        "t": "{person_f} jede na kole průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
       },
       "ranges": {
         "v": [3, 8],
@@ -32,11 +46,24 @@
       }
     },
     {
-      "id": "runner",
+      "id": "runner-m",
       "templates": {
-        "v": "{person} běží a za {t} uběhne {s}. Jakou měl(a) průměrnou rychlost?",
-        "s": "{person} běží průměrnou rychlostí {v}. Jak daleko doběhne za {t}?",
-        "t": "{person} běží průměrnou rychlostí {v}. Za jak dlouho uběhne {s}?"
+        "v": "{person_m} běží a za {t} uběhne {s}. Jakou měl průměrnou rychlost?",
+        "s": "{person_m} běží průměrnou rychlostí {v}. Jak daleko doběhne za {t}?",
+        "t": "{person_m} běží průměrnou rychlostí {v}. Za jak dlouho uběhne {s}?"
+      },
+      "ranges": {
+        "v": [2, 5],
+        "s": [100, 5000],
+        "t": [30, 1800]
+      }
+    },
+    {
+      "id": "runner-f",
+      "templates": {
+        "v": "{person_f} běží a za {t} uběhne {s}. Jakou měla průměrnou rychlost?",
+        "s": "{person_f} běží průměrnou rychlostí {v}. Jak daleko doběhne za {t}?",
+        "t": "{person_f} běží průměrnou rychlostí {v}. Za jak dlouho uběhne {s}?"
       },
       "ranges": {
         "v": [2, 5],

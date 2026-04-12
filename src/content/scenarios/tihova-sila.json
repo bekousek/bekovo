@@ -1,7 +1,8 @@
 {
   "formulaId": "tihova-sila",
   "fillers": {
-    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+    "person_m": ["Petr", "Marek", "Tom", "Honza"],
+    "person_f": ["Jana", "Klára", "Lucie", "Aneta"]
   },
   "scenarios": [
     {
@@ -16,10 +17,21 @@
       }
     },
     {
-      "id": "person",
+      "id": "person-m",
       "templates": {
-        "F_g": "{person} má hmotnost {m}. Jak velkou gravitační silou působí Země na tuto osobu?",
-        "m": "Na {person} působí gravitační síla {F_g}. Jakou má hmotnost?"
+        "F_g": "{person_m} má hmotnost {m}. Jak velkou gravitační silou ho přitahuje Země?",
+        "m": "{person_m} je přitahován gravitační silou {F_g}. Jakou má hmotnost?"
+      },
+      "ranges": {
+        "F_g": [300, 1000],
+        "m": [30, 100]
+      }
+    },
+    {
+      "id": "person-f",
+      "templates": {
+        "F_g": "{person_f} má hmotnost {m}. Jak velkou gravitační silou ji přitahuje Země?",
+        "m": "{person_f} je přitahována gravitační silou {F_g}. Jakou má hmotnost?"
       },
       "ranges": {
         "F_g": [300, 1000],
@@ -52,7 +64,7 @@
       "id": "book",
       "templates": {
         "F_g": "Učebnice fyziky má hmotnost {m}. Jak velkou gravitační silou působí na stůl?",
-        "m": "Učebnice fyziky leží na stole a působí na něj gravitační silou {F_g}. Jaká je hmotnost učebnice?"
+        "m": "Učebnice fyziky leží na stole a působí gravitační silou {F_g}. Jaká je hmotnost učebnice?"
       },
       "ranges": {
         "F_g": [3, 8],
