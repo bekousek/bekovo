@@ -1,0 +1,68 @@
+{
+  "formulaId": "prace",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "pushing-cart",
+      "templates": {
+        "W": "{person} tlačí vozík silou {F} po rovné cestě na vzdálenost {s}. Jakou práci vykoná?",
+        "F": "{person} vykoná při tlačení vozíku práci {W}. Vozík tlačí po rovné cestě na vzdálenost {s}. Jakou silou na vozík působí?",
+        "s": "{person} tlačí vozík silou {F} a vykoná přitom práci {W}. Na jakou vzdálenost vozík posune?"
+      },
+      "ranges": {
+        "F": [50, 200],
+        "s": [5, 50]
+      }
+    },
+    {
+      "id": "lifting-bucket",
+      "templates": {
+        "W": "{person} vytahuje kbelík ze studny silou {F} do výšky {s}. Jakou práci vykoná?",
+        "F": "{person} vytáhne kbelík ze studny do výšky {s} a vykoná přitom práci {W}. Jakou silou na kbelík působí?",
+        "s": "{person} vytahuje kbelík ze studny silou {F} a vykoná práci {W}. Z jaké hloubky kbelík vytáhne?"
+      },
+      "ranges": {
+        "F": [30, 120],
+        "s": [3, 15]
+      }
+    },
+    {
+      "id": "pulling-sled",
+      "templates": {
+        "W": "{person} táhne sáňky silou {F} po sněhu na vzdálenost {s}. Jakou práci vykoná?",
+        "F": "{person} vykoná při tažení sáněk po sněhu práci {W} na vzdálenost {s}. Jakou silou sáňky táhne?",
+        "s": "{person} táhne sáňky po sněhu silou {F} a vykoná práci {W}. Na jakou vzdálenost sáňky odtáhne?"
+      },
+      "ranges": {
+        "F": [20, 80],
+        "s": [10, 100]
+      }
+    },
+    {
+      "id": "moving-furniture",
+      "templates": {
+        "W": "{person} posouvá skříň po podlaze silou {F} na vzdálenost {s}. Jakou práci vykoná?",
+        "F": "{person} posune skříň po podlaze na vzdálenost {s} a vykoná práci {W}. Jakou silou na skříň působí?",
+        "s": "{person} posouvá skříň silou {F} a vykoná přitom práci {W}. Na jakou vzdálenost skříň posune?"
+      },
+      "ranges": {
+        "F": [100, 400],
+        "s": [2, 10]
+      }
+    },
+    {
+      "id": "climbing-stairs",
+      "templates": {
+        "W": "{person} vynáší krabici po schodech silou {F} do výšky {s}. Jakou práci vykoná?",
+        "F": "{person} vynese krabici po schodech do výšky {s} a vykoná práci {W}. Jakou silou na krabici působí?",
+        "s": "{person} vynáší krabici po schodech silou {F} a vykoná práci {W}. Do jaké výšky krabici vynese?"
+      },
+      "ranges": {
+        "F": [30, 150],
+        "s": [3, 12]
+      }
+    }
+  ]
+}

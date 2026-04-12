@@ -1,0 +1,125 @@
+{
+  "formulaId": "hydrostaticky-tlak",
+  "fillers": {
+    "person": [
+      "Petr",
+      "Jana",
+      "Marek",
+      "Klára",
+      "Tom",
+      "Lucie"
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "diver-sea",
+      "templates": {
+        "p_h": "Potápěč se ponoří v moři do hloubky {h}. Hustota mořské vody je {\\varrho}. Jaký hydrostatický tlak na něj působí?",
+        "h": "Na potápěče v moři působí hydrostatický tlak {p_h}. Hustota mořské vody je {\\varrho}. V jaké je hloubce?",
+        "\\varrho": "Na potápěče v hloubce {h} působí hydrostatický tlak {p_h}. Jaká je hustota mořské vody?"
+      },
+      "ranges": {
+        "p_h": [
+          10000,
+          500000
+        ],
+        "h": [
+          1,
+          50
+        ],
+        "\\varrho": [
+          1025,
+          1025
+        ]
+      }
+    },
+    {
+      "id": "submarine",
+      "templates": {
+        "p_h": "Ponorka se ponoří do hloubky {h} v moři. Hustota mořské vody je {\\varrho}. Jaký hydrostatický tlak působí na plášť ponorky?",
+        "h": "Na ponorku v moři působí hydrostatický tlak {p_h}. Hustota mořské vody je {\\varrho}. V jaké hloubce se ponorka nachází?",
+        "\\varrho": "Na ponorku v hloubce {h} působí hydrostatický tlak {p_h}. Jaká je hustota mořské vody?"
+      },
+      "ranges": {
+        "p_h": [
+          500000,
+          3000000
+        ],
+        "h": [
+          50,
+          300
+        ],
+        "\\varrho": [
+          1025,
+          1025
+        ]
+      }
+    },
+    {
+      "id": "fish-lake",
+      "templates": {
+        "p_h": "Ryba plave v jezeře v hloubce {h}. Hustota vody je {\\varrho}. Jaký hydrostatický tlak na ni působí?",
+        "h": "Na rybu v jezeře působí hydrostatický tlak {p_h}. Hustota vody je {\\varrho}. V jaké hloubce ryba plave?",
+        "\\varrho": "Na rybu v hloubce {h} působí hydrostatický tlak {p_h}. Jaká je hustota vody?"
+      },
+      "ranges": {
+        "p_h": [
+          10000,
+          200000
+        ],
+        "h": [
+          1,
+          20
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "swimming-pool",
+      "templates": {
+        "p_h": "Bazén má hloubku {h}. Hustota vody je {\\varrho}. Jaký hydrostatický tlak působí na dno?",
+        "h": "Na dno bazénu působí hydrostatický tlak {p_h}. Hustota vody je {\\varrho}. Jaká je hloubka bazénu?",
+        "\\varrho": "Na dno bazénu v hloubce {h} působí hydrostatický tlak {p_h}. Jaká je hustota vody?"
+      },
+      "ranges": {
+        "p_h": [
+          10000,
+          30000
+        ],
+        "h": [
+          1,
+          3
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "dam-wall",
+      "templates": {
+        "p_h": "Přehrada zadržuje vodu o hloubce {h}. Hustota vody je {\\varrho}. Jaký hydrostatický tlak působí na dno?",
+        "h": "Na dno přehrady působí hydrostatický tlak {p_h}. Hustota vody je {\\varrho}. Jaká je hloubka vody?",
+        "\\varrho": "U dna přehrady v hloubce {h} je hydrostatický tlak {p_h}. Jaká je hustota vody?"
+      },
+      "ranges": {
+        "p_h": [
+          200000,
+          1000000
+        ],
+        "h": [
+          20,
+          100
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    }
+  ]
+}

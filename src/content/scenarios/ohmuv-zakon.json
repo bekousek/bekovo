@@ -1,0 +1,73 @@
+{
+  "formulaId": "ohmuv-zakon",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "light-bulb",
+      "templates": {
+        "R": "Žárovkou prochází proud {I} při napětí {U}. Jaký je elektrický odpor žárovky?",
+        "U": "Žárovka má odpor {R} a prochází jí proud {I}. Jaké je napětí na žárovce?",
+        "I": "Žárovka má odpor {R} a je připojena k napětí {U}. Jaký proud jí prochází?"
+      },
+      "ranges": {
+        "R": [100, 500],
+        "U": [12, 230],
+        "I": [0.05, 2]
+      }
+    },
+    {
+      "id": "resistor",
+      "templates": {
+        "R": "{person} zapojí do obvodu rezistor. Při napětí {U} naměří proud {I}. Jaký je odpor rezistoru?",
+        "U": "Rezistorem o odporu {R} prochází proud {I}. Jaké je napětí na rezistoru?",
+        "I": "Na rezistoru o odporu {R} je napětí {U}. Jaký proud rezistorem prochází?"
+      },
+      "ranges": {
+        "R": [10, 1000],
+        "U": [1, 24],
+        "I": [0.01, 1]
+      }
+    },
+    {
+      "id": "heating-element",
+      "templates": {
+        "R": "Topným tělesem prochází proud {I} při napětí {U}. Jaký je odpor topného tělesa?",
+        "U": "Topné těleso má odpor {R} a prochází jím proud {I}. Jaké je napětí na tělese?",
+        "I": "Topné těleso má odpor {R} a je připojeno k napětí {U}. Jaký proud jím prochází?"
+      },
+      "ranges": {
+        "R": [20, 100],
+        "U": [120, 230],
+        "I": [1, 10]
+      }
+    },
+    {
+      "id": "led",
+      "templates": {
+        "R": "{person} měří LED diodu. Při napětí {U} prochází proud {I}. Jaký je odpor LED diody?",
+        "U": "LED dioda má odpor {R} a prochází jí proud {I}. Jaké je napětí na diodě?",
+        "I": "LED dioda má odpor {R} a je připojena k napětí {U}. Jaký proud jí prochází?"
+      },
+      "ranges": {
+        "R": [100, 500],
+        "U": [2, 5],
+        "I": [0.01, 0.03]
+      }
+    },
+    {
+      "id": "electric-bell",
+      "templates": {
+        "R": "Elektrický zvonek odebírá při napětí {U} proud {I}. Jaký je odpor zvonku?",
+        "U": "Elektrický zvonek má odpor {R} a prochází jím proud {I}. Jaké napětí potřebuje?",
+        "I": "Elektrický zvonek má odpor {R} a je připojen k napětí {U}. Jaký proud jím prochází?"
+      },
+      "ranges": {
+        "R": [10, 50],
+        "U": [4, 12],
+        "I": [0.1, 0.5]
+      }
+    }
+  ]
+}

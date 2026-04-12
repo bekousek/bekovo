@@ -1,0 +1,73 @@
+{
+  "formulaId": "elektricka-energie",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "light-bulb",
+      "templates": {
+        "E": "Žárovka o příkonu {P} svítí po dobu {t}. Kolik elektrické energie spotřebuje?",
+        "P": "{person} zjistí, že žárovka spotřebuje {E} energie za {t}. Jaký je příkon žárovky?",
+        "t": "Žárovka o příkonu {P} spotřebuje {E} energie. Jak dlouho svítila?"
+      },
+      "ranges": {
+        "E": [3600, 360000],
+        "P": [10, 100],
+        "t": [60, 3600]
+      }
+    },
+    {
+      "id": "tv",
+      "templates": {
+        "E": "Televizor o příkonu {P} je zapnutý po dobu {t}. Kolik energie spotřebuje?",
+        "P": "Televizor spotřebuje {E} energie za {t}. Jaký je jeho příkon?",
+        "t": "Televizor o příkonu {P} spotřebuje {E} energie. Jak dlouho byl zapnutý?"
+      },
+      "ranges": {
+        "E": [36000, 720000],
+        "P": [50, 200],
+        "t": [600, 7200]
+      }
+    },
+    {
+      "id": "microwave",
+      "templates": {
+        "E": "{person} ohřívá jídlo v mikrovlnce o příkonu {P} po dobu {t}. Kolik energie mikrovlnka spotřebuje?",
+        "P": "Mikrovlnná trouba spotřebuje {E} energie za {t}. Jaký je příkon mikrovlnky?",
+        "t": "Mikrovlnka o příkonu {P} spotřebuje při ohřevu {E} energie. Jak dlouho ohřívala?"
+      },
+      "ranges": {
+        "E": [60000, 600000],
+        "P": [600, 1000],
+        "t": [60, 600]
+      }
+    },
+    {
+      "id": "computer",
+      "templates": {
+        "E": "Počítač o příkonu {P} běží po dobu {t}. Kolik energie spotřebuje?",
+        "P": "{person} zjistí, že počítač spotřebuje {E} energie za {t}. Jaký je příkon počítače?",
+        "t": "Počítač o příkonu {P} spotřebuje {E} energie. Jak dlouho byl zapnutý?"
+      },
+      "ranges": {
+        "E": [180000, 1800000],
+        "P": [100, 500],
+        "t": [1800, 7200]
+      }
+    },
+    {
+      "id": "fridge",
+      "templates": {
+        "E": "Lednička o příkonu {P} běží celý den, tedy {t}. Kolik energie spotřebuje?",
+        "P": "Lednička spotřebuje za den {E} energie. Denní doba provozu je {t}. Jaký je příkon ledničky?",
+        "t": "Lednička o příkonu {P} spotřebuje {E} energie. Jak dlouho běžela?"
+      },
+      "ranges": {
+        "E": [600000, 3600000],
+        "P": [80, 150],
+        "t": [7200, 28800]
+      }
+    }
+  ]
+}

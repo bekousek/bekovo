@@ -2,10 +2,10 @@
   "id": "hustota",
   "name": "Hustota",
   "subtopicIds": ["hustota"],
-  "formula": "\\rho = \\frac{m}{V}",
+  "formula": "\\varrho = \\frac{m}{V}",
   "variables": [
     {
-      "symbol": "\\rho",
+      "symbol": "\\varrho",
       "name": "hustota",
       "unit": "kg/m³",
       "altUnits": [

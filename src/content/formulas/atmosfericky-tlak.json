@@ -2,7 +2,7 @@
   "id": "atmosfericky-tlak",
   "name": "Atmosférický tlak – hydrostatický",
   "subtopicIds": ["atmosfera"],
-  "formula": "p = h \\cdot \\rho \\cdot g",
+  "formula": "p = h \\cdot \\varrho \\cdot g",
   "variables": [
     {
       "symbol": "p",
@@ -25,7 +25,7 @@
       "range": [0.01, 20]
     },
     {
-      "symbol": "\\rho",
+      "symbol": "\\varrho",
       "name": "hustota kapaliny",
       "unit": "kg/m³",
       "range": [800, 13600]

@@ -1,0 +1,73 @@
+{
+  "formulaId": "teplo",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "heating-water-pot",
+      "templates": {
+        "Q": "{person} ohřívá vodu v hrnci. Hmotnost vody je {m}, měrná tepelná kapacita vody je {c} a teplota se zvýší o {\\Delta t}. Kolik tepla voda přijme?",
+        "m": "{person} ohřívá vodu v hrnci. Voda přijme teplo {Q}, měrná tepelná kapacita vody je {c} a teplota se zvýší o {\\Delta t}. Jaká je hmotnost vody?",
+        "\\Delta t": "{person} ohřívá {m} vody v hrnci. Voda přijme teplo {Q} a měrná tepelná kapacita vody je {c}. O kolik stupňů se voda ohřeje?"
+      },
+      "ranges": {
+        "m": [0.5, 5],
+        "c": [4180, 4180],
+        "\\Delta t": [10, 80]
+      }
+    },
+    {
+      "id": "cooling-iron",
+      "templates": {
+        "Q": "Kus železa o hmotnosti {m} se ochladí o {\\Delta t}. Měrná tepelná kapacita železa je {c}. Kolik tepla železo odevzdá?",
+        "m": "Kus železa odevzdá teplo {Q} při ochlazení o {\\Delta t}. Měrná tepelná kapacita železa je {c}. Jaká je hmotnost železa?",
+        "\\Delta t": "Kus železa o hmotnosti {m} odevzdá teplo {Q}. Měrná tepelná kapacita železa je {c}. O kolik stupňů se železo ochladí?"
+      },
+      "ranges": {
+        "m": [0.5, 10],
+        "c": [450, 450],
+        "\\Delta t": [20, 200]
+      }
+    },
+    {
+      "id": "warming-milk",
+      "templates": {
+        "Q": "{person} ohřívá mléko. Hmotnost mléka je {m}, měrná tepelná kapacita mléka je {c} a teplota se zvýší o {\\Delta t}. Kolik tepla mléko přijme?",
+        "m": "{person} ohřívá mléko, které přijme teplo {Q}. Měrná tepelná kapacita mléka je {c} a teplota se zvýší o {\\Delta t}. Jaká je hmotnost mléka?",
+        "\\Delta t": "{person} ohřívá {m} mléka. Mléko přijme teplo {Q} a měrná tepelná kapacita mléka je {c}. O kolik stupňů se mléko ohřeje?"
+      },
+      "ranges": {
+        "m": [0.2, 2],
+        "c": [4180, 4180],
+        "\\Delta t": [5, 60]
+      }
+    },
+    {
+      "id": "heating-bath-water",
+      "templates": {
+        "Q": "{person} napouští vanu. Je potřeba ohřát {m} vody o {\\Delta t}. Měrná tepelná kapacita vody je {c}. Kolik tepla je potřeba dodat?",
+        "m": "{person} ohřívá vodu ve vaně. Voda přijme teplo {Q}, měrná tepelná kapacita vody je {c} a teplota se zvýší o {\\Delta t}. Jaká je hmotnost vody ve vaně?",
+        "\\Delta t": "{person} ohřívá {m} vody ve vaně. Voda přijme teplo {Q} a měrná tepelná kapacita vody je {c}. O kolik stupňů se voda ohřeje?"
+      },
+      "ranges": {
+        "m": [50, 150],
+        "c": [4180, 4180],
+        "\\Delta t": [20, 40]
+      }
+    },
+    {
+      "id": "melting-snow-hands",
+      "templates": {
+        "Q": "{person} drží sníh v rukách. Hmotnost sněhu je {m}, měrná tepelná kapacita je {c} a teplota se zvýší o {\\Delta t}. Kolik tepla sníh přijme?",
+        "m": "{person} ohřívá sníh v rukách. Sníh přijme teplo {Q}, měrná tepelná kapacita je {c} a teplota se zvýší o {\\Delta t}. Jaká je hmotnost sněhu?",
+        "\\Delta t": "{person} drží {m} sněhu v rukách. Sníh přijme teplo {Q} a měrná tepelná kapacita je {c}. O kolik stupňů se sníh ohřeje?"
+      },
+      "ranges": {
+        "m": [0.05, 0.5],
+        "c": [2090, 2090],
+        "\\Delta t": [5, 20]
+      }
+    }
+  ]
+}

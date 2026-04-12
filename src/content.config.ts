@@ -109,6 +109,19 @@ const formulas = defineCollection({
   }),
 });
 
+const scenarios = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/scenarios' }),
+  schema: z.object({
+    formulaId: z.string(),
+    fillers: z.record(z.string(), z.array(z.string())).optional(),
+    scenarios: z.array(z.object({
+      id: z.string(),
+      templates: z.record(z.string(), z.string()),
+      ranges: z.record(z.string(), z.tuple([z.number(), z.number()])).optional(),
+    })),
+  }),
+});
+
 export const collections = {
   topics,
   subtopics,
@@ -117,4 +130,5 @@ export const collections = {
   materials,
   homework,
   formulas,
+  scenarios,
 };

@@ -1,0 +1,68 @@
+{
+  "formulaId": "vykon",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "lifting-weight",
+      "templates": {
+        "P": "{person} zvedne závaží a vykoná práci {W} za {t}. Jaký je výkon?",
+        "W": "{person} zvedá závaží výkonem {P} po dobu {t}. Jakou práci vykoná?",
+        "t": "{person} zvedne závaží a vykoná práci {W} výkonem {P}. Jak dlouho zvedání trvá?"
+      },
+      "ranges": {
+        "W": [500, 5000],
+        "t": [5, 30]
+      }
+    },
+    {
+      "id": "light-bulb",
+      "templates": {
+        "P": "Žárovka spotřebuje {W} elektrické energie za {t}. Jaký je její výkon?",
+        "W": "Žárovka o výkonu {P} svítí po dobu {t}. Kolik energie spotřebuje?",
+        "t": "Žárovka o výkonu {P} spotřebuje {W} energie. Jak dlouho svítila?"
+      },
+      "ranges": {
+        "W": [3000, 60000],
+        "t": [60, 600]
+      }
+    },
+    {
+      "id": "electric-motor",
+      "templates": {
+        "P": "Elektrický motor vykoná práci {W} za {t}. Jaký je výkon motoru?",
+        "W": "Elektrický motor o výkonu {P} pracuje po dobu {t}. Jakou práci vykoná?",
+        "t": "Elektrický motor o výkonu {P} vykoná práci {W}. Jak dlouho motor pracoval?"
+      },
+      "ranges": {
+        "W": [10000, 500000],
+        "t": [10, 300]
+      }
+    },
+    {
+      "id": "climbing-stairs",
+      "templates": {
+        "P": "{person} vyběhne po schodech a vykoná práci {W} za {t}. Jaký je výkon?",
+        "W": "{person} vyběhne po schodech výkonem {P} za {t}. Jakou práci vykoná?",
+        "t": "{person} vykoná při výběhu po schodech práci {W} výkonem {P}. Za jak dlouho schody vyběhne?"
+      },
+      "ranges": {
+        "W": [1000, 8000],
+        "t": [5, 20]
+      }
+    },
+    {
+      "id": "pump",
+      "templates": {
+        "P": "Čerpadlo přečerpá vodu a vykoná práci {W} za {t}. Jaký je výkon čerpadla?",
+        "W": "Čerpadlo o výkonu {P} pracuje po dobu {t}. Jakou práci vykoná?",
+        "t": "Čerpadlo o výkonu {P} vykoná práci {W}. Jak dlouho čerpadlo pracovalo?"
+      },
+      "ranges": {
+        "W": [50000, 1000000],
+        "t": [60, 600]
+      }
+    }
+  ]
+}

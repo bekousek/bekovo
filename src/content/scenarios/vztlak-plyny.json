@@ -1,0 +1,63 @@
+{
+  "formulaId": "vztlak-plyny",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "hot-air-balloon",
+      "templates": {
+        "F_{vz}": "Horkovzdušný balón má objem {V}. Hustota okolního vzduchu je {\\varrho}. Jak velká vztlaková síla na balón působí?",
+        "V": "Na horkovzdušný balón působí vztlaková síla {F_{vz}}. Hustota okolního vzduchu je {\\varrho}. Jaký je objem balónu?"
+      },
+      "ranges": {
+        "V": [2000, 3000],
+        "\\varrho": [1.29, 1.29]
+      }
+    },
+    {
+      "id": "helium-balloon",
+      "templates": {
+        "F_{vz}": "{person} drží nafukovací balónek naplněný heliem o objemu {V}. Hustota vzduchu je {\\varrho}. Jak velká vztlaková síla na balónek působí?",
+        "V": "Na heliový balónek působí vztlaková síla {F_{vz}}. Hustota vzduchu je {\\varrho}. Jaký je objem balónku?"
+      },
+      "ranges": {
+        "V": [0.005, 0.015],
+        "\\varrho": [1.29, 1.29]
+      }
+    },
+    {
+      "id": "airship",
+      "templates": {
+        "F_{vz}": "Vzducholoď má objem {V}. Hustota vzduchu je {\\varrho}. Jak velká vztlaková síla na vzducholoď působí?",
+        "V": "Na vzducholoď působí vztlaková síla {F_{vz}}. Hustota vzduchu je {\\varrho}. Jaký je objem vzducholodi?"
+      },
+      "ranges": {
+        "V": [5000, 10000],
+        "\\varrho": [1.29, 1.29]
+      }
+    },
+    {
+      "id": "parachutist",
+      "templates": {
+        "F_{vz}": "Padák parašutisty má po rozvinutí objem {V}. Hustota vzduchu je {\\varrho}. Jak velká vztlaková síla působí na padák?",
+        "V": "Na rozvinutý padák působí vztlaková síla {F_{vz}}. Hustota vzduchu je {\\varrho}. Jaký je objem padáku?"
+      },
+      "ranges": {
+        "V": [20, 60],
+        "\\varrho": [1.29, 1.29]
+      }
+    },
+    {
+      "id": "weather-balloon",
+      "templates": {
+        "F_{vz}": "Meteorologický balón má objem {V}. Hustota vzduchu je {\\varrho}. Jak velká vztlaková síla na balón působí?",
+        "V": "Na meteorologický balón působí vztlaková síla {F_{vz}}. Hustota vzduchu je {\\varrho}. Jaký je objem balónu?"
+      },
+      "ranges": {
+        "V": [0.5, 2],
+        "\\varrho": [1.29, 1.29]
+      }
+    }
+  ]
+}

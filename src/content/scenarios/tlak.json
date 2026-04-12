@@ -1,0 +1,68 @@
+{
+  "formulaId": "tlak",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "standing-on-ice",
+      "templates": {
+        "p": "{person} stojí na ledě. Působí silou {F} na plochu {S}. Jaký tlak vyvíjí na led?",
+        "F": "{person} stojí na ledě a vyvíjí tlak {p} na plochu {S}. Jakou silou působí na led?",
+        "S": "{person} stojí na ledě a působí silou {F}. Tlak na led je {p}. Jaká je plocha styku s ledem?"
+      },
+      "ranges": {
+        "F": [400, 800],
+        "S": [0.01, 0.06]
+      }
+    },
+    {
+      "id": "knife-cutting",
+      "templates": {
+        "p": "{person} tlačí nožem na potravinu silou {F}. Plocha ostří je {S}. Jaký tlak nůž vyvíjí?",
+        "F": "Nůž vyvíjí při řezání tlak {p} na plochu ostří {S}. Jakou silou {person} na nůž tlačí?",
+        "S": "{person} tlačí na nůž silou {F} a nůž vyvíjí tlak {p}. Jaká je plocha ostří nože?"
+      },
+      "ranges": {
+        "F": [5, 50],
+        "S": [0.000001, 0.00005]
+      }
+    },
+    {
+      "id": "ski-vs-boot",
+      "templates": {
+        "p": "Lyžař působí na sníh silou {F}. Plocha lyží je {S}. Jaký tlak vyvíjí na sníh?",
+        "F": "Lyžař vyvíjí na sníh tlak {p} pomocí lyží o ploše {S}. Jakou silou působí na sníh?",
+        "S": "Lyžař působí na sníh silou {F} a vyvíjí tlak {p}. Jaká je plocha lyží?"
+      },
+      "ranges": {
+        "F": [500, 900],
+        "S": [0.2, 0.5]
+      }
+    },
+    {
+      "id": "brick-on-table",
+      "templates": {
+        "p": "Cihla leží na stole a působí silou {F} na plochu {S}. Jaký tlak cihla vyvíjí na stůl?",
+        "F": "Cihla leží na stole a vyvíjí tlak {p} na plochu {S}. Jakou silou cihla působí na stůl?",
+        "S": "Cihla působí na stůl silou {F} a vyvíjí tlak {p}. Na jaké ploše cihla leží?"
+      },
+      "ranges": {
+        "F": [20, 40],
+        "S": [0.005, 0.03]
+      }
+    },
+    {
+      "id": "nail-point",
+      "templates": {
+        "p": "{person} zatlouká hřebík kladivem silou {F}. Plocha hrotu hřebíku je {S}. Jaký tlak hřebík vyvíjí?",
+        "F": "Hřebík vyvíjí na dřevo tlak {p} a plocha jeho hrotu je {S}. Jakou silou {person} na hřebík působí?",
+        "S": "{person} zatlouká hřebík silou {F} a hřebík vyvíjí tlak {p}. Jaká je plocha hrotu hřebíku?"
+      },
+      "ranges": {
+        "F": [50, 300],
+        "S": [0.000001, 0.00001]
+      }
+    }
+  ]
+}

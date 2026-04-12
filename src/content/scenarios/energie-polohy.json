@@ -1,0 +1,73 @@
+{
+  "formulaId": "energie-polohy",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "ball-on-shelf",
+      "templates": {
+        "E_p": "Míč o hmotnosti {m} leží na poličce ve výšce {h}. Jaká je jeho potenciální energie?",
+        "m": "Míč na poličce ve výšce {h} má potenciální energii {E_p}. Jaká je hmotnost míče?",
+        "h": "Míč o hmotnosti {m} má potenciální energii {E_p}. V jaké výšce leží?"
+      },
+      "ranges": {
+        "E_p": [2, 50],
+        "m": [0.1, 1],
+        "h": [1, 3]
+      }
+    },
+    {
+      "id": "climber",
+      "templates": {
+        "E_p": "Horolezec o hmotnosti {m} vyleze na skálu do výšky {h}. Jaká je jeho potenciální energie?",
+        "m": "{person} stojí na skále ve výšce {h} a má potenciální energii {E_p}. Jaká je jeho/její hmotnost?",
+        "h": "Horolezec o hmotnosti {m} má potenciální energii {E_p}. Do jaké výšky vylezl?"
+      },
+      "ranges": {
+        "E_p": [5000, 100000],
+        "m": [50, 90],
+        "h": [10, 150]
+      }
+    },
+    {
+      "id": "water-dam",
+      "templates": {
+        "E_p": "Voda o hmotnosti {m} je zadržena v přehradě ve výšce {h}. Jaká je její potenciální energie?",
+        "m": "Voda v přehradě ve výšce {h} má potenciální energii {E_p}. Jaká je hmotnost vody?",
+        "h": "Voda o hmotnosti {m} zadržená v přehradě má potenciální energii {E_p}. V jaké výšce se nachází?"
+      },
+      "ranges": {
+        "E_p": [100000, 1000000],
+        "m": [500, 5000],
+        "h": [10, 50]
+      }
+    },
+    {
+      "id": "apple-on-tree",
+      "templates": {
+        "E_p": "Jablko o hmotnosti {m} visí na stromě ve výšce {h}. Jaká je jeho potenciální energie?",
+        "m": "Jablko visí na stromě ve výšce {h} a má potenciální energii {E_p}. Jaká je hmotnost jablka?",
+        "h": "Jablko o hmotnosti {m} má potenciální energii {E_p}. V jaké výšce visí?"
+      },
+      "ranges": {
+        "E_p": [2, 10],
+        "m": [0.1, 0.3],
+        "h": [2, 5]
+      }
+    },
+    {
+      "id": "book-falling",
+      "templates": {
+        "E_p": "{person} položí knihu o hmotnosti {m} na stůl ve výšce {h}. Jaká je potenciální energie knihy?",
+        "m": "Kniha na stole ve výšce {h} má potenciální energii {E_p}. Jaká je hmotnost knihy?",
+        "h": "Kniha o hmotnosti {m} spadne ze stolu a ztratí potenciální energii {E_p}. Z jaké výšky spadla?"
+      },
+      "ranges": {
+        "E_p": [2, 15],
+        "m": [0.3, 1.5],
+        "h": [0.5, 1.2]
+      }
+    }
+  ]
+}

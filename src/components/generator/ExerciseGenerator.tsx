@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import type { Formula, Problem, GeneratorSettings } from './engine/types';
+import type { Formula, Problem, GeneratorSettings, ScenarioBank, Scenario } from './engine/types';
 import { generateProblems } from './engine/problemGenerator';
 import katex from 'katex';
 
 interface Props {
   formulas: Formula[];
+  scenarioBanks?: ScenarioBank[];
 }
 
 function KaTex({ tex, display = false }: { tex: string; display?: boolean }) {
@@ -48,8 +49,47 @@ function toAccusative(name: string): string {
     .join(' ');
 }
 
+/** Render a scenario template by replacing placeholders with values and fillers */
+function renderTemplate(template: string, problem: Problem, fillers?: Record<string, string[]>): string {
+  let result = template;
+
+  // Replace variable placeholders {symbol} with "value unit (převeď!)"
+  const allVars = [...problem.knowns.filter((k) => !k.isConstant), problem.unknown];
+  for (const v of allVars) {
+    const conv = v.needsConversion ? ' (převeď!)' : '';
+    const replacement = `${formatValue(v.value)} ${v.unit}${conv}`;
+    result = result.replace(new RegExp(`\\{${escapeRegex(v.symbol)}\\}`, 'g'), replacement);
+  }
+
+  // Replace filler placeholders {fillerName} with a random pick
+  if (fillers) {
+    for (const [key, values] of Object.entries(fillers)) {
+      const pattern = new RegExp(`\\{${escapeRegex(key)}\\}`, 'g');
+      if (pattern.test(result)) {
+        const pick = values[Math.floor(Math.random() * values.length)];
+        result = result.replace(pattern, pick);
+      }
+    }
+  }
+
+  return result;
+}
+
+function escapeRegex(s: string): string {
+  return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
 /** Build a Czech sentence describing the problem */
 function buildSentence(problem: Problem): string {
+  // Try scenario template first
+  if (problem.scenario) {
+    const template = problem.scenario.templates[problem.unknown.symbol];
+    if (template) {
+      return renderTemplate(template, problem, problem.fillers);
+    }
+  }
+
+  // Fallback: generic sentence builder
   const knowns = problem.knowns.filter((k) => !k.isConstant);
   const parts = knowns.map((k) => {
     const conv = k.needsConversion ? ' (převeď!)' : '';
@@ -78,6 +118,7 @@ function buildSentence(problem: Problem): string {
 function buildSolutionText(problem: Problem): string {
   // Strip LaTeX commands for plain-text: \rho → ρ, \eta → η, etc.
   const sym = problem.unknown.symbol
+    .replace(/\\varrho/g, 'ϱ')
     .replace(/\\rho/g, 'ρ')
     .replace(/\\eta/g, 'η')
     .replace(/\\varphi/g, 'φ')
@@ -98,7 +139,7 @@ interface SlotConfig {
 
 const MAX_SLOTS = 10;
 
-export default function ExerciseGenerator({ formulas }: Props) {
+export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Props) {
   const [slots, setSlots] = useState<SlotConfig[]>([
     {
       id: 1,
@@ -129,6 +170,17 @@ export default function ExerciseGenerator({ formulas }: Props) {
     return vars[0]?.symbol ?? '';
   }
 
+  /** Pick a random scenario that has a template for the given solveFor variable */
+  function pickScenario(formulaId: string, solveFor: string): { scenario: Scenario; fillers?: Record<string, string[]> } | null {
+    const bank = scenarioBanks.find((b) => b.formulaId === formulaId);
+    if (!bank || bank.scenarios.length === 0) return null;
+    // Filter to scenarios that have a template for the requested unknown
+    const matching = bank.scenarios.filter((s) => s.templates[solveFor]);
+    if (matching.length === 0) return null;
+    const scenario = matching[Math.floor(Math.random() * matching.length)];
+    return { scenario, fillers: bank.fillers };
+  }
+
   function updateSlot(slotId: number, updates: Partial<SlotConfig>) {
     setSlots((prev) => prev.map((s) => (s.id === slotId ? { ...s, ...updates } : s)));
   }
@@ -139,11 +191,16 @@ export default function ExerciseGenerator({ formulas }: Props) {
     const formula = getFormula(slot.formulaId);
     if (!formula) return;
 
+    const solveFor = getEffectiveSolveFor(slot);
+    const picked = pickScenario(slot.formulaId, solveFor);
+
     const settings: GeneratorSettings = {
       formulaId: slot.formulaId,
       count: 1,
-      solveFor: getEffectiveSolveFor(slot),
+      solveFor,
       withConversion: slot.withConversion,
+      scenario: picked?.scenario ?? null,
+      fillers: picked?.fillers,
     };
     const [problem] = generateProblems(formula, settings);
     updateSlot(slotId, { problem });
@@ -175,11 +232,15 @@ export default function ExerciseGenerator({ formulas }: Props) {
       prev.map((slot) => {
         const formula = getFormula(slot.formulaId);
         if (!formula) return slot;
+        const solveFor = getEffectiveSolveFor(slot);
+        const picked = pickScenario(slot.formulaId, solveFor);
         const settings: GeneratorSettings = {
           formulaId: slot.formulaId,
           count: 1,
-          solveFor: getEffectiveSolveFor(slot),
+          solveFor,
           withConversion: slot.withConversion,
+          scenario: picked?.scenario ?? null,
+          fillers: picked?.fillers,
         };
         const [problem] = generateProblems(formula, settings);
         return { ...slot, problem };

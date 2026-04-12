@@ -1,12 +1,12 @@
 {
   "id": "tihova-sila",
-  "name": "Tíhová síla",
+  "name": "Gravitační síla",
   "subtopicIds": ["gravitacni-a-tihova-sila"],
-  "formula": "F_G = m \\cdot g",
+  "formula": "F_g = m \\cdot g",
   "variables": [
     {
-      "symbol": "F_G",
-      "name": "tíhová síla",
+      "symbol": "F_g",
+      "name": "gravitační síla",
       "unit": "N",
       "altUnits": [
         { "unit": "kN", "factor": 1000 }
@@ -25,7 +25,7 @@
     },
     {
       "symbol": "g",
-      "name": "tíhové zrychlení",
+      "name": "gravitační zrychlení",
       "unit": "m/s²",
       "constant": 10
     }

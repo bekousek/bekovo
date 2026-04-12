@@ -2,7 +2,7 @@
   "id": "hydrostaticky-tlak",
   "name": "Hydrostatický tlak",
   "subtopicIds": ["hydrostaticky-tlak"],
-  "formula": "p_h = h \\cdot \\rho \\cdot g",
+  "formula": "p_h = h \\cdot \\varrho \\cdot g",
   "variables": [
     {
       "symbol": "p_h",
@@ -25,7 +25,7 @@
       "range": [0.1, 100]
     },
     {
-      "symbol": "\\rho",
+      "symbol": "\\varrho",
       "name": "hustota kapaliny",
       "unit": "kg/m³",
       "range": [800, 13600]

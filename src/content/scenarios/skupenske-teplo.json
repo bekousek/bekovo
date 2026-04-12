@@ -1,0 +1,65 @@
+{
+  "formulaId": "skupenske-teplo",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "melting-ice",
+      "templates": {
+        "Q": "{person} nechá rozpustit led o hmotnosti {m}. Měrné skupenské teplo tání ledu je {l}. Kolik tepla led pohltí?",
+        "m": "Při tání ledu se spotřebuje teplo {Q}. Měrné skupenské teplo tání ledu je {l}. Jaká byla hmotnost ledu?"
+      },
+      "ranges": {
+        "m": [0.1, 5],
+        "l": [334000, 334000]
+      }
+    },
+    {
+      "id": "boiling-water",
+      "templates": {
+        "Q": "{person} vaří vodu o hmotnosti {m}. Měrné skupenské teplo varu vody je {l}. Kolik tepla je potřeba k jejímu vypaření?",
+        "m": "K vypaření vody je potřeba teplo {Q}. Měrné skupenské teplo varu vody je {l}. Jaká je hmotnost vody?"
+      },
+      "ranges": {
+        "m": [0.1, 2],
+        "l": [2260000, 2260000]
+      }
+    },
+    {
+      "id": "melting-lead",
+      "templates": {
+        "Q": "V hutním závodě se taví olovo o hmotnosti {m}. Měrné skupenské teplo tání olova je {l}. Kolik tepla je potřeba k roztavení olova?",
+        "m": "K roztavení olova je potřeba teplo {Q}. Měrné skupenské teplo tání olova je {l}. Jaká je hmotnost olova?",
+        "l": "K roztavení olova o hmotnosti {m} je potřeba teplo {Q}. Jaké je měrné skupenské teplo tání olova?"
+      },
+      "ranges": {
+        "m": [0.5, 10],
+        "l": [23000, 23000]
+      }
+    },
+    {
+      "id": "freezing-water",
+      "templates": {
+        "Q": "{person} dá do mrazáku vodu o hmotnosti {m}. Měrné skupenské teplo tuhnutí vody je {l}. Kolik tepla voda odevzdá při ztuhnutí?",
+        "m": "Při zmrznutí vody se uvolní teplo {Q}. Měrné skupenské teplo tuhnutí vody je {l}. Jaká byla hmotnost vody?"
+      },
+      "ranges": {
+        "m": [0.1, 5],
+        "l": [334000, 334000]
+      }
+    },
+    {
+      "id": "evaporating-alcohol",
+      "templates": {
+        "Q": "{person} zahřívá líh o hmotnosti {m}. Měrné skupenské teplo varu lihu je {l}. Kolik tepla je potřeba k vypaření lihu?",
+        "m": "K vypaření lihu je potřeba teplo {Q}. Měrné skupenské teplo varu lihu je {l}. Jaká je hmotnost lihu?",
+        "l": "K vypaření lihu o hmotnosti {m} je potřeba teplo {Q}. Jaké je měrné skupenské teplo varu lihu?"
+      },
+      "ranges": {
+        "m": [0.1, 2],
+        "l": [855000, 855000]
+      }
+    }
+  ]
+}

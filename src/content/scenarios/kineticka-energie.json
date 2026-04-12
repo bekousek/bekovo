@@ -1,0 +1,68 @@
+{
+  "formulaId": "kineticka-energie",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "running-child",
+      "templates": {
+        "E_k": "{person} o hmotnosti {m} běží rychlostí {v}. Jaká je jeho/její kinetická energie?",
+        "m": "{person} běží rychlostí {v} a má kinetickou energii {E_k}. Jaká je jeho/její hmotnost?"
+      },
+      "ranges": {
+        "E_k": [100, 1000],
+        "m": [30, 60],
+        "v": [2, 6]
+      }
+    },
+    {
+      "id": "car",
+      "templates": {
+        "E_k": "Auto o hmotnosti {m} jede rychlostí {v}. Jaká je jeho kinetická energie?",
+        "m": "Auto jedoucí rychlostí {v} má kinetickou energii {E_k}. Jaká je hmotnost auta?"
+      },
+      "ranges": {
+        "E_k": [50000, 500000],
+        "m": [800, 1500],
+        "v": [10, 30]
+      }
+    },
+    {
+      "id": "thrown-ball",
+      "templates": {
+        "E_k": "{person} hodí míč o hmotnosti {m} rychlostí {v}. Jaká je kinetická energie míče?",
+        "m": "Míč letí rychlostí {v} a má kinetickou energii {E_k}. Jaká je hmotnost míče?"
+      },
+      "ranges": {
+        "E_k": [1, 30],
+        "m": [0.1, 0.5],
+        "v": [5, 15]
+      }
+    },
+    {
+      "id": "bicycle",
+      "templates": {
+        "E_k": "Cyklista s kolem o celkové hmotnosti {m} jede rychlostí {v}. Jaká je jeho kinetická energie?",
+        "m": "Cyklista jedoucí rychlostí {v} má kinetickou energii {E_k}. Jaká je celková hmotnost cyklisty s kolem?"
+      },
+      "ranges": {
+        "E_k": [500, 5000],
+        "m": [60, 100],
+        "v": [3, 10]
+      }
+    },
+    {
+      "id": "football",
+      "templates": {
+        "E_k": "{person} kopne do fotbalového míče o hmotnosti {m} rychlostí {v}. Jaká je kinetická energie míče?",
+        "m": "Fotbalový míč letí rychlostí {v} a má kinetickou energii {E_k}. Jaká je hmotnost míče?"
+      },
+      "ranges": {
+        "E_k": [5, 100],
+        "m": [0.4, 0.45],
+        "v": [5, 25]
+      }
+    }
+  ]
+}

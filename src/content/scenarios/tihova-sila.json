@@ -1,0 +1,63 @@
+{
+  "formulaId": "tihova-sila",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "backpack",
+      "templates": {
+        "F_g": "Školní batoh váží {m}. Jak velkou gravitační silou působí na záda žáka?",
+        "m": "Školní batoh působí gravitační silou {F_g}. Jaká je hmotnost batohu?"
+      },
+      "ranges": {
+        "F_g": [30, 100],
+        "m": [3, 10]
+      }
+    },
+    {
+      "id": "person",
+      "templates": {
+        "F_g": "{person} má hmotnost {m}. Jak velkou gravitační silou ho/ji přitahuje Země?",
+        "m": "Na {person} působí gravitační síla {F_g}. Jaká je jeho/její hmotnost?"
+      },
+      "ranges": {
+        "F_g": [300, 1000],
+        "m": [30, 100]
+      }
+    },
+    {
+      "id": "apple",
+      "templates": {
+        "F_g": "Jablko má hmotnost {m}. Jak velkou gravitační silou ho přitahuje Země?",
+        "m": "Na jablko visící na stromě působí gravitační síla {F_g}. Jaká je hmotnost jablka?"
+      },
+      "ranges": {
+        "F_g": [1, 3],
+        "m": [0.1, 0.3]
+      }
+    },
+    {
+      "id": "car",
+      "templates": {
+        "F_g": "Osobní auto má hmotnost {m}. Jakou gravitační silou působí na vozovku?",
+        "m": "Na zaparkované auto působí gravitační síla {F_g}. Jaká je hmotnost auta?"
+      },
+      "ranges": {
+        "F_g": [10000, 25000],
+        "m": [1000, 2500]
+      }
+    },
+    {
+      "id": "book",
+      "templates": {
+        "F_g": "Učebnice fyziky má hmotnost {m}. Jak velkou gravitační silou působí na stůl?",
+        "m": "Učebnice fyziky leží na stole a působí na něj gravitační silou {F_g}. Jaká je hmotnost učebnice?"
+      },
+      "ranges": {
+        "F_g": [3, 8],
+        "m": [0.3, 0.8]
+      }
+    }
+  ]
+}

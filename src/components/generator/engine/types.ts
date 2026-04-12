@@ -37,6 +37,8 @@ export interface Problem {
   knowns: GeneratedValue[];
   unknown: GeneratedValue;
   formula: string;
+  scenario?: Scenario;
+  fillers?: Record<string, string[]>;
 }
 
 export interface GeneratorSettings {
@@ -44,4 +46,18 @@ export interface GeneratorSettings {
   count: number;
   solveFor: string;
   withConversion: boolean;
+  scenario?: Scenario | null;
+  fillers?: Record<string, string[]>;
+}
+
+export interface Scenario {
+  id: string;
+  templates: Record<string, string>;
+  ranges?: Record<string, [number, number]>;
+}
+
+export interface ScenarioBank {
+  formulaId: string;
+  fillers?: Record<string, string[]>;
+  scenarios: Scenario[];
 }

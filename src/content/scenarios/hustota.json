@@ -1,0 +1,73 @@
+{
+  "formulaId": "hustota",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "metal-cube",
+      "templates": {
+        "\\varrho": "Kovová kostka má hmotnost {m} a objem {V}. Jakou má hustotu?",
+        "m": "Kovová kostka má objem {V} a hustotu {\\varrho}. Jakou má hmotnost?",
+        "V": "Kovová kostka má hmotnost {m} a hustotu {\\varrho}. Jaký má objem?"
+      },
+      "ranges": {
+        "\\varrho": [2700, 11300],
+        "m": [1, 500],
+        "V": [0.0001, 0.05]
+      }
+    },
+    {
+      "id": "liquid",
+      "templates": {
+        "\\varrho": "{person} naplní odměrný válec kapalinou o objemu {V}. Na váze naměří hmotnost {m}. Jaká je hustota kapaliny?",
+        "m": "V nádobě je kapalina o objemu {V} a hustotě {\\varrho}. Jaká je její hmotnost?",
+        "V": "Kapalina má hmotnost {m} a hustotu {\\varrho}. Jaký objem zabírá?"
+      },
+      "ranges": {
+        "\\varrho": [800, 1200],
+        "m": [0.5, 10],
+        "V": [0.0005, 0.01]
+      }
+    },
+    {
+      "id": "stone",
+      "templates": {
+        "\\varrho": "{person} najde na zahradě kámen o hmotnosti {m}. Ponořením do vody zjistí, že má objem {V}. Jaká je hustota kamene?",
+        "m": "Kámen má objem {V} a hustotu {\\varrho}. Jaká je jeho hmotnost?",
+        "V": "Kámen váží {m} a má hustotu {\\varrho}. Jaký má objem?"
+      },
+      "ranges": {
+        "\\varrho": [2200, 3000],
+        "m": [0.5, 50],
+        "V": [0.0002, 0.02]
+      }
+    },
+    {
+      "id": "wood",
+      "templates": {
+        "\\varrho": "Dřevěný hranol má hmotnost {m} a objem {V}. Jaká je hustota dřeva?",
+        "m": "Dřevěný hranol má objem {V}. Hustota dřeva je {\\varrho}. Jaká je hmotnost hranolu?",
+        "V": "Dřevěný hranol váží {m}. Hustota dřeva je {\\varrho}. Jaký má objem?"
+      },
+      "ranges": {
+        "\\varrho": [400, 900],
+        "m": [0.5, 30],
+        "V": [0.001, 0.05]
+      }
+    },
+    {
+      "id": "ice",
+      "templates": {
+        "\\varrho": "Kus ledu má hmotnost {m} a objem {V}. Jaká je hustota ledu?",
+        "m": "Kus ledu má objem {V}. Hustota ledu je {\\varrho}. Jaká je hmotnost kusu ledu?",
+        "V": "Kus ledu váží {m}. Hustota ledu je {\\varrho}. Jaký má objem?"
+      },
+      "ranges": {
+        "\\varrho": [917, 917],
+        "m": [0.5, 20],
+        "V": [0.0005, 0.02]
+      }
+    }
+  ]
+}

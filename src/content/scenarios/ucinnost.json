@@ -1,0 +1,68 @@
+{
+  "formulaId": "ucinnost",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "pulley-system",
+      "templates": {
+        "\\eta": "{person} použije kladkostroj k zvednutí nákladu. Přitom vykoná celkovou práci {W_{in}}, ale užitečná práce je jen {W_{out}}. Jaká je účinnost kladkostroje?",
+        "W_{out}": "{person} použije kladkostroj o účinnosti {\\eta}. Celková vykonaná práce je {W_{in}}. Jaká je užitečná práce?",
+        "W_{in}": "{person} použije kladkostroj o účinnosti {\\eta}. Užitečná práce při zvedání nákladu je {W_{out}}. Jakou celkovou práci musí vykonat?"
+      },
+      "ranges": {
+        "W_{out}": [500, 5000],
+        "W_{in}": [700, 8000]
+      }
+    },
+    {
+      "id": "electric-motor",
+      "templates": {
+        "\\eta": "Elektrický motor spotřebuje energii {W_{in}} a vykoná užitečnou práci {W_{out}}. Jaká je účinnost motoru?",
+        "W_{out}": "Elektrický motor má účinnost {\\eta} a spotřebuje energii {W_{in}}. Jakou užitečnou práci vykoná?",
+        "W_{in}": "Elektrický motor má účinnost {\\eta} a vykoná užitečnou práci {W_{out}}. Kolik energie spotřebuje?"
+      },
+      "ranges": {
+        "W_{out}": [2000, 20000],
+        "W_{in}": [2500, 25000]
+      }
+    },
+    {
+      "id": "steam-engine",
+      "templates": {
+        "\\eta": "Parní stroj přemění celkovou energii {W_{in}} na užitečnou práci {W_{out}}. Jaká je účinnost parního stroje?",
+        "W_{out}": "Parní stroj má účinnost {\\eta} a dodáme mu energii {W_{in}}. Jakou užitečnou práci vykoná?",
+        "W_{in}": "Parní stroj má účinnost {\\eta} a vykoná užitečnou práci {W_{out}}. Kolik energie musíme dodat?"
+      },
+      "ranges": {
+        "W_{out}": [1000, 10000],
+        "W_{in}": [3000, 30000]
+      }
+    },
+    {
+      "id": "bicycle-dynamo",
+      "templates": {
+        "\\eta": "{person} šlape na kole a dynamo přemění mechanickou práci {W_{in}} na elektrickou energii {W_{out}}. Jaká je účinnost dynama?",
+        "W_{out}": "Dynamo na kole má účinnost {\\eta}. {person} dodá šlapáním energii {W_{in}}. Kolik elektrické energie dynamo vyrobí?",
+        "W_{in}": "Dynamo na kole má účinnost {\\eta} a vyrobí elektrickou energii {W_{out}}. Jakou mechanickou práci musí {person} vykonat?"
+      },
+      "ranges": {
+        "W_{out}": [100, 1000],
+        "W_{in}": [150, 1500]
+      }
+    },
+    {
+      "id": "inclined-plane",
+      "templates": {
+        "\\eta": "{person} vytáhne bednu po nakloněné rovině. Vykoná celkovou práci {W_{in}}, užitečná práce je {W_{out}}. Jaká je účinnost nakloněné roviny?",
+        "W_{out}": "Nakloněná rovina má účinnost {\\eta}. {person} vykoná celkovou práci {W_{in}}. Jaká je užitečná práce?",
+        "W_{in}": "Nakloněná rovina má účinnost {\\eta}. Užitečná práce při vytažení bedny je {W_{out}}. Jakou celkovou práci musí {person} vykonat?"
+      },
+      "ranges": {
+        "W_{out}": [300, 3000],
+        "W_{in}": [400, 4000]
+      }
+    }
+  ]
+}

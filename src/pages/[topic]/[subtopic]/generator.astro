@@ -10,6 +10,7 @@ export async function getStaticPaths() {
   const topics = await getCollection('topics');
   const subtopicsCollection = await getCollection('subtopics');
   const formulasCollection = await getCollection('formulas');
+  const scenariosCollection = await getCollection('scenarios');
 
   const paths = [];
   for (const topic of topics) {
@@ -18,16 +19,20 @@ export async function getStaticPaths() {
       const formulas = formulasCollection
         .filter((f) => f.data.subtopicIds.includes(subtopic.data.id))
         .map((f) => f.data);
+      const formulaIds = formulas.map((f) => f.id);
+      const scenarioBanks = scenariosCollection
+        .filter((s) => formulaIds.includes(s.data.formulaId))
+        .map((s) => s.data);
       paths.push({
         params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data, formulas },
+        props: { topic: topic.data, subtopic: subtopic.data, formulas, scenarioBanks },
       });
     }
   }
   return paths;
 }
 
-const { topic, subtopic, formulas } = Astro.props;
+const { topic, subtopic, formulas, scenarioBanks } = Astro.props;
 ---
 <BaseLayout title={`${subtopic.name} - Generátor příkladů`}>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
@@ -43,7 +48,7 @@ const { topic, subtopic, formulas } = Astro.props;
   <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="generator" />
 
   {formulas.length > 0 ? (
-    <ExerciseGenerator formulas={formulas} client:visible />
+    <ExerciseGenerator formulas={formulas} scenarioBanks={scenarioBanks} client:visible />
   ) : (
     <EmptyState
       icon="🔢"

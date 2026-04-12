@@ -1,0 +1,125 @@
+{
+  "formulaId": "vztlakova-sila",
+  "fillers": {
+    "person": [
+      "Petr",
+      "Jana",
+      "Marek",
+      "Klára",
+      "Tom",
+      "Lucie"
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "stone-in-water",
+      "templates": {
+        "F_{vz}": "Kámen o objemu {V} je ponořen ve vodě o hustotě {\\varrho}. Jaká vztlaková síla na něj působí?",
+        "V": "Na kámen ve vodě o hustotě {\\varrho} působí vztlaková síla {F_{vz}}. Jaký je objem kamene?",
+        "\\varrho": "Na kámen o objemu {V} ponořený v kapalině působí vztlaková síla {F_{vz}}. Jaká je hustota kapaliny?"
+      },
+      "ranges": {
+        "F_{vz}": [
+          0.5,
+          50
+        ],
+        "V": [
+          0.00005,
+          0.005
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "wooden-block",
+      "templates": {
+        "F_{vz}": "Dřevěný kvádr o objemu {V} plave ve vodě o hustotě {\\varrho}. Jaká vztlaková síla na něj působí?",
+        "V": "Na dřevěný kvádr ve vodě o hustotě {\\varrho} působí vztlaková síla {F_{vz}}. Jaký je objem ponořené části?",
+        "\\varrho": "Na dřevěný kvádr o ponořeném objemu {V} působí vztlaková síla {F_{vz}}. Jaká je hustota kapaliny?"
+      },
+      "ranges": {
+        "F_{vz}": [
+          1,
+          30
+        ],
+        "V": [
+          0.001,
+          0.01
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "ship-hull",
+      "templates": {
+        "F_{vz}": "Loď má ponořený objem {V} v mořské vodě o hustotě {\\varrho}. Jaká vztlaková síla na loď působí?",
+        "V": "Na loď v mořské vodě o hustotě {\\varrho} působí vztlaková síla {F_{vz}}. Jaký je ponořený objem lodi?",
+        "\\varrho": "Loď má ponořený objem {V} a působí na ni vztlaková síla {F_{vz}}. Jaká je hustota mořské vody?"
+      },
+      "ranges": {
+        "F_{vz}": [
+          10000,
+          500000
+        ],
+        "V": [
+          1,
+          50
+        ],
+        "\\varrho": [
+          1025,
+          1025
+        ]
+      }
+    },
+    {
+      "id": "iron-ball",
+      "templates": {
+        "F_{vz}": "Železná koule o objemu {V} je ponořena ve vodě o hustotě {\\varrho}. Jaká vztlaková síla na ni působí?",
+        "V": "Na železnou kouli ve vodě o hustotě {\\varrho} působí vztlaková síla {F_{vz}}. Jaký je objem koule?",
+        "\\varrho": "Na železnou kouli o objemu {V} působí vztlaková síla {F_{vz}}. Jaká je hustota kapaliny?"
+      },
+      "ranges": {
+        "F_{vz}": [
+          0.1,
+          100
+        ],
+        "V": [
+          0.00001,
+          0.01
+        ],
+        "\\varrho": [
+          1000,
+          1000
+        ]
+      }
+    },
+    {
+      "id": "submarine-ballast",
+      "templates": {
+        "F_{vz}": "Ponorka má objem {V} a je ponořena v mořské vodě o hustotě {\\varrho}. Jaká vztlaková síla na ni působí?",
+        "V": "Na ponorku v mořské vodě o hustotě {\\varrho} působí vztlaková síla {F_{vz}}. Jaký je objem ponorky?",
+        "\\varrho": "Na ponorku o objemu {V} působí vztlaková síla {F_{vz}}. Jaká je hustota mořské vody?"
+      },
+      "ranges": {
+        "F_{vz}": [
+          50000,
+          1000000
+        ],
+        "V": [
+          5,
+          100
+        ],
+        "\\varrho": [
+          1025,
+          1025
+        ]
+      }
+    }
+  ]
+}

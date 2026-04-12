@@ -2,7 +2,7 @@
   "id": "vztlak-plyny",
   "name": "Vztlaková síla v plynech",
   "subtopicIds": ["vztlak-v-plynech"],
-  "formula": "F_{vz} = V \\cdot \\rho \\cdot g",
+  "formula": "F_{vz} = V \\cdot \\varrho \\cdot g",
   "variables": [
     {
       "symbol": "F_{vz}",
@@ -22,7 +22,7 @@
       "range": [0.001, 100]
     },
     {
-      "symbol": "\\rho",
+      "symbol": "\\varrho",
       "name": "hustota vzduchu",
       "unit": "kg/m³",
       "range": [1.1, 1.4]

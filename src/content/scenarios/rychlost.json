@@ -1,0 +1,74 @@
+{
+  "formulaId": "rychlost",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie", "Honza", "Aneta"],
+    "animal": ["pes", "kočka", "zajíc", "kůň"]
+  },
+  "scenarios": [
+    {
+      "id": "bike",
+      "templates": {
+        "v": "{person} jede na kole a za {t} urazí vzdálenost {s}. Jakou měl(a) průměrnou rychlost?",
+        "s": "{person} jede na kole průměrnou rychlostí {v}. Jak daleko dojede za {t}?",
+        "t": "{person} jede na kole průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
+      },
+      "ranges": {
+        "v": [3, 8],
+        "s": [500, 10000],
+        "t": [60, 3600]
+      }
+    },
+    {
+      "id": "car",
+      "templates": {
+        "v": "Auto ujelo úsek silnice dlouhý {s} za {t}. Jakou mělo průměrnou rychlost?",
+        "s": "Auto jede po silnici průměrnou rychlostí {v}. Jakou vzdálenost ujede za {t}?",
+        "t": "Auto jede po silnici průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
+      },
+      "ranges": {
+        "v": [15, 36],
+        "s": [5000, 200000],
+        "t": [300, 7200]
+      }
+    },
+    {
+      "id": "runner",
+      "templates": {
+        "v": "{person} běží a za {t} uběhne {s}. Jakou měl(a) průměrnou rychlost?",
+        "s": "{person} běží průměrnou rychlostí {v}. Jak daleko doběhne za {t}?",
+        "t": "{person} běží průměrnou rychlostí {v}. Za jak dlouho uběhne {s}?"
+      },
+      "ranges": {
+        "v": [2, 5],
+        "s": [100, 5000],
+        "t": [30, 1800]
+      }
+    },
+    {
+      "id": "snail",
+      "templates": {
+        "v": "Šnek se plazí po zahradní cestičce. Za {t} urazí {s}. Jakou má průměrnou rychlost?",
+        "s": "Šnek se plazí průměrnou rychlostí {v}. Jak daleko se doplazí za {t}?",
+        "t": "Šnek se plazí průměrnou rychlostí {v}. Za jak dlouho překoná vzdálenost {s}?"
+      },
+      "ranges": {
+        "v": [0.5, 2],
+        "s": [1, 20],
+        "t": [2, 30]
+      }
+    },
+    {
+      "id": "train",
+      "templates": {
+        "v": "Vlak projel úsek trati dlouhý {s} za {t}. Jakou měl průměrnou rychlost?",
+        "s": "Vlak jede průměrnou rychlostí {v}. Jakou vzdálenost ujede za {t}?",
+        "t": "Vlak jede průměrnou rychlostí {v}. Za jak dlouho ujede vzdálenost {s}?"
+      },
+      "ranges": {
+        "v": [20, 50],
+        "s": [10000, 500000],
+        "t": [600, 18000]
+      }
+    }
+  ]
+}

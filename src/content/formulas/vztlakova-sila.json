@@ -2,7 +2,7 @@
   "id": "vztlakova-sila",
   "name": "Vztlaková síla",
   "subtopicIds": ["vztlakova-sila"],
-  "formula": "F_{vz} = V \\cdot \\rho \\cdot g",
+  "formula": "F_{vz} = V \\cdot \\varrho \\cdot g",
   "variables": [
     {
       "symbol": "F_{vz}",
@@ -25,7 +25,7 @@
       "range": [0.001, 10]
     },
     {
-      "symbol": "\\rho",
+      "symbol": "\\varrho",
       "name": "hustota kapaliny",
       "unit": "kg/m³",
       "range": [800, 13600]

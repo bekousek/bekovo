@@ -1,0 +1,66 @@
+{
+  "formulaId": "atmosfericky-tlak",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "mercury-barometer",
+      "templates": {
+        "p": "V rtuťovém barometru stojí rtuť ve výšce {h}. Hustota rtuti je {\\varrho}. Jaký je atmosférický tlak?",
+        "h": "Atmosférický tlak je {p}. Hustota rtuti je {\\varrho}. V jaké výšce stojí rtuť v barometru?"
+      },
+      "ranges": {
+        "h": [0.7, 0.8],
+        "\\varrho": [13600, 13600]
+      }
+    },
+    {
+      "id": "water-barometer",
+      "templates": {
+        "p": "Ve vodním barometru stoupne voda do výšky {h}. Hustota vody je {\\varrho}. Jaký je atmosférický tlak?",
+        "h": "Atmosférický tlak je {p}. Hustota vody je {\\varrho}. Do jaké výšky by stoupla voda ve vodním barometru?",
+        "\\varrho": "Ve vodním barometru stoupne voda do výšky {h}. Atmosférický tlak je {p}. Jaká je hustota vody?"
+      },
+      "ranges": {
+        "h": [9, 11],
+        "\\varrho": [1000, 1000]
+      }
+    },
+    {
+      "id": "u-tube-manometer",
+      "templates": {
+        "p": "{person} měří tlak plynu U-trubicí naplněnou kapalinou o hustotě {\\varrho}. Výškový rozdíl hladin je {h}. Jaký tlak naměří?",
+        "h": "{person} měří tlak plynu {p} pomocí U-trubice s kapalinou o hustotě {\\varrho}. Jaký je výškový rozdíl hladin?",
+        "\\varrho": "{person} měří tlak plynu {p} pomocí U-trubice. Výškový rozdíl hladin kapaliny je {h}. Jaká je hustota kapaliny v trubici?"
+      },
+      "ranges": {
+        "h": [0.05, 0.5],
+        "\\varrho": [800, 13600]
+      }
+    },
+    {
+      "id": "torricelli-experiment",
+      "templates": {
+        "p": "{person} provádí Torricelliho pokus. Rtuť v trubici klesne na výšku {h}. Hustota rtuti je {\\varrho}. Jaký je atmosférický tlak?",
+        "h": "{person} provádí Torricelliho pokus. Atmosférický tlak je {p} a hustota rtuti je {\\varrho}. V jaké výšce se ustálí hladina rtuti?"
+      },
+      "ranges": {
+        "h": [0.74, 0.77],
+        "\\varrho": [13600, 13600]
+      }
+    },
+    {
+      "id": "oil-column",
+      "templates": {
+        "p": "Sloupec oleje o výšce {h} a hustotě {\\varrho} vyvolává na dně nádoby určitý tlak. Jak velký je tento tlak?",
+        "h": "Olej o hustotě {\\varrho} vyvolává na dně nádoby tlak {p}. Jaká je výška sloupce oleje?",
+        "\\varrho": "Sloupec oleje o výšce {h} vyvolává na dně nádoby tlak {p}. Jaká je hustota oleje?"
+      },
+      "ranges": {
+        "h": [0.1, 1],
+        "\\varrho": [850, 920]
+      }
+    }
+  ]
+}

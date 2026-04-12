@@ -1,0 +1,63 @@
+{
+  "formulaId": "frekvence",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "pendulum",
+      "templates": {
+        "f": "Kyvadlo hodin má periodu kyvu {T}. Jaká je frekvence kývání?",
+        "T": "Kyvadlo hodin kmitá s frekvencí {f}. Jaká je perioda jednoho kyvu?"
+      },
+      "ranges": {
+        "f": [0.5, 2],
+        "T": [0.5, 2]
+      }
+    },
+    {
+      "id": "heartbeat",
+      "templates": {
+        "f": "Srdce {person} tepe s periodou {T}. Jaká je frekvence tepů?",
+        "T": "Srdce {person} tepe s frekvencí {f}. Jaká je perioda jednoho tepu?"
+      },
+      "ranges": {
+        "f": [1, 1.5],
+        "T": [0.6, 1]
+      }
+    },
+    {
+      "id": "tuning-fork",
+      "templates": {
+        "f": "Ladička kmitá s periodou {T}. Jaká je frekvence kmitání?",
+        "T": "Ladička kmitá s frekvencí {f}. Jaká je perioda kmitání?"
+      },
+      "ranges": {
+        "f": [256, 512],
+        "T": [0.002, 0.004]
+      }
+    },
+    {
+      "id": "guitar-string",
+      "templates": {
+        "f": "{person} rozkmitá strunu kytary. Struna kmitá s periodou {T}. Jaká je frekvence kmitání struny?",
+        "T": "{person} rozkmitá strunu kytary. Struna kmitá s frekvencí {f}. Jaká je perioda kmitání struny?"
+      },
+      "ranges": {
+        "f": [82, 330],
+        "T": [0.003, 0.012]
+      }
+    },
+    {
+      "id": "electric-current",
+      "templates": {
+        "f": "Střídavý proud v elektrické síti má periodu {T}. Jaká je jeho frekvence?",
+        "T": "Střídavý proud v elektrické síti má frekvenci {f}. Jaká je jeho perioda?"
+      },
+      "ranges": {
+        "f": [50, 50],
+        "T": [0.02, 0.02]
+      }
+    }
+  ]
+}

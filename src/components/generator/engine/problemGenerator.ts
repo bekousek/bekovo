@@ -96,10 +96,16 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
       : -1;
     const forcedConvertSymbol = forcedConvertIdx >= 0 ? convertibleVars[forcedConvertIdx].symbol : null;
 
+    // Scenario range overrides
+    const scenarioRanges = settings.scenario?.ranges;
+
     for (const v of knownVars) {
       let value: number;
       if (v.constant !== undefined) {
         value = v.constant;
+      } else if (scenarioRanges && scenarioRanges[v.symbol]) {
+        const [min, max] = scenarioRanges[v.symbol];
+        value = randomInRange(min, max);
       } else if (v.range) {
         value = randomInRange(v.range[0], v.range[1]);
       } else {
@@ -154,6 +160,8 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
       knowns,
       unknown,
       formula: formula.formula,
+      scenario: settings.scenario ?? undefined,
+      fillers: settings.fillers,
     });
   }
 

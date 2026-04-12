@@ -1,0 +1,68 @@
+{
+  "formulaId": "tlakova-sila",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "hydraulic-press",
+      "templates": {
+        "F": "V hydraulickém lisu působí tlak {p} na píst o ploše {S}. Jaká je tlaková síla na píst?",
+        "p": "Hydraulický lis vyvíjí tlakovou sílu {F} na píst o ploše {S}. Jaký tlak v kapalině působí?",
+        "S": "V hydraulickém lisu působí tlak {p} a tlaková síla na píst je {F}. Jaká je plocha pístu?"
+      },
+      "ranges": {
+        "p": [50000, 500000],
+        "S": [0.005, 0.05]
+      }
+    },
+    {
+      "id": "window-in-wind",
+      "templates": {
+        "F": "Vítr vyvíjí tlak {p} na okenní tabuli o ploše {S}. Jaká tlaková síla působí na okno?",
+        "p": "Na okenní tabuli o ploše {S} působí tlaková síla větru {F}. Jaký tlak vítr vyvíjí?",
+        "S": "Vítr vyvíjí tlak {p} a na okno působí tlaková síla {F}. Jaká je plocha okenní tabule?"
+      },
+      "ranges": {
+        "p": [100, 2000],
+        "S": [0.5, 3]
+      }
+    },
+    {
+      "id": "piston",
+      "templates": {
+        "F": "V pneumatickém válci je tlak {p} a píst má plochu {S}. Jaká tlaková síla působí na píst?",
+        "p": "Píst o ploše {S} je vytlačován tlakovou silou {F}. Jaký je tlak plynu ve válci?",
+        "S": "Plyn ve válci má tlak {p} a na píst působí tlaková síla {F}. Jaká je plocha pístu?"
+      },
+      "ranges": {
+        "p": [100000, 500000],
+        "S": [0.001, 0.01]
+      }
+    },
+    {
+      "id": "book-on-desk",
+      "templates": {
+        "F": "Kniha leží na stole a vyvíjí tlak {p} na plochu {S}. Jaká je tlaková síla knihy na stůl?",
+        "p": "Kniha působí na stůl tlakovou silou {F} a leží na ploše {S}. Jaký tlak kniha vyvíjí?",
+        "S": "Kniha vyvíjí na stůl tlak {p} a působí tlakovou silou {F}. Na jaké ploše kniha leží?"
+      },
+      "ranges": {
+        "p": [100, 500],
+        "S": [0.02, 0.06]
+      }
+    },
+    {
+      "id": "atmospheric-pressure",
+      "templates": {
+        "F": "Atmosférický tlak {p} působí na povrch stolu o ploše {S}. Jaká je tlaková síla vzduchu na stůl?",
+        "p": "Na stůl o ploše {S} působí atmosféra tlakovou silou {F}. Jaký je atmosférický tlak?",
+        "S": "Atmosférický tlak {p} působí na stůl tlakovou silou {F}. Jaká je plocha stolu?"
+      },
+      "ranges": {
+        "p": [98000, 104000],
+        "S": [0.5, 2]
+      }
+    }
+  ]
+}

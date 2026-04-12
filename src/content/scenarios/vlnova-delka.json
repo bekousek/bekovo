@@ -1,0 +1,66 @@
+{
+  "formulaId": "vlnova-delka",
+  "fillers": {
+    "person": ["Petr", "Jana", "Marek", "Klára", "Tom", "Lucie"]
+  },
+  "scenarios": [
+    {
+      "id": "sound-wave-air",
+      "templates": {
+        "\\lambda": "Zvuk se šíří vzduchem rychlostí {v}. Perioda zvukové vlny je {T}. Jaká je vlnová délka zvuku?",
+        "T": "Zvuková vlna ve vzduchu má vlnovou délku {\\lambda}. Rychlost zvuku ve vzduchu je {v}. Jaká je perioda vlny?"
+      },
+      "ranges": {
+        "v": [343, 343],
+        "T": [0.001, 0.01]
+      }
+    },
+    {
+      "id": "water-wave",
+      "templates": {
+        "\\lambda": "{person} pozoruje vlny na hladině jezera. Vlny se šíří rychlostí {v} a mají periodu {T}. Jaká je vlnová délka vln?",
+        "v": "Vlny na hladině jezera mají vlnovou délku {\\lambda} a periodu {T}. Jakou rychlostí se vlny šíří?",
+        "T": "Vlny na hladině jezera se šíří rychlostí {v} a mají vlnovou délku {\\lambda}. Jaká je perioda vln?"
+      },
+      "ranges": {
+        "v": [1, 5],
+        "T": [1, 5]
+      }
+    },
+    {
+      "id": "seismic-wave",
+      "templates": {
+        "\\lambda": "Seismická vlna se šíří zemskou kůrou rychlostí {v} s periodou {T}. Jaká je vlnová délka seismické vlny?",
+        "v": "Seismická vlna má vlnovou délku {\\lambda} a periodu {T}. Jakou rychlostí se vlna šíří?",
+        "T": "Seismická vlna se šíří rychlostí {v} a má vlnovou délku {\\lambda}. Jaká je perioda vlny?"
+      },
+      "ranges": {
+        "v": [3000, 8000],
+        "T": [1, 10]
+      }
+    },
+    {
+      "id": "sound-in-water",
+      "templates": {
+        "\\lambda": "Zvuk se šíří ve vodě rychlostí {v}. Perioda zvukové vlny je {T}. Jaká je vlnová délka zvuku ve vodě?",
+        "T": "Zvuková vlna ve vodě má vlnovou délku {\\lambda}. Rychlost zvuku ve vodě je {v}. Jaká je perioda vlny?"
+      },
+      "ranges": {
+        "v": [1500, 1500],
+        "T": [0.001, 0.01]
+      }
+    },
+    {
+      "id": "radio-wave",
+      "templates": {
+        "\\lambda": "Rozhlasová stanice vysílá radiové vlny. Vlny se šíří rychlostí {v} s periodou {T}. Jaká je vlnová délka vysílání?",
+        "v": "Radiová vlna má vlnovou délku {\\lambda} a periodu {T}. Jakou rychlostí se vlna šíří?",
+        "T": "Radiová vlna se šíří rychlostí {v} a má vlnovou délku {\\lambda}. Jaká je perioda vlny?"
+      },
+      "ranges": {
+        "v": [300000000, 300000000],
+        "T": [0.000000001, 0.00000001]
+      }
+    }
+  ]
+}
