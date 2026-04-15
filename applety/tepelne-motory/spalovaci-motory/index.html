@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tepelné motory - Applet</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    /* ── Engine Type Tabs ── */
+    #engine-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      padding: 16px 16px 0;
+      justify-content: center;
+    }
+    .engine-tab {
+      background: #1e293b;
+      border: 2px solid #334155;
+      color: #94a3b8;
+      padding: 8px 16px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .engine-tab:hover { border-color: #3b82f6; color: #e2e8f0; }
+    .engine-tab.active {
+      background: #1e3a5f;
+      border-color: #3b82f6;
+      color: #60a5fa;
+      box-shadow: 0 0 12px rgba(59, 130, 246, 0.25);
+    }
+
+    /* ── Canvas Area ── */
+    #canvas-wrap {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 16px;
+      min-height: 0;
+    }
+    canvas {
+      display: block;
+      border-radius: 12px;
+      background: #0f172a;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    /* ── Cycle Progress Bar ── */
+    #progress-wrap {
+      padding: 0 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    #progress-bar {
+      height: 8px;
+      border-radius: 4px;
+      background: #1e293b;
+      position: relative;
+      overflow: hidden;
+    }
+    #progress-fill {
+      position: absolute;
+      left: 0; top: 0; bottom: 0;
+      background: #3b82f6;
+      border-radius: 4px;
+      transition: background 0.2s;
+    }
+    #progress-labels {
+      display: flex;
+      font-size: 11px;
+      color: #64748b;
+      font-weight: 600;
+    }
+    #progress-labels span {
+      flex: 1;
+      text-align: center;
+      padding: 2px 0;
+      border-radius: 3px;
+      transition: all 0.2s;
+    }
+    #progress-labels span.active {
+      color: #e2e8f0;
+    }
+
+    /* ── Controls ── */
+    #controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      padding: 12px 16px 20px;
+      flex-wrap: wrap;
+    }
+    .ctrl-btn {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      border: 2px solid #334155;
+      background: #1e293b;
+      color: #e2e8f0;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.15s;
+    }
+    .ctrl-btn:hover { border-color: #3b82f6; background: #1e3a5f; }
+    .ctrl-btn:active { transform: scale(0.95); }
+    .ctrl-btn.play { width: 52px; height: 52px; border-radius: 50%; font-size: 22px; }
+
+    #speed-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: 12px;
+    }
+    #speed-group label { font-size: 13px; color: #64748b; }
+    #speed-slider {
+      width: 120px;
+      accent-color: #3b82f6;
+    }
+    #speed-val {
+      font-size: 14px;
+      font-weight: 700;
+      color: #60a5fa;
+      min-width: 36px;
+      text-align: center;
+    }
+
+    /* ── Info Panel ── */
+    #info-panel {
+      text-align: center;
+      padding: 0 16px 4px;
+    }
+    #stroke-label {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      transition: color 0.2s;
+    }
+    #stroke-desc {
+      font-size: 13px;
+      color: #94a3b8;
+      margin-top: 2px;
+    }
+
+    @media (max-width: 600px) {
+      .engine-tab { padding: 6px 10px; font-size: 12px; }
+      #speed-group { margin-left: 0; margin-top: 4px; }
+      #stroke-label { font-size: 16px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="engine-tabs"></div>
+  <div id="info-panel">
+    <div id="stroke-label"></div>
+    <div id="stroke-desc"></div>
+  </div>
+  <div id="canvas-wrap">
+    <canvas id="canvas"></canvas>
+  </div>
+  <div id="progress-wrap">
+    <div id="progress-bar"><div id="progress-fill"></div></div>
+    <div id="progress-labels"></div>
+  </div>
+  <div id="controls">
+    <button class="ctrl-btn" id="btn-back" title="Krok zpět">&#9664;&#9664;</button>
+    <button class="ctrl-btn play" id="btn-play" title="Pauza / Spustit">&#9208;</button>
+    <button class="ctrl-btn" id="btn-fwd" title="Krok vpřed">&#9654;&#9654;</button>
+    <div id="speed-group">
+      <label for="speed-slider">Rychlost:</label>
+      <input type="range" id="speed-slider" min="0.1" max="3" step="0.1" value="1">
+      <span id="speed-val">1.0&times;</span>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

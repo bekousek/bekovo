@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
       "port": 4321
+    },
+    {
+      "name": "applet",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "applety/tepelne-motory/spalovaci-motory", "-l", "5555", "--no-clipboard"],
+      "port": 5555
     }
   ]
 }
