@@ -16,7 +16,7 @@ const sections = [
   { id: 'materialy', label: 'Další materiály', href: `/${topicId}/${subtopicId}/materialy`, icon: '📚' },
   { id: 'ukoly', label: 'Domácí úkoly', href: `/${topicId}/${subtopicId}/ukoly`, icon: '🏠' },
   { id: 'testy', label: 'Minulé testy', href: `/${topicId}/${subtopicId}/testy`, icon: '📄' },
-  { id: 'applet', label: 'Applet', href: `https://applety.bekovo.cz/${topicId}/${subtopicId}`, icon: '🖥️', external: true },
+  { id: 'applet', label: 'Applet', href: `/applety/${topicId}/${subtopicId}/`, icon: '🖥️' },
 ];
 ---
 <nav class="mb-8">
@@ -24,7 +24,6 @@ const sections = [
     {sections.map((section) => (
       <a
         href={section.href}
-        {...(section.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
         class={`inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
           currentSection === section.id
             ? 'bg-primary-600 text-white shadow-sm'
