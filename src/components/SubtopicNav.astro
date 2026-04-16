@@ -1,4 +1,6 @@
 ---
+import { hasApplet } from '../lib/applets';
+
 interface Props {
   topicId: string;
   subtopicId: string;
@@ -16,7 +18,9 @@ const sections = [
   { id: 'materialy', label: 'Další materiály', href: `/${topicId}/${subtopicId}/materialy`, icon: '📚' },
   { id: 'ukoly', label: 'Domácí úkoly', href: `/${topicId}/${subtopicId}/ukoly`, icon: '🏠' },
   { id: 'testy', label: 'Minulé testy', href: `/${topicId}/${subtopicId}/testy`, icon: '📄' },
-  { id: 'applet', label: 'Applet', href: `/applety/${topicId}/${subtopicId}/`, icon: '🖥️' },
+  ...(hasApplet(subtopicId)
+    ? [{ id: 'applet', label: 'Applet', href: `/applety/${topicId}/${subtopicId}/`, icon: '🖥️' }]
+    : []),
 ];
 ---
 <nav class="mb-8">

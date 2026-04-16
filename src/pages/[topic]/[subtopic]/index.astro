@@ -3,6 +3,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
 import SubtopicNav from '../../../components/SubtopicNav.astro';
 import { getCollection } from 'astro:content';
+import { hasApplet } from '../../../lib/applets';
 
 export async function getStaticPaths() {
   const topics = await getCollection('topics');
@@ -23,7 +24,8 @@ export async function getStaticPaths() {
 
 const { topic, subtopic } = Astro.props;
 
-const sections = [
+type Section = { id: string; label: string; icon: string; desc: string; href?: string };
+const sections: Section[] = [
   { id: 'zapis', label: 'Vzorový zápis do sešitu', icon: '📝', desc: 'Vzorový zápis s možností exportu do PDF' },
   { id: 'priprava', label: 'Příprava na hodinu', icon: '📖', desc: 'Příprava na hodinu v Google Docs' },
   { id: 'generator', label: 'Generátor příkladů', icon: '🔢', desc: 'Generování příkladů s exportem do PDF' },
@@ -33,6 +35,16 @@ const sections = [
   { id: 'ukoly', label: 'Dobrovolné domácí úkoly', icon: '🏠', desc: 'Výzkumné práce na doma' },
   { id: 'testy', label: 'Minulé testy', icon: '📄', desc: 'Dokumenty z minulých testů' },
 ];
+
+if (hasApplet(subtopic.id)) {
+  sections.push({
+    id: 'applet',
+    label: 'Applet',
+    icon: '🖥️',
+    desc: 'Interaktivní animace',
+    href: `/applety/${topic.id}/${subtopic.id}/`,
+  });
+}
 ---
 <BaseLayout title={`${subtopic.name} - Přehled`}>
   <Breadcrumb items={[
@@ -49,7 +61,7 @@ const sections = [
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
     {sections.map((section) => (
       <a
-        href={`/${topic.id}/${subtopic.id}/${section.id}`}
+        href={section.href ?? `/${topic.id}/${subtopic.id}/${section.id}`}
         class="flex flex-col items-center gap-2 bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md hover:border-primary-300 transition-all duration-200 text-center"
       >
         <span class="text-3xl">{section.icon}</span>

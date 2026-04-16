@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spalovací motory – Applet</title>
+  <title>Parní stroj – Applet</title>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -17,7 +17,7 @@
       overflow-x: hidden;
     }
 
-    /* ── Engine Type Tabs ── */
+    /* ── Engine Type Tabs (hidden when single engine) ── */
     #engine-tabs {
       display: flex;
       flex-wrap: wrap;
@@ -149,7 +149,7 @@
     /* ── Info Panel ── */
     #info-panel {
       text-align: center;
-      padding: 0 16px 4px;
+      padding: 16px 16px 4px;
     }
     #stroke-label {
       font-size: 20px;
@@ -193,7 +193,7 @@
       <span id="speed-val">1.0&times;</span>
     </div>
   </div>
-  <script>window.ENGINE_FILTER = ['zazehovy', 'vznetovy', 'dvoutaktovy'];</script>
+  <script>window.ENGINE_FILTER = ['parni'];</script>
   <script src="/applety/tepelne-motory/_shared/app.js"></script>
 </body>
 </html>
