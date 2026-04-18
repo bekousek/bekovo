@@ -1040,337 +1040,532 @@ function drawTwoStroke(c, phase, w, h) {
 function drawSteam(c, phase, w, h) {
   beginLogical(c, w, h);
 
-  const CY = 260;           // cylinder center y
-  const R = 55;              // crank radius
-  const L = 150;             // rod length
-  const CRANK_CX = 620;     // crank/flywheel center x
+  /* ═════════════════════════════════════════════════════
+     Full steam locomotive (side cutaway).
+     Coordinate system: 800 × 600 logical units.
+     Locomotive moves to the RIGHT (chimney on right, cab on left).
 
-  // Cylinder geometry (horizontal)
-  const CYL_T = CY - 70, CYL_B = CY + 70;
-  const CYL_L = 120, CYL_R = 430;
-  const CYL_H = CYL_B - CYL_T;
-  const WALL = 12;
-  const PISTON_W = 24;
+     Layering order (back → front):
+       1. sky + ground + rails
+       2. cab (behind boiler tail)
+       3. boiler + firebox cutaway with fire tubes
+       4. dome, safety valve, steam pipe to valve chest
+       5. smoke box + chimney + smoke plume
+       6. valve chest, cylinder, piston, piston rod, crosshead
+       7. connecting rod (front)
+       8. driving wheels + leading wheel
+       9. coupling rod (crosses over wheels – must be drawn on top)
+      10. labels
+     ═════════════════════════════════════════════════════ */
 
-  // Crank kinematics (horizontal layout)
+  // Crank kinematics — phase drives wheel rotation.
   const crankA = phase * TAU;
-  const pinX = CRANK_CX - R * Math.cos(crankA);
-  const pinY = CY - R * Math.sin(crankA);
-  const dy = pinY - CY;
-  const pX = pinX - Math.sqrt(L * L - dy * dy); // piston center x
+  const DRV_CY = 440;             // driving-wheel axle y
+  const DRV1_CX = 295;            // rear driving wheel
+  const DRV2_CX = 475;            // front driving wheel (drives the piston)
+  const DRV_R  = 70;              // driving wheel radius
+  const R_CRANK = 24;             // crank radius (half the piston stroke)
+  const ROD_L  = 155;             // connecting-rod length
+  const XHEAD_Y = 415;            // crosshead / piston-rod height
 
-  const halfStroke = phase < 0.5 ? 0 : 1;
+  // Driving-wheel crank pins (both wheels mechanically linked → same angle)
+  const pin1X = DRV1_CX + R_CRANK * Math.cos(crankA);
+  const pin1Y = DRV_CY  + R_CRANK * Math.sin(crankA);
+  const pin2X = DRV2_CX + R_CRANK * Math.cos(crankA);
+  const pin2Y = DRV_CY  + R_CRANK * Math.sin(crankA);
 
-  // ── Valve chest (above cylinder) ──
-  const vcTop = CYL_T - 70;
-  const vcBot = CYL_T - 5;
-  const vcLeft = CYL_L + 60;
-  const vcRight = CYL_R - 60;
-  const vcH = vcBot - vcTop;
-  const vcW = vcRight - vcLeft;
+  // Crosshead x = pin2X + sqrt(L² - (XHEAD_Y - pin2Y)²). Piston is right of drivers.
+  const dyRod = XHEAD_Y - pin2Y;
+  const xheadX = pin2X + Math.sqrt(ROD_L * ROD_L - dyRod * dyRod);
 
-  // Valve chest body
-  c.fillStyle = metalGrad(c, vcLeft, vcTop, vcW, vcH, '#4b5563', 'v');
-  roundRect(c, vcLeft, vcTop, vcW, vcH, 6); c.fill();
-  outlineRoundRect(c, vcLeft, vcTop, vcW, vcH, 6);
+  // Half of the cycle = which side of the piston gets live steam.
+  //   phase 0.00 – 0.50 : piston moves LEFT  → live steam on RIGHT, exhaust on LEFT
+  //   phase 0.50 – 1.00 : piston moves RIGHT → live steam on LEFT,  exhaust on RIGHT
+  const pistonMovingRight = (phase >= 0.5);
 
-  // Steam ports (two openings from valve chest into cylinder)
-  const portW = 20;
-  const port1X = vcLeft + 40; // left port
-  const port2X = vcRight - 40 - portW; // right port
-  const portY = vcBot;
-  const portH2 = CYL_T + WALL - vcBot + 5;
+  // ── 1. Sky + ground ─────────────────────────────────
+  const skyG = c.createLinearGradient(0, 0, 0, 540);
+  skyG.addColorStop(0, '#0b1220');
+  skyG.addColorStop(1, '#1e293b');
+  c.fillStyle = skyG;
+  c.fillRect(0, 0, 800, 540);
 
-  // Port passages
-  c.fillStyle = '#374151';
-  c.fillRect(port1X, portY, portW, portH2);
-  outlineRect(c, port1X, portY, portW, portH2);
-  c.fillRect(port2X, portY, portW, portH2);
-  outlineRect(c, port2X, portY, portW, portH2);
-
-  // D-shaped slide valve
-  // The valve slides horizontally to cover/uncover ports
-  // In first half (phase 0-0.5): uncovers left port (steam pushes right), covers right port
-  // In second half: uncovers right port, covers left port
-  const valveTravel = 50;
-  const valveOffset = Math.sin(crankA) * valveTravel / 2; // driven by eccentric
-  const valveX = (vcLeft + vcRight) / 2 + valveOffset - 40;
-  const valveW = 80;
-  const valveH = vcH - 12;
-
-  // Steam fill in valve chest (live steam — bright blue)
-  c.fillStyle = 'rgba(120,190,255,0.25)';
-  c.fillRect(vcLeft + 4, vcTop + 4, vcW - 8, vcH - 8);
-
-  // Draw slide valve (D-shape)
-  c.fillStyle = '#64748b';
-  roundRect(c, valveX, vcTop + 6, valveW, valveH, 4); c.fill();
-  outlineRoundRect(c, valveX, vcTop + 6, valveW, valveH, 4);
-  // Valve cavity (the D opening underneath)
-  c.fillStyle = '#2d3748';
-  c.fillRect(valveX + 15, vcTop + 6 + valveH - 12, valveW - 30, 12);
-
-  // Color the ports based on which is active
-  const leftPortActive = (valveOffset < -5); // left port uncovered = steam enters left side
-  const rightPortActive = (valveOffset > 5);
-
-  if (leftPortActive) {
-    // Live steam through left port (bright blue)
-    c.fillStyle = 'rgba(100,180,255,0.45)';
-    c.fillRect(port1X + 2, portY + 2, portW - 4, portH2 - 2);
-    // Exhaust through right port (faded)
-    c.fillStyle = 'rgba(180,190,200,0.2)';
-    c.fillRect(port2X + 2, portY + 2, portW - 4, portH2 - 2);
-  } else if (rightPortActive) {
-    c.fillStyle = 'rgba(100,180,255,0.45)';
-    c.fillRect(port2X + 2, portY + 2, portW - 4, portH2 - 2);
-    c.fillStyle = 'rgba(180,190,200,0.2)';
-    c.fillRect(port1X + 2, portY + 2, portW - 4, portH2 - 2);
-  }
-
-  // ── Steam inlet pipe (from left, going to valve chest) ──
-  const inletPipeY = vcTop + vcH / 2;
-  c.fillStyle = metalGrad(c, 30, inletPipeY - 12, vcLeft - 30, 24, '#4b5563', 'h');
-  c.fillRect(30, inletPipeY - 12, vcLeft - 25, 24);
-  outlineRect(c, 30, inletPipeY - 12, vcLeft - 25, 24);
-
-  // Pipe flange
-  c.fillStyle = '#5b6370';
-  c.fillRect(30, inletPipeY - 16, 10, 32);
-  outlineRect(c, 30, inletPipeY - 16, 10, 32);
-
-  // ── Exhaust pipe (going up from valve chest) ──
-  const exhaustPipeX = vcLeft + vcW / 2;
-  c.fillStyle = metalGrad(c, exhaustPipeX - 12, 10, 24, vcTop - 10, '#4b5563', 'v');
-  c.fillRect(exhaustPipeX - 12, 10, 24, vcTop - 10);
-  outlineRect(c, exhaustPipeX - 12, 10, 24, vcTop - 10);
-  // Exhaust arrow
-  c.globalAlpha = 0.5;
-  arrow(c, exhaustPipeX, vcTop - 5, exhaustPipeX, 15, '#9ca3af', 2.5);
-  c.globalAlpha = 1;
-
-  // ── Steam fill in cylinder chambers ──
-  const pistonLeft = pX - PISTON_W / 2;
-  const pistonRight = pX + PISTON_W / 2;
-
-  // Left chamber (between left end and piston)
-  if (halfStroke === 0) {
-    // Active steam on left — bright blue
-    const steamGrad = c.createLinearGradient(CYL_L, 0, pistonLeft, 0);
-    steamGrad.addColorStop(0, 'rgba(100,180,255,0.35)');
-    steamGrad.addColorStop(1, 'rgba(120,190,255,0.2)');
-    c.fillStyle = steamGrad;
-    c.fillRect(CYL_L + 2, CYL_T + WALL, pistonLeft - CYL_L - 2, CYL_H - 2 * WALL);
-
-    // Animated steam particles on active side
-    c.save();
-    const particleCount = 8;
-    for (let i = 0; i < particleCount; i++) {
-      const t = ((phase * 3 + i / particleCount) % 1);
-      const px = CYL_L + 10 + t * (pistonLeft - CYL_L - 20);
-      const py = CY + Math.sin(t * 8 + i * 2.5) * 25;
-      const size = 3 + Math.sin(t * PI) * 4;
-      c.fillStyle = `rgba(150,210,255,${0.3 * Math.sin(t * PI)})`;
-      c.beginPath(); c.arc(px, py, size, 0, TAU); c.fill();
-    }
-    c.restore();
-  } else {
-    // Exhaust on left — faded
-    c.fillStyle = 'rgba(180,190,200,0.12)';
-    c.fillRect(CYL_L + 2, CYL_T + WALL, pistonLeft - CYL_L - 2, CYL_H - 2 * WALL);
-  }
-
-  // Right chamber
-  if (halfStroke === 1) {
-    const steamGrad = c.createLinearGradient(pistonRight, 0, CYL_R, 0);
-    steamGrad.addColorStop(0, 'rgba(120,190,255,0.2)');
-    steamGrad.addColorStop(1, 'rgba(100,180,255,0.35)');
-    c.fillStyle = steamGrad;
-    c.fillRect(pistonRight, CYL_T + WALL, CYL_R - pistonRight - 2, CYL_H - 2 * WALL);
-
-    c.save();
-    const particleCount = 8;
-    for (let i = 0; i < particleCount; i++) {
-      const t = ((phase * 3 + i / particleCount) % 1);
-      const px = pistonRight + 10 + t * (CYL_R - pistonRight - 20);
-      const py = CY + Math.sin(t * 8 + i * 2.5) * 25;
-      const size = 3 + Math.sin(t * PI) * 4;
-      c.fillStyle = `rgba(150,210,255,${0.3 * Math.sin(t * PI)})`;
-      c.beginPath(); c.arc(px, py, size, 0, TAU); c.fill();
-    }
-    c.restore();
-  } else {
-    c.fillStyle = 'rgba(180,190,200,0.12)';
-    c.fillRect(pistonRight, CYL_T + WALL, CYL_R - pistonRight - 2, CYL_H - 2 * WALL);
-  }
-
-  // ── Cylinder ──
-  c.fillStyle = metalGrad(c, CYL_L, CYL_T, CYL_R - CYL_L, WALL, '#4b5563', 'v');
-  c.fillRect(CYL_L, CYL_T, CYL_R - CYL_L, WALL); // top wall
-  outlineRect(c, CYL_L, CYL_T, CYL_R - CYL_L, WALL);
-
-  c.fillStyle = metalGrad(c, CYL_L, CYL_B - WALL, CYL_R - CYL_L, WALL, '#4b5563', 'v');
-  c.fillRect(CYL_L, CYL_B - WALL, CYL_R - CYL_L, WALL); // bottom wall
-  outlineRect(c, CYL_L, CYL_B - WALL, CYL_R - CYL_L, WALL);
-
-  // Left end cap with stuffing box
-  c.fillStyle = metalGrad(c, CYL_L - 14, CYL_T, 18, CYL_H, '#4b5563', 'h');
-  roundRect(c, CYL_L - 14, CYL_T - 5, 18, CYL_H + 10, 4); c.fill();
-  outlineRoundRect(c, CYL_L - 14, CYL_T - 5, 18, CYL_H + 10, 4);
-
-  // Right end cap (where piston rod exits)
-  c.fillStyle = metalGrad(c, CYL_R - 4, CYL_T, 18, CYL_H, '#4b5563', 'h');
-  roundRect(c, CYL_R - 4, CYL_T - 5, 18, CYL_H + 10, 4); c.fill();
-  outlineRoundRect(c, CYL_R - 4, CYL_T - 5, 18, CYL_H + 10, 4);
-
-  // Stuffing box (seal where piston rod passes through right end cap)
-  c.fillStyle = '#5b6370';
-  c.fillRect(CYL_R + 8, CY - 10, 12, 20);
-  outlineRect(c, CYL_R + 8, CY - 10, 12, 20);
-  // Packing lines
-  c.strokeStyle = '#3f4753'; c.lineWidth = 1;
-  for (let i = 0; i < 3; i++) {
-    c.beginPath(); c.moveTo(CYL_R + 9, CY - 6 + i * 5); c.lineTo(CYL_R + 19, CY - 6 + i * 5); c.stroke();
-  }
-
-  // ── Piston ──
-  const pGrad = c.createLinearGradient(0, CYL_T + WALL, 0, CYL_B - WALL);
-  pGrad.addColorStop(0, '#9ca3b8'); pGrad.addColorStop(1, '#64748b');
-  c.fillStyle = pGrad;
-  roundRect(c, pX - PISTON_W / 2, CYL_T + WALL + 2, PISTON_W, CYL_H - 2 * WALL - 4, 3); c.fill();
-  outlineRoundRect(c, pX - PISTON_W / 2, CYL_T + WALL + 2, PISTON_W, CYL_H - 2 * WALL - 4, 3);
-
-  // Piston rod (extends right from piston through stuffing box)
-  c.fillStyle = '#94a3b8';
-  c.fillRect(pX + PISTON_W / 2, CY - 5, CYL_R + 20 - (pX + PISTON_W / 2), 10);
-  c.strokeStyle = '#1e293b'; c.lineWidth = 1.5;
-  c.beginPath(); c.moveTo(pX + PISTON_W / 2, CY - 5); c.lineTo(CYL_R + 20, CY - 5); c.stroke();
-  c.beginPath(); c.moveTo(pX + PISTON_W / 2, CY + 5); c.lineTo(CYL_R + 20, CY + 5); c.stroke();
-
-  // ── Crosshead guide rails ──
-  const crossheadX = CYL_R + 22;
-  const guideLen = 60;
-  // Top rail
-  c.fillStyle = '#374151';
-  c.fillRect(crossheadX, CY - 20, guideLen, 6);
-  outlineRect(c, crossheadX, CY - 20, guideLen, 6);
-  // Bottom rail
-  c.fillRect(crossheadX, CY + 14, guideLen, 6);
-  outlineRect(c, crossheadX, CY + 14, guideLen, 6);
-  // Crosshead slider
-  c.fillStyle = '#5b6370';
-  roundRect(c, crossheadX + 5, CY - 14, 18, 28, 3); c.fill();
-  outlineRoundRect(c, crossheadX + 5, CY - 14, 18, 28, 3);
-
-  // ── Connecting rod ──
-  c.strokeStyle = '#6b7280'; c.lineWidth = 8; c.lineCap = 'round';
-  c.beginPath(); c.moveTo(crossheadX + 14, CY); c.lineTo(pinX, pinY); c.stroke();
-  c.strokeStyle = '#94a3b8'; c.lineWidth = 2;
-  c.beginPath(); c.moveTo(crossheadX + 14, CY); c.lineTo(pinX, pinY); c.stroke();
-  // Rod outlines
-  const srodAngle = Math.atan2(pinY - CY, pinX - (crossheadX + 14));
-  const srnx = Math.cos(srodAngle + PI / 2) * 4;
-  const srny = Math.sin(srodAngle + PI / 2) * 4;
-  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
-  c.beginPath(); c.moveTo(crossheadX + 14 + srnx, CY + srny); c.lineTo(pinX + srnx, pinY + srny); c.stroke();
-  c.beginPath(); c.moveTo(crossheadX + 14 - srnx, CY - srny); c.lineTo(pinX - srnx, pinY - srny); c.stroke();
-
-  // ── Eccentric on crankshaft (drives the valve) ──
-  // The eccentric is offset from crank center and rotates with it
-  const eccR = 16;
-  const eccOffset = 8;
-  const eccX = CRANK_CX + eccOffset * Math.cos(crankA + PI / 2);
-  const eccY = CY + eccOffset * Math.sin(crankA + PI / 2);
-  c.fillStyle = '#5b6370';
-  c.beginPath(); c.arc(eccX, eccY, eccR, 0, TAU); c.fill();
-  outlineCircle(c, eccX, eccY, eccR);
-  // Eccentric strap (ring around eccentric)
-  c.strokeStyle = '#78716c'; c.lineWidth = 4;
-  c.beginPath(); c.arc(eccX, eccY, eccR + 4, 0, TAU); c.stroke();
-  outlineCircle(c, eccX, eccY, eccR + 4);
-
-  // ── Valve rod (from eccentric to slide valve) ──
-  const valveRodEndX = valveX + valveW / 2;
-  const valveRodEndY = vcTop + 6 + valveH / 2;
-  c.strokeStyle = '#78716c'; c.lineWidth = 4; c.lineCap = 'round';
-  // Route: from eccentric strap up then left to valve
-  const vrodMidY = vcTop + vcH / 2;
+  // Distant stylised hills
+  c.fillStyle = '#1f2937';
   c.beginPath();
-  c.moveTo(eccX, eccY - eccR - 4);
-  c.lineTo(eccX, vrodMidY);
-  c.lineTo(valveRodEndX, vrodMidY);
-  c.stroke();
-  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
+  c.moveTo(0, 520);
+  c.quadraticCurveTo(200, 470, 400, 510);
+  c.quadraticCurveTo(600, 535, 800, 505);
+  c.lineTo(800, 540); c.lineTo(0, 540); c.closePath(); c.fill();
+
+  // Ground strip
+  c.fillStyle = '#0f172a';
+  c.fillRect(0, 540, 800, 60);
+
+  // Rails (two parallel lines with ties)
+  c.strokeStyle = '#475569'; c.lineWidth = 2;
+  c.beginPath(); c.moveTo(0, 525); c.lineTo(800, 525); c.stroke();
+  c.beginPath(); c.moveTo(0, 533); c.lineTo(800, 533); c.stroke();
+  // Ties scroll backward (opposite of motion) – fake forward motion
+  const tieOffset = (phase * 40) % 40;
+  c.fillStyle = '#334155';
+  for (let x = -40; x < 820; x += 40) {
+    c.fillRect(x + 40 - tieOffset, 534, 22, 8);
+  }
+
+  // Cylinder geometry (used later but placed here so the steam chest dimensions
+  // are available for the steam-path drawing).
+  const CYL_L = 605, CYL_R = 745;
+  const CYL_T = 400, CYL_B = 445;
+  const CYL_H = CYL_B - CYL_T;
+  const WALL = 6;
+  const PISTON_W = 22;
+  // Fire flicker (used both in firebox and fire-tube glow)
+  const flick = 0.85 + Math.sin(phase * 40) * 0.08 + Math.sin(phase * 73 + 1.3) * 0.05;
+
+  // ── 2. Cab (behind the boiler so the boiler tail overlaps the front) ──
+  const CAB_L = 60, CAB_R = 195;
+  const CAB_T = 230, CAB_B = 430;
+  // Cab body
+  c.fillStyle = '#1f2937';
+  roundRect(c, CAB_L, CAB_T, CAB_R - CAB_L, CAB_B - CAB_T, 4); c.fill();
+  outlineRoundRect(c, CAB_L, CAB_T, CAB_R - CAB_L, CAB_B - CAB_T, 4);
+  // Cab roof (overhang)
+  c.fillStyle = '#111827';
+  roundRect(c, CAB_L - 8, CAB_T - 14, CAB_R - CAB_L + 16, 18, 4); c.fill();
+  outlineRoundRect(c, CAB_L - 8, CAB_T - 14, CAB_R - CAB_L + 16, 18, 4);
+  // Cab window
+  c.fillStyle = '#0f2a3a';
+  roundRect(c, CAB_L + 20, CAB_T + 18, 70, 55, 4); c.fill();
+  outlineRoundRect(c, CAB_L + 20, CAB_T + 18, 70, 55, 4);
+  // Cross frame in window
+  c.strokeStyle = '#0f172a'; c.lineWidth = 2;
+  c.beginPath(); c.moveTo(CAB_L + 55, CAB_T + 18); c.lineTo(CAB_L + 55, CAB_T + 73); c.stroke();
+  c.beginPath(); c.moveTo(CAB_L + 20, CAB_T + 45); c.lineTo(CAB_L + 90, CAB_T + 45); c.stroke();
+
+  // ── 3a. Firebox (between cab and boiler) ──
+  const FB_L = 180, FB_R = 265;
+  const FB_T = 320, FB_B = 460;
+  // Outer shell
+  c.fillStyle = '#374151';
+  roundRect(c, FB_L, FB_T, FB_R - FB_L, FB_B - FB_T, 6); c.fill();
+  outlineRoundRect(c, FB_L, FB_T, FB_R - FB_L, FB_B - FB_T, 6);
+  // Fire inside (visible through stoker door — round glowing opening)
+  const doorCX = FB_L + 42, doorCY = FB_T + 60, doorR = 22;
+  const fireGrad = c.createRadialGradient(doorCX, doorCY, 2, doorCX, doorCY, doorR);
+  fireGrad.addColorStop(0, `rgba(255, 240, 120, ${0.95 * flick})`);
+  fireGrad.addColorStop(0.4, `rgba(255, 150, 40, ${0.85 * flick})`);
+  fireGrad.addColorStop(1, `rgba(120, 30, 10, 0.6)`);
+  c.fillStyle = fireGrad;
+  c.beginPath(); c.arc(doorCX, doorCY, doorR, 0, TAU); c.fill();
+  outlineCircle(c, doorCX, doorCY, doorR);
+  // Coal heap visible at the bottom of the door
+  c.fillStyle = '#1c1917';
   c.beginPath();
-  c.moveTo(eccX, eccY - eccR - 4);
-  c.lineTo(eccX, vrodMidY);
-  c.lineTo(valveRodEndX, vrodMidY);
-  c.stroke();
-
-  // ── Flywheel ──
-  const FW_R = 110;
-  // Outer rim (thick)
-  c.strokeStyle = '#475569'; c.lineWidth = 18;
-  c.beginPath(); c.arc(CRANK_CX, CY, FW_R, 0, TAU); c.stroke();
-  // Rim highlights
-  c.strokeStyle = '#6b7280'; c.lineWidth = 2;
-  c.beginPath(); c.arc(CRANK_CX, CY, FW_R + 8, 0, TAU); c.stroke();
-  c.beginPath(); c.arc(CRANK_CX, CY, FW_R - 8, 0, TAU); c.stroke();
-  // Rim outlines
-  c.strokeStyle = '#1e293b'; c.lineWidth = 2;
-  c.beginPath(); c.arc(CRANK_CX, CY, FW_R + 9, 0, TAU); c.stroke();
-  c.beginPath(); c.arc(CRANK_CX, CY, FW_R - 9, 0, TAU); c.stroke();
-
-  // 8 proper spokes
-  c.strokeStyle = '#4b5563'; c.lineWidth = 7; c.lineCap = 'round';
-  for (let i = 0; i < 8; i++) {
-    const sa = crankA + i * TAU / 8;
-    c.beginPath();
-    c.moveTo(CRANK_CX + 22 * Math.cos(sa), CY + 22 * Math.sin(sa));
-    c.lineTo(CRANK_CX + (FW_R - 12) * Math.cos(sa), CY + (FW_R - 12) * Math.sin(sa));
-    c.stroke();
+  c.moveTo(doorCX - doorR + 2, doorCY + doorR * 0.6);
+  for (let k = 0; k < 6; k++) {
+    c.lineTo(doorCX - doorR + 2 + k * 7, doorCY + doorR * 0.35 + Math.sin(k * 2) * 3);
   }
-  // Spoke outlines
-  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
-  for (let i = 0; i < 8; i++) {
-    const sa = crankA + i * TAU / 8;
-    const snx = Math.cos(sa + PI / 2) * 3.5;
-    const sny = Math.sin(sa + PI / 2) * 3.5;
-    c.beginPath();
-    c.moveTo(CRANK_CX + 22 * Math.cos(sa) + snx, CY + 22 * Math.sin(sa) + sny);
-    c.lineTo(CRANK_CX + (FW_R - 12) * Math.cos(sa) + snx, CY + (FW_R - 12) * Math.sin(sa) + sny);
-    c.stroke();
-    c.beginPath();
-    c.moveTo(CRANK_CX + 22 * Math.cos(sa) - snx, CY + 22 * Math.sin(sa) - sny);
-    c.lineTo(CRANK_CX + (FW_R - 12) * Math.cos(sa) - snx, CY + (FW_R - 12) * Math.sin(sa) - sny);
-    c.stroke();
+  c.lineTo(doorCX + doorR - 2, doorCY + doorR - 2);
+  c.lineTo(doorCX - doorR + 2, doorCY + doorR - 2);
+  c.closePath(); c.fill();
+  // Embers (small flicker dots)
+  for (let k = 0; k < 5; k++) {
+    const ex = doorCX - doorR + 6 + k * 7;
+    const ey = doorCY + doorR * 0.55 + Math.sin(phase * 30 + k) * 2;
+    c.fillStyle = `rgba(255, ${120 + Math.sin(phase * 20 + k * 1.7) * 60}, 0, ${0.7 + Math.sin(phase * 25 + k) * 0.3})`;
+    c.beginPath(); c.arc(ex, ey, 1.8, 0, TAU); c.fill();
   }
 
-  // Hub
-  c.fillStyle = '#374151'; c.beginPath(); c.arc(CRANK_CX, CY, 22, 0, TAU); c.fill();
-  outlineCircle(c, CRANK_CX, CY, 22);
-  // Crank pin
-  c.fillStyle = '#94a3b8'; c.beginPath(); c.arc(pinX, pinY, 7, 0, TAU); c.fill();
-  outlineCircle(c, pinX, pinY, 7);
-  // Center
-  c.fillStyle = '#1e293b'; c.beginPath(); c.arc(CRANK_CX, CY, 5, 0, TAU); c.fill();
+  // ── 3b. Boiler body (cutaway) ──
+  const B_L = 250, B_R = 600;
+  const B_T = 215, B_B = 400;
+  const B_H = B_B - B_T;
+  // Outer shell with subtle gradient
+  c.fillStyle = metalGrad(c, B_L, B_T, B_R - B_L, B_H, '#475569', 'v');
+  roundRect(c, B_L, B_T, B_R - B_L, B_H, 12); c.fill();
+  outlineRoundRect(c, B_L, B_T, B_R - B_L, B_H, 12);
 
-  // ── Steam flow arrows in inlet pipe ──
+  // Cutaway — interior filled with water (bottom) and steam (top)
   c.save();
-  c.globalAlpha = 0.5;
-  arrow(c, 15, inletPipeY, 50, inletPipeY, '#60a5fa', 3);
+  // Clip to inside of boiler
+  roundRect(c, B_L + 6, B_T + 6, B_R - B_L - 12, B_H - 12, 8);
+  c.clip();
+
+  // Water (bottom ~55%)
+  const waterTop = B_T + B_H * 0.45;
+  const waterGrad = c.createLinearGradient(0, waterTop, 0, B_B);
+  waterGrad.addColorStop(0, '#60a5fa');
+  waterGrad.addColorStop(1, '#1d4ed8');
+  c.fillStyle = waterGrad;
+  c.fillRect(B_L, waterTop, B_R - B_L, B_B - waterTop);
+
+  // Steam (top ~45%, pinkish-white because it's hot)
+  const steamGrad = c.createLinearGradient(0, B_T, 0, waterTop);
+  steamGrad.addColorStop(0, '#fde2e4');
+  steamGrad.addColorStop(1, '#f9a8b4');
+  c.fillStyle = steamGrad;
+  c.fillRect(B_L, B_T, B_R - B_L, waterTop - B_T);
+
+  // Fire-tubes — horizontal hot tubes running the length of the boiler.
+  // They transfer hot gases from firebox (left) to smoke box (right).
+  const TUBE_X1 = B_L + 8, TUBE_X2 = B_R - 4;
+  const tubes = [
+    B_T + 26, B_T + 45, B_T + 65, B_T + 85, B_T + 105,       // in steam
+    waterTop + 8, waterTop + 28, waterTop + 48, waterTop + 68, waterTop + 88, // in water
+  ];
+  for (const ty of tubes) {
+    // Tube body — heated, the color pulses slightly
+    const heat = 0.7 + Math.sin(phase * 12 + ty) * 0.15;
+    const g = c.createLinearGradient(TUBE_X1, 0, TUBE_X2, 0);
+    g.addColorStop(0, `rgba(255, ${Math.floor(100 * heat)}, 40, 0.95)`); // very hot at firebox side
+    g.addColorStop(1, `rgba(255, ${Math.floor(180 * heat)}, 80, 0.85)`);
+    c.strokeStyle = g; c.lineWidth = 5; c.lineCap = 'round';
+    c.beginPath(); c.moveTo(TUBE_X1, ty); c.lineTo(TUBE_X2, ty); c.stroke();
+    // Thin dark core
+    c.strokeStyle = '#7f1d1d'; c.lineWidth = 1.5;
+    c.beginPath(); c.moveTo(TUBE_X1, ty); c.lineTo(TUBE_X2, ty); c.stroke();
+  }
+
+  // Bubble animation in water (rising bubbles from hot tubes)
+  for (let i = 0; i < 10; i++) {
+    const t = (phase * 0.8 + i / 10) % 1;
+    const bx = B_L + 20 + ((i * 47) % (B_R - B_L - 40));
+    const by = B_B - t * (B_B - waterTop - 6);
+    const bs = 1.5 + Math.sin(t * PI) * 2;
+    c.fillStyle = `rgba(200, 230, 255, ${0.55 * Math.sin(t * PI)})`;
+    c.beginPath(); c.arc(bx, by, bs, 0, TAU); c.fill();
+  }
+
+  // Swirling steam in the top — soft blobs
+  for (let i = 0; i < 6; i++) {
+    const t = (phase * 0.6 + i / 6) % 1;
+    const sx = B_L + 30 + t * (B_R - B_L - 60) + Math.sin(i) * 15;
+    const sy = B_T + 40 + Math.sin(t * 6 + i) * 20;
+    const sr = 14 + Math.sin(t * PI) * 8;
+    c.fillStyle = `rgba(255, 230, 235, ${0.12 + 0.15 * Math.sin(t * PI)})`;
+    c.beginPath(); c.arc(sx, sy, sr, 0, TAU); c.fill();
+  }
+
+  // Water surface line with tiny ripple
+  c.strokeStyle = 'rgba(255,255,255,0.35)'; c.lineWidth = 1.5;
+  c.beginPath();
+  for (let x = B_L; x <= B_R; x += 4) {
+    const y = waterTop + Math.sin(x * 0.06 + phase * 12) * 1.2;
+    if (x === B_L) c.moveTo(x, y); else c.lineTo(x, y);
+  }
+  c.stroke();
+
+  c.restore(); // end clip
+
+  // ── 4. Steam dome + safety valve on top of boiler ──
+  const domeCX = 390;
+  const domeR = 22;
+  c.fillStyle = metalGrad(c, domeCX - domeR, B_T - 30, domeR * 2, 30, '#71717a', 'v');
+  roundRect(c, domeCX - domeR, B_T - 30, domeR * 2, 38, 6); c.fill();
+  outlineRoundRect(c, domeCX - domeR, B_T - 30, domeR * 2, 38, 6);
+  // Brass cap
+  c.fillStyle = '#d4a017';
+  c.beginPath(); c.ellipse(domeCX, B_T - 30, domeR, 8, 0, 0, TAU); c.fill();
+  outlineCircle(c, domeCX, B_T - 30, domeR); // close enough
+
+  // Safety valve (a bit to the right of the dome)
+  const svCX = 470;
+  c.fillStyle = '#a1a1aa';
+  c.fillRect(svCX - 6, B_T - 18, 12, 18);
+  outlineRect(c, svCX - 6, B_T - 18, 12, 18);
+  c.fillStyle = '#d4a017';
+  c.beginPath(); c.arc(svCX, B_T - 22, 8, 0, TAU); c.fill();
+  outlineCircle(c, svCX, B_T - 22, 8);
+  // Tiny puff of steam from the safety valve when pressure is high
+  const svPuff = Math.sin(phase * 8) * 0.5 + 0.5;
+  c.fillStyle = `rgba(255,255,255,${0.25 * svPuff})`;
+  c.beginPath(); c.arc(svCX, B_T - 34 - svPuff * 6, 5 + svPuff * 4, 0, TAU); c.fill();
+
+  // ── 5a. Smoke box (dark drum at the front of the boiler) ──
+  const SB_L = 600, SB_R = 680;
+  const SB_T = 205, SB_B = 415;
+  c.fillStyle = '#1f2937';
+  roundRect(c, SB_L, SB_T, SB_R - SB_L, SB_B - SB_T, 10); c.fill();
+  outlineRoundRect(c, SB_L, SB_T, SB_R - SB_L, SB_B - SB_T, 10);
+  // Door / number plate
+  const sbCX = (SB_L + SB_R) / 2;
+  const sbCY = (SB_T + SB_B) / 2;
+  c.fillStyle = '#111827';
+  c.beginPath(); c.arc(sbCX, sbCY, 75, 0, TAU); c.fill();
+  outlineCircle(c, sbCX, sbCY, 75);
+  // Hinges
+  c.strokeStyle = '#475569'; c.lineWidth = 3;
+  for (let k = 0; k < 8; k++) {
+    const a = k * TAU / 8;
+    c.beginPath();
+    c.moveTo(sbCX + Math.cos(a) * 65, sbCY + Math.sin(a) * 65);
+    c.lineTo(sbCX + Math.cos(a) * 72, sbCY + Math.sin(a) * 72);
+    c.stroke();
+  }
+  // Centre plate
+  c.fillStyle = '#78716c';
+  c.beginPath(); c.arc(sbCX, sbCY, 18, 0, TAU); c.fill();
+  outlineCircle(c, sbCX, sbCY, 18);
+
+  // ── 5b. Chimney (on top of smoke box) ──
+  const CH_CX = 640;
+  const CH_T = 85, CH_B = SB_T;
+  const CH_W_TOP = 48, CH_W_BOT = 34;
+  c.fillStyle = metalGrad(c, CH_CX - CH_W_TOP / 2, CH_T, CH_W_TOP, CH_B - CH_T, '#1f2937', 'v');
+  c.beginPath();
+  c.moveTo(CH_CX - CH_W_BOT / 2, CH_B);
+  c.lineTo(CH_CX + CH_W_BOT / 2, CH_B);
+  c.lineTo(CH_CX + CH_W_TOP / 2, CH_T);
+  c.lineTo(CH_CX - CH_W_TOP / 2, CH_T);
+  c.closePath(); c.fill();
+  c.strokeStyle = '#1e293b'; c.lineWidth = 2; c.stroke();
+  // Rim
+  c.fillStyle = '#334155';
+  c.fillRect(CH_CX - CH_W_TOP / 2 - 3, CH_T - 4, CH_W_TOP + 6, 6);
+  outlineRect(c, CH_CX - CH_W_TOP / 2 - 3, CH_T - 4, CH_W_TOP + 6, 6);
+
+  // ── 5c. Smoke / exhaust plume from the chimney ──
+  // Plume pulses with the power strokes (twice per wheel revolution)
+  const plumePulse = Math.abs(Math.sin(phase * TAU)); // strong every half-rev
+  c.save();
+  c.globalCompositeOperation = 'lighter';
+  for (let i = 0; i < 18; i++) {
+    const t = (phase * 1.3 + i / 18) % 1;
+    const px = CH_CX + Math.sin(t * 5 + i * 0.8) * (10 + t * 25);
+    const py = CH_T - t * 80;
+    const pr = 6 + t * 26 + plumePulse * 8;
+    c.fillStyle = `rgba(220, 210, 200, ${0.28 * (1 - t)})`;
+    c.beginPath(); c.arc(px, py, pr, 0, TAU); c.fill();
+  }
+  c.restore();
+  // Soot specks
+  for (let i = 0; i < 6; i++) {
+    const t = (phase * 1.5 + i / 6) % 1;
+    const px = CH_CX + Math.sin(t * 7 + i) * (8 + t * 18);
+    const py = CH_T - t * 70;
+    c.fillStyle = `rgba(40, 40, 40, ${0.5 * (1 - t)})`;
+    c.beginPath(); c.arc(px, py, 1.8, 0, TAU); c.fill();
+  }
+
+  // ── 6a. Steam pipe from dome → valve chest (red/pink overlay on boiler top) ──
+  c.save();
+  c.strokeStyle = 'rgba(239, 68, 68, 0.85)'; c.lineWidth = 5; c.lineCap = 'round';
+  c.beginPath();
+  c.moveTo(domeCX + 8, B_T - 22);
+  c.lineTo(SB_L + 12, B_T - 22);
+  c.lineTo(SB_L + 12, SB_T + 24);
+  c.lineTo(SB_R - 10, SB_T + 24);
+  c.lineTo(SB_R - 10, 390);  // down to valve chest area
+  c.stroke();
+  // Thin dark core line
+  c.strokeStyle = '#7f1d1d'; c.lineWidth = 1.5;
+  c.stroke();
   c.restore();
 
-  // ── Labels ──
-  label(c, 'Válec', CYL_L + (CYL_R - CYL_L) / 2, CYL_B + 22, 12, '#64748b');
-  label(c, 'Píst', pX, CYL_B + 22, 11, '#94a3b8');
-  label(c, 'Setrvačník', CRANK_CX, CY + FW_R + 28, 12, '#64748b');
-  label(c, 'Šoupátko', (vcLeft + vcRight) / 2, vcTop - 14, 11, '#94a3b8');
-  label(c, 'Přívod páry', 50, inletPipeY - 22, 10, '#60a5fa');
-  label(c, 'Výfuk', exhaustPipeX, 5, 10, '#9ca3af');
-  label(c, 'Excentr', eccX + 28, eccY, 10, '#94a3b8', 'left');
-  label(c, 'Křížová hlava', crossheadX + 30, CY + 30, 10, '#64748b');
-  label(c, 'Ucpávka', CYL_R + 14, CY + 22, 9, '#64748b');
+  // ── 6b. Valve chest (sits on TOP of the cylinder) ──
+  const VC_L = CYL_L + 5, VC_R = CYL_R - 5;
+  const VC_T = CYL_T - 26, VC_B = CYL_T - 2;
+  const VC_W = VC_R - VC_L, VC_H = VC_B - VC_T;
+  c.fillStyle = metalGrad(c, VC_L, VC_T, VC_W, VC_H, '#4b5563', 'v');
+  roundRect(c, VC_L, VC_T, VC_W, VC_H, 4); c.fill();
+  outlineRoundRect(c, VC_L, VC_T, VC_W, VC_H, 4);
+
+  // Live-steam fill inside valve chest (pinkish — hot high-pressure steam)
+  c.fillStyle = 'rgba(248, 180, 190, 0.35)';
+  c.fillRect(VC_L + 3, VC_T + 3, VC_W - 6, VC_H - 6);
+
+  // Slide valve (moves opposite to piston via eccentric)
+  const valveTravel = 18;
+  const valveOffset = -Math.sin(crankA) * valveTravel;
+  const valveW = VC_W * 0.45;
+  const valveX = (VC_L + VC_R) / 2 - valveW / 2 + valveOffset;
+  c.fillStyle = '#6b7280';
+  roundRect(c, valveX, VC_T + 4, valveW, VC_H - 8, 3); c.fill();
+  outlineRoundRect(c, valveX, VC_T + 4, valveW, VC_H - 8, 3);
+
+  // Steam ports (two openings from valve chest into cylinder top)
+  const portW = 10;
+  const port1X = VC_L + 18;               // left port → left side of piston
+  const port2X = VC_R - 18 - portW;       // right port → right side of piston
+  c.fillStyle = '#0f172a';
+  c.fillRect(port1X, VC_B - 1, portW, CYL_T - VC_B + 2);
+  outlineRect(c, port1X, VC_B - 1, portW, CYL_T - VC_B + 2);
+  c.fillRect(port2X, VC_B - 1, portW, CYL_T - VC_B + 2);
+  outlineRect(c, port2X, VC_B - 1, portW, CYL_T - VC_B + 2);
+
+  // ── 6c. Cylinder body ──
+  c.fillStyle = metalGrad(c, CYL_L, CYL_T, CYL_R - CYL_L, CYL_H, '#6b7280', 'v');
+  roundRect(c, CYL_L, CYL_T, CYL_R - CYL_L, CYL_H, 6); c.fill();
+  outlineRoundRect(c, CYL_L, CYL_T, CYL_R - CYL_L, CYL_H, 6);
+  // Cylinder end caps (dark ribbed)
+  c.fillStyle = '#334155';
+  c.fillRect(CYL_L - 5, CYL_T - 4, 10, CYL_H + 8);
+  outlineRect(c, CYL_L - 5, CYL_T - 4, 10, CYL_H + 8);
+  c.fillRect(CYL_R - 5, CYL_T - 4, 10, CYL_H + 8);
+  outlineRect(c, CYL_R - 5, CYL_T - 4, 10, CYL_H + 8);
+
+  // Interior — show steam in each chamber based on which side is live
+  const pistonLeft = pX - PISTON_W / 2;
+  const pistonRight = pX + PISTON_W / 2;
+  const chamberTop = CYL_T + WALL;
+  const chamberBot = CYL_B - WALL;
+  // Left chamber
+  c.fillStyle = pistonMovingRight
+    ? 'rgba(248, 180, 190, 0.55)'        // live steam — hot pink
+    : 'rgba(180, 190, 200, 0.18)';       // exhaust — grey
+  c.fillRect(CYL_L + 5, chamberTop, pistonLeft - CYL_L - 5, chamberBot - chamberTop);
+  // Right chamber
+  c.fillStyle = pistonMovingRight
+    ? 'rgba(180, 190, 200, 0.18)'
+    : 'rgba(248, 180, 190, 0.55)';
+  c.fillRect(pistonRight, chamberTop, CYL_R - pistonRight - 5, chamberBot - chamberTop);
+
+  // Piston
+  const pGrad = c.createLinearGradient(0, chamberTop, 0, chamberBot);
+  pGrad.addColorStop(0, '#cbd5e1'); pGrad.addColorStop(1, '#64748b');
+  c.fillStyle = pGrad;
+  roundRect(c, pistonLeft, chamberTop + 1, PISTON_W, chamberBot - chamberTop - 2, 2); c.fill();
+  outlineRoundRect(c, pistonLeft, chamberTop + 1, PISTON_W, chamberBot - chamberTop - 2, 2);
+
+  // Piston rod (goes LEFT toward the crosshead)
+  c.fillStyle = '#94a3b8';
+  c.fillRect(CYL_L - 12, XHEAD_Y - 4, pistonLeft - (CYL_L - 12), 8);
+  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
+  c.strokeRect(CYL_L - 12, XHEAD_Y - 4, pistonLeft - (CYL_L - 12), 8);
+  // Stuffing box at cylinder left cap
+  c.fillStyle = '#475569';
+  c.fillRect(CYL_L - 16, XHEAD_Y - 8, 12, 16);
+  outlineRect(c, CYL_L - 16, XHEAD_Y - 8, 12, 16);
+
+  // ── 6d. Crosshead + slide bars ──
+  const CH_L = 535, CH_R = CYL_L - 16;   // slide bar extent
+  // Top + bottom slide bars
+  c.fillStyle = '#334155';
+  c.fillRect(CH_L, XHEAD_Y - 18, CH_R - CH_L, 4);
+  outlineRect(c, CH_L, XHEAD_Y - 18, CH_R - CH_L, 4);
+  c.fillRect(CH_L, XHEAD_Y + 14, CH_R - CH_L, 4);
+  outlineRect(c, CH_L, XHEAD_Y + 14, CH_R - CH_L, 4);
+  // Crosshead block
+  c.fillStyle = '#64748b';
+  roundRect(c, xheadX - 14, XHEAD_Y - 14, 20, 28, 2); c.fill();
+  outlineRoundRect(c, xheadX - 14, XHEAD_Y - 14, 20, 28, 2);
+
+  // ── 7. Connecting rod (crosshead → front driving-wheel crank pin) ──
+  // Drawn BEFORE wheels so the wheels hub appears on top of the rod end.
+  c.strokeStyle = '#94a3b8'; c.lineWidth = 9; c.lineCap = 'round';
+  c.beginPath(); c.moveTo(xheadX - 4, XHEAD_Y); c.lineTo(pin2X, pin2Y); c.stroke();
+  c.strokeStyle = '#cbd5e1'; c.lineWidth = 2;
+  c.beginPath(); c.moveTo(xheadX - 4, XHEAD_Y); c.lineTo(pin2X, pin2Y); c.stroke();
+  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
+  const rAng = Math.atan2(pin2Y - XHEAD_Y, pin2X - (xheadX - 4));
+  const rnx = Math.cos(rAng + PI / 2) * 4.5;
+  const rny = Math.sin(rAng + PI / 2) * 4.5;
+  c.beginPath(); c.moveTo(xheadX - 4 + rnx, XHEAD_Y + rny); c.lineTo(pin2X + rnx, pin2Y + rny); c.stroke();
+  c.beginPath(); c.moveTo(xheadX - 4 - rnx, XHEAD_Y - rny); c.lineTo(pin2X - rnx, pin2Y - rny); c.stroke();
+
+  // Helper to draw a red driving wheel (locomotive style)
+  function drawDrivingWheel(cx, cy, r, angle) {
+    // Outer rim (dark)
+    c.fillStyle = '#991b1b';
+    c.beginPath(); c.arc(cx, cy, r, 0, TAU); c.fill();
+    outlineCircle(c, cx, cy, r);
+    // Red face
+    c.fillStyle = '#dc2626';
+    c.beginPath(); c.arc(cx, cy, r - 8, 0, TAU); c.fill();
+    outlineCircle(c, cx, cy, r - 8);
+    // Spokes (10 — traditional)
+    c.strokeStyle = '#7f1d1d'; c.lineWidth = 6; c.lineCap = 'round';
+    for (let k = 0; k < 10; k++) {
+      const sa = angle + k * TAU / 10;
+      c.beginPath();
+      c.moveTo(cx + 12 * Math.cos(sa), cy + 12 * Math.sin(sa));
+      c.lineTo(cx + (r - 14) * Math.cos(sa), cy + (r - 14) * Math.sin(sa));
+      c.stroke();
+    }
+    // Hub
+    c.fillStyle = '#374151';
+    c.beginPath(); c.arc(cx, cy, 12, 0, TAU); c.fill();
+    outlineCircle(c, cx, cy, 12);
+    c.fillStyle = '#0f172a';
+    c.beginPath(); c.arc(cx, cy, 4, 0, TAU); c.fill();
+  }
+
+  // ── 8. Wheels ──
+  drawDrivingWheel(DRV1_CX, DRV_CY, DRV_R, crankA);
+  drawDrivingWheel(DRV2_CX, DRV_CY, DRV_R, crankA);
+
+  // Leading wheel (front, small, passive)
+  const LEAD_CX = 720, LEAD_CY = 475, LEAD_R = 35;
+  c.fillStyle = '#991b1b';
+  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, LEAD_R, 0, TAU); c.fill();
+  outlineCircle(c, LEAD_CX, LEAD_CY, LEAD_R);
+  c.fillStyle = '#dc2626';
+  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, LEAD_R - 5, 0, TAU); c.fill();
+  outlineCircle(c, LEAD_CX, LEAD_CY, LEAD_R - 5);
+  // Spokes for leading wheel
+  c.strokeStyle = '#7f1d1d'; c.lineWidth = 4; c.lineCap = 'round';
+  for (let k = 0; k < 8; k++) {
+    const sa = crankA * (DRV_R / LEAD_R) + k * TAU / 8;
+    c.beginPath();
+    c.moveTo(LEAD_CX + 6 * Math.cos(sa), LEAD_CY + 6 * Math.sin(sa));
+    c.lineTo(LEAD_CX + (LEAD_R - 8) * Math.cos(sa), LEAD_CY + (LEAD_R - 8) * Math.sin(sa));
+    c.stroke();
+  }
+  c.fillStyle = '#374151';
+  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, 6, 0, TAU); c.fill();
+  outlineCircle(c, LEAD_CX, LEAD_CY, 6);
+
+  // ── 9. Coupling rod (connects both driving wheels, ALWAYS horizontal) ──
+  // Drawn ON TOP of wheels so it's clearly visible.
+  c.strokeStyle = '#cbd5e1'; c.lineWidth = 10; c.lineCap = 'round';
+  c.beginPath(); c.moveTo(pin1X, pin1Y); c.lineTo(pin2X, pin2Y); c.stroke();
+  c.strokeStyle = '#e2e8f0'; c.lineWidth = 3;
+  c.beginPath(); c.moveTo(pin1X, pin1Y); c.lineTo(pin2X, pin2Y); c.stroke();
+  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
+  c.beginPath(); c.moveTo(pin1X, pin1Y - 5); c.lineTo(pin2X, pin2Y - 5); c.stroke();
+  c.beginPath(); c.moveTo(pin1X, pin1Y + 5); c.lineTo(pin2X, pin2Y + 5); c.stroke();
+
+  // Crank pins (shiny, on top of coupling + connecting rod ends)
+  for (const [px, py] of [[pin1X, pin1Y], [pin2X, pin2Y]]) {
+    c.fillStyle = '#facc15';
+    c.beginPath(); c.arc(px, py, 5, 0, TAU); c.fill();
+    outlineCircle(c, px, py, 5);
+  }
+
+  // ── 6e. Steam flow arrows (visual cue which side is active) ──
+  c.save();
+  c.globalAlpha = 0.85;
+  if (pistonMovingRight) {
+    // Live steam entering left port, pushing piston right
+    arrow(c, port1X + portW / 2, VC_B + 2, port1X + portW / 2, CYL_T + 4, '#ef4444', 2.5);
+    arrow(c, pistonRight + 6, XHEAD_Y, pX + 26, XHEAD_Y, '#ef4444', 2);
+  } else {
+    arrow(c, port2X + portW / 2, VC_B + 2, port2X + portW / 2, CYL_T + 4, '#ef4444', 2.5);
+    arrow(c, pistonLeft - 6, XHEAD_Y, pX - 26, XHEAD_Y, '#ef4444', 2);
+  }
+  c.restore();
+
+  // ── 10. Labels ─────────────────────────────────────
+  c.save();
+  c.globalAlpha = 0.95;
+  label(c, 'Budka strojvedoucího', (CAB_L + CAB_R) / 2, CAB_T - 24, 11, '#94a3b8');
+  label(c, 'Topeniště', (FB_L + FB_R) / 2, FB_B + 18, 11, '#f59e0b');
+  label(c, 'Kotel (voda + pára)', (B_L + B_R) / 2, B_B + 18, 12, '#94a3b8');
+  label(c, 'Žárotrubky', B_L + 60, B_T + 12, 10, '#fca5a5');
+  label(c, 'Parní dóm', domeCX, B_T - 50, 10, '#d4a017');
+  label(c, 'Pojistný ventil', svCX + 14, B_T - 36, 9, '#d4a017', 'left');
+  label(c, 'Dýmnice', sbCX, SB_B + 18, 10, '#94a3b8');
+  label(c, 'Komín', CH_CX + 28, (CH_T + CH_B) / 2, 10, '#94a3b8', 'left');
+  label(c, 'Rozvody (šoupátko)', (VC_L + VC_R) / 2, VC_T - 6, 9, '#fca5a5');
+  label(c, 'Parní válec s pístem', (CYL_L + CYL_R) / 2, CYL_B + 14, 10, '#cbd5e1');
+  label(c, 'Křížová hlava', xheadX, XHEAD_Y + 38, 9, '#94a3b8');
+  label(c, 'Ojnice', (xheadX + pin2X) / 2 + 8, (XHEAD_Y + pin2Y) / 2 - 10, 9, '#cbd5e1', 'left');
+  label(c, 'Spřažnice', (pin1X + pin2X) / 2, Math.min(pin1Y, pin2Y) - 14, 9, '#cbd5e1');
+  label(c, 'Hnací kolo', DRV1_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
+  label(c, 'Hnací kolo', DRV2_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
+  label(c, 'Běhoun', LEAD_CX, LEAD_CY + LEAD_R + 14, 9, '#94a3b8');
+  c.restore();
 
   c.restore();
 }
