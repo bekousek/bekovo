@@ -1351,8 +1351,12 @@ function drawSteam(c, phase, w, h) {
   c.fillStyle = `rgba(255,255,255,${0.25 * svPuff})`;
   c.beginPath(); c.arc(svCX, B_T - 34 - svPuff * 6, 5 + svPuff * 4, 0, TAU); c.fill();
 
-  // ── 5a. Smoke box (dark short drum at the front of the boiler) ──
-  const SB_L = 575, SB_R = 640;
+  // ── 5a. Smoke box (dark drum at the front of the boiler) ──
+  // Widened so it properly overhangs the cylinder / valve chest area
+  // (as in real locomotives). Live-steam enters the smoke box from above
+  // and drops down inside; the exhaust pipe rises vertically INSIDE the
+  // smoke box as the "blast pipe" (dmychací roura) and feeds the chimney.
+  const SB_L = 510, SB_R = 720;
   const SB_T = 225, SB_B = 415;
   const SB_H = SB_B - SB_T;
   // Smoke-box shell — darker than boiler, with subtle cylindrical shading
@@ -1383,18 +1387,20 @@ function drawSteam(c, phase, w, h) {
   c.strokeStyle = '#d4a017'; c.lineWidth = 1.5;
   c.beginPath(); c.moveTo(SB_L + 4, SB_T + 6); c.lineTo(SB_R - 4, SB_T + 6); c.stroke();
 
-  // ── 5a-2. EXHAUST pipe (studená / ochlazená pára) ──
-  // Carries the low-pressure cooled steam from the cylinder/valve chest UP
-  // through the side of the smoke box into the chimney base. In a real
-  // locomotive this is the "blast pipe" — the exhaust blast draws fire
-  // through the fire-tubes, which is what makes a steam engine self-draft.
-  // Drawn BEFORE the chimney so the chimney hides the pipe's upper end
-  // (creates the illusion of the pipe entering the chimney from below).
+  // ── 5a-2. EXHAUST pipe = blast pipe (dmychací roura) INSIDE smokebox ──
+  // Carries the low-pressure cooled steam from the cylinder/valve chest
+  // vertically UP through the INSIDE of the smoke box into the chimney
+  // base. The exhaust blast is what draws fire through the fire-tubes,
+  // which makes a steam engine self-draft.
+  // Drawn AFTER the smoke-box fill (so it appears in cutaway) but BEFORE
+  // the chimney (so the chimney hides the pipe's upper end).
+  const VC_EX_X = (CYL_L + CYL_R) / 2;                 // valve-chest exhaust x
+  const CH_BASE_X = (SB_L + SB_R) / 2;                 // chimney axis
   const EXH_PATH = [
-    [(CYL_L + CYL_R) / 2, CYL_T - 40],   // leaves valve chest TOP (above central exhaust port)
-    [(CYL_L + CYL_R) / 2, SB_T - 6],     // up above smoke box
-    [(SB_L + SB_R) / 2, SB_T - 6],       // left to chimney
-    [(SB_L + SB_R) / 2, SB_T + 8],       // down into chimney base
+    [VC_EX_X,     CYL_T - 40],   // leaves valve chest TOP (central exhaust port)
+    [VC_EX_X,     SB_T + 135],   // up inside smoke box (below the door)
+    [CH_BASE_X,   SB_T + 135],   // bend left toward chimney axis
+    [CH_BASE_X,   SB_T + 8],     // up into chimney base
   ];
   function strokePath(ctx, pts) {
     ctx.beginPath();
@@ -1419,10 +1425,10 @@ function drawSteam(c, phase, w, h) {
   strokePath(c, EXH_PATH);
   c.setLineDash([]);
   c.restore();
-  // Arrow tip INTO chimney (points up, just before the horizontal turn)
-  arrow(c, (CYL_L + CYL_R) / 2, SB_T + 30, (CYL_L + CYL_R) / 2, SB_T + 6, '#bfdbfe', 2);
+  // Arrow tip INTO chimney (points up, just before the chimney base)
+  arrow(c, CH_BASE_X, SB_T + 38, CH_BASE_X, SB_T + 12, '#bfdbfe', 2);
   // Arrow tip showing exhaust leaving the valve chest (points UP)
-  arrow(c, (CYL_L + CYL_R) / 2, CYL_T - 18, (CYL_L + CYL_R) / 2, CYL_T - 40, '#bfdbfe', 2);
+  arrow(c, VC_EX_X, CYL_T - 18, VC_EX_X, CYL_T - 40, '#bfdbfe', 2);
 
   // ── 5b. Chimney — tall stack on top of smoke box ──
   const CH_CX = (SB_L + SB_R) / 2;
@@ -1476,17 +1482,19 @@ function drawSteam(c, phase, w, h) {
 
   // ── 6a. LIVE steam pipe: dome → valve chest (horká pára) ──
   // Carries HIGH-PRESSURE hot steam from the steam dome along the top of
-  // the boiler, down the left side of the smoke box, and into the valve
-  // chest where the slide valve routes it to one side of the piston.
+  // the boiler, INTO the smoke box from above, then DOWN INSIDE the smoke
+  // box to the valve chest where the slide valve routes it to the piston.
   //
-  // Route: dome top → along boiler top → down left of smoke box
-  //        → under smoke box → into valve chest (top-left).
+  // Route (drawn AFTER the smoke-box body so it reads as a cutaway):
+  //   dome → along boiler top → enters smokebox near its top-left →
+  //   drops down inside smokebox → bends right toward valve chest →
+  //   into valve chest (top-left corner).
   const LIVE_PATH = [
     [domeCX,      B_T - 18],       // leaves dome
-    [SB_L - 4,    B_T - 18],       // along top of boiler
-    [SB_L - 4,    SB_B + 2],       // drops down left of smoke box
-    [CYL_L + 14,  SB_B + 2],       // horizontal below smoke box
-    [CYL_L + 14,  CYL_T - 40],     // into valve chest (top-left corner)
+    [SB_L + 24,   B_T - 18],       // along boiler top, crosses into smokebox
+    [SB_L + 24,   SB_T + 160],     // drops straight down INSIDE smokebox
+    [CYL_L + 14,  SB_T + 160],     // bends right toward valve chest
+    [CYL_L + 14,  CYL_T - 40],     // down into valve chest (top-left corner)
   ];
   c.save();
   c.lineCap = 'round'; c.lineJoin = 'round';
@@ -1874,25 +1882,20 @@ function drawSteam(c, phase, w, h) {
   c.restore();
 
   // ── 10. Labels ─────────────────────────────────────
+  // Minimal set — only what students NEED to follow the steam cycle:
+  //   • firebox (where heat comes from)
+  //   • steam dome (where live steam is collected)
+  //   • the two pipes (hot in, cold out)
+  //   • chamber states (HORKÁ/STUDENÁ + temps — drawn inside the cylinder)
+  //   • a dynamic phase banner over the valve chest
   c.save();
   c.globalAlpha = 0.95;
-  label(c, 'Budka strojvedoucího', (CAB_L + CAB_R) / 2, CAB_T - 24, 11, '#94a3b8');
-  label(c, 'Topeniště', (FB_L + FB_R) / 2, FB_B + 18, 11, '#f59e0b');
-  label(c, 'Kotel (voda + pára)', (B_L + B_R) / 2, B_B + 18, 12, '#94a3b8');
-  label(c, 'Žárotrubky', B_L + 60, B_T + 12, 10, '#fca5a5');
-  label(c, 'Parní dóm', domeCX, B_T - 50, 10, '#d4a017');
-  label(c, 'Pojistný ventil', svCX + 14, B_T - 36, 9, '#d4a017', 'left');
-  label(c, 'Dýmnice', sbCX, SB_B + 18, 10, '#94a3b8');
-  label(c, 'Komín', CH_CX + 28, (CH_T + CH_B) / 2, 10, '#94a3b8', 'left');
-  // Pipe labels — bold + colored, placed well above the pipes in clear
-  // space so they don't sit on the pipe or collide with other labels.
+  label(c, 'topeniště', (FB_L + FB_R) / 2, FB_B + 18, 11, '#f59e0b');
+  label(c, 'parní dóm', domeCX, B_T - 50, 10, '#d4a017');
+  // Pipe labels — bold, colored, placed well above the pipes.
   labelBold(c, 'HORKÁ PÁRA →', (domeCX + (SB_L - 4)) / 2, B_T - 55, 12, '#fca5a5');
   labelBold(c, '← ODPADNÍ PÁRA', ((SB_L + SB_R) / 2 + (CYL_L + CYL_R) / 2) / 2, SB_T - 22, 12, '#bfdbfe');
-  // "Šoupátko" label — just above valve chest, tucked left next to the
-  // live-pipe entry.
-  label(c, 'šoupátko', VC_L + 40, VC_T - 6, 9, '#cbd5e1', 'left');
-  // Dynamic phase banner — placed ABOVE šoupátko so both are readable.
-  // Describes what the locomotive cycle is doing right now in plain Czech.
+  // Dynamic phase banner above the valve chest.
   // sin(crankA) drives valve offset; |sin| near 1 ⇒ admission opening wide,
   // |sin| near 0 ⇒ valve centred (ports closed, expansion).
   const valveAbs = Math.abs(Math.sin(crankA));
@@ -1901,13 +1904,9 @@ function drawSteam(c, phase, w, h) {
   else if (valveAbs > 0.30) { phaseTxt = 'EXPANZE'; phaseColor = '#fde68a'; }
   else { phaseTxt = 'VÝFUK'; phaseColor = '#93c5fd'; }
   const dirArrow = liveIsLeft ? '→' : '←';
-  labelBold(c, `${phaseTxt}   píst ${dirArrow}`, (VC_L + VC_R) / 2, VC_T - 22, 11, phaseColor, 'center');
-  label(c, 'Parní válec s pístem', (CYL_L + CYL_R) / 2, CYL_B + 14, 10, '#cbd5e1');
-  label(c, 'Křížová hlava', xheadX, XHEAD_Y + 38, 9, '#94a3b8');
-  label(c, 'Ojnice', (xheadX + pin2X) / 2 + 8, (XHEAD_Y + pin2Y) / 2 - 10, 9, '#cbd5e1', 'left');
-  label(c, 'Spřažnice', (pin1X + pin2X) / 2, Math.min(pin1Y, pin2Y) - 14, 9, '#cbd5e1');
-  label(c, 'Hnací kolo', DRV1_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
-  label(c, 'Hnací kolo', DRV2_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
+  // Anchor to the RIGHT edge of the valve chest so the label stays on
+  // canvas even on narrower viewports. Right-aligned so text grows left.
+  labelBold(c, `${phaseTxt} ${dirArrow}`, VC_R - 2, VC_T - 10, 11, phaseColor, 'right');
   c.restore();
 
   c.restore();
