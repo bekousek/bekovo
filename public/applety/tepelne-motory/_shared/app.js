@@ -1060,13 +1060,13 @@ function drawSteam(c, phase, w, h) {
 
   // Crank kinematics — phase drives wheel rotation.
   const crankA = phase * TAU;
-  const DRV_CY = 440;             // driving-wheel axle y
-  const DRV1_CX = 295;            // rear driving wheel
-  const DRV2_CX = 475;            // front driving wheel (drives the piston)
+  const DRV_CY = 450;             // driving-wheel axle y
+  const DRV1_CX = 265;            // rear driving wheel
+  const DRV2_CX = 445;            // front driving wheel (drives the piston)
   const DRV_R  = 70;              // driving wheel radius
   const R_CRANK = 24;             // crank radius (half the piston stroke)
-  const ROD_L  = 155;             // connecting-rod length
-  const XHEAD_Y = 415;            // crosshead / piston-rod height
+  const ROD_L  = 160;             // connecting-rod length
+  const XHEAD_Y = 455;            // crosshead / piston-rod height (cylinder centerline)
 
   // Driving-wheel crank pins (both wheels mechanically linked → same angle)
   const pin1X = DRV1_CX + R_CRANK * Math.cos(crankA);
@@ -1102,46 +1102,82 @@ function drawSteam(c, phase, w, h) {
   c.fillStyle = '#0f172a';
   c.fillRect(0, 540, 800, 60);
 
-  // Rails (two parallel lines with ties)
-  c.strokeStyle = '#475569'; c.lineWidth = 2;
-  c.beginPath(); c.moveTo(0, 525); c.lineTo(800, 525); c.stroke();
-  c.beginPath(); c.moveTo(0, 533); c.lineTo(800, 533); c.stroke();
+  // Ballast (gravel-ish tone between ties)
+  c.fillStyle = '#1e293b';
+  c.fillRect(0, 530, 800, 16);
+
   // Ties scroll backward (opposite of motion) – fake forward motion
   const tieOffset = (phase * 40) % 40;
-  c.fillStyle = '#334155';
+  c.fillStyle = '#52525b';
   for (let x = -40; x < 820; x += 40) {
-    c.fillRect(x + 40 - tieOffset, 534, 22, 8);
+    c.fillRect(x + 40 - tieOffset, 536, 24, 10);
   }
+  c.strokeStyle = '#27272a'; c.lineWidth = 1;
+  for (let x = -40; x < 820; x += 40) {
+    c.strokeRect(x + 40 - tieOffset + 0.5, 536.5, 23, 9);
+  }
+
+  // Rails — shiny steel, drawn ON TOP of ties
+  c.strokeStyle = '#94a3b8'; c.lineWidth = 3;
+  c.beginPath(); c.moveTo(0, 535); c.lineTo(800, 535); c.stroke();
+  c.strokeStyle = '#e2e8f0'; c.lineWidth = 1;
+  c.beginPath(); c.moveTo(0, 534.2); c.lineTo(800, 534.2); c.stroke();
 
   // Cylinder geometry (used later but placed here so the steam chest dimensions
   // are available for the steam-path drawing).
-  const CYL_L = 605, CYL_R = 745;
-  const CYL_T = 400, CYL_B = 445;
+  // Cylinder sits to the RIGHT of the front driving wheel, BELOW the smoke box.
+  // (Classic outside-cylinder arrangement: cylinder ahead of the drivers.)
+  // pin2X range [421, 469], ROD_L=160 ⇒ xheadX range ≈ [582, 628]
+  const CYL_L = 642, CYL_R = 762;
+  const CYL_T = 438, CYL_B = 475;
   const CYL_H = CYL_B - CYL_T;
-  const WALL = 6;
-  const PISTON_W = 22;
+  const WALL = 5;
+  const PISTON_W = 24;
+  // Piston head x — piston rod has a fixed effective length; piston is rigidly
+  // linked to the crosshead so pX travels the same distance as xheadX.
+  const pX = xheadX + 90;
   // Fire flicker (used both in firebox and fire-tube glow)
   const flick = 0.85 + Math.sin(phase * 40) * 0.08 + Math.sin(phase * 73 + 1.3) * 0.05;
 
-  // ── 2. Cab (behind the boiler so the boiler tail overlaps the front) ──
-  const CAB_L = 60, CAB_R = 195;
-  const CAB_T = 230, CAB_B = 430;
+  // ── 2. Cab with curved roof (signature locomotive cab silhouette) ──
+  const CAB_L = 55, CAB_R = 210;
+  const CAB_T = 230, CAB_B = 440;
   // Cab body
   c.fillStyle = '#1f2937';
-  roundRect(c, CAB_L, CAB_T, CAB_R - CAB_L, CAB_B - CAB_T, 4); c.fill();
-  outlineRoundRect(c, CAB_L, CAB_T, CAB_R - CAB_L, CAB_B - CAB_T, 4);
-  // Cab roof (overhang)
+  c.fillRect(CAB_L, CAB_T + 12, CAB_R - CAB_L, CAB_B - CAB_T - 12);
+  outlineRect(c, CAB_L, CAB_T + 12, CAB_R - CAB_L, CAB_B - CAB_T - 12);
+  // Sloped roof — overhangs cab body with a gentle curve
   c.fillStyle = '#111827';
-  roundRect(c, CAB_L - 8, CAB_T - 14, CAB_R - CAB_L + 16, 18, 4); c.fill();
-  outlineRoundRect(c, CAB_L - 8, CAB_T - 14, CAB_R - CAB_L + 16, 18, 4);
-  // Cab window
+  c.beginPath();
+  c.moveTo(CAB_L - 12, CAB_T + 16);
+  c.quadraticCurveTo((CAB_L + CAB_R) / 2, CAB_T - 12, CAB_R + 12, CAB_T + 16);
+  c.lineTo(CAB_R + 12, CAB_T + 22);
+  c.quadraticCurveTo((CAB_L + CAB_R) / 2, CAB_T - 6, CAB_L - 12, CAB_T + 22);
+  c.closePath(); c.fill();
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.beginPath();
+  c.moveTo(CAB_L - 12, CAB_T + 16);
+  c.quadraticCurveTo((CAB_L + CAB_R) / 2, CAB_T - 12, CAB_R + 12, CAB_T + 16);
+  c.stroke();
+  // Cab side window (arched top)
   c.fillStyle = '#0f2a3a';
-  roundRect(c, CAB_L + 20, CAB_T + 18, 70, 55, 4); c.fill();
-  outlineRoundRect(c, CAB_L + 20, CAB_T + 18, 70, 55, 4);
+  c.beginPath();
+  c.moveTo(CAB_L + 22, CAB_T + 38);
+  c.lineTo(CAB_L + 22, CAB_T + 100);
+  c.lineTo(CAB_L + 100, CAB_T + 100);
+  c.lineTo(CAB_L + 100, CAB_T + 38);
+  c.quadraticCurveTo(CAB_L + 61, CAB_T + 18, CAB_L + 22, CAB_T + 38);
+  c.closePath(); c.fill();
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5; c.stroke();
   // Cross frame in window
-  c.strokeStyle = '#0f172a'; c.lineWidth = 2;
-  c.beginPath(); c.moveTo(CAB_L + 55, CAB_T + 18); c.lineTo(CAB_L + 55, CAB_T + 73); c.stroke();
-  c.beginPath(); c.moveTo(CAB_L + 20, CAB_T + 45); c.lineTo(CAB_L + 90, CAB_T + 45); c.stroke();
+  c.beginPath(); c.moveTo(CAB_L + 61, CAB_T + 22); c.lineTo(CAB_L + 61, CAB_T + 100); c.stroke();
+  c.beginPath(); c.moveTo(CAB_L + 22, CAB_T + 65); c.lineTo(CAB_L + 100, CAB_T + 65); c.stroke();
+  // Lower cab panel separation line (for detail)
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1;
+  c.beginPath(); c.moveTo(CAB_L, CAB_T + 120); c.lineTo(CAB_R, CAB_T + 120); c.stroke();
+  // Cab grab rail (vertical)
+  c.strokeStyle = '#d4a017'; c.lineWidth = 2;
+  c.beginPath(); c.moveTo(CAB_R - 8, CAB_T + 40); c.lineTo(CAB_R - 8, CAB_T + 110); c.stroke();
 
   // ── 3a. Firebox (between cab and boiler) ──
   const FB_L = 180, FB_R = 265;
@@ -1177,14 +1213,34 @@ function drawSteam(c, phase, w, h) {
     c.beginPath(); c.arc(ex, ey, 1.8, 0, TAU); c.fill();
   }
 
-  // ── 3b. Boiler body (cutaway) ──
-  const B_L = 250, B_R = 600;
-  const B_T = 215, B_B = 400;
+  // ── 3b. Boiler body (cylindrical cutaway) ──
+  const B_L = 235, B_R = 575;
+  const B_T = 230, B_B = 410;
   const B_H = B_B - B_T;
-  // Outer shell with subtle gradient
-  c.fillStyle = metalGrad(c, B_L, B_T, B_R - B_L, B_H, '#475569', 'v');
-  roundRect(c, B_L, B_T, B_R - B_L, B_H, 12); c.fill();
-  outlineRoundRect(c, B_L, B_T, B_R - B_L, B_H, 12);
+  // Outer shell — cylinder with 3-stop vertical gradient so it reads as round
+  const boilerGrad = c.createLinearGradient(0, B_T, 0, B_B);
+  boilerGrad.addColorStop(0, '#334155');      // darker top (shadow)
+  boilerGrad.addColorStop(0.35, '#64748b');   // lit upper
+  boilerGrad.addColorStop(0.5, '#94a3b8');    // highlight
+  boilerGrad.addColorStop(0.65, '#64748b');   // lit lower
+  boilerGrad.addColorStop(1, '#1f2937');      // dark bottom (shadow)
+  c.fillStyle = boilerGrad;
+  c.fillRect(B_L, B_T, B_R - B_L, B_H);
+  // Rivets along the top and bottom edges
+  c.fillStyle = '#1e293b';
+  for (let rx = B_L + 14; rx < B_R; rx += 18) {
+    c.beginPath(); c.arc(rx, B_T + 3, 1.6, 0, TAU); c.fill();
+    c.beginPath(); c.arc(rx, B_B - 3, 1.6, 0, TAU); c.fill();
+  }
+  // Elliptical band at the rear of the boiler (meeting the firebox/cab)
+  c.strokeStyle = '#0f172a'; c.lineWidth = 2;
+  c.beginPath();
+  c.ellipse(B_L + 3, (B_T + B_B) / 2, 6, B_H / 2 - 2, 0, Math.PI / 2, -Math.PI / 2);
+  c.stroke();
+  // Top and bottom horizontal edges
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.beginPath(); c.moveTo(B_L, B_T); c.lineTo(B_R, B_T); c.stroke();
+  c.beginPath(); c.moveTo(B_L, B_B); c.lineTo(B_R, B_B); c.stroke();
 
   // Cutaway — interior filled with water (bottom) and steam (top)
   c.save();
@@ -1258,6 +1314,19 @@ function drawSteam(c, phase, w, h) {
 
   c.restore(); // end clip
 
+  // ── 3c. Running board (footplate) — horizontal walkway plate ──
+  // Runs from cab front all the way to the buffer beam, clearly visible above
+  // the wheels. Drawn here, BEFORE wheels and cylinder, so it's layered behind
+  // the moving parts.
+  const RB_L = 210, RB_R = 792;
+  const RB_T = 410, RB_B = 422;
+  c.fillStyle = '#4b5563';
+  c.fillRect(RB_L, RB_T, RB_R - RB_L, RB_B - RB_T);
+  outlineRect(c, RB_L, RB_T, RB_R - RB_L, RB_B - RB_T);
+  // Bright top edge (metal highlight)
+  c.strokeStyle = '#94a3b8'; c.lineWidth = 1;
+  c.beginPath(); c.moveTo(RB_L, RB_T + 0.5); c.lineTo(RB_R, RB_T + 0.5); c.stroke();
+
   // ── 4. Steam dome + safety valve on top of boiler ──
   const domeCX = 390;
   const domeR = 22;
@@ -1282,48 +1351,105 @@ function drawSteam(c, phase, w, h) {
   c.fillStyle = `rgba(255,255,255,${0.25 * svPuff})`;
   c.beginPath(); c.arc(svCX, B_T - 34 - svPuff * 6, 5 + svPuff * 4, 0, TAU); c.fill();
 
-  // ── 5a. Smoke box (dark drum at the front of the boiler) ──
-  const SB_L = 600, SB_R = 680;
-  const SB_T = 205, SB_B = 415;
-  c.fillStyle = '#1f2937';
-  roundRect(c, SB_L, SB_T, SB_R - SB_L, SB_B - SB_T, 10); c.fill();
-  outlineRoundRect(c, SB_L, SB_T, SB_R - SB_L, SB_B - SB_T, 10);
-  // Door / number plate
+  // ── 5a. Smoke box (dark short drum at the front of the boiler) ──
+  const SB_L = 575, SB_R = 640;
+  const SB_T = 225, SB_B = 415;
+  const SB_H = SB_B - SB_T;
+  // Smoke-box shell — darker than boiler, with subtle cylindrical shading
+  const sbGrad = c.createLinearGradient(0, SB_T, 0, SB_B);
+  sbGrad.addColorStop(0, '#111827');
+  sbGrad.addColorStop(0.5, '#1f2937');
+  sbGrad.addColorStop(1, '#030712');
+  c.fillStyle = sbGrad;
+  c.fillRect(SB_L, SB_T, SB_R - SB_L, SB_H);
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.strokeRect(SB_L, SB_T, SB_R - SB_L, SB_H);
+  // Front face (the round door we see end-on is drawn as a small plate, NOT a giant circle)
   const sbCX = (SB_L + SB_R) / 2;
   const sbCY = (SB_T + SB_B) / 2;
-  c.fillStyle = '#111827';
-  c.beginPath(); c.arc(sbCX, sbCY, 75, 0, TAU); c.fill();
-  outlineCircle(c, sbCX, sbCY, 75);
-  // Hinges
-  c.strokeStyle = '#475569'; c.lineWidth = 3;
-  for (let k = 0; k < 8; k++) {
-    const a = k * TAU / 8;
-    c.beginPath();
-    c.moveTo(sbCX + Math.cos(a) * 65, sbCY + Math.sin(a) * 65);
-    c.lineTo(sbCX + Math.cos(a) * 72, sbCY + Math.sin(a) * 72);
-    c.stroke();
-  }
-  // Centre plate
-  c.fillStyle = '#78716c';
-  c.beginPath(); c.arc(sbCX, sbCY, 18, 0, TAU); c.fill();
-  outlineCircle(c, sbCX, sbCY, 18);
+  // Small central number plate
+  c.fillStyle = '#d4a017';
+  c.beginPath(); c.arc(sbCX, sbCY, 13, 0, TAU); c.fill();
+  outlineCircle(c, sbCX, sbCY, 13);
+  c.fillStyle = '#7a5800';
+  c.font = 'bold 12px sans-serif';
+  c.textAlign = 'center'; c.textBaseline = 'middle';
+  c.fillText('310', sbCX, sbCY + 1);
+  // Tiny dog-ear hinges top and bottom (just enough to suggest the smokebox door)
+  c.fillStyle = '#475569';
+  c.fillRect(sbCX - 3, SB_T + 6, 6, 8);
+  c.fillRect(sbCX - 3, SB_B - 14, 6, 8);
+  // Handrail along the top of the smoke box
+  c.strokeStyle = '#d4a017'; c.lineWidth = 1.5;
+  c.beginPath(); c.moveTo(SB_L + 4, SB_T + 6); c.lineTo(SB_R - 4, SB_T + 6); c.stroke();
 
-  // ── 5b. Chimney (on top of smoke box) ──
-  const CH_CX = 640;
-  const CH_T = 85, CH_B = SB_T;
-  const CH_W_TOP = 48, CH_W_BOT = 34;
-  c.fillStyle = metalGrad(c, CH_CX - CH_W_TOP / 2, CH_T, CH_W_TOP, CH_B - CH_T, '#1f2937', 'v');
+  // ── 5a-2. EXHAUST pipe (studená / ochlazená pára) ──
+  // Carries the low-pressure cooled steam from the cylinder/valve chest UP
+  // through the side of the smoke box into the chimney base. In a real
+  // locomotive this is the "blast pipe" — the exhaust blast draws fire
+  // through the fire-tubes, which is what makes a steam engine self-draft.
+  // Drawn BEFORE the chimney so the chimney hides the pipe's upper end
+  // (creates the illusion of the pipe entering the chimney from below).
+  const EXH_PATH = [
+    [(CYL_L + CYL_R) / 2, CYL_T - 40],   // leaves valve chest TOP (above central exhaust port)
+    [(CYL_L + CYL_R) / 2, SB_T - 6],     // up above smoke box
+    [(SB_L + SB_R) / 2, SB_T - 6],       // left to chimney
+    [(SB_L + SB_R) / 2, SB_T + 8],       // down into chimney base
+  ];
+  function strokePath(ctx, pts) {
+    ctx.beginPath();
+    ctx.moveTo(pts[0][0], pts[0][1]);
+    for (let i = 1; i < pts.length; i++) ctx.lineTo(pts[i][0], pts[i][1]);
+    ctx.stroke();
+  }
+  c.save();
+  c.lineCap = 'round'; c.lineJoin = 'round';
+  // Outer shell — mid-blue so it pops against dark sky
+  c.strokeStyle = '#1e3a5f'; c.lineWidth = 14; strokePath(c, EXH_PATH);
+  // Main body — lighter blue-steel
+  c.strokeStyle = '#3b82f6'; c.lineWidth = 10; strokePath(c, EXH_PATH);
+  // Bright highlight stripe — reads as "cool steam"
+  c.strokeStyle = '#bfdbfe'; c.lineWidth = 4; strokePath(c, EXH_PATH);
+  // Dark outline
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5; strokePath(c, EXH_PATH);
+  // Animated flow dashes — cool steam moving UP toward chimney
+  c.setLineDash([12, 12]);
+  c.lineDashOffset = -phase * 160;
+  c.strokeStyle = 'rgba(219, 234, 254, 0.98)'; c.lineWidth = 4;
+  strokePath(c, EXH_PATH);
+  c.setLineDash([]);
+  c.restore();
+  // Arrow tip INTO chimney (points up, just before the horizontal turn)
+  arrow(c, (CYL_L + CYL_R) / 2, SB_T + 30, (CYL_L + CYL_R) / 2, SB_T + 6, '#bfdbfe', 2);
+  // Arrow tip showing exhaust leaving the valve chest (points UP)
+  arrow(c, (CYL_L + CYL_R) / 2, CYL_T - 18, (CYL_L + CYL_R) / 2, CYL_T - 40, '#bfdbfe', 2);
+
+  // ── 5b. Chimney — tall stack on top of smoke box ──
+  const CH_CX = (SB_L + SB_R) / 2;
+  const CH_T = 55, CH_B = SB_T;
+  const CH_W_TOP = 52, CH_W_BOT = 30;
+  // Tapered stack body (shaded so it looks round)
+  const chGrad = c.createLinearGradient(CH_CX - CH_W_TOP / 2, 0, CH_CX + CH_W_TOP / 2, 0);
+  chGrad.addColorStop(0, '#111827');
+  chGrad.addColorStop(0.5, '#334155');
+  chGrad.addColorStop(1, '#0f172a');
+  c.fillStyle = chGrad;
   c.beginPath();
   c.moveTo(CH_CX - CH_W_BOT / 2, CH_B);
   c.lineTo(CH_CX + CH_W_BOT / 2, CH_B);
-  c.lineTo(CH_CX + CH_W_TOP / 2, CH_T);
-  c.lineTo(CH_CX - CH_W_TOP / 2, CH_T);
+  c.lineTo(CH_CX + CH_W_TOP / 2, CH_T + 8);
+  c.lineTo(CH_CX - CH_W_TOP / 2, CH_T + 8);
   c.closePath(); c.fill();
-  c.strokeStyle = '#1e293b'; c.lineWidth = 2; c.stroke();
-  // Rim
-  c.fillStyle = '#334155';
-  c.fillRect(CH_CX - CH_W_TOP / 2 - 3, CH_T - 4, CH_W_TOP + 6, 6);
-  outlineRect(c, CH_CX - CH_W_TOP / 2 - 3, CH_T - 4, CH_W_TOP + 6, 6);
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5; c.stroke();
+  // Flared rim at the top
+  c.fillStyle = '#1f2937';
+  roundRect(c, CH_CX - CH_W_TOP / 2 - 5, CH_T, CH_W_TOP + 10, 10, 2); c.fill();
+  outlineRoundRect(c, CH_CX - CH_W_TOP / 2 - 5, CH_T, CH_W_TOP + 10, 10, 2);
+  // Inner ellipse (top opening)
+  c.fillStyle = '#030712';
+  c.beginPath();
+  c.ellipse(CH_CX, CH_T + 4, CH_W_TOP / 2 - 2, 4, 0, 0, TAU);
+  c.fill();
 
   // ── 5c. Smoke / exhaust plume from the chimney ──
   // Plume pulses with the power strokes (twice per wheel revolution)
@@ -1348,51 +1474,152 @@ function drawSteam(c, phase, w, h) {
     c.beginPath(); c.arc(px, py, 1.8, 0, TAU); c.fill();
   }
 
-  // ── 6a. Steam pipe from dome → valve chest (red/pink overlay on boiler top) ──
+  // ── 6a. LIVE steam pipe: dome → valve chest (horká pára) ──
+  // Carries HIGH-PRESSURE hot steam from the steam dome along the top of
+  // the boiler, down the left side of the smoke box, and into the valve
+  // chest where the slide valve routes it to one side of the piston.
+  //
+  // Route: dome top → along boiler top → down left of smoke box
+  //        → under smoke box → into valve chest (top-left).
+  const LIVE_PATH = [
+    [domeCX,      B_T - 18],       // leaves dome
+    [SB_L - 4,    B_T - 18],       // along top of boiler
+    [SB_L - 4,    SB_B + 2],       // drops down left of smoke box
+    [CYL_L + 14,  SB_B + 2],       // horizontal below smoke box
+    [CYL_L + 14,  CYL_T - 40],     // into valve chest (top-left corner)
+  ];
   c.save();
-  c.strokeStyle = 'rgba(239, 68, 68, 0.85)'; c.lineWidth = 5; c.lineCap = 'round';
-  c.beginPath();
-  c.moveTo(domeCX + 8, B_T - 22);
-  c.lineTo(SB_L + 12, B_T - 22);
-  c.lineTo(SB_L + 12, SB_T + 24);
-  c.lineTo(SB_R - 10, SB_T + 24);
-  c.lineTo(SB_R - 10, 390);  // down to valve chest area
-  c.stroke();
-  // Thin dark core line
-  c.strokeStyle = '#7f1d1d'; c.lineWidth = 1.5;
-  c.stroke();
+  c.lineCap = 'round'; c.lineJoin = 'round';
+  // Outer dark red shell (insulated pipe)
+  c.strokeStyle = '#7f1d1d'; c.lineWidth = 14; strokePath(c, LIVE_PATH);
+  // Main red body
+  c.strokeStyle = '#dc2626'; c.lineWidth = 10; strokePath(c, LIVE_PATH);
+  // Bright highlight stripe (hot glow)
+  c.strokeStyle = '#fca5a5'; c.lineWidth = 4; strokePath(c, LIVE_PATH);
+  // Dark outline
+  c.strokeStyle = '#450a0a'; c.lineWidth = 1.5; strokePath(c, LIVE_PATH);
+  // Animated flow dashes — live steam racing from dome TOWARD valve chest
+  c.setLineDash([12, 12]);
+  c.lineDashOffset = -phase * 200;
+  c.strokeStyle = 'rgba(255, 240, 220, 0.95)'; c.lineWidth = 4;
+  strokePath(c, LIVE_PATH);
+  c.setLineDash([]);
   c.restore();
+  // Arrow tip showing live steam entering valve chest (points DOWN)
+  arrow(c, CYL_L + 14, CYL_T - 62, CYL_L + 14, CYL_T - 40, '#fecaca', 2);
+  // Arrow tip showing live steam leaving dome (points RIGHT along boiler)
+  arrow(c, domeCX + 60, B_T - 18, domeCX + 90, B_T - 18, '#fecaca', 2);
 
-  // ── 6b. Valve chest (sits on TOP of the cylinder) ──
+  // ── 6b. Valve chest (steam chest) with D-slide valve and 3 ports ──
+  // The steam chest is always full of LIVE high-pressure steam (from the
+  // dome via the red live-steam pipe). A D-shaped slide valve rides on
+  // the "valve face" at the bottom and covers/uncovers 3 ports:
+  //   • LEFT steam port  → passage to LEFT side of cylinder
+  //   • CENTER exhaust port → passage up the blue exhaust pipe to chimney
+  //   • RIGHT steam port → passage to RIGHT side of cylinder
+  // The valve body has a hollow CAVITY on its underside that connects the
+  // exhaust port to whichever steam port is also under the cavity.
+  // Valve chest deliberately taller than realistic so students can see
+  // the D-slide valve, its cavity, and the three ports clearly.
   const VC_L = CYL_L + 5, VC_R = CYL_R - 5;
-  const VC_T = CYL_T - 26, VC_B = CYL_T - 2;
+  const VC_T = CYL_T - 40, VC_B = CYL_T - 2;
   const VC_W = VC_R - VC_L, VC_H = VC_B - VC_T;
   c.fillStyle = metalGrad(c, VC_L, VC_T, VC_W, VC_H, '#4b5563', 'v');
   roundRect(c, VC_L, VC_T, VC_W, VC_H, 4); c.fill();
   outlineRoundRect(c, VC_L, VC_T, VC_W, VC_H, 4);
 
-  // Live-steam fill inside valve chest (pinkish — hot high-pressure steam)
-  c.fillStyle = 'rgba(248, 180, 190, 0.35)';
+  // Live steam fills the whole chest around the valve (pinkish)
+  c.fillStyle = 'rgba(248, 180, 190, 0.55)';
   c.fillRect(VC_L + 3, VC_T + 3, VC_W - 6, VC_H - 6);
 
-  // Slide valve (moves opposite to piston via eccentric)
+  // Which side is currently receiving LIVE steam?
+  //   phase 0-0.5 : piston moves LEFT  → live on RIGHT, exhaust on LEFT
+  //   phase 0.5-1 : piston moves RIGHT → live on LEFT,  exhaust on RIGHT
+  const liveIsLeft = pistonMovingRight;
+
+  // Ports in the valve face (port1/portEX/port2 in a row, close together)
+  const portW = 10;
+  const port1X = VC_L + 14;                           // LEFT steam port
+  const port2X = VC_R - 14 - portW;                   // RIGHT steam port
+  const portEX = (VC_L + VC_R) / 2 - portW / 2;       // CENTER exhaust port
+
+  // Port passage vertical strip (from valve face down to cylinder top)
+  const passageY = VC_B - 1;
+  const passageH = CYL_T - VC_B + 3;
+
+  // Draw port openings (dark base)
+  c.fillStyle = '#0f172a';
+  c.fillRect(port1X, passageY, portW, passageH); outlineRect(c, port1X, passageY, portW, passageH);
+  c.fillRect(port2X, passageY, portW, passageH); outlineRect(c, port2X, passageY, portW, passageH);
+  c.fillRect(portEX, passageY, portW, passageH); outlineRect(c, portEX, passageY, portW, passageH);
+
+  // Also draw the central exhaust passage going UP from the exhaust port
+  // through the valve chest to the top where the exhaust pipe connects.
+  c.fillStyle = '#0f172a';
+  c.fillRect(portEX, VC_T - 1, portW, VC_H * 0.35);
+  outlineRect(c, portEX, VC_T - 1, portW, VC_H * 0.35);
+
+  // Fill ports with steam colour according to current state
+  const livePortX = liveIsLeft ? port1X : port2X;
+  const exhPortX  = liveIsLeft ? port2X : port1X;
+  // Live port — hot pink (admission)
+  c.fillStyle = `rgba(248, 140, 160, ${0.75 + 0.2 * Math.sin(phase * 20)})`;
+  c.fillRect(livePortX + 1, passageY + 1, portW - 2, passageH - 2);
+  // Exhausting steam port — cool blue (exhaust leaving cylinder)
+  c.fillStyle = 'rgba(147, 197, 253, 0.70)';
+  c.fillRect(exhPortX + 1, passageY + 1, portW - 2, passageH - 2);
+  // Central exhaust port and upward passage — blue (always exhausting)
+  c.fillRect(portEX + 1, passageY + 1, portW - 2, passageH - 2);
+  c.fillStyle = 'rgba(147, 197, 253, 0.55)';
+  c.fillRect(portEX + 1, VC_T, portW - 2, VC_H * 0.35 - 1);
+
+  // Slide valve — "D" shape with hollow cavity underneath
   const valveTravel = 18;
   const valveOffset = -Math.sin(crankA) * valveTravel;
-  const valveW = VC_W * 0.45;
+  const valveW = 62;                                   // wide enough to cover exhaust+1 steam port
   const valveX = (VC_L + VC_R) / 2 - valveW / 2 + valveOffset;
-  c.fillStyle = '#6b7280';
-  roundRect(c, valveX, VC_T + 4, valveW, VC_H - 8, 3); c.fill();
-  outlineRoundRect(c, valveX, VC_T + 4, valveW, VC_H - 8, 3);
+  const valveT = VC_T + 10;
+  const valveB = VC_B - 2;
+  const cavityW = 36;
+  const cavityX = valveX + (valveW - cavityW) / 2;
+  const cavityT = valveB - 12;
+  // Solid valve body (top part)
+  c.fillStyle = '#52525b';
+  roundRect(c, valveX, valveT, valveW, valveB - valveT, 3); c.fill();
+  outlineRoundRect(c, valveX, valveT, valveW, valveB - valveT, 3);
+  // Cavity on underside — filled with cool exhausting steam
+  c.fillStyle = 'rgba(147, 197, 253, 0.85)';
+  c.fillRect(cavityX, cavityT, cavityW, valveB - cavityT);
+  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
+  c.strokeRect(cavityX + 0.5, cavityT + 0.5, cavityW - 1, valveB - cavityT - 1);
+  // Small flow dashes inside cavity (showing exhaust steam flowing sideways)
+  c.save();
+  c.setLineDash([6, 4]);
+  c.lineDashOffset = -phase * 30 * (liveIsLeft ? 1 : -1);
+  c.strokeStyle = 'rgba(226, 240, 255, 0.9)'; c.lineWidth = 2; c.lineCap = 'butt';
+  c.beginPath();
+  c.moveTo(cavityX + 3, (cavityT + valveB) / 2);
+  c.lineTo(cavityX + cavityW - 3, (cavityT + valveB) / 2);
+  c.stroke();
+  c.restore();
 
-  // Steam ports (two openings from valve chest into cylinder top)
-  const portW = 10;
-  const port1X = VC_L + 18;               // left port → left side of piston
-  const port2X = VC_R - 18 - portW;       // right port → right side of piston
-  c.fillStyle = '#0f172a';
-  c.fillRect(port1X, VC_B - 1, portW, CYL_T - VC_B + 2);
-  outlineRect(c, port1X, VC_B - 1, portW, CYL_T - VC_B + 2);
-  c.fillRect(port2X, VC_B - 1, portW, CYL_T - VC_B + 2);
-  outlineRect(c, port2X, VC_B - 1, portW, CYL_T - VC_B + 2);
+  // Valve rod (drives slide valve from eccentric on the axle — we just show a stub)
+  c.strokeStyle = '#94a3b8'; c.lineWidth = 4; c.lineCap = 'round';
+  c.beginPath();
+  c.moveTo(valveX, (valveT + valveB) / 2);
+  c.lineTo(VC_L - 10, (valveT + valveB) / 2);
+  c.stroke();
+
+  // Arrows inside the valve chest
+  c.save();
+  c.globalAlpha = 0.9;
+  // Live steam: flows DOWN from chest through the OPEN steam port into cylinder
+  arrow(c, livePortX + portW / 2, VC_T + 14, livePortX + portW / 2, VC_B - 3, '#ef4444', 2);
+  // Exhaust steam: flows UP from chamber through exhausting port
+  // into cavity, then through exhaust port UP to exhaust pipe
+  arrow(c, exhPortX + portW / 2, VC_B - 3, exhPortX + portW / 2, cavityT + 3, '#3b82f6', 2);
+  arrow(c, portEX + portW / 2, VC_T + (VC_H * 0.35), portEX + portW / 2, VC_T + 2, '#3b82f6', 2);
+  c.restore();
 
   // ── 6c. Cylinder body ──
   c.fillStyle = metalGrad(c, CYL_L, CYL_T, CYL_R - CYL_L, CYL_H, '#6b7280', 'v');
@@ -1405,21 +1632,83 @@ function drawSteam(c, phase, w, h) {
   c.fillRect(CYL_R - 5, CYL_T - 4, 10, CYL_H + 8);
   outlineRect(c, CYL_R - 5, CYL_T - 4, 10, CYL_H + 8);
 
-  // Interior — show steam in each chamber based on which side is live
+  // Interior — chambers with expansion gradient showing cooling
   const pistonLeft = pX - PISTON_W / 2;
   const pistonRight = pX + PISTON_W / 2;
   const chamberTop = CYL_T + WALL;
   const chamberBot = CYL_B - WALL;
-  // Left chamber
-  c.fillStyle = pistonMovingRight
-    ? 'rgba(248, 180, 190, 0.55)'        // live steam — hot pink
-    : 'rgba(180, 190, 200, 0.18)';       // exhaust — grey
-  c.fillRect(CYL_L + 5, chamberTop, pistonLeft - CYL_L - 5, chamberBot - chamberTop);
-  // Right chamber
-  c.fillStyle = pistonMovingRight
-    ? 'rgba(180, 190, 200, 0.18)'
-    : 'rgba(248, 180, 190, 0.55)';
-  c.fillRect(pistonRight, chamberTop, CYL_R - pistonRight - 5, chamberBot - chamberTop);
+  const chamberH = chamberBot - chamberTop;
+
+  // Helper: draw live chamber with horizontal gradient
+  //   near the port  → hot pink (freshly admitted, HIGH pressure)
+  //   far from port  → pale blue-grey (expanded, LOW pressure, COOLED)
+  function fillLiveChamber(x1, x2, portAtLeft) {
+    const g = portAtLeft
+      ? c.createLinearGradient(x1, 0, x2, 0)
+      : c.createLinearGradient(x2, 0, x1, 0);
+    g.addColorStop(0.00, 'rgba(248, 120, 150, 0.85)');   // HOT at port
+    g.addColorStop(0.35, 'rgba(250, 180, 200, 0.65)');
+    g.addColorStop(0.70, 'rgba(220, 210, 220, 0.45)');
+    g.addColorStop(1.00, 'rgba(180, 210, 240, 0.40)');   // COOLED near piston
+    c.fillStyle = g;
+    c.fillRect(x1, chamberTop, x2 - x1, chamberH);
+  }
+  function fillExhaustChamber(x1, x2) {
+    // Uniform cool blue — this side is exhausting
+    c.fillStyle = 'rgba(147, 197, 253, 0.40)';
+    c.fillRect(x1, chamberTop, x2 - x1, chamberH);
+  }
+
+  if (liveIsLeft) {
+    fillLiveChamber(CYL_L + 5, pistonLeft, true);           // live LEFT — port on LEFT
+    fillExhaustChamber(pistonRight, CYL_R - 5);
+  } else {
+    fillExhaustChamber(CYL_L + 5, pistonLeft);
+    fillLiveChamber(pistonRight, CYL_R - 5, false);         // live RIGHT — port on RIGHT
+  }
+
+  // Animated steam particles inside chambers — show flow direction AND
+  // temperature transition from hot pink (near port) to cool blue (near piston)
+  c.save();
+  for (let i = 0; i < 7; i++) {
+    const t = (phase * 1.3 + i / 7) % 1;
+    let px, py, rCol, gCol, bCol;
+    py = (chamberTop + chamberBot) / 2 + Math.sin(t * 5 + i * 1.1) * 5;
+    const r = 1.8 + t * 1.8;
+    // Color transitions from hot (near port) to cool (near piston)
+    rCol = Math.floor(248 - t * 120);
+    gCol = Math.floor(130 + t * 80);
+    bCol = Math.floor(150 + t * 90);
+    if (liveIsLeft) {
+      // particles move RIGHT in LEFT chamber (port on left → piston on right)
+      const width = Math.max(4, pistonLeft - CYL_L - 14);
+      px = CYL_L + 8 + t * width;
+    } else {
+      // particles move LEFT in RIGHT chamber (port on right → piston on left)
+      const width = Math.max(4, CYL_R - pistonRight - 14);
+      px = CYL_R - 8 - t * width;
+    }
+    c.fillStyle = `rgba(${rCol}, ${gCol}, ${bCol}, ${0.7 * (1 - t * 0.3)})`;
+    c.beginPath(); c.arc(px, py, r, 0, TAU); c.fill();
+  }
+  // In exhaust chamber — small pale blue particles moving TOWARD the port
+  for (let i = 0; i < 5; i++) {
+    const t = (phase * 1.5 + i / 5) % 1;
+    let px;
+    const py = (chamberTop + chamberBot) / 2 + Math.sin(t * 4 + i * 1.3) * 5;
+    if (liveIsLeft) {
+      // exhaust is on RIGHT — particles move RIGHT toward port2
+      const width = Math.max(4, CYL_R - pistonRight - 14);
+      px = pistonRight + 4 + t * width;
+    } else {
+      // exhaust is on LEFT — particles move LEFT toward port1
+      const width = Math.max(4, pistonLeft - CYL_L - 14);
+      px = pistonLeft - 4 - t * width;
+    }
+    c.fillStyle = `rgba(180, 210, 240, ${0.55 * (1 - t * 0.4)})`;
+    c.beginPath(); c.arc(px, py, 2, 0, TAU); c.fill();
+  }
+  c.restore();
 
   // Piston
   const pGrad = c.createLinearGradient(0, chamberTop, 0, chamberBot);
@@ -1439,17 +1728,41 @@ function drawSteam(c, phase, w, h) {
   outlineRect(c, CYL_L - 16, XHEAD_Y - 8, 12, 16);
 
   // ── 6d. Crosshead + slide bars ──
-  const CH_L = 535, CH_R = CYL_L - 16;   // slide bar extent
+  const CH_L = 575, CH_R = CYL_L - 10;   // slide bar extent
   // Top + bottom slide bars
   c.fillStyle = '#334155';
-  c.fillRect(CH_L, XHEAD_Y - 18, CH_R - CH_L, 4);
-  outlineRect(c, CH_L, XHEAD_Y - 18, CH_R - CH_L, 4);
-  c.fillRect(CH_L, XHEAD_Y + 14, CH_R - CH_L, 4);
-  outlineRect(c, CH_L, XHEAD_Y + 14, CH_R - CH_L, 4);
+  c.fillRect(CH_L, XHEAD_Y - 14, CH_R - CH_L, 3);
+  outlineRect(c, CH_L, XHEAD_Y - 14, CH_R - CH_L, 3);
+  c.fillRect(CH_L, XHEAD_Y + 11, CH_R - CH_L, 3);
+  outlineRect(c, CH_L, XHEAD_Y + 11, CH_R - CH_L, 3);
   // Crosshead block
   c.fillStyle = '#64748b';
-  roundRect(c, xheadX - 14, XHEAD_Y - 14, 20, 28, 2); c.fill();
-  outlineRoundRect(c, xheadX - 14, XHEAD_Y - 14, 20, 28, 2);
+  roundRect(c, xheadX - 12, XHEAD_Y - 10, 18, 22, 2); c.fill();
+  outlineRoundRect(c, xheadX - 12, XHEAD_Y - 10, 18, 22, 2);
+
+  // ── 6e. Buffer beam at the front (red with round buffers) ──
+  const BB_L = CYL_R, BB_R = 795;
+  const BB_T = 425, BB_B = 490;
+  c.fillStyle = '#b91c1c';
+  c.fillRect(BB_L, BB_T, BB_R - BB_L, BB_B - BB_T);
+  outlineRect(c, BB_L, BB_T, BB_R - BB_L, BB_B - BB_T);
+  // Two round buffers (stacked) sticking forward
+  c.fillStyle = '#52525b';
+  c.fillRect(BB_R, BB_T + 8, 5, 14);
+  c.fillRect(BB_R, BB_B - 22, 5, 14);
+  outlineRect(c, BB_R, BB_T + 8, 5, 14);
+  outlineRect(c, BB_R, BB_B - 22, 5, 14);
+  c.fillStyle = '#94a3b8';
+  c.beginPath(); c.arc(BB_R + 5, BB_T + 15, 5, 0, TAU); c.fill();
+  outlineCircle(c, BB_R + 5, BB_T + 15, 5);
+  c.beginPath(); c.arc(BB_R + 5, BB_B - 15, 5, 0, TAU); c.fill();
+  outlineCircle(c, BB_R + 5, BB_B - 15, 5);
+  // Coupling hook in the middle
+  c.strokeStyle = '#27272a'; c.lineWidth = 3; c.lineCap = 'round';
+  c.beginPath();
+  c.moveTo(BB_R - 3, (BB_T + BB_B) / 2);
+  c.lineTo(BB_R + 8, (BB_T + BB_B) / 2);
+  c.stroke();
 
   // ── 7. Connecting rod (crosshead → front driving-wheel crank pin) ──
   // Drawn BEFORE wheels so the wheels hub appears on top of the rod end.
@@ -1495,26 +1808,9 @@ function drawSteam(c, phase, w, h) {
   drawDrivingWheel(DRV1_CX, DRV_CY, DRV_R, crankA);
   drawDrivingWheel(DRV2_CX, DRV_CY, DRV_R, crankA);
 
-  // Leading wheel (front, small, passive)
-  const LEAD_CX = 720, LEAD_CY = 475, LEAD_R = 35;
-  c.fillStyle = '#991b1b';
-  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, LEAD_R, 0, TAU); c.fill();
-  outlineCircle(c, LEAD_CX, LEAD_CY, LEAD_R);
-  c.fillStyle = '#dc2626';
-  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, LEAD_R - 5, 0, TAU); c.fill();
-  outlineCircle(c, LEAD_CX, LEAD_CY, LEAD_R - 5);
-  // Spokes for leading wheel
-  c.strokeStyle = '#7f1d1d'; c.lineWidth = 4; c.lineCap = 'round';
-  for (let k = 0; k < 8; k++) {
-    const sa = crankA * (DRV_R / LEAD_R) + k * TAU / 8;
-    c.beginPath();
-    c.moveTo(LEAD_CX + 6 * Math.cos(sa), LEAD_CY + 6 * Math.sin(sa));
-    c.lineTo(LEAD_CX + (LEAD_R - 8) * Math.cos(sa), LEAD_CY + (LEAD_R - 8) * Math.sin(sa));
-    c.stroke();
-  }
-  c.fillStyle = '#374151';
-  c.beginPath(); c.arc(LEAD_CX, LEAD_CY, 6, 0, TAU); c.fill();
-  outlineCircle(c, LEAD_CX, LEAD_CY, 6);
+  // No separate leading wheel — this is a classic 0-4-0 tank-engine layout
+  // (two coupled driving wheels, no pilot truck). Visually clean and
+  // historically accurate for small shunting/industrial locomotives.
 
   // ── 9. Coupling rod (connects both driving wheels, ALWAYS horizontal) ──
   // Drawn ON TOP of wheels so it's clearly visible.
@@ -1533,16 +1829,47 @@ function drawSteam(c, phase, w, h) {
     outlineCircle(c, px, py, 5);
   }
 
-  // ── 6e. Steam flow arrows (visual cue which side is active) ──
+  // ── 6e. In-chamber text markers + push arrow on piston ──
+  // Place "HORKÁ" / "STUDENÁ" NEAR THE TOP of each chamber (not centered
+  // vertically) so they don't collide with the horizontal push arrow.
+  // Temperature readouts are drawn just below each label when there's room.
   c.save();
-  c.globalAlpha = 0.85;
-  if (pistonMovingRight) {
-    // Live steam entering left port, pushing piston right
-    arrow(c, port1X + portW / 2, VC_B + 2, port1X + portW / 2, CYL_T + 4, '#ef4444', 2.5);
-    arrow(c, pistonRight + 6, XHEAD_Y, pX + 26, XHEAD_Y, '#ef4444', 2);
+  c.textAlign = 'center'; c.textBaseline = 'middle';
+  const textY = chamberTop + 6;       // top name (HORKÁ/STUDENÁ)
+  const tempY = chamberTop + 16;      // small temperature readout beneath
+  function drawChamberMark(cx, wPx, kind) {
+    // kind: 'hot' or 'cold'
+    const hot = kind === 'hot';
+    c.font = 'bold 9px sans-serif';
+    c.fillStyle = hot ? '#fecaca' : '#bfdbfe';
+    c.fillText(hot ? 'HORKÁ' : 'STUDENÁ', cx, textY);
+    if (wPx > 44) {
+      c.font = 'bold 7.5px sans-serif';
+      c.fillStyle = hot ? '#fca5a5' : '#93c5fd';
+      c.fillText(hot ? '~180 °C' : '~100 °C', cx, tempY);
+    }
+  }
+  if (liveIsLeft) {
+    const liveW = pistonLeft - (CYL_L + 5);
+    const exhW = (CYL_R - 5) - pistonRight;
+    if (liveW > 28) drawChamberMark((CYL_L + 5 + pistonLeft) / 2, liveW, 'hot');
+    if (exhW > 32)  drawChamberMark((pistonRight + CYL_R - 5) / 2, exhW, 'cold');
   } else {
-    arrow(c, port2X + portW / 2, VC_B + 2, port2X + portW / 2, CYL_T + 4, '#ef4444', 2.5);
-    arrow(c, pistonLeft - 6, XHEAD_Y, pX - 26, XHEAD_Y, '#ef4444', 2);
+    const exhW = pistonLeft - (CYL_L + 5);
+    const liveW = (CYL_R - 5) - pistonRight;
+    if (exhW > 32)  drawChamberMark((CYL_L + 5 + pistonLeft) / 2, exhW, 'cold');
+    if (liveW > 28) drawChamberMark((pistonRight + CYL_R - 5) / 2, liveW, 'hot');
+  }
+  c.restore();
+
+  // Push arrow on piston — shows which way the piston is being forced
+  c.save();
+  c.globalAlpha = 0.95;
+  if (liveIsLeft) {
+    // Live on LEFT pushes piston RIGHT
+    arrow(c, pistonRight + 3, XHEAD_Y, pX + 34, XHEAD_Y, '#fecaca', 3.5);
+  } else {
+    arrow(c, pistonLeft - 3, XHEAD_Y, pX - 34, XHEAD_Y, '#fecaca', 3.5);
   }
   c.restore();
 
@@ -1557,14 +1884,30 @@ function drawSteam(c, phase, w, h) {
   label(c, 'Pojistný ventil', svCX + 14, B_T - 36, 9, '#d4a017', 'left');
   label(c, 'Dýmnice', sbCX, SB_B + 18, 10, '#94a3b8');
   label(c, 'Komín', CH_CX + 28, (CH_T + CH_B) / 2, 10, '#94a3b8', 'left');
-  label(c, 'Rozvody (šoupátko)', (VC_L + VC_R) / 2, VC_T - 6, 9, '#fca5a5');
+  // Pipe labels — bold + colored, placed well above the pipes in clear
+  // space so they don't sit on the pipe or collide with other labels.
+  labelBold(c, 'HORKÁ PÁRA →', (domeCX + (SB_L - 4)) / 2, B_T - 55, 12, '#fca5a5');
+  labelBold(c, '← ODPADNÍ PÁRA', ((SB_L + SB_R) / 2 + (CYL_L + CYL_R) / 2) / 2, SB_T - 22, 12, '#bfdbfe');
+  // "Šoupátko" label — just above valve chest, tucked left next to the
+  // live-pipe entry.
+  label(c, 'šoupátko', VC_L + 40, VC_T - 6, 9, '#cbd5e1', 'left');
+  // Dynamic phase banner — placed ABOVE šoupátko so both are readable.
+  // Describes what the locomotive cycle is doing right now in plain Czech.
+  // sin(crankA) drives valve offset; |sin| near 1 ⇒ admission opening wide,
+  // |sin| near 0 ⇒ valve centred (ports closed, expansion).
+  const valveAbs = Math.abs(Math.sin(crankA));
+  let phaseTxt, phaseColor;
+  if (valveAbs > 0.70) { phaseTxt = 'ADMISE'; phaseColor = '#fca5a5'; }
+  else if (valveAbs > 0.30) { phaseTxt = 'EXPANZE'; phaseColor = '#fde68a'; }
+  else { phaseTxt = 'VÝFUK'; phaseColor = '#93c5fd'; }
+  const dirArrow = liveIsLeft ? '→' : '←';
+  labelBold(c, `${phaseTxt}   píst ${dirArrow}`, (VC_L + VC_R) / 2, VC_T - 22, 11, phaseColor, 'center');
   label(c, 'Parní válec s pístem', (CYL_L + CYL_R) / 2, CYL_B + 14, 10, '#cbd5e1');
   label(c, 'Křížová hlava', xheadX, XHEAD_Y + 38, 9, '#94a3b8');
   label(c, 'Ojnice', (xheadX + pin2X) / 2 + 8, (XHEAD_Y + pin2Y) / 2 - 10, 9, '#cbd5e1', 'left');
   label(c, 'Spřažnice', (pin1X + pin2X) / 2, Math.min(pin1Y, pin2Y) - 14, 9, '#cbd5e1');
   label(c, 'Hnací kolo', DRV1_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
   label(c, 'Hnací kolo', DRV2_CX, DRV_CY + DRV_R + 20, 10, '#fca5a5');
-  label(c, 'Běhoun', LEAD_CX, LEAD_CY + LEAD_R + 14, 9, '#94a3b8');
   c.restore();
 
   c.restore();
