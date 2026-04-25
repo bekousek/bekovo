@@ -1061,7 +1061,7 @@ function drawSteam(c, phase, w, h) {
   // Crank kinematics — phase drives wheel rotation.
   const crankA = phase * TAU;
   const DRV_CY = 450;             // driving-wheel axle y
-  const DRV1_CX = 265;            // rear driving wheel
+  const DRV1_CX = 320;            // rear driving wheel (under rear of barrel)
   const DRV2_CX = 445;            // front driving wheel (drives the piston)
   const DRV_R  = 70;              // driving wheel radius
   const R_CRANK = 24;             // crank radius (half the piston stroke)
@@ -1140,8 +1140,10 @@ function drawSteam(c, phase, w, h) {
   const flick = 0.85 + Math.sin(phase * 40) * 0.08 + Math.sin(phase * 73 + 1.3) * 0.05;
 
   // ── 2. Cab with curved roof (signature locomotive cab silhouette) ──
-  const CAB_L = 55, CAB_R = 210;
-  const CAB_T = 230, CAB_B = 440;
+  // Cab sits BEHIND the firebox (rear of locomotive). Front cab wall abuts
+  // the firebox rear wall at FB_L=175.
+  const CAB_L = 22, CAB_R = 175;
+  const CAB_T = 220, CAB_B = 440;
   // Cab body
   c.fillStyle = '#1f2937';
   c.fillRect(CAB_L, CAB_T + 12, CAB_R - CAB_L, CAB_B - CAB_T - 12);
@@ -1179,111 +1181,163 @@ function drawSteam(c, phase, w, h) {
   c.strokeStyle = '#d4a017'; c.lineWidth = 2;
   c.beginPath(); c.moveTo(CAB_R - 8, CAB_T + 40); c.lineTo(CAB_R - 8, CAB_T + 110); c.stroke();
 
-  // ── 3a. Firebox (between cab and boiler) ──
-  const FB_L = 180, FB_R = 265;
-  const FB_T = 320, FB_B = 460;
-  // Outer shell
-  c.fillStyle = '#374151';
-  roundRect(c, FB_L, FB_T, FB_R - FB_L, FB_B - FB_T, 6); c.fill();
-  outlineRoundRect(c, FB_L, FB_T, FB_R - FB_L, FB_B - FB_T, 6);
-  // Fire inside (visible through stoker door — round glowing opening)
-  const doorCX = FB_L + 42, doorCY = FB_T + 60, doorR = 22;
-  const fireGrad = c.createRadialGradient(doorCX, doorCY, 2, doorCX, doorCY, doorR);
-  fireGrad.addColorStop(0, `rgba(255, 240, 120, ${0.95 * flick})`);
-  fireGrad.addColorStop(0.4, `rgba(255, 150, 40, ${0.85 * flick})`);
-  fireGrad.addColorStop(1, `rgba(120, 30, 10, 0.6)`);
-  c.fillStyle = fireGrad;
-  c.beginPath(); c.arc(doorCX, doorCY, doorR, 0, TAU); c.fill();
-  outlineCircle(c, doorCX, doorCY, doorR);
-  // Coal heap visible at the bottom of the door
-  c.fillStyle = '#1c1917';
-  c.beginPath();
-  c.moveTo(doorCX - doorR + 2, doorCY + doorR * 0.6);
-  for (let k = 0; k < 6; k++) {
-    c.lineTo(doorCX - doorR + 2 + k * 7, doorCY + doorR * 0.35 + Math.sin(k * 2) * 3);
-  }
-  c.lineTo(doorCX + doorR - 2, doorCY + doorR - 2);
-  c.lineTo(doorCX - doorR + 2, doorCY + doorR - 2);
-  c.closePath(); c.fill();
-  // Embers (small flicker dots)
-  for (let k = 0; k < 5; k++) {
-    const ex = doorCX - doorR + 6 + k * 7;
-    const ey = doorCY + doorR * 0.55 + Math.sin(phase * 30 + k) * 2;
-    c.fillStyle = `rgba(255, ${120 + Math.sin(phase * 20 + k * 1.7) * 60}, 0, ${0.7 + Math.sin(phase * 25 + k) * 0.3})`;
-    c.beginPath(); c.arc(ex, ey, 1.8, 0, TAU); c.fill();
-  }
-
-  // ── 3b. Boiler body (cylindrical cutaway) ──
-  const B_L = 235, B_R = 575;
-  const B_T = 230, B_B = 410;
+  // ── 3. Boiler body — UNIFIED firebox + barrel (cutaway view) ──
+  // Real anatomy: the firebox is the REAR section of the boiler, taller
+  // and wider than the cylindrical barrel. Both share the same water
+  // jacket; the fire burns at the bottom of the firebox interior, hot
+  // gases pass forward through the fire-tubes inside the barrel to the
+  // smoke box. The firebox shoulder rises above and below the barrel.
+  // Firebox section (rear)
+  const FB_L = 175, FB_R = 290;
+  const FB_T = 215, FB_B = 470;
+  // Barrel section (front, cylindrical)
+  const B_L = 285, B_R = 510;
+  const B_T = 240, B_B = 410;
   const B_H = B_B - B_T;
-  // Outer shell — cylinder with 3-stop vertical gradient so it reads as round
-  const boilerGrad = c.createLinearGradient(0, B_T, 0, B_B);
-  boilerGrad.addColorStop(0, '#334155');      // darker top (shadow)
-  boilerGrad.addColorStop(0.35, '#64748b');   // lit upper
-  boilerGrad.addColorStop(0.5, '#94a3b8');    // highlight
-  boilerGrad.addColorStop(0.65, '#64748b');   // lit lower
-  boilerGrad.addColorStop(1, '#1f2937');      // dark bottom (shadow)
+  // Common water level — water fills the firebox sides + top AND the
+  // bottom half of the barrel. Picked so it's visible above the fire and
+  // clearly below the steam space in the barrel.
+  const waterTop = 320;
+
+  // ── 3a. Outer shell (compound shape: firebox box + barrel cylinder) ──
+  function shellPath() {
+    c.beginPath();
+    c.moveTo(FB_L, FB_T);            // top-left of firebox
+    c.lineTo(FB_R, FB_T);            // along top of firebox
+    c.lineTo(FB_R, B_T);             // step DOWN to barrel top
+    c.lineTo(B_R, B_T);              // along top of barrel
+    c.lineTo(B_R, B_B);              // down right edge (meets smokebox)
+    c.lineTo(FB_R, B_B);             // along barrel bottom (back to firebox)
+    c.lineTo(FB_R, FB_B);            // step DOWN to firebox bottom
+    c.lineTo(FB_L, FB_B);            // along firebox bottom
+    c.closePath();                   // up firebox left side
+  }
+  // Subtle vertical gradient so the boiler reads as a metal cylinder.
+  const boilerGrad = c.createLinearGradient(0, FB_T, 0, FB_B);
+  boilerGrad.addColorStop(0, '#334155');
+  boilerGrad.addColorStop(0.35, '#64748b');
+  boilerGrad.addColorStop(0.5, '#94a3b8');
+  boilerGrad.addColorStop(0.65, '#64748b');
+  boilerGrad.addColorStop(1, '#1f2937');
   c.fillStyle = boilerGrad;
-  c.fillRect(B_L, B_T, B_R - B_L, B_H);
-  // Rivets along the top and bottom edges
+  shellPath(); c.fill();
+  // Outline
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  shellPath(); c.stroke();
+  // Rivets on barrel top + bottom
   c.fillStyle = '#1e293b';
   for (let rx = B_L + 14; rx < B_R; rx += 18) {
     c.beginPath(); c.arc(rx, B_T + 3, 1.6, 0, TAU); c.fill();
     c.beginPath(); c.arc(rx, B_B - 3, 1.6, 0, TAU); c.fill();
   }
-  // Elliptical band at the rear of the boiler (meeting the firebox/cab)
-  c.strokeStyle = '#0f172a'; c.lineWidth = 2;
-  c.beginPath();
-  c.ellipse(B_L + 3, (B_T + B_B) / 2, 6, B_H / 2 - 2, 0, Math.PI / 2, -Math.PI / 2);
-  c.stroke();
-  // Top and bottom horizontal edges
-  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
-  c.beginPath(); c.moveTo(B_L, B_T); c.lineTo(B_R, B_T); c.stroke();
-  c.beginPath(); c.moveTo(B_L, B_B); c.lineTo(B_R, B_B); c.stroke();
+  // Rivets along firebox edges
+  for (let ry = FB_T + 14; ry < FB_B - 8; ry += 18) {
+    c.beginPath(); c.arc(FB_L + 3, ry, 1.6, 0, TAU); c.fill();
+  }
 
-  // Cutaway — interior filled with water (bottom) and steam (top)
+  // ── 3b. Cutaway interior — water (blue), steam (pink), fire (orange) ──
   c.save();
-  // Clip to inside of boiler
-  roundRect(c, B_L + 6, B_T + 6, B_R - B_L - 12, B_H - 12, 8);
-  c.clip();
+  shellPath(); c.clip();
 
-  // Water (bottom ~55%)
-  const waterTop = B_T + B_H * 0.45;
-  const waterGrad = c.createLinearGradient(0, waterTop, 0, B_B);
+  // Water — fills firebox sides+top and bottom-half of barrel
+  const waterGrad = c.createLinearGradient(0, waterTop, 0, FB_B);
   waterGrad.addColorStop(0, '#60a5fa');
   waterGrad.addColorStop(1, '#1d4ed8');
   c.fillStyle = waterGrad;
-  c.fillRect(B_L, waterTop, B_R - B_L, B_B - waterTop);
+  c.fillRect(FB_L, waterTop, FB_R - FB_L, FB_B - waterTop);   // firebox water
+  c.fillRect(B_L,  waterTop, B_R  - B_L,  B_B  - waterTop);   // barrel water
 
-  // Steam (top ~45%, pinkish-white because it's hot)
-  const steamGrad = c.createLinearGradient(0, B_T, 0, waterTop);
+  // Steam (top of barrel + top of firebox above water line)
+  const steamGrad = c.createLinearGradient(0, FB_T, 0, waterTop);
   steamGrad.addColorStop(0, '#fde2e4');
   steamGrad.addColorStop(1, '#f9a8b4');
   c.fillStyle = steamGrad;
-  c.fillRect(B_L, B_T, B_R - B_L, waterTop - B_T);
+  c.fillRect(FB_L, FB_T, FB_R - FB_L, waterTop - FB_T);
+  c.fillRect(B_L,  B_T,  B_R  - B_L,  waterTop - B_T);
 
-  // Fire-tubes — horizontal hot tubes running the length of the boiler.
-  // They transfer hot gases from firebox (left) to smoke box (right).
-  const TUBE_X1 = B_L + 8, TUBE_X2 = B_R - 4;
+  // ── Firebox INTERIOR — inner box surrounding the fire ──
+  // The firebox has its own steel inner walls that hold the fire and are
+  // jacketed by water on three sides + the crown.
+  const FBI_L = FB_L + 14, FBI_R = FB_R - 14;
+  const FBI_T = waterTop + 4, FBI_B = FB_B - 6;
+  // Inner firebox wall (dark steel)
+  c.fillStyle = '#1f2937';
+  c.fillRect(FBI_L, FBI_T, FBI_R - FBI_L, FBI_B - FBI_T);
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.strokeRect(FBI_L + 0.5, FBI_T + 0.5, FBI_R - FBI_L - 1, FBI_B - FBI_T - 1);
+
+  // Fire grate (hatched bar at the bottom)
+  const grateY = FBI_B - 14;
+  c.strokeStyle = '#374151'; c.lineWidth = 2;
+  for (let gx = FBI_L + 4; gx < FBI_R; gx += 6) {
+    c.beginPath(); c.moveTo(gx, grateY); c.lineTo(gx, FBI_B - 2); c.stroke();
+  }
+
+  // Coal heap on the grate
+  c.fillStyle = '#0c0a09';
+  c.beginPath();
+  c.moveTo(FBI_L + 4, grateY);
+  for (let k = 0; k <= 8; k++) {
+    const cx = FBI_L + 4 + k * (FBI_R - FBI_L - 8) / 8;
+    const cy = grateY - 4 - Math.sin(k * 1.7) * 3;
+    c.lineTo(cx, cy);
+  }
+  c.lineTo(FBI_R - 4, grateY);
+  c.closePath(); c.fill();
+
+  // Flames rising above coal — radial gradient + flickering shapes
+  const flameCX = (FBI_L + FBI_R) / 2;
+  const flameCY = grateY - 8;
+  const fireGrad = c.createRadialGradient(flameCX, flameCY + 6, 4, flameCX, flameCY - 22, (FBI_R - FBI_L) / 2);
+  fireGrad.addColorStop(0, `rgba(255, 240, 120, ${0.95 * flick})`);
+  fireGrad.addColorStop(0.4, `rgba(255, 150, 40, ${0.85 * flick})`);
+  fireGrad.addColorStop(1, `rgba(120, 30, 10, 0)`);
+  c.fillStyle = fireGrad;
+  c.fillRect(FBI_L + 1, FBI_T + 6, FBI_R - FBI_L - 2, grateY - FBI_T - 4);
+
+  // Individual licking flames
+  c.save();
+  c.globalCompositeOperation = 'lighter';
+  for (let k = 0; k < 5; k++) {
+    const fx = FBI_L + 8 + k * (FBI_R - FBI_L - 16) / 4;
+    const fAmp = 6 + Math.sin(phase * 18 + k * 1.3) * 4;
+    const fH = 18 + Math.sin(phase * 22 + k * 0.7) * 6;
+    c.fillStyle = `rgba(255, ${160 + Math.floor(40 * Math.sin(phase * 20 + k))}, 40, 0.6)`;
+    c.beginPath();
+    c.moveTo(fx - fAmp, grateY - 2);
+    c.quadraticCurveTo(fx - fAmp / 2, grateY - fH, fx, grateY - fH - 4);
+    c.quadraticCurveTo(fx + fAmp / 2, grateY - fH, fx + fAmp, grateY - 2);
+    c.closePath(); c.fill();
+  }
+  c.restore();
+
+  // Embers floating up
+  for (let k = 0; k < 6; k++) {
+    const t = (phase * 1.6 + k / 6) % 1;
+    const ex = FBI_L + 8 + ((k * 53) % (FBI_R - FBI_L - 16));
+    const ey = grateY - 4 - t * (grateY - FBI_T - 6);
+    c.fillStyle = `rgba(255, ${120 + Math.floor(60 * Math.sin(phase * 15 + k))}, 0, ${0.6 * (1 - t)})`;
+    c.beginPath(); c.arc(ex, ey, 1.6, 0, TAU); c.fill();
+  }
+
+  // ── Fire-tubes — start at firebox front wall, run through the barrel ──
+  const TUBE_X1 = B_L + 4, TUBE_X2 = B_R - 4;
   const tubes = [
-    B_T + 26, B_T + 45, B_T + 65, B_T + 85, B_T + 105,       // in steam
-    waterTop + 8, waterTop + 28, waterTop + 48, waterTop + 68, waterTop + 88, // in water
+    B_T + 22, B_T + 42, B_T + 62, B_T + 82,                      // tubes in steam space
+    waterTop + 12, waterTop + 32, waterTop + 52, waterTop + 72,  // tubes in water
   ];
   for (const ty of tubes) {
-    // Tube body — heated, the color pulses slightly
     const heat = 0.7 + Math.sin(phase * 12 + ty) * 0.15;
     const g = c.createLinearGradient(TUBE_X1, 0, TUBE_X2, 0);
-    g.addColorStop(0, `rgba(255, ${Math.floor(100 * heat)}, 40, 0.95)`); // very hot at firebox side
+    g.addColorStop(0, `rgba(255, ${Math.floor(100 * heat)}, 40, 0.95)`);
     g.addColorStop(1, `rgba(255, ${Math.floor(180 * heat)}, 80, 0.85)`);
     c.strokeStyle = g; c.lineWidth = 5; c.lineCap = 'round';
     c.beginPath(); c.moveTo(TUBE_X1, ty); c.lineTo(TUBE_X2, ty); c.stroke();
-    // Thin dark core
     c.strokeStyle = '#7f1d1d'; c.lineWidth = 1.5;
     c.beginPath(); c.moveTo(TUBE_X1, ty); c.lineTo(TUBE_X2, ty); c.stroke();
   }
 
-  // Bubble animation in water (rising bubbles from hot tubes)
+  // Bubbles rising in barrel water
   for (let i = 0; i < 10; i++) {
     const t = (phase * 0.8 + i / 10) % 1;
     const bx = B_L + 20 + ((i * 47) % (B_R - B_L - 40));
@@ -1293,7 +1347,7 @@ function drawSteam(c, phase, w, h) {
     c.beginPath(); c.arc(bx, by, bs, 0, TAU); c.fill();
   }
 
-  // Swirling steam in the top — soft blobs
+  // Swirling steam blobs at the top of the barrel
   for (let i = 0; i < 6; i++) {
     const t = (phase * 0.6 + i / 6) % 1;
     const sx = B_L + 30 + t * (B_R - B_L - 60) + Math.sin(i) * 15;
@@ -1303,22 +1357,28 @@ function drawSteam(c, phase, w, h) {
     c.beginPath(); c.arc(sx, sy, sr, 0, TAU); c.fill();
   }
 
-  // Water surface line with tiny ripple
+  // Water surface line with tiny ripple — runs the whole length of the
+  // boiler+firebox, since both share the same water level.
   c.strokeStyle = 'rgba(255,255,255,0.35)'; c.lineWidth = 1.5;
   c.beginPath();
-  for (let x = B_L; x <= B_R; x += 4) {
+  for (let x = FB_L; x <= B_R; x += 4) {
     const y = waterTop + Math.sin(x * 0.06 + phase * 12) * 1.2;
-    if (x === B_L) c.moveTo(x, y); else c.lineTo(x, y);
+    if (x === FB_L) c.moveTo(x, y); else c.lineTo(x, y);
   }
   c.stroke();
 
   c.restore(); // end clip
 
+  // Step lines on the outer shell (firebox/barrel transition)
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.beginPath(); c.moveTo(FB_R, FB_T); c.lineTo(FB_R, B_T); c.stroke();
+  c.beginPath(); c.moveTo(FB_R, B_B); c.lineTo(FB_R, FB_B); c.stroke();
+
   // ── 3c. Running board (footplate) — horizontal walkway plate ──
   // Runs from cab front all the way to the buffer beam, clearly visible above
   // the wheels. Drawn here, BEFORE wheels and cylinder, so it's layered behind
   // the moving parts.
-  const RB_L = 210, RB_R = 792;
+  const RB_L = 175, RB_R = 792;
   const RB_T = 410, RB_B = 422;
   c.fillStyle = '#4b5563';
   c.fillRect(RB_L, RB_T, RB_R - RB_L, RB_B - RB_T);
