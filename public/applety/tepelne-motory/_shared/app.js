@@ -1060,13 +1060,18 @@ function drawSteam(c, phase, w, h) {
 
   // Crank kinematics — phase drives wheel rotation.
   const crankA = phase * TAU;
-  const DRV_CY = 450;             // driving-wheel axle y
+  const DRV_R  = 58;              // driving wheel radius (proportional to boiler)
+  const DRV_CY = 535 - DRV_R;     // axle y so wheels JUST touch the rail (y=535)
   const DRV1_CX = 320;            // rear driving wheel (under rear of barrel)
-  const DRV2_CX = 445;            // front driving wheel (drives the piston)
-  const DRV_R  = 70;              // driving wheel radius
-  const R_CRANK = 24;             // crank radius (half the piston stroke)
-  const ROD_L  = 160;             // connecting-rod length
+  const DRV2_CX = 460;            // front driving wheel (drives the piston)
+  const R_CRANK = 22;             // crank radius (half the piston stroke)
+  const ROD_L  = 150;             // connecting-rod length
   const XHEAD_Y = 455;            // crosshead / piston-rod height (cylinder centerline)
+  // Leading (pilot) wheel — small unpowered wheel under the smokebox/cylinder.
+  // Classic 2-2-0 silhouette adds visual balance to the front of the engine.
+  const LDR_CX = 612;
+  const LDR_R  = 28;
+  const LDR_CY = 535 - LDR_R;
 
   // Driving-wheel crank pins (both wheels mechanically linked → same angle)
   const pin1X = DRV1_CX + R_CRANK * Math.cos(crankA);
@@ -1141,9 +1146,11 @@ function drawSteam(c, phase, w, h) {
 
   // ── 2. Cab with curved roof (signature locomotive cab silhouette) ──
   // Cab sits BEHIND the firebox (rear of locomotive). Front cab wall abuts
-  // the firebox rear wall at FB_L=175.
-  const CAB_L = 22, CAB_R = 175;
-  const CAB_T = 220, CAB_B = 440;
+  // the firebox rear wall at FB_L=175. Cab floor sits ON the running board
+  // (no protrusion below) and cab roof stays at firebox-top level (no
+  // bunny-ear). Wider proportions so it reads as a substantial structure.
+  const CAB_L = 12, CAB_R = 175;
+  const CAB_T = 225, CAB_B = 410;
   // Cab body
   c.fillStyle = '#1f2937';
   c.fillRect(CAB_L, CAB_T + 12, CAB_R - CAB_L, CAB_B - CAB_T - 12);
@@ -1369,10 +1376,25 @@ function drawSteam(c, phase, w, h) {
 
   c.restore(); // end clip
 
-  // Step lines on the outer shell (firebox/barrel transition)
+  // Step lines on the outer shell (firebox/barrel transition).
+  // Real locomotives rivet a "throat sheet" along this transition, so we
+  // add a column of rivets along the firebox/barrel junction in addition to
+  // the dark step line. This reads as a structural seam, not two boxes.
   c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
   c.beginPath(); c.moveTo(FB_R, FB_T); c.lineTo(FB_R, B_T); c.stroke();
   c.beginPath(); c.moveTo(FB_R, B_B); c.lineTo(FB_R, FB_B); c.stroke();
+  // Rivet column along the firebox front sheet (top half above barrel + bottom)
+  c.fillStyle = '#1e293b';
+  for (let ry = FB_T + 6; ry <= B_T - 4; ry += 6) {
+    c.beginPath(); c.arc(FB_R - 3, ry, 1.4, 0, TAU); c.fill();
+  }
+  for (let ry = B_B + 4; ry <= FB_B - 6; ry += 6) {
+    c.beginPath(); c.arc(FB_R - 3, ry, 1.4, 0, TAU); c.fill();
+  }
+  // Light highlight on the shoulder edge — softens the harsh black step
+  c.strokeStyle = 'rgba(148,163,184,0.45)'; c.lineWidth = 1;
+  c.beginPath(); c.moveTo(FB_R + 1, FB_T + 4); c.lineTo(FB_R + 1, B_T - 2); c.stroke();
+  c.beginPath(); c.moveTo(FB_R + 1, B_B + 2); c.lineTo(FB_R + 1, FB_B - 4); c.stroke();
 
   // ── 3c. Running board (footplate) — horizontal walkway plate ──
   // Runs from cab front all the way to the buffer beam, clearly visible above
@@ -1873,12 +1895,35 @@ function drawSteam(c, phase, w, h) {
   }
 
   // ── 8. Wheels ──
+  // Leading (pilot) wheel — small unpowered wheel under the smokebox/cylinder.
+  // Drawn FIRST so larger drivers and rods overlap it correctly.
+  // Rotates at the same linear speed: angle = crankA * (DRV_R / LDR_R).
+  const ldrAng = crankA * (DRV_R / LDR_R);
+  // Outer rim — same red family as drivers for visual unity
+  c.fillStyle = '#991b1b';
+  c.beginPath(); c.arc(LDR_CX, LDR_CY, LDR_R, 0, TAU); c.fill();
+  outlineCircle(c, LDR_CX, LDR_CY, LDR_R);
+  c.fillStyle = '#dc2626';
+  c.beginPath(); c.arc(LDR_CX, LDR_CY, LDR_R - 5, 0, TAU); c.fill();
+  outlineCircle(c, LDR_CX, LDR_CY, LDR_R - 5);
+  // Spokes
+  c.strokeStyle = '#7f1d1d'; c.lineWidth = 3; c.lineCap = 'round';
+  for (let k = 0; k < 8; k++) {
+    const sa = ldrAng + k * TAU / 8;
+    c.beginPath();
+    c.moveTo(LDR_CX + 7 * Math.cos(sa), LDR_CY + 7 * Math.sin(sa));
+    c.lineTo(LDR_CX + (LDR_R - 8) * Math.cos(sa), LDR_CY + (LDR_R - 8) * Math.sin(sa));
+    c.stroke();
+  }
+  c.fillStyle = '#374151';
+  c.beginPath(); c.arc(LDR_CX, LDR_CY, 7, 0, TAU); c.fill();
+  outlineCircle(c, LDR_CX, LDR_CY, 7);
+  c.fillStyle = '#0f172a';
+  c.beginPath(); c.arc(LDR_CX, LDR_CY, 2.5, 0, TAU); c.fill();
+
+  // Driving wheels
   drawDrivingWheel(DRV1_CX, DRV_CY, DRV_R, crankA);
   drawDrivingWheel(DRV2_CX, DRV_CY, DRV_R, crankA);
-
-  // No separate leading wheel — this is a classic 0-4-0 tank-engine layout
-  // (two coupled driving wheels, no pilot truck). Visually clean and
-  // historically accurate for small shunting/industrial locomotives.
 
   // ── 9. Coupling rod (connects both driving wheels, ALWAYS horizontal) ──
   // Drawn ON TOP of wheels so it's clearly visible.
