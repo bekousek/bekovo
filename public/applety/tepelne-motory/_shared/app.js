@@ -1601,114 +1601,203 @@ function drawSteam(c, phase, w, h) {
   arrow(c, domeCX + 60, B_T - 18, domeCX + 90, B_T - 18, '#fecaca', 2);
 
   // ── 6b. Valve chest (steam chest) with D-slide valve and 3 ports ──
-  // The steam chest is always full of LIVE high-pressure steam (from the
-  // dome via the red live-steam pipe). A D-shaped slide valve rides on
-  // the "valve face" at the bottom and covers/uncovers 3 ports:
-  //   • LEFT steam port  → passage to LEFT side of cylinder
-  //   • CENTER exhaust port → passage up the blue exhaust pipe to chimney
-  //   • RIGHT steam port → passage to RIGHT side of cylinder
-  // The valve body has a hollow CAVITY on its underside that connects the
-  // exhaust port to whichever steam port is also under the cavity.
-  // Valve chest deliberately taller than realistic so students can see
-  // the D-slide valve, its cavity, and the three ports clearly.
+  // Geometry follows classic mekanizmalar/Vaščák cutaways:
+  //   • Cast outer chest, slightly taller than wide enough to make the
+  //     D-valve readable without crowding the cylinder.
+  //   • Live steam (pink) fills the chest around the valve.
+  //   • A flat "valve face" (port plate) at the bottom has 3 slots cut
+  //     through it — two outer steam ports and a wider central exhaust.
+  //   • The D-valve is a SINGLE shape: rounded D-cap on top, flat bottom
+  //     riding the face, with a U-shaped notch (the exhaust cavity)
+  //     carved up into its underside.
+  //   • A stuffing-box on the chest wall leads the valve rod out to the
+  //     (off-screen) eccentric on the rear axle.
   const VC_L = CYL_L + 5, VC_R = CYL_R - 5;
-  const VC_T = CYL_T - 40, VC_B = CYL_T - 2;
+  const VC_T = CYL_T - 44, VC_B = CYL_T - 2;
   const VC_W = VC_R - VC_L, VC_H = VC_B - VC_T;
-  c.fillStyle = metalGrad(c, VC_L, VC_T, VC_W, VC_H, '#4b5563', 'v');
-  roundRect(c, VC_L, VC_T, VC_W, VC_H, 4); c.fill();
-  outlineRoundRect(c, VC_L, VC_T, VC_W, VC_H, 4);
 
-  // Live steam fills the whole chest around the valve (pinkish)
-  c.fillStyle = 'rgba(248, 180, 190, 0.55)';
-  c.fillRect(VC_L + 3, VC_T + 3, VC_W - 6, VC_H - 6);
+  // Outer chest shell (cast iron, riveted)
+  c.fillStyle = metalGrad(c, VC_L, VC_T, VC_W, VC_H, '#475569', 'v');
+  roundRect(c, VC_L, VC_T, VC_W, VC_H, 5); c.fill();
+  outlineRoundRect(c, VC_L, VC_T, VC_W, VC_H, 5);
+  // Tiny rivets along chest top — period detail
+  c.fillStyle = '#1e293b';
+  for (let rx = VC_L + 8; rx < VC_R - 4; rx += 8) {
+    c.beginPath(); c.arc(rx, VC_T + 3, 1.1, 0, TAU); c.fill();
+  }
+
+  // Valve-face plate at the bottom of the chest (separate visual element)
+  const VF_T = VC_B - 5;
+  const VF_H = 5;
+  c.fillStyle = '#334155';
+  c.fillRect(VC_L, VF_T, VC_W, VF_H);
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1;
+  c.strokeRect(VC_L + 0.5, VF_T + 0.5, VC_W - 1, VF_H - 1);
+
+  // Live steam fog inside the chest (around the valve)
+  c.save();
+  c.beginPath();
+  c.rect(VC_L + 3, VC_T + 3, VC_W - 6, VF_T - VC_T - 3);
+  c.clip();
+  c.fillStyle = 'rgba(248, 180, 195, 0.50)';
+  c.fillRect(VC_L, VC_T, VC_W, VC_H);
+  // Soft swirling steam blobs (live admission steam)
+  for (let i = 0; i < 4; i++) {
+    const t = (phase * 0.4 + i / 4) % 1;
+    const sx = VC_L + 12 + t * (VC_W - 24);
+    const sy = VC_T + 10 + Math.sin(t * PI + i) * 5;
+    c.fillStyle = `rgba(252, 215, 225, ${0.18 + 0.12 * Math.sin(t * PI)})`;
+    c.beginPath(); c.arc(sx, sy, 6 + Math.sin(t * PI) * 3, 0, TAU); c.fill();
+  }
+  c.restore();
 
   // Which side is currently receiving LIVE steam?
   //   phase 0-0.5 : piston moves LEFT  → live on RIGHT, exhaust on LEFT
   //   phase 0.5-1 : piston moves RIGHT → live on LEFT,  exhaust on RIGHT
   const liveIsLeft = pistonMovingRight;
 
-  // Ports in the valve face (port1/portEX/port2 in a row, close together)
-  const portW = 10;
-  const port1X = VC_L + 14;                           // LEFT steam port
-  const port2X = VC_R - 14 - portW;                   // RIGHT steam port
-  const portEX = (VC_L + VC_R) / 2 - portW / 2;       // CENTER exhaust port
+  // ── Ports through the valve face ──
+  // Steam ports: narrow. Exhaust port: wider (carries combined exhaust).
+  const portSW = 9;                                           // steam port width
+  const portEW = 14;                                          // exhaust port width
+  const port1X = VC_L + 18;                                   // LEFT steam port
+  const port2X = VC_R - 18 - portSW;                          // RIGHT steam port
+  const portEX = (VC_L + VC_R) / 2 - portEW / 2;              // CENTER exhaust port
 
-  // Port passage vertical strip (from valve face down to cylinder top)
-  const passageY = VC_B - 1;
-  const passageH = CYL_T - VC_B + 3;
-
-  // Draw port openings (dark base)
+  // Port passages going DOWN to cylinder (steam ports)
+  const passageT = VF_T + VF_H;
+  const passageH = CYL_T - passageT + 2;
   c.fillStyle = '#0f172a';
-  c.fillRect(port1X, passageY, portW, passageH); outlineRect(c, port1X, passageY, portW, passageH);
-  c.fillRect(port2X, passageY, portW, passageH); outlineRect(c, port2X, passageY, portW, passageH);
-  c.fillRect(portEX, passageY, portW, passageH); outlineRect(c, portEX, passageY, portW, passageH);
+  c.fillRect(port1X, passageT, portSW, passageH);
+  outlineRect(c, port1X, passageT, portSW, passageH);
+  c.fillRect(port2X, passageT, portSW, passageH);
+  outlineRect(c, port2X, passageT, portSW, passageH);
 
-  // Also draw the central exhaust passage going UP from the exhaust port
-  // through the valve chest to the top where the exhaust pipe connects.
+  // Internal exhaust duct going UP from the central port through the chest
+  // to the top — this is what feeds the blue exhaust pipe / blast pipe.
+  const exhDuctT = VC_T;
+  const exhDuctH = VF_T - exhDuctT;
   c.fillStyle = '#0f172a';
-  c.fillRect(portEX, VC_T - 1, portW, VC_H * 0.35);
-  outlineRect(c, portEX, VC_T - 1, portW, VC_H * 0.35);
+  c.fillRect(portEX, exhDuctT, portEW, exhDuctH);
+  outlineRect(c, portEX, exhDuctT, portEW, exhDuctH);
 
-  // Fill ports with steam colour according to current state
+  // Slot cutouts in the valve face (the actual port openings on the face)
+  c.fillStyle = '#000000';
+  c.fillRect(port1X, VF_T, portSW, VF_H);
+  c.fillRect(port2X, VF_T, portSW, VF_H);
+  c.fillRect(portEX, VF_T, portEW, VF_H);
+
+  // Color the active flows
   const livePortX = liveIsLeft ? port1X : port2X;
   const exhPortX  = liveIsLeft ? port2X : port1X;
-  // Live port — hot pink (admission)
-  c.fillStyle = `rgba(248, 140, 160, ${0.75 + 0.2 * Math.sin(phase * 20)})`;
-  c.fillRect(livePortX + 1, passageY + 1, portW - 2, passageH - 2);
-  // Exhausting steam port — cool blue (exhaust leaving cylinder)
-  c.fillStyle = 'rgba(147, 197, 253, 0.70)';
-  c.fillRect(exhPortX + 1, passageY + 1, portW - 2, passageH - 2);
-  // Central exhaust port and upward passage — blue (always exhausting)
-  c.fillRect(portEX + 1, passageY + 1, portW - 2, passageH - 2);
-  c.fillStyle = 'rgba(147, 197, 253, 0.55)';
-  c.fillRect(portEX + 1, VC_T, portW - 2, VC_H * 0.35 - 1);
+  // Live admission port — hot pink, gently pulsing
+  c.fillStyle = `rgba(248, 130, 150, ${0.80 + 0.15 * Math.sin(phase * 20)})`;
+  c.fillRect(livePortX + 1, passageT + 1, portSW - 2, passageH - 2);
+  // Cylinder-exhaust port — cool blue
+  c.fillStyle = 'rgba(147, 197, 253, 0.78)';
+  c.fillRect(exhPortX + 1, passageT + 1, portSW - 2, passageH - 2);
+  // Central exhaust duct (always carrying exhaust upward)
+  c.fillStyle = 'rgba(147, 197, 253, 0.60)';
+  c.fillRect(portEX + 1, exhDuctT + 1, portEW - 2, exhDuctH - 2);
 
-  // Slide valve — "D" shape with hollow cavity underneath
-  const valveTravel = 18;
+  // ── D-slide valve — single closed shape with notched underside ──
+  // Travel oscillates with sin(crankA). At mid-stroke both steam ports
+  // are sealed by the lands; at the extremes one port is open to chest
+  // and the other is bridged to exhaust through the cavity.
+  const valveTravel = 14;
   const valveOffset = -Math.sin(crankA) * valveTravel;
-  const valveW = 62;                                   // wide enough to cover exhaust+1 steam port
+  const valveW = 70;                            // covers both lands + cavity
+  const valveH = 18;                            // flatter — D proportions
+  const valveT = VF_T - valveH;
+  const valveB = VF_T;                          // valve bottom rides the face
   const valveX = (VC_L + VC_R) / 2 - valveW / 2 + valveOffset;
-  const valveT = VC_T + 10;
-  const valveB = VC_B - 2;
+  const cornerR = 7;                            // rounded D-cap
+
+  // Cavity (notch on the underside)
   const cavityW = 36;
+  const cavityH = 11;
   const cavityX = valveX + (valveW - cavityW) / 2;
-  const cavityT = valveB - 12;
-  // Solid valve body (top part)
-  c.fillStyle = '#52525b';
-  roundRect(c, valveX, valveT, valveW, valveB - valveT, 3); c.fill();
-  outlineRoundRect(c, valveX, valveT, valveW, valveB - valveT, 3);
-  // Cavity on underside — filled with cool exhausting steam
+  const cavityT = valveB - cavityH;
+
+  // First fill the cavity volume with cool blue exhaust steam
+  // (drawn behind the valve outline so the notch reads as a hollow).
   c.fillStyle = 'rgba(147, 197, 253, 0.85)';
-  c.fillRect(cavityX, cavityT, cavityW, valveB - cavityT);
-  c.strokeStyle = '#1e293b'; c.lineWidth = 1;
-  c.strokeRect(cavityX + 0.5, cavityT + 0.5, cavityW - 1, valveB - cavityT - 1);
-  // Small flow dashes inside cavity (showing exhaust steam flowing sideways)
-  c.save();
-  c.setLineDash([6, 4]);
-  c.lineDashOffset = -phase * 30 * (liveIsLeft ? 1 : -1);
-  c.strokeStyle = 'rgba(226, 240, 255, 0.9)'; c.lineWidth = 2; c.lineCap = 'butt';
+  c.fillRect(cavityX, cavityT, cavityW, cavityH);
+
+  // Build the D-valve as a single closed path with a rectangular notch
+  // cut up into its bottom edge.
   c.beginPath();
-  c.moveTo(cavityX + 3, (cavityT + valveB) / 2);
-  c.lineTo(cavityX + cavityW - 3, (cavityT + valveB) / 2);
+  c.moveTo(valveX, valveB);                                      // bottom-left
+  c.lineTo(valveX, valveT + cornerR);                            // up left side
+  c.quadraticCurveTo(valveX, valveT, valveX + cornerR, valveT);  // top-left curve
+  c.lineTo(valveX + valveW - cornerR, valveT);                   // across the top
+  c.quadraticCurveTo(valveX + valveW, valveT, valveX + valveW, valveT + cornerR); // top-right curve
+  c.lineTo(valveX + valveW, valveB);                             // down right side
+  c.lineTo(cavityX + cavityW, valveB);                           // across right land bottom
+  c.lineTo(cavityX + cavityW, cavityT);                          // up right wall of notch
+  c.lineTo(cavityX, cavityT);                                    // across notch ceiling
+  c.lineTo(cavityX, valveB);                                     // down left wall of notch
+  c.closePath();                                                 // back to start (left land bottom)
+
+  // Cast-iron body fill with vertical metal sheen
+  const valveGrad = c.createLinearGradient(0, valveT, 0, valveB);
+  valveGrad.addColorStop(0,   '#94a3b8');
+  valveGrad.addColorStop(0.4, '#64748b');
+  valveGrad.addColorStop(1,   '#334155');
+  c.fillStyle = valveGrad;
+  c.fill();
+  c.strokeStyle = '#0f172a'; c.lineWidth = 1.5;
+  c.stroke();
+  // Highlight stripe on the curved D-cap
+  c.strokeStyle = 'rgba(226, 232, 240, 0.55)'; c.lineWidth = 1.4;
+  c.beginPath();
+  c.moveTo(valveX + cornerR + 2, valveT + 2.5);
+  c.lineTo(valveX + valveW - cornerR - 2, valveT + 2.5);
+  c.stroke();
+
+  // Exhaust flow dashes inside the cavity (sideways flow toward exhaust port)
+  c.save();
+  c.beginPath();
+  c.rect(cavityX, cavityT, cavityW, cavityH);
+  c.clip();
+  c.setLineDash([5, 4]);
+  c.lineDashOffset = -phase * 30 * (liveIsLeft ? 1 : -1);
+  c.strokeStyle = 'rgba(219, 234, 254, 0.95)'; c.lineWidth = 2;
+  c.beginPath();
+  c.moveTo(cavityX + 2, (cavityT + valveB) / 2);
+  c.lineTo(cavityX + cavityW - 2, (cavityT + valveB) / 2);
   c.stroke();
   c.restore();
 
-  // Valve rod (drives slide valve from eccentric on the axle — we just show a stub)
-  c.strokeStyle = '#94a3b8'; c.lineWidth = 4; c.lineCap = 'round';
+  // ── Stuffing box & valve rod (drives the valve from the eccentric) ──
+  const rodY = (valveT + valveB) / 2;
+  // Stuffing box sleeve protrudes from the LEFT chest wall
+  c.fillStyle = '#334155';
+  c.fillRect(VC_L - 8, rodY - 5, 10, 10);
+  outlineRect(c, VC_L - 8, rodY - 5, 10, 10);
+  c.fillStyle = '#1e293b';
+  c.fillRect(VC_L - 6, rodY - 3, 6, 6);
+  // Valve rod — polished steel; segment OUTSIDE the chest (visible)
+  c.strokeStyle = '#cbd5e1'; c.lineWidth = 4; c.lineCap = 'round';
   c.beginPath();
-  c.moveTo(valveX, (valveT + valveB) / 2);
-  c.lineTo(VC_L - 10, (valveT + valveB) / 2);
+  c.moveTo(VC_L - 8, rodY); c.lineTo(VC_L - 24, rodY);
   c.stroke();
+  c.strokeStyle = '#e2e8f0'; c.lineWidth = 1.5;
+  c.beginPath();
+  c.moveTo(VC_L - 8, rodY); c.lineTo(VC_L - 24, rodY);
+  c.stroke();
+  // (Inside the chest the rod connects to the valve body — but it's
+  // hidden by the valve cap and chest fog, so we don't draw it.)
 
-  // Arrows inside the valve chest
+  // Arrows showing flow direction
   c.save();
-  c.globalAlpha = 0.9;
-  // Live steam: flows DOWN from chest through the OPEN steam port into cylinder
-  arrow(c, livePortX + portW / 2, VC_T + 14, livePortX + portW / 2, VC_B - 3, '#ef4444', 2);
-  // Exhaust steam: flows UP from chamber through exhausting port
-  // into cavity, then through exhaust port UP to exhaust pipe
-  arrow(c, exhPortX + portW / 2, VC_B - 3, exhPortX + portW / 2, cavityT + 3, '#3b82f6', 2);
-  arrow(c, portEX + portW / 2, VC_T + (VC_H * 0.35), portEX + portW / 2, VC_T + 2, '#3b82f6', 2);
+  c.globalAlpha = 0.95;
+  // DOWN: live admission chest → live port → cylinder
+  arrow(c, livePortX + portSW / 2, valveB + 2, livePortX + portSW / 2, CYL_T - 4, '#ef4444', 2.2);
+  // UP: cylinder → exhausting port → into cavity
+  arrow(c, exhPortX + portSW / 2, CYL_T - 4, exhPortX + portSW / 2, valveB - 2, '#3b82f6', 2.2);
+  // UP: cavity → central exhaust duct → exhaust pipe
+  arrow(c, portEX + portEW / 2, cavityT - 2, portEX + portEW / 2, VC_T + 4, '#3b82f6', 2.2);
   c.restore();
 
   // ── 6c. Cylinder body ──
