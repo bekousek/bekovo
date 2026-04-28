@@ -82,7 +82,7 @@ export default function NotebookExport({ contentId }: Props) {
       // progress overlay so the user sees "Exportuji..." instead of the
       // intermediate render.
       stage = document.createElement('div');
-      stage.className = 'notebook-print';
+      stage.className = `notebook-print notebook-print--${layout}x`;
       stage.style.cssText = [
         'position:fixed',
         'left:0',
@@ -157,10 +157,27 @@ export default function NotebookExport({ contentId }: Props) {
       });
 
       const doc = new jsPDF('p', 'mm', 'a4');
-      const placedHmm = Math.min((img.height * cell.w) / img.width, cell.h);
+
+      // ASPECT-PRESERVING ("contain") FIT — never stretches the image.
+      //   - If content fits the cell at full width, place at full width
+      //     (height shrinks naturally and there's whitespace at the bottom).
+      //   - If content is TALLER than the cell aspect, scale so the height
+      //     matches cell.h; width shrinks proportionally and the image is
+      //     centered horizontally with even side margins.
+      const cellAspect = cell.h / cell.w;
+      const imgAspect = img.height / img.width;
+      let placedW: number, placedH: number;
+      if (imgAspect <= cellAspect) {
+        placedW = cell.w;
+        placedH = cell.w * imgAspect;
+      } else {
+        placedH = cell.h;
+        placedW = cell.h / imgAspect;
+      }
+      const cellOffsetX = (cell.w - placedW) / 2;
 
       for (const [x, y] of cellPositions(layout)) {
-        doc.addImage(imgData, 'JPEG', x, y, cell.w, placedHmm);
+        doc.addImage(imgData, 'JPEG', x + cellOffsetX, y, placedW, placedH);
       }
 
       // Cut lines between identical copies (LaTeX 2-up style).

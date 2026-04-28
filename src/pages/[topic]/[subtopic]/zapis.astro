@@ -113,47 +113,48 @@ const { topic, subtopic } = Astro.props;
        ────────────────────────────────────────────────────────── */
     .notebook-print {
       font-family: "Charter", "Georgia", "Cambria", "Times New Roman", serif;
-      font-size: 10pt;
-      line-height: 1.4;
+      font-size: 9.5pt;
+      line-height: 1.35;
       color: #111;
-      padding: 8mm;
+      padding: 4mm 5mm;
       box-sizing: border-box;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
     .notebook-print h2 {
       font-family: system-ui, "Segoe UI", sans-serif;
-      font-size: 16pt;
+      font-size: 15pt;
       font-weight: 700;
       color: #1e3a8a;
-      margin: 0 0 6pt;
+      margin: 0 0 4pt;
       padding-bottom: 2pt;
       border-bottom: 1pt solid #1e3a8a;
       text-transform: uppercase;
       letter-spacing: 0.02em;
+      text-align: center;
     }
     .notebook-print h3 {
       font-family: system-ui, "Segoe UI", sans-serif;
-      font-size: 11pt;
+      font-size: 10.5pt;
       font-weight: 700;
       color: #1e40af;
-      margin: 9pt 0 3pt;
+      margin: 6pt 0 2pt;
     }
     .notebook-print p {
-      margin: 3pt 0;
-      line-height: 1.4;
+      margin: 2pt 0;
+      line-height: 1.35;
     }
     .notebook-print ul,
     .notebook-print ol {
-      margin: 3pt 0;
-      padding-left: 14pt;
+      margin: 2pt 0;
+      padding-left: 13pt;
       list-style-position: outside;
     }
     .notebook-print ul { list-style-type: disc; }
     .notebook-print ol { list-style-type: decimal; }
     .notebook-print li {
-      margin: 1pt 0;
-      line-height: 1.4;
+      margin: 0.5pt 0;
+      line-height: 1.35;
     }
     .notebook-print li::marker { color: #1e40af; }
     .notebook-print strong { font-weight: 700; }
@@ -169,7 +170,18 @@ const { topic, subtopic } = Astro.props;
     }
     /* Tighter card padding for print */
     .notebook-print [style*="border-radius:8px"][style*="padding:0.75rem"] {
-      padding: 4pt 6pt !important;
+      padding: 3pt 5pt !important;
+    }
+    /* Force responsive auto-fit grids (e.g. teplotní stupnice cards) into a
+       fixed 3-column layout for 1× layout — keeps cards on one row. The
+       2× / 4× layouts override this back to single-column below. */
+    .notebook-print [style*="auto-fit"] {
+      grid-template-columns: repeat(3, 1fr) !important;
+      gap: 4pt !important;
+    }
+    .notebook-print--2x [style*="auto-fit"],
+    .notebook-print--4x [style*="auto-fit"] {
+      grid-template-columns: 1fr !important;
     }
 
     /* Compact tables */
