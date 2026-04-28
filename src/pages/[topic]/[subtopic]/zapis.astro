@@ -5,12 +5,24 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import NotebookExport from '../../../components/NotebookExport';
 import { getSubtopicPaths } from '../../../lib/paths';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 export async function getStaticPaths() {
   return getSubtopicPaths();
 }
 
 const { topic, subtopic } = Astro.props;
+
+let latexSvg: string | null = null;
+if (subtopic.notebookEntry?.latex) {
+  try {
+    latexSvg = readFileSync(
+      join(process.cwd(), 'public', 'notebook-svgs', `${subtopic.id}.svg`),
+      'utf8'
+    );
+  } catch {}
+}
 ---
 <BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
@@ -30,7 +42,15 @@ const { topic, subtopic } = Astro.props;
       <NotebookExport contentId="notebook-content" client:visible />
 
       <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-        <div class="notebook-entry prose max-w-none" set:html={subtopic.notebookEntry.content} />
+        <div class="notebook-entry prose max-w-none">
+          {latexSvg ? (
+            <Fragment set:html={latexSvg} />
+          ) : subtopic.notebookEntry.content ? (
+            <Fragment set:html={subtopic.notebookEntry.content} />
+          ) : (
+            <p class="text-sm text-gray-500 italic">Zápis čeká na kompilaci. Spusť <code>npm run compile-latex</code>.</p>
+          )}
+        </div>
       </div>
     </div>
   ) : (
@@ -42,6 +62,19 @@ const { topic, subtopic } = Astro.props;
   )}
 
   <style is:global>
+    /* Responzivní LaTeX SVG (inline SVG z dvisvgm) */
+    .notebook-entry > svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .notebook-print > svg {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+
     .notebook-entry h2 {
       font-size: 1.5rem;
       font-weight: 700;

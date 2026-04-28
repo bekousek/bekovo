@@ -21,7 +21,8 @@ const subtopics = defineCollection({
     name: z.string(),
     order: z.number(),
     notebookEntry: z.object({
-      content: z.string(),
+      content: z.string().optional(),
+      latex: z.string().optional(),
     }).optional(),
     lessonPrep: z.object({
       googleDocUrl: z.string().url(),
