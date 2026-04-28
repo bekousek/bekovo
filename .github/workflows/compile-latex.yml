@@ -1,0 +1,48 @@
+name: Compile LaTeX zápisy
+
+# Spustí se při pushnutí změn v subtopic JSONech nebo LaTeX skriptech
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/content/subtopics/**'
+      - 'scripts/latex-preamble.tex'
+      - 'scripts/compile-latex.mjs'
+
+jobs:
+  compile-latex:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # potřebné pro git push vygenerovaných SVG
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Nainstalovat LaTeX a nástroje
+        run: |
+          sudo apt-get update -q
+          sudo apt-get install -y --no-install-recommends \
+            texlive-latex-extra \
+            texlive-pictures \
+            texlive-lang-czechslovak \
+            texlive-fonts-recommended \
+            texlive-science \
+            pdf2svg \
+            ghostscript
+
+      - name: Nastavit Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Kompilovat LaTeX → SVG
+        run: node scripts/compile-latex.mjs
+
+      - name: Commitnout vygenerované SVG soubory
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/notebook-svgs/
+          git diff --staged --quiet \
+            && echo "Žádné nové SVG ke commitnutí." \
+            || (git commit -m "Auto: zkompilovat LaTeX → SVG" && git push)
