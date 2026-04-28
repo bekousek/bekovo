@@ -26,6 +26,7 @@ jobs:
             texlive-pictures \
             texlive-lang-czechslovak \
             texlive-fonts-recommended \
+            texlive-fonts-extra \
             texlive-science \
             pdf2svg \
             ghostscript
