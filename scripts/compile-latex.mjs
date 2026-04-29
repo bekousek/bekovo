@@ -3,6 +3,9 @@
  * Kompiluje LaTeX zdroje z notebookEntry.latex polí v subtopic JSON souborech
  * a ukládá výsledné SVG do public/notebook-svgs/{id}.svg.
  *
+ * Vícestrán kové dokumenty (s \newpage): každá strana → samostatné SVG,
+ * výsledek uložen jako pole SVG řetězců v notebookEntry.latexSvg[].
+ *
  * Použití:
  *   npm run compile-latex
  *   npm run compile-latex -- --id=mereni--teplota   (jen jeden zápis)
@@ -11,7 +14,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'fs';
 import { mkdtempSync, rmSync } from 'fs';
 import { join, resolve, basename, dirname } from 'path';
-import { execSync, spawnSync } from 'child_process';
+import { spawnSync } from 'child_process';
 import { tmpdir } from 'os';
 import { fileURLToPath } from 'url';
 
@@ -28,7 +31,7 @@ const filterid  = filterArg ? filterArg.split('=')[1] : null;
 
 // ─── Diagnostika dostupných nástrojů ───────────────────────────────────────
 console.log('=== Dostupné nástroje ===');
-for (const tool of ['pdflatex', 'dvisvgm', 'pdf2svg', 'pdftocairo']) {
+for (const tool of ['pdflatex', 'pdfinfo', 'dvisvgm', 'pdf2svg', 'pdftocairo']) {
   const r = spawnSync('which', [tool], { encoding: 'utf8' });
   console.log(`  ${tool}: ${r.stdout?.trim() || '✗ nenalezen'}`);
 }
@@ -111,28 +114,38 @@ for (const jsonFile of jsonFiles) {
       }
     }
 
-    // --- 3. PDF → SVG ---
-    const svgGenerated = tryDvisvgm(tmpDir) || tryPdftocairo(tmpDir) || tryPdf2svg(tmpDir);
-    if (!svgGenerated) {
-      throw new Error(
-        'PDF→SVG konverze selhala.\n' +
-        'Potřebuješ: dvisvgm + Ghostscript, nebo pdftocairo (poppler-utils), nebo pdf2svg.'
-      );
+    // --- 3. Zjistit počet stran ---
+    const pageCount = getPdfPageCount(tmpDir);
+    console.log(`  Stran: ${pageCount}`);
+
+    // --- 4. PDF → SVG (každá strana zvlášť) ---
+    const pageSvgs = [];
+    for (let page = 1; page <= pageCount; page++) {
+      const outFile = `page-${page}.svg`;
+      const ok = tryDvisvgm(tmpDir, page, outFile)
+               || tryPdftocairo(tmpDir, page, outFile)
+               || tryPdf2svg(tmpDir, page, outFile);
+      if (!ok) {
+        throw new Error(
+          `PDF→SVG konverze selhala (strana ${page}).\n` +
+          'Potřebuješ: dvisvgm + Ghostscript, nebo pdftocairo (poppler-utils), nebo pdf2svg.'
+        );
+      }
+      let svg = readFileSync(join(tmpDir, outFile), 'utf8');
+      svg = makeSvgResponsive(svg);
+      svg = svg.replace(/^\s*<\?xml[^?]*\?>\s*/i, '');
+      pageSvgs.push(svg);
     }
 
-    // --- 4. Post-processing: odstraň fixní width/height, ponech viewBox ---
-    let svg = readFileSync(join(tmpDir, 'output.svg'), 'utf8');
-    svg = makeSvgResponsive(svg);
+    // --- 5. Uložit do public/notebook-svgs/ (stránky odděleny prázdným řádkem) ---
+    writeFileSync(svgOut, pageSvgs.join('\n'), 'utf8');
 
-    writeFileSync(svgOut, svg, 'utf8');
-
-    // --- 5. Uložit SVG inline do JSON (pro Cloudflare Workers kompatibilitu) ---
-    // Odstraň XML prolog (<?xml ... ?>) — není potřeba pro inline HTML
-    const svgInline = svg.replace(/^\s*<\?xml[^?]*\?>\s*/i, '');
-    data.notebookEntry.latexSvg = svgInline;
+    // --- 6. Uložit inline do JSON ---
+    // Pole SVG řetězců — jedno na stránku. Jedno-stranné dokumenty → pole délky 1.
+    data.notebookEntry.latexSvg = pageSvgs;
     writeFileSync(jsonFile, JSON.stringify(data, null, 2) + '\n', 'utf8');
 
-    console.log(`  ✓  ${id}.svg\n`);
+    console.log(`  ✓  ${id}.svg (${pageCount} ${pageCount === 1 ? 'strana' : pageCount < 5 ? 'strany' : 'stran'})\n`);
     compiled++;
 
   } catch (err) {
@@ -148,30 +161,40 @@ if (failed > 0) process.exit(1);
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
-function tryDvisvgm(cwd) {
-  const r = spawnSync('dvisvgm', ['--pdf', '--no-fonts', '--page=1', '-o', 'output.svg', 'document.pdf'], {
+/** Zjistí počet stran PDF přes pdfinfo (poppler-utils). Fallback: 1. */
+function getPdfPageCount(cwd) {
+  const r = spawnSync('pdfinfo', ['document.pdf'], { cwd, encoding: 'utf8', timeout: 10_000 });
+  if (r.status === 0) {
+    const match = r.stdout.match(/^Pages:\s+(\d+)/m);
+    if (match) return parseInt(match[1], 10);
+  }
+  return 1;
+}
+
+function tryDvisvgm(cwd, page, outFile) {
+  const r = spawnSync('dvisvgm', ['--pdf', '--no-fonts', `--page=${page}`, '-o', outFile, 'document.pdf'], {
     cwd, timeout: 30_000, encoding: 'utf8',
   });
-  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
-  if (r.stderr) console.log(`    dvisvgm: ${r.stderr.slice(0, 200)}`);
+  if (r.status === 0 && existsSync(join(cwd, outFile))) return true;
+  if (r.stderr) console.log(`    dvisvgm p${page}: ${r.stderr.slice(0, 200)}`);
   return false;
 }
 
-function tryPdftocairo(cwd) {
-  const r = spawnSync('pdftocairo', ['-svg', '-f', '1', '-l', '1', 'document.pdf', 'output.svg'], {
+function tryPdftocairo(cwd, page, outFile) {
+  const r = spawnSync('pdftocairo', ['-svg', '-f', String(page), '-l', String(page), 'document.pdf', outFile], {
     cwd, timeout: 30_000, encoding: 'utf8',
   });
-  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
-  if (r.stderr) console.log(`    pdftocairo: ${r.stderr.slice(0, 200)}`);
+  if (r.status === 0 && existsSync(join(cwd, outFile))) return true;
+  if (r.stderr) console.log(`    pdftocairo p${page}: ${r.stderr.slice(0, 200)}`);
   return false;
 }
 
-function tryPdf2svg(cwd) {
-  const r = spawnSync('pdf2svg', ['document.pdf', 'output.svg', '1'], {
+function tryPdf2svg(cwd, page, outFile) {
+  const r = spawnSync('pdf2svg', ['document.pdf', outFile, String(page)], {
     cwd, timeout: 30_000, encoding: 'utf8',
   });
-  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
-  if (r.stderr) console.log(`    pdf2svg: ${r.stderr.slice(0, 200)}`);
+  if (r.status === 0 && existsSync(join(cwd, outFile))) return true;
+  if (r.stderr) console.log(`    pdf2svg p${page}: ${r.stderr.slice(0, 200)}`);
   return false;
 }
 
