@@ -182,7 +182,7 @@
 <path d="M 1.75 -3.171875 L 2.53125 -3.171875 C 2.6875 -3.171875 2.78125 -3.171875 2.78125 -3.3125 C 2.78125 -3.421875 2.6875 -3.421875 2.546875 -3.421875 L 1.828125 -3.421875 L 2.109375 -4.5625 C 2.140625 -4.671875 2.140625 -4.71875 2.140625 -4.71875 C 2.140625 -4.890625 2.015625 -4.96875 1.875 -4.96875 C 1.609375 -4.96875 1.546875 -4.75 1.46875 -4.390625 L 1.21875 -3.421875 L 0.453125 -3.421875 C 0.296875 -3.421875 0.203125 -3.421875 0.203125 -3.28125 C 0.203125 -3.171875 0.296875 -3.171875 0.4375 -3.171875 L 1.15625 -3.171875 L 0.671875 -1.25 C 0.625 -1.0625 0.5625 -0.78125 0.5625 -0.671875 C 0.5625 -0.1875 0.953125 0.078125 1.375 0.078125 C 2.21875 0.078125 2.703125 -1.046875 2.703125 -1.140625 C 2.703125 -1.21875 2.625 -1.234375 2.578125 -1.234375 C 2.5 -1.234375 2.484375 -1.203125 2.4375 -1.09375 C 2.28125 -0.703125 1.875 -0.140625 1.390625 -0.140625 C 1.21875 -0.140625 1.125 -0.25 1.125 -0.515625 C 1.125 -0.671875 1.15625 -0.75 1.171875 -0.859375 Z M 1.75 -3.171875 "/>
 </g>
 <g id="kapaliny-7--vztlakova-sila-p1-glyph-4-0">
-<rect x="-3.8" y="-3.8" width="45.6" height="45.6" mask="url(#mask-0)" transform="matrix(0.119884, 0, 0, 0.119884, 0.599422, -5.274914)"/>
+<rect x="-3.8" y="-3.8" width="45.6" height="45.6" mask="url(#kapaliny-7--vztlakova-sila-p1-mask-0)" transform="matrix(0.119884, 0, 0, 0.119884, 0.599422, -5.274914)"/>
 </g>
 <g id="kapaliny-7--vztlakova-sila-p1-glyph-5-0">
 <path d="M 2.484375 -4.984375 C 1.875 -5.140625 1.34375 -5.734375 1.34375 -6.5 C 1.34375 -7.328125 2 -8.078125 2.9375 -8.078125 C 4.890625 -8.078125 5.15625 -6.140625 5.234375 -5.640625 C 5.25 -5.484375 5.25 -5.4375 5.375 -5.4375 C 5.5 -5.4375 5.5 -5.5 5.5 -5.71875 L 5.5 -8.125 C 5.5 -8.34375 5.5 -8.40625 5.390625 -8.40625 C 5.34375 -8.40625 5.296875 -8.40625 5.21875 -8.25 L 4.828125 -7.515625 C 4.25 -8.265625 3.46875 -8.40625 2.9375 -8.40625 C 1.609375 -8.40625 0.640625 -7.34375 0.640625 -6.125 C 0.640625 -5.546875 0.84375 -5.03125 1.296875 -4.546875 C 1.703125 -4.078125 2.125 -3.96875 2.96875 -3.765625 C 3.390625 -3.671875 4.046875 -3.5 4.21875 -3.421875 C 4.78125 -3.15625 5.140625 -2.5 5.140625 -1.84375 C 5.140625 -0.9375 4.515625 -0.09375 3.515625 -0.09375 C 2.984375 -0.09375 2.25 -0.234375 1.65625 -0.734375 C 0.96875 -1.359375 0.921875 -2.21875 0.90625 -2.609375 C 0.890625 -2.703125 0.796875 -2.703125 0.78125 -2.703125 C 0.640625 -2.703125 0.640625 -2.65625 0.640625 -2.4375 L 0.640625 -0.03125 C 0.640625 0.1875 0.640625 0.25 0.765625 0.25 C 0.828125 0.25 0.84375 0.234375 0.9375 0.078125 C 0.984375 -0.015625 1.234375 -0.453125 1.328125 -0.625 C 1.75 -0.15625 2.5 0.25 3.53125 0.25 C 4.875 0.25 5.84375 -0.890625 5.84375 -2.203125 C 5.84375 -2.921875 5.5625 -3.46875 5.234375 -3.859375 C 4.796875 -4.390625 4.265625 -4.53125 3.796875 -4.640625 Z M 2.484375 -4.984375 "/>
@@ -391,267 +391,267 @@
 </g>
 <image id="kapaliny-7--vztlakova-sila-p1-source-52" x="0" y="0" width="38" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAAAAACNVrZyAAAAAmJLR0QA/4ePzL8AAABySURBVDiN7dTBDoAgDAPQ1v//Zz1oWAaDNobEi5wMeykHpERaZ/ti2mdphhmnKE25UjHmCgWgUI+gUjehVACBQ5CQKgygn6bDAJpp7qHOmXbaz96xb65+89+7+WW5z9ktB7dqprArrokba7CAZal2Mg8uwPAVNxFvolIAAAAASUVORK5CYII="/>
 <mask id="kapaliny-7--vztlakova-sila-p1-mask-0">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-source-52"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-source-52"/>
 </mask>
 </defs>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="82.511646" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-1" x="97.118363" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-2" x="108.939573" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-3" x="122.39254" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="134.014294" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-5" x="148.621011" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="82.511646" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-1" x="97.118363" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-2" x="108.939573" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-3" x="122.39254" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="134.014294" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-5" x="148.621011" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-6" x="163.232886" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-6" x="163.232886" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="177.227479" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="177.227479" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="194.295689" y="54.865242"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="194.295689" y="54.865242"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="191.827691" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="191.827691" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-8" x="212.882341" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-8" x="212.882341" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="222.395513" y="54.865242"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="222.395513" y="54.865242"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-9" x="223.630012" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-3" x="230.834502" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="242.456256" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-9" x="223.630012" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-3" x="230.834502" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="242.456256" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="263.510906" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="263.510906" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="284.565555" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-10" x="299.172272" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="284.565555" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-10" x="299.172272" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-11" x="313.067138" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-12" x="327.037658" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-9" x="342.16193" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-13" x="349.36642" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-11" x="313.067138" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-12" x="327.037658" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-9" x="342.16193" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-13" x="349.36642" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="369.225932" y="54.865242"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="369.225932" y="54.865242"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-14" x="367.713771" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-15" x="380.41018" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-14" x="367.713771" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-15" x="380.41018" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-16" x="395.366139" y="54.865242"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-16" x="395.366139" y="54.865242"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-17" x="395.236297" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="410.102651" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-17" x="395.236297" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-0" x="410.102651" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-1" x="431.1573" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-1" x="431.1573" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="445.447228" y="54.865242"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-7" x="445.447228" y="54.865242"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="442.97923" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-5" x="457.585947" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-4" x="442.97923" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-5" x="457.585947" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-6" x="472.197822" y="59.020188"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-0-18" x="486.725444" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-6" x="472.197822" y="59.020188"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-0-18" x="486.725444" y="59.020188"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="42.468348" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="52.611954" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="58.582292" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="63.806338" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="67.5378" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="74.068156" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="42.468348" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="52.611954" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="58.582292" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="63.806338" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="67.5378" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="74.068156" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="80.78837" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="80.78837" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="87.13484" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="87.13484" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="94.129688" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="94.129688" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="94.219243" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="94.219243" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="105.227354" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="105.227354" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="109.034042" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="109.034042" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="110.532597" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="114.264058" y="87.604423"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="117.99552" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="110.532597" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="114.264058" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="117.99552" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-11" x="129.00363" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-11" x="129.00363" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="134.218757" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="134.218757" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="141.787552" y="89.396244"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="141.787552" y="89.396244"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="146.192847" y="89.396244"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="146.192847" y="89.396244"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-12" x="150.959397" y="87.604423"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-12" x="150.959397" y="87.604423"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-0" x="71.697798" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-0" x="71.697798" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="76.891993" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="76.891993" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="78.18875" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="81.436614" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="84.684479" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-5" x="90.530634" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="78.18875" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="81.436614" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="84.684479" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-5" x="90.530634" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="97.6831" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="103.854042" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="108.401052" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="113.597635" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="118.144644" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="97.6831" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="103.854042" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="108.401052" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="113.597635" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="118.144644" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="118.139868" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="118.139868" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="127.878685" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="134.374413" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-11" x="140.220568" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="146.716297" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="149.964161" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="155.160744" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="127.878685" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="134.374413" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-11" x="140.220568" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="146.716297" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="149.964161" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="155.160744" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="161.334074" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="161.334074" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="161.663637" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="166.860219" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-16" x="173.355948" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="176.928598" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="161.663637" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="166.860219" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-16" x="173.355948" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="176.928598" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="186.017842" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="186.017842" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="190.242454" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="190.242454" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="190.560076" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="195.756658" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="199.004523" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="204.201105" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="208.812595" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="190.560076" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="195.756658" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="199.004523" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="204.201105" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="208.812595" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="218.563352" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="218.563352" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="225.381479" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="231.227634" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="237.723363" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="225.381479" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="231.227634" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="237.723363" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="242.912781" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="242.912781" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="243.564742" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="248.111752" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="253.308335" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="259.804063" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="243.564742" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="248.111752" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="253.308335" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="259.804063" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="259.799287" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="259.799287" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-11" x="269.550044" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="276.045772" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-11" x="269.550044" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="276.045772" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="285.784588" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="285.784588" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="291.310734" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="297.156889" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="303.652618" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="309.498773" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="312.746638" y="111.983772"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="315.994502" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="291.310734" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="297.156889" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="303.652618" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="309.498773" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="312.746638" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="315.994502" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="322.155891" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="322.155891" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="327.359638" y="111.983772"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="327.359638" y="111.983772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-23" x="71.697798" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-23" x="71.697798" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-24" x="78.518313" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-24" x="78.518313" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="79.652677" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="86.148406" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="90.759895" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-25" x="96.606051" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="79.652677" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="86.148406" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="90.759895" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-25" x="96.606051" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="101.800245" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="101.800245" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="103.097003" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="103.097003" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="110.245914" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="115.545187" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="122.635561" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="126.367023" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="131.666295" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="135.397757" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="110.245914" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="115.545187" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="122.635561" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="126.367023" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="131.666295" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="135.397757" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="146.00466" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="153.095035" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="159.065373" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="146.00466" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="153.095035" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="159.065373" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-16" x="165.190941" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-16" x="165.190941" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="166.534267" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-18" x="173.99719" y="133.377752"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="179.483931" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="166.534267" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-18" x="173.99719" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="179.483931" y="133.377752"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="186.937638" y="133.377752"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="186.937638" y="133.377752"/>
 </g>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -0.000353433 0.000506661 L -0.000353433 70.867844 M 85.040451 0.000506661 L 85.040451 70.867844 " transform="matrix(0.998785, 0, 0, -0.998785, 249.711291, 253.801287)"/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -0.000353433 0.000506661 L 85.040451 0.000506661 " transform="matrix(0.998785, 0, 0, -0.998785, 249.711291, 253.801287)"/>
@@ -661,924 +661,924 @@
 <path fill="none" stroke-width="1.19553" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(100%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 42.520049 28.347442 L 42.520049 78.416076 " transform="matrix(0.998785, 0, 0, -0.998785, 249.711291, 253.801287)"/>
 <path fill="none" stroke-width="0.9564" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(100%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -1.911124 2.550124 C -1.754684 1.59584 0.00135566 0.160502 0.478498 0.000151132 C 0.00135566 -0.1602 -1.754684 -1.595537 -1.911124 -2.549821 " transform="matrix(0, -0.998785, -0.998785, 0, 292.179838, 175.481823)"/>
 <g fill="rgb(100%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-1" x="285.537717" y="165.225018"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-1" x="285.537717" y="165.225018"/>
 </g>
 <g fill="rgb(100%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="283.80882" y="168.243347"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="283.80882" y="168.243347"/>
 </g>
 <g fill="rgb(100%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="291.377614" y="170.034168"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="291.377614" y="170.034168"/>
 </g>
 <g fill="rgb(100%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="295.78291" y="170.034168"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="295.78291" y="170.034168"/>
 </g>
 <path fill="none" stroke-width="1.19553" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 42.520049 28.347442 L 42.520049 -21.721193 " transform="matrix(0.998785, 0, 0, -0.998785, 249.711291, 253.801287)"/>
 <path fill="none" stroke-width="0.9564" stroke-linecap="round" stroke-linejoin="round" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M -1.912387 2.549821 C -1.752036 1.595537 0.0000926014 0.1602 0.477235 -0.000151132 C 0.0000926014 -0.160502 -1.752036 -1.59584 -1.912387 -2.550124 " transform="matrix(0, 0.998785, 0.998785, 0, 292.179838, 275.496001)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-1" x="287.720063" y="289.455923"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-1" x="287.720063" y="289.455923"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="285.990167" y="292.474252"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="285.990167" y="292.474252"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="293.558961" y="294.265074"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="293.558961" y="294.265074"/>
 </g>
 <path fill-rule="nonzero" fill="rgb(0%, 0%, 0%)" fill-opacity="1" d="M 294.171875 225.488281 C 294.171875 224.390625 293.277344 223.5 292.179688 223.5 C 291.082031 223.5 290.191406 224.390625 290.191406 225.488281 C 290.191406 226.589844 291.082031 227.480469 292.179688 227.480469 C 293.277344 227.480469 294.171875 226.589844 294.171875 225.488281 Z M 294.171875 225.488281 "/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="42.468348" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="42.468348" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="52.803004" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="52.803004" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-19" x="52.617924" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="59.708298" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-19" x="52.617924" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="59.708298" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="67.541382" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="67.541382" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="73.887852" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="73.887852" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-22" x="74.252043" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="80.222381" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="86.351531" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-22" x="74.252043" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="80.222381" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="86.351531" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="96.053331" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="103.143706" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="109.114044" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="114.33809" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="118.069552" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="124.599908" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="96.053331" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="103.143706" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="109.114044" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="114.33809" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="118.069552" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="124.599908" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="131.320122" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="131.320122" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="137.666592" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="137.666592" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="144.458449" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="144.458449" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="144.750995" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="144.750995" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="155.357899" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="155.357899" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="159.164587" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="159.164587" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="160.663142" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="164.394603" y="328.294685"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-19" x="168.126065" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="160.663142" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="164.394603" y="328.294685"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-19" x="168.126065" y="328.294685"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="254.029039" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="254.029039" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="261.597834" y="338.851845"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="261.597834" y="338.851845"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="266.003129" y="338.851845"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="266.003129" y="338.851845"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="274.086644" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="274.086644" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-2" x="286.496551" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-2" x="286.496551" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-6-0" x="298.563874" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-6-0" x="298.563874" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="304.534612" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="304.534612" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="310.565277" y="338.851845"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="310.565277" y="338.851845"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-6-0" x="318.331831" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-6-0" x="318.331831" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-4" x="324.302569" y="337.060024"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-4" x="324.302569" y="337.060024"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-2" x="71.697798" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-2" x="71.697798" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="85.008609" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="85.008609" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="97.995289" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-25" x="103.841445" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="97.995289" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-25" x="103.841445" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-16" x="110.993911" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="114.566561" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="119.763144" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-16" x="110.993911" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="114.566561" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="119.763144" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="133.399397" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="133.399397" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="140.217524" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="146.06368" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="152.559408" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="140.217524" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="146.06368" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="152.559408" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="157.760767" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="157.760767" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="158.412728" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="162.959738" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="158.412728" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="162.959738" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="168.14438" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="168.14438" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="174.31771" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="174.31771" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="174.647273" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="174.647273" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="183.414118" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="183.414118" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="183.743681" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="188.940264" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="183.743681" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="188.940264" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="188.935487" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="194.781643" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="199.393132" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="203.940142" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="188.935487" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="194.781643" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="199.393132" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="203.940142" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="211.080667" y="376.672846"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="215.627677" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="211.080667" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="215.627677" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-7-0" x="225.374889" y="372.340115"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-7-0" x="225.374889" y="372.340115"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="230.101141" y="376.672846"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="230.101141" y="376.672846"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="71.697798" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="71.697798" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="77.727465" y="399.857647"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="77.727465" y="399.857647"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="86.738505" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="86.738505" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="99.725186" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="99.725186" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="105.898516" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="112.394244" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="117.005734" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="121.552744" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="127.398899" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="131.945909" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="105.898516" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="112.394244" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="117.005734" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="121.552744" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="127.398899" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="131.945909" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="141.684725" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="141.684725" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="147.210871" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="153.057026" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="159.552755" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="165.39891" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="168.646775" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="171.894639" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="147.210871" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="153.057026" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="159.552755" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="165.39891" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="168.646775" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="171.894639" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="178.067969" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="178.067969" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="188.131572" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="192.678582" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-30" x="198.849524" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-31" x="204.695679" y="398.066825"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="210.541835" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="188.131572" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="192.678582" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-30" x="198.849524" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-31" x="204.695679" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="210.541835" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-7-0" x="220.284081" y="392.261886"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-7-0" x="220.284081" y="392.261886"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="225.011332" y="398.066825"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="225.011332" y="398.066825"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-4-0" x="60.007017" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-4" x="71.697798" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-4" x="71.697798" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="81.621728" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="81.621728" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="94.608409" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="94.608409" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="97.865825" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="97.865825" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="99.162583" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="102.410447" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="108.906176" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="99.162583" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="102.410447" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="108.906176" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="114.417992" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="114.417992" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="120.266536" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="120.266536" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="120.596099" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="120.596099" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-33" x="129.685342" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="134.881925" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="139.428935" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="145.599877" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-33" x="129.685342" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="134.881925" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="139.428935" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-14" x="145.599877" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="150.474061" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="156.96979" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="160.217654" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="165.414237" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="150.474061" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="156.96979" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="160.217654" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="165.414237" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="170.608431" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="170.608431" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="171.905189" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="171.905189" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="179.057654" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="179.057654" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-6-1" x="183.599698" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-6-1" x="183.599698" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-34" x="196.203369" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-35" x="202.049525" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-34" x="196.203369" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-35" x="202.049525" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="211.788341" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-31" x="221.531934" y="419.459806"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="227.378089" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-27" x="211.788341" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-31" x="221.531934" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="227.378089" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-7-1" x="231.993839" y="413.655865"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-7-1" x="231.993839" y="413.655865"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="236.720091" y="419.459806"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="236.720091" y="419.459806"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-23" x="42.468348" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-18" x="52.611954" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-22" x="58.098695" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-23" x="42.468348" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-18" x="52.611954" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-22" x="58.098695" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="63.698872" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="71.161796" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-24" x="74.893257" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="63.698872" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="71.161796" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-24" x="74.893257" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="85.789125" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="85.789125" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="86.081672" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-25" x="92.210821" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="86.081672" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-25" x="92.210821" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-16" x="98.336389" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-16" x="98.336389" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="99.679715" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="107.142638" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-17" x="99.679715" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="107.142638" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="118.710766" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="118.710766" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="124.58558" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="124.58558" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="124.675135" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="131.205491" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="124.675135" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="131.205491" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="137.925704" y="457.994938"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="144.642335" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="137.925704" y="457.994938"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="144.642335" y="457.994938"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-0" x="71.697798" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-0" x="71.697798" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="79.757755" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="79.757755" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="80.056272" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="85.429577" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="88.414746" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="93.788051" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="98.564322" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="80.056272" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="85.429577" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="88.414746" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="93.788051" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="98.564322" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="108.725838" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="108.725838" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="114.099143" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="120.069482" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="126.636854" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="114.099143" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="120.069482" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="126.636854" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="132.093744" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="132.093744" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="132.607193" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="137.532722" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="142.906027" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="132.607193" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="137.532722" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="142.906027" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="149.174882" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="149.174882" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="149.473399" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="149.473399" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-10" x="159.049822" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="165.020161" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-10" x="159.049822" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="165.020161" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="175.181677" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="180.554982" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="186.525321" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="175.181677" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="180.554982" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="186.525321" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="191.898626" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="197.868964" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="200.854133" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="204.436337" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="211.003709" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="191.898626" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="197.868964" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="200.854133" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="204.436337" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="211.003709" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="220.878649" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="224.460852" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="220.878649" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="224.460852" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="234.025335" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="240.592707" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-10" x="246.563046" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="234.025335" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="240.592707" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-10" x="246.563046" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="253.130418" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="256.115588" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-16" x="261.488892" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="253.130418" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="256.115588" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-16" x="261.488892" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="267.160714" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="267.160714" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="267.459231" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="272.832536" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="278.802874" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="284.176179" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="267.459231" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="272.832536" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="278.802874" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="284.176179" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="284.176179" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="290.146518" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="296.71389" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="284.176179" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="290.146518" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="296.71389" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="306.875407" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-19" x="312.248711" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="317.024982" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="320.905702" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="323.890872" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="329.86121" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="335.234515" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="341.204854" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="346.578158" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="352.548497" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="306.875407" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-19" x="312.248711" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="317.024982" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="320.905702" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="323.890872" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="329.86121" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="335.234515" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="341.204854" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="346.578158" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="352.548497" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="363.020471" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="367.796742" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="371.378945" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="374.364114" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="380.334453" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-22" x="386.603309" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="363.020471" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="367.796742" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="371.378945" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="374.364114" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="380.334453" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-22" x="386.603309" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-0" x="394.376689" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-0" x="394.376689" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="401.839613" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="401.839613" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="412.01307" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="415.595273" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="412.01307" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="415.595273" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="425.159755" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="429.936026" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="433.816746" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="439.190051" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="442.772254" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="425.159755" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="429.936026" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="433.816746" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="439.190051" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="442.772254" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="449.04111" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="449.04111" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="449.339627" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="449.339627" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="458.904109" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="464.277414" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="469.650719" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="458.904109" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="464.277414" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="469.650719" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="472.647829" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="478.021134" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="472.647829" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="478.021134" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="478.021134" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-23" x="483.991472" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="478.021134" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-23" x="483.991472" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="491.764853" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="495.347056" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="501.317395" y="482.374287"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="506.6907" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-15" x="491.764853" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="495.347056" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="501.317395" y="482.374287"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="506.6907" y="482.374287"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-24" x="71.697798" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="77.071103" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-24" x="71.697798" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="77.071103" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="81.399598" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="87.369937" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="92.743242" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="96.325445" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="100.206165" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="81.399598" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="87.369937" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="92.743242" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="96.325445" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="100.206165" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="105.877987" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="105.877987" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="106.176504" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="111.549808" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="106.176504" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="111.549808" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="116.923113" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="116.923113" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="118.117181" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="118.117181" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="125.878621" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="125.878621" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="129.460824" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="129.460824" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="130.654892" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="134.237095" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="137.222264" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="130.654892" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="134.237095" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="137.222264" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="147.37184" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="152.745145" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="158.715483" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="147.37184" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="152.745145" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-6" x="158.715483" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="164.088788" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="170.059127" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="173.044296" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="176.626499" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="183.193872" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-23" x="188.865694" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="164.088788" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="170.059127" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-13" x="173.044296" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-7" x="176.626499" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="183.193872" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-23" x="188.865694" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="196.627134" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="202.000438" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="205.881159" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="211.254463" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-11" x="196.627134" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="202.000438" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="205.881159" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-8" x="211.254463" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="215.582959" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="221.553297" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-5" x="215.582959" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-21" x="221.553297" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="232.00139" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="232.00139" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="234.688042" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="234.688042" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="235.88211" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="239.464313" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="235.88211" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="239.464313" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="253.196092" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="253.196092" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="256.778295" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="256.778295" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="257.076812" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="262.450117" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="265.435286" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="270.808591" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="275.584862" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="280.958167" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="257.076812" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="262.450117" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="265.435286" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-4" x="270.808591" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-2" x="275.584862" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="280.958167" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="294.689946" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="300.06325" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="305.735072" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="309.615792" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="312.600961" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-18" x="294.689946" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-14" x="300.06325" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-20" x="305.735072" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-3" x="309.615792" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-12" x="312.600961" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="318.272783" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-1" x="318.272783" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="318.5713" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-17" x="318.5713" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="322.750537" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-9" x="322.750537" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="323.944605" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="327.526808" y="496.80174"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-8-22" x="337.07935" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-25" x="323.944605" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-26" x="327.526808" y="496.80174"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-8-22" x="337.07935" y="496.80174"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-27" x="42.468348" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="52.170148" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="59.633072" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-27" x="42.468348" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-15" x="52.170148" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="59.633072" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="65.979542" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="65.979542" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="72.97439" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="72.97439" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="73.063945" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="79.594302" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="73.063945" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="79.594302" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="85.56464" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="85.56464" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="87.063195" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="87.063195" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="95.272411" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="95.272411" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="100.19794" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="100.19794" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="100.490487" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="106.619637" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="110.351098" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="116.480248" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="100.490487" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="106.619637" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="110.351098" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="116.480248" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="126.257274" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="126.257274" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="137.825403" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-5" x="137.825403" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="144.175455" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="150.705811" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="158.168734" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="164.699091" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="168.430552" y="535.336872"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="172.162014" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="144.175455" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="150.705811" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="158.168734" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="164.699091" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-13" x="168.430552" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="172.162014" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="179.32642" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="179.32642" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="179.618967" y="535.336872"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="179.618967" y="535.336872"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-36" x="42.468348" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="49.613649" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-36" x="42.468348" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="49.613649" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="49.608873" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="55.455029" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="61.625971" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="64.873835" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="49.608873" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="55.455029" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="61.625971" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="64.873835" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="68.195731" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="68.195731" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="69.492489" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="69.492489" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="76.633014" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="83.128742" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="76.633014" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="83.128742" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="92.867559" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="92.867559" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="99.697626" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="105.543782" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="110.090792" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="99.697626" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-9" x="105.543782" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="110.090792" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="115.602608" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="121.77355" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="128.269279" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-32" x="115.602608" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="121.77355" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="128.269279" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="128.276443" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="134.122599" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="128.276443" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="134.122599" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="139.316793" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-1" x="139.316793" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="140.613551" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-2" x="140.613551" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="147.754076" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="147.754076" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="153.927406" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="160.423134" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="165.034624" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="169.581634" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="175.427789" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="153.927406" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="160.423134" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="165.034624" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="169.581634" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="175.427789" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="179.652401" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="179.652401" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="189.716004" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="189.716004" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="193.940615" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-13" x="193.940615" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="194.270178" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="199.466761" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="202.714625" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="207.911208" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="212.522697" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="194.270178" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="199.466761" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-8" x="202.714625" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="207.911208" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="212.522697" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="222.261514" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="222.261514" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="226.808146" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="226.808146" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="232.838812" y="551.556145"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="232.838812" y="551.556145"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="236.390492" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="236.390492" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="244.830162" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="244.830162" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="254.58092" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-12" x="254.58092" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="260.742309" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="267.238037" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="271.849527" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="276.396537" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="282.242692" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-15" x="260.742309" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-17" x="267.238037" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="271.849527" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-19" x="276.396537" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-7" x="282.242692" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="286.467304" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="286.467304" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="296.542847" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-6" x="296.542847" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="302.057052" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="307.903208" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="314.398936" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="320.245092" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="323.492956" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="326.74082" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="302.057052" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-18" x="307.903208" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-4" x="314.398936" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-3" x="320.245092" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-20" x="323.492956" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-10" x="326.74082" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="332.91415" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-21" x="332.91415" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="342.977753" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-28" x="342.977753" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="347.527322" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="347.527322" y="549.765323"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="353.556989" y="551.556145"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="353.556989" y="551.556145"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="358.670769" y="549.765323"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="363.217779" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-29" x="358.670769" y="549.765323"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-22" x="363.217779" y="549.765323"/>
 </g>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0.0000282306 -0.0018631 L 45.355906 -0.0018631 L 45.355906 68.033909 M 0.0000282306 -0.0018631 L 0.0000282306 68.033909 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(85.00061%, 95.175171%, 99.058533%)" fill-opacity="1" d="M 169.988281 636.25 L 169.988281 579.625 L 215.289062 579.625 L 215.289062 636.25 Z M 169.988281 636.25 "/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 67.83905%, 93.728638%)" stroke-opacity="1" stroke-miterlimit="10" d="M 0.0000282306 56.692007 L 45.355906 56.692007 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(75%, 75%, 75%)" fill-opacity="1" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 11.33802 -0.0018631 L 11.33802 22.678031 L 34.017914 22.678031 L 34.017914 -0.0018631 Z M 11.33802 -0.0018631 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-28" x="165.450772" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-28" x="165.450772" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="174.257021" y="652.823979"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="180.973652" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="174.257021" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-2" x="180.973652" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="186.102173" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="186.102173" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="186.191728" y="652.823979"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="192.722084" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="186.191728" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-20" x="192.722084" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="198.692423" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="198.692423" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="200.190978" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="200.190978" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="208.400194" y="652.823979"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="213.699466" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="208.400194" y="652.823979"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="213.699466" y="652.823979"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="174.410874" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="174.410874" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="180.441539" y="671.732981"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="180.441539" y="671.732981"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-5" x="187.310185" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-5" x="187.310185" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="199.723713" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="199.723713" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="205.750757" y="671.732981"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="205.750757" y="671.732981"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="170.215976" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="170.215976" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="177.783772" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="177.783772" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-5" x="185.90889" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-5" x="185.90889" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="198.322418" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="198.322418" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="205.887591" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="205.887591" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="210.292886" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="210.292886" y="690.279424"/>
 </g>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 102.049776 -0.0018631 L 147.405654 -0.0018631 L 147.405654 68.033909 M 102.049776 -0.0018631 L 102.049776 68.033909 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(85.00061%, 95.175171%, 99.058533%)" fill-opacity="1" d="M 271.914062 636.25 L 271.914062 579.625 L 317.214844 579.625 L 317.214844 636.25 Z M 271.914062 636.25 "/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 67.83905%, 93.728638%)" stroke-opacity="1" stroke-miterlimit="10" d="M 102.049776 56.692007 L 147.405654 56.692007 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(75%, 75%, 75%)" fill-opacity="1" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 113.387768 18.14127 L 113.387768 40.821165 L 136.063751 40.821165 L 136.063751 18.14127 Z M 113.387768 18.14127 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="267.040214" y="653.984567"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="277.18382" y="653.984567"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="283.154158" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-0" x="267.040214" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-1" x="277.18382" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-26" x="283.154158" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="290.521556" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="290.521556" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="290.623052" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-4" x="290.623052" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="296.436968" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-21" x="296.436968" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="297.147438" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="297.147438" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="300.954126" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-8" x="300.954126" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="302.452681" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-10" x="302.452681" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="310.661896" y="653.984567"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="315.961169" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-9" x="310.661896" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="315.961169" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="276.33491" y="669.367858"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="276.33491" y="669.367858"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="282.365575" y="671.158679"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="282.365575" y="671.158679"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="289.234221" y="669.367858"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="289.234221" y="669.367858"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="301.644128" y="669.367858"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="301.644128" y="669.367858"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="307.674793" y="671.158679"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="307.674793" y="671.158679"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="272.139013" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="272.139013" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="279.707807" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="279.707807" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="287.832925" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="287.832925" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="300.242832" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="300.242832" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="307.811626" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="307.811626" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="312.216922" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="312.216922" y="690.279424"/>
 </g>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 204.099524 -0.0018631 L 249.451491 -0.0018631 L 249.451491 68.033909 M 204.099524 -0.0018631 L 204.099524 68.033909 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(85.00061%, 95.175171%, 99.058533%)" fill-opacity="1" d="M 373.839844 636.25 L 373.839844 579.625 L 419.136719 579.625 L 419.136719 636.25 Z M 373.839844 636.25 "/>
 <path fill="none" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 67.83905%, 93.728638%)" stroke-opacity="1" stroke-miterlimit="10" d="M 204.099524 56.692007 L 249.451491 56.692007 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <path fill-rule="nonzero" fill="rgb(75%, 75%, 75%)" fill-opacity="1" stroke-width="0.79701" stroke-linecap="butt" stroke-linejoin="miter" stroke="rgb(0%, 0%, 0%)" stroke-opacity="1" stroke-miterlimit="10" d="M 215.437515 45.354015 L 215.437515 68.033909 L 238.113499 68.033909 L 238.113499 45.354015 Z M 215.437515 45.354015 " transform="matrix(0.998785, 0, 0, -0.998785, 169.988253, 636.248139)"/>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-28" x="380.436297" y="653.984567"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="389.612708" y="653.984567"/>
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="393.344169" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-28" x="380.436297" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-3" x="389.612708" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-6" x="393.344169" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="399.690639" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-7" x="399.690639" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="406.410852" y="653.984567"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-1-14" x="406.410852" y="653.984567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="378.257947" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="378.257947" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="384.288612" y="671.732981"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-4" x="384.288612" y="671.732981"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-6" x="391.157258" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-6" x="391.157258" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="403.570786" y="669.94116"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-3" x="403.570786" y="669.94116"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="409.59783" y="671.732981"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-3" x="409.59783" y="671.732981"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="374.063049" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="374.063049" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="381.630844" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-2" x="381.630844" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="389.755962" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-5-26" x="389.755962" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="402.166868" y="688.487603"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-2-0" x="402.166868" y="688.487603"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="409.735662" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-0" x="409.735662" y="690.279424"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#kapaliny-7--vztlakova-sila-p1-kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="414.140957" y="690.279424"/>
+<use xlink:href="#kapaliny-7--vztlakova-sila-p1-glyph-3-1" x="414.140957" y="690.279424"/>
 </g>
 </svg>
