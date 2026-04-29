@@ -134,6 +134,8 @@ for (const jsonFile of jsonFiles) {
       let svg = readFileSync(join(tmpDir, outFile), 'utf8');
       svg = makeSvgResponsive(svg);
       svg = svg.replace(/^\s*<\?xml[^?]*\?>\s*/i, '');
+      // Unikátní prefix ID — zabraňuje kolizi při vložení více SVG na jednu HTML stránku
+      svg = namespaceSvgIds(svg, `${id}-p${page}`);
       pageSvgs.push(svg);
     }
 
@@ -196,6 +198,17 @@ function tryPdf2svg(cwd, page, outFile) {
   if (r.status === 0 && existsSync(join(cwd, outFile))) return true;
   if (r.stderr) console.log(`    pdf2svg p${page}: ${r.stderr.slice(0, 200)}`);
   return false;
+}
+
+/**
+ * Přidá unikátní prefix ke všem id/href/xlink:href v SVG.
+ * Zabraňuje kolizi ID při vložení více SVG souborů do jedné HTML stránky.
+ */
+function namespaceSvgIds(svg, prefix) {
+  svg = svg.replace(/\bid="([^"]+)"/g,           (_, id) => `id="${prefix}-${id}"`);
+  svg = svg.replace(/\bhref="#([^"]+)"/g,         (_, id) => `href="#${prefix}-${id}"`);
+  svg = svg.replace(/\bxlink:href="#([^"]+)"/g,   (_, id) => `xlink:href="#${prefix}-${id}"`);
+  return svg;
 }
 
 /** Odstraní pevné width/height ze <svg> kořenového elementu, zachová viewBox. */
