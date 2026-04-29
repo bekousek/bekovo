@@ -2,6 +2,8 @@ import { useState } from 'react';
 
 interface Props {
   contentId: string;
+  /** LaTeX zdroj (volitelný) — pokud je k dispozici, zobrazí se tlačítko Kopírovat LaTeX. */
+  latex?: string;
 }
 
 type Layout = 1 | 2 | 4;
@@ -10,7 +12,7 @@ type Layout = 1 | 2 | 4;
 const A4_W = 210;
 const A4_H = 297;
 const MARGIN = 12; // outer page margin
-const GAP = 4;     // gap between identical copies in 2× / 4× layouts
+const GAP = 4;     // gap between cells in 2× / 4× layouts
 
 /**
  * One-cell dimensions on the page (mm) for each layout.
@@ -50,9 +52,56 @@ function cellPositions(layout: Layout): Array<[number, number]> {
   ];
 }
 
-export default function NotebookExport({ contentId }: Props) {
+/**
+ * Vrátí HTML jednotlivých "stránek dokumentu" k vytisknutí.
+ * - Pokud `.notebook-entry` obsahuje 2+ wrapperů `.latex-page`
+ *   (vícestránkový LaTeX), každý wrapper je samostatná stránka.
+ * - Pokud obsahuje 2+ přímých <svg> potomků, totéž.
+ * - Jinak je celý obsah jedna stránka (HTML legacy / single-page LaTeX).
+ */
+function collectDocumentPages(entry: HTMLElement): string[] {
+  const latexPages = Array.from(entry.querySelectorAll(':scope > .latex-page')) as HTMLElement[];
+  if (latexPages.length >= 2) {
+    return latexPages.map((p) => p.innerHTML);
+  }
+  const directSvgs = Array.from(entry.children).filter(
+    (el) => el.tagName.toLowerCase() === 'svg'
+  ) as SVGElement[];
+  if (directSvgs.length >= 2) {
+    return directSvgs.map((svg) => svg.outerHTML);
+  }
+  return [entry.innerHTML];
+}
+
+export default function NotebookExport({ contentId, latex }: Props) {
   const [layout, setLayout] = useState<Layout>(1);
   const [exporting, setExporting] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  async function handleCopyLatex() {
+    if (!latex) return;
+    try {
+      await navigator.clipboard.writeText(latex);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (err) {
+      console.error('Kopírování LaTeXu selhalo:', err);
+      // Fallback pro starší browsery
+      const ta = document.createElement('textarea');
+      ta.value = latex;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+      } finally {
+        document.body.removeChild(ta);
+      }
+    }
+  }
 
   async function handleExport() {
     setExporting(true);
@@ -64,6 +113,9 @@ export default function NotebookExport({ contentId }: Props) {
       const sourceEntry = source.querySelector('.notebook-entry') as HTMLElement | null;
       if (!sourceEntry) return;
 
+      // Najdi stránky dokumentu (1 pro single, N pro multi-page LaTeX)
+      const pages = collectDocumentPages(sourceEntry);
+
       const cell = cellMM(layout);
       // Render at ~3 CSS px per millimetre. Combined with pixelRatio=3 below,
       // this gives ~450 DPI inside the cell — well above the 300 DPI print
@@ -71,32 +123,7 @@ export default function NotebookExport({ contentId }: Props) {
       const renderPxPerMM = 3;
       const renderWidthPx = Math.round(cell.w * renderPxPerMM);
 
-      // Render container with the LaTeX-like print stylesheet
-      // (`.notebook-print`), sized to the target CELL width — not the page
-      // width. The image is then placed once / twice / four times in the PDF.
-      //
-      // NOTE: html-to-image must capture an element that is FULLY VISIBLE in
-      // the viewport with no opacity/visibility hacks — otherwise the cloned
-      // foreignObject inherits those properties and renders blank. We keep
-      // the stage on-screen and cover the rest of the UI with an opaque
-      // progress overlay so the user sees "Exportuji..." instead of the
-      // intermediate render.
-      stage = document.createElement('div');
-      stage.className = `notebook-print notebook-print--${layout}x`;
-      stage.style.cssText = [
-        'position:fixed',
-        'left:0',
-        'top:0',
-        `width:${renderWidthPx}px`,
-        'background:#ffffff',
-        'color:#111111',
-        'z-index:9998',
-      ].join(';');
-      stage.innerHTML = sourceEntry.innerHTML;
-      document.body.appendChild(stage);
-
-      // Opaque progress overlay above the stage so the brief render isn't
-      // visually distracting.
+      // Společný overlay pro celý průběh exportu
       overlay = document.createElement('div');
       overlay.style.cssText = [
         'position:fixed',
@@ -112,84 +139,132 @@ export default function NotebookExport({ contentId }: Props) {
       overlay.textContent = 'Exportuji PDF…';
       document.body.appendChild(overlay);
 
-      // If the user clicked Stáhnout before KaTeX rendered, the source still
-      // contains "$$...$$" placeholders. Render them now in the staged copy.
-      if (stage.innerHTML.includes('$$')) {
-        const { default: katex } = await import('katex');
-        stage.innerHTML = stage.innerHTML.replace(/\$\$(.*?)\$\$/g, (_, tex) => {
-          try {
-            return katex.renderToString(tex, { throwOnError: false, displayMode: true });
-          } catch {
-            return tex;
-          }
-        });
-      }
-
-      // Wait for fonts to be ready so html-to-image captures the right metrics.
-      if (document.fonts && document.fonts.ready) {
-        await document.fonts.ready;
-      }
-      // One animation frame so layout/SVG sizes settle.
-      await new Promise<void>((r) => requestAnimationFrame(() => r()));
-
       const [{ toJpeg }, { jsPDF }] = await Promise.all([
         import('html-to-image'),
         import('jspdf'),
       ]);
 
-      // JPEG (quality 0.92) keeps text crisp while compressing 10–20× better
-      // than PNG. Combined with pixelRatio=3 → typical PDF size 0.5–2 MB per
-      // topic.
-      const imgData = await toJpeg(stage, {
-        pixelRatio: 3,
-        backgroundColor: '#ffffff',
-        quality: 0.92,
-        cacheBust: true,
-      });
+      // Vyrenderuj každou stránku dokumentu zvlášť do JPEG
+      const images: Array<{ data: string; w: number; h: number }> = [];
+      for (let pIdx = 0; pIdx < pages.length; pIdx++) {
+        // Render container with the LaTeX-like print stylesheet
+        // (`.notebook-print`), sized to the target CELL width — not the page
+        // width.
+        //
+        // NOTE: html-to-image must capture an element that is FULLY VISIBLE in
+        // the viewport with no opacity/visibility hacks. Stage is on-screen
+        // but covered by overlay.
+        stage = document.createElement('div');
+        stage.className = `notebook-print notebook-print--${layout}x`;
+        stage.style.cssText = [
+          'position:fixed',
+          'left:0',
+          'top:0',
+          `width:${renderWidthPx}px`,
+          'background:#ffffff',
+          'color:#111111',
+          'z-index:9998',
+        ].join(';');
+        stage.innerHTML = pages[pIdx];
+        document.body.appendChild(stage);
 
-      // Read the captured image's natural dimensions to keep aspect ratio
-      // when placing it.
-      const img = new Image();
-      await new Promise<void>((resolve, reject) => {
-        img.onload = () => resolve();
-        img.onerror = reject;
-        img.src = imgData;
-      });
+        // Pokud KaTeX ještě nedoběhl, vyrenderuj $$...$$ teď ve stage
+        if (stage.innerHTML.includes('$$')) {
+          const { default: katex } = await import('katex');
+          stage.innerHTML = stage.innerHTML.replace(/\$\$(.*?)\$\$/g, (_, tex) => {
+            try {
+              return katex.renderToString(tex, { throwOnError: false, displayMode: true });
+            } catch {
+              return tex;
+            }
+          });
+        }
+
+        if (document.fonts && document.fonts.ready) {
+          await document.fonts.ready;
+        }
+        await new Promise<void>((r) => requestAnimationFrame(() => r()));
+
+        const imgData = await toJpeg(stage, {
+          pixelRatio: 3,
+          backgroundColor: '#ffffff',
+          quality: 0.92,
+          cacheBust: true,
+        });
+
+        const img = new Image();
+        await new Promise<void>((resolve, reject) => {
+          img.onload = () => resolve();
+          img.onerror = reject;
+          img.src = imgData;
+        });
+
+        images.push({ data: imgData, w: img.width, h: img.height });
+
+        if (stage.parentNode) stage.parentNode.removeChild(stage);
+        stage = null;
+      }
 
       const doc = new jsPDF('p', 'mm', 'a4');
+      const positions = cellPositions(layout);
+      const cellsPerSheet = positions.length;
 
-      // ASPECT-PRESERVING ("contain") FIT — never stretches the image.
-      //   - If content fits the cell at full width, place at full width
-      //     (height shrinks naturally and there's whitespace at the bottom).
-      //   - If content is TALLER than the cell aspect, scale so the height
-      //     matches cell.h; width shrinks proportionally and the image is
-      //     centered horizontally with even side margins.
       const cellAspect = cell.h / cell.w;
-      const imgAspect = img.height / img.width;
-      let placedW: number, placedH: number;
-      if (imgAspect <= cellAspect) {
-        placedW = cell.w;
-        placedH = cell.w * imgAspect;
+
+      // Pro single-page dokumenty zachovej původní chování:
+      // 1× = 1 kopie, 2× = 2 kopie, 4× = 4 kopie (na 1 A4).
+      // Pro multi-page (2+ stránek) ber každou stránku jako vlastní obsah.
+      const isMultiPage = pages.length >= 2;
+
+      // Sestaví seznam "co umístit do každé buňky", napříč všemi A4 listy
+      const cellContents: number[] = [];
+      if (isMultiPage) {
+        // [0, 1, 2, ..., N-1] → každá doc-page jednou
+        for (let i = 0; i < images.length; i++) cellContents.push(i);
       } else {
-        placedH = cell.h;
-        placedW = cell.h / imgAspect;
-      }
-      const cellOffsetX = (cell.w - placedW) / 2;
-
-      for (const [x, y] of cellPositions(layout)) {
-        doc.addImage(imgData, 'JPEG', x + cellOffsetX, y, placedW, placedH);
+        // Single-page: replikuj na všechny buňky 1 A4 listu (worksheet style)
+        for (let i = 0; i < cellsPerSheet; i++) cellContents.push(0);
       }
 
-      // Cut lines between identical copies (LaTeX 2-up style).
-      if (layout >= 2) {
-        doc.setDrawColor(170);
-        doc.setLineDashPattern([2, 2], 0);
-        const midX = MARGIN + cell.w + GAP / 2;
-        doc.line(midX, MARGIN - 4, midX, A4_H - MARGIN + 4);
-      }
-      if (layout === 4) {
-        const midY = MARGIN + cell.h + GAP / 2;
-        doc.line(MARGIN - 4, midY, A4_W - MARGIN + 4, midY);
+      const sheetCount = Math.ceil(cellContents.length / cellsPerSheet);
+
+      for (let sheet = 0; sheet < sheetCount; sheet++) {
+        if (sheet > 0) doc.addPage();
+
+        // Kolik buněk má TENTO list
+        const sheetStart = sheet * cellsPerSheet;
+        const sheetEnd = Math.min(sheetStart + cellsPerSheet, cellContents.length);
+        const filledCells = sheetEnd - sheetStart;
+
+        for (let c = sheetStart; c < sheetEnd; c++) {
+          const imgIdx = cellContents[c];
+          const img = images[imgIdx];
+          const [x, y] = positions[c - sheetStart];
+
+          const imgAspect = img.h / img.w;
+          let placedW: number, placedH: number;
+          if (imgAspect <= cellAspect) {
+            placedW = cell.w;
+            placedH = cell.w * imgAspect;
+          } else {
+            placedH = cell.h;
+            placedW = cell.h / imgAspect;
+          }
+          const cellOffsetX = (cell.w - placedW) / 2;
+          doc.addImage(img.data, 'JPEG', x + cellOffsetX, y, placedW, placedH);
+        }
+
+        // Cut lines mezi buňkami — kreslit jen když má list 2+ vyplněných buněk
+        if (layout >= 2 && filledCells >= 2) {
+          doc.setDrawColor(170);
+          doc.setLineDashPattern([2, 2], 0);
+          const midX = MARGIN + cell.w + GAP / 2;
+          doc.line(midX, MARGIN - 4, midX, A4_H - MARGIN + 4);
+        }
+        if (layout === 4 && filledCells >= 3) {
+          const midY = MARGIN + cell.h + GAP / 2;
+          doc.line(MARGIN - 4, midY, A4_W - MARGIN + 4, midY);
+        }
       }
 
       doc.save(`zapis-${layout}x.pdf`);
@@ -231,6 +306,15 @@ export default function NotebookExport({ contentId }: Props) {
       >
         {exporting ? 'Exportuji...' : 'Stáhnout PDF'}
       </button>
+      {latex && (
+        <button
+          onClick={handleCopyLatex}
+          className="px-4 py-1.5 text-sm bg-gray-700 text-white rounded-lg hover:bg-gray-800 transition-colors"
+          title="Zkopíruje LaTeX zdrojový kód do schránky"
+        >
+          {copied ? '✓ Zkopírováno' : 'Kopírovat LaTeX'}
+        </button>
+      )}
     </div>
   );
 }

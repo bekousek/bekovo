@@ -29,7 +29,11 @@ const latexSvgs: string[] | null = subtopic.notebookEntry?.latexSvg ?? null;
 
   {subtopic.notebookEntry ? (
     <div class="space-y-4">
-      <NotebookExport contentId="notebook-content" client:visible />
+      <NotebookExport
+        contentId="notebook-content"
+        latex={subtopic.notebookEntry.latex}
+        client:visible
+      />
 
       <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
         <div class="notebook-entry prose max-w-none">
