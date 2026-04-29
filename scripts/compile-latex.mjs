@@ -201,13 +201,17 @@ function tryPdf2svg(cwd, page, outFile) {
 }
 
 /**
- * Přidá unikátní prefix ke všem id/href/xlink:href v SVG.
+ * Přidá unikátní prefix ke všem ID a interním referencím v SVG.
  * Zabraňuje kolizi ID při vložení více SVG souborů do jedné HTML stránky.
+ * Pokrývá: id="...", href="#...", xlink:href="#...", url(#...).
  */
 function namespaceSvgIds(svg, prefix) {
-  svg = svg.replace(/\bid="([^"]+)"/g,           (_, id) => `id="${prefix}-${id}"`);
-  svg = svg.replace(/\bhref="#([^"]+)"/g,         (_, id) => `href="#${prefix}-${id}"`);
-  svg = svg.replace(/\bxlink:href="#([^"]+)"/g,   (_, id) => `xlink:href="#${prefix}-${id}"`);
+  svg = svg.replace(/\bid="([^"]+)"/g,                (_, id) => `id="${prefix}-${id}"`);
+  // xlink:href napřed (specifičtější), pak holé href (lookbehind aby se nezachytilo xlink:href znovu)
+  svg = svg.replace(/\bxlink:href="#([^"]+)"/g,       (_, id) => `xlink:href="#${prefix}-${id}"`);
+  svg = svg.replace(/(?<!:)\bhref="#([^"]+)"/g,        (_, id) => `href="#${prefix}-${id}"`);
+  // url(#...) v atributech jako fill, stroke, mask, clip-path, filter, marker-*
+  svg = svg.replace(/url\(#([^)]+)\)/g,                (_, id) => `url(#${prefix}-${id})`);
   return svg;
 }
 
