@@ -125,6 +125,13 @@ for (const jsonFile of jsonFiles) {
     svg = makeSvgResponsive(svg);
 
     writeFileSync(svgOut, svg, 'utf8');
+
+    // --- 5. Uložit SVG inline do JSON (pro Cloudflare Workers kompatibilitu) ---
+    // Odstraň XML prolog (<?xml ... ?>) — není potřeba pro inline HTML
+    const svgInline = svg.replace(/^\s*<\?xml[^?]*\?>\s*/i, '');
+    data.notebookEntry.latexSvg = svgInline;
+    writeFileSync(jsonFile, JSON.stringify(data, null, 2) + '\n', 'utf8');
+
     console.log(`  ✓  ${id}.svg\n`);
     compiled++;
 

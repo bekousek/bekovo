@@ -5,8 +5,6 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import NotebookExport from '../../../components/NotebookExport';
 import { getSubtopicPaths } from '../../../lib/paths';
-import { readFileSync } from 'fs';
-import { join } from 'path';
 
 export async function getStaticPaths() {
   return getSubtopicPaths();
@@ -14,15 +12,7 @@ export async function getStaticPaths() {
 
 const { topic, subtopic } = Astro.props;
 
-let latexSvg: string | null = null;
-if (subtopic.notebookEntry?.latex) {
-  try {
-    latexSvg = readFileSync(
-      join(process.cwd(), 'public', 'notebook-svgs', `${topic.id}--${subtopic.id}.svg`),
-      'utf8'
-    );
-  } catch {}
-}
+const latexSvg: string | null = subtopic.notebookEntry?.latexSvg ?? null;
 ---
 <BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
