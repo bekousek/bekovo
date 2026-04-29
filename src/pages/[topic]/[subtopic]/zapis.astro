@@ -18,7 +18,7 @@ let latexSvg: string | null = null;
 if (subtopic.notebookEntry?.latex) {
   try {
     latexSvg = readFileSync(
-      join(process.cwd(), 'public', 'notebook-svgs', `${subtopic.id}.svg`),
+      join(process.cwd(), 'public', 'notebook-svgs', `${topic.id}--${subtopic.id}.svg`),
       'utf8'
     );
   } catch {}
