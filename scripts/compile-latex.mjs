@@ -3,12 +3,6 @@
  * Kompiluje LaTeX zdroje z notebookEntry.latex polí v subtopic JSON souborech
  * a ukládá výsledné SVG do public/notebook-svgs/{id}.svg.
  *
- * Požadavky:
- *   - pdflatex (TeX Live nebo MiKTeX)
- *   - dvisvgm >= 2.11 s podporou --pdf (vyžaduje Ghostscript/libgs)
- *     NEBO pdf2svg jako fallback
- *   - LaTeX balíčky: tikz, pgfplots, siunitx, lmodern, amsmath, booktabs, array, microtype
- *
  * Použití:
  *   npm run compile-latex
  *   npm run compile-latex -- --id=mereni--teplota   (jen jeden zápis)
@@ -17,7 +11,7 @@
 import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'fs';
 import { mkdtempSync, rmSync } from 'fs';
 import { join, resolve, basename, dirname } from 'path';
-import { execSync } from 'child_process';
+import { execSync, spawnSync } from 'child_process';
 import { tmpdir } from 'os';
 import { fileURLToPath } from 'url';
 
@@ -31,6 +25,14 @@ const preambleFile = join(__dirname, 'latex-preamble.tex');
 // Volitelný filtr: --id=<subtopicId>
 const filterArg = process.argv.find(a => a.startsWith('--id='));
 const filterid  = filterArg ? filterArg.split('=')[1] : null;
+
+// ─── Diagnostika dostupných nástrojů ───────────────────────────────────────
+console.log('=== Dostupné nástroje ===');
+for (const tool of ['pdflatex', 'dvisvgm', 'pdf2svg', 'pdftocairo']) {
+  const r = spawnSync('which', [tool], { encoding: 'utf8' });
+  console.log(`  ${tool}: ${r.stdout?.trim() || '✗ nenalezen'}`);
+}
+console.log('=========================\n');
 
 mkdirSync(outputDir, { recursive: true });
 
@@ -50,10 +52,23 @@ if (jsonFiles.length === 0) {
   process.exit(1);
 }
 
+// Zjisti, kolik souborů má latex pole
+const latexFiles = jsonFiles.filter(f => {
+  try { return !!JSON.parse(readFileSync(f, 'utf8')).notebookEntry?.latex; } catch { return false; }
+});
+console.log(`Nalezeno ${latexFiles.length} zápisů k přeložení (z ${jsonFiles.length} subtopics)\n`);
+
 let compiled = 0, skipped = 0, failed = 0;
 
 for (const jsonFile of jsonFiles) {
-  const data = JSON.parse(readFileSync(jsonFile, 'utf8'));
+  let data;
+  try {
+    data = JSON.parse(readFileSync(jsonFile, 'utf8'));
+  } catch (e) {
+    console.error(`Chyba parsování ${jsonFile}: ${e.message}`);
+    failed++;
+    continue;
+  }
 
   if (!data.notebookEntry?.latex) {
     skipped++;
@@ -63,33 +78,45 @@ for (const jsonFile of jsonFiles) {
   const id     = basename(jsonFile, '.json');
   const svgOut = join(outputDir, `${id}.svg`);
 
-  console.log(`\nKompiluji: ${id}`);
+  console.log(`Kompiluji: ${id}`);
 
   const tmpDir = mkdtempSync(join(tmpdir(), 'bekovo-latex-'));
 
   try {
     // --- 1. Zapsat .tex soubor ---
-    // Pokud latex obsahuje \documentclass, jde o celý dokument — použij ho přímo.
-    // Jinak obal preamble (body-only režim).
     const isFullDocument = data.notebookEntry.latex.includes('\\documentclass');
     const texContent = isFullDocument
       ? data.notebookEntry.latex
       : preamble.replace('% BODY', data.notebookEntry.latex);
-    writeFileSync(join(tmpDir, 'document.tex'), texContent, 'utf8');
 
-    // --- 2. pdflatex ---
-    execSync('pdflatex -interaction=nonstopmode document.tex', {
-      cwd: tmpDir,
-      timeout: 90_000,
-      stdio: ['ignore', 'pipe', 'pipe'],
-    });
+    // Normalizuj konce řádků na LF (pro případ CRLF z Windows gitu)
+    writeFileSync(join(tmpDir, 'document.tex'), texContent.replace(/\r\n/g, '\n'), 'utf8');
 
-    // --- 3. PDF → SVG (dvisvgm nebo pdf2svg) ---
-    const svgGenerated = tryDvisvgm(tmpDir) || tryPdf2svg(tmpDir);
+    // --- 2. pdflatex (dvakrát pro správné reference) ---
+    for (let pass = 1; pass <= 2; pass++) {
+      const r = spawnSync('pdflatex', ['-interaction=nonstopmode', 'document.tex'], {
+        cwd: tmpDir,
+        timeout: 90_000,
+        encoding: 'utf8',
+      });
+      if (r.status !== 0) {
+        const logPath = join(tmpDir, 'document.log');
+        const log = existsSync(logPath) ? readFileSync(logPath, 'utf8') : '';
+        const errors = log.split('\n').filter(l => l.startsWith('!') || l.match(/^l\.\d/)).slice(0, 15);
+        throw new Error(
+          `pdflatex pass ${pass} selhala (exit ${r.status})\n` +
+          (r.stderr ? `stderr: ${r.stderr.slice(0, 800)}\n` : '') +
+          (errors.length ? `LaTeX chyby:\n  ${errors.join('\n  ')}` : '')
+        );
+      }
+    }
+
+    // --- 3. PDF → SVG ---
+    const svgGenerated = tryDvisvgm(tmpDir) || tryPdftocairo(tmpDir) || tryPdf2svg(tmpDir);
     if (!svgGenerated) {
       throw new Error(
-        'Nepodařilo se konvertovat PDF na SVG.\n' +
-        'Nainstaluj dvisvgm (součást TeX Live / MiKTeX) + Ghostscript nebo pdf2svg.'
+        'PDF→SVG konverze selhala.\n' +
+        'Potřebuješ: dvisvgm + Ghostscript, nebo pdftocairo (poppler-utils), nebo pdf2svg.'
       );
     }
 
@@ -98,55 +125,47 @@ for (const jsonFile of jsonFiles) {
     svg = makeSvgResponsive(svg);
 
     writeFileSync(svgOut, svg, 'utf8');
-    console.log(`  ✓  ${id}.svg`);
+    console.log(`  ✓  ${id}.svg\n`);
     compiled++;
 
   } catch (err) {
-    console.error(`  ✗  Chyba: ${err.message}`);
-    const logPath = join(tmpDir, 'document.log');
-    if (existsSync(logPath)) {
-      const errors = readFileSync(logPath, 'utf8')
-        .split('\n')
-        .filter(l => l.startsWith('!') || l.startsWith('l.'))
-        .slice(0, 10);
-      if (errors.length) {
-        console.error('  LaTeX log:');
-        errors.forEach(l => console.error(`    ${l}`));
-      }
-    }
+    console.error(`  ✗  ${err.message}\n`);
     failed++;
   } finally {
     rmSync(tmpDir, { recursive: true, force: true });
   }
 }
 
-console.log(`\nHotovo: ${compiled} zkompilováno, ${skipped} přeskočeno, ${failed} chyb`);
+console.log(`Hotovo: ${compiled} zkompilováno, ${skipped} přeskočeno, ${failed} chyb`);
 if (failed > 0) process.exit(1);
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
 function tryDvisvgm(cwd) {
-  try {
-    execSync(
-      'dvisvgm --pdf --no-fonts --page=1 -o output.svg document.pdf',
-      { cwd, timeout: 30_000, stdio: ['ignore', 'pipe', 'pipe'] }
-    );
-    return existsSync(join(cwd, 'output.svg'));
-  } catch {
-    return false;
-  }
+  const r = spawnSync('dvisvgm', ['--pdf', '--no-fonts', '--page=1', '-o', 'output.svg', 'document.pdf'], {
+    cwd, timeout: 30_000, encoding: 'utf8',
+  });
+  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
+  if (r.stderr) console.log(`    dvisvgm: ${r.stderr.slice(0, 200)}`);
+  return false;
+}
+
+function tryPdftocairo(cwd) {
+  const r = spawnSync('pdftocairo', ['-svg', '-f', '1', '-l', '1', 'document.pdf', 'output.svg'], {
+    cwd, timeout: 30_000, encoding: 'utf8',
+  });
+  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
+  if (r.stderr) console.log(`    pdftocairo: ${r.stderr.slice(0, 200)}`);
+  return false;
 }
 
 function tryPdf2svg(cwd) {
-  try {
-    execSync(
-      'pdf2svg document.pdf output.svg 1',
-      { cwd, timeout: 30_000, stdio: ['ignore', 'pipe', 'pipe'] }
-    );
-    return existsSync(join(cwd, 'output.svg'));
-  } catch {
-    return false;
-  }
+  const r = spawnSync('pdf2svg', ['document.pdf', 'output.svg', '1'], {
+    cwd, timeout: 30_000, encoding: 'utf8',
+  });
+  if (r.status === 0 && existsSync(join(cwd, 'output.svg'))) return true;
+  if (r.stderr) console.log(`    pdf2svg: ${r.stderr.slice(0, 200)}`);
+  return false;
 }
 
 /** Odstraní pevné width/height ze <svg> kořenového elementu, zachová viewBox. */
