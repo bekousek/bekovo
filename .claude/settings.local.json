@@ -84,7 +84,9 @@
       "Bash(node -e ' *)",
       "Bash(git fetch *)",
       "Bash(git stash *)",
-      "Bash(node scripts/_batch-vlastnosti-latek.mjs)"
+      "Bash(node scripts/_batch-vlastnosti-latek.mjs)",
+      "Bash(node scripts/_fix-conflicts.mjs)",
+      "Bash(node scripts/_batch-castice-latky.mjs)"
     ]
   }
 }

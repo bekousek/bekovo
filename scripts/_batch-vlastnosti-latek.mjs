@@ -18,6 +18,7 @@ const PREAMBLE = String.raw`\documentclass[10pt]{article}
 \usepackage{tcolorbox}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usetikzlibrary{shapes.symbols}
 \usepackage{enumitem}
 
 \geometry{a4paper, margin=2cm}
@@ -119,7 +120,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{itemize}
     \item Označujeme je písmenem \textbf{s} (z anglického \emph{solid}).
-    \item Mají \textbf{stálý tvar} i \textbf{stálý objem} -- bez vnějšího zásahu se nemění.
+    \item Mají stálý tvar i stálý objem -- bez vnějšího zásahu se nemění.
 \end{itemize}
 
 \vspace{4mm}
@@ -130,8 +131,8 @@ Látky se vyskytují ve třech základních skupenstvích:
 \begin{minipage}[t]{0.48\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue, title=Krystalické, fonttitle=\bfseries, boxrule=0.5pt, leftrule=0pt, rightrule=0pt, bottomrule=0pt, toprule=3pt, arc=2pt, coltitle=black, left=4pt, right=4pt, top=3pt, bottom=3pt, attach title to upper]
     \begin{itemize}
-        \item Vnitřní stavba je \textbf{pravidelná}
-        \item Mají \textbf{ostrý bod tání}
+        \item Vnitřní stavba je pravidelná
+        \item Mají přesný bod tání
         \item Příklady: sůl, cukr, led, kovy, drahokamy
     \end{itemize}
 \end{tcolorbox}
@@ -139,8 +140,8 @@ Látky se vyskytují ve třech základních skupenstvích:
 \begin{minipage}[t]{0.48\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfpurple, title=Amorfní, fonttitle=\bfseries, boxrule=0.5pt, leftrule=0pt, rightrule=0pt, bottomrule=0pt, toprule=3pt, arc=2pt, coltitle=black, left=4pt, right=4pt, top=3pt, bottom=3pt, attach title to upper]
     \begin{itemize}
-        \item Vnitřní stavba je \textbf{nepravidelná}
-        \item \textbf{Měknou postupně}, nemají ostrý bod tání
+        \item Vnitřní stavba je nepravidelná
+        \item Měknou postupně, nemají přesný bod tání
         \item Příklady: sklo, vosk, asfalt, plasty
     \end{itemize}
 \end{tcolorbox}
@@ -151,13 +152,12 @@ Látky se vyskytují ve třech základních skupenstvích:
 \vspace{2mm}
 
 \begin{itemize}
-    \item Mají \textbf{stálý tvar}.
-    \item Mají \textbf{stálý objem}.
-    \item \textbf{Nedají se nabrat do stříkačky} ani do pipety.
-    \item Sypké pevné látky (písek, mouka, sůl) se \textbf{dají přesypávat}.
-    \item Mohou být \textbf{křehké} (sklo), \textbf{pružné} (guma), nebo \textbf{tvrdé} (kámen, kov).
-    \item Liší se \textbf{tvrdostí, pevností, tažností i kujností}.
-    \item Některé mají \textbf{lesk} (kovy), jiné jsou matné (dřevo).
+    \item Mají stálý tvar.
+    \item Mají stálý objem.
+    \item Nedají se nabrat do stříkačky.
+    \item Dají se přesypávat.
+    \item Mohou být \textbf{křehké}, \textbf{pružné}, nebo \textbf{tvrdé}.
+    \item Některé mají lesk (kovy), jiné jsou matné (dřevo).
 \end{itemize}
 `,
 
@@ -169,8 +169,8 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{itemize}
     \item Označujeme je písmenem \textbf{l} (z anglického \emph{liquid}).
-    \item Mají \textbf{stálý objem}, ale \textbf{přizpůsobí se tvaru nádoby}.
-    \item V klidu tvoří \textbf{vodorovnou hladinu}.
+    \item Mají stálý objem, ale přizpůsobí se tvaru nádoby.
+    \item V klidu tvoří vodorovnou hladinu.
     \item Společně s plyny patří mezi \textbf{tekutiny}.
 \end{itemize}
 
@@ -194,12 +194,12 @@ Látky se vyskytují ve třech základních skupenstvích:
         \node[font=\bfseries\small] at (1.5, -0.5) {V = 200 ml};
     \end{scope}
 
-    % --- Kulová baňka (round-bottom flask) ---
+    % --- Kulová baňka — naplněna do cca 3/4 ---
     \begin{scope}[shift={(7,0)}]
-        % Vodu (clipped na sféru)
+        % Vodu (clipped na sféru) — chord at y=1.25 odpovídá ~3/4 obsahu sféry
         \begin{scope}
             \clip (0.9, 0.95) circle (0.85);
-            \fill[cyan!30] (0, 0) rectangle (1.8, 0.7);
+            \fill[cyan!30] (0, 0) rectangle (1.8, 1.25);
         \end{scope}
         % Sférický obrys
         \draw[thick] (0.9, 0.95) circle (0.85);
@@ -207,7 +207,7 @@ Látky se vyskytují ve třech základních skupenstvích:
         \draw[thick] (0.65, 1.7) -- (0.65, 2.7);
         \draw[thick] (1.15, 1.7) -- (1.15, 2.7);
         % Hladina (chord ve sféře)
-        \draw[cyan!70!black, thick] (0.13, 0.7) -- (1.67, 0.7);
+        \draw[cyan!70!black, thick] (0.105, 1.25) -- (1.695, 1.25);
         \node[font=\bfseries\small] at (0.9, -0.5) {V = 200 ml};
     \end{scope}
 \end{tikzpicture}
@@ -218,13 +218,13 @@ Látky se vyskytují ve třech základních skupenstvích:
 \vspace{2mm}
 
 \begin{itemize}
-    \item \textbf{Nemají vlastní tvar} -- přizpůsobí se nádobě.
-    \item \textbf{Mají stálý objem.}
-    \item \textbf{Nedají se stlačit} (jsou téměř nestlačitelné).
-    \item \textbf{Jsou tekuté} -- dají se přelévat.
-    \item \textbf{Dají se nabrat do stříkačky} nebo do pipety.
-    \item \textbf{Mají vodorovnou hladinu} (v klidu).
-    \item \textbf{Jsou snadno rozdělitelné} -- na libovolně malé množství.
+    \item Nemají vlastní tvar -- přizpůsobí se nádobě.
+    \item Mají stálý objem.
+    \item Nedají se stlačit.
+    \item Jsou tekuté -- dají se přelévat.
+    \item Dají se nabrat do stříkačky.
+    \item Mají vodorovnou hladinu (v klidu).
+    \item Jsou snadno rozdělitelné.
 \end{itemize}
 `,
 
@@ -236,8 +236,8 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{itemize}
     \item Označujeme je písmenem \textbf{g} (z anglického \emph{gas}).
-    \item \textbf{Nemají stálý tvar} ani \textbf{stálý objem}.
-    \item Vždy \textbf{vyplní celý prostor}, který mají k dispozici.
+    \item Nemají stálý tvar ani stálý objem.
+    \item Vždy vyplní celý prostor, který mají k dispozici.
     \item Společně s kapalinami patří mezi \textbf{tekutiny}.
 \end{itemize}
 
@@ -247,29 +247,20 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{center}
 \begin{tikzpicture}[scale=1, every node/.style={font=\small}]
-    \draw[thick] (0,0) rectangle (4.5, 2.8);
+    \draw[thick] (0,0) rectangle (4.8, 2.8);
 
-    % Obláček z překrývajících se elips/kruhů
-    \begin{scope}[shift={(2.25, 1.4)}]
-        \fill[zfred!25] (0, 0) ellipse (0.6 and 0.32);
-        \fill[zfred!25] (-0.42, 0.18) circle (0.3);
-        \fill[zfred!25] (0.42, 0.18) circle (0.3);
-        \fill[zfred!25] (-0.62, -0.02) circle (0.22);
-        \fill[zfred!25] (0.62, -0.02) circle (0.22);
-        \fill[zfred!25] (0, 0.36) circle (0.27);
-        \fill[zfred!25] (-0.2, 0.42) circle (0.2);
-        \fill[zfred!25] (0.2, 0.42) circle (0.2);
-    \end{scope}
+    % "Obláček" plynu — TikZ shape "cloud" z shapes.symbols (vypadá jako mrak)
+    \node[cloud, draw=zfred, fill=zfred!25, line width=0.9pt, cloud puffs=11, cloud puff arc=120, minimum width=2.4cm, minimum height=1.3cm, aspect=1.7] (oblak) at (2.4, 1.4) {};
 
-    % Šipky roztahování — z okrajů obláčku ven do rohů a stěn
-    \draw[->, very thick, zfred!85] (1.5, 1.4) -- (0.3, 1.4);
-    \draw[->, very thick, zfred!85] (3.0, 1.4) -- (4.2, 1.4);
-    \draw[->, very thick, zfred!85] (2.25, 0.95) -- (2.25, 0.2);
-    \draw[->, very thick, zfred!85] (2.25, 1.85) -- (2.25, 2.6);
-    \draw[->, very thick, zfred!85] (1.55, 1.05) -- (0.5, 0.4);
-    \draw[->, very thick, zfred!85] (2.95, 1.05) -- (4.0, 0.4);
-    \draw[->, very thick, zfred!85] (1.55, 1.75) -- (0.5, 2.4);
-    \draw[->, very thick, zfred!85] (2.95, 1.75) -- (4.0, 2.4);
+    % Šipky roztahování — z okrajů obláčku ven
+    \draw[->, very thick, zfred!85] (1.15, 1.4) -- (0.3, 1.4);
+    \draw[->, very thick, zfred!85] (3.65, 1.4) -- (4.5, 1.4);
+    \draw[->, very thick, zfred!85] (2.4, 0.85) -- (2.4, 0.2);
+    \draw[->, very thick, zfred!85] (2.4, 1.95) -- (2.4, 2.6);
+    \draw[->, very thick, zfred!85] (1.45, 1.0) -- (0.55, 0.4);
+    \draw[->, very thick, zfred!85] (3.35, 1.0) -- (4.25, 0.4);
+    \draw[->, very thick, zfred!85] (1.45, 1.8) -- (0.55, 2.4);
+    \draw[->, very thick, zfred!85] (3.35, 1.8) -- (4.25, 2.4);
 \end{tikzpicture}
 \end{center}
 
@@ -278,12 +269,12 @@ Látky se vyskytují ve třech základních skupenstvích:
 \vspace{2mm}
 
 \begin{itemize}
-    \item \textbf{Nemají vlastní tvar.}
-    \item \textbf{Nemají stálý objem} -- vyplní každý dostupný prostor.
-    \item \textbf{Jsou stlačitelné} (na rozdíl od kapalin).
-    \item \textbf{Jsou tekuté} -- dají se přelévat (z nádoby do nádoby).
-    \item \textbf{Dají se nabrat do stříkačky.}
-    \item \textbf{Dají se rozdělit} -- na libovolně malé množství.
+    \item Nemají vlastní tvar.
+    \item Nemají stálý objem -- vyplní každý dostupný prostor.
+    \item Jsou stlačitelné (na rozdíl od kapalin).
+    \item Jsou tekuté -- dají se přelévat.
+    \item Dají se nabrat do stříkačky.
+    \item Dají se rozdělit -- na libovolně malé množství.
 \end{itemize}
 
 \vspace{4mm}
@@ -292,13 +283,13 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{center}
 \begin{tikzpicture}[scale=1]
-    \draw[thick] (0,0) rectangle (10, 0.7);
-    \fill[zfblue!50] (0.02,0.02) rectangle (7.78, 0.68);
-    \fill[zfred!40] (7.82,0.02) rectangle (9.92, 0.68);
-    \fill[gray!50] (9.96,0.02) rectangle (9.98, 0.68);
-    \node[font=\bfseries\small, color=white] at (3.9, 0.35) {Dusík (78~\%)};
-    \node[font=\bfseries\small, color=white] at (8.85, 0.35) {Kyslík (21~\%)};
-    \node[font=\scriptsize] at (10.7, 0.35) {ostatní};
+    \draw[thick] (0,0) rectangle (12, 0.7);
+    \fill[zfblue!50] (0.02,0.02) rectangle (9.34, 0.68);
+    \fill[zfred!40] (9.38,0.02) rectangle (11.88, 0.68);
+    \fill[gray!50] (11.92,0.02) rectangle (11.98, 0.68);
+    \node[font=\bfseries\small, color=white] at (4.68, 0.35) {Dusík (78~\%)};
+    \node[font=\bfseries\scriptsize, color=white] at (10.63, 0.35) {Kyslík (21~\%)};
+    \node[font=\scriptsize] at (12.5, 0.35) {ostatní};
 \end{tikzpicture}
 \end{center}
 
@@ -341,7 +332,7 @@ Látky se vyskytují ve třech základních skupenstvích:
     \draw[->, thick, zfred] (l.east) to[bend left=18] node[midway, above, font=\small] {vypařování} (g.west);
     \draw[->, thick, zfblue] (g.west) to[bend left=18] node[midway, below, font=\small] {kapalnění} (l.east);
 
-    % Sublimace / desublimace (široké oblouky nahoře a dole)
+    % Sublimace / desublimace (široké oblouky)
     \draw[->, thick, zfred] (s.north) to[bend left=40] node[midway, above, font=\small] {sublimace} (g.north);
     \draw[->, thick, zfblue] (g.south) to[bend left=40] node[midway, below, font=\small] {desublimace} (s.south);
 \end{tikzpicture}
@@ -367,10 +358,9 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.4pt, arc=2pt, left=5pt, right=5pt, top=3pt, bottom=3pt]
 \begin{itemize}
-    \item \textbf{Teplota tání ($t_t$)} -- teplota, při níž se látka mění z pevné na kapalnou.
+    \item \textbf{Teplota tání} -- teplota, při níž se látka mění z pevné na kapalnou (voda: 0\,$^\circ$C).
     \item \textbf{Teplota tuhnutí} -- shodná s teplotou tání, jen směr je opačný.
-    \item \textbf{Teplota varu ($t_v$)} -- teplota, při níž se kapalina mění na plyn v celém objemu.
-    \item Pro vodu: $t_t = 0\,^\circ$C, \quad $t_v = 100\,^\circ$C.
+    \item \textbf{Teplota varu} -- teplota, při níž se kapalina mění na plyn v celém objemu (voda: 100\,$^\circ$C).
 \end{itemize}
 \end{tcolorbox}
 
@@ -383,7 +373,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \vspace{2mm}
 \noindent
-\textbf{Hořící svíčka:} pevný vosk knot zahřívá $\to$ \textbf{taje} na tekutý vosk. Knot ho nasává nahoru, kde plamen vosk dál zahřívá $\to$ \textbf{vypařování} na voskové páry, které teprve hoří v plameni.
+\textbf{Hořící svíčka:} pevný vosk je zahříván plamenem $\to$ \textbf{taje} na tekutý vosk. Knot ho nasává nahoru, kde plamen vosk dál zahřívá $\to$ \textbf{vypařování} na voskové páry, které teprve hoří v plameni.
 `,
 };
 
@@ -394,7 +384,6 @@ for (const [id, body] of Object.entries(entries)) {
   const data = JSON.parse(readFileSync(path, 'utf8'));
   if (!data.notebookEntry) data.notebookEntry = {};
   data.notebookEntry.latex = PREAMBLE + body + POSTAMBLE;
-  // Stará HTML content už nepotřebujeme
   delete data.notebookEntry.content;
   writeFileSync(path, JSON.stringify(data, null, 2) + '\n', 'utf8');
   console.log(`✓ ${id}`);
