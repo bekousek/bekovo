@@ -120,7 +120,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 
 \begin{itemize}
     \item Označujeme je písmenem \textbf{s} (z anglického \emph{solid}).
-    \item Mají stálý tvar i stálý objem -- bez vnějšího zásahu se nemění.
+    \item Mají \textbf{stálý tvar} i \textbf{stálý objem} -- bez vnějšího zásahu se nemění.
 \end{itemize}
 
 \vspace{4mm}
@@ -132,7 +132,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue, title=Krystalické, fonttitle=\bfseries, boxrule=0.5pt, leftrule=0pt, rightrule=0pt, bottomrule=0pt, toprule=3pt, arc=2pt, coltitle=black, left=4pt, right=4pt, top=3pt, bottom=3pt, attach title to upper]
     \begin{itemize}
         \item Vnitřní stavba je pravidelná
-        \item Mají přesný bod tání
+        \item Mají \textbf{přesný bod tání}
         \item Příklady: sůl, cukr, led, kovy, drahokamy
     \end{itemize}
 \end{tcolorbox}
@@ -141,7 +141,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 \begin{tcolorbox}[colback=zfgray, colframe=zfpurple, title=Amorfní, fonttitle=\bfseries, boxrule=0.5pt, leftrule=0pt, rightrule=0pt, bottomrule=0pt, toprule=3pt, arc=2pt, coltitle=black, left=4pt, right=4pt, top=3pt, bottom=3pt, attach title to upper]
     \begin{itemize}
         \item Vnitřní stavba je nepravidelná
-        \item Měknou postupně, nemají přesný bod tání
+        \item Měknou postupně, nemají \textbf{přesný bod tání}
         \item Příklady: sklo, vosk, asfalt, plasty
     \end{itemize}
 \end{tcolorbox}
@@ -152,12 +152,12 @@ Látky se vyskytují ve třech základních skupenstvích:
 \vspace{2mm}
 
 \begin{itemize}
-    \item Mají stálý tvar.
-    \item Mají stálý objem.
+    \item Mají \textbf{stálý tvar}.
+    \item Mají \textbf{stálý objem}.
     \item Nedají se nabrat do stříkačky.
     \item Dají se přesypávat.
-    \item Mohou být \textbf{křehké}, \textbf{pružné}, nebo \textbf{tvrdé}.
-    \item Některé mají lesk (kovy), jiné jsou matné (dřevo).
+    \item Mohou být křehké, pružné, nebo tvrdé.
+    \item Některé mají lesk, jiné jsou matné.
 \end{itemize}
 `,
 
