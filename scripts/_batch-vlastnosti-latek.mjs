@@ -16,6 +16,7 @@ const PREAMBLE = String.raw`\documentclass[10pt]{article}
 \usepackage{geometry}
 \usepackage{xcolor}
 \usepackage{tcolorbox}
+\usepackage{amsmath}
 \usepackage{tikz}
 \usepackage{enumitem}
 
@@ -374,16 +375,16 @@ Každá látka má své charakteristické vlastnosti, podle kterých ji rozezná
     \node[draw, thick, fill=zfred!10, draw=zfred, minimum width=2.5cm, minimum height=1cm, rounded corners=4pt, font=\bfseries] (g) at (10,0) {Plynné};
 
     % Tání / tuhnutí
-    \draw[->, thick, zfred] ([yshift=4pt]s.east) -- ([yshift=4pt]l.west) node[midway, above, font=\small] {tání};
-    \draw[->, thick, zfblue] ([yshift=-4pt]l.west) -- ([yshift=-4pt]s.east) node[midway, below, font=\small] {tuhnutí};
+    \draw[->, thick, zfred] (s.east) to[bend left=18] node[midway, above, font=\small] {tání} (l.west);
+    \draw[->, thick, zfblue] (l.west) to[bend left=18] node[midway, below, font=\small] {tuhnutí} (s.east);
 
     % Vypařování / kapalnění
-    \draw[->, thick, zfred] ([yshift=4pt]l.east) -- ([yshift=4pt]g.west) node[midway, above, font=\small] {vypařování};
-    \draw[->, thick, zfblue] ([yshift=-4pt]g.west) -- ([yshift=-4pt]l.east) node[midway, below, font=\small] {kapalnění};
+    \draw[->, thick, zfred] (l.east) to[bend left=18] node[midway, above, font=\small] {vypařování} (g.west);
+    \draw[->, thick, zfblue] (g.west) to[bend left=18] node[midway, below, font=\small] {kapalnění} (l.east);
 
-    % Sublimace / desublimace (oblouky)
-    \draw[->, thick, zfred] (s.north) to[bend left=35] node[midway, above, font=\small] {sublimace} (g.north);
-    \draw[->, thick, zfblue] (g.south) to[bend left=35] node[midway, below, font=\small] {desublimace} (s.south);
+    % Sublimace / desublimace (široké oblouky nahoře a dole)
+    \draw[->, thick, zfred] (s.north) to[bend left=40] node[midway, above, font=\small] {sublimace} (g.north);
+    \draw[->, thick, zfblue] (g.south) to[bend left=40] node[midway, below, font=\small] {desublimace} (s.south);
 \end{tikzpicture}
 \end{center}
 
