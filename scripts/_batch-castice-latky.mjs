@@ -18,6 +18,7 @@ const PREAMBLE = String.raw`\documentclass[10pt]{article}
 \usepackage{tcolorbox}
 \usepackage{amsmath}
 \usepackage{tikz}
+\usetikzlibrary{calc}
 \usepackage{enumitem}
 
 \geometry{a4paper, margin=2cm}
@@ -167,28 +168,59 @@ Elektron & e$^-$ & záporný ($-$) & obal \\
 \vspace{4mm}
 
 \noindent
-Svět kolem nás se skládá z věcí různě velkých -- od neuvěřitelně malých částic, které nevidíme, až po velké objekty, jako jsme my.
+Svět kolem nás se skládá z věcí různě velkých -- od velkých objektů, jako jsme my, až po neuvěřitelně malé částice, které nevidíme.
 
 \vspace{4mm}
-{\Large \bfseries \color{zfblue} Od malých k větším -- po krocích 10$\times$}
+{\Large \bfseries \color{zfblue} Od velkých k malým}
 \vspace{4mm}
 
 \begin{center}
-\begin{tikzpicture}[scale=1, every node/.style={font=\small}]
+\begin{tikzpicture}[every node/.style={font=\small}]
     \tikzset{
-      stupen/.style={draw, thick, rounded corners=3pt, fill=zfblue!10, draw=zfblue, minimum width=1.7cm, minimum height=0.9cm, font=\bfseries\small}
+      bezny/.style={draw, thick, rounded corners=3pt, fill=zfblue!10, draw=zfblue, minimum width=1.6cm, minimum height=0.7cm, font=\bfseries\small},
+      atomicky/.style={draw, thick, rounded corners=3pt, fill=zfpurple!10, draw=zfpurple, minimum width=1.7cm, minimum height=0.7cm, font=\bfseries\small},
+      sip/.style={->, very thick, zfred}
     }
 
-    \node[stupen] (b) at (0, 0) {buňka};
-    \node[stupen] (v) at (2.5, 0) {vlas};
-    \node[stupen] (z) at (5.0, 0) {zrnko písku};
-    \node[stupen] (h) at (7.5, 0) {hrách};
-    \node[stupen] (j) at (10.0, 0) {jablko};
-    \node[stupen] (d) at (12.5, 0) {dítě};
+    % Řádek 1 — běžné objekty (velké → malé)
+    \node[bezny] (d) at (0, 0)    {dítě};
+    \node[bezny] (j) at (2.7, 0)  {jablko};
+    \node[bezny] (h) at (5.4, 0)  {hrách};
+    \node[bezny] (z) at (8.1, 0)  {zrnko písku};
+    \node[bezny] (v) at (10.8, 0) {vlas};
+    \node[bezny] (b) at (13.5, 0) {buňka};
 
-    \foreach \src/\dst in {b/v, v/z, z/h, h/j, j/d} {
-        \draw[->, thick, zfred] (\src.east) -- (\dst.west) node[midway, above, font=\scriptsize, color=zfred] {10$\times$ větší};
+    \foreach \src/\dst in {d/j, j/h, h/z, z/v, v/b} {
+        \draw[sip] (\src.east) -- (\dst.west);
+        \node[font=\scriptsize, color=zfred, align=center, above=2pt]
+            at ($(\src.east)!0.5!(\dst.west)$) {10$\times$\\menší};
     }
+
+    % Řádek 2 — atomární škála (buňka → elektron)
+    \node[atomicky] (b2) at (0, -2.6)    {buňka};
+    \node[atomicky] (m)  at (3.4, -2.6)  {molekula};
+    \node[atomicky] (a)  at (6.5, -2.6)  {atom};
+    \node[atomicky] (p)  at (10.1, -2.6) {proton, neutron};
+    \node[atomicky] (e)  at (13.5, -2.6) {elektron};
+
+    \draw[sip] (b2.east) -- (m.west);
+    \node[font=\scriptsize, color=zfred, align=center, above=2pt]
+        at ($(b2.east)!0.5!(m.west)$) {30\,000$\times$\\menší};
+
+    \draw[sip] (m.east) -- (a.west);
+    \node[font=\scriptsize, color=zfred, align=center, above=2pt]
+        at ($(m.east)!0.5!(a.west)$) {3$\times$\\menší};
+
+    \draw[sip] (a.east) -- (p.west);
+    \node[font=\scriptsize, color=zfred, align=center, above=2pt]
+        at ($(a.east)!0.5!(p.west)$) {100\,000$\times$\\menší};
+
+    \draw[sip] (p.east) -- (e.west);
+    \node[font=\scriptsize, color=zfred, align=center, above=2pt]
+        at ($(p.east)!0.5!(e.west)$) {1\,000$\times$\\menší};
+
+    % Spojnice mezi řádky
+    \draw[->, thick, gray!70, dashed] (b.south) to[bend left=15] (b2.north);
 \end{tikzpicture}
 \end{center}
 
@@ -197,21 +229,23 @@ Svět kolem nás se skládá z věcí různě velkých -- od neuvěřitelně mal
 \vspace{2mm}
 
 \begin{center}
-\renewcommand{\arraystretch}{1.3}
+\renewcommand{\arraystretch}{1.25}
 \setlength{\tabcolsep}{8pt}
 \begin{tabular}{|l|l|}
 \hline
 \rowcolor{zfblue!25}
 \bfseries Objekt & \bfseries Velikost (v metrech) \\
 \hline
-Atom & 0,000\,000\,000\,1 m \\
-Molekula vody & 0,000\,000\,000\,3 m \\
-Buňka & 0,000\,01 m \\
-Lidský vlas (tloušťka) & 0,000\,1 m \\
-Zrnko písku & 0,001 m \\
-Hrách & 0,01 m \\
-Jablko & 0,1 m \\
 Dítě (výška) & 1 m \\
+Jablko & 0,1 m \\
+Hrách & 0,01 m \\
+Zrnko písku & 0,001 m \\
+Lidský vlas (tloušťka) & 0,000\,1 m \\
+Buňka & 0,000\,01 m \\
+Molekula vody & 0,000\,000\,000\,3 m \\
+Atom & 0,000\,000\,000\,1 m \\
+Proton, neutron & 0,000\,000\,000\,000\,001 m \\
+Elektron & asi tisíckrát menší než proton \\
 \hline
 \end{tabular}
 \end{center}
@@ -224,6 +258,8 @@ Dítě (výška) & 1 m \\
     \item Atomy jsou tak malé, že do tečky na konci věty se jich vedle sebe vejde \textbf{miliarda}.
     \item Lidský vlas je asi \textbf{milionkrát} silnější než atom.
     \item Atom je z větší části \textbf{prázdný}. Kdyby byl atom velký jako fotbalové hřiště, jádro by bylo uprostřed velké jako hrách.
+    \item V \textbf{pevné látce a kapalině} jsou atomy téměř \textbf{těsně u sebe} -- vzdálené asi tak, jako jsou samy velké.
+    \item V \textbf{plynech} jsou atomy \textbf{asi 10$\times$ dál} od sebe než v pevné látce. Kdyby byl atom velký jako fotbalový míč, v plynu by byly míče od sebe vzdálené přibližně jako délka auta.
 \end{itemize}
 `,
 
@@ -234,7 +270,7 @@ Dítě (výška) & 1 m \\
 \vspace{4mm}
 
 \begin{itemize}
-    \item Všechny látky se skládají z \textbf{částic} -- atomů nebo molekul.
+    \item Všechny látky se skládají z \textbf{částic} -- atomů, molekul nebo iontů.
     \item Mezi částicemi je \textbf{prázdný prostor}.
     \item Částice jsou v \textbf{neustálém pohybu}.
     \item Mezi částicemi působí \textbf{přitažlivé síly}.
@@ -304,24 +340,37 @@ Dítě (výška) & 1 m \\
 
 \vspace{2mm}
 \begin{center}
-\begin{tikzpicture}[scale=1, every node/.style={font=\small}]
-    % Krychlový (sůl)
-    \draw[thick, fill=zfblue!15] (0, 0) -- (1, 0) -- (1.4, 0.4) -- (0.4, 0.4) -- cycle;
-    \draw[thick, fill=zfblue!10] (0, 0) -- (0, 1) -- (0.4, 1.4) -- (0.4, 0.4) -- cycle;
-    \draw[thick, fill=zfblue!5] (1, 0) -- (1, 1) -- (1.4, 1.4) -- (1.4, 0.4) -- cycle;
-    \draw[thick, fill=zfblue!10] (0, 1) -- (1, 1) -- (1.4, 1.4) -- (0.4, 1.4) -- cycle;
-    \node[font=\small] at (0.7, -0.4) {sůl (krychle)};
-
-    % Šestiboký (led / sněhová vločka)
-    \begin{scope}[shift={(4, 0.0)}]
-        \draw[thick, fill=cyan!20] (0,0.4) -- (1,0.4) -- (1.5, 1.07) -- (1, 1.74) -- (0, 1.74) -- (-0.5, 1.07) -- cycle;
-        \node[font=\small] at (0.5, -0.4) {led (šestiboký)};
+\begin{tikzpicture}[every node/.style={font=\small}]
+    % --- 1) Hexagonální uspořádání molekul vody (mřížka) ---
+    \begin{scope}
+        \foreach \angle in {0, 60, 120, 180, 240, 300} {
+            \node[draw=zfblue, fill=zfblue!30, thick, circle, minimum size=0.6cm, inner sep=0pt, font=\bfseries\tiny] (m\angle) at (\angle:1.3) {H$_2$O};
+        }
+        \node[draw=zfblue, fill=zfblue!30, thick, circle, minimum size=0.6cm, inner sep=0pt, font=\bfseries\tiny] (mc) at (0, 0) {H$_2$O};
+        \foreach \angle in {0, 60, 120, 180, 240, 300} {
+            \draw[thick, gray!70] (mc) -- (m\angle);
+        }
+        \node[font=\small] at (0, -2.0) {mřížka molekul vody};
     \end{scope}
 
-    % Krystal jehličkovitého tvaru (drahokam)
-    \begin{scope}[shift={(8, 0)}]
-        \draw[thick, fill=zfpurple!20] (0.5, 0.2) -- (1.0, 0.7) -- (1.0, 1.6) -- (0.5, 2.0) -- (0, 1.6) -- (0, 0.7) -- cycle;
-        \node[font=\small] at (0.5, -0.4) {křemen};
+    % --- Šipka "tvoří" ---
+    \draw[->, very thick] (2.5, 0) -- (4.0, 0);
+    \node[font=\scriptsize, above=1pt] at (3.25, 0) {tvoří};
+
+    % --- 2) Sněhová vločka ---
+    \begin{scope}[shift={(7, 0)}]
+        \foreach \angle in {0, 60, 120, 180, 240, 300} {
+            \begin{scope}[rotate=\angle]
+                \draw[thick, cyan!70!black] (0, 0) -- (1.6, 0);
+                \draw[thick, cyan!70!black] (0.55, 0) -- (0.75, 0.32);
+                \draw[thick, cyan!70!black] (0.55, 0) -- (0.75, -0.32);
+                \draw[thick, cyan!70!black] (1.05, 0) -- (1.32, 0.46);
+                \draw[thick, cyan!70!black] (1.05, 0) -- (1.32, -0.46);
+                \draw[thick, cyan!70!black] (1.6, 0) -- (1.78, 0.2);
+                \draw[thick, cyan!70!black] (1.6, 0) -- (1.78, -0.2);
+            \end{scope}
+        }
+        \node[font=\small] at (0, -2.0) {sněhová vločka};
     \end{scope}
 \end{tikzpicture}
 \end{center}
