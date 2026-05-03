@@ -302,17 +302,17 @@ Plynné & daleko od sebe & chaoticky se pohybují \\
 \begin{tikzpicture}[scale=0.95]
     \draw[thick, fill=zfgray] (0, 0) rectangle (5.5, 2.4);
 
-    % Molekuly vody (drobné tečky)
-    \foreach \pos/\dir in {
-        {(0.4, 0.3)}/{(1.5, 1.0)},
-        {(0.5, 1.9)}/{(1.6, 1.4)},
-        {(5.0, 0.4)}/{(2.8, 1.0)},
-        {(5.1, 1.9)}/{(2.9, 1.5)},
-        {(2.0, 0.2)}/{(2.4, 1.05)},
-        {(3.2, 2.2)}/{(2.6, 1.5)}
+    % Molekuly vody (drobné tečky) — pozice + cíl šipky jako 4-tice
+    \foreach \x/\y/\tx/\ty in {
+        0.4/0.3/1.5/1.0,
+        0.5/1.9/1.6/1.4,
+        5.0/0.4/2.8/1.0,
+        5.1/1.9/2.9/1.5,
+        2.0/0.2/2.4/1.05,
+        3.2/2.2/2.6/1.5
     } {
-        \fill[zfblue!50] \pos circle (0.05);
-        \draw[->, thick, zfblue!50] \pos -- \dir;
+        \fill[zfblue!50] (\x, \y) circle (0.05);
+        \draw[->, thick, zfblue!50] (\x, \y) -- (\tx, \ty);
     }
 
     % Pylové zrnko (velká částice)
