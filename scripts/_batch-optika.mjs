@@ -19,7 +19,7 @@ const PREAMBLE = String.raw`\documentclass[10pt]{article}
 \usepackage{tcolorbox}
 \usepackage{amsmath,amssymb}
 \usepackage{tikz}
-\usetikzlibrary{calc,arrows.meta,decorations.markings}
+\usetikzlibrary{calc,arrows.meta,decorations.markings,patterns}
 \usepackage{enumitem}
 
 \geometry{a4paper, margin=2cm}
