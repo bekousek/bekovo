@@ -191,7 +191,7 @@ chození po koberci & při dotyku kovu může cvaknout jiskra \\
     \node[font=\small\bfseries] at (0, -1.7) {Atom};
     \node[font=\small] at (0, -2.1) {(neutrální, 0)};
 
-    % Šipka 1 → kation
+    % Sipka 1 -> kation
     \draw[->, very thick, zfred] (1.6, 0.3) -- (3.4, 0.8) node[midway, above, font=\small, color=zfred] {ztrácí e$^-$};
 
     % Kation
@@ -203,7 +203,7 @@ chození po koberci & při dotyku kovu může cvaknout jiskra \\
         \node[font=\small] at (0, -2.1) {(kladný iont, +)};
     \end{scope}
 
-    % Šipka 2 → anion
+    % Sipka 2 -> anion
     \draw[->, very thick, zfblue] (1.6, -0.3) -- (3.4, -0.8) node[midway, below, font=\small, color=zfblue] {získává e$^-$};
 
     % Anion

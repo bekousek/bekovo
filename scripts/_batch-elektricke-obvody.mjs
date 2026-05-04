@@ -16,7 +16,7 @@ const PREAMBLE = String.raw`\documentclass[10pt]{article}
 \usepackage{geometry}
 \usepackage[table]{xcolor}
 \usepackage{tcolorbox}
-\usepackage{amsmath}
+\usepackage{amsmath,amssymb}
 \usepackage{tikz}
 \usetikzlibrary{calc,arrows.meta,decorations.pathmorphing}
 \usepackage{enumitem}
@@ -213,8 +213,8 @@ vypínač (spínač) & otevírá/zavírá obvod & vypínač světla \\
         \draw[thick] (1.4, -0.2) -- (1.4, 0.2);
         \draw[thick] (1.6, -0.4) -- (1.6, 0.4);
 
-        % Jiskra/oheň
-        \node[font=\Huge, color=zfred] at (1.5, 1.6) {⚡};
+        % Jiskra/oheň (zigzag blesku)
+        \fill[yellow!80!orange, draw=zfred, thick] (1.5, 2.05) -- (1.7, 1.7) -- (1.55, 1.7) -- (1.75, 1.35) -- (1.55, 1.35) -- (1.4, 1.0) -- (1.4, 1.55) -- (1.25, 1.55) -- (1.45, 1.85) -- cycle;
         \node[font=\bfseries\small, color=zfred] at (1.5, 2.4) {ZKRAT! velký proud};
         \node[font=\small] at (1.5, -0.7) {chybí spotřebič};
     \end{scope}
@@ -640,13 +640,13 @@ příklady: ledničkový magnet & příklady: jeřáb, zvonek, motor \\
 \begin{tabular}{|>{\centering\arraybackslash}p{0.8cm}|p{12cm}|}
 \hline
 \rowcolor{zfgreen!25}
-\bfseries ✓ & \bfseries Co dělat \\
+\bfseries $\checkmark$ & \bfseries Co dělat \\
 \hline
-✓ & Pracuj jen s nízkonapěťovými zdroji (baterie do 12 V). \\
-✓ & Před opravou vždy \textbf{vypni jistič} v rozvodné skříni. \\
-✓ & Měj \textbf{suché ruce} -- voda vede proud. \\
-✓ & Používej \textbf{nepoškozené} kabely a zástrčky. \\
-✓ & Při bouřce nestoj pod stromem ani v otevřeném terénu. \\
+\textcolor{zfgreen}{$\checkmark$} & Pracuj jen s nízkonapěťovými zdroji (baterie do 12 V). \\
+\textcolor{zfgreen}{$\checkmark$} & Před opravou vždy \textbf{vypni jistič} v rozvodné skříni. \\
+\textcolor{zfgreen}{$\checkmark$} & Měj \textbf{suché ruce} -- voda vede proud. \\
+\textcolor{zfgreen}{$\checkmark$} & Používej \textbf{nepoškozené} kabely a zástrčky. \\
+\textcolor{zfgreen}{$\checkmark$} & Při bouřce nestoj pod stromem ani v otevřeném terénu. \\
 \hline
 \end{tabular}
 
@@ -656,13 +656,13 @@ příklady: ledničkový magnet & příklady: jeřáb, zvonek, motor \\
 \begin{tabular}{|>{\centering\arraybackslash}p{0.8cm}|p{12cm}|}
 \hline
 \rowcolor{zfred!25}
-\bfseries ✗ & \bfseries Co nikdy nedělat \\
+\bfseries $\boldsymbol{\times}$ & \bfseries Co nikdy nedělat \\
 \hline
-✗ & \textbf{Nikdy} nestrkej do zásuvky předměty (tužku, drát, prsty). \\
-✗ & Nesahej na elektrické zařízení \textbf{mokrýma rukama}. \\
-✗ & Nepoužívej spotřebič s \textbf{poškozeným kabelem}. \\
-✗ & Nelez na sloupy s vysokým napětím (značka \textbf{trojúhelník s bleskem}). \\
-✗ & Neodstraňuj kryty zásuvek a vypínačů sám. \\
+\textcolor{zfred}{$\boldsymbol{\times}$} & \textbf{Nikdy} nestrkej do zásuvky předměty (tužku, drát, prsty). \\
+\textcolor{zfred}{$\boldsymbol{\times}$} & Nesahej na elektrické zařízení \textbf{mokrýma rukama}. \\
+\textcolor{zfred}{$\boldsymbol{\times}$} & Nepoužívej spotřebič s \textbf{poškozeným kabelem}. \\
+\textcolor{zfred}{$\boldsymbol{\times}$} & Nelez na sloupy s vysokým napětím (značka \textbf{trojúhelník s bleskem}). \\
+\textcolor{zfred}{$\boldsymbol{\times}$} & Neodstraňuj kryty zásuvek a vypínačů sám. \\
 \hline
 \end{tabular}
 \end{center}
@@ -673,24 +673,24 @@ příklady: ledničkový magnet & příklady: jeřáb, zvonek, motor \\
 
 \begin{center}
 \begin{tikzpicture}[scale=1, every node/.style={font=\small}]
-    % Trojúhelník s bleskem
+    % Trojúhelník s bleskem (blesk jako TikZ zigzag)
     \draw[thick, fill=yellow!70] (0, 0) -- (1.4, 0) -- (0.7, 1.2) -- cycle;
-    \node[font=\bfseries\Large, color=black] at (0.7, 0.45) {⚡};
+    \fill[black] (0.85, 0.95) -- (0.95, 0.55) -- (0.78, 0.6) -- (0.85, 0.2) -- (0.5, 0.7) -- (0.7, 0.65) -- (0.6, 0.95) -- cycle;
     \node[font=\scriptsize] at (0.7, -0.5) {Pozor, elektřina};
 
     % Symbol vysoké napětí
     \begin{scope}[shift={(3, 0)}]
         \draw[thick, fill=yellow!70] (0, 0) -- (1.4, 0) -- (0.7, 1.2) -- cycle;
-        \node[font=\bfseries\Large, color=black] at (0.7, 0.45) {⚡};
-        \node[font=\bfseries\scriptsize, color=black] at (0.7, 0.05) {VN};
+        \fill[black] (0.85, 0.95) -- (0.95, 0.65) -- (0.78, 0.7) -- (0.85, 0.4) -- (0.55, 0.75) -- (0.7, 0.7) -- (0.62, 0.95) -- cycle;
+        \node[font=\bfseries\scriptsize, color=black] at (0.7, 0.2) {VN};
         \node[font=\scriptsize] at (0.7, -0.5) {Vysoké napětí};
     \end{scope}
 
     % Zákaz
     \begin{scope}[shift={(6, 0.6)}]
         \draw[thick, zfred, line width=2pt] (0, 0) circle (0.6);
+        \fill[black] (0.15, 0.35) -- (0.25, -0.05) -- (0.08, 0) -- (0.15, -0.4) -- (-0.2, 0.1) -- (0, 0.05) -- (-0.1, 0.35) -- cycle;
         \draw[thick, zfred, line width=2pt] (-0.42, 0.42) -- (0.42, -0.42);
-        \node[font=\bfseries\large] at (0, 0) {⚡};
         \node[font=\scriptsize] at (0, -1.1) {Zákaz dotyku};
     \end{scope}
 \end{tikzpicture}
