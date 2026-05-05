@@ -233,7 +233,7 @@
 <rect x="-3.1" y="-3.6" width="37.2" height="43.2" mask="url(#optika--oko-p1-mask-76)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -4.312944)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-30">
-<rect x="-2.3" y="-3" width="27.6" height="36" mask="url(#optika--oko-p1-mask-77)" transform="matrix(0.119804, 0, 0, 0.119804, 1.078236, -7.068436)"/>
+<rect x="-2.8" y="-2.5" width="33.6" height="30" mask="url(#optika--oko-p1-mask-77)" transform="matrix(0.119804, 0, 0, 0.119804, 0, -1.078236)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-31">
 <rect x="-1.8" y="-5.8" width="21.6" height="69.6" mask="url(#optika--oko-p1-mask-78)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.948632)"/>
@@ -242,226 +242,229 @@
 <rect x="-2.6" y="-5.5" width="31.2" height="66" mask="url(#optika--oko-p1-mask-79)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.469416)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-33">
-<rect x="-4.1" y="-5.6" width="49.2" height="67.2" mask="url(#optika--oko-p1-mask-80)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.58922)"/>
+<rect x="-2.8" y="-2.5" width="33.6" height="30" mask="url(#optika--oko-p1-mask-80)" transform="matrix(0.119804, 0, 0, 0.119804, -0.119804, -6.948632)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-34">
-<rect x="-4.1" y="-5.8" width="49.2" height="69.6" mask="url(#optika--oko-p1-mask-81)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.948632)"/>
+<rect x="-4.1" y="-5.6" width="49.2" height="67.2" mask="url(#optika--oko-p1-mask-81)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.58922)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-35">
-<rect x="-3.1" y="-5.5" width="37.2" height="66" mask="url(#optika--oko-p1-mask-82)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.469416)"/>
+<rect x="-4.1" y="-5.8" width="49.2" height="69.6" mask="url(#optika--oko-p1-mask-82)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.948632)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-36">
-<rect x="-1.9" y="-8.2" width="22.8" height="98.4" mask="url(#optika--oko-p1-mask-83)" transform="matrix(0.119804, 0, 0, 0.119804, 0.958432, -7.427848)"/>
+<rect x="-3.1" y="-5.5" width="37.2" height="66" mask="url(#optika--oko-p1-mask-83)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.469416)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-37">
-<rect x="-1.9" y="-8.2" width="22.8" height="98.4" mask="url(#optika--oko-p1-mask-84)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -7.427848)"/>
+<rect x="-1.9" y="-8.2" width="22.8" height="98.4" mask="url(#optika--oko-p1-mask-84)" transform="matrix(0.119804, 0, 0, 0.119804, 0.958432, -7.427848)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-38">
-<rect x="-5.7" y="-5.9" width="68.4" height="70.8" mask="url(#optika--oko-p1-mask-85)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
+<rect x="-1.9" y="-8.2" width="22.8" height="98.4" mask="url(#optika--oko-p1-mask-85)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -7.427848)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-39">
-<rect x="-3.9" y="-5.3" width="46.8" height="63.6" mask="url(#optika--oko-p1-mask-86)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -4.312944)"/>
+<rect x="-5.7" y="-5.9" width="68.4" height="70.8" mask="url(#optika--oko-p1-mask-86)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-40">
-<rect x="-4.9" y="-6.1" width="58.8" height="73.2" mask="url(#optika--oko-p1-mask-87)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -7.068436)"/>
+<rect x="-3.9" y="-5.3" width="46.8" height="63.6" mask="url(#optika--oko-p1-mask-87)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -4.312944)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-41">
-<rect x="-3.2" y="-5.5" width="38.4" height="66" mask="url(#optika--oko-p1-mask-88)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.469416)"/>
+<rect x="-4.9" y="-6.1" width="58.8" height="73.2" mask="url(#optika--oko-p1-mask-88)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -7.068436)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-42">
-<rect x="-5.7" y="-5.7" width="68.4" height="68.4" mask="url(#optika--oko-p1-mask-89)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
+<rect x="-3.2" y="-5.5" width="38.4" height="66" mask="url(#optika--oko-p1-mask-89)" transform="matrix(0.119804, 0, 0, 0.119804, 0.239608, -6.469416)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-43">
-<rect x="-5.4" y="-5.4" width="64.8" height="64.8" mask="url(#optika--oko-p1-mask-90)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -5.750592)"/>
+<rect x="-5.7" y="-5.7" width="68.4" height="68.4" mask="url(#optika--oko-p1-mask-90)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-44">
-<rect x="-5.4" y="-6.1" width="64.8" height="73.2" mask="url(#optika--oko-p1-mask-91)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -7.068436)"/>
+<rect x="-5.4" y="-5.4" width="64.8" height="64.8" mask="url(#optika--oko-p1-mask-91)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -5.750592)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-45">
-<rect x="-3.3" y="-5.5" width="39.6" height="66" mask="url(#optika--oko-p1-mask-92)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -6.58922)"/>
+<rect x="-5.4" y="-6.1" width="64.8" height="73.2" mask="url(#optika--oko-p1-mask-92)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -7.068436)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-46">
-<rect x="-3.3" y="-5.7" width="39.6" height="68.4" mask="url(#optika--oko-p1-mask-93)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -6.58922)"/>
+<rect x="-3.3" y="-5.5" width="39.6" height="66" mask="url(#optika--oko-p1-mask-93)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -6.58922)"/>
 </g>
 <g id="optika--oko-p1-glyph-3-47">
-<rect x="-4.5" y="-5.7" width="54" height="68.4" mask="url(#optika--oko-p1-mask-94)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
+<rect x="-3.3" y="-5.7" width="39.6" height="68.4" mask="url(#optika--oko-p1-mask-94)" transform="matrix(0.119804, 0, 0, 0.119804, 0.479216, -6.58922)"/>
+</g>
+<g id="optika--oko-p1-glyph-3-48">
+<rect x="-4.5" y="-5.7" width="54" height="68.4" mask="url(#optika--oko-p1-mask-95)" transform="matrix(0.119804, 0, 0, 0.119804, 0.359412, -6.828828)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-0">
-<rect x="-5.8" y="-8.4" width="69.6" height="100.8" mask="url(#optika--oko-p1-mask-95)" transform="matrix(0.119789, 0, 0, 0.119789, 0.83852, -9.942449)"/>
+<rect x="-5.8" y="-8.4" width="69.6" height="100.8" mask="url(#optika--oko-p1-mask-96)" transform="matrix(0.119789, 0, 0, 0.119789, 0.83852, -9.942449)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-1">
-<rect x="-4.1" y="-7.7" width="49.2" height="92.4" mask="url(#optika--oko-p1-mask-96)" transform="matrix(0.119789, 0, 0, 0.119789, 0.239577, -9.103929)"/>
+<rect x="-4.1" y="-7.7" width="49.2" height="92.4" mask="url(#optika--oko-p1-mask-97)" transform="matrix(0.119789, 0, 0, 0.119789, 0.239577, -9.103929)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-2">
-<rect x="-6" y="-5.6" width="72" height="67.2" mask="url(#optika--oko-p1-mask-97)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
+<rect x="-6" y="-5.6" width="72" height="67.2" mask="url(#optika--oko-p1-mask-98)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-3">
-<rect x="-6.2" y="-5.4" width="74.4" height="64.8" mask="url(#optika--oko-p1-mask-98)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.348793)"/>
+<rect x="-6.2" y="-5.4" width="74.4" height="64.8" mask="url(#optika--oko-p1-mask-99)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.348793)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-4">
-<rect x="-6.5" y="-8.4" width="78" height="100.8" mask="url(#optika--oko-p1-mask-99)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.942449)"/>
+<rect x="-6.5" y="-8.4" width="78" height="100.8" mask="url(#optika--oko-p1-mask-100)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.942449)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-5">
-<rect x="-5.7" y="-5.6" width="68.4" height="67.2" mask="url(#optika--oko-p1-mask-100)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
+<rect x="-5.7" y="-5.6" width="68.4" height="67.2" mask="url(#optika--oko-p1-mask-101)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-6">
-<rect x="-6.3" y="-8.3" width="75.6" height="99.6" mask="url(#optika--oko-p1-mask-101)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.942449)"/>
+<rect x="-6.3" y="-8.3" width="75.6" height="99.6" mask="url(#optika--oko-p1-mask-102)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.942449)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-7">
-<rect x="-9.2" y="-8.3" width="110.4" height="99.6" mask="url(#optika--oko-p1-mask-102)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.82266)"/>
+<rect x="-9.2" y="-8.3" width="110.4" height="99.6" mask="url(#optika--oko-p1-mask-103)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -9.82266)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-8">
-<rect x="-6.5" y="-8.4" width="78" height="100.8" mask="url(#optika--oko-p1-mask-103)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -9.942449)"/>
+<rect x="-6.5" y="-8.4" width="78" height="100.8" mask="url(#optika--oko-p1-mask-104)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -9.942449)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-9">
-<rect x="-6.2" y="-7.7" width="74.4" height="92.4" mask="url(#optika--oko-p1-mask-104)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.348793)"/>
+<rect x="-6.2" y="-7.7" width="74.4" height="92.4" mask="url(#optika--oko-p1-mask-105)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.348793)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-10">
-<rect x="-4.8" y="-5.3" width="57.6" height="63.6" mask="url(#optika--oko-p1-mask-105)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.348793)"/>
+<rect x="-4.8" y="-5.3" width="57.6" height="63.6" mask="url(#optika--oko-p1-mask-106)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.348793)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-11">
-<rect x="-4.6" y="-5.4" width="55.2" height="64.8" mask="url(#optika--oko-p1-mask-106)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.468581)"/>
+<rect x="-4.6" y="-5.4" width="55.2" height="64.8" mask="url(#optika--oko-p1-mask-107)" transform="matrix(0.119789, 0, 0, 0.119789, 0.359366, -6.468581)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-12">
-<rect x="-6.6" y="-5.5" width="79.2" height="66" mask="url(#optika--oko-p1-mask-107)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.468581)"/>
+<rect x="-6.6" y="-5.5" width="79.2" height="66" mask="url(#optika--oko-p1-mask-108)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.468581)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-13">
-<rect x="-6.6" y="-8.2" width="79.2" height="98.4" mask="url(#optika--oko-p1-mask-108)" transform="matrix(0.119789, 0, 0, 0.119789, 0.83852, -9.82266)"/>
+<rect x="-6.6" y="-8.2" width="79.2" height="98.4" mask="url(#optika--oko-p1-mask-109)" transform="matrix(0.119789, 0, 0, 0.119789, 0.83852, -9.82266)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-14">
-<rect x="-3.7" y="-10.8" width="44.4" height="129.6" mask="url(#optika--oko-p1-mask-109)" transform="matrix(0.119789, 0, 0, 0.119789, -0.83852, -10.062237)"/>
+<rect x="-3.7" y="-10.8" width="44.4" height="129.6" mask="url(#optika--oko-p1-mask-110)" transform="matrix(0.119789, 0, 0, 0.119789, -0.83852, -10.062237)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-15">
-<rect x="-3.1" y="-7.9" width="37.2" height="94.8" mask="url(#optika--oko-p1-mask-110)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -9.463295)"/>
+<rect x="-3.1" y="-7.9" width="37.2" height="94.8" mask="url(#optika--oko-p1-mask-111)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -9.463295)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-16">
-<rect x="-10.1" y="-5.4" width="121.2" height="64.8" mask="url(#optika--oko-p1-mask-111)" transform="matrix(0.119789, 0, 0, 0.119789, 0.598943, -6.468581)"/>
+<rect x="-10.1" y="-5.4" width="121.2" height="64.8" mask="url(#optika--oko-p1-mask-112)" transform="matrix(0.119789, 0, 0, 0.119789, 0.598943, -6.468581)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-17">
-<rect x="-4.3" y="-5.6" width="51.6" height="67.2" mask="url(#optika--oko-p1-mask-112)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
+<rect x="-4.3" y="-5.6" width="51.6" height="67.2" mask="url(#optika--oko-p1-mask-113)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -6.58837)"/>
 </g>
 <g id="optika--oko-p1-glyph-4-18">
-<rect x="-2.8" y="-8.4" width="33.6" height="100.8" mask="url(#optika--oko-p1-mask-113)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -10.062237)"/>
+<rect x="-2.8" y="-8.4" width="33.6" height="100.8" mask="url(#optika--oko-p1-mask-114)" transform="matrix(0.119789, 0, 0, 0.119789, 0.479154, -10.062237)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-0">
-<rect x="-2.1" y="-2.6" width="25.2" height="31.2" mask="url(#optika--oko-p1-mask-114)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
+<rect x="-2.1" y="-2.6" width="25.2" height="31.2" mask="url(#optika--oko-p1-mask-115)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-1">
-<rect x="-2.7" y="-2.8" width="32.4" height="33.6" mask="url(#optika--oko-p1-mask-115)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
+<rect x="-2.7" y="-2.8" width="32.4" height="33.6" mask="url(#optika--oko-p1-mask-116)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-2">
-<rect x="-3.1" y="-4" width="37.2" height="48" mask="url(#optika--oko-p1-mask-116)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-3.1" y="-4" width="37.2" height="48" mask="url(#optika--oko-p1-mask-117)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-3">
-<rect x="-3.1" y="-2.6" width="37.2" height="31.2" mask="url(#optika--oko-p1-mask-117)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -2.996833)"/>
+<rect x="-3.1" y="-2.6" width="37.2" height="31.2" mask="url(#optika--oko-p1-mask-118)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -2.996833)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-4">
-<rect x="-3" y="-4" width="36" height="48" mask="url(#optika--oko-p1-mask-118)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-3" y="-4" width="36" height="48" mask="url(#optika--oko-p1-mask-119)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-5">
-<rect x="-2.9" y="-2.8" width="34.8" height="33.6" mask="url(#optika--oko-p1-mask-119)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
+<rect x="-2.9" y="-2.8" width="34.8" height="33.6" mask="url(#optika--oko-p1-mask-120)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-6">
-<rect x="-3.1" y="-4.1" width="37.2" height="49.2" mask="url(#optika--oko-p1-mask-120)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-3.1" y="-4.1" width="37.2" height="49.2" mask="url(#optika--oko-p1-mask-121)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-7">
-<rect x="-3.1" y="-2.7" width="37.2" height="32.4" mask="url(#optika--oko-p1-mask-121)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
+<rect x="-3.1" y="-2.7" width="37.2" height="32.4" mask="url(#optika--oko-p1-mask-122)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-8">
-<rect x="-2.3" y="-2.5" width="27.6" height="30" mask="url(#optika--oko-p1-mask-122)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -2.996833)"/>
+<rect x="-2.3" y="-2.5" width="27.6" height="30" mask="url(#optika--oko-p1-mask-123)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -2.996833)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-9">
-<rect x="-3.1" y="-2.6" width="37.2" height="31.2" mask="url(#optika--oko-p1-mask-123)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
+<rect x="-3.1" y="-2.6" width="37.2" height="31.2" mask="url(#optika--oko-p1-mask-124)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-10">
-<rect x="-1.3" y="-4" width="15.6" height="48" mask="url(#optika--oko-p1-mask-124)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-1.3" y="-4" width="15.6" height="48" mask="url(#optika--oko-p1-mask-125)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-11">
-<rect x="-2.4" y="-4" width="28.8" height="48" mask="url(#optika--oko-p1-mask-125)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
+<rect x="-2.4" y="-4" width="28.8" height="48" mask="url(#optika--oko-p1-mask-126)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-12">
-<rect x="-1.4" y="-3.8" width="16.8" height="45.6" mask="url(#optika--oko-p1-mask-126)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.555186)"/>
+<rect x="-1.4" y="-3.8" width="16.8" height="45.6" mask="url(#optika--oko-p1-mask-127)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.555186)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-13">
-<rect x="-2" y="-2.8" width="24" height="33.6" mask="url(#optika--oko-p1-mask-127)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
+<rect x="-2" y="-2.8" width="24" height="33.6" mask="url(#optika--oko-p1-mask-128)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-14">
-<rect x="-2" y="-3.7" width="24" height="44.4" mask="url(#optika--oko-p1-mask-128)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -4.315439)"/>
+<rect x="-2" y="-3.7" width="24" height="44.4" mask="url(#optika--oko-p1-mask-129)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -4.315439)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-15">
-<rect x="-2.4" y="-2.8" width="28.8" height="33.6" mask="url(#optika--oko-p1-mask-129)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
-</g>
-<g id="optika--oko-p1-glyph-5-16">
 <rect x="-2.4" y="-2.8" width="28.8" height="33.6" mask="url(#optika--oko-p1-mask-130)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
 </g>
+<g id="optika--oko-p1-glyph-5-16">
+<rect x="-2.4" y="-2.8" width="28.8" height="33.6" mask="url(#optika--oko-p1-mask-131)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.236579)"/>
+</g>
 <g id="optika--oko-p1-glyph-5-17">
-<rect x="-3.1" y="-4.1" width="37.2" height="49.2" mask="url(#optika--oko-p1-mask-131)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-3.1" y="-4.1" width="37.2" height="49.2" mask="url(#optika--oko-p1-mask-132)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-18">
-<rect x="-2.9" y="-3.9" width="34.8" height="46.8" mask="url(#optika--oko-p1-mask-132)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.555186)"/>
+<rect x="-2.9" y="-3.9" width="34.8" height="46.8" mask="url(#optika--oko-p1-mask-133)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.555186)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-19">
-<rect x="-3.1" y="-3.7" width="37.2" height="44.4" mask="url(#optika--oko-p1-mask-133)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
+<rect x="-3.1" y="-3.7" width="37.2" height="44.4" mask="url(#optika--oko-p1-mask-134)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -3.116706)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-20">
-<rect x="-2.1" y="-3.9" width="25.2" height="46.8" mask="url(#optika--oko-p1-mask-134)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
+<rect x="-2.1" y="-3.9" width="25.2" height="46.8" mask="url(#optika--oko-p1-mask-135)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-21">
-<rect x="-0.7" y="-2.5" width="8.4" height="30" mask="url(#optika--oko-p1-mask-135)" transform="matrix(0.119873, 0, 0, 0.119873, 0.599367, -2.996833)"/>
+<rect x="-0.7" y="-2.5" width="8.4" height="30" mask="url(#optika--oko-p1-mask-136)" transform="matrix(0.119873, 0, 0, 0.119873, 0.599367, -2.996833)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-22">
-<rect x="-3.1" y="-3.7" width="37.2" height="44.4" mask="url(#optika--oko-p1-mask-136)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -2.996833)"/>
+<rect x="-3.1" y="-3.7" width="37.2" height="44.4" mask="url(#optika--oko-p1-mask-137)" transform="matrix(0.119873, 0, 0, 0.119873, 0.119873, -2.996833)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-23">
-<rect x="-1.3" y="-4" width="15.6" height="48" mask="url(#optika--oko-p1-mask-137)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
+<rect x="-1.3" y="-4" width="15.6" height="48" mask="url(#optika--oko-p1-mask-138)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-24">
-<rect x="-1.5" y="-5.9" width="18" height="70.8" mask="url(#optika--oko-p1-mask-138)" transform="matrix(0.119873, 0, 0, 0.119873, 0.71924, -5.274425)"/>
+<rect x="-1.5" y="-5.9" width="18" height="70.8" mask="url(#optika--oko-p1-mask-139)" transform="matrix(0.119873, 0, 0, 0.119873, 0.71924, -5.274425)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-25">
-<rect x="-1.5" y="-5.9" width="18" height="70.8" mask="url(#optika--oko-p1-mask-139)" transform="matrix(0.119873, 0, 0, 0.119873, 0.35962, -5.274425)"/>
+<rect x="-1.5" y="-5.9" width="18" height="70.8" mask="url(#optika--oko-p1-mask-140)" transform="matrix(0.119873, 0, 0, 0.119873, 0.35962, -5.274425)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-26">
-<rect x="-2.3" y="-3.9" width="27.6" height="46.8" mask="url(#optika--oko-p1-mask-140)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
+<rect x="-2.3" y="-3.9" width="27.6" height="46.8" mask="url(#optika--oko-p1-mask-141)" transform="matrix(0.119873, 0, 0, 0.119873, 0.239747, -4.675059)"/>
 </g>
 <g id="optika--oko-p1-glyph-5-27">
-<rect x="-1.7" y="-5.2" width="20.4" height="62.4" mask="url(#optika--oko-p1-mask-141)" transform="matrix(0.119873, 0, 0, 0.119873, -0.35962, -4.794932)"/>
+<rect x="-1.7" y="-5.2" width="20.4" height="62.4" mask="url(#optika--oko-p1-mask-142)" transform="matrix(0.119873, 0, 0, 0.119873, -0.35962, -4.794932)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-0">
-<rect x="-6.2" y="-5.1" width="74.4" height="61.2" mask="url(#optika--oko-p1-mask-142)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.11106)"/>
+<rect x="-6.2" y="-5.1" width="74.4" height="61.2" mask="url(#optika--oko-p1-mask-143)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.11106)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-1">
-<rect x="-3.1" y="-3.3" width="37.2" height="39.6" mask="url(#optika--oko-p1-mask-143)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
+<rect x="-3.1" y="-3.3" width="37.2" height="39.6" mask="url(#optika--oko-p1-mask-144)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-2">
-<rect x="-4" y="-5" width="48" height="60" mask="url(#optika--oko-p1-mask-144)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -5.991235)"/>
+<rect x="-4" y="-5" width="48" height="60" mask="url(#optika--oko-p1-mask-145)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -5.991235)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-3">
-<rect x="-2.6" y="-4.7" width="31.2" height="56.4" mask="url(#optika--oko-p1-mask-145)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -5.631761)"/>
+<rect x="-2.6" y="-4.7" width="31.2" height="56.4" mask="url(#optika--oko-p1-mask-146)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -5.631761)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-4">
-<rect x="-4.2" y="-5.2" width="50.4" height="62.4" mask="url(#optika--oko-p1-mask-146)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.230884)"/>
+<rect x="-4.2" y="-5.2" width="50.4" height="62.4" mask="url(#optika--oko-p1-mask-147)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.230884)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-5">
-<rect x="-3.9" y="-3.3" width="46.8" height="39.6" mask="url(#optika--oko-p1-mask-147)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
+<rect x="-3.9" y="-3.3" width="46.8" height="39.6" mask="url(#optika--oko-p1-mask-148)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-6">
-<rect x="-3.2" y="-3.3" width="38.4" height="39.6" mask="url(#optika--oko-p1-mask-148)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
+<rect x="-3.2" y="-3.3" width="38.4" height="39.6" mask="url(#optika--oko-p1-mask-149)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-7">
-<rect x="-4" y="-3.3" width="48" height="39.6" mask="url(#optika--oko-p1-mask-149)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
+<rect x="-4" y="-3.3" width="48" height="39.6" mask="url(#optika--oko-p1-mask-150)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-8">
-<rect x="-2.8" y="-3.3" width="33.6" height="39.6" mask="url(#optika--oko-p1-mask-150)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -3.954215)"/>
+<rect x="-2.8" y="-3.3" width="33.6" height="39.6" mask="url(#optika--oko-p1-mask-151)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-9">
-<rect x="-5.9" y="-5.1" width="70.8" height="61.2" mask="url(#optika--oko-p1-mask-151)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.11106)"/>
+<rect x="-5.9" y="-5.1" width="70.8" height="61.2" mask="url(#optika--oko-p1-mask-152)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.11106)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-10">
-<rect x="-1.9" y="-5.2" width="22.8" height="62.4" mask="url(#optika--oko-p1-mask-152)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.230884)"/>
+<rect x="-1.9" y="-5.2" width="22.8" height="62.4" mask="url(#optika--oko-p1-mask-153)" transform="matrix(0.119825, 0, 0, 0.119825, 0.359474, -6.230884)"/>
 </g>
 <g id="optika--oko-p1-glyph-6-11">
-<rect x="-3.6" y="-3.3" width="43.2" height="39.6" mask="url(#optika--oko-p1-mask-153)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
+<rect x="-3.6" y="-3.3" width="43.2" height="39.6" mask="url(#optika--oko-p1-mask-154)" transform="matrix(0.119825, 0, 0, 0.119825, 0.239649, -3.954215)"/>
 </g>
 <g id="optika--oko-p1-glyph-7-0">
 <path d="M 5.1875 -1.578125 C 5.296875 -1.578125 5.46875 -1.578125 5.46875 -1.734375 C 5.46875 -1.921875 5.296875 -1.921875 5.1875 -1.921875 L 1.03125 -1.921875 C 0.921875 -1.921875 0.75 -1.921875 0.75 -1.75 C 0.75 -1.578125 0.90625 -1.578125 1.03125 -1.578125 Z M 5.1875 -1.578125 "/>
@@ -470,37 +473,37 @@
 <path d="M 3.21875 -1.578125 L 5.359375 -1.578125 C 5.453125 -1.578125 5.609375 -1.578125 5.609375 -1.734375 C 5.609375 -1.921875 5.453125 -1.921875 5.359375 -1.921875 L 3.21875 -1.921875 L 3.21875 -4.0625 C 3.21875 -4.140625 3.21875 -4.3125 3.0625 -4.3125 C 2.890625 -4.3125 2.890625 -4.15625 2.890625 -4.0625 L 2.890625 -1.921875 L 0.75 -1.921875 C 0.65625 -1.921875 0.484375 -1.921875 0.484375 -1.75 C 0.484375 -1.578125 0.640625 -1.578125 0.75 -1.578125 L 2.890625 -1.578125 L 2.890625 0.5625 C 2.890625 0.65625 2.890625 0.828125 3.046875 0.828125 C 3.21875 0.828125 3.21875 0.65625 3.21875 0.5625 Z M 3.21875 -1.578125 "/>
 </g>
 <g id="optika--oko-p1-glyph-9-0">
-<rect x="-3.3" y="-3.8" width="39.6" height="45.6" mask="url(#optika--oko-p1-mask-154)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
+<rect x="-3.3" y="-3.8" width="39.6" height="45.6" mask="url(#optika--oko-p1-mask-155)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-1">
-<rect x="-3.2" y="-3.8" width="38.4" height="45.6" mask="url(#optika--oko-p1-mask-155)" transform="matrix(0.119804, 0, 0, 0.119804, 1.078236, -4.432748)"/>
+<rect x="-3.2" y="-3.8" width="38.4" height="45.6" mask="url(#optika--oko-p1-mask-156)" transform="matrix(0.119804, 0, 0, 0.119804, 1.078236, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-2">
-<rect x="-3.3" y="-3.8" width="39.6" height="45.6" mask="url(#optika--oko-p1-mask-156)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -4.432748)"/>
+<rect x="-3.3" y="-3.8" width="39.6" height="45.6" mask="url(#optika--oko-p1-mask-157)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-3">
-<rect x="-4.1" y="-5.3" width="49.2" height="63.6" mask="url(#optika--oko-p1-mask-157)" transform="matrix(0.119804, 0, 0, 0.119804, 0, -4.432748)"/>
+<rect x="-4.1" y="-5.3" width="49.2" height="63.6" mask="url(#optika--oko-p1-mask-158)" transform="matrix(0.119804, 0, 0, 0.119804, 0, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-4">
-<rect x="-2.4" y="-5.3" width="28.8" height="63.6" mask="url(#optika--oko-p1-mask-158)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -6.229808)"/>
+<rect x="-2.4" y="-5.3" width="28.8" height="63.6" mask="url(#optika--oko-p1-mask-159)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -6.229808)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-5">
-<rect x="-3.5" y="-5.4" width="42" height="64.8" mask="url(#optika--oko-p1-mask-159)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
+<rect x="-3.5" y="-5.4" width="42" height="64.8" mask="url(#optika--oko-p1-mask-160)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-6">
-<rect x="-1.8" y="-5.9" width="21.6" height="70.8" mask="url(#optika--oko-p1-mask-160)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -6.948632)"/>
+<rect x="-1.8" y="-5.9" width="21.6" height="70.8" mask="url(#optika--oko-p1-mask-161)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -6.948632)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-7">
-<rect x="-3.6" y="-5.9" width="43.2" height="70.8" mask="url(#optika--oko-p1-mask-161)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -6.948632)"/>
+<rect x="-3.6" y="-5.9" width="43.2" height="70.8" mask="url(#optika--oko-p1-mask-162)" transform="matrix(0.119804, 0, 0, 0.119804, 0.59902, -6.948632)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-8">
-<rect x="-3.9" y="-3.8" width="46.8" height="45.6" mask="url(#optika--oko-p1-mask-162)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
+<rect x="-3.9" y="-3.8" width="46.8" height="45.6" mask="url(#optika--oko-p1-mask-163)" transform="matrix(0.119804, 0, 0, 0.119804, 0.838628, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-9">
-<rect x="-2.8" y="-3.8" width="33.6" height="45.6" mask="url(#optika--oko-p1-mask-163)" transform="matrix(0.119804, 0, 0, 0.119804, 0.718824, -4.432748)"/>
+<rect x="-2.8" y="-3.8" width="33.6" height="45.6" mask="url(#optika--oko-p1-mask-164)" transform="matrix(0.119804, 0, 0, 0.119804, 0.718824, -4.432748)"/>
 </g>
 <g id="optika--oko-p1-glyph-9-10">
-<rect x="-3.2" y="-7.2" width="38.4" height="86.4" mask="url(#optika--oko-p1-mask-164)" transform="matrix(0.119804, 0, 0, 0.119804, -0.359412, -6.58922)"/>
+<rect x="-3.2" y="-7.2" width="38.4" height="86.4" mask="url(#optika--oko-p1-mask-165)" transform="matrix(0.119804, 0, 0, 0.119804, -0.359412, -6.58922)"/>
 </g>
 <g id="optika--oko-p1-glyph-10-0">
 <path d="M 6.5625 -2.296875 C 6.734375 -2.296875 6.90625 -2.296875 6.90625 -2.484375 C 6.90625 -2.6875 6.734375 -2.6875 6.5625 -2.6875 L 1.171875 -2.6875 C 1 -2.6875 0.828125 -2.6875 0.828125 -2.484375 C 0.828125 -2.296875 1 -2.296875 1.171875 -2.296875 Z M 6.5625 -2.296875 "/>
@@ -602,97 +605,97 @@
 <mask id="optika--oko-p1-mask-23">
 <use xlink:href="#optika--oko-p1-source-2361"/>
 </mask>
-<image id="optika--oko-p1-source-3831" x="0" y="0" width="68" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAA6CAAAAAAsUKDfAAAAAmJLR0QA/4ePzL8AAADoSURBVEiJ7ZfbDoQwCETpxv//ZfZttS0MA2pNNs6j1ZMBUy5NhVHDpxwEkzIQl5OE2Jj9mZpPpyMLQ0Gi04/hztLxwykDLARSaAii8BCgBMS3stpJp87Ko05eyE2Q7iavduKXlJqToSzxkIORsbTREMCQLY0wCjAD6W4s3zJc2c2LDAcQJPeLXa9E88JJJSExhgoHtj8WElHIxOJJqXABZytL68k1o8UVTv4ZUh+3gF7IINXzEBXRGqQ6DKOKcjYczUHcDiAt2Lyi3qEiIi0TTleYdGdEOyDc436v5BLb7P0P9wJb07zzBdwWLW19/E8yAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-3877" x="0" y="0" width="68" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEQAAAA6CAAAAAAsUKDfAAAAAmJLR0QA/4ePzL8AAADoSURBVEiJ7ZfbDoQwCETpxv//ZfZttS0MA2pNNs6j1ZMBUy5NhVHDpxwEkzIQl5OE2Jj9mZpPpyMLQ0Gi04/hztLxwykDLARSaAii8BCgBMS3stpJp87Ko05eyE2Q7iavduKXlJqToSzxkIORsbTREMCQLY0wCjAD6W4s3zJc2c2LDAcQJPeLXa9E88JJJSExhgoHtj8WElHIxOJJqXABZytL68k1o8UVTv4ZUh+3gF7IINXzEBXRGqQ6DKOKcjYczUHcDiAt2Lyi3qEiIi0TTleYdGdEOyDc436v5BLb7P0P9wJb07zzBdwWLW19/E8yAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-24">
-<use xlink:href="#optika--oko-p1-source-3831"/>
+<use xlink:href="#optika--oko-p1-source-3877"/>
 </mask>
-<image id="optika--oko-p1-source-3839" x="0" y="0" width="48" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA6CAAAAADT8oU9AAAAAmJLR0QA/4ePzL8AAACQSURBVEiJ7dbLEoAgCAVQaPz/X74tMk1Byey1gE2NciInZWKKgXhl6keAkVDHMpj/AtjWiHrAqmBlCTAQDhx8BkJzJp2Rcu83AMr7g1GB6CTIRAPIL5IodqEsGkTEcZ6LUR2AumdcgCpfUO076M9HE/R7zg1bw2hq8xXO9daZCg4cOPgTYP0nkUlp+tcqPA9WJfUSfXM7UfwAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3885" x="0" y="0" width="48" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA6CAAAAADT8oU9AAAAAmJLR0QA/4ePzL8AAACQSURBVEiJ7dbLEoAgCAVQaPz/X74tMk1Byey1gE2NciInZWKKgXhl6keAkVDHMpj/AtjWiHrAqmBlCTAQDhx8BkJzJp2Rcu83AMr7g1GB6CTIRAPIL5IodqEsGkTEcZ6LUR2AumdcgCpfUO076M9HE/R7zg1bw2hq8xXO9daZCg4cOPgTYP0nkUlp+tcqPA9WJfUSfXM7UfwAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-25">
-<use xlink:href="#optika--oko-p1-source-3839"/>
+<use xlink:href="#optika--oko-p1-source-3885"/>
 </mask>
-<image id="optika--oko-p1-source-4015" x="0" y="0" width="64" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA5CAAAAACjL3ILAAAAAmJLR0QA/4ePzL8AAAC5SURBVEiJ7dfBEoUgCAVQafr/X6ZVKSAOF2eiRexeyplrrwUSt2CR8zgMOAgGTAwY0ET/xe4euaaWY8BiPQ44O47p1nmN7IMhQKOBuAUIECE4BdhCARMBTqCF149gIhQkGItTgPzOi4/QuDzBBwAuT/ADP/ANgMoTlAOUAeTAVHwEygBq5NtKQBlgCEDbCTKADoACph8EbH87c+19yogD4v/vU0oMWN0Xdm8syDuYtMOAvYnEAefeeAG07x17Aqo46gAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4061" x="0" y="0" width="64" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA5CAAAAACjL3ILAAAAAmJLR0QA/4ePzL8AAAC5SURBVEiJ7dfBEoUgCAVQafr/X6ZVKSAOF2eiRexeyplrrwUSt2CR8zgMOAgGTAwY0ET/xe4euaaWY8BiPQ44O47p1nmN7IMhQKOBuAUIECE4BdhCARMBTqCF149gIhQkGItTgPzOi4/QuDzBBwAuT/ADP/ANgMoTlAOUAeTAVHwEygBq5NtKQBlgCEDbCTKADoACph8EbH87c+19yogD4v/vU0oMWN0Xdm8syDuYtMOAvYnEAefeeAG07x17Aqo46gAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-26">
-<use xlink:href="#optika--oko-p1-source-4015"/>
+<use xlink:href="#optika--oko-p1-source-4061"/>
 </mask>
-<image id="optika--oko-p1-source-4023" x="0" y="0" width="48" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAlCAAAAAAhcjVzAAAAAmJLR0QA/4ePzL8AAABwSURBVDiN7ZXNDoAgDIMp8f1feR5EhX1bTPw5mNAL0K10XIpKg7VVxWOsLIYG3ziipv0JvhdsLzFPHEClRl248MlIUzAFU/BrAeLvbQfm612HJMmCAIeDJfv9JBbVM/Im5yzh/yHQ/fCQKCCv0h2CFVx3FT6Z7bVKAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4069" x="0" y="0" width="48" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAlCAAAAAAhcjVzAAAAAmJLR0QA/4ePzL8AAABwSURBVDiN7ZXNDoAgDIMp8f1feR5EhX1bTPw5mNAL0K10XIpKg7VVxWOsLIYG3ziipv0JvhdsLzFPHEClRl248MlIUzAFU/BrAeLvbQfm612HJMmCAIeDJfv9JBbVM/Im5yzh/yHQ/fCQKCCv0h2CFVx3FT6Z7bVKAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-27">
-<use xlink:href="#optika--oko-p1-source-4023"/>
+<use xlink:href="#optika--oko-p1-source-4069"/>
 </mask>
-<image id="optika--oko-p1-source-4329" x="0" y="0" width="47" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA5CAAAAACDwy32AAAAAmJLR0QA/4ePzL8AAAD4SURBVEiJvZbBEsMgCETB8f9/mZ6SIiywHlpPbfJm80RlVBGTi7Fu4D/wOz3R8P+YngY+whE/8zOdiud4QIehfr4QDzaOn3EREVn88qq4fM6mXy/05dXEZ5s2H9h0PK7D4nReoMyHNjVfrQq1/xX+JGyq/HqPED6HAuSbLYj8rSFGnxAI+PZADA0hvR98Ulzih+PZdjNg2/qAYgd+bBZnxGSD+nONW/QhWlc9X3wyPF8eEsxTjbTyqTrM9/loY0c+2daxT93vHp6pjeMJGyt9mnhdrI05n4sbTfZp42Vd2YhsxsYR8bxMV4492MSP69Vt76k/P37NfwDE7y16AEj1RwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4375" x="0" y="0" width="47" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA5CAAAAACDwy32AAAAAmJLR0QA/4ePzL8AAAD4SURBVEiJvZbBEsMgCETB8f9/mZ6SIiywHlpPbfJm80RlVBGTi7Fu4D/wOz3R8P+YngY+whE/8zOdiud4QIehfr4QDzaOn3EREVn88qq4fM6mXy/05dXEZ5s2H9h0PK7D4nReoMyHNjVfrQq1/xX+JGyq/HqPED6HAuSbLYj8rSFGnxAI+PZADA0hvR98Ulzih+PZdjNg2/qAYgd+bBZnxGSD+nONW/QhWlc9X3wyPF8eEsxTjbTyqTrM9/loY0c+2daxT93vHp6pjeMJGyt9mnhdrI05n4sbTfZp42Vd2YhsxsYR8bxMV4492MSP69Vt76k/P37NfwDE7y16AEj1RwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-28">
-<use xlink:href="#optika--oko-p1-source-4329"/>
+<use xlink:href="#optika--oko-p1-source-4375"/>
 </mask>
-<image id="optika--oko-p1-source-4337" x="0" y="0" width="48" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAlCAAAAAAhcjVzAAAAAmJLR0QA/4ePzL8AAAB2SURBVDiN7ZXBDoAgDEM7wv//cj0oKN2cicHEA70Qmr11u4DhEPfDIMbVAgAjxrtUO6YiEL3RkQjg2bSjbESJ6810loZW0xkI3XNQkUZa71Ad6b4/YyCfJwZyeSAPmJDwEDBjhwUsYAE/AvR/aDaCR/9dwvfABmbpElDHOwV7AAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4383" x="0" y="0" width="48" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAlCAAAAAAhcjVzAAAAAmJLR0QA/4ePzL8AAAB2SURBVDiN7ZXBDoAgDEM7wv//cj0oKN2cicHEA70Qmr11u4DhEPfDIMbVAgAjxrtUO6YiEL3RkQjg2bSjbESJ6810loZW0xkI3XNQkUZa71Ad6b4/YyCfJwZyeSAPmJDwEDBjhwUsYAE/AvR/aDaCR/9dwvfABmbpElDHOwV7AAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-29">
-<use xlink:href="#optika--oko-p1-source-4337"/>
+<use xlink:href="#optika--oko-p1-source-4383"/>
 </mask>
-<image id="optika--oko-p1-source-4345" x="0" y="0" width="35" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA3CAAAAACj9awIAAAAAmJLR0QA/4ePzL8AAADWSURBVDiN7ZVBFoMwCERneL3/lemiUSEDYl+3ZRXwOxIhAfiYO0pzB16XByoBAEc8OTvC5CbqDHGLgOpzf21FohfEz50xLusEglGSFIhQZoOIikkQZSEQi9UGhQdDjRoGXoc3qOmTX63fe/N/moJpbyglPZa7F6EPdyIVxUYEsBpJZn22WedeBjbLZJ1SkvGc1L3NeCeokq/XeubStQf91OX8ZxYzntrvv9WVxeYr4rbuh7Y9OKpDzg4ska5dF2L5SfE1Pe86QIrZVIy9YVMyd57NlDqxN/QGOFD63tynAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4391" x="0" y="0" width="35" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA3CAAAAACj9awIAAAAAmJLR0QA/4ePzL8AAADWSURBVDiN7ZVBFoMwCERneL3/lemiUSEDYl+3ZRXwOxIhAfiYO0pzB16XByoBAEc8OTvC5CbqDHGLgOpzf21FohfEz50xLusEglGSFIhQZoOIikkQZSEQi9UGhQdDjRoGXoc3qOmTX63fe/N/moJpbyglPZa7F6EPdyIVxUYEsBpJZn22WedeBjbLZJ1SkvGc1L3NeCeokq/XeubStQf91OX8ZxYzntrvv9WVxeYr4rbuh7Y9OKpDzg4ska5dF2L5SfE1Pe86QIrZVIy9YVMyd57NlDqxN/QGOFD63tynAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-30">
-<use xlink:href="#optika--oko-p1-source-4345"/>
+<use xlink:href="#optika--oko-p1-source-4391"/>
 </mask>
-<image id="optika--oko-p1-source-4437" x="0" y="0" width="24" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAA3CAAAAAAz5tXHAAAAAmJLR0QA/4ePzL8AAABoSURBVDiN7ZM7DgAhCERnCPe/MtusrozY7K+SyrwnMiGRkAoAIMCKA1QR7UAvMfJTIx9F4oMQbjW/OkIxF/wURR7t6GF8uiqloX6pniQE+CqP1fiOmJbYhlvO9snwLbZ4IFh+D7464wABNhFaybic6AAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4483" x="0" y="0" width="24" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAA3CAAAAAAz5tXHAAAAAmJLR0QA/4ePzL8AAABoSURBVDiN7ZM7DgAhCERnCPe/MtusrozY7K+SyrwnMiGRkAoAIMCKA1QR7UAvMfJTIx9F4oMQbjW/OkIxF/wURR7t6GF8uiqloX6pniQE+CqP1fiOmJbYhlvO9snwLbZ4IFh+D7464wABNhFaybic6AAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-31">
-<use xlink:href="#optika--oko-p1-source-4437"/>
+<use xlink:href="#optika--oko-p1-source-4483"/>
 </mask>
-<image id="optika--oko-p1-source-4559" x="0" y="0" width="42" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA7CAAAAAAoIke5AAAAAmJLR0QA/4ePzL8AAAD+SURBVEiJrZZLEsQgCERp739nZpEapUE+kxpXSl61YEgbiB16puAwKGI4plUYDeCGVQi9gg+iQqieJ8kmsFsIl+JwiKyc9GvkpM9sZRoxuPLiPbsusWSsDjgSq97/J9Uj26NRtU9koPrN4KCtrFHtWLj2maI1jMu+CX9DEzxDLzyaykHT5pBgJ0OWvtgadj5QsZ27GLb2LGIrJ8zRGkZ4gYUlXlvj7rV51wXbLLt53ssSLHbKtq52WGjHb/aNEf0Dfe2EMzueq+JBR7K9qj/XXhZbdZBCexfoV5T8tbiPIVyWRmXq1/TnhvrPoBObhe5FBm8npNYu7wWorzw9kg/eiEFMbRb5UwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4605" x="0" y="0" width="42" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA7CAAAAAAoIke5AAAAAmJLR0QA/4ePzL8AAAD+SURBVEiJrZZLEsQgCERp739nZpEapUE+kxpXSl61YEgbiB16puAwKGI4plUYDeCGVQi9gg+iQqieJ8kmsFsIl+JwiKyc9GvkpM9sZRoxuPLiPbsusWSsDjgSq97/J9Uj26NRtU9koPrN4KCtrFHtWLj2maI1jMu+CX9DEzxDLzyaykHT5pBgJ0OWvtgadj5QsZ27GLb2LGIrJ8zRGkZ4gYUlXlvj7rV51wXbLLt53ssSLHbKtq52WGjHb/aNEf0Dfe2EMzueq+JBR7K9qj/XXhZbdZBCexfoV5T8tbiPIVyWRmXq1/TnhvrPoBObhe5FBm8npNYu7wWorzw9kg/eiEFMbRb5UwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-32">
-<use xlink:href="#optika--oko-p1-source-4559"/>
+<use xlink:href="#optika--oko-p1-source-4605"/>
 </mask>
-<image id="optika--oko-p1-source-4567" x="0" y="0" width="35" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAlCAAAAADt6w+YAAAAAmJLR0QA/4ePzL8AAACPSURBVDiN7ZRJEoAwCAQZyv9/GS9ZQJhglVc5ZWkbUiFCYtgeIg0egN/GAZgUEoI0zytJC20REa2REMqrjZ6zRrTXRE+phMAfMlC2Fi+aAWLjM85sr7YV85p/ZjCkH77kYteirPlcnO59uvXFU21qNpEhYe06EI07Rbb83r3JIlNQtibNoR7/qAJDSk8LuwFHqB5GLdKCiwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4613" x="0" y="0" width="35" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAlCAAAAADt6w+YAAAAAmJLR0QA/4ePzL8AAACPSURBVDiN7ZRJEoAwCAQZyv9/GS9ZQJhglVc5ZWkbUiFCYtgeIg0egN/GAZgUEoI0zytJC20REa2REMqrjZ6zRrTXRE+phMAfMlC2Fi+aAWLjM85sr7YV85p/ZjCkH77kYteirPlcnO59uvXFU21qNpEhYe06EI07Rbb83r3JIlNQtibNoR7/qAJDSk8LuwFHqB5GLdKCiwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-33">
-<use xlink:href="#optika--oko-p1-source-4567"/>
+<use xlink:href="#optika--oko-p1-source-4613"/>
 </mask>
-<image id="optika--oko-p1-source-4575" x="0" y="0" width="37" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAAAAADg9X/fAAAAAmJLR0QA/4ePzL8AAACaSURBVDiNvZTbDoAgDEPXxf//ZXxB2K2Cibon3I5tQzIgrto8QuqzQcIQnDFjJAbuE5YKXduCiCiDXGJlkNNUlttF1qqfSqmUFVOGBK1wU8xxXe2WGuJKsz92FLyotUcd1v0Xx02Kh/nIEWnJqjrYYFTfjo381SYnqZCe7ZwSieu35jxK03a1IBGrHpjF+9UBFymD4ZWrwDk7Abr5ID9mKMU2AAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4621" x="0" y="0" width="37" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAlCAAAAADg9X/fAAAAAmJLR0QA/4ePzL8AAACaSURBVDiNvZTbDoAgDEPXxf//ZXxB2K2Cibon3I5tQzIgrto8QuqzQcIQnDFjJAbuE5YKXduCiCiDXGJlkNNUlttF1qqfSqmUFVOGBK1wU8xxXe2WGuJKsz92FLyotUcd1v0Xx02Kh/nIEWnJqjrYYFTfjo381SYnqZCe7ZwSieu35jxK03a1IBGrHpjF+9UBFymD4ZWrwDk7Abr5ID9mKMU2AAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-34">
-<use xlink:href="#optika--oko-p1-source-4575"/>
+<use xlink:href="#optika--oko-p1-source-4621"/>
 </mask>
-<image id="optika--oko-p1-source-6050" x="0" y="0" width="67" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAAA5CAAAAABIGMkIAAAAAmJLR0QA/4ePzL8AAAEFSURBVEiJzdfBEoIwDATQxvH/fzmeRG13k93WA71YEB6bDAMlclQjpm10dDxKQht3MT4FJ9yLRk5HPf9w9Y1aciL8HDmn8I0lxLBrQYRpQMIzMOH0A3TTNUiIYdTCCdkoCNWoCK0ftJu6UYYYUi0dIRgt0Rs90fWj6aaSI6ffDSPBzDSSzA0jiy3RqHugGLkQ3CQGuisogt9z13857zByvM+ob67WiPXSpBpmBEyAEWIEmFEEG0HmeAjPoLYlyjO5Q/z1x4pIRtMSLUddjVhLiWytLSdENY7eDRD5DaLXwpHdtfY3Yhi0JU4OVo1VC0EOvj0uxDOO1mNlkJC/Ce13lDXuYrwAnE03eExYPLcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6096" x="0" y="0" width="67" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAAA5CAAAAABIGMkIAAAAAmJLR0QA/4ePzL8AAAEFSURBVEiJzdfBEoIwDATQxvH/fzmeRG13k93WA71YEB6bDAMlclQjpm10dDxKQht3MT4FJ9yLRk5HPf9w9Y1aciL8HDmn8I0lxLBrQYRpQMIzMOH0A3TTNUiIYdTCCdkoCNWoCK0ftJu6UYYYUi0dIRgt0Rs90fWj6aaSI6ffDSPBzDSSzA0jiy3RqHugGLkQ3CQGuisogt9z13857zByvM+ob67WiPXSpBpmBEyAEWIEmFEEG0HmeAjPoLYlyjO5Q/z1x4pIRtMSLUddjVhLiWytLSdENY7eDRD5DaLXwpHdtfY3Yhi0JU4OVo1VC0EOvj0uxDOO1mNlkJC/Ce13lDXuYrwAnE03eExYPLcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-35">
-<use xlink:href="#optika--oko-p1-source-6050"/>
-</mask>
-<image id="optika--oko-p1-source-6096" x="0" y="0" width="34" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAlCAAAAAACKWSmAAAAAmJLR0QA/4ePzL8AAACdSURBVDiNjZRBEsQgCAQZKv//snvYaAjMQDyR0GWjojBb1g8f8t+QK37gREGOi+RTeT4ROEgkktsJsV6Eed2W/KNfNB5E1Ao+Sz2OTgSOFE1B2KlDEicjawGJeCFpFtF+QgQec03sOqpZUUTXK2tJ7bURVciDdNetikrv+KS5kf5WZ1E9M/ikMfNGszYit3UnxMvwkk9v1L/cYXxAfgYqH01X78jgAAAAAElFTkSuQmCC"/>
-<mask id="optika--oko-p1-mask-36">
 <use xlink:href="#optika--oko-p1-source-6096"/>
 </mask>
-<image id="optika--oko-p1-source-6142" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACiSURBVDiNjVRbDsAgCKNm97+y+5g8pTo/FkhLRWgGsTMtguZYYcCUMj8iWtSFHofR3CTQDBKPlYwW9nRU7UIYtLdUvx8knKpoPSPAgK3FgvckNMJIcXszLrhRcGhdP4f1XvfP/FNwxkB8azeKfaqXgRYOZk9SBvMHIn7w2D9/cQFav1SoP2euJ+N1/ULQNPmvLgu9PyP70bDy4PoqW39AIiIv5HEpNelH4EoAAAAASUVORK5CYII="/>
-<mask id="optika--oko-p1-mask-37">
+<image id="optika--oko-p1-source-6142" x="0" y="0" width="34" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAlCAAAAAACKWSmAAAAAmJLR0QA/4ePzL8AAACdSURBVDiNjZRBEsQgCAQZKv//snvYaAjMQDyR0GWjojBb1g8f8t+QK37gREGOi+RTeT4ROEgkktsJsV6Eed2W/KNfNB5E1Ao+Sz2OTgSOFE1B2KlDEicjawGJeCFpFtF+QgQec03sOqpZUUTXK2tJ7bURVciDdNetikrv+KS5kf5WZ1E9M/ikMfNGszYit3UnxMvwkk9v1L/cYXxAfgYqH01X78jgAAAAAElFTkSuQmCC"/>
+<mask id="optika--oko-p1-mask-36">
 <use xlink:href="#optika--oko-p1-source-6142"/>
 </mask>
-<image id="optika--oko-p1-source-6651" x="0" y="0" width="22" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAA6CAAAAACRsfaqAAAAAmJLR0QA/4ePzL8AAAA1SURBVDiNY2SAgv9QmpGBgYGBgQXGRQVMWEVJFGZEsQ8uwITEpraVo8KjwqPCI0uYkYZFGACbmwRzlaKGZgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6188" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACiSURBVDiNjVRbDsAgCKNm97+y+5g8pTo/FkhLRWgGsTMtguZYYcCUMj8iWtSFHofR3CTQDBKPlYwW9nRU7UIYtLdUvx8knKpoPSPAgK3FgvckNMJIcXszLrhRcGhdP4f1XvfP/FNwxkB8azeKfaqXgRYOZk9SBvMHIn7w2D9/cQFav1SoP2euJ+N1/ULQNPmvLgu9PyP70bDy4PoqW39AIiIv5HEpNelH4EoAAAAASUVORK5CYII="/>
+<mask id="optika--oko-p1-mask-37">
+<use xlink:href="#optika--oko-p1-source-6188"/>
+</mask>
+<image id="optika--oko-p1-source-6697" x="0" y="0" width="22" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAA6CAAAAACRsfaqAAAAAmJLR0QA/4ePzL8AAAA1SURBVDiNY2SAgv9QmpGBgYGBgQXGRQVMWEVJFGZEsQ8uwITEpraVo8KjwqPCI0uYkYZFGACbmwRzlaKGZgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-38">
-<use xlink:href="#optika--oko-p1-source-6651"/>
+<use xlink:href="#optika--oko-p1-source-6697"/>
 </mask>
-<image id="optika--oko-p1-source-6911" x="0" y="0" width="65" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA6CAAAAADKeWubAAAAAmJLR0QA/4ePzL8AAAECSURBVEiJzZfBDsMgDENJtf//5ey2lsR2wiokcmiBGPeFqozZkOFjjGFSorPeEF2aoRHS3juq9wx7q/C7KWRbGfzZ4bqzV9LnLhVuZPA4wJQnr2Qqgkolg+ndQzoABDhWMFi1hZUOvcAOGBiPCgb7XdYZyJrhcc5g022RYSmQAysCZyiDpUafgSPAHGMw2GwyLEZ2UEWgLGEw2qkdNALIYwaT3Y7DSkSHqoisgAyJWpURcjVCmnPeL06riDDpU5mW5ldLpdzyOpA3t/EE8nToFjErEwOlbZxh+giTNjKIL+CfE0grboeVIp7qwCB3I5z8OfgiyP3/B86JT1PGJ+wP7x2+UiQoaix91WEAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6957" x="0" y="0" width="65" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAA6CAAAAADKeWubAAAAAmJLR0QA/4ePzL8AAAECSURBVEiJzZfBDsMgDENJtf//5ey2lsR2wiokcmiBGPeFqozZkOFjjGFSorPeEF2aoRHS3juq9wx7q/C7KWRbGfzZ4bqzV9LnLhVuZPA4wJQnr2Qqgkolg+ndQzoABDhWMFi1hZUOvcAOGBiPCgb7XdYZyJrhcc5g022RYSmQAysCZyiDpUafgSPAHGMw2GwyLEZ2UEWgLGEw2qkdNALIYwaT3Y7DSkSHqoisgAyJWpURcjVCmnPeL06riDDpU5mW5ldLpdzyOpA3t/EE8nToFjErEwOlbZxh+giTNjKIL+CfE0grboeVIp7qwCB3I5z8OfgiyP3/B86JT1PGJ+wP7x2+UiQoaix91WEAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-39">
-<use xlink:href="#optika--oko-p1-source-6911"/>
+<use xlink:href="#optika--oko-p1-source-6957"/>
 </mask>
-<image id="optika--oko-p1-source-6919" x="0" y="0" width="43" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAA3CAAAAACwIuz8AAAAAmJLR0QA/4ePzL8AAAD5SURBVEiJ1ZbNEsMgCIQXJu//yvaQxPAP6UwP9dAa/IqrrqSEvi0AIIB8FNeQC1HACV4GN+tJAV2DRzi3Sqd7y8dlaInRAA1hrqUqPRwqMw9nn446qYK5kyBEcEWZ9n8sdcgGvtWgdjrYdrZXI5cw8qTu5l53FkotoeVxHD5DJnbfi2ruu2n/1lvy8ixas9u8kx9sDQNY1IeR4fKU5J7q6bV3Oqkkv9t1kficwVf+EcwzdPMjkoBDl23dlsWbUxMXj6ebi8c7rRkw8fqT5dc1NV+ieGdNFgUANLhDIk7VuUEPpu9jnVR4MqxNLjj4r0Guk9GuVie80f8BF8w6XfiLVIcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6965" x="0" y="0" width="43" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAA3CAAAAACwIuz8AAAAAmJLR0QA/4ePzL8AAAD5SURBVEiJ1ZbNEsMgCIQXJu//yvaQxPAP6UwP9dAa/IqrrqSEvi0AIIB8FNeQC1HACV4GN+tJAV2DRzi3Sqd7y8dlaInRAA1hrqUqPRwqMw9nn446qYK5kyBEcEWZ9n8sdcgGvtWgdjrYdrZXI5cw8qTu5l53FkotoeVxHD5DJnbfi2ruu2n/1lvy8ixas9u8kx9sDQNY1IeR4fKU5J7q6bV3Oqkkv9t1kficwVf+EcwzdPMjkoBDl23dlsWbUxMXj6ebi8c7rRkw8fqT5dc1NV+ieGdNFgUANLhDIk7VuUEPpu9jnVR4MqxNLjj4r0Guk9GuVie80f8BF8w6XfiLVIcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-40">
-<use xlink:href="#optika--oko-p1-source-6919"/>
+<use xlink:href="#optika--oko-p1-source-6965"/>
 </mask>
-<image id="optika--oko-p1-source-6927" x="0" y="0" width="76" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAlCAAAAADNB1BlAAAAAmJLR0QA/4ePzL8AAACHSURBVEiJ7ZbBDoAgDEM74///8jyoidvKJCgJh+1C0sJr4YTgGj0XgROM9mKJ2n2325Bzi8OcmKQYHIMpxQpyC8Aeg7Qdllg8xBzotgAAm+npw5PKbMSHhANdljyaMX4S3RoCG58IGy82udmHYrPfrGAFK1jBCrYwLP4+Thmgv6fcWveav8IOywMfTIJP04kAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6973" x="0" y="0" width="76" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAAAlCAAAAADNB1BlAAAAAmJLR0QA/4ePzL8AAACHSURBVEiJ7ZbBDoAgDEM74///8jyoidvKJCgJh+1C0sJr4YTgGj0XgROM9mKJ2n2325Bzi8OcmKQYHIMpxQpyC8Aeg7Qdllg8xBzotgAAm+npw5PKbMSHhANdljyaMX4S3RoCG58IGy82udmHYrPfrGAFK1jBCrYwLP4+Thmgv6fcWveav8IOywMfTIJP04kAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-41">
-<use xlink:href="#optika--oko-p1-source-6927"/>
+<use xlink:href="#optika--oko-p1-source-6973"/>
 </mask>
-<image id="optika--oko-p1-source-7011" x="0" y="0" width="42" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABMCAAAAAA+BXrAAAAAAmJLR0QA/4ePzL8AAAEzSURBVEiJ7ZZJEkIhDETTlPe/Mi6UIWNHy6WsILxqhp/fQeTd5pSwnfjjCooINKZGcNE0cmQuCeiB7djlPKA252Ekfc8iHRjYzFk0uIoUXbCfCNDgW/ybiBQfFjqMOrPuzL3RMAWxZw6a/Fgnyzc6z0yyCO4lxH14k5AjJ4N8zUi7s5Fp+ODID2/ZEcSSNhhwJEa9/keqR5ajXpVvpKG6dnBQKnupMhaFn1VoDYP4L0ETPEMDHuTkUF1ySaoYNVn1x9aw8YGKZe5ysbVnKZbW2BCtYZSFk6A5jzzrnG2W2dzPZXEW22Wpq13vA1rRN/uNEf0C/doJe3bcV8ULbclyVXuvXBZbtbEFWgvmElX+WtRjiD5W8IhX+Zo+btz7FOtpwm0Wcw8yeDuhSu2yLmA2X3AiT9/vUlQr8UryAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-7057" x="0" y="0" width="42" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAABMCAAAAAA+BXrAAAAAAmJLR0QA/4ePzL8AAAEzSURBVEiJ7ZZJEkIhDETTlPe/Mi6UIWNHy6WsILxqhp/fQeTd5pSwnfjjCooINKZGcNE0cmQuCeiB7djlPKA252Ekfc8iHRjYzFk0uIoUXbCfCNDgW/ybiBQfFjqMOrPuzL3RMAWxZw6a/Fgnyzc6z0yyCO4lxH14k5AjJ4N8zUi7s5Fp+ODID2/ZEcSSNhhwJEa9/keqR5ajXpVvpKG6dnBQKnupMhaFn1VoDYP4L0ETPEMDHuTkUF1ySaoYNVn1x9aw8YGKZe5ysbVnKZbW2BCtYZSFk6A5jzzrnG2W2dzPZXEW22Wpq13vA1rRN/uNEf0C/doJe3bcV8ULbclyVXuvXBZbtbEFWgvmElX+WtRjiD5W8IhX+Zo+btz7FOtpwm0Wcw8yeDuhSu2yLmA2X3AiT9/vUlQr8UryAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-42">
-<use xlink:href="#optika--oko-p1-source-7011"/>
+<use xlink:href="#optika--oko-p1-source-7057"/>
 </mask>
-<image id="optika--oko-p1-source-7019" x="0" y="0" width="47" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA6CAAAAAAFV19YAAAAAmJLR0QA/4ePzL8AAAC9SURBVEiJ7ZRBDsUgCEQZ0/tf2b8xEWEQTJOfLmTTVh6DNAAksz6eEBGRJ+VWa6n+f3ns3aoIVPSd3Nfqvfzltdn5nQ3PJ2Phu/kgIc8CuGQuAtNnjmw4uFMprhGa74S2EWre+Srz4YPf/MP9fkiW0eDD2wT8kbW0A97qH/JH1X5vvi6f8JUme6Ov3iut1Epdz/WL/EzANiLRj2/kBZoIXaIB7vanztUJCudbFMC3dJBcEGx1HoHgTJstxPI/C4MkbMc2DqcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7065" x="0" y="0" width="47" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA6CAAAAAAFV19YAAAAAmJLR0QA/4ePzL8AAAC9SURBVEiJ7ZRBDsUgCEQZ0/tf2b8xEWEQTJOfLmTTVh6DNAAksz6eEBGRJ+VWa6n+f3ns3aoIVPSd3Nfqvfzltdn5nQ3PJ2Phu/kgIc8CuGQuAtNnjmw4uFMprhGa74S2EWre+Srz4YPf/MP9fkiW0eDD2wT8kbW0A97qH/JH1X5vvi6f8JUme6Ov3iut1Epdz/WL/EzANiLRj2/kBZoIXaIB7vanztUJCudbFMC3dJBcEGx1HoHgTJstxPI/C4MkbMc2DqcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-43">
-<use xlink:href="#optika--oko-p1-source-7019"/>
+<use xlink:href="#optika--oko-p1-source-7065"/>
 </mask>
-<image id="optika--oko-p1-source-7387" x="0" y="0" width="34" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA3CAAAAABMN8c2AAAAAmJLR0QA/4ePzL8AAAC0SURBVDiN7ZSxEsMwCEOlnv//l+lQmxgJd2iv1yVeAtyLAEMCAEAE2hMBYCwHdOD14GUrs6I03iRYAgntfhcTL7WzJ+5mTe990ypUhjBEGJqhDBurMltcrlTvp0G6Wdjwogsqc1iML4/OqEx+ziiaV6L4Dxcu9UaHBACQ1yIZElM+pWJo8tKDd9CX3JSr198gehzRjeVZJdFxRMD5ob9BlpAl8nX6qKMbuZFfI/p/yfgfankCnYgrXDBSrVcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7433" x="0" y="0" width="34" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAA3CAAAAABMN8c2AAAAAmJLR0QA/4ePzL8AAAC0SURBVDiN7ZSxEsMwCEOlnv//l+lQmxgJd2iv1yVeAtyLAEMCAEAE2hMBYCwHdOD14GUrs6I03iRYAgntfhcTL7WzJ+5mTe990ypUhjBEGJqhDBurMltcrlTvp0G6Wdjwogsqc1iML4/OqEx+ziiaV6L4Dxcu9UaHBACQ1yIZElM+pWJo8tKDd9CX3JSr198gehzRjeVZJdFxRMD5ob9BlpAl8nX6qKMbuZFfI/p/yfgfankCnYgrXDBSrVcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-44">
-<use xlink:href="#optika--oko-p1-source-7387"/>
+<use xlink:href="#optika--oko-p1-source-7433"/>
 </mask>
-<image id="optika--oko-p1-source-7571" x="0" y="0" width="45" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA1CAAAAADw9D2wAAAAAmJLR0QA/4ePzL8AAADoSURBVEiJvZXBDsQgCETB7P//MntZFHBGTdyWSyszeaK2qCZz6HjNcgNmHk+6fyVaTcSwnj9lK65k3qOQaXR+gAaVVHgcu3sNdxWs0viou1fwrqEdNPIe3Rw+FHg66LusbgS3nP/HN2jlidx4nTFLKjGIzm4ETzm2SkPo4p7hOUN30NAZFXeFlzE/nU1bAqaqvtB9cCmTeMse8Fm7ZjscSPfs0IKv2NQNJ71n0+ZD2fj//zhqyBwtzcXsIS20dRfrT5mNgnXngxtw4aaHjtxrs2ifWvfmcReriO3Mooc7XeY/8LrM/60cX/3ULl7Ffe+JAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-7617" x="0" y="0" width="45" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA1CAAAAADw9D2wAAAAAmJLR0QA/4ePzL8AAADoSURBVEiJvZXBDsQgCETB7P//MntZFHBGTdyWSyszeaK2qCZz6HjNcgNmHk+6fyVaTcSwnj9lK65k3qOQaXR+gAaVVHgcu3sNdxWs0viou1fwrqEdNPIe3Rw+FHg66LusbgS3nP/HN2jlidx4nTFLKjGIzm4ETzm2SkPo4p7hOUN30NAZFXeFlzE/nU1bAqaqvtB9cCmTeMse8Fm7ZjscSPfs0IKv2NQNJ71n0+ZD2fj//zhqyBwtzcXsIS20dRfrT5mNgnXngxtw4aaHjtxrs2ifWvfmcReriO3Mooc7XeY/8LrM/60cX/3ULl7Ffe+JAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-45">
-<use xlink:href="#optika--oko-p1-source-7571"/>
-</mask>
-<image id="optika--oko-p1-source-7617" x="0" y="0" width="47" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA6CAAAAAAFV19YAAAAAmJLR0QA/4ePzL8AAACySURBVEiJ7ZbBDoAwCEOt8f9/uR40EVhBjc542C5z+MDOsGaY9sF9xlSOhfX7OOZ7eHd+2x5j4KT+CfRAz+AH/yW/JPHjRPhelzzDwqQIvnUMHhlImCaOgreS6YPq/0AumNRvzr77QlO/sAometIK7N0PvMTbLXXuT/7tvAz+VR5/0GNNpaseCF65YVk/JnhLFHqyGxpEfcQEBv/0fojUJuFnSwk9iE90UWa046XrR/9dAb5nJXBNopVKAAAAAElFTkSuQmCC"/>
-<mask id="optika--oko-p1-mask-46">
 <use xlink:href="#optika--oko-p1-source-7617"/>
+</mask>
+<image id="optika--oko-p1-source-7663" x="0" y="0" width="47" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAA6CAAAAAAFV19YAAAAAmJLR0QA/4ePzL8AAACySURBVEiJ7ZbBDoAwCEOt8f9/uR40EVhBjc542C5z+MDOsGaY9sF9xlSOhfX7OOZ7eHd+2x5j4KT+CfRAz+AH/yW/JPHjRPhelzzDwqQIvnUMHhlImCaOgreS6YPq/0AumNRvzr77QlO/sAometIK7N0PvMTbLXXuT/7tvAz+VR5/0GNNpaseCF65YVk/JnhLFHqyGxpEfcQEBv/0fojUJuFnSwk9iE90UWa046XrR/9dAb5nJXBNopVKAAAAAElFTkSuQmCC"/>
+<mask id="optika--oko-p1-mask-46">
+<use xlink:href="#optika--oko-p1-source-7663"/>
 </mask>
 <image id="optika--oko-p1-source-743" x="0" y="0" width="21" height="73" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAABJCAAAAAD3MDLGAAAAAmJLR0QA/4ePzL8AAABqSURBVDiN7ZNBDsAgCARnTf//ZXpoa4HQpI3pxbgnHBBXDSLKQKDMAKQCQqPSOH3hgcvvzCpu7Kn53PD7Ppz21x8vuuh8dDvGRrnWIM0rtHMdsFJf++pBnepuIGhy0FU7vz1SshW2mmewA/3OFHDB382hAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-47">
@@ -814,9 +817,9 @@
 <mask id="optika--oko-p1-mask-76">
 <use xlink:href="#optika--oko-p1-source-2499"/>
 </mask>
-<image id="optika--oko-p1-source-2621" x="0" y="0" width="23" height="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAeCAAAAADiTtq0AAAAAmJLR0QA/4ePzL8AAABMSURBVCiRvY9BCsAgDARn+v8/24NWiRWKUs1l2ckSspIApE72puwMGK5oqz68ny9up6t3tnGH2JJvWw/98xsfFbPkDezMP9P8XUC4AW2YBkSiUer0AAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-2545" x="0" y="0" width="28" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAZCAAAAAAHqxH7AAAAAmJLR0QA/4ePzL8AAABuSURBVCiRpZJBDoAwCARnif//Mh5QEUubJnJqd7IENghwEKUuRXj8VVAo8lvSh4GMRSX0gfmms4MaJJWXx0Z1GeEcDAmk8mOgHdhE8HY2Y+20bbtm225ZWxgfZ5uSLYwZ/JfFgc1ZXN+EYbNhAE4kYBovM3I7GAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-77">
-<use xlink:href="#optika--oko-p1-source-2621"/>
+<use xlink:href="#optika--oko-p1-source-2545"/>
 </mask>
 <image id="optika--oko-p1-source-2629" x="0" y="0" width="18" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAA6CAAAAACYWlbQAAAAAmJLR0QA/4ePzL8AAABASURBVDiN7dShDoAwDEXR88j+/5eZWAgjmyAIVOt6xHVtgBMEtLHMcyyyo9ylq5U1/65VVFT0B42rfJxtvn6ADt5rBnBz/TIhAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-78">
@@ -826,345 +829,349 @@
 <mask id="optika--oko-p1-mask-79">
 <use xlink:href="#optika--oko-p1-source-2637"/>
 </mask>
-<image id="optika--oko-p1-source-3923" x="0" y="0" width="41" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA4CAAAAABFgY4UAAAAAmJLR0QA/4ePzL8AAACTSURBVEiJ7ZVLDoAwCEQH4/2vjAs1hUEsG42fsqrTFz6iIAimACBBDoqmNwwqH3pgD3W3hE6dbJ5CkpVrP3uf9R4d9Czp+/dsq1HtQzMrz0knonzFFyI2FOXp5XpFb/k7BjnIH5BukNwd/XBvFhaA8+md0GDcyehU29Dye4dnmALi3BpfltX1lJCUmCAnEWauDbMAZ7ExN9jpYqkAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-2683" x="0" y="0" width="28" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAZCAAAAAAHqxH7AAAAAmJLR0QA/4ePzL8AAABpSURBVCiRpZJBDsAgCAQH0v9/mR4Ea1QwsZzITnbdEKGNGdOYob7NCAMkNlmYNC1hSMH8zYmFolkZwpkY0cKIFsY4wn60SEWL1EPsNXy8wv7wvZsMwBVl0T7lR9v8BAen9CZDRCjlB3sB2VccKToaIHcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-80">
-<use xlink:href="#optika--oko-p1-source-3923"/>
+<use xlink:href="#optika--oko-p1-source-2683"/>
 </mask>
-<image id="optika--oko-p1-source-3931" x="0" y="0" width="41" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA6CAAAAAAISS8fAAAAAmJLR0QA/4ePzL8AAACDSURBVEiJ7ZbBDsAgCEOL8f9/ubtsCzBkbIk3elJ4kZogUQAAIABAkGgyy2qNKviBFOBy+eLzTBZutMNnk03mmlEw7OyApFpJQvI+i5b1PgmI6NpckNTmLDrWoNOogr66BDuGZCJLZqNhe4f0XGqyyc2knVLuyZmwPP825sPxp3qdPADq2hV45oaIawAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3969" x="0" y="0" width="41" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA4CAAAAABFgY4UAAAAAmJLR0QA/4ePzL8AAACTSURBVEiJ7ZVLDoAwCEQH4/2vjAs1hUEsG42fsqrTFz6iIAimACBBDoqmNwwqH3pgD3W3hE6dbJ5CkpVrP3uf9R4d9Czp+/dsq1HtQzMrz0knonzFFyI2FOXp5XpFb/k7BjnIH5BukNwd/XBvFhaA8+md0GDcyehU29Dye4dnmALi3BpfltX1lJCUmCAnEWauDbMAZ7ExN9jpYqkAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-81">
-<use xlink:href="#optika--oko-p1-source-3931"/>
+<use xlink:href="#optika--oko-p1-source-3969"/>
 </mask>
-<image id="optika--oko-p1-source-4069" x="0" y="0" width="31" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAA3CAAAAADROs6+AAAAAmJLR0QA/4ePzL8AAADNSURBVDiN5ZQ5FgQhCEQ/vr7/lZlkWgELu5OJxkgplmIRAHDkcRj0Cg5c824C5Zb6upIkFrUtoVgUJYX1KCZYiRyC3uJELJKKSRo7HhRsu1QSGheFqApNL350JP8mv8ys1nfrd+rfVhg89l/CYF9RA4ONIzzntz1Dmif82JDpP5vP6RqN+T28l0SXhzf89/ABfxint/7/Fj9+1mXflfnJvx3Hz5d9E2Cc1onH+NKBjS40cVdJir7+p1JI/3tX8LLf04JX+71kIPa3WF98AEUsN00CeGCEAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-3977" x="0" y="0" width="41" height="58" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA6CAAAAAAISS8fAAAAAmJLR0QA/4ePzL8AAACDSURBVEiJ7ZbBDsAgCEOL8f9/ubtsCzBkbIk3elJ4kZogUQAAIABAkGgyy2qNKviBFOBy+eLzTBZutMNnk03mmlEw7OyApFpJQvI+i5b1PgmI6NpckNTmLDrWoNOogr66BDuGZCJLZqNhe4f0XGqyyc2knVLuyZmwPP825sPxp3qdPADq2hV45oaIawAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-82">
-<use xlink:href="#optika--oko-p1-source-4069"/>
+<use xlink:href="#optika--oko-p1-source-3977"/>
 </mask>
-<image id="optika--oko-p1-source-4115" x="0" y="0" width="19" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAABSCAAAAACTP7DZAAAAAmJLR0QA/4ePzL8AAACYSURBVDiN5ZXBDoAgDENb/v+f50FRthWQxOhBbr68MoymEHEZmFFiBpDCYkaeHXsVjwA4z+ojM3LZupi1kzVolG016RV32ujRM69dHgULngkWor1sjA7ewy/uUc68pxnz2Ffm/o199n2RBy/sl6polLXAYng41wJjx2vEnc3/3cUekh12u/9kd16wiMy0s2W3yztA3hWAYQOytCGIK++bawAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4115" x="0" y="0" width="31" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAA3CAAAAADROs6+AAAAAmJLR0QA/4ePzL8AAADNSURBVDiN5ZQ5FgQhCEQ/vr7/lZlkWgELu5OJxkgplmIRAHDkcRj0Cg5c824C5Zb6upIkFrUtoVgUJYX1KCZYiRyC3uJELJKKSRo7HhRsu1QSGheFqApNL350JP8mv8ys1nfrd+rfVhg89l/CYF9RA4ONIzzntz1Dmif82JDpP5vP6RqN+T28l0SXhzf89/ABfxint/7/Fj9+1mXflfnJvx3Hz5d9E2Cc1onH+NKBjS40cVdJir7+p1JI/3tX8LLf04JX+71kIPa3WF98AEUsN00CeGCEAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-83">
 <use xlink:href="#optika--oko-p1-source-4115"/>
 </mask>
-<image id="optika--oko-p1-source-4161" x="0" y="0" width="19" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAABSCAAAAACTP7DZAAAAAmJLR0QA/4ePzL8AAACgSURBVDiN5ZVBDoMwDATH/v+ftwcaamwnRK0qVWouSMMsCQlakMjDoUBDYJlVaFRoVOjPq7KHiKZRoVPHuBnFMxDgKhvFzrsyJWYT7xADW75HZkrMJl7LtOmRT1EAtpv9hKVPKu/V1+b9N/YT53tM+/7z7N5Tw8Y6brJq2IgG9mosr9p6DzZ7qOmwzf5ruvOKzmw8l0lnN93e/AMqwiviAUHrIYpXrQcSAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4161" x="0" y="0" width="19" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAABSCAAAAACTP7DZAAAAAmJLR0QA/4ePzL8AAACYSURBVDiN5ZXBDoAgDENb/v+f50FRthWQxOhBbr68MoymEHEZmFFiBpDCYkaeHXsVjwA4z+ojM3LZupi1kzVolG016RV32ujRM69dHgULngkWor1sjA7ewy/uUc68pxnz2Ffm/o199n2RBy/sl6polLXAYng41wJjx2vEnc3/3cUekh12u/9kd16wiMy0s2W3yztA3hWAYQOytCGIK++bawAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-84">
 <use xlink:href="#optika--oko-p1-source-4161"/>
 </mask>
-<image id="optika--oko-p1-source-4207" x="0" y="0" width="57" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA7CAAAAADku31SAAAAAmJLR0QA/4ePzL8AAADfSURBVEiJ5ZbLDoMwDARj1P//ZfdQaPPYjTeJgoTqEwqZjiPKGvPULeN3ApLTConZa83hLrxarTjZ4s3Os45Ojx+g7Uok0YFUkqAKiVGJhKWRSLrb+a1MepvzX8jshdntRC/vZifMC4XEQfOSwTqHQpIlW0DS4EsgNUHhjB/IvsiJIh6yXeeV0vAk6nRoteq/r9XGc4WhsXNhIpGaf54DzokpuOx8GDkx7ZedTyaFvIXld3U7/A02nbfEfvwuQUcdqdHv+HJ3lamekondNlaTz1mkvcMf45Wfy4bIVI6KN0JCKnT5ka1HAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4207" x="0" y="0" width="19" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAABSCAAAAACTP7DZAAAAAmJLR0QA/4ePzL8AAACgSURBVDiN5ZVBDoMwDATH/v+ftwcaamwnRK0qVWouSMMsCQlakMjDoUBDYJlVaFRoVOjPq7KHiKZRoVPHuBnFMxDgKhvFzrsyJWYT7xADW75HZkrMJl7LtOmRT1EAtpv9hKVPKu/V1+b9N/YT53tM+/7z7N5Tw8Y6brJq2IgG9mosr9p6DzZ7qOmwzf5ruvOKzmw8l0lnN93e/AMqwiviAUHrIYpXrQcSAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-85">
 <use xlink:href="#optika--oko-p1-source-4207"/>
 </mask>
-<image id="optika--oko-p1-source-4391" x="0" y="0" width="39" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA1CAAAAADn1q15AAAAAmJLR0QA/4ePzL8AAADUSURBVEiJpVXLEsQgCCM7/f9fZi9beaZ1kUsdyCSmKkAlBe5FqHwyjMQuDkEBsaiWhk8k2C8P0y0Axw+/v0DbxasPdDhOeOP6HerK//X/nGbgNbrxuTEnhqtOnOzAR3Hi6Q7un6ZvxWUnILiniBzOicbSyTtSqecScSDrqY/lRHPhrB/U29U/7Zqf+vC9YsI31xXtske6jcj5+3jn63rXrm6V3dft4krnSfuV5nLfgZMubeRlf2Tk5LnAJtPuPIK7Ru2Fsu3o6jwcJvByHObn9ANK5As+uCtcdLx9NgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4253" x="0" y="0" width="57" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA7CAAAAADku31SAAAAAmJLR0QA/4ePzL8AAADfSURBVEiJ5ZbLDoMwDARj1P//ZfdQaPPYjTeJgoTqEwqZjiPKGvPULeN3ApLTConZa83hLrxarTjZ4s3Os45Ojx+g7Uok0YFUkqAKiVGJhKWRSLrb+a1MepvzX8jshdntRC/vZifMC4XEQfOSwTqHQpIlW0DS4EsgNUHhjB/IvsiJIh6yXeeV0vAk6nRoteq/r9XGc4WhsXNhIpGaf54DzokpuOx8GDkx7ZedTyaFvIXld3U7/A02nbfEfvwuQUcdqdHv+HJ3lamekondNlaTz1mkvcMf45Wfy4bIVI6KN0JCKnT5ka1HAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-86">
-<use xlink:href="#optika--oko-p1-source-4391"/>
+<use xlink:href="#optika--oko-p1-source-4253"/>
 </mask>
-<image id="optika--oko-p1-source-4621" x="0" y="0" width="49" height="61" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAA9CAAAAAAhNd67AAAAAmJLR0QA/4ePzL8AAADvSURBVEiJ7VY7FgQhCDPe/85socMTBA1TbDVUisSE+WjQ4hAdweXhS225x4jfISi3mACxq5FlJptKBXjxIyPbUlyvasZypwAN4aqk9et2y/oZEHDcAFrR7ZQIJJQ5CZbxBTDL+rkmU0VSjMI6R69QKIIPDAT/KjwHJ6r1GgXePqu3CLKNhuBPYTnY+BAfgkCwH6AGomP+EPKnzquNLBzkodL533XuWu4DvXl3QKgqhN4fJZJqH5gIksQ4GeaeEnO2cy9l3lEGctC1+5CLM3kMH2wux6hD5D3ck6V9oqbuXtRYnlTAFgiHOQjp5Kxuxg/W3DxaAu1MrgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4437" x="0" y="0" width="39" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAA1CAAAAADn1q15AAAAAmJLR0QA/4ePzL8AAADUSURBVEiJpVXLEsQgCCM7/f9fZi9beaZ1kUsdyCSmKkAlBe5FqHwyjMQuDkEBsaiWhk8k2C8P0y0Axw+/v0DbxasPdDhOeOP6HerK//X/nGbgNbrxuTEnhqtOnOzAR3Hi6Q7un6ZvxWUnILiniBzOicbSyTtSqecScSDrqY/lRHPhrB/U29U/7Zqf+vC9YsI31xXtske6jcj5+3jn63rXrm6V3dft4krnSfuV5nLfgZMubeRlf2Tk5LnAJtPuPIK7Ru2Fsu3o6jwcJvByHObn9ANK5As+uCtcdLx9NgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-87">
-<use xlink:href="#optika--oko-p1-source-4621"/>
+<use xlink:href="#optika--oko-p1-source-4437"/>
 </mask>
-<image id="optika--oko-p1-source-4667" x="0" y="0" width="32" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAA3CAAAAABIwhcLAAAAAmJLR0QA/4ePzL8AAADESURBVDiNvVTLDsMwCIvR/v+X2WGNeBhCq0nl0hY7mFBgLTZV94ECD24maPRLjZtlQsazhJIbAx4JWvhAeBJFwunaGPD16fTYqAKv2aNKhjRBBFcHX1J42OjGRok7htS4saTB4V/q85cINW02aRO4wvQRsCMMv3nKQTehbSaZGunONc+GvyX2XPS3mCK8QTgP7AOJtl5zqW+3XKchx8Wjvxz8xFIK0uu70Wuy0LUQx5/WDcqNEPC8YcK+QHHG5x8emWPuL3QwMUyo0E1gAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4667" x="0" y="0" width="49" height="61" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADEAAAA9CAAAAAAhNd67AAAAAmJLR0QA/4ePzL8AAADvSURBVEiJ7VY7FgQhCDPe/85socMTBA1TbDVUisSE+WjQ4hAdweXhS225x4jfISi3mACxq5FlJptKBXjxIyPbUlyvasZypwAN4aqk9et2y/oZEHDcAFrR7ZQIJJQ5CZbxBTDL+rkmU0VSjMI6R69QKIIPDAT/KjwHJ6r1GgXePqu3CLKNhuBPYTnY+BAfgkCwH6AGomP+EPKnzquNLBzkodL533XuWu4DvXl3QKgqhN4fJZJqH5gIksQ4GeaeEnO2cy9l3lEGctC1+5CLM3kMH2wux6hD5D3ck6V9oqbuXtRYnlTAFgiHOQjp5Kxuxg/W3DxaAu1MrgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-88">
 <use xlink:href="#optika--oko-p1-source-4667"/>
 </mask>
-<image id="optika--oko-p1-source-6188" x="0" y="0" width="57" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAAAAACpc9xZAAAAAmJLR0QA/4ePzL8AAADvSURBVEiJtdfBDsMgDANQUvX/fzk9VEhA7MQgwalFvDpsK8rMGx4234Zl9hBYj3PZi/Iws46hXpvW+Tib0b7g3SlwevDmPoeK9uS4FV368hnIcoWyDFCVEYoSQE0iKEkIFYmhIAmsJYOlpLB4V7zx1y6VPLDl1aYwk97AkafIBOXSK89klUilgytJOjhOJZl/HYn8YRUKpLPjv5JSqeTBcU58sy1eoXqjlEpF0uANCC3OhITe6xN4aJlJ6c2uhoUKmYTe7cFw6OW+D4ZqmYhe71JBqJoZ6X61nR7sc+lzq556+hH8h6rw30E9b9VxLj+O+ThtUKKtSAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4713" x="0" y="0" width="32" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAA3CAAAAABIwhcLAAAAAmJLR0QA/4ePzL8AAADESURBVDiNvVTLDsMwCIvR/v+X2WGNeBhCq0nl0hY7mFBgLTZV94ECD24maPRLjZtlQsazhJIbAx4JWvhAeBJFwunaGPD16fTYqAKv2aNKhjRBBFcHX1J42OjGRok7htS4saTB4V/q85cINW02aRO4wvQRsCMMv3nKQTehbSaZGunONc+GvyX2XPS3mCK8QTgP7AOJtl5zqW+3XKchx8Wjvxz8xFIK0uu70Wuy0LUQx5/WDcqNEPC8YcK+QHHG5x8emWPuL3QwMUyo0E1gAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-89">
-<use xlink:href="#optika--oko-p1-source-6188"/>
+<use xlink:href="#optika--oko-p1-source-4713"/>
 </mask>
-<image id="optika--oko-p1-source-6789" x="0" y="0" width="54" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAAAAACpLjUBAAAAAmJLR0QA/4ePzL8AAAA2SURBVEiJ7dWxDQAwCAQxkv13JhPwFUrla5FFB1Vj3fPszqMUhmEYljvh9O5vC/kBGIZh39kDMM0FY/utO0oAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6234" x="0" y="0" width="57" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAAAAACpc9xZAAAAAmJLR0QA/4ePzL8AAADvSURBVEiJtdfBDsMgDANQUvX/fzk9VEhA7MQgwalFvDpsK8rMGx4234Zl9hBYj3PZi/Iws46hXpvW+Tib0b7g3SlwevDmPoeK9uS4FV368hnIcoWyDFCVEYoSQE0iKEkIFYmhIAmsJYOlpLB4V7zx1y6VPLDl1aYwk97AkafIBOXSK89klUilgytJOjhOJZl/HYn8YRUKpLPjv5JSqeTBcU58sy1eoXqjlEpF0uANCC3OhITe6xN4aJlJ6c2uhoUKmYTe7cFw6OW+D4ZqmYhe71JBqJoZ6X61nR7sc+lzq556+hH8h6rw30E9b9VxLj+O+ThtUKKtSAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-90">
-<use xlink:href="#optika--oko-p1-source-6789"/>
+<use xlink:href="#optika--oko-p1-source-6234"/>
 </mask>
-<image id="optika--oko-p1-source-7341" x="0" y="0" width="54" height="61" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA9CAAAAADD6cXCAAAAAmJLR0QA/4ePzL8AAADgSURBVEiJ7VdJEsQgCAT+/2dyiyCbEsvLDCdDN2nEpEAE1/hdoYt7Xq45xsXazz5tfmbjtR7z6FI8LxZ44McZzIo0IIyhLA4jII8rCh3FkcLiqAki9a7alGiZ4kyijBgbLospWlONYKMeQ1SoVTlKAm2LAfCnvbXCtnMEYKFWVkRSLu+tsTUAvn0A/7BfClv4X6zhUFv4pgfldkkam8MvrYPFOjPBu1sS2d/Wuunob1vFtE04/VAUSAvZWbEz48ymZi0XzFzdCa87TyZxFjgxK7uCbg6H7gGCmnGCc6ruOA/52DpjjYJiZwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6835" x="0" y="0" width="54" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAAAAACpLjUBAAAAAmJLR0QA/4ePzL8AAAA2SURBVEiJ7dWxDQAwCAQxkv13JhPwFUrla5FFB1Vj3fPszqMUhmEYljvh9O5vC/kBGIZh39kDMM0FY/utO0oAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-91">
-<use xlink:href="#optika--oko-p1-source-7341"/>
+<use xlink:href="#optika--oko-p1-source-6835"/>
 </mask>
-<image id="optika--oko-p1-source-7471" x="0" y="0" width="33" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA3CAAAAACnAHw1AAAAAmJLR0QA/4ePzL8AAADOSURBVDiNvZRLDsMwCEQZlPtf2d2k4TtQqVVZxAp+gnGIB+Li3Ct8EmU759Hu+x04AAmGPU/qHfSgASKijfqoDiKnAKGK9oALJXnro1VEiut0ZwnV2ll4rZoTJZjSvxPpN6hxz7bZp5/hc+IBvj8LKGFDWGqAEm6Ocw0IO+0xoCc8MHVBWJoSw0gjQG9b9Q8KFKIAcjVKMbx11686S+6LDSj2VZXrDIifC/MIzMCxGtRl3rdhsCHdAFNKf7bH11lAF0BEN0CwABBdKvzG6V4++TJYUGfL6gAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-7387" x="0" y="0" width="54" height="61" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAAA9CAAAAADD6cXCAAAAAmJLR0QA/4ePzL8AAADgSURBVEiJ7VdJEsQgCAT+/2dyiyCbEsvLDCdDN2nEpEAE1/hdoYt7Xq45xsXazz5tfmbjtR7z6FI8LxZ44McZzIo0IIyhLA4jII8rCh3FkcLiqAki9a7alGiZ4kyijBgbLospWlONYKMeQ1SoVTlKAm2LAfCnvbXCtnMEYKFWVkRSLu+tsTUAvn0A/7BfClv4X6zhUFv4pgfldkkam8MvrYPFOjPBu1sS2d/Wuunob1vFtE04/VAUSAvZWbEz48ymZi0XzFzdCa87TyZxFjgxK7uCbg6H7gGCmnGCc6ruOA/52DpjjYJiZwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-92">
-<use xlink:href="#optika--oko-p1-source-7471"/>
+<use xlink:href="#optika--oko-p1-source-7387"/>
 </mask>
-<image id="optika--oko-p1-source-7479" x="0" y="0" width="33" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA5CAAAAACdCh1FAAAAAmJLR0QA/4ePzL8AAADbSURBVDiN7VVLFgMhCEt83v/KdGFVGIJ20ddVWYwKMfzUAQDADErMAPS5AJN9DMyLh6K7TZC+mgwAjvOEGE77xX7gWFEXHC71vlSmzIEjVewWxx9RSOzLrDwLhLkZBcL2XvOYeZJp+SAzIB7OHWTnErrvNjYJ8NIKwCa5VMxmtqWLOwfsg/ty71wdwezS706QHQvC/Ia9ZUWq30kVR4n8arZVNiw5Vlz9zIBRD2leZWo4JAqgzmVXuoEHEg4OBXGKljTRx/vzvLah3f4vRmHfY4qEaRIxlFP5igEvVMgwfFAPqq8AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7517" x="0" y="0" width="33" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA3CAAAAACnAHw1AAAAAmJLR0QA/4ePzL8AAADOSURBVDiNvZRLDsMwCEQZlPtf2d2k4TtQqVVZxAp+gnGIB+Li3Ct8EmU759Hu+x04AAmGPU/qHfSgASKijfqoDiKnAKGK9oALJXnro1VEiut0ZwnV2ll4rZoTJZjSvxPpN6hxz7bZp5/hc+IBvj8LKGFDWGqAEm6Ocw0IO+0xoCc8MHVBWJoSw0gjQG9b9Q8KFKIAcjVKMbx11686S+6LDSj2VZXrDIifC/MIzMCxGtRl3rdhsCHdAFNKf7bH11lAF0BEN0CwABBdKvzG6V4++TJYUGfL6gAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-93">
-<use xlink:href="#optika--oko-p1-source-7479"/>
+<use xlink:href="#optika--oko-p1-source-7517"/>
 </mask>
-<image id="optika--oko-p1-source-7525" x="0" y="0" width="45" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA5CAAAAACHNv3LAAAAAmJLR0QA/4ePzL8AAABpSURBVEiJ7dbBCoAwDANQI/7/L8eDOsFuZTkEBrbH8cgK2yHgNhyEk32MO6Pp5zbGo0Q3nljv3qVLly79d30IlgvtbdMUs7HG3jRmS5q+bCr6bhhT/7uVl5nst7rE7oM+vXTS2b4D61ueAuEObMcVxN4AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7525" x="0" y="0" width="33" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAA5CAAAAACdCh1FAAAAAmJLR0QA/4ePzL8AAADbSURBVDiN7VVLFgMhCEt83v/KdGFVGIJ20ddVWYwKMfzUAQDADErMAPS5AJN9DMyLh6K7TZC+mgwAjvOEGE77xX7gWFEXHC71vlSmzIEjVewWxx9RSOzLrDwLhLkZBcL2XvOYeZJp+SAzIB7OHWTnErrvNjYJ8NIKwCa5VMxmtqWLOwfsg/ty71wdwezS706QHQvC/Ia9ZUWq30kVR4n8arZVNiw5Vlz9zIBRD2leZWo4JAqgzmVXuoEHEg4OBXGKljTRx/vzvLah3f4vRmHfY4qEaRIxlFP5igEvVMgwfFAPqq8AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-94">
 <use xlink:href="#optika--oko-p1-source-7525"/>
 </mask>
-<image id="optika--oko-p1-source-2762" x="0" y="0" width="58" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABUCAAAAAD2LnveAAAAAmJLR0QA/4ePzL8AAAF9SURBVFiF1ZjRssMgCETF6f//MvelUQTUXc105vJkgicr1iIqJTHtTcndkrk06SuhR0QzzsP6PFt0ClpY21NHl2CDtbc/GemH9226eZHQJc6p8anpJHuyJMF0VO2r1BwspZSKkZlHMNILN1XM/IcrLBr8hKq3ul9FM9k6c+zZqwFTZmUrEeqd6g1qRmxQdugvDRiS7SN+a5q4aEdVipUkc6BolnUOURxOUJTOUQiX5bQu8TW65Ic8zOF25yNpHA20264YOGySOBu3ZhhuDZ4lyhDPwsVPZMGSK2P9D43BKUosrXxt73FZ/a3W+BLd8IKkkhyH0AkucO6MiZNI2T5hX1RrhKrXpdCR5dCB/bSzB203JdeJ3s/RUHIdFYr/I9Zuz/I/CfaFAaOypt+xqnSUj7arQqw9xL1UwO/Z4eQoTL4Zz5x14lySXz52nin7q4B+XTC5mEgkn1rCXG/Mw06TqEXJQlN0fLGBh0Iv5GG4shYNr+absXtWqBTJuvwBGI5ceGsa1Y0AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7571" x="0" y="0" width="45" height="57" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC0AAAA5CAAAAACHNv3LAAAAAmJLR0QA/4ePzL8AAABpSURBVEiJ7dbBCoAwDANQI/7/L8eDOsFuZTkEBrbH8cgK2yHgNhyEk32MO6Pp5zbGo0Q3nljv3qVLly79d30IlgvtbdMUs7HG3jRmS5q+bCr6bhhT/7uVl5nst7rE7oM+vXTS2b4D61ueAuEObMcVxN4AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-95">
-<use xlink:href="#optika--oko-p1-source-2762"/>
+<use xlink:href="#optika--oko-p1-source-7571"/>
 </mask>
-<image id="optika--oko-p1-source-2770" x="0" y="0" width="41" height="77" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAABNCAAAAAAebhJmAAAAAmJLR0QA/4ePzL8AAACaSURBVEiJ7dbdDoAgCAZQaL7/K9OFLQwEmUtdS29qeMbHRT8iyEUAAKjKcOiSsT4raWl6WJpjzki3w7t7Oi17e3otH9KFpfRhIRuQZQtCCrrrdQ25FFB5rX3m+QNE9fLQ9C233PI/MkUQjUrfcr7Mp1yWqDZfSK/8rYpws6eOt6fDsogyUlO6b8Vw9XMBqnTDop6zalFcLc37J5C7G4yjduTaAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-2808" x="0" y="0" width="58" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAABUCAAAAAD2LnveAAAAAmJLR0QA/4ePzL8AAAF9SURBVFiF1ZjRssMgCETF6f//MvelUQTUXc105vJkgicr1iIqJTHtTcndkrk06SuhR0QzzsP6PFt0ClpY21NHl2CDtbc/GemH9226eZHQJc6p8anpJHuyJMF0VO2r1BwspZSKkZlHMNILN1XM/IcrLBr8hKq3ul9FM9k6c+zZqwFTZmUrEeqd6g1qRmxQdugvDRiS7SN+a5q4aEdVipUkc6BolnUOURxOUJTOUQiX5bQu8TW65Ic8zOF25yNpHA20264YOGySOBu3ZhhuDZ4lyhDPwsVPZMGSK2P9D43BKUosrXxt73FZ/a3W+BLd8IKkkhyH0AkucO6MiZNI2T5hX1RrhKrXpdCR5dCB/bSzB203JdeJ3s/RUHIdFYr/I9Zuz/I/CfaFAaOypt+xqnSUj7arQqw9xL1UwO/Z4eQoTL4Zz5x14lySXz52nin7q4B+XTC5mEgkn1rCXG/Mw06TqEXJQlN0fLGBh0Iv5GG4shYNr+absXtWqBTJuvwBGI5ceGsa1Y0AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-96">
-<use xlink:href="#optika--oko-p1-source-2770"/>
+<use xlink:href="#optika--oko-p1-source-2808"/>
 </mask>
-<image id="optika--oko-p1-source-2778" x="0" y="0" width="60" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA4CAAAAACEBsS4AAAAAmJLR0QA/4ePzL8AAAEQSURBVEiJ5ZfRDsMgCEXB9P9/mT0sdgr3orItWTLeKpxexBZVJZiNDxr9zGkbMcSB0YR/jSYow/uYoTCDoWHESERePOW6Efe+5t/mp55VtIXBrHDOF5SDTbnO9BpObAPm0t9Wfg+mebfgTX9CpDwAB2xP+0ZOWLkqkFOu2T/CV+pdNEUCLygK73EIPiAdHEjQ1AnsIna+1xte7Q4JXEE7vL8lTxab/mEnqbLSTtfWK1eFpdWTXv1V3ExEpNVn7Od82EN/u4fRsnxQGWrw9WilTQoqI5XkQ2irtTVBRwNDykHnyZITs0ZgiLQ+AHPXcHAdcBseAK1zHHy9kAgdclxeL0B26R2D314U+McIVGGbXQ/vEjpzxI5FxgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-2816" x="0" y="0" width="41" height="77" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAABNCAAAAAAebhJmAAAAAmJLR0QA/4ePzL8AAACaSURBVEiJ7dbdDoAgCAZQaL7/K9OFLQwEmUtdS29qeMbHRT8iyEUAAKjKcOiSsT4raWl6WJpjzki3w7t7Oi17e3otH9KFpfRhIRuQZQtCCrrrdQ25FFB5rX3m+QNE9fLQ9C233PI/MkUQjUrfcr7Mp1yWqDZfSK/8rYpws6eOt6fDsogyUlO6b8Vw9XMBqnTDop6zalFcLc37J5C7G4yjduTaAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-97">
-<use xlink:href="#optika--oko-p1-source-2778"/>
+<use xlink:href="#optika--oko-p1-source-2816"/>
 </mask>
-<image id="optika--oko-p1-source-2862" x="0" y="0" width="62" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA2CAAAAAC6+XX1AAAAAmJLR0QA/4ePzL8AAAD1SURBVEiJ1ZbbDsMwCEObaf//y+yllwC2odoidTw1xM4hoFYdttEYYQ2kL+7uxF/bj/YYzOYwLxkpr+278BDg4sU0/dZpV8AUp5i0TuAxvRnh3Ms+lMzHJb1Jj6dO9nbzJiGlw+pTcrY38bOM3x3gc+qXb1xrdk50h15+rBrN8xJFN7lE9hIfBPLuRhfMXuDjtu58+dq3B4dPSnZZfdos6JYeKrvA563q7ibhyE7xYKPsvJ5db3D0DGQn1aN0TTd1AWiHeJh8l3TZPHLPbMHCZ/zbxIjVE90ievNXaxXd4anqmYPb5uq5aB39xAvNQvqOV5Iv6R8HqihjbGZNnQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-2824" x="0" y="0" width="60" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA4CAAAAACEBsS4AAAAAmJLR0QA/4ePzL8AAAEQSURBVEiJ5ZfRDsMgCEXB9P9/mT0sdgr3orItWTLeKpxexBZVJZiNDxr9zGkbMcSB0YR/jSYow/uYoTCDoWHESERePOW6Efe+5t/mp55VtIXBrHDOF5SDTbnO9BpObAPm0t9Wfg+mebfgTX9CpDwAB2xP+0ZOWLkqkFOu2T/CV+pdNEUCLygK73EIPiAdHEjQ1AnsIna+1xte7Q4JXEE7vL8lTxab/mEnqbLSTtfWK1eFpdWTXv1V3ExEpNVn7Od82EN/u4fRsnxQGWrw9WilTQoqI5XkQ2irtTVBRwNDykHnyZITs0ZgiLQ+AHPXcHAdcBseAK1zHHy9kAgdclxeL0B26R2D314U+McIVGGbXQ/vEjpzxI5FxgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-98">
-<use xlink:href="#optika--oko-p1-source-2862"/>
+<use xlink:href="#optika--oko-p1-source-2824"/>
 </mask>
-<image id="optika--oko-p1-source-2870" x="0" y="0" width="65" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABUCAAAAAD4hwWxAAAAAmJLR0QA/4ePzL8AAAEHSURBVFiF7djRDsIgDAVQr9n//3J90U17b8ugJiMLPMHAY8ecbcBjb3Z08TjfNmuvyduzCtxEeO+6yas9gjN6hBn2YQlLWMIS7i1szRWthJwLxkNSMkGmdfNGLIRlgTMiYf+8Smo/hs56NMtLQB0h8NabmI0F+egEEf6idPr+vmq5EOV/JgKho4DQQgJQELU3y4YEH1/x7bY5/mGqgo0Ibiuvv4s/CDZBDEtYwv0ETBDDiOCyfDUGXP8sMCL4YqcWA0IhOWKiqVIMSISkoHVAGENA9FSDQVlOgKpI8elTPaYAIeAYnCmrWYAcupuC6vuvzU4dIQdGc5GBYGhiUiBc7TYL6ObZ6wu7pDWj/8NBXwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-2908" x="0" y="0" width="62" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAA2CAAAAAC6+XX1AAAAAmJLR0QA/4ePzL8AAAD1SURBVEiJ1ZbbDsMwCEObaf//y+yllwC2odoidTw1xM4hoFYdttEYYQ2kL+7uxF/bj/YYzOYwLxkpr+278BDg4sU0/dZpV8AUp5i0TuAxvRnh3Ms+lMzHJb1Jj6dO9nbzJiGlw+pTcrY38bOM3x3gc+qXb1xrdk50h15+rBrN8xJFN7lE9hIfBPLuRhfMXuDjtu58+dq3B4dPSnZZfdos6JYeKrvA563q7ibhyE7xYKPsvJ5db3D0DGQn1aN0TTd1AWiHeJh8l3TZPHLPbMHCZ/zbxIjVE90ievNXaxXd4anqmYPb5uq5aB39xAvNQvqOV5Iv6R8HqihjbGZNnQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-99">
-<use xlink:href="#optika--oko-p1-source-2870"/>
+<use xlink:href="#optika--oko-p1-source-2908"/>
 </mask>
-<image id="optika--oko-p1-source-2954" x="0" y="0" width="57" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA4CAAAAABiLw/8AAAAAmJLR0QA/4ePzL8AAADYSURBVEiJ7VfLDsMwCMP5/39mh01qhw3NQNq0aZwC2DUkfVCYNj+W0AgRdg4pHEUkTyGDn/IY++S5yKhYXHsCSRJQ+ap50KI+BpFFnrqg8j4kB0+IFREJkeMrXnDD/GC+RnzgY7VZsZxZDck7g3Zo21ZH0sxJM2+TcpNqO8Wa+WyH3s/stWnmX9bnn/lbzOotUBk+02evXETN6mkNuVGfnXIx0YRZMZWcLYKGmjuiBFkVulQbTzWDSWowvQ0mxnhjqin1DH8u7OLzhNSpuSjdlLzxByDYGnMDnu8wXFYdnicAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-2916" x="0" y="0" width="65" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABUCAAAAAD4hwWxAAAAAmJLR0QA/4ePzL8AAAEHSURBVFiF7djRDsIgDAVQr9n//3J90U17b8ugJiMLPMHAY8ecbcBjb3Z08TjfNmuvyduzCtxEeO+6yas9gjN6hBn2YQlLWMIS7i1szRWthJwLxkNSMkGmdfNGLIRlgTMiYf+8Smo/hs56NMtLQB0h8NabmI0F+egEEf6idPr+vmq5EOV/JgKho4DQQgJQELU3y4YEH1/x7bY5/mGqgo0Ibiuvv4s/CDZBDEtYwv0ETBDDiOCyfDUGXP8sMCL4YqcWA0IhOWKiqVIMSISkoHVAGENA9FSDQVlOgKpI8elTPaYAIeAYnCmrWYAcupuC6vuvzU4dIQdGc5GBYGhiUiBc7TYL6ObZ6wu7pDWj/8NBXwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-100">
-<use xlink:href="#optika--oko-p1-source-2954"/>
+<use xlink:href="#optika--oko-p1-source-2916"/>
 </mask>
-<image id="optika--oko-p1-source-2962" x="0" y="0" width="63" height="83" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABTCAAAAAANAoAiAAAAAmJLR0QA/4ePzL8AAAECSURBVFiF7ZfBEoMgDESl4///Mr1UajG7ebZTmU7JCR1edgMjxLK0qM9hWWisNZ/j4vYZ/vP8Y6Vr+JbzXQbOj65/8pOf/OT/lV/RLHHJlvH+R/Ns/cqi2huu36Cyv105v+m/3s2Yj3FYf8MPjQHUVzjTF96pvsEJ73DgX5bO9D2e6VvvuX6Kez7HLQ9wx9fD4BRfw2Efav3pb43Qr/ZxF3H/buYxfRyUV/Y03zkWCSRfWALF0z8gwZcgR2gg3D+1qafPv9zBl/c/NZDpZwlS/8lGnq2/N5DzvgKgbxNc8f06A0jfJGD+dYKLzi9pgOqrBO/6b3ejO/c3UTNndP89mr8DOTEvrWtRszIAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3000" x="0" y="0" width="57" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA4CAAAAABiLw/8AAAAAmJLR0QA/4ePzL8AAADYSURBVEiJ7VfLDsMwCMP5/39mh01qhw3NQNq0aZwC2DUkfVCYNj+W0AgRdg4pHEUkTyGDn/IY++S5yKhYXHsCSRJQ+ap50KI+BpFFnrqg8j4kB0+IFREJkeMrXnDD/GC+RnzgY7VZsZxZDck7g3Zo21ZH0sxJM2+TcpNqO8Wa+WyH3s/stWnmX9bnn/lbzOotUBk+02evXETN6mkNuVGfnXIx0YRZMZWcLYKGmjuiBFkVulQbTzWDSWowvQ0mxnhjqin1DH8u7OLzhNSpuSjdlLzxByDYGnMDnu8wXFYdnicAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-101">
-<use xlink:href="#optika--oko-p1-source-2962"/>
+<use xlink:href="#optika--oko-p1-source-3000"/>
 </mask>
-<image id="optika--oko-p1-source-4713" x="0" y="0" width="92" height="83" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABTCAAAAAA30j9RAAAAAmJLR0QA/4ePzL8AAAGXSURBVFiF7ZnBDsIwDEMZ///PcEFibRPbcQqaEDmBaJwnOwO0HY+bUAf4DAjcFW23/uJhnaKak0EpBvVuP5YXffWXwKlrpy3LUp7FZ1LpEpjrLLKRfGUZxMsmrzVIQHLLF1W8VAHJKN6OdBTYRh5xTOLNSKd2Qi77Eh6cxVvoczPzvLWNmwKNGRbxxjYulu4hTwhWcTvStZGTC75kRwJxEz1oEzz3t3FHoOn0SNzaxsjMDeT57FDciDRskcjdSPu2lP9ClyONjWyTo7mJeBE92YAuOZyaiZe2MTusklvb2LQFz0zFC5GmFvbIiVm5uBxpflAnDyhZykBcRAfHCp7Xt7ETKJ2GxKVtROY1yLlNUFyIFB4pkT/SN444RccHap4Xt9EOVJlDxMk2EttccskgJg7ZWN5V8lKkpi3aDCoOIqVXgUcumsPFU3T+zWORq6kK4gmh8JVpkOvb6Ngiq0s/8ZGa0vitu9CgVnSp7wLk5t3vn3isAGv0Rey6BPmArjZdgzx6VMPq91fx9vZFb7kK+Qu90PFR8idGDz+anDXDTgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3008" x="0" y="0" width="63" height="83" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAABTCAAAAAANAoAiAAAAAmJLR0QA/4ePzL8AAAECSURBVFiF7ZfBEoMgDESl4///Mr1UajG7ebZTmU7JCR1edgMjxLK0qM9hWWisNZ/j4vYZ/vP8Y6Vr+JbzXQbOj65/8pOf/OT/lV/RLHHJlvH+R/Ns/cqi2huu36Cyv105v+m/3s2Yj3FYf8MPjQHUVzjTF96pvsEJ73DgX5bO9D2e6VvvuX6Kez7HLQ9wx9fD4BRfw2Efav3pb43Qr/ZxF3H/buYxfRyUV/Y03zkWCSRfWALF0z8gwZcgR2gg3D+1qafPv9zBl/c/NZDpZwlS/8lGnq2/N5DzvgKgbxNc8f06A0jfJGD+dYKLzi9pgOqrBO/6b3ejO/c3UTNndP89mr8DOTEvrWtRszIAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-102">
-<use xlink:href="#optika--oko-p1-source-4713"/>
+<use xlink:href="#optika--oko-p1-source-3008"/>
 </mask>
-<image id="optika--oko-p1-source-4797" x="0" y="0" width="65" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABUCAAAAAD4hwWxAAAAAmJLR0QA/4ePzL8AAAEKSURBVFiF7dfRDsIgDAVQ2uz/fxlfhkjpLS0skSzwogI7uRClSCnUcn1L9+sVfK5vHMvwWoHGU0oT+0niNW6UJ3fYhyMc4QhHeLcA6qZSYQNC7j9aihT0Mp0NoxVwmcfG1cxqGrXdyPjpVWsaztbXzayMWkZXN23A2MkiDACDYCeACfYCcIAlYDSd6H5ZoUtNEZwRDGEpQuLVCI+cUYsRZIb4Nmxx0vLqNuyxiiMcYTdh4kR4PMPTwsRpwTNHo5XhX8LiMmSG+FZy8ofQdU6CsC6lWFhIUARHCJjtzjAk8OJIm+K50n6n6bdi/VpNhmMZuXYMBfP7RGhYLhkYhAcj/wO8gpgKNqp2fwA9VjWfw4EyBgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4759" x="0" y="0" width="92" height="83" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABTCAAAAAA30j9RAAAAAmJLR0QA/4ePzL8AAAGXSURBVFiF7ZnBDsIwDEMZ///PcEFibRPbcQqaEDmBaJwnOwO0HY+bUAf4DAjcFW23/uJhnaKak0EpBvVuP5YXffWXwKlrpy3LUp7FZ1LpEpjrLLKRfGUZxMsmrzVIQHLLF1W8VAHJKN6OdBTYRh5xTOLNSKd2Qi77Eh6cxVvoczPzvLWNmwKNGRbxxjYulu4hTwhWcTvStZGTC75kRwJxEz1oEzz3t3FHoOn0SNzaxsjMDeT57FDciDRskcjdSPu2lP9ClyONjWyTo7mJeBE92YAuOZyaiZe2MTusklvb2LQFz0zFC5GmFvbIiVm5uBxpflAnDyhZykBcRAfHCp7Xt7ETKJ2GxKVtROY1yLlNUFyIFB4pkT/SN444RccHap4Xt9EOVJlDxMk2EttccskgJg7ZWN5V8lKkpi3aDCoOIqVXgUcumsPFU3T+zWORq6kK4gmh8JVpkOvb6Ngiq0s/8ZGa0vitu9CgVnSp7wLk5t3vn3isAGv0Rey6BPmArjZdgzx6VMPq91fx9vZFb7kK+Qu90PFR8idGDz+anDXDTgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-103">
-<use xlink:href="#optika--oko-p1-source-4797"/>
+<use xlink:href="#optika--oko-p1-source-4759"/>
 </mask>
-<image id="optika--oko-p1-source-4805" x="0" y="0" width="62" height="77" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAABNCAAAAADbHIj3AAAAAmJLR0QA/4ePzL8AAAFdSURBVFiF1ZfBDsMgDENHtf//ZXZpCySO40xD6nLawOY1AbWh9VcYzfwH0iN2K/HX9qs8HY766KukuXFuP4WXAD882c116rYzoItbHJQuxJuJYS/ghzTaOJI9pkthV53sjQqnmIQ1ultztovFm2UxHTy9H1rsEn4RkdwdK33bCPhVwiovHJ3CxqHVjD09OiY9nQ5TsfakeHaa0zv8yewU7yaT3LO9U0sXrOPtZO98YiI9SgLYw+KBiZTeGRzaAzwaznPvbPugHeLhoFB5dnSUjSt0T6EDC3/UnGT4QLeJLvZKu+gLPlQ9o6sE0QXRPvqNJ5qN9BPPJE+/TdD0djcn/INfacy+oCfdRqkp9fEeQgTK+sRjYMQLhLEP1+LXFjtmmbOkPe7Oq1DeYLNroNCel++wgj1/TVzRZlKrutFFrOAGt8jS4WvmyJPzH9jlTiSwq61EZBe/xrG9nPQZH0HuQoVN/5FfAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-4843" x="0" y="0" width="65" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABUCAAAAAD4hwWxAAAAAmJLR0QA/4ePzL8AAAEKSURBVFiF7dfRDsIgDAVQ2uz/fxlfhkjpLS0skSzwogI7uRClSCnUcn1L9+sVfK5vHMvwWoHGU0oT+0niNW6UJ3fYhyMc4QhHeLcA6qZSYQNC7j9aihT0Mp0NoxVwmcfG1cxqGrXdyPjpVWsaztbXzayMWkZXN23A2MkiDACDYCeACfYCcIAlYDSd6H5ZoUtNEZwRDGEpQuLVCI+cUYsRZIb4Nmxx0vLqNuyxiiMcYTdh4kR4PMPTwsRpwTNHo5XhX8LiMmSG+FZy8ofQdU6CsC6lWFhIUARHCJjtzjAk8OJIm+K50n6n6bdi/VpNhmMZuXYMBfP7RGhYLhkYhAcj/wO8gpgKNqp2fwA9VjWfw4EyBgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-104">
-<use xlink:href="#optika--oko-p1-source-4805"/>
+<use xlink:href="#optika--oko-p1-source-4843"/>
 </mask>
-<image id="optika--oko-p1-source-4927" x="0" y="0" width="48" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA1CAAAAAAipDfoAAAAAmJLR0QA/4ePzL8AAADpSURBVEiJvZbLFsMgCEQHT/7/l+2iSSvPgUXrTjM3DCSiAmwMhqyJGgB+D1x2QfR026eXmddDdIRA7it45MD1ogBm51YsNaOG6rIGhgC5l3sJkAjhyIE4QA4k+gdofGISId0kCZAZalbpNBwDxa4NgdxQUh4NaEkUoWwj7X+oilC+0QOkrzlLtSG/wPQkh6AkBuCNWb+jNrSZpfAvUEDnpDgBWqHaUrJrD4AZ2gZoGcrPuLSNfIDuWfoAPUNfoKHfxlJ3rGGAN9BOILZUd57lA5R6rFEC4FcHIxdcxJB7KqPrFeQP96Ux8AKAhCxsiXnb/gAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4851" x="0" y="0" width="62" height="77" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAABNCAAAAADbHIj3AAAAAmJLR0QA/4ePzL8AAAFdSURBVFiF1ZfBDsMgDENHtf//ZXZpCySO40xD6nLawOY1AbWh9VcYzfwH0iN2K/HX9qs8HY766KukuXFuP4WXAD882c116rYzoItbHJQuxJuJYS/ghzTaOJI9pkthV53sjQqnmIQ1ultztovFm2UxHTy9H1rsEn4RkdwdK33bCPhVwiovHJ3CxqHVjD09OiY9nQ5TsfakeHaa0zv8yewU7yaT3LO9U0sXrOPtZO98YiI9SgLYw+KBiZTeGRzaAzwaznPvbPugHeLhoFB5dnSUjSt0T6EDC3/UnGT4QLeJLvZKu+gLPlQ9o6sE0QXRPvqNJ5qN9BPPJE+/TdD0djcn/INfacy+oCfdRqkp9fEeQgTK+sRjYMQLhLEP1+LXFjtmmbOkPe7Oq1DeYLNroNCel++wgj1/TVzRZlKrutFFrOAGt8jS4WvmyJPzH9jlTiSwq61EZBe/xrG9nPQZH0HuQoVN/5FfAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-105">
-<use xlink:href="#optika--oko-p1-source-4927"/>
+<use xlink:href="#optika--oko-p1-source-4851"/>
 </mask>
-<image id="optika--oko-p1-source-4935" x="0" y="0" width="46" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA2CAAAAACdV/QdAAAAAmJLR0QA/4ePzL8AAACKSURBVEiJ7dbBDoAgDAPQ1fj/v1xPwgitchCNCbtIxnMbxIOIEiwrdMkzg4pqoLUpuQndt4uIIC85u76M2G9KI3chHGfBzUzuVJS6zI5ogiKXuQihDafRl/c+ym3xger5PTgOtcTQ7KhP+xHoVqa6PugzFzmZu9H/MPviiy+++Gdc/s/k/TeHmcsPvXgWcj9Ye4kAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-4973" x="0" y="0" width="48" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAA1CAAAAAAipDfoAAAAAmJLR0QA/4ePzL8AAADpSURBVEiJvZbLFsMgCEQHT/7/l+2iSSvPgUXrTjM3DCSiAmwMhqyJGgB+D1x2QfR026eXmddDdIRA7it45MD1ogBm51YsNaOG6rIGhgC5l3sJkAjhyIE4QA4k+gdofGISId0kCZAZalbpNBwDxa4NgdxQUh4NaEkUoWwj7X+oilC+0QOkrzlLtSG/wPQkh6AkBuCNWb+jNrSZpfAvUEDnpDgBWqHaUrJrD4AZ2gZoGcrPuLSNfIDuWfoAPUNfoKHfxlJ3rGGAN9BOILZUd57lA5R6rFEC4FcHIxdcxJB7KqPrFeQP96Ux8AKAhCxsiXnb/gAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-106">
-<use xlink:href="#optika--oko-p1-source-4935"/>
+<use xlink:href="#optika--oko-p1-source-4973"/>
 </mask>
-<image id="optika--oko-p1-source-4943" x="0" y="0" width="66" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAAAAACd0MNGAAAAAmJLR0QA/4ePzL8AAACYSURBVEiJ7ZfBDoAwCEOH8f9/uV6WTUeLOxjjDJwU6hvDS7HSAv3Rigoi2kGV+kMf2wwhjt8g6lhBs0MIkdG6+qlU9I1ZJCIRiUhEIhKRiDUR3PitdxFhYN/tQrnohtDO/bkupJXviHMbRI6iOp3tghCA+OyrHDVFL2NO6Sto7/eIaPsxWR8nJCB8YeAIKuPrgkY4qdF8zx4d2h9ckqihigAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-4981" x="0" y="0" width="46" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA2CAAAAACdV/QdAAAAAmJLR0QA/4ePzL8AAACKSURBVEiJ7dbBDoAgDAPQ1fj/v1xPwgitchCNCbtIxnMbxIOIEiwrdMkzg4pqoLUpuQndt4uIIC85u76M2G9KI3chHGfBzUzuVJS6zI5ogiKXuQihDafRl/c+ym3xger5PTgOtcTQ7KhP+xHoVqa6PugzFzmZu9H/MPviiy+++Gdc/s/k/TeHmcsPvXgWcj9Ye4kAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-107">
-<use xlink:href="#optika--oko-p1-source-4943"/>
+<use xlink:href="#optika--oko-p1-source-4981"/>
 </mask>
-<image id="optika--oko-p1-source-7065" x="0" y="0" width="66" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABSCAAAAADF6V2vAAAAAmJLR0QA/4ePzL8AAAF0SURBVFiF3ZhLDsMgDESN1ftfOV1USQj+zThZRGVVufA8AxEYhohscqcNvTVcRET+BvEJ/xlu1Ez9CBD+8KCng8jGe+tvEKkAx4adTtzC0VudGC5CLIIkDIvgXOzd1YZgEeew7fxJEfb+/Q/8yKg2BIo4GqoitNE3MmlWJ4aImFpTxZwQQ6QbNIRI5nJCUN/2tTOiojhnAERuo7Uiq+caUR6X5TRWNhpGbM4KAZz63X2GUAFkzBFQ8cIfXqQKKF+GAGuwxAhmgzISZYsRcCkZGkFtPFKuRWxcBKwiWbkAwZTlcHVJqyAIPoK7XXh8ykZWgyOETcQ1wl6SLIK0gaxIedIYBH/XWxG0jdoIsD2rF+TaFdGwUV11ofLpgujdvGdEx8aqgiRsBtF9QEhUoKXoiaBF7AN0DdAiYiN4KahrgG8aEIh6NDDCVLTqiyAIPwRt4zLANUIRRD0RFGG+s4MiDOCRtxzURthv3HsjFBkveaB7B+ILSllAp3v6xtgAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-4989" x="0" y="0" width="66" height="55" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAAA3CAAAAACd0MNGAAAAAmJLR0QA/4ePzL8AAACYSURBVEiJ7ZfBDoAwCEOH8f9/uV6WTUeLOxjjDJwU6hvDS7HSAv3Rigoi2kGV+kMf2wwhjt8g6lhBs0MIkdG6+qlU9I1ZJCIRiUhEIhKRiDUR3PitdxFhYN/tQrnohtDO/bkupJXviHMbRI6iOp3tghCA+OyrHDVFL2NO6Sto7/eIaPsxWR8nJCB8YeAIKuPrgkY4qdF8zx4d2h9ckqihigAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-108">
-<use xlink:href="#optika--oko-p1-source-7065"/>
+<use xlink:href="#optika--oko-p1-source-4989"/>
 </mask>
-<image id="optika--oko-p1-source-7187" x="0" y="0" width="37" height="108" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAABsCAAAAADIoiR7AAAAAmJLR0QA/4ePzL8AAACxSURBVFiF7ZfBDoNACERnNv7/L28PGusgoyRtE5vAQdF9QYQlC4SVCQDgfvHMhjhqHnQ6asoTh/dLrN2bAmq2nkr9Pl7FDBWzDdk5LS1RbndOSsWqXuWvq7ZSaeUvNtVUU0011VRTT6AWAOtRftUKE+/jXrjYA8x0Ifh1WLPYkBWD2YlC+e/Fi5/Z0hEGQ0KZxZ/WVmxCGSafFJI8bq+CT/vNZYaq5BhP2olz/37RXb8An3sho955iWIAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7111" x="0" y="0" width="66" height="82" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEIAAABSCAAAAADF6V2vAAAAAmJLR0QA/4ePzL8AAAF0SURBVFiF3ZhLDsMgDESN1ftfOV1USQj+zThZRGVVufA8AxEYhohscqcNvTVcRET+BvEJ/xlu1Ez9CBD+8KCng8jGe+tvEKkAx4adTtzC0VudGC5CLIIkDIvgXOzd1YZgEeew7fxJEfb+/Q/8yKg2BIo4GqoitNE3MmlWJ4aImFpTxZwQQ6QbNIRI5nJCUN/2tTOiojhnAERuo7Uiq+caUR6X5TRWNhpGbM4KAZz63X2GUAFkzBFQ8cIfXqQKKF+GAGuwxAhmgzISZYsRcCkZGkFtPFKuRWxcBKwiWbkAwZTlcHVJqyAIPoK7XXh8ykZWgyOETcQ1wl6SLIK0gaxIedIYBH/XWxG0jdoIsD2rF+TaFdGwUV11ofLpgujdvGdEx8aqgiRsBtF9QEhUoKXoiaBF7AN0DdAiYiN4KahrgG8aEIh6NDDCVLTqiyAIPwRt4zLANUIRRD0RFGG+s4MiDOCRtxzURthv3HsjFBkveaB7B+ILSllAp3v6xtgAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-109">
-<use xlink:href="#optika--oko-p1-source-7187"/>
+<use xlink:href="#optika--oko-p1-source-7111"/>
 </mask>
-<image id="optika--oko-p1-source-7195" x="0" y="0" width="31" height="79" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAABPCAAAAAA2S0ESAAAAAmJLR0QA/4ePzL8AAACBSURBVEiJ7dRLDoAgDATQDvH+V64LovQz4MZoNGVhwBdaKo0QOlREIMeDckfmes7AXM0cbckkvufkgaNHDp7Ye2bnjLFms58Hx5zd/czqBuWRdaNZ80IZpv28W3oAUt8HBr9f8/0uysr9/azz/hjnb+nNvfnLy8vL/+pY/f/x/vl20+cXgK0JgV8AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-7233" x="0" y="0" width="37" height="108" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAABsCAAAAADIoiR7AAAAAmJLR0QA/4ePzL8AAACxSURBVFiF7ZfBDoNACERnNv7/L28PGusgoyRtE5vAQdF9QYQlC4SVCQDgfvHMhjhqHnQ6asoTh/dLrN2bAmq2nkr9Pl7FDBWzDdk5LS1RbndOSsWqXuWvq7ZSaeUvNtVUU0011VRTT6AWAOtRftUKE+/jXrjYA8x0Ifh1WLPYkBWD2YlC+e/Fi5/Z0hEGQ0KZxZ/WVmxCGSafFJI8bq+CT/vNZYaq5BhP2olz/37RXb8An3sho955iWIAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-110">
-<use xlink:href="#optika--oko-p1-source-7195"/>
+<use xlink:href="#optika--oko-p1-source-7233"/>
 </mask>
-<image id="optika--oko-p1-source-7203" x="0" y="0" width="101" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAA2CAAAAAD7DQhKAAAAAmJLR0QA/4ePzL8AAAC7SURBVFiF7ZhBDoMwDASd/v/P5kChCvY62zYCCdYXUDLs4CRcaLaX73fNuoITNNM8G0wfxylDZmDJZnGrkCkt6fM26DXTFBbvcI8AyZQWP7BZBMOgt7C2jXRtxwiGMTOz13vgeCpiQDxcDNNZiIAAMExtGQV8w0CLEwEMU1vygLDPDIMt6Ev7uVAvEzelsMwtYJnbyrW9nGKZvGAPWDFZZJFFFllkkUUWWWR5tiX9D/OZXS9/M3dasTtZFvJbKW9khABjAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-7241" x="0" y="0" width="31" height="79" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAABPCAAAAAA2S0ESAAAAAmJLR0QA/4ePzL8AAACBSURBVEiJ7dRLDoAgDATQDvH+V64LovQz4MZoNGVhwBdaKo0QOlREIMeDckfmes7AXM0cbckkvufkgaNHDp7Ye2bnjLFms58Hx5zd/czqBuWRdaNZ80IZpv28W3oAUt8HBr9f8/0uysr9/azz/hjnb+nNvfnLy8vL/+pY/f/x/vl20+cXgK0JgV8AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-111">
-<use xlink:href="#optika--oko-p1-source-7203"/>
+<use xlink:href="#optika--oko-p1-source-7241"/>
 </mask>
-<image id="optika--oko-p1-source-7287" x="0" y="0" width="43" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAA4CAAAAABBdF4pAAAAAmJLR0QA/4ePzL8AAAD4SURBVEiJrZVBFoMwCESZvN7/ynRhkwIhA9q6McXPSChOIO5Ss4aNwgU8aHmVwCbgRetKAifdC14BNTVt+bBRhIfqORDU0hCRQVEfG3k4jY66BbtuLuvi44Ckuq1/4YHuXDS2+Ei3IYx8umu2oJFPXs4e6swHiewJ20/aAPh10Sy4VdVZ2HsTvm69YbvjD6XvGJh5B2HLThOrKVmSADKEMYOxG158Cv5Q0CLDwOV3vHkUa+yPvtMQ/rAtE/5zDauWyXaKaHjqetKvAbc81egeYJ2yrgbNaHsm8xF15zHz33DML7bjrXbWD/R6EVS4+ZgdQOOGYpXf6w2VuD5MlOGuYgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-7249" x="0" y="0" width="101" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAA2CAAAAAD7DQhKAAAAAmJLR0QA/4ePzL8AAAC7SURBVFiF7ZhBDoMwDASd/v/P5kChCvY62zYCCdYXUDLs4CRcaLaX73fNuoITNNM8G0wfxylDZmDJZnGrkCkt6fM26DXTFBbvcI8AyZQWP7BZBMOgt7C2jXRtxwiGMTOz13vgeCpiQDxcDNNZiIAAMExtGQV8w0CLEwEMU1vygLDPDIMt6Ev7uVAvEzelsMwtYJnbyrW9nGKZvGAPWDFZZJFFFllkkUUWWWR5tiX9D/OZXS9/M3dasTtZFvJbKW9khABjAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-112">
-<use xlink:href="#optika--oko-p1-source-7287"/>
+<use xlink:href="#optika--oko-p1-source-7249"/>
 </mask>
-<image id="optika--oko-p1-source-7295" x="0" y="0" width="28" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABUCAAAAAC0bQhJAAAAAmJLR0QA/4ePzL8AAABhSURBVEiJ7ZTBDsAgCENbs///ZXcDIoTLFvXQnghPEqWNhGkCAOgNr2duWeUsUGbmdKARi0EbbSdPwK/v7NfXLx6VZdKNig4lS5817FEHQ12neiyHdlxIUFBQ8B/I2/7bF0bCDYKLnglkAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-7333" x="0" y="0" width="43" height="56" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACsAAAA4CAAAAABBdF4pAAAAAmJLR0QA/4ePzL8AAAD4SURBVEiJrZVBFoMwCESZvN7/ynRhkwIhA9q6McXPSChOIO5Ss4aNwgU8aHmVwCbgRetKAifdC14BNTVt+bBRhIfqORDU0hCRQVEfG3k4jY66BbtuLuvi44Ckuq1/4YHuXDS2+Ei3IYx8umu2oJFPXs4e6swHiewJ20/aAPh10Sy4VdVZ2HsTvm69YbvjD6XvGJh5B2HLThOrKVmSADKEMYOxG158Cv5Q0CLDwOV3vHkUa+yPvtMQ/rAtE/5zDauWyXaKaHjqetKvAbc81egeYJ2yrgbNaHsm8xF15zHz33DML7bjrXbWD/R6EVS4+ZgdQOOGYpXf6w2VuD5MlOGuYgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-113">
-<use xlink:href="#optika--oko-p1-source-7295"/>
+<use xlink:href="#optika--oko-p1-source-7333"/>
 </mask>
-<image id="optika--oko-p1-source-3087" x="0" y="0" width="21" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAaCAAAAAB9KkifAAAAAmJLR0QA/4ePzL8AAABQSURBVCiR7ZHBDcAwCAPPUfdf2X0kIUZq1QXKBzjASCAAA9oBAplpWgxAF2WuklVzjv6xJcNPuuYPPDT7c1vg0dMXhZ9+0/pbO2V9vlWeFW7lag03OLQ8wQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-7341" x="0" y="0" width="28" height="84" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABUCAAAAAC0bQhJAAAAAmJLR0QA/4ePzL8AAABhSURBVEiJ7ZTBDsAgCENbs///ZXcDIoTLFvXQnghPEqWNhGkCAOgNr2duWeUsUGbmdKARi0EbbSdPwK/v7NfXLx6VZdKNig4lS5817FEHQ12neiyHdlxIUFBQ8B/I2/7bF0bCDYKLnglkAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-114">
-<use xlink:href="#optika--oko-p1-source-3087"/>
+<use xlink:href="#optika--oko-p1-source-7341"/>
 </mask>
-<image id="optika--oko-p1-source-3095" x="0" y="0" width="27" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAAAAAC1upsxAAAAAmJLR0QA/4ePzL8AAABvSURBVCiRvZJBEoAgDAMT/v/nelBCUwQdD3IA2oWQaSE04lyoBAvJOSZC311zVAXa2fGMQs5IiWYunLdb0H0mYyYK7u5t2b0TAIjPmn8zLtGbungForOVKNGmHgjJZxaNgVFaqOj5DxajtCXhkTkAEc4aLBn7eZcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3133" x="0" y="0" width="21" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAaCAAAAAB9KkifAAAAAmJLR0QA/4ePzL8AAABQSURBVCiR7ZHBDcAwCAPPUfdf2X0kIUZq1QXKBzjASCAAA9oBAplpWgxAF2WuklVzjv6xJcNPuuYPPDT7c1vg0dMXhZ9+0/pbO2V9vlWeFW7lag03OLQ8wQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-115">
-<use xlink:href="#optika--oko-p1-source-3095"/>
+<use xlink:href="#optika--oko-p1-source-3133"/>
 </mask>
-<image id="optika--oko-p1-source-3103" x="0" y="0" width="31" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAoCAAAAAAjun7wAAAAAmJLR0QA/4ePzL8AAABrSURBVDiN7ZSxEoAgDENfPP7/l+MigrUog3cOmqnk0XQohwAMIDIVp/au5RqjGj/IX4ZkLv/rvITzti6l3F2lM3ftM2DF+Ubq0h240z12/QqlA081z8fv65n8n7/B2//RL7g5crzNwbnLXwFXxRFVFROJQwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3141" x="0" y="0" width="27" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAcCAAAAAC1upsxAAAAAmJLR0QA/4ePzL8AAABvSURBVCiRvZJBEoAgDAMT/v/nelBCUwQdD3IA2oWQaSE04lyoBAvJOSZC311zVAXa2fGMQs5IiWYunLdb0H0mYyYK7u5t2b0TAIjPmn8zLtGbungForOVKNGmHgjJZxaNgVFaqOj5DxajtCXhkTkAEc4aLBn7eZcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-116">
-<use xlink:href="#optika--oko-p1-source-3103"/>
+<use xlink:href="#optika--oko-p1-source-3141"/>
 </mask>
-<image id="optika--oko-p1-source-3187" x="0" y="0" width="31" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAaCAAAAABqCNhWAAAAAmJLR0QA/4ePzL8AAABsSURBVCiRnVJBEgAhCFL//2f2Usq6blYdykFgsFIILR1ngCbrpURXwjEAS9SstbITfNKjIllt7RjnR1HaT7aJbM3vjnF/s9rWs0HIW33qw7dPn0fUot/l84Rg8ERf/ZPD+db+70e40Asy0ukfjZISMXa0BmEAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3149" x="0" y="0" width="31" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAoCAAAAAAjun7wAAAAAmJLR0QA/4ePzL8AAABrSURBVDiN7ZSxEoAgDENfPP7/l+MigrUog3cOmqnk0XQohwAMIDIVp/au5RqjGj/IX4ZkLv/rvITzti6l3F2lM3ftM2DF+Ubq0h240z12/QqlA081z8fv65n8n7/B2//RL7g5crzNwbnLXwFXxRFVFROJQwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-117">
-<use xlink:href="#optika--oko-p1-source-3187"/>
+<use xlink:href="#optika--oko-p1-source-3149"/>
 </mask>
-<image id="optika--oko-p1-source-3195" x="0" y="0" width="30" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAoCAAAAADMeBXOAAAAAmJLR0QA/4ePzL8AAACMSURBVDiN7ZMxFoAwCEOTPu9/ZVy0Akn7dJfBgU8CtYUAEABAmDjCZWeMLQVvb28+VuCV+Y9tHJpKd8jval5yevzAZe/7jrV3pqqO8jy6utKOG63mpa2oY34cdgsxMqVUpczcCHswtmoZzUzRcVsoUVd7NS989VpiiZm4Uyc+ZqH808Dz7tzYm9GuOAGO3B5VT4IDCwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3233" x="0" y="0" width="31" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAaCAAAAABqCNhWAAAAAmJLR0QA/4ePzL8AAABsSURBVCiRnVJBEgAhCFL//2f2Usq6blYdykFgsFIILR1ngCbrpURXwjEAS9SstbITfNKjIllt7RjnR1HaT7aJbM3vjnF/s9rWs0HIW33qw7dPn0fUot/l84Rg8ERf/ZPD+db+70e40Asy0ukfjZISMXa0BmEAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-118">
-<use xlink:href="#optika--oko-p1-source-3195"/>
+<use xlink:href="#optika--oko-p1-source-3233"/>
 </mask>
-<image id="optika--oko-p1-source-3241" x="0" y="0" width="29" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAAAAAC4pOt2AAAAAmJLR0QA/4ePzL8AAAB/SURBVCiRpZJJDsAwCAMxyv+/TA/ZTCC0UrlkGRMRMGSE9QXCAUZBgAlJBkeNL4wxgp6x+qKOk8oZXHWknKxDjFTUrqR4+RNtoZKMJmhRNyDzNB3epHZjIlrBtx8VqfarV5FyXzQxZZFry6a2Xbe9u28Ey8/iNX0PV8r89jTxA2kWIDlMaxkbAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-3241" x="0" y="0" width="30" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAoCAAAAADMeBXOAAAAAmJLR0QA/4ePzL8AAACMSURBVDiN7ZMxFoAwCEOTPu9/ZVy0Akn7dJfBgU8CtYUAEABAmDjCZWeMLQVvb28+VuCV+Y9tHJpKd8jval5yevzAZe/7jrV3pqqO8jy6utKOG63mpa2oY34cdgsxMqVUpczcCHswtmoZzUzRcVsoUVd7NS989VpiiZm4Uyc+ZqH808Dz7tzYm9GuOAGO3B5VT4IDCwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-119">
 <use xlink:href="#optika--oko-p1-source-3241"/>
 </mask>
-<image id="optika--oko-p1-source-3325" x="0" y="0" width="31" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAApCAAAAADo5q1VAAAAAmJLR0QA/4ePzL8AAACJSURBVDiN5ZPBDoAwCENb4v//Ml6UdQM0xoMHOW15bUlgI8pyACCArWFnWe2PYh8Ptv7husv/O5f9HHthyV1kzDz2DcBVwcDikk5WYD0blgezCGzuncoK98zXjiXv/dfxn+/3NW8n8yi/nZL1oz/9hcCV5wZyYdyZMcebHQoHOElSPpH58n0ibwdIOB1PbB6f/gAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3287" x="0" y="0" width="29" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAAAAAC4pOt2AAAAAmJLR0QA/4ePzL8AAAB/SURBVCiRpZJJDsAwCAMxyv+/TA/ZTCC0UrlkGRMRMGSE9QXCAUZBgAlJBkeNL4wxgp6x+qKOk8oZXHWknKxDjFTUrqR4+RNtoZKMJmhRNyDzNB3epHZjIlrBtx8VqfarV5FyXzQxZZFry6a2Xbe9u28Ey8/iNX0PV8r89jTxA2kWIDlMaxkbAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-120">
-<use xlink:href="#optika--oko-p1-source-3325"/>
+<use xlink:href="#optika--oko-p1-source-3287"/>
 </mask>
-<image id="optika--oko-p1-source-3333" x="0" y="0" width="31" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAbCAAAAAChVAvzAAAAAmJLR0QA/4ePzL8AAABSSURBVCiR7ZMxDsAwDAKPqP//Ml2q2CFD9iqMnMGLLQADiKbpPCa1OGPDqzQDvb+ckZtj9tR/+R+5DzzyeUAOHqa/gCvaPsCgGtaWBrHzsrT0vWCUEi/L0ilLAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-3371" x="0" y="0" width="31" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAApCAAAAADo5q1VAAAAAmJLR0QA/4ePzL8AAACJSURBVDiN5ZPBDoAwCENb4v//Ml6UdQM0xoMHOW15bUlgI8pyACCArWFnWe2PYh8Ptv7husv/O5f9HHthyV1kzDz2DcBVwcDikk5WYD0blgezCGzuncoK98zXjiXv/dfxn+/3NW8n8yi/nZL1oz/9hcCV5wZyYdyZMcebHQoHOElSPpH58n0ibwdIOB1PbB6f/gAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-121">
-<use xlink:href="#optika--oko-p1-source-3333"/>
+<use xlink:href="#optika--oko-p1-source-3371"/>
 </mask>
-<image id="optika--oko-p1-source-3493" x="0" y="0" width="23" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAAAAAD/S+oMAAAAAmJLR0QA/4ePzL8AAABpSURBVCiRdZJLDgAhCEPbxvtfmVkojHx0o7xI24gEDMPSBAGss9PB7ubKNESVcXQr25q3Z9/AUPd85WTlv0qKcuOW3Gtl/PJlPVipNOHQaXjzYTKXb4qsUQXUgA2o7x+rzdfb5+t8/ZMPJYgXMwDZd00AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3379" x="0" y="0" width="31" height="27" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAbCAAAAAChVAvzAAAAAmJLR0QA/4ePzL8AAABSSURBVCiR7ZMxDsAwDAKPqP//Ml2q2CFD9iqMnMGLLQADiKbpPCa1OGPDqzQDvb+ckZtj9tR/+R+5DzzyeUAOHqa/gCvaPsCgGtaWBrHzsrT0vWCUEi/L0ilLAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-122">
-<use xlink:href="#optika--oko-p1-source-3493"/>
+<use xlink:href="#optika--oko-p1-source-3379"/>
 </mask>
-<image id="optika--oko-p1-source-3501" x="0" y="0" width="31" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAaCAAAAABqCNhWAAAAAmJLR0QA/4ePzL8AAABZSURBVCiR7ZIxDoAwDAMvFf//slmoa0olGJBYyOTmLHtoCkAAhWV/ACUrw3RssVKGqGxTT6pwHt4WzcYx7dJoqYkv5zlftb+Z//Mv+Li//OCxKc3u05Xf5u+IYRAzpAB7nAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3539" x="0" y="0" width="23" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAZCAAAAAD/S+oMAAAAAmJLR0QA/4ePzL8AAABpSURBVCiRdZJLDgAhCEPbxvtfmVkojHx0o7xI24gEDMPSBAGss9PB7ubKNESVcXQr25q3Z9/AUPd85WTlv0qKcuOW3Gtl/PJlPVipNOHQaXjzYTKXb4qsUQXUgA2o7x+rzdfb5+t8/ZMPJYgXMwDZd00AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-123">
-<use xlink:href="#optika--oko-p1-source-3501"/>
+<use xlink:href="#optika--oko-p1-source-3539"/>
 </mask>
-<image id="optika--oko-p1-source-3509" x="0" y="0" width="13" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAoCAAAAAAA4S8lAAAAAmJLR0QA/4ePzL8AAABESURBVCiR3ZBBCgAhDAMnZf//5XhQd7sIIoIXc5pQaNMIwCAABKYTQda602/nedU7bvQ4z8ZkfinIGXe/vcV9tWnSYAGhvQg9Ayl32QAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3547" x="0" y="0" width="31" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAaCAAAAABqCNhWAAAAAmJLR0QA/4ePzL8AAABZSURBVCiR7ZIxDoAwDAMvFf//slmoa0olGJBYyOTmLHtoCkAAhWV/ACUrw3RssVKGqGxTT6pwHt4WzcYx7dJoqYkv5zlftb+Z//Mv+Li//OCxKc3u05Xf5u+IYRAzpAB7nAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-124">
-<use xlink:href="#optika--oko-p1-source-3509"/>
+<use xlink:href="#optika--oko-p1-source-3547"/>
 </mask>
-<image id="optika--oko-p1-source-3517" x="0" y="0" width="24" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAAAAADBZmWJAAAAAmJLR0QA/4ePzL8AAACTSURBVCiRxZNJFsMwCEO/eL3/lekingCTLssKSwRsoQCAk8IxbozDZ6U6YebRdzpy5aqZKH2/ClJnVvtNLEYkYjCiEOFu6WFFghq/h3sqPySJ8qjgz1G641G3MM0KPsK6d1jd9yOumk4vrTrZXob/k7gvn8btbLencKwx0m1RgCObWJ7SmEHBPruq/DhHl2rRgXwB/GwrMyUM1RgAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3555" x="0" y="0" width="13" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAoCAAAAAAA4S8lAAAAAmJLR0QA/4ePzL8AAABESURBVCiR3ZBBCgAhDAMnZf//5XhQd7sIIoIXc5pQaNMIwCAABKYTQda602/nedU7bvQ4z8ZkfinIGXe/vcV9tWnSYAGhvQg9Ayl32QAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-125">
-<use xlink:href="#optika--oko-p1-source-3517"/>
+<use xlink:href="#optika--oko-p1-source-3555"/>
 </mask>
-<image id="optika--oko-p1-source-3563" x="0" y="0" width="14" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAmCAAAAADR3PVWAAAAAmJLR0QA/4ePzL8AAABJSURBVCiR7ZE5DsAgDARnEP//MikiwEuKfAB3I+1h2bJmgFYCgxa+NHGSqTR9ZmaPiJrzP7tIgJ7G9hWX7VuWHuKL9QvGYT3ED20TDjxbjmcTAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-3563" x="0" y="0" width="24" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAoCAAAAADBZmWJAAAAAmJLR0QA/4ePzL8AAACTSURBVCiRxZNJFsMwCEO/eL3/lekingCTLssKSwRsoQCAk8IxbozDZ6U6YebRdzpy5aqZKH2/ClJnVvtNLEYkYjCiEOFu6WFFghq/h3sqPySJ8qjgz1G641G3MM0KPsK6d1jd9yOumk4vrTrZXob/k7gvn8btbLencKwx0m1RgCObWJ7SmEHBPruq/DhHl2rRgXwB/GwrMyUM1RgAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-126">
 <use xlink:href="#optika--oko-p1-source-3563"/>
 </mask>
-<image id="optika--oko-p1-source-3723" x="0" y="0" width="20" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAAAAABEscC8AAAAAmJLR0QA/4ePzL8AAAB3SURBVCiRfZFBEoAgDAM3/P/P8VAspaDOOJS1hCYKAByLAAsVBCAjFEjlgBiVvesodVaj6CUdXJ5v2CSQ67Up7FVe4Pqgrqj5HjT6m0Sq16T2WeZ88jZj0GZTN5gpdec/KR0h9U7n8e5TjkyXXc2fv3kE5C2S2DxssR4r05jsxAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3609" x="0" y="0" width="14" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAmCAAAAADR3PVWAAAAAmJLR0QA/4ePzL8AAABJSURBVCiR7ZE5DsAgDARnEP//MikiwEuKfAB3I+1h2bJmgFYCgxa+NHGSqTR9ZmaPiJrzP7tIgJ7G9hWX7VuWHuKL9QvGYT3ED20TDjxbjmcTAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-127">
-<use xlink:href="#optika--oko-p1-source-3723"/>
+<use xlink:href="#optika--oko-p1-source-3609"/>
 </mask>
-<image id="optika--oko-p1-source-3731" x="0" y="0" width="20" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAAAAABnxJbZAAAAAmJLR0QA/4ePzL8AAABTSURBVCiR3ZFBCoAwEAMnxf9/OV5at9gg9SSY45BlAwM9NlcaIe+hE9w+d4AOzRujBYYWAorfVY+0tfNH8FiRP56kMYNS8yRuqhqVQk+18tqxgBOQnhA9vfScIAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3769" x="0" y="0" width="20" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAcCAAAAABEscC8AAAAAmJLR0QA/4ePzL8AAAB3SURBVCiRfZFBEoAgDAM3/P/P8VAspaDOOJS1hCYKAByLAAsVBCAjFEjlgBiVvesodVaj6CUdXJ5v2CSQ67Up7FVe4Pqgrqj5HjT6m0Sq16T2WeZ88jZj0GZTN5gpdec/KR0h9U7n8e5TjkyXXc2fv3kE5C2S2DxssR4r05jsxAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-128">
-<use xlink:href="#optika--oko-p1-source-3731"/>
+<use xlink:href="#optika--oko-p1-source-3769"/>
 </mask>
-<image id="optika--oko-p1-source-3739" x="0" y="0" width="24" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAAAAABejSAyAAAAAmJLR0QA/4ePzL8AAABrSURBVCiRxZLBEoAgCETfMv3/L9MhLQSsYx5UHrAMiriXj1NhD3hSBRzuGoYvyThIPb/MjmOFj2UZPA7PSADSRulFqih9F//TUVtbMmo3Rx/vWPNMQPtRgCObLFfZDIOW8Xmi1A+cUk2P4pxPyBktvlMsKQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3777" x="0" y="0" width="20" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAlCAAAAABnxJbZAAAAAmJLR0QA/4ePzL8AAABTSURBVCiR3ZFBCoAwEAMnxf9/OV5at9gg9SSY45BlAwM9NlcaIe+hE9w+d4AOzRujBYYWAorfVY+0tfNH8FiRP56kMYNS8yRuqhqVQk+18tqxgBOQnhA9vfScIAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-129">
-<use xlink:href="#optika--oko-p1-source-3739"/>
+<use xlink:href="#optika--oko-p1-source-3777"/>
 </mask>
-<image id="optika--oko-p1-source-3747" x="0" y="0" width="24" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAAAAABejSAyAAAAAmJLR0QA/4ePzL8AAABxSURBVCiRnVIxEsAwCAIv//9yOtSmKMnQOikGJKfEigkAYFYsqGAUnJqwwJKz4asK9EiN6IQnovgRoy6Vk6J+R6RMac04BD8zxnH4ifGj4eqF4abH/v1EbJwC2G0wlW3nD054ZwK087lT9uN45zZlQS5VShovp16JlwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-3785" x="0" y="0" width="24" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAAAAABejSAyAAAAAmJLR0QA/4ePzL8AAABrSURBVCiRxZLBEoAgCETfMv3/L9MhLQSsYx5UHrAMiriXj1NhD3hSBRzuGoYvyThIPb/MjmOFj2UZPA7PSADSRulFqih9F//TUVtbMmo3Rx/vWPNMQPtRgCObLFfZDIOW8Xmi1A+cUk2P4pxPyBktvlMsKQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-130">
-<use xlink:href="#optika--oko-p1-source-3747"/>
+<use xlink:href="#optika--oko-p1-source-3785"/>
 </mask>
-<image id="optika--oko-p1-source-5406" x="0" y="0" width="31" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAApCAAAAADo5q1VAAAAAmJLR0QA/4ePzL8AAACHSURBVDiN5ZRLDsAgCERnGu9/5elGFPynSdNFXQEPJhJQAoAAgBidpGG4nGuNQZOf6F9Tcqb/d54aP4+LQy5nseMqdaoZ9HUMuWDkYYyWUO8fp2zesj/t+tec80B/z/X1fF/mfFyvE306Hj+Sfj9G1Y4TcgplV23/2O5vNjN3cSeO7u9pnw9uDeAcUge1uMEAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-3793" x="0" y="0" width="24" height="28" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAAAAABejSAyAAAAAmJLR0QA/4ePzL8AAABxSURBVCiRnVIxEsAwCAIv//9yOtSmKMnQOikGJKfEigkAYFYsqGAUnJqwwJKz4asK9EiN6IQnovgRoy6Vk6J+R6RMac04BD8zxnH4ifGj4eqF4abH/v1EbJwC2G0wlW3nD054ZwK087lT9uN45zZlQS5VShovp16JlwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-131">
-<use xlink:href="#optika--oko-p1-source-5406"/>
+<use xlink:href="#optika--oko-p1-source-3793"/>
 </mask>
-<image id="optika--oko-p1-source-5452" x="0" y="0" width="29" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAnCAAAAADWGRwYAAAAAmJLR0QA/4ePzL8AAACeSURBVDiNpZJLDsAgCESBeP8rTxetwgjSJmWlPFA+o8IGEfWbJhh9lmEw6yC9jOTSHVIh2kG/ITORcahhs1Tvu/G/dVXILj+Cw5Qo9rY10C0+Ygs+oYhIy6IKGpPtCa6nOI6kefkTDRsstjTOaFFaEJiWy5u0kttj1sG3jppU/JpVpnEuVoiyycWSKVx1rl33iC49C8fcZ6VSZttTxBf7YilFEF032QAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5452" x="0" y="0" width="31" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAApCAAAAADo5q1VAAAAAmJLR0QA/4ePzL8AAACHSURBVDiN5ZRLDsAgCERnGu9/5elGFPynSdNFXQEPJhJQAoAAgBidpGG4nGuNQZOf6F9Tcqb/d54aP4+LQy5nseMqdaoZ9HUMuWDkYYyWUO8fp2zesj/t+tec80B/z/X1fF/mfFyvE306Hj+Sfj9G1Y4TcgplV23/2O5vNjN3cSeO7u9pnw9uDeAcUge1uMEAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-132">
 <use xlink:href="#optika--oko-p1-source-5452"/>
 </mask>
-<image id="optika--oko-p1-source-5536" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACHSURBVDiN1ZTBDoAgDENfif//y/OgzDEEjR6MnlbadRCKAjAA4WUFgMwrJ6NiOVasMbGtFqFNUbpBtbATlDwwgcLkszFfNzrtn/nrxnywx/7/4DXk7Z1/DUBJK+30Yb8nOuQr58/zuUPjJI6K8nn+Qd3zafkUYvj8/l7z4X13Z4P4/ziXXPmv7vQcSnHix9UAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5498" x="0" y="0" width="29" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAnCAAAAADWGRwYAAAAAmJLR0QA/4ePzL8AAACeSURBVDiNpZJLDsAgCESBeP8rTxetwgjSJmWlPFA+o8IGEfWbJhh9lmEw6yC9jOTSHVIh2kG/ITORcahhs1Tvu/G/dVXILj+Cw5Qo9rY10C0+Ygs+oYhIy6IKGpPtCa6nOI6kefkTDRsstjTOaFFaEJiWy5u0kttj1sG3jppU/JpVpnEuVoiyycWSKVx1rl33iC49C8fcZ6VSZttTxBf7YilFEF032QAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-133">
-<use xlink:href="#optika--oko-p1-source-5536"/>
+<use xlink:href="#optika--oko-p1-source-5498"/>
 </mask>
-<image id="optika--oko-p1-source-5544" x="0" y="0" width="21" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAnCAAAAADFzlzsAAAAAmJLR0QA/4ePzL8AAAB0SURBVCiR7VFBDsAgCGuJ//8yO6hQJGZ7wLi4FiytA+A4ymFotANjnlQO4PqgkJyo9ME9s1B0KWrYZNFLHMtdYbWUKOkW8lNFihKHYil0OWRbtDzTu8ybuEy3lvclgqEWz21CW4UXhZ99Z+O/laekt6GrwgO4cx89kgunEgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5582" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACHSURBVDiN1ZTBDoAgDENfif//y/OgzDEEjR6MnlbadRCKAjAA4WUFgMwrJ6NiOVasMbGtFqFNUbpBtbATlDwwgcLkszFfNzrtn/nrxnywx/7/4DXk7Z1/DUBJK+30Yb8nOuQr58/zuUPjJI6K8nn+Qd3zafkUYvj8/l7z4X13Z4P4/ziXXPmv7vQcSnHix9UAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-134">
-<use xlink:href="#optika--oko-p1-source-5544"/>
+<use xlink:href="#optika--oko-p1-source-5582"/>
 </mask>
-<image id="optika--oko-p1-source-5590" x="0" y="0" width="7" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAZCAAAAADY5WvkAAAAAmJLR0QA/4ePzL8AAAAqSURBVAiZtc4hDgAgFMPQN+5/52EIybckzFS0YqFEFJICy+T1p/+1PP7ZEUYKEf7NRyYAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5590" x="0" y="0" width="21" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAnCAAAAADFzlzsAAAAAmJLR0QA/4ePzL8AAAB0SURBVCiR7VFBDsAgCGuJ//8yO6hQJGZ7wLi4FiytA+A4ymFotANjnlQO4PqgkJyo9ME9s1B0KWrYZNFLHMtdYbWUKOkW8lNFihKHYil0OWRbtDzTu8ybuEy3lvclgqEWz21CW4UXhZ99Z+O/laekt6GrwgO4cx89kgunEgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-135">
 <use xlink:href="#optika--oko-p1-source-5590"/>
 </mask>
-<image id="optika--oko-p1-source-5674" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACZSURBVDiNnZNLEoAgDENJx/tfOW7E/gKMdiOT15RSARwh8HxdtLEPhHQEnY9gJbV6TRLPt7ZLjnV/aJxiaYveppLqsy1eXgug8NZB5Xl4aHwRwTZHHu1f/LNAtB/9VxXKESFY1L70F4740z9YlZO/cRz4NtgugCkxcfpMRaIxgXaPF/dfcvUM0vsT7xRzpG2yb0X6UnLxVz1uQociPubRjTUAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5636" x="0" y="0" width="7" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAZCAAAAADY5WvkAAAAAmJLR0QA/4ePzL8AAAAqSURBVAiZtc4hDgAgFMPQN+5/52EIybckzFS0YqFEFJICy+T1p/+1PP7ZEUYKEf7NRyYAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-136">
-<use xlink:href="#optika--oko-p1-source-5674"/>
+<use xlink:href="#optika--oko-p1-source-5636"/>
 </mask>
-<image id="optika--oko-p1-source-5682" x="0" y="0" width="13" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAoCAAAAAAA4S8lAAAAAmJLR0QA/4ePzL8AAAAzSURBVCiR7dKxDgAQAAPRV/H/v8xCWNglul16WxtoENRmS9lBpiijy8H89BqtbYVcXtAB6qgFTkE542sAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5720" x="0" y="0" width="31" height="37" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAlCAAAAACfJG0uAAAAAmJLR0QA/4ePzL8AAACZSURBVDiNnZNLEoAgDENJx/tfOW7E/gKMdiOT15RSARwh8HxdtLEPhHQEnY9gJbV6TRLPt7ZLjnV/aJxiaYveppLqsy1eXgug8NZB5Xl4aHwRwTZHHu1f/LNAtB/9VxXKESFY1L70F4740z9YlZO/cRz4NtgugCkxcfpMRaIxgXaPF/dfcvUM0vsT7xRzpG2yb0X6UnLxVz1uQociPubRjTUAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-137">
-<use xlink:href="#optika--oko-p1-source-5682"/>
+<use xlink:href="#optika--oko-p1-source-5720"/>
 </mask>
-<image id="optika--oko-p1-source-5728" x="0" y="0" width="15" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAA7CAAAAACBVo8tAAAAAmJLR0QA/4ePzL8AAABzSURBVCiRvZNRDsAgCEMp978z+zCT0rHoYjL/Hi2IijBeYRXjM7qUQiKIb0y/sX/KQ6eNvPgGcx9az6vdXA754qd+gtOX/iVHo0P4pP4fzO+BRj9gWL3wjXw0eggXHcKcoO+xN6+P+Z4BV2Mu+T99oKaFXbv9IE+A+YYaAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5728" x="0" y="0" width="13" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAoCAAAAAAA4S8lAAAAAmJLR0QA/4ePzL8AAAAzSURBVCiR7dKxDgAQAAPRV/H/v8xCWNglul16WxtoENRmS9lBpiijy8H89BqtbYVcXtAB6qgFTkE542sAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-138">
 <use xlink:href="#optika--oko-p1-source-5728"/>
 </mask>
-<image id="optika--oko-p1-source-5774" x="0" y="0" width="15" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAA7CAAAAACBVo8tAAAAAmJLR0QA/4ePzL8AAABrSURBVCiRzZPBDsAgCENb//+fu4u6iouEbId5e1AKUYSE9bwLtB4ZzIF0vgMtWBGrwPJyHjqv14PfZO566KAPfbo9M33Rz/k8/084zh/yH96PALBWT2Plehprz9PmSfY17Le2/fRnjv+nhBfoDiNGqnoFqQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5774" x="0" y="0" width="15" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAA7CAAAAACBVo8tAAAAAmJLR0QA/4ePzL8AAABzSURBVCiRvZNRDsAgCEMp978z+zCT0rHoYjL/Hi2IijBeYRXjM7qUQiKIb0y/sX/KQ6eNvPgGcx9az6vdXA754qd+gtOX/iVHo0P4pP4fzO+BRj9gWL3wjXw0eggXHcKcoO+xN6+P+Z4BV2Mu+T99oKaFXbv9IE+A+YYaAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-139">
 <use xlink:href="#optika--oko-p1-source-5774"/>
 </mask>
-<image id="optika--oko-p1-source-5958" x="0" y="0" width="23" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAnCAAAAADBO4zRAAAAAmJLR0QA/4ePzL8AAACRSURBVCiRpZIxFsAgCEMTnve/Mh1qwQBOZcKvEIwCgKOEA4a+4QDWzigU79q/JHPmGZ4JcW4ElnJk59RzwfMcwmUqvU+7+P/gYCew/RxiZd0b+xpLaTQ1xVFtKhtmqG56ZF3zNicrP53mjK/vYopvuqyJl5VNOPo0PP7noisj29gFtAE7UP2PaO/7lc/HefsnD8SiKTnCkXxwAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5820" x="0" y="0" width="15" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAA7CAAAAACBVo8tAAAAAmJLR0QA/4ePzL8AAABrSURBVCiRzZPBDsAgCENb//+fu4u6iouEbId5e1AKUYSE9bwLtB4ZzIF0vgMtWBGrwPJyHjqv14PfZO566KAPfbo9M33Rz/k8/084zh/yH96PALBWT2Plehprz9PmSfY17Le2/fRnjv+nhBfoDiNGqnoFqQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-140">
-<use xlink:href="#optika--oko-p1-source-5958"/>
+<use xlink:href="#optika--oko-p1-source-5820"/>
 </mask>
-<image id="optika--oko-p1-source-6004" x="0" y="0" width="17" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAA0CAAAAABJZ4yjAAAAAmJLR0QA/4ePzL8AAABaSURBVCiR7ZIxDsAgDAPPqP//sju00CRSGVAllnrzIawELIIMQskDNKrWiKJx8RtU53mIB55v4Zecr17sJ7vIgck/2wyxGfnWVZ9p8t0wjer3yinFinjcZzgBb+sQTB2QRegAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6004" x="0" y="0" width="23" height="39" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAnCAAAAADBO4zRAAAAAmJLR0QA/4ePzL8AAACRSURBVCiRpZIxFsAgCEMTnve/Mh1qwQBOZcKvEIwCgKOEA4a+4QDWzigU79q/JHPmGZ4JcW4ElnJk59RzwfMcwmUqvU+7+P/gYCew/RxiZd0b+xpLaTQ1xVFtKhtmqG56ZF3zNicrP53mjK/vYopvuqyJl5VNOPo0PP7noisj29gFtAE7UP2PaO/7lc/HefsnD8SiKTnCkXxwAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-141">
 <use xlink:href="#optika--oko-p1-source-6004"/>
 </mask>
-<image id="optika--oko-p1-source-5144" x="0" y="0" width="62" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAzCAAAAADqNORGAAAAAmJLR0QA/4ePzL8AAADlSURBVEiJxdbBDgMhCARQaPr/v0xPtUVnYPCyXFa3vgA2cfUwGp5mYKHbi2slnuWrvwDvzohtwSz7rmf80Pae4tyazs/UNigeapljrXKitd7RpumcpTap+EILvNI9L3XXO980hdeprSm+1SWP9IDBi69Unz3gUOVBJwqPctrxYznziEf/h30DHdTrh0AL2+xr9T/B5RMOckGPuW9PGpA7GOH0iDsZA98eF7W/+USOeLl9QvaqfKX4wo8vJ9lLPLWfvJadbp9YPGtf7Z34q3vdz8v89guL/Eo/KB55ly7kw4Najmf5B6tUM2ldIE2qAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-6050" x="0" y="0" width="17" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAA0CAAAAABJZ4yjAAAAAmJLR0QA/4ePzL8AAABaSURBVCiR7ZIxDsAgDAPPqP//sju00CRSGVAllnrzIawELIIMQskDNKrWiKJx8RtU53mIB55v4Zecr17sJ7vIgck/2wyxGfnWVZ9p8t0wjer3yinFinjcZzgBb+sQTB2QRegAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-142">
-<use xlink:href="#optika--oko-p1-source-5144"/>
+<use xlink:href="#optika--oko-p1-source-6050"/>
 </mask>
-<image id="optika--oko-p1-source-5152" x="0" y="0" width="31" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAhCAAAAAAEtS84AAAAAmJLR0QA/4ePzL8AAABkSURBVDiN7ZM5DoAwDARnLf7/ZVOgHHYOREOB2CZ2JlqvLEVccgA01HI6qdLSGkke68wdkFQ7m+DOxJU9UwZrURvuNORjz3XD0yst/FWOYzFXOCJufDL+cf6ff4vH/1cu35t/AshWEETneo8oAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5190" x="0" y="0" width="62" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD4AAAAzCAAAAADqNORGAAAAAmJLR0QA/4ePzL8AAADlSURBVEiJxdbBDgMhCARQaPr/v0xPtUVnYPCyXFa3vgA2cfUwGp5mYKHbi2slnuWrvwDvzohtwSz7rmf80Pae4tyazs/UNigeapljrXKitd7RpumcpTap+EILvNI9L3XXO980hdeprSm+1SWP9IDBi69Unz3gUOVBJwqPctrxYznziEf/h30DHdTrh0AL2+xr9T/B5RMOckGPuW9PGpA7GOH0iDsZA98eF7W/+USOeLl9QvaqfKX4wo8vJ9lLPLWfvJadbp9YPGtf7Z34q3vdz8v89guL/Eo/KB55ly7kw4Najmf5B6tUM2ldIE2qAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-143">
-<use xlink:href="#optika--oko-p1-source-5152"/>
+<use xlink:href="#optika--oko-p1-source-5190"/>
 </mask>
-<image id="optika--oko-p1-source-5160" x="0" y="0" width="40" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAAAAAAL2MZMAAAAAmJLR0QA/4ePzL8AAADLSURBVEiJxZRBDgMxCAMDyv+/TA/tqgm2gUOlcsrChCzCsBa1AI9JylowaMgHrwpQ3ABQJARQcbmYkCGXXJVR57u/Q1IiI+vW2uVNaUUxf7Tvv4fw3w5aheGHqtbSMWuatci4H11C4dgfNQqQu5iZm5RgftxPX6UcP4BSYfuDRCfER7itXkHhqp17wNxgNwWbYYauN1gN/gmWg/+YD7nlQ275kDvU0/Sm1+PPwNwpl5EMihrgmvMYnu1ynpvIeqGQDHKb4e5i+5HuzBd3xjBTfuBn9AAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5198" x="0" y="0" width="31" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAhCAAAAAAEtS84AAAAAmJLR0QA/4ePzL8AAABkSURBVDiN7ZM5DoAwDARnLf7/ZVOgHHYOREOB2CZ2JlqvLEVccgA01HI6qdLSGkke68wdkFQ7m+DOxJU9UwZrURvuNORjz3XD0yst/FWOYzFXOCJufDL+cf6ff4vH/1cu35t/AshWEETneo8oAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-144">
-<use xlink:href="#optika--oko-p1-source-5160"/>
+<use xlink:href="#optika--oko-p1-source-5198"/>
 </mask>
-<image id="optika--oko-p1-source-5168" x="0" y="0" width="26" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAvCAAAAADYloUMAAAAAmJLR0QA/4ePzL8AAABnSURBVDiN7ZPBDoAwCENbs///5XrQCARmOEy9yGUZj7Yky4irBIB2xYZpPYi02DD5dVRZ1FAVohNVBJwBcNT93hqzLJf2/Sv/6BaNuq2X11iCZAcPRBTFOG7/gzavJHFWiiSmyAFgB9ZvEVW53IHuAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5206" x="0" y="0" width="40" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAyCAAAAAAL2MZMAAAAAmJLR0QA/4ePzL8AAADLSURBVEiJxZRBDgMxCAMDyv+/TA/tqgm2gUOlcsrChCzCsBa1AI9JylowaMgHrwpQ3ABQJARQcbmYkCGXXJVR57u/Q1IiI+vW2uVNaUUxf7Tvv4fw3w5aheGHqtbSMWuatci4H11C4dgfNQqQu5iZm5RgftxPX6UcP4BSYfuDRCfER7itXkHhqp17wNxgNwWbYYauN1gN/gmWg/+YD7nlQ275kDvU0/Sm1+PPwNwpl5EMihrgmvMYnu1ynpvIeqGQDHKb4e5i+5HuzBd3xjBTfuBn9AAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-145">
-<use xlink:href="#optika--oko-p1-source-5168"/>
+<use xlink:href="#optika--oko-p1-source-5206"/>
 </mask>
-<image id="optika--oko-p1-source-5176" x="0" y="0" width="42" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA0CAAAAADZdPVsAAAAAmJLR0QA/4ePzL8AAACtSURBVEiJ7ZThCoAwCIQ1ev9Xth/B2rw7F0EUkX9G+HWdLnXbI/bDTccaRXKM5TR5E+pmrSary1pmwCUDP/pRdJWZNB7+Zq+eB75Qzath1oFulqQqkEqV7SWOoqQyQEmmqpYiqsr1CWikUxqotq2+LXhrfrEFetSTWED7yoNkYniMnGaqDvnKwMj2FngHKCuaxdj5GDZWoaQ0qYoWtAFgC6+ZdfztfPxui8fX2wbzRR9ysTCYYQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5214" x="0" y="0" width="26" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAvCAAAAADYloUMAAAAAmJLR0QA/4ePzL8AAABnSURBVDiN7ZPBDoAwCENbs///5XrQCARmOEy9yGUZj7Yky4irBIB2xYZpPYi02DD5dVRZ1FAVohNVBJwBcNT93hqzLJf2/Sv/6BaNuq2X11iCZAcPRBTFOG7/gzavJHFWiiSmyAFgB9ZvEVW53IHuAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-146">
-<use xlink:href="#optika--oko-p1-source-5176"/>
+<use xlink:href="#optika--oko-p1-source-5214"/>
 </mask>
-<image id="optika--oko-p1-source-5298" x="0" y="0" width="39" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAAAAAB/ke30AAAAAmJLR0QA/4ePzL8AAACDSURBVDiN3ZRBEoAwCAMT/v9nPNpAquh4kpMNOySd2hJSeX5SGvRQa3ILaZ8Vo1/Tql3jKml0kWMfTfgwmd067scBKfPqOFFiMA5IyXdVY25iC+Tnvn/h+qm64gvffjK5chNjItx/1zHZbzVORf21LOqj+2tI/x6YcMXAGXVq+1S0zgFmXR41oGTsVgAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5222" x="0" y="0" width="42" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAA0CAAAAADZdPVsAAAAAmJLR0QA/4ePzL8AAACtSURBVEiJ7ZThCoAwCIQ1ev9Xth/B2rw7F0EUkX9G+HWdLnXbI/bDTccaRXKM5TR5E+pmrSary1pmwCUDP/pRdJWZNB7+Zq+eB75Qzath1oFulqQqkEqV7SWOoqQyQEmmqpYiqsr1CWikUxqotq2+LXhrfrEFetSTWED7yoNkYniMnGaqDvnKwMj2FngHKCuaxdj5GDZWoaQ0qYoWtAFgC6+ZdfztfPxui8fX2wbzRR9ysTCYYQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-147">
-<use xlink:href="#optika--oko-p1-source-5298"/>
+<use xlink:href="#optika--oko-p1-source-5222"/>
 </mask>
-<image id="optika--oko-p1-source-5306" x="0" y="0" width="32" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAAAAACdTfaNAAAAAmJLR0QA/4ePzL8AAACMSURBVDiNjZNBEoAwCAMD0/9/GS/WBgxoT51uNAmdGoDAsHyCvwSL9vbsjqktgZkfC8kpg+YG+NTSoFpE4lugCuQMOoC0yLwKonKupwyKQPAkULwJSZ+RQE9UTsjoyAfeZcjNt+A9oSyYr7wLECpDMbgFbQDAvA8Q+w/NBIIsBo6lA9Dh+LTvkOP6FFxYqh5BX5Ul0wAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5344" x="0" y="0" width="39" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAhCAAAAAB/ke30AAAAAmJLR0QA/4ePzL8AAACDSURBVDiN3ZRBEoAwCAMT/v9nPNpAquh4kpMNOySd2hJSeX5SGvRQa3ILaZ8Vo1/Tql3jKml0kWMfTfgwmd067scBKfPqOFFiMA5IyXdVY25iC+Tnvn/h+qm64gvffjK5chNjItx/1zHZbzVORf21LOqj+2tI/x6YcMXAGXVq+1S0zgFmXR41oGTsVgAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-148">
-<use xlink:href="#optika--oko-p1-source-5306"/>
+<use xlink:href="#optika--oko-p1-source-5344"/>
 </mask>
-<image id="optika--oko-p1-source-5314" x="0" y="0" width="40" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAhCAAAAACOmrZ5AAAAAmJLR0QA/4ePzL8AAACWSURBVDiNrdRLDsAgCAVAIL3/lemmRD4PYVFWDU5RA5HJQskHUwpGCmHuXaTsneUVSMb5mpJxzzustTt4QgeYNxefqyeL0MDN0fMRvTODQzUPTzTtfBYmwhtyEAyjAqgZNRXRVJWQpSNZOpKlc9Mz9Gaex99g7pS0Kxk2dyi/CV6r3xyS/iXieVBAhfY1q2/XuQvqpZMve3wjRRFMB/IAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5352" x="0" y="0" width="32" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAhCAAAAACdTfaNAAAAAmJLR0QA/4ePzL8AAACMSURBVDiNjZNBEoAwCAMD0/9/GS/WBgxoT51uNAmdGoDAsHyCvwSL9vbsjqktgZkfC8kpg+YG+NTSoFpE4lugCuQMOoC0yLwKonKupwyKQPAkULwJSZ+RQE9UTsjoyAfeZcjNt+A9oSyYr7wLECpDMbgFbQDAvA8Q+w/NBIIsBo6lA9Dh+LTvkOP6FFxYqh5BX5Ul0wAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-149">
-<use xlink:href="#optika--oko-p1-source-5314"/>
+<use xlink:href="#optika--oko-p1-source-5352"/>
 </mask>
-<image id="optika--oko-p1-source-5360" x="0" y="0" width="28" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAhCAAAAADvgpQ7AAAAAmJLR0QA/4ePzL8AAACLSURBVCiRhZJBEsAgCAMJ4/+/TA8iQzEgJ+smQEGIh0kE9icElWSNtkxEViDcBeBnZMe5Ul5thxJjBHUerdYm3s6TIDykLP4JMcG/At1ch4bi75uxw/0cj/sUkEURyAT3XGyCicOYwul7n93rG/eptcOcnD+T0pDdDHnZqIy+hJAuP9mNthOlbOT/ADeeJC2U6uM1AAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5360" x="0" y="0" width="40" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAhCAAAAACOmrZ5AAAAAmJLR0QA/4ePzL8AAACWSURBVDiNrdRLDsAgCAVAIL3/lemmRD4PYVFWDU5RA5HJQskHUwpGCmHuXaTsneUVSMb5mpJxzzustTt4QgeYNxefqyeL0MDN0fMRvTODQzUPTzTtfBYmwhtyEAyjAqgZNRXRVJWQpSNZOpKlc9Mz9Gaex99g7pS0Kxk2dyi/CV6r3xyS/iXieVBAhfY1q2/XuQvqpZMve3wjRRFMB/IAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-150">
 <use xlink:href="#optika--oko-p1-source-5360"/>
 </mask>
-<image id="optika--oko-p1-source-5896" x="0" y="0" width="59" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAzCAAAAAAMHS8CAAAAAmJLR0QA/4ePzL8AAACpSURBVEiJ7dbBDoAgDAPQzfj/v1xPIoMZWzgQjZ6M+GiNB+Yw5vL0IWdTL9iOazbqco98Pa7ERcK2vixvDx3P96v9yj6kDWVOTNs6GqqtoyHb6oJsmx8wmGuQbQwezTXINgQP5xom7EzuMosXdv7tt62/sPOEddWGs3hJZ1ftVdnV3GauGezsqo2NJdtS23VZDjTSpvMVY+8Gu5l5kv7eTkq2GzNJm87tB2lvGnFlbIiAAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-5406" x="0" y="0" width="28" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAhCAAAAADvgpQ7AAAAAmJLR0QA/4ePzL8AAACLSURBVCiRhZJBEsAgCAMJ4/+/TA8iQzEgJ+smQEGIh0kE9icElWSNtkxEViDcBeBnZMe5Ul5thxJjBHUerdYm3s6TIDykLP4JMcG/At1ch4bi75uxw/0cj/sUkEURyAT3XGyCicOYwul7n93rG/eptcOcnD+T0pDdDHnZqIy+hJAuP9mNthOlbOT/ADeeJC2U6uM1AAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-151">
-<use xlink:href="#optika--oko-p1-source-5896"/>
+<use xlink:href="#optika--oko-p1-source-5406"/>
 </mask>
-<image id="optika--oko-p1-source-5904" x="0" y="0" width="19" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAA0CAAAAABNklyeAAAAAmJLR0QA/4ePzL8AAAAySURBVDiNY2SAgP8QipGBgYGBBcpBBkyYQkSLMSJZAOMywVnUsWNUbFRsJIoxUjmvAgDUOARnZ0eDmAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5942" x="0" y="0" width="59" height="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADsAAAAzCAAAAAAMHS8CAAAAAmJLR0QA/4ePzL8AAACpSURBVEiJ7dbBDoAgDAPQzfj/v1xPIoMZWzgQjZ6M+GiNB+Yw5vL0IWdTL9iOazbqco98Pa7ERcK2vixvDx3P96v9yj6kDWVOTNs6GqqtoyHb6oJsmx8wmGuQbQwezTXINgQP5xom7EzuMosXdv7tt62/sPOEddWGs3hJZ1ftVdnV3GauGezsqo2NJdtS23VZDjTSpvMVY+8Gu5l5kv7eTkq2GzNJm87tB2lvGnFlbIiAAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-152">
-<use xlink:href="#optika--oko-p1-source-5904"/>
+<use xlink:href="#optika--oko-p1-source-5942"/>
 </mask>
-<image id="optika--oko-p1-source-5912" x="0" y="0" width="36" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAhCAAAAACUplb3AAAAAmJLR0QA/4ePzL8AAACQSURBVDiNtZRREoAgCERZxvtfmT4sFWHVpokvgwe71hDEhfUj0uMATEVwpJcxM0ges5xrw5PNmJECZQZKg8sklN2rN5koZ9ykrZrzxML0QG09qX27z5NeQSU6+FPuDOJO0kn8jeniUi3KDrAqt9mq29NK0ETmlQp4ZSCOypYKcYNDBmMnsd02mGP+h5FxrXYBcVseOBS38qkAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-5950" x="0" y="0" width="19" height="52" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAA0CAAAAABNklyeAAAAAmJLR0QA/4ePzL8AAAAySURBVDiNY2SAgP8QipGBgYGBBcpBBkyYQkSLMSJZAOMywVnUsWNUbFRsJIoxUjmvAgDUOARnZ0eDmAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-153">
-<use xlink:href="#optika--oko-p1-source-5912"/>
+<use xlink:href="#optika--oko-p1-source-5950"/>
 </mask>
-<image id="optika--oko-p1-source-6237" x="0" y="0" width="33" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAmCAAAAABviq0LAAAAAmJLR0QA/4ePzL8AAAChSURBVDiNrZNLEsQgCAUbK/e/MrMwCSifzEJWSsGjRRAAUEAwU3g8Yvc3Ri1SpnMKqI8XUx4hW0F8QbEcBRDdiw0vcSuw2NjwQwDDk2c2STewqkrMBkS4NLrX82Dra7CtSqBoOW67kqxco+7KWiUT/Ob4O6L5nEUjfdc5jm5GvEbe3mMc7ag6jeKXT3H0G2Ma1bAd4vhY3FejnPln3+ql+AHDWRpVZYnlnwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-5958" x="0" y="0" width="36" height="33" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAhCAAAAACUplb3AAAAAmJLR0QA/4ePzL8AAACQSURBVDiNtZRREoAgCERZxvtfmT4sFWHVpokvgwe71hDEhfUj0uMATEVwpJcxM0ges5xrw5PNmJECZQZKg8sklN2rN5koZ9ykrZrzxML0QG09qX27z5NeQSU6+FPuDOJO0kn8jeniUi3KDrAqt9mq29NK0ETmlQp4ZSCOypYKcYNDBmMnsd02mGP+h5FxrXYBcVseOBS38qkAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-154">
-<use xlink:href="#optika--oko-p1-source-6237"/>
+<use xlink:href="#optika--oko-p1-source-5958"/>
 </mask>
-<image id="optika--oko-p1-source-6549" x="0" y="0" width="32" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAmCAAAAACASMY1AAAAAmJLR0QA/4ePzL8AAACeSURBVDiNnZNBDsQwCAMx//8ze6jI2iSQqlwSZGqmQcBqxHPA9FSVJOwy1hWlIPiLTKByzWHe6Rk+65EFBx3swH9XLJySHSAdeoOnoDzuwWEKvxgMDpEFEyE7NB1eQY4I5heE5dAh4DND3ApWZ58RWof/fD5C0oAnB7QO/Lre84MZZCKyJH7aJtIPDGXJYM3aC0noTbpih1SolXXb8QPBnSNEG7ZEgQAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6283" x="0" y="0" width="33" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAmCAAAAABviq0LAAAAAmJLR0QA/4ePzL8AAAChSURBVDiNrZNLEsQgCAUbK/e/MrMwCSifzEJWSsGjRRAAUEAwU3g8Yvc3Ri1SpnMKqI8XUx4hW0F8QbEcBRDdiw0vcSuw2NjwQwDDk2c2STewqkrMBkS4NLrX82Dra7CtSqBoOW67kqxco+7KWiUT/Ob4O6L5nEUjfdc5jm5GvEbe3mMc7ag6jeKXT3H0G2Ma1bAd4vhY3FejnPln3+ql+AHDWRpVZYnlnwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-155">
-<use xlink:href="#optika--oko-p1-source-6549"/>
+<use xlink:href="#optika--oko-p1-source-6283"/>
 </mask>
-<image id="optika--oko-p1-source-6557" x="0" y="0" width="33" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAmCAAAAABviq0LAAAAAmJLR0QA/4ePzL8AAACySURBVDiNfdRLFoAwCANA4P53xkU/EJLqwic4RVqtbnCkmTnGPu9bN2lmIUBdmJmHAPcyDWr0ga1ECQRZKWhqRdBFiWS+E13QzB07RVCJmGlqnAbSQ7XoXUkBbSuB8xJiTJzFXBkStHRTEJiCwQgFeLytl5CgZzRoKQZrs8Qb7CPeIEH89BAQiRJbiN10U85RAT8nqNCG+DmnlFdEC/RLjedSnVz0QH58jiXoP7XE/zfyAaGANTJTyW2kAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-6595" x="0" y="0" width="32" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAmCAAAAACASMY1AAAAAmJLR0QA/4ePzL8AAACeSURBVDiNnZNBDsQwCAMx//8ze6jI2iSQqlwSZGqmQcBqxHPA9FSVJOwy1hWlIPiLTKByzWHe6Rk+65EFBx3swH9XLJySHSAdeoOnoDzuwWEKvxgMDpEFEyE7NB1eQY4I5heE5dAh4DND3ApWZ58RWof/fD5C0oAnB7QO/Lre84MZZCKyJH7aJtIPDGXJYM3aC0noTbpih1SolXXb8QPBnSNEG7ZEgQAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-156">
-<use xlink:href="#optika--oko-p1-source-6557"/>
+<use xlink:href="#optika--oko-p1-source-6595"/>
 </mask>
-<image id="optika--oko-p1-source-6565" x="0" y="0" width="41" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA1CAAAAAD5H53KAAAAAmJLR0QA/4ePzL8AAADkSURBVEiJpZXBFoUgCETB0///8rxFmQIjko9NitNlLCOVOSAi6uY9EfIjh3dBnfIGvtg+6Nxmqk80iOhgQeTytRXOXw/DVDp5oLZ63BZhwuaDEC1b5cwNcijhrikzL76ozm5a+NzfDZLFVyZV0r2dMtnT7Ln/fFKbesjMbJZ9KlMuTsqOOV5vi9lF1HwqVbJzVGaqUxKbmKpEJriwUL37JkqYwbvBFgVcGJn6SOA74xjCCN2izJ12WmeNdszZl27i+DtKuth3Zn42z5h3ZM32M3Nv89Rn+k9o1eL3r9elCtXTqCt/SuMwaeSoWTcAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6603" x="0" y="0" width="33" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAmCAAAAABviq0LAAAAAmJLR0QA/4ePzL8AAACySURBVDiNfdRLFoAwCANA4P53xkU/EJLqwic4RVqtbnCkmTnGPu9bN2lmIUBdmJmHAPcyDWr0ga1ECQRZKWhqRdBFiWS+E13QzB07RVCJmGlqnAbSQ7XoXUkBbSuB8xJiTJzFXBkStHRTEJiCwQgFeLytl5CgZzRoKQZrs8Qb7CPeIEH89BAQiRJbiN10U85RAT8nqNCG+DmnlFdEC/RLjedSnVz0QH58jiXoP7XE/zfyAaGANTJTyW2kAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-157">
-<use xlink:href="#optika--oko-p1-source-6565"/>
+<use xlink:href="#optika--oko-p1-source-6603"/>
 </mask>
-<image id="optika--oko-p1-source-6573" x="0" y="0" width="24" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAA1CAAAAAB+LnTMAAAAAmJLR0QA/4ePzL8AAACYSURBVDiNrZTRDoUgDENXc///l+sDl7BCF7MoT7pDdwQMCBmMwHjCXp+l66j/h4D4DLACY+ADBysgilcOVkAVgX3mowNFYPWkvr5Yx6HSBCrQcJyrkQQq0HCYDcsJVKDhcGeSEqhAw2GP/WcUjEDLwQmMAimx/WDeAQdmY5eAA9xvH2ijUVi3FENuBvlSpETqsDYMabIc1Q0sNRpj28WQJAAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6611" x="0" y="0" width="41" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAA1CAAAAAD5H53KAAAAAmJLR0QA/4ePzL8AAADkSURBVEiJpZXBFoUgCETB0///8rxFmQIjko9NitNlLCOVOSAi6uY9EfIjh3dBnfIGvtg+6Nxmqk80iOhgQeTytRXOXw/DVDp5oLZ63BZhwuaDEC1b5cwNcijhrikzL76ozm5a+NzfDZLFVyZV0r2dMtnT7Ln/fFKbesjMbJZ9KlMuTsqOOV5vi9lF1HwqVbJzVGaqUxKbmKpEJriwUL37JkqYwbvBFgVcGJn6SOA74xjCCN2izJ12WmeNdszZl27i+DtKuth3Zn42z5h3ZM32M3Nv89Rn+k9o1eL3r9elCtXTqCt/SuMwaeSoWTcAAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-158">
-<use xlink:href="#optika--oko-p1-source-6573"/>
+<use xlink:href="#optika--oko-p1-source-6611"/>
 </mask>
-<image id="optika--oko-p1-source-6581" x="0" y="0" width="35" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA2CAAAAABoqX+tAAAAAmJLR0QA/4ePzL8AAADoSURBVDiNpVVRFoMwCCO83v/K7GNaGwjVzf5oIZAA1sKOFWYGkwsXwhQqzID5JlOFmZlfEEq47pwhcnkO1RgllYi9WMqC36qhPA8wleq0eHJVWphLe8O16dLgJOtuRt3WhQuzGwjn0ep7rsiYlgo5T9Oo3+bVyjkwWzmUp5vbGz3xALOyv6r9HhMPMKucBsM9lWc5td2FK0+G/zsgBNKTohHkG0tU5LCSpwo7fZv+zPB/Z5FrH2vZmsq8fsvF0OrBDlOpmzykzrNRHLWRolSRg3ZfSG4D6s2kOjWvtqaZq7NBpPu0+Sl8AFAFMmqcEdVdAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-6619" x="0" y="0" width="24" height="53" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAA1CAAAAAB+LnTMAAAAAmJLR0QA/4ePzL8AAACYSURBVDiNrZTRDoUgDENXc///l+sDl7BCF7MoT7pDdwQMCBmMwHjCXp+l66j/h4D4DLACY+ADBysgilcOVkAVgX3mowNFYPWkvr5Yx6HSBCrQcJyrkQQq0HCYDcsJVKDhcGeSEqhAw2GP/WcUjEDLwQmMAimx/WDeAQdmY5eAA9xvH2ijUVi3FENuBvlSpETqsDYMabIc1Q0sNRpj28WQJAAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-159">
-<use xlink:href="#optika--oko-p1-source-6581"/>
+<use xlink:href="#optika--oko-p1-source-6619"/>
 </mask>
-<image id="optika--oko-p1-source-6589" x="0" y="0" width="18" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAA7CAAAAABTBoV1AAAAAmJLR0QA/4ePzL8AAACFSURBVDiNlZNRDoAgDENX4/2vXH/EDLvWuC9SXh4QNlQrVlUV2vquo6SGCKIaKGQXNbInIlPUyLqQKWpkXcgUNbIuZIoaWRcy9ee3kSlqZF3IFDWyLmSKGlkXMvVWTdTZVbT9JaqN2mdo3eqjv8rNUGumPqjjwHSgdw7XY9YGN+h5bjviArJAFnMS6ugVAAAAAElFTkSuQmCC"/>
+<image id="optika--oko-p1-source-6627" x="0" y="0" width="35" height="54" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAA2CAAAAABoqX+tAAAAAmJLR0QA/4ePzL8AAADoSURBVDiNpVVRFoMwCCO83v/K7GNaGwjVzf5oIZAA1sKOFWYGkwsXwhQqzID5JlOFmZlfEEq47pwhcnkO1RgllYi9WMqC36qhPA8wleq0eHJVWphLe8O16dLgJOtuRt3WhQuzGwjn0ep7rsiYlgo5T9Oo3+bVyjkwWzmUp5vbGz3xALOyv6r9HhMPMKucBsM9lWc5td2FK0+G/zsgBNKTohHkG0tU5LCSpwo7fZv+zPB/Z5FrH2vZmsq8fsvF0OrBDlOpmzykzrNRHLWRolSRg3ZfSG4D6s2kOjWvtqaZq7NBpPu0+Sl8AFAFMmqcEdVdAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-160">
-<use xlink:href="#optika--oko-p1-source-6589"/>
+<use xlink:href="#optika--oko-p1-source-6627"/>
 </mask>
-<image id="optika--oko-p1-source-6597" x="0" y="0" width="36" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAA7CAAAAAA263cKAAAAAmJLR0QA/4ePzL8AAADySURBVEiJtZZBEoUgDENbxvtfOX/xAWlI6zgjbJTyTAMW1C00mJmZx6BdYTRprRp8BcX0UEGtxMyHngKUrYNQ2iwd8pS+ml1pt3TGU14tm5KwdMRTUcAX9YMl9AhDjJjBPIXQZcd1fc7vrs8wKRHTn9RLgDgDCREzIRSMRyVXTJLO1xt3sZjY8cYjezJK55phT5IZIXBAQKgQle5ZSautkE/YBbTUkjw1FyhMVFYBN9RQcqrIeYMgUohbD/jmLMCA2BL1fVHiST1uqXee5g4uP6z/tG25zyzVH6BR8ZWnaaQJS72u7uPL5e8CVWi2H8Mp+AOC/Dl26v5b0AAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6635" x="0" y="0" width="18" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAA7CAAAAABTBoV1AAAAAmJLR0QA/4ePzL8AAACFSURBVDiNlZNRDoAgDENX4/2vXH/EDLvWuC9SXh4QNlQrVlUV2vquo6SGCKIaKGQXNbInIlPUyLqQKWpkXcgUNbIuZIoaWRcy9ee3kSlqZF3IFDWyLmSKGlkXMvVWTdTZVbT9JaqN2mdo3eqjv8rNUGumPqjjwHSgdw7XY9YGN+h5bjviArJAFnMS6ugVAAAAAElFTkSuQmCC"/>
 <mask id="optika--oko-p1-mask-161">
-<use xlink:href="#optika--oko-p1-source-6597"/>
+<use xlink:href="#optika--oko-p1-source-6635"/>
 </mask>
-<image id="optika--oko-p1-source-6605" x="0" y="0" width="39" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAAAAABilN1MAAAAAmJLR0QA/4ePzL8AAAC6SURBVDiNpVTbDsUgCKNk///LnIep41LU5PCi1NLWJRMyykREIF3BsRjTBoRFw1oi7YV0DsGfSGk0HzWlPBbjWUuzwGMw0Tumw9I7pgu+RdgDmk8bbT3aIvnu7/MkMdeGQZW7WrzOFlSvvVLvGw2Uoie9agvKu9VzlYIoRWs9LExG7P98lvaXetjzvsBK0VoXvpZ5RrevE9ern337vmDMgOcz+yhTWtOozNfSOUCa/wuhd+9uYCL0o/sB41sqSXR1gd8AAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6643" x="0" y="0" width="36" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAA7CAAAAAA263cKAAAAAmJLR0QA/4ePzL8AAADySURBVEiJtZZBEoUgDENbxvtfOX/xAWlI6zgjbJTyTAMW1C00mJmZx6BdYTRprRp8BcX0UEGtxMyHngKUrYNQ2iwd8pS+ml1pt3TGU14tm5KwdMRTUcAX9YMl9AhDjJjBPIXQZcd1fc7vrs8wKRHTn9RLgDgDCREzIRSMRyVXTJLO1xt3sZjY8cYjezJK55phT5IZIXBAQKgQle5ZSautkE/YBbTUkjw1FyhMVFYBN9RQcqrIeYMgUohbD/jmLMCA2BL1fVHiST1uqXee5g4uP6z/tG25zyzVH6BR8ZWnaaQJS72u7uPL5e8CVWi2H8Mp+AOC/Dl26v5b0AAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-162">
-<use xlink:href="#optika--oko-p1-source-6605"/>
+<use xlink:href="#optika--oko-p1-source-6643"/>
 </mask>
-<image id="optika--oko-p1-source-6697" x="0" y="0" width="28" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAmCAAAAADyh6SDAAAAAmJLR0QA/4ePzL8AAACeSURBVDiNpZNLDsAgCERniPe/sl20VD6jSVMXFvv4iUCUNe8P360Sx2yMLjHChZ4TuWGYACzFZBYtatb4Q7P7mNzme9WYHyBNp0OEIsSK7twWB+x/2aRswxOs76nzPVBLqsq3NmbXnye4MFXhl756lZeO1llhWbtfhFvGH23iUI/MqKRaqoYmAJguLj3YTI5jSQif1IbCHK+1776UwgVRYCRE6SesVwAAAABJRU5ErkJggg=="/>
+<image id="optika--oko-p1-source-6651" x="0" y="0" width="39" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAmCAAAAABilN1MAAAAAmJLR0QA/4ePzL8AAAC6SURBVDiNpVTbDsUgCKNk///LnIep41LU5PCi1NLWJRMyykREIF3BsRjTBoRFw1oi7YV0DsGfSGk0HzWlPBbjWUuzwGMw0Tumw9I7pgu+RdgDmk8bbT3aIvnu7/MkMdeGQZW7WrzOFlSvvVLvGw2Uoie9agvKu9VzlYIoRWs9LExG7P98lvaXetjzvsBK0VoXvpZ5RrevE9ern337vmDMgOcz+yhTWtOozNfSOUCa/wuhd+9uYCL0o/sB41sqSXR1gd8AAAAASUVORK5CYII="/>
 <mask id="optika--oko-p1-mask-163">
-<use xlink:href="#optika--oko-p1-source-6697"/>
+<use xlink:href="#optika--oko-p1-source-6651"/>
 </mask>
-<image id="optika--oko-p1-source-6743" x="0" y="0" width="32" height="72" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAABICAAAAACytqgfAAAAAmJLR0QA/4ePzL8AAADVSURBVEiJ7ZZLFoMwDANtHve/sroA0sSS4zSPZb3EwyBCPrhNCmbu07aZ5cDVt2P2iFeAWUjDLOK/Xi812MNMYQDjvQTguoinGYH2iW8wTphxCoAAGBVNOQ/oAAgBGeitekAJouERQAFSEAwhgRgoLr108INhBngF5AZUwGIG3zegAhYz+L4BFbCYwSsgN6ACFjN4BeSGOPl3M3gF5AZaf5sZvAJyA28B0tCv6NOK89GHrVsc+HXIPpb6Y2BDiEP7ZIx7fu+SfTvaFd1vh4t6fJAng/UBV00kc0EpNrYAAAAASUVORK5CYII="/>
+<image id="optika--oko-p1-source-6743" x="0" y="0" width="28" height="38" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAmCAAAAADyh6SDAAAAAmJLR0QA/4ePzL8AAACeSURBVDiNpZNLDsAgCERniPe/sl20VD6jSVMXFvv4iUCUNe8P360Sx2yMLjHChZ4TuWGYACzFZBYtatb4Q7P7mNzme9WYHyBNp0OEIsSK7twWB+x/2aRswxOs76nzPVBLqsq3NmbXnye4MFXhl756lZeO1llhWbtfhFvGH23iUI/MqKRaqoYmAJguLj3YTI5jSQif1IbCHK+1776UwgVRYCRE6SesVwAAAABJRU5ErkJggg=="/>
 <mask id="optika--oko-p1-mask-164">
 <use xlink:href="#optika--oko-p1-source-6743"/>
+</mask>
+<image id="optika--oko-p1-source-6789" x="0" y="0" width="32" height="72" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAABICAAAAACytqgfAAAAAmJLR0QA/4ePzL8AAADVSURBVEiJ7ZZLFoMwDANtHve/sroA0sSS4zSPZb3EwyBCPrhNCmbu07aZ5cDVt2P2iFeAWUjDLOK/Xi812MNMYQDjvQTguoinGYH2iW8wTphxCoAAGBVNOQ/oAAgBGeitekAJouERQAFSEAwhgRgoLr108INhBngF5AZUwGIG3zegAhYz+L4BFbCYwSsgN6ACFjN4BeSGOPl3M3gF5AZaf5sZvAJyA28B0tCv6NOK89GHrVsc+HXIPpb6Y2BDiEP7ZIx7fu+SfTvaFd1vh4t6fJAng/UBV00kc0EpNrYAAAAASUVORK5CYII="/>
+<mask id="optika--oko-p1-mask-165">
+<use xlink:href="#optika--oko-p1-source-6789"/>
 </mask>
 </defs>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -1366,17 +1373,23 @@
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="391.565064" y="110.213924"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-30" x="400.138341" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-12" x="405.112603" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-2" x="409.008629" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-29" x="413.982891" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-31" x="418.404856" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-17" x="421.168734" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-32" x="426.695292" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-4" x="430.618873" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-10" x="434.487344" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-30" x="437.251222" y="110.213924"/>
-<use xlink:href="#optika--oko-p1-glyph-3-23" x="442.225484" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-30" x="401.133391" y="110.213924"/>
+</g>
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#optika--oko-p1-glyph-3-12" x="405.116249" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-2" x="409.012275" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-29" x="413.986536" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-31" x="418.408502" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-17" x="421.17238" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-32" x="426.698938" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-4" x="430.622519" y="110.213924"/>
+<use xlink:href="#optika--oko-p1-glyph-3-10" x="434.49099" y="110.213924"/>
+</g>
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#optika--oko-p1-glyph-3-33" x="437.851898" y="110.213924"/>
+</g>
+<g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
+<use xlink:href="#optika--oko-p1-glyph-3-23" x="442.232776" y="110.213924"/>
 </g>
 <g fill="rgb(16.471863%, 42.74292%, 67.059326%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-4-0" x="56.624131" y="137.459787"/>
@@ -1522,8 +1535,8 @@
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-3" x="129.198721" y="288.320304"/>
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="134.725279" y="288.320304"/>
-<use xlink:href="#optika--oko-p1-glyph-3-33" x="138.621305" y="288.320304"/>
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="144.147863" y="288.320304"/>
+<use xlink:href="#optika--oko-p1-glyph-3-34" x="138.621305" y="288.320304"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="144.147863" y="288.320304"/>
 <use xlink:href="#optika--oko-p1-glyph-3-31" x="149.674421" y="288.320304"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="152.438299" y="288.320304"/>
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="156.860265" y="288.320304"/>
@@ -1589,7 +1602,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-15" x="159.622893" y="300.26178"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="167.920621" y="300.26178"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="167.920621" y="300.26178"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-15" x="172.332636" y="300.26178"/>
@@ -1597,7 +1610,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-4" x="181.230478" y="300.26178"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="188.422415" y="300.26178"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="188.422415" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-16" x="192.290886" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="200.581323" y="300.26178"/>
 </g>
@@ -1608,7 +1621,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-13" x="220.231044" y="300.26178"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="226.308438" y="300.26178"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="226.308438" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="231.834996" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-22" x="237.361555" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="241.78352" y="300.26178"/>
@@ -1616,11 +1629,11 @@
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="252.28434" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="255.048218" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="257.812096" y="300.26178"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="260.575974" y="300.26178"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="260.575974" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="264.444445" y="300.26178"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-38" x="270.521839" y="300.26178"/>
+<use xlink:href="#optika--oko-p1-glyph-3-39" x="270.521839" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="277.844259" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-25" x="282.266225" y="300.26178"/>
 <use xlink:href="#optika--oko-p1-glyph-3-17" x="287.240487" y="300.26178"/>
@@ -1695,16 +1708,16 @@
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="199.707378" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-17" x="205.233937" y="312.202258"/>
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="210.760495" y="312.202258"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="210.760495" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="216.287053" y="312.202258"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-20" x="220.982701" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="226.232512" y="312.202258"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="231.482323" y="312.202258"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="231.482323" y="312.202258"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="240.0556" y="312.202258"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="240.0556" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="243.924071" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-26" x="249.450629" y="312.202258"/>
 </g>
@@ -1750,7 +1763,7 @@
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-15" x="361.973804" y="312.202258"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="366.948065" y="312.202258"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="366.948065" y="312.202258"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="370.816536" y="312.202258"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -1867,7 +1880,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="200.146814" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-40" x="206.234158" y="336.083213"/>
+<use xlink:href="#optika--oko-p1-glyph-3-41" x="206.234158" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="213.418804" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-4" x="216.182682" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-31" x="220.051153" y="336.083213"/>
@@ -1877,14 +1890,14 @@
 <use xlink:href="#optika--oko-p1-glyph-3-20" x="225.568959" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-41" x="230.550106" y="336.083213"/>
+<use xlink:href="#optika--oko-p1-glyph-3-42" x="230.550106" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-28" x="238.285587" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-17" x="243.812146" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-19" x="249.338704" y="336.083213"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="254.865262" y="336.083213"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="260.115073" y="336.083213"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="260.115073" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-3" x="268.6784" y="336.083213"/>
@@ -1925,7 +1938,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-20" x="376.839507" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-41" x="381.810704" y="336.083213"/>
+<use xlink:href="#optika--oko-p1-glyph-3-42" x="381.810704" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-11" x="389.556135" y="336.083213"/>
@@ -1936,7 +1949,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-31" x="411.718676" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="414.472604" y="336.083213"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="414.472604" y="336.083213"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="418.896523" y="336.083213"/>
@@ -1978,7 +1991,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="169.998721" y="348.02369"/>
 <use xlink:href="#optika--oko-p1-glyph-3-15" x="175.525279" y="348.02369"/>
 <use xlink:href="#optika--oko-p1-glyph-3-31" x="180.499541" y="348.02369"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="183.263419" y="348.02369"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="183.263419" y="348.02369"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="191.826746" y="348.02369"/>
@@ -2258,7 +2271,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="257.723843" y="532.484341"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-42" x="263.801236" y="532.484341"/>
+<use xlink:href="#optika--oko-p1-glyph-3-43" x="263.801236" y="532.484341"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="271.269515" y="532.484341"/>
@@ -2285,7 +2298,7 @@
 <use xlink:href="#optika--oko-p1-glyph-9-8" x="339.954364" y="532.484341"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="349.37108" y="532.484341"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="349.37108" y="532.484341"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-10-0" x="353.240374" y="532.484341"/>
@@ -2299,7 +2312,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="386.954656" y="532.484341"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="390.850682" y="532.484341"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="393.61456" y="532.484341"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="398.036526" y="532.484341"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="398.036526" y="532.484341"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="401.904997" y="532.484341"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2360,7 +2373,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="248.501663" y="544.424819"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-42" x="254.579057" y="544.424819"/>
+<use xlink:href="#optika--oko-p1-glyph-3-43" x="254.579057" y="544.424819"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="262.047335" y="544.424819"/>
@@ -2384,8 +2397,8 @@
 <use xlink:href="#optika--oko-p1-glyph-9-8" x="318.909323" y="544.424819"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="328.326675" y="544.424819"/>
-<use xlink:href="#optika--oko-p1-glyph-3-43" x="332.195146" y="544.424819"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="328.326675" y="544.424819"/>
+<use xlink:href="#optika--oko-p1-glyph-3-44" x="332.195146" y="544.424819"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="343.245604" y="544.424819"/>
@@ -2396,7 +2409,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="365.905331" y="544.424819"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="369.801357" y="544.424819"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="372.565235" y="544.424819"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="376.9872" y="544.424819"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="376.9872" y="544.424819"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="380.855671" y="544.424819"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2438,13 +2451,13 @@
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="202.279307" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="206.175333" y="556.365296"/>
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="211.149595" y="556.365296"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="211.149595" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="216.676153" y="556.365296"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-20" x="221.371801" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="226.621612" y="556.365296"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="231.871423" y="556.365296"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="231.871423" y="556.365296"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="240.434749" y="556.365296"/>
@@ -2466,7 +2479,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-22" x="294.629917" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="299.051882" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="302.947908" y="556.365296"/>
-<use xlink:href="#optika--oko-p1-glyph-3-41" x="308.474466" y="556.365296"/>
+<use xlink:href="#optika--oko-p1-glyph-3-42" x="308.474466" y="556.365296"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="312.896431" y="556.365296"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2494,16 +2507,16 @@
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="138.732126" y="568.306772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="143.985001" y="568.306772"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="143.985001" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="148.406967" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-10" x="153.933525" y="568.306772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="160.010919" y="568.306772"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="160.010919" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="164.432884" y="568.306772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="169.68576" y="568.306772"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="169.68576" y="568.306772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="173.829111" y="568.306772"/>
@@ -2528,7 +2541,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="228.87142" y="568.306772"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="236.616852" y="568.306772"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="236.616852" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="240.485323" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-3" x="245.459585" y="568.306772"/>
 </g>
@@ -2538,7 +2551,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-26" x="259.572798" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-6" x="264.547059" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="268.969025" y="568.306772"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="273.39099" y="568.306772"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="273.39099" y="568.306772"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="277.259461" y="568.306772"/>
 </g>
 <g fill="rgb(16.471863%, 42.74292%, 67.059326%)" fill-opacity="1">
@@ -2564,7 +2577,7 @@
 <use xlink:href="#optika--oko-p1-glyph-1-0" x="64.585448" y="615.734089"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-44" x="74.535347" y="615.734089"/>
+<use xlink:href="#optika--oko-p1-glyph-3-45" x="74.535347" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-28" x="82.272289" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-12" x="87.798847" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-26" x="91.694873" y="615.734089"/>
@@ -2618,14 +2631,14 @@
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="247.56228" y="615.734089"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="256.125607" y="615.734089"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="256.125607" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="261.652165" y="615.734089"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="269.949893" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-4" x="274.924155" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-15" x="278.792626" y="615.734089"/>
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="283.766888" y="615.734089"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="283.766888" y="615.734089"/>
 <use xlink:href="#optika--oko-p1-glyph-3-10" x="288.188853" y="615.734089"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2641,7 +2654,7 @@
 <use xlink:href="#optika--oko-p1-glyph-1-0" x="64.585448" y="627.674567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-44" x="74.535347" y="627.674567"/>
+<use xlink:href="#optika--oko-p1-glyph-3-45" x="74.535347" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="82.272289" y="627.674567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2678,14 +2691,14 @@
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-26" x="183.582088" y="627.674567"/>
-<use xlink:href="#optika--oko-p1-glyph-3-34" x="188.55635" y="627.674567"/>
+<use xlink:href="#optika--oko-p1-glyph-3-35" x="188.55635" y="627.674567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-17" x="193.804294" y="627.674567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-45" x="202.644368" y="627.674567"/>
-<use xlink:href="#optika--oko-p1-glyph-3-46" x="207.61863" y="627.674567"/>
+<use xlink:href="#optika--oko-p1-glyph-3-46" x="202.644368" y="627.674567"/>
+<use xlink:href="#optika--oko-p1-glyph-3-47" x="207.61863" y="627.674567"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-6" x="215.906407" y="627.674567"/>
@@ -2708,7 +2721,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="273.386075" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="278.360336" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-1" x="283.886895" y="627.674567"/>
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="288.30886" y="627.674567"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="288.30886" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="292.730825" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-26" x="298.257384" y="627.674567"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="303.231646" y="627.674567"/>
@@ -2717,14 +2730,14 @@
 <use xlink:href="#optika--oko-p1-glyph-1-0" x="64.585448" y="639.615044"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-47" x="74.535347" y="639.615044"/>
+<use xlink:href="#optika--oko-p1-glyph-3-48" x="74.535347" y="639.615044"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="80.753174" y="639.615044"/>
 <use xlink:href="#optika--oko-p1-glyph-3-21" x="83.517052" y="639.615044"/>
 <use xlink:href="#optika--oko-p1-glyph-3-11" x="89.043611" y="639.615044"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="92.967191" y="639.615044"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-41" x="97.938388" y="639.615044"/>
+<use xlink:href="#optika--oko-p1-glyph-3-42" x="97.938388" y="639.615044"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="105.67387" y="639.615044"/>
@@ -2767,7 +2780,7 @@
 <use xlink:href="#optika--oko-p1-glyph-1-0" x="64.585448" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-44" x="74.535347" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-45" x="74.535347" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="82.272289" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
@@ -2783,7 +2796,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="116.62286" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-29" x="119.386738" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-3" x="123.808703" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-33" x="129.335262" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-34" x="129.335262" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-11" x="134.86182" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-2" x="138.785401" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-28" x="143.759662" y="651.555522"/>
@@ -2808,12 +2821,12 @@
 <use xlink:href="#optika--oko-p1-glyph-3-17" x="201.29444" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-36" x="210.134514" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="214.002985" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-37" x="210.134514" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="214.002985" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-10" x="218.42495" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-3" x="221.188828" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="226.715386" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="231.965197" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="231.965197" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-13" x="236.389117" y="651.555522"/>
@@ -2822,12 +2835,12 @@
 <use xlink:href="#optika--oko-p1-glyph-3-4" x="242.466511" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="246.056368" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-35" x="251.306179" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="246.056368" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-36" x="251.306179" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="255.728144" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="258.492022" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-7" x="264.018581" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-39" x="269.268392" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-40" x="269.268392" y="651.555522"/>
 </g>
 <g fill="rgb(0%, 0%, 0%)" fill-opacity="1">
 <use xlink:href="#optika--oko-p1-glyph-3-14" x="277.831718" y="651.555522"/>
@@ -2841,7 +2854,7 @@
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="307.738493" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-6" x="310.502371" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-5" x="314.924336" y="651.555522"/>
-<use xlink:href="#optika--oko-p1-glyph-3-37" x="317.688214" y="651.555522"/>
+<use xlink:href="#optika--oko-p1-glyph-3-38" x="317.688214" y="651.555522"/>
 <use xlink:href="#optika--oko-p1-glyph-3-23" x="321.556685" y="651.555522"/>
 </g>
 </svg>
