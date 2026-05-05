@@ -213,8 +213,8 @@ $E_p = m \cdot g \cdot h = 0{,}1 \cdot 10 \cdot 0{,}8 = 0{,}8$ J
     \node[draw=zfgreen, fill=zfgreen!15, thick, rounded corners=4pt, minimum width=2.6cm, minimum height=1cm] (uz) at (5, 0.7) {užitečná};
     \node[draw=zfred, fill=zfred!15, thick, rounded corners=4pt, minimum width=2.6cm, minimum height=1cm] (zt) at (5, -0.7) {ztráty (teplo)};
 
-    \draw[->, ultra thick] (vstup.east) -- ([yshift=2pt]uz.west);
-    \draw[->, ultra thick] (vstup.east) -- ([yshift=-2pt]zt.west);
+    \draw[->, ultra thick] (vstup.east) -- (uz.west);
+    \draw[->, ultra thick] (vstup.east) -- (zt.west);
 
     \node[font=\bfseries\small, color=zfgreen] at (3, 1.4) {$\eta$};
     \node[font=\bfseries\small, color=zfred] at (3, -1.4) {$1 - \eta$};
