@@ -537,7 +537,7 @@ Těleso \textbf{zůstává v klidu nebo v rovnoměrném přímočarém pohybu}, 
 \end{center}
 
 \begin{itemize}
-    \item Těleso si "udržuje" svůj pohybový stav -- chce zůstat tak, jak je.
+    \item Těleso si \uv{udržuje} svůj pohybový stav -- chce zůstat tak, jak je.
     \item \textbf{Setrvačnost} = vlastnost tělesa udržet si svůj stav.
     \item Příklad: pasažéři v autě se naklánějí dopředu při brzdění (chtějí letět dál).
 \end{itemize}

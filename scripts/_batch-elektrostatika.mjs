@@ -151,7 +151,7 @@ const entries = {
 \hline
 balónek o vlasy & balónek se nabije, přitahuje vlasy a kousky papíru \\
 plastové pravítko o vlnu & pravítko přitahuje malé útržky papíru \\
-svetr přes hlavu & vlasy se postaví, "lechtá" \\
+svetr přes hlavu & vlasy se postaví, \uv{lechtá} \\
 chození po koberci & při dotyku kovu může cvaknout jiskra \\
 \hline
 \end{tabular}

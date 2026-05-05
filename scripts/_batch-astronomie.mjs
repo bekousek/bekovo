@@ -258,7 +258,7 @@ parsek (pc) & 3,26 ly \\
 \begin{itemize}
     \item Před 13,8 mld. let byl vesmír \textbf{velmi malý a horký}.
     \item Začal se rozpínat -- ochladil se, vznikly atomy, hvězdy, galaxie.
-    \item Pozorujeme \textbf{reliktní záření} -- "ozvěnu" velkého třesku v podobě mikrovln.
+    \item Pozorujeme \textbf{reliktní záření} -- \uv{ozvěnu} velkého třesku v podobě mikrovln.
     \item Vesmír stále \textbf{zrychluje} svoje rozpínání (vlivem \emph{temné energie}).
 \end{itemize}
 `,
@@ -487,7 +487,7 @@ Lev, Panna, Váhy, Štír & jaro/léto \\
     \item \textbf{Měsíc} -- největší a nejjasnější objekt.
     \item \textbf{Mléčná dráha} -- za tmy bílý pruh přes oblohu.
     \item \textbf{Družice} -- pohybují se rychle, neblikají (ISS).
-    \item \textbf{Meteory ("padající hvězdy")} -- krátké světelné stopy.
+    \item \textbf{Meteory (\uv{padající hvězdy})} -- krátké světelné stopy.
     \item \textbf{Komety} -- vzácné, mají ohon.
 \end{itemize}
 
@@ -600,7 +600,7 @@ Kromě Slunce, planet a měsíců krouží kolem Slunce další \emph{drobnějš
 \end{center}
 
 \begin{itemize}
-    \item Tvořeny \textbf{ledem, prachem a kamením} -- "špinavé sněhové koule".
+    \item Tvořeny \textbf{ledem, prachem a kamením} -- \uv{špinavé sněhové koule}.
     \item Pohybují se po \textbf{velmi protáhlých drahách}.
     \item U Slunce led tají, vzniká \textbf{ohon} -- vždy směřuje pryč od Slunce (sluneční vítr).
     \item Známé komety: \textbf{Halleyova} (návrat každých 76 let), \textbf{Hale-Bopp}, \textbf{NEOWISE}.

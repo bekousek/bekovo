@@ -401,7 +401,7 @@ olověný akumulátor & 2 V/článek (12 V auto) & autobaterie \\
 \vspace{2mm}
 
 \begin{itemize}
-    \item \textbf{Článek} -- jeden zdroj napětí (jedna "baterka" 1,5 V).
+    \item \textbf{Článek} -- jeden zdroj napětí (jedna \uv{baterka} 1,5 V).
     \item \textbf{Baterie} = více článků spojených dohromady (9V baterie = 6$\times$1,5 V).
     \item \textbf{Akumulátor} -- článek/baterie, kterou lze \textbf{znovu nabít}.
 \end{itemize}
@@ -728,7 +728,7 @@ $U_2 = ?$ V
 L1 & černá / hnědá & 1. fáze \\
 L2 & černá / hnědá & 2. fáze \\
 L3 & černá / hnědá & 3. fáze \\
-N (nulový) & modrá & "zpáteční" cesta \\
+N (nulový) & modrá & \uv{zpáteční} cesta \\
 PE (ochranný) & zeleno-žlutá & uzemnění -- bezpečnost \\
 \hline
 \end{tabular}
@@ -1181,13 +1181,13 @@ Při stejném výkonu $P = U \cdot I$: \textbf{vyšší napětí} $\Rightarrow$ 
 \begin{itemize}
     \item Speciální jistič, který chrání \textbf{lidský život}.
     \item Měří, jestli proud, který vchází, je stejný jako proud, který vychází.
-    \item Když proud někudy "uniká" (např. tělem člověka) -- okamžitě vypne.
+    \item Když proud někudy \uv{uniká} (např. tělem člověka) -- okamžitě vypne.
     \item Reaguje za \textbf{30 ms}, prahová hodnota \textbf{30 mA}.
     \item Najdeš ho hlavně v \emph{koupelně, kuchyni, venkovních zásuvkách}.
 \end{itemize}
 
 \vspace{4mm}
-{\Large \bfseries \color{zfblue} Když "vyhodí jistič"}
+{\Large \bfseries \color{zfblue} Když \uv{vyhodí jistič}}
 \vspace{2mm}
 
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
@@ -1278,7 +1278,7 @@ dnes se používá & méně & většinou \\
 \bfseries Typ & \bfseries Proud nesou & \bfseries Příměs (do Si) \\
 \hline
 \textbf{N} (negative) & elektrony ($-$) & fosfor (P), arsen \\
-\textbf{P} (positive) & "díry" (+) & bór (B), galium \\
+\textbf{P} (positive) & \uv{díry} (+) & bór (B), galium \\
 \hline
 \end{tabular}
 \end{center}

@@ -353,7 +353,7 @@ Elektron & asi tisíckrát menší než proton \\
         \node[font=\small] at (0, -2.0) {mřížka molekul vody};
     \end{scope}
 
-    % --- Šipka "tvoří" ---
+    % --- Šipka \uv{tvoří} ---
     \draw[->, very thick] (2.5, 0) -- (4.0, 0);
     \node[font=\scriptsize, above=1pt] at (3.25, 0) {tvoří};
 

@@ -373,7 +373,7 @@ mostní váha & nákladní auta, vagóny \\
 \vspace{4mm}
 
 \begin{itemize}
-    \item \textbf{Hustota} udává, jak je látka "natěsno". Říká, kolik váží 1 m$^3$ (nebo 1 cm$^3$) látky.
+    \item \textbf{Hustota} udává, jak je látka \uv{natěsno}. Říká, kolik váží 1 m$^3$ (nebo 1 cm$^3$) látky.
     \item Značka: \textbf{$\rho$} (řecké písmeno \emph{ró}).
     \item Hlavní jednotka: \textbf{kg/m$^3$}, často také \textbf{g/cm$^3$}.
 \end{itemize}

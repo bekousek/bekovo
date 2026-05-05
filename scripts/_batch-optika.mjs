@@ -476,7 +476,7 @@ vypuklé & rozptyluje paprsky & zpětné zrcátko aut, bezpečnostní zrcadla na
 
 \begin{itemize}
     \item \textbf{Oko} je optický přístroj, který nám umožňuje vidět svět.
-    \item Funguje jako \textbf{živý fotoaparát} -- na sítnici se promítá obraz, který mozek "rozluští".
+    \item Funguje jako \textbf{živý fotoaparát} -- na sítnici se promítá obraz, který mozek \uv{rozluští}.
 \end{itemize}
 
 \vspace{4mm}

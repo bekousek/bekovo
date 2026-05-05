@@ -322,7 +322,7 @@ vypínač (spínač) & otevírá/zavírá obvod & vypínač světla \\
 \vspace{2mm}
 
 \begin{itemize}
-    \item \textbf{Napětí} = "tlak", který nutí elektrony pohybovat se ve vodiči.
+    \item \textbf{Napětí} = \uv{tlak}, který nutí elektrony pohybovat se ve vodiči.
     \item Vzniká \textbf{ve zdroji} (baterie, zásuvka, akumulátor).
     \item Značka: \textbf{U}. Jednotka: \textbf{volt (V)}.
     \item Měříme ho \textbf{voltmetrem}.

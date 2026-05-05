@@ -157,7 +157,7 @@ $s = ?$ m
 \begin{itemize}
     \item \textbf{Ozvěna} -- zvuk se odrazí od překážky a vrátí se k nám.
     \item Aby vznikla samostatná ozvěna, musí být překážka aspoň 17 m daleko.
-    \item \textbf{Dozvuk} -- v sálu se zvuk mnohonásobně odráží. Slyšíme "doznívání".
+    \item \textbf{Dozvuk} -- v sálu se zvuk mnohonásobně odráží. Slyšíme \uv{doznívání}.
     \item \textbf{Sonar} a \textbf{ultrazvuk} využívají odraz zvuku k měření vzdálenosti.
 \end{itemize}
 
@@ -420,7 +420,7 @@ varhany & velký nástroj se stovkami píšťal \\
 \vspace{2mm}
 
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
-\textbf{Rezonance} -- těleso "rozkmitá" jiné, když mají stejnou vlastní frekvenci. Tak se zvuk struny zesílí ve dřevěné \emph{rezonanční skříni} kytary.
+\textbf{Rezonance} -- těleso \uv{rozkmitá} jiné, když mají stejnou vlastní frekvenci. Tak se zvuk struny zesílí ve dřevěné \emph{rezonanční skříni} kytary.
 \end{tcolorbox}
 
 \vspace{2mm}

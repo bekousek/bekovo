@@ -73,7 +73,7 @@ virus & $10^{-7}$ m = 100 nm & jen elektronový mikroskop \\
 atom & $10^{-10}$ m = 0,1 nm & velikost není ostrá \\
 jádro atomu & $10^{-15}$ m = 1 fm & 100\,000$\times$ menší než atom \\
 proton, neutron & $10^{-15}$ m & nukleony \\
-kvark, elektron & $< 10^{-18}$ m & "bodové" částice \\
+kvark, elektron & $< 10^{-18}$ m & \uv{bodové} částice \\
 \hline
 \end{tabular}
 \end{center}
@@ -141,7 +141,7 @@ kvark, elektron & $< 10^{-18}$ m & "bodové" částice \\
 \begin{itemize}
     \item \textbf{Optický mikroskop} -- atomy jsou menší než vlnová délka světla, neuvidí je.
     \item \textbf{Elektronový mikroskop} -- místo světla \emph{elektrony}, lepší rozlišení.
-    \item \textbf{Tunelovací mikroskop (STM)} -- "ohmatá" povrch atomu po atomu.
+    \item \textbf{Tunelovací mikroskop (STM)} -- \uv{ohmatá} povrch atomu po atomu.
     \item \textbf{Urychlovače částic} (CERN) -- srážky vysokoenergetických částic odhalují kvarky.
 \end{itemize}
 `,
@@ -174,7 +174,7 @@ Představa o stavbě atomu se v historii \textbf{vyvíjela}. Každý nový model
 \end{itemize}
 
 \vspace{3mm}
-{\Large \bfseries \color{zfblue} Thomsonův "pudinkový" model (1897)}
+{\Large \bfseries \color{zfblue} Thomsonův \uv{pudinkový} model (1897)}
 \vspace{2mm}
 
 \begin{center}
@@ -183,7 +183,7 @@ Představa o stavbě atomu se v historii \textbf{vyvíjela}. Každý nový model
     \foreach \x/\y in {-0.6/0.5, 0.5/0.6, -0.4/-0.5, 0.6/-0.3, 0/0.8, 0.2/0, -0.8/0, 0.7/0.2} {
         \fill[zfblue] (\x, \y) circle (0.07);
     }
-    \node[font=\small, anchor=west] at (1.4, 0) {Thomson: kladné "těsto"};
+    \node[font=\small, anchor=west] at (1.4, 0) {Thomson: kladné \uv{těsto}};
     \node[font=\small, anchor=west] at (1.4, -0.4) {s rozesetými elektrony ($-$)};
 \end{tikzpicture}
 \end{center}
@@ -241,7 +241,7 @@ Představa o stavbě atomu se v historii \textbf{vyvíjela}. Každý nový model
     \shade[ball color=zfblue!30, opacity=0.5] (0, 0) circle (1.8);
     \shade[ball color=zfblue!50, opacity=0.6] (0, 0) circle (1.2);
     \fill[zfred] (0, 0) circle (0.1);
-    \node[font=\small, anchor=west] at (2, 0) {jádro + "oblak" pravděpodobnosti};
+    \node[font=\small, anchor=west] at (2, 0) {jádro + \uv{oblak} pravděpodobnosti};
     \node[font=\small, anchor=west] at (2, -0.4) {kde se může elektron nacházet};
 \end{tikzpicture}
 \end{center}

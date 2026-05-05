@@ -249,7 +249,7 @@ Látky se vyskytují ve třech základních skupenstvích:
 \begin{tikzpicture}[scale=1, every node/.style={font=\small}]
     \draw[thick] (0,0) rectangle (4.8, 2.8);
 
-    % "Obláček" plynu — TikZ shape "cloud" z shapes.symbols (vypadá jako mrak)
+    % \uv{Obláček} plynu — TikZ shape \uv{cloud} z shapes.symbols (vypadá jako mrak)
     \node[cloud, draw=zfred, fill=zfred!25, line width=0.9pt, cloud puffs=11, cloud puff arc=120, minimum width=2.4cm, minimum height=1.3cm, aspect=1.7] (oblak) at (2.4, 1.4) {};
 
     % Šipky roztahování — z okrajů obláčku ven

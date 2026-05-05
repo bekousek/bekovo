@@ -110,7 +110,7 @@ const entries = {
 
 \begin{itemize}
     \item Pro \emph{krystalické} látky (sůl, kov, led) je to \textbf{přesně daná hodnota}.
-    \item Při tání i tuhnutí se teplota nemění -- teplo "spotřebuje" změna skupenství.
+    \item Při tání i tuhnutí se teplota nemění -- teplo \uv{spotřebuje} změna skupenství.
     \item Pro \emph{amorfní} látky (sklo, vosk, plasty) přechod není ostrý -- látka postupně měkne.
 \end{itemize}
 
@@ -152,7 +152,7 @@ hliník & 660 & 2467 \\
 \begin{itemize}
     \item Při změně skupenství \textbf{teplota se nemění}, ale látka teplo \textbf{přijímá nebo odevzdává}.
     \item Toto teplo se nazývá \textbf{skupenské teplo}.
-    \item \emph{"Skryté"} -- nevidíme změnu teploty, ale energie přechází.
+    \item \emph{\uv{Skryté}} -- nevidíme změnu teploty, ale energie přechází.
 \end{itemize}
 
 \vspace{4mm}
