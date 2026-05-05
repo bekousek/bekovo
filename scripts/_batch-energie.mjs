@@ -167,11 +167,27 @@ fotosyntéza & světelná $\to$ chemická \\
 \vspace{2mm}
 
 \noindent
-\textbf{Zadání:} Jablko (0,1 kg) leží na stole vysokém 0,8 m. Jakou má polohovou energii?
+\textbf{Příklad:} Jablko (0,1 kg) leží na stole vysokém 0,8 m. Jakou má polohovou energii?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$E_p = m \cdot g \cdot h = 0{,}1 \cdot 10 \cdot 0{,}8 = 0{,}8$ J
+\textbf{Zápis:}\\
+$m = 0{,}1$ kg\\
+$h = 0{,}8$ m\\
+$g = 10$ N/kg\\
+$E_p = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $E_p = m \cdot g \cdot h$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $E_p = 0{,}1~\text{kg} \cdot 10~\text{N/kg} \cdot 0{,}8~\text{m} = 0{,}8$ J
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Jablko má polohovou energii 0,8 J.
 `,
 
   // ─────────────────────────────────────────────────────────────────────
@@ -263,27 +279,73 @@ lidský organismus (fyzická práce) & 20--25 \% \\
 \vspace{2mm}
 
 \noindent
-\textbf{1)} Žárovka odebírá z elektřiny 60 W, ale světlo vyzařuje s výkonem 3 W. Účinnost?
+\textbf{Příklad 1:} Žárovka odebírá z elektřiny 60 W, ale světlo vyzařuje s výkonem 3 W. Jaká je její účinnost?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$\eta = \dfrac{P_{už}}{P_c} \cdot 100\,\% = \dfrac{3}{60} \cdot 100\,\% = 5\,\%$
+\textbf{Zápis:}\\
+$P_c = 60$ W (celkový příkon)\\
+$P_{už} = 3$ W (užitečný výkon)\\
+$\eta = ?\,\%$
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{2)} Motor s účinností 80 \% odebírá energii 1\,000 J. Kolik užitečné energie vykoná?
+\textbf{Vzorec:} \quad $\eta = \dfrac{P_{už}}{P_c} \cdot 100\,\%$
 
-\vspace{1mm}
+\smallskip
 \noindent
-$W_{už} = \eta \cdot W_c = 0{,}8 \cdot 1\,000 = 800$ J
+\textbf{Dosazení:} \quad $\eta = \dfrac{3~\text{W}}{60~\text{W}} \cdot 100\,\% = 5\,\%$
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{3)} Žárovku 60 W nahradíme LED za 6 W o stejném světelném výkonu. Kolik ušetříme za rok?
+\textbf{Odpověď:} Účinnost žárovky je 5 \% (zbytek se mění na teplo).
 
-\vspace{1mm}
+\vspace{4mm}
 \noindent
-Úspora: $60 - 6 = 54$ W. Za rok (8 h denně) = $54 \cdot 8 \cdot 365 = 157\,680$ Wh $\approx$ 158 kWh.
+\textbf{Příklad 2:} Motor s účinností 80 \% odebírá energii 1\,000 J. Kolik užitečné energie vykoná?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$\eta = 80\,\% = 0{,}8$\\
+$W_c = 1\,000$ J\\
+$W_{už} = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $W_{už} = \eta \cdot W_c$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $W_{už} = 0{,}8 \cdot 1\,000~\text{J} = 800$ J
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Motor vykoná užitečnou práci 800 J.
+
+\vspace{4mm}
+\noindent
+\textbf{Příklad 3:} Žárovku 60 W nahradíme LED za 6 W o stejném světelném výkonu. Kolik ušetříme za rok, pokud svítí 8 h denně?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$P_1 = 60$ W (klasická žárovka)\\
+$P_2 = 6$ W (LED)\\
+$t = 8$ h/den $\cdot$ 365 dní = 2\,920 h\\
+úspora $= ?$ kWh
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad úspora $= (P_1 - P_2) \cdot t$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad úspora $= (60 - 6)~\text{W} \cdot 2\,920~\text{h} = 157\,680$ Wh $\approx 158$ kWh
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Za rok ušetříme cca 158 kWh elektřiny.
 `,
 
   // ─────────────────────────────────────────────────────────────────────
@@ -405,11 +467,27 @@ mikrotenový sáček s ledem & izolant proti teplu zvenčí \\
 
 \vspace{2mm}
 \noindent
-\textbf{Příklad:} Ohřátí 2 kg vody z 20 \textdegree C na 80 \textdegree C.
+\textbf{Příklad:} Kolik tepla potřebujeme k ohřátí 2 kg vody z 20\,\textdegree C na 80\,\textdegree C?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$Q = 2 \cdot 4\,180 \cdot 60 = 501\,600$ J $\approx$ 500 kJ
+\textbf{Zápis:}\\
+$m = 2$ kg\\
+$\Delta t = 80 - 20 = 60$ \textdegree C\\
+$c = 4\,180$ J/(kg$\cdot$\textdegree C)\\
+$Q = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $Q = m \cdot c \cdot \Delta t$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $Q = 2~\text{kg} \cdot 4\,180~\text{J/(kg}\cdot\text{\textdegree C)} \cdot 60~\text{\textdegree C} = 501\,600$ J $\approx 500$ kJ
+
+\smallskip
+\noindent
+\textbf{Odpověď:} K ohřátí potřebujeme přibližně 500 kJ tepla.
 `,
 };
 

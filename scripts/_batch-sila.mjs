@@ -394,19 +394,36 @@ digitální (tenzometrický) & dle modelu & průmyslové vážení \\
 \end{itemize}
 
 \vspace{2mm}
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
 \begin{center}
-\Large $F_g = m \cdot g$ \quad\quad
-$g \approx 10$ N/kg \,(přesněji 9{,}81)
+\Large $F_g = m \cdot g$
 \end{center}
 \end{tcolorbox}
+\begin{itemize}
+    \item \textbf{$F_g$} -- tíhová síla (N)
+    \item \textbf{m} -- hmotnost (kg)
+    \item \textbf{g} -- tíhové zrychlení ($\approx 10$ N/kg)
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick] (0,0) -- (4,0) -- (2, 3.4) -- cycle;
+    \draw[thick] (1.05, 1.7) -- (2.95, 1.7);
+    \draw[thick] (2, 0) -- (2, 1.7);
+    \node[font=\Large\bfseries, color=zfblue] at (2, 2.4) {$F_g$};
+    \node[font=\Large\bfseries, color=zfred] at (1.5, 0.85) {$m$};
+    \node[font=\Large\bfseries, color=zfgreen] at (2.5, 0.85) {$g$};
+\end{tikzpicture}\\[1mm]
+{\scriptsize zakryj veličinu, kterou hledáš}
+\end{center}
+\end{minipage}
 
 \vspace{2mm}
-\begin{itemize}
-    \item \textbf{m} -- hmotnost (kg), \textbf{g} -- tíhové zrychlení.
-    \item \textbf{g} se nepatrně liší: na rovníku 9,78; na pólech 9,83 N/kg.
-    \item Pro ZŠ počítáme \textbf{$g = 10$ N/kg} -- snadné počítání.
-\end{itemize}
+\noindent
+\textbf{Pozn.:} \textbf{g} se nepatrně liší: na rovníku 9,78; na pólech 9,83 N/kg. Pro ZŠ počítáme \textbf{$g = 10$ N/kg} -- snadné počítání.
 
 \vspace{4mm}
 {\Large \bfseries \color{zfblue} Příklady tíhové síly}
@@ -454,11 +471,26 @@ Jupiter & 25 & vážíš 2,5$\times$ víc \\
 \vspace{2mm}
 
 \noindent
-\textbf{Zadání:} Žák má hmotnost 50 kg. Jak velkou tíhovou silou na něj působí Země?
+\textbf{Příklad:} Žák má hmotnost 50 kg. Jak velkou tíhovou silou na něj působí Země?
 
-\vspace{1mm}
+\smallskip
 \noindent
-\textbf{Řešení:} \quad $F_g = m \cdot g = 50 \cdot 10 = 500$ N.
+\textbf{Zápis:}\\
+$m = 50$ kg\\
+$g = 10$ N/kg\\
+$F_g = ?$ N
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $F_g = m \cdot g$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $F_g = 50~\text{kg} \cdot 10~\text{N/kg} = 500$ N
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Země přitahuje žáka silou 500 N.
 `,
 
   // ─────────────────────────────────────────────────────────────────────

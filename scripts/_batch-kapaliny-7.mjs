@@ -60,16 +60,35 @@ const entries = {
 {\Large \bfseries \color{zfblue} Vzorec pro tlak}
 \vspace{2mm}
 
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
 \begin{center}
-\Large $p = \dfrac{F}{S}$ \quad\quad
-$F = p \cdot S$ \quad\quad
-$S = \dfrac{F}{p}$
+\Large $p = \dfrac{F}{S}$
 \end{center}
 \end{tcolorbox}
-
 \begin{itemize}
-    \item \textbf{F} -- tlaková síla (N), \textbf{S} -- plocha (m$^2$).
+    \item \textbf{p} -- tlak (Pa)
+    \item \textbf{F} -- tlaková síla (N)
+    \item \textbf{S} -- plocha (m$^2$)
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick] (0,0) -- (4,0) -- (2, 3.4) -- cycle;
+    \draw[thick] (1.05, 1.7) -- (2.95, 1.7);
+    \draw[thick] (2, 0) -- (2, 1.7);
+    \node[font=\Large\bfseries, color=zfblue] at (2, 2.4) {$F$};
+    \node[font=\Large\bfseries, color=zfred] at (1.5, 0.85) {$p$};
+    \node[font=\Large\bfseries, color=zfgreen] at (2.5, 0.85) {$S$};
+\end{tikzpicture}\\[1mm]
+{\scriptsize zakryj veličinu, kterou hledáš}
+\end{center}
+\end{minipage}
+
+\vspace{2mm}
+\begin{itemize}
     \item Stejná síla na \textbf{menší ploše} = \textbf{větší} tlak.
     \item Stejná síla na \textbf{větší ploše} = \textbf{menší} tlak.
 \end{itemize}
@@ -133,15 +152,29 @@ tlak v hydraulickém lisu & až MPa (miliony Pa) \\
 \vspace{2mm}
 
 \noindent
-\textbf{Zadání:} Žák o hmotnosti 50 kg stojí na obou nohách. Plocha podrážek je 0,02 m$^2$. Jaký tlak působí na podlahu?
+\textbf{Příklad:} Žák o hmotnosti 50 kg stojí na obou nohách. Plocha podrážek je 0,02 m$^2$. Jaký tlak působí na podlahu?
 
-\vspace{1mm}
+\smallskip
 \noindent
-\textbf{Tíhová síla:} \quad $F_g = m \cdot g = 50 \cdot 10 = 500$ N
-\vspace{1mm}
+\textbf{Zápis:}\\
+$m = 50$ kg\\
+$S = 0{,}02$ m$^2$\\
+$g = 10$ N/kg\\
+$p = ?$ Pa
 
+\smallskip
 \noindent
-\textbf{Tlak:} \quad $p = \dfrac{F}{S} = \dfrac{500}{0{,}02} = 25\,000$ Pa = 25 kPa
+\textbf{Vzorec:} \quad $F_g = m \cdot g$, \quad $p = \dfrac{F}{S}$
+
+\smallskip
+\noindent
+\textbf{Dosazení:}\\
+$F_g = 50~\text{kg} \cdot 10~\text{N/kg} = 500$ N\\
+$p = \dfrac{500~\text{N}}{0{,}02~\text{m}^2} = 25\,000$ Pa $= 25$ kPa
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Žák tlačí na podlahu tlakem 25 kPa.
 `,
 
   // ─────────────────────────────────────────────────────────────────────
@@ -358,11 +391,27 @@ ponorka v moři & 100 m & 1\,000 kPa = 1 MPa \\
 \vspace{2mm}
 
 \noindent
-\textbf{Zadání:} Jaký je tlak na dně bazénu o hloubce 2 m?
+\textbf{Příklad:} Jaký je tlak na dně bazénu o hloubce 2 m?
 
-\vspace{1mm}
+\smallskip
 \noindent
-\textbf{Řešení:} \quad $p_h = h \cdot \rho \cdot g = 2 \cdot 1000 \cdot 10 = 20\,000$ Pa = 20 kPa
+\textbf{Zápis:}\\
+$h = 2$ m\\
+$\rho = 1\,000$ kg/m$^3$ (voda)\\
+$g = 10$ N/kg\\
+$p_h = ?$ Pa
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $p_h = h \cdot \rho \cdot g$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $p_h = 2~\text{m} \cdot 1\,000~\text{kg/m}^3 \cdot 10~\text{N/kg} = 20\,000$ Pa $= 20$ kPa
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Tlak na dně bazénu je 20 kPa.
 `,
 
   // ─────────────────────────────────────────────────────────────────────

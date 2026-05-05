@@ -251,21 +251,51 @@ hliník & 397 & 10\,500 \\
 \vspace{2mm}
 
 \noindent
-\textbf{1)} Kolik tepla je potřeba k roztátí 2 kg ledu (0\,\textdegree C)?
+\textbf{Příklad 1:} Kolik tepla je potřeba k roztátí 2 kg ledu o teplotě 0\,\textdegree C?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$Q = m \cdot l_t = 2 \cdot 334\,000 = 668\,000$ J $\approx$ 668 kJ
+\textbf{Zápis:}\\
+$m = 2$ kg\\
+$l_t = 334$ kJ/kg $= 334\,000$ J/kg\\
+$Q = ?$ J
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{2)} Kolik tepla je potřeba k vypaření 1 kg vody (100\,\textdegree C)?
+\textbf{Vzorec:} \quad $Q = m \cdot l_t$
 
-\vspace{1mm}
+\smallskip
 \noindent
-$Q = m \cdot l_v = 1 \cdot 2\,260\,000 = 2\,260\,000$ J = \textbf{2,26 MJ}
+\textbf{Dosazení:} \quad $Q = 2~\text{kg} \cdot 334\,000~\text{J/kg} = 668\,000$ J $\approx 668$ kJ
 
-\vspace{3mm}
+\smallskip
+\noindent
+\textbf{Odpověď:} K roztátí 2 kg ledu je potřeba 668 kJ tepla.
+
+\vspace{4mm}
+\noindent
+\textbf{Příklad 2:} Kolik tepla je potřeba k vypaření 1 kg vody o teplotě 100\,\textdegree C?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$m = 1$ kg\\
+$l_v = 2\,260$ kJ/kg $= 2\,260\,000$ J/kg\\
+$Q = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $Q = m \cdot l_v$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $Q = 1~\text{kg} \cdot 2\,260\,000~\text{J/kg} = 2\,260\,000$ J $= 2{,}26$ MJ
+
+\smallskip
+\noindent
+\textbf{Odpověď:} K vypaření 1 kg vody je potřeba 2,26 MJ tepla.
+
+\vspace{2mm}
 \noindent
 \textbf{Vidíš:} Vypařit 1 kg vody potřebuje \emph{6,8$\times$ více} energie než roztát 1 kg ledu.
 

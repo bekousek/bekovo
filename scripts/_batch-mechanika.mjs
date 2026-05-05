@@ -59,18 +59,36 @@ const entries = {
 {\Large \bfseries \color{zfblue} Vzorec pro práci}
 \vspace{2mm}
 
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
 \begin{center}
-\Large $W = F \cdot s$ \quad\quad
-$F = \dfrac{W}{s}$ \quad\quad
-$s = \dfrac{W}{F}$
+\Large $W = F \cdot s$
 \end{center}
 \end{tcolorbox}
-
 \begin{itemize}
-    \item \textbf{F} -- síla (N), \textbf{s} -- dráha ve směru síly (m), \textbf{W} -- práce (J).
-    \item Vzorec platí, když síla \textbf{působí ve směru pohybu}.
+    \item \textbf{W} -- práce (J)
+    \item \textbf{F} -- síla (N)
+    \item \textbf{s} -- dráha ve směru síly (m)
 \end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick] (0,0) -- (4,0) -- (2, 3.4) -- cycle;
+    \draw[thick] (1.05, 1.7) -- (2.95, 1.7);
+    \draw[thick] (2, 0) -- (2, 1.7);
+    \node[font=\Large\bfseries, color=zfblue] at (2, 2.4) {$W$};
+    \node[font=\Large\bfseries, color=zfred] at (1.5, 0.85) {$F$};
+    \node[font=\Large\bfseries, color=zfgreen] at (2.5, 0.85) {$s$};
+\end{tikzpicture}\\[1mm]
+{\scriptsize zakryj veličinu, kterou hledáš}
+\end{center}
+\end{minipage}
+
+\vspace{2mm}
+\noindent
+\textbf{Pozn.:} Vzorec platí, když síla \textbf{působí ve směru pohybu}.
 
 \vspace{4mm}
 {\Large \bfseries \color{zfblue} Kdy se práce koná}
@@ -139,29 +157,78 @@ megajoule & MJ & 1 MJ = 1\,000\,000 J \\
 \vspace{2mm}
 
 \noindent
-\textbf{1)} Žák zvedne knihu (1 kg) o 2 m vzhůru. Jakou práci vykonal?
+\textbf{Příklad 1:} Žák zvedne knihu (1 kg) o 2 m vzhůru. Jakou práci vykonal?
 
-\vspace{1mm}
+\smallskip
 \noindent
-\textbf{Síla:} $F = m \cdot g = 1 \cdot 10 = 10$ N
-\quad
-\textbf{Práce:} $W = F \cdot s = 10 \cdot 2 = 20$ J
+\textbf{Zápis:}\\
+$m = 1$ kg\\
+$s = 2$ m\\
+$g = 10$ N/kg\\
+$W = ?$ J
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{2)} Tažení vozíku silou 50 N po dráze 8 m.
+\textbf{Vzorec:} \quad $F = m \cdot g$, \quad $W = F \cdot s$
 
-\vspace{1mm}
+\smallskip
 \noindent
-$W = F \cdot s = 50 \cdot 8 = 400$ J
+\textbf{Dosazení:}\\
+$F = 1~\text{kg} \cdot 10~\text{N/kg} = 10$ N\\
+$W = 10~\text{N} \cdot 2~\text{m} = 20$ J
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{3)} Zvednutí žáka (40 kg) do druhého patra (6 m).
+\textbf{Odpověď:} Žák vykonal práci 20 J.
 
-\vspace{1mm}
+\vspace{4mm}
 \noindent
-$F = 40 \cdot 10 = 400$ N \quad $W = 400 \cdot 6 = 2400$ J = 2,4 kJ
+\textbf{Příklad 2:} Tažením vozíku silou 50 N po dráze 8 m. Jaká byla vykonaná práce?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$F = 50$ N\\
+$s = 8$ m\\
+$W = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $W = F \cdot s$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $W = 50~\text{N} \cdot 8~\text{m} = 400$ J
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Práce vykonaná silou je 400 J.
+
+\vspace{4mm}
+\noindent
+\textbf{Příklad 3:} Žák (40 kg) vyběhne do druhého patra (6 m). Jakou práci vykonal proti tíze?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$m = 40$ kg\\
+$s = 6$ m\\
+$g = 10$ N/kg\\
+$W = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $F = m \cdot g$, \quad $W = F \cdot s$
+
+\smallskip
+\noindent
+\textbf{Dosazení:}\\
+$F = 40~\text{kg} \cdot 10~\text{N/kg} = 400$ N\\
+$W = 400~\text{N} \cdot 6~\text{m} = 2\,400$ J $= 2{,}4$ kJ
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Žák vykonal práci 2,4 kJ.
 `,
 
   // ─────────────────────────────────────────────────────────────────────
@@ -273,15 +340,27 @@ $F = 40 \cdot 10 = 400$ N \quad $W = 400 \cdot 6 = 2400$ J = 2,4 kJ
 \vspace{2mm}
 
 \noindent
-\textbf{Zadání:} Bednu o tíze 200 N vytáhneme po nakloněné rovině dlouhé 4 m do výšky 1 m. Jakou silou musíme táhnout?
+\textbf{Příklad:} Bednu o tíze 200 N vytáhneme po nakloněné rovině dlouhé 4 m do výšky 1 m. Jakou silou musíme táhnout?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$F_1 \cdot s_1 = F_g \cdot s_2 \quad\Rightarrow\quad F_1 = \dfrac{F_g \cdot s_2}{s_1} = \dfrac{200 \cdot 1}{4} = 50$ N
+\textbf{Zápis:}\\
+$F_g = 200$ N\\
+$s_1 = 4$ m (délka rampy)\\
+$s_2 = 1$ m (výška)\\
+$F_1 = ?$ N
 
-\vspace{1mm}
+\smallskip
 \noindent
-\textbf{Bez rampy} bychom potřebovali 200 N, s rampou \textbf{jen 50 N}.
+\textbf{Vzorec:} \quad $F_1 \cdot s_1 = F_g \cdot s_2 \quad\Rightarrow\quad F_1 = \dfrac{F_g \cdot s_2}{s_1}$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $F_1 = \dfrac{200~\text{N} \cdot 1~\text{m}}{4~\text{m}} = 50$ N
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Stačí síla 50 N (místo 200 N bez rampy).
 `,
 
   // ─────────────────────────────────────────────────────────────────────
@@ -300,18 +379,36 @@ $F_1 \cdot s_1 = F_g \cdot s_2 \quad\Rightarrow\quad F_1 = \dfrac{F_g \cdot s_2}
 {\Large \bfseries \color{zfblue} Vzorec}
 \vspace{2mm}
 
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
 \begin{center}
-\Large $P = \dfrac{W}{t}$ \quad\quad
-$W = P \cdot t$ \quad\quad
-$t = \dfrac{W}{P}$
+\Large $P = \dfrac{W}{t}$
 \end{center}
 \end{tcolorbox}
-
 \begin{itemize}
-    \item \textbf{W} -- vykonaná práce (J), \textbf{t} -- doba (s), \textbf{P} -- výkon (W).
-    \item 1 W = 1 J/s.
+    \item \textbf{P} -- výkon (W)
+    \item \textbf{W} -- vykonaná práce (J)
+    \item \textbf{t} -- doba, za kterou se vykonala (s)
 \end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick] (0,0) -- (4,0) -- (2, 3.4) -- cycle;
+    \draw[thick] (1.05, 1.7) -- (2.95, 1.7);
+    \draw[thick] (2, 0) -- (2, 1.7);
+    \node[font=\Large\bfseries, color=zfblue] at (2, 2.4) {$W$};
+    \node[font=\Large\bfseries, color=zfred] at (1.5, 0.85) {$P$};
+    \node[font=\Large\bfseries, color=zfgreen] at (2.5, 0.85) {$t$};
+\end{tikzpicture}\\[1mm]
+{\scriptsize zakryj veličinu, kterou hledáš}
+\end{center}
+\end{minipage}
+
+\vspace{2mm}
+\noindent
+\textbf{Pozn.:} 1 W = 1 J/s.
 
 \vspace{4mm}
 {\Large \bfseries \color{zfblue} Násobky wattu}
@@ -375,27 +472,72 @@ Slunce & 380 ZW (zettawattů) \\
 \vspace{2mm}
 
 \noindent
-\textbf{1)} Žák vykonal práci 1\,200 J za 60 s. Jaký byl jeho výkon?
+\textbf{Příklad 1:} Žák vykonal práci 1\,200 J za 60 s. Jaký byl jeho výkon?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$P = \dfrac{W}{t} = \dfrac{1200}{60} = 20$ W
+\textbf{Zápis:}\\
+$W = 1\,200$ J\\
+$t = 60$ s\\
+$P = ?$ W
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{2)} Žárovka má výkon 60 W. Kolik práce vykoná za 1 hodinu?
+\textbf{Vzorec:} \quad $P = \dfrac{W}{t}$
 
-\vspace{1mm}
+\smallskip
 \noindent
-$t = 1$ h $= 3600$ s, \quad $W = P \cdot t = 60 \cdot 3600 = 216\,000$ J = 216 kJ
+\textbf{Dosazení:} \quad $P = \dfrac{1\,200~\text{J}}{60~\text{s}} = 20$ W
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{3)} Jeřáb má výkon 5 kW. Jak dlouho trvá zvednutí břemene s prací 100 kJ?
+\textbf{Odpověď:} Žák měl výkon 20 W.
 
-\vspace{1mm}
+\vspace{4mm}
 \noindent
-$t = \dfrac{W}{P} = \dfrac{100\,000}{5\,000} = 20$ s
+\textbf{Příklad 2:} Žárovka má výkon 60 W. Kolik práce vykoná za 1 hodinu?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$P = 60$ W\\
+$t = 1$ h $= 3\,600$ s\\
+$W = ?$ J
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $W = P \cdot t$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $W = 60~\text{W} \cdot 3\,600~\text{s} = 216\,000$ J $= 216$ kJ
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Žárovka vykoná za hodinu práci 216 kJ.
+
+\vspace{4mm}
+\noindent
+\textbf{Příklad 3:} Jeřáb má výkon 5 kW. Jak dlouho trvá zvednutí břemene s prací 100 kJ?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$P = 5$ kW $= 5\,000$ W\\
+$W = 100$ kJ $= 100\,000$ J\\
+$t = ?$ s
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $t = \dfrac{W}{P}$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $t = \dfrac{100\,000~\text{J}}{5\,000~\text{W}} = 20$ s
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Jeřáb zvedne břemeno za 20 sekund.
 
 \vspace{3mm}
 {\Large \bfseries \color{zfblue} Energie a kilowatthodina}

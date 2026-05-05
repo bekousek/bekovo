@@ -168,19 +168,36 @@ kolotoč & křivočarý (kruh) & rovnoměrný \\
 {\Large \bfseries \color{zfblue} Vzorec pro rychlost}
 \vspace{2mm}
 
+\noindent
+\begin{minipage}[c]{0.5\textwidth}
 \begin{tcolorbox}[colback=zfgray, colframe=zfblue!50, boxrule=0.5pt, arc=2pt, left=6pt, right=6pt, top=4pt, bottom=4pt]
 \begin{center}
-\Large $v = \dfrac{s}{t}$ \quad\quad\quad
-$s = v \cdot t$ \quad\quad\quad
-$t = \dfrac{s}{v}$
+\Large $v = \dfrac{s}{t}$
 \end{center}
 \end{tcolorbox}
+\begin{itemize}
+    \item \textbf{s} -- dráha (m, km)
+    \item \textbf{t} -- doba pohybu (s, h)
+    \item \textbf{v} -- rychlost (m/s, km/h)
+\end{itemize}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.45\textwidth}
+\begin{center}
+\begin{tikzpicture}[scale=0.8]
+    \draw[thick] (0,0) -- (4,0) -- (2, 3.4) -- cycle;
+    \draw[thick] (1.05, 1.7) -- (2.95, 1.7);
+    \draw[thick] (2, 0) -- (2, 1.7);
+    \node[font=\Large\bfseries, color=zfblue] at (2, 2.4) {$s$};
+    \node[font=\Large\bfseries, color=zfred] at (1.5, 0.85) {$v$};
+    \node[font=\Large\bfseries, color=zfgreen] at (2.5, 0.85) {$t$};
+\end{tikzpicture}\\[1mm]
+{\scriptsize zakryj veličinu, kterou hledáš}
+\end{center}
+\end{minipage}
 
 \vspace{2mm}
-\begin{itemize}
-    \item \textbf{s} = ujetá dráha (m, km), \textbf{t} = doba pohybu (s, h).
-    \item Tento vzorec platí pro \textbf{rovnoměrný} pohyb. U nerovnoměrného počítáme \emph{průměrnou rychlost}.
-\end{itemize}
+\noindent
+\textbf{Pozn.:} Vzorec platí pro \emph{rovnoměrný pohyb}. U nerovnoměrného počítáme \emph{průměrnou rychlost}.
 
 \vspace{4mm}
 {\Large \bfseries \color{zfblue} Převod jednotek}
@@ -228,27 +245,72 @@ světlo ve vakuu & 300\,000\,000 & 1\,080\,000\,000 \\
 \vspace{2mm}
 
 \noindent
-\textbf{1)} Cyklista ujel 36 km za 2 hodiny. Jaká je jeho rychlost?
-\vspace{1mm}
+\textbf{Příklad 1:} Cyklista ujel 36 km za 2 hodiny. Jaká je jeho rychlost?
 
+\smallskip
 \noindent
-\quad $v = \dfrac{s}{t} = \dfrac{36~\text{km}}{2~\text{h}} = 18~\text{km/h}$ \quad (= 5 m/s)
+\textbf{Zápis:}\\
+$s = 36$ km $= 36\,000$ m\\
+$t = 2$ h $= 7\,200$ s\\
+$v = ?$ m/s
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{2)} Auto jede stálou rychlostí 90 km/h. Kolik ujede za 3 hodiny?
-\vspace{1mm}
+\textbf{Vzorec:} \quad $v = \dfrac{s}{t}$
 
+\smallskip
 \noindent
-\quad $s = v \cdot t = 90 \cdot 3 = 270~\text{km}$
+\textbf{Dosazení:} \quad $v = \dfrac{36\,000~\text{m}}{7\,200~\text{s}} = 5$ m/s
 
-\vspace{3mm}
+\smallskip
 \noindent
-\textbf{3)} Vlak jede z Prahy do Brna (200 km) rychlostí 100 km/h. Jak dlouho cesta trvá?
-\vspace{1mm}
+\textbf{Odpověď:} Cyklista jede rychlostí 5 m/s ($= 18$ km/h).
 
+\vspace{4mm}
 \noindent
-\quad $t = \dfrac{s}{v} = \dfrac{200~\text{km}}{100~\text{km/h}} = 2~\text{h}$
+\textbf{Příklad 2:} Auto jede stálou rychlostí 90 km/h. Kolik ujede za 3 hodiny?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$v = 90$ km/h\\
+$t = 3$ h\\
+$s = ?$ km
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $s = v \cdot t$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $s = 90~\text{km/h} \cdot 3~\text{h} = 270$ km
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Auto ujede za 3 hodiny 270 km.
+
+\vspace{4mm}
+\noindent
+\textbf{Příklad 3:} Vlak jede z Prahy do Brna (200 km) rychlostí 100 km/h. Jak dlouho cesta trvá?
+
+\smallskip
+\noindent
+\textbf{Zápis:}\\
+$s = 200$ km\\
+$v = 100$ km/h\\
+$t = ?$ h
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $t = \dfrac{s}{v}$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $t = \dfrac{200~\text{km}}{100~\text{km/h}} = 2$ h
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Cesta trvá 2 hodiny.
 
 \vspace{3mm}
 {\Large \bfseries \color{zfblue} Průměrná rychlost}

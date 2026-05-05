@@ -129,11 +129,26 @@ přírodní & vítr, šumění lesa, hrom, déšť \\
 
 \vspace{2mm}
 \noindent
-\textbf{Zadání:} Mezi bleskem a hřměním uplynulo 6 s. Jak daleko byla bouřka?
+\textbf{Příklad:} Mezi bleskem a hřměním uplynulo 6 s. Jak daleko byla bouřka?
 
-\vspace{1mm}
+\smallskip
 \noindent
-$s = v \cdot t = 340 \cdot 6 = 2\,040$ m $\approx$ 2 km.
+\textbf{Zápis:}\\
+$t = 6$ s\\
+$v = 340$ m/s (rychlost zvuku)\\
+$s = ?$ m
+
+\smallskip
+\noindent
+\textbf{Vzorec:} \quad $s = v \cdot t$
+
+\smallskip
+\noindent
+\textbf{Dosazení:} \quad $s = 340~\text{m/s} \cdot 6~\text{s} = 2\,040$ m $\approx 2$ km
+
+\smallskip
+\noindent
+\textbf{Odpověď:} Bouřka byla zhruba 2 km daleko.
 
 \vspace{4mm}
 {\Large \bfseries \color{zfblue} Ozvěna a dozvuk}
