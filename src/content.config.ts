@@ -24,6 +24,10 @@ const subtopics = defineCollection({
       content: z.string().optional(),
       latex: z.string().optional(),
       latexSvg: z.array(z.string()).optional(),
+      latexPdf: z.object({
+        pageCount: z.number().int().positive(),
+        aspectRatio: z.number().positive(),
+      }).optional(),
     }).optional(),
     lessonPrep: z.object({
       googleDocUrl: z.string().url(),

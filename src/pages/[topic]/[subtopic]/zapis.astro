@@ -13,6 +13,15 @@ export async function getStaticPaths() {
 const { topic, subtopic } = Astro.props;
 
 const latexSvgs: string[] | null = subtopic.notebookEntry?.latexSvg ?? null;
+const latexPdf = subtopic.notebookEntry?.latexPdf ?? null;
+// Soubor PDF/SVG je pojmenován jako "{topicId}--{subtopicId}.pdf",
+// stejně jako to dělá scripts/compile-latex.mjs (basename(jsonFile)).
+const pdfHref  = latexPdf ? `/notebook-pdfs/${topic.id}--${subtopic.id}.pdf` : null;
+// Iframe vyplní šířku, výška se odvodí přes CSS aspect-ratio:
+//   ratio = pageCount × (height / width)  → tj. všechny stránky pod sebou.
+const pdfAspect = latexPdf
+  ? `${1} / ${(latexPdf.pageCount * latexPdf.aspectRatio).toFixed(4)}`
+  : null;
 ---
 <BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
@@ -36,7 +45,37 @@ const latexSvgs: string[] | null = subtopic.notebookEntry?.latexSvg ?? null;
       />
 
       <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-        <div class="notebook-entry prose max-w-none">
+        {pdfHref && pdfAspect ? (
+          <div class="notebook-pdf-wrapper">
+            <iframe
+              src={`${pdfHref}#view=FitH&toolbar=0&navpanes=0`}
+              title={`${subtopic.name} — zápis (PDF)`}
+              class="notebook-pdf"
+              style={`aspect-ratio: ${pdfAspect};`}
+              loading="lazy"
+            />
+            <p class="text-sm text-gray-500 mt-3">
+              Text v PDF lze vyznačit a kopírovat.{' '}
+              <a href={pdfHref} target="_blank" rel="noopener" class="text-blue-700 underline">
+                Otevřít v novém okně
+              </a>
+              {' · '}
+              <a href={pdfHref} download class="text-blue-700 underline">Stáhnout PDF</a>
+            </p>
+          </div>
+        ) : null}
+
+        {/*
+          .notebook-entry zůstává kvůli stávajícímu exportu (NotebookExport
+          čte HTML obsah z .notebook-entry a rasterizuje ho do PDF). Pokud je
+          k dispozici PDF preview výše, SVG schováme — ale v DOM ponecháme,
+          aby export 1×/2×/4× na A4 dále fungoval beze změny.
+        */}
+        <div
+          class="notebook-entry prose max-w-none"
+          style={pdfHref ? 'position:absolute;left:-99999px;top:0;width:1px;height:1px;overflow:hidden;' : undefined}
+          aria-hidden={pdfHref ? 'true' : undefined}
+        >
           {latexSvgs ? (
             latexSvgs.map((svg, i) => (
               <div class={latexSvgs.length > 1 ? 'latex-page' : undefined}>
@@ -60,6 +99,19 @@ const latexSvgs: string[] | null = subtopic.notebookEntry?.latexSvg ?? null;
   )}
 
   <style is:global>
+    /* PDF preview (embed přes iframe) — text je nativně kopírovatelný */
+    .notebook-pdf-wrapper {
+      width: 100%;
+    }
+    .notebook-pdf {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      background: #f9fafb;
+    }
+
     /* Responzivní LaTeX SVG (inline SVG z dvisvgm) */
     .notebook-entry > svg,
     .notebook-entry .latex-page > svg {

@@ -11,7 +11,7 @@
  *   npm run compile-latex -- --id=mereni--teplota   (jen jeden zápis)
  */
 
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, existsSync, copyFileSync } from 'fs';
 import { mkdtempSync, rmSync } from 'fs';
 import { join, resolve, basename, dirname } from 'path';
 import { spawnSync } from 'child_process';
@@ -23,6 +23,7 @@ const projectRoot = resolve(__dirname, '..');
 
 const subtopicsDir = join(projectRoot, 'src', 'content', 'subtopics');
 const outputDir    = join(projectRoot, 'public', 'notebook-svgs');
+const pdfOutputDir = join(projectRoot, 'public', 'notebook-pdfs');
 const preambleFile = join(__dirname, 'latex-preamble.tex');
 
 // Volitelný filtr: --id=<subtopicId>
@@ -38,6 +39,7 @@ for (const tool of ['pdflatex', 'pdfinfo', 'dvisvgm', 'pdf2svg', 'pdftocairo']) 
 console.log('=========================\n');
 
 mkdirSync(outputDir, { recursive: true });
+mkdirSync(pdfOutputDir, { recursive: true });
 
 const preamble = readFileSync(preambleFile, 'utf8');
 if (!preamble.includes('% BODY')) {
@@ -114,9 +116,10 @@ for (const jsonFile of jsonFiles) {
       }
     }
 
-    // --- 3. Zjistit počet stran ---
-    const pageCount = getPdfPageCount(tmpDir);
-    console.log(`  Stran: ${pageCount}`);
+    // --- 3. Zjistit počet stran a rozměry ---
+    const pdfMeta = getPdfMeta(tmpDir);
+    const pageCount = pdfMeta.pageCount;
+    console.log(`  Stran: ${pageCount}, rozměry: ${pdfMeta.widthPt}×${pdfMeta.heightPt} pt`);
 
     // --- 4. PDF → SVG (každá strana zvlášť) ---
     const pageSvgs = [];
@@ -142,9 +145,19 @@ for (const jsonFile of jsonFiles) {
     // --- 5. Uložit do public/notebook-svgs/ (stránky odděleny prázdným řádkem) ---
     writeFileSync(svgOut, pageSvgs.join('\n'), 'utf8');
 
+    // --- 5b. Zkopírovat PDF do public/notebook-pdfs/ (pro embed na stránce) ---
+    const pdfOut = join(pdfOutputDir, `${id}.pdf`);
+    copyFileSync(join(tmpDir, 'document.pdf'), pdfOut);
+
     // --- 6. Uložit inline do JSON ---
     // Pole SVG řetězců — jedno na stránku. Jedno-stranné dokumenty → pole délky 1.
     data.notebookEntry.latexSvg = pageSvgs;
+    // Metadata o PDF souboru — soubor sám je v /notebook-pdfs/{id}.pdf.
+    // aspectRatio = výška / šířka jedné strany (pro CSS aspect-ratio).
+    data.notebookEntry.latexPdf = {
+      pageCount,
+      aspectRatio: +(pdfMeta.heightPt / pdfMeta.widthPt).toFixed(4),
+    };
     writeFileSync(jsonFile, JSON.stringify(data, null, 2) + '\n', 'utf8');
 
     console.log(`  ✓  ${id}.svg (${pageCount} ${pageCount === 1 ? 'strana' : pageCount < 5 ? 'strany' : 'stran'})\n`);
@@ -163,14 +176,25 @@ if (failed > 0) process.exit(1);
 
 // ─── helpers ────────────────────────────────────────────────────────────────
 
-/** Zjistí počet stran PDF přes pdfinfo (poppler-utils). Fallback: 1. */
-function getPdfPageCount(cwd) {
+/**
+ * Zjistí metadata PDF přes pdfinfo (poppler-utils): počet stran a rozměry
+ * první strany v bodech (pt). Fallback: A5 portrait (1 strana, 420×595 pt).
+ */
+function getPdfMeta(cwd) {
   const r = spawnSync('pdfinfo', ['document.pdf'], { cwd, encoding: 'utf8', timeout: 10_000 });
   if (r.status === 0) {
-    const match = r.stdout.match(/^Pages:\s+(\d+)/m);
-    if (match) return parseInt(match[1], 10);
+    const pagesMatch = r.stdout.match(/^Pages:\s+(\d+)/m);
+    const sizeMatch  = r.stdout.match(/^Page size:\s+([\d.]+)\s+x\s+([\d.]+)\s*pts/m);
+    if (pagesMatch && sizeMatch) {
+      return {
+        pageCount: parseInt(pagesMatch[1], 10),
+        widthPt:   parseFloat(sizeMatch[1]),
+        heightPt:  parseFloat(sizeMatch[2]),
+      };
+    }
   }
-  return 1;
+  // A5 portrait je default v latex-preamble.tex
+  return { pageCount: 1, widthPt: 419.53, heightPt: 595.28 };
 }
 
 function tryDvisvgm(cwd, page, outFile) {

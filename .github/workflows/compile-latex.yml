@@ -37,14 +37,14 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Kompilovat LaTeX → SVG
+      - name: Kompilovat LaTeX → SVG + PDF
         run: node scripts/compile-latex.mjs
 
       - name: Commitnout vygenerované soubory
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/notebook-svgs/ src/content/subtopics/
+          git add public/notebook-svgs/ public/notebook-pdfs/ src/content/subtopics/
           git diff --staged --quiet \
             && echo "Žádné nové soubory ke commitnutí." \
-            || (git commit -m "Auto: zkompilovat LaTeX → SVG" && git push)
+            || (git commit -m "Auto: zkompilovat LaTeX → SVG + PDF" && git push)
