@@ -8,12 +8,15 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview",
+    "preview": "npm run build && wrangler dev",
     "astro": "astro",
     "compile-latex": "node scripts/compile-latex.mjs",
-    "copy-sborniky": "node scripts/copy-sborniky.mjs"
+    "copy-sborniky": "node scripts/copy-sborniky.mjs",
+    "generate-types": "wrangler types",
+    "deploy": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/cloudflare": "^13.3.1",
     "@astrojs/react": "^5.0.2",
     "@tailwindcss/vite": "^4.2.2",
     "@types/react": "^19.2.14",
@@ -28,5 +31,11 @@
     "react-dom": "^19.2.4",
     "tailwindcss": "^4.2.2",
     "tsx": "^4.21.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.88.0"
+  },
+  "overrides": {
+    "vite": "^7"
   }
 }
