@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Fyzikální blbinky pro malé i větší",
   "type": "game",
-  "description": "Sbírka krátkých fyzikálních výzev a triků: udrž rovnováhu, zvedni závaží jedním prstem, projdi papírem. Každá „blbinka\" skrývá fyzikální princip – rovnováha, páka, topologie."
+  "description": "Sbírka krátkých fyzikálních výzev a triků: udrž rovnováhu, zvedni závaží jedním prstem, projdi papírem. Každá „blbinka\" skrývá fyzikální princip – rovnováha, páka, topologie.",
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
 }

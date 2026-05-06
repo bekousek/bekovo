@@ -12,5 +12,9 @@
     "žárovky",
     "sůl",
     "voda"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

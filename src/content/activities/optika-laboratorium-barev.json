@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Laboratórium barev – experimenty s barvami",
   "type": "other",
-  "description": "Aktivity s barvami: aditivní a subtraktivní míchání, chromatografie fixů, polarizační barvy krystalů pod mikroskopem. Žáci zkoumají, jak vznikají barvy a proč vidíme svět barevně."
+  "description": "Aktivity s barvami: aditivní a subtraktivní míchání, chromatografie fixů, polarizační barvy krystalů pod mikroskopem. Žáci zkoumají, jak vznikají barvy a proč vidíme svět barevně.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

@@ -11,5 +11,9 @@
     "krupice nebo semínka trávy",
     "elektrody",
     "Van de Graaffův generátor nebo nabíjecí zdroj"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

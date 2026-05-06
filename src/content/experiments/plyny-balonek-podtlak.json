@@ -10,5 +10,9 @@
     "nafukovací balónek",
     "papír",
     "zápalky"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
 }

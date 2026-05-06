@@ -4,5 +4,9 @@
   "topicId": "magnetismus",
   "title": "Magnetismus netradičně – experimenty z Elixíru",
   "type": "method",
-  "description": "Sada experimentů s magnety: magnetická levitace, odpuzování magnetů na tyči, kompas z jehly na vodě, magnetické siločáry z pilin. Důraz na žákovské bádání a formulaci hypotéz."
+  "description": "Sada experimentů s magnety: magnetická levitace, odpuzování magnetů na tyči, kompas z jehly na vodě, magnetické siločáry z pilin. Důraz na žákovské bádání a formulaci hypotéz.",
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
 }

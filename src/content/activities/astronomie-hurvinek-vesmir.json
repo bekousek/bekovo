@@ -4,5 +4,9 @@
   "topicId": "astronomie",
   "title": "S Hurvínkem do vesmíru – družicové dílny",
   "type": "group-work",
-  "description": "Žáci ve skupinách navrhují a staví modely družic z jednoduchých materiálů. Diskuze o tom, co družice ve vesmíru dělají (komunikace, pozorování Země, navigace). Propojení s kosmonautikou."
+  "description": "Žáci ve skupinách navrhují a staví modely družic z jednoduchých materiálů. Diskuze o tom, co družice ve vesmíru dělají (komunikace, pozorování Země, navigace). Propojení s kosmonautikou.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

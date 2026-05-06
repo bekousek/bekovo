@@ -9,5 +9,9 @@
     "několik reproduktorů",
     "měřič hlasitosti",
     "zdroj bílého šumu"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

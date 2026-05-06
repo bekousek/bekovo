@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Balancující ptáček z papíru",
   "type": "other",
-  "description": "Výroba papírového ptáčka, který balancuje na zobáku díky nízko položenému těžišti (závaží na křídlech). Žáci pochopí pojem těžiště a stabilní rovnovážná poloha."
+  "description": "Výroba papírového ptáčka, který balancuje na zobáku díky nízko položenému těžišti (závaží na křídlech). Žáci pochopí pojem těžiště a stabilní rovnovážná poloha.",
+  "source": {
+    "label": "Paper Science",
+    "pdf": "paper-science.pdf"
+  }
 }

@@ -10,5 +10,9 @@
     "kartička",
     "sklenice",
     "ubrus"
-  ]
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
 }

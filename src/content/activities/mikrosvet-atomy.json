@@ -4,5 +4,9 @@
   "topicId": "mikrosvet",
   "title": "Atomy – modelování a vizualizace",
   "type": "method",
-  "description": "Stavba modelů atomů z polystyrénových kuliček a drátků: atom vodíku, helia, uhlíku. Vizualizace elektronových obalů. Diskuze o velikostech: jádro jako hrášek na fotbalovém stadionu."
+  "description": "Stavba modelů atomů z polystyrénových kuliček a drátků: atom vodíku, helia, uhlíku. Vizualizace elektronových obalů. Diskuze o velikostech: jádro jako hrášek na fotbalovém stadionu.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

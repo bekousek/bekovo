@@ -4,5 +4,9 @@
   "topicId": "akustika",
   "title": "Zvučné hračky",
   "type": "other",
-  "description": "Výroba jednoduchých zvukových hraček: bzučák z knoflíku na niti, řehtačka z kartónu, vodní píšťalka, „bručící\" pravítko přes hranu stolu. Žáci pozorují zdroje zvuku a jejich vlastnosti (výška, hlasitost)."
+  "description": "Výroba jednoduchých zvukových hraček: bzučák z knoflíku na niti, řehtačka z kartónu, vodní píšťalka, „bručící\" pravítko přes hranu stolu. Žáci pozorují zdroje zvuku a jejich vlastnosti (výška, hlasitost).",
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "elektricke-obvody",
   "title": "Vánoční obvody – svítící přání a stromeček",
   "type": "other",
-  "description": "Žáci vyrobí vánoční přání s LED diodou zapojenou pomocí měděné pásky a knoflíkové baterie. Pokročilejší varianta: svítící stromeček s více LED zapojenými paralelně. Propojení fyziky s tvořivou činností."
+  "description": "Žáci vyrobí vánoční přání s LED diodou zapojenou pomocí měděné pásky a knoflíkové baterie. Pokročilejší varianta: svítící stromeček s více LED zapojenými paralelně. Propojení fyziky s tvořivou činností.",
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
 }

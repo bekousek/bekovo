@@ -9,5 +9,9 @@
     "zahradní hadice s postřikovačem",
     "slunečné počasí",
     "úhloměr"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

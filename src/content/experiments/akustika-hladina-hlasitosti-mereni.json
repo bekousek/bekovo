@@ -9,5 +9,9 @@
     "reproduktor",
     "měřič hlasitosti nebo mobil s aplikací",
     "pásmo"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

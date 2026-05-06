@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Pokusy a hračky s otazníkem ze staré krabice",
   "type": "other",
-  "description": "Výroba fyzikálních hraček a pomůcek z vyřazených materiálů: rovnováha, těžiště, setrvačnost, pružnost. Ekologický přístup – žáci dávají starým věcem nový smysl a učí se přitom fyziku."
+  "description": "Výroba fyzikálních hraček a pomůcek z vyřazených materiálů: rovnováha, těžiště, setrvačnost, pružnost. Ekologický přístup – žáci dávají starým věcem nový smysl a učí se přitom fyziku.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

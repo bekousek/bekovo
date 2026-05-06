@@ -4,5 +4,9 @@
   "topicId": "elektricke-obvody",
   "title": "Výroba lampičky „zapal–sfoukni\"",
   "type": "other",
-  "description": "Žáci si vyrábějí LED lampičku, která se „zapálí\" přiblížením zápalky (fotorezistor) a „sfouká\" fouknutím (termistor). Praktické využití senzorů v jednoduchém obvodu."
+  "description": "Žáci si vyrábějí LED lampičku, která se „zapálí\" přiblížením zápalky (fotorezistor) a „sfouká\" fouknutím (termistor). Praktické využití senzorů v jednoduchém obvodu.",
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
 }

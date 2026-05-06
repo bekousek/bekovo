@@ -4,5 +4,9 @@
   "topicId": "energie",
   "title": "Perpetuum mobile tisíckrát jinak – proč nefunguje",
   "type": "method",
-  "description": "Žáci analyzují různé návrhy „perpetuum mobile\" z internetu a hledají, proč nemohou fungovat. Aplikují zákon zachování energie a poznávají, že každý stroj má ztráty třením a odporem."
+  "description": "Žáci analyzují různé návrhy „perpetuum mobile\" z internetu a hledají, proč nemohou fungovat. Aplikují zákon zachování energie a poznávají, že každý stroj má ztráty třením a odporem.",
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
 }

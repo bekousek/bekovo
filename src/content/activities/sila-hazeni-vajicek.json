@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Házení vajíček z okna – ochrana před nárazem",
   "type": "game",
-  "description": "Soutěž: žáci staví ochrannou konstrukci pro syrové vejce, které se hází z výšky. Kdo postaví nejlehčí konstrukci, která ochrání vejce? Princip: prodloužení doby brzdění snižuje sílu nárazu (impulz síly)."
+  "description": "Soutěž: žáci staví ochrannou konstrukci pro syrové vejce, které se hází z výšky. Kdo postaví nejlehčí konstrukci, která ochrání vejce? Princip: prodloužení doby brzdění snižuje sílu nárazu (impulz síly).",
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
 }

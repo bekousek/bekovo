@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Špachtlová fyzika",
   "type": "other",
-  "description": "Fyzikální experimenty a stavby z dřevěných špachtlí (lékařských): katapult, Da Vinciho most, pružný kobra had. Špachtle slouží jako pružné nosníky pro demonstraci síly, pružnosti a rovnováhy."
+  "description": "Fyzikální experimenty a stavby z dřevěných špachtlí (lékařských): katapult, Da Vinciho most, pružný kobra had. Špachtle slouží jako pružné nosníky pro demonstraci síly, pružnosti a rovnováhy.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "akustika",
   "title": "Píšťalky, flétny, klarinety",
   "type": "other",
-  "description": "Výroba jednoduchých hudebních nástrojů: píšťalka z brčka, flétnička z PVC trubky, klarinet ze stébla trávy. Žáci zkoumají, jak délka trubice ovlivňuje výšku tónu a jak vzniká zvuk rozkmitáním vzduchu."
+  "description": "Výroba jednoduchých hudebních nástrojů: píšťalka z brčka, flétnička z PVC trubky, klarinet ze stébla trávy. Žáci zkoumají, jak délka trubice ovlivňuje výšku tónu a jak vzniká zvuk rozkmitáním vzduchu.",
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
 }

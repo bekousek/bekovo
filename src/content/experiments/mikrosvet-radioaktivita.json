@@ -10,5 +10,9 @@
     "draselné hnojivo",
     "uranové sklo (staré)",
     "wolframová elektroda"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

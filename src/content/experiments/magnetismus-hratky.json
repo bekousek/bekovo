@@ -13,5 +13,9 @@
     "papír",
     "korkový plovák",
     "jehla"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2015",
+    "pdf": "dilny-heureky-2015.pdf"
+  }
 }

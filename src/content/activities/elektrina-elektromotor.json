@@ -4,5 +4,9 @@
   "topicId": "elektrina",
   "title": "Stavba jednoduchého elektromotoru",
   "type": "other",
-  "description": "Výroba jednoduchého stejnosměrného elektromotoru z cívky měděného drátku, magnetu a baterie. Žáci pochopí princip: proud v magnetickém poli vytváří sílu, komutátor mění směr proudu."
+  "description": "Výroba jednoduchého stejnosměrného elektromotoru z cívky měděného drátku, magnetu a baterie. Žáci pochopí princip: proud v magnetickém poli vytváří sílu, komutátor mění směr proudu.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

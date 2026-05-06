@@ -11,5 +11,9 @@
     "voltmetr",
     "ampérmetr",
     "vodiče"
-  ]
+  ],
+  "source": {
+    "label": "VNUF 2024",
+    "pdf": "vnuf-2024.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "castice-latky",
   "title": "Jednoduché experimenty pro každého",
   "type": "method",
-  "description": "Sada minimalistických pokusů z běžně dostupných materiálů: rozpínání balónku (tlak plynu), difúze barviva ve vodě, smršťování PET láhve (podtlak), ohřev vzduchu v láhvi (roztažnost plynů)."
+  "description": "Sada minimalistických pokusů z běžně dostupných materiálů: rozpínání balónku (tlak plynu), difúze barviva ve vodě, smršťování PET láhve (podtlak), ohřev vzduchu v láhvi (roztažnost plynů).",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

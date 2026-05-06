@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Létající papír",
   "type": "other",
-  "description": "Výroba a testování různých papírových letadel a kluzáků. Zkoumání faktorů ovlivňujících let: tvar křídel, hmotnost, těžiště. Spojení s odporem vzduchu a vztlakovou silou."
+  "description": "Výroba a testování různých papírových letadel a kluzáků. Zkoumání faktorů ovlivňujících let: tvar křídel, hmotnost, těžiště. Spojení s odporem vzduchu a vztlakovou silou.",
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
 }

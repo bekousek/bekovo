@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Pohádka ve fyzice – příběhy s pokusy",
   "type": "method",
-  "description": "Fyzikální pokusy zasazené do příběhu pohádky. Žáci řeší problémy pohádkových postav pomocí fyziky: princezna potřebuje zvednout těžký kámen (páka), drak fouká oheň (proudění vzduchu)."
+  "description": "Fyzikální pokusy zasazené do příběhu pohádky. Žáci řeší problémy pohádkových postav pomocí fyziky: princezna potřebuje zvednout těžký kámen (páka), drak fouká oheň (proudění vzduchu).",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

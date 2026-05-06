@@ -4,5 +4,9 @@
   "topicId": "astronomie",
   "title": "Astronomicky-fyzikální koutek",
   "type": "method",
-  "description": "Sada aktivit propojující fyziku a astronomii: model Sluneční soustavy v měřítku, výpočet gravitačního zrychlení na různých planetách, pozorování Slunce přes hranol. Vhodné pro projektovou výuku."
+  "description": "Sada aktivit propojující fyziku a astronomii: model Sluneční soustavy v měřítku, výpočet gravitačního zrychlení na různých planetách, pozorování Slunce přes hranol. Vhodné pro projektovou výuku.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

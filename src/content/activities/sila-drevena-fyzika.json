@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Dřevěná fyzika – stavby z dřívek",
   "type": "other",
-  "description": "Stavby z dřívek (špejlí, páráttek) demonstrující fyzikální principy: Da Vinciho samonosný most (rozklad sil), katapult (páka), jeřáb (kladka). Žáci pracují ve skupinách a staví funkční modely."
+  "description": "Stavby z dřívek (špejlí, páráttek) demonstrující fyzikální principy: Da Vinciho samonosný most (rozklad sil), katapult (páka), jeřáb (kladka). Žáci pracují ve skupinách a staví funkční modely.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

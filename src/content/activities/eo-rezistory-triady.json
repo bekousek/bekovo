@@ -4,5 +4,9 @@
   "topicId": "elektricke-obvody",
   "title": "Nechte děti sáhnout na rezistory",
   "type": "method",
-  "description": "Žáci pracují s reálnými rezistory: čtení barevného kódu, měření odporu multimetrem, zapojování do obvodu. Hra „Rezistorové triády\" – trojice žáků řeší úlohy na sériové a paralelní zapojení."
+  "description": "Žáci pracují s reálnými rezistory: čtení barevného kódu, měření odporu multimetrem, zapojování do obvodu. Hra „Rezistorové triády\" – trojice žáků řeší úlohy na sériové a paralelní zapojení.",
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
 }

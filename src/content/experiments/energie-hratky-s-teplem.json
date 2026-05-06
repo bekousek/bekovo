@@ -11,5 +11,9 @@
     "papírová spirála",
     "bílý a černý papír",
     "teploměr"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
 }

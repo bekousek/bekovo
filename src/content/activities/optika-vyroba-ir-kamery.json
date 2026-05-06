@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Výroba IR kamery z webkamery",
   "type": "other",
-  "description": "Žáci rozebírají levnou USB webkameru a odstraňují IR filtr. Upravená kamera pak „vidí\" infračervené záření – IR LED, dálkové ovladače, teplo vařiče. Praktická aktivita s překvapivými výsledky."
+  "description": "Žáci rozebírají levnou USB webkameru a odstraňují IR filtr. Upravená kamera pak „vidí\" infračervené záření – IR LED, dálkové ovladače, teplo vařiče. Praktická aktivita s překvapivými výsledky.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

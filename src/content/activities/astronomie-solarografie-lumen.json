@@ -4,5 +4,9 @@
   "topicId": "astronomie",
   "title": "Solarografie a lumen print",
   "type": "other",
-  "description": "Žáci vytvářejí solarografii: do plechovky s dírkou vloží fotopapír a exponují několik týdnů. Na papíru se zachytí dráha Slunce po obloze. Lumen print vzniká přímým vystavením fotopapíru slunci s předmětem."
+  "description": "Žáci vytvářejí solarografii: do plechovky s dírkou vloží fotopapír a exponují několik týdnů. Na papíru se zachytí dráha Slunce po obloze. Lumen print vzniká přímým vystavením fotopapíru slunci s předmětem.",
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
 }

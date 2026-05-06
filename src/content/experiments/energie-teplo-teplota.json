@@ -10,5 +10,9 @@
     "teplá a studená voda",
     "kovové a dřevěné předměty",
     "nádoby"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

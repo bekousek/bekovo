@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Pull-up sítě těles",
   "type": "group-work",
-  "description": "Skupinová aktivita, kde žáci pomocí provázků a kladek zvedají různá tělesa. Zjišťují, jak kladka mění směr síly a jak kladkostroj snižuje potřebnou sílu. Propojení s jednoduchými stroji."
+  "description": "Skupinová aktivita, kde žáci pomocí provázků a kladek zvedají různá tělesa. Zjišťují, jak kladka mění směr síly a jak kladkostroj snižuje potřebnou sílu. Propojení s jednoduchými stroji.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

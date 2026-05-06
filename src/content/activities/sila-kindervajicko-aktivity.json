@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "(Kinder)vajíčko – fyzikální aktivity",
   "type": "game",
-  "description": "Fyzikální aktivity s Kinder vajíčky: hledání těžiště, koulení po nakloněné rovině (vliv rozložení hmoty), stavba padáku pro vejce. Překvapivě univerzální pomůcka pro demonstraci několika principů."
+  "description": "Fyzikální aktivity s Kinder vajíčky: hledání těžiště, koulení po nakloněné rovině (vliv rozložení hmoty), stavba padáku pro vejce. Překvapivě univerzální pomůcka pro demonstraci několika principů.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

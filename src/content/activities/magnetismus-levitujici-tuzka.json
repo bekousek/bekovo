@@ -4,5 +4,9 @@
   "topicId": "magnetismus",
   "title": "Magneticky levitující tužka",
   "type": "other",
-  "description": "Žáci konstruují zařízení, ve kterém tužka s magnety levituje ve vzduchu díky odpuzování magnetů a stabilizaci grafitovým jádrem. Demonstrace magnetické levitace a Earnshawova teorému."
+  "description": "Žáci konstruují zařízení, ve kterém tužka s magnety levituje ve vzduchu díky odpuzování magnetů a stabilizaci grafitovým jádrem. Demonstrace magnetické levitace a Earnshawova teorému.",
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
 }

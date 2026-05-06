@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Vozítka s různými pohony",
   "type": "other",
-  "description": "Žáci staví modely aut z odpadních materiálů poháněná třemi způsoby: plachtou (síla větru), magnetem (magnetická síla) nebo nabitou tyčí (elektrostatická síla). Kreativní propojení mechaniky s dalšími tématy."
+  "description": "Žáci staví modely aut z odpadních materiálů poháněná třemi způsoby: plachtou (síla větru), magnetem (magnetická síla) nebo nabitou tyčí (elektrostatická síla). Kreativní propojení mechaniky s dalšími tématy.",
+  "source": {
+    "label": "Dílny Heuréky 2013",
+    "pdf": "dilny-heureky-2013.pdf"
+  }
 }

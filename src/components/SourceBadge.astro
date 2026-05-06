@@ -1,0 +1,44 @@
+---
+type Source = {
+  label: string;
+  url?: string;
+  pdf?: string;
+};
+
+interface Props {
+  source?: Source;
+}
+
+const { source } = Astro.props;
+
+const href = source
+  ? source.url
+    ? source.url
+    : source.pdf
+      ? `/sborniky/${source.pdf}`
+      : null
+  : null;
+---
+{source && (
+  href ? (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={`Zdroj: ${source.label}`}
+      class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-600 hover:bg-gray-200 hover:text-gray-800 transition-colors whitespace-nowrap"
+    >
+      <span aria-hidden="true">📖</span>
+      <span>{source.label}</span>
+      <span aria-hidden="true">↗</span>
+    </a>
+  ) : (
+    <span
+      title={`Zdroj: ${source.label}`}
+      class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-500 whitespace-nowrap"
+    >
+      <span aria-hidden="true">📖</span>
+      <span>{source.label}</span>
+    </span>
+  )
+)}

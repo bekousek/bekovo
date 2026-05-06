@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Grafy jinak – nejen ve fyzice",
   "type": "method",
-  "description": "Aktivity na čtení a tvorbu grafů: žáci kreslí graf na základě příběhu (cesta do školy), přiřazují graf k pohybu, sami se pohybují tak, aby vytvořili zadaný graf. Propojení s matematikou."
+  "description": "Aktivity na čtení a tvorbu grafů: žáci kreslí graf na základě příběhu (cesta do školy), přiřazují graf k pohybu, sami se pohybují tak, aby vytvořili zadaný graf. Propojení s matematikou.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

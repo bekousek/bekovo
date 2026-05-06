@@ -11,5 +11,9 @@
     "UV svítilna",
     "mlhová trubice nebo kadidlo",
     "fluorescenční předměty"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2013",
+    "pdf": "dilny-heureky-2013.pdf"
+  }
 }

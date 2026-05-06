@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Světelný zdroj z LED pásků",
   "type": "other",
-  "description": "Žáci vyrábějí vlastní světelný zdroj z LED pásků pro optické pokusy. Zdroj lze použít pro demonstraci lomu, odrazu, stínů a míchání barev. Praktická elektronika spojená s optikou."
+  "description": "Žáci vyrábějí vlastní světelný zdroj z LED pásků pro optické pokusy. Zdroj lze použít pro demonstraci lomu, odrazu, stínů a míchání barev. Praktická elektronika spojená s optikou.",
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "magnetismus",
   "title": "Elektřina a magnetismus vlastníma rukama",
   "type": "method",
-  "description": "Hands-on aktivity propojující elektřinu a magnetismus: výroba elektromagnetu (hřebík + drát + baterie), kompas z jehly, Oerstedův pokus (vodič s proudem vychyluje kompas)."
+  "description": "Hands-on aktivity propojující elektřinu a magnetismus: výroba elektromagnetu (hřebík + drát + baterie), kompas z jehly, Oerstedův pokus (vodič s proudem vychyluje kompas).",
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
 }

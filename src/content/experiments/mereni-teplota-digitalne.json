@@ -11,5 +11,9 @@
     "led",
     "teplá voda",
     "nádoba"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2013",
+    "pdf": "dilny-heureky-2013.pdf"
+  }
 }

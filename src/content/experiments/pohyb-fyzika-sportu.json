@@ -10,5 +10,8 @@
     "mobil s kamerou",
     "program pro videoanalýzu",
     "pásmo"
-  ]
+  ],
+  "source": {
+    "label": "VNUF"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "mereni",
   "title": "Růstové grafy v hodině fyziky",
   "type": "method",
-  "description": "Žáci měří svou výšku a zaznamenávají ji do grafu během školního roku. Učí se pracovat s grafy, osami, měřítkem. Propojení fyzikálního měření s biologií a osobní zkušeností žáků."
+  "description": "Žáci měří svou výšku a zaznamenávají ji do grafu během školního roku. Učí se pracovat s grafy, osami, měřítkem. Propojení fyzikálního měření s biologií a osobní zkušeností žáků.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

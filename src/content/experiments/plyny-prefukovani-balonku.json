@@ -8,5 +8,9 @@
   "materials": [
     "dva nafukovací balónky",
     "dvojcestný ventil"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
 }

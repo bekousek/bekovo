@@ -8,5 +8,9 @@
   "materials": [
     "zrcadlo",
     "nádoba s vodou"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2014",
+    "pdf": "dilny-heureky-2014.pdf"
+  }
 }

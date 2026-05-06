@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Světelný tunel",
   "type": "other",
-  "description": "Dva zrcadla naproti sobě s LED páskem po obvodu vytvářejí optickou iluzi nekonečného tunelu. Žáci pozorují mnohonásobný odraz a diskutují, proč se obraz postupně zmenšuje (ztráty při každém odrazu)."
+  "description": "Dva zrcadla naproti sobě s LED páskem po obvodu vytvářejí optickou iluzi nekonečného tunelu. Žáci pozorují mnohonásobný odraz a diskutují, proč se obraz postupně zmenšuje (ztráty při každém odrazu).",
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
 }

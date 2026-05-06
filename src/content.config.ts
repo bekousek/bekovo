@@ -36,6 +36,12 @@ const subtopics = defineCollection({
   }),
 });
 
+const sourceSchema = z.object({
+  label: z.string(),
+  url: z.string().url().optional(),
+  pdf: z.string().optional(),
+}).optional();
+
 const experiments = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/experiments' }),
   schema: z.object({
@@ -48,6 +54,7 @@ const experiments = defineCollection({
     materials: z.array(z.string()).optional(),
     procedure: z.string().optional(),
     driveFileUrl: z.string().url().optional(),
+    source: sourceSchema,
   }),
 });
 
@@ -61,6 +68,7 @@ const activities = defineCollection({
     type: z.enum(['game', 'method', 'group-work', 'other']),
     description: z.string(),
     driveFileUrl: z.string().url().optional(),
+    source: sourceSchema,
   }),
 });
 
@@ -86,6 +94,7 @@ const homework = defineCollection({
     title: z.string(),
     description: z.string(),
     driveFileUrl: z.string().url().optional(),
+    source: sourceSchema,
   }),
 });
 

@@ -10,5 +10,9 @@
     "otočná stolička",
     "válec",
     "nakloněná rovina"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

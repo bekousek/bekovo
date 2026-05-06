@@ -9,5 +9,9 @@
     "zkumavka",
     "voda",
     "tištěný text"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
 }

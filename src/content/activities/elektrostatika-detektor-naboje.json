@@ -4,5 +4,9 @@
   "topicId": "elektrostatika",
   "title": "Kyklop – detektor náboje a EM pole",
   "type": "other",
-  "description": "Žáci si vyrábějí jednoduchý detektor elektrického náboje a elektromagnetického pole z MOSFET tranzistoru a LED. Detektor reaguje blikáním na nabité předměty i na elektromagnetické vlny z mobilů."
+  "description": "Žáci si vyrábějí jednoduchý detektor elektrického náboje a elektromagnetického pole z MOSFET tranzistoru a LED. Detektor reaguje blikáním na nabité předměty i na elektromagnetické vlny z mobilů.",
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }
