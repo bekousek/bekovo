@@ -30,7 +30,14 @@ Searches/
 
 # External PDFs (large files, not for git)
 Externí materiály/
-public/sborniky/
+
+# Sborníky příliš velké pro Cloudflare Pages (limit 25 MB / soubor).
+# Hostování pro tyto soubory řeš jinak (R2, GitHub Releases, ...) a v JSONu použij `source.url`.
+public/sborniky/vnuf-2012.pdf
+public/sborniky/dilny-heureky-2023.pdf
+public/sborniky/vnuf-2024.pdf
+public/sborniky/vnuf-2020.pdf
+public/sborniky/dilny-heureky-2021.pdf
 
 # Extracted text from PDFs (generated, large)
 scripts/ai-pipeline/extracted/
