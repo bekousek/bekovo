@@ -10,5 +10,9 @@
     "LED diody",
     "polarizační fólie",
     "UV lampa"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

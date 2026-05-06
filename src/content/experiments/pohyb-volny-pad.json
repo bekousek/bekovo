@@ -11,5 +11,9 @@
     "metr",
     "rampa pro vodorovný vrh",
     "telefon s pomalým záznamem"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "kapaliny-7",
   "title": "Fyzika potápění – aktivity",
   "type": "method",
-  "description": "Žáci se učí o fyzikálních principech potápění formou praktických aktivit: měření přetlaku pod vodou, výroba kartézského potápěče, demonstrace Boyleova zákona s injekční stříkačkou."
+  "description": "Žáci se učí o fyzikálních principech potápění formou praktických aktivit: měření přetlaku pod vodou, výroba kartézského potápěče, demonstrace Boyleova zákona s injekční stříkačkou.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

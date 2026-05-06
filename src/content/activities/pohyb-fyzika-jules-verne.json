@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Fyzika v knihách Julese Verna",
   "type": "method",
-  "description": "Žáci ověřují fyzikální fakta z knih J. Verna: Dá se doletět na Měsíc dělem? Jak hluboko se potápí Nautilus? Počítají a porovnávají s realitou. Motivační propojení fyziky a literatury."
+  "description": "Žáci ověřují fyzikální fakta z knih J. Verna: Dá se doletět na Měsíc dělem? Jak hluboko se potápí Nautilus? Počítají a porovnávají s realitou. Motivační propojení fyziky a literatury.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

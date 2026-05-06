@@ -10,5 +10,9 @@
     "voda",
     "syrová rýže",
     "nakloněná plocha"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
 }

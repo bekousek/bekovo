@@ -4,5 +4,9 @@
   "topicId": "sila",
   "title": "Padající a šplhající hračky",
   "type": "other",
-  "description": "Konstrukce hraček demonstrujících gravitaci a pohyb: padající opička (volný pád), šplhající figurka (na niti s mechanismem), jojo (přeměna energie). Žáci analyzují síly působící na hračky."
+  "description": "Konstrukce hraček demonstrujících gravitaci a pohyb: padající opička (volný pád), šplhající figurka (na niti s mechanismem), jojo (přeměna energie). Žáci analyzují síly působící na hračky.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

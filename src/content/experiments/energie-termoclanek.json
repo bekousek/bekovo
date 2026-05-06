@@ -11,5 +11,9 @@
     "voltmetr",
     "kahan",
     "led"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

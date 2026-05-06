@@ -12,5 +12,9 @@
     "baterie 9V",
     "vodiče",
     "zápalky"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

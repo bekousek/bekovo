@@ -10,5 +10,8 @@
     "Newtonova kolébka",
     "gyroskop",
     "různé hračky"
-  ]
+  ],
+  "source": {
+    "label": "VNUF"
+  }
 }

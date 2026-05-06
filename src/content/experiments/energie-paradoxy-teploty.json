@@ -10,5 +10,8 @@
     "noviny",
     "potravinářské barvivo",
     "teplá a studená voda"
-  ]
+  ],
+  "source": {
+    "label": "VNUF"
+  }
 }

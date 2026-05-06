@@ -4,5 +4,9 @@
   "topicId": "kapaliny-7",
   "title": "Loďky a lodičky",
   "type": "game",
-  "description": "Stavba různých typů lodiček (z alobalu, korku, plastu) a testování jejich nosnosti. Žáci zkoumají, proč lodě plavou – klíčem je vytlačený objem vody a Archimédův zákon. Soutěž: čí loď unese nejvíce mincí."
+  "description": "Stavba různých typů lodiček (z alobalu, korku, plastu) a testování jejich nosnosti. Žáci zkoumají, proč lodě plavou – klíčem je vytlačený objem vody a Archimédův zákon. Soutěž: čí loď unese nejvíce mincí.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

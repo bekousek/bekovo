@@ -4,5 +4,9 @@
   "topicId": "astronomie",
   "title": "Astronomie aktivně",
   "type": "method",
-  "description": "Aktivity pro výuku astronomie: modelování Sluneční soustavy na školním dvoře (poměr vzdáleností), fáze Měsíce s míčkem a lampou, měření průměru Slunce dírkovou kamerou."
+  "description": "Aktivity pro výuku astronomie: modelování Sluneční soustavy na školním dvoře (poměr vzdáleností), fáze Měsíce s míčkem a lampou, měření průměru Slunce dírkovou kamerou.",
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
 }

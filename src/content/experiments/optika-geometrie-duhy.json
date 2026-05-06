@@ -10,5 +10,9 @@
     "laserové ukazovátko",
     "skleněná kulička",
     "bílá deska"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

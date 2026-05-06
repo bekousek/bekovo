@@ -1,8 +1,0 @@
-{
-  "id": "pohyb-videoanalyza",
-  "subtopicId": "grafy",
-  "topicId": "pohyb",
-  "title": "Videoanalýza pohybu",
-  "type": "method",
-  "description": "Žáci natočí pohyb (kutálení míče, chůze, pád) mobilem a analyzují ho v programu Tracker. Označují polohu tělesa v každém snímku a program vykreslí graf dráhy, rychlosti, zrychlení v čase."
-}

@@ -4,5 +4,8 @@
   "topicId": "pohyb",
   "title": "Fyzikum.cz – videoučebnice ve výuce",
   "type": "method",
-  "description": "Využití krátkých výukových videí z Fyzikum.cz v hodinách fyziky. Žáci sledují video s pokusem, formulují hypotézu a diskutují. Metoda převrácené třídy (flipped classroom) ve fyzice."
+  "description": "Využití krátkých výukových videí z Fyzikum.cz v hodinách fyziky. Žáci sledují video s pokusem, formulují hypotézu a diskutují. Metoda převrácené třídy (flipped classroom) ve fyzice.",
+  "source": {
+    "label": "VNUF"
+  }
 }

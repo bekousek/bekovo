@@ -12,5 +12,9 @@
     "voda",
     "čočky",
     "zrcátka"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

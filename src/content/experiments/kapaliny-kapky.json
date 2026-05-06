@@ -13,5 +13,9 @@
     "kancelářská sponka",
     "pepř",
     "miska"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

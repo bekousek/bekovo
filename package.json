@@ -10,7 +10,8 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "compile-latex": "node scripts/compile-latex.mjs"
+    "compile-latex": "node scripts/compile-latex.mjs",
+    "copy-sborniky": "node scripts/copy-sborniky.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.2",

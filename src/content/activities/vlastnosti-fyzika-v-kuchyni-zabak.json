@@ -4,5 +4,9 @@
   "topicId": "vlastnosti-latek",
   "title": "S žabákem Beppem v kuchyni – fyzika vaření",
   "type": "method",
-  "description": "Fyzikální pokusy s kuchyňskými surovinami: proč mléko vykypí jinak než voda, jak funguje tlakový hrnec, proč solení zvyšuje bod varu. Každý pokus je uveden příběhem žabáka Beppa."
+  "description": "Fyzikální pokusy s kuchyňskými surovinami: proč mléko vykypí jinak než voda, jak funguje tlakový hrnec, proč solení zvyšuje bod varu. Každý pokus je uveden příběhem žabáka Beppa.",
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

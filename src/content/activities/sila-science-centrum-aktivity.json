@@ -4,5 +4,8 @@
   "topicId": "sila",
   "title": "Aktivity ze science center pro školní třídu",
   "type": "method",
-  "description": "Adaptace interaktivních exponátů ze science center pro školní prostředí: kladkový mechanismus, Bernoulliho levitace míčku, Edisonova žárovka. Hands-on aktivity, které lze realizovat i bez drahého vybavení."
+  "description": "Adaptace interaktivních exponátů ze science center pro školní prostředí: kladkový mechanismus, Bernoulliho levitace míčku, Edisonova žárovka. Hands-on aktivity, které lze realizovat i bez drahého vybavení.",
+  "source": {
+    "label": "VNUF"
+  }
 }

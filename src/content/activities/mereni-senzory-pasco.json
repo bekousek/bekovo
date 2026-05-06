@@ -4,5 +4,9 @@
   "topicId": "mereni",
   "title": "Senzory napříč předměty – měření s Pasco",
   "type": "method",
-  "description": "Ukázky měření s bezdrátovými senzory Pasco ve fyzice: měření teploty, pH, síly, zvuku. Žáci pracují s aplikací SPARKvue, sbírají data a vyhodnocují je. Metoda vhodná pro badatelsky orientovanou výuku."
+  "description": "Ukázky měření s bezdrátovými senzory Pasco ve fyzice: měření teploty, pH, síly, zvuku. Žáci pracují s aplikací SPARKvue, sbírají data a vyhodnocují je. Metoda vhodná pro badatelsky orientovanou výuku.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

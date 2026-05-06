@@ -4,5 +4,9 @@
   "topicId": "magnetismus",
   "title": "Hrátky s magnetismem – sada aktivit",
   "type": "game",
-  "description": "Herní aktivity s magnety: magnetický závod (kdo nejrychleji provede magnet bludištěm), magnetická rybička (lov rybiček), magnetický kompas na vodě. Učení hrou pro mladší žáky."
+  "description": "Herní aktivity s magnety: magnetický závod (kdo nejrychleji provede magnet bludištěm), magnetická rybička (lov rybiček), magnetický kompas na vodě. Učení hrou pro mladší žáky.",
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
 }

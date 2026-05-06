@@ -4,5 +4,9 @@
   "topicId": "mikrosvet",
   "title": "Nanotechnologie pro ZŠ",
   "type": "method",
-  "description": "Aktivity přibližující nanotechnologie žákům ZŠ: modelování atomů, porovnání velikostí (atom vs. tenisák vs. Země), experimenty s hydrofobními povrchy. Úvod do světa částic menších než buňka."
+  "description": "Aktivity přibližující nanotechnologie žákům ZŠ: modelování atomů, porovnání velikostí (atom vs. tenisák vs. Země), experimenty s hydrofobními povrchy. Úvod do světa částic menších než buňka.",
+  "source": {
+    "label": "Elixír nápadů 5",
+    "pdf": "elixir-napadu-5.pdf"
+  }
 }

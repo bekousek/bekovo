@@ -11,5 +11,9 @@
     "svíčka nebo LED",
     "optická lavice",
     "rozptylná čočka"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

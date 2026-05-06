@@ -11,5 +11,8 @@
     "voltmetr",
     "ampérmetr",
     "rezistor"
-  ]
+  ],
+  "source": {
+    "label": "VNUF"
+  }
 }

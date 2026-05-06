@@ -4,5 +4,9 @@
   "topicId": "energie",
   "title": "Pastičkomobil a nejen to",
   "type": "other",
-  "description": "Žáci staví vozítko poháněné pastičkou na myši – pružina pastičky se přeměňuje na pohyb. Další modely: autíčko na gumičku, solární vozítko. Přeměny energie v praxi."
+  "description": "Žáci staví vozítko poháněné pastičkou na myši – pružina pastičky se přeměňuje na pohyb. Další modely: autíčko na gumičku, solární vozítko. Přeměny energie v praxi.",
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
 }

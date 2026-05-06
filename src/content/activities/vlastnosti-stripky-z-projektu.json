@@ -4,5 +4,9 @@
   "topicId": "vlastnosti-latek",
   "title": "Střípky z projektů s tvořivou nadstavbou",
   "type": "other",
-  "description": "Sada krátkých projektů propojujících fyziku s výtvarnou tvorbou: výroba kaleidoskopu, barvení textilu fyzikálními metodami, stavby z papíru využívající principy pružnosti a pevnosti."
+  "description": "Sada krátkých projektů propojujících fyziku s výtvarnou tvorbou: výroba kaleidoskopu, barvení textilu fyzikálními metodami, stavby z papíru využívající principy pružnosti a pevnosti.",
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
 }

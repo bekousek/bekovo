@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Výroba žonglovacích míčků a fyzika žonglování",
   "type": "other",
-  "description": "Žáci si vyrábějí žonglovací míčky z balónků a rýže. Učí se žonglovat a zkoumají fyziku: parabola hodu, optimální úhel, vliv hmotnosti míčku na dráhu letu. Propojení pohybu s praxí."
+  "description": "Žáci si vyrábějí žonglovací míčky z balónků a rýže. Učí se žonglovat a zkoumají fyziku: parabola hodu, optimální úhel, vliv hmotnosti míčku na dráhu letu. Propojení pohybu s praxí.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

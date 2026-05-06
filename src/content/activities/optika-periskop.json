@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Výroba periskopu",
   "type": "other",
-  "description": "Žáci si vyrobí periskop z kartónové krabice a dvou zrcátek. Pochopí princip dvojitého odrazu světla na rovnoběžných zrcadlech pod úhlem 45°. Využití: pozorování přes překážky, ponorky."
+  "description": "Žáci si vyrobí periskop z kartónové krabice a dvou zrcátek. Pochopí princip dvojitého odrazu světla na rovnoběžných zrcadlech pod úhlem 45°. Využití: pozorování přes překážky, ponorky.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

@@ -11,5 +11,8 @@
     "siloměr",
     "závaží",
     "stojánek"
-  ]
+  ],
+  "source": {
+    "label": "VNUF"
+  }
 }

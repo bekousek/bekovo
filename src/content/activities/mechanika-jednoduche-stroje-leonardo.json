@@ -4,5 +4,9 @@
   "topicId": "mechanika",
   "title": "Mechanické stavby – Leonardo da Vinci",
   "type": "group-work",
-  "description": "Stavba Leonardova samonosného mostu ze dřevěných tyčí bez hřebíků a lepidla. Princip vzájemného zaklesnutí. Dále: jednoduché kladky z brček, nakloněná rovina z knih."
+  "description": "Stavba Leonardova samonosného mostu ze dřevěných tyčí bez hřebíků a lepidla. Princip vzájemného zaklesnutí. Dále: jednoduché kladky z brček, nakloněná rovina z knih.",
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
 }

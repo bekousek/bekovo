@@ -9,5 +9,9 @@
     "mikrofon",
     "počítač se zvukovým softwarem",
     "reproduktor"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
 }

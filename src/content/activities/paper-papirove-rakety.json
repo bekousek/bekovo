@@ -4,5 +4,9 @@
   "topicId": "pohyb",
   "title": "Papírové rakety – soutěž v doletu",
   "type": "game",
-  "description": "Žáci skládají papírové rakety různých tvarů a vystřelují je z brčka fouknutím. Soutěží o největší dolet. Zkoumají vliv tvaru, hmotnosti a úhlu vypuštění na dráhu letu."
+  "description": "Žáci skládají papírové rakety různých tvarů a vystřelují je z brčka fouknutím. Soutěží o největší dolet. Zkoumají vliv tvaru, hmotnosti a úhlu vypuštění na dráhu letu.",
+  "source": {
+    "label": "Paper Science",
+    "pdf": "paper-science.pdf"
+  }
 }

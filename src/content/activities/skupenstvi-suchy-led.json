@@ -4,5 +4,9 @@
   "topicId": "skupenstvi-latek",
   "title": "Hrátky se suchým ledem",
   "type": "other",
-  "description": "Experimenty se suchým ledem (pevný CO₂): sublimace přímo z pevného skupenství do plynného, bubliny z mýdlové vody plněné CO₂, „kouřový\" efekt. Demonstrace sublimace a vlastností CO₂."
+  "description": "Experimenty se suchým ledem (pevný CO₂): sublimace přímo z pevného skupenství do plynného, bubliny z mýdlové vody plněné CO₂, „kouřový\" efekt. Demonstrace sublimace a vlastností CO₂.",
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
 }

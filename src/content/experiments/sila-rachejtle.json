@@ -11,5 +11,9 @@
     "stojan",
     "zápalky",
     "ochranné brýle"
-  ]
+  ],
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
 }

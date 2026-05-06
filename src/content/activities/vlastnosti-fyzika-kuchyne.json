@@ -4,5 +4,9 @@
   "topicId": "vlastnosti-latek",
   "title": "Fyzika v kuchyni",
   "type": "method",
-  "description": "Experimenty s kuchyňskými potřebami: hustota oleje vs. vody (lávová lampa), povrchové napětí (pepř a saponát), rozpouštění (cukr vs. sůl), vaření – skupenské přeměny. Vhodné i jako domácí pokusy."
+  "description": "Experimenty s kuchyňskými potřebami: hustota oleje vs. vody (lávová lampa), povrchové napětí (pepř a saponát), rozpouštění (cukr vs. sůl), vaření – skupenské přeměny. Vhodné i jako domácí pokusy.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

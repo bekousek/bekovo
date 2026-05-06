@@ -12,5 +12,9 @@
     "ping-pongový míček",
     "igelitový sáček",
     "čajová svíčka"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
 }

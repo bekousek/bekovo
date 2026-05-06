@@ -10,5 +10,9 @@
     "nádoba s vodou",
     "svíčka nebo horkovzdušná pistole",
     "nůžky"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
 }

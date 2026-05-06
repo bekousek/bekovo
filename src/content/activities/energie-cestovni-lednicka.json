@@ -4,5 +4,9 @@
   "topicId": "energie",
   "title": "Cestovní lednička – odpařování a chlazení",
   "type": "other",
-  "description": "Žáci staví jednoduchou „cestovní ledničku\" z květináčů a písku. Odpařování vody z mokrého písku odebírá teplo a chladí vnitřní květináč. Demonstrace skupenského tepla vypařování."
+  "description": "Žáci staví jednoduchou „cestovní ledničku\" z květináčů a písku. Odpařování vody z mokrého písku odebírá teplo a chladí vnitřní květináč. Demonstrace skupenského tepla vypařování.",
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
 }

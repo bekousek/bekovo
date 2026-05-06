@@ -12,5 +12,9 @@
     "miska s vodou",
     "kompas",
     "globus"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
 }

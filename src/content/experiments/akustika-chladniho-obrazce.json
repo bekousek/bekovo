@@ -10,5 +10,9 @@
     "smyčec",
     "jemný písek nebo sůl",
     "stojánek"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

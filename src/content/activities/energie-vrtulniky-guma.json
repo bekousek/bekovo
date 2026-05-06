@@ -4,5 +4,9 @@
   "topicId": "energie",
   "title": "Vrtulníky na gumový pohon",
   "type": "other",
-  "description": "Stavba malého vrtulníku poháněného zkroucenou gumičkou. Žáci pozorují přeměnu energie pružnosti na pohybovou energii. Soutěž: čí vrtulník vyletí nejvýš."
+  "description": "Stavba malého vrtulníku poháněného zkroucenou gumičkou. Žáci pozorují přeměnu energie pružnosti na pohybovou energii. Soutěž: čí vrtulník vyletí nejvýš.",
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

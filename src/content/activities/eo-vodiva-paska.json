@@ -4,5 +4,9 @@
   "topicId": "elektricke-obvody",
   "title": "Elektřina s vodivou páskou",
   "type": "method",
-  "description": "Stavba jednoduchých elektrických obvodů pomocí měděné vodivé pásky nalepené na papíře. Žáci zapojují LED, rezistory a přepínače. Výhoda: obvod je plochý, přehledný, snadno se kreslí schéma."
+  "description": "Stavba jednoduchých elektrických obvodů pomocí měděné vodivé pásky nalepené na papíře. Žáci zapojují LED, rezistory a přepínače. Výhoda: obvod je plochý, přehledný, snadno se kreslí schéma.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

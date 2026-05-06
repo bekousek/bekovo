@@ -9,5 +9,9 @@
     "polopropustná fólie",
     "svíčka nebo LED",
     "tmavé prostředí"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
 }

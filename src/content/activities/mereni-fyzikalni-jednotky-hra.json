@@ -4,5 +4,9 @@
   "topicId": "mereni",
   "title": "Fyzikální jednotky včera a dnes",
   "type": "game",
-  "description": "Hra a aktivity kolem soustav fyzikálních jednotek: měření v palcích, stopách, loktech. Žáci si uvědomí, proč bylo nutné zavést mezinárodní soustavu SI. Včetně nové definice kilogramu z roku 2019."
+  "description": "Hra a aktivity kolem soustav fyzikálních jednotek: měření v palcích, stopách, loktech. Žáci si uvědomí, proč bylo nutné zavést mezinárodní soustavu SI. Včetně nové definice kilogramu z roku 2019.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
 }

@@ -4,5 +4,9 @@
   "topicId": "elektricke-obvody",
   "title": "Simulace elektrických obvodů",
   "type": "method",
-  "description": "Využití simulátoru PhET Circuit Construction Kit pro virtuální stavbu obvodů. Žáci zapojují zdroje, žárovky, spínače, měří napětí a proud. Vhodné jako doplněk k reálným pokusům nebo pro domácí práci."
+  "description": "Využití simulátoru PhET Circuit Construction Kit pro virtuální stavbu obvodů. Žáci zapojují zdroje, žárovky, spínače, měří napětí a proud. Vhodné jako doplněk k reálným pokusům nebo pro domácí práci.",
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }

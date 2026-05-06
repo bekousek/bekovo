@@ -4,5 +4,9 @@
   "topicId": "energie",
   "title": "Brouci a hejblata – výroba vibrujících robotů",
   "type": "other",
-  "description": "Žáci vyrábějí vibrující roboty z CD, DC motorků s excentrickou zátěží a baterií. Roboti umí tančit, běhat a kreslit. Princip je stejný jako u vibrace mobilního telefonu."
+  "description": "Žáci vyrábějí vibrující roboty z CD, DC motorků s excentrickou zátěží a baterií. Roboti umí tančit, běhat a kreslit. Princip je stejný jako u vibrace mobilního telefonu.",
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
 }

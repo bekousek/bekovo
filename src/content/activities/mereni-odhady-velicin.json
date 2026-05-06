@@ -4,5 +4,9 @@
   "topicId": "mereni",
   "title": "Odhady fyzikálních veličin",
   "type": "game",
-  "description": "Soutěžní hra: žáci odhadují fyzikální veličiny (hmotnost předmětů, délku učebny, teplotu vody, čas) a pak měří. Body za nejpřesnější odhad. Rozvíjí fyzikální intuici."
+  "description": "Soutěžní hra: žáci odhadují fyzikální veličiny (hmotnost předmětů, délku učebny, teplotu vody, čas) a pak měří. Body za nejpřesnější odhad. Rozvíjí fyzikální intuici.",
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
 }

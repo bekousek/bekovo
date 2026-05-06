@@ -10,5 +10,9 @@
     "plastová hadička",
     "voda",
     "stojan"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
 }

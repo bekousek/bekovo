@@ -4,5 +4,9 @@
   "topicId": "optika",
   "title": "Optické hračky",
   "type": "other",
-  "description": "Výroba a zkoumání optických hraček: kaleidoskop, thaumatrop (dva obrázky splývají při rotaci), filmový pásek ze spirálového bloku. Propojení optiky s historií filmu a setrvačností oka."
+  "description": "Výroba a zkoumání optických hraček: kaleidoskop, thaumatrop (dva obrázky splývají při rotaci), filmový pásek ze spirálového bloku. Propojení optiky s historií filmu a setrvačností oka.",
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
 }

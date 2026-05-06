@@ -9,5 +9,9 @@
     "ultrazvukové čidlo (Vernier/Pasco) nebo aplikace Phyphox",
     "počítač",
     "metr"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
 }

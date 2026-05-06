@@ -11,5 +11,9 @@
     "saponát",
     "kancelářské sponky",
     "miska s vodou"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
 }

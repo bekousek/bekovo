@@ -9,5 +9,9 @@
     "tři LED svítilny nebo LED (červená, zelená, modrá)",
     "bílá stěna nebo papír",
     "zatemněná učebna"
-  ]
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
 }
