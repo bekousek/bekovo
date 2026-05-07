@@ -1,0 +1,18 @@
+{
+  "id": "akustika-frekvence-tonu-aplikace",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Měření frekvence kytarové struny aplikací",
+  "type": "measurement",
+  "description": "Žáci pomocí mobilní aplikace s frekvenčním spektrem (Spectroid, SoundCorset) změří základní frekvenci tónu kytarové struny. Postupně zkracují aktivní délku struny prstem na pražcích a zaznamenávají, jak frekvence roste. Porovnají naměřené hodnoty s teoretickou závislostí frekvence na délce.",
+  "materials": [
+    "kytara nebo ukulele",
+    "mobil s aplikací pro analýzu zvuku",
+    "metr nebo pravítko",
+    "tabulka pro zápis hodnot"
+  ],
+  "source": {
+    "label": "Akustika a hudební nástroje (Tomáš Tyc, MUNI)",
+    "url": "https://www.physics.muni.cz/~tomtyc/fyzika_hudebnich_nastroju.pdf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "akustika-pythagoras-kytara",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Pythagoras a kytara – měření hudebních intervalů",
+  "type": "group-work",
+  "description": "Žáci ve dvojicích nebo malých skupinách s kytarou hledají místa na struně, kde stiskem vznikne tón o oktávu, kvintu a kvartu vyšší než prázdná struna. Měří aktivní délky strun s přesností na 1 mm a vypočítávají poměry. Objevují, že oktáva odpovídá poměru 1:2, kvinta 2:3 a kvarta 3:4 – stejně jako u Pythagora.",
+  "source": {
+    "label": "E-manuel.cz – Pythagoras a kytara",
+    "url": "https://e-manuel.cz/kapitoly/mechanicke-vlneni/motivace/pythagoras-a-kytara/"
+  }
+}
