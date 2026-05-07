@@ -34,3 +34,6 @@ public/sborniky/
 
 # Extracted text from PDFs (generated, large)
 scripts/ai-pipeline/extracted/
+
+# Routine ledger (per-run state — rutina commit­uje svou kopii na routine/* větve)
+.routine/
