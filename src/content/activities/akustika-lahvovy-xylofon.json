@@ -1,0 +1,12 @@
+{
+  "id": "akustika-lahvovy-xylofon",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Lahvový xylofon",
+  "type": "other",
+  "description": "Skupina žáků nalévá různé množství vody do osmi shodných skleněných lahví. Cvrnkáním po hrdle nebo poklepem lžící laděním vodního sloupce vytvoří diatonickou stupnici a zahraje krátkou melodii. Při poklepu kmitá lahev se sloupcem vody – víc vody znamená nižší tón; při foukání přes hrdlo kmitá vzduchový sloupec a víc vody znamená naopak vyšší tón.",
+  "source": {
+    "label": "Akustika a hudební nástroje (Tomáš Tyc, MUNI)",
+    "url": "https://www.physics.muni.cz/~tomtyc/fyzika_hudebnich_nastroju.pdf"
+  }
+}

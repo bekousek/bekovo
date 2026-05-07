@@ -1,0 +1,17 @@
+{
+  "id": "akustika-stojate-vlneni-strune",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Stojaté vlnění na struně",
+  "type": "qualitative",
+  "description": "Mezi dva pevné body se napne tenká guma nebo vlasec a rozkmitá se. Při určitých frekvencích vznikne zřetelné stojaté vlnění s viditelnými uzly a kmitnami. Demonstrace, že struna kmitá v celém spektru harmonických tónů a délka úseku určuje výšku tónu.",
+  "materials": [
+    "tenká guma nebo nylonový vlasec",
+    "dva pevné body (svorka, hřebíky)",
+    "případně mechanický oscilátor nebo prst"
+  ],
+  "source": {
+    "label": "E-manuel.cz – Hudební nástroje",
+    "url": "https://e-manuel.cz/kapitoly/mechanicke-vlneni/vyklad/hudebni-nastroje/"
+  }
+}

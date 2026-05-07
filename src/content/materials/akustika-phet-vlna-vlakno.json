@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-vlna-vlakno",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "PhET interaktivní simulace – Vlnění na vlákně",
+  "type": "applet",
+  "description": "Interaktivní simulace stojatého vlnění na napjatém vlákně. Lze měnit frekvenci, amplitudu i napětí struny a sledovat vznik harmonických módů. Vhodný doplněk k pokusu se strunou.",
+  "url": "https://phet.colorado.edu/cs/simulations/wave-on-a-string"
+}
