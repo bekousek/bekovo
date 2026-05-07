@@ -1,0 +1,16 @@
+// Cloudflare Workers / Pages konfigurace pro nasazení statického Astro buildu.
+//
+// Bez tohoto souboru se `npx wrangler deploy` v CI pokusí spustit auto-config
+// (`astro add cloudflare`), která přidá SSR adapter — a build se rozbije
+// chybou "Missing ./app/fetch/default-handler specifier in astro package".
+//
+// Tahle konfigurace říká wrangleru, že jde čistě o static assets (žádný
+// runtime kód), takže auto-config přeskočí a nahraje obsah dist/ jako CDN.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bekovo",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}
