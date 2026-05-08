@@ -37,6 +37,22 @@ Struktura: 19 témat × 87 podkapitol. Každá podkapitola má sekce:
 
 **Kanonickou definici vždy znovu načti z `src/content.config.ts` před zápisem** — schéma se může vyvíjet.
 
+## Picker v2 — rotace přes témata podle data
+
+Skript `scripts/coverage.mjs --pick` vrací `<topicId>--<subtopicId>` podle této logiky:
+
+1. **Den-index** = `floor(today_utc_midnight_ms / 86400000)`
+2. Dnešní téma = `topics_sorted[dayIdx % 19]`. Tzn. **každý den jiné téma**, cyklus 19 dní.
+3. V rámci dnešního tématu = vyber podkapitolu s nejnižším celkovým počtem položek (pokusy + aktivity + materiály + úkoly).
+4. **Vyloučit**:
+   - podkapitoly v `.routine/ledger.json:history[]` za posledních 7 dní
+   - podkapitoly v `skipUntil` > dnes
+   - podkapitoly s otevřenými větvemi `routine/nightly-*--<topicId>--<subtopicId>` na originu (`git ls-remote`)
+5. Pokud dnešní téma nemá volnou podkapitolu, posun se na další téma v rotaci.
+6. Fallback: globálně nejnižší (ignorovat rotaci, stále respektovat exclude/skip).
+
+Tím je zajištěno: **i když nemerguješ PR z včerejška, dnešek dostane jiné téma → jiná podkapitola.**
+
 ## Naming conventions
 
 | Co | Vzor | Příklad |
@@ -49,9 +65,39 @@ Struktura: 19 témat × 87 podkapitol. Každá podkapitola má sekce:
 
 **Před zápisem nového souboru se vždy podívej na 3–5 existujících peerů** v cílové kolekci pro stejné téma, aby naming i styl seděl.
 
+## Banka zdrojů — PRIMÁRNÍ ZDROJ
+
+Soubor [banka_zdroju_fyzika.md](banka_zdroju_fyzika.md) v rootu repa obsahuje **51 ručně kurátorovaných zdrojů** roztříděných do kategorií A–H. **Při každém běhu rutiny ji načti a hledej PRIMÁRNĚ v ní**, protože uživatel má tyto zdroje vyzkoušené a důvěřuje jim.
+
+Postup:
+1. Načti `banka_zdroju_fyzika.md`.
+2. Identifikuj kategorie relevantní pro aktuální podkapitolu (např. pro „cívky a kondenzátory" jsou klíčové A: sbírky pokusů + B: applety + F: energetika).
+3. Z 🎯 označených zdrojů začni — to jsou primární doporučení.
+4. Zdroje v bance používej jako site-restricted vyhledávání (`site:vnuf.cz <téma>`, `site:phet.colorado.edu/cs/ <téma>`).
+5. Ven z banky jdi jen tehdy, když banka pro toto téma nemá nic. I tak preferuj cs/sk zdroje.
+
+Banka je živá — uživatel ji občas doplňuje. Vždy ji čti znovu, žádné cachování seznamu.
+
+## Quality gate — variabilní počet položek per noc
+
+**Žádné fixní cíle "2 pokusy + 2 aktivity ..."**. Místo toho:
+
+- Pro vybranou podkapitolu projdi banku zdrojů a najdi vše, co se týká tématu.
+- Pro každý nalezený kandidát rozhodni: **„Je toto vhodné pro 6.–9. třídu ZŠ?"**
+- Kritéria ZŠ-vhodnosti:
+  - jazyk česky/slovensky (nebo přeložitelný kontext, např. PhET applet)
+  - bezpečné pomůcky (žádný kapalný dusík bez dohledu, žádné vysoké napětí)
+  - matematická úroveň přiměřená gradu tématu
+  - srozumitelný postup, žák musí pochopit, **co** dělá a **proč**
+  - dostupnost pomůcek (nebo levná náhrada)
+- Pokud je vhodné → přidej. Pokud ne → skip a hledej dál.
+- **Nepřemýšlej kolik to bude celkem.** Některé podkapitoly (optika, energie) přijmou 15+ položek za noc, jiné (astronomie, mikrosvět) sotva 2–3 — to je v pořádku.
+- Strop pro anti-runaway: **max 25 položek**, max 15 web search dotazů, max 20 fetchů. Když se těchto stropů dotkneš, zastav synthesis a commit co máš.
+- Když po průchodu banky najdeš < 2 vhodné položky, exit clean s ledger entry `no-research-found` a `skipUntil = today + 30d`. Žádný PR.
+
 ## Source-label konvence (kanonická tabulka)
 
-Když je zdroj český sborník, **použij přesně tento label**, ať se časem dají agregovat. Tabulka pochází z [scripts/_populate-sources.mjs](scripts/_populate-sources.mjs):
+Když je zdroj český sborník (PDF v `public/sborniky/`), **použij přesně tento label**, ať se časem dají agregovat. Tabulka pochází z [scripts/_populate-sources.mjs](scripts/_populate-sources.mjs):
 
 | Vzor v textu zdroje | `label` | `pdf` (pokud znáš) |
 |---|---|---|
@@ -62,21 +108,7 @@ Když je zdroj český sborník, **použij přesně tento label**, ať se časem
 | `VNUF` (bez roku) | `VNUF` | (vynechat) |
 | `Paper Science` | `Paper Science` | `paper-science.pdf` |
 
-PDF soubory sborníků žijí v `public/sborniky/` (gitignored — nesází se do git, ale jsou na deployu). Nikdy neimportuj nové PDF — používej jen existující labely výše, **nebo** uveď online zdroj přes `source.url`.
-
-## Preferované české vzdělávací zdroje (priorita pro web research)
-
-1. **heureka.fjfi.cvut.cz** — Heuréka projekt MFF UK (sborníky Dílny Heuréky)
-2. **dilnyheureky.cz** — workshopy a materiály
-3. **fyzweb.cz** — interaktivní fyzika
-4. **fyzikalniulohy.cz** — sbírka úloh
-5. **phet.colorado.edu/cs/** — interaktivní simulace (česká lokalizace)
-6. **edu.ceskatelevize.cz** — videa ČT EDU
-7. **cs.khanacademy.org** — Khan Academy česky
-8. **npmk.cz** — Pedagogická knihovna
-9. YouTube: Vědátor, Štefan, Matematika s panem H — **jen konkrétní video URL**, nikdy obecný kanál
-
-Anglické zdroje jen jako fallback pro applety: phet.colorado.edu, oPhysics, GeoGebra.
+PDF soubory sborníků žijí v `public/sborniky/` (gitignored). Nikdy neimportuj nové PDF — používej jen existující labely výše, **nebo** uveď online zdroj přes `source.url`. **Pro každou položku musí být `source.url` NEBO `source.pdf` ověřitelný.** Žádná fabrikace.
 
 ## Do-not-touch list
 
@@ -91,12 +123,18 @@ Tyto cesty rutina **nikdy nemodifikuje**:
 - `.github/workflows/**`
 - `wrangler.jsonc`, `astro.config.mjs`, `package.json`, `tsconfig.json`
 
-Jediné, co rutina edituje, jsou JSON soubory v: `src/content/experiments/`, `src/content/activities/`, `src/content/materials/`, `src/content/homework/`. A vlastní artefakty: `.routine/ledger.json`.
+Jediné, co rutina edituje: JSON soubory v `src/content/{experiments,activities,materials,homework}/` a `.routine/ledger.json`.
 
-## Slash command
+## Slash commands
 
-Plná logika běhu: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
+Rutina má dvě fáze:
+
+- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, vytvoří lokální commit v cloud workspace, vyplivne **paste-publish manifest** jako svou finální zprávu. Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
+
+- **`/nightly-publish`** — uživatel pasteuje manifest do **lokální** Claude Code session (kde je gh + git auth). Slash command vytvoří větev, soubory, commit, push, otevře draft PR. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
+
+**Proč tento split?** Cloud routine env (CCR) nemá write přístup k git remote — nemůže `git push` ani `gh pr create`. Lokální Claude Code v repu má všechno auth. Cloud dělá research + synthesis + validate, lokál dělá publish.
 
 ## Validace
 
-Před commitem **vždy spusť `npm run build`** — Astro/Zod ověří všechny nové JSON. Build musí projít. Pokud selže, lokalizuj soubor (chybová hláška uvádí cestu), oprav nebo smaž, znovu build. Nikdy nekomituj rozbitý stav.
+Před vytvořením manifestu **vždy spusť `npm run build`** v cloud workspace — Astro/Zod ověří všechny nové JSON. Build musí projít. Pokud selže, lokalizuj soubor (chybová hláška uvádí cestu), oprav nebo smaž, znovu build. Nikdy nevypisuj manifest, který by lokál nemohl bezpečně mergnout.
