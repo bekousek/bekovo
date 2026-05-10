@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-stavba-atomu-phet",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Stavba atomu — interaktivní simulace PhET",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET v češtině umožňující skládat atomy z protonů, neutronů a elektronů. Žáci mohou přidávat nebo odebírat elektrony a sledovat, jak se neutrální atom mění na kladný nebo záporný iont. Součástí je herní režim s rozpoznáváním iontů podle počtu elektronů.",
+  "url": "https://phet.colorado.edu/cs/simulations/build-an-atom"
+}

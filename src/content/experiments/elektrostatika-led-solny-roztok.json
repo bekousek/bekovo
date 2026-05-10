@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-led-solny-roztok",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "LED v solném roztoku",
+  "type": "qualitative",
+  "description": "Pokus ukazuje, že slaná voda vede elektrický proud, protože obsahuje volně pohyblivé ionty. Žák sestaví obvod s LED a dvěma elektrodami, ponoří je do čisté vody (LED nesvítí) a poté do roztoku kuchyňské soli (LED se rozsvítí). Tím prokáže, že elektricky nabité ionty vzniklé rozpuštěním soli jsou nositeli elektrického proudu.",
+  "materials": [
+    "baterie 4,5 V nebo 9 V",
+    "LED dioda",
+    "vodiče s krokosvorkami",
+    "dvě kovové elektrody (hřebíky nebo kancelářské sponky)",
+    "sklenice s vodou",
+    "kuchyňská sůl"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1718/led-v-solnem-roztoku"
+  }
+}
