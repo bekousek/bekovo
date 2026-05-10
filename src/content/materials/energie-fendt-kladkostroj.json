@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-kladkostroj",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Walter Fendt: Kladkostroj",
+  "type": "applet",
+  "description": "HTML5 applet v češtině simulující kladkostroj se 2, 4 nebo 6 kladkami. Žáci táhnou lano a sledují, jak kladkostroj mění sílu na úkor dráhy. Applet zahrnuje hmotnost volných kladek — žáci tak vidí rozdíl mezi ideální (η = 100 %) a reálnou účinností stroje.",
+  "url": "https://www.walter-fendt.de/html5/phcz/pulleysystem_cz.htm"
+}

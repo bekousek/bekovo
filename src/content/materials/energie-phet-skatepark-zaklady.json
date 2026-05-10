@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-skatepark-zaklady",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "PhET: Energetický skatepark — základy",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině: skateboardista jezdí po dráze a žáci sledují přeměny kinetické, potenciální a tepelné energie v reálném čase pomocí koláčového diagramu. Zapnutím tření vznikají ztráty — základ pro pochopení, proč η < 100 %.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-skate-park-basics"
+}
