@@ -1,0 +1,12 @@
+{
+  "id": "energie-prikon-spotrebicu",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Příkon domácích spotřebičů a jejich účinnost",
+  "type": "method",
+  "description": "Žáci měří příkon vybraných spotřebičů elektrickým wattmetrem (varná konvice, vařič, žárovka, LED). U ohřívacích spotřebičů srovnají změřený příkon s vypočítaným tepelným výkonem (Q = m·c·ΔT / t) a určí η. Diskutují, proč je η < 100 % a proč LED žárovky mají výrazně vyšší η než klasické.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-27-Kusak.html"
+  }
+}

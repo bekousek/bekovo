@@ -1,0 +1,21 @@
+{
+  "id": "energie-mereni-ucinnosti-ohrevu",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Měření účinnosti elektrického ohřevu vody",
+  "type": "measurement",
+  "description": "Žáci ohřívají vodu v kalorimetru elektrickou spirálou a porovnávají dodanou elektrickou energii (W = U·I·t) s teplem přijatým vodou (Q = m·c·ΔT). Podíl η = Q/W dává přímo účinnost ohřívače — typicky 90–95 %. Zbylá energie přechází do okolí jako tepelná ztráta.",
+  "materials": [
+    "kalorimetr s topnou spirálou",
+    "ampérmetr a voltmetr (nebo multimetr)",
+    "teploměr",
+    "regulovatelný zdroj napětí",
+    "stopky",
+    "digitální váhy"
+  ],
+  "procedure": "Zvaž prázdný kalorimetr a kalorimetr s vodou, zjisti hmotnost vody m. Změř počáteční teplotu T₁. Zapni proud, odečti napětí U a proud I, spusť stopky. Po 3–5 minutách vypni a odečti koncovou teplotu T₂. Výpočet: W = U·I·t, Q = m·c·ΔT (c = 4 200 J/kg/K). Účinnost η = Q/W (vyjádři v %).",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1619/experimentalni-urceni-merne-tepelne-kapacity-vody"
+  }
+}

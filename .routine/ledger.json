@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-05-08",
+  "lastPicked": "2026-05-10",
   "history": [
     {
       "date": "2026-05-08",
@@ -7,6 +7,12 @@
       "result": "pr-opened",
       "items": 7,
       "note": "first manual run by Claude — bootstrap"
+    },
+    {
+      "date": "2026-05-10",
+      "subtopic": "energie--ucinnost",
+      "result": "pr-pending",
+      "items": 10
     }
   ],
   "skipUntil": {}

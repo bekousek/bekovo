@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-formy-energie",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "PhET: Formy energie a přeměny",
+  "type": "applet",
+  "description": "Simulace v češtině vizualizuje přenosy energie mezi objekty (teplo, mechanická práce, elektrická energie). Záložka 'Systémy' umožňuje sestavit energetický řetězec a vidět, kolik energie se ztrácí při každé přeměně — přímá vizualizace pojmu účinnost.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-forms-and-changes"
+}

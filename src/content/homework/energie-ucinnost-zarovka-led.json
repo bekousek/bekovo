@@ -1,0 +1,11 @@
+{
+  "id": "energie-ucinnost-zarovka-led",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Žárovka vs. LED — výpočet účinnosti a tepelných ztrát",
+  "description": "Klasická žárovka má příkon 60 W a účinnost přeměny na světlo přibližně 4 %. Úkol: (1) Kolik wattů vyzáří jako světlo a kolik jako teplo? (2) O kolik °C oteplí místnost 3 × 4 × 2,5 m za 1 hodinu (hustota vzduchu 1,2 kg/m³, měrná tepelná kapacita vzduchu 1 000 J/kg/K)? (3) Srovnej s LED žárovkou 8 W s účinností 30 % — kolikrát méně tepla vyprodukuje LED při stejném světelném výkonu?",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/12/1"
+  }
+}
