@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-vodivost-slane-vody",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Vodivost slané vody — žárovka a ionty",
+  "type": "qualitative",
+  "description": "Pomocí obvodu s baterií a žárovkou žáci ověří, zda čistá voda vede elektrický proud (žárovka nesvítí), a co se stane po přidání kuchyňské soli (žárovka se rozsvítí). Pokus vysvětluje, jak NaCl v roztoku disociuje na kladné ionty sodíku Na⁺ a záporné ionty chloru Cl⁻, které jako nositelé náboje umožňují průchod elektrického proudu.",
+  "materials": [
+    "plochá baterie 4,5 V",
+    "žárovka s objímkou",
+    "vodiče s krokosvorkami",
+    "sklenička s vodou",
+    "kuchyňská sůl",
+    "lžíce"
+  ],
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus17.htm"
+  }
+}
