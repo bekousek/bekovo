@@ -1,0 +1,21 @@
+{
+  "id": "energie-vozitko-zavazi-ucinnost",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vozítko na závaží — měření účinnosti",
+  "type": "measurement",
+  "description": "Žáci si doma sestaví vozítko z tvrdého papíru, špejlí a CD kol, poháněné závaží na šňůrce. Ve výuce změří výšku pádu závaží (polohová energie E_p) a rychlost vozítka (pohybová energie E_k). Účinnost η = E_k / E_p ukazuje, kolik energie se spotřebovalo na tření a deformaci.",
+  "materials": [
+    "tvrdý karton",
+    "4 špejle",
+    "2 CD jako kola",
+    "šňůrka a závaží 50–100 g",
+    "pravítko",
+    "stopky nebo videoanalýza pohybu (mobilní telefon)"
+  ],
+  "procedure": "Žáci postaví vozítko doma (14 dní předem). Ve třídě změří výšku h, ze které závaží spadne (E_p = m·g·h). Označí dráhu 50 cm na podlaze, změří čas průjezdu vozítka a odvodí rychlost v. Výpočet: E_k = ½·m_v·v². Účinnost η = E_k / E_p.",
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_10/10_06_Burda.html"
+  }
+}

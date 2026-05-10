@@ -1,0 +1,18 @@
+{
+  "id": "energie-trecni-ztraty-teplo",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Třecí ztráty — proč mají stroje účinnost menší než 100 %",
+  "type": "qualitative",
+  "description": "Žáci táhnou závaží po různých površích (hladká deska, hrubý papír, koberec) a měří teplotu povrchu před a po tahu. Vidí, že část energie svalové práce se přemění na teplo třením — to jsou ztráty, které snižují účinnost každého reálného stroje pod 100 %.",
+  "materials": [
+    "závaží 200–500 g",
+    "deska a různé podložky (hladká, hrubý papír, kousek koberce)",
+    "kontaktní nebo IR teploměr",
+    "siloměr (volitelně)"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1591/zmena-vnitrni-energie-konanim-prace:-tazeni-predmetu-po-podlozce"
+  }
+}
