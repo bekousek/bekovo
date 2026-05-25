@@ -1,6 +1,6 @@
 # Banka webových zdrojů pro fyziku na bekovo.cz
 
-> Banka 51 webových zdrojů pro doplňování pokusů, výukových aktivit, výzkumných prací a dalších materiálů k výuce fyziky. Mířeno primárně na 2. stupeň ZŠ s přesahy do 1. stupně a SŠ. Většina zdrojů česky/slovensky, několik anglických (označeno).
+> Banka 60 webových zdrojů pro doplňování pokusů, výukových aktivit, výzkumných prací a dalších materiálů k výuce fyziky. Mířeno primárně na 2. stupeň ZŠ s přesahy do 1. stupně a SŠ. Většina zdrojů česky/slovensky, několik anglických (označeno).
 
 ## Použití při dalším promptingu
 
@@ -40,6 +40,8 @@ Tento soubor předej Claudovi jako referenci, když potřebuješ:
 | 13 | Sbírka řešených úloh KDF MFF UK | http://reseneulohy.cz/cs/fyzika | 1000+ detailně řešených úloh, dle obtížnosti | Od ZŠ po VŠ |
 | 14 | Fyzika 007 | https://www.fyzika007.cz/ | Teorie, řešené úlohy, přehled fyzikálních soutěží | SŠ, část ZŠ |
 | 15 | Realisticky.cz — fyzika ZŠ | http://www.realisticky.cz/ucebnice.php?id=4 | Strukturovaná učebnice fyziky pro ZŠ | ZŠ |
+| 52 | 🎯 Eva Hejnová — bublinové úlohy (concept cartoons) | http://physics.ujep.cz/~ehejnova/Pro_ucitele/ | Soubory úloh formou diskuze odhalujících miskoncepce; PDF + FLP pro ActivBoard, metodické poznámky | Primárně 2. stupeň ZŠ, část i 1. stupeň |
+| 55 | 🎯 Školní příprava (Václav Koplík) | https://skolnipriprava.estranky.cz/clanky/fyzika/ | Aktivity a interaktivní listy pro fyziku 2. stupně, dělené po 15 tématech (látky, veličiny, pohyb, síla, páka, tlak, optika, akustika, kapaliny, plyny, energie, termika, elektřina, vesmír, opakování); 4–18 příspěvků na téma. Bonus: i informatika podle nového RVP | ZŠ |
 
 ## B) Interaktivní simulace a applety
 
@@ -50,6 +52,7 @@ Tento soubor předej Claudovi jako referenci, když potřebuješ:
 | 18 | Walter Fendt — Fyzikální HTML5 (cz) | https://www.walter-fendt.de/html5/phcz/ | Klasické applety v HTML5, česky | ZŠ/SŠ |
 | 19 | Falstad — Math and Physics Applets (EN) | https://www.falstad.com/mathphysics.html | Desítky simulací (vlnění, obvody) | Univerzální |
 | 20 | Geogebra — fyzika | https://www.geogebra.org/search/perform/search/fyzika | Komunitní applety česky | Učitelé/žáci |
+| 53 | ComPADRE — Physics Front (EN) | https://www.compadre.org/precollege/ | Síť digitálních sbírek AAPT pro fyziku a astronomii; Physics Front cílí na K-12, hotové aktivity a labky | SŠ, ambicióznější ZŠ |
 
 ## C) Korespondenční semináře a soutěže
 
@@ -96,6 +99,7 @@ Tento soubor předej Claudovi jako referenci, když potřebuješ:
 | 44 | CERN — vzdělávací zdroje (EN) | https://home.cern/science/students-educators | Animace, scénáře, virtuální exkurze | 9. třída/SŠ |
 | 45 | Techmania Science Center | https://techmania.cz/cs/edutorium | Edutorium, pokusy, tématické balíčky, e-learning | ZŠ/SŠ |
 | 46 | iQLANDIA Liberec — pro školy | https://www.iqlandia.cz/cs/skoly | 🎯 Lokálně blízko (Liberec); programy, pracovní listy, exkurze | ZŠ/SŠ |
+| 54 | 🎯 ESERO ČR — vzdělávací kancelář ESA | https://www.eserocz.cz/materialy-pro-vyuku | Materiály a aktivity pro výuku astronomie/kosmonautiky napříč předměty (fyzika, technologie, programování); CanSat, Astro Pi, Climate Detectives | ZŠ/SŠ |
 
 ## G) Badatelská výuka a výzkumné projekty na doma
 
@@ -105,12 +109,22 @@ Tento soubor předej Claudovi jako referenci, když potřebuješ:
 | 48 | TalentovaniCZ (NIDV) | https://www.talentovani.cz/ | Semináře, soutěže, online kurzy, metodiky pro projektovou výuku | Nadaní žáci |
 | 49 | 🎯 Elixír do škol | https://www.elixirdoskol.cz/ | Síť 29 fyzikálních center (i Liberec); metodické materiály | Učitelé |
 | 50 | Science on Stage Europe (EN) | https://www.science-on-stage.eu/teachingmaterials | Recenzované evropské brožury (iStage, smartphony, AI, peníze ve fyzice) | Učitelé |
+| 56 | 🎯 Učíme se venku | https://ucimesevenku.cz/fyzika/ | Lekce, náměty a metodika pro výuku fyziky venku (mechanika rytí, hydromechanika potoků, optika v terénu, měření v přírodě). Cyklus „Věda venku" pro 2. stupeň | ZŠ |
+| 57 | Science on Stage Ireland — booklets (EN) | https://scienceonstage.ie/resources/ | Sborníky 200+ pokusů a nápadů z evropských SonS festivalů (2000–2022), volně ke stažení v PDF; doplňující videa | Učitelé |
 
 ## H) Rozcestníky a komunitní stránky
 
 | # | Název | URL | Co tam je | Pro koho |
 |---|---|---|---|---|
 | 51 | 🎯 Fyzikum.cz — odkazy | https://fyzikum.cz/odkazy/ | Kvalitně vybraný rozcestník na české i zahraniční zdroje (videa, applety, sbírky pokusů, laboratorní práce) — dobrý meta-zdroj pro hledání dalších | Učitelé |
+
+## I) Science show, festivaly a hands-on / 3D tisk
+
+| # | Název | URL | Co tam je | Pro koho |
+|---|---|---|---|---|
+| 58 | 🎯 ÚDiF — Úžasné divadlo fyziky | https://udif.cz/ | Science show pro školy (od MŠ po SŠ), workshopy, semináře pro učitele, e-shop s pokusy do třídy, knížka, YouTube kanál | ZŠ/SŠ, akce ve škole |
+| 59 | Maker Faire Praha | https://makerfaire.cz/praha/ | Festival inovací, 3D tisk, robotika, věda; programy pro školy, robotické soutěže (LEGO Mindstorms), inspirace pro projekty. Koná se každoročně v květnu | Inspirace pro tebe i exkurze se žáky |
+| 60 | 🎯 Fyzikář 3D (Karel Havlíček, MFF UK) | https://fyzikar3d.wordpress.com/ | Návody na fyzikální pomůcky vytištěné na 3D tiskárně (laserová sada, vlnostroj, hydraulika, povrchové napětí). Přímo pro tvoje vybavení a zájem | ZŠ/SŠ, kdo má 3D tiskárnu |
 
 ---
 
@@ -162,4 +176,4 @@ Postup: **3 (VNUF fulltext)** → klíčové slovo → projít 2–3 nejlepší 
 
 ---
 
-*Stav: 8. května 2026. Banku průběžně doplňuj o nové zdroje stejné kvality.*
+*Stav: 8. května 2026, 60 zdrojů. Banku průběžně doplňuj o nové zdroje stejné kvality.*

@@ -127,13 +127,17 @@ Jediné, co rutina edituje: JSON soubory v `src/content/{experiments,activities,
 
 ## Slash commands
 
-Rutina má dvě fáze:
+Workflow má tři artefakty:
 
-- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, vytvoří lokální commit v cloud workspace, vyplivne **paste-publish manifest** jako svou finální zprávu. Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
+- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, vyplivne manifest (`\`\`\`json` blok mezi `---PASTE-START---` a `---PASTE-END---`) jako svou finální zprávu. Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
 
-- **`/nightly-publish`** — uživatel pasteuje manifest do **lokální** Claude Code session (kde je gh + git auth). Slash command vytvoří větev, soubory, commit, push, otevře draft PR. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
+- **`.routine/queue.md`** — lokální fronta na uživatelově disku. Uživatel sem jen vystřihne manifest z výstupu cloud rutiny (z https://claude.ai/code/routines/trig_01TC312RwvG9vVV2XXoLBBGy). Může nakumulovat libovolně mnoho manifestů z více nocí (klidně týden). Souboru se nikdo nedotkne, dokud uživatel nespustí /process-queue. Soubor je gitignored.
 
-**Proč tento split?** Cloud routine env (CCR) nemá write přístup k git remote — nemůže `git push` ani `gh pr create`. Lokální Claude Code v repu má všechno auth. Cloud dělá research + synthesis + validate, lokál dělá publish.
+- **`/process-queue`** — uživatel spustí v **lokální** Claude Code session (kde je gh + git auth) kdykoli mu to vyhovuje. Slash command pro každý manifest v queue.md: vytvoří routine větev, soubory, commit, push, otevře draft PR. Deduplikuje přes `.routine/processed.json` (klíč = `manifestId`). Po dokončení vyresetuje queue.md zpět do výchozího stavu. Detail: [.claude/commands/process-queue.md](.claude/commands/process-queue.md).
+
+- **`/nightly-publish`** (legacy, jednorázový) — když chceš zpracovat jeden manifest hned bez fronty, vlož ho do CC chatu s tímto prefixem. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
+
+**Proč tenhle split?** Cloud routine env (CCR) nemá write přístup k git remote — nemůže `git push` ani `gh pr create`. Současně žádný připojený MCP (Drive/Gmail) neumí zapsat/append do shared dokumentu. Lokální Claude Code v repu má naopak všechno auth. Cloud tedy dělá research + synthesis + validate a JSON manifest si „kreslí na stůl"; uživatel manifest vystřihne do lokální fronty `.routine/queue.md` (1 click copy), kde se mohou hromadit. Když má čas, lokál hromadně zpracuje a vyresetuje frontu.
 
 ## Validace
 

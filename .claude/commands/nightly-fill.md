@@ -136,6 +136,7 @@ Vytvoř single JSON objekt s tímto tvarem:
 ```json
 {
   "version": 1,
+  "manifestId": "<YYYY-MM-DD>-<PICK>",
   "subtopic": "<PICK>",
   "topicId": "<topicId>",
   "subtopicId": "<bareSubtopicId>",
@@ -158,6 +159,8 @@ Vytvoř single JSON objekt s tímto tvarem:
   }
 }
 ```
+
+`manifestId` slouží jako klíč deduplikace v `.routine/processed.json` — formát `YYYY-MM-DD-<topic>--<subtopic>`. Lokální `/process-queue` jím pozná, jestli už byl manifest zpracován.
 
 PR body šablona:
 
@@ -201,27 +204,30 @@ PR body šablona:
 
 ## 10. Vyplivni FINÁLNÍ ZPRÁVU
 
-Tvoje poslední zpráva v této session musí mít přesně tuto strukturu, **česky, s českými názvy**, aby uživatel věděl co dělat:
+Tvoje poslední zpráva v této session musí mít přesně tuto strukturu — **česky** — aby si uživatel věděl, co dělat (i když se vrátí za týden):
 
 ```
 ✅ Hotovo — <PICK>, <X> položek, build OK.
 
-📋 K dokončení: zkopíruj následující prompt + JSON do **lokální** Claude Code v repu C:\Users\bekon\bekovo:
+📋 Manifest pro frontu (skopíruj jen ten ```json blok níže a vlož ho do `C:\Users\bekon\bekovo\.routine\queue.md` pod sekci "Manifesty z noční rutiny"):
 
----PASTE-PUBLISH START---
-
-/nightly-publish
+---PASTE-START---
 
 ```json
 { ...full manifest JSON... }
 ```
 
----PASTE-PUBLISH END---
+---PASTE-END---
+
+Až budeš mít čas (klidně až po týdnu nasbíraných nocí), otevři lokální Claude Code v repu a spusť `/process-queue` — všechny nasbírané manifesty se zpracují naráz do draft PRs a queue.md se vyresetuje.
 ```
 
-Mezi `---PASTE-PUBLISH START---` a `---PASTE-PUBLISH END---` musí být **ten paste-text v takové formě, že uživatel ho zkopíruje 1:1 do lokálního chatu a ono to spustí slash command `/nightly-publish` s manifestem v `\`\`\`json` bloku**. Lokální slash command si JSON přečte z message kontextu.
+**Klíčové změny oproti staré verzi:**
+- Cílový dokument je `.routine/queue.md`, ne přímý paste do CC chatu. Uživatel může nakumulovat víc manifestů (z více nocí) a zpracovat je hromadně.
+- Manifestu rozumí slash command `/process-queue`, který běží lokálně. `manifestId` je deduplikační klíč.
+- Mezi `---PASTE-START---` a `---PASTE-END---` musí být **přesně jeden** `\`\`\`json` blok s celým manifestem. Žádný jiný prompt, žádný slash command — uživatel jen vystřihne ten JSON.
 
-Pokud došlo k abortu (paused-pr-backlog / no-research-found / build-failed), vyplivni místo manifestu krátký jednovětý důvod proč nic.
+Pokud došlo k abortu (no-research-found / build-failed), vyplivni místo manifestu jen krátký jednovětý důvod proč nic.
 
 ## Hard rules (recap)
 
