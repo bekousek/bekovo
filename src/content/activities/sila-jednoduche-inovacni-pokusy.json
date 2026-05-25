@@ -1,0 +1,12 @@
+{
+  "id": "sila-jednoduche-inovacni-pokusy",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Dva jednoduché inovační pokusy z mechaniky",
+  "type": "group-work",
+  "description": "Sada netradičních pokusů se siloměrem: měření síly, kterou pružina vrátí natažené závaží, vážení vlastní ruky v různých polohách, měření tahové síly potřebné k překonání statického tření. Skupiny porovnávají výsledky a hledají optimální postup měření.",
+  "source": {
+    "label": "VNUF 11 (2006) — Janás: Dva jednoduché inovační pokusy z mechaniky",
+    "url": "https://vnuf.cz/sbornik/prispevky/11-14-Janas.html"
+  }
+}

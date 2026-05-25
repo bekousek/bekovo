@@ -1,0 +1,18 @@
+{
+  "id": "magnetismus-vznasejici-vata",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Vznášející se vata — magnetické pole",
+  "type": "qualitative",
+  "description": "Vata posypaná železnými pilinami se umístí mezi dva silné neodymové magnety. Při správné poloze se zachytí ve vzduchu díky magnetickému poli — pole drží piliny v určité konfiguraci. Demonstrace, že magnetické pole zprostředkovává silové působení mezi objekty na dálku.",
+  "materials": [
+    "dva silné neodymové magnety",
+    "vata nebo hadřík",
+    "železné piliny",
+    "stojan se svorkou"
+  ],
+  "source": {
+    "label": "VNUF 4 (1999) — Lánský: Vznášející se vata. Magnetické pole Země",
+    "url": "https://kdf.mff.cuni.cz/veletrh/sbornik/Veletrh_04/04_11_Lansky.html"
+  }
+}

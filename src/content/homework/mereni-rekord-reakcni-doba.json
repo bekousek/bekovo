@@ -1,0 +1,11 @@
+{
+  "id": "mereni-rekord-reakcni-doba",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Změř svou reakční dobu pomocí pravítka",
+  "description": "Požádej někoho z domácnosti, ať drží 30cm pravítko svisle nad tvojí rukou s nulou u prstů. Tvoji prsty jsou rozevřené, ale pravítka se nedotýkají. Pomocník pravítko v náhodný okamžik pustí — ty ho co nejrychleji chytíš. Zaznamenej v cm, kde jsi pravítko zachytil. Z dráhy volného pádu spočítej čas: t = √(2s/g). Opakuj 10× a najdi průměr i nejlepší pokus.",
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/d/pokusy-do-skoly"
+  }
+}

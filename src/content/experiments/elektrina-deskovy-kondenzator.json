@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-deskovy-kondenzator",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Deskový kondenzátor z alobalu",
+  "type": "measurement",
+  "description": "Dvě hliníkové fólie se vloží mezi listy knihy s krátkými vodiči připojenými k multimetru v režimu měření kapacity. Žáci postupně mění počet listů mezi fóliemi (= vzdálenost desek) a měří kapacitu. Také zkouší různě velké fólie. Ověří závislosti: kapacita roste s plochou a klesá se vzdáleností desek.",
+  "materials": [
+    "dvě hliníkové fólie 10×10 cm a 20×20 cm",
+    "tlustá kniha (svazek papíru)",
+    "multimetr s funkcí měření kapacity",
+    "krokosvorky"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1896/deskovy-kondenzator"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-leydenska-lahev",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Leydenská láhev — historický kondenzátor",
+  "type": "group-work",
+  "description": "Žáci v týmech sestaví Leydenskou láhev: skleněnou láhev obalí zvenku alobalem, zevnitř nalijí slanou vodu a do vody vloží drát opatřený kovovou hlavičkou. Láhev se nabije třením o silonový sáček nebo z elektroforu. Po vybití přes prsty nastává citelný (nikoli bolestivý) výboj. Historická ukázka principu kondenzátoru z 18. století.",
+  "source": {
+    "label": "VNUF — Šabatka: Základy elektrostatiky v pokusech",
+    "url": "https://vnuf.cz/sbornik/prispevky/15-28-Sabatka.html"
+  }
+}

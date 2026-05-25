@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-horizontalni-slozka-pole",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Měření horizontální složky magnetického pole Země",
+  "type": "measurement",
+  "description": "Pomocí tangentové busoly (kompas + cívka navinutá na lahvi) lze určit velikost horizontální složky magnetického pole Země. Žáci nechávají cívkou téct známý proud a měří úhel vychýlení střelky. Z poměru sil pole cívky a pole Země vypočítají magnetickou indukci Země (~25 μT).",
+  "materials": [
+    "kompas (buzola) s úhlovou stupnicí",
+    "plastová láhev s navinutou cívkou (50 závitů izolovaného drátu)",
+    "regulovatelný zdroj DC napětí",
+    "ampérmetr",
+    "kalkulátor"
+  ],
+  "source": {
+    "label": "VNUF 4 (1999) — Svoboda E.: Jak jednoduše změřit velikost magnetického pole Země",
+    "url": "https://vnuf.cz/sbornik/prispevky/04-21-Svoboda.html"
+  }
+}

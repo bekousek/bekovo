@@ -1,0 +1,20 @@
+{
+  "id": "eo-jednoduchy-elektromagnet",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Jednoduchý elektromagnet z hřebíku",
+  "type": "qualitative",
+  "description": "Na železný hřebík se těsně navine izolovaný měděný drát (50–100 závitů) a oba konce se připojí ke 4,5 V plochému článku. Hřebík začne přitahovat kancelářské sponky a špendlíky. Po odpojení proudu magnetické pole rychle zmizí. Demonstrace, že elektrický proud vytváří magnetické pole.",
+  "materials": [
+    "železný hřebík (8–10 cm)",
+    "izolovaný měděný drát (lakovaný, ø 0,3 mm)",
+    "plochý článek 4,5 V nebo monočlánek",
+    "krokosvorky",
+    "kancelářské sponky pro test",
+    "smirkový papír na obroušení izolace na koncích"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2198/jednoduchy-elektromagnet"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "eo-phet-magnety-elektromagnety",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "PhET interaktivní simulace — Magnety a elektromagnety",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace umožňuje porovnat magnetické pole tyčového magnetu a elektromagnetu (cívky s proudem). Lze měnit počet závitů, sílu proudu a polaritu baterie. Železné piliny vizualizují tvar pole.",
+  "url": "https://phet.colorado.edu/sims/html/magnets-and-electromagnets/latest/magnets-and-electromagnets_all.html"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "eo-elektromagnet-zavity",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Síla elektromagnetu — vliv počtu závitů",
+  "type": "measurement",
+  "description": "Žáci sestaví elektromagnet a postupně přidávají závity drátu (např. 50, 100, 150, 200). Pro každé množství spočítají, kolik kancelářských sponek elektromagnet udrží. Vznikne tabulka a graf závislosti síly na počtu závitů. Ukáže se přibližně lineární růst.",
+  "materials": [
+    "železný hřebík",
+    "izolovaný drát s rezervou (min. 3 m)",
+    "monočlánek 1,5 V se stojánkem",
+    "krokosvorky",
+    "30+ kancelářských sponek",
+    "list papíru s tabulkou"
+  ],
+  "source": {
+    "label": "Elektromagnetismus krok za krokem (KDF MFF UK)",
+    "url": "https://kdf.mff.cuni.cz/vyuka/ElmagKrokZaKrokem/Elektromagnetismus.pdf"
+  }
+}

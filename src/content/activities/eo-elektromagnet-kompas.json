@@ -1,0 +1,12 @@
+{
+  "id": "eo-elektromagnet-kompas",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Detekce magnetického pole kompasem",
+  "type": "method",
+  "description": "Vedle hřebíkového elektromagnetu se umístí buzola nebo kompas v telefonu. Při sepnutí obvodu se střelka prudce vychýlí, protože pole elektromagnetu výrazně přebije pole Země. Metoda dovoluje žákům vidět něco, co je jinak neviditelné, a najít magnetické póly elektromagnetu (pravidlo pravé ruky).",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2198/jednoduchy-elektromagnet"
+  }
+}

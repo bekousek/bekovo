@@ -1,0 +1,16 @@
+{
+  "id": "mereni-tepu-srdce",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Měření tepu srdce — klid vs zátěž",
+  "type": "measurement",
+  "description": "Žáci si nahmatají pulz na zápěstí a měří počet úderů za 15 sekund. Vynásobí 4× a získají tep za minutu (klidový tep, typicky 60–80 BPM). Pak udělají 20 dřepů a měření zopakují. Porovnají hodnoty před a po zátěži. Diskuse o přesnosti měření a o tom, proč měříme 15 s místo 60 s.",
+  "materials": [
+    "stopky (mobil)",
+    "tabulka pro zápis"
+  ],
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/"
+  }
+}
