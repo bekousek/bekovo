@@ -1,0 +1,20 @@
+{
+  "id": "mereni-perioda-kyvadla",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Měření periody matematického kyvadla",
+  "type": "measurement",
+  "description": "Žáci sestaví matematické kyvadlo (závaží na niti přes stojan) a měří stopkami dobu 10 kmitů. Z toho vypočítají periodu T jako 1/10. Postupně mění délku závěsu (např. 25 cm, 50 cm, 1 m) a ověří závislost T = 2π√(L/g). Diskuse o přesnosti měření — proč 10 kmitů místo 1.",
+  "materials": [
+    "stojan se svorkou",
+    "nit nebo provázek (1,5 m)",
+    "závaží 50–100 g (např. matka)",
+    "stopky (mobil)",
+    "pásmo nebo metr",
+    "list papíru s tabulkou"
+  ],
+  "source": {
+    "label": "VNUF 10 (2005) — Patč: Pokusy s kyvadly II",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/10-19-Patc_B.pdf"
+  }
+}

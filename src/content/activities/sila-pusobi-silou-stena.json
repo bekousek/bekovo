@@ -1,0 +1,12 @@
+{
+  "id": "sila-pusobi-silou-stena",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Působí silou stěna? (paradox)",
+  "type": "method",
+  "description": "Diskuzní aktivita. Žák tahá za háček v stěně siloměrem. Siloměr ukazuje nenulovou hodnotu — stěna tedy silou působí. Třídní diskuze: jak může stěna působit silou, když nedělá nic? Klíč: vždy, když se jeden objekt opírá o druhý, vzniká reakční síla. Otevírá diskusi o normálových silách a tlaku.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4484/pusobi-silou-stena-"
+  }
+}

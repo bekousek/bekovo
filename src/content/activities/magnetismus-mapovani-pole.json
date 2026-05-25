@@ -1,0 +1,12 @@
+{
+  "id": "magnetismus-mapovani-pole",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Mapování indukčních čar tyčového magnetu",
+  "type": "group-work",
+  "description": "Na tvrdý karton se položí tyčový magnet a posype se železnými pilinami. Mírným poklepáním na karton se piliny seskupí do tvaru indukčních čar. Vznikne typický obrazec ze sevřených smyček. Žáci nakreslí mapu pole a doplní šipky podle směru pole. Analogie s polem Země — také tyčový magnet s póly.",
+  "source": {
+    "label": "Projekt Heuréka — Magnetostatika (KDF MFF UK)",
+    "url": "https://kdf.mff.cuni.cz/vyuka/Fyzika2elmag/ElMag_05_Magnetostatika_ver0.pdf"
+  }
+}

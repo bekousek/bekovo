@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-dc-kit",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "PhET — Stavebnice obvodů: DC",
+  "type": "applet",
+  "description": "Virtuální stavebnice obvodů — žáci kreslí schémata, zapojují baterie, žárovky, rezistory, vypínače a měří proud a napětí. Vhodné pro pochopení sériového a paralelního zapojení i Ohmova zákona ještě před fyzickými pokusy.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc"
+}

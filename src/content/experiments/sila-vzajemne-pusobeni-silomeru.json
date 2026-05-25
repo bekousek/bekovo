@@ -1,0 +1,16 @@
+{
+  "id": "sila-vzajemne-pusobeni-silomeru",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Vzájemné působení dvou siloměrů",
+  "type": "qualitative",
+  "description": "Dva siloměry s pružinami různé tuhosti se zaháknou háčky proti sobě a žáci za ně tahají. Bez ohledu na tuhost obou pružin ukazují siloměry vždy stejnou hodnotu. Demonstrace 3. Newtonova zákona (akce a reakce): síly, jimiž na sebe tělesa působí, jsou stejně velké a opačně orientované.",
+  "materials": [
+    "dva siloměry s různou tuhostí pružiny",
+    "tabulka pro zápis dvojic hodnot"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4486/vzajemne-pusobeni-silomeru-s-pruzinami-o-ruzne-tuhosti"
+  }
+}

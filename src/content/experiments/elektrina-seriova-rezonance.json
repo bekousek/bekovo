@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-seriova-rezonance",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Sériová rezonance LC obvodu",
+  "type": "qualitative",
+  "description": "Sériové zapojení cívky a kondenzátoru s žárovkou je napájeno generátorem střídavého napětí. Při určité frekvenci (rezonanční) protéká obvodem maximální proud a žárovka svítí nejjasněji. Jevu se říká rezonance — vlastní frekvence LC obvodu závisí na indukčnosti L a kapacitě C.",
+  "materials": [
+    "cívka 1000 závitů",
+    "kondenzátor 1 μF",
+    "žárovka 6 V/0,3 A se stojánkem",
+    "generátor střídavého napětí s nastavitelnou frekvencí",
+    "vodiče s krokosvorkami"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/968/seriova-rezonance"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sila-mereni-tihy-zavazi",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Měření tíhy závaží — kalibrace siloměru",
+  "type": "measurement",
+  "description": "Žáci postupně zavěšují na siloměr závaží známé hmotnosti (50 g, 100 g, 200 g, 500 g) a odčítají sílu v N. Vyplní tabulku F = m × g. Z grafu F na m najdou tíhové zrychlení g ≈ 9,8 m/s². Pak změří tíhu několika běžných předmětů (kniha, sklenice, kalkulačka).",
+  "materials": [
+    "siloměr 0–5 N nebo 0–10 N",
+    "sada závaží 50/100/200/500 g",
+    "běžné předměty pro test",
+    "list s tabulkou a grafem"
+  ],
+  "source": {
+    "label": "Sborník VNUF — siloměry",
+    "url": "https://vnuf.cz/sbornik/klicova/silomer_(265).html"
+  }
+}

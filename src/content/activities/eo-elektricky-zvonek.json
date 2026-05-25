@@ -1,0 +1,12 @@
+{
+  "id": "eo-elektricky-zvonek",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Sestavení elektrického zvonku",
+  "type": "group-work",
+  "description": "Žáci ve skupinkách sestaví funkční elektrický zvonek. Klíčový princip: elektromagnet přitáhne pružinové kladívko, které rozezní misku, ale při dotyku se přeruší kontakt a kladívko se vrátí — cyklus se opakuje. Učí se princip elektromagnetického přerušovače (relé). Vyžaduje pečlivé seřízení mezery mezi kontaktem a kladívkem.",
+  "source": {
+    "label": "Projekt Heuréka — Elektromagnetismus (KDF MFF UK)",
+    "url": "https://kdf.mff.cuni.cz/heureka/former/puvodni-web/Clanky/Heureka_Elektromagnetismus.htm"
+  }
+}

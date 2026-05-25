@@ -1,0 +1,11 @@
+{
+  "id": "magnetismus-zaznam-kompasu",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Zaznamenej výchylky kompasu doma a venku",
+  "description": "Vezmi kompas (nebo aplikaci v mobilu) a změř, kam ukazuje sever ve 4 různých místech: u stolu s počítačem, vedle ledničky, u radiátoru a venku na zahradě. Zaznamenej úhel mezi severem v interiéru a venku. Vysvětli, proč se v některých místech kompas ruší (železné konstrukce, motory, ferromagnetické materiály).",
+  "source": {
+    "label": "VNUF — Elektřina a magnetismus pro ZŠ",
+    "url": "https://vnuf.cz/sbornik_old/obsahy/obsah_elmgZ_autori_detaily.html"
+  }
+}

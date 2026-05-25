@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-kondenzatory-doma",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Najdi kondenzátor doma a popiš jeho funkci",
+  "description": "Najdi doma 2 zařízení, ve kterých pracuje kondenzátor (typicky síťové zdroje, blesky fotoaparátů, klimatizace, mikrovlnka, ventilátor jednofázového motoru, audio reproduktory). Zjisti, k čemu kondenzátor slouží (vyhlazení napětí, akumulace energie, fázový posun). Pokud najdeš na desce čitelný popis (kapacita v μF, napětí v V), zaznamenej hodnoty.",
+  "source": {
+    "label": "VNUF 5 (2000) — Koudelková: Dobrovolné domácí úkoly",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_05/05_15_Koudelkova.html"
+  }
+}
