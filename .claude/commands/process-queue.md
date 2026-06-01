@@ -37,11 +37,13 @@ Pomocí ToolSearch nahraj nástroje:
 Volání:
 ```
 search_files({
-  query: "parentId = '1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym' and title contains 'manifest-' and trashed = false",
+  query: "parentId = '1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym' and title contains 'manifest-'",
   pageSize: 50,
   excludeContentSnippets: true
 })
 ```
+
+Pozn.: Drive search API nepodporuje `trashed = false` v query — folder by neměl obsahovat smazané soubory ale když ano, ručně filtruj v odpovědi.
 
 Folder ID `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym` je hardcoded — folder `bekovo-nightly-queue` v Drive uživatele.
 
