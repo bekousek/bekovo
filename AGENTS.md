@@ -125,19 +125,21 @@ Tyto cesty rutina **nikdy nemodifikuje**:
 
 Jediné, co rutina edituje: JSON soubory v `src/content/{experiments,activities,materials,homework}/` a `.routine/ledger.json`.
 
-## Slash commands
+## Slash commands (v5 — Drive-based queue)
 
-Workflow má tři artefakty:
+Workflow má dva artefakty + jeden shared store:
 
-- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, vyplivne manifest (`\`\`\`json` blok mezi `---PASTE-START---` a `---PASTE-END---`) jako svou finální zprávu. Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
+- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, **uloží manifest jako JSON soubor do Google Drive** folderu `bekovo-nightly-queue` (parentId `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym`). Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
 
-- **`.routine/queue.md`** — lokální fronta na uživatelově disku. Uživatel sem jen vystřihne manifest z výstupu cloud rutiny (z https://claude.ai/code/routines/trig_01TC312RwvG9vVV2XXoLBBGy). Může nakumulovat libovolně mnoho manifestů z více nocí (klidně týden). Souboru se nikdo nedotkne, dokud uživatel nespustí /process-queue. Soubor je gitignored.
+- **Google Drive folder `bekovo-nightly-queue`** — perzistentní fronta. Cloud rutina sem zapisuje manifesty pomocí `create_file`. Lokální `/process-queue` je čte přes `search_files` + `read_file_content`. Folder URL: https://drive.google.com/drive/folders/1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym.
 
-- **`/process-queue`** — uživatel spustí v **lokální** Claude Code session (kde je gh + git auth) kdykoli mu to vyhovuje. Slash command pro každý manifest v queue.md: vytvoří routine větev, soubory, commit, push, otevře draft PR. Deduplikuje přes `.routine/processed.json` (klíč = `manifestId`). Po dokončení vyresetuje queue.md zpět do výchozího stavu. Detail: [.claude/commands/process-queue.md](.claude/commands/process-queue.md).
+- **`/process-queue`** — uživatel spustí v **lokální** Claude Code session kdykoli mu to vyhovuje. Slash command najde všechny nové manifesty v Drive folderu (filtruje přes `.routine/processed.json` deduplikací podle `manifestId`), pro každý: vytvoří routine větev + soubory + commit + push + draft PR + **auto-squash-merge**. Po dokončení tracked v processed.json. Drive soubory zůstávají jako audit trail. Detail: [.claude/commands/process-queue.md](.claude/commands/process-queue.md).
 
 - **`/nightly-publish`** (legacy, jednorázový) — když chceš zpracovat jeden manifest hned bez fronty, vlož ho do CC chatu s tímto prefixem. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
 
-**Proč tenhle split?** Cloud routine env (CCR) nemá write přístup k git remote — nemůže `git push` ani `gh pr create`. Současně žádný připojený MCP (Drive/Gmail) neumí zapsat/append do shared dokumentu. Lokální Claude Code v repu má naopak všechno auth. Cloud tedy dělá research + synthesis + validate a JSON manifest si „kreslí na stůl"; uživatel manifest vystřihne do lokální fronty `.routine/queue.md` (1 click copy), kde se mohou hromadit. Když má čas, lokál hromadně zpracuje a vyresetuje frontu.
+**Proč Drive?** Cloud routine env (CCR) nemá git push auth. Předchozí pokus (paste manifest do final message) selhával — agent kopíroval placeholder text místo skutečného obsahu. Drive `create_file` z MCP je deterministický strukturovaný kanál: cloud zapíše JSON soubor, lokál ho přečte. Bez parsování textu, bez ručního copy-paste, bez ztraceného obsahu.
+
+Uživatelův workflow: jen `/process-queue` občas (1× týdně třeba). Vše ostatní je automatické — cloud rutina každou noc napíše do Drive, lokál mergne do main, Cloudflare nasadí.
 
 ## Validace
 
