@@ -1,138 +1,127 @@
 ---
-description: Hromadně zpracuj všechny manifesty z .routine/queue.md — pro každý vytvoř větev, push a draft PR, pak queue.md vyresetuj.
+description: Auto-scrape claude.ai routine page přes Chrome MCP, sebere všechny nové manifesty, vytvoří PR a auto-squash-merge.
 ---
 
-Jsi lokální assistant v repu `C:\Users\bekon\bekovo`. Tvá úloha: zpracovat hromadně všechny noční manifesty, které uživatel nakumuloval v `.routine/queue.md`, do GitHub draft PRs.
+Jsi lokální assistant v repu `C:\Users\bekon\bekovo`. Tvá úloha: doběhnout celý workflow noční rutiny **bez práce uživatele** — sám si přines manifesty z claude.ai, sám je zprocesuj do PR, sám je squash-mergni do main.
 
-## 0. Setup
+## 0. Setup state
 
-Pokud `.routine/queue.md` **neexistuje**:
-- Vytvoř ho s následujícím **template obsahem**:
+- Pokud `.routine/queue.md` **neexistuje**, vytvoř ho s tímto template obsahem:
 
 ```markdown
 # Bekovo nightly queue
 
 Tento dokument je fronta pro hromadné zpracování výstupů z noční rutiny bekovo.cz.
 
-## Co dělat — instrukce pro Claude Code
+## Co dělat
 
-Spusť slash command `/process-queue` v tomto repu. CC:
-1. Najde všechny manifesty (```json bloky) níže
-2. Pro každý vytvoří routine větev, soubory, commit, push a draft PR
-3. Pomocí .routine/processed.json se vyhne duplicitě, kdybys spustil opakovaně
-4. Po dokončení vyresetuje tento soubor do výchozího stavu (jen tato hlavička)
-5. Vrátí seznam URL otevřených PR
+Spusť `/process-queue` v Claude Code v tomto repu. CC automaticky:
+1. Přes Chrome MCP scrapne claude.ai routine page a vytáhne všechny nové manifesty
+2. (Volitelně) přečte i ručně vložené manifesty níže v sekci Manifesty
+3. Pro každý nový manifest vytvoří routine větev, soubory, commit, push, PR a squash-mergne do main
+4. Tento soubor po dokončení vyresetuje
 
-(Pokud nemáš slash command po ruce, zkopíruj celý tento dokument do CC chatu — model pochopí z hlavičky.)
+## Manifesty (ruční fallback)
 
-## Jak nasypat nové manifesty
-
-Otevři https://claude.ai/code/routines/trig_01TC312RwvG9vVV2XXoLBBGy
-Klikni na poslední run, najdi v jeho výstupu blok mezi `--PASTE-PUBLISH START--` a `--PASTE-PUBLISH END--`.
-Skopíruj ten ```json blok (jen samotný JSON manifest) a vlož ho do sekce **Manifesty** níže.
-Můžeš jich naskládat libovolně mnoho — i z více nocí. /process-queue je všechny zpracuje naráz.
-
-## Manifesty z noční rutiny
-
-<!-- Sem se příchází manifesty z cloud rutiny. Každý je samostatný ```json blok. -->
-<!-- Pokud je sekce prázdná, rutina nic nevyrobila NEBO bylo všechno už zpracováno. -->
+<!-- Sem můžeš ručně vložit ```json blok s manifestem, pokud nechceš čekat na Chrome MCP scrape. -->
+<!-- /process-queue najde a zpracuje i tyto. -->
 ```
 
-- Pokud `.routine/processed.json` neexistuje, vytvoř ho jako `{"processedIds": [], "history": []}`.
+- Pokud `.routine/processed.json` **neexistuje**, vytvoř ho jako:
+  ```json
+  {"processedIds": [], "checkedRunIds": [], "history": []}
+  ```
 
-Pak pokračuj. Pokud queue.md vznikl jen teď a je prázdný, vypiš zprávu „Queue je prázdná. Naplň ji manifesty z claude.ai (viz hlavička souboru) a spusť mě znovu." a skonči.
-
-## 1. Pre-flight kontroly
+## 1. Pre-flight
 
 ```bash
 git status --short
 ```
 
-Pokud working tree obsahuje cokoli kromě `.claude/settings.local.json` (modifikace povolena), `.claude/worktrees/` (untracked OK), `.routine/queue.md` (modifikace povolena) a `.routine/processed.json` (modifikace povolena) → **abortni** a vypiš co je špinavé. Uživatel musí stash/commit/clean nejdřív.
+Pokud working tree obsahuje cokoli kromě `.claude/settings.local.json`, `.claude/worktrees/`, `.routine/queue.md`, `.routine/processed.json` → **abortni** a vypiš co je špinavé.
 
 ```bash
-git fetch origin
-git checkout main
-git pull --ff-only origin main
+git fetch origin && git checkout main && git pull --ff-only origin main
 ```
 
-Ověř že main je clean a aktuální.
+## 2. Auto-scrape claude.ai přes Chrome MCP
 
-## 2. Parse manifests
+Nahraj nástroje `mcp__Claude_in_Chrome__list_connected_browsers`, `mcp__Claude_in_Chrome__tabs_context_mcp`, `mcp__Claude_in_Chrome__navigate`, `mcp__Claude_in_Chrome__get_page_text`, `mcp__Claude_in_Chrome__read_page`, `mcp__Claude_in_Chrome__browser_batch`, `mcp__Claude_in_Chrome__tabs_create_mcp` přes ToolSearch (najednou).
 
-Načti `.routine/queue.md`. Najdi všechny `\`\`\`json` bloky uvnitř sekce **Manifesty z noční rutiny** (ne jinde v souboru).
+Zkontroluj `list_connected_browsers`. Pokud žádný browser není připojen:
+- Vypiš: „Chrome MCP rozšíření není připojené. Buď ho připoj (chrome.google.com → Claude in Chrome extension), nebo manuálně vlož manifesty do .routine/queue.md a spusť mě znovu."
+- Přeskoč na krok 4 (fallback na queue.md).
 
-Pro každý blok zkus `JSON.parse`. Pokud parse selže, **vypiš varování s číslem bloku a obsahem** ale pokračuj s ostatními (uživatel může mít rozbitý jeden blok kvůli copy-paste chybě).
+Pokud je připojen:
+- Získej `tabs_context_mcp` (s `createIfEmpty: true`) — dostaneš `tabId`.
+- Navigate na `https://claude.ai/code/routines/trig_01TC312RwvG9vVV2XXoLBBGy`.
+- Počkej 3–4 sekundy (SPA load), pak `read_page` se `filter: "all"` — najdi všechny `link` elementy v sekci „Runs", které mají href `/code/session_*`.
+- Z accessibility tree vyparsuj seznam runs s jejich session ID a statusem (Completed / Failed). **Ignoruj Failed** runs.
+- Pro každý **Completed** run, jehož `session_id` NENÍ v `processed.json.checkedRunIds`:
+  - Navigate na `https://claude.ai/code/<session_id>?trigger=trig_01TC312RwvG9vVV2XXoLBBGy`
+  - Počkej 3–5 s pro SPA load
+  - `get_page_text` na tabId
+  - Najdi blok mezi `---PASTE-START---` a `---PASTE-END---` (nebo legacy `---PASTE-PUBLISH START---` / `---PASTE-PUBLISH END---`)
+  - V tom bloku najdi `\`\`\`json ... \`\`\`` (může chybět — staré v2 runs vyplývaly placeholder bez JSON)
+  - Pokud najdeš JSON s validním tvarem manifestu (má `version`, `subtopic`, `files`, atd.), přidej do `scrapedManifests[]`
+  - Bez ohledu na výsledek scrape, **přidej `session_id` do `checkedRunIds`** (ať to nezkoumáme znovu)
+- Limit: max 20 runs scrapovaných v jednom volání (anti-runaway). Pokud je víc, zpracuj nejstarší a zbytek nech na příště.
 
-Pro každý parsed manifest validuj:
-- `version === 1`
-- `subtopic` matches `^[a-z0-9-]+--[a-z0-9-]+$`
-- `manifestId` existuje (jinak ho zkonstruuj jako `${date}-${subtopic}` z manifest.ledgerEntry.date a manifest.subtopic — pro zpětnou kompatibilitu)
-- `branch` starts with `routine/nightly-`
-- `files.length >= 1`
-- každý `files[].path` matches `^src/content/(experiments|activities|materials|homework)/[a-z0-9-]+\.json$`
-- každý `files[].content` parsable JSON
+Vypiš shrnutí: „Scraped {N_total} runs, {N_with_manifest} mělo validní manifest, {N_no_manifest} byly broken/placeholder, {N_already_checked} přeskočeno (už checked)."
 
-Špatné manifesty preskoč s varováním, ne abort.
+## 3. Načti manifesty z queue.md (ruční fallback)
 
-## 3. Deduplikace
+I když Chrome MCP fungoval, **přečti** `.routine/queue.md` a najdi tam `\`\`\`json` bloky v sekci „Manifesty". Pokud nějaké jsou, parsuj a přidej do `manualManifests[]`.
 
-Načti `.routine/processed.json`. Pro každý manifest:
-- Pokud `manifest.manifestId ∈ processed.processedIds` → **přeskoč** (už zpracováno), zalogguj.
-- Jinak: zařaď do fronty `toProcess[]`.
+## 4. Spoj a deduplikuj
+
+`allManifests = [...scrapedManifests, ...manualManifests]`
+
+Pro každý:
+- Validuj: `version === 1`, `subtopic` regex, `branch` regex, `files.length >= 1`, každý `files[].path` v povolené cestě, každý `files[].content` parsovatelný JSON
+- Pokud nemá `manifestId`, zkonstruuj jako `${ledgerEntry.date}-${subtopic}`
+- Pokud `manifestId` už je v `processed.json.processedIds` → **skipni** (už zpracováno dřív)
+- Pokud nějakou validaci nesplní → varování + skip
 
 Pokud `toProcess.length === 0`:
-- Vypiš seznam manifestů které byly skipnuty (s důvodem "už zpracováno")
-- Vyresetuj queue.md zpět na template (krok 7) — uživatel paste-uje znovu už zpracované, vyčistíme
+- Ulož `processed.json` (s updatovanými checkedRunIds)
+- Vyresetuj queue.md na template
+- Vypiš: „Žádný nový manifest. Cloud rutina (next run: zítra ~04:00) zatím nic nového nevyrobila, nebo všechno bylo už zpracováno."
 - Skonči
 
-## 4. Process každý manifest
+## 5. Process každý manifest
 
-Pro každý manifest v `toProcess[]` (pořadí pasted-in):
+Pro každý v `toProcess[]`:
 
-### 4a. Branch
+### 5a. Branch
 ```bash
-git checkout main  # ujisti se že jsi na main
+git checkout main
 git checkout -b "<manifest.branch>"
 ```
+Pokud existuje na origin (`git ls-remote --heads origin "<manifest.branch>"`) → skip ten manifest (`branch-exists-skipped`), vrať se na main, pokračuj.
 
-Pokud větev už existuje lokálně nebo na origin (`git ls-remote --heads origin "<manifest.branch>"`):
-- Zalogguj jako konflikt (`branch-exists-skipped`)
-- Vrať se na main, pokračuj na další manifest
+### 5b. Soubory
+Pro každý `files[i]`:
+- mkdir -p adresář
+- Re-parse JSON.parse(content) → JSON.stringify(obj, null, 2) + '\n' zápis
+- Při chybě → smaž větev, pokračuj na další manifest
 
-### 4b. Files
-Pro každý `manifest.files[i]`:
-- `mkdir -p` adresář
-- Re-parse `JSON.parse(content)` → `JSON.stringify(obj, null, 2) + '\n'` zápis (normalize formatting)
-- Pokud zápis selže → smaž větev (`git checkout main && git branch -D <branch>`), pokračuj na další manifest
+### 5c. Ledger
+Update `.routine/ledger.json`: append manifest.ledgerEntry, set lastPicked.
 
-### 4c. Ledger
-Načti `.routine/ledger.json` (vytvoř pokud chybí: `{lastPicked: null, history: [], skipUntil: {}}`).
-Append `manifest.ledgerEntry` do `history[]`, aktualizuj `lastPicked = ledgerEntry.date`.
-Zapiš zpět.
-
-### 4d. Build validation
+### 5d. Build validation
 ```bash
 npm run build
 ```
+Při selhání → fix (typicky problematické unicode v string) nebo smaž problémový soubor, rebuild. Při 2× selhání → smaž větev, pokračuj.
 
-Pokud selže:
-- Lokalizuj soubor z chyby
-- Pokud možno → oprav (např. trailing whitespace) → rebuild
-- Pokud rebuild znovu selže → `git checkout main && git branch -D <branch>`, pokračuj na další manifest (`build-failed`)
-
-### 4e. Pre-commit sanity
+### 5e. Pre-commit sanity
 ```bash
 git diff --name-only HEAD
 ```
+Modifikované cesty MUSÍ být jen v `src/content/{experiments,activities,materials,homework}/` a `.routine/ledger.json`.
 
-Modifikované cesty MUSÍ být jen v:
-- `src/content/{experiments,activities,materials,homework}/`
-- `.routine/ledger.json`
-
-Cokoli mimo → zruš `git checkout -- <file>` a pokračuj jen s povolenými.
-
-### 4f. Commit + push
+### 5f. Commit + push
 ```bash
 git add src/content/experiments src/content/activities src/content/materials src/content/homework
 git add -f .routine/ledger.json
@@ -140,76 +129,61 @@ git commit -m "<manifest.commit>"
 git push -u origin "<manifest.branch>"
 ```
 
-Pokud push selže (auth issue) → vypiš jasnou hlášku, **neoznačuj manifest jako processed**, pokračuj na další manifest.
+Pokud `gh` není na PATH, použij `C:\Program Files\GitHub CLI\gh.exe`. Pro auth vytáhni token z `git credential fill` a předej jako `GH_TOKEN` env proměnnou jen pro daný gh call (nikam neukládat, nevypisovat).
 
-### 4g. Otevři draft PR
+### 5g. PR + auto-squash-merge
 ```bash
-# Použij path "C:\Program Files\GitHub CLI\gh.exe" pokud gh není v PATH
-gh pr create --draft \
-  --title "<manifest.prTitle>" \
-  --body-file <temp-file s manifest.prBody> \
-  --base main \
-  --head "<manifest.branch>"
+gh pr create --title "<manifest.prTitle>" --body-file <temp s manifest.prBody> --base main --head "<manifest.branch>"
+gh pr merge --squash --delete-branch
 ```
 
-Sebrat URL PR z stdout.
+**Důležité: PR NENÍ draft** — chceme přímé mergnutí. Pokud `gh pr merge` selže (např. branch protection), zalogguj `merge-failed` ale **označ manifest jako processed** (PR existuje, uživatel zmergne ručně). PR URL ulož do `history[]`.
 
-Pokud `gh auth status` říká not logged in, použij dočasně credential z `git credential fill protocol=https host=github.com` jako `GH_TOKEN` env var pro daný `gh pr create` volání (token nikam neukládej).
-
-Pokud PR creation selže → vypiš `pr-creation-failed` + URL větve na origin pro manuální otevření PR. **Neoznačuj manifest jako processed** (uživatel ho zpracuje znovu po opravě auth).
-
-### 4h. Zaznamenat jako processed
-Append do `.routine/processed.json`:
+### 5h. Zaznamenat jako processed
+Append do `processed.json.processedIds`: `manifestId`.
+Append do `history[]`:
 ```json
-{
-  "processedIds": [...existing, "<manifestId>"],
-  "history": [
-    ...existing,
-    {
-      "manifestId": "<id>",
-      "subtopic": "<subtopic>",
-      "branch": "<branch>",
-      "prUrl": "<url>",
-      "processedAt": "<ISO timestamp>"
-    }
-  ]
-}
+{"manifestId": "...", "subtopic": "...", "branch": "...", "prUrl": "...", "merged": true/false, "processedAt": "<ISO>"}
 ```
 
-### 4i. Vrátit se na main
+### 5i. Vrátit na main
 ```bash
 git checkout main
+git pull --ff-only origin main  # ať máš zmergnutý obsah lokálně
 ```
 
-## 5. Reset queue.md
+## 6. Reset queue.md + ulož processed.json
 
-Po zpracování všech manifestů přepíš `.routine/queue.md` zpět na **template obsah** ze sekce 0.
+Přepiš `.routine/queue.md` na **template obsah** ze sekce 0.
+Ulož `.routine/processed.json` se všemi aktualizovanými poli (processedIds, checkedRunIds, history).
 
-## 6. Summary report
-
-Vypiš shrnutí ve formě:
+## 7. Summary
 
 ```
 ✅ Process-queue hotov.
 
-Zpracováno: <N> nových manifestů
-Přeskočeno (už zpracováno): <M>
-Přeskočeno (chyby): <K>
+Scrape z claude.ai: {N_total} runs prohlédnuto, {N_with_manifest} validních manifestů
+Ručně vloženo do queue.md: {N_manual}
+Po dedupliaci: {N_to_process} ke zpracování
 
-Nové PRs:
-- <url1>  →  <subtopic1> (<items1> položek)
-- <url2>  →  <subtopic2> (<items2> položek)
-...
+Výsledky:
+- {N_merged} manifestů úspěšně zmergnuto do main (PRs uzavřené, branch smazaná)
+- {N_pr_opened} PR otevřeno, ale merge selhal (uživatel mergne ručně)
+- {N_skipped} přeskočeno (chyby, kolize, build-failed)
 
-Queue.md vyresetován do výchozího stavu.
+Nové PR / merge commits:
+- <url1> → <subtopic1> ({status})
+- <url2> → <subtopic2> ({status})
 
-➡ Otevři PRs na GitHubu, klikni "Ready for review" + "Squash and merge" u každého. Cloudflare nasadí.
+Cloudflare Pages nasadí merge commit do ~2 min na bekovo.cz.
 ```
 
 ## Failsafe pravidla
 
-- Při jakémkoli erroru u jednoho manifestu: cleanup té větve, **pokračuj na další manifest** (nemarní celou frontu kvůli jednomu)
-- Nikdy `git push --force`, nikdy `git reset --hard` mimo routine větve
-- Nikdy nemodifikuj main přímo (jen `git checkout main` a `git pull --ff-only`)
-- Token z `git credential fill` použij jen v in-memory env var pro daný `gh` call, nikam neukládej a nevypisuj
-- Při kolizi (branch už existuje, manifestId už processed) preferuj **skip nad force**
+- Jeden manifest zpracovávej v každém okamžiku (sekvenčně, ne paralelně)
+- Při erroru u jednoho manifestu → cleanup té větve, pokračuj na další
+- Nikdy `git push --force`, nikdy `git reset --hard` mimo routine větev
+- Nikdy nemodifikuj main přímo (jen checkout + pull --ff-only + merge přes gh)
+- Token z `git credential fill` jen v in-memory env var, nikam neukládat ani neukazovat
+- Při kolizi preferuj **skip nad force**
+- Chrome MCP fail je OK — slash command pokračuje s manuálním fallbackem (queue.md)
