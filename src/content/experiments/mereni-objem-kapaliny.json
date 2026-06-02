@@ -1,0 +1,19 @@
+{
+  "id": "mereni-objem-kapaliny",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Měření objemu kapaliny odměrným válcem",
+  "type": "measurement",
+  "description": "Nalijte různá množství vody do odměrného válce. Postavte válec na rovný povrch a přečtěte hodnotu objemu u dolní hrany menisku — oči musí být ve výšce hladiny. Porovnejte výsledky s předchozím odhadem. Totéž opakujte s olejem a ovocnou šťávou — všimněte si, zda se meniskus chová jinak.",
+  "materials": [
+    "odměrný válec 100 nebo 250 ml",
+    "voda",
+    "rostlinný olej",
+    "ovocná šťáva",
+    "nálevka"
+  ],
+  "source": {
+    "label": "ZŠ Jesenice — Měření objemu (6. třída)",
+    "url": "https://zsjesenice.cz/files/vyukove-materialy/fyzika/6-tr/f6-6-mereni-objemu.pdf"
+  }
+}

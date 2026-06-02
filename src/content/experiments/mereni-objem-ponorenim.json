@@ -1,0 +1,18 @@
+{
+  "id": "mereni-objem-ponorenim",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Měření objemu nepravidelného tělesa ponořením do vody",
+  "type": "measurement",
+  "description": "Do odměrného válce nalijte vodu a zaznamenejte počáteční objem V₁. Těleso (kamínek, kovová kulička) přivažte na nit a pomalu ponořte celé pod hladinu. Odečtěte nový objem V₂. Objem tělesa V = V₂ − V₁. Vyzkoušejte několik těles různých tvarů a porovnejte výsledky: závisí vytlačený objem na tvaru tělesa, nebo jen na jeho velikosti?",
+  "materials": [
+    "odměrný válec 100 nebo 250 ml",
+    "voda",
+    "kamínky nebo kovové předměty (šroub, kulička, mince)",
+    "nit nebo provázek"
+  ],
+  "source": {
+    "label": "ZŠ Jesenice — Měření objemu (6. třída)",
+    "url": "https://zsjesenice.cz/files/vyukove-materialy/fyzika/6-tr/f6-6-mereni-objemu.pdf"
+  }
+}

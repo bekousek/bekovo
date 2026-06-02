@@ -1,0 +1,9 @@
+{
+  "id": "mereni-objem-phet",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "PhET: Hustota — Hmotnost, Objem, Archimédův zákon",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace: nastavujte hmotnost a objem bloků z různých materiálů a sledujte, jak se mění hustota. Propojuje pojem objemu s hmotností a hustotou, vhodné pro intuitivní pochopení V6–V7.",
+  "url": "https://phet.colorado.edu/cs/simulations/density"
+}
