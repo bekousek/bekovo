@@ -1,0 +1,11 @@
+{
+  "id": "mereni-hmotnost-vazeni-doma",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Vážení předmětů doma kuchyňskou váhou",
+  "description": "Doma odhadni hmotnost 5 různých předmětů (například telefon, jablko, klíče, kniha, sklenice vody). Každý odhad si zapiš. Pak předměty změř kuchyňskou nebo koupelnovou váhou a výsledky zaznamenej do tabulky. Vypočítej, o kolik gramů se odhad lišil od skutečnosti.",
+  "source": {
+    "label": "Výfuk MFF UK",
+    "url": "https://vyfuk.org/rady_a_tipy/hokus_pokus"
+  }
+}

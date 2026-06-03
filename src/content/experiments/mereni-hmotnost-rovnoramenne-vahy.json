@@ -1,0 +1,19 @@
+{
+  "id": "mereni-hmotnost-rovnoramenne-vahy",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Měření hmotnosti rovnoramennou váhou",
+  "type": "measurement",
+  "description": "Žáci měří hmotnost různých předmětů (školní pomůcky, ovoce, kamínek) pomocí rovnoramenných vah a sady závaží. Naučí se správný postup vážení, záznam výsledků do tabulky a porovnání naměřené hodnoty s předchozím odhadem.",
+  "materials": [
+    "rovnoramenné váhy",
+    "sada závaží (1 g – 200 g)",
+    "různé předměty k vážení (kamínek, guma, tužka, mince)",
+    "tabulka pro záznam výsledků"
+  ],
+  "procedure": "1. Nastav prázdné váhy do rovnováhy — misky musí být ve stejné výšce. 2. Polož měřený předmět na levou misku. 3. Na pravou misku postupně přidávej závaží od nejtěžšího. 4. Ubírej nebo přidávej závaží, dokud nejsou misky opět v rovnováze. 5. Sečti všechna závaží na pravé misce — výsledek je hmotnost předmětu. 6. Zapiš do tabulky a porovnej s dříve odhadnutou hodnotou.",
+  "source": {
+    "label": "ZŠ Lovosice — Laboratorní práce č. 2",
+    "url": "https://www.1zslovosice.cz/files/documents/1/793/L2_hmotnost.pdf"
+  }
+}

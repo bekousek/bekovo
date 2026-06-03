@@ -1,0 +1,12 @@
+{
+  "id": "mereni-hmotnost-hadej",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Hádej hmotnost",
+  "type": "game",
+  "description": "Soutěžní hra pro celou třídu: učitel připraví 5–8 různých předmětů. Každý žák je postupně zvedne, odhadne hmotnost a zapíše odhad v gramech nebo kilogramech. Poté třída předměty váží na rovnoramenných vahách. Vítěz má nejmenší součet odchylek od skutečných hodnot. Hra rozvíjí fyzikální intuici a porozumění jednotkám hmotnosti.",
+  "source": {
+    "label": "VNUF 2008",
+    "url": "https://vnuf.cz/sbornik/prispevky/13-34-Zak.html"
+  }
+}
