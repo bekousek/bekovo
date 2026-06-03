@@ -1,0 +1,20 @@
+{
+  "id": "mereni-hmotnost-papirove-vahy",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Domácí váhy z pravítka a papíru",
+  "type": "qualitative",
+  "description": "Žáci sestaví jednoduché rovnoramenné váhy z pravítka, tužky jako osy otáčení a dvou papírových misek. Porovnávají hmotnosti malých předmětů (mince, ořech, guma) a rozlišují, který předmět je lehčí a který těžší — i bez číselné hodnoty.",
+  "materials": [
+    "30cm pravítko",
+    "tužka nebo pero (osa otáčení)",
+    "papír na dvě misky",
+    "lepicí páska nebo nit",
+    "malé předměty k porovnání: mince, guma, ořech, knoflík"
+  ],
+  "procedure": "1. Z papíru vystřihni dvě stejné čtverce jako misky. 2. Nití nebo lepicí páskou je přilep k oběma koncům pravítka. 3. Pravítko polož na tužku přesně uprostřed. 4. Zkontroluj, že prázdné misky jsou v rovnováze — pravítko vodorovné. 5. Na každou misku polož jeden předmět a pozoruj, která strana klesne — ta obsahuje těžší předmět.",
+  "source": {
+    "label": "VNUF 2002",
+    "url": "https://vnuf.cz/sbornik/prispevky/07-17-Polak.html"
+  }
+}

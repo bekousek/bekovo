@@ -56,6 +56,12 @@
       "subtopic": "mereni--objem",
       "result": "pr-pending",
       "items": 6
+    },
+    {
+      "date": "2026-06-02",
+      "subtopic": "mereni--hmotnost",
+      "result": "pr-pending",
+      "items": 6
     }
   ],
   "skipUntil": {}

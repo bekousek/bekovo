@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hmotnost-phet-rovnovaha",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "PhET: Rovnováha na páce",
+  "type": "applet",
+  "url": "https://phet.colorado.edu/en/simulations/balancing-act",
+  "description": "Interaktivní simulace rovnováhy na páce. Žáci umisťují závaží různé hmotnosti na různá místa páky a hledají podmínky rovnováhy. Simulace názorně ukazuje, jak rovnoramenné váhy fungují a jak se hmotnost předmětu porovnává se závažím."
+}
