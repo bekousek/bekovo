@@ -1,0 +1,11 @@
+{
+  "id": "optika-schema-polohy-mesice",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Schéma poloh Slunce, Země a Měsíce při fázích",
+  "description": "Načrtni pohled shora na soustavu Slunce–Země–Měsíc. Zakresli Slunce uprostřed, Zemi na oběžné dráze a čtyři polohy Měsíce odpovídající novu, první čtvrti, úplňku a poslední čtvrti. Ke každé poloze Měsíce doplň: (a) název fáze, (b) jak vidíme Měsíc ze Země a (c) jednou větou vysvětli proč.",
+  "source": {
+    "label": "Realisticky.cz — Fyzika ZŠ 7. ročník: Fáze Měsíce, zatmění",
+    "url": "http://www.realisticky.cz/ucebnice/04%20Fyzika%20Z%C5%A0/02%207.%20ro%C4%8Dn%C3%ADk/01%20Optika/03%20F%C3%A1ze%20m%C4%9Bs%C3%ADce,%20zatm%C4%9Bn%C3%AD.pdf"
+  }
+}

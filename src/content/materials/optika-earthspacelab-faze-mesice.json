@@ -1,0 +1,9 @@
+{
+  "id": "optika-earthspacelab-faze-mesice",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Interaktivní simulace fází Měsíce",
+  "type": "applet",
+  "description": "Interaktivní 3D animace fází Měsíce v češtině. Žáci simulují pohyb Měsíce kolem Země a sledují, jak se mění osvětlená část Měsíce viditelná ze Země — propojení polohy Měsíce s jeho fází v reálném čase.",
+  "url": "https://www.earthspacelab.com/app/moon-phases/cs"
+}

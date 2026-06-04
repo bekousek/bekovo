@@ -1,0 +1,12 @@
+{
+  "id": "optika-mesicni-denik-pozorovani",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Měsíční deník — čtyřtýdenní pozorování",
+  "type": "method",
+  "description": "Žáci po dobu čtyř týdnů každý večer (nebo každý druhý den) pozorují Měsíc a do deníku kreslí jeho viditelný tvar včetně data. Na závěr srovnají zákresy s pojmenovanými fázemi Měsíce a vysvětlí příčinu jejich střídání. Aktivita propojuje fyziku s pravidelným astronomickým pozorováním a rozvíjí trpělivost i schopnost dokumentovat změny.",
+  "source": {
+    "label": "Česká astronomická společnost — mládež: domácí pokusy",
+    "url": "http://mladez.astro.cz/?cat=23"
+  }
+}
