@@ -1,0 +1,18 @@
+{
+  "id": "optika-hra-svetla-stinu-mesic",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Hra světla a stínu na Měsíci",
+  "type": "qualitative",
+  "description": "Plochý tácek nebo víčko se naplní moukou a ozáří svítilnou pod velmi malým úhlem (světlo dopadá téměř šikmo). V struktuře mouky vyniknou miniaturní krátery a hřebeny osvětlené ze strany — přesně tak, jak fungují stíny na Měsíci při nízkém Slunci nad lunárním obzorem. Žáci pochopí, proč jsou oblasti kolem terminátoru (hranice světla a stínu) plastičtější než střed Měsíce, a proč záleží na výšce Slunce nad obzorem.",
+  "materials": [
+    "plochý tácek nebo velké víčko",
+    "mouka (2–3 cm vrstvy)",
+    "svítilna nebo baterka",
+    "ztmavená místnost"
+  ],
+  "source": {
+    "label": "Česká astronomická společnost — mládež: pokus č. 2",
+    "url": "http://mladez.astro.cz/?p=1781"
+  }
+}

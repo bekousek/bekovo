@@ -1,0 +1,17 @@
+{
+  "id": "optika-model-faze-mesice-balonek",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Model fází Měsíce s balónkem",
+  "type": "qualitative",
+  "description": "V tmavé místnosti žák drží nafukovací balónek v natažené ruce — balónek zastupuje Měsíc, žák samotný Zemi. Spolužák svítí svítilnou ze vzdálenosti 2–3 m (model Slunce). Žák se pomalu otáčí na místě a sleduje, jak se mění osvětlená část balónku. Viditelná osvětlená plocha prochází přesně těmi fázemi, které vidíme na skutečném Měsíci: nov, první čtvrť, úplněk, poslední čtvrť.",
+  "materials": [
+    "bílý nebo světlý nafukovací balónek",
+    "svítilna nebo baterka",
+    "tmavá místnost"
+  ],
+  "source": {
+    "label": "Česká astronomická společnost — mládež: pokus č. 1",
+    "url": "http://mladez.astro.cz/?p=1757"
+  }
+}
