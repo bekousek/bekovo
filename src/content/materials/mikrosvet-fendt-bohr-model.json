@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-fendt-bohr-model",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt — Bohrův model atomu vodíku",
+  "type": "applet",
+  "description": "HTML5 applet v češtině zobrazující elektronové dráhy kolem jádra atomu vodíku podle Bohrova modelu. Žáci mění číslo dráhy (n = 1–6) a sledují změnu poloměru a energie elektronu. Vizualizuje, proč se elektron může pohybovat jen po povolených drahách a při přechodu vyzáří nebo pohltí světlo.",
+  "url": "https://www.walter-fendt.de/html5/phcz/bohrmodel_cz.htm"
+}

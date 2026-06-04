@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-rutherford",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "PhET — Rutherfordův rozptyl",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET v češtině modelující Rutherfordův rozptylový experiment. Žáci nastavují počet protonů v jádře a sledují trajektorie alfa částic — vidí, proč většina letí rovně, ale některé se výrazně odkloní. Pomáhá pochopit, proč Rutherford navrhl planetární model atomu.",
+  "url": "https://phet.colorado.edu/cs/simulations/rutherford-scattering"
+}

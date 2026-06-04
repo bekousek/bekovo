@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-fendt-rutherford",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt — Rutherfordův rozptyl (HTML5)",
+  "type": "applet",
+  "description": "Přímočarý HTML5 applet v češtině simulující odchylky nabitých částic od zlaté fólie. Žáci mění parametry (nabitost jádra, rychlost částice) a sledují zakřivení trajektorií. Vhodné jako rychlá vizualizace vedle výkladu — méně klikání než plná PhET simulace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/rutherfordscattering_cz.htm"
+}
