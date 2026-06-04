@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-02",
+  "lastPicked": "2026-06-03",
   "history": [
     {
       "date": "2026-05-08",
@@ -62,6 +62,12 @@
       "subtopic": "mereni--hmotnost",
       "result": "pr-pending",
       "items": 6
+    },
+    {
+      "date": "2026-06-03",
+      "subtopic": "mikrosvet--atom-a-jeho-modely",
+      "result": "pr-pending",
+      "items": 5
     }
   ],
   "skipUntil": {}
