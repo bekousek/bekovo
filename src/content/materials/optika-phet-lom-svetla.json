@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-lom-svetla",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "PhET: Lom světla",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje lom a odraz světla na rozhraní dvou prostředí. Žáci mění úhel dopadu i prostředí a pozorují, jak se paprsek láme — názorný zákon lomu i úplný odraz.",
+  "url": "https://phet.colorado.edu/cs/simulations/bending-light"
+}

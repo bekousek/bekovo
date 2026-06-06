@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-sily-a-pohyb",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "PhET: Síly a pohyb: základy",
+  "type": "applet",
+  "description": "Simulace v češtině znázorňuje síly pomocí šipek (vektorů). Žáci tahají za objekt z obou stran a vidí jednotlivé síly i výslednou sílu — názorné znázornění a skládání sil.",
+  "url": "https://phet.colorado.edu/cs/simulations/forces-and-motion-basics"
+}

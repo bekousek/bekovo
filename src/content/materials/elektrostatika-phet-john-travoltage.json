@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-john-travoltage",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: John Travoltage – statická elektřina",
+  "type": "applet",
+  "description": "Zábavná simulace v češtině — postava se třením nohy o koberec nabíjí a po dotyku kliky přeskočí jiskra. Ukazuje hromadění statického náboje a jeho vybití, jev, který žáci znají z běžného života.",
+  "url": "https://phet.colorado.edu/cs/simulations/john-travoltage"
+}

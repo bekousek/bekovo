@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-vlny-uvod",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "PhET: Vlny: úvod",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině ukazuje vznik a šíření vln na vodní hladině, ve zvuku i ve světle. Žáci mění frekvenci a amplitudu zdroje a pozorují vlnovou délku i to, že vlnění přenáší energii, nikoli látku.",
+  "url": "https://phet.colorado.edu/cs/simulations/waves-intro"
+}

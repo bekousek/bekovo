@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-barevne-videni",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "PhET: Barevné vidění",
+  "type": "applet",
+  "description": "Simulace v češtině o vnímání barev — žáci míchají červené, zelené a modré světlo, používají barevné filtry a zjišťují, proč vidíme předměty barevně. Vhodné pro skládání barev světla.",
+  "url": "https://phet.colorado.edu/cs/simulations/color-vision"
+}

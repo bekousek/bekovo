@@ -1,0 +1,9 @@
+{
+  "id": "castice-phet-skupenske-stavy",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "PhET: Skupenské stavy: základy",
+  "type": "applet",
+  "description": "Simulace v češtině zobrazuje uspořádání a pohyb částic v pevné látce, kapalině a plynu. Žáci zahříváním a ochlazováním přímo vidí, proč mají skupenství různé vlastnosti a jak spolu souvisí teplota a pohyb částic.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter-basics"
+}

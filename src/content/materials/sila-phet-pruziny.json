@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-pruziny",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "PhET: Hmotnosti a pružiny: základy",
+  "type": "applet",
+  "description": "Simulace v češtině s pružinami a závažími. Žáci zavěšují různá závaží a sledují prodloužení pružiny — princip, na kterém pracuje siloměr.",
+  "url": "https://phet.colorado.edu/cs/simulations/masses-and-springs-basics"
+}

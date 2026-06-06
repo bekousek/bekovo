@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-phet-gravitace-drahy",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "PhET: Gravitace a dráhy",
+  "type": "applet",
+  "description": "Simulace v češtině názorně ukazuje, jak gravitace udržuje planety na oběžných drahách kolem Slunce a Měsíc kolem Země. Žáci mění hmotnosti těles a sledují, jak se mění tvar dráhy; lze zapnout zobrazení gravitačních sil a rychlostí.",
+  "url": "https://phet.colorado.edu/cs/simulations/gravity-and-orbits"
+}

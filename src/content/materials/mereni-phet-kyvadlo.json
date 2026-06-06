@@ -1,0 +1,9 @@
+{
+  "id": "mereni-phet-kyvadlo",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "PhET: Kyvadlo",
+  "type": "applet",
+  "description": "Simulace v češtině s kyvadlem — žáci mění délku, hmotnost a výchylku a měří dobu kmitu. Ukazuje, že perioda kyvadla závisí jen na jeho délce, což je princip kyvadlových hodin.",
+  "url": "https://phet.colorado.edu/cs/simulations/pendulum-lab"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-phet-plyny",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Plyny: úvod",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje chování částic plynu v nádobě. Žáci přidávají částice, mění objem a teplotu a pozorují, jak nárazy částic na stěny vytvářejí tlak.",
+  "url": "https://phet.colorado.edu/cs/simulations/gases-intro"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-kondenzatory",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "PhET: Laboratoř s kondenzátory",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje, jak se kondenzátor nabíjí a vybíjí a na čem závisí jeho kapacita. Žáci mění plochu a vzdálenost desek a sledují náboj, napětí a uloženou energii.",
+  "url": "https://phet.colorado.edu/cs/simulations/capacitor-lab-basics"
+}

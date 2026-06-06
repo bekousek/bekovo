@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-phet-pod-tlakem",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Pod tlakem",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje hydrostatický tlak v kapalině. Žáci spouštějí tlakoměr do různé hloubky a zjišťují, že tlak roste s hloubkou a hustotou kapaliny, ale nezávisí na tvaru nádoby.",
+  "url": "https://phet.colorado.edu/cs/simulations/under-pressure"
+}

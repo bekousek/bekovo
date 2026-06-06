@@ -1,0 +1,9 @@
+{
+  "id": "eo-phet-ohmuv-zakon",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Ohmův zákon",
+  "type": "applet",
+  "description": "Jednoduchá simulace v češtině, která posuvníky ukazuje vztah mezi napětím, proudem a odporem (Ohmův zákon). Žáci názorně vidí, že při větším napětí roste proud a při větším odporu naopak klesá.",
+  "url": "https://phet.colorado.edu/cs/simulations/ohms-law"
+}

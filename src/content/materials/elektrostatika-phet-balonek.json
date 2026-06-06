@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-balonek",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: Balonek a statická elektřina",
+  "type": "applet",
+  "description": "Oblíbená simulace v češtině: třením balonku o svetr se přenáší záporný náboj a balonek se přitahuje ke zdi. Žáci názorně chápou kladný a záporný náboj i přitahování a odpuzování.",
+  "url": "https://phet.colorado.edu/cs/simulations/balloons-and-static-electricity"
+}

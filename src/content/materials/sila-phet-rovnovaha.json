@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-rovnovaha",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "PhET: Rovnováha",
+  "type": "applet",
+  "description": "Simulace v češtině s pákou (houpačkou). Žáci rozmísťují závaží do různých vzdáleností od osy a hledají rovnováhu — názorný princip páky jako jednoduchého stroje.",
+  "url": "https://phet.colorado.edu/cs/simulations/balancing-act"
+}

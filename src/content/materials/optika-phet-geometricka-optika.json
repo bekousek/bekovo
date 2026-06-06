@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-geometricka-optika",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "PhET: Geometrická optika: základy",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje, jak spojka a rozptylka vytvářejí obraz předmětu. Žáci posouvají předmět, mění vlastnosti čočky a sledují vznik obrazu pomocí význačných paprsků.",
+  "url": "https://phet.colorado.edu/cs/simulations/geometric-optics-basics"
+}
