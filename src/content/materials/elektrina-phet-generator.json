@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-generator",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "PhET: Generátor",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje princip generátoru: proud vody roztáčí magnet a jeho pohyb v cívce indukuje elektrický proud. Přesně tak vzniká elektřina ve většině elektráren.",
+  "url": "https://phet.colorado.edu/cs/simulations/generator"
+}

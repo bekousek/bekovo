@@ -1,0 +1,9 @@
+{
+  "id": "eo-phet-obvody-dc",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Stavebnice obvodů: DC",
+  "type": "applet",
+  "description": "Virtuální stavebnice obvodů v češtině — žáci zapojují baterie, žárovky, vypínače a vodiče a okamžitě vidí, zda obvod funguje. Ideální pro pochopení uzavřeného obvodu i sériového a paralelního zapojení před prací se skutečnými součástkami.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc"
+}

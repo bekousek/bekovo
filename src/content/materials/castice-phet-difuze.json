@@ -1,0 +1,9 @@
+{
+  "id": "castice-phet-difuze",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "PhET: Difuze",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje difuzi — samovolné promíchávání dvou druhů částic přes propustnou přepážku. Žáci mění teplotu, hmotnost a počet částic a pozorují, jak rychlost neuspořádaného pohybu částic ovlivňuje promíchávání.",
+  "url": "https://phet.colorado.edu/cs/simulations/diffusion"
+}

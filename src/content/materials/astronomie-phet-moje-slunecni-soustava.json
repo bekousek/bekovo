@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-phet-moje-slunecni-soustava",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "PhET: Moje sluneční soustava",
+  "type": "applet",
+  "description": "Simulace v češtině umožňuje sestavit vlastní hvězdnou soustavu — žáci nastaví hmotnosti, polohy a rychlosti těles a spustí jejich pohyb. Ukazuje, proč jsou oběžné dráhy stabilní jen za určitých podmínek.",
+  "url": "https://phet.colorado.edu/cs/simulations/my-solar-system"
+}

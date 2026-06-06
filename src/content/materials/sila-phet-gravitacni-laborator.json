@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-gravitacni-laborator",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "PhET: Gravitační laboratoř: základy",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje gravitační přitažlivou sílu mezi dvěma tělesy. Žáci mění hmotnosti a vzdálenost a měří sílu — názorně vidí, že větší hmotnost znamená větší přitažlivost.",
+  "url": "https://phet.colorado.edu/cs/simulations/gravity-force-lab-basics"
+}

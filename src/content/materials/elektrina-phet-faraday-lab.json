@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-faraday-lab",
+  "subtopicId": "transformator",
+  "topicId": "elektrina",
+  "title": "PhET: Faradayova elektromagnetická laboratoř",
+  "type": "applet",
+  "description": "Komplexní simulace v češtině s tyčovým magnetem, cívkami, elektromagnetem, generátorem a transformátorem. Záložka transformátor ukazuje, jak se mezi dvěma cívkami přenáší energie a jak poměr závitů mění napětí.",
+  "url": "https://phet.colorado.edu/cs/simulations/faradays-electromagnetic-lab"
+}

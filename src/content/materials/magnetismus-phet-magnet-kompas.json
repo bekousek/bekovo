@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-phet-magnet-kompas",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "PhET: Magnet a kompas",
+  "type": "applet",
+  "description": "Simulace v češtině zobrazuje magnetické pole tyčového magnetu pomocí kompasů a siločar. Žáci vidí, jak se střelka kompasu natáčí podle pole a kde je pole u pólů nejsilnější.",
+  "url": "https://phet.colorado.edu/cs/simulations/magnet-and-compass"
+}

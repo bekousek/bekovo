@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-skatepark-energie",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "PhET: Skatepark energie: základy",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině: skateboardista jezdí po dráze a žáci v reálném čase sledují přeměnu polohové a pohybové energie. Koláčový diagram názorně ukazuje, že celková energie zůstává zachována.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-skate-park-basics"
+}

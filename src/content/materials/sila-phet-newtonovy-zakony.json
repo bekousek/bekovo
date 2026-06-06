@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-newtonovy-zakony",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "PhET: Síly a pohyb: základy",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje, jak výsledná síla uvádí těleso do pohybu nebo mění jeho rychlost. Žáci experimentují s tahem, třením a hmotností a objevují souvislosti Newtonových zákonů.",
+  "url": "https://phet.colorado.edu/cs/simulations/forces-and-motion-basics"
+}

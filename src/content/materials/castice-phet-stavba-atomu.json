@@ -1,0 +1,9 @@
+{
+  "id": "castice-phet-stavba-atomu",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "PhET: Stavba atomu",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině, ve které žáci skládají atom z protonů, neutronů a elektronů a sledují, jak se mění prvek, náboj a hmotnostní číslo. Vhodné pro pochopení stavby atomu — jádra a elektronového obalu.",
+  "url": "https://phet.colorado.edu/cs/simulations/build-an-atom"
+}

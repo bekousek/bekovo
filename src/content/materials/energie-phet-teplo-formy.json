@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-teplo-formy",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "PhET: Formy energie a její přeměny",
+  "type": "applet",
+  "description": "Simulace v češtině ukazuje přenos a přeměny energie — žáci ohřívají vodu a kovové bloky, sledují vedení tepla a vidí, jak se energie přesouvá od teplejšího tělesa k chladnějšímu.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-forms-and-changes"
+}

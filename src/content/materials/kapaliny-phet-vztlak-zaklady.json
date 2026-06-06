@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-phet-vztlak-zaklady",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Vztlak: základy",
+  "type": "applet",
+  "description": "Jednodušší verze simulace o vztlaku v češtině. Žáci ponořují tělesa různé hmotnosti a objemu a sledují, kdy plavou a kdy se potopí — názorný úvod k Archimédovu zákonu.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy-basics"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-faraduv-zakon",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "PhET: Faradayův zákon",
+  "type": "applet",
+  "description": "Simulace v češtině názorně ukazuje elektromagnetickou indukci — pohybem magnetu cívkou se v ní indukuje napětí. Žáci vidí, že na velikosti indukovaného napětí záleží rychlost pohybu magnetu a počet závitů cívky.",
+  "url": "https://phet.colorado.edu/cs/simulations/faradays-law"
+}

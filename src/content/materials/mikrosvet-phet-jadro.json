@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-jadro",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "PhET: Vytvoření jádra",
+  "type": "applet",
+  "description": "Simulace v češtině, ve které žáci skládají atomová jádra z protonů a neutronů a sledují jejich stabilitu i radioaktivní přeměny (alfa, beta). Názorně ukazuje také pojem poločas přeměny.",
+  "url": "https://phet.colorado.edu/cs/simulations/build-a-nucleus"
+}

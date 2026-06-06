@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-modely-atomu",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "PhET: Modely atomu vodíku",
+  "type": "applet",
+  "description": "Simulace v češtině provede žáky vývojem představ o atomu — od kuličkového a pudinkového modelu přes planetární (Bohrův) model až k modernějším. Vhodné k pochopení, proč se modely atomu v historii měnily.",
+  "url": "https://phet.colorado.edu/cs/simulations/models-of-the-hydrogen-atom"
+}
