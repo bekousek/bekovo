@@ -78,11 +78,14 @@ Postup:
 
 Banka je živá — uživatel ji občas doplňuje. Vždy ji čti znovu, žádné cachování seznamu.
 
-## Quality gate — variabilní počet položek per noc
+## Quality gate — deep fan-out, variabilní počet položek per noc (v6)
 
-**Žádné fixní cíle "2 pokusy + 2 aktivity ..."**. Místo toho:
+**Žádné fixní cíle "2 pokusy + 2 aktivity ..."**. Jedna podkapitola za noc, ale prohledá se **celá banka 60 zdrojů** rozdělená do **5 paralelních research lanes** (sub-agentů) — viz [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md) krok 3. Staré globální stropy 15 search / 20 fetch / 25 položek jsou **zrušené**.
 
-- Pro vybranou podkapitolu projdi banku zdrojů a najdi vše, co se týká tématu.
+- Lanes (mapování na kategorie banky): **L1** Pokusy & návody (A+I) → pokusy + aktivity; **L2** Interaktivní simulace (B) → materiály; **L3** Video & reference (D+E) → materiály; **L4** Výzkum & badatelství (C+G) → **úkoly** + aktivity; **L5** Energetika, technika, rozcestníky (F+H) → pokusy + materiály.
+- Každý lane má rozpočet **~6 search dotazů a ~8 fetchů** (celkem ~30/40 za noc — hlubší než dřív, ale bounded). Per-lane rozpočet je anti-runaway pojistka.
+- Pokus = rozliš **žákovský** (provádějí žáci) vs **demonstrační** (předvádí učitel) v `description` (schéma nemá zvlášť pole).
+- Kolekce `homework` je dlouhodobě poddimenzovaná — lane L4 cíleně hledá **dlouhodobější výzkumné/badatelské úkoly pro žáky domů**.
 - Pro každý nalezený kandidát rozhodni: **„Je toto vhodné pro 6.–9. třídu ZŠ?"**
 - Kritéria ZŠ-vhodnosti:
   - jazyk česky/slovensky (nebo přeložitelný kontext, např. PhET applet)
@@ -91,9 +94,8 @@ Banka je živá — uživatel ji občas doplňuje. Vždy ji čti znovu, žádné
   - srozumitelný postup, žák musí pochopit, **co** dělá a **proč**
   - dostupnost pomůcek (nebo levná náhrada)
 - Pokud je vhodné → přidej. Pokud ne → skip a hledej dál.
-- **Nepřemýšlej kolik to bude celkem.** Některé podkapitoly (optika, energie) přijmou 15+ položek za noc, jiné (astronomie, mikrosvět) sotva 2–3 — to je v pořádku.
-- Strop pro anti-runaway: **max 25 položek**, max 15 web search dotazů, max 20 fetchů. Když se těchto stropů dotkneš, zastav synthesis a commit co máš.
-- Když po průchodu banky najdeš < 2 vhodné položky, exit clean s ledger entry `no-research-found` a `skipUntil = today + 30d`. Žádný PR.
+- **Nepřemýšlej kolik to bude celkem.** Některé podkapitoly (optika, energie) přijmou 15+ položek za noc, jiné (astronomie, mikrosvět) sotva 2–3 — obojí je v pořádku. Soft strop **40 položek** na manifest (anti-runaway); per-lane rozpočet drží náklady v mezích. Když strop dosáhneš, zastav synthesis a commit co máš.
+- Když po dedup+gate napříč všemi lanes zbydou < 2 vhodné položky, exit clean s ledger entry `no-research-found` a `skipUntil = today + 30d`. Žádný PR.
 
 ## Source-label konvence (kanonická tabulka)
 
@@ -125,21 +127,21 @@ Tyto cesty rutina **nikdy nemodifikuje**:
 
 Jediné, co rutina edituje: JSON soubory v `src/content/{experiments,activities,materials,homework}/` a `.routine/ledger.json`.
 
-## Slash commands (v5 — Drive-based queue)
+## Slash commands (v6 — deep fan-out + plně automatický queue)
 
-Workflow má dva artefakty + jeden shared store:
+Workflow je **plně bezúdržbový**. Uživatel nedělá nic. Dva běhy + jeden shared store:
 
-- **`/nightly-fill`** — běží v cloud routině každou noc. Plní obsah, validuje build, **uloží manifest jako JSON soubor do Google Drive** folderu `bekovo-nightly-queue` (parentId `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym`). Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
+- **`/nightly-fill`** (cloud routine, **každou noc ve 4:00**) — vybere 1 podkapitolu, hluboce ji prohledá přes **5 paralelních research lanes** napříč celou bankou 60 zdrojů, validuje build, **uloží manifest jako JSON soubor do Google Drive** folderu `bekovo-nightly-queue` (parentId `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym`). Naplánováno přes remote routine (`/schedule`). Detail: [.claude/commands/nightly-fill.md](.claude/commands/nightly-fill.md).
 
 - **Google Drive folder `bekovo-nightly-queue`** — perzistentní fronta. Cloud rutina sem zapisuje manifesty pomocí `create_file`. Lokální `/process-queue` je čte přes `search_files` + `read_file_content`. Folder URL: https://drive.google.com/drive/folders/1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym.
 
-- **`/process-queue`** — uživatel spustí v **lokální** Claude Code session kdykoli mu to vyhovuje. Slash command najde všechny nové manifesty v Drive folderu (filtruje přes `.routine/processed.json` deduplikací podle `manifestId`), pro každý: vytvoří routine větev + soubory + commit + push + draft PR + **auto-squash-merge**. Po dokončení tracked v processed.json. Drive soubory zůstávají jako audit trail. Detail: [.claude/commands/process-queue.md](.claude/commands/process-queue.md).
+- **`/process-queue`** (lokální, **automatická naplánovaná úloha** — běží sama, žádný ruční příkaz) — najde všechny nové manifesty v Drive folderu (dedup přes `.routine/processed.json` podle `manifestId`), pro každý: vytvoří routine větev + soubory + commit + push + PR + **auto-squash-merge** do main. Naplánováno přes lokální scheduled-task (běží při zapnuté/spuštěné appce, jinak při dalším startu). Detail: [.claude/commands/process-queue.md](.claude/commands/process-queue.md).
 
-- **`/nightly-publish`** (legacy, jednorázový) — když chceš zpracovat jeden manifest hned bez fronty, vlož ho do CC chatu s tímto prefixem. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
+- **`/nightly-publish`** (legacy, jednorázový) — když chceš zpracovat jeden manifest ručně paste-em. Detail: [.claude/commands/nightly-publish.md](.claude/commands/nightly-publish.md).
 
-**Proč Drive?** Cloud routine env (CCR) nemá git push auth. Předchozí pokus (paste manifest do final message) selhával — agent kopíroval placeholder text místo skutečného obsahu. Drive `create_file` z MCP je deterministický strukturovaný kanál: cloud zapíše JSON soubor, lokál ho přečte. Bez parsování textu, bez ručního copy-paste, bez ztraceného obsahu.
+**Proč Drive?** Cloud routine env (CCR) nemá git push auth. Drive `create_file` z MCP je deterministický strukturovaný kanál: cloud zapíše JSON soubor, lokál ho přečte a zmergne. Bez parsování textu, bez ručního copy-paste, bez ztraceného obsahu.
 
-Uživatelův workflow: jen `/process-queue` občas (1× týdně třeba). Vše ostatní je automatické — cloud rutina každou noc napíše do Drive, lokál mergne do main, Cloudflare nasadí.
+**Proč dva běhy?** Cloud běží spolehlivě ve 4:00 i s vypnutým PC, ale neumí pushnout. Lokál umí pushnout, ale ve 4:00 PC spí. Proto cloud nasbírá v noci do Drive a lokální naplánovaný `/process-queue` to dotáhne do main, jakmile je PC/appka v provozu. Uživatelův workflow: **nic** — obojí je naplánované.
 
 ## Validace
 

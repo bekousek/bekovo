@@ -11,17 +11,28 @@ Jsi lokální assistant v repu `C:\Users\bekon\bekovo`. Tvá úloha: dokončit w
   {"processedIds": [], "history": []}
   ```
 
-## 1. Pre-flight
+## 1. Pre-flight (s auto-stash rozdělané práce)
+
+Tahle úloha běží automaticky jako naplánovaná úloha — uživatel klidně může mít v repu rozdělanou necommitnutou práci. **Neabortuj na špinavý tree; bezpečně ho odlož a na konci vrať.**
 
 ```bash
 git status --short
 ```
 
-Pokud working tree má cokoli kromě `.claude/settings.local.json`, `.claude/worktrees/`, `.routine/processed.json` → abortni.
+Spočítej „blokující změny" = cokoli MIMO tyto povolené cesty: `.claude/settings.local.json`, `.claude/worktrees/`, `.routine/processed.json`, `.routine/ledger.json`.
+
+- Pokud blokující změny **existují** → odlož je:
+  ```bash
+  git stash push -u -m "process-queue-auto-<ISO-timestamp>"
+  ```
+  Zapamatuj si `STASHED=1`. (`-u` vezme i untracked; gitignored soubory jako `.claude/worktrees/` zůstanou.)
+- Pokud žádné nejsou → `STASHED=0`.
 
 ```bash
 git fetch origin && git checkout main && git pull --ff-only origin main
 ```
+
+Routine větve teď vzniknou z čistého `origin/main`, nedotčené uživatelovou rozdělanou prací.
 
 ## 2. Load Drive search tool
 
@@ -49,7 +60,9 @@ Folder ID `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym` je hardcoded — folder `bekovo-ni
 
 Z odpovědi extrahuj seznam `{id, title, modifiedTime}`. Pokud Drive search není dostupný (tool nelze nahrát, nebo error) → vypiš jasnou zprávu uživateli a skonči.
 
-Filtruj: pro každý file extrahuj manifestId z názvu (`manifest-<manifestId>.json`). Pokud `manifestId ∈ processed.json.processedIds` → skip (už zpracováno).
+**Dedup duplicitních souborů se stejným manifestId:** Drive může obsahovat víc souborů se stejným `manifestId` (rutina běžela vícekrát, retry, nebo starý + nový běh téhož dne). Seskup soubory podle `manifestId` (z názvu `manifest-<manifestId>.json`) a v každé skupině **ponech jen ten s nejnovějším `modifiedTime`**; starší ignoruj. (Novější = obvykle kvalitnější/úplnější verze.)
+
+Filtruj: pro každý zbylý file extrahuj manifestId. Pokud `manifestId ∈ processed.json.processedIds` → skip (už zpracováno).
 
 Pokud nic nového → vypiš „Žádný nový manifest v Drive folderu." a skonči.
 
@@ -138,6 +151,19 @@ git checkout main
 git pull --ff-only origin main
 ```
 
+## 5z. Obnovit odloženou práci (pokud STASHED=1)
+
+Po zpracování všech manifestů, **na čistém main**, vrať uživatelovu rozdělanou práci:
+
+```bash
+git stash pop
+```
+
+- Když `pop` projde čistě → hotovo, working tree je zpět jak byl.
+- Když `pop` narazí na **konflikt** (routine commitla soubor, který měl uživatel rozdělaný — vzácné, routine sahá jen na `src/content/{4}` + ledger) → **nezahazuj stash**. Nech ho být, vyřeš working tree do konzistentního stavu (`git checkout --theirs`/`--ours` dle situace NENÍ automatické — radši stash ponech) a v summary jasně napiš: `⚠️ Rozdělaná práce je bezpečně ve stashi (git stash list) — vyřeš git stash pop ručně.` Nikdy data ze stashe neztrať.
+
+Pokud běh **abortoval v půlce** (chyba), proveď tento restore krok i tak (v failsafe), ať uživatel nezůstane bez své rozdělané práce.
+
 ## 6. Summary
 
 ```
@@ -171,3 +197,4 @@ Cloudflare nasadí merge commits do ~2 min na bekovo.cz.
 - Nikdy nemodifikuj main přímo
 - Token z `git credential fill` jen v in-memory env var
 - Při kolizi → skip nad force
+- **Stash uživatele je posvátný** — pokud jsi v pre-flightu stashoval rozdělanou práci, MUSÍŠ ji na konci (i při abortu) vrátit (`git stash pop`). Při konfliktu stash raději ponech a nahlas, než bys cokoli ztratil.
