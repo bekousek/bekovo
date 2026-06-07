@@ -12,5 +12,15 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "22. hodina – Ionty",
+        "sourceLessonNo": 22,
+        "date": "8. 12. 2021",
+        "content": "<p><em>Jak vzniká iont a jak souvisí s elektrickým nábojem. Volitelně demonstrace Van de Graaffovým generátorem.</em></p>\n<h3>Vznik iontu</h3>\n<p>Při tření <strong>přesouváme elektrony</strong> v obalu atomu. Když atom elektron získá nebo ztratí, stává se <strong>iontem</strong>:</p>\n<ul>\n<li><strong>Anion</strong> — záporný (elektron navíc)</li>\n<li><strong>Kation</strong> — kladný (elektron chybí)</li>\n</ul>\n<h3>Van de Graaffův generátor (ukázka)</h3>\n<p>Generátor „dává ránu\" a zvedá vlasy — názorně ukáže nahromaděný náboj.</p>"
+      }
+    ]
   }
 }

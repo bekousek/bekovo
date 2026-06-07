@@ -12,5 +12,15 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "16. hodina – Magnetické pole Země",
+        "sourceLessonNo": 16,
+        "date": "16. 11. 2021",
+        "content": "<p><em>Země jako obří magnet; kvíz s hlasovátky. Pomůcky: hlasovátka, kompas, různé (ne)magnetické předměty.</em></p>\n<h3>Země jako magnet</h3>\n<p>Jaký znáte největší magnet? <strong>Země.</strong> Střelka kompasu se natáčí k severu. <strong>Magnetické póly jsou opačně</strong> než zeměpisné a pole je asi <strong>10 000× slabší</strong> než u běžných magnetů.</p>\n<h3>Kvíz (hlasovátka)</h3>\n<p>Kdyby nebylo magnetické pole Země: viděli bychom polární záři? fungovala by navigace (kompas)? (Měsíc by Zemi obíhal dál — to drží gravitace, ne magnetismus.)</p>\n<h3>Rozříznutý magnet</h3>\n<p>Když magnet rozřízneme, vzniknou <strong>dva menší magnety</strong> (každý s pólem N i S) — samostatný pól získat nelze.</p>\n<h3>Které látky jsou magnetické</h3>\n<p>Z pěti předmětů (A–E) žáci hlasováním určují, které jsou magnetické (je jich víc).</p>"
+      }
+    ]
   }
 }
