@@ -34,14 +34,14 @@ git fetch origin && git checkout main && git pull --ff-only origin main
 
 Routine větve teď vzniknou z čistého `origin/main`, nedotčené uživatelovou rozdělanou prací.
 
-## 2. Load Drive search tool
+## 2. Load Drive tools
 
-Pomocí ToolSearch nahraj nástroje:
+Pomocí ToolSearch nahraj nástroje (vše najednou jedním voláním):
 - `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__search_files`
-- `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__read_file_content`
+- `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__download_file_content` ← **pro čtení manifestů (base64, byte-přesné)**
 - `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__get_file_metadata`
 
-(Vše najednou jedním ToolSearch voláním.)
+⚠️ **NEpoužívej `read_file_content` na manifesty** — vrací „natural language" reprezentaci, která escapuje markdown (`\#`, mojibake u emoji) a výsledek **není validní JSON**. Vždy `download_file_content` → base64 → `Buffer.from(b64,'base64').toString('utf-8')` → `JSON.parse`.
 
 ## 3. List manifesty v Drive
 
@@ -69,8 +69,8 @@ Pokud nic nového → vypiš „Žádný nový manifest v Drive folderu." a skon
 ## 4. Stáhni a parsuj manifesty
 
 Pro každý nový file:
-- `read_file_content({ fileId: file.id })` → vrací text reprezentaci, což pro application/json soubor je samotný JSON
-- `JSON.parse` na obsah
+- `download_file_content({ fileId: file.id })` → vrací `{ content: <base64> }`. Dekóduj: `Buffer.from(content,'base64').toString('utf-8')` → byte-přesný JSON string.
+- `JSON.parse` na dekódovaný string
 - Validuj:
   - `version === 1`
   - `manifestId` matches `^\d{4}-\d{2}-\d{2}-[a-z0-9-]+--[a-z0-9-]+$`
