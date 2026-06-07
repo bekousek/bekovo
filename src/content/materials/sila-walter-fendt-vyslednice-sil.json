@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-vyslednice-sil",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Aplet: Vektorové skládání sil – výslednice",
+  "type": "applet",
+  "description": "HTML5 aplet v češtině: žák nastavuje velikost a směr dvou sil přetažením myší, po kliknutí na tlačítko Určit výslednici se vektory přesunou do řady a výslednice se zobrazí červenou šipkou. Přímo ilustruje grafický postup skládání sil.",
+  "url": "https://www.walter-fendt.de/html5/phcz/resultant_cz.htm"
+}

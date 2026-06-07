@@ -1,0 +1,18 @@
+{
+  "id": "sila-overeni-rovnobezniku-sil",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Ověření pravidla rovnoběžníku sil",
+  "type": "measurement",
+  "description": "Žáci pomocí dvou siloměrů táhnou z různých směrů na uzel provázku; třetí siloměr v protisměru ukazuje výslednici. Naměřené síly se zakreslí na milimetrový papír v měřítku a grafickým sestrojením rovnoběžníku se ověří, zda délka výsledné šipky odpovídá naměřené hodnotě. Pokus (žákovský) lze provádět ve dvojicích.",
+  "materials": [
+    "3 siloměry (rozsah 5–10 N)",
+    "provázek nebo silná nit",
+    "milimetrový papír",
+    "pravítko a úhloměr"
+  ],
+  "source": {
+    "label": "FyzWeb – materiály do výuky",
+    "url": "http://fyzweb.cz/materialy/sily/p009.php"
+  }
+}

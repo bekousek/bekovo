@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-04",
+  "lastPicked": "2026-06-07",
   "history": [
     {
       "date": "2026-05-08",
@@ -74,6 +74,12 @@
       "subtopic": "optika--faze-mesice-zatmeni",
       "result": "pr-pending",
       "items": 7
+    },
+    {
+      "date": "2026-06-07",
+      "subtopic": "sila--skladani-sil",
+      "result": "pr-pending",
+      "items": 12
     }
   ],
   "skipUntil": {}

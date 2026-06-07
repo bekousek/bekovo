@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-scitani-vektoru",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "PhET: Sčítání vektorů",
+  "type": "applet",
+  "description": "Simulace v češtině pro zkoumání skládání vektorů ve 2D: žák zadává silové vektory v kartézských nebo polárních souřadnicích a sleduje výslednici. Vhodné pro pochopení pravidla rovnoběžníku sil i pro procvičení práce s vektory.",
+  "url": "https://phet.colorado.edu/cs/simulations/vector-addition"
+}

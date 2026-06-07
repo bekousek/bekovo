@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-rovnovaha-tri-sil",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Aplet: Rovnováha tří sil",
+  "type": "applet",
+  "description": "HTML5 aplet v češtině znázorňující rovnováhu tří sil – výslednice soustavy je nulová. Žák interaktivně mění velikosti a směry sil a sleduje, kdy je těleso v rovnováze, čímž si ověřuje podmínku nulové výslednice.",
+  "url": "https://www.walter-fendt.de/html5/phcz/equilibriumforces_cz.htm"
+}
