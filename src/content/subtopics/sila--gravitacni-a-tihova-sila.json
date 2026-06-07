@@ -13,5 +13,23 @@
       "pageCount": 2,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "26. hodina – Gravitační síla",
+        "sourceLessonNo": 26,
+        "sourceUrl": "https://drive.google.com/file/d/1Ijcd1uvg68oCSQ33FhQLXWt8iel5pfwk/view",
+        "date": "3. 1. 2023",
+        "content": "<p><em>První konkrétní zkoumaná síla — gravitační síla F<sub>g</sub>, kterou Země přitahuje tělesa.</em></p>\n<h3>Měření a tabulka</h3>\n<p>Gravitační sílu měříme měřicími soupravami; žáci dostanou tabulku, nalepí ji do sešitu a vyplní naměřené hodnoty.</p>\n<h3>Výpočet</h3>\n<p>Gravitační sílu spočítáme z hmotnosti tělesa:</p>\n<div class=\"formula\">$$F_g = m \\cdot g$$</div>\n<p>kde <strong>g</strong> je gravitační zrychlení. Na Zemi je g = 9,81; pro snadný počet zaokrouhlujeme:</p>\n<div class=\"formula\">$$g \\approx 10\\ \\text{N/kg}$$</div>\n<h3>g na jiných tělesech</h3>\n<ul>\n<li>Měsíc: g ≈ 1,62</li>\n<li>Mars: g ≈ 3,69</li>\n<li>Jupiter: g ≈ 23,12</li>\n</ul>\n<p>Na závěr jednoduché příklady na dosazení.</p>"
+      },
+      {
+        "title": "27. hodina – Výpočet gravitační síly",
+        "sourceLessonNo": 27,
+        "sourceUrl": "https://drive.google.com/file/d/1ImooDtF1mlJBweAq3cheDRLpNadWU64i/view",
+        "date": "4. 1. 2023",
+        "content": "<p><em>Procvičení výpočtů s gravitační silou a shrnutí účinků síly.</em></p>\n<h3>Výpočty</h3>\n<ul>\n<li>výpočet F<sub>g</sub> na Zemi i na Měsíci (stejné těleso, jiné g),</li>\n<li>samostatný příklad s převodem jednotek,</li>\n<li>výpočet hmotnosti z gravitační síly:</li>\n</ul>\n<div class=\"formula\">$$m = \\frac{F_g}{g}$$</div>\n<h3>Účinky síly</h3>\n<p>Síla může mít účinek:</p>\n<ul>\n<li><strong>posuvný</strong> — těleso se posune nebo rozjede,</li>\n<li><strong>otáčivý</strong> — těleso se otočí,</li>\n<li><strong>deformační</strong> — těleso změní tvar.</li>\n</ul>"
+      }
+    ]
   }
 }
