@@ -4,6 +4,7 @@ export default [
   {
     title: '44. hodina – Co se mění s teplotou (teploměry)',
     sourceLessonNo: 44,
+    sourceUrl: 'https://drive.google.com/file/d/1kQj5WW1kh7QSo4ZQF2S_xBCGRz8SK9ge/view',
     date: '15. 3. 2022',
     content: R`<p><em>Objevitelská hodina: které vlastnosti se mění s teplotou → na jakém principu fungují teploměry.</em></p>
 <h3>Co se mění při zahřívání?</h3>
@@ -23,6 +24,7 @@ export default [
   {
     title: '45. hodina – Teplotní stupnice',
     sourceLessonNo: 45,
+    sourceUrl: 'https://drive.google.com/file/d/1kYqF8tdb1xey2764kLZi8s39SiKXYAwv/view',
     date: '16. 3. 2022',
     content: R`<p><em>Tři teplotní stupnice, jejich historie a pevné body.</em></p>
 <table><thead><tr><th>Stupnice</th><th>Značení</th><th>Vznik</th><th>Pevné body</th></tr></thead><tbody>

@@ -4,6 +4,7 @@ export default [
   {
     title: '22. hodina – Ionty',
     sourceLessonNo: 22,
+    sourceUrl: 'https://drive.google.com/file/d/1TJ2rob9c7Z2JM829Qs2t7H918j78TcCH/view',
     date: '8. 12. 2021',
     content: R`<p><em>Jak vzniká iont a jak souvisí s elektrickým nábojem. Volitelně demonstrace Van de Graaffovým generátorem.</em></p>
 <h3>Vznik iontu</h3>

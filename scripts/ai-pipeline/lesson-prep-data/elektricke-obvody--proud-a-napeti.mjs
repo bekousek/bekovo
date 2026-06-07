@@ -4,6 +4,7 @@ export default [
   {
     title: '53. hodina – Co se děje uvnitř vodiče',
     sourceLessonNo: 53,
+    sourceUrl: 'https://drive.google.com/file/d/1l-C3Wc47omAN4KECCmcflQtMsSg2SRtj/view',
     date: '2. 5. 2022',
     content: R`<p><em>Modelová představa elektrického proudu — pohyb elektronů ve vodiči.</em></p>
 <h3>Elektrony ve vodiči</h3>
@@ -15,6 +16,7 @@ export default [
   {
     title: '55. hodina – Elektrický proud',
     sourceLessonNo: 55,
+    sourceUrl: 'https://drive.google.com/file/d/1lMcY8qTHw7wtQpMWfC16lVA_ORf8QLYz/view',
     date: '11. 5. 2022',
     content: R`<p><em>Co je elektrický proud a jak ho měřit.</em></p>
 <p><strong>Elektrický proud</strong> vyjadřuje, kolik elektronů projde obvodem. Značíme <strong>I</strong>, měří se v <strong>ampérech (A)</strong>.</p>
@@ -23,6 +25,7 @@ export default [
   {
     title: '56. hodina – Elektrické napětí',
     sourceLessonNo: 56,
+    sourceUrl: 'https://drive.google.com/file/d/1lNLGL9NgLjDe5UjZaAIOeZlViWYP5aW_/view',
     date: '17. 5. 2022',
     content: R`<p><em>Napětí a jeho měření.</em></p>
 <p><strong>Elektrické napětí</strong> značíme <strong>U</strong>, měří se ve <strong>voltech (V)</strong>. Měříme <strong>voltmetrem</strong>, který se zapojuje <strong>paralelně</strong> ke spotřebiči (žárovce). Naměřené hodnoty porovnáme s multimetrem.</p>

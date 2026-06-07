@@ -4,6 +4,7 @@ export default [
   {
     title: '34. hodina – Motivace k hustotě',
     sourceLessonNo: 34,
+    sourceUrl: 'https://drive.google.com/file/d/1juKl1JEcds33Bjnieu2dngX8FMo-S_7g/view',
     date: '2. 2. 2022',
     content: R`<p><em>Objevitelská hodina: žáci „na vědce" objeví novou vlastnost látek — hustotu — přes otázku, co je vlastně těžší.</em></p>
 <h3>Rozehřátí</h3>
@@ -21,6 +22,7 @@ export default [
   {
     title: '35. hodina – Hustota',
     sourceLessonNo: 35,
+    sourceUrl: 'https://drive.google.com/file/d/1jvrfyyzVFjdhRk95jmf2vACx5lt7M0hS/view',
     date: '10. 2. 2022',
     content: R`<p><em>Zavedení hustoty jako podílu hmotnosti a objemu, jednotka a převod.</em></p>
 <h3>Pojem</h3>
@@ -40,6 +42,7 @@ export default [
   {
     title: '36. hodina – Stanovištová hustota',
     sourceLessonNo: 36,
+    sourceUrl: 'https://drive.google.com/file/d/1k3vcT7xq7CQWDQv2TLu9VVSrRiSYHff9/view',
     date: '14. 2. 2022',
     content: R`<p><em>Pět stanovišť ve čtveřicích, ~5 min na stanoviště, poté společné shrnutí závěrů. (Náměty: sbírka Experimentář — úlohy 7, 177, 202, 228; + horkovzdušný balón.)</em></p>
 <h3>Stanoviště 1 — roztoky</h3>
@@ -63,6 +66,7 @@ export default [
   {
     title: '38. hodina – Počítání hustoty',
     sourceLessonNo: 38,
+    sourceUrl: 'https://drive.google.com/file/d/1kBgEuDbuTQqEyOX7597SYeSjP-rpfVsD/view',
     date: '20. 2. 2022',
     content: R`<p><em>Procvičení výpočtu hustoty a hmotnosti; důraz na zhodnocení reálnosti výsledku.</em></p>
 <h3>Ukázkový příklad</h3>

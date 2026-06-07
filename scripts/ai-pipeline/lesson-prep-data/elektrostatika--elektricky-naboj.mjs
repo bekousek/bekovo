@@ -4,6 +4,7 @@ export default [
   {
     title: '19. hodina – Objevujeme elektrický náboj',
     sourceLessonNo: 19,
+    sourceUrl: 'https://drive.google.com/file/d/1TDSUvXX1XF2TgczCNJ1bCaDTMJ5mO-NK/view',
     date: '25. 11. 2021',
     content: R`<p><em>Objevitelská hodina: od statické elektřiny k pojmu elektrický náboj a jednoduchému elektroskopu. Pomůcky: brčka, balónek, plechovka, alobal, kancelářské sponky, kapesník.</em></p>
 <h3>Statická elektřina</h3>
@@ -16,6 +17,7 @@ export default [
   {
     title: '20. hodina – Náboj sami; vodiče a nevodiče',
     sourceLessonNo: 20,
+    sourceUrl: 'https://drive.google.com/file/d/1TExDFSMbtxn85eBtU9D5RbpKa07tFev1/view',
     date: '30. 11. 2021',
     content: R`<p><em>Žáci sami experimentují s elstat sadou; zavedení vodičů a nevodičů. Pomůcky: elstat sada (plechovka, molitan, sponky, brčko, kapesník, alobalový lístek).</em></p>
 <h3>Samostatná práce</h3>
@@ -40,6 +42,7 @@ export default [
   {
     title: '21. hodina – Ověření vlastností náboje',
     sourceLessonNo: 21,
+    sourceUrl: 'https://drive.google.com/file/d/1THp54e9Awph1NkwJc4F-4Vb11yASGxTz/view',
     date: '7. 12. 2021',
     content: R`<p><em>Hands-on ověření: žáci pomocí sady sami předvedou všechny vlastnosti náboje. Pomůcky: plechovka, 2 háčky + 2 alobaly, 2 brčka, kapesník, kelímek od jogurtu.</em></p>
 <p>Úkol: pomocí pomůcek ukázat všechny vlastnosti náboje a odškrtávat si do sešitu, co se podařilo. Není z toho písemka, ale dovednost se ověří u zkoušení. Zopakovat bezpečnost (vodivost vlhkého dřeva).</p>`,

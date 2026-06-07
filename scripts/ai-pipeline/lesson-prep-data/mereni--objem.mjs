@@ -4,6 +4,7 @@ export default [
   {
     title: '25. hodina – Měření objemu (jednotky a převody)',
     sourceLessonNo: 25,
+    sourceUrl: 'https://drive.google.com/file/d/1TT_zT7YfEaDNZG4quAMo9Rap590TNbfy/view',
     date: '4. 1. 2022',
     content: R`<p><em>Zavedení objemu, jednotek a převodních vztahů.</em></p>
 <h3>Objem</h3>
@@ -23,6 +24,7 @@ export default [
   {
     title: '26. hodina – Měříme objemy',
     sourceLessonNo: 26,
+    sourceUrl: 'https://drive.google.com/file/d/1T_3tyGgPa3np-sQDNBWat2s8a725_e2k/view',
     date: '6. 1. 2022',
     content: R`<p><em>Procvičení převodů a měření objemu kapalin i pevných těles. Pomůcky: odměrné válce, kádinky, kvádříky.</em></p>
 <h3>Pravidla měření</h3>
@@ -38,6 +40,7 @@ export default [
   {
     title: '27. hodina – Objem v praxi a spotřeba vody',
     sourceLessonNo: 27,
+    sourceUrl: 'https://drive.google.com/file/d/1TbELDAKNR48t1sl0RDrpQSdSJU46klJU/view',
     date: '10. 1. 2022',
     content: R`<p><em>Měření objemu rotací po stanovištích a reálná aplikace — spotřeba vody v domácnosti.</em></p>
 <h3>Měření objemu</h3>

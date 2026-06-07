@@ -4,6 +4,7 @@ export default [
   {
     title: '3.–4. hodina – Skupenské přechody',
     sourceLessonNo: 4,
+    sourceUrl: 'https://drive.google.com/file/d/1S95Rn55W1OYHpC6Q-H62JEmuO9V2FJuQ/view',
     date: '20. 9. 2021',
     content: R`<p><em>Navazuje na vlastnosti kapalin. Pomůcky: svíčky, špejle, zapalovač.</em></p>
 <h3>Motivační otázky</h3>

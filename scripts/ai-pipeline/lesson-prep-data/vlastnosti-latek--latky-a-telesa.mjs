@@ -4,6 +4,7 @@ export default [
   {
     title: '1. hodina – Seznámení a vlastnosti látek',
     sourceLessonNo: 1,
+    sourceUrl: 'https://drive.google.com/file/d/1S-eC0AjwMm5Xt3F05SqUu74qzLEYiKpI/view',
     date: '14. 9. 2021',
     content: R`<p><em>Úvodní hodina: zavedení rozdílu látka × těleso přes „přehlídku" běžných předmětů.</em></p>
 <h3>Přehlídka objektů</h3>

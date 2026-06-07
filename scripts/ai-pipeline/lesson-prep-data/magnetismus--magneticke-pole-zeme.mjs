@@ -4,6 +4,7 @@ export default [
   {
     title: '16. hodina – Magnetické pole Země',
     sourceLessonNo: 16,
+    sourceUrl: 'https://drive.google.com/file/d/1T-29wMnlvYiH_J8APFUkkMe59kZYdCwE/view',
     date: '16. 11. 2021',
     content: R`<p><em>Země jako obří magnet; kvíz s hlasovátky. Pomůcky: hlasovátka, kompas, různé (ne)magnetické předměty.</em></p>
 <h3>Země jako magnet</h3>

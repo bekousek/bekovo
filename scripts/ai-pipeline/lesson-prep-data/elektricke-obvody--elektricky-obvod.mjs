@@ -4,6 +4,7 @@ export default [
   {
     title: '48. hodina – Rozsvítíme žárovku',
     sourceLessonNo: 48,
+    sourceUrl: 'https://drive.google.com/file/d/1kljSiW7Jox1ggKqIx5SdvVhxLyyuCYZk/view',
     date: '12. 4. 2022',
     content: R`<p><em>První pokusy s obvodem (metodika Heuréka): rozsvítit žárovku baterií. Pomůcky: baterka, žárovka, vodiče.</em></p>
 <p>Žáci hledají, jak <strong>rozsvítit žárovku</strong> pomocí baterky a vodičů; důraz na bezpečnost při práci s baterií. Nakreslit, jak byla žárovka připojená, když svítila.</p>`,
@@ -11,6 +12,7 @@ export default [
   {
     title: '49. hodina – Podmínky svícení a schéma obvodu',
     sourceLessonNo: 49,
+    sourceUrl: 'https://drive.google.com/file/d/1kmV41ID9satCwgsJYQp7yTmLF6IoFVyb/view',
     date: '19. 4. 2022',
     content: R`<p><em>Kdy žárovka svítí a jak obvod zakreslit schématem.</em></p>
 <h3>Soutěž</h3>
@@ -29,6 +31,7 @@ export default [
   {
     title: '50. hodina – Zapojujeme: vypínač a sériové zapojení',
     sourceLessonNo: 50,
+    sourceUrl: 'https://drive.google.com/file/d/1kqdulOd0EbvIu2sIgsCd_mx3wZpLk87Z/view',
     date: '20. 4. 2022',
     content: R`<p><em>Praktické sestavování obvodu, polarita, vypínač a sériové zapojení.</em></p>
 <h3>Postup zapojení</h3>
@@ -41,6 +44,7 @@ export default [
   {
     title: '51. hodina – Sériové vs. paralelní zapojení',
     sourceLessonNo: 51,
+    sourceUrl: 'https://drive.google.com/file/d/1ks2_Cb1kU9v05uwXkbtw0045R1ELPbnb/view',
     date: '26. 4. 2022',
     content: R`<p><em>Porovnání sériového a paralelního zapojení a chování s vypínači. Žáci zapojují a vyplňují tabulky stavů.</em></p>
 <ul>
@@ -51,6 +55,7 @@ export default [
   {
     title: '52. hodina – Co když jedna žárovka praskne',
     sourceLessonNo: 52,
+    sourceUrl: 'https://drive.google.com/file/d/1kscdtFonR-bKGepof83W7RaWZ8FXHQA-/view',
     date: '28. 4. 2022',
     content: R`<p><em>Chování sériového a paralelního zapojení při výpadku jedné žárovky.</em></p>
 <ul>

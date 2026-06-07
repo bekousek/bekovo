@@ -4,6 +4,7 @@ export default [
   {
     title: '41. hodina – Měření času: úvod a kyvadlo',
     sourceLessonNo: 41,
+    sourceUrl: 'https://drive.google.com/file/d/1kN6QGqFQ9Dak0QSvnGSGSbTvqnC7WCxC/view',
     date: '2. 3. 2022',
     content: R`<p><em>Jednotky a druhy hodin v historii; objev kyvadla.</em></p>
 <h3>Jednotky a druhy hodin</h3>
@@ -15,6 +16,7 @@ export default [
   {
     title: '42. hodina – Perioda kyvadla (měření a graf)',
     sourceLessonNo: 42,
+    sourceUrl: 'https://drive.google.com/file/d/1kPRvckDy0ssmjieJwl7AZeBF0H-bcjAh/view',
     date: '8. 3. 2022',
     content: R`<p><em>Experimentální ověření kyvadla a práce s grafem.</em></p>
 <h3>Pokus</h3>
@@ -25,6 +27,7 @@ export default [
   {
     title: '43. hodina – Čas: jednotky a převody',
     sourceLessonNo: 43,
+    sourceUrl: 'https://drive.google.com/file/d/1kQ1VnsfhFOJkvVWx8wvShw4709aamLBL/view',
     date: '9. 3. 2022',
     content: R`<p><em>Formalizace veličiny čas a převody jednotek.</em></p>
 <h3>Čas (zápis do sešitu)</h3>

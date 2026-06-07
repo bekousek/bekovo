@@ -4,6 +4,7 @@ export default [
   {
     title: '5. hodina – Vlastnosti plynů',
     sourceLessonNo: 5,
+    sourceUrl: 'https://drive.google.com/file/d/1SCT0prYKEbWu4yxZttTHmmPgyQgcSfAA/view',
     date: '30. 9. 2021',
     content: R`<p><em>Objevování vlastností plynů s připravenými lahvemi (propan-butan, CO₂, vzduch). Pomůcky: lahve s plyny, hořící špejle, stříkačky.</em></p>
 <h3>Pokusy s plyny</h3>
@@ -29,6 +30,7 @@ export default [
   {
     title: '6. hodina – Shrnutí a Vennův diagram',
     sourceLessonNo: 6,
+    sourceUrl: 'https://drive.google.com/file/d/1SJQbFeqhH41fXKYl6qqA60kIdBgbs3-J/view',
     date: '30. 9. 2021',
     content: R`<p><em>Shrnutí vlastností plynů a porovnání všech tří skupenství Vennovým diagramem. Pomůcky: stříkačky, velký papír.</em></p>
 <h3>Dokončení pokusu</h3>

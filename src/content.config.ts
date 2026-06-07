@@ -35,6 +35,7 @@ const subtopics = defineCollection({
         title: z.string(),
         sourceLessonNo: z.number().optional(),
         date: z.string().optional(),
+        sourceUrl: z.string().url().optional(),
         content: z.string(),
       })).optional(),
     }).optional(),

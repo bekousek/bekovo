@@ -41,7 +41,11 @@ const hasLessons = !!lessons && lessons.length > 0;
         <article class="lesson-block bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
           <h2 class="lesson-title">
             <span>{lesson.title}</span>
-            {lesson.date && <span class="lesson-date">{lesson.date}</span>}
+            {lesson.date && (lesson.sourceUrl ? (
+              <a class="lesson-date lesson-source" href={lesson.sourceUrl} target="_blank" rel="noopener noreferrer" title="Zobrazit originál (ručně psaná příprava) na Google Disku">{lesson.date} ↗</a>
+            ) : (
+              <span class="lesson-date">{lesson.date}</span>
+            ))}
           </h2>
           <div class="notebook-entry prose max-w-none" set:html={lesson.content} />
         </article>
@@ -75,6 +79,12 @@ const hasLessons = !!lessons && lessons.length > 0;
       font-weight: 400;
       color: #9ca3af;
     }
+    a.lesson-source {
+      color: #2563eb;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    a.lesson-source:hover { text-decoration: underline; }
 
     /* Obsah hodiny — sdílí vizuální styl se "Zápisem do sešitu" (.notebook-entry) */
     .notebook-entry h3 {

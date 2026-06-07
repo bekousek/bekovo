@@ -4,6 +4,7 @@ export default [
   {
     title: '7. hodina – Atomy',
     sourceLessonNo: 7,
+    sourceUrl: 'https://drive.google.com/file/d/1SKM7N0DiPs42dg6zU8yLAP9z8g0Hndj5/view',
     date: '7. 10. 2021',
     content: R`<p><em>Pohled „dovnitř" látek: z čeho se látky skládají — historie i stavba atomu.</em></p>
 <h3>Z čeho se skládá látka? (historie)</h3>
@@ -22,6 +23,7 @@ export default [
   {
     title: '8. hodina – Atomy hravě (velikost a prázdnota)',
     sourceLessonNo: 8,
+    sourceUrl: 'https://drive.google.com/file/d/1S_3HdFxH2ZvSy1d79lgodRchF7N0eLMj/view',
     date: '11. 10. 2021',
     content: R`<p><em>Venku: model atomu v reálném měřítku — pochopit, jak je atom „prázdný". Pomůcky: míček, špendlík.</em></p>
 <h3>Postav atom</h3>

@@ -4,6 +4,7 @@ export default [
   {
     title: '2. hodina – Vlastnosti pevných látek',
     sourceLessonNo: 2,
+    sourceUrl: 'https://drive.google.com/file/d/1S-q9urzB0P44jT0kPu7so3wS-GnvizZ8/view',
     date: '16. 9. 2021',
     content: R`<p><em>Dotřídění látek (látka × těleso) do skupin pevné/kapalné/plynné, pak objevování vlastností pevných látek. Pomůcky: kádinky, vosk, stříkačka.</em></p>
 <h3>Opakování a třídění</h3>

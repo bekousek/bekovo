@@ -4,6 +4,7 @@ export default [
   {
     title: '23. hodina – Měření délky',
     sourceLessonNo: 23,
+    sourceUrl: 'https://drive.google.com/file/d/1TQ8sCQpfyCDUN8b8UHEqvuZQ7p7M7-eW/view',
     date: '14. 12. 2021',
     content: R`<p><em>Zavedení veličiny délka, jednotek a pravidel měření; praktické měření.</em></p>
 <h3>Délka (zápis do sešitu)</h3>
@@ -30,6 +31,7 @@ export default [
   {
     title: '24. hodina – Posuvné měřítko a hra Fyzikální ZOOM',
     sourceLessonNo: 24,
+    sourceUrl: 'https://drive.google.com/file/d/1TQfkWZm76HNn4Oop6xOvCZp2QJw_950k/view',
     date: '16. 12. 2021',
     content: R`<p><em>Poslední hodina před Vánoci — žáci volí mezi měřením a hrou.</em></p>
 <h3>Měření</h3>

@@ -4,6 +4,7 @@ export default [
   {
     title: '13. hodina – Magnety a železné piliny',
     sourceLessonNo: 13,
+    sourceUrl: 'https://drive.google.com/file/d/1SpX8bT3LSHoTTUUhaZIFagwhBgAOcXhn/view',
     date: '1. 11. 2021',
     content: R`<p><em>Zápis vlastností magnetu a zviditelnění magnetického pole železnými pilinami. Pomůcky: magnety, železné piliny, průsvitka.</em></p>
 <h3>Vlastnosti magnetu (zápis do sešitu)</h3>
@@ -14,6 +15,7 @@ export default [
   {
     title: '14. hodina – Magnetické indukční čáry',
     sourceLessonNo: 14,
+    sourceUrl: 'https://drive.google.com/file/d/1SqSxL1qLlAAE9MyyWbZVd3zdukHMKbZ3/view',
     date: '9. 11. 2021',
     content: R`<p><em>Kreslení a pravidla magnetických indukčních čar.</em></p>
 <h3>Indukční čáry</h3>
@@ -24,6 +26,7 @@ export default [
   {
     title: '15. hodina – Magnetizace a feromagnetické látky',
     sourceLessonNo: 15,
+    sourceUrl: 'https://drive.google.com/file/d/1SuHInF4Fdnu_OysBP37yHj0rfrfm_At_/view',
     date: '16. 11. 2021',
     content: R`<p><em>Které látky jsou magnetické a jak je zmagnetovat. Pomůcky: šroubováky, hřebíčky/šroubky, magnety, magneticky měkký materiál.</em></p>
 <h3>Feromagnetické látky</h3>
@@ -36,6 +39,7 @@ export default [
   {
     title: '17. hodina – Magnety v praxi (demonstrace)',
     sourceLessonNo: 17,
+    sourceUrl: 'https://drive.google.com/file/d/1T7DB37IRZFHftztw8l1aQ2VOUd36KRf-/view',
     date: '16. 11. 2021',
     content: R`<p><em>Závěrečné ukázky působení magnetu. Pomůcky: kancelářská sponka, nit, jehla.</em></p>
 <ul>
