@@ -12,5 +12,39 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "48. hodina – Rozsvítíme žárovku",
+        "sourceLessonNo": 48,
+        "date": "12. 4. 2022",
+        "content": "<p><em>První pokusy s obvodem (metodika Heuréka): rozsvítit žárovku baterií. Pomůcky: baterka, žárovka, vodiče.</em></p>\n<p>Žáci hledají, jak <strong>rozsvítit žárovku</strong> pomocí baterky a vodičů; důraz na bezpečnost při práci s baterií. Nakreslit, jak byla žárovka připojená, když svítila.</p>"
+      },
+      {
+        "title": "49. hodina – Podmínky svícení a schéma obvodu",
+        "sourceLessonNo": 49,
+        "date": "19. 4. 2022",
+        "content": "<p><em>Kdy žárovka svítí a jak obvod zakreslit schématem.</em></p>\n<h3>Soutěž</h3>\n<p>Přes kolik věcí dokážete žárovku rozsvítit? Nakreslit obvod vedoucí přes několik předmětů.</p>\n<h3>Podmínky, aby žárovka svítila</h3>\n<ul>\n<li>obvod tvoří <strong>vodivé</strong> věci</li>\n<li>všechno se musí <strong>dotýkat</strong> (nepřerušený obvod)</li>\n<li>správně zapojená baterie i žárovka</li>\n<li>nabitá baterie</li>\n<li>funkční žárovka</li>\n</ul>\n<h3>Schéma obvodu</h3>\n<p>Skutečný obrázek zjednodušíme na <strong>schéma</strong> se značkami: vodič (čára), žárovka (⊗), baterie (zdroj). Značky jsou jen domluva.</p>"
+      },
+      {
+        "title": "50. hodina – Zapojujeme: vypínač a sériové zapojení",
+        "sourceLessonNo": 50,
+        "date": "20. 4. 2022",
+        "content": "<p><em>Praktické sestavování obvodu, polarita, vypínač a sériové zapojení.</em></p>\n<h3>Postup zapojení</h3>\n<p>Póly <strong>+</strong> a <strong>−</strong> (na zdroji bývají odlišeny barvou). Postupujeme od zdroje, klademe banánky a jdeme po vodičích; teprve nakonec připojíme — a svítí.</p>\n<h3>Vypínač</h3>\n<p>Doplníme do obvodu <strong>vypínač (přepínač)</strong> — žárovku můžeme vypnout a zapnout.</p>\n<h3>Sériové zapojení</h3>\n<p>Dvě žárovky <strong>za sebou</strong> = sériové zapojení.</p>"
+      },
+      {
+        "title": "51. hodina – Sériové vs. paralelní zapojení",
+        "sourceLessonNo": 51,
+        "date": "26. 4. 2022",
+        "content": "<p><em>Porovnání sériového a paralelního zapojení a chování s vypínači. Žáci zapojují a vyplňují tabulky stavů.</em></p>\n<ul>\n<li><strong>Sériové</strong> (žárovky za sebou): vypínač ovládá <strong>všechny</strong> žárovky najednou.</li>\n<li><strong>Paralelní</strong> (žárovky ve větvích vedle sebe): větve mohou být <strong>nezávislé</strong> — vypínač v jedné větvi vypne jen tu jednu žárovku, druhá svítí dál.</li>\n</ul>"
+      },
+      {
+        "title": "52. hodina – Co když jedna žárovka praskne",
+        "sourceLessonNo": 52,
+        "date": "28. 4. 2022",
+        "content": "<p><em>Chování sériového a paralelního zapojení při výpadku jedné žárovky.</em></p>\n<ul>\n<li><strong>Sériové zapojení:</strong> když jedna žárovka praskne, <strong>zhasnou všechny</strong> (obvod je přerušený).</li>\n<li><strong>Paralelní zapojení:</strong> když jedna praskne, <strong>ostatní svítí dál</strong>.</li>\n</ul>\n<p>Zapsat <strong>vodiče × nevodiče (izolanty)</strong>. Úvod k tomu, co se děje uvnitř vodiče (elektrony) — navazuje další hodina.</p>"
+      }
+    ]
   }
 }
