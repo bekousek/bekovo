@@ -12,5 +12,23 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "6. hodina – Pohyb a jeho relativnost",
+        "sourceLessonNo": 6,
+        "sourceUrl": "https://drive.google.com/file/d/1HZO3UMLXL11lo-ZXs1PF_b9aaf-LFV8X/view",
+        "date": "26. 9. 2022",
+        "content": "<p><em>Úvod do pohybu: pohyb je relativní; rozdělení pohybů. Pomůcky: obrázek scény, autíčko, vláček.</em></p>\n<h3>Relativnost pohybu</h3>\n<p>Na obrázku scény: co se pohybuje a co je v klidu z pohledu průvodčího × cestujícího ve vlaku? Vždy musíme udávat, <strong>vzhledem k čemu</strong> pohyb sledujeme. <strong>Pohyb i klid jsou relativní.</strong> (I když sedíme „v klidu\", vůči Slunci se pohybujeme ~30 km/s.)</p>\n<h3>Druhy pohybů</h3>\n<p>Žáci vymyslí příklady pohybů a sami navrhnou kritéria třídění:</p>\n<ul>\n<li><strong>rovnoměrný × nerovnoměrný</strong></li>\n<li><strong>přímočarý × křivočarý</strong></li>\n<li><strong>posuvný × otáčivý</strong></li>\n</ul>"
+      },
+      {
+        "title": "7. hodina – Trajektorie a dráha",
+        "sourceLessonNo": 7,
+        "sourceUrl": "https://drive.google.com/file/d/1HhUMkFGcZAl94As5SDXcNOrYIi8CUU5b/view",
+        "date": "4. 10. 2022",
+        "content": "<p><em>Zavedení trajektorie a dráhy přes vlastní kresbu.</em></p>\n<p>Každý nakreslí tužkou podle pravítka rovnoměrný přímočarý pohyb dlouhý 5 cm:</p>\n<ul>\n<li><strong>Trajektorie</strong> = čára, po které se těleso pohybuje.</li>\n<li><strong>Dráha</strong> = délka té čáry (zde 5 cm). Je to veličina v jednotkách délky (metr), značíme ji <em>s</em>.</li>\n</ul>\n<p>Zopakování druhů pohybů a přechod k rychlosti.</p>"
+      }
+    ]
   }
 }
