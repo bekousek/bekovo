@@ -12,5 +12,15 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "2. hodina – Vlastnosti pevných látek",
+        "sourceLessonNo": 2,
+        "date": "16. 9. 2021",
+        "content": "<p><em>Dotřídění látek (látka × těleso) do skupin pevné/kapalné/plynné, pak objevování vlastností pevných látek. Pomůcky: kádinky, vosk, stříkačka.</em></p>\n<h3>Opakování a třídění</h3>\n<p>K tabulce látka × těleso doplníme nadpisy a žáci brainstormí další tělesa a jejich látky. Společně utřídíme látky do tří sloupců na tabuli: <strong>pevné × kapalné × plynné</strong>.</p>\n<h3>Vlastnosti pevných látek (objevování ve dvojicích)</h3>\n<p>Ve dvojicích 5 minut: vymyslet co nejvíc vlastností pevných látek. Pak po lavicích každý řekne jednu vlastnost, zkusíme ji ukázat a zapíšeme na tabuli.</p>\n<ul>\n<li>mají <strong>stálý tvar</strong> (pokud nepůsobíme silou)</li>\n<li>mají <strong>stálý objem</strong></li>\n<li><strong>nejdou nabrat do stříkačky</strong> (na rozdíl od kapalin a plynů)</li>\n<li>mohou být tvrdé, pružné, tvárné…</li>\n</ul>"
+      }
+    ]
   }
 }

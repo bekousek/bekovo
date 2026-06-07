@@ -35,5 +35,8 @@ public/sborniky/
 # Extracted text from PDFs (generated, large)
 scripts/ai-pipeline/extracted/
 
+# Stažené rukou psané přípravy (zdroj pro přepis, nepatří do gitu)
+scripts/ai-pipeline/handwritten/
+
 # Routine ledger (per-run state — rutina commit­uje svou kopii na routine/* větve)
 .routine/

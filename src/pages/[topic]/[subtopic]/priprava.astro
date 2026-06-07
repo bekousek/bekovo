@@ -11,8 +11,16 @@ export async function getStaticPaths() {
 }
 
 const { topic, subtopic } = Astro.props;
+
+const lessons = subtopic.lessonPrep?.lessons ?? null;
+const googleDocUrl = subtopic.lessonPrep?.googleDocUrl ?? null;
+const hasLessons = !!lessons && lessons.length > 0;
 ---
 <BaseLayout title={`${subtopic.name} - Příprava na hodinu`}>
+  {hasLessons && (
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
+  )}
+
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
@@ -23,13 +31,115 @@ const { topic, subtopic } = Astro.props;
 
   <SubtopicNav topicId={topic.id} subtopicId={subtopic.id} currentSection="priprava" />
 
-  {subtopic.lessonPrep ? (
-    <GoogleDocEmbed url={subtopic.lessonPrep.googleDocUrl} title="Příprava na hodinu" />
+  {hasLessons ? (
+    <div class="space-y-6">
+      <p class="text-sm text-gray-500">
+        Zpracováno z vlastních příprav na hodinu. {lessons.length}{' '}
+        {lessons.length === 1 ? 'vyučovací hodina' : lessons.length < 5 ? 'vyučovací hodiny' : 'vyučovacích hodin'}.
+      </p>
+      {lessons.map((lesson) => (
+        <article class="lesson-block bg-white rounded-xl shadow-sm border border-gray-200 p-6 sm:p-8">
+          <h2 class="lesson-title">
+            <span>{lesson.title}</span>
+            {lesson.date && <span class="lesson-date">{lesson.date}</span>}
+          </h2>
+          <div class="notebook-entry prose max-w-none" set:html={lesson.content} />
+        </article>
+      ))}
+    </div>
+  ) : googleDocUrl ? (
+    <GoogleDocEmbed url={googleDocUrl} title="Příprava na hodinu" />
   ) : (
     <EmptyState
       icon="📖"
       title="Příprava zatím není k dispozici"
       description="Příprava bude brzy doplněna."
     />
+  )}
+
+  <style is:global>
+    .lesson-title {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.5rem 0.75rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #1e3a8a;
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .lesson-date {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #9ca3af;
+    }
+
+    /* Obsah hodiny — sdílí vizuální styl se "Zápisem do sešitu" (.notebook-entry) */
+    .notebook-entry h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #1e40af;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .notebook-entry h3:first-child { margin-top: 0; }
+    .notebook-entry .formula {
+      text-align: center;
+      margin: 1rem 0;
+      padding: 0.75rem;
+      background: #eff6ff;
+      border-radius: 0.5rem;
+    }
+    .notebook-entry table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.9rem;
+    }
+    .notebook-entry th {
+      background: #1e40af;
+      color: white;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      font-weight: 600;
+    }
+    .notebook-entry td {
+      padding: 0.4rem 0.75rem;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .notebook-entry tr:nth-child(even) td { background: #f9fafb; }
+    .notebook-entry p { margin: 0.5rem 0; line-height: 1.6; }
+    .notebook-entry ul { list-style: disc outside; padding-left: 1.25rem; margin: 0.5rem 0; }
+    .notebook-entry ol { list-style: decimal outside; padding-left: 1.5rem; margin: 0.5rem 0; }
+    .notebook-entry li { margin: 0.2rem 0; line-height: 1.55; }
+    .notebook-entry li::marker { color: #1e40af; }
+    .notebook-entry img { max-width: 100%; height: auto; border-radius: 0.5rem; margin: 0.75rem 0; }
+    .notebook-entry figure { margin: 0.75rem 0; }
+    .notebook-entry figcaption { font-size: 0.8rem; color: #6b7280; text-align: center; margin-top: 0.25rem; }
+  </style>
+
+  {hasLessons && (
+    <script>
+      import katex from 'katex';
+
+      function renderMath() {
+        document.querySelectorAll('.notebook-entry').forEach((container) => {
+          const html = container.innerHTML;
+          if (!html.includes('$$')) return;
+          container.innerHTML = html.replace(/\$\$(.*?)\$\$/g, (_, tex) => {
+            try {
+              return katex.renderToString(tex, { throwOnError: false, displayMode: true });
+            } catch {
+              return tex;
+            }
+          });
+        });
+      }
+
+      renderMath();
+      document.addEventListener('astro:page-load', renderMath);
+    </script>
   )}
 </BaseLayout>

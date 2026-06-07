@@ -12,5 +12,15 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "3.–4. hodina – Vlastnosti kapalin",
+        "sourceLessonNo": 3,
+        "date": "20. 9. 2021",
+        "content": "<p><em>Objevování vlastností kapalin ve dvojicích, ukázky na vodě. Pomůcky: 2 stejné kádinky, stříkačky.</em></p>\n<h3>Opakování</h3>\n<p>Látka × těleso (vzít těleso a určit látky, např. auto). Vlastnosti pevných látek: drží tvar, stálý objem, nejdou nabrat do stříkačky.</p>\n<h3>Vlastnosti kapalin</h3>\n<p>Ve dvojicích vymyslet vlastnosti — čím se kapaliny liší od pevných a plynných látek. Ukazujeme na vodě (dobrovolník) a píšeme na tabuli:</p>\n<ul>\n<li>tekuté</li>\n<li>snadno dělitelné</li>\n<li><strong>nestlačitelné</strong> (ukázat stříkačkou — voda nejde stlačit)</li>\n<li>stálý objem</li>\n<li>tvar podle nádoby</li>\n<li>vodorovná hladina</li>\n</ul>"
+      }
+    ]
   }
 }
