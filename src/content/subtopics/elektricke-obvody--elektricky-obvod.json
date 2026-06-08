@@ -49,6 +49,20 @@
         "sourceUrl": "https://drive.google.com/file/d/1kscdtFonR-bKGepof83W7RaWZ8FXHQA-/view",
         "date": "28. 4. 2022",
         "content": "<p><em>Chování sériového a paralelního zapojení při výpadku jedné žárovky.</em></p>\n<ul>\n<li><strong>Sériové zapojení:</strong> když jedna žárovka praskne, <strong>zhasnou všechny</strong> (obvod je přerušený).</li>\n<li><strong>Paralelní zapojení:</strong> když jedna praskne, <strong>ostatní svítí dál</strong>.</li>\n</ul>\n<p>Zapsat <strong>vodiče × nevodiče (izolanty)</strong>. Úvod k tomu, co se děje uvnitř vodiče (elektrony) — navazuje další hodina.</p>"
+      },
+      {
+        "title": "34. hodina – Opakování značek a stavba obvodů (8. roč.)",
+        "sourceLessonNo": 34,
+        "sourceUrl": "https://drive.google.com/file/d/1GezWSyX8pc7xwHjZudsdlNSNdiJVxfoh/view",
+        "date": "1. 2. 2023",
+        "content": "<p><em>Návrat k elektrickým obvodům v 8. ročníku. Hodina začíná krátkým opakováním z předchozího tématu (výpočet příkladu na teplo, ústní zopakování změn skupenství), pak přecházíme k obvodům.</em></p>\n<h3>Elektrické obvody — rozjezd</h3>\n<p>Zopakujeme a upevníme <strong>schematické značky</strong> součástek a stavbu jednoduchých obvodů třemi aktivitami:</p>\n<ol>\n<li><strong>Pexeso na značky</strong> — spojování značek s názvy/obrázky součástek,</li>\n<li><strong>značky do sešitu</strong> — opíšeme si ty nejdůležitější,</li>\n<li><strong>zapojit něco jednoduchého podle schématu</strong> — od schématu ke skutečnému obvodu.</li>\n</ol>"
+      },
+      {
+        "title": "41. hodina – Kreslíme schéma podle obvodu (8. roč.)",
+        "sourceLessonNo": 41,
+        "sourceUrl": "https://drive.google.com/file/d/1Gld59p3A5wmQ6X4bSr4stity4Fw3s5da/view",
+        "date": "21. 3. 2023",
+        "content": "<p><em>Obrácená úloha: od postaveného obvodu ke správnému schématu. Začínáme Kahootem na opakování (co je to zkrat).</em></p>\n<h3>Aktivita: schéma z reálného obvodu</h3>\n<ol>\n<li>každý si <strong>zakreslí vlastní obvod</strong> a podle nákresu ho <strong>postaví</strong>,</li>\n<li>žáci <strong>rotují po třídě</strong> a ke kamarádovým postaveným obvodům <strong>kreslí schémata</strong>,</li>\n<li>autor obvodu pak schéma <strong>zkontroluje</strong>.</li>\n</ol>\n<p>Na závěr reflexe: <strong>jak stavět dobře čitelné obvody</strong>, aby z nich šlo snadno nakreslit schéma.</p>"
       }
     ]
   }
