@@ -12,6 +12,7 @@ export default [
 <h3>Výpočet</h3>
 <p>Gravitační sílu spočítáme z hmotnosti tělesa:</p>
 <div class="formula">$$F_g = m \cdot g$$</div>
+<figure><img src="/lesson-prep/sila--gravitacni-a-tihova-sila/gravitacni-sila.svg" alt="Země přitahuje těleso gravitační silou Fg směrem dolů" /><figcaption>Gravitační síla F<sub>g</sub> míří k Zemi a je tím větší, čím větší je hmotnost tělesa.</figcaption></figure>
 <p>kde <strong>g</strong> je gravitační zrychlení. Na Zemi je g = 9,81; pro snadný počet zaokrouhlujeme:</p>
 <div class="formula">$$g \approx 10\ \text{N/kg}$$</div>
 <h3>g na jiných tělesech</h3>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 185" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Hydraulické zařízení: malá síla na malém pístu vyvolá velkou sílu na velkém pístu">
+  <path d="M60 96 L60 150 L262 150 L262 96" fill="#dbeafe"/>
+  <rect x="60" y="96" width="32" height="20" fill="#dbeafe"/>
+  <rect x="180" y="96" width="82" height="20" fill="#dbeafe"/>
+  <g fill="none" stroke="#9ca3af" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M60 60 L60 150 L262 150 L262 60"/>
+    <path d="M92 60 L92 132"/><path d="M180 60 L180 132"/>
+  </g>
+  <rect x="61" y="86" width="30" height="11" fill="#9ca3af" stroke="#4b5563" stroke-width="1.5"/>
+  <rect x="181" y="86" width="80" height="11" fill="#9ca3af" stroke="#4b5563" stroke-width="1.5"/>
+  <g stroke="#2563eb" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="76" y1="58" x2="76" y2="82"/><path d="M71 75 L76 82 L81 75"/>
+  </g>
+  <g stroke="#16a34a" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="221" y1="82" x2="221" y2="46"/><path d="M214 56 L221 46 L228 56"/>
+  </g>
+  <text x="76" y="52" font-size="12" font-weight="700" fill="#2563eb" text-anchor="middle">F₁</text>
+  <text x="221" y="40" font-size="13" font-weight="700" fill="#16a34a" text-anchor="middle">F₂</text>
+  <text x="160" y="178" font-size="12" font-weight="700" fill="#1e40af" text-anchor="middle">malá síla → velká síla</text>
+</svg>

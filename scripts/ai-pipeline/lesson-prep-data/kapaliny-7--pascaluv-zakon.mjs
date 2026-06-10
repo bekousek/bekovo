@@ -22,6 +22,7 @@ export default [
 <p>Ve všech místech je stejný tlak, takže:</p>
 <div class="formula">$$F_1 = p \cdot S_1 \qquad F_2 = p \cdot S_2$$</div>
 <p>Větší píst (větší <em>S</em>) → větší síla <em>F</em>. Malou silou tak zvedneme velké břemeno (autozvedák, rameno bagru).</p>
+<figure><img src="/lesson-prep/kapaliny-7--pascaluv-zakon/hydraulika.svg" alt="Hydraulické zařízení: malá síla na malém pístu vyvolá velkou sílu na velkém pístu" /><figcaption>Hydraulika: na větší píst působí větší síla — malou silou zvedneme velké břemeno.</figcaption></figure>
 <p><em>Ukázky: 3D tisk, rameno bagru, applet na bekovo.cz. DÚ: vyrobit podle návodu hydraulickou ruku nebo rameno.</em></p>`,
   },
 ];
