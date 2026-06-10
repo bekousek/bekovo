@@ -15,6 +15,7 @@ export default [
 </ul>
 <h3>Zákon odrazu</h3>
 <p>Úhel odrazu se rovná úhlu dopadu. Rozdíl <strong>papír × zrcadlo</strong>: od papíru se světlo rozptýlí na všechny strany (drsný povrch), od zrcadla se odrazí uspořádaně — proto v něm vidíme obraz.</p>
+<figure><img src="/lesson-prep/optika--zrcadla-zakon-odrazu/zakon-odrazu.svg" alt="Zákon odrazu: paprsek dopadá a odráží se pod stejným úhlem od kolmice" /><figcaption>Zákon odrazu: úhel dopadu (α) se rovná úhlu odrazu (α') — měřeno od kolmice.</figcaption></figure>
 <h3>Vlastnosti obrazu</h3>
 <p>Obraz v zrcadle může být:</p>
 <ul>

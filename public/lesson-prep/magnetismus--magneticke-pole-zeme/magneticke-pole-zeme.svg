@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 232" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Země se chová jako obří magnet, jehož magnetické póly jsou opačně než zeměpisné">
+  <g fill="none" stroke="#93c5fd" stroke-width="1.3">
+    <path d="M120 32 C 212 72 212 168 120 208"/>
+    <path d="M120 32 C 28 72 28 168 120 208"/>
+    <path d="M120 46 C 182 80 182 160 120 194"/>
+    <path d="M120 46 C 58 80 58 160 120 194"/>
+  </g>
+  <circle cx="120" cy="120" r="78" fill="#bfdbfe" stroke="#60a5fa" stroke-width="2"/>
+  <rect x="108" y="66" width="24" height="48" fill="#2563eb"/>
+  <rect x="108" y="114" width="24" height="48" fill="#dc2626"/>
+  <g font-weight="700" text-anchor="middle" fill="#ffffff" font-size="14">
+    <text x="120" y="95">S</text><text x="120" y="147">N</text>
+  </g>
+  <text x="120" y="22" font-size="10" fill="#374151" text-anchor="middle">zeměpisný sever</text>
+  <text x="120" y="228" font-size="11" font-weight="700" fill="#1e40af" text-anchor="middle">Země je obří magnet (póly opačně)</text>
+</svg>

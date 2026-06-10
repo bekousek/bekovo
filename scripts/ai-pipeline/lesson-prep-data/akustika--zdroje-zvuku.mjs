@@ -16,6 +16,7 @@ export default [
 <li><strong>virtuální osciloskop</strong> (Academo) — tón má pravidelný průběh, hluk nepravidelný,</li>
 <li><strong>spektrogram</strong> (Chrome Music Lab) — rozklad zvuku na frekvence.</li>
 </ul>
+<figure><img src="/lesson-prep/akustika--zdroje-zvuku/ton-hluk.svg" alt="Tón má pravidelný kmitavý průběh, hluk nepravidelný" /><figcaption>Tón má pravidelný (periodický) průběh, hluk nepravidelný.</figcaption></figure>
 <h3>Rezonance</h3>
 <p>Kde se s rezonancí setkáme: hrací strojek, rezonanční části hudebních nástrojů, <strong>ladička</strong> (dvě stejné ladičky se rozezní na dálku).</p>
 <h3>Šíření zvuku</h3>

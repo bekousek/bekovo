@@ -12,6 +12,7 @@ export default [
 <li><strong>rovnoměrný pohyb</strong> → přímka z počátku; čím strmější, tím větší rychlost</li>
 <li><strong>klid</strong> (stání na místě) → vodorovná čára</li>
 </ul>
+<figure><img src="/lesson-prep/pohyb--grafy/graf-pohybu.svg" alt="Graf dráhy v čase: rovnoměrný pohyb je rostoucí přímka, klid vodorovná čára" /><figcaption>Graf dráhy (s–t): rovnoměrný pohyb je rostoucí přímka, klid vodorovná čára.</figcaption></figure>
 <p>Čtení grafů: co který graf znamená.</p>`,
   },
   {

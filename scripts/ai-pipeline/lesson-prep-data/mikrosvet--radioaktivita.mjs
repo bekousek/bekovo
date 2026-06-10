@@ -18,6 +18,7 @@ export default [
 <li><strong>β (beta)</strong> — proud elektronů; zastaví ho kovový plech,</li>
 <li><strong>γ (gama)</strong> — proud fotonů; nejpronikavější, potřebuje tlustou vrstvu olova.</li>
 </ul>
+<figure><img src="/lesson-prep/mikrosvet--radioaktivita/zareni-pronikavost.svg" alt="Pronikavost záření: alfa zastaví papír, beta plech, gama tlustá vrstva olova" /><figcaption>Pronikavost záření: α zastaví papír, β kovový plech, γ až tlustá vrstva olova.</figcaption></figure>
 <h3>Radioaktivita v přírodě</h3>
 <ul>
 <li><strong>radon</strong> uvolňující se z podloží (v domech proto větráme), uran v horninách,</li>

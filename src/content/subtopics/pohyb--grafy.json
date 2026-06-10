@@ -20,7 +20,7 @@
         "sourceLessonNo": 13,
         "sourceUrl": "https://drive.google.com/file/d/1Hq0zAL4-mJgDMp3uHOoUdsa3WHGHVUxg/view",
         "date": "1. 11. 2022",
-        "content": "<p><em>Vizualizace pohybu grafem dráhy v čase.</em></p>\n<p>Sestrojíme graf <strong>s = f(t)</strong> (dráha na svislé ose, čas na vodorovné). Z tabulky hodnot vyneseme body:</p>\n<ul>\n<li><strong>rovnoměrný pohyb</strong> → přímka z počátku; čím strmější, tím větší rychlost</li>\n<li><strong>klid</strong> (stání na místě) → vodorovná čára</li>\n</ul>\n<p>Čtení grafů: co který graf znamená.</p>"
+        "content": "<p><em>Vizualizace pohybu grafem dráhy v čase.</em></p>\n<p>Sestrojíme graf <strong>s = f(t)</strong> (dráha na svislé ose, čas na vodorovné). Z tabulky hodnot vyneseme body:</p>\n<ul>\n<li><strong>rovnoměrný pohyb</strong> → přímka z počátku; čím strmější, tím větší rychlost</li>\n<li><strong>klid</strong> (stání na místě) → vodorovná čára</li>\n</ul>\n<figure><img src=\"/lesson-prep/pohyb--grafy/graf-pohybu.svg\" alt=\"Graf dráhy v čase: rovnoměrný pohyb je rostoucí přímka, klid vodorovná čára\" /><figcaption>Graf dráhy (s–t): rovnoměrný pohyb je rostoucí přímka, klid vodorovná čára.</figcaption></figure>\n<p>Čtení grafů: co který graf znamená.</p>"
       },
       {
         "title": "14. hodina – Graf rychlosti (v–t)",

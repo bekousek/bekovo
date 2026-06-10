@@ -35,6 +35,7 @@ export default [
 <p><strong>Příklad:</strong> Jak dlouho letí světlo ze Slunce na Zemi (vzdálenost 151 milionů km)? → ≈ 503 s ≈ <strong>8,4 minuty</strong>.</p>
 <p>Proto zavádíme i <strong>světelný rok</strong> — vzdálenost, kterou světlo urazí za jeden rok.</p>
 <h3>Proč vidíme</h3>
-<p>Vidíme proto, že světlo ze zdroje se od objektů <strong>odrazí do našeho oka</strong>. Pokus se svíčkami: <strong>stín</strong> a <strong>polostín</strong>.</p>`,
+<p>Vidíme proto, že světlo ze zdroje se od objektů <strong>odrazí do našeho oka</strong>. Pokus se svíčkami: <strong>stín</strong> a <strong>polostín</strong>.</p>
+<figure><img src="/lesson-prep/optika--svetlo/svetlo-stin.svg" alt="Neprůhledná překážka vrhá za sebou stín, protože se světlo šíří přímočaře" /><figcaption>Světlo se šíří přímočaře — neprůhledná překážka proto vrhá stín.</figcaption></figure>`,
   },
 ];

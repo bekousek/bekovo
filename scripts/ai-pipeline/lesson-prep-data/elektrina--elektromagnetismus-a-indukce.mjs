@@ -20,6 +20,7 @@ export default [
     content: R`<p><em>Obrácení jevu z minula: pohybující se magnet vyrábí v cívce napětí. Vede až k pojmu střídavý proud. Pomůcky: cívky, měřáky (mA), magnety, kabely. Video „Válka proudů" (Badatelna, ~10 min).</em></p>
 <h3>Z pohybu proud</h3>
 <p>Víme, že <em>proud v cívce + magnet → pohyb</em>. Lze to i naopak? Pokus: k cívce připojíme miliampérmetr a pohybujeme okolo ní magnetem → ručka se vychýlí. Tedy <strong>magnet + pohyb → proud</strong>.</p>
+<figure><img src="/lesson-prep/elektrina--elektromagnetismus-a-indukce/indukce.svg" alt="Pohyb magnetu u cívky vyvolá proud, který ukáže galvanometr (mA)" /><figcaption>Při pohybu magnetu u cívky se na jejích koncích indukuje napětí a obvodem teče proud.</figcaption></figure>
 <h3>Zápis</h3>
 <p><strong>Elektromagnetická indukce</strong> je jev, který vznikne, když v okolí cívky <strong>měníme magnetické pole</strong>. Na koncích cívky se <strong>indukuje napětí</strong>.</p>
 <p>Při <strong>změně směru pohybu</strong> se změní i znaménko (směr) proudu. Pohybujeme-li magnetem stále tam a zpět, proud pravidelně mění směr — vzniká <strong>střídavý proud</strong> (graf I v čase má tvar sinusovky).</p>`,

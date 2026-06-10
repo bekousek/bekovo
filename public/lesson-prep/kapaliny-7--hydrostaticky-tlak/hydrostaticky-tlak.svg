@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Hydrostatický tlak roste s hloubkou: voda z nižšího otvoru stříká dál">
+  <rect x="62" y="52" width="86" height="116" fill="#dbeafe"/>
+  <path d="M60 28 L60 170 L150 170 L150 28" fill="none" stroke="#9ca3af" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round">
+    <path d="M150 78 Q 175 82 188 116"/>
+    <path d="M150 116 Q 195 120 220 156"/>
+    <path d="M150 154 Q 215 158 256 186"/>
+  </g>
+  <g fill="#1e3a8a"><circle cx="150" cy="78" r="2.5"/><circle cx="150" cy="116" r="2.5"/><circle cx="150" cy="154" r="2.5"/></g>
+  <text x="105" y="198" font-size="12" font-weight="700" fill="#1e40af" text-anchor="middle">hlouběji → větší tlak</text>
+</svg>

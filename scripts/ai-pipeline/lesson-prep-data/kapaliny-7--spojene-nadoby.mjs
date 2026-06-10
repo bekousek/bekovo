@@ -12,6 +12,7 @@ export default [
 <div class="formula">$$p_h = \rho \cdot g \cdot h$$</div>
 <h3>Spojené nádoby</h3>
 <p>Ve <strong>spojených nádobách</strong> (nádoby propojené u dna) se stejnorodá kapalina ustálí ve <strong>všech ramenech ve stejné výšce</strong> — bez ohledu na jejich tvar. Plyne to přímo z hydrostatického tlaku: ten závisí jen na hloubce, takže ve stejné výšce je všude stejný tlak a hladiny se srovnají.</p>
+<figure><img src="/lesson-prep/kapaliny-7--spojene-nadoby/spojene-nadoby.svg" alt="Spojené nádoby různého tvaru mají kapalinu ve stejné výšce" /><figcaption>Ve spojených nádobách je hladina všude ve stejné výšce, ať mají ramena jakýkoli tvar.</figcaption></figure>
 <p>Využití: vodováha, konvice, vodojem, kanalizace a vodovod.</p>`,
   },
 ];

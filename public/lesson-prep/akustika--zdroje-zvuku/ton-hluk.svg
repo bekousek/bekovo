@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 150" role="img" aria-label="Tón má pravidelný kmitavý průběh, hluk nepravidelný">
+  <g stroke="#9ca3af" stroke-width="1.2"><line x1="16" y1="70" x2="160" y2="70"/><line x1="180" y1="70" x2="324" y2="70"/></g>
+  <path d="M20 70 Q40 35 60 70 T100 70 T140 70 T180 70" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+  <polyline points="184,70 196,44 206,86 218,52 230,80 244,40 256,90 268,58 282,78 296,48 310,72 320,62" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700" text-anchor="middle" font-size="13">
+    <text x="92" y="128" fill="#16a34a">tón (pravidelný)</text>
+    <text x="252" y="128" fill="#dc2626">hluk (nepravidelný)</text>
+  </g>
+</svg>

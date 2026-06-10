@@ -10,9 +10,11 @@ export default [
 <h3>LED — svítivá dioda</h3>
 <p><strong>LED</strong> (light emitting diode) <strong>propouští proud jen jedním směrem</strong> (má delší + a kratší − nožičku). Rozdáme je a rozsvítíme — pozor na správnou polaritu.</p>
 <p>Aktivita „Bude svítit?": na několika zapojeních žáci předpovídají, zda dioda svítí (záleží na orientaci). Ukážeme, <strong>proč LED bez ochrany „rupne"</strong>, a doplníme do série <strong>předřadný rezistor</strong> (~100 Ω), který omezí proud.</p>
+<figure><img src="/lesson-prep/elektrina--polovodice/dioda.svg" alt="Schematická značka diody: propouští proud jen jedním směrem" /><figcaption>Dioda (i LED) propouští proud jen jedním směrem.</figcaption></figure>
 <p>Kde všude LED potkáme: kontrolky, svítilny, žárovky, LED pásky, dekorace, displeje, semafory… Předvedeme <strong>RGB LED</strong>.</p>
 <h3>Dioda a usměrňovač</h3>
-<p>Obyčejná <strong>dioda</strong> také propouští proud jen jedním směrem. Čtyři diody zapojené jako <strong>Graetzův můstek</strong> tvoří <strong>usměrňovač</strong> — ze střídavého proudu udělají stejnosměrný.</p>`,
+<p>Obyčejná <strong>dioda</strong> také propouští proud jen jedním směrem. Čtyři diody zapojené jako <strong>Graetzův můstek</strong> tvoří <strong>usměrňovač</strong> — ze střídavého proudu udělají stejnosměrný.</p>
+<figure><img src="/lesson-prep/elektrina--polovodice/graetzuv-mustek.svg" alt="Graetzův můstek ze čtyř diod usměrní střídavý proud na stejnosměrný" /><figcaption>Graetzův můstek — čtyři diody změní střídavý proud (~) na stejnosměrný (+/−).</figcaption></figure>`,
   },
   {
     title: '27. hodina – Polovodičové „dvounožky"',

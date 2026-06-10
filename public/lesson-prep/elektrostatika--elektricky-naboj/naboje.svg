@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 155" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Nesouhlasné náboje se přitahují, souhlasné se odpuzují">
+  <circle cx="50" cy="54" r="20" fill="#dc2626"/>
+  <circle cx="138" cy="54" r="20" fill="#2563eb"/>
+  <g stroke="#16a34a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="76" y1="54" x2="96" y2="54"/><path d="M90 49 L96 54 L90 59"/>
+    <line x1="112" y1="54" x2="92" y2="54"/><path d="M98 49 L92 54 L98 59"/>
+  </g>
+  <circle cx="208" cy="54" r="20" fill="#dc2626"/>
+  <circle cx="296" cy="54" r="20" fill="#dc2626"/>
+  <g stroke="#dc2626" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="182" y1="54" x2="162" y2="54"/><path d="M168 49 L162 54 L168 59"/>
+    <line x1="322" y1="54" x2="322" y2="54"/>
+    <line x1="324" y1="54" x2="338" y2="54"/><path d="M332 49 L338 54 L332 59"/>
+  </g>
+  <g fill="#ffffff" font-weight="700" text-anchor="middle" font-size="22">
+    <text x="50" y="62">+</text><text x="138" y="62">−</text><text x="208" y="62">+</text><text x="296" y="62">+</text>
+  </g>
+  <g font-weight="700" text-anchor="middle" font-size="11" fill="#1e40af">
+    <text x="94" y="120">nesouhlasné → přitahují</text>
+    <text x="252" y="120">souhlasné → odpuzují</text>
+  </g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 220" role="img" aria-label="Pevná kladka mění směr síly, volná kladka zmenší sílu na polovinu">
+  <line x1="28" y1="24" x2="118" y2="24" stroke="#6b7280" stroke-width="3"/>
+  <line x1="190" y1="24" x2="300" y2="24" stroke="#6b7280" stroke-width="3"/>
+  <line x1="70" y1="24" x2="70" y2="36" stroke="#6b7280" stroke-width="2.5"/>
+  <g stroke="#b45309" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="54" y1="52" x2="54" y2="150"/>
+    <line x1="86" y1="52" x2="86" y2="148"/>
+  </g>
+  <circle cx="70" cy="52" r="16" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <circle cx="70" cy="52" r="2.5" fill="#1f2937"/>
+  <rect x="40" y="150" width="28" height="28" rx="2" fill="#94a3b8"/>
+  <g stroke="#16a34a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="86" y1="148" x2="86" y2="178"/><path d="M81 171 L86 178 L91 171"/>
+  </g>
+  <line x1="212" y1="24" x2="234" y2="88" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="266" y1="88" x2="288" y2="40" stroke="#b45309" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="250" cy="95" r="16" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <circle cx="250" cy="95" r="2.5" fill="#1f2937"/>
+  <line x1="250" y1="111" x2="250" y2="138" stroke="#1f2937" stroke-width="2.5"/>
+  <rect x="236" y="138" width="28" height="28" rx="2" fill="#94a3b8"/>
+  <g stroke="#16a34a" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="288" y1="40" x2="288" y2="18"/><path d="M283 25 L288 18 L293 25"/>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="54" y="169" font-size="13" font-weight="700" fill="#ffffff">G</text>
+    <text x="250" y="157" font-size="13" font-weight="700" fill="#ffffff">G</text>
+    <text x="104" y="168" font-size="12" font-weight="700" fill="#16a34a">F = G</text>
+    <text x="302" y="40" font-size="12" font-weight="700" fill="#16a34a">F = G/2</text>
+    <text x="62" y="205" font-size="12" font-weight="700" fill="#1e40af">pevná – mění směr</text>
+    <text x="252" y="205" font-size="12" font-weight="700" fill="#1e40af">volná – zmenší sílu</text>
+  </g>
+</svg>

@@ -18,6 +18,7 @@ export default [
 <li><strong>jádro</strong> — protony p⁺ a neutrony n⁰</li>
 <li><strong>obal</strong> — elektrony e⁻</li>
 </ul>
+<figure><img src="/lesson-prep/castice-latky--atom/atom.svg" alt="Model atomu: jádro z protonů a neutronů uprostřed, elektrony v obalu" /><figcaption>Model atomu: v jádře protony (p⁺) a neutrony (n⁰), v obalu elektrony (e⁻).</figcaption></figure>
 <p>Podle počtu částic (hlavně protonů) rozlišujeme atomy různých <strong>prvků</strong> — ukázat periodickou tabulku. Pustit krátký film o atomu, do sešitu nakreslit model atomu + napsat větu.</p>`,
   },
   {

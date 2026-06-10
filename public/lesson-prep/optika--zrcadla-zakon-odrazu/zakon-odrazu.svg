@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 175" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Zákon odrazu: úhel dopadu se rovná úhlu odrazu">
+  <line x1="40" y1="140" x2="260" y2="140" stroke="#6b7280" stroke-width="3"/>
+  <g stroke="#9ca3af" stroke-width="1.2">
+    <line x1="56" y1="140" x2="48" y2="150"/><line x1="80" y1="140" x2="72" y2="150"/><line x1="104" y1="140" x2="96" y2="150"/><line x1="128" y1="140" x2="120" y2="150"/><line x1="152" y1="140" x2="144" y2="150"/><line x1="176" y1="140" x2="168" y2="150"/><line x1="200" y1="140" x2="192" y2="150"/><line x1="224" y1="140" x2="216" y2="150"/><line x1="248" y1="140" x2="240" y2="150"/>
+  </g>
+  <line x1="150" y1="140" x2="150" y2="34" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <g stroke="#dc2626" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="64" y1="48" x2="150" y2="140"/><path d="M136 132 L150 140 L142 126"/>
+  </g>
+  <g stroke="#2563eb" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="150" y1="140" x2="236" y2="48"/><path d="M226 52 L236 48 L232 58"/>
+  </g>
+  <path d="M150 100 A 42 42 0 0 1 121 113" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+  <path d="M150 100 A 42 42 0 0 0 179 113" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+  <text x="126" y="100" font-size="13" font-weight="700" fill="#dc2626">α</text>
+  <text x="166" y="100" font-size="13" font-weight="700" fill="#2563eb">α'</text>
+  <text x="156" y="30" font-size="10" fill="#6b7280">kolmice</text>
+  <text x="150" y="170" font-size="11" font-weight="700" fill="#1e40af" text-anchor="middle">úhel dopadu = úhel odrazu</text>
+</svg>

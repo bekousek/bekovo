@@ -37,6 +37,7 @@ export default [
 <li>po některých materiálech se pohybuje dobře, po jiných hůře, po jiných vůbec</li>
 <li>je <strong>kladný × záporný</strong></li>
 </ul>
+<figure><img src="/lesson-prep/elektrostatika--elektricky-naboj/naboje.svg" alt="Nesouhlasné náboje (+ a −) se přitahují, souhlasné (+ a +) se odpuzují" /><figcaption>Nesouhlasné náboje se přitahují, souhlasné se odpuzují.</figcaption></figure>
 <p>⚠ <strong>Bezpečnost:</strong> při první pomoci po zasažení el. proudem <strong>nepoužívat dřevěnou tyč</strong> (vlhké dřevo vede!).</p>`,
   },
   {

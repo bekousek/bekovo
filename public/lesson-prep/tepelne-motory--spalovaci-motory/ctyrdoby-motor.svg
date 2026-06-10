@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 200" role="img" aria-label="Čtyřdobý zážehový motor: sání, komprese, expanze, výfuk">
+  <rect x="28" y="32" width="48" height="106" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="31" y="96" width="42" height="15" fill="#9ca3af"/>
+  <circle cx="41" cy="36" r="5" fill="#16a34a"/><circle cx="63" cy="36" r="5" fill="#9ca3af"/>
+  <g stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="52" y1="68" x2="52" y2="90"/><path d="M47 83 L52 90 L57 83"/></g>
+  <rect x="123" y="32" width="48" height="106" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="126" y="52" width="42" height="15" fill="#9ca3af"/>
+  <circle cx="136" cy="36" r="5" fill="#9ca3af"/><circle cx="158" cy="36" r="5" fill="#9ca3af"/>
+  <g stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="147" y1="96" x2="147" y2="74"/><path d="M142 81 L147 74 L152 81"/></g>
+  <path d="M147 42 l -5 7 l 6 -1 l -4 7" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="218" y="32" width="48" height="106" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="221" y="96" width="42" height="15" fill="#9ca3af"/>
+  <circle cx="231" cy="36" r="5" fill="#9ca3af"/><circle cx="253" cy="36" r="5" fill="#9ca3af"/>
+  <g stroke="#16a34a" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="242" y1="66" x2="242" y2="90"/><path d="M236 82 L242 90 L248 82"/></g>
+  <rect x="313" y="32" width="48" height="106" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="316" y="52" width="42" height="15" fill="#9ca3af"/>
+  <circle cx="326" cy="36" r="5" fill="#9ca3af"/><circle cx="348" cy="36" r="5" fill="#16a34a"/>
+  <g stroke="#1f2937" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="337" y1="96" x2="337" y2="74"/><path d="M332 81 L337 74 L342 81"/></g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700" text-anchor="middle" fill="#1e40af" font-size="12">
+    <text x="52" y="160">1. sání</text>
+    <text x="147" y="160">2. komprese</text>
+    <text x="242" y="160">3. expanze</text>
+    <text x="337" y="160">4. výfuk</text>
+  </g>
+  <text x="190" y="184" font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle" fill="#6b7280" font-size="9">zelená = otevřený ventil / jiskra · šipka = pohyb pístu</text>
+</svg>

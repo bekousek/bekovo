@@ -13,7 +13,8 @@ export default [
 <p>Čím jsem hlouběji, tím víc na mě shora tlačí voda svou tíhou (proto při potápění zalehnou uši). Tlak v hloubce <em>h</em> odvodíme:</p>
 <div class="formula">$$p_h = \frac{F}{S} = \frac{m \cdot g}{S} = \frac{V \cdot \rho \cdot g}{S} = \frac{S \cdot h \cdot \rho \cdot g}{S}$$</div>
 <div class="formula">$$p_h = h \cdot \rho \cdot g$$</div>
-<p>Hydrostatický tlak tedy závisí jen na <strong>hloubce</strong> <em>h</em>, <strong>hustotě kapaliny</strong> <em>ρ</em> a na <em>g</em> — ne na tvaru nádoby.</p>`,
+<p>Hydrostatický tlak tedy závisí jen na <strong>hloubce</strong> <em>h</em>, <strong>hustotě kapaliny</strong> <em>ρ</em> a na <em>g</em> — ne na tvaru nádoby.</p>
+<figure><img src="/lesson-prep/kapaliny-7--hydrostaticky-tlak/hydrostaticky-tlak.svg" alt="Voda stříká z otvorů v nádobě — z nižšího otvoru dál, protože tam je větší tlak" /><figcaption>Z nižšího otvoru voda stříká dál — hydrostatický tlak roste s hloubkou.</figcaption></figure>`,
   },
   {
     title: '36. hodina – Hydrostatický tlak v těle (aplikace)',
