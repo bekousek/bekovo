@@ -35,6 +35,7 @@ export default [
 <li><strong>směr</strong> — kam šipka míří,</li>
 <li><strong>velikost</strong> — vyjádřenou délkou šipky.</li>
 </ul>
+<figure><img src="/lesson-prep/sila--sila-a-jeji-znazorneni/znazorneni-sily.svg" alt="Síla znázorněná šipkou s vyznačeným působištěm, směrem a velikostí" /><figcaption>Sílu znázorňujeme šipkou — určuje působiště, směr i velikost.</figcaption></figure>
 <h3>Příklad</h3>
 <p>Dvě štěňata se přetahují o kost: jedno táhne silou <strong>4 N</strong>, druhé <strong>3 N</strong> opačným směrem. Obě síly zakreslíme šipkami — delší šipka znamená větší sílu.</p>`,
   },

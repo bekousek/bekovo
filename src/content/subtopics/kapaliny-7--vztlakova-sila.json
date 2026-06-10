@@ -28,7 +28,7 @@
         "sourceLessonNo": 38,
         "sourceUrl": "https://drive.google.com/file/d/1JVyZ6s2L4vvzZhSr585YoWerXkfctE38/view",
         "date": "8. 3. 2023",
-        "content": "<p><em>Definice vztlakové síly a Archimédův zákon. Motivace: ukázka z filmu o batyskafu.</em></p>\n<h3>Archimédův zákon</h3>\n<p>Na těleso ponořené do kapaliny působí <strong>vztlaková síla</strong> směrem vzhůru. Její velikost se rovná tíze kapaliny, kterou těleso svým objemem vytlačí:</p>\n<div class=\"formula\">$$F_{vz} = V_p \\cdot \\rho_k \\cdot g$$</div>\n<p>kde <strong>V<sub>p</sub></strong> je objem ponořené části tělesa a <strong>ρ<sub>k</sub></strong> je hustota kapaliny. Čím víc kapaliny těleso vytlačí, tím větší vztlaková síla.</p>"
+        "content": "<p><em>Definice vztlakové síly a Archimédův zákon. Motivace: ukázka z filmu o batyskafu.</em></p>\n<h3>Archimédův zákon</h3>\n<p>Na těleso ponořené do kapaliny působí <strong>vztlaková síla</strong> směrem vzhůru. Její velikost se rovná tíze kapaliny, kterou těleso svým objemem vytlačí:</p>\n<div class=\"formula\">$$F_{vz} = V_p \\cdot \\rho_k \\cdot g$$</div>\n<p>kde <strong>V<sub>p</sub></strong> je objem ponořené části tělesa a <strong>ρ<sub>k</sub></strong> je hustota kapaliny. Čím víc kapaliny těleso vytlačí, tím větší vztlaková síla.</p>\n<figure><img src=\"/lesson-prep/kapaliny-7--vztlakova-sila/vztlakova-sila.svg\" alt=\"Na ponořené těleso působí vztlaková síla směrem vzhůru\" /><figcaption>Vztlaková síla míří vzhůru a rovná se tíze kapaliny, kterou těleso vytlačí.</figcaption></figure>"
       },
       {
         "title": "40. hodina – Výpočty vztlakové síly",

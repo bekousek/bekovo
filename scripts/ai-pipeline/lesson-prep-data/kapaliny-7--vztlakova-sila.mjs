@@ -26,7 +26,8 @@ export default [
 <h3>Archimédův zákon</h3>
 <p>Na těleso ponořené do kapaliny působí <strong>vztlaková síla</strong> směrem vzhůru. Její velikost se rovná tíze kapaliny, kterou těleso svým objemem vytlačí:</p>
 <div class="formula">$$F_{vz} = V_p \cdot \rho_k \cdot g$$</div>
-<p>kde <strong>V<sub>p</sub></strong> je objem ponořené části tělesa a <strong>ρ<sub>k</sub></strong> je hustota kapaliny. Čím víc kapaliny těleso vytlačí, tím větší vztlaková síla.</p>`,
+<p>kde <strong>V<sub>p</sub></strong> je objem ponořené části tělesa a <strong>ρ<sub>k</sub></strong> je hustota kapaliny. Čím víc kapaliny těleso vytlačí, tím větší vztlaková síla.</p>
+<figure><img src="/lesson-prep/kapaliny-7--vztlakova-sila/vztlakova-sila.svg" alt="Na ponořené těleso působí vztlaková síla směrem vzhůru" /><figcaption>Vztlaková síla míří vzhůru a rovná se tíze kapaliny, kterou těleso vytlačí.</figcaption></figure>`,
   },
   {
     title: '40. hodina – Výpočty vztlakové síly',

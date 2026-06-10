@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 190" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Skládání sil: stejný směr se sčítá, opačný směr se odčítá">
+  <text x="12" y="24" font-size="12" font-weight="700" fill="#1e40af">Stejný směr:</text>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g stroke="#2563eb" stroke-width="3"><line x1="40" y1="44" x2="120" y2="44"/><path d="M112 38 L120 44 L112 50"/></g>
+    <g stroke="#16a34a" stroke-width="3"><line x1="120" y1="44" x2="180" y2="44"/><path d="M172 38 L180 44 L172 50"/></g>
+    <g stroke="#dc2626" stroke-width="3.5"><line x1="40" y1="66" x2="180" y2="66"/><path d="M172 60 L180 66 L172 72"/></g>
+  </g>
+  <text x="198" y="59" font-size="12" font-weight="700" fill="#dc2626">F = F₁ + F₂</text>
+  <text x="12" y="116" font-size="12" font-weight="700" fill="#1e40af">Opačný směr:</text>
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <g stroke="#2563eb" stroke-width="3"><line x1="60" y1="136" x2="180" y2="136"/><path d="M172 130 L180 136 L172 142"/></g>
+    <g stroke="#16a34a" stroke-width="3"><line x1="120" y1="156" x2="60" y2="156"/><path d="M68 150 L60 156 L68 162"/></g>
+    <g stroke="#dc2626" stroke-width="3.5"><line x1="120" y1="176" x2="180" y2="176"/><path d="M172 170 L180 176 L172 182"/></g>
+  </g>
+  <text x="198" y="161" font-size="12" font-weight="700" fill="#dc2626">F = F₁ − F₂</text>
+  <g font-size="10" fill="#6b7280">
+    <text x="76" y="40">F₁</text><text x="146" y="40">F₂</text>
+    <text x="116" y="132">F₁</text><text x="86" y="151">F₂</text>
+  </g>
+</svg>

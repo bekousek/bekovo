@@ -22,7 +22,8 @@ export default [
 <h3>Pohádka o velké řepě</h3>
 <p>Proč dědeček řepu sám nevytáhne, ale se všemi ostatními ano? <strong>Jejich síly se složí dohromady.</strong> Výsledná síla se nazývá <strong>výslednice</strong>.</p>
 <p>Síly stejného směru <strong>sčítáme</strong>:</p>
-<div class="formula">$$F = F_1 + F_2 + F_3$$</div>`,
+<div class="formula">$$F = F_1 + F_2 + F_3$$</div>
+<figure><img src="/lesson-prep/sila--skladani-sil/skladani-sil.svg" alt="Skládání sil: stejný směr se sčítá, opačný směr se odčítá" /><figcaption>Síly stejného směru sčítáme, opačného směru odčítáme; výsledkem je výslednice.</figcaption></figure>`,
   },
   {
     title: '23. hodina – Skládání sil opačného směru',
