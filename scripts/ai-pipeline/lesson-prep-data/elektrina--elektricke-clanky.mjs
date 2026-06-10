@@ -28,6 +28,7 @@ export default [
     content: R`<p><em>Druhy baterií, jak fungují a co znamená jejich kapacita. Na úvod Kahoot.</em></p>
 <h3>Článek × akumulátor</h3>
 <p><strong>Akumulátor</strong> se dá nabíjet, <strong>článek</strong> je na jedno použití. Princip ukážeme na <strong>Voltově článku</strong>: dvě elektrody (zinková <strong>anoda −</strong>, měděná <strong>katoda +</strong>) v elektrolytu (H<sub>2</sub>SO<sub>4</sub>), napětí měříme voltmetrem.</p>
+<figure><img src="/lesson-prep/elektrina--elektricke-clanky/voltuv-clanek.svg" alt="Voltův článek: zinková (−) a měděná (+) elektroda v kyselině sírové, napětí měřené voltmetrem" /><figcaption>Voltův článek — dvě různé elektrody v elektrolytu vytvoří napětí.</figcaption></figure>
 <h3>Druhy a provedení</h3>
 <ul>
 <li>formáty: <strong>AA, AAA, plochá baterie, 9V, knoflíkové</strong>,</li>

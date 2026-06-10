@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 210" role="img" aria-label="Voltův článek: zinková a měděná elektroda v elektrolytu, napětí měřené voltmetrem">
+  <path d="M67 110 L67 184 Q67 192 75 192 L225 192 Q233 192 233 184 L233 110 Z" fill="#dbeafe"/>
+  <path d="M65 58 L65 184 Q65 194 75 194 L225 194 Q235 194 235 184 L235 58" fill="none" stroke="#9ca3af" stroke-width="2.5" stroke-linejoin="round"/>
+  <rect x="104" y="50" width="12" height="118" fill="#9ca3af"/>
+  <rect x="184" y="50" width="12" height="118" fill="#d97706"/>
+  <g fill="none" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M110 50 L110 28 L136 28"/>
+    <path d="M190 50 L190 28 L164 28"/>
+  </g>
+  <circle cx="150" cy="28" r="16" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" text-anchor="middle">
+    <text x="150" y="34" font-size="16" font-weight="700" fill="#1e40af">V</text>
+    <text x="110" y="44" font-size="13" font-weight="700" fill="#2563eb">Zn −</text>
+    <text x="190" y="44" font-size="13" font-weight="700" fill="#dc2626">Cu +</text>
+    <text x="150" y="158" font-size="14" fill="#1d4ed8">H₂SO₄</text>
+  </g>
+</svg>

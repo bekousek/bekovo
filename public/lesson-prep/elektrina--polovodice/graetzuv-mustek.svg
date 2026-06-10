@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 264" role="img" aria-label="Graetzův můstek: čtyři diody usměrní střídavý proud na stejnosměrný">
+  <defs>
+    <g id="dioda-sym">
+      <polygon points="-10,-8 -10,8 9,0" fill="#1f2937"/>
+      <line x1="9" y1="-9" x2="9" y2="9" stroke="#1f2937" stroke-width="2.5"/>
+    </g>
+  </defs>
+  <g stroke="#1f2937" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <line x1="70" y1="120" x2="140" y2="50"/>
+    <line x1="140" y1="50" x2="210" y2="120"/>
+    <line x1="70" y1="120" x2="140" y2="190"/>
+    <line x1="140" y1="190" x2="210" y2="120"/>
+    <line x1="70" y1="120" x2="30" y2="120"/>
+    <line x1="210" y1="120" x2="250" y2="120"/>
+    <line x1="140" y1="50" x2="140" y2="22"/>
+    <line x1="140" y1="190" x2="140" y2="218"/>
+  </g>
+  <use href="#dioda-sym" transform="translate(105,85) rotate(-45)"/>
+  <use href="#dioda-sym" transform="translate(175,85) rotate(-135)"/>
+  <use href="#dioda-sym" transform="translate(105,155) rotate(-135)"/>
+  <use href="#dioda-sym" transform="translate(175,155) rotate(-45)"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700" text-anchor="middle">
+    <text x="22" y="125" font-size="17" fill="#dc2626">~</text>
+    <text x="262" y="125" font-size="17" fill="#dc2626">~</text>
+    <text x="140" y="18" font-size="16" fill="#16a34a">+</text>
+    <text x="140" y="234" font-size="16" fill="#16a34a">−</text>
+  </g>
+  <text x="150" y="256" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#6b7280" text-anchor="middle">Graetzův můstek (usměrňovač): ~ → =</text>
+</svg>

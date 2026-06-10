@@ -26,6 +26,7 @@ export default [
 <li><strong>nulový vodič (nulák)</strong> — proud se jím vrací; barva <strong>modrá</strong>,</li>
 <li><strong>ochranný vodič</strong> (zemnící kolík) — chrání uživatele; barva <strong>zelenožlutá</strong>.</li>
 </ul>
+<figure><img src="/lesson-prep/elektrina--silnoproud/zasuvka.svg" alt="Zásuvka: dva otvory (fáze a nulák) a ochranný kolík, s barvami vodičů" /><figcaption>Zásuvka: fázový a nulový vodič v otvorech, ochranný vodič na kolíku.</figcaption></figure>
 <p>Vysvětlíme, <strong>k čemu je ochranný kolík</strong>: při poruše svede proud do země mimo člověka (proud „nejde do mě"). Ukážeme různé typy vidlic a zopakujeme, čeho se v zásuvce smíme a nesmíme dotknout.</p>`,
   },
 ];
