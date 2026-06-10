@@ -13,6 +13,7 @@ export default [
 <li><strong>pevná kladka</strong> — jen mění směr síly (velikost síly nezmenší),</li>
 <li><strong>volná kladka</strong> — zmenší potřebnou sílu.</li>
 </ul>
+<figure><img src="/lesson-prep/mechanika--prace-na-jednoduchych-strojich/kladky.svg" alt="Pevná kladka mění jen směr síly (F = G), volná kladka zmenší sílu na polovinu (F = G/2)" /><figcaption>Pevná kladka mění jen směr síly; volná kladka zmenší potřebnou sílu na polovinu.</figcaption></figure>
 <p>Podíváme se, jak je to přitom s vykonanou prací.</p>`,
   },
   {

@@ -22,7 +22,8 @@ export default [
 <li>plynné → kapalné: <strong>kapalnění (kondenzace)</strong></li>
 <li>pevné → plynné: <strong>sublimace</strong></li>
 <li>plynné → pevné: <strong>desublimace</strong></li>
-</ul>`,
+</ul>
+<figure><img src="/lesson-prep/skupenstvi-latek--zmeny-skupenstvi-latek/skupenske-prechody.svg" alt="Schéma všech šesti skupenských přechodů mezi pevným, kapalným a plynným skupenstvím" /><figcaption>Přehled všech skupenských přechodů mezi třemi skupenstvími.</figcaption></figure>`,
   },
   {
     title: '26. hodina – Tání a tuhnutí',
@@ -32,6 +33,7 @@ export default [
     content: R`<p><em>Tání a tuhnutí a graf ohřevu. (Měrné skupenské teplo viz podtéma Skupenské teplo.)</em></p>
 <h3>Tání a tuhnutí</h3>
 <p>Pokus s táním ledu: zaznamenáme graf <strong>teploty v čase</strong>. Při tání teplota chvíli <strong>stojí na teplotě tání t<sub>t</sub></strong> (led i voda zároveň), i když stále dodáváme teplo.</p>
+<figure><img src="/lesson-prep/skupenstvi-latek--zmeny-skupenstvi-latek/graf-ohrevu.svg" alt="Graf teploty v čase: během tání je úsek vodorovný (teplota se nemění)" /><figcaption>Graf ohřevu: během tání teplota stojí na t<sub>t</sub>, i když stále dodáváme teplo.</figcaption></figure>
 <p><strong>Tání a tuhnutí</strong> probíhají při téže teplotě (teplota tání = teplota tuhnutí); každá látka ji má jinou a mění se s tlakem. Při tání látka teplo <strong>přijímá</strong>, při tuhnutí ho <strong>odevzdává</strong> okolí.</p>`,
   },
   {
