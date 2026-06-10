@@ -1,0 +1,18 @@
+{
+  "id": "optika-velikost-obrazu-mobil",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Velikost obrazu mobilu v zrcadle",
+  "type": "measurement",
+  "description": "Žáci přiloží mobil před rovinné zrcadlo a smývatelným fixem si na sklo obkreslí, kde leží horní a dolní okraj zrcadlového obrazu telefonu. Změří délku obrysu na zrcadle a porovnají ji se skutečnou délkou mobilu – vyjde přesně polovina. Ověří, že tento poměr nezávisí na vzdálenosti od zrcadla. Závěr: abychom v zrcadle viděli celý předmět, stačí zrcadlo o polovičních rozměrech (proto i zrcadlo „na celou postavu“ stačí poloviční výšky). Inspirováno videem Vsauce – Your Mirror Image.",
+  "materials": [
+    "rovinné zrcadlo",
+    "mobil / telefon",
+    "smývatelný fix",
+    "pravítko"
+  ],
+  "source": {
+    "label": "YouTube – Vsauce: Your Mirror Image",
+    "url": "https://www.youtube.com/shorts/MN9vsZs7jkQ"
+  }
+}
