@@ -30,6 +30,7 @@ export default [
 <div class="formula">$$\rho = \frac{m}{V}$$</div>
 <p>Pomůcka — trojúhelník (zakryj hledanou veličinu, zbytek napoví vzorec):</p>
 <div class="formula">$$\frac{m}{\rho \cdot V}$$</div>
+<figure><img src="/lesson-prep/mereni--hustota/hustota-trojuhelnik.svg" alt="Trojúhelník hustoty: m nahoře, ρ a V dole — zakrytím veličiny získáme vzorec" /><figcaption>Zakrytím hledané veličiny získáme vzorec: ρ = m/V, m = ρ·V, V = m/ρ.</figcaption></figure>
 <h3>Příklady</h3>
 <table><thead><tr><th>Látka</th><th>Objem</th><th>Hmotnost</th><th>Hustota</th></tr></thead><tbody>
 <tr><td>Voda</td><td>150 cm³</td><td>150 g</td><td>ρ = 1 g/cm³</td></tr>

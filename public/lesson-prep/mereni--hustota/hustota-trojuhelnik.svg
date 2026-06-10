@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 210" font-family="ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Trojúhelník hustoty: m nahoře, ρ a V dole">
+  <g fill="none" stroke="#1e3a8a" stroke-width="3" stroke-linejoin="round">
+    <polygon points="120,20 220,185 20,185"/>
+    <line x1="70" y1="102" x2="170" y2="102"/>
+    <line x1="120" y1="102" x2="120" y2="185"/>
+  </g>
+  <g fill="#1e40af" text-anchor="middle" font-weight="700">
+    <text x="120" y="80" font-size="34">m</text>
+    <text x="84" y="160" font-size="30">ρ</text>
+    <text x="156" y="160" font-size="30">V</text>
+  </g>
+</svg>

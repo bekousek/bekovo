@@ -20,6 +20,7 @@ export default [
     content: R`<p><em>Kreslení a pravidla magnetických indukčních čar.</em></p>
 <h3>Indukční čáry</h3>
 <p>Nakreslit obrázky s magnetickými indukčními čarami u jednoho magnetu a napsat <strong>pravidla</strong>: čáry vycházejí ze severního pólu a vcházejí do jižního, nikdy se nekříží, hustší čáry znamenají silnější pole.</p>
+<figure><img src="/lesson-prep/magnetismus--magnety/magnet-indukcni-cary.svg" alt="Magnetické indukční čáry kolem tyčového magnetu vycházejí z N a vcházejí do S" /><figcaption>Indukční čáry vycházejí ze severního pólu (N) a vcházejí do jižního (S).</figcaption></figure>
 <h3>Více magnetů</h3>
 <p>Vyzkoušet sestavy více magnetů (přitahování/odpuzování) a nakreslit k nim obrázky polí.</p>`,
   },
