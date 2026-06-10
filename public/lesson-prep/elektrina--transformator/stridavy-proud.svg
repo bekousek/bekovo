@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 160" role="img" aria-label="Střídavé napětí: sinusový průběh v čase s vyznačenou periodou T">
+  <g stroke="#9ca3af" stroke-width="1.5" fill="none">
+    <line x1="25" y1="85" x2="325" y2="85"/>
+    <line x1="35" y1="25" x2="35" y2="135"/>
+  </g>
+  <path d="M35 85 Q 70 20 105 85 T 175 85 T 245 85 T 315 85" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <path d="M35 120 L35 128 L175 128 L175 120" fill="none" stroke="#1e40af" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <g font-family="ui-sans-serif, system-ui, sans-serif">
+    <text x="22" y="34" font-size="14" font-weight="700" fill="#374151">U</text>
+    <text x="318" y="102" font-size="14" font-weight="700" fill="#374151">t</text>
+    <text x="105" y="146" font-size="12" fill="#1e40af" text-anchor="middle">T (perioda)</text>
+  </g>
+</svg>

@@ -15,6 +15,7 @@ export default [
 <h3>Magnetické pole vodiče → cívka</h3>
 <p>Každý vodič, kterým teče proud, má kolem sebe <strong>magnetické pole</strong> (slabé, ale je tam). Když ho chceme zesílit, vodič <strong>smotáme do cívky</strong>.</p>
 <p>Rozdáme cívky s kabely (vysvětlíme zdířky) a špendlíky. Žáci zkusí cívkou přitahovat — moc to nejde, magnet je slabý. <strong>Zesílíme ho vložením železného jádra</strong> → vznikne <strong>elektromagnet</strong>. Probereme, kde se elektromagnet využívá (zvonek, relé, jeřáb na kovový šrot, reproduktor…).</p>
+<figure><img src="/lesson-prep/elektrina--civky-a-kondenzatory/elektromagnet.svg" alt="Elektromagnet: cívka navinutá na železném jádru, připojená k baterii, s vyznačenými póly S a N" /><figcaption>Smotáním vodiče do cívky a vložením železného jádra vznikne elektromagnet.</figcaption></figure>
 <p>Pokud zbyde čas, naznačíme souvislost <strong>proud + magnet → pohyb</strong> a <strong>magnet + pohyb → proud</strong> (předzvěst motoru a indukce).</p>`,
   },
   {
