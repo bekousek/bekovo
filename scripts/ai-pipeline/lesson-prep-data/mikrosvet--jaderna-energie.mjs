@@ -10,7 +10,7 @@ export default [
 <h3>Jaderné štěpení</h3>
 <p>Pomalý neutron rozštěpí jádro uranu; vzniknou lehčí jádra a další neutrony, které štěpí další jádra — <strong>řetězová reakce</strong>:</p>
 <div class="formula">n + <sup>235</sup>U → lehčí jádra + 3 n</div>
-<p>Doplníme obrázkem s popisem.</p>
+<figure><img src="/lesson-prep/mikrosvet--jaderna-energie/jaderne-stepeni.svg" alt="Neutron rozštěpí jádro uranu-235 na dvě lehčí jádra a tři nové neutrony" /><figcaption>Štěpení: neutron rozbije jádro uranu na lehčí jádra a uvolní další neutrony (řetězová reakce).</figcaption></figure>
 <h3>Virtuální prohlídka</h3>
 <p>Projdeme si s komentářem hlavní části jaderné elektrárny: <strong>chladící věž, kontejnment, reaktor, řídicí sál</strong> a <strong>sklad vyhořelého paliva</strong>.</p>`,
   },

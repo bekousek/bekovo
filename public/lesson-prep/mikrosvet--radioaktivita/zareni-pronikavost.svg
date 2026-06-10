@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 195" role="img" aria-label="Pronikavost záření: alfa zastaví papír, beta plech, gama tlustá vrstva olova">
+  <rect x="16" y="70" width="28" height="60" rx="3" fill="#fca5a5" stroke="#dc2626" stroke-width="2"/>
+  <rect x="126" y="52" width="6" height="96" fill="#fde68a" stroke="#d97706"/>
+  <rect x="214" y="52" width="10" height="96" fill="#cbd5e1" stroke="#94a3b8"/>
+  <rect x="296" y="52" width="18" height="96" fill="#6b7280" stroke="#374151"/>
+  <g stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#dc2626"><line x1="44" y1="80" x2="124" y2="80"/><path d="M117 75 L124 80 L117 85"/></g>
+    <g stroke="#16a34a"><line x1="44" y1="100" x2="212" y2="100"/><path d="M205 95 L212 100 L205 105"/></g>
+    <g stroke="#7c3aed"><line x1="44" y1="120" x2="294" y2="120"/><path d="M287 115 L294 120 L287 125"/></g>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-weight="700">
+    <text x="58" y="74" font-size="14" fill="#dc2626">α</text>
+    <text x="58" y="94" font-size="14" fill="#16a34a">β</text>
+    <text x="58" y="114" font-size="14" fill="#7c3aed">γ</text>
+  </g>
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#374151" text-anchor="middle">
+    <text x="30" y="64" font-size="10" fill="#6b7280">zdroj</text>
+    <text x="129" y="166">papír</text>
+    <text x="219" y="166">plech</text>
+    <text x="305" y="166">olovo</text>
+  </g>
+</svg>
