@@ -60,6 +60,7 @@ export default [
 <li><strong>proudění</strong> (voda v hrnci, míchání husté omáčky),</li>
 <li><strong>záření</strong> (Slunce zahřívá Zemi; bez mraků je v noci větší zima).</li>
 </ul>
+<figure><img src="/lesson-prep/energie--teplo-a-jeho-sireni/sireni-tepla.svg" alt="Tři způsoby šíření tepla: vedení v pevných látkách, proudění v kapalinách a plynech, záření" /><figcaption>Tři způsoby šíření tepla: vedení, proudění a záření.</figcaption></figure>
 <p>Žáci u příkladů určují, o který způsob jde.</p>`,
   },
   {

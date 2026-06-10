@@ -15,6 +15,7 @@ export default [
 <li><strong>expanze</strong> — hořící zplodiny tlačí píst dolů; <strong>jediná doba, kdy motor koná práci</strong>,</li>
 <li><strong>výfuk</strong> — spaliny jsou vytlačeny z válce, výfukový ventil otevřen, píst jde nahoru; oběh se opakuje.</li>
 </ol>
+<figure><img src="/lesson-prep/tepelne-motory--spalovaci-motory/ctyrdoby-motor.svg" alt="Čtyři doby zážehového motoru: sání, komprese (jiskra), expanze, výfuk" /><figcaption>Čtyři doby motoru — práci koná jen expanze; ostatní doby zajišťuje setrvačník.</figcaption></figure>
 <p>Probereme i otáčkoměr (jak rychle se motor otáčí), oktanové číslo a druhy benzínu (co do motoru patří a proč).</p>`,
   },
   {
