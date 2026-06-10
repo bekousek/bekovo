@@ -12,5 +12,23 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "5. hodina – Vlastnosti plynů",
+        "sourceLessonNo": 5,
+        "sourceUrl": "https://drive.google.com/file/d/1SCT0prYKEbWu4yxZttTHmmPgyQgcSfAA/view",
+        "date": "30. 9. 2021",
+        "content": "<p><em>Objevování vlastností plynů s připravenými lahvemi (propan-butan, CO₂, vzduch). Pomůcky: lahve s plyny, hořící špejle, stříkačky.</em></p>\n<h3>Pokusy s plyny</h3>\n<ul>\n<li><strong>Propan-butan (PB):</strong> hořící špejle → vzplanutí; plyn jde „přelévat\" (dobrovolník) i rozdělit.</li>\n<li><strong>Oxid uhličitý (CO₂):</strong> hořící špejli zhasne; jde přelévat.</li>\n<li><strong>Vzduch:</strong> špejle hoří dál.</li>\n<li>Stlačení vody × vzduchu stříkačkou: vzduch jde stlačit, voda ne.</li>\n<li>Plyny se rozpínají a šíří — otevřený ocet i PB je brzy cítit po místnosti.</li>\n</ul>\n<h3>Klíčové rozlišení</h3>\n<div class=\"formula\">kapalina ≠ tekutina</div>\n<p>Tekutiny jsou kapaliny <em>i</em> plyny (obojí teče). Přelévání plynu jde ukázat i pod vodou; lehčí plyn (helium) bychom „přelévali\" dnem vzhůru.</p>\n<h3>Vlastnosti plynů</h3>\n<ul>\n<li>nemají stálý tvar → zaujmou tvar nádoby, rozpínají se</li>\n<li>nemají stálý objem</li>\n<li>nemají volný povrch (hladinu)</li>\n<li>jsou stlačitelné</li>\n<li>tekuté a dělitelné</li>\n</ul>"
+      },
+      {
+        "title": "6. hodina – Shrnutí a Vennův diagram",
+        "sourceLessonNo": 6,
+        "sourceUrl": "https://drive.google.com/file/d/1SJQbFeqhH41fXKYl6qqA60kIdBgbs3-J/view",
+        "date": "30. 9. 2021",
+        "content": "<p><em>Shrnutí vlastností plynů a porovnání všech tří skupenství Vennovým diagramem. Pomůcky: stříkačky, velký papír.</em></p>\n<h3>Dokončení pokusu</h3>\n<p>Stříkačky: s vodou nejdou stlačit, se vzduchem ano. Zápis vlastností plynů do sešitu (viz výše); zdůraznit rozdíl <strong>tekutina × kapalina</strong>.</p>\n<h3>Vennův diagram (skupinová práce)</h3>\n<p>Skupiny dostanou velký papír a nakreslí tři překrývající se kružnice — <strong>pevné / kapalné / plynné</strong>. Do jednotlivých oblastí i průniků zapisují vlastnosti, které dané skupině patří, s příklady (~10 min). Pak společné řešení.</p>\n<h3>Reflexe učení</h3>\n<p>Co všechno nás tato aktivita naučila? (vyhledat fakta, třídit, spolupracovat, obhájit názor, vyslechnout druhého…)</p>"
+      }
+    ]
   }
 }

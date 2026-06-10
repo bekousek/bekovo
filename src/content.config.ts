@@ -30,7 +30,14 @@ const subtopics = defineCollection({
       }).optional(),
     }).optional(),
     lessonPrep: z.object({
-      googleDocUrl: z.string().url(),
+      googleDocUrl: z.string().url().optional(),
+      lessons: z.array(z.object({
+        title: z.string(),
+        sourceLessonNo: z.number().optional(),
+        date: z.string().optional(),
+        sourceUrl: z.string().url().optional(),
+        content: z.string(),
+      })).optional(),
     }).optional(),
     pastTests: z.array(z.object({
       title: z.string(),

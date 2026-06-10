@@ -12,5 +12,30 @@
       "pageCount": 1,
       "aspectRatio": 1.4143
     }
+  },
+  "lessonPrep": {
+    "lessons": [
+      {
+        "title": "41. hodina – Měření času: úvod a kyvadlo",
+        "sourceLessonNo": 41,
+        "sourceUrl": "https://drive.google.com/file/d/1kN6QGqFQ9Dak0QSvnGSGSbTvqnC7WCxC/view",
+        "date": "2. 3. 2022",
+        "content": "<p><em>Jednotky a druhy hodin v historii; objev kyvadla.</em></p>\n<h3>Jednotky a druhy hodin</h3>\n<p>Žáci ve dvojicích sepíší jednotky času (sekunda, minuta, hodina, den, rok, století…) a druhy hodin: <strong>sluneční, přesýpací, vodní, svíčkové, ohňové, kyvadlové, digitální</strong>. Prezentace starých hodin.</p>\n<h3>Kyvadlo (Galileo, 16. století)</h3>\n<p>Galileo objevil: <strong>stejně dlouhé kyvadlo se kýve stále stejně rychle</strong> — perioda nezávisí na hmotnosti ani na výchylce. Na tom stojí <strong>kyvadlové hodiny</strong>.</p>\n<p><em>DÚ: vyrobit hodiny (libovolného typu), které co nejpřesněji naměří 5 minut — příště přehlídka.</em></p>"
+      },
+      {
+        "title": "42. hodina – Perioda kyvadla (měření a graf)",
+        "sourceLessonNo": 42,
+        "sourceUrl": "https://drive.google.com/file/d/1kPRvckDy0ssmjieJwl7AZeBF0H-bcjAh/view",
+        "date": "8. 3. 2022",
+        "content": "<p><em>Experimentální ověření kyvadla a práce s grafem.</em></p>\n<h3>Pokus</h3>\n<p>Ukázat, že perioda kyvadla <strong>nezávisí na hmotnosti ani na výchylce</strong>. Měříme dobu <strong>10 kmitů</strong> a opakujeme <strong>3×</strong> (kvůli přesnosti), pro dvě různé délky kyvadla.</p>\n<h3>Tabulka a graf</h3>\n<p>Naměřené hodnoty zapíšeme do tabulky, vyneseme do grafu a popíšeme jeho náležitosti (osy, jednotky, popisky). Překreslit do sešitu.</p>"
+      },
+      {
+        "title": "43. hodina – Čas: jednotky a převody",
+        "sourceLessonNo": 43,
+        "sourceUrl": "https://drive.google.com/file/d/1kQ1VnsfhFOJkvVWx8wvShw4709aamLBL/view",
+        "date": "9. 3. 2022",
+        "content": "<p><em>Formalizace veličiny čas a převody jednotek.</em></p>\n<h3>Čas (zápis do sešitu)</h3>\n<ul>\n<li>označení: <em>t</em></li>\n<li>základní jednotka: <strong>sekunda (s)</strong></li>\n<li>ostatní: min, h, den…</li>\n</ul>\n<p>Metrové kyvadlo má periodu ~1 s → základ kyvadlových (pendlovek) hodin. Zkusit odhadnout, jak dlouhá je minuta.</p>\n<h3>Převody a slovní úlohy</h3>\n<p>Procvičení převodů jednotek času a slovní úlohy (např. doba jízdy vlaku Praha–Brno, časy v závodech).</p>"
+      }
+    ]
   }
 }
