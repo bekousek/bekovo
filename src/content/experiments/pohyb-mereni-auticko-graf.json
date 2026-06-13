@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-mereni-auticko-graf",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Měření pohybu autíčka – graf dráhy na čase",
+  "type": "measurement",
+  "description": "Žáci pouštějí autíčko na baterie po rovné podlaze a v pravidelných časových intervalech (signál stopkami nebo mobilní aplikací) označují jeho polohu křídou nebo páskou. Naměřené vzdálenosti zanesou do tabulky a pak do grafu závislosti dráhy na čase. Diskutují, zda je pohyb rovnoměrný, a odečtou z grafu rychlost autíčka.",
+  "materials": [
+    "autíčko na baterie nebo jiné vozidlo s přibližně konstantní rychlostí",
+    "stopky nebo mobil s hodinovým signálem",
+    "křídy nebo malé lepicí pásky k označení poloh",
+    "svinovací metr nebo pásmový metr",
+    "čtverečkovaný papír pro sestrojení grafu"
+  ],
+  "source": {
+    "label": "VNUF 2004",
+    "url": "https://vnuf.cz/sbornik/prispevky/09-23-Polak.html"
+  }
+}

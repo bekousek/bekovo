@@ -1,0 +1,11 @@
+{
+  "id": "pohyb-grafy-umime-fakta",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Procvičování grafů pohybu – Umíme fakta (7. třída)",
+  "description": "Žáci si procvičí čtení grafů dráhy a rychlosti na čase pomocí online cvičení na Umíme fakta v sekci fyzika, 7. třída. Každý den je dostupných několik příkladů zdarma bez registrace. Cílem je samostatně odečítat hodnoty z grafu, určovat rychlost z s(t) grafu a dráhu z v(t) grafu.",
+  "source": {
+    "label": "Umíme fakta",
+    "url": "https://www.umimefakta.cz/fyzika/cviceni-grafy-pohybu-7-trida"
+  }
+}
