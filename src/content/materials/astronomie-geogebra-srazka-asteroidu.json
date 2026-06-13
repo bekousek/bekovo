@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-geogebra-srazka-asteroidu",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "GeoGebra: Srážka asteroidů — zachování hybnosti",
+  "type": "applet",
+  "description": "GeoGebra applet simulující srážku dvou asteroidů s nastavitelnou hmotností a počáteční rychlostí. Žák může měnit vektory rychlostí a hmotnosti obou asteroidů a sledovat výsledek srážky v souladu se zákonem zachování hybnosti. Propojuje fyzikální téma hybnosti s astronomickým kontextem asteroidů a srážek těles v pásu asteroidů.",
+  "url": "https://www.geogebra.org/m/NfAEjxvG"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "astronomie-esero-kratery",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "Modelování impaktních kráterů — dopad asteroidu",
+  "type": "measurement",
+  "description": "Žákovský pokus: žáci experimentálně modelují vznik kráterů dopadem těles různé hmotnosti na povrch nádoby s moukou nebo pískem. Měří průměr kráterů v závislosti na hmotnosti a výšce pádu tělesa a sledují, jak asteroidy a meteority vytvářejí krátery na povrchu planet. Rozšíření pro pokročilejší žáky zahrnuje výpočet kinetické energie tělesa při dopadu.",
+  "materials": [
+    "nádoba s moukou nebo pískem (hloubka alespoň 5 cm)",
+    "kuličky různých velikostí a hmotností",
+    "pravítko nebo posuvné měřidlo",
+    "váha"
+  ],
+  "source": {
+    "label": "ESERO ČR",
+    "url": "https://www.eserocz.cz/materialy-pro-vyuku"
+  }
+}

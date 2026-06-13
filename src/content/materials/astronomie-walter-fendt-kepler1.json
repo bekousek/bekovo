@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-walter-fendt-kepler1",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "Walter Fendt: První Keplerův zákon — eliptická dráha a tvar kometárních orbit",
+  "type": "applet",
+  "description": "Česká HTML5 simulace prvního Keplerova zákona: každá oběžná dráha je elipsa, v jejímž ohnisku leží Slunce. Žák může pomocí posuvníků měnit velkou poloosu a excentricitu a vidět, jak vysoká excentricita odpovídá typické silně protáhlé dráze komety oproti téměř kruhové dráze planety. Pomáhá pochopit, proč komety létají tak daleko od Slunce a pak se k němu přiblíží.",
+  "url": "https://www.walter-fendt.de/html5/phcz/keplerlaw1_cz.htm"
+}

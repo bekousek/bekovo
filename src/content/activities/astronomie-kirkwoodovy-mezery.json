@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-kirkwoodovy-mezery",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "Práce s katalogem planetek — Kirkwoodovy mezery v pásu asteroidů",
+  "type": "other",
+  "description": "Žáci pracují s online katalogem astronomických objektů a konstruují histogram rozložení planetek v pásu asteroidů. Ve výsledném grafu jsou patrné Kirkwoodovy mezery — oblasti bez planetek, které vznikly gravitační rezonancí s Jupiterem. Dále lze zobrazit aktuální polohy těles ve sluneční soustavě a interaktivně ověřovat Keplerovy zákony s reálnými daty.",
+  "source": {
+    "label": "VNUF 2012",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-21-Kehar.html"
+  }
+}
