@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-regelace-ledu",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Regelace ledu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: kytarová struna se závažím (6–7 kg) pomalu prochází blokem ledu a za ní se led opět spojuje — regelace. Pokus demonstruje, že tlak snižuje teplotu tání ledu: pod strunou led taje, nad strunou voda znovu zamrzá.",
+  "materials": [
+    "velký blok ledu (zmrzlá PET lahev)",
+    "kytarová struna",
+    "kbelík",
+    "závaží 6–7 kg",
+    "dva stoly"
+  ],
+  "procedure": "Polož blok ledu přes mezeru mezi dvěma stoly, přetáhni přes led kytarovou strunu s kbelíkem závaží a sleduj, jak struna pomalu prochází ledem, který se za ní opět spojuje.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2027/regelace-ledu"
+  }
+}

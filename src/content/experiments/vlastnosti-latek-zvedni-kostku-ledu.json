@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-zvedni-kostku-ledu",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Zvedni kostku ledu nití",
+  "type": "qualitative",
+  "description": "Žákovský pokus: na kostku ledu se položí nit a posype solí; sůl lokálně sníží teplotu tání, led v místě kontaktu s nití zmrzne znovu a nit se přilepí k ledu — kostku lze pak zdvihnout za nit. Pokus demonstruje skupenský přechod tání/tuhnutí a vliv soli na teplotu tání.",
+  "materials": [
+    "kostka ledu",
+    "nit nebo šňůrka",
+    "kuchyňská sůl"
+  ],
+  "procedure": "Polož nit přes střed kostky ledu, posyp nit solí, počkej cca 30 sekund a pak nit zdvihni — kostka ledu se zvedne.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/sul-a-led"
+  }
+}

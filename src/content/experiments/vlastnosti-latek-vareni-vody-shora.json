@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-vareni-vody-shora",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Vaření vody shora",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: varná spirála je umístěna těsně u hladiny vody ve vysoké nádobě z varného skla; voda u hladiny se vaří, zatímco u dna zůstává studená. Pokus demonstruje špatnou tepelnou vodivost vody.",
+  "materials": [
+    "vysoká nádoba z varného skla",
+    "varná spirála nebo kahan",
+    "teploměr"
+  ],
+  "procedure": "Vlož varnou spirálu k hladině vody, zapni ji a měř teplotu u hladiny, uprostřed a u dna nádoby; sleduj var u hladiny a studenou vodu u dna.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2046/vareni-vody-shora"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-kondenzace-vodnich-par",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Kondenzace vodních par",
+  "type": "qualitative",
+  "description": "Demonstrační pokus zaměřený na kondenzaci: hrnek s mírně studenou vodou (~2 °C) je přikryt papírem; pary kondenzují na spodní straně papíru a teploměrem lze detekovat nárůst teploty papíru způsobený uvolněním skupenského tepla kondenzace.",
+  "materials": [
+    "hrnek nebo kelímek",
+    "studená voda (~2 °C)",
+    "list papíru",
+    "teploměr"
+  ],
+  "procedure": "Nalij studenou vodu do hrnku, přikryj papírem a po několika minutách změř teplotu spodní strany papíru.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1624/kondenzace-vodnich-par"
+  }
+}

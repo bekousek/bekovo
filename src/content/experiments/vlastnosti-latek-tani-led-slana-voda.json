@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-tani-led-slana-voda",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Tání ledu v čisté a slané vodě",
+  "type": "qualitative",
+  "description": "Žákovský pokus: kostky ledu jsou vloženy do dvou sklenic — jedna se sladkou a druhá se slanou vodou. Sleduje se rychlost tání v každé sklenici a diskutuje se vliv soli na teplotu tání. Pokus rozvíjí pochopení skupenského přechodu tání.",
+  "materials": [
+    "dvě sklenice",
+    "dva stejně velké kousky ledu",
+    "voda",
+    "kuchyňská sůl"
+  ],
+  "procedure": "Vlož do každé sklenice stejný kus ledu; do jedné přidej sůl. Sleduj rychlost tání a diskutuj rozdíly.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/tani-ledove-kostky"
+  }
+}

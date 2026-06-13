@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-08",
+  "lastPicked": "2026-06-10",
   "history": [
     {
       "date": "2026-05-08",
@@ -98,6 +98,12 @@
       "subtopic": "skupenstvi-latek--skupenske-teplo",
       "result": "pr-pending",
       "items": 28
+    },
+    {
+      "date": "2026-06-10",
+      "subtopic": "vlastnosti-latek--skupenske-prechody",
+      "result": "pr-pending",
+      "items": 29
     }
   ],
   "skipUntil": {}
