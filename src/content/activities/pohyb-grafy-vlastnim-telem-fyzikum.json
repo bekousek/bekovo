@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-grafy-vlastnim-telem-fyzikum",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Grafy pohybu vlastním tělem",
+  "type": "method",
+  "description": "Žáci dostanou vytištěný nebo promítnutý graf pohybu (závislost polohy nebo rychlosti na čase) a musí pohyb fyzicky zahrát – pohybují se po přímce tak, aby jejich pohyb odpovídal grafu. Rozlišují okamžiky klidu, rovnoměrného pohybu, zrychlení a pohybu zpět. Ostatní žáci kontrolují a opravují. Vhodné venku nebo v tělocvičně, cca 20 minut.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/grafy-pohybu-vlastnim-telem/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-phet-chodi-panacek",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Chodící panáček – grafy pohybu (PhET)",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET v češtině. Pohybem animované postavy myší se okamžitě kreslí grafy polohy, rychlosti a zrychlení v závislosti na čase. Žák může pohyb zastavit, vrátit a zkoumat, jak každá změna tempa ovlivní tvar grafu.",
+  "url": "https://phet.colorado.edu/cs/simulations/moving-man"
+}

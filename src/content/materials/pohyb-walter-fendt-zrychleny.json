@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-walter-fendt-zrychleny",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Rovnoměrně zrychlený pohyb – simulace (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině: auto pohybující se s nastavitelným zrychlením. Dynamický graf dráhy a rychlosti v závislosti na čase se kreslí při pohybu v reálném čase. Žák mění počáteční rychlost a zrychlení a sleduje odezvu v grafech.",
+  "url": "https://www.walter-fendt.de/html5/phcz/acceleration_cz.htm"
+}
