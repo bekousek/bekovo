@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-06",
+  "lastPicked": "2026-06-08",
   "history": [
     {
       "date": "2026-05-08",
@@ -92,6 +92,12 @@
       "subtopic": "pohyb--grafy",
       "result": "pr-pending",
       "items": 7
+    },
+    {
+      "date": "2026-06-08",
+      "subtopic": "skupenstvi-latek--skupenske-teplo",
+      "result": "pr-pending",
+      "items": 28
     }
   ],
   "skipUntil": {}

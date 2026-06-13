@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-teplo-varu-kval",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Skupenské teplo varu – teplotní plató",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: učitel zahřívá vodu v nádobě a žáci zaznamenávají teplotu každých 30 s. Teplota roste až do bodu varu, pak zůstává konstantní (plató při 100 °C) navzdory dalšímu přívodu tepla, a znovu stoupá teprve po úplném odpaření vody. Cílem je prokázat existenci skupenského tepla varu — teplo dodávané za varu se spotřebovává na přeměnu kapaliny v páru, nikoliv na zvýšení teploty. Vhodné jako motivační úvod před numerickým výpočtem měrného skupenského tepla.",
+  "materials": [
+    "vařič nebo lihový kahan",
+    "kádinka nebo varná baňka",
+    "teplo měr nebo čidlo teploty",
+    "stojan",
+    "stopky"
+  ],
+  "procedure": "Nalijte vodu do kádinky, umístěte teplo měr a zahřívejte konstantním výkonem. Zapisujte teplotu každých 30 s. Sledujte, kdy teplota přestane stoupat (plató při 100 °C) a jak dlouho trvá, než se voda odpaří.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2190/skupenske-teplo-varu-(kvalitativne)"
+  }
+}

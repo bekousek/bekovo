@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-regelace",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Regelace ledu – tání pod tlakem a opetné zmrznutí",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: tanka draattenka zatizena zarazim pomalu proreezava blokem ledu, pricem led za draattenkou okamzite znovu zamrzava. Pod draattenkou led taje (prjijma skupenske teplo tani z okoli draattenky, ktera se ochlazuje), zatimco voda nad draattenkou — bez tlaku — znovu tuhne. Vysledek: draattenka prochazi ledem bez viditelneho rozdelenm. Pokus demonstruje zavislost teploty tani na tlaku a roli skupenskeho tepla v tomto procesu. Bezpecne a vizualme prekvapive.",
+  "materials": [
+    "kus ledu (vetsi blok)",
+    "tanka draattenka nebo struna (cca 0,3 mm)",
+    "zavazi 200–500 g",
+    "dve sklenice nebo stojany jako podpera ledu"
+  ],
+  "procedure": "Polozze blok ledu na dve sklenice tak, aby draattenka mohla volne viset pod nim. Prehodte draattenku pres led a na oba konce zaveste zavazi. Sledujte, jak draattenka pomalu prochazi skrze led (10–30 min) — nad draattenkou je led celistry.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2027/regelace-ledu"
+  }
+}
