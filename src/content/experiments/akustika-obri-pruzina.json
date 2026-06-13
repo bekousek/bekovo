@@ -1,0 +1,16 @@
+{
+  "id": "akustika-obri-pruzina",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Obří pružina: příčné a podélné vlnění",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus s velkou variantou pružiny Slinky (exponát v Edutoriu Techmania) umožňuje vyzkoušet příčné i podélné mechanické vlnění na jednom objektu. Žáci pozorují rozdíl mezi postupným příčným vlněním (výchylka kolmá na směr šíření) a podélným vlněním (zhuštění a zředění podél osy pružiny). Přímé srovnání obou typů vlnění v jednom experimentu.",
+  "materials": [
+    "exponát Obří pružina v Edutoriu Techmania Science Center"
+  ],
+  "procedure": "Kmitat jedním koncem pružiny kolmo na osu → příčné vlnění. Stlačovat a natahovat podél osy → podélné vlnění. Porovnat oba typy: kde je výchylka ve vztahu ke směru šíření?",
+  "source": {
+    "label": "Eduportál Techmania",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/758/obri-pruzina"
+  }
+}

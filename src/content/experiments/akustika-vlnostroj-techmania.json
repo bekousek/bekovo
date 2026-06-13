@@ -1,0 +1,15 @@
+{
+  "id": "akustika-vlnostroj-techmania",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Vlnostroj: stojaté vlnění na torzní pružině",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus — žáci ovládají více než deset metrů dlouhý torzní vlnostroj (Juliusův vlnostroj) tvořený lanem s příčkami. Pohybem páky vytvářejí mechanické vlny a tlačítky volí, zda je horní konec volný nebo pevný. Pozorují odraz vlny a vznik stojatého vlnění při rezonančních frekvencích. Exponát je k dispozici v Edutoriu Techmania Science Center v Plzni.",
+  "materials": [
+    "exponát Vlnostroj v Edutoriu Techmania Science Center"
+  ],
+  "source": {
+    "label": "Eduportál Techmania",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/425/vlnostroj"
+  }
+}

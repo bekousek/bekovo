@@ -1,0 +1,18 @@
+{
+  "id": "akustika-mereni-parametru-vln",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Měření parametrů příčných a podélných vln",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ (případně žákovský ve dvojicích) pokus zaměřený na měření vlnové délky, frekvence a amplitudy na modelu mechanické vlny pomocí pružiny Slinky nebo švihadla. Žáci sledují, jak se částice pohybuje kolmo na směr šíření (příčná vlna) nebo souběžně s ním (podélná vlna), a odečítají parametry přímo na pomůcce. Slouží k experimentálnímu ověření vztahu v = f·λ.",
+  "materials": [
+    "pružina Slinky nebo švihadlo",
+    "pravítko nebo metr",
+    "stopky nebo mobilní aplikace"
+  ],
+  "procedure": "Natáhnout pružinu na podlaze, jeden žák drží konec pevně. Druhý žák rozkmitá volný konec příčně nebo podélně. Změřit vzdálenost sousedních hřebenů (vlnová délka λ) a počet kmitů za sekundu (frekvence f). Ověřit vztah v = f·λ.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/2063/mereni-parametru-pricnych-a-podelnych-vln"
+  }
+}

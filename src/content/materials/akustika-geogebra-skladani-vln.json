@@ -1,0 +1,9 @@
+{
+  "id": "akustika-geogebra-skladani-vln",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "GeoGebra: Skládání vln",
+  "type": "applet",
+  "description": "Komunitní GeoGebra applet zobrazuje superpozici (skládání) dvou vln. Umožňuje nastavit amplitudu, frekvenci a fázi obou složkových vln a sledovat výslednou vlnu jako jejich součet. Applet funguje jako interaktivní HTML5 v prohlížeči a ilustruje princip superpozice.",
+  "url": "https://www.geogebra.org/m/V2FPxXsj"
+}

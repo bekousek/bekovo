@@ -1,0 +1,17 @@
+{
+  "id": "akustika-faze-vlny",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Fáze vlny",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus ilustrující pojem fáze vlny — jak popisuje okamžitou výchylku kmitající částice v závislosti na čase a poloze. Pokus pracuje s viditelnou vlnou na pružině nebo provazu a ukazuje, kdy jsou dvě místa vlny ve fázi (pohybují se shodně) a kdy jsou v protifázi. Vzdálenost dvou sousedních míst ve fázi odpovídá vlnové délce.",
+  "materials": [
+    "pružina nebo gumové lano",
+    "barevná lepicí páska"
+  ],
+  "procedure": "Označit barvou několik míst podél pružiny. Vybudit sinusovou vlnu. Pozorovat, která označená místa se pohybují souhlasně (stejná fáze) a která opačně (protifáze). Vzdálenost dvou sousedních míst ve fázi rovná se vlnové délce λ.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2065/faze-vlny"
+  }
+}
