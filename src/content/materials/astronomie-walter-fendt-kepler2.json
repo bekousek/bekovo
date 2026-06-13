@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-walter-fendt-kepler2",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "Walter Fendt: Druhý Keplerův zákon — dráhy planet, Pluta a Halleyovy komety",
+  "type": "applet",
+  "description": "Česká HTML5 simulace Keplerova druhého zákona: těleso opisuje ve stejných časových intervalech stejně velké plochy. Jako volitelné objekty jsou k dispozici planety, trpasličí planeta Pluto i Halleyova kometa — žák přímo vidí, jak se mění rychlost komety podél silně eliptické dráhy. Interaktivní ovládání umožňuje animaci zastavit, přetočit a nastavit vlastní parametry dráhy.",
+  "url": "https://www.walter-fendt.de/html5/phcz/keplerlaw2_cz.htm"
+}
