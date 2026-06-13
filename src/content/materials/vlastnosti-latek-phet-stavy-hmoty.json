@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-phet-stavy-hmoty",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Stavy hmoty – fázový diagram (PhET simulace)",
+  "type": "applet",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter",
+  "description": "Pokročilejší PhET simulace zobrazuje různé typy molekul v pevném, kapalném a plynném stavu a umožňuje přidávat nebo odebírat teplo a sledovat skupenské přechody. Obsahuje interaktivní diagram tlak–teplota (fázový diagram) aktualizovaný v reálném čase. Dostupná v češtině."
+}

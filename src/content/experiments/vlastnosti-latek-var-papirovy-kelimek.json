@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-var-papirovy-kelimek",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Var vody v papírovém kelímku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, při němž se vaří voda na přímém ohni v papírovém kelímku — papír neshoří, protože voda odebírá teplo a udržuje teplotu kelímku pod teplotou vzplanutí papíru (~200 °C). Silný motivační efekt: žáci jsou překvapeni, že papírový kelímek nevzplane.",
+  "materials": [
+    "papírový kelímek",
+    "voda",
+    "plynový kahan",
+    "stojánek s držákem na kelímek"
+  ],
+  "procedure": "Naplň kelímek do poloviny vodou, upevni do držáku na stojánku, zapal kahan pod kelímkem a sleduj, co se stane.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2191/var-vody-v-papirovem-kelimku"
+  }
+}

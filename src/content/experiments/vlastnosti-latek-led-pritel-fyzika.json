@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-led-pritel-fyzika",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Led – přítel fyzika",
+  "type": "qualitative",
+  "description": "Série demonstračních pokusů zaměřených na anomální vlastnosti vody při skupenském přechodu tuhnutí/tání: objemová expanze vody při tuhnutí (deformace uzavřené PET lahve v mrazáku) a regelace ledu (srostení dvou kusů ledu stlačených dohromady v horké vodě).",
+  "materials": [
+    "PET lahev s vodou",
+    "mrazák",
+    "dva velké kusy ledu",
+    "horká voda",
+    "20ml stříkačka"
+  ],
+  "procedure": "1) Naplň PET lahev vodou, uzavři a vlož do mrazáku — sleduj deformaci po 24 h. 2) Vlož dva kusy ledu do horké vody a silně je přitiskni k sobě — sleduj, zda srostou.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/10-01-Piskac.html"
+  }
+}

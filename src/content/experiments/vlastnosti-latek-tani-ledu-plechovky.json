@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-tani-ledu-plechovky",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Tání ledu na plechovkách",
+  "type": "qualitative",
+  "description": "Žákovský pokus: na hliníkovou a železnou plechovku jsou současně položeny stejně velké kostky ledu a sleduje se rychlost tání. Hliník odvede více tepla a led taje rychleji. Pokus propojuje skupenský přechod tání s tepelnou vodivostí materiálů.",
+  "materials": [
+    "hliníková plechovka",
+    "železná (ocelová) plechovka",
+    "dvě stejně velké kostky ledu"
+  ],
+  "procedure": "Polož na obě plechovky současně stejně velké kostky ledu a sleduj, na které led taje rychleji.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1626/tani-ledu-na-plechovkach"
+  }
+}

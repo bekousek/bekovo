@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-skupenske-teplo-varu",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Skupenské teplo varu (kvalitativně)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, při němž se sleduje teplotní křivka vody při zahřívání: teplota stoupá až na 100 °C, pak se zastaví v horizontálním úseku, dokud se veškerá voda nevypaří — tím se kvalitativně prokáže existence skupenského tepla varu. Diskutuje se, kam 'mizí' přiváděné teplo.",
+  "materials": [
+    "kahan nebo elektrický vařič",
+    "teploměr",
+    "malé množství vody",
+    "stojánek s držákem"
+  ],
+  "procedure": "Zahřívej malé množství vody v nádobce nad kahanem a zaznamenávej teplotu v čase; sleduj horizontální úsek při 100 °C, který trvá, dokud se voda zcela nevypaří.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2190/skupenske-teplo-varu-(kvalitativne)"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-var-vody-s-ledem",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Var vody s ledem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: voda v zkumavce se zahřívá plamenem v horní části, zatímco dole zůstává led. Pokus ukazuje, že var a tání mohou probíhat ve stejné nádobě současně, a demonstruje špatnou tepelnou vodivost vody.",
+  "materials": [
+    "zkumavka",
+    "voda",
+    "mrazák",
+    "kahan",
+    "držák na zkumavky"
+  ],
+  "procedure": "Zmraz vodu v zkumavce, upevni ji šikmo do držáku a zaměř plamen kahanu na horní část; sleduj var nahoře a přítomnost ledu dole.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2189/var-vody-s-ledem"
+  }
+}

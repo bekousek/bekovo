@@ -1,0 +1,16 @@
+{
+  "id": "vlastnosti-latek-mlha-v-kapse",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Mlha v kapse",
+  "type": "qualitative",
+  "description": "Žákovský pokus: do průhledného sáčku se vydechne teplý vlhký vzduch; při ochlazení sáčku se vytvoří viditelná mlha — kondenzace vodní páry. Pokus demonstruje skupenský přechod kondenzace za podmínek z každodenního života.",
+  "materials": [
+    "průhledný plastový sáček"
+  ],
+  "procedure": "Vydechni do sáčku, zavři jej a sleduj vznik mlhy uvnitř při ochlazení.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/kapesni-mlha"
+  }
+}

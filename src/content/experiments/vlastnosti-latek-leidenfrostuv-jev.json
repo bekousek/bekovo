@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-leidenfrostuv-jev",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Leidenfrostův jev",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: kapka vody kapající na silně rozehřátou pánev (nad 200 °C) se okamžitě nezodpaří, ale klouzá po parním polštáři (Leidenfrostův jev). Vizuálně demonstruje skupenský přechod voda → pára a podmínky jeho vzniku. Pozor: pokus provádí výhradně učitel kvůli vysoké teplotě.",
+  "materials": [
+    "kovová pánev nebo plech",
+    "plynový kahan nebo elektrický vařič",
+    "voda (kapátko nebo pipeta)"
+  ],
+  "procedure": "Zahřej pánev na velmi vysokou teplotu (přibližně 200 °C a více), kápni na ni malé množství vody a sleduj chování kapek.",
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik/prispevky/21-10-Konecny.html"
+  }
+}

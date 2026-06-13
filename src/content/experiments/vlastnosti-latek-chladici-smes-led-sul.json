@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-chladici-smes-led-sul",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Chladicí směs vody, ledu a soli",
+  "type": "measurement",
+  "description": "Žákovský pokus: přidáváním kuchyňské soli do rozmělněného ledu s vodou se sleduje pokles teploty pod 0 °C (ve vzorovém experimentu až −15 °C). Pokus demonstruje, jak sůl snižuje teplotu tání ledu, a propojuje fyziku s praktickým využitím posypové soli v zimě.",
+  "materials": [
+    "rozmělněný led",
+    "kuchyňská sůl",
+    "voda",
+    "teploměr",
+    "nádoba"
+  ],
+  "procedure": "Rozmělni led (zabalením do ručníku a rozbíjením), přidej trochu vody a nech teplotu ustálit na 0 °C; pak za stálého míchání přisypávej sůl a sleduj pokles teploty.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1614/chladici-smes-vody,-ledu-a-soli"
+  }
+}
