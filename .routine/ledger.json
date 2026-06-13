@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-12",
+  "lastPicked": "2026-06-13",
   "history": [
     {
       "date": "2026-05-08",
@@ -116,6 +116,12 @@
       "subtopic": "astronomie--dalsi-vesmirna-telesa",
       "result": "pr-pending",
       "items": 27
+    },
+    {
+      "date": "2026-06-13",
+      "subtopic": "castice-latky--skaly-castic",
+      "result": "pr-pending",
+      "items": 15
     }
   ],
   "skipUntil": {}

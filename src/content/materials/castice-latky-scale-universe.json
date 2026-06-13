@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-scale-universe",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Škály vesmíru – interaktivní vizualizace (Scale of the Universe 2)",
+  "type": "applet",
+  "description": "Interaktivní aplikace, která umožňuje plynule přibližovat a oddalovat škálu vesmíru – od nejmenších subatomárních částic přes atomy, molekuly, buňky, živočichy až po superkupy galaxií. Kliknutím na objekt se zobrazí informační bublina s popisem a číselným rozměrem. Přesně odpovídá tématu škál částic: žák vizuálně uchopí, o kolik řádů je atom menší než vlasové vlákno nebo buňka.",
+  "url": "https://htwins.net/scale2/"
+}

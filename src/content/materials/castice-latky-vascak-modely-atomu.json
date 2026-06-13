@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-vascak-modely-atomu",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Modely atomu – animace (Vaščák, česky)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Fyzika ve škole přehledně představuje historické modely atomu (Thomson, Rutherford, Bohr). Animace je v češtině a přizpůsobena pro použití přímo v hodině fyziky na ZŠ. Umožňuje porovnat různé představy o stavbě atomu a diskutovat, proč se postupně měnily.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=atom_modely&l=cz"
+}

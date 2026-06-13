@@ -1,0 +1,20 @@
+{
+  "id": "castice-latky-brownuv-pohyb-mikroskop",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Brownův pohyb pod mikroskopem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: do přibližně 20 ml vody se přidají 2–3 kapky smetany do kávy, roztok se promíchá a kapka se přenese na podložní sklíčko pod mikroskop (min. 600× zvětšení). Pod mikroskopem jsou vidět tukové kapénky (~1 μm) pohybující se neustálým, chaotickým pohybem způsobeným nárazy neviditelných molekul vody ze všech stran. Přenositelné na projekci přes USB/bezdrátový mikroskop — žáci vidí, že částice existují, i když je pouhým okem nevidíme.",
+  "materials": [
+    "mikroskop (min. 600× zvětšení, ideálně s USB nebo HDMI výstupem na projektor)",
+    "smetana do kávy (tekutá, 10–20 %)",
+    "voda",
+    "podložní a krycí sklíčka",
+    "kapátko"
+  ],
+  "procedure": "Připravit roztok: 2–3 kapky smetany do 20 ml vody, krátce promíchat. Kapátkem nanést jednu kapku na podložní sklíčko a přikrýt krycím sklíčkem. Nastavit zvětšení min. 600×. Sledovat chaotický pohyb tukových kapének — viditelných, přibližně 1 μm velkých — způsobený nárazy neviditelných molekul vody.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1876/brownuv-pohyb"
+  }
+}
