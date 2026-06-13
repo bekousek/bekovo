@@ -1,0 +1,19 @@
+{
+  "id": "plyny-vakuum-vejce-v-lahvi",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Vejce vtažené do láhve podtlakem",
+  "type": "qualitative",
+  "description": "Hořící proužek papíru se vhodí do skleněné láhve s hrdlem o průměru vejce. Na hrdlo se přiloží oloupané uvařené vejce. Po zhasnutí plamene vzduch uvnitř vychladne, objem se sníží a tlak klesne pod atmosférický – vznikne podtlak. Vnější atmosférický tlak pak vejce pomalu vtlačí do láhve. Důležité: vejce netáhne podtlak, ale tlačí vzduch zvenku.",
+  "materials": [
+    "skleněná láhev s hrdlem asi 4–5 cm (např. ketchupová nebo jogurtová, 0,5 l)",
+    "uvařené vejce natvrdo (oloupané)",
+    "proužek papíru (2 × 15 cm)",
+    "zápalky"
+  ],
+  "procedure": "1. Zapálte proužek papíru a vhoďte ho do láhve. 2. Ihned přiložte vejce na hrdlo láhve – nepokládejte ho dovnitř, jen přiložte na hrdlo. 3. Sledujte, jak vejce pomalu klouže do láhve po zhasnutí papíru. 4. Diskutujte: co způsobilo snížení tlaku uvnitř a odkud přišla síla, která vejce vtlačila.",
+  "source": {
+    "label": "ČT edu",
+    "url": "https://edu.ceskatelevize.cz/video/1722-podtlak-a-vejce-v-lahvi"
+  }
+}

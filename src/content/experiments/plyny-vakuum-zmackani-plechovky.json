@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vakuum-zmackani-plechovky",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Zmačkání plechovky podtlakem",
+  "type": "qualitative",
+  "description": "Do prázdné plechovky od nápoje se nalije trochu vody a zahřeje se na vařiči, dokud pára intenzivně nevychází z otvoru. Poté se plechovka rychle převrátí hrdlem dolů do studené vody. Pára uvnitř okamžitě zkondenzuje, tlak prudce klesne hluboko pod atmosférický a vnější vzduch plechovku silou zmačká. Pokus dramaticky ukazuje, jak silný je atmosférický tlak a co se stane, když vznikne podtlak blízký vakuu.",
+  "materials": [
+    "plechovka od nápoje (0,33 l nebo 0,5 l)",
+    "voda (asi 1–2 cm na dně plechovky)",
+    "vařič nebo sporák",
+    "hluboká nádoba se studenou vodou",
+    "chňapka nebo kuchyňská rukavice"
+  ],
+  "procedure": "1. Nalijte do plechovky asi 1–2 cm vody. 2. Zahřívejte plechovku na vařiči, dokud voda intenzivně nevře a z otvoru vychází pára (asi 1–2 minuty). 3. Uchopte plechovku chňapkou, rychle ji otočte hrdlem dolů a ponořte do nádoby se studenou vodou. 4. Plechovka se okamžitě zmačká. Diskutujte: co se stalo s párou uvnitř a proč plechovku zmačkaly okolní tlak vzduchu.",
+  "source": {
+    "label": "Svět energie – Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2527"
+  }
+}
