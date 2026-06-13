@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-phet-molekula",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "PhET: Vytvořte molekulu (česky)",
+  "type": "applet",
+  "description": "HTML5 simulace PhET v češtině, kde žák skládá jednoduché molekuly z atomů (H₂O, CO₂ aj.) a sleduje 3D model výsledné molekuly. Pomáhá pochopit, že molekuly jsou sestaveny z konkrétních atomů a různá spojení tvoří různé látky. Vhodná jako přechod od atomu k makroskopické látce — žák vidí, jak ze stavebních bloků (atomů) vznikají o něco větší celky (molekuly).",
+  "url": "https://phet.colorado.edu/cs/simulations/build-a-molecule"
+}

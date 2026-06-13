@@ -1,0 +1,18 @@
+{
+  "id": "castice-latky-prilnavost",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Přilnavost – síly mezi molekulami",
+  "type": "qualitative",
+  "description": "Demonstrační nebo žákovský pokus o přilnavosti (adhezi) jako důsledku přitažlivých sil mezi molekulami. Na siloměr se zavěsí kruhová destička, která je položena na druhou destičku; destičky jsou smočeny vodou. Žáci měří, jakou silou je třeba destičky od sebe odtrhnout, a diskutují, co je drží pohromadě. Pokus ukazuje reálný projev mezimolekulárních sil na makroskopické úrovni — tyto síly existují, protože molekuly vody se navzájem přitahují.",
+  "materials": [
+    "siloměr",
+    "dvě kruhové destičky (jedna s háčkem)",
+    "voda"
+  ],
+  "procedure": "Destičku s háčkem zavěsit na siloměr. Obě destičky smočit vodou a přiložit k sobě. Odečíst sílu, kterou je nutné vynaložit k jejich odtržení. Diskutovat, co je drží pohromadě — propojit s existencí přitažlivých sil mezi molekulami.",
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/molekulova-fyzika-a-termika/kineticka-teorie-latek/prilnavost-27/"
+  }
+}
