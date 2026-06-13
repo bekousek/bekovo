@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-phet-plyny-uvod",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Plyny úvod – interaktivní simulace (PhET)",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině. Žák přidává nebo odebírá molekuly plynu z nádoby, mění její objem a teplotu a sleduje, jak se mění tlak. Vhodné pro pochopení vztahu mezi počtem molekul a tlakem – základ pro pochopení vakua (nulový tlak = žádné molekuly).",
+  "url": "https://phet.colorado.edu/cs/simulations/gases-intro"
+}

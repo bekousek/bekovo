@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-walter-fendt-molekuly",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Pohyb molekul ideálního plynu – animace (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 animace pohybu molekul plynu v 3D prostoru, česky. Žák mění množství látky, teplotu a tlak a sleduje chování molekul. Pomáhá vizualizovat, co se děje uvnitř nádoby při snižování tlaku směrem k vakuu – méně molekul, méně srážek se stěnami, nižší tlak.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gas3d_cz.htm"
+}
