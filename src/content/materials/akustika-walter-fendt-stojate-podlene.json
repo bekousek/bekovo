@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-stojate-podlene",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Stojaté podélné vlnění",
+  "type": "applet",
+  "description": "HTML5 applet v češtině animuje stojaté podélné vlnění na příkladu přirozených kmitů vzduchového sloupce v trubici. Pohyb molekul vzduchu (modré tečky) názorně ukazuje uzly a kmitny hustoty. Rychlost zvuku je nastavena na 343,5 m/s (20 °C), což odpovídá reálným podmínkám.",
+  "url": "https://www.walter-fendt.de/html5/phcz/standinglongitudinalwaves_cz.htm"
+}

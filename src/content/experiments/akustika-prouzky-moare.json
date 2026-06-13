@@ -1,0 +1,17 @@
+{
+  "id": "akustika-prouzky-moare",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Proužky moaré: model interference kruhových vln",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus, při němž se dva totožné výtisky soustředných kružnic překryjí s mírným posunem středů — vznikající moaré proužky modelují interferenci dvou koherentních bodových zdrojů kruhového vlnění. Učitel ukáže konstruktivní a destruktivní interferenci bez jakéhokoli elektrického vybavení. Vzor k tisku je ke stažení ze stránky KDF MFF UK.",
+  "materials": [
+    "dva výtisky vzoru soustředných kružnic (ke stažení ze stránky KDF MFF UK)",
+    "zpětný projektor nebo okno jako zdroj světla (volitelně)"
+  ],
+  "procedure": "Vytisknout dva totožné listy se soustřednými kružnicemi. Překrýt je tak, aby středy zdrojů byly mírně posunuty. Pozorovat proužky moaré jako model interferenčního obrazce dvou vlnění.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/2064/prouzky-moare:-interference-kruhovych-vln"
+  }
+}

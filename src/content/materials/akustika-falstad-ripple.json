@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-ripple",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Falstad: Ripple Tank — simulace 2D vln",
+  "type": "applet",
+  "description": "JavaScriptová (WebGL) simulace vlnové nádrže demonstruje šíření vln ve 2D, interferenci od jednoho nebo více zdrojů, difrakci jednou a dvěma štěrbinami, lom vlnění a Dopplerův jev. Funguje přímo v prohlížeči bez pluginů. Ovládání je v angličtině, ale vizuálně intuitivní.",
+  "url": "https://www.falstad.com/ripple/"
+}

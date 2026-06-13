@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-zvukove-vlny",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "PhET: Zvukové vlny",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace zobrazuje zvukové vlny jako podélné vlnění v prostředí — hustota zhoustnutí a zřednutí. Žáci mění frekvenci a hlasitost a sledují, jak se mění vlnová délka a amplituda. Propojuje abstraktní pojmy vlnění s vnímatelným zvukem.",
+  "url": "https://phet.colorado.edu/cs/simulations/sound-waves"
+}

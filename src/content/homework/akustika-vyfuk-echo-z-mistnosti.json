@@ -1,0 +1,11 @@
+{
+  "id": "akustika-vyfuk-echo-z-mistnosti",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Výfuk: Écho z místnosti",
+  "description": "Domácí úloha z korespondenčního semináře Výfuk: spočítej, v jakých časových intervalech zaznamená mikrofon odrazy jednoho dupnutí v místnosti 9×9 m, popiš prvních dvacet odrazů a vysvětli, proč pravidelnost intervalů způsobuje echo efekt. Navrhni, v jakých násobcích 10 ms by hudebníci měli dupat, aby výsledný zvuk nezněl jako echo jediného dupnutí. Úloha kombinuje výpočet doby letu zvuku s fyzikálním porozuměním odrazu vln.",
+  "source": {
+    "label": "Výfuk (korespondenční seminář MFF UK pro ZŠ)",
+    "url": "https://vyfuk.org/zadani/10/6"
+  }
+}

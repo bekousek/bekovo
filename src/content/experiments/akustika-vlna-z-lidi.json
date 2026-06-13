@@ -1,0 +1,16 @@
+{
+  "id": "akustika-vlna-z-lidi",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Vlna z lidí: podélné a příčné vlnění",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ (skupinový) pokus, při němž žáci tvoří „živý řetěz\" a vzájemně si přenášejí pohyb rukou, čímž si na vlastním těle zažijí roli částice v postupné vlně. Učitel odstartuje buď pohyb ve směru šíření (podélné vlnění) nebo kolmo na něj (příčné vlnění). Žáci intuitivně pochopí základní rozdíl obou typů mechanického vlnění bez jakéhokoli vybavení.",
+  "materials": [
+    "žáci samotní — žádné pomůcky"
+  ],
+  "procedure": "Žáci stojí v řadě, každý má ruce na ramenou spolužáka před sebou. Učitel lehce zatlačí na ramena prvního žáka — ten pohyb přenese dál (podélné vlnění). Pro příčné vlnění se žáci drží za ruce a pohybují paží kolmo na řadu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2062/vlna-z-lidi:-podelne-a-pricne-vlneni"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-interference-vln",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "PhET: Interference vln",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace zobrazuje interferenci vlnění od dvou zdrojů — kapající voda, reproduktor nebo laser. Žáci přidají druhý zdroj a sledují vznik interferenčního obrazce, konstruktivní i destruktivní interferenci. Přímo navazuje na téma superpozice a skládání vln.",
+  "url": "https://phet.colorado.edu/cs/simulations/wave-interference"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-zazneje",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Zázněje — skládání kmitů blízké frekvence",
+  "type": "applet",
+  "description": "HTML5 applet v češtině demonstruje skládání dvou kmitů blízké frekvence a vznik záznějů — pomalé kolísání amplitudy výsledné vlny. Vizuálně ukazuje modulaci amplitudy při superpozici, což je rozšiřující příklad interference a skládání vln. Vhodné pro ilustraci ladění hudebních nástrojů.",
+  "url": "https://www.walter-fendt.de/html5/phcz/beats_cz.htm"
+}

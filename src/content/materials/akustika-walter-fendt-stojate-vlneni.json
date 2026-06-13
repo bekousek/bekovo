@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-stojate-vlneni",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Stojaté vlnění složením s odraženou vlnou",
+  "type": "applet",
+  "description": "Česky lokalizovaný HTML5 applet zobrazuje, jak se stojaté vlnění tvoří složením postupné vlny (červeně) s odraženou vlnou (modře) — výsledné stojaté vlnění je zobrazeno černě. Žáci mění parametry a sledují vznik uzlů a kmiten. Přímá vizualizace klíčového jevu příčného stojatého vlnění.",
+  "url": "https://www.walter-fendt.de/html5/phcz/standingwavereflection_cz.htm"
+}

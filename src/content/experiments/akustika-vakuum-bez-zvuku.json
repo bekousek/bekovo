@@ -1,0 +1,17 @@
+{
+  "id": "akustika-vakuum-bez-zvuku",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Prázdný prostor nevede zvuk",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus ukazující, že mechanické vlnění (zvuk) se nemůže šířit vakuem — potřebuje hmotné prostředí. Zvuk z reproduktoru nebo zvonku postupně mizí se snižujícím se tlakem vzduchu v uzavřené nádobě při vyčerpání vývěvou. Učitel nebo průvodce ovládá vývěvu, žáci pozorují a porovnávají hlasitost při normálním a sníženém tlaku.",
+  "materials": [
+    "skleněný zvon nebo uzavřená nádoba",
+    "reproduktor nebo elektrický zvonek",
+    "vývěva"
+  ],
+  "source": {
+    "label": "Eduportál Techmania",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/394/prazdny-prostor-nevede-zvuk"
+  }
+}
