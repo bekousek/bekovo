@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-odparovani-termistory",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Odpařování vody a lihu – měření termistory",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus ve skupinách: termistory připevněné k brčkům naplněným vodou resp. lihem zaznamenávají pokles teploty při odpařování přes změnu elektrického odporu. Data se zpracovávají do grafu teploty v čase a skupiny porovnávají rychlost ochlazování obou kapalin. Pokus kvantitativně ilustruje skupenské teplo vypařování a jeho závislost na druhu látky. Zvládnutelné s dostupným dataloggerem nebo multimetrem.",
+  "materials": [
+    "dva termistory (NTC)",
+    "multimetr nebo datalogger",
+    "voda",
+    "líh (ethanol)",
+    "brčka nebo malé nádobky"
+  ],
+  "procedure": "Připevněte termistory k brčkům naplněným vodou resp. lihem. Zaznamenávejte odpor (nebo teplotu) každých 10 s po dobu 3 minut. Vyneste graf teploty v čase a porovnejte sklon křivek pro vodu a líh.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1693/odparovani-vody-a-lihu-(s-termistory)"
+  }
+}

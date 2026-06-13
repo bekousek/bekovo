@@ -1,0 +1,11 @@
+{
+  "id": "skupenstvi-vyfuk-lava",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Vyfuk: Lava - kalorimetricka uloha o skupenskem teple",
+  "description": "Vypocetni uloha z 11. rocniku Vyfuku (serie 6): zaci pocitaji, kolik vody se odpari, pokud do ni nalijeme roztavene zeleezo. Zadani poskytuje hodnoty merneho skupenskeho tepla tani a varu, takze zaci si musi kalorimetricke rovnice sestavit sami a spravne zahrnout vsechny prispevky tepla (ochlazeni tuheho zeleza, tuhnuti, ochlazeni kapalneho, ohrev vody, vyparovani). Narocnejsi vypocetni ukol domu vhodny pro nadanejsi zaky 8.-9. tridy.",
+  "source": {
+    "label": "Vyfuk (korespondencni seminar MFF UK pro ZS)",
+    "url": "https://vyfuk.org/ulohy/r11/s6"
+  }
+}

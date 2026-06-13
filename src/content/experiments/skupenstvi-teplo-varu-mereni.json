@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-teplo-varu-mereni",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Měrné skupenské teplo varu vody – konvice",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: k určení měrného skupenského tepla varu vody se využívá konstantní tepelný výkon rychlovaré konvice. Žáci měří hmotnost vody před a po varu v definovaném čase a z příkonu konvice vypočítají hodnotu měrného skupenského tepla varu — tabulková hodnota je 2 260 kJ/kg. Celý pokus trvá asi 15 minut a výsledek bývá překvapivě přesný. Žáci pracují samostatně nebo ve dvojicích a porovnávají naměřenou hodnotu s tabulkou.",
+  "materials": [
+    "rychlovará konvice (se známým příkonem v W)",
+    "digitální váha",
+    "stopky"
+  ],
+  "procedure": "Přiveďte vodu v konvici k varu. V okamžiku, kdy voda začne vřít, odvahujte konvici s vodou a spusťte stopky. Po přesně 5 minutách varu znovu odvahujte — z úbyku hmotnosti (Δm) a příkonu konvice (P) vypočítejte měrné skupenské teplo varu: l = P·t / Δm.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1620/urceni-merneho-skupenskeho-tepla-varu-vody"
+  }
+}

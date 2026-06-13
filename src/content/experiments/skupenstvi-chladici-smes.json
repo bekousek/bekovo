@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-chladici-smes",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Chladici směs vody, ledu a soli",
+  "type": "qualitative",
+  "description": "Demonstrační nebo žákovský pokus: přidání kuchynžské soli ke směsi rozmelněného ledu a vody sníží teplotu tání, led začne intenzivně tát a odbírá skupenské teplo tání z okolí, čímž teplota směsi klesne výrazně pod 0 °C (až na −15 až −20 °C). Žáci měří teplotu teplo měrem a sledují její pokles; pokus vede k diskusi o skupenském teple tání a o principu zimního solenm silnic a výroby zmrzliny. Pomůcky jsou dostupné v každé domácnosti.",
+  "materials": [
+    "led (rozmelněný)",
+    "kuchynžská sůl",
+    "kádinka nebo plechovka",
+    "teplo měr",
+    "polystyrenová podložka (tepelná izolace)"
+  ],
+  "procedure": "Rozbijte 10–15 ledových kostek na tříšť. Nasypte tříšť do kádinky s malým množstvím vody (postavenou na polystyren). Přidejte 2–3 lžíce soli a ihned měřte teplotu každých 30 s. Sledujte, jak teplota klesá pod 0 °C.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1614/chladici-smes-vody,-ledu-a-soli"
+  }
+}

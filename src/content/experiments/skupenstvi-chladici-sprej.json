@@ -1,0 +1,17 @@
+{
+  "id": "skupenstvi-chladici-sprej",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Chladici ucinky spreju – skupenske teplo vyparovani",
+  "type": "qualitative",
+  "description": "Demonstracni pokus: voda nebo lih se rozprsi sprejovym rozprasovacem a termovizni kamerou (nebo teplomerem na hrbetu ruky) se sleduje pokles teploty vlivem skupenskeho tepla vyparovani. Rospryseni dramaticky zvets povrch kapaliny, urychli odparovani a odebere okoli velke teplo. Zaci porovnavaji ruzne sprejove kapaliny a diskutuji o principu poceni, klimatizace a chladici spreju. Bez termovizni kamery proveditelny subjektivne na hrbetu ruky nebo s termocitlivou folii.",
+  "materials": [
+    "sprejove lahvicky s vodou a lihem",
+    "termovizni kamera nebo termocitliva folie (nebo teploomer)"
+  ],
+  "procedure": "Nastriknete kratce vodu a lih na termocitlivou folii nebo hrbet ruky. Pozorujte barevnou zmenu folie nebo subjektivni pocit chladu. Porovnejte ochlazeni vody a lihu a diskutujte, proc lih chladi vice.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1595/chladici-ucinky-spreju"
+  }
+}

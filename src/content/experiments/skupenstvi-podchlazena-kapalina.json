@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-podchlazena-kapalina",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Podchlazena kapalina – uvolunení skupenského tepla tuhnutí",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: přesycený roztok octan u sodného (nebo komerční hřejívý polštářek) se ochladí pod bod tuhnutí a zůstane v kapalném stavu (podchlazeni). Po mechanickém podnětu — zárodku krystalizace — okamžitě začne tuhnout a teplota látky spontanně vzroste na teplotu tuhnutí (cca 58 °C u octan u sodného). Žáci přímo pozorují uvolunení skupenského tepla tuhnutí a propojují pokus s každodenní praxí: stejný princip využívají jednorazové hřejívé polštářky.",
+  "materials": [
+    "přesycený roztok octan u sodného (nebo komerční hřejívý polštářek z lékárny)",
+    "teplo měr",
+    "skleněná tyčinka nebo semínko jako zárodek krystalizace"
+  ],
+  "procedure": "Ochlate přesycený roztok octan u sodného pod bod tuhnutí nebo použijte komerční hřejívý polštářek. Dotkněte se zárodkem krystalizace a sledujte okamžité tuhnutí doprovázené otelpením. Měřte teplotu před a po spustění krystalizace.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1674/podchlazena-kapalina"
+  }
+}

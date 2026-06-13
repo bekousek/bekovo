@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-odparovani-termovize",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Odpařování vody a lihu – skupenské teplo vypařování (termovize)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: dvě brčka (jedno s vodou, druhé s lihem) se nechají volně odpařovat a termovizní kamera zobrazuje ochlazovani povrchu vlivem skupenského tepla vypařování. Brčko s lihem se ochlazuje výrazněji, protože lih má vyšší rychlost odpařování. Pokus vysvětluje, proč odpařování ochlazuje a proč cítíme chlad po aplikaci dezinfekce na kůži. Bez termovizní kamery lze použít lihový teplo měr nebo subjektivní pocit na hřbetu ruky jako alternativu.",
+  "materials": [
+    "dvě brčka",
+    "voda",
+    "líh (ethanol)",
+    "termovizní kamera (nebo lihový teplo měr jako alternativa)"
+  ],
+  "procedure": "Naplněte jedno brčko vodou a druhé lihem (prstem zakryjte jeden konec). Uvolněte oba prsty ve stejný okamžik a termovizní kamerou sledujte ochlazovani povrchů obou brček. Diskutujte, proč se lih ochlazuje rychleji.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1623/odparovani-vody-a-lihu-(s-termovizni-kamerou)"
+  }
+}

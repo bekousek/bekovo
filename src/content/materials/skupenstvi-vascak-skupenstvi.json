@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-vascak-skupenstvi",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Vascak: Animace skupenstvi latek",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce RNDr. Vladimira Vascaka (Fyzika ve skole) zobrazujici zmeny skupenstvi latek na molekularni urovni. Animace je v cestine, navrzena jako vyukova podpora pro ZS a SS, spustitelna v prohlizeci bez instalace. Vhodna k vizualizaci rozdilu mezi teplem prijatym pri skupenske premene a teplem zvysujicim teplotu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_skupenstvi&l=cz"
+}

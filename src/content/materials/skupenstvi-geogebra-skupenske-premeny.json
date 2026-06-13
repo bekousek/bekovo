@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-geogebra-skupenske-premeny",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "GeoGebra: Vypocet tepla pri skupenskych premenach ledu",
+  "type": "applet",
+  "description": "Interaktivni GeoGebra applet v cestine propojujici teplotni faze ohrevu ledu -> vody -> pary s hodnotami skupenskeho tepla. Pracuje s mernou tepelnou kapacitou ledu (2,1 kJ/kg*K) a vody (4,2 kJ/kg*K) a s mernym skupenskym teplem tani (334 kJ/kg) a varu (2 260 kJ/kg). Zaci interaktivne meni parametry a sledouji, jak se meni celkove teplo potrebne k premene - primo k ucivu 8. tridy.",
+  "url": "https://www.geogebra.org/m/GDWdrGcs"
+}

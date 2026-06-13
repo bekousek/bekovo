@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-phet-stavy-hmoty",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "PhET: Stavy hmoty (s fazovym diagramem)",
+  "type": "applet",
+  "description": "Interaktivni HTML5 simulace PhET lokalizovana do cestiny. Zaci pridavaji nebo odebiraji teplo a sledouji, jak se molekuly meni mezi pevnym, kapalnym a plynnym skupenstvim. Simulace obsahuje zalozku s fazovym diagramem (P-T diagram) a umoznuje menit teplotu i objem nadoby v realnem case - vhodne k pochopeni, proc skupenska premena probiha pri konstantni teplote. Komplexnejsi varianta simulace States of Matter.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter"
+}
