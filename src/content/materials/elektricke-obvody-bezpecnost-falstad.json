@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-bezpecnost-falstad",
+  "subtopicId": "bezpecnost-pri-praci-s-elektrinou",
+  "topicId": "elektricke-obvody",
+  "title": "Falstad – interaktivní simulátor elektrických obvodů",
+  "type": "applet",
+  "description": "Volně přístupný online simulátor elektrických obvodů běžící v prohlížeči bez instalace. Umožňuje sestavovat obvody a sledovat tok proudu pomocí animovaných pohybujících se teček. Vhodný pro demonstraci chování obvodů při zkratu nebo přetížení pod vedením učitele.",
+  "url": "https://www.falstad.com/circuit/"
+}
