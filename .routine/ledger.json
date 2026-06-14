@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-13",
+  "lastPicked": "2026-06-14",
   "history": [
     {
       "date": "2026-05-08",
@@ -122,6 +122,12 @@
       "subtopic": "castice-latky--skaly-castic",
       "result": "pr-pending",
       "items": 15
+    },
+    {
+      "date": "2026-06-14",
+      "subtopic": "elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "result": "pr-pending",
+      "items": 13
     }
   ],
   "skipUntil": {}

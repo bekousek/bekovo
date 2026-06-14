@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-bezpecnost-phet-dc",
+  "subtopicId": "bezpecnost-pri-praci-s-elektrinou",
+  "topicId": "elektricke-obvody",
+  "title": "Stavebnice obvodů: DC (PhET, česky)",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET v češtině umožňuje sestavovat stejnosměrné elektrické obvody z baterií, žárovek, rezistorů, pojistek a přepínačů. Při zkratu simulace zobrazí animaci ohně a názorně ukazuje nebezpečí zkratu i funkci pojistky jako ochrany obvodu. Žáci mohou měřit proud a napětí virtuálním ampérmetrem a voltmetrem a sledovat tok elektronů jako animaci.",
+  "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_cs.html"
+}
