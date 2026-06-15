@@ -1,0 +1,20 @@
+{
+  "id": "eo-multimetr-heureka-voltmetr",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Heuréka: Měření napětí voltmetrem — zákon napětí v sériovém obvodu",
+  "type": "measurement",
+  "description": "Žákovský pokus z metodiky projektu Heuréka (KDF MFF UK) pro 6. ročník ZŠ. Žáci zapojují voltmetr (multimetr v režimu voltmetr) paralelně k baterii a žárovce v jednoduchém obvodu, odečítají naměřená napětí a vlastním pozorováním formulují závěr. Badatelský přístup vede žáky k empirickému objevu, že součet napětí na spotřebičích se rovná napětí zdroje. Jde o žákovský pokus.",
+  "materials": [
+    "plochá baterie 4,5 V",
+    "žárovka s objímkou (6 V)",
+    "digitální multimetr nebo voltmetr",
+    "propojovací vodiče",
+    "spínač"
+  ],
+  "procedure": "1. Sestav základní obvod: baterie–žárovka–spínač. 2. Do schématu zakresli, kam připojíš voltmetr pro měření napětí na baterii. 3. Nastav multimetr na DC napětí (rozsah 20 V) a připoj paralelně k baterii — zapiš U_baterie. 4. Přepoj voltmetr paralelně k žárovce — zapiš U_žárovka. 5. Porovnej hodnoty a formuluj závěr.",
+  "source": {
+    "label": "Heuréka — Elektrické obvody, 2. část (KDF MFF UK)",
+    "url": "https://www.mff.cuni.cz/data/nodes/53171/Elektricke-obvody-2-cast.pdf"
+  }
+}

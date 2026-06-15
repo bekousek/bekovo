@@ -1,0 +1,20 @@
+{
+  "id": "eo-multimetr-realisticky",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Měření napětí a proudu současně — cvičení s multimetrem",
+  "type": "measurement",
+  "description": "Žákovský pokus ze strukturované online učebnice fyziky Realisticky.cz. Žáci zapojují voltmetr paralelně a ampérmetr sériově k žárovce v obvodu a provádějí souběžné měření napětí i proudu. Cvičení vede k pochopení zásadního rozdílu mezi paralelním (voltmetr) a sériovým (ampérmetr) zapojením měřicího přístroje — obě funkce jednoho digitálního multimetru. Jde o žákovský pokus.",
+  "materials": [
+    "zdroj stejnosměrného napětí (plochá baterie 4,5 V)",
+    "digitální multimetr (ideálně 2 ks pro současné měření)",
+    "žárovka s objímkou",
+    "propojovací vodiče",
+    "spínač"
+  ],
+  "procedure": "1. Do obvodu zapoj ampérmetr sériově s žárovkou. 2. Paralelně k žárovce připoj voltmetr. 3. Zapni spínač a odečti hodnoty U a I. 4. Opakuj pro různé spotřebiče nebo rezistory. 5. Nakresli schéma zapojení se schematickými značkami voltmetru (V) a ampérmetru (A).",
+  "source": {
+    "label": "Realisticky.cz — fyzika ZŠ",
+    "url": "http://www.realisticky.cz/ucebnice.php?id=4"
+  }
+}

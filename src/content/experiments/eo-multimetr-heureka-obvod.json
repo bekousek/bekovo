@@ -1,0 +1,18 @@
+{
+  "id": "eo-multimetr-heureka-obvod",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Heuréka: Rozsviť žárovku — badatelský úvod do elektrického obvodu",
+  "type": "qualitative",
+  "description": "Žákovský pokus z metodiky projektu Heuréka (KDF MFF UK) pro 6. ročník ZŠ. Žáci dostávají plochou baterii, žárovku bez objímky a dva vodiče a sami přicházejí na to, jak je zapojit, aby žárovka svítila — bez předchozího výkladu. Pokus rozvíjí badatelské myšlení a pochopení uzavřeného elektrického obvodu jako podmínky průchodu proudu, čímž připravuje půdu pro pozdější práci s multimetrem.",
+  "materials": [
+    "plochá baterie 4,5 V",
+    "žárovka 6V/100mA (bez objímky)",
+    "propojovací vodiče nebo krokodýlkové svorky (2 ks)"
+  ],
+  "procedure": "1. Každé dvojici rozdej baterii, žárovku a dva vodiče. 2. Úkol: rozsviť žárovku — bez dalšího návodu. 3. Žáci zkoušejí různá zapojení a zaznamenávají výsledky. 4. Diskuse: co je podmínkou svícení? (uzavřený obvod, správné póly). 5. Rozšíření: zkus rozsvítit žárovku přes různé předměty — co vede elektřinu?",
+  "source": {
+    "label": "Heuréka — Elektrické obvody, 1. část (KDF MFF UK)",
+    "url": "https://kdf.mff.cuni.cz/vyuka/ElmagKrokZaKrokem/Elektricke-obvody-1-cast.pdf"
+  }
+}
