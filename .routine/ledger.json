@@ -134,6 +134,12 @@
       "subtopic": "elektricke-obvody--multimetr",
       "result": "pr-pending",
       "items": 14
+    },
+    {
+      "date": "2026-06-15",
+      "subtopic": "elektrina--elektricky-odpor",
+      "result": "pr-pending",
+      "items": 24
     }
   ],
   "skipUntil": {}

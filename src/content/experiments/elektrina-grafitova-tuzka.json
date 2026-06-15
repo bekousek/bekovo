@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-grafitova-tuzka",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Grafitová tužka jako rezistor – závislost odporu na délce",
+  "type": "qualitative",
+  "description": "Žákovský pokus: každý žák nakreslí měkkou tužkou (2B nebo 6B) obdélník na čtvercový papír a změří jeho odpor ohmmetrem. Pokus umožňuje zkoumat závislost odporu na délce a šířce nakreslené čáry a ověřit sériové zapojení – žáci nakreslí více obdélníků za sebou a změří celkový odpor. Nulové náklady na pomůcky, každý žák pracuje samostatně s vlastním rezistorem.",
+  "materials": [
+    "měkká grafitová tužka (2B–6B)",
+    "čtvercový papír",
+    "ohmmetr nebo multimetr",
+    "ploché baterie 1,5 V a milliampérmetr (alternativa k ohmmetru)"
+  ],
+  "procedure": "Nakresli tužkou obdélník (1×3 čtverce). Přilož hroty ohmmetru k protilehlým kratším stranám a odečti odpor. Nakresli stejné obdélníky za sebou, změř odpor každého a pak celkový. Porovnej součet jednotlivých odporů s celkovým.",
+  "source": {
+    "label": "Metodický portál RVP — fyzika",
+    "url": "https://clanky.rvp.cz/clanek/r/ZF/153/POKUSY-S.html"
+  }
+}

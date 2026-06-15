@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-dumy-vypocet-odporu",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "DUMy.cz — Výpočet odporu vodiče z materiálových vlastností",
+  "type": "worksheet",
+  "description": "DUM věnovaný výpočtu elektrického odporu na základě geometrických rozměrů vodiče a měrného odporu materiálu (R = ρ·l/S). Rozšiřuje základní Ohmův zákon o materiálové vlastnosti vodičů. Vhodný jako rozšiřující materiál pro nadanější žáky 9. třídy. Licence CC-BY-NC-SA.",
+  "url": "https://www.dumy.cz/material/33741-vypocet-odporu"
+}

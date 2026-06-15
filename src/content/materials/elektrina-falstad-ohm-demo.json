@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-falstad-ohm-demo",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Falstad — Demonstrační obvod k Ohmovu zákonu (CircuitJS)",
+  "type": "applet",
+  "description": "Anglicky psaný interaktivní simulátor zobrazující demonstrační obvod k Ohmovu zákonu – proud je vizualizován pohybujícími se tečkami, napětí barevným gradientem. Žáci mohou upravovat hodnoty součástek a okamžitě vidět změny proudu a napětí. Běží přímo v prohlížeči bez instalace.",
+  "url": "https://www.falstad.com/circuit/e-ohms.html"
+}

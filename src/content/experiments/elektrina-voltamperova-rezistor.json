@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-voltamperova-rezistor",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Voltampérová charakteristika rezistoru",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: žáci zapojí obvod s regulovatelným zdrojem, rezistorem, ampérmetrem (sériově) a voltmetrem (paralelně k rezistoru). Postupně mění napětí v rozsahu 0–6 V a zaznamenávají cca 10 dvojic hodnot U a I. Sestrojený graf prokáže lineární závislost (přímka přes počátek) a ověří Ohmův zákon. Pokus lze zadat jako problémovou úlohu – žáci navrhují hypotézu a pak ji ověřují.",
+  "materials": [
+    "proměnný zdroj do 6 V (nebo zdroj 10 V + reostat ~100 Ω)",
+    "rezistor 50–500 Ω",
+    "ampérmetr nebo multimetr",
+    "voltmetr",
+    "vodiče s krokosvorkami"
+  ],
+  "procedure": "Sestav obvod: zdroj – reostat – rezistor – ampérmetr (série); voltmetr paralelně k rezistoru. Nastav minimální napětí, zaznamenej U a I. Postupně zvyšuj napětí, proveď ~10 měření. Vynos body do grafu I(U), ověř linearitu a urči R = U/I.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2085/voltamperova-charakteristika-rezistoru"
+  }
+}

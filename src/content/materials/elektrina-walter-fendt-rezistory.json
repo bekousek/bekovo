@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-walter-fendt-rezistory",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Walter Fendt — Zapojování rezistorů (HTML5, česky)",
+  "type": "applet",
+  "description": "Český HTML5 applet umožňující sestavovat obvody z rezistorů v sériovém a paralelním zapojení a nastavovat napětí baterie i hodnoty odporů. Žáci porovnávají výsledné celkové odpory různých zapojení a sledují výsledný proud. Navazuje na výuku Ohmova zákona a rozšiřuje ji o kombinovaná zapojení.",
+  "url": "https://www.walter-fendt.de/html5/phcz/combinationresistors_cz.htm"
+}

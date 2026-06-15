@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-dc-virtual-lab",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "PhET — Stavebnice obvodů: DC — virtuální laboratoř",
+  "type": "applet",
+  "description": "Česky lokalizovaná virtuální laboratoř PhET pro experimentování s reálnými obvody – žáci zapojují rezistory, baterie, žárovky a měří napětí i proud voltmetrem a ampérmetrem. Optimalizovaná pro přímé inline měření a systematické zkoumání závislostí U, I, R. Vhodná pro laboratorní úlohy k Ohmovu zákonu.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc-virtual-lab"
+}

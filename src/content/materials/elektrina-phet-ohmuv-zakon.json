@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-ohmuv-zakon",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "PhET — Ohmův zákon (simulace)",
+  "type": "applet",
+  "description": "Česky lokalizovaná interaktivní simulace Univerzity Colorado. Žáci pomocí posuvníků nastavují napětí a odpor a sledují, jak se mění elektrický proud – vše zobrazeno v rovnici i grafu. Přímo demonstruje vztah U = R · I a umožňuje experimentovat bez fyzické laboratoře.",
+  "url": "https://phet.colorado.edu/cs/simulations/ohms-law"
+}

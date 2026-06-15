@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-odpor-dratu",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Závislost odporu drátu na délce, průřezu a materiálu",
+  "type": "measurement",
+  "description": "Žákovský nebo demonstrační měřicí pokus: žáci měří elektrický odpor drátů různých délek, průřezů a materiálů (konstantan, nikelin). Pomocí ohmmetru nebo voltmetru a ampérmetru určí odpor pro různé kombinace parametrů a ověří vzorec R = ρ·l/S. Výsledky umožňují graficky znázornit přímou úměrnost R ~ l a nepřímou úměrnost R ~ 1/S a propojit Ohmův zákon s materiálovými vlastnostmi vodičů.",
+  "materials": [
+    "odporové dráty různých délek a průřezů (konstantan, nikelin)",
+    "ohmmetr nebo multimetr",
+    "zdroj napětí do 6 V s voltmetrem a ampérmetrem (alternativa k ohmmetru)",
+    "svěrky nebo krokosvorky",
+    "pravítko"
+  ],
+  "procedure": "Změř odpor drátu určité délky ohmmetrem. Opakuj pro dvojnásobnou délku, pak pro drát s dvojnásobným průřezem. Zaznamenej do tabulky, porovnej s předpovědí R = ρ·l/S.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/965/zavislost-odporu-dratu-na-jeho-parametrech"
+  }
+}

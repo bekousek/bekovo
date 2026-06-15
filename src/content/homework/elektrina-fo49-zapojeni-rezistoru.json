@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-fo49-zapojeni-rezistoru",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "FO 49. ročník — Všechna zapojení tří rezistorů (kategorie EF)",
+  "description": "Domácí úloha z Fyzikální olympiády (kategorie EF, 49. ročník, 1. kolo): žák dostane tři rezistory (20 Ω, 50 Ω, 50 Ω) a zdroj 4,5 V a má (a) nakreslit všechna možná zapojení těchto tří rezistorů a (b) pro každé zapojení vypočítat napětí na jednotlivých rezistorech, procházející proudy a příkon obvodu. Úkol vyžaduje systematické použití Ohmova zákona a pravidel pro sériové i paralelní zapojení, trvá typicky 60–90 minut.",
+  "source": {
+    "label": "Fyzikální olympiáda",
+    "url": "http://fyzikalniolympiada.cz/archiv/49/fo49ef1_z.pdf"
+  }
+}

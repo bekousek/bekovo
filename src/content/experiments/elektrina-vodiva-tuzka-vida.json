@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-vodiva-tuzka-vida",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Vodivá tužka – nakreslený obvod s LED diodou (VIDA!)",
+  "type": "qualitative",
+  "description": "Žákovský domácí pokus: na papír se nakreslí propojený obvod grafitovou tužkou, na jeden konec se připojí 9V baterie a na jiné místo LED dioda. Dioda se rozsvítí, protože grafitová čára vede proud. Při umístění diody dál od baterie klesá jas – delší čára má vyšší odpor. Pokus názorně demonstruje, že odpor závisí na délce vodiče, a je přístupný jako domácí aktivita.",
+  "materials": [
+    "papír",
+    "měkká grafitová tužka (2B a měkčí)",
+    "9V baterie",
+    "LED dioda"
+  ],
+  "procedure": "Nakresli tužkou uzavřenou cestu na papír. Přilož póly 9V baterie k jednomu místu obvodu a LED diodu na jiné místo (pozor na polaritu LED). Ověř, zda LED svítí. Přesouvej LED dál od baterie a sleduj změnu jasu.",
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/vodiva-tuzka"
+  }
+}
