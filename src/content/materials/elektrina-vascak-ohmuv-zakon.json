@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-vascak-ohmuv-zakon",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Vaščák — Ohmův zákon (HTML5 animace)",
+  "type": "applet",
+  "description": "HTML5 animace z populární české sbírky RNDr. Vladimíra Vaščáka, zaměřená přímo na Ohmův zákon. Zobrazuje závislost proudu na napětí a odporu v interaktivní formě přizpůsobené školní výuce na ZŠ a SŠ. Součást rozsáhlé sbírky seřazené dle školních témat.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?f=ele_ohm&l=cz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-walter-fendt-ohm",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Walter Fendt — Ohmův zákon (HTML5, česky)",
+  "type": "applet",
+  "description": "Klasický HTML5 applet v česky přeložené verzi demonstrující přímou úměrnost mezi napětím a proudem při konstantním odporu. Žáci nastavují hodnoty a sledují výsledky v přehledném zobrazení. Odlehčený, rychle se načítá, nevyžaduje instalaci.",
+  "url": "https://www.walter-fendt.de/html5/phcz/ohmslaw_cz.htm"
+}

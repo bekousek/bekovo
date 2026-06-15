@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-fo51-kombinovany-obvod",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "FO 51. ročník — Kombinovaný obvod čtyř rezistorů (kategorie EF)",
+  "description": "Domácí úloha z Fyzikální olympiády (kategorie EF, 51. ročník, 2. kolo): žák řeší obvod s čtyřmi rezistory (tři o odporu 20 Ω a jeden 10 Ω) zapojenými kombinovaně s napájecím zdrojem 12 V. Úkol zahrnuje výpočet celkového odporu, proudů a napětí na jednotlivých součástkách. Práce na úloze trvá přibližně 45–90 minut.",
+  "source": {
+    "label": "Fyzikální olympiáda",
+    "url": "http://fyzikalniolympiada.cz/archiv/51/fo51ef2_z.pdf"
+  }
+}

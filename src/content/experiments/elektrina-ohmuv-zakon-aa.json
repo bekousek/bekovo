@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-ohmuv-zakon-aa",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Ohmův zákon – měření s monočlánky AA",
+  "type": "measurement",
+  "description": "Žákovský pokus: žáci sestaví obvod s rezistorem a ampérmetrem, jako zdroj napětí slouží 1–4 monočlánky AA (1,5 V každý). Postupným přidáváním článků zvyšují napětí a zaznamenávají odpovídající proud, čímž ověřují přímou úměrnost I ~ U (Ohmův zákon). Výsledky zapíší do tabulky a sestrojí graf závislosti I na U – přímka přes počátek potvrdí platnost zákona.",
+  "materials": [
+    "4 monočlánky AA nebo AAA",
+    "izolepa nebo bateriový držák",
+    "rezistor (50–500 Ω)",
+    "ampérmetr nebo multimetr",
+    "vodiče s krokosvorkami"
+  ],
+  "procedure": "Zkontroluj napětí článků (~1,5 V každý). Zapoj do série: 1 článek – rezistor – ampérmetr. Změř proud. Postupně přidávej články (2, 3, 4) a pokaždé zaznamenej napětí a proud. Vynos body do grafu I(U) a ověř linearitu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2205/ohmuv-zakon---mereni-s-clanky-aa-aaa"
+  }
+}

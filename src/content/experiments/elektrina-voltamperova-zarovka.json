@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-voltamperova-zarovka",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Voltampérová charakteristika žárovky – nelineární odpor",
+  "type": "qualitative",
+  "description": "Žákovský nebo demonstrační pokus: žáci měří voltampérovou charakteristiku malé žárovky stejným postupem jako u rezistoru, ale získají nelineární křivku. Diskutují s učitelem, proč graf není přímkou – odpor wolframového vlákna roste s teplotou. V rozšíření lze žárovku ochladit vodou a měření opakovat – tehdy charakteristika lineární je. Pokus rozvíjí kritické myšlení a hlubší pochopení pojmu odpor.",
+  "materials": [
+    "proměnný zdroj do 6 V",
+    "žárovka (malá, 3–6 V)",
+    "ampérmetr",
+    "voltmetr",
+    "nádobka s vodou (pro rozšíření)"
+  ],
+  "procedure": "Zapoj žárovku místo rezistoru. Změř ~8 dvojic U, I v rozsahu 0–6 V. Vynos do grafu – sleduj nelinearitu. Diskutuj příčinu (ohřev vlákna). Volitelně: ponořit žárovku do vody a měření zopakovat.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/894/voltamperova-charakteristika-zarovky"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-simulace-obvodov-heureky",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Simulace elektrických obvodů – propojení reálu a PhET (Dílny Heuréky)",
+  "type": "method",
+  "description": "Aktivita z projektu Heuréka (KDF MFF UK): žáci nejprve fyzicky sestavují elektrické obvody, poté přecházejí k simulačnímu nástroji PhET. Metodika klade důraz na propojení reálného pokusu a simulace – v PhET žáci ověřují Ohmův zákon (I~U) a sledují vliv změny odporu na proud. Navržena pro skupinovou práci a badatelský přístup k výuce elektřiny.",
+  "source": {
+    "label": "Heuréka — projekt KDF MFF UK",
+    "url": "https://kdf.mff.cuni.cz/lide/dvorak/clanky/DilnyHeureky/DilnyHeureky_2022_LD_SimulujemeElObvody.pdf"
+  }
+}
