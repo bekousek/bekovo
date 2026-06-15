@@ -1,0 +1,9 @@
+{
+  "id": "eo-multimetr-phet-dc",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Stavebnice obvodů — DC virtuální laboratoř",
+  "type": "applet",
+  "description": "Interaktivní simulace Univerzity Colorado lokalizovaná do češtiny. Žáci staví obvody z baterií, rezistorů a žárovek a měří napětí a proud pomocí virtuálního voltmetru a ampérmetru. Simulace běží jako HTML5 přímo v prohlížeči bez Javy ani Flashe, s animovaným pohybem proudu a realistickým zobrazením měřicích přístrojů.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc-virtual-lab"
+}

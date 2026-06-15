@@ -1,0 +1,21 @@
+{
+  "id": "eo-multimetr-fyzikalni-suplik",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Fyzikální šuplík: Žákovské elektrické obvody — série pokusů s multimetrem",
+  "type": "measurement",
+  "description": "Žákovský pokus z příručky Fyzikálního šuplíku (Václav Piskač). Žáci pracují se sadou žákovských elektrických obvodů a postupují od sestavení jednoduchého obvodu až po měření proudu a napětí digitálním multimetrem. Příručka obsahuje desítky úloh s postupy, kontrolními otázkami a upozorněním na bezpečné zapojení: obvod vždy sestavit s odpojeným jedním pólem zdroje a zapojení nechat zkontrolovat učitelem. Jde o žákovský pokus.",
+  "materials": [
+    "sada žákovských elektrických obvodů (desky s objímkami)",
+    "ploché baterie 4,5 V",
+    "žárovky 6V/100mA",
+    "digitální multimetr",
+    "propojovací vodiče s krokodýlkami",
+    "spínač"
+  ],
+  "procedure": "1. Sestav obvod s odpojeným jedním pólem zdroje. 2. Učitel zkontroluje zapojení. 3. Připoj zdroj a zapni spínač. 4. Zapoj multimetr jako ampérmetr sériově (rozsah DC 200 mA) — odečti proud. 5. Přepni multimetr do režimu voltmetr a připoj paralelně k žárovce — odečti napětí. 6. Zapiš naměřené hodnoty do tabulky.",
+  "source": {
+    "label": "Fyzikální šuplík — Žákovské elektrické obvody: příručka",
+    "url": "https://fyzikalnisuplik.websnadno.cz/aaa_pomucky/zakovske_elektricke_obvody_-_prirucka.pdf"
+  }
+}

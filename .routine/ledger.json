@@ -128,6 +128,12 @@
       "subtopic": "elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
       "result": "pr-pending",
       "items": 13
+    },
+    {
+      "date": "2026-06-14",
+      "subtopic": "elektricke-obvody--multimetr",
+      "result": "pr-pending",
+      "items": 14
     }
   ],
   "skipUntil": {}

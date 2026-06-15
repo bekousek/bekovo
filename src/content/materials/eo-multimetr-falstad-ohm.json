@@ -1,0 +1,9 @@
+{
+  "id": "eo-multimetr-falstad-ohm",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Falstad: Simulátor elektrického obvodu — Ohmův zákon",
+  "type": "applet",
+  "description": "Bezplatný JavaScript simulátor elektrických obvodů přímo v prohlížeči bez instalace. Hotový příklad Ohmova zákona zobrazuje tok proudu animovanými žlutými tečkami a barevné zobrazení napětí v obvodu. Umožňuje měřit napětí a proud v libovolném místě obvodu. Rozhraní je anglické, ale vizuálně okamžitě srozumitelné — vhodné jako demonstrace pro celou třídu pod vedením učitele.",
+  "url": "https://www.falstad.com/circuit/e-ohms.html"
+}

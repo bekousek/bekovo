@@ -1,0 +1,9 @@
+{
+  "id": "eo-multimetr-walter-fendt-ohm",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Walter Fendt: Ohmův zákon — obvod s voltmetrem a ampérmetrem (česky)",
+  "type": "applet",
+  "description": "Česká HTML5 interaktivní simulace jednoduchého obvodu s rezistorem. Zobrazuje voltmetr zapojený paralelně a ampérmetr zapojený sériově — přesně tak, jak se měří multimetrem v praxi. Žáci mění napětí a odpor a sledují, jak se mění naměřené hodnoty. Stránka je v češtině a funguje bez pluginů v moderním prohlížeči.",
+  "url": "https://www.walter-fendt.de/html5/phcz/ohmslaw_cz.htm"
+}
