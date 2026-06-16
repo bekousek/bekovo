@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-naboje-a-pole",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: Náboje a pole",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace v češtině umožňuje žákům rozmísťovat kladné a záporné elektrické náboje v prostoru a sledovat výsledné elektrické pole a ekvipotenciální linie. Žák přetahuje náboje myší, měří intenzitu pole v různých místech a pozoruje, jak se pole mění v závislosti na poloze a velikosti nábojů. Vhodné jako navazující aktivita po úvodu do pojmu elektrický náboj.",
+  "url": "https://phet.colorado.edu/cs/simulations/charges-and-fields"
+}

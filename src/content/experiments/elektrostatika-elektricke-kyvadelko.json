@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-elektricke-kyvadelko",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrické kyvadélko",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Lehká vodivá kulička zavěšená na niti mezi dvěma vodivými deskami začne kývat poté, co se jedna deska přiloží k zelektrované tyči. Kulička přenáší náboj mezi deskami a ukazuje, že elektrické pole koná práci a že nabité těleso jak přitahuje, tak odpuzuje jiná tělesa. Vhodný jako motivační pokus na úvod výuky elektrostatiky.",
+  "materials": [
+    "dva kusy kovového plechu",
+    "lehká vodivá kulička (obalená pozlátkem z čokolády)",
+    "nit",
+    "polystyren nebo stojan",
+    "zelektrovaná tyč"
+  ],
+  "procedure": "Dvě vodivé desky zasuňte vedle sebe do polystyrenu nebo upevněte na stojan, mezi ně zavěste kuličku na niti. Přiložte zelektrovanou tyč k jedné desce — kulička se začne kývat tam a zpět mezi deskami a přenáší náboj.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/754/elektricke-kyvadelko"
+  }
+}

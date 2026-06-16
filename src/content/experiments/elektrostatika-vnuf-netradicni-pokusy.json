@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-vnuf-netradicni-pokusy",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Netradiční pokusy z elektrostatiky (sada)",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus: Příspěvek z konference VNUF popisuje sadu jednoduchých netradičních pokusů z elektrostatiky — nabíjení různých materiálů třením, přitahování a odpuzování nabitých těles, jednoduché detektory náboje z běžných materiálů (střívko od párku jako indikátor). Pokusy jsou navrženy formou otázek pro žáky, což podporuje badatelský přístup a aktivní myšlení.",
+  "materials": [
+    "plastová tyč nebo hřeben",
+    "papírky",
+    "hliníkové proužky nebo střívko od párku",
+    "vlněná látka"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik/prispevky/04-16-Patc.html"
+  }
+}
