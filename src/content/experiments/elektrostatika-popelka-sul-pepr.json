@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-popelka-sul-pepr",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Popelka — oddělení soli a pepře statickou elektřinou",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci smíchají sůl a pepř na talíři a přiblíží nabitý balónek (nabitý třením o vlasy nebo vlnu). Pepř vyskočí a přilepí se na balónek, zatímco sůl zůstane na talíři — protože pepř je lehčí a lépe polarizovatelný. Pokus ilustruje, jak elektrický náboj přitahuje i nenabitá tělesa (elektrostatická polarizace izolantu) a proč je přitahování vždy přítomné.",
+  "materials": [
+    "nafukovací balónek",
+    "talíř",
+    "sůl",
+    "mletý pepř",
+    "vlněná látka nebo vlastní vlasy"
+  ],
+  "procedure": "Na talíř nasypeme směs soli a pepře. Balónek nafoukneme a třeme o vlněnou látku nebo vlasy. Nabitý balónek přiblížíme k talíři — pepř vyskočí na balónek, sůl zůstane.",
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/popelka"
+  }
+}

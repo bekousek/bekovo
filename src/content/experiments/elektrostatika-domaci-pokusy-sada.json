@@ -1,0 +1,19 @@
+{
+  "id": "elektrostatika-domaci-pokusy-sada",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Domácí pokusy se statickou elektřinou (sada)",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Sada tří jednoduchých domácích pokusů se statickou elektřinou. Nafuklý balónek třený o tričko se přilepí ke zdi nebo přitáhne vlasy; zelektrovaný hřeben přitáhne drobné papírky; dva balónky třené o vlněnou látku se navzájem přitahují nebo odpuzují podle způsobu nabití. Pokusy ukazují kladný a záporný náboj a přitažlivou i odpudivou elektrostatickou sílu.",
+  "materials": [
+    "nafukovací balónek (2 ks)",
+    "hřeben nebo plastové pravítko",
+    "drobné kousky papíru",
+    "vlněná látka nebo vlastní vlasy"
+  ],
+  "procedure": "1) Balónek třeme o tričko a přitiskneme ke zdi — drží. 2) Hřeben třeme o vlasy a přiblížíme k papírkům — přitahuje je. 3) Dva balónky třeme o vlněnou látku a přiblížíme k sobě — pozorujeme přitahování nebo odpuzování.",
+  "source": {
+    "label": "ZŠ Letohrad",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus6.htm"
+  }
+}

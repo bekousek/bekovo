@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-14",
+  "lastPicked": "2026-06-16",
   "history": [
     {
       "date": "2026-05-08",
@@ -140,6 +140,12 @@
       "subtopic": "elektrina--elektricky-odpor",
       "result": "pr-pending",
       "items": 24
+    },
+    {
+      "date": "2026-06-16",
+      "subtopic": "elektrostatika--elektricky-naboj",
+      "result": "pr-pending",
+      "items": 20
     }
   ],
   "skipUntil": {}

@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-kutaleni-plechovky",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Kutálení plechovky",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci třením nabijí plastové brčko nebo tyč a přiblíží ji k plechovce ležící na boku. Plechovka se začne kutálet směrem k tyči. Pokus demonstruje elektrostatickou indukci — záporně nabitá tyč odpudí elektrony v plechovce na odvrácený konec, přičemž přilehlá strana se nabije kladně a je přitahována. Žáci snadno ovládají pohyb plechovky bez dotyku.",
+  "materials": [
+    "plechovka od nápoje",
+    "plastové brčko nebo plastová tyč",
+    "papírový kapesník nebo flanel ke tření"
+  ],
+  "procedure": "Tyč nebo brčko třeme o papírový kapesník nebo flanel, dokud se nenabije. Zelektrovanou tyč pomalu přiblížíme k plechovce položené na bok na hladkém povrchu. Plechovka se vydá za tyčí. Experimentujeme s různou vzdáleností a různými materiály tyče.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1711/kutaleni-plechovky"
+  }
+}
