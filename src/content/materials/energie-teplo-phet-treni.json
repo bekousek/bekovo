@@ -1,0 +1,9 @@
+{
+  "id": "energie-teplo-phet-treni",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "PhET: Tření -- vznik tepla třením",
+  "type": "applet",
+  "description": "Interaktivní simulace ukazující, jak tření mezi povrchy způsobuje zahřívání -- vizuální propojení mechanické energie s teplem. Student třením povrchů pozoruje rostoucí teplotu a vibrace molekul, čímž si buduje intuici pro vnitřní energii tělesa. Simulace je v češtině, HTML5, bez instalace.",
+  "url": "https://phet.colorado.edu/cs/simulation/friction"
+}

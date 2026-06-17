@@ -1,0 +1,17 @@
+{
+  "id": "energie-teplo-proudeni-plyn",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Proudění teplého vzduchu -- konvekce v plynech",
+  "type": "qualitative",
+  "description": "Žákovský pokus: demonstrace proudění (konvekce) teplého vzduchu -- zahřátý vzduch stoupá nahoru, studený klesá. Viditelné papírovou spirálou nad svíčkou nebo kouřem z doutníku. Základ pro pochopení větrání místností, fungování komínů a atmosférických jevů.",
+  "materials": [
+    "svíčka nebo jiný zdroj tepla",
+    "papírová spirála (vystřihnout) nebo zdroj kouře",
+    "laboratorní stojan (volitelně)"
+  ],
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/"
+  }
+}

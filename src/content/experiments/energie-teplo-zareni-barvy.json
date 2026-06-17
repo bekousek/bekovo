@@ -1,0 +1,18 @@
+{
+  "id": "energie-teplo-zareni-barvy",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Zahřívání povrchů různých barev tepelným zářením",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: barevné papírové proužky jsou vystaveny záření žárovky a jejich povrchová teplota je měřena termovizní kamerou. Tmavé povrchy se zahřívají rychleji, světlé méně. Pokus odhaluje miskoncepci vedení vs. záření -- zastínění proužků ukáže, že jde o přenos zářením, nikoli vedením.",
+  "materials": [
+    "žárovka nebo IR zdroj",
+    "barevné papírové proužky (různé barvy)",
+    "termovizní kamera nebo IR teploměr"
+  ],
+  "procedure": "Umístit barevné proužky stejně daleko od žárovky. Sledovat povrchovou teplotu. Zastínit polovinu proužků -- zahřívání v zastíněné části ustane.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/1653/zahrivani-povrchu-ruznych-barev-zarenim"
+  }
+}

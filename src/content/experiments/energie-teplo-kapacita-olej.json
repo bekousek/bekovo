@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-kapacita-olej",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Porovnání měrné tepelné kapacity oleje a vody",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: stejné hmotnosti vody a slunečnicového oleje se zahřívají za identických podmínek a dvěma teplotními čidly se sleduje nárůst teploty. Olej se zahřívá rychleji (nižší měrná tepelná kapacita c přibližně 2 250 J/kg/K) než voda (c přibližně 4 200 J/kg/K). Přímé ověření pojmu měrné tepelné kapacity z učebnice.",
+  "materials": [
+    "dvě identické nádobky",
+    "voda",
+    "slunečnicový olej",
+    "laboratorní váhy",
+    "vařič nebo vodolázeň",
+    "dvě teplotní čidla nebo teploměry"
+  ],
+  "procedure": "Odvážit stejné hmotnosti vody a oleje. Zahřívat ze stejného zdroje tepla. Zaznamenávat teplotu každou minutu. Porovnat grafy ohřevu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/1675/porovnani-merne-tepelne-kapacity-oleje-a-vody"
+  }
+}

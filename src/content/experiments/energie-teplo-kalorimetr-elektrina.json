@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-kalorimetr-elektrina",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Experimentální určení měrné tepelné kapacity vody (elektrický kalorimetr)",
+  "type": "measurement",
+  "description": "Žákovský laboratorní pokus: v kalorimetru s elektrickou topnou spirálou se ohřívá voda, přičemž se měří elektrická práce (příkon krát čas) a přírůstek teploty. Žáci vypočítají měrnou tepelnou kapacitu vody pomocí Q = m*c*delta_t a porovnají s tabulkovou hodnotou 4 200 J/kg/K. Průměrná naměřená hodnota bývá přibližně 4 400 J/kg/K (odchylka ~5 %).",
+  "materials": [
+    "kalorimetr",
+    "elektrická topná spirála",
+    "voltmetr a ampérmetr (nebo wattmetr)",
+    "stopky",
+    "teploměr nebo teplotní čidlo",
+    "laboratorní váhy"
+  ],
+  "procedure": "Odvážit vodu, vložit spirálu. Zapnout ohřev, zaznamenávat čas, napětí a proud. Po ukončení promíchat a odečíst teplotu. Vypočítat c = Q / (m * delta_t).",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/1619/experimentalni-urceni-merne-tepelne-kapacity-vody"
+  }
+}

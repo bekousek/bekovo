@@ -1,0 +1,9 @@
+{
+  "id": "energie-teplo-vascak-brun",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Vaščák: Brownův pohyb -- tepelný pohyb molekul",
+  "type": "applet",
+  "description": "HTML5 animace zobrazuje chaotický pohyb viditelné částice srážené neviditelnými molekulami vody. Demonstruje, že molekuly jsou v neustálém pohybu -- základ pro vysvětlení vnitřní energie a přenosu tepla vedením. Animace je česky, spustitelná přímo v prohlížeči.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_brownuv_pohyb&l=cz"
+}

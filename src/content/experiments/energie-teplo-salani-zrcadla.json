@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-salani-zrcadla",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Sálání tepla -- parabolická zrcadla (záření bez přímého kontaktu)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: zahřátá kulička emituje tepelné záření, které se odrazí od parabolického zrcadla, šíří přímočaře a soustředí v ohnisku druhého zrcadla, kde je začerněný teploměr nebo termistor. Teploměr zaznamená nárůst teploty bez přímého kontaktu ani proudění vzduchu -- přesvědčivý důkaz šíření tepla zářením.",
+  "materials": [
+    "dvě parabolická zrcadla",
+    "zahřátá kovová kulička nebo IR zdroj",
+    "začerněný teploměr nebo termistor",
+    "laboratorní stojany"
+  ],
+  "procedure": "Umístit zahřátý zdroj do ohniska prvního zrcadla. Do ohniska druhého zrcadla umístit začerněný teploměr. Sledovat nárůst teploty bez přímého kontaktu.",
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/molekulova-fyzika-a-termika/sdileni-tepla/salani-tepla-49/"
+  }
+}

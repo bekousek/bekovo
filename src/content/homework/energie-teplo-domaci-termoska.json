@@ -1,0 +1,11 @@
+{
+  "id": "energie-teplo-domaci-termoska",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Navrhni a postav termosku -- srovnání tepelných izolantů",
+  "description": "Žák doma sestaví jednoduchou termosku z různých izolačních materiálů (molitan, polystyren, šála, bublinková fólie, vlnitá lepenka) a do každé varianty nalije horkou vodu ze stejné počáteční teploty. Po 30-60 minutách změří výslednou teplotu a porovná izolační účinnost materiálů. Výsledky zaznamená do tabulky a na druhý den ve škole žáci výsledky sdílí a společně vyhodnotí nejlepší izolátor. Propojuje vedení tepla, tepelné izolanty a vodiče s experimentálním plánováním.",
+  "source": {
+    "label": "Výukové materiály DUM",
+    "url": "https://adoc.pub/nazev-termoska-vyukove-materialy-tema-teplo-ieni-tepla-urove.html"
+  }
+}
