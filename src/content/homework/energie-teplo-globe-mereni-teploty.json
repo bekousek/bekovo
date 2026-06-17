@@ -1,0 +1,11 @@
+{
+  "id": "energie-teplo-globe-mereni-teploty",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Dlouhodobé měření teploty vzduchu -- badatelský projekt GLOBE",
+  "description": "Žák každý den (nebo co nejčastěji) po dobu 2-4 týdnů měří teplotu vzduchu ve stanovenou hodinu na stejném místě a zapisuje hodnoty do tabulky. Výsledky vynáší do grafu, formuluje hypotézy o vlivech (počasí, roční doba, poloha) a porovnává s daty spolužáků nebo s mezinárodní databází GLOBE. Projekt rozvíjí schopnost systematicky sbírat data, pracovat s grafem a formulovat závěry z měření.",
+  "source": {
+    "label": "GLOBE Czech",
+    "url": "https://globe-czech.cz/portfolio/cz/prumerna-teplota"
+  }
+}

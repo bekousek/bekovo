@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-model-topeni",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Model ústředního topení — proudění vody v uzavřeném okruhu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: skleněná trubice ve tvaru uzavřeného okruhu je naplněna čirou (nebo barvenou) vodou a zahřívána ve spodní části. Zahřátá voda stoupá, ochlazená klesá -- viditelná přirozená konvekce (proudění). Vložení vzduchové bubliny zastaví cirkulaci. Propojení s reálnou technikou ústředního topení (kotel, rozvod, radiátor, expanzní nádoba).",
+  "materials": [
+    "skleněná trubice ve tvaru uzavřeného okruhu",
+    "voda (lze přidat barvivo)",
+    "zdroj tepla (kahan nebo vařič)",
+    "laboratorní stojan"
+  ],
+  "procedure": "Naplnit okruh vodou. Zahřívat spodní část. Pozorovat proudění. Vložit vzduchovou bublinu a sledovat zastavení cirkulace.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/2049/model-ustredniho-topeni"
+  }
+}

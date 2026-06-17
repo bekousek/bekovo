@@ -1,0 +1,18 @@
+{
+  "id": "energie-teplo-balonek-voda",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Balonek s vodou nad plamenem -- vedení tepla vodou",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: balonek naplněný vodou se neupalí nad plamenem svíčky, zatímco prázdný balonek praskne. Pokus názorně ukazuje, jak voda odvádí teplo vedením a udržuje teplotu gumy pod bodem zapálení. Bezpečný, levný a okamžitě přesvědčivý pokus pro celou třídu.",
+  "materials": [
+    "dva balonky",
+    "svíčka",
+    "voda"
+  ],
+  "procedure": "Nafouknout jeden balonek vzduchem, druhý naplnit vodou. Přiblížit oba postupně k plameni svíčky. Pozorovat rozdíl -- prázdný praskne, vodou naplněný vydrží.",
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2395"
+  }
+}

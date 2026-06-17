@@ -1,0 +1,9 @@
+{
+  "id": "energie-teplo-phet-skupenstvi",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "PhET: Skupenské stavy: základy -- tepelný pohyb molekul",
+  "type": "applet",
+  "description": "Simulace umožňuje přidávat nebo odebírat teplo látkám (voda, kyslík, argon) a sledovat, jak se mění uspořádání molekul při přechodu mezi skupenstvími. Student vidí přímou souvislost mezi teplotou a pohybem molekul -- základ pro pochopení vnitřní energie. Lokalizováno do češtiny.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter-basics"
+}

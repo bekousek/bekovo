@@ -1,0 +1,12 @@
+{
+  "id": "energie-teplo-trideni-vodice",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Třídění materiálů na tepelné vodiče a izolanty (hmatová aktivita)",
+  "type": "group-work",
+  "description": "Žáci ve skupinách dostanou sadu předmětů z různých materiálů (kov, dřevo, plast, tkanina, sklo) a bez teploměru hmatem odhadují, který materiál je tepelný vodič a který izolant. Výsledky diskutují ve skupinách a porovnávají s tabulkovými hodnotami tepelné vodivosti. Aktivita cíleně odhaluje miskoncepci 'chladný = má nižší teplotu' -- kov se zdá studenější, přestože má stejnou teplotu jako dřevo.",
+  "source": {
+    "label": "Realisticky.cz – Fyzika ZŠ",
+    "url": "http://www.realisticky.cz/ucebnice.php?id=4"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "energie-teplo-fykos-kapacita",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Domácí kalorimetr -- měrná tepelná kapacita vody (inspirováno FYKOS)",
+  "description": "Žák doma změří měrnou tepelnou kapacitu vody metodou elektrického ohřevu: ohřívá vodu o známé hmotnosti v termosce nebo improvizovaném kalorimetru s topnou spirálou, měří napětí, proud a čas ohřevu, zaznamenává nárůst teploty. Z naměřených hodnot vypočítá c vody pomocí Q = U*I*t = m*c*delta_t a porovná s tabulkovou hodnotou. Zpracuje protokol s popisem aparatury, naměřenými hodnotami a odhadem chyby. Inspirováno experimentálními úlohami FYKOS.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://fykos.cz/akce/fykos/experimenty"
+  }
+}

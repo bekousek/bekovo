@@ -1,0 +1,18 @@
+{
+  "id": "energie-teplo-vodivost-termokamera",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Tepelná vodivost plastu a kovu (termokamera)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: na kovovou a plastovou desku stejných rozměrů se přiloží ruka a obě desky se snímají termovizní kamerou po dobu 20 sekund. Kovová deska se zahřívá rovnoměrně po celé ploše (tepelný vodič), plastová jen v místě dotyku (tepelný izolant). Vizuálně srozumitelně ukazuje rozdíl tepelných vodičů a izolantů.",
+  "materials": [
+    "termovizní kamera",
+    "kovová deska (např. hliník)",
+    "plastová deska stejných rozměrů"
+  ],
+  "procedure": "Přiložit ruku současně na obě desky, snímat termokamerou 20 s. Porovnat, jak se teplo šíří po kovové a plastové desce.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/1584/tepelna-vodivost-plastu-a-kovu-i"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-vedeni-upol",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Šíření tepla vedením -- srovnání tyčí z různých kovů (UPOL)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: dvě stejně dlouhé a stejně tlusté tyče (železo a měď) se zahřívají na jednom konci. Rychlost postupu tepla se sleduje pomocí termocitlivé látky (vosk, termochromní barva) nebo teploměrů rozmístěných podél tyčí. Měď vede teplo výrazně rychleji než železo.",
+  "materials": [
+    "tyče ze železa a mědi (stejné rozměry)",
+    "zdroj tepla",
+    "termocitlivá látka (vosk nebo termochromní barva) nebo teploměry",
+    "laboratorní stojan"
+  ],
+  "procedure": "Upevnit tyče do stojanu. Zahřívat jeden konec. Sledovat rychlost roztávání vosku nebo změnu barvy podél obou tyčí.",
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/molekulova-fyzika-a-termika/sdileni-tepla/sdileni-tepla-vedenim-28/"
+  }
+}

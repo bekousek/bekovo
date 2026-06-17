@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-16",
+  "lastPicked": "2026-06-17",
   "history": [
     {
       "date": "2026-05-08",
@@ -146,6 +146,12 @@
       "subtopic": "elektrostatika--elektricky-naboj",
       "result": "pr-pending",
       "items": 20
+    },
+    {
+      "date": "2026-06-17",
+      "subtopic": "energie--teplo-a-jeho-sireni",
+      "result": "pr-pending",
+      "items": 38
     }
   ],
   "skipUntil": {}

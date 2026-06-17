@@ -1,0 +1,9 @@
+{
+  "id": "energie-teplo-energy2d",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Energy2D -- interaktivní simulace přenosu tepla",
+  "type": "applet",
+  "description": "Bezplatný online nástroj od Concord Consortium umožňuje simulovat vedení, proudění i záření tepla ve 2D prostředí s barevnou vizualizací teplotního pole. Žáci nastavují materiály s různou tepelnou vodivostí a sledují, jak se teplo šíří -- přímo demonstruje všechny tři způsoby přenosu tepla. Nabízí přes 90 předpřipravených scénářů, anglické rozhraní jednoduché na pochopení.",
+  "url": "https://energy.concord.org/energy2d/"
+}

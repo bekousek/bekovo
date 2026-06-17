@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-termofol-kovy",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Porovnání tepelné vodivosti mědi, hliníku a mosazi (termocitlivá folie)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: na tři plechy stejných rozměrů z mědi, hliníku a mosazi se přiloží termocitlivá folie (rozsah 25-30 °C) a nalije se horká voda (~60 °C). Folie barevně znázorní rychlost šíření tepla -- nejrychleji se zahřívá měď, pak hliník, nejpomaleji mosaz. Názorná srovnávací demonstrace různé tepelné vodivosti kovů.",
+  "materials": [
+    "termocitlivá folie 25-30 °C",
+    "plechy z mědi, hliníku a mosazi (stejné rozměry, tl. 0,3 mm)",
+    "horká voda (~60 °C)",
+    "rychlovarná konvice"
+  ],
+  "procedure": "Přiložit termocitlivou folii na každý plech. Nalít horkou vodu. Sledovat, u kterého kovu se folie mění barvou nejrychleji.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF",
+    "url": "http://fyzikalnipokusy.cz/1652/porovnani-tepelne-vodivosti-medi,-hliniku-a-mosazi"
+  }
+}
