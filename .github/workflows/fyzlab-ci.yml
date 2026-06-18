@@ -1,0 +1,39 @@
+name: FyzLab CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'fyzlab/**'
+      - '.github/workflows/fyzlab-ci.yml'
+  pull_request:
+    paths:
+      - 'fyzlab/**'
+      - '.github/workflows/fyzlab-ci.yml'
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fyzlab
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: fyzlab/package-lock.json
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Testy (accuracy + determinismus + schéma)
+        run: npx vitest run
+
+      - name: Build
+        run: npx vite build

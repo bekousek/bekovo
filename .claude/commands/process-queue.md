@@ -34,51 +34,51 @@ git fetch origin && git checkout main && git pull --ff-only origin main
 
 Routine větve teď vzniknou z čistého `origin/main`, nedotčené uživatelovou rozdělanou prací.
 
-## 2. Load Drive tools
+## 2. Drive přístup přes rclone (byte-přesné stahování)
 
-Pomocí ToolSearch nahraj nástroje (vše najednou jedním voláním):
-- `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__search_files`
-- `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__download_file_content` ← **pro čtení manifestů (base64, byte-přesné)**
-- `mcp__f687609e-ae1f-4db1-939a-7b5aee8f6bad__get_file_metadata`
+⚠️ **NEpřepisuj base64 z MCP `download_file_content` do souborů ani skriptů.** Reprodukce ~9–25 KB base64 v chatu koruptuje multi-byte UTF-8 (české znaky, pomlčky `–`) — neviditelné slipy / posuny délky, které se projeví až při `JSON.parse`. Tenhle přístup opakovaně selhal napříč sessions. (Viz memory [[process-queue-rclone]].)
 
-⚠️ **NEpoužívej `read_file_content` na manifesty** — vrací „natural language" reprezentaci, která escapuje markdown (`\#`, mojibake u emoji) a výsledek **není validní JSON**. Vždy `download_file_content` → base64 → `Buffer.from(b64,'base64').toString('utf-8')` → `JSON.parse`.
+Místo toho používej **rclone** (remote `gdrive`, read-only scope; token uložen v `%APPDATA%\rclone\rclone.conf`).
 
-## 3. List manifesty v Drive
-
-Volání:
+Najdi `rclone.exe` (po instalaci přes winget není v PATH v čerstvém shellu):
+```powershell
+$RC = (Get-ChildItem "$env:LOCALAPPDATA\Microsoft\WinGet\Packages" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1).FullName
 ```
-search_files({
-  query: "parentId = '1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym' and title contains 'manifest-'",
-  pageSize: 50,
-  excludeContentSnippets: true
-})
+Pokud `rclone` chybí nebo remote `gdrive` neexistuje → **skonči s jasnou zprávou uživateli** (potřeba jednorázový OAuth, ten nejde unattended):
+```powershell
+winget install --id Rclone.Rclone -e --accept-package-agreements --accept-source-agreements
+& $RC config create gdrive drive scope=drive.readonly   # otevře prohlížeč, uživatel klikne Povolit
 ```
+Ověř před stahováním: `& $RC listremotes` musí obsahovat `gdrive:`.
 
-Pozn.: Drive search API nepodporuje `trashed = false` v query — folder by neměl obsahovat smazané soubory ale když ano, ručně filtruj v odpovědi.
+## 3. Stáhni manifesty z fronty (rclone, byte-přesně)
 
-Folder ID `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym` je hardcoded — folder `bekovo-nightly-queue` v Drive uživatele.
+Folder ID `1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym` = `bekovo-nightly-queue`.
 
-Z odpovědi extrahuj seznam `{id, title, modifiedTime}`. Pokud Drive search není dostupný (tool nelze nahrát, nebo error) → vypiš jasnou zprávu uživateli a skonči.
+Stáhni VŠECHNY soubory z folderu byte-přesně do `_queue/`. rclone sám **dedupuje soubory se stejným názvem a nechá nejnovější verzi** (ohlásí „Duplicate object found in source - ignoring"):
+```powershell
+New-Item -ItemType Directory -Force "C:\Users\bekon\bekovo\_queue" | Out-Null
+& $RC copy "gdrive:" "C:\Users\bekon\bekovo\_queue" --drive-root-folder-id 1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym
+```
+(Pro audit/kontrolu dedupu lze vytáhnout i seznam s ID a časy: `& $RC lsjson "gdrive:" --drive-root-folder-id 1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym --files-only`.)
 
-**Dedup duplicitních souborů se stejným manifestId:** Drive může obsahovat víc souborů se stejným `manifestId` (rutina běžela vícekrát, retry, nebo starý + nový běh téhož dne). Seskup soubory podle `manifestId` (z názvu `manifest-<manifestId>.json`) a v každé skupině **ponech jen ten s nejnovějším `modifiedTime`**; starší ignoruj. (Novější = obvykle kvalitnější/úplnější verze.)
+Soubory mají název `manifest-<manifestId>.json`. Pokud `rclone copy` selže → vypiš jasnou zprávu a skonči.
 
-Filtruj: pro každý zbylý file extrahuj manifestId. Pokud `manifestId ∈ processed.json.processedIds` → skip (už zpracováno).
+## 4. Parsuj a validuj manifesty
 
-Pokud nic nového → vypiš „Žádný nový manifest v Drive folderu." a skonči.
-
-## 4. Stáhni a parsuj manifesty
-
-Pro každý nový file:
-- `download_file_content({ fileId: file.id })` → vrací `{ content: <base64> }`. Dekóduj: `Buffer.from(content,'base64').toString('utf-8')` → byte-přesný JSON string.
-- `JSON.parse` na dekódovaný string
+Pro každý `_queue/manifest-*.json`, jehož `manifestId ∉ processed.json.processedIds`:
+- Čti soubor **přímo z disku** (`fs.readFileSync`, byte-přesné — žádné base64) → `JSON.parse`
 - Validuj:
   - `version === 1`
   - `manifestId` matches `^\d{4}-\d{2}-\d{2}-[a-z0-9-]+--[a-z0-9-]+$`
   - `branch` starts with `routine/nightly-`
   - `files.length >= 1`
+  - **integrity gate: `files.length === ledgerEntry.items`** (chytí oříznuté/poškozené manifesty — nesmí projít dál)
   - každý `files[].path` matches `^src/content/(experiments|activities|materials|homework)/[a-z0-9-]+\.json$`
-  - každý `files[].content` parsovatelný jako JSON
-- Pokud cokoli selže → varování + skip (ale zaznamenej fileId do processed.json s flagem `invalid` ať to nezkoušíme znovu)
+  - každý `files[].content` parsovatelný jako JSON s poli `id`/`subtopicId`/`topicId`
+- Pokud cokoli selže → varování + skip (zaznamenej do processed.json s flagem `invalid` ať to nezkoušíme znovu)
+
+Repo `package.json` má `"type":"module"` → pomocné skripty musí mít příponu **`.cjs`**. Hotový procesor, který implementuje sekce 4–5 (čte `_queue/`, integrity gate, build před mergem): `_process_manifests.cjs` v rootu repa.
 
 ## 5. Process každý manifest
 

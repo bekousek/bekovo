@@ -1,0 +1,10 @@
+// Cloudflare konfigurace pro FyzLab (druhý projekt vedle hlavního webu).
+// Root directory projektu v Cloudflare dashboardu: `fyzlab`
+// Build command: `npm ci && npm run build` → statické assety v ./dist
+{
+  "name": "fyzlab",
+  "compatibility_date": "2026-01-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

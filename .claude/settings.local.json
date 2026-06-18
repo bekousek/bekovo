@@ -86,7 +86,23 @@
       "Bash(git stash *)",
       "Bash(node scripts/_batch-vlastnosti-latek.mjs)",
       "Bash(node scripts/_fix-conflicts.mjs)",
-      "Bash(node scripts/_batch-castice-latky.mjs)"
+      "Bash(node scripts/_batch-castice-latky.mjs)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:www.algodoo.com)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; Write-Output \"RCLONE_PATH=$RC\")",
+      "Bash(git checkout *)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; Write-Output \"Using rclone: $RC\"; & $RC listremotes 2>&1)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; New-Item -ItemType Directory -Force \"C:\\\\Users\\\\bekon\\\\bekovo\\\\_queue\" | Out-Null; & $RC copy \"gdrive:\" \"C:\\\\Users\\\\bekon\\\\bekovo\\\\_queue\" --drive-root-folder-id 1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym -v 2>&1)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"rclone found: $RC\"; & $RC listremotes } else { Write-Output \"rclone NOT found\" })",
+      "Bash(Get-Date -Format 'yyyy-MM-ddTHH-mm-ss')",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"Found: $RC\" } else { Write-Output \"NOT FOUND\" })",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; & $RC listremotes 2>&1)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; New-Item -ItemType Directory -Force \"C:\\\\Users\\\\bekon\\\\bekovo\\\\_queue\" | Out-Null; & $RC copy \"gdrive:\" \"C:\\\\Users\\\\bekon\\\\bekovo\\\\_queue\" --drive-root-folder-id 1DMJt_qqyhU6NDqZtlaILZLciZCAsd-ym 2>&1; Write-Output \"Exit: $LASTEXITCODE\")",
+      "Bash(node _run_nightly_20260616.cjs)",
+      "Bash(cd C:/Users/bekon/bekovo && rm _run_nightly_20260616.cjs && git stash pop 2>&1)",
+      "Bash(grep -v \"^commit\\\\|^Author\\\\|^Date\\\\|^$\\\\|untracked\")",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"FOUND: $RC\"; & $RC listremotes } else { Write-Output \"NOT FOUND\" })",
+      "PowerShell(cd C:\\\\Users\\\\bekon\\\\bekovo; $ISO = \\(Get-Date -Format \"yyyy-MM-ddTHH-mm-ss\"\\); git stash push -u -m \"process-queue-auto-$ISO\"; Write-Output \"Stash result: $LASTEXITCODE\")"
     ]
   }
 }
