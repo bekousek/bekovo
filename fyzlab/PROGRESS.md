@@ -37,32 +37,38 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   SHM vmax, reset).
 - **F2-C, 2. půlka** — uPlot panel + CSV export:
   závislost `uplot`, `PlotPanel.tsx` s grafem x(t)/y(t)/v(t) a přepínačem
-  série, tlačítko „Stáhnout CSV", tlačítko „Sledovat v grafu" v panelu
+  série, tlačítko „Stáhnout CSV”, tlačítko „Sledovat v grafu” v panelu
   vlastností tělesa (dynamická tělesa), drátování výběru tělesa → worker
   recorder + uiStore.plotBodyId, panel se zobrazí vpravo dole při plotBodyId ≠ null.
+- **F2-D, 1. půlka** — Tracer (stopa pohybu):
+  `TracerLayer.ts` (kruhový buffer 300 poloh/těleso, 3 pásma průhlednosti),
+  integrován do `Renderer.ts` (vrstva nad přístroji, pod vektory),
+  `uiStore.tracerEnabled`, přepínač 〰 v TopBar, maže se při načtení scény.
 
 Stav: **65 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-D — FBD režim (uvolněné těleso, šipky sil v N) + tracer**
-- Přidat vrstvu `fbd` do `overlayLayer.ts` nebo novou `fbdLayer.ts`.
-- Engine musí reportovat síly na těleso (gravitace, kontaktní, kloubové) —
-  nové pole ve WorkerToMain nebo rozšíření SnapshotMsg.
-- UI: přepínač „FBD” v TopBar nebo Toolbar, šipky kreslí PixiJS nad tělesy.
-- Tracer: tenká stopa pohybu tělesa (z posledních N poloh interpolátoru).
+**F2-D, 2. půlka — FBD režim (šipky sil v N)**
+- Nová zpráva Worker→Main: `forceSample { bodyId, gravity, drag, spring[], joint[] }`
+  nebo rozšíření SnapshotMsg o silové pole (alternativa: extra buffer v snapshotu).
+- V `RigidModule.tick()` sbírat složky sil (gravitace = m·g, vzduch = fx/fy z ticku,
+  pružiny = f·ux/uy, klouby = impuls/dt z `ImpulseJoint.impulse()`).
+- Nová vrstva `FbdLayer.ts` nebo rozšíření `VectorsLayer` — šipky sil v N,
+  popisky v SI. Přepínač „FBD” v TopBar.
+- Worker protokol: nový typ `forceSample` v `WorkerToMain`; posílat ~10 Hz
+  (stejný rytmus jako plotChunk, tj. po Recorder.drainSamples).
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-C plně dokončena a mergnuta.** Celá datová cesta + UI grafu funguje:
-  tlačítko „Sledovat v grafu” v panelu vlastností (jen dynamická tělesa)
-  spustí záznam; PlotPanel vpravo dole zobrazuje x(t)/y(t)/v(t) + CSV export.
-- Stav kódu: `fyzlab/src/app/PlotPanel.tsx` (nový), `PropertiesPanel.tsx`
-  (přidán import useUiStore + BodySection dostává runtime + tracking button),
-  `App.tsx` (PlotPanel wired), `i18n/cs.ts` (6 nových klíčů plotPanelTitle…).
-- Další běh začíná **F2-D**: FBD + tracer. Viz „Další na řadě”.
+- **F2-D Tracer hotov a mergnut.** TracerLayer v `src/render/layers/tracerLayer.ts`,
+  přepínač 〰 v TopBar, stopa se maže při `replaceDoc` v bootstrap.
+- Další běh začíná **F2-D, 2. půlka: FBD** — viz „Další na řadě” výše.
+- Klíčové rozhodnutí pro FBD: posílat silové složky v extra worker zprávě (~10 Hz),
+  NE v každém snapshotu (60 Hz) — silové diagramy nepotřebují interpolaci.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
-2. F2-D FBD režim (uvolněné těleso, šipky sil v N) + tracer
+2. ~~F2-D Tracer (stopa pohybu)~~ ✓ hotovo (1. půlka)
+3. F2-D FBD režim (uvolněné těleso, šipky sil v N) — 2. půlka
 3. F2-E režim Predikce (lesson schéma + overlay)
 4. F2-F hloubka mechaniky: nůž/CSG, lano/řetěz, thruster, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J
