@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-walter-fendt-pole",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Magnetické pole tyčového magnetu — Walter Fendt (česky)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině: pohyblivá kompasová jehla ukazuje směr magnetického pole v okolí tyčového magnetu a zobrazuje průběh siločar. Žák přetáhne kompas po ploše a sleduje orientaci střelky podél indukčních čar — analogie k magnetickému dipólu Země. Lze měnit polaritu magnetu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/magneticfieldbar_cz.htm"
+}
