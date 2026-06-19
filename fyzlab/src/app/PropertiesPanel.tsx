@@ -11,6 +11,7 @@ import type { DocOp, TransformPatch, VelocityPatch } from '@engine/scene/ops';
 import { MATERIAL_PRESETS, type MaterialPreset } from '@engine/scene/materials';
 import type { Body, Entity, Instrument, Joint } from '@engine/scene/schema';
 import type { Runtime } from './bootstrap';
+import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
 
@@ -280,7 +281,9 @@ function presetChips(current: { density: number; friction: number; restitution: 
   );
 }
 
-function BodySection({ store, body }: { store: DocumentStore; body: Body }) {
+function BodySection({ store, body, runtime }: { store: DocumentStore; body: Body; runtime: Runtime }) {
+  const plotBodyId = useUiStore((s) => s.plotBodyId);
+  const isTracking = plotBodyId === body.id;
   const isPlane = body.shapes.some((s) => s.type === 'plane');
 
   const replace = (label: string, after: Body) => store.apply(cmdReplaceEntity(label, body, after));
@@ -437,6 +440,25 @@ function BodySection({ store, body }: { store: DocumentStore; body: Body }) {
           </label>
         )}
       </Section>
+
+      {body.bodyType === 'dynamic' && (
+        <button
+          type="button"
+          onClick={() => {
+            const ui = useUiStore.getState();
+            ui.clearPlotBuffer();
+            ui.setPlotBodyId(body.id);
+            runtime.client.setRecordBodyId(body.id);
+          }}
+          className={`w-full rounded-lg px-2 py-1.5 text-xs transition select-none active:scale-95 ${
+            isTracking
+              ? 'bg-blue-600 text-white'
+              : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+          }`}
+        >
+          {isTracking ? '● ' : ''}{t('plotTrack')}
+        </button>
+      )}
     </>
   );
 }
@@ -617,7 +639,7 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
     const e = entities[0]!;
     content =
       e.kind === 'body' ? (
-        <BodySection store={store} body={e} />
+        <BodySection store={store} body={e} runtime={runtime} />
       ) : e.kind === 'joint' ? (
         <JointSection store={store} joint={e} />
       ) : (

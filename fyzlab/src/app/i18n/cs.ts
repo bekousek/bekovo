@@ -96,6 +96,14 @@ export const cs = {
   toastLinkBig: 'Scéna je velká — odkaz nemusí všude projít, zvaž uložení souboru.',
   toastLoadError: 'Scénu se nepodařilo načíst.',
   toastSaved: 'Scéna uložena.',
+  // Panel grafu (F2-C)
+  plotPanelTitle: 'Graf pohybu',
+  plotX: 'x(t)',
+  plotY: 'y(t)',
+  plotSpeed: 'v(t)',
+  plotExportCsv: 'Stáhnout CSV',
+  plotTrack: 'Sledovat v grafu',
+  plotNoData: 'Spusť simulaci — data se zapíší sem',
 } as const;
 
 export type MsgKey = keyof typeof cs;
