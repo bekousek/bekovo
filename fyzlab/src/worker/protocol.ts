@@ -8,6 +8,7 @@
 import type { SceneDoc } from '@engine/scene/schema';
 import type { BodyState, InstrumentEvent } from '@engine/core/SimModule';
 import type { DocOp } from '@engine/scene/ops';
+export type { PlotSample } from '@engine/instruments/Recorder';
 
 export type PointerMsg =
   | { kind: 'dragStart'; entityId: string; x: number; y: number }
@@ -24,7 +25,8 @@ export type MainToWorker =
   | { type: 'setSpeed'; speed: number }
   | { type: 'pointer'; ev: PointerMsg }
   | { type: 'requestStateSync' }
-  | { type: 'returnBuffer'; buffer: ArrayBuffer };
+  | { type: 'returnBuffer'; buffer: ArrayBuffer }
+  | { type: 'setRecordBodyId'; bodyId: string | null };
 
 export interface SnapshotMsg {
   type: 'snapshot';
@@ -48,4 +50,5 @@ export type WorkerToMain =
   | SnapshotMsg
   | { type: 'status'; running: boolean; speed: number }
   | { type: 'stateSync'; states: BodyState[] }
-  | { type: 'events'; events: InstrumentEvent[] };
+  | { type: 'events'; events: InstrumentEvent[] }
+  | { type: 'plotChunk'; samples: import('@engine/instruments/Recorder').PlotSample[]; };

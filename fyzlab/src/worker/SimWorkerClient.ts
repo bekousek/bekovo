@@ -6,7 +6,7 @@ import type { Vec2 } from '@engine/core/math';
 import type { SceneDoc } from '@engine/scene/schema';
 import type { BodyState, InstrumentEvent } from '@engine/core/SimModule';
 import type { DocOp } from '@engine/scene/ops';
-import type { MainToWorker, SnapshotMsg, WorkerToMain } from './protocol';
+import type { MainToWorker, PlotSample, SnapshotMsg, WorkerToMain } from './protocol';
 
 export class SimWorkerClient {
   private worker: Worker;
@@ -19,6 +19,7 @@ export class SimWorkerClient {
   onStatus: ((running: boolean, speed: number) => void) | null = null;
   onStateSync: ((states: BodyState[]) => void) | null = null;
   onEvents: ((events: InstrumentEvent[]) => void) | null = null;
+  onPlotChunk: ((samples: PlotSample[]) => void) | null = null;
   onError: ((message: string) => void) | null = null;
 
   private pendingMove: Vec2 | null = null;
@@ -64,6 +65,9 @@ export class SimWorkerClient {
       case 'events':
         this.onEvents?.(msg.events);
         break;
+      case 'plotChunk':
+        this.onPlotChunk?.(msg.samples);
+        break;
     }
   }
 
@@ -107,6 +111,10 @@ export class SimWorkerClient {
 
   returnBuffer(buffer: ArrayBuffer): void {
     this.send({ type: 'returnBuffer', buffer }, [buffer]);
+  }
+
+  setRecordBodyId(bodyId: string | null): void {
+    this.send({ type: 'setRecordBodyId', bodyId });
   }
 
   // --- Drag s koalescencí pohybu na frame ---------------------------------

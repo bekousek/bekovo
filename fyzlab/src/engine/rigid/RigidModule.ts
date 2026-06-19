@@ -228,6 +228,15 @@ export class RigidModule implements SimModule {
     return { x: t.x, y: t.y, angle: body.rotation() };
   }
 
+  /** Plný kinematický stav tělesa — pro recorder (poloha + rychlosti). */
+  stateOf(id: string): BodyState | null {
+    const body = this.bodies.get(id);
+    if (!body) return null;
+    const t = body.translation();
+    const lv = body.linvel();
+    return { id, x: t.x, y: t.y, angle: body.rotation(), vx: lv.x, vy: lv.y, omega: body.angvel() };
+  }
+
   setKinematics(id: string, transform?: TransformPatch, velocity?: VelocityPatch): void {
     const body = this.bodies.get(id);
     if (!body) return;

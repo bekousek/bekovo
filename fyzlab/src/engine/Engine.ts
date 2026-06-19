@@ -14,6 +14,7 @@ import { SnapshotWriter, bodiesByteLength } from './snapshot/layout';
 import { bodyIndexOf, type SceneDoc } from './scene/schema';
 import { applyOpsToDoc, type DocOp } from './scene/ops';
 import type { Vec2 } from './core/math';
+import type { PlotSample } from './instruments/Recorder';
 
 export class Engine {
   readonly dt: number;
@@ -30,7 +31,10 @@ export class Engine {
 
   private constructor(rigid: RigidModule, doc: SceneDoc) {
     this.rigid = rigid;
-    this.instruments = new InstrumentsModule((id) => rigid.poseOf(id));
+    this.instruments = new InstrumentsModule(
+      (id) => rigid.poseOf(id),
+      (id) => rigid.stateOf(id),
+    );
     this.modules = [rigid, this.instruments];
     this.doc = doc;
     this.dt = 1 / doc.world.tickHz;
@@ -184,6 +188,18 @@ export class Engine {
       out[o + 5] = s.omega;
     });
     return out;
+  }
+
+  // --- Recorder (F2-C) -------------------------------------------------------
+
+  /** Nastaví těleso, jehož veličiny recorder vzorkuje (~10 Hz). Null = zákaz. */
+  setRecordBodyId(id: string | null): void {
+    this.instruments.setRecordBodyId(id);
+  }
+
+  /** Odebere nahromaděné vzorky recorderu od minulého volání. */
+  drainPlotSamples(): PlotSample[] {
+    return this.instruments.drainSamples();
   }
 
   // --- Ukazatel (drag joint) ----------------------------------------------

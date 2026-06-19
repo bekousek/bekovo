@@ -20,6 +20,7 @@ import type {
 import type { SnapshotWriter } from '../snapshot/layout';
 import type { PoseLike } from '../scene/jointGeom';
 import type { Body, Entity, Instrument, SceneDoc, Shape } from '../scene/schema';
+import { Recorder, type BodyStateSource, type PlotSample } from './Recorder';
 
 export type PoseSource = (id: string) => PoseLike | null;
 
@@ -119,14 +120,19 @@ export class InstrumentsModule implements SimModule {
   /** `gateId bodyId` → stav z minulého ticku. */
   private pairs = new Map<string, GatePairState>();
   private events: InstrumentEvent[] = [];
+  private readonly recorder = new Recorder();
 
-  constructor(private readonly poses: PoseSource) {}
+  constructor(
+    private readonly poses: PoseSource,
+    private readonly stateSource: BodyStateSource,
+  ) {}
 
   build(doc: SceneDoc): void {
     this.gates = [];
     this.bodies.clear();
     this.pairs.clear();
     this.events = [];
+    this.recorder.reset();
     for (const e of doc.entities) this.addEntity(e);
   }
 
@@ -157,6 +163,7 @@ export class InstrumentsModule implements SimModule {
   // --- Tick ------------------------------------------------------------------
 
   tick(ctx: TickCtx): void {
+    this.recorder.tick(ctx, this.stateSource);
     for (const gate of this.gates) {
       const angle = gate.transform.angle;
       const d = rotate({ x: 0, y: 1 }, angle); // směr paprsku
@@ -209,6 +216,15 @@ export class InstrumentsModule implements SimModule {
     return out;
   }
 
+  setRecordBodyId(id: string | null): void {
+    this.recorder.targetBodyId = id;
+    if (id === null) this.recorder.reset();
+  }
+
+  drainSamples(): PlotSample[] {
+    return this.recorder.drainSamples();
+  }
+
   writeSnapshot(_w: SnapshotWriter): void {
     // Přístroje do binárního snapshotu nepíší (fáze 2: jen eventy).
   }
@@ -222,5 +238,6 @@ export class InstrumentsModule implements SimModule {
     this.bodies.clear();
     this.pairs.clear();
     this.events = [];
+    this.recorder.dispose();
   }
 }

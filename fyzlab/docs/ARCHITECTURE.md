@@ -37,6 +37,16 @@ Pořadí v ticku = mechanismus mezioborových interakcí:
 5. *(fáze 3)* optics — trace paprsků, zápis toků do SignalBusu
 6. instruments — fotobrány (sub-tick eventy z čerstvých póz), recorder
 
+## Recorder (`src/engine/instruments/Recorder.ts`)
+
+Vzorkuje veličiny jednoho tělesa ~10 Hz (`RECORD_EVERY = 12` tiků při 120 Hz).
+Headless — žádný DOM/React. `targetBodyId: string | null` nastavuje
+`engine.setRecordBodyId(id)` přes zprávu workeru `setRecordBodyId`. Tiká
+v `InstrumentsModule.tick()` (po fotobrány, po rigidu). Každý vzorek:
+`{ t: simTime + dt, x, y, speed }` (t = čas fyzikálního stavu tělesa po ticku).
+`drainSamples()` → worker posílá `plotChunk`; uiStore drží `plotBuffer`.
+Při `engine.load()` / `build()` se buffer i targetBodyId vynulují.
+
 ## Přístroje (`src/engine/instruments/InstrumentsModule.ts`)
 
 Fotobrána = úsečka podél lokální osy y (entita `instrument`, typ
@@ -72,12 +82,14 @@ fyzikálně zanedbatelné a drží graf acyklický. Osa už dnes publikuje
 
 Main→Worker: `init/loadScene(doc)` · `patch(DocOp[])` ·
 `control(play|pause|step)` · `setSpeed` · `pointer(dragStart/Move/End)`
-(koalescováno ≤1/frame) · `requestStateSync` · `returnBuffer`.
+(koalescováno ≤1/frame) · `requestStateSync` · `returnBuffer` ·
+`setRecordBodyId(id|null)` (F2-C).
 
 Worker→Main: `ready/error` · `idTable` (jen při změně množiny TĚLES; klouby
 topologii nemění!) · `snapshot` (≤60 Hz, latest-wins; v pauze po každém
 patchi) · `status {running, speed}` · `stateSync` (automaticky po
-pauze/kroku).
+pauze/kroku) · `plotChunk {samples}` (F2-C, ~10 Hz, drainováno po každé
+smyčce).
 
 ## Snapshot layout (`src/engine/snapshot/layout.ts`)
 

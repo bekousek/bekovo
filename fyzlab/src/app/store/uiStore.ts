@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import type { InstrumentEvent } from '@engine/core/SimModule';
 import type { RenderStats } from '@render/Renderer';
+import type { PlotSample } from '@engine/instruments/Recorder';
 
 /** Poslední měření jedné fotobrány. */
 export interface GateReading {
@@ -33,6 +34,10 @@ interface UiState {
   toast: string | null;
   /** Měření fotobran (id brány → poslední průchod). */
   gateReadings: Record<string, GateReading>;
+  /** Id tělesa, jehož veličiny se zaznamenávají; null = zákaz. */
+  plotBodyId: string | null;
+  /** Nahromaděné vzorky recorderu (F2-C). Reset při načtení scény. */
+  plotBuffer: PlotSample[];
   setRunning: (running: boolean) => void;
   setSpeed: (speed: number) => void;
   setStats: (stats: RenderStats) => void;
@@ -44,6 +49,9 @@ interface UiState {
   setToast: (toast: string | null) => void;
   applyInstrumentEvents: (events: InstrumentEvent[]) => void;
   clearGateReadings: () => void;
+  setPlotBodyId: (id: string | null) => void;
+  appendPlotChunk: (samples: PlotSample[]) => void;
+  clearPlotBuffer: () => void;
 }
 
 export const useUiStore = create<UiState>()((set) => ({
@@ -58,6 +66,8 @@ export const useUiStore = create<UiState>()((set) => ({
   showVelocityAll: false,
   toast: null,
   gateReadings: {},
+  plotBodyId: null,
+  plotBuffer: [],
   setRunning: (running) => set({ running }),
   setSpeed: (speed) => set({ speed }),
   setStats: (stats) => set({ stats }),
@@ -90,4 +100,7 @@ export const useUiStore = create<UiState>()((set) => ({
       return { gateReadings: next };
     }),
   clearGateReadings: () => set({ gateReadings: {} }),
+  setPlotBodyId: (id) => set({ plotBodyId: id }),
+  appendPlotChunk: (samples) => set((s) => ({ plotBuffer: [...s.plotBuffer, ...samples] })),
+  clearPlotBuffer: () => set({ plotBuffer: [], plotBodyId: null }),
 }));

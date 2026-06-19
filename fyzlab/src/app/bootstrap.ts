@@ -109,6 +109,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   };
   client.onStateSync = (states) => controller.handleStateSync(states);
   client.onEvents = (events) => useUiStore.getState().applyInstrumentEvents(events);
+  client.onPlotChunk = (samples) => useUiStore.getState().appendPlotChunk(samples);
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
   };
@@ -125,7 +126,10 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     // Klouby/vektory/přístroje nejsou v idTable (nemění topologii) → obnovit vždy.
     renderer.setDocLayers(doc);
     // Nová scéna (Reset, soubor, URL) → stará měření fotobran neplatí.
-    if (ops.some((op) => op.op === 'replaceDoc')) ui.clearGateReadings();
+    if (ops.some((op) => op.op === 'replaceDoc')) {
+      ui.clearGateReadings();
+      ui.clearPlotBuffer();
+    }
     // Výběr nesmí ukazovat na smazané entity.
     let selectionDirty = false;
     for (const id of state.selection) {

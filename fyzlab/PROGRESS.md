@@ -29,25 +29,32 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 - **Fáze 2A** — vzduch: vztlak + kvadratický odpor (`src/engine/rigid/air.ts`),
   terminální rychlost ±5 % vč. heliového balónku.
 - **Fáze 2B** — přístroje: fotobrána se sub-tick eventy, stopky, GatePanel.
+- **F2-C, 1. půlka** — Recorder + datová cesta (BEZ UI grafu):
+  `Recorder.ts` (headless, ~10 Hz), `RigidModule.stateOf()`, integrován do
+  `InstrumentsModule`, protokol `setRecordBodyId` / `plotChunk`, worker drainuje
+  po každé smyčce, `SimWorkerClient.onPlotChunk`, `uiStore.plotBuffer`,
+  bootstrap wiring; 6 nových accuracy testů (count, off, freefall y, freefall v,
+  SHM vmax, reset).
 
-Stav: **59 testů zelených**, `tsc` čistý (k poslednímu lokálnímu běhu).
+Stav: **65 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-C, 1. půlka — Recorder + datová cesta pro grafy (BEZ UI grafu).**
-- Engine: lehký recorder, který za běhu vzorkuje veličiny vybraného tělesa
-  (poloha, rychlost, příp. energie) s decimací ~10 Hz (nezávisle na 120 Hz
-  ticku). Žije headless v `src/engine/` (např. `instruments/Recorder.ts` nebo
-  `core/`), determinismus zachován.
-- Worker: přírůstková zpráva `plotChunk` v protokolu; `SimWorkerClient` ji
-  předá callbackem; uiStore drží buffer vzorků. Reset/load scény buffer mažou.
-- Test: vzorky volného pádu / SHM sedí na analytiku (tolerance jako u
-  accuracy testů). **Zatím žádný uPlot, žádné UI** — jen datová cesta + test.
-- Checkpoint, zelené, merge. Do „Kde jsem skončil“ napiš stav datové cesty.
-
-**F2-C, 2. půlka** (až bude datová cesta hotová) = uPlot panel + CSV export.
+**F2-C, 2. půlka — uPlot panel + CSV export.**
+- Přidat závislost `uplot` do `package.json`.
+- Nová komponenta `PlotPanel.tsx` (`src/app/`) s uPlot grafem; čte
+  `uiStore.plotBuffer`. Linie: x(t), y(t), speed(t) — přepínač.
+- Tlačítko „CSV” exportuje aktuální buffer jako `.csv` (stahování).
+- Panel se zobrazí, když `uiStore.plotBodyId !== null`; schová se tlačítkem.
+- Drátování: klik na těleso (SelectTool nebo Properties panel) →
+  `client.setRecordBodyId(id)` + `uiStore.setPlotBodyId(id)`.
+- Checkpoint, zelené, merge.
 
 ## Kde jsem skončil / poznámky pro další běh
-- (zatím nic — první naplánovaný běh začíná F2-C 1. půlkou)
+- **F2-C 1. půlka dokončena a mergnuta.** Datová cesta je plně funkční:
+  engine vzorkuje vybrané těleso ~10 Hz, worker posílá `plotChunk`, uiStore
+  drží `plotBuffer`. Žádné UI grafu zatím neexistuje.
+- Další běh začíná **F2-C 2. půlka**: přidat `uplot`, `PlotPanel.tsx`,
+  CSV export a drátování výběru tělesa → recorder. Viz „Další na řadě".
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. F2-C grafy + CSV (recorder → uPlot → CSV)
