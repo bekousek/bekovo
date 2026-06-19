@@ -91,6 +91,7 @@ export const cs = {
   topSave: 'Uložit scénu',
   topShare: 'Zkopírovat odkaz na scénu',
   topVectors: 'Vektory rychlosti',
+  topTracer: 'Stopa pohybu',
   showVelocityBody: 'Vektor rychlosti',
   toastLinkCopied: 'Odkaz zkopírován',
   toastLinkBig: 'Scéna je velká — odkaz nemusí všude projít, zvaž uložení souboru.',

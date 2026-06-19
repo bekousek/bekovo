@@ -30,6 +30,8 @@ interface UiState {
   radialMenu: RadialMenuState | null;
   /** Globální zobrazení vektorů rychlosti (renderer čte přes getState). */
   showVelocityAll: boolean;
+  /** Stopa pohybu těles (renderer čte přes getState). */
+  tracerEnabled: boolean;
   /** Krátká zpráva dole (zkopírovaný odkaz, chyba souboru…); null = nic. */
   toast: string | null;
   /** Měření fotobran (id brány → poslední průchod). */
@@ -46,6 +48,7 @@ interface UiState {
   setSnapEnabled: (snapEnabled: boolean) => void;
   setRadialMenu: (radialMenu: RadialMenuState | null) => void;
   setShowVelocityAll: (showVelocityAll: boolean) => void;
+  setTracerEnabled: (tracerEnabled: boolean) => void;
   setToast: (toast: string | null) => void;
   applyInstrumentEvents: (events: InstrumentEvent[]) => void;
   clearGateReadings: () => void;
@@ -64,6 +67,7 @@ export const useUiStore = create<UiState>()((set) => ({
   snapEnabled: true,
   radialMenu: null,
   showVelocityAll: false,
+  tracerEnabled: false,
   toast: null,
   gateReadings: {},
   plotBodyId: null,
@@ -76,6 +80,7 @@ export const useUiStore = create<UiState>()((set) => ({
   setSnapEnabled: (snapEnabled) => set({ snapEnabled }),
   setRadialMenu: (radialMenu) => set({ radialMenu }),
   setShowVelocityAll: (showVelocityAll) => set({ showVelocityAll }),
+  setTracerEnabled: (tracerEnabled) => set({ tracerEnabled }),
   setToast: (toast) => set({ toast }),
   applyInstrumentEvents: (events) =>
     set((s) => {

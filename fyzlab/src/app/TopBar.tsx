@@ -38,6 +38,7 @@ function BarButton({
 
 export function TopBar({ runtime }: { runtime: Runtime }) {
   const showVelocityAll = useUiStore((s) => s.showVelocityAll);
+  const tracerEnabled = useUiStore((s) => s.tracerEnabled);
   const fileRef = useRef<HTMLInputElement>(null);
   const toast = (msg: string) => useUiStore.getState().setToast(msg);
 
@@ -95,6 +96,12 @@ export function TopBar({ runtime }: { runtime: Runtime }) {
         label={t('topVectors')}
         active={showVelocityAll}
         onClick={() => useUiStore.getState().setShowVelocityAll(!showVelocityAll)}
+      />
+      <BarButton
+        icon="〰"
+        label={t('topTracer')}
+        active={tracerEnabled}
+        onClick={() => useUiStore.getState().setTracerEnabled(!tracerEnabled)}
       />
     </div>
   );

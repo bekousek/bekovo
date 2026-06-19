@@ -129,6 +129,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     if (ops.some((op) => op.op === 'replaceDoc')) {
       ui.clearGateReadings();
       ui.clearPlotBuffer();
+      renderer.clearTracer();
     }
     // Výběr nesmí ukazovat na smazané entity.
     let selectionDirty = false;
@@ -239,6 +240,8 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
 
   // Globální přepínač vektorů rychlosti čte renderer z uiStore.
   renderer.vectorsEnabled = () => useUiStore.getState().showVelocityAll;
+  // Globální přepínač stopy pohybu čte renderer z uiStore.
+  renderer.tracerEnabled = () => useUiStore.getState().tracerEnabled;
 
   await client.init(initialDoc);
 

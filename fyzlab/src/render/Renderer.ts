@@ -13,6 +13,7 @@ import { InstrumentsLayer } from './layers/instrumentsLayer';
 import { JointsLayer } from './layers/jointsLayer';
 import { OverlayLayer } from './layers/overlayLayer';
 import { VectorsLayer } from './layers/vectorsLayer';
+import { TracerLayer } from './layers/tracerLayer';
 import type { OverlaySource } from './layers/overlayTypes';
 import type { SnapshotMsg } from '@worker/protocol';
 
@@ -32,11 +33,14 @@ export class Renderer {
   private bodies = new BodiesLayer();
   private joints = new JointsLayer();
   private vectors = new VectorsLayer();
+  private tracer = new TracerLayer();
   private instruments = new InstrumentsLayer();
   private overlay = new OverlayLayer();
 
   /** Globální přepínač vektorů rychlosti (zapojuje bootstrap → uiStore). */
   vectorsEnabled: () => boolean = () => false;
+  /** Globální přepínač stopy pohybu (zapojuje bootstrap → uiStore). */
+  tracerEnabled: () => boolean = () => false;
   private interp = new Interpolator();
   private overlaySource: OverlaySource | null = null;
 
@@ -60,6 +64,7 @@ export class Renderer {
     this.world.addChild(this.bodies.container);
     this.world.addChild(this.joints.g);
     this.world.addChild(this.instruments.g);
+    this.world.addChild(this.tracer.g);
     this.world.addChild(this.vectors.g);
     this.world.addChild(this.overlay.g);
     app.ticker.add(() => this.frame());
@@ -86,7 +91,12 @@ export class Renderer {
 
   setScene(doc: SceneDoc, ids: readonly string[]): void {
     this.bodies.setScene(doc, ids);
+    this.tracer.setScene(doc);
     this.setDocLayers(doc);
+  }
+
+  clearTracer(): void {
+    this.tracer.clear();
   }
 
   /**
@@ -145,7 +155,13 @@ export class Renderer {
     if (this.overlaySource) this.overlay.draw(this.overlaySource, this.camera.pixelsPerMeter);
 
     const sample = this.interp.sample(now);
-    if (sample) this.bodies.apply(sample);
+    if (sample) {
+      this.bodies.apply(sample);
+      if (this.tracerEnabled()) this.tracer.update((id) => this.bodies.poseOf(id));
+    }
+    if (this.tracerEnabled()) {
+      this.tracer.draw(this.camera.pixelsPerMeter);
+    }
     this.joints.draw((id) => this.bodies.poseOf(id), this.camera.pixelsPerMeter);
     this.vectors.draw(
       this.interp.latest,
