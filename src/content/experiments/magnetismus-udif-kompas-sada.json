@@ -1,0 +1,17 @@
+{
+  "id": "magnetismus-udif-kompas-sada",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Kompas z magnetů v dřevěné krabičce (sada ÚDiF)",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus: žáci sestaví funkční kompas ze silných magnetů zalepených do dřevěné krabičky podle návodu v sadě. Hotový kompas ukáže magnetický sever a umožní demonstrovat magnetickou deklinaci — porovnání magnetického severu s geografickým severem na mapě. Sada od ÚDiF (Úžasné divadlo fyziky) je navržena přímo pro výuku magnetismu za cca 15 Kč na žáka. Liší se od klasické jehly na vodě — výsledkem je robustní trvanlivý kompas.",
+  "materials": [
+    "sada ÚDiF kompas (magnety + dřevěná krabička)",
+    "lepidlo Herkules",
+    "mapa nebo turistický kompas pro srovnání deklinace"
+  ],
+  "source": {
+    "label": "ÚDiF — e-shop",
+    "url": "https://eshop.udif.cz/p/kompas"
+  }
+}
