@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { bootstrap, type Runtime } from './bootstrap';
 import { GatePanel } from './GatePanel';
 import { PlotPanel } from './PlotPanel';
+import { FbdPanel } from './FbdPanel';
 import { PropertiesPanel } from './PropertiesPanel';
 import { RadialMenu } from './RadialMenu';
 import { SimControls } from './SimControls';
@@ -120,7 +121,8 @@ export default function App() {
       )}
 
       {runtime && (
-        <div className="absolute bottom-28 right-4 sm:bottom-24">
+        <div className="absolute bottom-28 right-4 flex flex-col items-end gap-2 sm:bottom-24">
+          <FbdPanel runtime={runtime} />
           <PlotPanel runtime={runtime} />
         </div>
       )}

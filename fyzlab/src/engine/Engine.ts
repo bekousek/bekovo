@@ -15,6 +15,7 @@ import { bodyIndexOf, type SceneDoc } from './scene/schema';
 import { applyOpsToDoc, type DocOp } from './scene/ops';
 import type { Vec2 } from './core/math';
 import type { PlotSample } from './instruments/Recorder';
+import type { FbdSample } from './rigid/fbd';
 
 export class Engine {
   readonly dt: number;
@@ -200,6 +201,18 @@ export class Engine {
   /** Odebere nahromaděné vzorky recorderu od minulého volání. */
   drainPlotSamples(): PlotSample[] {
     return this.instruments.drainSamples();
+  }
+
+  // --- FBD (silový diagram, F2-D) -------------------------------------------
+
+  /** Nastaví těleso, jehož silový rozklad se vzorkuje (~10 Hz). Null = zákaz. */
+  setFbdBodyId(id: string | null): void {
+    this.rigid.setFbdBodyId(id);
+  }
+
+  /** Odebere poslední silový vzorek tělesa (null = žádný nový). */
+  drainFbdSample(): FbdSample | null {
+    return this.rigid.drainFbdSample();
   }
 
   // --- Ukazatel (drag joint) ----------------------------------------------

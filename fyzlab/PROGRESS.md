@@ -44,31 +44,39 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `TracerLayer.ts` (kruhový buffer 300 poloh/těleso, 3 pásma průhlednosti),
   integrován do `Renderer.ts` (vrstva nad přístroji, pod vektory),
   `uiStore.tracerEnabled`, přepínač 〰 v TopBar, maže se při načtení scény.
+- **F2-D, 2. půlka** — FBD silový diagram:
+  `engine/rigid/fbd.ts` (typy `FbdForce`/`FbdSample`, `FBD_EVERY`),
+  RigidModule sbírá síly (gravitace m·g, vztlak, odpor, pružina) ~10 Hz,
+  worker protokol `setFbdBodyId` / `fbdSample`, `FbdLayer.ts` (šipky z těžiště,
+  normované délky), `FbdPanel.tsx` (legenda magnitud v N), tlačítko „Diagram sil”
+  v panelu vlastností (dynamická tělesa); 5 nových accuracy testů.
 
-Stav: **65 testů zelených**, `tsc` čistý.
+Stav: **70 testů zelených**, `tsc` čistý, `npm run build` projde.
 
 ## Další na řadě
-**F2-D, 2. půlka — FBD režim (šipky sil v N)**
-- Nová zpráva Worker→Main: `forceSample { bodyId, gravity, drag, spring[], joint[] }`
-  nebo rozšíření SnapshotMsg o silové pole (alternativa: extra buffer v snapshotu).
-- V `RigidModule.tick()` sbírat složky sil (gravitace = m·g, vzduch = fx/fy z ticku,
-  pružiny = f·ux/uy, klouby = impuls/dt z `ImpulseJoint.impulse()`).
-- Nová vrstva `FbdLayer.ts` nebo rozšíření `VectorsLayer` — šipky sil v N,
-  popisky v SI. Přepínač „FBD” v TopBar.
-- Worker protokol: nový typ `forceSample` v `WorkerToMain`; posílat ~10 Hz
-  (stejný rytmus jako plotChunk, tj. po Recorder.drainSamples).
+**F2-E — režim Predikce (lesson schéma + overlay)**
+- Schéma „lekce” v dokumentu scény (nové pole `lesson?` v SceneDoc, Zod +
+  migrace + fixtura) NEBO oddělené `.fyzlabled` schéma — rozhodnout.
+- Overlay s otázkou + možnostmi (kam dopadne / jaká rychlost / nakresli graf),
+  vyhodnocení proti simulaci, zpětná vazba.
+- Začít MALÝM krokem: jen datové schéma lekce + jeho parsování a 1 fixtura,
+  bez UI. Druhá půlka = overlay + vyhodnocení.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-D Tracer hotov a mergnut.** TracerLayer v `src/render/layers/tracerLayer.ts`,
-  přepínač 〰 v TopBar, stopa se maže při `replaceDoc` v bootstrap.
-- Další běh začíná **F2-D, 2. půlka: FBD** — viz „Další na řadě” výše.
-- Klíčové rozhodnutí pro FBD: posílat silové složky v extra worker zprávě (~10 Hz),
-  NE v každém snapshotu (60 Hz) — silové diagramy nepotřebují interpolaci.
+- **Celá F2-D hotová a mergnutá** (tracer + FBD). FBD: tlačítko „Diagram sil”
+  v panelu vlastností dynamického tělesa zapne silové šipky (kreslené z těžiště)
+  + legendu vpravo dole s magnitudami. Síly: tíhová, vztlak, odpor vzduchu,
+  pružina. KONTAKTNÍ/NORMÁLOVÁ síla zatím NENÍ (vyžaduje Rapier contact eventy —
+  kandidát na pozdější vylepšení; pro vrh/kyvadlo/SHM/volný pád je ale diagram
+  úplný).
+- Architektura FBD zdokumentována v `docs/ARCHITECTURE.md` (sekce „FBD”).
+- Další běh = **F2-E Predikce**. Doporučení: nejdřív jen schéma lekce + parser +
+  fixtura (malý zelený krok), UI overlay až druhá půlka.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
-2. ~~F2-D Tracer (stopa pohybu)~~ ✓ hotovo (1. půlka)
-3. F2-D FBD režim (uvolněné těleso, šipky sil v N) — 2. půlka
+2. ~~F2-D Tracer (stopa pohybu)~~ ✓ hotovo
+3. ~~F2-D FBD režim (šipky sil v N)~~ ✓ hotovo
 3. F2-E režim Predikce (lesson schéma + overlay)
 4. F2-F hloubka mechaniky: nůž/CSG, lano/řetěz, thruster, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J

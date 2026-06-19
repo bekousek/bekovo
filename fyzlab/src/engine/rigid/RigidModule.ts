@@ -18,6 +18,7 @@ import { bodyArea } from '../scene/mass';
 import { DRAG_CD, effectiveDiameter } from './air';
 import { decomposePolygon } from './geometry';
 import { applyDragForce, startDrag, type DragState } from './dragJoint';
+import { FBD_EVERY, type FbdForce, type FbdSample } from './fbd';
 
 /** Poloviční rozměry náhradního kvádru za nekonečnou rovinu (fáze 0–1). */
 const PLANE_HALF_WIDTH = 2000;
@@ -51,6 +52,13 @@ export class RigidModule implements SimModule {
   private areas = new Map<string, number>();
   private airDensity = 0;
   private drag: DragState | null = null;
+
+  /** Těleso, jehož silový rozklad se vzorkuje pro FBD (F2-D); null = zákaz. */
+  private fbdBodyId: string | null = null;
+  /** Síly nasbírané během aktuálně vzorkovaného ticku. */
+  private fbdForces: FbdForce[] = [];
+  /** Poslední dokončený silový vzorek (worker ho drainuje). */
+  private fbdSample: FbdSample | null = null;
 
   constructor(private readonly R: Rapier) {}
 
@@ -316,6 +324,21 @@ export class RigidModule implements SimModule {
     const world = this.world;
     if (!world) return;
 
+    // FBD: vzorkovat silový rozklad cílového tělesa ~10 Hz (F2-D).
+    const sampleFbd =
+      this.fbdBodyId !== null &&
+      ctx.tickIndex % FBD_EVERY === 0 &&
+      this.bodies.has(this.fbdBodyId);
+    if (sampleFbd) {
+      this.fbdForces = [];
+      const body = this.bodies.get(this.fbdBodyId!)!;
+      if (body.isDynamic()) {
+        // Gravitaci aplikuje Rapier vnitřně — pro diagram ji dopočítáme z m·g.
+        const m = body.mass();
+        this.fbdForces.push({ kind: 'gravity', fx: world.gravity.x * m, fy: world.gravity.y * m });
+      }
+    }
+
     if (this.drag) applyDragForce(this.drag, ctx.dt);
 
     // Vzduch: vztlak + kvadratický odpor (viz air.ts). Jen při ρ > 0.
@@ -328,8 +351,10 @@ export class RigidModule implements SimModule {
         if (area <= 0) continue;
 
         // Vztlak: proti tíhovému poli, úměrný vytlačené ploše.
-        let fx = -rho * area * g.x;
-        let fy = -rho * area * g.y;
+        const bx = -rho * area * g.x;
+        const by = -rho * area * g.y;
+        let dragX = 0;
+        let dragY = 0;
 
         const lv = body.linvel();
         const speed = Math.hypot(lv.x, lv.y);
@@ -338,11 +363,18 @@ export class RigidModule implements SimModule {
           let mag = 0.5 * rho * DRAG_CD * d * speed * speed;
           // Odpor nesmí rychlost za jeden tick obrátit (stabilita).
           mag = Math.min(mag, (body.mass() * speed) / ctx.dt);
-          fx -= (lv.x / speed) * mag;
-          fy -= (lv.y / speed) * mag;
+          dragX = -(lv.x / speed) * mag;
+          dragY = -(lv.y / speed) * mag;
         }
 
-        body.applyImpulse({ x: fx * ctx.dt, y: fy * ctx.dt }, true);
+        body.applyImpulse({ x: (bx + dragX) * ctx.dt, y: (by + dragY) * ctx.dt }, true);
+
+        if (sampleFbd && id === this.fbdBodyId) {
+          this.fbdForces.push({ kind: 'buoyancy', fx: bx, fy: by });
+          if (dragX !== 0 || dragY !== 0) {
+            this.fbdForces.push({ kind: 'drag', fx: dragX, fy: dragY });
+          }
+        }
       }
     }
 
@@ -450,9 +482,23 @@ export class RigidModule implements SimModule {
       const iy = f * uy * ctx.dt;
       if (dynB) bodyB.applyImpulseAtPoint({ x: ix, y: iy }, { x: pBx, y: pBy }, true);
       if (dynA) bodyA!.applyImpulseAtPoint({ x: -ix, y: -iy }, { x: pAx, y: pAy }, true);
+
+      // FBD: síla pružiny míří z kotvy tělesa k druhému konci (ux,uy).
+      if (sampleFbd) {
+        if (dynB && j.bodyB === this.fbdBodyId) {
+          this.fbdForces.push({ kind: 'spring', fx: f * ux, fy: f * uy });
+        }
+        if (dynA && j.bodyA === this.fbdBodyId) {
+          this.fbdForces.push({ kind: 'spring', fx: -f * ux, fy: -f * uy });
+        }
+      }
     }
 
     world.step();
+
+    if (sampleFbd) {
+      this.fbdSample = { t: ctx.simTime + ctx.dt, bodyId: this.fbdBodyId!, forces: this.fbdForces };
+    }
   }
 
   // --- Snapshot / stav --------------------------------------------------------
@@ -481,6 +527,22 @@ export class RigidModule implements SimModule {
         omega: body.angvel(),
       };
     });
+  }
+
+  // --- FBD (silový diagram, F2-D) ---------------------------------------------
+
+  /** Nastaví těleso, jehož silový rozklad se vzorkuje. Null = zákaz. */
+  setFbdBodyId(id: string | null): void {
+    this.fbdBodyId = id;
+    this.fbdForces = [];
+    this.fbdSample = null;
+  }
+
+  /** Odebere poslední silový vzorek (null = od minula žádný nový). */
+  drainFbdSample(): FbdSample | null {
+    const s = this.fbdSample;
+    this.fbdSample = null;
+    return s;
   }
 
   get bodyCount(): number {
@@ -512,6 +574,9 @@ export class RigidModule implements SimModule {
 
   dispose(): void {
     this.drag = null;
+    this.fbdBodyId = null;
+    this.fbdForces = [];
+    this.fbdSample = null;
     this.bodies.clear();
     this.order = [];
     this.joints.clear();

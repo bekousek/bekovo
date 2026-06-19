@@ -105,6 +105,14 @@ export const cs = {
   plotExportCsv: 'Stáhnout CSV',
   plotTrack: 'Sledovat v grafu',
   plotNoData: 'Spusť simulaci — data se zapíší sem',
+  // Silový diagram (F2-D)
+  fbdTrack: 'Diagram sil',
+  fbdPanelTitle: 'Síly na těleso',
+  fbdNoData: 'Spusť simulaci — šipky sil se objeví u tělesa',
+  fbdGravity: 'Tíhová',
+  fbdBuoyancy: 'Vztlak',
+  fbdDrag: 'Odpor vzduchu',
+  fbdSpring: 'Pružina',
 } as const;
 
 export type MsgKey = keyof typeof cs;

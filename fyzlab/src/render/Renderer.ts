@@ -14,8 +14,10 @@ import { JointsLayer } from './layers/jointsLayer';
 import { OverlayLayer } from './layers/overlayLayer';
 import { VectorsLayer } from './layers/vectorsLayer';
 import { TracerLayer } from './layers/tracerLayer';
+import { FbdLayer } from './layers/fbdLayer';
 import type { OverlaySource } from './layers/overlayTypes';
 import type { SnapshotMsg } from '@worker/protocol';
+import type { FbdForce } from '@engine/rigid/fbd';
 
 export interface RenderStats {
   fps: number;
@@ -34,6 +36,7 @@ export class Renderer {
   private joints = new JointsLayer();
   private vectors = new VectorsLayer();
   private tracer = new TracerLayer();
+  private fbd = new FbdLayer();
   private instruments = new InstrumentsLayer();
   private overlay = new OverlayLayer();
 
@@ -41,6 +44,11 @@ export class Renderer {
   vectorsEnabled: () => boolean = () => false;
   /** Globální přepínač stopy pohybu (zapojuje bootstrap → uiStore). */
   tracerEnabled: () => boolean = () => false;
+  /** Aktuální cíl + síly silového diagramu (zapojuje bootstrap → uiStore). */
+  fbdState: () => { bodyId: string | null; forces: readonly FbdForce[] } = () => ({
+    bodyId: null,
+    forces: [],
+  });
   private interp = new Interpolator();
   private overlaySource: OverlaySource | null = null;
 
@@ -65,6 +73,7 @@ export class Renderer {
     this.world.addChild(this.joints.g);
     this.world.addChild(this.instruments.g);
     this.world.addChild(this.tracer.g);
+    this.world.addChild(this.fbd.g);
     this.world.addChild(this.vectors.g);
     this.world.addChild(this.overlay.g);
     app.ticker.add(() => this.frame());
@@ -168,6 +177,12 @@ export class Renderer {
       (id) => this.bodies.indexOf(id),
       this.camera.pixelsPerMeter,
       this.vectorsEnabled(),
+    );
+    const fbd = this.fbdState();
+    this.fbd.draw(
+      fbd.bodyId ? this.bodies.poseOf(fbd.bodyId) : null,
+      fbd.forces,
+      this.camera.pixelsPerMeter,
     );
     this.instruments.draw(this.camera.pixelsPerMeter);
 

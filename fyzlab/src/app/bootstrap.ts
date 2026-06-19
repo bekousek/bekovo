@@ -110,6 +110,11 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   client.onStateSync = (states) => controller.handleStateSync(states);
   client.onEvents = (events) => useUiStore.getState().applyInstrumentEvents(events);
   client.onPlotChunk = (samples) => useUiStore.getState().appendPlotChunk(samples);
+  client.onFbdSample = (sample) => {
+    const ui = useUiStore.getState();
+    // Ignorovat zpožděný vzorek pro již nesledované těleso (přepnutí cíle).
+    if (sample.bodyId === ui.fbdBodyId) ui.setFbdForces(sample.forces);
+  };
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
   };
@@ -129,6 +134,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     if (ops.some((op) => op.op === 'replaceDoc')) {
       ui.clearGateReadings();
       ui.clearPlotBuffer();
+      ui.clearFbd();
       renderer.clearTracer();
     }
     // Výběr nesmí ukazovat na smazané entity.
@@ -242,6 +248,11 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   renderer.vectorsEnabled = () => useUiStore.getState().showVelocityAll;
   // Globální přepínač stopy pohybu čte renderer z uiStore.
   renderer.tracerEnabled = () => useUiStore.getState().tracerEnabled;
+  // Silový diagram (cíl + síly) čte renderer z uiStore.
+  renderer.fbdState = () => {
+    const ui = useUiStore.getState();
+    return { bodyId: ui.fbdBodyId, forces: ui.fbdForces };
+  };
 
   await client.init(initialDoc);
 

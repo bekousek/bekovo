@@ -6,7 +6,7 @@ import type { Vec2 } from '@engine/core/math';
 import type { SceneDoc } from '@engine/scene/schema';
 import type { BodyState, InstrumentEvent } from '@engine/core/SimModule';
 import type { DocOp } from '@engine/scene/ops';
-import type { MainToWorker, PlotSample, SnapshotMsg, WorkerToMain } from './protocol';
+import type { FbdSample, MainToWorker, PlotSample, SnapshotMsg, WorkerToMain } from './protocol';
 
 export class SimWorkerClient {
   private worker: Worker;
@@ -20,6 +20,7 @@ export class SimWorkerClient {
   onStateSync: ((states: BodyState[]) => void) | null = null;
   onEvents: ((events: InstrumentEvent[]) => void) | null = null;
   onPlotChunk: ((samples: PlotSample[]) => void) | null = null;
+  onFbdSample: ((sample: FbdSample) => void) | null = null;
   onError: ((message: string) => void) | null = null;
 
   private pendingMove: Vec2 | null = null;
@@ -68,6 +69,9 @@ export class SimWorkerClient {
       case 'plotChunk':
         this.onPlotChunk?.(msg.samples);
         break;
+      case 'fbdSample':
+        this.onFbdSample?.(msg.sample);
+        break;
     }
   }
 
@@ -115,6 +119,10 @@ export class SimWorkerClient {
 
   setRecordBodyId(bodyId: string | null): void {
     this.send({ type: 'setRecordBodyId', bodyId });
+  }
+
+  setFbdBodyId(bodyId: string | null): void {
+    this.send({ type: 'setFbdBodyId', bodyId });
   }
 
   // --- Drag s koalescencí pohybu na frame ---------------------------------

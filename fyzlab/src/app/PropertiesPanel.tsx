@@ -283,7 +283,9 @@ function presetChips(current: { density: number; friction: number; restitution: 
 
 function BodySection({ store, body, runtime }: { store: DocumentStore; body: Body; runtime: Runtime }) {
   const plotBodyId = useUiStore((s) => s.plotBodyId);
+  const fbdBodyId = useUiStore((s) => s.fbdBodyId);
   const isTracking = plotBodyId === body.id;
+  const isFbd = fbdBodyId === body.id;
   const isPlane = body.shapes.some((s) => s.type === 'plane');
 
   const replace = (label: string, after: Body) => store.apply(cmdReplaceEntity(label, body, after));
@@ -457,6 +459,23 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
           }`}
         >
           {isTracking ? '● ' : ''}{t('plotTrack')}
+        </button>
+      )}
+
+      {body.bodyType === 'dynamic' && (
+        <button
+          type="button"
+          onClick={() => {
+            const ui = useUiStore.getState();
+            const next = isFbd ? null : body.id;
+            ui.setFbdBodyId(next);
+            runtime.client.setFbdBodyId(next);
+          }}
+          className={`w-full rounded-lg px-2 py-1.5 text-xs transition select-none active:scale-95 ${
+            isFbd ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+          }`}
+        >
+          {isFbd ? '● ' : ''}{t('fbdTrack')}
         </button>
       )}
     </>

@@ -47,6 +47,21 @@ v `InstrumentsModule.tick()` (po fotobrány, po rigidu). Každý vzorek:
 `drainSamples()` → worker posílá `plotChunk`; uiStore drží `plotBuffer`.
 Při `engine.load()` / `build()` se buffer i targetBodyId vynulují.
 
+## FBD — silový diagram (`src/engine/rigid/fbd.ts`, F2-D)
+
+RigidModule vzorkuje silový rozklad jednoho tělesa (`fbdBodyId`) každých
+`FBD_EVERY = 12` tiků (~10 Hz). V `tick()` se pro cílové těleso sbírají
+složky **v okamžiku jejich výpočtu**: `gravity` (= m·g, dopočítané — Rapier
+gravitaci aplikuje vnitřně), `buoyancy` + `drag` (z air loopu, oddělené),
+`spring` (f·û z každé připojené pružiny). Vektor je v newtonech ve světových
+osách. `drainFbdSample()` → worker posílá `fbdSample`; uiStore drží
+`fbdForces`, renderer kreslí přes `FbdLayer`. Vzorek nese jen vektory (ne
+působiště): render kreslí **všechny šipky z těžiště** (učebnicový diagram
+bodového tělesa) a kotví je na živou interpolovanou pózu, takže nezaostávají
+za pohybem. Délky jsou normované (největší síla = pevná délka na obrazovce);
+magnitudy v N vypisuje `FbdPanel`. `setFbdBodyId(id)` se nuluje při `build()`
+(reload scény) — stejně jako Recorder.
+
 ## Přístroje (`src/engine/instruments/InstrumentsModule.ts`)
 
 Fotobrána = úsečka podél lokální osy y (entita `instrument`, typ
@@ -83,13 +98,13 @@ fyzikálně zanedbatelné a drží graf acyklický. Osa už dnes publikuje
 Main→Worker: `init/loadScene(doc)` · `patch(DocOp[])` ·
 `control(play|pause|step)` · `setSpeed` · `pointer(dragStart/Move/End)`
 (koalescováno ≤1/frame) · `requestStateSync` · `returnBuffer` ·
-`setRecordBodyId(id|null)` (F2-C).
+`setRecordBodyId(id|null)` (F2-C) · `setFbdBodyId(id|null)` (F2-D).
 
 Worker→Main: `ready/error` · `idTable` (jen při změně množiny TĚLES; klouby
 topologii nemění!) · `snapshot` (≤60 Hz, latest-wins; v pauze po každém
 patchi) · `status {running, speed}` · `stateSync` (automaticky po
 pauze/kroku) · `plotChunk {samples}` (F2-C, ~10 Hz, drainováno po každé
-smyčce).
+smyčce) · `fbdSample {sample}` (F2-D, ~10 Hz, latest-wins silový rozklad).
 
 ## Snapshot layout (`src/engine/snapshot/layout.ts`)
 
@@ -172,6 +187,10 @@ diskriminovaná unie `body | joint`:
   `setDocLayers(doc)` po každé změně docu (klouby nejsou v idTable).
 - `VectorsLayer`: šipky rychlosti (globální přepínač + per-body
   `showVelocity`), délka = dráha za 0,15 s.
+- `TracerLayer` (F2-D): stopa pohybu dynamických těles (kruhový buffer poloh,
+  3 pásma průhlednosti); globální přepínač `tracerEnabled`.
+- `FbdLayer` (F2-D): šipky sil z těžiště vybraného tělesa, normované délky;
+  čte `fbdState()` (cíl + síly z uiStore), kreslí v metrech.
 - `OverlayLayer`: náhledy nástrojů, marquee, obrysy výběru, úchopy,
   zvýraznění vybraných kloubů; překresluje se jen při změně verze/zoomu.
 - Pozor na Pixi `arc()`: bez `moveTo` na start oblouku dokreslí spojnici
