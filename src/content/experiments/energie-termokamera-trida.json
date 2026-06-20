@@ -1,0 +1,18 @@
+{
+  "id": "energie-termokamera-trida",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Termokamera ve třídě – objevování tepla",
+  "type": "qualitative",
+  "description": "S termokamerou žáci prozkoumávají teplotu kolem sebe. Najdou nejteplejší a nejchladnější místa na obličeji, na topném tělese a ve třídě, odhalí úniky tepla (okna, dveře) i vedení tepla v elektroinstalaci pod zátěží. Porovnají, co kamera „vidí\" přes igelit (propustný pro IR) a přes sklo (nepropustné). Sledují tepelnou stopu dlaně přitisknuté na obklad, jak v čase mizí. Žáci poznají, že vše vyzařuje tepelné (infračervené) záření a že teplo se šíří a uniká – základ pro úspory energie.",
+  "materials": [
+    "termokamera",
+    "notebook se softwarem (SmartView)",
+    "igelitová taška, skleněná tabulka",
+    "topné těleso / spotřebič jako zátěž"
+  ],
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}

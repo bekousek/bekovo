@@ -1,0 +1,17 @@
+{
+  "id": "optika-zrcadlove-triky",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Zrcadlové triky – pravdivé zrcadlo a vícenásobné odrazy",
+  "type": "qualitative",
+  "description": "Pokusy se soustavami rovinných zrcadel. 1) „Pravdivé zrcadlo\": dvě zrcadla svislá k sobě pod úhlem 90° ukážou obraz, který není stranově převrácený – člověk se v něm vidí tak, jak ho vidí ostatní (a mrknutí pravým okem se objeví vpravo). 2) Počet obrazů závisí na úhlu mezi zrcadly – čím menší úhel, tím víc obrazů (jako v kaleidoskopu). 3) „Podivná tvář\": svislým proužkem zrcadel lze složit obličej ze dvou lidí. Žáci propojí zákon odrazu s počtem a polohou obrazů.",
+  "materials": [
+    "rovinná zrcadla a zrcadlové proužky",
+    "kartonové krabice / rám",
+    "úhloměr, lepicí páska"
+  ],
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}

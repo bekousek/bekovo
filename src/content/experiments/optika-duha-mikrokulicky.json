@@ -1,0 +1,18 @@
+{
+  "id": "optika-duha-mikrokulicky",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Duha bez deště – skleněné mikrokuličky",
+  "type": "qualitative",
+  "description": "Žáci nalepí (lepidlem ve spreji) skleněné mikrokuličky na černou čtvrtku a vzniklou plochu nasvítí svítilnou drženou u oka. Každá kulička funguje jako maličká kapka deště – láme a odráží světlo zpět (retroreflexe) a rozkládá ho na barvy, takže se objeví kruhová „duha\". Žáci pochopí, že duha vzniká lomem a odrazem světla v kulových kapkách a proč ji vidíme jen z určitého směru. (Stejný princip má reflexní páska a dopravní značky.)",
+  "materials": [
+    "skleněné mikrokuličky",
+    "lepidlo ve spreji",
+    "černá čtvrtka",
+    "svítilna"
+  ],
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}

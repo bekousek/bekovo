@@ -1,0 +1,17 @@
+{
+  "id": "optika-vnimani-prostoru-bryle",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Vnímání prostoru a klamavé brýle",
+  "type": "qualitative",
+  "description": "Pokusy o tom, jak vnímáme hloubku a směr. 1) Poznej vzdálenost: s jedním zavřeným okem žáci plní úkoly na odhad vzdálenosti (trefit korálkem do hrdla láhve, provléknout špejli) – zjistí, že s jedním okem je odhad hloubky výrazně horší, protože prostorové vidění závisí na obou očích (binokulárně). 2) Slalom v „opileckých\" a prismových brýlích, které posouvají či rozostřují obraz – žáci si vyzkoušejí, jak mozek spoléhá na zrak při pohybu a koordinaci. Úvod do vnímání a funkce zraku.",
+  "materials": [
+    "PET láhev, korálky, špejle, role od papíru",
+    "„opilecké\" brýle a brýle s prismy",
+    "kužely, podlahová páska"
+  ],
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}
