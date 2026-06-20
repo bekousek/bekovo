@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-lotosovy-efekt",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Lotosový efekt – smáčivost povrchů",
+  "type": "qualitative",
+  "description": "Žáci kapátkem kápnou vodu na různé povrchy (list kapusty/zelí, sklíčko, plast, textilii s nanoimpregnací, „magický písek\") a pozorují tvar kapek. Na smáčivých površích se kapka rozlije (malý kontaktní úhel), na vodoodpudivých (hydrofobních) zůstane kulatá a koulí se i s nečistotami pryč – lotosový efekt. Porovnají běžnou a nanoimpregnovanou textilii a vysvětlí, jak mikrostruktura povrchu ovlivňuje smáčivost a samočisticí schopnost.",
+  "materials": [
+    "list kapusty/zelí",
+    "sklíčko, plast",
+    "textilie s nanoimpregnací a bez ní",
+    "kapátko, voda"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2015",
+    "pdf": "dilny-heureky-2015.pdf"
+  }
+}

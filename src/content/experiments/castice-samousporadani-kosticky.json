@@ -1,0 +1,17 @@
+{
+  "id": "castice-samousporadani-kosticky",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Model samouspořádání – shlukování plovoucích kostiček",
+  "type": "qualitative",
+  "description": "V misce s vodou žáci nechají plavat malé plastové kostičky (např. LEGO) a sledují, jak se samy přitahují a shlukují do větších útvarů (díky povrchovému napětí a tvaru hladiny kolem nich). Slouží jako jednoduchý model samouspořádání (self-assembly), kterým se v přírodě i v nanotechnologiích spojují drobné částice do uspořádaných struktur bez vnějšího „skládání\". Žáci diskutují, proč se částice uspořádají samy.",
+  "materials": [
+    "miska s vodou",
+    "malé plastové kostičky (LEGO)",
+    "pinzeta"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2015",
+    "pdf": "dilny-heureky-2015.pdf"
+  }
+}
