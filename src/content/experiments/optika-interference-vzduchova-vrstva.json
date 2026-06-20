@@ -1,0 +1,18 @@
+{
+  "id": "optika-interference-vzduchova-vrstva",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Interference na tenké vzduchové vrstvě",
+  "type": "qualitative",
+  "description": "Dvě skleněná sklíčka přiložená k sobě svírají velmi tenkou vzduchovou vrstvu proměnné tloušťky. Posvítíme-li na ně rozšířeným (rozostřeným) svazkem laserového ukazovátka a obraz promítneme na bílý papír, objeví se tmavé a světlé interferenční proužky. Žáci sledují, jak se proužky mění s tloušťkou vrstvy (tlakem na sklíčka), a názorně poznají, že světlo se chová jako vlna, která se může zesilovat i zeslabovat. (Pozor na bezpečnou práci s laserem.)",
+  "materials": [
+    "laserové ukazovátko (zajištěné)",
+    "rozptylka nebo rozostření svazku",
+    "dvě skleněná sklíčka",
+    "bílý papír"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}

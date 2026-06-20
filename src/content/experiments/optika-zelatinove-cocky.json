@@ -1,0 +1,19 @@
+{
+  "id": "optika-zelatinove-cocky",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Želatinové čočky a optické vlákno",
+  "type": "qualitative",
+  "description": "Levná náhrada optických sad pro laboratorní práci: žáci si z ztuhlé potravinářské želatiny (nalité do hlubokého plechu) vyřežou podle kruhových šablon spojky i rozptylky. Na čočkách pak svazkem laseru (třípaprskovým ukazovátkem) ukážou lom paprsků a změří ohniskovou vzdálenost spojky. Z dlouhého proužku želatiny vznikne „optické vlákno\", v němž paprsek postupuje díky úplnému (totálnímu) odrazu na rozhraní želatina–vzduch. Názorné a hmatatelné spojení lomu a úplného odrazu.",
+  "materials": [
+    "potravinářská želatina v prášku",
+    "hrnec a vařič, hluboký plech",
+    "kruhové šablony, nůž",
+    "třípaprskový laser / ukazovátko",
+    "úhloměr"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}
