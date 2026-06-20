@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-leidenfrost",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Leidenfrostovy kapky na horké plotně",
+  "type": "qualitative",
+  "description": "Žáci (resp. učitel) kápnou vodu na mírně horkou plotnu – kapka se rychle vypaří. Na velmi rozpálené plotně se ale chová úplně jinak: vytvoří kuličku, která dlouho „tančí\" a klouže po povrchu, aniž by se hned vypařila. Pod kapkou totiž okamžitě vznikne tenký polštář páry, který kapku nadnáší a izoluje od plotny (Leidenfrostův jev). Žáci porovnají vodu a líh (různé Leidenfrostovy teploty) a vysvětlí roli parního polštáře. Pozor na horký povrch – pod dohledem, s ochrannými brýlemi.",
+  "materials": [
+    "elektrická plotýnka / pánev",
+    "kapátko",
+    "voda a etanol",
+    "ochranné brýle, žáruvzdorná podložka"
+  ],
+  "source": {
+    "label": "VNUF 2016",
+    "pdf": "vnuf-2016.pdf"
+  }
+}
