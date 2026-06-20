@@ -1,0 +1,18 @@
+{
+  "id": "tepelne-model-spalovaci-motor",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Model spalování s piezozapalovačem",
+  "type": "qualitative",
+  "description": "Do víčka od kinofilmu (s dvojicí drátků od piezozapalovače) žáci kápnou trochu lihu, který se odpaří. Piezojiskra pak směs lihových par a vzduchu zapálí a prudká expanze plynů víčko „vystřelí\". Demonstrace, jak rychlé spálení paliva a expanze horkých plynů vykoná práci – základní princip spalovacího motoru (sání–komprese–zážeh–expanze). Provádět opatrně, v malém množství, pod dohledem.",
+  "materials": [
+    "piezo zapalovač s drátky",
+    "víčko od kinofilmu",
+    "líh",
+    "plastová podložka"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
+}
