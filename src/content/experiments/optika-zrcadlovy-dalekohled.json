@@ -1,0 +1,18 @@
+{
+  "id": "optika-zrcadlovy-dalekohled",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Model zrcadlového dalekohledu",
+  "type": "qualitative",
+  "description": "Žáci sestaví zjednodušený model zrcadlového (Newtonova) dalekohledu: duté (konkávní) zrcadlo soustředí světlo z dalekého předmětu, malé rovinné sekundární zrcátko obraz vyvede do boku k oku/okuláru. Vyzkoušejí zarovnání zrcadel a najdou ohnisko (např. zaostřením obrazu vzdáleného okna nebo svazku laseru). Pochopí, proč velké astronomické dalekohledy používají zrcadla místo čoček (lépe se vyrábějí ve velkých rozměrech, nemají barevnou vadu) a jak vzniká obraz vzdálených objektů.",
+  "materials": [
+    "duté (konkávní) zrcadlo",
+    "malé rovinné sekundární zrcátko",
+    "držáky, měřítko",
+    "laserové ukazovátko (na seřízení)"
+  ],
+  "source": {
+    "label": "VNUF 2020",
+    "pdf": "vnuf-2020.pdf"
+  }
+}

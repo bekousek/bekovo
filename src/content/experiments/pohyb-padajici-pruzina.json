@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-padajici-pruzina",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Padající pružina (Slinky)",
+  "type": "qualitative",
+  "description": "Žáci podrží pružinu Slinky svisle za horní konec, nechají ji volně viset a pak ji pustí. Pomalu natočeným (slow-motion) videem zjistí překvapivý výsledek: zatímco horní konec padá, spodní konec ještě chvíli zůstává na místě – pohne se až ve chvíli, kdy se k němu „stáhne\" zhroucení pružiny. Důvod: dokud trvá napětí pružiny, drží spodek nahoře proti tíze; padá zatím jen těžiště celé pružiny. Z videa lze odhadnout, jak dlouho spodek setrvá. Názorná ukázka rozdílu mezi pohybem částí tělesa a pohybem těžiště.",
+  "materials": [
+    "pružina Slinky (případně se závažím)",
+    "stojan",
+    "chytrý telefon (slow-motion)",
+    "pravítko"
+  ],
+  "source": {
+    "label": "VNUF 2020",
+    "pdf": "vnuf-2020.pdf"
+  }
+}

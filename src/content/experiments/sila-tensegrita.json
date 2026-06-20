@@ -1,0 +1,17 @@
+{
+  "id": "sila-tensegrita",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Tensegrita – stavba a stabilita",
+  "type": "qualitative",
+  "description": "Žáci postaví model tensegrity – konstrukci, ve které tuhé tyčky (špejle) na sebe vůbec nedosednou a drží pohromadě jen napnutými provázky/gumičkami, takže „tyčky levitují\" v síti tahů. Zkoumají, proč je celek překvapivě pevný a stabilní: tyčky jsou namáhány tlakem, provázky tahem a síly se v uzlech vyrovnávají. Po zatížení sledují, jak se síly přerozdělí a kde model povolí. Názorná ukázka rovnováhy a rozkladu sil v lehkých konstrukcích (využití v architektuře a biologii).",
+  "materials": [
+    "špejle / dřevěné tyčky",
+    "provázek a gumičky",
+    "nůžky, závaží na zatížení"
+  ],
+  "source": {
+    "label": "VNUF 2020",
+    "pdf": "vnuf-2020.pdf"
+  }
+}
