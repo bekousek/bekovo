@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-viskozita-vody",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Jednoduché měření viskozity kapalin",
+  "type": "measurement",
+  "description": "Žáci porovnají „tekutost\" (viskozitu) různých kapalin (voda, olej, sirup, saponát). Měří buď dobu, za kterou kulička známé velikosti klesne danou hloubkou v kapalině (čím viskóznější kapalina, tím pomaleji), nebo dobu vytékání stejného objemu otvorem. Výsledky porovnají mezi kapalinami a sledují vliv teploty (teplá kapalina je řidší). U vody mohou výsledek srovnat s tabulkovou hodnotou. Úvod do pojmu vnitřní tření kapalin.",
+  "materials": [
+    "odměrný válec / vysoká nádoba",
+    "kuličky známého průměru",
+    "stopky, teploměr",
+    "různé kapaliny (voda, olej, sirup)"
+  ],
+  "source": {
+    "label": "VNUF 2017",
+    "pdf": "vnuf-2017.pdf"
+  }
+}
