@@ -1,0 +1,17 @@
+{
+  "id": "energie-teplota-plamene",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Teplota plamene svíčky a hořáku",
+  "type": "measurement",
+  "description": "Termočlánkem (odolný teplotní senzor) žáci změří teplotu v různých částech plamene svíčky a plynového hořáku – zjistí, že plamen není všude stejně horký (nejchladnější bývá uvnitř/u knotu, nejteplejší na okraji svrchní části) a porovnají svíčku s hořákem. Praktická ukázka měření vysokých teplot a struktury plamene.",
+  "materials": [
+    "termočlánek s měřicím přístrojem",
+    "svíčka",
+    "plynový hořák"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mereni-fotbalovy-mic",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Měření fotbalového míče – obvod, průměr, objem",
+  "type": "measurement",
+  "description": "Soubor měření na jednom známém předmětu. 1) Obvod: žáci změří obvod míče provázkem na více místech a určí průměrnou hodnotu, kterou porovnají s normou FIFA. 2) Průměr: změří přímo mezi dvěma rovnými deskami a zároveň jej dopočítají z obvodu (d = o/π) – obě metody porovnají. 3) Objem: stanoví ho výpočtem z poloměru a nezávisle z objemu vody vytlačené při ponoření, a diskutují, proč se výsledky liší. Procvičení měření délky a objemu, průměrování a kritického porovnání metod.",
+  "materials": [
+    "fotbalový míč",
+    "provázek, pásmo / metr",
+    "dvě rovné desky, pravítko",
+    "kbelík s vodou, odměrný válec"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mereni-hustota-mise-planeta",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Mise na planetu X – měření hustoty vzorků",
+  "type": "measurement",
+  "description": "Badatelská aktivita s příběhem: žáci jako „posádky\" přistály na neznámé planetě a mají určit, z čeho jsou nalezené vzorky. U každého vzorku změří hmotnost (digitální váhou) a objem (odměrným válcem, u nepravidelných těles ponořením), vypočítají hustotu a podle tabulek odhadnou materiál. Výsledky porovnají mezi posádkami a prezentují. Procvičení měření hmotnosti a objemu, výpočtu hustoty i práce s nejistotami a tabulkami.",
+  "materials": [
+    "digitální váha",
+    "odměrný válec, kádinka",
+    "sada závaží",
+    "vzorky (kámen, křída, kov…)",
+    "pravítko"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

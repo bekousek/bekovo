@@ -1,0 +1,17 @@
+{
+  "id": "skupenstvi-var-tlak",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody a tlak – je teplota varu vždy 100 °C?",
+  "type": "measurement",
+  "description": "Žáci zahřívají vodu a tyčovým teploměrem sledují teplotu při varu – zjistí, že během varu teplota dál neroste, ale ustálí se (teplotní plato). Diskutují, že hodnota teploty varu závisí na tlaku: za normálního tlaku je to 100 °C, ale v horách (nižší tlak) voda vře dříve a v tlakovém hrnci (vyšší tlak) později. Spojení skupenského děje var s tlakem okolního vzduchu.",
+  "materials": [
+    "tyčový teploměr",
+    "rychlovarná konvice nebo vařič",
+    "voda"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

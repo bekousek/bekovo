@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-povrchove-napeti",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Povrchové napětí – plovoucí špendlíky a měření z kapky",
+  "type": "qualitative",
+  "description": "Pokusy ukazující, že hladina vody se chová jako pružná blána. Z tenkého měděného drátu žáci vytvoří „komára\" a opatrně ho položí na vodu; vyzkoušejí také nechat plavat ocelové špendlíky (které jsou hustší než voda) a pozorují, jak je drží povrchové napětí a jak ho poruší kapka saponátu. Pro starší: z fotografie kapky vody na skle (s kalibračním měřítkem) lze povrchové napětí i kvantitativně určit a diskutovat přesnost. Propojení vlastností kapalin s pozorováním i měřením.",
+  "materials": [
+    "měděný drát 0,2–0,35 mm",
+    "ocelové špendlíky, pinzeta",
+    "miska s vodou, saponát",
+    "mobil, kapátko, skleněná destička (pro variantu s fotografií)"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}
