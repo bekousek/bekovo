@@ -1,0 +1,18 @@
+{
+  "id": "magnetismus-jazyckove-rele",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Model jazýčkového relé z ocelových pásků",
+  "type": "qualitative",
+  "description": "Z dvou tenkých ocelových (feromagnetických) pásků žáci sestaví model jazýčkového kontaktu: pásky se v magnetickém poli zmagnetují, na koncích vzniknou opačné póly a pásky se k sobě přitáhnou – kontakt se sepne. Po oddálení magnetu se pásky díky pružnosti rozpojí. Lze zapojit do obvodu s žárovičkou/zdrojem a ukázat bezdotykové spínání magnetem (princip jazýčkového relé a magnetických čidel).",
+  "materials": [
+    "tenké ocelové pásky",
+    "malý permanentní magnet",
+    "vodiče",
+    "zdroj a žárovička (volitelně)"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

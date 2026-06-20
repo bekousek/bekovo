@@ -1,0 +1,18 @@
+{
+  "id": "magnetismus-diamagneticka-levitace",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Diamagnetická levitace magnetu nad uhlíkem",
+  "type": "qualitative",
+  "description": "Malý neodymový magnet se nadlehčí silným magnetem umístěným nad ním a stabilizuje se mezi dvěma bloky pyrolytického uhlíku (grafitu), který je diamagnetický – slabě se odpuzuje od magnetického pole. Magnet pak volně levituje. Demonstrace diamagnetismu a podmínek stabilní rovnováhy (Earnshawův teorém: samotná soustava permanentních magnetů stabilní není, diamagnetikum ji stabilizuje). Žáci hledají správnou výšku a polohu.",
+  "materials": [
+    "silný neodymový magnet (nadlehčení)",
+    "malý neodymový magnet",
+    "bloky pyrolytického uhlíku / grafitu",
+    "stojan"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

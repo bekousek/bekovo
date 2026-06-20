@@ -1,0 +1,18 @@
+{
+  "id": "optika-prekvapive-iluze",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Překvapivé optické a percepční iluze",
+  "type": "qualitative",
+  "description": "Sada „magických\" iluzí ukazujících, že mozek si obraz dotváří a nechá se oklamat. Jastrowova bumerangová iluze: dva zcela shodné zakřivené tvary se po přiložení nad sebe jeví různě velké kvůli vnímání perspektivy. Spojující se prstence: dva seříznuté a slepené prstence při otáčení zdánlivě splývají a rozpojují se (limity časového rozlišení oka). Sugiharova zrcadlová iluze: papírový či 3D vytištěný objekt vypadá v zrcadle úplně jinak (např. kruh × čtverec), protože mozek „dopočítává\" tvar, který nevidí. Vhodné jako motivace k tématu oko a vnímání.",
+  "materials": [
+    "papír, nůžky, šablony",
+    "rovinné zrcadlo",
+    "polystyrenové věnce / prstence",
+    "otočná podložka (např. dortová forma)"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}
