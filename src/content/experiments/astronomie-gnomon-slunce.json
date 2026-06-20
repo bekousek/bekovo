@@ -1,0 +1,18 @@
+{
+  "id": "astronomie-gnomon-slunce",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Gnómon – měření výšky Slunce nad obzorem",
+  "type": "measurement",
+  "description": "Žáci postaví gnómon (svisle upevněnou tyč na vodorovné podložce), změří délku jejího stínu a ze známé výšky tyče určí výšku Slunce nad obzorem (úhel pod nímž svítí) – buď výpočtem z poměru, nebo narýsováním pravoúhlého trojúhelníku. Opakovaným měřením během dne zaznamenají, jak se výška Slunce a délka stínu mění (nejkratší stín v poledne). Spojení astronomie (zdánlivý pohyb Slunce) s geometrií a měřením.",
+  "materials": [
+    "kolík / svislá tyč",
+    "měřicí pásmo",
+    "vodováha, kompas",
+    "papír na záznam"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
+}
