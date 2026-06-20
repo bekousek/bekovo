@@ -1,0 +1,11 @@
+{
+  "id": "astronomie-tranzit-exoplanety",
+  "subtopicId": "dalsi-vesmirna-telesa",
+  "topicId": "astronomie",
+  "title": "Analýza světelné křivky tranzitu exoplanety",
+  "description": "Žáci pracují s grafem světelné křivky hvězdy, jejíž jas mírně poklesne pokaždé, když přes ni přejde (tranzituje) její planeta. Z grafu odečtou periodu (jak často pokles nastává = oběžná doba planety) a hloubku poklesu jasu, z níž odhadnou poměr velikostí planety a hvězdy a tedy přibližný poloměr planety. Žáci tak na reálném principu pochopí, jak astronomové objevují exoplanety, aniž by je přímo viděli. Vhodné jako badatelská úloha s pracovním listem.",
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
+}
