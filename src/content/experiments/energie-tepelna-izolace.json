@@ -1,0 +1,18 @@
+{
+  "id": "energie-tepelna-izolace",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Tepelná izolace v praxi – okno a pěna",
+  "type": "measurement",
+  "description": "Žáci porovnávají, jak různá řešení omezují únik tepla. 1) Model okna: termokamerou (nebo teploměrem) srovnají únik tepla přes jednoduché sklo a přes dvojsklo se vzduchovou mezerou – dvojsklo izoluje výrazně lépe. 2) Vliv pěny: do dvou nádob nalijí stejně teplou vodu, jednu pokryjí vrstvou mycí pěny, a sledují, že voda pod pěnou chladne pomaleji (pěna obsahuje vzduch, který špatně vede teplo). Žáci vyvodí, proč izolanty obsahují vzduchové bublinky, a propojí to s úsporami energie v domech.",
+  "materials": [
+    "termokamera nebo teploměry",
+    "model okna (jednoduché sklo a dvojsklo)",
+    "dvě nádoby, teplá voda",
+    "mycí pěna, zdroj tepla (fén)"
+  ],
+  "source": {
+    "label": "VNUF 2023",
+    "pdf": "vnuf-2023.pdf"
+  }
+}
