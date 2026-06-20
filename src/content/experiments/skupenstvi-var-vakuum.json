@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-var-vakuum",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody za sníženého tlaku",
+  "type": "measurement",
+  "description": "Do vakuové dózy s pumpou žáci vloží nádobku s horkou (ne vroucí) vodou a odsají vzduch. Při dostatečném snížení tlaku se voda znovu rozvaří, aniž by se zahřívala – dokonce může vřít i voda jen mírně teplá. Bezdrátovým teplotním čidlem zaznamenají teplotu v čase a ukáží, že teplota varu klesá s tlakem. Přesvědčivý důkaz, že „100 °C\" platí jen za normálního tlaku (souvislost s varem vody ve vysokých horách).",
+  "materials": [
+    "vakuová dóza s pumpou",
+    "horká voda",
+    "bezdrátové teplotní čidlo (Vernier Go Wireless Temp)",
+    "tablet / telefon"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2014",
+    "pdf": "dilny-heureky-2014.pdf"
+  }
+}

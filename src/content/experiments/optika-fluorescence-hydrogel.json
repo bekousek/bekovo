@@ -1,0 +1,19 @@
+{
+  "id": "optika-fluorescence-hydrogel",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Fluorescence hydrogelu pod laserem",
+  "type": "qualitative",
+  "description": "Na barevné hydrogelové perly žáci v zatemněné učebně posvítí postupně modrým (405 nm), zeleným (532 nm) a červeným (630 nm) laserem a sledují, kdy perla sama začne svítit jinou barvou než dopadající světlo – fluoreskuje. Zjistí, že fluorescenci vyvolá jen světlo s dostatečně krátkou vlnovou délkou (vyšší energií fotonů): modrý a zelený laser ano, červený obvykle ne. Úvod do souvislosti barva–vlnová délka–energie světla. (Pozor na bezpečnou práci s lasery.)",
+  "materials": [
+    "barevné hydrogelové perly",
+    "modrý laser 405 nm",
+    "zelený laser 532 nm",
+    "červený laser 630 nm",
+    "zatemněná učebna"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2014",
+    "pdf": "dilny-heureky-2014.pdf"
+  }
+}
