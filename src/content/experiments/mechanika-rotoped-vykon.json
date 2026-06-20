@@ -1,0 +1,18 @@
+{
+  "id": "mechanika-rotoped-vykon",
+  "subtopicId": "vykon",
+  "topicId": "mechanika",
+  "title": "Rotoped – práce a výkon člověka",
+  "type": "measurement",
+  "description": "Žáci šlapou na rotopedu (nebo kole na trenažéru) s elektrickou zátěží a měří čas, případně otáčky a elektrický příkon zátěže (žárovka/odpor) wattmetrem. Z toho odhadnou mechanický výkon, který člověk podává, a porovnají ho s běžnými hodnotami (trvale ~100 W, krátkodobě i přes 300 W). Mohou určit i účinnost přeměny na elektřinu. Názorné propojení pojmů práce, výkon a účinnost s vlastní fyzickou aktivitou.",
+  "materials": [
+    "rotoped / kolo na trenažéru s generátorem",
+    "wattmetr nebo měřič spotřeby",
+    "rezistivní zátěž (žárovka)",
+    "stopky"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}
