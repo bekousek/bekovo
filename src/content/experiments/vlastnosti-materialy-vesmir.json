@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-materialy-vesmir",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Materiály pro kosmické lodě – testy vlastností",
+  "type": "qualitative",
+  "description": "Skupiny dostanou sadu vzorků různých materiálů (ideálně sada ESA „Spacecraft materials\", ale postačí i běžné vzorky kovů, plastů a fólií) a systematicky u nich testují vlastnosti důležité pro vesmír: zda jsou magnetické (magnetem), zda vedou elektrický proud (multimetrem), mechanickou odolnost a hmotnost. Na základě naměřených vlastností pak zdůvodní, který materiál by se hodil na danou část kosmické lodi. Badatelské porovnávání vlastností látek a jejich praktická volba.",
+  "materials": [
+    "sada vzorků materiálů (ESA kit nebo běžné vzorky)",
+    "magnet",
+    "multimetr",
+    "smirkový papír, závaží",
+    "váha"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
+}

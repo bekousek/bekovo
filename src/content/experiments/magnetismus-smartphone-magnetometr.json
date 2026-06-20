@@ -1,0 +1,18 @@
+{
+  "id": "magnetismus-smartphone-magnetometr",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Magnetometr v mobilu – měření magnetického pole",
+  "type": "measurement",
+  "description": "Téměř každý smartphone má vestavěný magnetometr (kvůli kompasu). Žáci v aplikaci (např. Phyphox) zobrazí velikost a směr magnetické indukce; pomocí zmagnetované kancelářské sponky nebo malého magnetu nejdřív najdou, kde přesně v telefonu senzor sedí. Pak změří pole různých zdrojů a hlavně ověří, jak rychle pole klesá se vzdáleností: u pólu dlouhého magnetu zhruba jako 1/r² (při zkrácení vzdálenosti na polovinu vzroste ~4×), u krátkého magnetu (dipólu) jako 1/r³ (~8×). Dostupné kvantitativní měření magnetického pole bez speciálního čidla.",
+  "materials": [
+    "smartphone s magnetometrem (aplikace Phyphox)",
+    "kancelářská sponka, malý magnet",
+    "dlouhý a krátký tyčový magnet",
+    "metr"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2017",
+    "pdf": "dilny-heureky-2017.pdf"
+  }
+}
