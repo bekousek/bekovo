@@ -1,0 +1,18 @@
+{
+  "id": "plyny-odpor-vzduchu",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Odpor vzduchu foukáním brčkem",
+  "type": "qualitative",
+  "description": "Žáci foukají brčkem proudem vzduchu na lehké autíčko a na zavěšené kartonové plochy různé velikosti a tvaru a zkoumají, co určuje sílu odporu vzduchu. Zjistí, že odpor (a tedy výchylka či dráha) roste s rychlostí proudu, s velikostí plochy nastavené proti proudu a závisí na tvaru (aerodynamický tvar klade menší odpor). Jednoduché zkoumání odporu vzduchu a vlivu rychlosti, plochy a tvaru tělesa.",
+  "materials": [
+    "brčko",
+    "lehké autíčko",
+    "kartonové kruhy/plochy různé velikosti",
+    "nit"
+  ],
+  "source": {
+    "label": "VNUF 2021",
+    "pdf": "vnuf-2021.pdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mereni-rovnoramenne-vahy",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Rovnoramenné váhy z ramínka",
+  "type": "measurement",
+  "description": "Žáci si z ramínka na šaty, dvou sáčků a provázku vyrobí jednoduché rovnoramenné váhy. Zavěšením sáčků na stejně dlouhá ramena docílí rovnováhy a pak porovnávají hmotnosti předmětů – těžší miska klesne. Pomocí známých závaží (mincí) váhy okalibrují a změří hmotnost neznámých předmětů. Žáci poznají princip rovnoramenných vah (porovnávání hmotností) a rovnováhy na páce. Dostupná výroba měřidla hmotnosti.",
+  "materials": [
+    "ramínko na šaty",
+    "dva sáčky, provázek, háček",
+    "mince jako závaží"
+  ],
+  "source": {
+    "label": "VNUF 2021",
+    "pdf": "vnuf-2021.pdf"
+  }
+}
