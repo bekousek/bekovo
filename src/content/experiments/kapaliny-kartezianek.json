@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-kartezianek",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Karteziánek z pipety",
+  "type": "qualitative",
+  "description": "Z plastové pipety se zatíženou matičkou žáci vyrobí „potápěče\" (karteziánka), který volně plave těsně pod hladinou v PET láhvi naplněné vodou a zavřené víčkem. Když láhev stlačí, zvýšený tlak stlačí vzduchovou bublinu v pipetě, klesne objem a tím i vztlaková síla – karteziánek se potopí. Po uvolnění zase vyplave. Názorná ukázka souvislosti tlaku, objemu vzduchu, hustoty a vztlakové (Archimédovy) síly; lze ovládat potápěče „silou vůle\".",
+  "materials": [
+    "plastová pipeta",
+    "matice (závaží)",
+    "PET láhev s víčkem",
+    "voda"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
+}

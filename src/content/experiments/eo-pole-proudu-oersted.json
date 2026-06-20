@@ -1,0 +1,18 @@
+{
+  "id": "eo-pole-proudu-oersted",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Magnetické pole elektrického proudu (Oersted, solenoid)",
+  "type": "qualitative",
+  "description": "Série pokusů ukazujících, že kolem vodiče s proudem vzniká magnetické pole. 1) Oerstedův pokus: neodymové magnety zavěšené na niti nad přímým vodičem se při zapnutí proudu natočí kolmo k vodiči – a po přepólování opačně. 2) Astatická magnetka (dvě opačně orientované dvojice magnetů) je citlivá jen na pole vodiče, ne na pole Země, a názorně ukáže jeho směr. 3) Solenoid (cívka ~500 závitů): magnetka se vně cívky k pólu přitahuje (jako u tyčového magnetu), uvnitř se jen natáčí podél osy – ukazuje rovnoběžné pole. Spojení elektřiny a magnetismu (základ elektromagnetu).",
+  "materials": [
+    "neodymové magnety, nit",
+    "měděný drát / vodiče",
+    "solenoid ~500 závitů",
+    "plochá baterie 4,5 V, žárovka 3,5 V"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
+}
