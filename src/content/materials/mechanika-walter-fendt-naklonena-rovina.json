@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-walter-fendt-naklonena-rovina",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Walter Fendt: Nakloněná rovina — rozklad sil (CZ)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 applet v češtině zobrazuje rozklad síly tíhy na složku rovnoběžnou a kolmou k nakloněné rovině. Umožňuje měnit úhel sklonu a hmotnost tělesa a sledovat velikosti složek síly i výslednou práci potřebnou k přemístění tělesa. Propojuje fyzikální práci W = F · s s jednoduchými stroji.",
+  "url": "https://www.walter-fendt.de/html5/phcz/inclinedplane_cz.htm"
+}

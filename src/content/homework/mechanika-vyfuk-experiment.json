@@ -1,0 +1,11 @@
+{
+  "id": "mechanika-vyfuk-experiment",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Výfuk: experimentální domácí úloha na téma síla a pohyb",
+  "description": "Výfuk je korespondenční fyzikální seminář MFF UK pro žáky 2. stupně ZŠ. Každá ze šesti ročních sérií obsahuje experimentální úlohu E, jejímž cílem je provést zadaný pokus doma (v kuchyni nebo s dostupnými pomůckami), napsat protokol a odeslat řešení. Témata E-úloh zahrnují mechaniku, síly a pohyb — přímé přesahy k fyzikální práci W = F · s. Žák navrhuje metodu měření, provede sérii měření, zpracuje výsledky a sepíše zprávu ve formě krátkého vědeckého článku. Doporučujeme procházet archiv a vybírat E-úlohy zaměřené na mechaniku.",
+  "source": {
+    "label": "Výfuk (korespondenční seminář MFF UK pro ZŠ)",
+    "url": "https://vyfuk.org/ulohy/archiv"
+  }
+}

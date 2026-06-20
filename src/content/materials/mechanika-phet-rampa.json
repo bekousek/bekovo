@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-phet-rampa",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "PhET: Rampa — Síla, Energie, Práce",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET (česky), kde žáci tlačí předměty domácnosti po nakloněné rovině a sledují grafy síly, energie a práce v reálném čase. Umožňuje měnit úhel sklonu, hmotnost předmětu a třecí sílu. Přímo vizualizuje vztah W = F · s a ukazuje, jak konaná práce závisí na velikosti síly a ujeté vzdálenosti.",
+  "url": "https://phet.colorado.edu/cs/simulations/the-ramp"
+}
