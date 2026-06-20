@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-solarni-energie",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Energie slunečního záření – solární stavebnice",
+  "type": "qualitative",
+  "description": "Žáci zkoumají solární (fotovoltaické) panely a hračky: multimetrem měří napětí a proud panelu při různém osvětlení, sklonu a zastínění a zjišťují, na čem výkon závisí. S solární nabíječkou a akumulátorem ukážou, že vyrobenou energii lze uložit a využít později (i když Slunce nesvítí). Vysvětlí přeměnu zářivé energie na elektrickou a roli fotovoltaiky mezi obnovitelnými zdroji. Vhodné jako projektová úloha.",
+  "materials": [
+    "solární panely / solární hračky",
+    "solární nabíječka a akumulátor",
+    "multimetr",
+    "zdroj světla / slunce"
+  ],
+  "source": {
+    "label": "VNUF 2014",
+    "pdf": "vnuf-2014.pdf"
+  }
+}
