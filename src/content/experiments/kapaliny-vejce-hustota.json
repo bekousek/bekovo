@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-vejce-hustota",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Vejce ve vodě – stáří, hustota a slaná voda",
+  "type": "qualitative",
+  "description": "Dvě badatelské úlohy s vejcem ve sklenici vody. 1) Jak staré je vejce: čerstvé vejce klesne ke dnu, starší se postaví nebo vyplave, protože stárnutím roste vzduchová bublina uvnitř a klesá průměrná hustota vejce. 2) Nauč vejce plovat: do vody s potopeným vejcem žáci přidávají sůl, až vejce vyplave – slaná voda má větší hustotu a víc nadnáší. Učitel propojí s plaváním v rybníce vs. v moři. Žáci sami formulují závěr; pro mladší stačí na úrovni pozorování (bez Archimédova zákona).",
+  "materials": [
+    "sklenice s vodou",
+    "vejce různého stáří",
+    "sůl",
+    "lžíce"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

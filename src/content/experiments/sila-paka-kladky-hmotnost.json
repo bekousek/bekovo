@@ -1,0 +1,18 @@
+{
+  "id": "sila-paka-kladky-hmotnost",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Páka a kladky – urči hmotnost vyvážením",
+  "type": "measurement",
+  "description": "Žáci pomocí jednoduchých strojů určí hmotnost neznámého předmětu (svazek klíčů). 1) Dvojzvratnou páku vyváží známými závažími a z délek ramen a rovnováhy momentů sil dopočítají hmotnost. 2) Jednoduchým kladkostrojem (pevná + volná kladka) ukážou, že na zvednutí stačí menší síla (za cenu delší dráhy), a porovnají postupy. Procvičení rovnováhy na páce (moment síly), funkce kladek a měření hmotnosti nepřímou metodou.",
+  "materials": [
+    "páka (tyč s podpěrou)",
+    "pevná a volná kladka, provázek",
+    "sada závaží (10 g)",
+    "měřený předmět (svazek klíčů)"
+  ],
+  "source": {
+    "label": "VNUF 2022",
+    "pdf": "vnuf-2022.pdf"
+  }
+}

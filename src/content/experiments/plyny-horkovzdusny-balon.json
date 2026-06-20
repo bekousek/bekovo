@@ -1,0 +1,18 @@
+{
+  "id": "plyny-horkovzdusny-balon",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Horkovzdušný balón ve třídě",
+  "type": "qualitative",
+  "description": "Žáci slepí lehký balón z izotermické (záchranné) fólie nebo tenkých sáčků a horkovzdušnou pistolí do něj naženou horký vzduch. Po naplnění balón vzlétne. Žáci vysvětlí proč: zahřátý vzduch se roztáhne, je řidší (menší hustota) než okolní studený vzduch, a proto ho vztlaková síla nadnáší – stejně jako nadnáší lehčí těleso v kapalině. Spojení teploty, hustoty a vztlaku v plynech (princip horkovzdušných balonů).",
+  "materials": [
+    "horkovzdušná pistole",
+    "izotermická fólie / tenké sáčky",
+    "izolační páska, lehký drát",
+    "nůžky"
+  ],
+  "source": {
+    "label": "VNUF 2020",
+    "pdf": "vnuf-2020.pdf"
+  }
+}

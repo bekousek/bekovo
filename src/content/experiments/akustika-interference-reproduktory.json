@@ -1,0 +1,18 @@
+{
+  "id": "akustika-interference-reproduktory",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Interference zvuku ze dvou reproduktorů",
+  "type": "measurement",
+  "description": "Dva stejné reproduktory připojené k jednomu generátoru vydávají tentýž tón. Žáci procházejí prostorem před nimi (nebo měří hlukoměrem v mobilu na řadě míst) a zjistí, že se pravidelně střídají místa, kde je zvuk hlasitý (maxima) a kde téměř neslyšitelný (minima). V maximech se vlny z obou reproduktorů setkávají ve fázi a sčítají, v minimech v protifázi a ruší. Žáci tak na zvuku názorně poznají interferenci vlnění a souvislost rozestupu maxim s vlnovou délkou. (Princip aktivního potlačení hluku.)",
+  "materials": [
+    "dva stejné reproduktory",
+    "generátor tónů a zesilovač",
+    "hlukoměr v mobilu / mikrofon",
+    "metr"
+  ],
+  "source": {
+    "label": "VNUF 2023",
+    "pdf": "vnuf-2023.pdf"
+  }
+}

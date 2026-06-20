@@ -1,0 +1,18 @@
+{
+  "id": "akustika-rychlost-zvuku-tyce",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Rychlost zvuku v pevných tyčích",
+  "type": "measurement",
+  "description": "Žáci upnou tyč (kovovou, plastovou) do svěráku a podélným třením kalafunovaným hadříkem ji rozezní vysokým tónem (podélné kmity). Aplikací v mobilu (analyzátor spektra, např. Spectroid) změří rezonanční frekvenci tónu a ze známé délky tyče určí rychlost zvuku v daném materiálu. Porovnají různé materiály a zjistí, že v pevných látkách (zvlášť v kovech) se zvuk šíří mnohem rychleji než ve vzduchu. Spojení rezonance, vlnové délky a rychlosti šíření vlnění.",
+  "materials": [
+    "mobil s analyzátorem spektra",
+    "svěrák",
+    "kovové a plastové tyče",
+    "kalafuna / hadřík, metr"
+  ],
+  "source": {
+    "label": "VNUF 2022",
+    "pdf": "vnuf-2022.pdf"
+  }
+}

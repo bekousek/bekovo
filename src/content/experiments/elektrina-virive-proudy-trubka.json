@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-virive-proudy-trubka",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Vířivé proudy brzdí pohyb (magnet v trubce)",
+  "type": "qualitative",
+  "description": "Soubor pokusů, kde vířivé proudy brzdí pohyb magnetu. 1) Závod magnetů v trubkách: neodymový magnet padá měděnou a hliníkovou trubkou výrazně pomaleji než plastovou (a než volně) – padající magnet indukuje v kovu vířivé proudy, jejichž pole se podle Lenzova zákona brání změně a magnet brzdí. 2) Magnet na nakloněné rovině z mědi sjíždí pomaleji než po dřevě. 3) Hliníkové „kyvadlo\" z plechovky se v blízkosti magnetu rychle utlumí. Názorná ukázka elektromagnetické indukce a Lenzova zákona.",
+  "materials": [
+    "silný neodymový magnet",
+    "trubky z mědi, hliníku a plastu",
+    "měděná deska a dřevěná/plastová deska",
+    "hliníková plechovka, nit, stopky"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}

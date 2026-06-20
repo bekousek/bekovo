@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-kapilarita",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Kapilarita – vzlínání a kapilární deprese",
+  "type": "qualitative",
+  "description": "Žáci sledují, jak se kapalina chová v tenkých trubičkách a štěrbinách. V tenkých skleněných trubičkách (nebo mezi sklíčky, v kostce cukru, v papírovém ubrousku) voda sama vzlíná do výšky – tím tenčí trubička, tím výš (kapilární elevace), protože voda sklo smáčí. Naopak v brčku ošetřeném vodoodpudivým (superhydrofobním) sprejem hladina vody klesne pod okolní úroveň (kapilární deprese), protože voda povrch nesmáčí. Žáci propojí kapilaritu se smáčivostí a povrchovým napětím (vysvětlí např. nasávání vody rostlinami či knotem).",
+  "materials": [
+    "tenké skleněné trubičky / sklíčka",
+    "plastové brčko + superhydrofobní sprej",
+    "průhledná nádoba, voda, barvivo",
+    "pravítko"
+  ],
+  "source": {
+    "label": "VNUF 2019",
+    "pdf": "vnuf-2019.pdf"
+  }
+}

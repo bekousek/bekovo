@@ -1,0 +1,17 @@
+{
+  "id": "energie-kulickodraha-loop",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Kuličkodráha – minimální výška pro smyčku (loop)",
+  "type": "measurement",
+  "description": "Na kuličkodráze se svislou kruhovou smyčkou žáci hledají nejnižší výšku startu, ze které kulička ještě bezpečně projede celou smyčkou, aniž by v horním bodě spadla. Měřením zjistí, že potřebná výška je o dost větší než poloměr smyčky (teoreticky 2,5násobek poloměru pro ideální kuličku). Porovnají měření s výpočtem ze zákona zachování energie a diskutují, proč je potřeba o něco víc (tření, valivý odpor, moment setrvačnosti kuličky). Přeměny polohové a pohybové energie v praxi.",
+  "materials": [
+    "kuličkodráha se smyčkou",
+    "kovové kuličky",
+    "metr / pravítko"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}

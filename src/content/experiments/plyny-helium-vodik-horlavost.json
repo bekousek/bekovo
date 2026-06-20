@@ -1,0 +1,18 @@
+{
+  "id": "plyny-helium-vodik-horlavost",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Helium vs. vodík – bezpečné rozlišení hořlavosti",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel) se dvěma balónky naplněnými lehkými plyny. Po přiblížení plamene na dlouhé špejli vodíkový balónek prudce shoří/vybuchne, zatímco heliový jen praskne, protože helium je nehořlavý inertní plyn. Žáci z toho vyvodí rozdíl v reaktivitě plynů a jejich využití (proč se dnes balony plní heliem, ne vodíkem). Nutné dodržet bezpečnost: ochranný štít, brýle, sluchátka, bezpečná vzdálenost, větraná místnost nebo venku.",
+  "materials": [
+    "heliový balónek",
+    "vodíkový balónek",
+    "dlouhá špejle, zapalovač",
+    "ochranný štít, brýle, rukavice, sluchátka"
+  ],
+  "source": {
+    "label": "Elixír nápadů 5",
+    "pdf": "elixir-napadu-5.pdf"
+  }
+}

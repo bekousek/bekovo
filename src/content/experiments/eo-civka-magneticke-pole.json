@@ -1,0 +1,19 @@
+{
+  "id": "eo-civka-magneticke-pole",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Magnetické pole cívky – uvnitř i vně",
+  "type": "qualitative",
+  "description": "Žáci připojí cívku ke zdroji a zmapují její magnetické pole: uvnitř cívky je pole silné a rovnoběžné (jako u tyčového magnetu), vně slabší a uzavírá se mezi póly. Směr a relativní velikost pole zjišťují malým kompasem nebo zavěšeným neodymovým magnetem (kdo má, použije čidlo magnetické indukce). Ukáže se, že cívka protékaná proudem je elektromagnet a že po vložení železného jádra pole zesílí. Spojení elektrického proudu s magnetickým polem.",
+  "materials": [
+    "cívka (např. 1200 závitů)",
+    "plochá baterie / zdroj, vodiče",
+    "kompas nebo neodymový magnet na niti",
+    "železné jádro",
+    "čidlo magnetické indukce (volitelně)"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
+}

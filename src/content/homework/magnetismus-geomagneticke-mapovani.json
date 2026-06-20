@@ -1,0 +1,11 @@
+{
+  "id": "magnetismus-geomagneticke-mapovani",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Mapování geomagnetického pole v okolí školy",
+  "description": "Dlouhodobější badatelský úkol: žáci pomocí magnetometru v mobilu (aplikace Phyphox) a GPS nasbírají na řadě míst v okolí školy hodnoty velikosti magnetické indukce a zaznamenají je s polohou do tabulky. Z dat vytvoří jednoduchou mapu pole a hledají místa s odchylkami (anomáliemi) – například u kovových konstrukcí, rozvodů nebo aut – a diskutují, co měření ruší a jak by ho zpřesnili. Spojení magnetického pole Země, práce s daty a terénního měření.",
+  "source": {
+    "label": "VNUF 2016",
+    "pdf": "vnuf-2016.pdf"
+  }
+}

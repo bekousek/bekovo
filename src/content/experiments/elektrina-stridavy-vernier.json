@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-stridavy-vernier",
+  "subtopicId": "stridavy-proud",
+  "topicId": "elektrina",
+  "title": "Měření střídavého proudu s Vernierem (žárovka, LED, výkon)",
+  "type": "measurement",
+  "description": "Sada měření odhalujících podstatu střídavého proudu pomocí čidel Vernier a Logger Pro. 1) Rozehřívání vlákna žárovky: z grafu intenzity světla žárovky napájené střídavým napětím žáci určí frekvenci blikání (vlákno nestíhá chladnout) a sledují náběh při zapnutí. 2) Žárovka vs. LED: na grafu vidí, že LED na střídavém napětí svítí jen v jedné půlperiodě (propouští proud jedním směrem), kdežto žárovka svítí v obou. 3) Výkon: současné měření okamžitého napětí a proudu a dopočet výkonu, porovnání časových průběhů veličin.",
+  "materials": [
+    "čidlo intenzity světla (TI Light Probe)",
+    "voltmetr a ampérmetr / LabQuest, Logger Pro",
+    "laboratorní zdroj",
+    "žárovka 3,5 V",
+    "bílá LED",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

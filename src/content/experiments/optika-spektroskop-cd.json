@@ -1,0 +1,18 @@
+{
+  "id": "optika-spektroskop-cd",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Spektroskop z CD",
+  "type": "qualitative",
+  "description": "CD má na povrchu velmi jemné pravidelné drážky, které fungují jako difrakční mřížka. Žáci nejdřív jen pozorují duhu na CD v bílém světle (rozklad světla, řády maxim) a vysvětlí, proč vzniká. Pak z kousku CD a kartonové krabičky se štěrbinou sestaví jednoduchý spektroskop a porovnají spektra různých zdrojů – žárovka má spojité spektrum, úsporka/LED čárové. Dostupná verze rozkladu světla a spektroskopie z odpadního CD.",
+  "materials": [
+    "CD (i kousek)",
+    "matný tmavý papír / krabička",
+    "lepicí páska, nůžky",
+    "různé zdroje světla"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
+}

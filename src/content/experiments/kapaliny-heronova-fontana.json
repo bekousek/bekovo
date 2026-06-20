@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-heronova-fontana",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Heronova fontána z PET lahví",
+  "type": "qualitative",
+  "description": "Z dvou až tří propojených PET lahví a hadiček žáci sestaví Heronovu fontánu, ve které voda sama tryská vzhůru bez čerpadla. Funguje díky rozdílu hydrostatických tlaků v propojených nádobách v různých výškách: voda padající z horní nádoby stlačuje vzduch ve spodní, a ten tlačí vodu hadičkou nahoru do fontány. Žáci sledují proudění a vysvětlí přenos tlaku mezi propojenými nádobami (i to, proč fontána časem ustane).",
+  "materials": [
+    "dvě až tři PET lahve",
+    "plastové hadičky",
+    "průchodky / spojky",
+    "tmel nebo lepidlo",
+    "voda"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}

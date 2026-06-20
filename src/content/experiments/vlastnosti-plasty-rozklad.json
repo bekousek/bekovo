@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-plasty-rozklad",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Plasty a jejich rozklad: PE vs. PVA vs. BIO",
+  "type": "qualitative",
+  "description": "Žáci porovnají chování tří druhů sáčků – běžného PE, ve vodě rozpustného PVA a kompostovatelného BIO. 1) Ve vodě: PVA sáček se ve vlažné vodě rozpustí, PE zůstává beze změny, BIO reaguje pomalu – žáci zapisují pozorování. 2) Dlouhodobý test rozkladu: kousky všech tří sáčků zakopou do květináčů s vlhkou zeminou/kompostem a podle protokolu sledují rozklad v čase. Aktivita propojuje vlastnosti materiálů s tématem odpadů a životního prostředí.",
+  "materials": [
+    "PE, PVA a BIO sáčky",
+    "misky, vlažná voda, pipeta",
+    "květináče, vlhká zemina / kompost",
+    "štítky a značkovače"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-hr-diagram",
+  "subtopicId": "vznik-a-zanik-hvezd",
+  "topicId": "astronomie",
+  "title": "Hertzsprungův–Russellův diagram z papíru",
+  "type": "group-work",
+  "description": "Žáci dostanou kartičky se skutečnými hvězdami (s údaji o jejich barvě/teplotě a jasnosti/svítivosti) a roztřídí je do velkého grafu – sestaví Hertzsprungův–Russellův (HR) diagram. Zjistí, že hvězdy se neseskupují náhodně: většina leží v pásu hlavní posloupnosti, jinde jsou obři a bílí trpaslíci. Na diagramu pak diskutují vývoj hvězd (kde se hvězda rodí, jak stárne a kde končí). Aktivita propojuje práci s daty a třídění s pochopením života hvězd.",
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}

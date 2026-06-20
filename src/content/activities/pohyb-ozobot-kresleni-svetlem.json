@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-ozobot-kresleni-svetlem",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Kreslení světlem s ozoboty (dlouhá expozice)",
+  "type": "other",
+  "description": "Žáci naprogramují ozobota (malého robota sledujícího čáru) v aplikaci OzoBlockly tak, aby za jízdy svítil danou barvou. V setmělé třídě ho pak vyfotí mobilem s ručně nastaveným dlouhým expozičním časem (např. 30 s) na stativu. Na snímku se vykreslí světelná stopa, která je vlastně trajektorií pohybu robota (lze nechat „nakreslit\" třeba vánoční stromeček). Aktivita propojuje fyziku (trajektorie, role expozice), informatiku (programování pohybu) i výtvarnou výchovu.",
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
+}

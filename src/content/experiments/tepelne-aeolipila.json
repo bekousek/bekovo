@@ -1,0 +1,18 @@
+{
+  "id": "tepelne-aeolipila",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Aeolipila – pára roztočí plechovku",
+  "type": "qualitative",
+  "description": "Žáci vyrobí jednoduchou aeolipilu (Heronovu parní kouli): do zavíčkované plechovky s trochou vody udělají dvě protilehlé dírky vyfouklé do stran a plechovku zavěsí na vlasci s obratlíkem. Po zahřátí kahanem začne otvory unikat pára a reakční síla (proti směru unikající páry) plechovku roztočí. Historicky první parní stroj (1. století n. l.). Demonstrace přeměny tepla na pohyb a reakčního pohonu (zákon akce a reakce / zachování hybnosti).",
+  "materials": [
+    "zavíčkovaná plechovka",
+    "jehla, kahan, zápalky",
+    "rybářský vlasec s obratlíkem",
+    "voda"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
+}

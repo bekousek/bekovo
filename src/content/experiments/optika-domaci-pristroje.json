@@ -1,0 +1,18 @@
+{
+  "id": "optika-domaci-pristroje",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Domácí optické přístroje – mikroskop a projektor",
+  "type": "qualitative",
+  "description": "Žáci si z běžných věcí postaví optické přístroje. 1) Mobilní mikroskop: malou spojnou čočku (např. z laserového ukazovátka) přilepí před objektiv telefonu a pozorují silně zvětšené struktury (vlákna, hmyz, sůl). 2) Projektor z krabice od bot: dovnitř dají telefon s obrázkem a do otvoru lupu (spojku); na stěně vznikne zvětšený (převrácený) obraz, který se ostří posunem telefonu. Žáci poznají, jak spojná čočka tvoří zvětšený obraz a vyzkoušejí závislost ostrosti na vzdálenosti.",
+  "materials": [
+    "smartphone",
+    "malá spojná čočka (z laserového ukazovátka), lupa",
+    "krabice od bot",
+    "izolepa, stojánek"
+  ],
+  "source": {
+    "label": "VNUF 2015",
+    "pdf": "vnuf-2015.pdf"
+  }
+}

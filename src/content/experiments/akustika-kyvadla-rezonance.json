@@ -1,0 +1,19 @@
+{
+  "id": "akustika-kyvadla-rezonance",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Kyvadla různé délky – rezonance oscilátoru",
+  "type": "qualitative",
+  "description": "Z obalů od kinder-vajíček, niti a barevných papírových proužků (pro snadné rozlišení – „červené\", „modré\" kyvadlo) si vyrobíme sadu kyvadel různé délky zavěšených na společné tyčce (vařečce). Žáci si vyberou, které kyvadlo má učitel rozkývat – a učitel jemným kmitáním tyčky v určité frekvenci rozkýve právě to kyvadlo, jehož vlastní perioda odpovídá kmitání tyčky (ostatní zůstávají skoro v klidu). Různá délka závěsu = různá vlastní perioda; demonstrace rezonance mechanického oscilátoru. Pro efekt je třeba si frekvence předem natrénovat.",
+  "materials": [
+    "obaly od kinder-vajíček (nebo malá závaží)",
+    "nit",
+    "tyčka nebo vařečka",
+    "barevné papírové proužky",
+    "lepidlo"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

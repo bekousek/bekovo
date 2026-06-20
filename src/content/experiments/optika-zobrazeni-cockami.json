@@ -1,0 +1,18 @@
+{
+  "id": "optika-zobrazeni-cockami",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Zobrazení spojkou a rozptylkou, vliv clony",
+  "type": "measurement",
+  "description": "Na optické lavici žáci vytvářejí obraz osvětleného předmětu spojnou čočkou: posouváním stínítka najdou ostrý obraz a sledují, jak se jeho velikost a poloha mění s vzdáleností předmětu (skutečný převrácený obraz, případně zvětšený/zmenšený). Vyzkoušejí i rozptylku (zdánlivý obraz). Po vložení clony (menší otvor) zjistí, že se rozšíří rozsah vzdáleností, ve kterých je obraz přijatelně ostrý (hloubka ostrosti) – za cenu menšího jasu. Změřením vzdáleností mohou ověřit zobrazovací rovnici čočky.",
+  "materials": [
+    "optická lavice",
+    "zdroj světla se clonou/předmětem",
+    "spojná a rozptylná čočka",
+    "clona, stínítko"
+  ],
+  "source": {
+    "label": "VNUF 2023",
+    "pdf": "vnuf-2023.pdf"
+  }
+}

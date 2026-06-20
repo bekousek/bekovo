@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-vlacek-medena-spirala",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Elektrický „vláček\" v měděné spirále",
+  "type": "qualitative",
+  "description": "Z holého měděného drátu žáci navinou dlouhou spirálu (cívku) a dovnitř vloží AA článek s neodymovými magnety na obou pólech (magnety se dotýkají drátu). Magnety uzavřou obvod a kousek spirály kolem baterie se stane elektromagnetem, který je odpuzován/přitahován – „vláček\" se sám rozjede a projíždí spirálou. Žáci zkoumají, co určuje směr jízdy (orientace magnetů/baterie). Efektní ukázka vzájemného působení proudu a magnetického pole.",
+  "materials": [
+    "měděný drát ~30 m (Ø 1,2 mm)",
+    "trn na navinutí Ø ~20 mm",
+    "neodymové magnety (válečky)",
+    "alkalický článek AA"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
+}

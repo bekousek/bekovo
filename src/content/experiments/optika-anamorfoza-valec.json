@@ -1,0 +1,18 @@
+{
+  "id": "optika-anamorfoza-valec",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Válcové zrcadlo a anamorfóza",
+  "type": "qualitative",
+  "description": "Žáci si z plechovky či skleničky polepené zrcadlovou fólií vyrobí válcové (zrcadlové) zrcadlo a připraví zkreslený („rozmáznutý\") obrázek – anamorfózu. Až když obrázek položí kolem lesklého válce, odraz na zakřivené ploše ho narovná a obrázek se stane čitelným. Žáci pochopí, že odraz na válcovém zrcadle deformuje obraz podle zákona odrazu, a vyzkoušejí, jak musí předlohu předkreslit, aby výsledek vyšel správně.",
+  "materials": [
+    "plechovka / sklenička",
+    "zrcadlová tapeta / fólie",
+    "lepidlo, nůžky",
+    "předlohy k anamorfóze"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
+}

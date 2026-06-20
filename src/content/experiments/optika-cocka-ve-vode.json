@@ -1,0 +1,17 @@
+{
+  "id": "optika-cocka-ve-vode",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Čočka ve vodě „nefunguje\"",
+  "type": "qualitative",
+  "description": "Žáci pozorují text přes spojnou skleněnou čočku nejprve ve vzduchu (zvětšuje, převrací) a pak ji ponoří do vody. Ve vodě čočka téměř ztratí svou zobrazovací schopnost. Důvod: lom (a tím i účinek čočky) vzniká jen tam, kde se výrazně liší index lomu skla a okolí. Sklo a voda mají indexy lomu blízké, takže se na rozhraní světlo láme jen málo. Žáci tak pochopí, že čočka funguje díky rozdílu indexů lomu, ne sama o sobě.",
+  "materials": [
+    "spojná (a rozptylná) čočka",
+    "průhledná nádoba s textem",
+    "voda, kelímek"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "plyny-brambora-brcko",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Propíchnutí brambory brčkem",
+  "type": "qualitative",
+  "description": "Žáci zkusí propíchnout syrový brambor obyčejným plastovým brčkem. S otevřeným koncem se brčko zláme nebo zprohýbá. Když ale palcem ucpou horní konec brčka (uzavřou v něm vzduch) a prudce bodnou, brčko bramborem snadno projede. Uzavřený vzduch se uvnitř stlačí a zpevní brčko tak, aby vydrželo náraz. Překvapivá ukázka, že stlačený vzduch (tlak plynu) dokáže působit silou a zpevnit jinak měkký předmět.",
+  "materials": [
+    "plastová brčka",
+    "syrový brambor"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

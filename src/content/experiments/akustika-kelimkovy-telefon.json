@@ -1,0 +1,18 @@
+{
+  "id": "akustika-kelimkovy-telefon",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Kelímkový telefon",
+  "type": "qualitative",
+  "description": "Žáci propojí dva kelímky napnutým provázkem (uchyceným uzlíkem nebo přes kousek brčka) a vyrobí „telefon\". Když jeden mluví do kelímku, zvuk rozkmitá dno kelímku, kmity se přenesou napnutým provázkem jako podélné vlnění a v druhém kelímku se znovu změní na slyšitelný zvuk. Žáci zkoumají, že přenos funguje jen při napnutém provázku (volný tlumí) a vyzkoušejí různé délky i materiály. Ukázka šíření zvuku pevným prostředím.",
+  "materials": [
+    "dva plastové kelímky",
+    "provázek",
+    "kousky brčka",
+    "šídlo"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "optika-spektra-filtry",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Spektra filtrů, brýlí a barevných povrchů",
+  "type": "measurement",
+  "description": "Žáci spektrometrem (stačí i jednoduchý z CD) zkoumají, jak materiály mění světlo. 1) Průchod světla: porovnají spektrum bílého světla samotného a po průchodu barevnými fóliemi a slunečními brýlemi – uvidí, které vlnové délky se pohltí (filtrace) a ověří, zda brýle propouští/blokují UV. 2) Odraz: srovnají spektrum světla odraženého od různě barevných papírů a vysvětlí, že barvu povrchu vnímáme podle toho, které barvy odráží a které pohlcuje. Spojení rozkladu světla s vnímáním barev.",
+  "materials": [
+    "spektrometr (i jednoduchý z CD)",
+    "zdroj bílého světla, UV LED",
+    "barevné fólie a sluneční brýle",
+    "barevné papíry"
+  ],
+  "source": {
+    "label": "VNUF 2014",
+    "pdf": "vnuf-2014.pdf"
+  }
+}

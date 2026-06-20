@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-faradayova-klec",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Faradayova klec z cedníku",
+  "type": "qualitative",
+  "description": "Žáci nabijí brčko třením a přiblíží ho k lehké alobalové kuličce zavěšené na niti. Pod plastovým cedníkem kulička na nabité brčko reaguje (přitahuje se), ale pod kovovým cedníkem (Faradayova klec) se nestane nic – vodivá mřížka odstíní elektrické pole a ochrání prostor uvnitř. Názorná ukázka elektrostatického stínění (princip, díky němuž jsme v bezpečí v autě při bouřce nebo proč funguje stínění kabelů).",
+  "materials": [
+    "kovový cedník a plastový cedník",
+    "alobalová kulička na niti",
+    "brčko (nabíjení třením)",
+    "papírový kapesník, podpěra"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
+}

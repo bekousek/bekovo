@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-stineni-zareni",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Stínění radioaktivního záření různými materiály",
+  "type": "measurement",
+  "description": "Pomocí detektoru záření (např. Vernier GDX-RAD nebo školní GM-počítač) a slabého demonstračního zdroje žáci měří počet detekovaných částic za čas a sledují, jak ho ovlivní vložení různých materiálů mezi zdroj a detektor (papír, hliník, olovo) a jejich tloušťka. Zjistí, že záření alfa zastaví už list papíru, beta hliník a nejpronikavější záření gama oslabí až olovo. Praktický základ pro pochopení ochrany před ionizujícím zářením (materiál, tloušťka, vzdálenost). Práci se zdrojem provádí učitel dle bezpečnostních pravidel.",
+  "materials": [
+    "detektor záření (Vernier GDX-RAD / GM-počítač)",
+    "demonstrační zdroj záření",
+    "vzorky: papír, hliník, olovo",
+    "měřicí stojan, stopky"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
+}

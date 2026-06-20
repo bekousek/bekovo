@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-michani-vod",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Míchání vod a výpočet výsledné teploty",
+  "type": "measurement",
+  "description": "Žáci smíchají vodu různých teplot a objemů, změří výslednou teplotu a porovnají ji s hodnotou vypočtenou z kalorimetrické rovnice. Naměřená a vypočtená teplota se obvykle liší o 5–10 °C (bez kalorimetru), což vede žáky k pojmenování zdrojů chyb – zejména že voda ztrácí teplo i do okolí a nádoby. S kalorimetrem vychází shoda lépe. Aktivita propojuje měření, výpočet a kritické zhodnocení přesnosti.",
+  "materials": [
+    "laboratorní teploměr",
+    "kádinky",
+    "odměrný válec",
+    "horká a studená voda",
+    "kalorimetr (volitelně)"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

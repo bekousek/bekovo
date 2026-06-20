@@ -1,0 +1,17 @@
+{
+  "id": "plyny-magnusuv-jev",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Magnusův jev s rotujícím míčkem",
+  "type": "qualitative",
+  "description": "Žáci nechají rotující lehký míček (pingpongový nebo z papíru) padat či letět do proudu vzduchu z fénu/ventilátoru a sledují, že se vychýlí do strany podle směru rotace (případně se vznáší v šikmém proudu). Vysvětlení: rotující povrch strhává vzduch, takže na jedné straně míčku proudí vzduch rychleji (nižší tlak) než na druhé – rozdíl tlaků vytvoří boční sílu (Magnusův jev). Tentýž jev způsobuje „faleš\" u kopnutého nebo zahraného míče. Spojení proudění, tlaku a síly.",
+  "materials": [
+    "fén nebo ventilátor",
+    "pingpongový míček / papírový válec",
+    "pás papíru, stativ"
+  ],
+  "source": {
+    "label": "VNUF 2020",
+    "pdf": "vnuf-2020.pdf"
+  }
+}

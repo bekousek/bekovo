@@ -1,0 +1,18 @@
+{
+  "id": "energie-skakajici-mic-gomotion",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Skákající míč – přeměny energie se senzorem Go!Motion",
+  "type": "measurement",
+  "description": "Ultrazvukový polohový senzor Vernier Go!Motion umístěný nad basketbalovým míčem (dobře skáče a je dostatečně velký, aby ho čidlo zaznamenalo) měří jeho polohu v čase; software Logger Pro z ní dopočítá rychlost i zrychlení. Na grafu rychlosti je názorně vidět, že okamžitá rychlost je vektor — mění znaménko z kladné na zápornou a zpět. Software umí z naměřených dat dopočítat i graf kinetické a potenciální energie: žáci sledují vzájemnou přeměnu Ek ↔ Ep a všímají si, že část energie při každém odrazu „mizí\" (mění se na energii pružnosti a zahřívá míč i podlahu) — východisko k diskusi, kam se energie ztrácí. Míč se pouští z výšky asi 1 m a nechá se doskákat; pěkný graf nevyjde napoprvé, měření chce trpělivost.",
+  "materials": [
+    "senzor Vernier Go!Motion",
+    "počítač s programem Logger Pro",
+    "basketbalový míč",
+    "stativ nebo držák čidla"
+  ],
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
+}

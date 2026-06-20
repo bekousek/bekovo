@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-led-va-charakteristika",
+  "subtopicId": "polovodice",
+  "topicId": "elektrina",
+  "title": "Voltampérová charakteristika LED (polovodičová dioda)",
+  "type": "measurement",
+  "description": "Žáci postupně zvyšují napětí na LED (s ochranným rezistorem), měří napětí a proud a sestrojí voltampérovou charakteristiku. Zjistí, že LED se chová úplně jinak než rezistor: do určitého prahového napětí (u běžné LED ~1,8–3 V podle barvy) skoro nevede a teprve nad ním proud prudce roste – a v opačném směru nevede vůbec. Žáci tak poznají, že polovodičová dioda propouští proud jen jedním směrem a má prahové napětí. (Měření lze automatizovat Arduinem, jde ale i ručně multimetrem.)",
+  "materials": [
+    "LED (různé barvy)",
+    "ochranný rezistor",
+    "regulovatelný zdroj",
+    "multimetr (V a A) / Arduino"
+  ],
+  "source": {
+    "label": "VNUF 2019",
+    "pdf": "vnuf-2019.pdf"
+  }
+}

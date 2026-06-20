@@ -1,0 +1,18 @@
+{
+  "id": "mereni-skener-cas",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Stolní skener jako měřič času",
+  "type": "measurement",
+  "description": "Stolní skener snímá obraz řádek po řádku, takže svislá osa naskenovaného obrázku odpovídá času – z toho lze udělat překvapivá měření. 1) „Osciloskop světla\": při skenování blikající lampičky (např. 1 Hz) vzniknou pruhy, z jejichž počtu a doby skenu žáci určí frekvenci (N = t·ν). 2) Zrychlení: tyč odvalující se po skle skeneru během skenu vykreslí parabolu – důkaz nerovnoměrného pohybu. 3) Kyvadlo nad skenerem: z obrazu se odečte počet kmitů a perioda. Žáci poznají, že čas je možné „nakreslit\".",
+  "materials": [
+    "stolní skener",
+    "lampička / LED se spínačem",
+    "kovová tyč / válec",
+    "klín (nakloněná rovina), provázky"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

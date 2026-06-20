@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-tancici-co2",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Tančící předměty v sodovce – CO₂ a vztlak",
+  "type": "qualitative",
+  "description": "Žáci si v sklenici vyrobí „sodovku\" (voda + jedlá soda + kyselina citronová), ve které vznikají bublinky oxidu uhličitého. Vloží malé předměty – plastové „citronky\", želé bonbony nebo hrozinky. Na předmět se přichytí bublinky CO₂, zvětší jeho objem a sníží průměrnou hustotu, takže předmět vyplave; u hladiny bublinky prasknou, předmět zhustne a klesne – a celý cyklus „tance\" se opakuje. Názorná souvislost mezi množstvím plynu, průměrnou hustotou a vztlakovou silou.",
+  "materials": [
+    "sklenice, voda",
+    "jedlá soda a kyselina citronová",
+    "malé předměty (plastové citronky, želé bonbony, hrozinky)"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
+}

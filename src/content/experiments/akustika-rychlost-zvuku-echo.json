@@ -1,0 +1,18 @@
+{
+  "id": "akustika-rychlost-zvuku-echo",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Rychlost zvuku a echolokace s Audacity",
+  "type": "measurement",
+  "description": "Žáci pomocí mikrofonu a programu Audacity (záznam zvuku) měří čas, za který se zvuk šíří. 1) Rychlost zvuku v trubce: krátký impuls (lusknutí, tlesknutí) se odrazí od zátky na konci trubky; z naměřeného zpoždění mezi přímým a odraženým zvukem a známé délky trubky určí rychlost zvuku (~340 m/s). 2) Echolokace („deštníkový sonar\"): z prodlevy mezi vyslaným a odraženým impulsem odhadnou vzdálenost překážky. Praktické měření rychlosti šíření vlnění a princip sonaru/radaru.",
+  "materials": [
+    "počítač / notebook s mikrofonem",
+    "trubka se zátkou, odrazná deska",
+    "zdroj krátkého zvuku",
+    "software Audacity"
+  ],
+  "source": {
+    "label": "VNUF 2012",
+    "pdf": "vnuf-2012.pdf"
+  }
+}

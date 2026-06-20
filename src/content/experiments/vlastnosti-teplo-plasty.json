@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-teplo-plasty",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Teplo a plasty – chování termoplastů",
+  "type": "qualitative",
+  "description": "Žáci zkoumají, jak různé plasty reagují na teplo. 1) Vařící voda nalitá do plastových kelímků a lahví: některé se zdeformují/smrští výrazně, jiné téměř ne – odhalí různé druhy plastů a jejich teplotní odolnost (lze měřit i změnu objemu). 2) Plastová lžička či kávové míchátko krátce ponořené do horkého oleje (~160 °C) změknou a dají se tvarovat (termoplasty) a po vychladnutí tvar drží. Diskuse o vlastnostech materiálů a bezpečnosti práce s horkým olejem (pod dohledem).",
+  "materials": [
+    "varná konvice, horká voda",
+    "elektrický vařič, hrnec, řepkový olej",
+    "různé plastové kelímky, lahve, lžičky",
+    "teploměr do 200 °C, kleště"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

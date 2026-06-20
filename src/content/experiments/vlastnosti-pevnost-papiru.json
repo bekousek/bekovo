@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-pevnost-papiru",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Pevnost papíru v tahu",
+  "type": "measurement",
+  "description": "Žáci připraví úzké proužky papíru různé šířky, zavěsí je a zatěžují je PET lahví, do níž postupně přilévají vodu, dokud se proužek nepřetrhne. Z hmotnosti vody (tedy zatěžující síly) a šířky proužku při přetržení odhadnou pevnost papíru v tahu a ověří, že širší proužek unese úměrně víc. Mohou porovnat různé druhy papíru nebo směr vláken. Praktické měření mechanické pevnosti materiálu a souvislosti síly, plochy a napětí.",
+  "materials": [
+    "kancelářský papír (proužky)",
+    "PET láhev s vodou",
+    "nůžky, izolepa",
+    "pravítko, váha"
+  ],
+  "source": {
+    "label": "VNUF 2015",
+    "pdf": "vnuf-2015.pdf"
+  }
+}

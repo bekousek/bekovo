@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-planetarni-stezka",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Planetární stezka v měřítku 1 : miliarda",
+  "type": "group-work",
+  "description": "Na hřišti nebo v okolí školy žáci rozmístí Slunce a planety ve společném měřítku (např. 1 : 10⁹, kde je Slunce velké jako meloun a Země jako kulička pepře ~150 m daleko) a „prochází\" sluneční soustavou. Při chůzi mezi planetami si naživo uvědomí obrovské a velmi nerovnoměrné vzdálenosti ve sluneční soustavě i nepatrnou velikost planet vůči vzdálenostem. Spojení měřítka, převodů jednotek a astronomie; silný zážitek upevňující správnou představu o vesmírných rozměrech.",
+  "source": {
+    "label": "VNUF 2013",
+    "pdf": "vnuf-2013.pdf"
+  }
+}

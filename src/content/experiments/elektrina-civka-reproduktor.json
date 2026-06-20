@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-civka-reproduktor",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Hrající destička – domácí reproduktor z cívky",
+  "type": "qualitative",
+  "description": "Žáci navinou několik desítek závitů smaltovaného měděného drátu na polystyrenovou destičku (membránu), pod cívku umístí feritové magnety a cívku připojí ke zdroji zvukového signálu (výstup z telefonu/zesilovače). Měnící se proud v cívce v poli magnetů vytváří proměnnou sílu, která rozkmitá destičku – ta tlačí na vzduch a vzniká slyšitelný zvuk. Demonstrace principu reproduktoru a přeměny elektrického signálu na zvuk pomocí elektromagnetické síly.",
+  "materials": [
+    "smaltovaný měděný drát",
+    "feritové magnety",
+    "polystyrenová destička (membrána)",
+    "zdroj zvukového signálu, vodiče"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

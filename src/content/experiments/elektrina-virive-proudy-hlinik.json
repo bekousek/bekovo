@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-virive-proudy-hlinik",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Vířivé proudy – hliník a magnet",
+  "type": "qualitative",
+  "description": "Hliník není magnetický, přesto na něj magnet „působí\" pohybem. 1) Hliníkovou minci (kolečko) položíme na papír; přiblížený neodymový magnet ji nepřitáhne, ale když magnetem pohybujeme pod papírem, mince ho poslušně sleduje. 2) Roztočené hliníkové víčko „omnia\" na skleněné tabulce nad magnetem se rychle zabrzdí. V obou případech pohyb magnetu (či vodiče) indukuje v hliníku vířivé proudy, jejichž magnetické pole se snaží změně bránit (Lenzův zákon) – proto hliník magnet „následuje\" či se brzdí.",
+  "materials": [
+    "silný neodymový magnet",
+    "hliníková mince nebo kolečko",
+    "hliníkové víčko omnia",
+    "tuhý papír a skleněná tabulka"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

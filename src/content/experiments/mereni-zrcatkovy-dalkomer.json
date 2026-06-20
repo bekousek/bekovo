@@ -1,0 +1,20 @@
+{
+  "id": "mereni-zrcatkovy-dalkomer",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Výroba zrcátkového dálkoměru (paralaxa)",
+  "type": "qualitative",
+  "description": "Žáci postaví jednoduchý dálkoměr pro bezkontaktní měření vzdálenosti ze dvou dřevěných ramen spojených šroubem (osa otáčení). Na konci delšího pevného ramene je polopropustné zrcátko (45°), na otočném rameni boční zrcátko (135°). Dálkoměr se drží vodorovně jako příčná flétna a pozoruje se objekt skrz polopropustné zrcátko; otáčením ramene s bočním zrcátkem se obraz objektu (přímý a odražený) překryje. Z úhlu natočení (po kalibraci stupnice na známé vzdálenosti) se odečte vzdálenost. Žáci tak prakticky poznají princip paralaxy a triangulace.",
+  "materials": [
+    "polopropustné zrcátko (lze vyrobit začazením skla)",
+    "rovinné zrcátko",
+    "dřevěné latě",
+    "šroub s matkou (osa)",
+    "hřebíček, lepidlo",
+    "metr na kalibraci"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

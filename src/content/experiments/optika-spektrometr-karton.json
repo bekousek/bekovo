@@ -1,0 +1,19 @@
+{
+  "id": "optika-spektrometr-karton",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Výroba kartonového spektrometru",
+  "type": "measurement",
+  "description": "Z tenkého kartonu, štěrbiny a difrakční mřížky (500 čar/mm) žáci postaví jednoduchý spektrometr se stupnicí. Pozorují a porovnávají spektra různých zdrojů světla (žárovka se spojitým spektrem vs. úsporka/LED s čárami) a u laserů mohou z polohy maxima a známé mřížky určit vlnovou délku. Praktické seznámení s rozkladem světla na mřížce a se spektry jako „otiskem\" zdroje.",
+  "materials": [
+    "tenký karton",
+    "difrakční mřížka 500 čar/mm",
+    "nůžky, lepidlo",
+    "různé zdroje světla, laser",
+    "stupnice / měřítko"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

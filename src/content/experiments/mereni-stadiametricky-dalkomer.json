@@ -1,0 +1,18 @@
+{
+  "id": "mereni-stadiametricky-dalkomer",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Stadiametrický dálkoměr z pravítka a provázku",
+  "type": "qualitative",
+  "description": "Žáci si vyrobí jednoduchý dálkoměr: na konci provázku známé délky drženého u oka odměřují na pravítku zdánlivou velikost vzdáleného předmětu o známé skutečné výšce. Z podobnosti trojúhelníků (poměr skutečné a zdánlivé velikosti) dopočítají vzdálenost; provázek dlouhý 57 cm navíc umožní odečítat zorný úhel přímo ve stupních (1 cm ≈ 1°). Praktická ukázka měření nepřístupné vzdálenosti pomocí podobnosti a zorného úhlu.",
+  "materials": [
+    "plastové pravítko 30 cm",
+    "provázek 50 cm a 57 cm",
+    "korálky",
+    "fix"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
+}

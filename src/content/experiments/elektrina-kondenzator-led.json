@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-kondenzator-led",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Kondenzátor a dvě LED – nabíjení a vybíjení",
+  "type": "qualitative",
+  "description": "Žáci sestaví obvod s velkým elektrolytickým kondenzátorem (např. 2200 µF), baterií, spínačem a dvěma opačně orientovanými LED. Při sepnutí (nabíjení kondenzátoru) krátce blikne jedna LED, po přepnutí (vybíjení) blikne druhá. Názorně ukazuje, že kondenzátor se nabíjí a vybíjí proudem, který teče jen krátce a v opačných směrech, a že kondenzátor dokáže nakrátko uchovat elektrickou energii.",
+  "materials": [
+    "elektrolytický kondenzátor 2200 µF",
+    "dvě LED",
+    "baterie 4,5 V",
+    "spínač a vodiče"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

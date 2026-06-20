@@ -1,0 +1,17 @@
+{
+  "id": "eo-rezistory-kody",
+  "subtopicId": "multimetr",
+  "topicId": "elektricke-obvody",
+  "title": "Rezistory – barevné kódy a měření odporu",
+  "type": "measurement",
+  "description": "Žáci se naučí číst hodnotu rezistoru z barevných proužků (každá barva = číslice, předposlední proužek = násobitel, poslední = tolerance) a odečtenou hodnotu pak ověří měřením multimetrem v režimu ohmmetru. Porovnají naměřenou hodnotu s nominální a s deklarovanou tolerancí výrobce (např. ±5 %). Procvičení práce s multimetrem, čtení součástek a pojmu tolerance.",
+  "materials": [
+    "sada rezistorů",
+    "multimetr s měřicími vodiči",
+    "kartičky s barevnými kódy"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2018",
+    "pdf": "dilny-heureky-2018.pdf"
+  }
+}

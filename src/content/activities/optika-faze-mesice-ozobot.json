@@ -1,0 +1,12 @@
+{
+  "id": "optika-faze-mesice-ozobot",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Měsíc kolem Země s ozobotem – fáze a zatmění",
+  "type": "other",
+  "description": "Ozobota naprogramovaného na pohyb po kruhové dráze žáci použijí jako Měsíc obíhající kolem „Země\" (víčko/krabička uprostřed), nasvícené z jedné strany silným zdrojem světla (Slunce). Při oběhu sledují, jak se mění osvětlená část Měsíce (fáze) a kdy nastane situace odpovídající zatmění Slunce a Měsíce (Měsíc mezi Zemí a Sluncem, resp. Země mezi Sluncem a Měsícem). Pohyblivý model, který propojuje kinematiku oběhu se vznikem fází a zatmění.",
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
+}

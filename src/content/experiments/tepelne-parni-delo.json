@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-parni-delo",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Parní dělo z hliníkové tuby",
+  "type": "qualitative",
+  "description": "Do hliníkové tuby (od šumivých vitamínů) žáci dají trochu vody a uzavřou ji navlhčeným korkovým špuntem. Po zahřátí kahanem se voda vypaří, tlak páry roste, až špunt vystřelí. Demonstrace přeměny tepla na mechanickou práci (rozpínající se pára koná práci) – princip, na němž stojí parní stroj. Nutná opatrnost: směřovat ústí do bezpečného prostoru, ochranné brýle, pod dohledem.",
+  "materials": [
+    "hliníková tuba (od vitamínů)",
+    "korková zátka",
+    "plynový kahan / vařič",
+    "laboratorní držák",
+    "voda, ochranné brýle"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
+}

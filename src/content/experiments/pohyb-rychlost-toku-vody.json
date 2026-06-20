@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-rychlost-toku-vody",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Měření rychlosti toku vody v terénu",
+  "type": "measurement",
+  "description": "Venkovní úloha: žáci na potoce vymezí pásmem úsek známé délky a stopkami změří, za jak dlouho jím propluje plovák (dřívko, list). Z dráhy a času určí rychlost proudu, měření několikrát zopakují a zprůměrují a porovnají s předchozím odhadem. Diskutují zdroje chyb (vítr, různá rychlost u břehu a uprostřed, zanoření plováku). Spojení pojmu rychlost s reálným měřením v přírodě.",
+  "materials": [
+    "stopky",
+    "měřicí pásmo",
+    "plovák (dřívko / list)",
+    "značky na břehu"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}

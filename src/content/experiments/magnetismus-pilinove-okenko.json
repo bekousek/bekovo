@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-pilinove-okenko",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Pilinové okénko – čisté mapování pole",
+  "type": "qualitative",
+  "description": "Žáci si zhotoví uzavřené ploché okénko ze dvou tenkých skel s ocelovými pilinami uvnitř (sklepnutá mezera vymezená okenním těsněním). Okénko přiloží nad různé magnety a jejich sestavy a sledují, jak se piliny seřadí do obrazu indukčních čar – póly, přitahování i odpuzování – a to bez nepořádku, opakovaně a kdykoli. Trvalá, „čistá\" varianta klasického sypání pilin na papír.",
+  "materials": [
+    "dvě tenká skla",
+    "ocelové piliny",
+    "okenní těsnění (distanc)",
+    "permanentní magnety",
+    "ocelový plech"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "akustika-razy-zazneje",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Rázy (zázněje) dvou blízkých tónů",
+  "type": "qualitative",
+  "description": "Žáci nechají znít současně dva tóny s nepatrně odlišnou frekvencí (dvě ladičky, dva reproduktory z generátoru nebo dvě aplikace v mobilu). Sluchem i na záznamu zvuku pozorují, že hlasitost pravidelně kolísá – vznikají rázy (zázněje). Frekvence kolísání se rovná rozdílu obou frekvencí. Žáci tak poznají skládání (interferenci) dvou vlnění v čase; využití např. při ladění nástrojů.",
+  "materials": [
+    "dvě ladičky nebo generátor se dvěma reproduktory",
+    "případně dvě aplikace-tónového generátoru v mobilech",
+    "počítač/telefon se záznamem zvuku"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2016",
+    "pdf": "dilny-heureky-2016.pdf"
+  }
+}

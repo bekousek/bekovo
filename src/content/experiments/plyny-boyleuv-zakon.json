@@ -1,0 +1,17 @@
+{
+  "id": "plyny-boyleuv-zakon",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Stlačitelnost plynu – Boyleův–Mariottův zákon",
+  "type": "measurement",
+  "description": "Do injekční stříkačky uzavřou žáci vzduch a postupně mění jeho objem; tlak měří senzorem tlaku (např. Vernier) připojeným k hadičce. Z dvojic hodnot zjistí, že tlak a objem plynu jsou nepřímo úměrné – součin p·V zůstává (při stálé teplotě) přibližně konstantní (Boyleův–Mariottův zákon). Mohou sestrojit graf p(V). Jednodušší kvalitativní varianta jde i bez čidla: zacpaná stříkačka klade stlačování tím větší odpor, čím víc je vzduch stlačen. Ukazuje, že plyn je stlačitelný a pruží.",
+  "materials": [
+    "injekční stříkačka",
+    "senzor tlaku (Vernier) s hadičkou a uzávěrem",
+    "počítač / telefon s aplikací"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
+}

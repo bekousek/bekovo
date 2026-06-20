@@ -1,0 +1,17 @@
+{
+  "id": "plyny-svicky-poklop",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Svíčky pod skleněným poklopem",
+  "type": "qualitative",
+  "description": "Žáci zapálí několik různě vysokých svíček a přiklopí je skleněným poklopem. Plameny postupně zhasínají – a překvapivě nejdříve ta nejvyšší. Hoření spotřebovává kyslík a vzniká teplý oxid uhličitý a vodní pára, které jako teplé plyny stoupají vzhůru a hromadí se u stropu poklopu, takže k nejvyššímu plameni se nejdřív přestane dostávat kyslík. Žáci diskutují spotřebu kyslíku při hoření a chování teplých plynů.",
+  "materials": [
+    "různě vysoké svíčky",
+    "skleněný poklop",
+    "tácek, zápalky"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

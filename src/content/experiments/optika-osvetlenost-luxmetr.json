@@ -1,0 +1,18 @@
+{
+  "id": "optika-osvetlenost-luxmetr",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Měření osvětlenosti luxmetrem a zákon 1/r²",
+  "type": "measurement",
+  "description": "Žáci luxmetrem (nebo aplikací v mobilu / bezdrátovým světelným čidlem) měří osvětlenost. 1) V učebně zmapují osvětlenost na různých místech (u okna, vzadu, na lavici) a doporučí úpravy. 2) Porovnají různé svítilny a čelovky – zjistí, že silnější kužel neznamená vždy vyšší osvětlenost, a rozliší světelný tok (lumeny) od osvětlenosti (luxy). 3) Měřením osvětlenosti v různých vzdálenostech od bodového zdroje ověří, že osvětlenost klesá se čtvercem vzdálenosti (1/r²). Praktická fotometrie s běžnými přístroji.",
+  "materials": [
+    "luxmetr nebo aplikace / bezdrátové světelné čidlo",
+    "stolní LED lampa, svítilny a čelovky",
+    "metr",
+    "tabulkový editor"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2019",
+    "pdf": "dilny-heureky-2019.pdf"
+  }
+}

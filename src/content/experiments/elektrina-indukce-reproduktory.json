@@ -1,0 +1,17 @@
+{
+  "id": "elektrina-indukce-reproduktory",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Spojené reproduktory – indukce pohybem membrány",
+  "type": "qualitative",
+  "description": "Dva robustnější reproduktory s gumovým uložením membrány propojíme dvoulinkou (průřez alespoň 1 mm²). Na membránu jednoho položíme kousky polystyrenu a do druhého poklepeme nebo do něj mluvíme. Pohyb membrány prvního reproduktoru funguje jako cívka pohybující se v poli magnetu – indukuje se napětí, obvodem teče proud a rozpohybuje membránu druhého reproduktoru (poskakující polystyren to prozradí). Názorná ukázka elektromagnetické indukce a přeměny mechanické energie na elektrickou a zpět.",
+  "materials": [
+    "dva reproduktory s gumovým uložením membrány",
+    "dvoulinka (≥ 1 mm²)",
+    "kousky polystyrenu"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

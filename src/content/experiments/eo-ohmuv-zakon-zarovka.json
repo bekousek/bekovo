@@ -1,0 +1,18 @@
+{
+  "id": "eo-ohmuv-zakon-zarovka",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "V-A charakteristika žárovky – kdy neplatí Ohmův zákon",
+  "type": "measurement",
+  "description": "Žáci postupně zvyšují napětí na žárovce, měří proud a sestrojí voltampérovou (V-A) charakteristiku. Zjistí, že na rozdíl od rezistoru (přímka) je u žárovky graf zakřivený – odpor není konstantní. Důvod: rozžhavené vlákno má větší teplotu a tím i větší odpor, takže proud neroste úměrně napětí. Žáci tak poznají, že Ohmův zákon platí jen pro některé součástky (s konstantním odporem) a co znamená nelineární charakteristika.",
+  "materials": [
+    "laboratorní zdroj",
+    "žárovka v objímce",
+    "multimetr (V a A)",
+    "vodiče, reostat (volitelně)"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
+}

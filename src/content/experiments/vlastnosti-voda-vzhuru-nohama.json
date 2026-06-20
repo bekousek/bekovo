@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-voda-vzhuru-nohama",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Voda vzhůru nohama – tlak vzduchu a povrchové napětí",
+  "type": "qualitative",
+  "description": "Sklenici naplněnou vodou po okraj žáci překryjí papírem a opatrně otočí dnem vzhůru – papír drží a voda nevyteče, protože ji nadlehčuje atmosférický tlak zdola. V překvapivé variantě se papír nahradí síťkou (nebo gázou): voda i přes otvory zůstane uvnitř díky povrchovému napětí, které mezi vlákny vytvoří drobné blány. Žáci tak spojí působení tlaku vzduchu a povrchového napětí.",
+  "materials": [
+    "sklenice",
+    "papír a síťka / gáza",
+    "voda"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2017",
+    "pdf": "sbornik-dilen-elixiru-2017.pdf"
+  }
+}

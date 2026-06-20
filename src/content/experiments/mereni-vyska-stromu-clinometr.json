@@ -1,0 +1,17 @@
+{
+  "id": "mereni-vyska-stromu-clinometr",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Odhad výšky stromu clinometrem",
+  "type": "measurement",
+  "description": "Žáci si vyrobí jednoduchý clinometr (úhloměr s olovnicí a brčkem na zaměřování) a změří úhel, pod nímž z dané vzdálenosti vidí vrchol stromu. Ze změřené vzdálenosti, úhlu a vlastní výšky očí dopočítají (z podobnosti trojúhelníků nebo tangentou úhlu) výšku stromu, aniž by na něj museli lézt. Výsledek ověří druhou metodou (např. délkou stínu stromu a tyče). Praktické nepřímé měření výšky a úvod do využití úhlů.",
+  "materials": [
+    "clinometr (úhloměr, olovnice, brčko)",
+    "měřicí pásmo",
+    "kolík, tužka, papír"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}

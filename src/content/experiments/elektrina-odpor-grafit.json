@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-odpor-grafit",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Odpor grafitových čar a tužkový reostat",
+  "type": "measurement",
+  "description": "Žáci nakreslí měkkou tužkou (8B) silnou grafitovou čáru a multimetrem změří její odpor. Zjistí, že odpor roste s délkou čáry a klesá s její šířkou/sytostí (více vrstev grafitu). Posouváním krokosvorky po čáře vytvoří jednoduchý reostat (regulovatelný odpor) a zařadí ho k LED – pohybem kontaktu mění proud a jas LED. Praktické pochopení elektrického odporu a závislosti na rozměrech vodiče.",
+  "materials": [
+    "multimetr",
+    "měkká tužka 8B, hrubý papír",
+    "krokosvorky",
+    "LED, regulovatelný zdroj"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-hydrogel-nasakavost",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Hydrogelové perly – měření nasákavosti",
+  "type": "measurement",
+  "description": "Žáci zváží 10 suchých hydrogelových perel, vloží je do vody a v pravidelných intervalech (např. po 10 minutách) je osuší a znovu zváží. Z naměřených hodnot sestrojí graf hmotnosti v čase a odhadnou, kolikanásobek své hmotnosti perly nasají (běžně desítky až stovky násobků). Procvičení vážení, práce s časem, tvorby grafu a interpretace nasycení (křivka se postupně zploští). Ukázka schopnosti polymeru pohlcovat vodu.",
+  "materials": [
+    "hydrogelové perly",
+    "voda, kádinka",
+    "digitální váha",
+    "stopky, pinzeta",
+    "záznamový list"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2014",
+    "pdf": "dilny-heureky-2014.pdf"
+  }
+}

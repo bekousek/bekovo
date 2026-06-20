@@ -1,0 +1,19 @@
+{
+  "id": "optika-duhova-cokolada",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Duhová čokoláda na difrakční fólii",
+  "type": "qualitative",
+  "description": "Žáci rozpustí hořkou čokoládu ve vodní lázni a nanesou ji na difrakční fólii (mřížku). Po ztuhnutí se jemná pravidelná struktura mřížky obtiskne do povrchu čokolády, takže odražené světlo se rozkládá na duhové barvy – z čokolády vznikne lesklý „duhový\" povrch. Žáci pozorují mřížkové obrazce ve světle baterky/laseru a diskutují ohyb (difrakci) světla na pravidelné struktuře i to, proč musí být čokoláda správně vytemperovaná, aby povrch byl hladký.",
+  "materials": [
+    "difrakční fólie",
+    "hořká čokoláda",
+    "hrnec a miska (vodní lázeň)",
+    "metlička, zdobicí sáček",
+    "baterka nebo laser"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}

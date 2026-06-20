@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-teplo-tani-ledu",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Skupenské teplo tání ledu",
+  "type": "measurement",
+  "description": "Žáci určí, kolik energie je potřeba k roztání ledu. Do známého množství teplé vody o změřené teplotě vloží zváženou kostku ledu a sledují, jak voda vychladne, než led roztaje. Z poklesu teploty vody (a tedy odevzdaného tepla) a hmotnosti ledu vypočítají měrné skupenské teplo tání a porovnají ho s tabulkovou hodnotou (~334 kJ/kg). Pochopí, že při tání led odebírá teplo, ale jeho teplota se přitom nemění (energie se spotřebuje na změnu skupenství).",
+  "materials": [
+    "digitální váha",
+    "led, teplá voda",
+    "miska / kalorimetr, teploměr",
+    "stopky"
+  ],
+  "source": {
+    "label": "VNUF 2021",
+    "pdf": "vnuf-2021.pdf"
+  }
+}

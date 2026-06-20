@@ -1,0 +1,18 @@
+{
+  "id": "optika-zdanliva-hloubka",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Zdánlivá hloubka předmětu pod vodou",
+  "type": "measurement",
+  "description": "Žáci položí na dno nádoby předmět (mince, značka na milimetrovém papíru) a pozorují ho přes vodu pod různými úhly. Zjistí, že předmět se zdá být blíž k hladině, než ve skutečnosti je – voda se kvůli lomu světla jeví mělčí, než je. Změří skutečnou a zdánlivou hloubku a sledují, jak se zdánlivá hloubka mění s úhlem pohledu (při šikmém pohledu je zkreslení větší). Vysvětlí jev lomem světla na rozhraní voda–vzduch (proč nám připadá, že je voda v bazénu mělčí).",
+  "materials": [
+    "průhledná nádoba / akvárium",
+    "voda",
+    "milimetrový papír, předmět na dno",
+    "pravítko, úhloměr"
+  ],
+  "source": {
+    "label": "VNUF 2017",
+    "pdf": "vnuf-2017.pdf"
+  }
+}

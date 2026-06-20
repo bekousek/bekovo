@@ -1,0 +1,18 @@
+{
+  "id": "sila-naklonena-rovina-sily",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Síly na nakloněné rovině",
+  "type": "measurement",
+  "description": "Žáci dynamometrem měří sílu potřebnou k udržení (nebo rovnoměrnému tažení) tělesa po nakloněné rovině a sledují, jak se mění se sklonem roviny (měřeným úhloměrem). Zjistí, že čím je rovina strmější, tím větší sílu je třeba – tíhová síla se rozkládá na složku podél roviny a kolmou k ní. Nakloněná rovina tak umožňuje zvednout těleso menší silou (po delší dráze) – princip jednoduchého stroje. Porovnají měření s rozkladem sil.",
+  "materials": [
+    "nakloněná rovina",
+    "dynamometr (siloměr)",
+    "těleso se závěsem",
+    "úhloměr, měřítko"
+  ],
+  "source": {
+    "label": "VNUF 2011",
+    "pdf": "vnuf-2011.pdf"
+  }
+}

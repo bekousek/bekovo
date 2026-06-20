@@ -1,0 +1,18 @@
+{
+  "id": "energie-plechovka-gumicka",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Vracející se plechovka s gumičkou",
+  "type": "qualitative",
+  "description": "Uvnitř plechovky žáci napnou přes osu gumičku, na kterou zavěsí malé závaží (matičku/sponku). Když plechovku odkutálí po podlaze, gumička se postupně natáčí (napíná) a ukládá do sebe pružnou energii – plechovka se zastaví a sama se vrátí zpět, jak se gumička odvíjí. Demonstrace ukládání a přeměny energie: pohybová energie → pružná energie napnuté gumičky → zpět pohybová. Žáci zkoumají, co ovlivní dojezd a návrat.",
+  "materials": [
+    "plechovka s víčkem",
+    "gumičky",
+    "matička / kancelářská sponka (závaží)",
+    "papírové brčko, vrtáček"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2022",
+    "pdf": "dilny-heureky-2022.pdf"
+  }
+}

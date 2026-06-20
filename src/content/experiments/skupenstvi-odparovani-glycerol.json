@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-odparovani-glycerol",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Odpařování voda, líh a glycerol – ochlazení i ohřátí",
+  "type": "measurement",
+  "description": "Na tyčový teploměr žáci postupně nanesou vodu, líh a glycerol a sledují průběh teploty. Voda i líh se odpařují a odebírají teploměru skupenské teplo – teplota klesá (u vody asi o 3 °C, u rychleji se odpařujícího lihu výrazněji, ~5,5 °C). Glycerol naopak teploměr zahřeje: prakticky se neodpařuje, místo toho pohlcuje vzdušnou vlhkost, jejíž páry v něm kondenzují a uvolňují teplo. Překvapivý protipříklad k ochlazování odpařováním; vhodné zaznamenat tři křivky do jednoho grafu.",
+  "materials": [
+    "tyčový teploměr",
+    "voda",
+    "líh",
+    "glycerol",
+    "držák",
+    "papírové ubrousky"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

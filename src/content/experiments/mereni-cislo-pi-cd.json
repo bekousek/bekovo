@@ -1,0 +1,19 @@
+{
+  "id": "mereni-cislo-pi-cd",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Určení čísla π z obvodu a průměru CD",
+  "type": "measurement",
+  "description": "Žáci změří obvod kruhového předmětu (CD) odvalením po papíru a jeho průměr posuvným měřítkem; z podílu obvodu a průměru sami určí hodnotu π a pochopí její geometrický význam. Rozšíření: π jako podíl obsahu kruhu a druhé mocniny poloměru – obsah lze odhadnout obkreslením na čtverečkovaný papír a počítáním čtverečků (s domluvou, jak zacházet s čtverečky protnutými obvodem). Porovnáním obou metod žáci diskutují přesnost a zdroje nepřesností měření.",
+  "materials": [
+    "posuvné měřítko",
+    "CD / DVD nebo jiný kruhový předmět",
+    "papír se značkou",
+    "čtverečkovaný papír",
+    "pravítko"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

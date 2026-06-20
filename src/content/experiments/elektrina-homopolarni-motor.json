@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-homopolarni-motor",
+  "subtopicId": "elektromotor",
+  "topicId": "elektrina",
+  "title": "Homopolární motor z tužkové baterie",
+  "type": "qualitative",
+  "description": "Z jednoho AA článku, neodymového diskového magnetu a kousku měděného drátu žáci sestaví nejjednodušší elektromotor na světě – homopolární motor. Magnet se přilepí na minuspól baterie, ohnutý drát se opře o pluspól a dotýká se magnetu po stranách; obvodem teče proud, na který v poli magnetu působí Lorentzova síla, a drát (nebo celá baterie) se roztočí. Žáci zkoumají, na čem závisí směr otáčení (polarita, poloha kontaktů). Motor nemá komutátor – točí se plynule jedním směrem.",
+  "materials": [
+    "alkalický článek AA",
+    "neodymový diskový magnet",
+    "měděný drát",
+    "brusný papír (odizolování)"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "optika-hydrogel-index-lomu",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Mizející hydrogelové perly – stejný index lomu",
+  "type": "qualitative",
+  "description": "Do zkumavky (sklenice) s vodou žáci vloží hydrogelové perly (vsáklé vodou) a několik skleněných kuliček. Hydrogelové perly ve vodě „zmizí\", protože jsou tvořené převážně vodou a mají téměř shodný index lomu jako okolní voda – světlo se na jejich rozhraní prakticky neláme ani neodráží. Skleněné kuličky (jiný index lomu) zůstávají dobře vidět a zdánlivě „levitují\" mezi neviditelnými perlami. Názorná ukázka, že vidíme jen rozhraní, kde se mění index lomu.",
+  "materials": [
+    "zkumavka nebo sklenice s uzávěrem",
+    "hydrogelové perly",
+    "skleněné kuličky",
+    "voda"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

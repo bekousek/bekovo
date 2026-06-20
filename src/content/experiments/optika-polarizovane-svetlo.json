@@ -1,0 +1,18 @@
+{
+  "id": "optika-polarizovane-svetlo",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Polarizované světlo a krystaly",
+  "type": "qualitative",
+  "description": "Ze dvou polarizačních fólií žáci poznají polarizaci světla: při vzájemném otočení filtrů o 90° světlo úplně zhasne (zkřížené polarizátory). Mezi filtry pak vkládají průhledné materiály – krystaly, celofán, plastové pravítko – a v polarizovaném světle se objeví barevné obrazce (dvojlom). Lze postavit jednoduchý polarizační „mikroskop\" s mobilem a lupou nebo polarizační kaleidoskop z trubice a dvou filtrů. Úvod do polarizace světla a její využití.",
+  "materials": [
+    "dvě polarizační fólie",
+    "smartphone s držákem, lupa nebo mikroskopická nástavba",
+    "LED svítilna",
+    "vzorky krystalů, celofán, kartonová trubice"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2023",
+    "pdf": "dilny-heureky-2023.pdf"
+  }
+}

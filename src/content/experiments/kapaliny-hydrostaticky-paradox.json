@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-hydrostaticky-paradox",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Hydrostatický paradox – tlak nezávisí na tvaru nádoby",
+  "type": "measurement",
+  "description": "Žáci sestaví nádoby různého tvaru a objemu (z PET lahví) propojené nebo osazené tlakoměry a nalijí vodu do stejné výšky. Zjistí, že tlak u dna je ve všech stejný, pokud je stejná výška hladiny – nezáleží na tvaru nádoby ani na celkovém množství vody (hydrostatický paradox). Změří, že tlak roste přímo úměrně hloubce. Vyvrací intuici, že širší/objemnější nádoba má u dna větší tlak. Lze měřit jednoduchým tlakoměrem (i hadičkový manometr) nebo senzorem.",
+  "materials": [
+    "plastové lahve různého tvaru",
+    "tlakoměr (hadičkový manometr nebo senzor)",
+    "voda, barvivo",
+    "metr"
+  ],
+  "source": {
+    "label": "VNUF 2017",
+    "pdf": "vnuf-2017.pdf"
+  }
+}

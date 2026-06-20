@@ -1,0 +1,18 @@
+{
+  "id": "mereni-vodni-hodiny",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Vodní hodiny (klepsydra)",
+  "type": "measurement",
+  "description": "Žáci sestaví jednoduché vodní hodiny ze dvou kelímků a malého otvoru (kapiláry), kterým voda odkapává z horní nádoby do spodní. Stopkami okalibrují stupnici – ke které značce hladina klesne za 1 minutu apod. – a pak hodiny použijí k měření času bez stopek. Zjistí, že průtok není stálý (s klesající výškou hladiny voda teče pomaleji), a diskutují, jak hodiny zpřesnit. Historický způsob měření času a souvislost výšky hladiny, tlaku a průtoku.",
+  "materials": [
+    "dva plastové kelímky",
+    "jehla (otvor), nit, modelína",
+    "voda, potravinářské barvivo",
+    "stopky na kalibraci"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2024",
+    "pdf": "dilny-heureky-2024.pdf"
+  }
+}

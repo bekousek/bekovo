@@ -1,0 +1,16 @@
+{
+  "id": "elektrina-indukce-motorky-cd",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Spojené motorky z CD mechanik – generátor i motor",
+  "type": "qualitative",
+  "description": "Ze dvou starých CD mechanik z PC vyjmeme motorky pohánějící šuplík a propojíme je dvoulinkou. Když zatáhneme za šuplík jedné mechaniky, její motorek se roztočí a pracuje jako generátor – vyrobený proud roztočí druhý motorek, který vysune šuplík druhé mechaniky. Demonstrace, že stejné zařízení může fungovat jako motor i jako generátor, a přeměny energie (s diskusí o ztrátách a účinnosti).",
+  "materials": [
+    "dvě CD mechaniky z PC (jen motorky se šuplíkem)",
+    "dvoulinka"
+  ],
+  "source": {
+    "label": "Elixír nápadů 2",
+    "pdf": "elixir-napadu-2.pdf"
+  }
+}

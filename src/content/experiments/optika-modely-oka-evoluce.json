@@ -1,0 +1,19 @@
+{
+  "id": "optika-modely-oka-evoluce",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Modely oka – od plochého po komorové (evoluce oka)",
+  "type": "qualitative",
+  "description": "Žáci postupně vyrobí jednoduché modely oka kopírující evoluci zraku a sledují, co každý krok přidá. 1) Ploché oko: pauzák (sítnice) na kartonu s otvorem – rozliší jen světlo a tmu. 2) Miskovité oko: trubička před matnicí přidá směrovost a náznak převrácení obrazu. 3) Dírková komora ze dvou jogurtových kelímků s pauzákem a malým otvorem – vznikne převrácený obraz; menší dírka = ostřejší, ale tmavší obraz. 4) Komorové oko s čočkou (lupa v papírové trubce) – ostrý, jasný převrácený obraz na matnici, zaostřitelný posunem. Propojení optiky (dírková komora, čočka, převrácený obraz) s biologií zraku.",
+  "materials": [
+    "pauzovací papír, karton, nůžky, lepidlo",
+    "rolička od papíru",
+    "dva jogurtové kelímky, černá barva",
+    "jehla/šídlo",
+    "lupa (spojná čočka)"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}

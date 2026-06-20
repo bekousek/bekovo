@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-archimedes-telo",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Hustota těla a Archimédův zákon",
+  "type": "measurement",
+  "description": "Badatelská skupinová úloha: žáci určí hmotnost (osobní váhou) a odhadnou objem těla ponořením do nádoby s vodou (změří objem vytlačené vody), z čehož spočítají průměrnou hustotu těla a porovnají ji s hustotou vody – proč člověk ve vodě plave. Lze doplnit výpočtem BMI. Aplikace Archimédova zákona a hustoty na vlastní tělo. Téma hmotnosti a postavy je třeba vést citlivě a nehodnotící, s důrazem na fyzikální princip, ne na jednotlivce.",
+  "materials": [
+    "osobní váha",
+    "vana nebo sud s vodou",
+    "kýbl se stupnicí / odměrná nádoba",
+    "značkovač"
+  ],
+  "source": {
+    "label": "Elixír nápadů 4",
+    "pdf": "elixir-napadu-4.pdf"
+  }
+}
