@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-mikrovlnka-vlnova-delka",
+  "subtopicId": "elektromagneticke-vlneni",
+  "topicId": "elektrina",
+  "title": "Vlnová délka mikrovln – stojaté vlnění v troubě",
+  "type": "measurement",
+  "description": "Žáci vloží do mikrovlnné trouby (s vyjmutým otočným talířem) plochu citlivou na teplo – tabulku čokolády, sýr nebo papír s termocitlivým inkoustem. Po krátkém zapnutí se objeví pravidelně rozmístěná roztátá/zahřátá místa: to jsou kmitny stojatého elektromagnetického vlnění. Vzdálenost mezi nimi odpovídá polovině vlnové délky. Z té a ze známé frekvence trouby (≈2,45 GHz, na štítku) žáci dopočítají rychlost světla c = f·λ a porovnají ji s tabulkovou hodnotou. Působivé měření rychlosti světla v kuchyni.",
+  "materials": [
+    "mikrovlnná trouba (bez otočného talíře)",
+    "tabulka čokolády / sýr / papír s termocitlivým inkoustem",
+    "pravítko",
+    "kalkulačka"
+  ],
+  "source": {
+    "label": "VNUF 2022",
+    "pdf": "vnuf-2022.pdf"
+  }
+}

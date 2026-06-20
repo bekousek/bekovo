@@ -1,0 +1,18 @@
+{
+  "id": "energie-stlacovani-plynu-ir",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Stlačování a expanze plynu – ohřev a ochlazení (IR)",
+  "type": "qualitative",
+  "description": "Termokamerou žáci pozorují, že měnit teplotu plynu lze i bez ohřívání – stačí změnit jeho tlak. 1) Při stisku spreje (deodorant, suchý šampon) plyn rychle expanduje a tryska i okolí se citelně ochladí. 2) Když v PET láhvi s ventilkem stlačí vzduch hustilkou, vzduch i láhev se ohřejí; po rychlém vypuštění se ochladí. Žáci vyvodí, že při stlačování plyn koná práci „na něm\" a ohřívá se, kdežto při expanzi se ochlazuje. Kvalitativní úvod do dějů v plynech (a princip chladniček a tepelných čerpadel).",
+  "materials": [
+    "termokamera",
+    "sprej (suchý šampon / deodorant)",
+    "PET láhev s víčkem s autoventilkem",
+    "hustilka s manometrem"
+  ],
+  "source": {
+    "label": "VNUF 2022",
+    "pdf": "vnuf-2022.pdf"
+  }
+}
