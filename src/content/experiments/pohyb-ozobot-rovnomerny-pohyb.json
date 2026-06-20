@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-ozobot-rovnomerny-pohyb",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb a odvození s = v·t s ozobotem",
+  "type": "measurement",
+  "description": "Žákovská úloha (podle M. Jílka a H. Šandové): na dlouhou roli papíru s čárou žáci v pravidelných časových intervalech (např. každých 5 s) položí značku tam, kde se právě nachází jedoucí ozobot. U rovnoměrného pohybu vyjdou značky ve stejných rozestupech — žáci sami odvodí, že dráha je přímo úměrná času (s = v·t) a konstantou úměrnosti je rychlost. Po zopakování s rychleji nastaveným ozobotem (větší, ale opět pravidelné rozestupy) ze značek změří uraženou dráhu a čas a vypočítají rychlost. Navazující úlohy: doba objezdu obdélníku či kružnice (porovnání výpočtu a měření) a výpočet průměrné rychlosti při změně rychlostního módu.",
+  "materials": [
+    "ozobot (Ozobot Bit)",
+    "dlouhá role papíru s vyznačenou čárou",
+    "stopky",
+    "pravítko nebo metr",
+    "pastelky, fixy nebo kostičky LEGO jako značky"
+  ],
+  "source": {
+    "label": "Elixír nápadů 1",
+    "pdf": "elixir-napadu-1.pdf"
+  }
+}

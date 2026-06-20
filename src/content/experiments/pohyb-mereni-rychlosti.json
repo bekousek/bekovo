@@ -4,11 +4,14 @@
   "topicId": "pohyb",
   "title": "Měření rychlosti pomocí digitálních technologií",
   "type": "measurement",
-  "description": "Měření rychlosti chůze a běhu žáků na chodbě pomocí stopek a měřicího pásku. Výpočet průměrné rychlosti. Pokročilejší varianta: videoanalýza pohybu pomocí aplikace Tracker.",
+  "description": "Sada metod, jak s žáky měřit rychlost pomocí digitálních technologií (RC Frýdek-Místek): 1) Video projíždějících aut — žáci změří vzdálenost mezi dvěma body, natočí auto na iPad, v aplikaci iMovie odečtou čas průjezdu a s naměřenou dráhou určí průměrnou rychlost (vhodné v 6. třídě, zpracování dat v tabulkovém editoru). 2) Sportovní radar — měření rychlosti hozeného či kopnutého míče (běžně 30–70 km/h) a diskuse o chybách měření a vlivu okolního pohybu. 3) Mobilní aplikace (Speedometer) při sprintu na 60 m spolu s nahráváním obrazovky — porovnání průměrné a okamžité rychlosti, pozorování náběhu na startu, finiše i zpomalení po protnutí cíle. 4) Skákající míč se senzorem Vernier Go!Motion ukazuje, že okamžitá rychlost je vektor měnící znaménko.",
   "materials": [
-    "stopky",
-    "měřicí pásmo",
-    "telefon s aplikací Tracker nebo Phyphox"
+    "iPad nebo mobil s aplikací iMovie",
+    "sportovní radar",
+    "mobilní aplikace Speedometer + nahrávání obrazovky",
+    "měřicí pásmo / metr",
+    "kužely nebo značky",
+    "tabulkový editor"
   ],
   "source": {
     "label": "Elixír nápadů 1",
