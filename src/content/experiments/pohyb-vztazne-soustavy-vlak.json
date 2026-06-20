@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-vztazne-soustavy-vlak",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Skládání rychlostí a vztažné soustavy (papírový vlak)",
+  "type": "qualitative",
+  "description": "S papírovým modelem vagónu a figurkami žáci „přehrávají\" pohyb po sekundách a značkují polohy, čímž si názorně osahají relativitu pohybu a skládání rychlostí. 1) Chodec jdoucí ve vagónu – jeho rychlost vůči kolejím je součtem rychlostí. 2) Hod balíčku kolmo na směr jízdy – vůči zemi letí šikmo (skládání kolmých rychlostí). 3) Pád kamene z jedoucího vagónu vykreslí vůči krajině parabolu (rozklad na vodorovnou a svislou složku). 4) Rozjíždějící se vlak a „stojící\" chodec na nástupišti – úvod do setrvačných sil v neinerciální soustavě. Hands-on pochopení, že pohyb závisí na vztažné soustavě.",
+  "materials": [
+    "papír A4 a papírové měřítko",
+    "papírový model vagónu",
+    "figurka / značka",
+    "lepicí páska, pravítko"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2013",
+    "pdf": "dilny-heureky-2013.pdf"
+  }
+}
