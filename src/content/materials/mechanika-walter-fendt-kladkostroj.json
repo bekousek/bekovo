@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-walter-fendt-kladkostroj",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Walter Fendt: Kladkostroj (CZ)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině simuluje kladkostroj se dvěma, čtyřmi nebo šesti kladkami. Ukazuje, jak se zmenšením potřebné síly odpovídajícím způsobem prodlužuje dráha — zákon zachování energie. Žáci mohou odečítat hodnoty síly a dráhy a ověřovat, že konaná práce W = F · s zůstává konstantní.",
+  "url": "https://www.walter-fendt.de/html5/phcz/pulleysystem_cz.htm"
+}

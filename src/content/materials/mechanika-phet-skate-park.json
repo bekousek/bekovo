@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-phet-skate-park",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "PhET: Energetický skateboard — Základy",
+  "type": "applet",
+  "description": "Simulace skateboardisty na dráze ukazuje přeměnu potenciální a kinetické energie — žáci vidí, jak gravitace koná práci při pohybu tělesa dolů po dráze. Lze přidávat tření a pozorovat vznik tepelné energie. Vhodné pro navázání na práci gravitační síly a zákon zachování energie.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-skate-park-basics"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-walter-fendt-paka",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Walter Fendt: Zákon páky (CZ)",
+  "type": "applet",
+  "description": "Applet v češtině simuluje rovnováhu na páce a ukazuje, jak změna ramene síly ovlivňuje potřebnou sílu k vykonání stejné práce. Žáci mohou měnit polohu závaží a ověřovat zákon páky jako aplikaci zlatého pravidla mechaniky — práce na obou ramenech je stejná.",
+  "url": "https://www.walter-fendt.de/html5/phcz/lever_cz.htm"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "mechanika-veda-ve-sportu",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Věda ve sportu — videoanalýza pohybu",
+  "type": "other",
+  "description": "Žáci natočí krátké video sportovního pohybu (hod míčem, jízda na kole, skok) a v bezplatném programu Tracker analyzují trajektorii, rychlost a síly působící na těleso. Aktivita je badatelsky orientovaná — žáci sami navrhují, co měřit, a hledají fyzikální zákonitosti pohybu. Výsledky přirozeně propojují pohyb tělesa se silou a přemístěním, čímž ilustrují vztah W = F · s.",
+  "source": {
+    "label": "Science On Stage Europe",
+    "url": "https://www.science-on-stage.eu/material/science-in-sports"
+  }
+}
