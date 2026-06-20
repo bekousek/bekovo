@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-rc-obvod",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "RC obvod – nabíjení a vybíjení kondenzátoru",
+  "type": "measurement",
+  "description": "Žáci sestaví obvod z kondenzátoru (~470 µF) a rezistoru (~10 kΩ) a voltmetrem (nebo dataloggerem) sledují, jak napětí na kondenzátoru při nabíjení postupně roste a při vybíjení klesá – ne lineárně, ale po exponenciální křivce. Z naměřeného průběhu určí časovou konstantu τ a porovnají ji s výpočtem τ = R·C. Kvantitativní pohled na to, že kondenzátor se nenabíjí okamžitě a jak rychlost závisí na R a C.",
+  "materials": [
+    "kondenzátor ~470 µF",
+    "rezistor ~10 kΩ",
+    "laboratorní zdroj",
+    "voltmetr / datalogger",
+    "stopky, vodiče"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
+}

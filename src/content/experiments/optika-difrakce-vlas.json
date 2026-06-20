@@ -1,0 +1,18 @@
+{
+  "id": "optika-difrakce-vlas",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Difrakce na vlasu – měření vlnové délky laseru",
+  "type": "measurement",
+  "description": "Žáci nechají laserové ukazovátko svítit na jeden lidský vlas a na stěně vznikne difrakční obrazec – řada světlých a tmavých proužků. Změří rozteč proužků a vzdálenost stěny a z jednoduché geometrie (vlas funguje podobně jako štěrbina) určí vlnovou délku světla laseru. Praktická ukázka, že světlo je vlna a že tloušťku vlasu i vlnovou délku lze určit z ohybu světla. (Pozor na bezpečnou práci s laserem – nesvítit do očí.)",
+  "materials": [
+    "laserové ukazovátko",
+    "lidský vlas, držák",
+    "metr / pravítko",
+    "bílá stěna nebo stínítko"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
+}

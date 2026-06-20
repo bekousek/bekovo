@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-brzdna-draha-video",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Videoměření brzdné dráhy",
+  "type": "measurement",
+  "description": "Žáci natočí na video brzdění modelu auta (nebo skutečného vozidla) podél měřítka na dráze. Z videa po snímcích odečtou polohu v čase, sestrojí graf dráhy a rychlosti a určí brzdné zpomalení. Výsledek porovnají s výpočtem brzdné dráhy ze vztahu s = v²/(2·µ·g) a diskutují vliv tření a zdroje chyb měření. Propojení kinematiky, videoanalýzy a tření.",
+  "materials": [
+    "mobil / kamera",
+    "měřítko podél dráhy, pásmo",
+    "model auta nebo vozidlo",
+    "tabulkový editor / videoanalýza"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
+}

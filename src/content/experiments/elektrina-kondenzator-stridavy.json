@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-kondenzator-stridavy",
+  "subtopicId": "stridavy-proud",
+  "topicId": "elektrina",
+  "title": "Kondenzátor ve střídavém proudu – reaktance",
+  "type": "measurement",
+  "description": "Kondenzátor zapojený do obvodu se střídavým zdrojem (funkční generátor) propouští proud, přestože jeho desky nejsou vodivě spojené. Žáci měří proud přes kondenzátor (např. podle jasu žárovky a multimetrem) při různých frekvencích a zjistí, že s rostoucí frekvencí proud roste. Pozorování vede ke vztahu pro kapacitanci (reaktanci) Xc = 1/(ωC) – kondenzátor klade střídavému proudu tím menší „odpor\", čím vyšší je frekvence.",
+  "materials": [
+    "funkční generátor",
+    "kondenzátor 1–10 µF",
+    "multimetr",
+    "žárovka 3,5 V",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2011",
+    "pdf": "dilny-heureky-2011.pdf"
+  }
+}
