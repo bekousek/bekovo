@@ -1,0 +1,18 @@
+{
+  "id": "optika-kepleruv-dalekohled",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Keplerův dalekohled z čoček",
+  "type": "qualitative",
+  "description": "Na optické lavici žáci sestaví Keplerův (čočkový) dalekohled ze dvou spojných čoček: objektiv s dlouhou ohniskovou vzdáleností a okulár s krátkou. Po správném rozestupu (součet ohnisek) doostří na vzdálený objekt a uvidí zvětšený, ale převrácený obraz. Z poměru ohniskových vzdáleností objektivu a okuláru určí zvětšení a ověří ho odhadem na pozorovaném objektu. Pochopí stavbu a funkci nejjednoduššího astronomického dalekohledu (a proč dává převrácený obraz).",
+  "materials": [
+    "optická lavice se stojánky",
+    "spojná čočka s velkou ohniskovou vzdáleností (objektiv)",
+    "spojná čočka s malou ohniskovou vzdáleností (okulár)",
+    "vzdálený cíl"
+  ],
+  "source": {
+    "label": "VNUF 2024",
+    "pdf": "vnuf-2024.pdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pohyb-foucaultovo-kyvadlo",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Foucaultovo kyvadlo na gramofonu",
+  "type": "qualitative",
+  "description": "Na otáčející se desku gramofonu (model rotující Země) žáci připevní stojánek s krátkým kyvadlem (nebo rozkmitaným drátem) a rozkmitají ho. Pozorují, že rovina kmitů kyvadla zůstává stálá vůči okolí (vůči místnosti), zatímco deska se pod ním otáčí – z pohledu „na desce\" se zdá, jako by se rovina kmitů stáčela. Tím modelují Foucaultovo kyvadlo, kterým se dokazuje otáčení Země. Žáci pochopí rozdíl mezi pohybem v rotující a nehybné vztažné soustavě.",
+  "materials": [
+    "gramofon / otočná deska",
+    "obloukový stojánek, vlákno a závaží (kyvadlo)",
+    "případně drát z kola (varianta s rotací)"
+  ],
+  "source": {
+    "label": "VNUF 2024",
+    "pdf": "vnuf-2024.pdf"
+  }
+}

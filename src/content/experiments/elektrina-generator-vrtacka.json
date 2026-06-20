@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-generator-vrtacka",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Indukované napětí – generátor poháněný vrtačkou",
+  "type": "qualitative",
+  "description": "Demonstrace generátoru: permanentní magnet upevněný v sklíčidle vrtačky se roztočí v blízkosti cívky. Při otáčení se mění magnetický tok cívkou a indukuje se v ní střídavé napětí, které žáci změří multimetrem nebo zobrazí na osciloskopu. Zjistí, že velikost a frekvence napětí rostou s otáčkami (rychlostí změny pole). Názorná ukázka elektromagnetické indukce a principu generátoru/dynama – jak se mechanická energie mění na elektrickou. (Demonstrační pokus učitele.)",
+  "materials": [
+    "elektrická vrtačka",
+    "permanentní magnet",
+    "cívka",
+    "multimetr / osciloskop"
+  ],
+  "source": {
+    "label": "VNUF 2024",
+    "pdf": "vnuf-2024.pdf"
+  }
+}

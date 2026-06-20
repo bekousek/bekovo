@@ -1,0 +1,18 @@
+{
+  "id": "optika-magicke-zrcadlo",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Magické zrcadlo se skrytým obrazem",
+  "type": "qualitative",
+  "description": "Žáci vyrobí „magické zrcadlo\": do odrazné plochy zrcátka jemně vyryjí (nebo nepatrně zvlní pod fólií) jednoduchý motiv, který při běžném pohledu téměř nevidíme. Když ale zrcátkem odrazíme svazek světla na vzdálené stínítko, v odraženém světle se motiv zřetelně objeví. Drobné prohlubně a vyvýšeniny totiž odrážejí světlo do mírně jiných směrů a na stínítku se zesílí. Inspirováno starými čínskými „magickými zrcadly\". Žáci propojí zákon odrazu s tím, jak nepatrná deformace povrchu ovlivní odražený obraz.",
+  "materials": [
+    "kapesní zrcátko",
+    "rydlo (jemné), odrazná fólie",
+    "silný zdroj světla",
+    "stínítko"
+  ],
+  "source": {
+    "label": "VNUF 2024",
+    "pdf": "vnuf-2024.pdf"
+  }
+}
