@@ -1,0 +1,18 @@
+{
+  "id": "plyny-bernoulli-trychtyr",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Bernoulliho překvapení – trychtýř a foukání",
+  "type": "qualitative",
+  "description": "Sada krátkých „nejde to\" pokusů s proudícím vzduchem. 1) Papírový kornout v trychtýři nejde vyfouknout – proudící vzduch kolem něj snižuje tlak a kornout se přisaje. 2) Pingpongový míček v trychtýři: foukáním do trychtýře míček nevyletí, naopak v něm drží. 3) Foukáním nelze dostat papírovou kuličku do hrdla láhve – vzduch se vrací proti a kuličku vyfoukne ven. Žáci pozorují, že tam, kde vzduch proudí rychleji, je nižší tlak (Bernoulliho jev), a roli vírů.",
+  "materials": [
+    "trychtýř",
+    "papírový kornout",
+    "pingpongový míček",
+    "plastová láhev a papírová kulička"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

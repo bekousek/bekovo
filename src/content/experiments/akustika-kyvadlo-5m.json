@@ -1,0 +1,19 @@
+{
+  "id": "akustika-kyvadlo-5m",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Pětimetrové kyvadlo – měření periody",
+  "type": "measurement",
+  "description": "Skupiny sestaví dlouhé (~5 m) kyvadlo – jako závaží poslouží PET láhev s vodou zavěšená na pevném laně (tělocvična, schodiště). Stopkami změří dobu mnoha kmitů a vypočítají periodu (průměrováním přes více kmitů se zmenší chyba). Výsledek porovnají se vzorcem T = 2π·√(l/g) a mohou dokonce zpětně určit tíhové zrychlení g. Žáci si ověří, že perioda závisí na délce závěsu, ne na hmotnosti ani (pro malé výchylky) na amplitudě.",
+  "materials": [
+    "lano ~5 m",
+    "PET láhev 1,5 l s vodou",
+    "stopky",
+    "metr",
+    "bezpečný závěs"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

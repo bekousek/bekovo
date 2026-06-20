@@ -1,0 +1,18 @@
+{
+  "id": "akustika-frekvence-struny-mobil",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Měření frekvence struny mobilem",
+  "type": "measurement",
+  "description": "Žáci vyfotí kmitající strunu mobilním fotoaparátem: díky postupnému snímání řádků senzoru (rolling shutter) se na snímku struna jeví jako vlnovka. Po kalibraci „skenovacího\" času senzoru (např. pomocí blikající LED/zářivky o známé frekvenci) z počtu vln na obrázku určí frekvenci kmitání struny a porovnají ji s ladičkou nebo generátorem. Spojení akustiky (frekvence tónu) s chytrým využitím běžné techniky.",
+  "materials": [
+    "mobil s fotoaparátem",
+    "struna na stojanu",
+    "ladička nebo generátor",
+    "zářivka/LED pro kalibraci"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

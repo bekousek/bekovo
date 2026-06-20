@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-rolling-shutter-sit",
+  "subtopicId": "stridavy-proud",
+  "topicId": "elektrina",
+  "title": "Blikání světel ze sítě – rolling shutter mobilu",
+  "type": "qualitative",
+  "description": "Mobilní fotoaparát snímá obraz řádek po řádku (rolling shutter), takže na snímku světla napájeného ze sítě (50 Hz) se objeví tmavé a světlé pruhy – důkaz, že světlo bliká, i když to oko nepostřehne. Žáci porovnají LED a zářivku: u zářivky je pruhů zhruba dvojnásobek, protože její jas kmitá s frekvencí 100 Hz (světlo vzniká v obou půlperiodách střídavého proudu). Z hustoty pruhů lze odhadnout i „skenovací\" čas senzoru. Dostupná ukázka střídavého proudu jen s mobilem.",
+  "materials": [
+    "mobil s fotoaparátem",
+    "LED a zářivka napájené ze sítě",
+    "tmavá místnost",
+    "stativ (volitelně)"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}

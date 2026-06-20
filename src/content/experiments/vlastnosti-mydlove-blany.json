@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-mydlove-blany",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Mýdlové blány a povrchové napětí – minimalizace povrchu",
+  "type": "qualitative",
+  "description": "Série pokusů ukazujících, že kapalina se snaží zmenšit svůj povrch. 1) Drátěný rámeček s volnou nití a mýdlovou blánou: po propíchnutí blány na jedné straně se nit napne do oblouku, protože zbylá blána zmenšuje svou plochu. 2) Bublina v nálevce: po uvolnění hrdla se blána pohybuje k zúžení. 3) Kolik mincí unese plná sklenice: do plné sklenice lze přidat překvapivě hodně mincí, než voda přeteče – hladina se vyklene nad okraj díky povrchovému napětí. Názorné spojení povrchového napětí s tendencí k nejmenšímu povrchu.",
+  "materials": [
+    "tenký drát a nit",
+    "mýdlový roztok, miska",
+    "nálevka",
+    "plná sklenice vody, drobné mince"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2012",
+    "pdf": "dilny-heureky-2012.pdf"
+  }
+}
