@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-vodice-led-papir",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Kov vs. dřevo – led a papír odhalí vedení tepla",
+  "type": "qualitative",
+  "description": "Dva překvapivé pokusy ukazující, že kov je mnohem lepší vodič tepla než dřevo. 1) Kostka ledu položená na kovovou desku taje výrazně rychleji než na dřevěném prkénku – kov rychle dodává ledu teplo z okolí. 2) Papír omotaný kolem kovové tyče nad plamenem nezuhelnatí (kov teplo odvádí), zatímco na dřevěné násadě se papír spálí. Žáci si uvědomí, proč kov „studí\" na dotek, ač má pokojovou teplotu, a vyvodí roli tepelné vodivosti.",
+  "materials": [
+    "kovová deska / dno hrnce a kovová trubka",
+    "dřevěné prkénko a dřevěná násada",
+    "kostky ledu",
+    "papír",
+    "svíčka / vařič, kleště"
+  ],
+  "source": {
+    "label": "Elixír nápadů 5",
+    "pdf": "elixir-napadu-5.pdf"
+  }
+}

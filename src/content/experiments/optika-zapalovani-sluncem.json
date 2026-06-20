@@ -1,0 +1,19 @@
+{
+  "id": "optika-zapalovani-sluncem",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Zapalování sluncem – čočka a duté zrcadlo",
+  "type": "qualitative",
+  "description": "Žáci soustředí sluneční záření spojnou čočkou (a pro srovnání dutým zrcadlem) do malé plošky na tmavém papíru, až se papír zapálí. Porovnají oba způsoby soustředění světla a roli ohniska. Tip z článku: bílý papír většinu světla odráží a hůř se zapaluje – mnohem snazší je papír černý (potištěný/pokreslený). Spojnou čočku držíme co nejvíc kolmo ke slunci. Mít po ruce vodu na uhašení. Spojení optiky (ohnisko, soustředění paprsků) s přeměnou zářivé energie na teplo.",
+  "materials": [
+    "spojná čočka",
+    "duté zrcadlo",
+    "černě potištěný papír",
+    "slunce (nebo silná žárovka)",
+    "voda na uhašení"
+  ],
+  "source": {
+    "label": "Elixír nápadů 5",
+    "pdf": "elixir-napadu-5.pdf"
+  }
+}

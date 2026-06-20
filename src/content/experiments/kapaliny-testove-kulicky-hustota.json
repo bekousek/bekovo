@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-testove-kulicky-hustota",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Plování těstových kuliček – kvasnice vs. prášek do pečiva",
+  "type": "qualitative",
+  "description": "Žáci vyrobí z mouky a vody dvě stejné kuličky – do jedné přidají droždí (kvasnice), do druhé prášek do pečiva – a vloží je do vody. Kvasnicová kulička asi po půl hodině vyplave, protože kvasnice vyprodukovaly oxid uhličitý zachycený lepkovými blankami, čímž se kulička nafoukla a klesla její průměrná hustota pod hustotu vody. Kulička s práškem zůstane na dně, dokud se neuvaří. Po uvaření vyplavou obě (bubliny plynu se rozpínají). Názorná souvislost mezi množstvím plynu, hustotou a plováním.",
+  "materials": [
+    "hladká mouka, voda",
+    "droždí (kvasnice)",
+    "prášek do pečiva",
+    "miska a hrnec s vařičem"
+  ],
+  "source": {
+    "label": "Elixír nápadů 5",
+    "pdf": "elixir-napadu-5.pdf"
+  }
+}
