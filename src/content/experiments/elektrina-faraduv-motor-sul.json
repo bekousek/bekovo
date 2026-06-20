@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-faraduv-motor-sul",
+  "subtopicId": "elektromotor",
+  "topicId": "elektrina",
+  "title": "Faradayův motor v solném roztoku",
+  "type": "qualitative",
+  "description": "V kelímku se slanou vodou (vodivý roztok) a feritovými magnety u dna se volně zavěšený neizolovaný měděný vodič připojí ke zdroji. Proud procházející roztokem i vodičem v poli magnetů vyvolá Lorentzovu sílu, která roztočí kapalinu i vodič dokola. Žáci mění napětí a koncentraci soli a sledují, jak to ovlivní rychlost a stabilitu otáčení. Varianta klasického Faradayova rotačního pokusu (počátek elektromotorů).",
+  "materials": [
+    "feritové magnety (3 ks)",
+    "kelímek od jogurtu",
+    "neizolovaný měděný drát",
+    "kuchyňská sůl",
+    "zdroj 12 V"
+  ],
+  "source": {
+    "label": "Sborník dílen Elixíru 2019",
+    "pdf": "sbornik-dilen-elixiru-2019.pdf"
+  }
+}
