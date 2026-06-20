@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-zkumavka-konvekce",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Zkumavka s vodou – ohřev u hladiny vs. u dna",
+  "type": "qualitative",
+  "description": "Do zkumavky napustíme studenou vodu a zahříváme ji svíčkou nejprve u hladiny: bodovým teploměrem zjistíme, že u hladiny teplota rychle stoupá až k varu, zatímco u dna se téměř nemění – voda je špatný vodič tepla a teplá voda nahoře neklesá. Když ale zahříváme u dna, ohřátá voda stoupá vzhůru a celý objem se promíchá (proudění/konvekce). Názorné srovnání vedení tepla a proudění v kapalině.",
+  "materials": [
+    "zkumavka",
+    "bodový teploměr",
+    "svíčka",
+    "stojan / kleště",
+    "voda"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "optika-solarografie-lumen",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Solarografie a lumen print – fotografie bez fotoaparátu",
+  "type": "other",
+  "description": "Dvě techniky fotografie využívající jen světlocitlivý papír a slunce. Solarografie: z plechovky, dírky (jehlou) a černobílého fotopapíru žáci sestaví dírkovou komoru (camera obscura), kterou na týdny až měsíce vyvěsí ven; dlouhá expozice zachytí dráhy Slunce po obloze. Snímek se pak naskenuje a digitálně invertuje. Lumen print: na fotopapír se rozloží předměty (listy, krajky), přikryjí sklem a vystaví na slunce; vznikne barevný obrys-fotogram, který se naskenuje, případně ustálí ve fomafixu. Propojení optiky (přímé šíření světla, dírková komora) s fotochemií a tvořivostí.",
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

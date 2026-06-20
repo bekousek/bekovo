@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-chladnuti-mereni",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Chladnutí vody – ruční zápis vs. čidlo a porovnání metod chlazení",
+  "type": "measurement",
+  "description": "Skupiny měří chladnutí horké vody: nejprve ručně laboratorním teploměrem (např. po 10 a 30 s) a poté teplotním čidlem (Vernier, 2 Hz). Z dat sestrojí grafy a porovnají pracnost i hustotu naměřených bodů ručního a automatického záznamu; sledují také vliv objemu vody na rychlost chladnutí. V navazující úloze každá skupina vyzkouší jiný způsob, jak rychle ochladit hrnek čaje (lázeň se studenou vodou, míchání lžící, přelévání mezi hrnky) a všechny průběhy zanesou do jednoho grafu, aby určily nejúčinnější metodu.",
+  "materials": [
+    "teplotní čidlo Vernier",
+    "počítač s Logger Pro",
+    "laboratorní teploměry",
+    "kádinky / hrnky",
+    "stopky",
+    "milimetrový papír",
+    "horká voda"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}

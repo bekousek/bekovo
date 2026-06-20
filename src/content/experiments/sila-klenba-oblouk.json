@@ -1,0 +1,16 @@
+{
+  "id": "sila-klenba-oblouk",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Stavba klenby z dřevěných hranolů",
+  "type": "qualitative",
+  "description": "Skupiny postaví samonosnou klenbu (oblouk) z lichoběžníkových dřevěných hranolů či kostek bez lepidla a spojovacích prvků – drží pohromadě jen vzájemným tlakem. Žáci zkoumají, jak se v oblouku přenášejí síly do podpěr a jak klenbu ovlivní boční zatížení a opěry (proč klenba bez bočního zajištění snadno povolí). Názorná ukázka rozkladu a přenosu sil ve stavebních konstrukcích.",
+  "materials": [
+    "lichoběžníkové dřevěné hranoly / stavebnice klenby",
+    "pracovní podložka"
+  ],
+  "source": {
+    "label": "Elixír nápadů 3",
+    "pdf": "elixir-napadu-3.pdf"
+  }
+}
