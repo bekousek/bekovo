@@ -1,0 +1,17 @@
+{
+  "id": "akustika-zamereni-zvuku",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zaměření zdroje zvuku ušima",
+  "type": "qualitative",
+  "description": "Žák se zavázanýma očima určuje, odkud přichází zvuk (bzučák, tlesknutí), který spolužáci vydávají z různých míst. Zjistí, že nejhůř se rozlišuje zvuk přímo zepředu nebo zezadu a nejlépe ze stran – mozek směr určuje z nepatrného rozdílu času a hlasitosti, s jakou zvuk dorazí do levého a pravého ucha (binaurální slyšení). Vyzkoušejí i vliv „boltců\" z kartonu. Pochopení prostorového slyšení a role dvou uší.",
+  "materials": [
+    "zdroj zvuku (bzučák / reproduktor)",
+    "šátek na oči",
+    "kartonové „boltce\" (volitelně)"
+  ],
+  "source": {
+    "label": "VNUF 2018",
+    "pdf": "vnuf-2018.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "akustika-gramofon",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Gramofon bez elektřiny",
+  "type": "qualitative",
+  "description": "Žáci roztočí starou gramofonovou desku (např. na otáčivé podložce nebo tužce v ruce ve správné rychlosti) a do drážky lehce přiloží šicí jehlu zapíchnutou do papírového kornoutu/kelímku. Jemné nerovnosti v drážce rozkmitají jehlu, kmity se přenesou na papírový trychtýř, který je zesílí na slyšitelný zvuk – deska „hraje\" zcela bez elektřiny. Žáci pochopí, že zvuk je zaznamenán jako mechanické vlnky v drážce a jak se převádí zpět na kmitání a zvuk.",
+  "materials": [
+    "gramofonová deska",
+    "šicí jehla",
+    "papírový trychtýř / kelímek",
+    "otáčivá podložka"
+  ],
+  "source": {
+    "label": "VNUF 2018",
+    "pdf": "vnuf-2018.pdf"
+  }
+}

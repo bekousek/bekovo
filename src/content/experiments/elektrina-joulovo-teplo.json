@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-joulovo-teplo",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Joulovo teplo termokamerou",
+  "type": "qualitative",
+  "description": "Žáci termokamerou pozorují, jak se vodič zahřívá průchodem proudu (Joulovo teplo). 1) Vodivé „bludiště\": jen ta větev, kterou prochází proud, se na termokameře rozsvítí teplem – ukazuje cestu proudu a souvislost výkonu a tepla. 2) Různě velké rezistory napájené stejným výkonem: menší rezistor se zahřeje na vyšší teplotu než větší (menší tepelná kapacita a horší chlazení). Žáci vyvodí, že průchod proudu vodičem s odporem vždy uvolňuje teplo a na čem množství tepla závisí.",
+  "materials": [
+    "termovizní kamera",
+    "zdroj napětí",
+    "měděný vodič / vodivé bludiště",
+    "rezistory různé velikosti, multimetr"
+  ],
+  "source": {
+    "label": "VNUF 2018",
+    "pdf": "vnuf-2018.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sila-mereni-g",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Měření tíhového zrychlení g (tři metody)",
+  "type": "measurement",
+  "description": "Žáci určí tíhové zrychlení g třemi nezávislými způsoby a výsledky porovnají s tabulkovou hodnotou (~9,81 m/s²). 1) Volný pád: změří dobu pádu kuličky z dané výšky (stopky nebo videoanalýza) a dopočítají g ze vztahu h = ½gt². 2) Matematické kyvadlo: změří periodu pro několik délek a z grafu (lineární regrese) určí g ze vztahu T = 2π·√(l/g). 3) Pružinový oscilátor: ze závislosti prodloužení a periody kmitání závaží na pružině. Žáci diskutují přesnost jednotlivých metod a zdroje chyb.",
+  "materials": [
+    "golfový míček, metr",
+    "stopky / mobil s videoanalýzou",
+    "provázek a závaží (kyvadlo)",
+    "pružina a sada závaží, stojan"
+  ],
+  "source": {
+    "label": "VNUF 2018",
+    "pdf": "vnuf-2018.pdf"
+  }
+}
