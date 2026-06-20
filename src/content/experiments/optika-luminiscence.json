@@ -1,0 +1,18 @@
+{
+  "id": "optika-luminiscence",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Setrvalá luminiscence a její dohasínání",
+  "type": "qualitative",
+  "description": "Žáci ozáří luminiscenční (fosforeskující, „svítící ve tmě\") materiál – nálepku, fólii nebo hračku – ultrafialovou LED a po zhasnutí UV sledují, jak materiál ještě nějakou dobu sám svítí (setrvalá luminiscence) a postupně dohasíná. Vyzkoušejí, jak dohasínání ovlivní zahřátí (fénem) – teplo dohasínání urychlí. Žáci poznají, že některé látky umí pohltit energii světla a vyzářit ji se zpožděním, a rozliší fluorescenci (svítí jen při ozáření) od fosforescence (doznívá).",
+  "materials": [
+    "luminiscenční fólie / objekt",
+    "UV LED",
+    "fén (ohřev), stopky",
+    "fotoaparát (volitelně)"
+  ],
+  "source": {
+    "label": "VNUF 2015",
+    "pdf": "vnuf-2015.pdf"
+  }
+}

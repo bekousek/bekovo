@@ -1,0 +1,18 @@
+{
+  "id": "mereni-hustota-papiru",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustota papíru – plošná i objemová",
+  "type": "measurement",
+  "description": "Dvě měření na běžném kancelářském papíru. 1) Plošná hustota: žáci zváží přesně 1 m² papíru (16 listů A4 má plochu 1 m²) a ověří, že údaj „80 g/m²\" sedí – procvičí převody jednotek a práci s plochou. 2) Objemová hustota: z většího počtu listů sestaví kvádr, změří jeho rozměry (i posuvným měřítkem tloušťku) a hmotnost a vypočítají hustotu papíru v kg/m³. Praktické měření hmotnosti, rozměrů a výpočet hustoty na dostupném materiálu.",
+  "materials": [
+    "kuchyňské váhy (0,1 g)",
+    "listy A4",
+    "pravítko, posuvné měřítko",
+    "kalkulačka"
+  ],
+  "source": {
+    "label": "VNUF 2015",
+    "pdf": "vnuf-2015.pdf"
+  }
+}

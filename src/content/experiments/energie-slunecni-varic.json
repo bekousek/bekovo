@@ -1,0 +1,18 @@
+{
+  "id": "energie-slunecni-varic",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Testování slunečních vařičů",
+  "type": "measurement",
+  "description": "Žáci postaví (nebo porovnají) sluneční vařiče – např. odraznou parabolu či zateplenou krabici s černým hrncem – a měří jejich výkon: zaznamenávají ohřev daného množství vody v čase, případně i příkon dopadajícího slunečního záření slunoměrem (pyranometrem). Z dat porovnají účinnost různých konstrukcí a roli černého povrchu, izolace a natočení ke Slunci. Propojení přeměny zářivé energie na teplo, měření a obnovitelných zdrojů.",
+  "materials": [
+    "sluneční vařič (parabola nebo zateplená krabice)",
+    "černý hrnec, voda",
+    "teploměr s čidlem",
+    "slunoměr/pyranometr (volitelně)"
+  ],
+  "source": {
+    "label": "VNUF 2015",
+    "pdf": "vnuf-2015.pdf"
+  }
+}
