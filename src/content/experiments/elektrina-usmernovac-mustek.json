@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-usmernovac-mustek",
+  "subtopicId": "stridavy-proud",
+  "topicId": "elektrina",
+  "title": "Usměrnění střídavého proudu diodovým můstkem",
+  "type": "qualitative",
+  "description": "Žáci na dřívku s hřebíčky sestaví Graetzův (diodový) můstek ze čtyř diod a vyzkoušejí ho. Nejprve s LED verzí můstku názorně uvidí, že ať přivedou napětí kterýmkoli směrem, výstupní svorky mají vždy stejnou polaritu (správné LED svítí). Při napájení střídavým zdrojem můstek mění střídavý proud na pulzující stejnosměrný – základ síťových zdrojů a nabíječek. Mohou porovnat průběhy před a za můstkem.",
+  "materials": [
+    "usměrňovací diody a LED diody",
+    "rezistory",
+    "dřívka, měděné hřebíčky, vodiče",
+    "plochá baterie a střídavý laboratorní zdroj"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}

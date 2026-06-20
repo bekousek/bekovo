@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-parni-lodicka",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Parní lodička (pop-pop)",
+  "type": "qualitative",
+  "description": "Žáci zhotoví parní lodičku s ohnutou mosaznou trubičkou (kotlík), jejíž oba konce ústí pod hladinu. Plamínek svíčky zahřeje vodu v trubičce, vznikne pára, vytlačí vodu ven – a po ochlazení se voda nasaje zpět; cyklus se rychle opakuje (charakteristické „pop-pop\") a reakční proud vody pohání loďku vpřed. Demonstrace přeměny tepla na pohyb a reakčního (tryskového) pohonu na vodě.",
+  "materials": [
+    "mosazná trubička",
+    "plechovka / trup loďky",
+    "svíčka",
+    "epoxidové lepidlo",
+    "kbelík s vodou"
+  ],
+  "source": {
+    "label": "Dílny Heuréky 2021",
+    "pdf": "dilny-heureky-2021.pdf"
+  }
+}
