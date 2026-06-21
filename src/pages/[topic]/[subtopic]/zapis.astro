@@ -17,11 +17,6 @@ const latexPdf = subtopic.notebookEntry?.latexPdf ?? null;
 // Soubor PDF/SVG je pojmenován jako "{topicId}--{subtopicId}.pdf",
 // stejně jako to dělá scripts/compile-latex.mjs (basename(jsonFile)).
 const pdfHref  = latexPdf ? `/notebook-pdfs/${topic.id}--${subtopic.id}.pdf` : null;
-// Iframe vyplní šířku, výška se odvodí přes CSS aspect-ratio:
-//   ratio = pageCount × (height / width)  → tj. všechny stránky pod sebou.
-const pdfAspect = latexPdf
-  ? `${1} / ${(latexPdf.pageCount * latexPdf.aspectRatio).toFixed(4)}`
-  : null;
 ---
 <BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
@@ -47,31 +42,19 @@ const pdfAspect = latexPdf
       />
 
       <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
-        {pdfHref && pdfAspect ? (
-          <div class="notebook-pdf-wrapper">
-            <iframe
-              src={`${pdfHref}#view=FitH&toolbar=0&navpanes=0`}
-              title={`${subtopic.name} — zápis (PDF)`}
-              class="notebook-pdf"
-              style={`aspect-ratio: ${pdfAspect};`}
-              loading="lazy"
-            />
-          </div>
-        ) : (
-          <div class="notebook-entry prose max-w-none">
-            {latexSvgs ? (
-              latexSvgs.map((svg) => (
-                <div class={latexSvgs.length > 1 ? 'latex-page' : undefined}>
-                  <Fragment set:html={svg} />
-                </div>
-              ))
-            ) : subtopic.notebookEntry.content ? (
-              <Fragment set:html={subtopic.notebookEntry.content} />
-            ) : (
-              <p class="text-sm text-gray-500 italic">Zápis čeká na kompilaci. Spusť <code>npm run compile-latex</code>.</p>
-            )}
-          </div>
-        )}
+        <div class="notebook-entry prose max-w-none">
+          {latexSvgs ? (
+            latexSvgs.map((svg) => (
+              <div class={latexSvgs.length > 1 ? 'latex-page' : undefined}>
+                <Fragment set:html={svg} />
+              </div>
+            ))
+          ) : subtopic.notebookEntry.content ? (
+            <Fragment set:html={subtopic.notebookEntry.content} />
+          ) : (
+            <p class="text-sm text-gray-500 italic">Zápis čeká na kompilaci. Spusť <code>npm run compile-latex</code>.</p>
+          )}
+        </div>
       </div>
     </div>
   ) : (
@@ -83,20 +66,9 @@ const pdfAspect = latexPdf
   )}
 
   <style is:global>
-    /* PDF preview (embed přes iframe) — text je nativně kopírovatelný */
-    .notebook-pdf-wrapper {
-      width: 100%;
-    }
-    .notebook-pdf {
-      width: 100%;
-      height: auto;
-      display: block;
-      border: 1px solid #e5e7eb;
-      border-radius: 0.5rem;
-      background: #f9fafb;
-    }
-
-    /* Responzivní LaTeX SVG (inline SVG z dvisvgm) */
+    /* Responzivní LaTeX SVG (inline SVG z dvisvgm) — vykreslí se přímo
+       na stránce, funguje na desktopu i mobilu (na rozdíl od PDF v iframe,
+       které mobilní prohlížeče nabízejí ke stažení). */
     .notebook-entry > svg,
     .notebook-entry .latex-page > svg {
       width: 100%;
