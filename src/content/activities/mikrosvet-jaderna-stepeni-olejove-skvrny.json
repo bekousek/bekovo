@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-jaderna-stepeni-olejove-skvrny",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Modelování štěpení jádra olejovými skvrnami",
+  "type": "group-work",
+  "description": "Žáci modelují štěpení atomového jádra pomocí olejových skvrn na hladině vody: snaží se skvrnu rozdělit příborovým nožem nebo dvě skvrny spojit a pozorují jejich chování. Aktivita pomáhá intuitivně pochopit, proč je energie jaderné reakce tak velká — jádro (skvrna) se nechce ani štěpit, ani slučovat. Pochází z brožury Učíme jadernou fyziku (ČEZ), kde jsou popsány i pokročilejší varianty s kapkou oleje suspendovanou ve směsi vody a alkoholu.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/file/edee/se/energetika-interaktivne/ucimejadernoufyziku.pdf"
+  }
+}

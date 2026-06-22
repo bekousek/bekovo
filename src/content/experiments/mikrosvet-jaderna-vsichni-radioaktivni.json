@@ -1,0 +1,17 @@
+{
+  "id": "mikrosvet-jaderna-vsichni-radioaktivni",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Všichni jsme radioaktivní (videopokus)",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ videopokus zaměřený na přirozené zdroje radioaktivního záření v každodenním životě: uranová ruda, uranové sklo, stará keramika s radiovým nátěrem, školní zářič. Pokus popisuje základní principy radiační ochrany (čas, vzdálenost, stínění) a funkci ochranných prostředků. K videopokusu je k dispozici pracovní list pro vyučující.",
+  "materials": [
+    "vzorky přirozených radionuklidů nebo školní zářič",
+    "Geiger-Müllerův počítač nebo detektor radioaktivity",
+    "pracovní list"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/videopokusy/vsichni-jsme-radioaktivni"
+  }
+}

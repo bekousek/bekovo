@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-vascak-jaderna-reakce",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Vaščák: Jaderná reakce",
+  "type": "applet",
+  "description": "Česká HTML5 animace jaderné reakce ze sady Fyzika ve škole (Vaščák). Ukazuje průběh štěpení těžkých jader a vznik produktů. Animace je dostupná bez registrace a vhodná jako rychlé vizuální doplnění výkladu v 9. třídě.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=jadro_reakce&l=cz"
+}
