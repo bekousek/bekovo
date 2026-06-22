@@ -11,6 +11,7 @@
  * se testují v CI navždy. (Před prvním vydáním se v1 ještě vyvíjí volně.)
  */
 import { z } from 'zod';
+import { LessonSchema } from './lesson';
 
 export const Vec2Schema = z.object({ x: z.number(), y: z.number() });
 
@@ -202,6 +203,8 @@ export const SceneDocSchema = z.object({
   }),
   /** Pořadí v poli = z-pořadí vykreslení; tělesa i klouby dohromady. */
   entities: z.array(EntitySchema),
+  /** Volitelná lekce s předpovědí (F2-E). */
+  lesson: LessonSchema.optional(),
 });
 
 export type Shape = z.infer<typeof ShapeSchema>;

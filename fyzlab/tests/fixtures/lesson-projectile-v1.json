@@ -1,0 +1,43 @@
+{
+  "format": "fyzlab-scene",
+  "version": 1,
+  "meta": { "id": "lesson-projectile-v1", "title": "Šikmý vrh — kam dopadne?" },
+  "world": { "gravity": { "x": 0, "y": -9.81 }, "airDensity": 0, "tickHz": 120 },
+  "camera": { "center": { "x": 5, "y": 2 }, "metersPerScreenH": 8 },
+  "entities": [
+    {
+      "kind": "body",
+      "id": "ground",
+      "name": "Podlaha",
+      "bodyType": "static",
+      "transform": { "x": 0, "y": 0, "angle": 0 },
+      "velocity": { "vx": 0, "vy": 0, "omega": 0 },
+      "shapes": [{ "type": "plane" }],
+      "material": { "density": 1000, "friction": 0.5, "restitution": 0.3 },
+      "appearance": { "fill": "#94a3b8", "showVelocity": false }
+    },
+    {
+      "kind": "body",
+      "id": "ball",
+      "name": "Míč",
+      "bodyType": "dynamic",
+      "transform": { "x": 0, "y": 0.2, "angle": 0 },
+      "velocity": { "vx": 7.071, "vy": 7.071, "omega": 0 },
+      "shapes": [{ "type": "circle", "r": 0.1, "offset": { "x": 0, "y": 0 } }],
+      "material": { "density": 1000, "friction": 0.5, "restitution": 0.3 },
+      "appearance": { "fill": "#3b82f6", "showVelocity": true }
+    }
+  ],
+  "lesson": {
+    "question": "Míč je vystřelen pod úhlem 45 ° s rychlostí 10 m/s z výšky 0,2 m. Jak daleko (v ose x) dopadne na podlahu?",
+    "prediction": {
+      "kind": "numeric",
+      "targetBodyId": "ball",
+      "quantity": "landing-x",
+      "tolerance": 0.05,
+      "unit": "m"
+    },
+    "hint": "Pro ideální vrh bez vzduchu: R ≈ v² · sin(2α) / g. S malou výškou odpalování bude dolet o trochu delší.",
+    "level": "střední"
+  }
+}
