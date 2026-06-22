@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-fendt-rozpadove-rady",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt: Radioaktivní rozpadové řady",
+  "type": "applet",
+  "description": "Česká HTML5 simulace přirozených rozpadových řad těžkých jader (toriumová, uranová, aktiniová série). Žák klikáním sleduje postupný rozpad od mateřského jádra ke stabilnímu produktu; každý krok zobrazuje typ záření (alfa nebo beta). Propojuje téma radioaktivity s přeměnou jader a uvolňováním energie.",
+  "url": "https://www.walter-fendt.de/html5/phcz/decaychains_cz.htm"
+}

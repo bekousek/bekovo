@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-20",
+  "lastPicked": "2026-06-22",
   "history": [
     {
       "date": "2026-05-08",
@@ -164,6 +164,12 @@
       "subtopic": "mechanika--prace",
       "result": "pr-pending",
       "items": 21
+    },
+    {
+      "date": "2026-06-22",
+      "subtopic": "mikrosvet--jaderna-energie",
+      "result": "pr-pending",
+      "items": 20
     }
   ],
   "skipUntil": {}

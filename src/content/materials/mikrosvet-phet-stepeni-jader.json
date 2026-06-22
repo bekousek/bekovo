@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-stepeni-jader",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "PhET: Štěpení jader",
+  "type": "applet",
+  "description": "Interaktivní simulace jaderného štěpení v češtině. Žák odpálí neutron a sleduje, jak rozbije jádro uranu-235. Simulace obsahuje záložku řetězová reakce (přidávání jader U-235 nebo neradioaktivních izotopů ke zpomalení) a záložku jaderný reaktor, kde lze nastavovat polohu regulačních tyčí a sledovat výkon elektrárny.",
+  "url": "https://phet.colorado.edu/cs/simulation/legacy/nuclear-fission"
+}

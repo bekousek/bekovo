@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-jaderna-rozpad-cocky",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Rozpad čočky — modelování radioaktivního rozpadu",
+  "type": "group-work",
+  "description": "Žáci rozsypou desítky zrnek kuchyňské čočky, na jednu stranu každého namalují tečku symbolizující nestabilní jádro. Po každém hodu odstraní zrna s tečkou nahoře (= 'rozpadlá jádra') a zaznamenají počet zbývajících. Výsledek modeluje exponenciální zákon radioaktivního rozpadu a umožňuje pochopit pojem poločasu přeměny. Aktivita je součástí brožury Jaderné hrátky (ČEZ) a je jedním z nejznámějších experimentů dané sbírky.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/file/edee/se/energetika-interaktivne/ucimejadernoufyziku.pdf"
+  }
+}
