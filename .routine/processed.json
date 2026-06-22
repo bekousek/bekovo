@@ -1,0 +1,204 @@
+{
+  "processedIds": [
+    "2026-06-02-mereni--objem",
+    "2026-06-02-mereni--hmotnost",
+    "2026-06-03-mikrosvet--atom-a-jeho-modely",
+    "2026-06-04-optika--faze-mesice-zatmeni",
+    "2026-06-07-sila--skladani-sil",
+    "2026-06-05-plyny-7--vakuum",
+    "2026-06-06-pohyb--grafy",
+    "2026-06-08-skupenstvi-latek--skupenske-teplo",
+    "2026-06-10-vlastnosti-latek--skupenske-prechody",
+    "2026-06-11-akustika--vlneni",
+    "2026-06-12-astronomie--dalsi-vesmirna-telesa",
+    "2026-06-13-castice-latky--skaly-castic",
+    "2026-06-14-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+    "2026-06-14-elektricke-obvody--multimetr",
+    "2026-06-15-elektrina--elektricky-odpor",
+    "2026-06-16-elektrostatika--elektricky-naboj",
+    "2026-06-17-energie--teplo-a-jeho-sireni",
+    "2026-06-19-magnetismus--magneticke-pole-zeme",
+    "2026-06-20-mechanika--prace",
+    "2026-06-22-mikrosvet--jaderna-energie"
+  ],
+  "history": [
+    {
+      "manifestId": "2026-06-02-mereni--objem",
+      "subtopic": "mereni--objem",
+      "branch": "routine/nightly-2026-06-02-mereni--objem",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/8",
+      "merged": true,
+      "processedAt": "2026-06-01T21:55:00Z",
+      "driveFileId": "18qUMDnsjHxGH0w8Dtc9TQv7yO_zjR5b8"
+    },
+    {
+      "manifestId": "2026-06-02-mereni--hmotnost",
+      "subtopic": "mereni--hmotnost",
+      "branch": "routine/nightly-2026-06-02-mereni--hmotnost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/9",
+      "merged": true,
+      "processedAt": "2026-06-03T00:40:00Z",
+      "driveFileId": "1Ai-kVWDivJ_sh5T_jwaee3xuNwo6hhRe"
+    },
+    {
+      "manifestId": "2026-06-03-mikrosvet--atom-a-jeho-modely",
+      "subtopic": "mikrosvet--atom-a-jeho-modely",
+      "branch": "routine/nightly-2026-06-03-mikrosvet--atom-a-jeho-modely",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/10",
+      "merged": true,
+      "processedAt": "2026-06-04T07:42:00Z",
+      "driveFileId": "1_llz4fHMehrgXzD3o_R0JLXUmqz7fPfP",
+      "note": "Použita nejnovější verze 22:29 (5 materiálů). Dva starší duplikáty (02:17, 06:45) v Drive folderu byly se stejným manifestId — auto-dedup je nezpracoval."
+    },
+    {
+      "manifestId": "2026-06-04-optika--faze-mesice-zatmeni",
+      "subtopic": "optika--faze-mesice-zatmeni",
+      "branch": "routine/nightly-2026-06-04-optika--faze-mesice-zatmeni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/11",
+      "merged": true,
+      "processedAt": "2026-06-04T07:56:00Z",
+      "driveFileId": "1GDi2Rac80stO-sky6CO6PjabrCrAlt1q"
+    },
+    {
+      "manifestId": "2026-06-07-sila--skladani-sil",
+      "subtopic": "sila--skladani-sil",
+      "branch": "routine/nightly-2026-06-07-sila--skladani-sil",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/14",
+      "merged": true,
+      "processedAt": "2026-06-07T12:26:43.809Z",
+      "driveFileId": "1i_FZpMupe6Eeg1SggfeDbYmpkIeyi7Nk",
+      "note": "v6 deep fan-out, manuální test-merge; starší duplikát 03:19 ignorován"
+    },
+    {
+      "manifestId": "2026-06-05-plyny-7--vakuum",
+      "subtopic": "plyny-7--vakuum",
+      "branch": "routine/nightly-2026-06-05-plyny-7--vakuum",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/22",
+      "merged": true,
+      "processedAt": "2026-06-13T14:44:05.520Z",
+      "driveFileId": "1qXDT9U86__YES69I2Mtltl5xO9L9XPmG"
+    },
+    {
+      "manifestId": "2026-06-06-pohyb--grafy",
+      "subtopic": "pohyb--grafy",
+      "branch": "routine/nightly-2026-06-06-pohyb--grafy",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/23",
+      "merged": true,
+      "processedAt": "2026-06-13T14:44:28.443Z",
+      "driveFileId": "1ffaYqQ3muEbp0Qjv_Kb6pX_wJMGnOeYs"
+    },
+    {
+      "manifestId": "2026-06-08-skupenstvi-latek--skupenske-teplo",
+      "subtopic": "skupenstvi-latek--skupenske-teplo",
+      "branch": "routine/nightly-2026-06-08-skupenstvi-latek--skupenske-teplo",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/24",
+      "merged": true,
+      "processedAt": "2026-06-13T14:44:50.025Z",
+      "driveFileId": "1rc-7UkCwMFU_CtBtOzi1KbqMbCeWqvq8"
+    },
+    {
+      "manifestId": "2026-06-10-vlastnosti-latek--skupenske-prechody",
+      "subtopic": "vlastnosti-latek--skupenske-prechody",
+      "branch": "routine/nightly-2026-06-10-vlastnosti-latek--skupenske-prechody",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/25",
+      "merged": true,
+      "processedAt": "2026-06-13T14:45:10.808Z",
+      "driveFileId": "1L5lK9Tx7D5VkcJWcG2YxxlyRsyJtWFe_"
+    },
+    {
+      "manifestId": "2026-06-11-akustika--vlneni",
+      "subtopic": "akustika--vlneni",
+      "branch": "routine/nightly-2026-06-11-akustika--vlneni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/26",
+      "merged": true,
+      "processedAt": "2026-06-13T14:45:32.636Z",
+      "driveFileId": "12pjogkT5-9cVVzfCAKDKZklz3SKiI0bL"
+    },
+    {
+      "manifestId": "2026-06-12-astronomie--dalsi-vesmirna-telesa",
+      "subtopic": "astronomie--dalsi-vesmirna-telesa",
+      "branch": "routine/nightly-2026-06-12-astronomie--dalsi-vesmirna-telesa",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/27",
+      "merged": true,
+      "processedAt": "2026-06-13T14:45:54.838Z",
+      "driveFileId": "1AzRBcX8eXMnXpvHMoJPccYLfTR_4g-ef"
+    },
+    {
+      "manifestId": "2026-06-13-castice-latky--skaly-castic",
+      "subtopic": "castice-latky--skaly-castic",
+      "branch": "routine/nightly-2026-06-13-castice-latky--skaly-castic",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/28",
+      "merged": true,
+      "processedAt": "2026-06-13T14:46:16.291Z",
+      "driveFileId": "1KZWkSfkT1WCmIjzKl0kFwbM2hyuFjTWM"
+    },
+    {
+      "manifestId": "2026-06-14-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "subtopic": "elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "branch": "routine/nightly-2026-06-14-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/29",
+      "merged": true,
+      "processedAt": "2026-06-14T11:19:00.762Z",
+      "driveFileId": "1KhKC3fKHblSCn_H4ic8Nsv5EcgtDSxYp"
+    },
+    {
+      "manifestId": "2026-06-14-elektricke-obvody--multimetr",
+      "subtopic": "elektricke-obvody--multimetr",
+      "branch": "routine/nightly-2026-06-14-elektricke-obvody--multimetr",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/30",
+      "merged": true,
+      "processedAt": "2026-06-15T07:30:00.000Z"
+    },
+    {
+      "manifestId": "2026-06-15-elektrina--elektricky-odpor",
+      "subtopic": "elektrina--elektricky-odpor",
+      "branch": "routine/nightly-2026-06-15-elektrina--elektricky-odpor",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/31",
+      "merged": true,
+      "processedAt": "2026-06-15T07:36:00.000Z"
+    },
+    {
+      "manifestId": "2026-06-16-elektrostatika--elektricky-naboj",
+      "subtopic": "elektrostatika--elektricky-naboj",
+      "branch": "routine/nightly-2026-06-16-elektrostatika--elektricky-naboj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/32",
+      "merged": true,
+      "processedAt": "2026-06-16T19:29:48.948Z"
+    },
+    {
+      "manifestId": "2026-06-17-energie--teplo-a-jeho-sireni",
+      "subtopic": "energie--teplo-a-jeho-sireni",
+      "branch": "routine/nightly-2026-06-17-energie--teplo-a-jeho-sireni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/33",
+      "merged": true,
+      "processedAt": "2026-06-17T14:43:46.674Z"
+    },
+    {
+      "manifestId": "2026-06-19-magnetismus--magneticke-pole-zeme",
+      "subtopic": "magnetismus--magneticke-pole-zeme",
+      "branch": "routine/nightly-2026-06-19-magnetismus--magneticke-pole-zeme",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/35",
+      "merged": true,
+      "processedAt": "2026-06-19T13:10:48.452Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-20-mechanika--prace",
+      "subtopic": "mechanika--prace",
+      "branch": "routine/nightly-2026-06-20-mechanika--prace",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/36",
+      "merged": true,
+      "processedAt": "2026-06-20T09:44:07.896Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-22-mikrosvet--jaderna-energie",
+      "subtopic": "mikrosvet--jaderna-energie",
+      "branch": "routine/nightly-2026-06-22-mikrosvet--jaderna-energie",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/37",
+      "merged": true,
+      "processedAt": "2026-06-22T13:26:00.000Z",
+      "driveFileId": ""
+    }
+  ]
+}
