@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-fendt-zakon-rozpadu",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt: Zákon radioaktivního rozpadu",
+  "type": "applet",
+  "description": "Česká HTML5 simulace animující postupný rozpad 1 000 jader radioaktivní látky a zároveň kreslící graf závislosti počtu nerozpadlých jader na čase. Žák může nastavit poločas rozpadu a pozorovat exponenciální pokles — názorně ukazuje pravděpodobnostní povahu radioaktivní přeměny.",
+  "url": "https://www.walter-fendt.de/html5/phcz/lawdecay_cz.htm"
+}

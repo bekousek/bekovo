@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-jaderna-mlzna-komora",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Mlžná komora — záření na vlastní oči",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus: sestavení jednoduché Wilsonovy mlžné komory a přímé pozorování stop nabitých částic z radioaktivního záření. V kondenzační vrstvě alkoholu (izopropylalkohol) chlazeného mrazicím gelem nebo suchým ledem lze sledovat trajektorie alfa částic a elektronů jako bílé čáry. Pokus trvá přibližně 100 minut; video s postupem je dostupné na portálu Svět energie.",
+  "materials": [
+    "izopropylalkohol",
+    "mrazicí gel nebo suchý led",
+    "skleněná nádoba nebo akvárium",
+    "radioaktivní zářič (nebo přirozené záření)"
+  ],
+  "procedure": "Nasytit vnitřní povrch nádoby alkoholem, ochladit spodní část mrazicím gelem nebo suchým ledem. V kondenzační vrstvě vzniklé nad chladivem pozorovat stopy nabitých částic.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2827"
+  }
+}

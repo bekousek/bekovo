@@ -1,0 +1,11 @@
+{
+  "id": "mikrosvet-vyfuk-rozpad-cocky",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Výfuk: Modelování poločasu rozpadu čočkovými semeny",
+  "description": "Žák vezme alespoň 200 čočkových semen, na jednu stranu každého nakreslí tečku a opakovaně je hází na podložku. Po každém hodu spočítá semena s tečkou nahoře (= 'rozpadlé atomy') a zaznamená počet 'nerozpadlých'. Výsledky vynese do grafu závislosti počtu nerozpadlých jader na počtu hodů, porovná s teoretickou exponenciální křivkou a určí 'poločas rozpadu čočky'. Zodpoví otázku, zda model věrně simuluje radioaktivní rozpad. Jde o experimentální domácí úlohu ze série Výfuk (korespondenční seminář pro 2. stupeň ZŠ).",
+  "source": {
+    "label": "Výfuk — 11. ročník, 2. série",
+    "url": "https://vyfuk.org/ulohy/r11/s2"
+  }
+}
