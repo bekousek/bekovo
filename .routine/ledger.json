@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-22",
+  "lastPicked": "2026-06-23",
   "history": [
     {
       "date": "2026-05-08",
@@ -170,6 +170,12 @@
       "subtopic": "mikrosvet--jaderna-energie",
       "result": "pr-pending",
       "items": 20
+    },
+    {
+      "date": "2026-06-23",
+      "subtopic": "optika--opticke-pristroje",
+      "result": "pr-pending",
+      "items": 29
     }
   ],
   "skipUntil": {}

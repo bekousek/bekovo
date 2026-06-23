@@ -1,0 +1,9 @@
+{
+  "id": "optika-geogebra-mikroskop",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Mikroskop – interaktivní diagram (GeoGebra)",
+  "type": "applet",
+  "description": "GeoGebra applet zobrazující chod paprsků optickým mikroskopem: objektiv vytváří zvětšený reálný obraz preparátu, okulár jej dále zvětšuje jako lupa. Žák mění polohu preparátu a sleduje výsledný obraz. Vizuální diagram srozumitelný bez hlubší znalosti angličtiny.",
+  "url": "https://www.geogebra.org/m/D8PfzZTV"
+}

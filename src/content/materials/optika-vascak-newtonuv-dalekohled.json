@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-newtonuv-dalekohled",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Newtonův dalekohled – HTML5 animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace v češtině zobrazující chod paprsků Newtonovým zrcadlovým dalekohledem: sféricky zakřivené primární zrcadlo a malé rovinné sekundární zrcadlo. Žáci vidí, jak se paprsky od vzdáleného objektu odrážejí a sbíhají do okuláru.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_newton&l=cz"
+}

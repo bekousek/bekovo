@@ -1,0 +1,19 @@
+{
+  "id": "optika-cassegrainuv-dalekohled-model",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Princip Cassegrainova dalekohledu – 2D model s laserovými paprsky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel) pro porovnání typů reflektorů: 2D model Cassegrainova dalekohledu na magnetické tabuli s dutým parabolickým primárem (s otvorem) a vypuklým hyperbolickým sekundárem. Laserové paprsky projdou otvorem primáru k okuláru. Vyžaduje 3D optickou soupravu KDF MFF UK.",
+  "materials": [
+    "3D optická souprava (parabolické zrcadlo s otvorem + hyperbolické zrcadlo)",
+    "dva laserové zdroje",
+    "nákres Cassegrainova dalekohledu",
+    "magnetická tabule"
+  ],
+  "procedure": "Umístěte nákres na magnetickou tabuli, přiložte zrcadla. Nastavte laserové zdroje na rovnoběžný svazek dopadající na primár. Sledujte sbíhání paprsků, odraz od sekundáru a průchod otvorem primáru.",
+  "source": {
+    "label": "Fyzikální pokusy KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/4097/reflektor---cassegrainuv-dalekohled"
+  }
+}

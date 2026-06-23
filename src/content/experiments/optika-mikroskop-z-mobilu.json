@@ -1,0 +1,18 @@
+{
+  "id": "optika-mikroskop-z-mobilu",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Mikroskop z mobilního telefonu – kapková čočka",
+  "type": "qualitative",
+  "description": "Žákovský pokus: kapka vody umístěná nad objektivem mobilního telefonu funguje jako silně konvexní čočka s krátkou ohniskovou vzdáleností a výrazně zvyšuje zvětšení fotoaparátu. Žáci pozorují detaily tkanin, listů nebo povrchů a přímo prožijí princip mikroskopu.",
+  "materials": [
+    "mobilní telefon s fotoaparátem",
+    "kapátko nebo špejle",
+    "voda",
+    "preparáty k pozorování (list, tkanina, mince)"
+  ],
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/mikroskop-z-mobilu"
+  }
+}

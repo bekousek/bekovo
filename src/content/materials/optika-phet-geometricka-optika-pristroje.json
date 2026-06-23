@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-geometricka-optika-pristroje",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "PhET: Geometrická optika – plná verze (záložka Lupa)",
+  "type": "applet",
+  "description": "PhET HTML5 simulace v češtině pro zkoumání zobrazování spojnou čočkou. Plná verze obsahuje záložku s lupou a ukázkou zorného úhlu – přímou simulaci nejjednoduššího optického přístroje. Žáci nastavují ohniskovou vzdálenost, pohybují předmětem a sledují reálný i virtuální obraz.",
+  "url": "https://phet.colorado.edu/cs/simulations/geometric-optics"
+}

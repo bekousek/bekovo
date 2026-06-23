@@ -1,0 +1,20 @@
+{
+  "id": "optika-camera-obscura",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Camera obscura – dírková komora z kartonu",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci vyrobí dírkovou komoru z kartonu s malým otvorem a průsvitnou stěnou a pozorují převrácený obraz okolí na stěně komory. Pokus demonstruje přímočaré šíření světla a objasňuje historický základ fotoaparátu. Příspěvek Milana Macka z VNUF 5 (2000) obsahuje vystřižitelné šablony.",
+  "materials": [
+    "kartón formát A4",
+    "menší kartón A5 pro víko",
+    "průsvitný papír nebo kalkáž",
+    "nůžky",
+    "lepidlo"
+  ],
+  "procedure": "Přeneste šablony obou dílů na kartón a vystřihněte. Do jednoho dílu vyřízněte malý kruhový otvor (~3 mm). Ohněte a slepte oba díly v uzavřenou krabici s otvorem na jednom konci a průsvitnou stěnou na druhém. Namířte otvor k osvětlenému objektu nebo oknu a sledujte převrácený obraz.",
+  "source": {
+    "label": "VNUF 2000",
+    "pdf": "vnuf-2000.pdf"
+  }
+}
