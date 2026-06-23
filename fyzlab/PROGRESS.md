@@ -57,46 +57,41 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `schema.ts` rozšíren o volitelné `lesson?` v `SceneDoc` (zpětně kompatibilní),
   `tests/lesson.test.ts` (15 testů), zmrazená fixtura `lesson-projectile-v1.json`
   (šikmý vrh 45 °, 10 m/s, `landing-x` numerická předpověď).
+- **F2-E, 2. půlka** — overlay + vyhodnocení predikce:
+  `PredictionTracker.ts` (headless, 120 Hz; landing-x/y, max-height, max-speed,
+  sub-tick interpolace, timeout 60 s); worker protokol `setPredictionTarget` /
+  `predictionResult`; `InstrumentsModule` + `Engine` + `sim.worker` + `SimWorkerClient`
+  drátování; `uiStore` rozšířen o `lesson`, `predictionState`, `predictionInput`,
+  `predictionChosenId`, `predictionActual`; `bootstrap` wire-up + lekce při replaceDoc;
+  `PredictionOverlay.tsx` (formulář tipu, lišta při running, výsledek + diff, Zkusit znovu);
+  11 nových testů trackeru.
 
-Stav: **85 testů zelených**, `tsc` čistý, `npm run build` projde.
+Stav: **96 testů zelených**, `tsc` čistý, `npm run build` projde.
 
 ## Další na řadě
-**F2-E, 2. půlka — overlay + vyhodnocení predikce**
-- React komponenta `PredictionOverlay.tsx`: zobrazí se při načtení scény s lekcí
-  (pokud `doc.lesson !== undefined`) a simulace je v pauze na začátku.
-- Numerická predikce: textové pole pro zadání čísla + jednotka; tlačítko Potvrdit.
-- Choice predikce: tlačítka s možnostmi.
-- Po potvrzení se scéna spustí; engine sleduje veličinu `quantity` na tělesu
-  `targetBodyId` (přes Recorder nebo nový mini-modul) a po splnění podmínky
-  (těleso dosáhne podlahy / klidu) vyhodnotí výsledek.
-- Zpětná vazba: toast/panel „Správně / Zkus znovu” s rozdílem od správné hodnoty.
-- Stav overlay v `uiStore` (predictionState: 'waiting' | 'running' | 'done').
-- Vyhni se novým worker zprávám, pokud to půjde — Recorder + Fotobrána už dost pokrývá.
+**F2-F — hloubka mechaniky (1. půlka): nůž/CSG nebo thruster**
+- Viz backlog níže. Doporučené pořadí: thruster (jednoduchý, velký didaktický přínos),
+  pak ozubení, lano/řetěz, CSG nůž, kolizní vrstvy.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-E 1. půlka hotová a pushnutá na main** (commit `bef7ed3`, 85 testů zelených).
-- Datové schéma lekce je v `src/engine/scene/lesson.ts` (headless, jen Zod).
-  `SceneDoc.lesson?` je zpětně kompatibilní — staré scény bez pole se načtou bez chyb.
-- Dva typy předpovědi: `numeric` (pro měřitelné veličiny) a `choice` (multiple-choice).
-  `quantity` enum: `landing-x | landing-y | max-speed | max-height` — pokryje typické
-  úlohy vrhu, kyvadla, nakloněné roviny.
-- Fixtura `lesson-projectile-v1.json`: šikmý vrh 45 °, v₀ = 10 m/s, míč ID `ball`,
-  `landing-x` s tolerancí 5 %. Analyticky: R = v²·sin(2α)/g ≈ 10,19 m (z výšky 0,2 m).
-- Další běh = **F2-E 2. půlka (overlay)**. Začni od `src/app/` — přidej
-  `predictionState` do `uiStore`, pak `PredictionOverlay.tsx`. Worker tracker
-  (vyhodnocení) implementuj jako mini extension nad Recorderem — nový worker protokol
-  `setPredictionTarget` + zpráva `predictionResult` (headless v InstrumentsModule).
-- Poznámka: při commitu narazil bot na divergovaný main + lokální `_process_manifests.cjs`
-  modifikaci; push vyřešen přes `git merge origin/main` (ne rebase). Pro příště:
-  fyzlab-bot by měl na začátku ran vždy zjistit stav VŠECH souborů, ne jen staged.
+- **F2-E 2. půlka hotová a pushnutá na main** (commit `da56e51`, 96 testů zelených).
+- `PredictionOverlay.tsx`: centrovný dialog nad plátnem; stav 'waiting' (formulář),
+  'running' (modrá lišta nahoře), 'done' (výsledek + diff + Zkusit znovu).
+- Tracker detekuje doskok jako vy: záporné → nezáporné; sub-tick interpolace landing-x.
+  Pro `choice` se výsledek vyhodnotí ihned na main threadu (bez workeru).
+- Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
+- Další běh = **F2-F 1. půlka**. Doporučuji thruster (`ThrusterJoint`): kloub
+  `type: 'thruster'` v schema + JointSchema, `force: Vec2` v lokálních souřadnicích,
+  `RigidModule.addJoint` zpracuje (applyImpulse na tělesu). Panel vlastností + preset
+  „Raketa" + i18n + accuracy test (těleso zrychlí o F/m·t za 0,5 s).
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
 2. ~~F2-D Tracer (stopa pohybu)~~ ✓ hotovo
 3. ~~F2-D FBD režim (šipky sil v N)~~ ✓ hotovo
 3. ~~F2-E 1. půlka — lesson schéma + fixture~~ ✓ hotovo
-4. F2-E 2. půlka — overlay + vyhodnocení predikce
-4. F2-F hloubka mechaniky: nůž/CSG, lano/řetěz, thruster, ozubení,
+4. ~~F2-E 2. půlka — overlay + vyhodnocení predikce~~ ✓ hotovo
+5. F2-F hloubka mechaniky: nůž/CSG, lano/řetěz, thruster, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J
 5. F2-G ~10 kurikulárních scén + LibraryDialog (meta.curriculum)
 
