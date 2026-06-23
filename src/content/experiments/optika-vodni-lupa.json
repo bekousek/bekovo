@@ -1,0 +1,18 @@
+{
+  "id": "optika-vodni-lupa",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Vodní lupa – válcová čočka",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: sklenice naplněná vodou funguje jako válcová čočka. Díky lomu světla na rozhraní sklo–voda je obraz zvětšený, stranově převrácený a na okrajích deformovaný. Učitel nalijí vodu před zraky žáků – zdánlivá magie se okamžitě promění ve fyzikální jev.",
+  "materials": [
+    "průhledná válcová sklenice",
+    "voda",
+    "papír s textem nebo obrázkem"
+  ],
+  "procedure": "Postavte prázdnou sklenici před text nebo obrázek. Před zraky žáků nalijte vodu. Pozorujte zvětšení, stranové převrácení a deformaci obrazu na okrajích. Porovnejte se standardní lupou.",
+  "source": {
+    "label": "Fyzikální pokusy KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1903/vodni-lupa---valcova-cocka"
+  }
+}

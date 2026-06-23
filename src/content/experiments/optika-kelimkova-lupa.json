@@ -1,0 +1,17 @@
+{
+  "id": "optika-kelimkova-lupa",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Kelímková lupa z vody",
+  "type": "qualitative",
+  "description": "Žákovský pokus: průhledný kelímek naplněný vodou funguje jako konvexní čočka a zvětšuje pozorované předměty. Žáci pochopí, jak zakřivené průhledné médium mění dráhu světelných paprsků a proč lupa zvětšuje zorný úhel – základ fungování všech čočkových optických přístrojů.",
+  "materials": [
+    "průhledný plastový kelímek se zakřivenými stěnami",
+    "voda",
+    "malé předměty k pozorování (novinový text, hmyz, tkanina)"
+  ],
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/vodni-kelimkova-lupa"
+  }
+}

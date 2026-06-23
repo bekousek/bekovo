@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-galileuv-dalekohled",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Galileův dalekohled – HTML5 animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace v češtině zobrazující chod paprsků Galileovým dalekohledem: spojný objektiv a rozptylný okulár. Žák sleduje, jak oba optické prvky spolupracují při zvětšování vzdálených předmětů, a porovnává tuto soustavu s Keplerovým dalekohledem.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_galileo&l=cz"
+}

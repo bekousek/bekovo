@@ -1,0 +1,20 @@
+{
+  "id": "optika-periskop",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Periskop z kartonu a zrcátek",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci sestrojí funkční periskop z kartonu a dvou zrcátek skloněných pod 45°. Pokus demonstruje zákon odrazu světla a ukazuje praktické využití optického přístroje pro pozorování přes překážku – princip využívaný v ponorkách i v zákopech.",
+  "materials": [
+    "kartón",
+    "dvě malá zrcátka",
+    "papírové cívky jako výztuha",
+    "izolepa",
+    "nůžky"
+  ],
+  "procedure": "Na kartón nakreslete rozvinutý tvar tubusu periskopu se dvěma otvory pro zrcátka. Vystřihněte a vyřízněte otvory. Vlepte zrcátka skloněná pod 45° vůči svislé ose – dopadající a odražený paprsek svírají 90°. Zpevněte papírovými cívkami a izolepou.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus10.htm"
+  }
+}

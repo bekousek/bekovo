@@ -1,0 +1,9 @@
+{
+  "id": "optika-walter-fendt-zobrazeni-cockou",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Zobrazení spojnou čočkou – HTML5 applet (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině ukazující, jak spojná čočka tvoří obraz předmětu v závislosti na vzdálenosti od čočky. Žák táhne předmět a sleduje, jak se mění poloha, velikost a orientace obrazu – nezbytný základ pro pochopení lupy, mikroskopu i dalekohledu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/imageconverginglens_cz.htm"
+}

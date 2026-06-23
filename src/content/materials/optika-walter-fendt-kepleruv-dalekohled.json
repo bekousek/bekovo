@@ -1,0 +1,9 @@
+{
+  "id": "optika-walter-fendt-kepleruv-dalekohled",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Keplerův dalekohled – HTML5 applet (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině zobrazující chod paprsků Keplerovým dalekohledem (dvě spojné čočky). Žák pohybuje předmětem a nastavuje ohniskové vzdálenosti objektivu a okuláru; applet v reálném čase ukazuje, jak se mění výsledné zvětšení přístroje.",
+  "url": "https://www.walter-fendt.de/html5/phcz/refractor_cz.htm"
+}

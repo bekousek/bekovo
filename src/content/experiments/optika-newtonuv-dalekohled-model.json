@@ -1,0 +1,19 @@
+{
+  "id": "optika-newtonuv-dalekohled-model",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Princip Newtonova dalekohledu – 2D model s laserovými paprsky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): 2D model Newtonova zrcadlového dalekohledu na magnetické tabuli s parabolickým primárem a rovinným sekundárem vytištěnými na 3D tiskárně. Dva laserové zdroje vizualizují rovnoběžný svazek paprsků a jejich sbíhání do ohniska. Vyžaduje 3D optickou soupravu KDF MFF UK.",
+  "materials": [
+    "3D optická souprava (parabolické + rovinné zrcadlo)",
+    "dva laserové zdroje",
+    "nákres Newtonova dalekohledu",
+    "magnetická tabule"
+  ],
+  "procedure": "Umístěte nákres dalekohledu na magnetickou tabuli, přiložte zrcadla. Nastavte laserové zdroje na rovnoběžný svazek dopadající na primár. Sledujte sbíhání paprsků do ohniska a odraz rovinným zrcadlem mimo tubus. Zkuste vychýlit svazek o ~1° a sledujte posun ohniska.",
+  "source": {
+    "label": "Fyzikální pokusy KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/4096/reflektor---newtonuv-dalekohled"
+  }
+}
