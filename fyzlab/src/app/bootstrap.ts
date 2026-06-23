@@ -115,6 +115,11 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     // Ignorovat zpožděný vzorek pro již nesledované těleso (přepnutí cíle).
     if (sample.bodyId === ui.fbdBodyId) ui.setFbdForces(sample.forces);
   };
+  client.onPredictionResult = (value) => {
+    const ui = useUiStore.getState();
+    ui.setPredictionActual(value);
+    ui.setPredictionState('done');
+  };
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
   };
@@ -136,6 +141,13 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
       ui.clearPlotBuffer();
       ui.clearFbd();
       renderer.clearTracer();
+      // Lekce: načíst z nového dokumentu nebo vymazat
+      if (doc.lesson) {
+        ui.setLesson(doc.lesson);
+        ui.resetPrediction();
+      } else {
+        ui.setLesson(null);
+      }
     }
     // Výběr nesmí ukazovat na smazané entity.
     let selectionDirty = false;
@@ -255,6 +267,12 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   };
 
   await client.init(initialDoc);
+
+  // Nastaví lekci pro úvodní scénu (subscribe se neprovede pro init).
+  if (initialDoc.lesson) {
+    useUiStore.getState().setLesson(initialDoc.lesson);
+    useUiStore.getState().resetPrediction();
+  }
 
   if (import.meta.env.DEV) {
     // Ladicí okno do runtime (jen dev build).

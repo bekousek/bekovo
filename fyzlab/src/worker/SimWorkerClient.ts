@@ -21,6 +21,7 @@ export class SimWorkerClient {
   onEvents: ((events: InstrumentEvent[]) => void) | null = null;
   onPlotChunk: ((samples: PlotSample[]) => void) | null = null;
   onFbdSample: ((sample: FbdSample) => void) | null = null;
+  onPredictionResult: ((value: number) => void) | null = null;
   onError: ((message: string) => void) | null = null;
 
   private pendingMove: Vec2 | null = null;
@@ -71,6 +72,9 @@ export class SimWorkerClient {
         break;
       case 'fbdSample':
         this.onFbdSample?.(msg.sample);
+        break;
+      case 'predictionResult':
+        this.onPredictionResult?.(msg.value);
         break;
     }
   }
@@ -123,6 +127,10 @@ export class SimWorkerClient {
 
   setFbdBodyId(bodyId: string | null): void {
     this.send({ type: 'setFbdBodyId', bodyId });
+  }
+
+  setPredictionTarget(bodyId: string | null, quantity: string | null): void {
+    this.send({ type: 'setPredictionTarget', bodyId, quantity });
   }
 
   // --- Drag s koalescencí pohybu na frame ---------------------------------

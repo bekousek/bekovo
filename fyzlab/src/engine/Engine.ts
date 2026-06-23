@@ -215,6 +215,18 @@ export class Engine {
     return this.rigid.drainFbdSample();
   }
 
+  // --- Predikce (F2-E) -------------------------------------------------------
+
+  /** Spustí sledování veličiny na tělesu; null bodyId = zákaz. */
+  setPredictionTarget(bodyId: string | null, quantity: string | null): void {
+    this.instruments.setPredictionTarget(bodyId, quantity);
+  }
+
+  /** Odebere výsledek predikce po dopadu tělesa (null = ještě nedorazil). */
+  drainPredictionResult(): number | null {
+    return this.instruments.drainPredictionResult();
+  }
+
   // --- Ukazatel (drag joint) ----------------------------------------------
 
   pointerDragStart(entityId: string, point: Vec2): void {

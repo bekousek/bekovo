@@ -3,6 +3,7 @@ import { bootstrap, type Runtime } from './bootstrap';
 import { GatePanel } from './GatePanel';
 import { PlotPanel } from './PlotPanel';
 import { FbdPanel } from './FbdPanel';
+import { PredictionOverlay } from './PredictionOverlay';
 import { PropertiesPanel } from './PropertiesPanel';
 import { RadialMenu } from './RadialMenu';
 import { SimControls } from './SimControls';
@@ -128,6 +129,9 @@ export default function App() {
       )}
 
       {runtime && <RadialMenu runtime={runtime} />}
+
+      {/* Overlay predikce — překryje plátno při načtení scény s lekcí. */}
+      {runtime && <PredictionOverlay runtime={runtime} />}
 
       <Toast />
 

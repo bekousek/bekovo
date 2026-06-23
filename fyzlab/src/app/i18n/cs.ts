@@ -105,6 +105,16 @@ export const cs = {
   plotExportCsv: 'Stáhnout CSV',
   plotTrack: 'Sledovat v grafu',
   plotNoData: 'Spusť simulaci — data se zapíší sem',
+  // Predikce — overlay (F2-E)
+  predHint: 'Nápověda',
+  predYourTip: 'Tvůj tip',
+  predConfirm: 'Potvrdit',
+  predCorrect: 'Správně!',
+  predWrong: 'Zkus znovu',
+  predMeasured: 'Změřená hodnota',
+  predDiff: 'Odchylka',
+  predTryAgain: 'Zkusit znovu',
+  predRunning: 'Sleduj průběh simulace…',
   // Silový diagram (F2-D)
   fbdTrack: 'Diagram sil',
   fbdPanelTitle: 'Síly na těleso',

@@ -3,6 +3,7 @@ import type { InstrumentEvent } from '@engine/core/SimModule';
 import type { RenderStats } from '@render/Renderer';
 import type { PlotSample } from '@engine/instruments/Recorder';
 import type { FbdForce } from '@engine/rigid/fbd';
+import type { Lesson } from '@engine/scene/lesson';
 
 /** Poslední měření jedné fotobrány. */
 export interface GateReading {
@@ -63,6 +64,24 @@ interface UiState {
   setFbdBodyId: (id: string | null) => void;
   setFbdForces: (forces: FbdForce[]) => void;
   clearFbd: () => void;
+  // --- Predikce (F2-E) ---
+  /** Lekce aktuálně načtené scény; null = scéna bez lekce. */
+  lesson: Lesson | null;
+  /** Stav overlay predikce. Relevantní jen když lesson !== null. */
+  predictionState: 'waiting' | 'running' | 'done';
+  /** Text zadaný studentem do numerického pole. */
+  predictionInput: string;
+  /** Id vybrané volby (pro `choice` predikci). */
+  predictionChosenId: string | null;
+  /** Naměřená hodnota z enginu (numerická predikce); null = zatím není. */
+  predictionActual: number | null;
+  setLesson: (lesson: Lesson | null) => void;
+  setPredictionState: (state: 'waiting' | 'running' | 'done') => void;
+  setPredictionInput: (input: string) => void;
+  setPredictionChosenId: (id: string | null) => void;
+  setPredictionActual: (value: number | null) => void;
+  /** Reset formuláře predikce na 'waiting' (Zkusit znovu). */
+  resetPrediction: () => void;
 }
 
 export const useUiStore = create<UiState>()((set) => ({
@@ -82,6 +101,11 @@ export const useUiStore = create<UiState>()((set) => ({
   plotBuffer: [],
   fbdBodyId: null,
   fbdForces: [],
+  lesson: null,
+  predictionState: 'waiting',
+  predictionInput: '',
+  predictionChosenId: null,
+  predictionActual: null,
   setRunning: (running) => set({ running }),
   setSpeed: (speed) => set({ speed }),
   setStats: (stats) => set({ stats }),
@@ -121,4 +145,11 @@ export const useUiStore = create<UiState>()((set) => ({
   setFbdBodyId: (id) => set({ fbdBodyId: id, fbdForces: [] }),
   setFbdForces: (forces) => set({ fbdForces: forces }),
   clearFbd: () => set({ fbdBodyId: null, fbdForces: [] }),
+  setLesson: (lesson) => set({ lesson }),
+  setPredictionState: (predictionState) => set({ predictionState }),
+  setPredictionInput: (predictionInput) => set({ predictionInput }),
+  setPredictionChosenId: (predictionChosenId) => set({ predictionChosenId }),
+  setPredictionActual: (predictionActual) => set({ predictionActual }),
+  resetPrediction: () =>
+    set({ predictionState: 'waiting', predictionInput: '', predictionChosenId: null, predictionActual: null }),
 }));

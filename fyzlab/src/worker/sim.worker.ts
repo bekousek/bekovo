@@ -102,6 +102,8 @@ function loop(): void {
     if (plotSamples.length > 0) post({ type: 'plotChunk', samples: plotSamples });
     const fbd = engine.drainFbdSample();
     if (fbd) post({ type: 'fbdSample', sample: fbd });
+    const predResult = engine.drainPredictionResult();
+    if (predResult !== null) post({ type: 'predictionResult', value: predResult });
   }
   schedule();
 }
@@ -170,6 +172,8 @@ function handleControl(action: 'play' | 'pause' | 'step'): void {
         if (plotSamples.length > 0) post({ type: 'plotChunk', samples: plotSamples });
         const fbd = engine.drainFbdSample();
         if (fbd) post({ type: 'fbdSample', sample: fbd });
+        const predResult = engine.drainPredictionResult();
+        if (predResult !== null) post({ type: 'predictionResult', value: predResult });
         post({ type: 'stateSync', states: engine.readState() });
       }
       break;
@@ -224,6 +228,9 @@ self.onmessage = (e: MessageEvent<MainToWorker>) => {
         break;
       case 'setFbdBodyId':
         engine?.setFbdBodyId(msg.bodyId);
+        break;
+      case 'setPredictionTarget':
+        engine?.setPredictionTarget(msg.bodyId, msg.quantity);
         break;
       case 'returnBuffer':
         if (msg.buffer.byteLength === snapshotBytes) bufferPool.push(msg.buffer);

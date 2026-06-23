@@ -28,7 +28,8 @@ export type MainToWorker =
   | { type: 'requestStateSync' }
   | { type: 'returnBuffer'; buffer: ArrayBuffer }
   | { type: 'setRecordBodyId'; bodyId: string | null }
-  | { type: 'setFbdBodyId'; bodyId: string | null };
+  | { type: 'setFbdBodyId'; bodyId: string | null }
+  | { type: 'setPredictionTarget'; bodyId: string | null; quantity: string | null };
 
 export interface SnapshotMsg {
   type: 'snapshot';
@@ -54,4 +55,5 @@ export type WorkerToMain =
   | { type: 'stateSync'; states: BodyState[] }
   | { type: 'events'; events: InstrumentEvent[] }
   | { type: 'plotChunk'; samples: import('@engine/instruments/Recorder').PlotSample[]; }
-  | { type: 'fbdSample'; sample: import('@engine/rigid/fbd').FbdSample };
+  | { type: 'fbdSample'; sample: import('@engine/rigid/fbd').FbdSample }
+  | { type: 'predictionResult'; value: number };
