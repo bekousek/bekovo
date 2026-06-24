@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vztlak-phet-zaklady",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Vztlak: základy – PhET interaktivní simulace (česky)",
+  "type": "applet",
+  "description": "Zjednodušená verze PhET simulace vztlaku v češtině pro HTML5. Žáci pracují s různými bloky, mění jejich objem a hmotnost a sledují vztlakovou sílu při ponoru do tekutin různé hustoty. Jednodušší rozhraní je vhodné pro první seznámení s tématem nebo pro slabší žáky.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy-basics"
+}

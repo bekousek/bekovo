@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vztlak-phet",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Vztlak – PhET interaktivní simulace (česky)",
+  "type": "applet",
+  "description": "HTML5 simulace od PhET (Univerzita Colorado) dostupná v češtině. Žáci zkoumají vztlakovou sílu a Archimédův zákon experimentováním s různými tělesy ponořenými do tekutiny – lze nastavit hustotu kapaliny i přepnout na vzduch/plyn. Simulace zobrazuje silové šipky a umožňuje měřit vztlakovou sílu v reálném čase.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy"
+}

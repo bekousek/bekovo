@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vztlak-balonek-co2-vahadlo",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Balónek na váhadle v CO₂ – Archimédův zákon pro plyny",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Nafouklý balónek je přivázán na jednom rameni páky a vyvážen kancelářskou sponkou do rovnováhy. Balónek visí v kádince tak, aby se nedotýkal stěn. Do kádinky se ze sifonu pomalu přidává CO₂, který je těžší než vzduch a hromadí se u dna. Jak roste hustota plynu v kádince, roste i vztlaková síla na balónek – rovnováha páky se poruší a strana s balónkem se zvedá. Pokus ze VNUF 12 (Praha 2007) přesvědčivě demonstruje Archimédův zákon pro plyny.",
+  "materials": [
+    "nafouklý gumový balónek",
+    "tyčinka nebo špejle jako páka, stojánek",
+    "kancelářská sponka (závaží)",
+    "kádinka nebo odříznutá PET lahev",
+    "sifon s CO₂ a hadička"
+  ],
+  "procedure": "1. Páku sestavit a na jeden konec upevnit balónek, na druhý vyrovnat sponkou do rovnováhy. 2. Balónek umístit do kádinky tak, aby se nedotýkal stěn. 3. Hadičkou od sifonu pouštět CO₂ ke dnu kádinky. 4. Pozorovat narušení rovnováhy – strana s balónkem se zvedá, protože vztlaková síla v hustším CO₂ vzrůstá.",
+  "source": {
+    "label": "VNUF 2007",
+    "url": "http://vnuf.cz/sbornik/prispevky/12-15-Onderova.html"
+  }
+}

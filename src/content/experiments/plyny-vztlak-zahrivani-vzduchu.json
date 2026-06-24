@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vztlak-zahrivani-vzduchu",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Zahřívání vzduchu v lahvi – od roztažnosti k vztlaku",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Na hrdlo studené PET lahve nebo skleněné láhve se navlékne splasklý pouťový balónek. Lahev se ponoří do teplé vody – vzduch se zahřeje, zvětší svůj objem a nafoukne balónek. Přemístění do studené vody vzduch smrskne a balónek splaskne. Pokus demonstruje teplotní roztažnost plynu jako základ pro pochopení vztlaku v plynech – zahřátý vzduch má nižší hustotu, a proto horkovzdušný balón létá.",
+  "materials": [
+    "plastová nebo skleněná láhev",
+    "pouťový balónek",
+    "dvě nádoby (s horkou a studenou vodou)"
+  ],
+  "procedure": "1. Nasadit splasklý balónek na hrdlo studené lahve. 2. Ponořit lahev do horké vody – pozorovat nafukování balónku. 3. Přemístit do studené vody – pozorovat splasknutí. 4. Diskutovat: proč horkovzdušný balón létá? Zahřátý vzduch → nižší hustota → větší vztlak.",
+  "source": {
+    "label": "RVP – Pokusy zahřívání vzduchu",
+    "url": "https://clanky.rvp.cz/clanek/k/ZPA/1926/POKUSY---ZAHRIVANI-VZDUCHU.html"
+  }
+}
