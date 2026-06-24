@@ -283,10 +283,19 @@ function traceRay(ray: Ray, bodies: OpticalBody[], segments: RaySegment[], maxRa
       }
 
       case 'glass': {
-        const n2 = hit.refractiveIndex;
+        // Index skla při dané vlnové délce (disperze přes Cauchyho B).
+        const bodyN = hit.refractiveIndex;
+        // Jsme-li už uvnitř skla (current.n ≈ bodyN), paprsek VYSTUPUJE do
+        // vzduchu (n2 = 1); jinak do skla VSTUPUJE (n2 = bodyN). Bez tohoto
+        // rozlišení by výstupní stěna měla n1 == n2 a paprsek by se na výstupu
+        // vůbec nelomil — sklo by neposunulo svazek a hranol by odchýlil jen
+        // z poloviny.
+        const exiting = Math.abs(current.n - bodyN) < 1e-6;
         const n1 = current.n;
+        const n2 = exiting ? 1.0 : bodyN;
         const refracted = snell(current.dir, hit.normal, n1, n2);
         if (!refracted) {
+          // Totální vnitřní odraz (sklo→vzduch nad kritickým úhlem).
           const newDir = reflect(current.dir, hit.normal);
           current = { origin: { x: hx, y: hy }, dir: newDir, wavelength: current.wavelength, n: n1 };
         } else {

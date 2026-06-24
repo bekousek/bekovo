@@ -15,6 +15,7 @@ export const FBD_COLOR_HEX: Record<FbdForceKind, string> = {
   drag: '#ea580c',
   spring: '#7c3aed',
   thruster: '#16a34a',
+  contact: '#0d9488',
 };
 
 const FBD_COLOR_NUM: Record<FbdForceKind, number> = {
@@ -23,6 +24,7 @@ const FBD_COLOR_NUM: Record<FbdForceKind, number> = {
   drag: 0xea580c,
   spring: 0x7c3aed,
   thruster: 0x16a34a,
+  contact: 0x0d9488,
 };
 
 /** Délka nejsilnější šipky na obrazovce [px]. */

@@ -328,12 +328,16 @@ export class RigidModule implements SimModule {
       this.fbdBodyId !== null &&
       ctx.tickIndex % FBD_EVERY === 0 &&
       this.bodies.has(this.fbdBodyId);
+    // Rychlost a hmotnost před krokem — pro reziduální reakci po world.step().
+    let fbdV0: { vx: number; vy: number; m: number } | null = null;
     if (sampleFbd) {
       this.fbdForces = [];
       const body = this.bodies.get(this.fbdBodyId!)!;
       if (body.isDynamic()) {
         // Gravitaci aplikuje Rapier vnitřně — pro diagram ji dopočítáme z m·g.
         const m = body.mass();
+        const lv = body.linvel();
+        fbdV0 = { vx: lv.x, vy: lv.y, m };
         this.fbdForces.push({ kind: 'gravity', fx: world.gravity.x * m, fy: world.gravity.y * m });
       }
     }
@@ -515,6 +519,31 @@ export class RigidModule implements SimModule {
     world.step();
 
     if (sampleFbd) {
+      if (fbdV0) {
+        // Reziduum = m·a − Σ(známé síly) = reakce vazeb (normála, tření,
+        // tah osy/svaru). Drží diagram uzavřený na m·a: ležící bedna pak
+        // vedle tíhy ukáže i podpůrnou reakci, ne jen tíhu samotnou.
+        const body = this.bodies.get(this.fbdBodyId!);
+        if (body) {
+          const lv = body.linvel();
+          const netFx = (fbdV0.m * (lv.x - fbdV0.vx)) / ctx.dt;
+          const netFy = (fbdV0.m * (lv.y - fbdV0.vy)) / ctx.dt;
+          let sumFx = 0;
+          let sumFy = 0;
+          for (const f of this.fbdForces) {
+            sumFx += f.fx;
+            sumFy += f.fy;
+          }
+          const rFx = netFx - sumFx;
+          const rFy = netFy - sumFy;
+          // Práh úměrný tíze — odfiltruje f32 šum volného pádu (reakce = 0),
+          // ale podchytí skutečný kontakt (reakce ≈ m·g).
+          const gravMag = Math.hypot(world.gravity.x, world.gravity.y) * fbdV0.m;
+          if (Math.hypot(rFx, rFy) > 0.01 + 0.005 * gravMag) {
+            this.fbdForces.push({ kind: 'contact', fx: rFx, fy: rFy });
+          }
+        }
+      }
       this.fbdSample = { t: ctx.simTime + ctx.dt, bodyId: this.fbdBodyId!, forces: this.fbdForces };
     }
   }

@@ -41,6 +41,32 @@ function postStatus(): void {
   post({ type: 'status', running, speed });
 }
 
+/** Naposledy poslány NEPRÁZDNÉ paprsky? — ať umíme jednou poslat „smazat". */
+let raysActive = false;
+
+/**
+ * Pošle aktuální paprsky. Když nově nejsou žádné, ale minule byly, pošle
+ * prázdnou sadu (jinak by staré paprsky zůstaly na plátně po změně scény).
+ */
+function sendRays(): void {
+  if (!engine) return;
+  const rays = engine.readRaySegments();
+  if (rays.length > 0) {
+    post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
+    raysActive = true;
+  } else if (raysActive) {
+    post({ type: 'raysUpdate', segments: [] });
+    raysActive = false;
+  }
+}
+
+function sendFluid(): void {
+  if (!engine) return;
+  for (const { id, positions } of engine.readFluidData()) {
+    if (positions.length > 0) post({ type: 'fluidUpdate', fluidId: id, xy: Array.from(positions) });
+  }
+}
+
 function sendIdTable(): void {
   if (!engine) return;
   topologyVersion += 1;
@@ -104,11 +130,8 @@ function loop(): void {
     if (fbd) post({ type: 'fbdSample', sample: fbd });
     const predResult = engine.drainPredictionResult();
     if (predResult !== null) post({ type: 'predictionResult', value: predResult });
-    const rays = engine.readRaySegments();
-    if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
-    for (const { id, positions } of engine.readFluidData()) {
-      if (positions.length > 0) post({ type: 'fluidUpdate', fluidId: id, xy: Array.from(positions) });
-    }
+    sendRays();
+    sendFluid();
   }
   schedule();
 }
@@ -145,6 +168,9 @@ async function handleInit(doc: SceneDoc): Promise<void> {
   acc = new FixedStepAccumulator(engine.dt, MAX_CATCHUP_TICKS);
   sendIdTable();
   sendSnapshot(false);
+  engine.refreshOptics();
+  sendRays();
+  sendFluid();
   post({ type: 'ready' });
   postStatus();
 }
@@ -156,6 +182,11 @@ function handleLoadScene(doc: SceneDoc): void {
   acc = new FixedStepAccumulator(engine.dt, MAX_CATCHUP_TICKS);
   sendIdTable();
   sendSnapshot(false);
+  // Paprsky/částice z předchozí scény smazat a vykreslit statickou optiku
+  // hned v pauze (paprsky jsou geometrické, nemusí běžet simulace).
+  engine.refreshOptics();
+  sendRays();
+  sendFluid();
 }
 
 function handleControl(action: 'play' | 'pause' | 'step'): void {
@@ -179,11 +210,8 @@ function handleControl(action: 'play' | 'pause' | 'step'): void {
         if (fbd) post({ type: 'fbdSample', sample: fbd });
         const predResult = engine.drainPredictionResult();
         if (predResult !== null) post({ type: 'predictionResult', value: predResult });
-        const rays = engine.readRaySegments();
-        if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
-        for (const { id, positions } of engine.readFluidData()) {
-          if (positions.length > 0) post({ type: 'fluidUpdate', fluidId: id, xy: Array.from(positions) });
-        }
+        sendRays();
+        sendFluid();
         post({ type: 'stateSync', states: engine.readState() });
       }
       break;
@@ -196,6 +224,13 @@ function handlePatch(ops: import('@engine/scene/ops').DocOp[]): void {
   if (topologyChanged) sendIdTable();
   // V pauze nový stav nepřijde s dalším tickem — poslat snapshot hned.
   if (!running || topologyChanged) sendSnapshot(false);
+  // V pauze přepočítat optiku, ať živá editace (posun laseru, změna skla)
+  // hned překreslí paprsky; smyčka to za běhu dělá sama.
+  if (!running) {
+    engine.refreshOptics();
+    sendRays();
+    sendFluid();
+  }
 }
 
 self.onmessage = (e: MessageEvent<MainToWorker>) => {

@@ -9,8 +9,15 @@
 /** Počet fyzikálních tiků (120 Hz) mezi dvěma silovými vzorky → ~10 Hz. */
 export const FBD_EVERY = 12;
 
-/** Druh síly — určuje barvu šipky a popisek v legendě. */
-export type FbdForceKind = 'gravity' | 'buoyancy' | 'drag' | 'spring' | 'thruster';
+/**
+ * Druh síly — určuje barvu šipky a popisek v legendě.
+ *
+ * `contact` = reakce vazeb (normálová síla, tření, tah osy/svaru…). Nepočítá
+ * se ze vzorce, ale jako REZIDUUM: m·a − Σ(známé aplikované síly). Díky tomu
+ * diagram VŽDY uzavře na m·a — což je celý smysl uvolněného tělesa: ležící
+ * bedna ukáže tíhu DOLŮ i podpůrnou reakci NAHORU, ne jen tíhu.
+ */
+export type FbdForceKind = 'gravity' | 'buoyancy' | 'drag' | 'spring' | 'thruster' | 'contact';
 
 /** Jedna složka silového diagramu: vektor síly [N]. */
 export interface FbdForce {

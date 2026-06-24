@@ -120,6 +120,7 @@ export const cs = {
   fbdPanelTitle: 'Síly na těleso',
   fbdNoData: 'Spusť simulaci — šipky sil se objeví u tělesa',
   fbdGravity: 'Tíhová',
+  fbdContact: 'Reakce (podpora)',
   fbdBuoyancy: 'Vztlak',
   fbdDrag: 'Odpor vzduchu',
   fbdSpring: 'Pružina',

@@ -5,7 +5,10 @@
  * Barva závisí na vlnové délce (λ→RGB), intenzita řídí průhlednost.
  * Vrstva se kreslí do world containeru (y-up, metry → pixely řeší world.scale).
  *
- * Blending: additivní (jako světlo), nastaví se při přidání Graphics do scény.
+ * Blending: normální (ne additivní). Plátno má světlé pozadí (#f8fafc) a
+ * additivní blend by paprsky „rozsvítil do běla" (bílá + barva = bílá), takže
+ * by byly neviditelné. Normální blend s barvou spektra je na světlém pozadí
+ * čitelný.
  */
 import { Graphics } from 'pixi.js';
 import type { RaySegment } from '@engine/optics/OpticsModule';
@@ -58,19 +61,29 @@ export class RaysLayer {
 
   constructor() {
     this.g = new Graphics();
-    this.g.blendMode = 'add';
   }
 
   draw(segments: readonly RaySegment[], pixelsPerMeter: number): void {
     this.g.clear();
     if (segments.length === 0) return;
 
-    const lineWidth = Math.max(RAY_WIDTH_M * pixelsPerMeter, 1.2);
+    // Graphics je dítě world containeru (měřítko = pixelsPerMeter), takže
+    // tloušťka čáry je v METRECH. Chceme alespoň ~1,5 px na obrazovce při
+    // libovolném zoomu → spodní mez 1,5/ppm metru. (Dřív se sem dosazovala
+    // px hodnota, kterou pak world.scale roztáhl na metry → paprsek byl
+    // místo čáry obří světelný klín.)
+    const lineWidth = Math.max(RAY_WIDTH_M, 1.5 / pixelsPerMeter);
 
     for (const seg of segments) {
-      const { r, g: gv, b } = wavelengthToRgb(seg.wavelength);
-      const color = rgbToHex(r, gv, b);
-      const alpha = Math.max(0.05, Math.min(1, seg.intensity * 0.85));
+      const rgb = wavelengthToRgb(seg.wavelength);
+      // Mírné ztmavení spektrálních barev (×0,82) zvedne kontrast na světlém
+      // pozadí — čistá zelená/žlutá by jinak na bílé skoro zmizela.
+      const color = rgbToHex(
+        Math.round(rgb.r * 0.82),
+        Math.round(rgb.g * 0.82),
+        Math.round(rgb.b * 0.82),
+      );
+      const alpha = Math.max(0.4, Math.min(0.95, seg.intensity * 0.9));
       this.g
         .moveTo(seg.ox, seg.oy)
         .lineTo(seg.ex, seg.ey)

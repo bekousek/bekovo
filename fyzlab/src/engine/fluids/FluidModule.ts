@@ -18,11 +18,17 @@ type PoseGetter = (id: string) => { x: number; y: number; angle: number } | null
 // Konstanty
 // ---------------------------------------------------------------------------
 
-const SOLVER_ITERS = 3;
-const EPSILON = 150.0;   // PBF relaxační parametr (větší = stabilnější)
+const SOLVER_ITERS = 4;  // víc iterací = pevnější nestlačitelnost (méně „vaření")
+const EPSILON = 60.0;    // PBF relaxační parametr (menší = silnější korekce hustoty)
 const MAX_N = 4096;      // bezpečnostní limit částic na kapalinu
 const XSPH_SCALE = 0.03; // základ XSPH (viscosity je 0–1, scale je multiplikátor)
 const MAX_VEL = 20.0;    // clamp rychlosti [m/s]
+/**
+ * Mírné tlumení rychlosti za tick. Tlumí energii vstříknutou pozičními
+ * korekcemi u stěn/dna (jinak kapalina „vře" a nikdy se neusadí), aniž by
+ * znatelně bránila volnému pádu. 1 = bez tlumení.
+ */
+const VEL_DAMPING = 0.99;
 
 // ---------------------------------------------------------------------------
 // Interní data jedné kapaliny
@@ -412,17 +418,18 @@ export class FluidModule implements SimModule {
         }
       }
 
-      // 3. Aktualizace rychlosti
+      // 3. Aktualizace rychlosti (z posunu predikce) + tlumení + clamp
       for (let i = 0; i < N; i++) {
-        vx[i] = (px[i]! - x[i]!) / dt;
-        vy[i] = (py[i]! - y[i]!) / dt;
-        // Clamp
-        const v2 = vx[i]! * vx[i]! + vy[i]! * vy[i]!;
+        let nvx = ((px[i]! - x[i]!) / dt) * VEL_DAMPING;
+        let nvy = ((py[i]! - y[i]!) / dt) * VEL_DAMPING;
+        const v2 = nvx * nvx + nvy * nvy;
         if (v2 > MAX_VEL * MAX_VEL) {
           const s = MAX_VEL / Math.sqrt(v2);
-          vx[i] = vx[i]! * s;
-          vy[i] = vy[i]! * s;
+          nvx *= s;
+          nvy *= s;
         }
+        vx[i] = nvx;
+        vy[i] = nvy;
       }
 
       // 4. XSPH viskozita

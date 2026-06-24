@@ -198,9 +198,29 @@ Stav: **136 testů zelených** (27 souborů), `tsc` čistý.
 - Test na reálném tabletu (dotykové ovládání, offline wifi)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3 + F4 + F5-A + F5-B kompletní** (136 testů zelených, tsc čistý).
-- HelpDialog: klávesové zkratky, popis nástrojů, fyzikální témata — tlačítko ? v horní liště.
-- Výkon headless (Node): fluid 4k částic ≈ 47 ms/tick, optika 64 paprsků ≈ 9 ms/tick.
+- **F3 + F4 + F5-A + F5-B kompletní.**
+- **Holistický review v prohlížeči (2026-06-25)** — celý plán hotový loopem (běžel HEADLESS,
+  bez prohlížeče), proto našel review v prohlížeči integrační/render chyby. Opraveno:
+  1. **Optika — lom na výstupní stěně skla.** `shapeHits` hlásí index skla pro každou stěnu;
+     výstup počítal `snell(1.5,1.5)` = bez lomu (sklo neposunulo svazek, hranol odchýlil jen
+     z půlky). Oprava: rozlišit vstup/výstup podle `current.n` (OpticsModule glass case)
+     + regresní test „skleněná deska → emergentní paprsek rovnoběžný".
+  2. **FBD — chyběla reakce vazeb.** Ležící bedna ukazovala jen tíhu dolů. Přidána složka
+     `contact` = REZIDUUM m·a − Σ(známé síly) → diagram uzavírá na m·a (RigidModule, fbd.ts,
+     fbdLayer, FbdPanel, cs.ts). Ověřeno: bedna ukáže tíhu i podporu, obě ≈ m·g.
+  3. **raysLayer — tloušťka.** Čára kreslená v metrech (dítě world containeru), ale šířka
+     dosazená v px → world.scale ji roztáhl na ~1 m → paprsek byl obří klín. Oprava: šířka
+     v metrech (`1.5/ppm`). + additivní blend → normální (na světlém pozadí byl neviditelný).
+  4. **Stale paprsky/částice po změně scény** — worker posílal raysUpdate jen když neprázdné;
+     po přepnutí z optické scény staré paprsky zůstaly. Oprava: edge-trigger prázdný update
+     + `Engine.refreshOptics()` po loadScene/patch v pauze (statická optika svítí hned, živá
+     editace laseru/skla překresluje bez Spustit).
+  5. **Scény optiky — geometrie.** `prismScene` mířil pod hranol (míjel); `periscopeScene`
+     měl zrcadla „/" (horní odráželo vzhůru mimo scénu). Opraveno — disperze i periskop fungují.
+  6. **Kapaliny — mírné doladění** (4 iterace, EPSILON 60, tlumení 0,99). PBF se u stěn pořád
+     „vaří" (vstřik energie z pozičních korekcí) → kapalina nevypadá hutně. ZNÁMÁ MEZ, kandidát
+     na soustředěnou práci (jednosměrná vazba, experimentální doména dle plánu).
+- Výkon headless (Node): fluid 4k částic ≈ 21 ms/tick, optika 64 paprsků ≈ 2 ms/tick.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)

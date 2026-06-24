@@ -259,6 +259,15 @@ export class Engine {
     return this.optics.readRaySegments();
   }
 
+  /**
+   * Přepočítá optické paprsky bez kroku fyziky — aby statická optická scéna
+   * ukázala paprsky hned po načtení (v pauze), ne až po stisku Spustit.
+   * Optika je čistě geometrická (dt nehraje roli).
+   */
+  refreshOptics(): void {
+    this.optics.tick({ dt: this.dt, tickIndex: this.tickIndex, simTime: this.simTime, bus: this.bus });
+  }
+
   // --- Kapaliny (F4) -------------------------------------------------------
 
   /** Vrátí aktuální polohy částic per-kapalina (latest-wins). */

@@ -53,8 +53,11 @@ RigidModule vzorkuje silový rozklad jednoho tělesa (`fbdBodyId`) každých
 `FBD_EVERY = 12` tiků (~10 Hz). V `tick()` se pro cílové těleso sbírají
 složky **v okamžiku jejich výpočtu**: `gravity` (= m·g, dopočítané — Rapier
 gravitaci aplikuje vnitřně), `buoyancy` + `drag` (z air loopu, oddělené),
-`spring` (f·û z každé připojené pružiny). Vektor je v newtonech ve světových
-osách. `drainFbdSample()` → worker posílá `fbdSample`; uiStore drží
+`spring`/`thruster` (z příslušných smyček). Navíc `contact` = **reziduum**
+m·a − Σ(známé síly), spočítané z rychlosti PŘED a PO `world.step()` — pokryje
+reakce vazeb (normála, tření, tah osy/svaru), které Rapier neexponuje, a drží
+diagram uzavřený na m·a (ležící bedna pak ukáže tíhu i podporu, ne jen tíhu).
+Vektor je v newtonech ve světových osách. `drainFbdSample()` → worker posílá `fbdSample`; uiStore drží
 `fbdForces`, renderer kreslí přes `FbdLayer`. Vzorek nese jen vektory (ne
 působiště): render kreslí **všechny šipky z těžiště** (učebnicový diagram
 bodového tělesa) a kotví je na živou interpolovanou pózu, takže nezaostávají
@@ -99,6 +102,18 @@ Main→Worker: `init/loadScene(doc)` · `patch(DocOp[])` ·
 `control(play|pause|step)` · `setSpeed` · `pointer(dragStart/Move/End)`
 (koalescováno ≤1/frame) · `requestStateSync` · `returnBuffer` ·
 `setRecordBodyId(id|null)` (F2-C) · `setFbdBodyId(id|null)` (F2-D).
+
+## Optika (`src/engine/optics/`, F3)
+
+Geometrické trasování paprsků po `rigid.step()`. Zdroje (`opticalSource`:
+laser/beam/point) emitují paprsky, ty se v lokálním prostoru každého tělesa
+s `optics` protnou s tvary (úsečky/oblouk) a podle `mode` se odrazí (mirror),
+lomí (glass, Snell + Cauchy disperze) nebo pohltí (absorb); `lens` = ideální
+tenká čočka (paraxiální maticová optika). MAX_BOUNCES = 16, MAX_TOTAL_RAYS =
+512. **Klíč u skla:** n1/n2 se určují podle toho, zda paprsek do skla VSTUPUJE
+(`current.n ≈ vzduch`) nebo VYSTUPUJE (`current.n ≈ index skla`) — bez toho by
+výstupní stěna neměla lom (`n1==n2`) a hranol/deska by fungovaly jen z půlky.
+Paprsky NEjdou do binárního snapshotu — worker je posílá zprávou `raysUpdate`.
 
 ## Tryska (`joint.type === 'thruster'`, F2-F)
 
@@ -200,6 +215,13 @@ diskriminovaná unie `body | joint`:
   3 pásma průhlednosti); globální přepínač `tracerEnabled`.
 - `FbdLayer` (F2-D): šipky sil z těžiště vybraného tělesa, normované délky;
   čte `fbdState()` (cíl + síly z uiStore), kreslí v metrech.
+- `RaysLayer` (F3): paprsky z `raySegments()`. **POZOR:** vrstva je dítě
+  world containeru (měřítko = ppm), takže veškeré rozměry vč. tloušťky čáry
+  jsou v METRECH (šířka `max(0,012, 1,5/ppm)`), ne v px. Normální blend, ne
+  additivní (na světlém pozadí by additivní paprsky zmizely). λ→RGB ×0,82
+  kvůli kontrastu. Worker drží statickou optiku v pauze přes `refreshOptics()`
+  a po změně scény pošle prázdný `raysUpdate`, ať staré paprsky zmizí.
+- `FluidLayer` (F4): kruhy částic v metrech (poloměr = particleRadius).
 - `OverlayLayer`: náhledy nástrojů, marquee, obrysy výběru, úchopy,
   zvýraznění vybraných kloubů; překresluje se jen při změně verze/zoomu.
 - Pozor na Pixi `arc()`: bez `moveTo` na start oblouku dokreslí spojnici

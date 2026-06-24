@@ -139,6 +139,58 @@ describe('FBD — silový diagram', () => {
     engine.dispose();
   });
 
+  it('ležící bedna: reakce podpory ≈ m·g vzhůru, diagram uzavírá na ~0', async () => {
+    // Klíčový případ uvolněného tělesa: bez reakce by diagram ukázal jen
+    // tíhu dolů a tvrdil, že bedna padá. Reziduum dodá normálovou reakci.
+    const m = 2;
+    const hw = 0.25;
+    const hh = 0.25;
+    const density = m / (4 * hw * hh);
+    const engine = await Engine.create(
+      makeScene(
+        'fbd-contact',
+        [
+          {
+            kind: 'body',
+            id: 'ground',
+            bodyType: 'static',
+            transform: { x: 0, y: 0 },
+            shapes: [{ type: 'plane' }],
+            material: { density: 1000, friction: 0.8, restitution: 0 },
+          },
+          {
+            kind: 'body',
+            id: 'box',
+            transform: { x: 0, y: hh },
+            shapes: [{ type: 'box', hw, hh }],
+            material: { density, friction: 0.8, restitution: 0 },
+          },
+        ],
+        { gravity: { x: 0, y: -G }, airDensity: 0, tickHz: TICK_HZ },
+      ),
+    );
+    engine.setFbdBodyId('box');
+    for (let i = 0; i < 120; i++) engine.tick(); // nech dosednout
+    engine.drainFbdSample();
+    for (let i = 0; i < FBD_EVERY; i++) engine.tick();
+    const sample = engine.drainFbdSample()!;
+
+    const contact = sample.forces.find((f) => f.kind === 'contact');
+    expect(contact).toBeDefined();
+    expect(contact!.fy).toBeGreaterThan(0); // podpora míří vzhůru
+    expect(contact!.fy).toBeGreaterThan(m * G * 0.85);
+    expect(contact!.fy).toBeLessThan(m * G * 1.15);
+    // Součet všech sil ≈ m·a ≈ 0 (bedna stojí).
+    let sx = 0;
+    let sy = 0;
+    for (const f of sample.forces) {
+      sx += f.fx;
+      sy += f.fy;
+    }
+    expect(Math.hypot(sx, sy)).toBeLessThan(m * G * 0.1);
+    engine.dispose();
+  });
+
   it('cíl se nuluje při načtení scény', async () => {
     const scene = makeScene('fbd-reset', [
       { kind: 'body', id: 'ball', transform: { x: 0, y: 0 }, shapes: [{ type: 'circle', r: 0.1 }] },

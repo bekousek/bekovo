@@ -180,6 +180,40 @@ describe('OpticsModule — lom pod 30°', () => {
   });
 });
 
+describe('OpticsModule — skleněná deska (lom na vstupu i výstupu)', () => {
+  it('výstupní paprsek je rovnoběžný s dopadajícím (laterální posun)', () => {
+    // Skleněná deska s rovnoběžnými stěnami: paprsek se na vstupu lomí ke
+    // kolmici a na výstupu od kolmice → emergentní paprsek je ROVNOBĚŽNÝ
+    // s dopadajícím, jen posunutý. Bez lomu na výstupu by tahle invariance
+    // neplatila (regrese exit-refrakce).
+    const n2 = 1.5;
+    const doc = makeAngledLaserDoc(30, n2);
+    const { segments } = makeModule(doc);
+    const segs = segments();
+    // seg[0] vstup (vzduch) → seg[1] uvnitř skla → seg[2] výstup (vzduch).
+    expect(segs.length).toBeGreaterThanOrEqual(3);
+
+    const dirOf = (s: RaySegment) => {
+      const dx = s.ex - s.ox;
+      const dy = s.ey - s.oy;
+      const len = Math.hypot(dx, dy);
+      return { x: dx / len, y: dy / len };
+    };
+    const incident = dirOf(segs[0]!);
+    const emergent = dirOf(segs[segs.length - 1]!);
+    // Rovnoběžnost: křížový součin ≈ 0 a stejná orientace (skalární součin > 0).
+    const cross = incident.x * emergent.y - incident.y * emergent.x;
+    const dot = incident.x * emergent.x + incident.y * emergent.y;
+    expect(Math.abs(cross)).toBeLessThan(1e-4);
+    expect(dot).toBeGreaterThan(0.99);
+
+    // Uvnitř skla je paprsek lomený KE kolmici → strmější (|dy/dx| menší)
+    // než dopadající: ověří, že vnitřní směr není totožný s emergentním.
+    const inside = dirOf(segs[1]!);
+    expect(Math.abs(inside.y)).toBeLessThan(Math.abs(incident.y) - 1e-3);
+  });
+});
+
 describe('OpticsModule — mirror (zrcadlo)', () => {
   it('paprsek se odráží od zrcadla', () => {
     // Paprsek vodorovný doleva→doprava, narazí na svislé zrcadlo.

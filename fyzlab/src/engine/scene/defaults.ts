@@ -355,10 +355,11 @@ export function prismScene(): SceneDoc {
     { x: -s / 2, y: -(1 / 3) * h },     // levý dolní roh
     { x: s / 2, y: -(1 / 3) * h },      // pravý dolní roh
   ];
-  // Laser dopadá na levou stranu hranolu (vektor lomenicí zleva-doprava)
-  // Tři lasery blízko sebe, trochu pod sebou, v úhlu ≈ 30° (π/6 dolů od vodorovné).
-  const laserAngle = -Math.PI / 6; // 30° dolů od vodorovné = útok na levou stranu trianglu
-  const ly0 = 1.8; // střed
+  // Tři lasery míří VODOROVNĚ a PŘEKRÝVAJÍ SE (jako bílé světlo) na střed
+  // levé stěny hranolu; za hranolem se rozdělí do barevného vějíře (disperze).
+  // Levá stěna jde z (0.5, 2.366) do (-0.25, 1.067) → svislý střed ≈ 1,72 m.
+  const laserAngle = 0;
+  const ly0 = 1.72;
   return parseSceneDoc({
     format: 'fyzlab-scene',
     version: 1,
@@ -386,7 +387,7 @@ export function prismScene(): SceneDoc {
         id: 'laser-blue',
         name: 'Laser (modrý 450 nm)',
         type: 'laser',
-        transform: { x: -2, y: ly0 + 0.08, angle: laserAngle },
+        transform: { x: -2, y: ly0, angle: laserAngle },
         wavelength: 450,
         power: 1,
         rayCount: 1,
@@ -410,7 +411,7 @@ export function prismScene(): SceneDoc {
         id: 'laser-red',
         name: 'Laser (červený 650 nm)',
         type: 'laser',
-        transform: { x: -2, y: ly0 - 0.08, angle: laserAngle },
+        transform: { x: -2, y: ly0, angle: laserAngle },
         wavelength: 650,
         power: 1,
         rayCount: 1,
@@ -519,7 +520,10 @@ export function divergingLensScene(): SceneDoc {
  * do vodorovného směru (Z-tvar světelné dráhy). Ukazuje zákon odrazu.
  */
 export function periscopeScene(): SceneDoc {
-  const A = -Math.PI / 4; // úhel obou zrcadel (-45°)
+  // Obě zrcadla „\" (+45°): horní stočí vodorovný paprsek DOLŮ k dolnímu
+  // zrcadlu, to ho stočí zpět do vodorovného směru ven (klasický periskop).
+  // (−45° „/" by horní zrcadlo odrazilo paprsek vzhůru mimo scénu.)
+  const A = Math.PI / 4;
   return parseSceneDoc({
     format: 'fyzlab-scene',
     version: 1,
