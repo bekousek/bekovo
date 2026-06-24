@@ -1,0 +1,20 @@
+{
+  "name": "FyzLab — fyzikální hřiště",
+  "short_name": "FyzLab",
+  "description": "Webové fyzikální hřiště pro výuku — mechanika, optika, kapaliny.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3b82f6",
+  "lang": "cs",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "orientation": "any"
+}

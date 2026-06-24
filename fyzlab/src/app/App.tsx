@@ -25,6 +25,9 @@ const HINT_BY_TOOL: Record<string, MsgKey> = {
   spring: 'hintSpring',
   fixed: 'hintFixed',
   photogate: 'hintPhotogate',
+  thruster: 'hintThruster',
+  laser: 'hintLaser',
+  fluid: 'hintFluid',
 };
 
 function HintLine() {

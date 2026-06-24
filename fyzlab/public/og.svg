@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e3a5f"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0)"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Pozadí -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#shine)"/>
+
+  <!-- Mřížka (lehká) -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+
+  <!-- Parabolická trajektorie (vrh šikmý) -->
+  <path d="M120 520 Q500 100 880 520" fill="none" stroke="rgba(255,255,255,0.25)" stroke-width="3" stroke-dasharray="12 8"/>
+
+  <!-- Laserový paprsek -->
+  <line x1="750" y1="200" x2="1100" y2="200" stroke="#fbbf24" stroke-width="2.5" opacity="0.8"/>
+  <line x1="1100" y1="200" x2="1100" y2="480" stroke="#fbbf24" stroke-width="2.5" opacity="0.8"/>
+  <!-- Zrcadlo naznačené -->
+  <line x1="1080" y1="180" x2="1120" y2="220" stroke="rgba(255,255,255,0.5)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Kapalina dole (PBF částice) -->
+  <ellipse cx="500" cy="550" rx="220" ry="30" fill="rgba(96,165,250,0.18)"/>
+  <g fill="rgba(96,165,250,0.6)">
+    <circle cx="400" cy="535" r="7"/><circle cx="425" cy="548" r="6"/><circle cx="450" cy="532" r="7"/>
+    <circle cx="475" cy="545" r="6"/><circle cx="500" cy="536" r="7"/><circle cx="525" cy="549" r="6"/>
+    <circle cx="550" cy="533" r="7"/><circle cx="575" cy="546" r="6"/><circle cx="600" cy="537" r="7"/>
+  </g>
+
+  <!-- Kulička na trajektorii -->
+  <circle cx="500" cy="237" r="20" fill="white" opacity="0.95"/>
+  <circle cx="500" cy="237" r="20" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2"/>
+
+  <!-- Vektor rychlosti -->
+  <line x1="500" y1="237" x2="560" y2="195" stroke="rgba(74,222,128,0.9)" stroke-width="3" stroke-linecap="round"/>
+  <polygon points="560,195 548,202 553,213" fill="rgba(74,222,128,0.9)"/>
+
+  <!-- Text hlavní -->
+  <text x="100" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="88" font-weight="900" fill="white" letter-spacing="-2">FyzLab</text>
+  <text x="102" y="270" font-family="system-ui, -apple-system, sans-serif" font-size="32" fill="rgba(255,255,255,0.7)" font-weight="400">fyzikální hřiště pro výuku</text>
+
+  <!-- Pilíře dole -->
+  <text x="100" y="590" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="rgba(255,255,255,0.55)">mechanika · optika · kapaliny · fyzlab.bekovo.cz</text>
+</svg>

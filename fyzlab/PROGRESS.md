@@ -145,19 +145,46 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   (přepínač opticsEnabled, mode chips zrcadlo/sklo/absorber, n, Cauchy B, odrazivost).
   `cs.ts` — 20 nových i18n klíčů (toolLaser, hintLaser, propOpticalSource, propBodyOptics, …).
 
-Stav: **127 testů zelených**, `tsc` čistý.
+- **F3-D** — tenká čočka (maticová optika, paraxiální):
+  `OpticsModule` — fallback na `body.transform` když getPose vrátí null; mode='lens':
+  paprsek center přejde beze změny, periferní paprsky se ohnou dle `θ_out = θ_in − sign(dx)·h/f`.
+  4 accuracy testy (zobrazovací rovnice ±1 %, divergentní, průchodový).
+  `defaults.ts` — `convergingLensScene()`, `divergingLensScene()`, `periscopeScene()`;
+  LibraryDialog — 3 nové dlaždice (Spojná čočka, Rozptylná čočka, Periskop).
+
+- **F4** — Kapaliny: 2D PBF solver + plná integrace:
+  `FluidModule.ts` (SoA, spatial hash, density constraint, lambda, XSPH viskozita,
+  jednosměrná vazba plane/box/circle); Engine.ts pipeline; worker fluidUpdate zpráva;
+  FluidLayer (Pixi, kruhy); FluidTool (zkratka W); PropertiesPanel FluidSection;
+  Toolbar W button; defaults.ts `waterInBoxScene`, `twoDensitiesScene`;
+  LibraryDialog 💧🫧 dlaždice; 3 accuracy testy (usazení, meze, konvergence).
+
+- **F5-A** — PWA + OG + hint opravy:
+  `public/favicon.svg` (modrá fyzika — trajektorie + kulička + vlnka + laser);
+  `public/manifest.json` (name/short_name/icons/theme_color/display:standalone);
+  `public/sw.js` (offline cache — network-first navigace, cache-first assety);
+  `public/og.svg` (1200×630 OG obrázek s fyzikálními prvky);
+  `index.html` — PWA manifest link, favicon, OG/Twitter meta, SW registrace;
+  `App.tsx` — HINT_BY_TOOL doplněn o thruster/laser/fluid.
+
+Stav: **134 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F3-D** — tenká čočka + zobrazovací rovnice (volitelně, viz PLAN.md):
-- Nový tvar `lens` v enginu (konvergentní/divergentní), Snell aproximace čočky.
-- Accuracy test: `1/f = 1/do + 1/di` ≤ 1 %.
-- Nebo přejít na F4 (elektrická pole), dle priority.
+**F5-B** — Obsah + vydání v1:
+- Kurikulární scény: ~15–20 dalších presetů mapovaných na bekovo.cz taxonomii
+  (6. r.: hustota, vztlak; 7. r.: čočky, hustota kapalin; 8. r.: SHM, kyvadlo…)
+- `content/scenes/` složka + manifest pro budoucí dynamický načítač
+- Lekce s `lesson` payloadem pro 3–5 scén (predikce výsledku)
+- `docs/HELPCS.md` nebo `/help` landing stránka (nápověda česky)
+- Výkonnostní průchod: profil tick u 200 těles, 5k částic, 100 paprsků
+- Doladění dotyku: test na tabletu (manuální krok uživatele)
+- Release v1: push + Cloudflare Pages deploy (manuální krok uživatele)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3-A + F3-B + F3-C hotové** (127 testů zelených, tsc čistý).
-- Paprsky se trasují každý tick, posílají workerem jako `raysUpdate`, zobrazuje `raysLayer.ts`.
-- LaserTool (L): klik do scény = nový laser, klik na těleso = laser přichycen k tělesu.
-- 2 optické preset scény v LibraryDialog: Lom světla + Disperze (hranol).
+- **F3 + F4 + F5-A hotové** (134 testů zelených, tsc čistý, app ověřena v preview).
+- FluidTool zkratka W, hint "Táhni obdélník — vyplní oblast kapalinou." funguje.
+- PWA manifest + SW registrovány, favicon.svg v tabu prohlížeče.
+- OG image je SVG (fyzlab.bekovo.cz/og.svg) — pokud Twitter vyžaduje PNG, exportovat ručně.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
@@ -174,4 +201,4 @@ Stav: **127 testů zelených**, `tsc` čistý.
 **Fáze 2 DOKONČENA.** Backlog F2 (přesunut na později):
 - kolizní vrstvy A–J (Rapier), nůž/CSG, lano/řetěz, vzájemná gravitace těles
 
-**Fáze 3** (optika) — viz `docs/PLAN.md`.
+**Fáze 3 DOKONČENA. Fáze 4 DOKONČENA.** Fáze 5 (vydání v1) — viz `docs/PLAN.md`.

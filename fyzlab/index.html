@@ -6,8 +6,43 @@
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
     />
-    <meta name="description" content="FyzLab — webové fyzikální hřiště. Stavěj, experimentuj a objevuj fyziku." />
+
     <title>FyzLab — fyzikální hřiště</title>
+    <meta name="description" content="Webové fyzikální hřiště pro výuku — mechanika, optika, kapaliny. Stavěj, experimentuj a objevuj fyziku." />
+
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#3b82f6" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="FyzLab" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="FyzLab" />
+    <meta property="og:title" content="FyzLab — fyzikální hřiště" />
+    <meta property="og:description" content="Webové fyzikální hřiště pro výuku — mechanika, optika, kapaliny. Stavěj, experimentuj a objevuj fyziku." />
+    <meta property="og:url" content="https://fyzlab.bekovo.cz/" />
+    <meta property="og:image" content="https://fyzlab.bekovo.cz/og.svg" />
+    <meta property="og:locale" content="cs_CZ" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="FyzLab — fyzikální hřiště" />
+    <meta name="twitter:description" content="Webové fyzikální hřiště pro výuku — mechanika, optika, kapaliny." />
+    <meta name="twitter:image" content="https://fyzlab.bekovo.cz/og.svg" />
+
+    <!-- Service Worker -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
