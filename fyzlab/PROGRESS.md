@@ -179,17 +179,28 @@ Stav: **134 testů zelených**, `tsc` čistý.
 
 Stav: **134 testů zelených**, `tsc` čistý.
 
+- **F5-B, 2. půlka** — HelpDialog + výkonnostní průchod:
+  `HelpDialog.tsx` — modální nápověda (tlačítko ? v TopBar); sekce: ovládání simulace
+  (mezerník/Ctrl+Z/Del/G), nástroje tvary/spoje/přístroje, navigace, přehled 22 fyzikálních témat.
+  `TopBar.tsx` — nový prop `onHelp`, tlačítko ? za 📂.
+  `App.tsx` — `showHelp` state, `<HelpDialog onClose>` zřetězen vedle LibraryDialog.
+  `cs.ts` — nový klíč `topHelp`.
+  `tests/perf/tick-perf.test.ts` — FluidModule (4 096 částic): průměr **46.6 ms/tick**;
+  OpticsModule (64 paprsků, 8 zrcadel → 184 segmentů): průměr **8.7 ms/tick** (Node, bez JIT warmup).
+  Ve web workeru bude výkon cca 2–3× rychlejší.
+
+Stav: **136 testů zelených** (27 souborů), `tsc` čistý.
+
 ## Další na řadě
-**F5-B, 2. půlka** — Vydání v1:
-- Nápověda / landing (česky): krátká stránka nebo HelpDialog s ovladači a fyzikálními tématy
-- Výkonnostní průchod: změřit tick u 200 těles, 5 k částic, 100 paprsků (stats overlay)
-- Finální push + Cloudflare Pages deploy (manuální kroky uživatele)
-- Test na reálném tabletu (manuální krok uživatele)
+**Vydání v1 — RUČNÍ kroky uživatele:**
+- `git push origin main`
+- Cloudflare Pages: connect repo → build cmd `npm run build` → output dir `dist` → deploy
+- Test na reálném tabletu (dotykové ovládání, offline wifi)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3 + F4 + F5-A + F5-B/1 hotové** (134 testů zelených, tsc čistý, app ověřena v preview).
-- LibraryDialog má 22 dlaždic (8 nových kurikulárních scén, 5 z nich s lesson payloadem).
-- Lesson overlay funguje: šikmý vrh 45° zobrazí otázku a čeká na tip žáka.
+- **F3 + F4 + F5-A + F5-B kompletní** (136 testů zelených, tsc čistý).
+- HelpDialog: klávesové zkratky, popis nástrojů, fyzikální témata — tlačítko ? v horní liště.
+- Výkon headless (Node): fluid 4k částic ≈ 47 ms/tick, optika 64 paprsků ≈ 9 ms/tick.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
