@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vztlak-poutovy-balonek-co2",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Pouťový balónek nafouklý CO₂ – klesá, nebo stoupá?",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Do skleněné láhve se nasype jedlá soda, na hrdlo se nasadí splasklý pouťový balónek a přilije se ocet. Reakce vyvíjí CO₂, který nafoukne balónek. Balónek nafouklý CO₂ (hustší než vzduch) po sundání z láhve klesá k zemi – na rozdíl od balónku nafouklého vzduchem (visí) nebo héliem (stoupá). Pokus z VNUF 16 (Olomouc 2011) ilustruje, že vztlak balónku v atmosféře závisí na hustotě plnícího plynu.",
+  "materials": [
+    "pouťový gumový balónek",
+    "skleněná láhev (0,5 l)",
+    "jedlá soda (NaHCO₃), 1–2 lžičky",
+    "ocet",
+    "pro srovnání: balónek nafouklý vzduchem nebo héliem"
+  ],
+  "procedure": "1. Do láhve sypat 1–2 lžičky jedlé sody. 2. Na hrdlo nasadit splasklý balónek. 3. Pomalu přilít ocet – CO₂ nafoukne balónek. 4. Sundat balónek a pustit – sledovat, že klesá k zemi. 5. Porovnat s balónkem nafouklým vzduchem a héliem a diskutovat rozdíly.",
+  "source": {
+    "label": "VNUF 2011",
+    "url": "https://vnuf.cz/sbornik/prispevky/16-14-Kielbusova.html"
+  }
+}

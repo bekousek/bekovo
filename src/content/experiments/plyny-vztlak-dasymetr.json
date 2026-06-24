@@ -1,0 +1,19 @@
+{
+  "id": "plyny-vztlak-dasymetr",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Dasymetr pod vývěvou – Archimédův zákon v plynech",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Dasymetr – váhadlo s dutou skleněnou baňkou na jedné straně a závaží na druhé – je nastaven do rovnováhy v atmosférickém vzduchu. Po umístění pod zvon vývěvy a postupném odčerpávání vzduchu klesá hustota okolního plynu a s ní i vztlaková síla na baňku. Baňka se relativně zváží a klesá dolů. Po otevření ventilu a obnovení tlaku se rovnováha vrátí. Pokus přímo ukazuje, že vztlaková síla závisí na hustotě okolního plynu.",
+  "materials": [
+    "dasymetr nebo váhadlo se skleněnou dutou baňkou (školní vybavení)",
+    "závaží",
+    "školní vakuová vývěva se zvonem",
+    "manometr (volitelně)"
+  ],
+  "procedure": "1. Vyvážit dasymetr v normálním vzduchu. 2. Umístit pod zvon vývěvy. 3. Zapnout vývěvu – sledovat postupné vychylování váhadla (baňka klesá). 4. Vypnout a otevřít ventil – pozorovat obnovení rovnováhy.",
+  "source": {
+    "label": "Pokusy UPOL",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/mechanika/vyveva/archimeduv-zakon-pro-plyny-21/"
+  }
+}

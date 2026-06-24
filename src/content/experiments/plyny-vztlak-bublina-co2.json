@@ -1,0 +1,21 @@
+{
+  "id": "plyny-vztlak-bublina-co2",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Bublina ve váhadle – vznášení v CO₂",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Na jednom konci lehkého dřívkového váhadla ze špejle s osičkou z kancelářské sponky se zavěsí na niti bublinka z balónkové blány, na druhém konci se vyváží matičkou do rovnováhy. Poté se do sklenice pod bublinkou pomalu nalije CO₂ ze sifonu nebo z reakce jedlé sody a octa. Protože CO₂ je hustší než vzduch, vztlaková síla na bublinku vzroste a ta se zvedne – váhadlo se vychýlí. Pokus přímou zkušeností ukazuje, že vztlaková síla závisí na hustotě okolního plynu.",
+  "materials": [
+    "špejle, špendlík, kancelářská sponka (váhadlo)",
+    "stojánek nebo svíčka jako základna",
+    "bublinka z balónkové gumy nebo mýdlová bublina",
+    "malá matička (závaží)",
+    "sklenice nebo kádinka",
+    "zdroj CO₂: sifon nebo jedlá soda + ocet"
+  ],
+  "procedure": "1. Ze špejle a špendlíku sestavit váhadlo s osičkou upevněnou do stojánku. 2. Na jeden konec zavěsit bublinku z balónkové gumy, na druhý vyrovnat matičkou do rovnováhy. 3. Do sklenice pod bublinkou pomalu nalít CO₂. 4. Pozorovat vychýlení váhadla – bublinková strana se zvedá, protože hustší CO₂ poskytuje větší vztlakovou sílu.",
+  "source": {
+    "label": "VNUF 1996",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_01/01_19_Rojko.html"
+  }
+}
