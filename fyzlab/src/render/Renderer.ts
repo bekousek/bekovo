@@ -15,7 +15,9 @@ import { OverlayLayer } from './layers/overlayLayer';
 import { VectorsLayer } from './layers/vectorsLayer';
 import { TracerLayer } from './layers/tracerLayer';
 import { FbdLayer } from './layers/fbdLayer';
+import { RaysLayer } from './layers/raysLayer';
 import type { OverlaySource } from './layers/overlayTypes';
+import type { RaySegment } from '@engine/optics/OpticsModule';
 import type { SnapshotMsg } from '@worker/protocol';
 import type { FbdForce } from '@engine/rigid/fbd';
 
@@ -37,6 +39,7 @@ export class Renderer {
   private vectors = new VectorsLayer();
   private tracer = new TracerLayer();
   private fbd = new FbdLayer();
+  private rays = new RaysLayer();
   private instruments = new InstrumentsLayer();
   private overlay = new OverlayLayer();
 
@@ -44,6 +47,8 @@ export class Renderer {
   vectorsEnabled: () => boolean = () => false;
   /** Globální přepínač stopy pohybu (zapojuje bootstrap → uiStore). */
   tracerEnabled: () => boolean = () => false;
+  /** Aktuální sada paprsků (zapojuje bootstrap → uiStore). */
+  raySegments: () => readonly RaySegment[] = () => [];
   /** Aktuální cíl + síly silového diagramu (zapojuje bootstrap → uiStore). */
   fbdState: () => { bodyId: string | null; forces: readonly FbdForce[] } = () => ({
     bodyId: null,
@@ -71,6 +76,7 @@ export class Renderer {
     app.stage.addChild(this.world);
     this.world.addChild(this.bodies.container);
     this.world.addChild(this.joints.g);
+    this.world.addChild(this.rays.g);
     this.world.addChild(this.instruments.g);
     this.world.addChild(this.tracer.g);
     this.world.addChild(this.fbd.g);
@@ -184,6 +190,7 @@ export class Renderer {
       fbd.forces,
       this.camera.pixelsPerMeter,
     );
+    this.rays.draw(this.raySegments(), this.camera.pixelsPerMeter);
     this.instruments.draw(this.camera.pixelsPerMeter);
 
     // FPS + stats (push ~2× za sekundu)

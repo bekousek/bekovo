@@ -8,7 +8,7 @@
 import { SignalBus } from './core/SignalBus';
 import type { SimModule, BodyState, InstrumentEvent } from './core/SimModule';
 import { InstrumentsModule } from './instruments/InstrumentsModule';
-import { OpticsModule } from './optics/OpticsModule';
+import { OpticsModule, type RaySegment } from './optics/OpticsModule';
 import { initRapier } from './rigid/rapier';
 import { RigidModule } from './rigid/RigidModule';
 import { SnapshotWriter, bodiesByteLength } from './snapshot/layout';
@@ -34,7 +34,7 @@ export class Engine {
 
   private constructor(rigid: RigidModule, doc: SceneDoc) {
     this.rigid = rigid;
-    this.optics = new OpticsModule();
+    this.optics = new OpticsModule((id) => rigid.poseOf(id));
     this.instruments = new InstrumentsModule(
       (id) => rigid.poseOf(id),
       (id) => rigid.stateOf(id),
@@ -83,6 +83,7 @@ export class Engine {
           if (op.entity.kind === 'body') {
             this.rigid.insertBody(op.entity, bodyIndexOf(this.doc, op.entity.id));
             this.instruments.addEntity(op.entity);
+            this.optics.addBody(op.entity);
             topologyChanged = true;
           } else if (op.entity.kind === 'joint') {
             this.rigid.addJoint(op.entity);
@@ -100,6 +101,7 @@ export class Engine {
           if (existing.kind === 'body') {
             this.rigid.removeBody(op.id);
             this.instruments.removeEntity(op.id);
+            this.optics.removeBody(op.id);
             topologyChanged = true;
           } else if (existing.kind === 'joint') {
             this.rigid.removeJoint(op.id);
@@ -115,6 +117,7 @@ export class Engine {
           if (op.entity.kind === 'body') {
             this.rigid.replaceBody(op.entity, preserveKinematics);
             this.instruments.replaceEntity(op.entity);
+            this.optics.replaceBody(op.entity);
           } else if (op.entity.kind === 'joint') {
             this.rigid.replaceJoint(op.entity);
           } else if (op.entity.kind === 'opticalSource') {
@@ -234,6 +237,13 @@ export class Engine {
   /** Odebere výsledek predikce po dopadu tělesa (null = ještě nedorazil). */
   drainPredictionResult(): number | null {
     return this.instruments.drainPredictionResult();
+  }
+
+  // --- Optika (F3-A) -------------------------------------------------------
+
+  /** Vrátí aktuální sadu paprsků z posledního ticku (latest-wins). */
+  readRaySegments(): readonly RaySegment[] {
+    return this.optics.readRaySegments();
   }
 
   // --- Ukazatel (drag joint) ----------------------------------------------

@@ -104,6 +104,8 @@ function loop(): void {
     if (fbd) post({ type: 'fbdSample', sample: fbd });
     const predResult = engine.drainPredictionResult();
     if (predResult !== null) post({ type: 'predictionResult', value: predResult });
+    const rays = engine.readRaySegments();
+    if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
   }
   schedule();
 }
@@ -174,6 +176,8 @@ function handleControl(action: 'play' | 'pause' | 'step'): void {
         if (fbd) post({ type: 'fbdSample', sample: fbd });
         const predResult = engine.drainPredictionResult();
         if (predResult !== null) post({ type: 'predictionResult', value: predResult });
+        const rays = engine.readRaySegments();
+        if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
         post({ type: 'stateSync', states: engine.readState() });
       }
       break;

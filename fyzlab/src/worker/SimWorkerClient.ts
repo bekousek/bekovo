@@ -7,6 +7,7 @@ import type { SceneDoc } from '@engine/scene/schema';
 import type { BodyState, InstrumentEvent } from '@engine/core/SimModule';
 import type { DocOp } from '@engine/scene/ops';
 import type { FbdSample, MainToWorker, PlotSample, SnapshotMsg, WorkerToMain } from './protocol';
+import type { RaySegment } from '@engine/optics/OpticsModule';
 
 export class SimWorkerClient {
   private worker: Worker;
@@ -22,6 +23,7 @@ export class SimWorkerClient {
   onPlotChunk: ((samples: PlotSample[]) => void) | null = null;
   onFbdSample: ((sample: FbdSample) => void) | null = null;
   onPredictionResult: ((value: number) => void) | null = null;
+  onRaysUpdate: ((segments: RaySegment[]) => void) | null = null;
   onError: ((message: string) => void) | null = null;
 
   private pendingMove: Vec2 | null = null;
@@ -75,6 +77,9 @@ export class SimWorkerClient {
         break;
       case 'predictionResult':
         this.onPredictionResult?.(msg.value);
+        break;
+      case 'raysUpdate':
+        this.onRaysUpdate?.(msg.segments);
         break;
     }
   }

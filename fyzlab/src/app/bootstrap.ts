@@ -120,6 +120,9 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     ui.setPredictionActual(value);
     ui.setPredictionState('done');
   };
+  client.onRaysUpdate = (segments) => {
+    useUiStore.getState().setRaySegments(segments);
+  };
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
   };
@@ -261,6 +264,8 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   renderer.vectorsEnabled = () => useUiStore.getState().showVelocityAll;
   // Globální přepínač stopy pohybu čte renderer z uiStore.
   renderer.tracerEnabled = () => useUiStore.getState().tracerEnabled;
+  // Paprsky optiky (latest-wins) čte renderer z uiStore.
+  renderer.raySegments = () => useUiStore.getState().raySegments;
   // Silový diagram (cíl + síly) čte renderer z uiStore.
   renderer.fbdState = () => {
     const ui = useUiStore.getState();

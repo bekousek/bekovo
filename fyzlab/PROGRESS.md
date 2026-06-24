@@ -96,6 +96,30 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `LibraryDialog.tsx` — 3 sloupce, max výška 70 vh + scroll; 7 dlaždic (prázdná + 6 presetů)
   s badgí kurikula; klient/ročník info na dlaždici.
 
+- **F3-A, 2. půlka** — trasování paprsků + raysLayer:
+  `OpticsModule.ts` — plné `tick()`: emise paprsků (laser/beam/point, parentId),
+  transformace do lokálního prostoru tělesa, průsečíky (circle/box/polygon/plane),
+  aplikace Snell/reflect/absorb, TIR, MAX_BOUNCES=16, MAX_TOTAL_RAYS=512;
+  `readRaySegments()` vrací aktuální sadu po každém ticku.
+  `Engine.ts` — `getPose` callback předán OpticsModule; `readRaySegments()`;
+  `addBody/removeBody/replaceBody` pro inkrementální sync optických těles.
+  `protocol.ts` — nová zpráva `raysUpdate { segments }` (worker→main).
+  `sim.worker.ts` — drainuje paprsky po každé smyčce a po každém step.
+  `SimWorkerClient.ts` — `onRaysUpdate` callback.
+  `uiStore.ts` — `raySegments` + `setRaySegments`.
+  `render/layers/raysLayer.ts` — Pixi Graphics; λ→RGB (CIE aprox.); additivní blend;
+  tloušťka čáry ≥ 1.2 px; `clear()` při nové scéně.
+  `Renderer.ts` — RaysLayer za joints, před instruments; `raySegments` getter.
+  `bootstrap.ts` — `onRaysUpdate` + `renderer.raySegments` drátování.
+
+- **F3-B** — optické preset scény + accuracy testy trasování:
+  `defaults.ts` — `laserScene()` (laser + skleněný blok, λ=550 nm, lom viditelný),
+  `prismScene()` (3 lasery 450/550/650 nm + trojúhelníkový hranol, cauchyB=0.01 → disperze).
+  `LibraryDialog.tsx` — 2 nové dlaždice (🔦 Lom světla, 🌈 Disperze — hranol).
+  `tests/accuracy/optics-trace.test.ts` — 8 testů trasování: normální dopad,
+  vodorovnost paprsků, lom pod 30° (≤1e-4 rad), zrcadlo (správný odraz),
+  absorber (1 segment), beam 5 paprsků (5 segmentů).
+
 - **F3-A, 1. půlka** — paprsková optika: schéma + math + skeleton modul:
   `schema.ts` — `BodyOpticsSchema` (`mode`, `refractiveIndex`, `cauchyB`, `reflectivity`);
   `optics?: BodyOptics` na `BodySchema`; `OpticalSourceSchema` (laser/beam/point, wavelength,
@@ -111,22 +135,22 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `tests/accuracy/optics.test.ts` — 20 přesnostních testů: reflect (3), snell/lom (4), TIR (3),
   cauchyN (2), intersectSegment (4), intersectCircle (4).
 
-Stav: **119 testů zelených**, `tsc` čistý.
+Stav: **127 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F3-A, 2. půlka** — trasování paprsků v enginu + render vrstva:
-- `OpticsModule.tick()`: pro každý zdroj `OpticalSource` vyemitovat paprsky, trasovat je přes
-  tělesa s `optics`, aplikovat `snell()`/`reflect()`, uložit výsledné segmenty.
-- Výstup do snapshotu (sloty K×6: ox, oy, dx, dy, λ, I) + nový `readRays()` na Engine.
-- `src/render/layers/raysLayer.ts` — Pixi vrstva kreslí paprsky jako barevné čáry (λ→RGB).
-- Zdroj v `LibraryDialog` nebo jako nástroj (O): laser na skleněný hranol → lom + TIR demo.
+**F3-C** — nástroj pro vkládání optických zdrojů + panel vlastností optiky:
+- `LaserTool` (zkratka L nebo O): ťuknutí do scény → vloží `opticalSource` (laser, λ=550 nm).
+- `PropertiesPanel` sekce pro `opticalSource`: type (laser/beam/point), wavelength [nm],
+  rayCount, beamWidth, parentId (přichytit na těleso).
+- Panel pro tělesa: přepínač `optics: on/off` a editace mode/refractiveIndex/cauchyB.
+- Accuracy: zobrazovací rovnice tenké čočky `1/f = 1/do + 1/di` ≤ 1 % (ideální čočka jako primitiv).
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3-A 1. půlka hotová** (119 testů zelených, tsc čistý).
-- math.ts plně testován (Snellovy úhly ≤ 1e-6 rad, TIR, průsečíky ≤ 1e-10 m).
-- OpticsModule integrován do Engine — ale zatím jen skeleton (tick nic nedělá).
-- Další: F3-A 2. půlka — skutečné trasování paprsků + raysLayer v Pixiu.
+- **F3-A + F3-B hotové** (127 testů zelených, tsc čistý).
+- Paprsky se trasují každý tick, posílají workerem jako `raysUpdate`, zobrazuje `raysLayer.ts`.
+- 2 optické preset scény v LibraryDialog: Lom světla + Disperze (hranol).
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
+- Backlog: LaserTool + PropertiesPanel pro optiku (F3-C).
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo

@@ -8,7 +8,9 @@ import {
   emptyScene,
   heliumBalloonScene,
   inclineScene,
+  laserScene,
   pendulumScene,
+  prismScene,
   rocketScene,
   springMassScene,
 } from '@engine/scene/defaults';
@@ -79,6 +81,22 @@ const PRESETS: PresetDef[] = [
     description: 'Nastav sílu trysky tak, aby raketa vzlétla.',
     badge: '8. ročník · Síly',
     makeScene: rocketScene,
+  },
+  {
+    id: 'preset-laser-lom',
+    icon: '🔦',
+    title: 'Lom světla',
+    description: 'Laser prochází skleněným blokem — pozoruj lom paprsku.',
+    badge: '7. ročník · Optika',
+    makeScene: laserScene,
+  },
+  {
+    id: 'preset-hranol-disperze',
+    icon: '🌈',
+    title: 'Disperze — hranol',
+    description: 'Tři lasery prochází hranolem — Cauchyova disperze rozkládá barvy.',
+    badge: '7. ročník · Optika',
+    makeScene: prismScene,
   },
 ];
 

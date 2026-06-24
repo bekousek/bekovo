@@ -287,6 +287,140 @@ export function rocketScene(): SceneDoc {
   return parseSceneDoc(input);
 }
 
+/**
+ * Preset: lom světla na skleněném bloku (F3-B).
+ *
+ * Zelený laser (λ=550 nm) dopadá na skleněný kvádr pod úhlem ≈20°.
+ * Viditelně se zlomí na vstupu i výstupu (n=1,5, kritický úhel 41,8°).
+ * Žák může hýbat blokem nebo změnit úhel laseru → ověří Snellův zákon.
+ */
+export function laserScene(): SceneDoc {
+  const glassX = 0;
+  const glassY = 1.2;
+  // Laser vychází z (−2, 1.7), míří na střed skleněného bloku (0, 1.2):
+  // vektor (2, −0.5) → úhel = atan2(−0.5, 2) ≈ −0.245 rad
+  const laserAngle = Math.atan2(-0.5, 2);
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-laser-lom',
+      title: 'Lom světla — skleněný blok',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'optika' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0, y: 1.2 }, metersPerScreenH: 6 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'glass-block',
+        name: 'Skleněný blok',
+        bodyType: 'static',
+        transform: { x: glassX, y: glassY },
+        shapes: [{ type: 'box', hw: 0.6, hh: 0.3 }],
+        material: { density: 2500, friction: 0.4, restitution: 0.1 },
+        appearance: { fill: '#bae6fd' },
+        optics: { mode: 'glass', refractiveIndex: 1.5, cauchyB: 0, reflectivity: 0.04 },
+      },
+      {
+        kind: 'opticalSource',
+        id: 'laser-green',
+        name: 'Laser (zelený)',
+        type: 'laser',
+        transform: { x: -2, y: 1.7, angle: laserAngle },
+        wavelength: 550,
+        power: 1,
+        rayCount: 1,
+        beamWidth: 0.1,
+        parentId: null,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Preset: disperze světla — hranol (F3-B).
+ *
+ * Skleněný hranol (trojúhelník, n=1,5, kauchyB=0,01 → disperze) osvícen třemi
+ * barevnými lasery (modrý 450 nm, zelený 550 nm, červený 650 nm). Hranol je
+ * statický. Různé indexy lomu pro různé vlnové délky → duha.
+ * Žák změní kauchyB a sleduje rozptyl barev.
+ */
+export function prismScene(): SceneDoc {
+  // Rovnostranný trojúhelník (s = 1,5 m) — vrcholy v lokálních souřadnicích.
+  const s = 1.5;
+  const h = (s * Math.sqrt(3)) / 2; // výška trojúhelníku
+  const prismPoints = [
+    { x: 0, y: (2 / 3) * h },           // vrchol
+    { x: -s / 2, y: -(1 / 3) * h },     // levý dolní roh
+    { x: s / 2, y: -(1 / 3) * h },      // pravý dolní roh
+  ];
+  // Laser dopadá na levou stranu hranolu (vektor lomenicí zleva-doprava)
+  // Tři lasery blízko sebe, trochu pod sebou, v úhlu ≈ 30° (π/6 dolů od vodorovné).
+  const laserAngle = -Math.PI / 6; // 30° dolů od vodorovné = útok na levou stranu trianglu
+  const ly0 = 1.8; // střed
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-hranol-disperze',
+      title: 'Disperze — hranol',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'optika' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0.5, y: 1.5 }, metersPerScreenH: 7 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'prism',
+        name: 'Skleněný hranol',
+        bodyType: 'static',
+        transform: { x: 0.5, y: 1.5 },
+        shapes: [{ type: 'polygon', points: prismPoints }],
+        material: { density: 2500, friction: 0.3, restitution: 0.1 },
+        appearance: { fill: '#e0f2fe' },
+        optics: { mode: 'glass', refractiveIndex: 1.5, cauchyB: 0.01, reflectivity: 0.04 },
+      },
+      {
+        kind: 'opticalSource',
+        id: 'laser-blue',
+        name: 'Laser (modrý 450 nm)',
+        type: 'laser',
+        transform: { x: -2, y: ly0 + 0.08, angle: laserAngle },
+        wavelength: 450,
+        power: 1,
+        rayCount: 1,
+        beamWidth: 0.1,
+        parentId: null,
+      },
+      {
+        kind: 'opticalSource',
+        id: 'laser-green',
+        name: 'Laser (zelený 550 nm)',
+        type: 'laser',
+        transform: { x: -2, y: ly0, angle: laserAngle },
+        wavelength: 550,
+        power: 1,
+        rayCount: 1,
+        beamWidth: 0.1,
+        parentId: null,
+      },
+      {
+        kind: 'opticalSource',
+        id: 'laser-red',
+        name: 'Laser (červený 650 nm)',
+        type: 'laser',
+        transform: { x: -2, y: ly0 - 0.08, angle: laserAngle },
+        wavelength: 650,
+        power: 1,
+        rayCount: 1,
+        beamWidth: 0.1,
+        parentId: null,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
 /** Demo scéna fáze 0: podlaha + dva míče + bedna. */
 export function demoScene(): SceneDoc {
   const input: SceneDocInput = {

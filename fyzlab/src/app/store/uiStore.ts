@@ -4,6 +4,7 @@ import type { RenderStats } from '@render/Renderer';
 import type { PlotSample } from '@engine/instruments/Recorder';
 import type { FbdForce } from '@engine/rigid/fbd';
 import type { Lesson } from '@engine/scene/lesson';
+import type { RaySegment } from '@engine/optics/OpticsModule';
 
 /** Poslední měření jedné fotobrány. */
 export interface GateReading {
@@ -64,6 +65,9 @@ interface UiState {
   setFbdBodyId: (id: string | null) => void;
   setFbdForces: (forces: FbdForce[]) => void;
   clearFbd: () => void;
+  /** Aktuální sada paprsků (F3-A); latest-wins z workeru. */
+  raySegments: RaySegment[];
+  setRaySegments: (segments: RaySegment[]) => void;
   // --- Predikce (F2-E) ---
   /** Lekce aktuálně načtené scény; null = scéna bez lekce. */
   lesson: Lesson | null;
@@ -101,6 +105,7 @@ export const useUiStore = create<UiState>()((set) => ({
   plotBuffer: [],
   fbdBodyId: null,
   fbdForces: [],
+  raySegments: [],
   lesson: null,
   predictionState: 'waiting',
   predictionInput: '',
@@ -145,6 +150,7 @@ export const useUiStore = create<UiState>()((set) => ({
   setFbdBodyId: (id) => set({ fbdBodyId: id, fbdForces: [] }),
   setFbdForces: (forces) => set({ fbdForces: forces }),
   clearFbd: () => set({ fbdBodyId: null, fbdForces: [] }),
+  setRaySegments: (segments) => set({ raySegments: segments }),
   setLesson: (lesson) => set({ lesson }),
   setPredictionState: (predictionState) => set({ predictionState }),
   setPredictionInput: (predictionInput) => set({ predictionInput }),

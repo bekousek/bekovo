@@ -56,4 +56,5 @@ export type WorkerToMain =
   | { type: 'events'; events: InstrumentEvent[] }
   | { type: 'plotChunk'; samples: import('@engine/instruments/Recorder').PlotSample[]; }
   | { type: 'fbdSample'; sample: import('@engine/rigid/fbd').FbdSample }
-  | { type: 'predictionResult'; value: number };
+  | { type: 'predictionResult'; value: number }
+  | { type: 'raysUpdate'; segments: import('@engine/optics/OpticsModule').RaySegment[] };
