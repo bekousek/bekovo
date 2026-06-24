@@ -16,6 +16,7 @@ import { cmdRemoveEntities } from '@editor/commands';
 import { defaultPasteOffset, EditorClipboard } from '@editor/clipboard';
 import { cmdToggleFrozen, duplicateSelection } from '@editor/quickActions';
 import { PhotogateTool } from '@editor/tools/InstrumentTools';
+import { LaserTool } from '@editor/tools/OpticsTools';
 import { AxleTool, FixTool, SpringTool, ThrusterTool } from '@editor/tools/JointTools';
 import { SelectTool } from '@editor/tools/SelectTool';
 import { BoxTool, CircleTool, PlaneTool, PolygonTool } from '@editor/tools/ShapeTools';
@@ -194,6 +195,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   tools.register(new FixTool(toolCtx), 'f');
   tools.register(new ThrusterTool(toolCtx), 'u');
   tools.register(new PhotogateTool(toolCtx), 't');
+  tools.register(new LaserTool(toolCtx), 'l');
   tools.onActiveChange = (id) => useUiStore.getState().setActiveToolId(id);
 
   const deleteSelection = () => {

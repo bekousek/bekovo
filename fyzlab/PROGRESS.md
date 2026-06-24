@@ -135,22 +135,30 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `tests/accuracy/optics.test.ts` — 20 přesnostních testů: reflect (3), snell/lom (4), TIR (3),
   cauchyN (2), intersectSegment (4), intersectCircle (4).
 
+- **F3-C** — LaserTool + PropertiesPanel optika:
+  `OpticsTools.ts` — `LaserTool extends TapTool` (zkratka L); ťuknutí umístí `opticalSource`
+  (laser, λ=550 nm, angle=0); ťuknutí na těleso → `parentId` = id tělesa.
+  `Toolbar.tsx` — nová sekce INSTRUMENT_TOOLS: `laser` (⟶, zkratka L), vedle fotobrány.
+  `bootstrap.ts` — `tools.register(new LaserTool(toolCtx), 'l')`.
+  `PropertiesPanel.tsx` — `OpticalSourceSection` (type chips laser/beam/point, vlnová délka
+  s presety VIS, počet paprsků, šířka svazku, připevnění k tělesu); `BodyOpticsSection`
+  (přepínač opticsEnabled, mode chips zrcadlo/sklo/absorber, n, Cauchy B, odrazivost).
+  `cs.ts` — 20 nových i18n klíčů (toolLaser, hintLaser, propOpticalSource, propBodyOptics, …).
+
 Stav: **127 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F3-C** — nástroj pro vkládání optických zdrojů + panel vlastností optiky:
-- `LaserTool` (zkratka L nebo O): ťuknutí do scény → vloží `opticalSource` (laser, λ=550 nm).
-- `PropertiesPanel` sekce pro `opticalSource`: type (laser/beam/point), wavelength [nm],
-  rayCount, beamWidth, parentId (přichytit na těleso).
-- Panel pro tělesa: přepínač `optics: on/off` a editace mode/refractiveIndex/cauchyB.
-- Accuracy: zobrazovací rovnice tenké čočky `1/f = 1/do + 1/di` ≤ 1 % (ideální čočka jako primitiv).
+**F3-D** — tenká čočka + zobrazovací rovnice (volitelně, viz PLAN.md):
+- Nový tvar `lens` v enginu (konvergentní/divergentní), Snell aproximace čočky.
+- Accuracy test: `1/f = 1/do + 1/di` ≤ 1 %.
+- Nebo přejít na F4 (elektrická pole), dle priority.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3-A + F3-B hotové** (127 testů zelených, tsc čistý).
+- **F3-A + F3-B + F3-C hotové** (127 testů zelených, tsc čistý).
 - Paprsky se trasují každý tick, posílají workerem jako `raysUpdate`, zobrazuje `raysLayer.ts`.
+- LaserTool (L): klik do scény = nový laser, klik na těleso = laser přichycen k tělesu.
 - 2 optické preset scény v LibraryDialog: Lom světla + Disperze (hranol).
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- Backlog: LaserTool + PropertiesPanel pro optiku (F3-C).
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo

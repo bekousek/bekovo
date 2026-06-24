@@ -9,7 +9,7 @@ import { cmdReplaceEntity, cmdSetKinematics, cmdSetWorld, kinematicsOf } from '@
 import type { DocumentStore } from '@editor/DocumentStore';
 import type { DocOp, TransformPatch, VelocityPatch } from '@engine/scene/ops';
 import { MATERIAL_PRESETS, type MaterialPreset } from '@engine/scene/materials';
-import type { Body, Entity, Instrument, Joint } from '@engine/scene/schema';
+import type { Body, BodyOptics, Entity, Instrument, Joint, OpticalSource } from '@engine/scene/schema';
 import type { Runtime } from './bootstrap';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
@@ -281,6 +281,89 @@ function presetChips(current: { density: number; friction: number; restitution: 
   );
 }
 
+function BodyOpticsSection({ store, body }: { store: DocumentStore; body: Body }) {
+  const replace = (label: string, after: Body) => store.apply(cmdReplaceEntity(label, body, after));
+  const optics = body.optics;
+
+  const DEFAULT_OPTICS: BodyOptics = {
+    mode: 'glass',
+    refractiveIndex: 1.5,
+    cauchyB: 0,
+    reflectivity: 0.04,
+  };
+
+  const MODES: { id: BodyOptics['mode']; label: string }[] = [
+    { id: 'mirror', label: t('opticsMirror') },
+    { id: 'glass', label: t('opticsGlass') },
+    { id: 'absorb', label: t('opticsAbsorb') },
+  ];
+
+  return (
+    <Section title={t('propBodyOptics')}>
+      <label className="flex items-center justify-between text-xs text-slate-600">
+        <span>{t('opticsEnabled')}</span>
+        <input
+          type="checkbox"
+          className="h-4 w-4 accent-blue-600"
+          checked={!!optics}
+          onChange={(e) =>
+            replace(t('opticsEnabled'), {
+              ...body,
+              optics: e.target.checked ? DEFAULT_OPTICS : undefined,
+            })
+          }
+        />
+      </label>
+      {optics && (
+        <>
+          <p className="text-[11px] font-medium text-slate-500">{t('opticsMode')}</p>
+          <div className="flex flex-wrap gap-1.5">
+            {MODES.map(({ id, label }) => (
+              <Chip
+                key={id}
+                label={label}
+                active={optics.mode === id}
+                onClick={() =>
+                  optics.mode !== id && replace(t('opticsMode'), { ...body, optics: { ...optics, mode: id } })
+                }
+              />
+            ))}
+          </div>
+          {optics.mode === 'glass' && (
+            <>
+              <NumberField
+                label={t('opticsRefIndex')}
+                value={optics.refractiveIndex}
+                step={0.05}
+                onCommit={(v) =>
+                  v >= 1 && v <= 3 && replace(t('opticsRefIndex'), { ...body, optics: { ...optics, refractiveIndex: v } })
+                }
+              />
+              <NumberField
+                label={t('opticsCauchyB')}
+                unit="µm²"
+                value={optics.cauchyB}
+                step={0.005}
+                onCommit={(v) =>
+                  v >= 0 && replace(t('opticsCauchyB'), { ...body, optics: { ...optics, cauchyB: v } })
+                }
+              />
+            </>
+          )}
+          <NumberField
+            label={t('opticsReflectivity')}
+            value={optics.reflectivity}
+            step={0.05}
+            onCommit={(v) =>
+              v >= 0 && v <= 1 && replace(t('opticsReflectivity'), { ...body, optics: { ...optics, reflectivity: v } })
+            }
+          />
+        </>
+      )}
+    </Section>
+  );
+}
+
 function BodySection({ store, body, runtime }: { store: DocumentStore; body: Body; runtime: Runtime }) {
   const plotBodyId = useUiStore((s) => s.plotBodyId);
   const fbdBodyId = useUiStore((s) => s.fbdBodyId);
@@ -478,6 +561,8 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
           {isFbd ? '● ' : ''}{t('fbdTrack')}
         </button>
       )}
+
+      <BodyOpticsSection store={store} body={body} />
     </>
   );
 }
@@ -633,6 +718,125 @@ function InstrumentSection({
   );
 }
 
+function OpticalSourceSection({
+  store,
+  source,
+}: {
+  store: DocumentStore;
+  source: OpticalSource;
+}) {
+  const replace = (label: string, after: OpticalSource) =>
+    store.apply(cmdReplaceEntity(label, source, after));
+  const tf = source.transform;
+
+  const SOURCE_TYPES: { id: OpticalSource['type']; label: string }[] = [
+    { id: 'laser', label: t('optSourceLaser') },
+    { id: 'beam', label: t('optSourceBeam') },
+    { id: 'point', label: t('optSourcePoint') },
+  ];
+
+  // Vlnové délky viditelného spektra — předpřipravené hodnoty.
+  const WL_PRESETS = [
+    { label: '🟣 405', value: 405 },
+    { label: '🔵 450', value: 450 },
+    { label: '🟢 550', value: 550 },
+    { label: '🟡 589', value: 589 },
+    { label: '🔴 650', value: 650 },
+  ];
+
+  // Název tělesa, ke kterému je laser přichycen.
+  const parentName = source.parentId
+    ? (store.doc.entities.find((e) => e.id === source.parentId)?.name ?? source.parentId)
+    : null;
+
+  return (
+    <Section title={t('propOpticalSource')}>
+      {/* Typ zdroje */}
+      <p className="text-[11px] font-medium text-slate-500">{t('optSourceType')}</p>
+      <div className="flex flex-wrap gap-1.5">
+        {SOURCE_TYPES.map(({ id, label }) => (
+          <Chip
+            key={id}
+            label={label}
+            active={source.type === id}
+            onClick={() => source.type !== id && replace(t('optSourceType'), { ...source, type: id })}
+          />
+        ))}
+      </div>
+
+      {/* Poloha a úhel */}
+      <NumberField
+        label="x"
+        unit="m"
+        value={tf.x}
+        onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, x: v } })}
+      />
+      <NumberField
+        label="y"
+        unit="m"
+        value={tf.y}
+        onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, y: v } })}
+      />
+      <NumberField
+        label={t('propAngle')}
+        unit="°"
+        value={tf.angle * DEG}
+        step={5}
+        onCommit={(v) => replace(t('propAngle'), { ...source, transform: { ...tf, angle: v / DEG } })}
+      />
+
+      {/* Vlnová délka */}
+      <NumberField
+        label={t('optWavelength')}
+        unit="nm"
+        value={source.wavelength}
+        step={10}
+        onCommit={(v) => v >= 0 && v <= 750 && replace(t('optWavelength'), { ...source, wavelength: v })}
+      />
+      <div className="flex flex-wrap gap-1">
+        {WL_PRESETS.map(({ label, value }) => (
+          <Chip
+            key={value}
+            label={label}
+            active={source.wavelength === value}
+            onClick={() => replace(t('optWavelength'), { ...source, wavelength: value })}
+          />
+        ))}
+      </div>
+
+      {/* Počet paprsků (beam/point) */}
+      {source.type !== 'laser' && (
+        <NumberField
+          label={t('optRayCount')}
+          value={source.rayCount}
+          step={1}
+          onCommit={(v) => v >= 1 && v <= 64 && replace(t('optRayCount'), { ...source, rayCount: Math.round(v) })}
+        />
+      )}
+      {source.type === 'beam' && (
+        <NumberField
+          label={t('optBeamWidth')}
+          unit="m"
+          value={source.beamWidth}
+          onCommit={(v) => v > 0 && replace(t('optBeamWidth'), { ...source, beamWidth: v })}
+        />
+      )}
+
+      {/* Přichycení */}
+      <p className="text-[10px] text-slate-400">
+        {t('optParent')}: {parentName ?? t('optParentNone')}
+      </p>
+      {source.parentId && (
+        <Chip
+          label="Odpojit od tělesa"
+          active={false}
+          onClick={() => replace('Odpojit laser', { ...source, parentId: null })}
+        />
+      )}
+    </Section>
+  );
+}
+
 function MultiSection({ store, entities }: { store: DocumentStore; entities: Entity[] }) {
   const bodies = entities.filter((e): e is Body => e.kind === 'body');
 
@@ -696,6 +900,8 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
         <JointSection store={store} joint={e} />
       ) : e.kind === 'instrument' ? (
         <InstrumentSection store={store} instrument={e} />
+      ) : e.kind === 'opticalSource' ? (
+        <OpticalSourceSection store={store} source={e} />
       ) : (
         null
       );
