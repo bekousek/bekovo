@@ -89,22 +89,28 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `TopBar.tsx` — nový prop `onLibrary`, nové tlačítko 📚 vlevo od 📂.
   `App.tsx` — `showLibrary` state, dialog vykreslen nad vším ostatním (z-50).
   5 nových i18n klíčů (topLibrary, libraryTitle, librarySubtitle, libraryEmpty, libraryLoad).
+- **F2-G, 2. půlka** — 5 nových preset scén + prázdná scéna:
+  `defaults.ts` — nové funkce `emptyScene()`, `pendulumScene()` (koule na čepu 1,5 m,
+  výchylka 15°), `inclineScene()` (kvádr na rovině 30°, μ=0,45), `springMassScene()`
+  (závaží 1 kg na pružině k=50 N/m), `heliumBalloonScene()` (He balón, airDensity=1,2).
+  `LibraryDialog.tsx` — 3 sloupce, max výška 70 vh + scroll; 7 dlaždic (prázdná + 6 presetů)
+  s badgí kurikula; klient/ročník info na dlaždici.
 
 Stav: **99 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-G — kurikulární scény (2. půlka): více scén + prázdná scéna + filter**
-- Přidat 3–5 dalších preset scén (kyvadlo, nakloněná rovina, pružina, heliový balón…).
-- Dlaždice „Prázdná scéna" (reset na minimalScene s prázdnou podlahou + kamerou).
-- Volitelně: filtrování dlaždicového výběru podle `curriculum.topic`.
-- Alternativně (stejný rozsah): kolizní vrstvy A–J v Rapier.
+**Fáze 3 (optika) — F3-A: paprsková optika, 1. půlka**
+- Nový modul `src/engine/optics/` — headless paprsek (Snellův zákon + odraz): typy
+  `OpticsBody` (zrcadlo/čočka/hranol), `Ray` s `origin`, `direction`, `wavelength`.
+- Alternativně (stejný rozsah): dokončit F2 backlogy (kolizní vrstvy A–J).
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-G 1. půlka hotová** (99 testů zelených, tsc čistý).
-- LibraryDialog funguje: 📚 v TopBar → modál se 2 presetami → klik načte scénu.
-- `meta.curriculum` je v schématu, ale zatím se nezobrazuje v UI (filtr přijde v 2. půlce).
+- **F2-G hotová** (99 testů zelených, tsc čistý). Fáze 2 je kompletní!
+- LibraryDialog: 7 dlaždic ve 3 sloupcích, scroll na malých obrazovkách.
+- Scény: kyvadlo, pružina, nakloněná rovina, heliový balón, raketa, demo, prázdná.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- Doporučení: 2. půlka F2-G = více scén (kyvadlo, pružina, nakloněná rovina).
+- Backlog F2: kolizní vrstvy A–J (Rapier), nůž/CSG, lano — přesunuty do Fáze 2 backlogu.
+- Doporučení: začít Fázi 3 (optika) nebo si vybrat z F2 backlogu.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
@@ -115,8 +121,9 @@ Stav: **99 testů zelených**, `tsc` čistý.
 5. ~~F2-F 1. půlka — ThrusterJoint~~ ✓ hotovo
 5. ~~F2-F 2. půlka — vizuální render trysky + rocketScene preset~~ ✓ hotovo
 5. ~~F2-G 1. půlka — LibraryDialog + curriculum meta~~ ✓ hotovo
-5. F2-G 2. půlka: více preset scén + prázdná scéna + (volitelně) filtr
-5. F2-F hloubka mechaniky (backlog): nůž/CSG, lano/řetěz, ozubení,
-   vzájemná gravitace těles, kolizní vrstvy A–J
+5. ~~F2-G 2. půlka — 5 nových preset scén + prázdná scéna~~ ✓ hotovo
 
-Po Fázi 2: Fáze 3 (optika), 4 (kapaliny), 5 (release) — viz `docs/PLAN.md`.
+**Fáze 2 DOKONČENA.** Backlog F2 (přesunut na později):
+- kolizní vrstvy A–J (Rapier), nůž/CSG, lano/řetěz, vzájemná gravitace těles
+
+**Fáze 3** (optika) — viz `docs/PLAN.md`.
