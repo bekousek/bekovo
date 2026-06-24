@@ -11,7 +11,11 @@ export function rocketScene(): SceneDoc {
   const input: SceneDocInput = {
     format: 'fyzlab-scene',
     version: 1,
-    meta: { id: 'preset-raketa', title: 'Raketa s tryskou' },
+    meta: {
+      id: 'preset-raketa',
+      title: 'Raketa s tryskou',
+      curriculum: { subject: 'fyzika', grade: 8, topic: 'silové účinky' },
+    },
     world: { gravity: { x: 0, y: -9.81 }, airDensity: 0 },
     camera: { center: { x: 0, y: 3 }, metersPerScreenH: 9 },
     entities: [
@@ -58,7 +62,11 @@ export function demoScene(): SceneDoc {
   const input: SceneDocInput = {
     format: 'fyzlab-scene',
     version: 1,
-    meta: { id: 'demo-fall', title: 'Padající tělesa' },
+    meta: {
+      id: 'demo-fall',
+      title: 'Padající tělesa',
+      curriculum: { subject: 'fyzika', topic: 'mechanika' },
+    },
     world: {},
     camera: { center: { x: 0, y: 2.2 }, metersPerScreenH: 7 },
     entities: [

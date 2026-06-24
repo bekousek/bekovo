@@ -131,6 +131,12 @@ export const cs = {
   thrusterEnabled: 'Aktivní',
   thrusterFx: 'Síla X (lok.)',
   thrusterFy: 'Síla Y (lok.)',
+  // Knihovna scén (F2-G)
+  topLibrary: 'Scény',
+  libraryTitle: 'Výběr scény',
+  librarySubtitle: 'Vyberte předpřipravenou scénu nebo začněte prázdnou.',
+  libraryEmpty: 'Prázdná scéna',
+  libraryLoad: 'Načíst',
 } as const;
 
 export type MsgKey = keyof typeof cs;

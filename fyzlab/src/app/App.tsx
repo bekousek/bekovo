@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { bootstrap, type Runtime } from './bootstrap';
 import { GatePanel } from './GatePanel';
+import { LibraryDialog } from './LibraryDialog';
 import { PlotPanel } from './PlotPanel';
 import { FbdPanel } from './FbdPanel';
 import { PredictionOverlay } from './PredictionOverlay';
@@ -49,6 +50,7 @@ export default function App() {
   const hostRef = useRef<HTMLDivElement>(null);
   const [runtime, setRuntime] = useState<Runtime | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [showLibrary, setShowLibrary] = useState(false);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -93,7 +95,7 @@ export default function App() {
 
       {runtime && (
         <div className="absolute left-1/2 top-4 -translate-x-1/2">
-          <TopBar runtime={runtime} />
+          <TopBar runtime={runtime} onLibrary={() => setShowLibrary(true)} />
         </div>
       )}
 
@@ -132,6 +134,14 @@ export default function App() {
 
       {/* Overlay predikce — překryje plátno při načtení scény s lekcí. */}
       {runtime && <PredictionOverlay runtime={runtime} />}
+
+      {/* Knihovna scén (F2-G) */}
+      {runtime && showLibrary && (
+        <LibraryDialog
+          onLoad={(doc) => runtime.loadScene(doc)}
+          onClose={() => setShowLibrary(false)}
+        />
+      )}
 
       <Toast />
 

@@ -197,6 +197,15 @@ export const SceneDocSchema = z.object({
   meta: z.object({
     id: z.string().min(1),
     title: z.string().default(''),
+    /** Volitelné kurikulární zařazení scény (F2-G). */
+    curriculum: z
+      .object({
+        subject: z.string().optional(),
+        /** Ročník (6–9 pro ZŠ, 1–4 pro SŠ). */
+        grade: z.number().int().positive().optional(),
+        topic: z.string().optional(),
+      })
+      .optional(),
   }),
   world: z.object({
     /** [m/s²]; výchozí zemská tíže, y-up. */

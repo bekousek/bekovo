@@ -81,25 +81,30 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `defaults.ts` — nová `rocketScene()`: pěnová raketa (foam 30 kg/m², 0,2 × 0,5 m,
   hmotnost 3 kg, tíha 29,4 N), výchozí tryska fy=20 N (nestoupá); žák nastaví > 30 N.
 
+- **F2-G, 1. půlka** — LibraryDialog + curriculum meta:
+  `schema.ts` — `meta.curriculum` (volitelný objekt `{subject?, grade?, topic?}`; zpětně
+  kompatibilní); `demoScene()` + `rocketScene()` mají vyplněné curriculum.
+  `LibraryDialog.tsx` — modální dialog s dlaždičkovým výběrem 2 presetů (📚 tlačítko
+  v TopBar), backdrop-click zavírá, klik na dlaždici načte scénu přes `runtime.loadScene()`.
+  `TopBar.tsx` — nový prop `onLibrary`, nové tlačítko 📚 vlevo od 📂.
+  `App.tsx` — `showLibrary` state, dialog vykreslen nad vším ostatním (z-50).
+  5 nových i18n klíčů (topLibrary, libraryTitle, librarySubtitle, libraryEmpty, libraryLoad).
+
 Stav: **99 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-G — kurikulární scény + LibraryDialog (1. půlka)**
-- Přidat `meta.curriculum` pole do `SceneDocSchema` (volitelný objekt: `subject`, `grade`,
-  `topic`; zpětně kompatibilní) — headless, v `schema.ts`.
-- `LibraryDialog.tsx`: modální seznam presetů (tlačítko „Scény" v TopBar),
-  zobrazí `rocketScene()` a `demoScene()` jako dlaždicový výběr.
-- Alternativně (stejný rozsah): kolizní vrstvy A–J (maskování kontaktů mezi skupinami
-  těles v Rapier).
+**F2-G — kurikulární scény (2. půlka): více scén + prázdná scéna + filter**
+- Přidat 3–5 dalších preset scén (kyvadlo, nakloněná rovina, pružina, heliový balón…).
+- Dlaždice „Prázdná scéna" (reset na minimalScene s prázdnou podlahou + kamerou).
+- Volitelně: filtrování dlaždicového výběru podle `curriculum.topic`.
+- Alternativně (stejný rozsah): kolizní vrstvy A–J v Rapier.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-F 2. půlka hotová** (99 testů zelených, tsc čistý).
-- `JointsLayer` nově kreslí trysku: oranžový plamen (střed + 2 boční jazyky) ve výfukovém
-  směru, délka proportionální magnitudě (0,05 m / 10 N, max 0,4 m). Při disabled → šedý kruh.
-- `rocketScene()` v `defaults.ts`: foam raketa 3 kg, tíha 29,4 N, fy=20 N default (nestoupá).
-  Žák nastaví fy > 30 N pro vzlet. Scéna je připravena pro F2-G LibraryDialog.
+- **F2-G 1. půlka hotová** (99 testů zelených, tsc čistý).
+- LibraryDialog funguje: 📚 v TopBar → modál se 2 presetami → klik načte scénu.
+- `meta.curriculum` je v schématu, ale zatím se nezobrazuje v UI (filtr přijde v 2. půlce).
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- Kolizní vrstvy A–J jsou backlog — doporučuji začít F2-G (Library + curriculum meta).
+- Doporučení: 2. půlka F2-G = více scén (kyvadlo, pružina, nakloněná rovina).
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
@@ -109,8 +114,9 @@ Stav: **99 testů zelených**, `tsc` čistý.
 4. ~~F2-E 2. půlka — overlay + vyhodnocení predikce~~ ✓ hotovo
 5. ~~F2-F 1. půlka — ThrusterJoint~~ ✓ hotovo
 5. ~~F2-F 2. půlka — vizuální render trysky + rocketScene preset~~ ✓ hotovo
-5. F2-F hloubka mechaniky (zbývá): nůž/CSG, lano/řetěz, ozubení,
+5. ~~F2-G 1. půlka — LibraryDialog + curriculum meta~~ ✓ hotovo
+5. F2-G 2. půlka: více preset scén + prázdná scéna + (volitelně) filtr
+5. F2-F hloubka mechaniky (backlog): nůž/CSG, lano/řetěz, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J
-5. F2-G ~10 kurikulárních scén + LibraryDialog (meta.curriculum)
 
 Po Fázi 2: Fáze 3 (optika), 4 (kapaliny), 5 (release) — viz `docs/PLAN.md`.
