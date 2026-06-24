@@ -1,10 +1,12 @@
 /**
- * Vrstva kloubů: čep (kroužek s tečkou), pružina (zigzag), fixace (svorka).
+ * Vrstva kloubů: čep (kroužek s tečkou), pružina (zigzag), fixace (svorka),
+ * tryska (oranžový plamen ve směru výfuku + kruh trysky).
  * Kreslí se každý frame z póz těles v BodiesLayer (interpolované), takže
  * grafika kloubů sedí přesně na vykreslených tělesech. Velikosti symbolů
  * jsou ve screen px — čitelné a ťuknutelné při libovolném zoomu.
  */
 import { Graphics } from 'pixi.js';
+import { rotate } from '@engine/core/math';
 import { jointWorldAnchors, type PoseGetter } from '@engine/scene/jointGeom';
 import type { Joint, SceneDoc } from '@engine/scene/schema';
 import { DRAW_SCALE as S } from './bodiesLayer';
@@ -112,6 +114,50 @@ export class JointsLayer {
             .moveTo(bx - size * 0.55, by + size * 0.55)
             .lineTo(bx + size * 0.55, by - size * 0.55)
             .stroke({ width: px(1.4), color: COLOR, alpha: 0.9 });
+          break;
+        }
+        case 'thruster': {
+          if (!j.thruster) break;
+          const poseB = getPose(j.bodyB);
+          if (!poseB) break;
+          const { fx, fy, enabled } = j.thruster;
+
+          // Kruh trysky na místě kotvy tělesa B.
+          g.circle(bx, by, px(5))
+            .fill({ color: enabled ? 0xf97316 : 0x94a3b8, alpha: 0.88 })
+            .stroke({ width: px(1.4), color: 0x334155, alpha: 0.65 });
+
+          const mag = Math.hypot(fx, fy);
+          if (!enabled || mag < 1e-6) break;
+
+          // Světový směr tahu: rotuj lokální sílu o úhel tělesa B.
+          const wf = rotate({ x: fx, y: fy }, poseB.angle);
+          const ux = wf.x / mag; // normalizovaný x tahu
+          const uy = wf.y / mag; // normalizovaný y tahu
+
+          // Výfukový směr = opak tahu; kolmice na výfuk.
+          const ex = -ux;
+          const ey = -uy;
+          const nx = -ey;
+          const ny = ex;
+
+          // Délka plamene: 0,05 m na 10 N, max 0,4 m.
+          const flameS = Math.min((mag / 10) * 0.05, 0.4) * S;
+
+          // Střední jazyk — oranžový, nejdelší.
+          g.moveTo(bx, by)
+            .lineTo(bx + ex * flameS, by + ey * flameS)
+            .stroke({ width: px(3.5), color: 0xf97316, alpha: 0.88 });
+
+          // Boční jazyky — žluté, kratší.
+          const fork = flameS * 0.55;
+          const spread = flameS * 0.20;
+          g.moveTo(bx, by)
+            .lineTo(bx + ex * fork + nx * spread, by + ey * fork + ny * spread)
+            .stroke({ width: px(2.0), color: 0xfbbf24, alpha: 0.72 });
+          g.moveTo(bx, by)
+            .lineTo(bx + ex * fork - nx * spread, by + ey * fork - ny * spread)
+            .stroke({ width: px(2.0), color: 0xfbbf24, alpha: 0.72 });
           break;
         }
       }

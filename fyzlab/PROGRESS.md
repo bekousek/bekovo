@@ -73,28 +73,33 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   zelená barva + legenda; `ThrusterTool` (zkratka U, ťuknutí na těleso); `PropertiesPanel`
   sekce s enabled/fx/fy; i18n cs.ts; 3 nové accuracy testy (A: force/m*t ±1 %,
   B: rotace síly s tělesem, C: disabled = klid).
+- **F2-F, 2. půlka** — vizuální render trysky + preset „Raketa":
+  `JointsLayer` — nový `case 'thruster'`: oranžový kruh trysky na kotvě tělesa B;
+  při `enabled=true` a `mag > 0` se kreslí plamen (3 čáry — střední oranžový + 2 boční
+  žluté) ve výfukovém směru (opak tahové síly, délka 0,05 m / 10 N, max 0,4 m);
+  síla rotována do světového systému pomocí `rotate()` z math.ts.
+  `defaults.ts` — nová `rocketScene()`: pěnová raketa (foam 30 kg/m², 0,2 × 0,5 m,
+  hmotnost 3 kg, tíha 29,4 N), výchozí tryska fy=20 N (nestoupá); žák nastaví > 30 N.
 
 Stav: **99 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-F — hloubka mechaniky (2. půlka): vizuální render trysky + raketa preset scéna**
-- Nakreslit šipku/plamen trysky v `JointsLayer` (nebo nová `ThrusterLayer`) z polohy tělesa
-  ve směru tahové síly; dynamická délka dle magnitudy.
-- Preset scéna „Raketa": box lehký (foam), tryska fy=30 N, gravity=9,81; žák dostane za úkol
-  nastavit sílu trysky pro stoupání a srovnání s tíhou.
-- Alternativně (stejný rozsah): `F2-F 2. půlka` = kolizní vrstvy A–J (maskování kontaktů
-  mezi skupinami těles) — záleží na prioritě.
+**F2-G — kurikulární scény + LibraryDialog (1. půlka)**
+- Přidat `meta.curriculum` pole do `SceneDocSchema` (volitelný objekt: `subject`, `grade`,
+  `topic`; zpětně kompatibilní) — headless, v `schema.ts`.
+- `LibraryDialog.tsx`: modální seznam presetů (tlačítko „Scény" v TopBar),
+  zobrazí `rocketScene()` a `demoScene()` jako dlaždicový výběr.
+- Alternativně (stejný rozsah): kolizní vrstvy A–J (maskování kontaktů mezi skupinami
+  těles v Rapier).
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-F 1. půlka hotová** (99 testů zelených, tsc čistý).
-- `ThrusterTool` (zkratka U): ťuknutí na dynamické těleso přidá trysku s `fy=20 N`.
-- `PropertiesPanel` sekce `Tryska`: checkbox Aktivní, pole Síla X/Y v N.
-- `FbdPanel`/`FbdLayer`: zelená šipka pro druh 'thruster'.
-- Accuracy testy A/B/C: ověřena rotace síly s tělesem (natočení 90°) a disabled stav.
+- **F2-F 2. půlka hotová** (99 testů zelených, tsc čistý).
+- `JointsLayer` nově kreslí trysku: oranžový plamen (střed + 2 boční jazyky) ve výfukovém
+  směru, délka proportionální magnitudě (0,05 m / 10 N, max 0,4 m). Při disabled → šedý kruh.
+- `rocketScene()` v `defaults.ts`: foam raketa 3 kg, tíha 29,4 N, fy=20 N default (nestoupá).
+  Žák nastaví fy > 30 N pro vzlet. Scéna je připravena pro F2-G LibraryDialog.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- **Chybí vizuální render trysky** v Pixi (JointsLayer nebo nová vrstva) — to je doporučená
-  2. půlka F2-F: šipka/plamen ve směru tahové síly. Alternativa: preset scéna „Raketa" nebo
-  kolizní vrstvy.
+- Kolizní vrstvy A–J jsou backlog — doporučuji začít F2-G (Library + curriculum meta).
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
@@ -103,7 +108,7 @@ Stav: **99 testů zelených**, `tsc` čistý.
 3. ~~F2-E 1. půlka — lesson schéma + fixture~~ ✓ hotovo
 4. ~~F2-E 2. půlka — overlay + vyhodnocení predikce~~ ✓ hotovo
 5. ~~F2-F 1. půlka — ThrusterJoint~~ ✓ hotovo
-5. F2-F 2. půlka: vizuální render trysky + preset/kolizní vrstvy
+5. ~~F2-F 2. půlka — vizuální render trysky + rocketScene preset~~ ✓ hotovo
 5. F2-F hloubka mechaniky (zbývá): nůž/CSG, lano/řetěz, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J
 5. F2-G ~10 kurikulárních scén + LibraryDialog (meta.curriculum)
