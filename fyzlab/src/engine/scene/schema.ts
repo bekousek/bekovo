@@ -88,8 +88,8 @@ export const AppearanceSchema = z.object({
  * paprsky nepřerušuje (průhledné pro optický modul).
  */
 export const BodyOpticsSchema = z.object({
-  /** Chování povrchu: zrcadlo, sklo (lom) nebo absorbér. */
-  mode: z.enum(['mirror', 'glass', 'absorb']),
+  /** Chování povrchu: zrcadlo, sklo (lom), absorbér nebo ideální tenká čočka. */
+  mode: z.enum(['mirror', 'glass', 'absorb', 'lens']),
   /**
    * Index lomu (platí pro mode='glass'). Hodnota 1.0 = vzduch.
    * Typická skla: 1.45–1.9; diamant 2.42.
@@ -106,6 +106,11 @@ export const BodyOpticsSchema = z.object({
    * aproximace (default 0.04 ≈ normální dopad vzduch→sklo).
    */
   reflectivity: z.number().min(0).max(1).default(0.04),
+  /**
+   * Ohnisková vzdálenost [m] pro mode='lens' (ideální tenká čočka).
+   * Kladná = spojná (konvergentní), záporná = rozptylná (divergentní).
+   */
+  focalLength: z.number().default(1.0),
 });
 
 // ---------------------------------------------------------------------------
@@ -236,11 +241,37 @@ export const OpticalSourceSchema = z.object({
   parentId: z.string().nullable().default(null),
 });
 
+/**
+ * Kapalina (F4) — oblast, do níž se spawnou PBF částice.
+ * Vlnová délka interakce h = 2.5 × particleRadius.
+ */
+export const FluidSchema = z.object({
+  kind: z.literal('fluid'),
+  id: z.string().min(1),
+  name: z.string().optional(),
+  /** Klidová plošná hustota [kg/m²]; voda ≈ 1000. */
+  restDensity: z.number().positive().default(1000),
+  /** XSPH viskozita (0 = bez viskozity, 1 = maximální). */
+  viscosity: z.number().min(0).max(1).default(0.01),
+  /** Barva výplně kapaliny (CSS hex). */
+  color: z.string().default('#60a5fa'),
+  /** Oblast kapaliny — osa-zarovnaný obdélník ve světových souřadnicích. */
+  region: z.object({
+    x: z.number(),
+    y: z.number(),
+    width: z.number().positive(),
+    height: z.number().positive(),
+  }),
+  /** Poloměr interakce [m]; doporučeno 0.05–0.10. Menší = jemnější ale pomalejší. */
+  particleRadius: z.number().positive().default(0.06),
+});
+
 export const EntitySchema = z.discriminatedUnion('kind', [
   BodySchema,
   JointSchema,
   InstrumentSchema,
   OpticalSourceSchema,
+  FluidSchema,
 ]);
 
 // ---------------------------------------------------------------------------
@@ -292,6 +323,7 @@ export type Motor = z.infer<typeof MotorSchema>;
 export type Thruster = NonNullable<Joint['thruster']>;
 export type Instrument = z.infer<typeof InstrumentSchema>;
 export type OpticalSource = z.infer<typeof OpticalSourceSchema>;
+export type Fluid = z.infer<typeof FluidSchema>;
 export type Entity = z.infer<typeof EntitySchema>;
 export type SceneDoc = z.infer<typeof SceneDocSchema>;
 

@@ -290,12 +290,14 @@ function BodyOpticsSection({ store, body }: { store: DocumentStore; body: Body }
     refractiveIndex: 1.5,
     cauchyB: 0,
     reflectivity: 0.04,
+    focalLength: 1.0,
   };
 
   const MODES: { id: BodyOptics['mode']; label: string }[] = [
     { id: 'mirror', label: t('opticsMirror') },
     { id: 'glass', label: t('opticsGlass') },
     { id: 'absorb', label: t('opticsAbsorb') },
+    { id: 'lens', label: t('opticsLens') },
   ];
 
   return (
@@ -350,14 +352,27 @@ function BodyOpticsSection({ store, body }: { store: DocumentStore; body: Body }
               />
             </>
           )}
-          <NumberField
-            label={t('opticsReflectivity')}
-            value={optics.reflectivity}
-            step={0.05}
-            onCommit={(v) =>
-              v >= 0 && v <= 1 && replace(t('opticsReflectivity'), { ...body, optics: { ...optics, reflectivity: v } })
-            }
-          />
+          {optics.mode === 'lens' && (
+            <NumberField
+              label={t('opticsFocalLength')}
+              unit="m"
+              value={optics.focalLength}
+              step={0.1}
+              onCommit={(v) =>
+                v !== 0 && replace(t('opticsFocalLength'), { ...body, optics: { ...optics, focalLength: v } })
+              }
+            />
+          )}
+          {optics.mode !== 'lens' && (
+            <NumberField
+              label={t('opticsReflectivity')}
+              value={optics.reflectivity}
+              step={0.05}
+              onCommit={(v) =>
+                v >= 0 && v <= 1 && replace(t('opticsReflectivity'), { ...body, optics: { ...optics, reflectivity: v } })
+              }
+            />
+          )}
         </>
       )}
     </Section>

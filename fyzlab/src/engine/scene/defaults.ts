@@ -421,6 +421,154 @@ export function prismScene(): SceneDoc {
   } satisfies SceneDocInput);
 }
 
+/**
+ * Preset: spojná čočka (F3-D).
+ *
+ * Svazek 7 rovnoběžných paprsků prochází spojnou čočkou (f=1,0 m) a sbíhá
+ * se v ohnisku. Žák změní ohniskovou vzdálenost a sleduje posun ohniska.
+ */
+export function convergingLensScene(): SceneDoc {
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-spojka',
+      title: 'Spojná čočka',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'optika' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0.5, y: 1.5 }, metersPerScreenH: 6 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'lens',
+        name: 'Spojná čočka (f=1 m)',
+        bodyType: 'static',
+        transform: { x: 0, y: 1.5 },
+        // Velmi tenký box = čočková rovina; optická osa = svět-x
+        shapes: [{ type: 'box', hw: 0.02, hh: 0.55 }],
+        material: { density: 2500, friction: 0.3, restitution: 0.1 },
+        appearance: { fill: '#bae6fd' },
+        optics: { mode: 'lens', focalLength: 1.0, refractiveIndex: 1.5, cauchyB: 0, reflectivity: 0 },
+      },
+      {
+        kind: 'opticalSource',
+        id: 'beam',
+        name: 'Rovnoběžný svazek',
+        type: 'beam',
+        transform: { x: -3, y: 1.5, angle: 0 },
+        wavelength: 550,
+        power: 1,
+        rayCount: 7,
+        beamWidth: 0.9,
+        parentId: null,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Preset: rozptylná čočka (F3-D).
+ *
+ * Stejný svazek, ale čočka má zápornou ohniskovou vzdálenost (f=−1,0 m) →
+ * paprsky se rozbíhají jako by vycházely z virtuálního ohniska.
+ */
+export function divergingLensScene(): SceneDoc {
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-rozptylka',
+      title: 'Rozptylná čočka',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'optika' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0.5, y: 1.5 }, metersPerScreenH: 6 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'lens',
+        name: 'Rozptylná čočka (f=−1 m)',
+        bodyType: 'static',
+        transform: { x: 0, y: 1.5 },
+        shapes: [{ type: 'box', hw: 0.02, hh: 0.55 }],
+        material: { density: 2500, friction: 0.3, restitution: 0.1 },
+        appearance: { fill: '#bae6fd' },
+        optics: { mode: 'lens', focalLength: -1.0, refractiveIndex: 1.5, cauchyB: 0, reflectivity: 0 },
+      },
+      {
+        kind: 'opticalSource',
+        id: 'beam',
+        name: 'Rovnoběžný svazek',
+        type: 'beam',
+        transform: { x: -3, y: 1.5, angle: 0 },
+        wavelength: 550,
+        power: 1,
+        rayCount: 7,
+        beamWidth: 0.9,
+        parentId: null,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Preset: periskop — dvě zrcadla přesměrují světlo přes překážku (F3-D).
+ *
+ * Vodorovný laser je zrcadlem odkloněn dolů, druhé zrcadlo ho vrátí zpět
+ * do vodorovného směru (Z-tvar světelné dráhy). Ukazuje zákon odrazu.
+ */
+export function periscopeScene(): SceneDoc {
+  const A = -Math.PI / 4; // úhel obou zrcadel (-45°)
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-periskop',
+      title: 'Periskop (dvě zrcadla)',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'optika' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0, y: 1.5 }, metersPerScreenH: 7 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'mirror-top',
+        name: 'Zrcadlo 1',
+        bodyType: 'static',
+        transform: { x: 0, y: 2.8, angle: A },
+        shapes: [{ type: 'box', hw: 0.02, hh: 0.5 }],
+        material: { density: 2500, friction: 0.3, restitution: 0.1 },
+        appearance: { fill: '#cbd5e1' },
+        optics: { mode: 'mirror', reflectivity: 0.95, refractiveIndex: 1.5, cauchyB: 0, focalLength: 1 },
+      },
+      {
+        kind: 'body',
+        id: 'mirror-bot',
+        name: 'Zrcadlo 2',
+        bodyType: 'static',
+        transform: { x: 0, y: 0.4, angle: A },
+        shapes: [{ type: 'box', hw: 0.02, hh: 0.5 }],
+        material: { density: 2500, friction: 0.3, restitution: 0.1 },
+        appearance: { fill: '#cbd5e1' },
+        optics: { mode: 'mirror', reflectivity: 0.95, refractiveIndex: 1.5, cauchyB: 0, focalLength: 1 },
+      },
+      {
+        kind: 'opticalSource',
+        id: 'laser',
+        name: 'Laser',
+        type: 'laser',
+        transform: { x: -3, y: 2.8, angle: 0 },
+        wavelength: 550,
+        power: 1,
+        rayCount: 1,
+        beamWidth: 0.1,
+        parentId: null,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
 /** Demo scéna fáze 0: podlaha + dva míče + bedna. */
 export function demoScene(): SceneDoc {
   const input: SceneDocInput = {

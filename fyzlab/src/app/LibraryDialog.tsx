@@ -4,12 +4,15 @@
  * Klik na backdrop (tmavá plocha za dialogem) dialog také zavře.
  */
 import {
+  convergingLensScene,
   demoScene,
+  divergingLensScene,
   emptyScene,
   heliumBalloonScene,
   inclineScene,
   laserScene,
   pendulumScene,
+  periscopeScene,
   prismScene,
   rocketScene,
   springMassScene,
@@ -97,6 +100,30 @@ const PRESETS: PresetDef[] = [
     description: 'Tři lasery prochází hranolem — Cauchyova disperze rozkládá barvy.',
     badge: '7. ročník · Optika',
     makeScene: prismScene,
+  },
+  {
+    id: 'preset-spojka',
+    icon: '🔵',
+    title: 'Spojná čočka',
+    description: 'Svazek rovnoběžných paprsků prochází spojnou čočkou a sbíhá se v ohnisku.',
+    badge: '7. ročník · Optika',
+    makeScene: convergingLensScene,
+  },
+  {
+    id: 'preset-rozptylka',
+    icon: '🔴',
+    title: 'Rozptylná čočka',
+    description: 'Svazek rovnoběžných paprsků prochází rozptylnou čočkou a rozbíhá se.',
+    badge: '7. ročník · Optika',
+    makeScene: divergingLensScene,
+  },
+  {
+    id: 'preset-periskop',
+    icon: '🪞',
+    title: 'Periskop',
+    description: 'Dvě zrcadla přesměrují laserový paprsek přes překážku — zákon odrazu.',
+    badge: '7. ročník · Optika',
+    makeScene: periscopeScene,
   },
 ];
 

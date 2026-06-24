@@ -1,5 +1,5 @@
 /**
- * OpticsModule — paprsková optika (F3-A/B).
+ * OpticsModule — paprsková optika (F3-A/B/D).
  *
  * Trasování paprsků se spustí každý tick po rigid.step() (viz ARCHITECTURE.md).
  * Modul nezávisí na DOM/Pixi/React; běží stejně ve workeru i ve vitestu.
@@ -8,11 +8,10 @@
  *   rigid.applyForces → rigid.step → optics.tick → instruments.tick
  *
  * Zjednodušení v1:
- * - Tvary: circle (s offset), box (shape.angle podporováno), polygon (hrany),
- *   plane (nekonečná podlaha ≈ dlouhý segment).
- * - MAX_BOUNCES = 16 odrazů/lomů na paprsek.
+ * - Tvary: circle, box (shape.angle podporováno), polygon, plane.
+ * - mode='lens': ideální tenká čočka (maticová optika, paraxiální aproximace).
+ * - MAX_BOUNCES = 16 odrazů/lomů/průchodů čočkou na paprsek.
  * - MAX_RAYS celkem K=512 (ochrana CPU).
- * - Intenzita se při každém odrazu/lomu násobí koeficientem (Fresnelova aprox.).
  */
 import { rotate } from '../core/math';
 import type { BodyState, SimModule, TickCtx } from '../core/SimModule';
@@ -64,15 +63,11 @@ interface OpticalBody {
 // Průsečíky tvaru v lokálním prostoru tělesa
 // ---------------------------------------------------------------------------
 
-/**
- * Vrátí všechny průsečíky paprsku (v LOKÁLNÍM prostoru tělesa) se tvary body.
- * Výsledek bude transformován zpět do světa volajícím.
- */
 function shapeHits(
   localRay: Ray,
   body: Body,
-): { hit: RayHit; refractiveIndex: number; enteringBody: boolean }[] {
-  const result: { hit: RayHit; refractiveIndex: number; enteringBody: boolean }[] = [];
+): { hit: RayHit; refractiveIndex: number }[] {
+  const result: { hit: RayHit; refractiveIndex: number }[] = [];
   const nBody = body.optics
     ? cauchyN(localRay.wavelength || 550, body.optics.refractiveIndex, body.optics.cauchyB)
     : 1.5;
@@ -81,14 +76,10 @@ function shapeHits(
     switch (shape.type) {
       case 'circle': {
         const h = intersectCircle(localRay, shape.offset, shape.r);
-        if (h) {
-          const entering = localRay.n < nBody;
-          result.push({ hit: h, refractiveIndex: nBody, enteringBody: entering });
-        }
+        if (h) result.push({ hit: h, refractiveIndex: nBody });
         break;
       }
       case 'box': {
-        // 4 hrany boxu v lokálním prostoru tělesa (s shape.angle).
         const hw = shape.hw;
         const hh = shape.hh;
         const sa = shape.angle;
@@ -104,10 +95,7 @@ function shapeHits(
           const a = corners[i]!;
           const b = corners[(i + 1) % 4]!;
           const h = intersectSegment(localRay, a, b);
-          if (h) {
-            const entering = localRay.n < nBody;
-            result.push({ hit: h, refractiveIndex: nBody, enteringBody: entering });
-          }
+          if (h) result.push({ hit: h, refractiveIndex: nBody });
         }
         break;
       }
@@ -117,21 +105,14 @@ function shapeHits(
           const a = pts[i]!;
           const b = pts[(i + 1) % pts.length]!;
           const h = intersectSegment(localRay, a, b);
-          if (h) {
-            const entering = localRay.n < nBody;
-            result.push({ hit: h, refractiveIndex: nBody, enteringBody: entering });
-          }
+          if (h) result.push({ hit: h, refractiveIndex: nBody });
         }
         break;
       }
       case 'plane': {
-        // Nekonečná podlaha: normála tělesa je +y. Modelujeme jako dlouhý segment.
         const half = MAX_RAY_LENGTH * 2;
         const h = intersectSegment(localRay, { x: -half, y: 0 }, { x: half, y: 0 });
-        if (h) {
-          const entering = localRay.n < nBody;
-          result.push({ hit: h, refractiveIndex: nBody, enteringBody: entering });
-        }
+        if (h) result.push({ hit: h, refractiveIndex: nBody });
         break;
       }
     }
@@ -149,21 +130,29 @@ interface WorldHit {
   normal: { x: number; y: number };
   body: Body;
   refractiveIndex: number;
+  /** Póza tělesa — potřebná pro výpočet čočky (výška od optické osy). */
+  pose: Pose;
 }
 
-function nearestWorldHit(ray: Ray, optBodies: OpticalBody[]): WorldHit | null {
+/**
+ * Vrátí nejbližší světový průsečík, volitelně přeskočí jedno těleso
+ * (používá se k přeskočení výstupní stěny tenké čočky po průchodu).
+ */
+function nearestWorldHit(
+  ray: Ray,
+  optBodies: OpticalBody[],
+  skipId: string | null,
+): WorldHit | null {
   let best: WorldHit | null = null;
 
   for (const { body, pose } of optBodies) {
-    // Transformuj paprsek do lokálního prostoru tělesa.
+    if (skipId !== null && body.id === skipId) continue;
+
     const ca = Math.cos(-pose.angle);
     const sa = Math.sin(-pose.angle);
     const dx = ray.origin.x - pose.x;
     const dy = ray.origin.y - pose.y;
-    const localOrigin = {
-      x: ca * dx - sa * dy,
-      y: sa * dx + ca * dy,
-    };
+    const localOrigin = { x: ca * dx - sa * dy, y: sa * dx + ca * dy };
     const localDir = {
       x: ca * ray.dir.x - sa * ray.dir.y,
       y: sa * ray.dir.x + ca * ray.dir.y,
@@ -173,14 +162,13 @@ function nearestWorldHit(ray: Ray, optBodies: OpticalBody[]): WorldHit | null {
     const hits = shapeHits(localRay, body);
     for (const { hit, refractiveIndex } of hits) {
       if (hit.t <= 0 || (best && hit.t >= best.t)) continue;
-      // Transformuj normálu zpět do světového prostoru.
       const ca2 = Math.cos(pose.angle);
       const sa2 = Math.sin(pose.angle);
       const worldNormal = {
         x: ca2 * hit.normal.x - sa2 * hit.normal.y,
         y: sa2 * hit.normal.x + ca2 * hit.normal.y,
       };
-      best = { t: hit.t, normal: worldNormal, body, refractiveIndex };
+      best = { t: hit.t, normal: worldNormal, body, refractiveIndex, pose };
     }
   }
   return best;
@@ -191,7 +179,6 @@ function nearestWorldHit(ray: Ray, optBodies: OpticalBody[]): WorldHit | null {
 // ---------------------------------------------------------------------------
 
 function emitRays(source: OpticalSource, poseGetter: PoseGetter): Ray[] {
-  // Parentovaný zdroj zdědí pozici rodiče.
   let worldX = source.transform.x;
   let worldY = source.transform.y;
   let worldAngle = source.transform.angle;
@@ -207,7 +194,7 @@ function emitRays(source: OpticalSource, poseGetter: PoseGetter): Ray[] {
 
   const origin = { x: worldX, y: worldY };
   const wavelength = source.wavelength;
-  const n = 1.0; // zdroj vždy ve vzduchu
+  const n = 1.0;
 
   switch (source.type) {
     case 'laser':
@@ -220,7 +207,7 @@ function emitRays(source: OpticalSource, poseGetter: PoseGetter): Ray[] {
       const dir = { x: Math.cos(worldAngle), y: Math.sin(worldAngle) };
       const rays: Ray[] = [];
       for (let i = 0; i < count; i++) {
-        const t = count === 1 ? 0 : (i / (count - 1)) * 2 - 1; // −1 … 1
+        const t = count === 1 ? 0 : (i / (count - 1)) * 2 - 1;
         const ox = origin.x + perp.x * hw * t;
         const oy = origin.y + perp.y * hw * t;
         rays.push({ origin: { x: ox, y: oy }, dir, wavelength, n });
@@ -247,13 +234,16 @@ function emitRays(source: OpticalSource, poseGetter: PoseGetter): Ray[] {
 function traceRay(ray: Ray, bodies: OpticalBody[], segments: RaySegment[], maxRays: number): void {
   let current = ray;
   let intensity = 1.0;
+  // Po průchodu čočkou přeskočíme výstupní stěnu stejného tělesa.
+  let lastLensId: string | null = null;
 
   for (let bounce = 0; bounce < MAX_BOUNCES; bounce++) {
     if (segments.length >= maxRays) return;
 
-    const hit = nearestWorldHit(current, bodies);
+    const hit = nearestWorldHit(current, bodies, lastLensId);
+    lastLensId = null; // reset po každém bouncu
+
     if (!hit) {
-      // Paprsek letí do nekonečna — přidej konečný úsek.
       segments.push({
         ox: current.origin.x,
         oy: current.origin.y,
@@ -265,7 +255,6 @@ function traceRay(ray: Ray, bodies: OpticalBody[], segments: RaySegment[], maxRa
       return;
     }
 
-    // Místo dopadu.
     const hx = current.origin.x + hit.t * current.dir.x;
     const hy = current.origin.y + hit.t * current.dir.y;
 
@@ -298,21 +287,55 @@ function traceRay(ray: Ray, bodies: OpticalBody[], segments: RaySegment[], maxRa
         const n1 = current.n;
         const refracted = snell(current.dir, hit.normal, n1, n2);
         if (!refracted) {
-          // TIR — odraž paprsek.
           const newDir = reflect(current.dir, hit.normal);
           current = { origin: { x: hx, y: hy }, dir: newDir, wavelength: current.wavelength, n: n1 };
         } else {
-          // Fresnelova odrazivost (zanedbáme odražený paprsek — pro výuku stačí).
-          const transIntensity = 1 - reflectivity;
-          intensity *= transIntensity;
+          intensity *= 1 - reflectivity;
           if (intensity < 0.01) return;
-          current = {
-            origin: { x: hx, y: hy },
-            dir: refracted,
-            wavelength: current.wavelength,
-            n: n2,
-          };
+          current = { origin: { x: hx, y: hy }, dir: refracted, wavelength: current.wavelength, n: n2 };
         }
+        break;
+      }
+
+      case 'lens': {
+        // Ideální tenká čočka — maticová optika (paraxiální aproximace).
+        // Optická osa = lokální x-osa tělesa. Výška h = lokální y-souřadnice místa dopadu.
+        const f = hit.body.optics.focalLength;
+        if (f === 0) return; // nulová ohnisková vzdálenost = absurdní — zastaví paprsek
+
+        // Transformuj místo dopadu do lokálních souřadnic tělesa → výška h.
+        const caNeg = Math.cos(-hit.pose.angle);
+        const saNeg = Math.sin(-hit.pose.angle);
+        const dhx = hx - hit.pose.x;
+        const dhy = hy - hit.pose.y;
+        const h = saNeg * dhx + caNeg * dhy; // lokální y
+
+        // Transformuj směr paprsku do lokálních souřadnic.
+        const dlX = caNeg * current.dir.x - saNeg * current.dir.y;
+        const dlY = saNeg * current.dir.x + caNeg * current.dir.y;
+
+        // Úhel paprsku k optické ose.
+        const thetaI = Math.atan2(dlY, dlX);
+        // Maticová refrakce: θ_out = θ_in − sgn(dl_x) · h / f
+        const signX = dlX >= 0 ? 1 : -1;
+        const thetaO = thetaI - signX * h / f;
+
+        // Výstupní směr v lokálních souřadnicích → světové souřadnice.
+        const exitLx = Math.cos(thetaO);
+        const exitLy = Math.sin(thetaO);
+        const ca2 = Math.cos(hit.pose.angle);
+        const sa2 = Math.sin(hit.pose.angle);
+        const exitWx = ca2 * exitLx - sa2 * exitLy;
+        const exitWy = sa2 * exitLx + ca2 * exitLy;
+
+        // Přeskočit výstupní stěnu téhož tělesa (čočka je "bez tloušťky").
+        lastLensId = hit.body.id;
+        current = {
+          origin: { x: hx, y: hy },
+          dir: { x: exitWx, y: exitWy },
+          wavelength: current.wavelength,
+          n: current.n,
+        };
         break;
       }
     }
@@ -371,12 +394,14 @@ export class OpticsModule implements SimModule {
     this.segments = [];
     if (this.sources.length === 0) return;
 
-    // Sestav seznam těles s optikou a jejich aktuálními pózami.
     this.optBodies = [];
     for (const body of this.allBodies) {
       if (!body.optics) continue;
-      const pose = this.getPose(body.id);
-      if (!pose) continue;
+      const pose = this.getPose(body.id) ?? {
+        x: body.transform.x,
+        y: body.transform.y,
+        angle: body.transform.angle,
+      };
       this.optBodies.push({ body, pose });
     }
 
@@ -392,15 +417,12 @@ export class OpticsModule implements SimModule {
     }
   }
 
-  writeSnapshot(_w: SnapshotWriter): void {
-    // Paprsky se posílají jako oddělená zpráva (drainRaySegments).
-  }
+  writeSnapshot(_w: SnapshotWriter): void {}
 
   readState(): BodyState[] {
     return [];
   }
 
-  /** Vrátí aktuální sadu paprsků (latest-wins). */
   readRaySegments(): readonly RaySegment[] {
     return this.segments;
   }

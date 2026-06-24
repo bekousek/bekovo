@@ -154,6 +154,16 @@ export const cs = {
   opticsRefIndex: 'Index lomu (n)',
   opticsCauchyB: 'Cauchy B (disperze)',
   opticsReflectivity: 'Odrazivost',
+  opticsLens: 'Čočka (ideální)',
+  opticsFocalLength: 'Ohnisková vzdálenost [m]',
+  // Kapaliny (F4)
+  toolFluid: 'Kapalina',
+  hintFluid: 'Táhni obdélník — vyplní oblast kapalinou.',
+  propFluid: 'Kapalina',
+  fluidDensity: 'Hustota [kg/m²]',
+  fluidViscosity: 'Viskozita',
+  fluidColor: 'Barva',
+  fluidRadius: 'Poloměr částice [m]',
   // Knihovna scén (F2-G)
   topLibrary: 'Scény',
   libraryTitle: 'Výběr scény',
