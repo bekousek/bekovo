@@ -83,6 +83,31 @@ export const AppearanceSchema = z.object({
   showVelocity: z.boolean().default(false),
 });
 
+/**
+ * Optické vlastnosti tělesa (F3-A). Nepovinné — bez tohoto pole těleso
+ * paprsky nepřerušuje (průhledné pro optický modul).
+ */
+export const BodyOpticsSchema = z.object({
+  /** Chování povrchu: zrcadlo, sklo (lom) nebo absorbér. */
+  mode: z.enum(['mirror', 'glass', 'absorb']),
+  /**
+   * Index lomu (platí pro mode='glass'). Hodnota 1.0 = vzduch.
+   * Typická skla: 1.45–1.9; diamant 2.42.
+   */
+  refractiveIndex: z.number().min(1).max(3).default(1.5),
+  /**
+   * Cauchyova konstanta B [µm²] pro disperzi: n(λ) = refractiveIndex + B/λ².
+   * 0 = achromatické sklo.
+   */
+  cauchyB: z.number().min(0).default(0),
+  /**
+   * Odrazivost povrchu (0–1). Pro mode='mirror' jde veškerý výkon do odrazu
+   * (reflectivity) a zbytek je absorbován. Pro mode='glass' = Fresnelova
+   * aproximace (default 0.04 ≈ normální dopad vzduch→sklo).
+   */
+  reflectivity: z.number().min(0).max(1).default(0.04),
+});
+
 // ---------------------------------------------------------------------------
 // Entity: tělesa a klouby (discriminated union na `kind`)
 // ---------------------------------------------------------------------------
@@ -108,6 +133,8 @@ export const BodySchema = z.object({
   shapes: z.array(ShapeSchema).min(1),
   material: MaterialSchema.default({ density: 1000, friction: 0.5, restitution: 0.3 }),
   appearance: AppearanceSchema.default({ fill: '#60a5fa', showVelocity: false }),
+  /** Optické vlastnosti povrchu (F3-A). Bez tohoto pole = průhledné. */
+  optics: BodyOpticsSchema.optional(),
 });
 
 export const MotorSchema = z.object({
@@ -181,10 +208,39 @@ export const InstrumentSchema = z.object({
     .default({ halfLength: 0.5 }),
 });
 
+/**
+ * Optický zdroj (F3-A): laser, rovnoběžný svazek nebo bodový zdroj.
+ * Může být připevněn k tělesu (parentId) nebo ukotvený ve světě.
+ */
+export const OpticalSourceSchema = z.object({
+  kind: z.literal('opticalSource'),
+  id: z.string().min(1),
+  name: z.string().optional(),
+  /** laser = 1 paprsek; beam = rovnoběžný svazek; point = bodový zdroj. */
+  type: z.enum(['laser', 'beam', 'point']),
+  transform: z.object({
+    x: z.number(),
+    y: z.number(),
+    /** Směr zdroje [rad, y-up, 0 = doprava]. */
+    angle: z.number().default(0),
+  }),
+  /** Vlnová délka [nm]; 0 = bílé (achromatické). */
+  wavelength: z.number().min(0).max(750).default(550),
+  /** Výkon [W] — škáluje intenzitu na fotočlánku. */
+  power: z.number().positive().default(1),
+  /** Počet paprsků (beam/point); laser má vždy 1. */
+  rayCount: z.number().int().positive().max(64).default(1),
+  /** Šířka svazku pro type='beam' [m]. */
+  beamWidth: z.number().positive().default(0.1),
+  /** Těleso, ke kterému je zdroj připevněn; null = svět. */
+  parentId: z.string().nullable().default(null),
+});
+
 export const EntitySchema = z.discriminatedUnion('kind', [
   BodySchema,
   JointSchema,
   InstrumentSchema,
+  OpticalSourceSchema,
 ]);
 
 // ---------------------------------------------------------------------------
@@ -229,11 +285,13 @@ export const SceneDocSchema = z.object({
 export type Shape = z.infer<typeof ShapeSchema>;
 export type Material = z.infer<typeof MaterialSchema>;
 export type Appearance = z.infer<typeof AppearanceSchema>;
+export type BodyOptics = z.infer<typeof BodyOpticsSchema>;
 export type Body = z.infer<typeof BodySchema>;
 export type Joint = z.infer<typeof JointSchema>;
 export type Motor = z.infer<typeof MotorSchema>;
 export type Thruster = NonNullable<Joint['thruster']>;
 export type Instrument = z.infer<typeof InstrumentSchema>;
+export type OpticalSource = z.infer<typeof OpticalSourceSchema>;
 export type Entity = z.infer<typeof EntitySchema>;
 export type SceneDoc = z.infer<typeof SceneDocSchema>;
 

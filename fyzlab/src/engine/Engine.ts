@@ -8,6 +8,7 @@
 import { SignalBus } from './core/SignalBus';
 import type { SimModule, BodyState, InstrumentEvent } from './core/SimModule';
 import { InstrumentsModule } from './instruments/InstrumentsModule';
+import { OpticsModule } from './optics/OpticsModule';
 import { initRapier } from './rigid/rapier';
 import { RigidModule } from './rigid/RigidModule';
 import { SnapshotWriter, bodiesByteLength } from './snapshot/layout';
@@ -24,19 +25,21 @@ export class Engine {
 
   private readonly bus = new SignalBus();
   private readonly rigid: RigidModule;
+  private readonly optics: OpticsModule;
   private readonly instruments: InstrumentsModule;
-  /** Závazné pořadí: [circuits] → rigid → [fluid] → [optics] → instruments. */
+  /** Závazné pořadí: [circuits] → rigid → optics → instruments. */
   private readonly modules: SimModule[];
 
   doc: SceneDoc;
 
   private constructor(rigid: RigidModule, doc: SceneDoc) {
     this.rigid = rigid;
+    this.optics = new OpticsModule();
     this.instruments = new InstrumentsModule(
       (id) => rigid.poseOf(id),
       (id) => rigid.stateOf(id),
     );
-    this.modules = [rigid, this.instruments];
+    this.modules = [rigid, this.optics, this.instruments];
     this.doc = doc;
     this.dt = 1 / doc.world.tickHz;
   }
@@ -83,6 +86,8 @@ export class Engine {
             topologyChanged = true;
           } else if (op.entity.kind === 'joint') {
             this.rigid.addJoint(op.entity);
+          } else if (op.entity.kind === 'opticalSource') {
+            this.optics.addSource(op.entity);
           } else {
             this.instruments.addEntity(op.entity);
           }
@@ -98,6 +103,8 @@ export class Engine {
             topologyChanged = true;
           } else if (existing.kind === 'joint') {
             this.rigid.removeJoint(op.id);
+          } else if (existing.kind === 'opticalSource') {
+            this.optics.removeSource(op.id);
           } else {
             this.instruments.removeEntity(op.id);
           }
@@ -110,6 +117,8 @@ export class Engine {
             this.instruments.replaceEntity(op.entity);
           } else if (op.entity.kind === 'joint') {
             this.rigid.replaceJoint(op.entity);
+          } else if (op.entity.kind === 'opticalSource') {
+            this.optics.replaceSource(op.entity);
           } else {
             this.instruments.replaceEntity(op.entity);
           }

@@ -96,21 +96,37 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `LibraryDialog.tsx` — 3 sloupce, max výška 70 vh + scroll; 7 dlaždic (prázdná + 6 presetů)
   s badgí kurikula; klient/ročník info na dlaždici.
 
-Stav: **99 testů zelených**, `tsc` čistý.
+- **F3-A, 1. půlka** — paprsková optika: schéma + math + skeleton modul:
+  `schema.ts` — `BodyOpticsSchema` (`mode`, `refractiveIndex`, `cauchyB`, `reflectivity`);
+  `optics?: BodyOptics` na `BodySchema`; `OpticalSourceSchema` (laser/beam/point, wavelength,
+  power, rayCount, beamWidth, parentId) přidáno jako 4. člen `EntitySchema`; nové exporty
+  `BodyOptics`, `OpticalSource`.
+  `src/engine/optics/math.ts` — headless ray-math: `reflect()`, `snell()` (TIR = null),
+  `cauchyN()`, `intersectSegment()`, `intersectCircle()`; SELF_EPSILON = 1e-9.
+  `src/engine/optics/OpticsModule.ts` — skeleton `SimModule` (`build/addSource/removeSource/
+  replaceSource/tick/writeSnapshot/readState/dispose`); tick a writeSnapshot = placeholder F3-B.
+  `Engine.ts` — `OpticsModule` jako pole; pořadí `[rigid, optics, instruments]`; `applyPatch`
+  směruje `opticalSource` ops do `optics.addSource/removeSource/replaceSource`.
+  `PropertiesPanel.tsx` — přidána větev `e.kind === 'instrument'` (null pro opticalSource).
+  `tests/accuracy/optics.test.ts` — 20 přesnostních testů: reflect (3), snell/lom (4), TIR (3),
+  cauchyN (2), intersectSegment (4), intersectCircle (4).
+
+Stav: **119 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**Fáze 3 (optika) — F3-A: paprsková optika, 1. půlka**
-- Nový modul `src/engine/optics/` — headless paprsek (Snellův zákon + odraz): typy
-  `OpticsBody` (zrcadlo/čočka/hranol), `Ray` s `origin`, `direction`, `wavelength`.
-- Alternativně (stejný rozsah): dokončit F2 backlogy (kolizní vrstvy A–J).
+**F3-A, 2. půlka** — trasování paprsků v enginu + render vrstva:
+- `OpticsModule.tick()`: pro každý zdroj `OpticalSource` vyemitovat paprsky, trasovat je přes
+  tělesa s `optics`, aplikovat `snell()`/`reflect()`, uložit výsledné segmenty.
+- Výstup do snapshotu (sloty K×6: ox, oy, dx, dy, λ, I) + nový `readRays()` na Engine.
+- `src/render/layers/raysLayer.ts` — Pixi vrstva kreslí paprsky jako barevné čáry (λ→RGB).
+- Zdroj v `LibraryDialog` nebo jako nástroj (O): laser na skleněný hranol → lom + TIR demo.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-G hotová** (99 testů zelených, tsc čistý). Fáze 2 je kompletní!
-- LibraryDialog: 7 dlaždic ve 3 sloupcích, scroll na malých obrazovkách.
-- Scény: kyvadlo, pružina, nakloněná rovina, heliový balón, raketa, demo, prázdná.
+- **F3-A 1. půlka hotová** (119 testů zelených, tsc čistý).
+- math.ts plně testován (Snellovy úhly ≤ 1e-6 rad, TIR, průsečíky ≤ 1e-10 m).
+- OpticsModule integrován do Engine — ale zatím jen skeleton (tick nic nedělá).
+- Další: F3-A 2. půlka — skutečné trasování paprsků + raysLayer v Pixiu.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- Backlog F2: kolizní vrstvy A–J (Rapier), nůž/CSG, lano — přesunuty do Fáze 2 backlogu.
-- Doporučení: začít Fázi 3 (optika) nebo si vybrat z F2 backlogu.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo

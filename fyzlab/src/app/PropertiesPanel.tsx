@@ -694,8 +694,10 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
         <BodySection store={store} body={e} runtime={runtime} />
       ) : e.kind === 'joint' ? (
         <JointSection store={store} joint={e} />
-      ) : (
+      ) : e.kind === 'instrument' ? (
         <InstrumentSection store={store} instrument={e} />
+      ) : (
+        null
       );
   } else {
     content = <MultiSection store={store} entities={entities} />;
