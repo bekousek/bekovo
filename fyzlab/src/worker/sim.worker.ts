@@ -106,6 +106,9 @@ function loop(): void {
     if (predResult !== null) post({ type: 'predictionResult', value: predResult });
     const rays = engine.readRaySegments();
     if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
+    for (const { id, positions } of engine.readFluidData()) {
+      if (positions.length > 0) post({ type: 'fluidUpdate', fluidId: id, xy: Array.from(positions) });
+    }
   }
   schedule();
 }
@@ -178,6 +181,9 @@ function handleControl(action: 'play' | 'pause' | 'step'): void {
         if (predResult !== null) post({ type: 'predictionResult', value: predResult });
         const rays = engine.readRaySegments();
         if (rays.length > 0) post({ type: 'raysUpdate', segments: rays as import('@engine/optics/OpticsModule').RaySegment[] });
+        for (const { id, positions } of engine.readFluidData()) {
+          if (positions.length > 0) post({ type: 'fluidUpdate', fluidId: id, xy: Array.from(positions) });
+        }
         post({ type: 'stateSync', states: engine.readState() });
       }
       break;

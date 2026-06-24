@@ -16,6 +16,8 @@ import {
   prismScene,
   rocketScene,
   springMassScene,
+  twoDensitiesScene,
+  waterInBoxScene,
 } from '@engine/scene/defaults';
 import type { SceneDoc } from '@engine/scene/schema';
 import { t } from './i18n/t';
@@ -124,6 +126,22 @@ const PRESETS: PresetDef[] = [
     description: 'Dvě zrcadla přesměrují laserový paprsek přes překážku — zákon odrazu.',
     badge: '7. ročník · Optika',
     makeScene: periscopeScene,
+  },
+  {
+    id: 'preset-voda-nadoba',
+    icon: '💧',
+    title: 'Voda v nádobě',
+    description: 'Kapalina se usadí vlivem gravitace — tlak roste s hloubkou.',
+    badge: '7. ročník · Kapaliny',
+    makeScene: waterInBoxScene,
+  },
+  {
+    id: 'preset-dve-kapaliny',
+    icon: '🫧',
+    title: 'Dvě kapaliny',
+    description: 'Lehčí kapalina plave na těžší — Archimédův zákon v akci.',
+    badge: '7. ročník · Kapaliny',
+    makeScene: twoDensitiesScene,
   },
 ];
 

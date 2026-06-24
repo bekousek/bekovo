@@ -17,6 +17,7 @@ import { defaultPasteOffset, EditorClipboard } from '@editor/clipboard';
 import { cmdToggleFrozen, duplicateSelection } from '@editor/quickActions';
 import { PhotogateTool } from '@editor/tools/InstrumentTools';
 import { LaserTool } from '@editor/tools/OpticsTools';
+import { FluidTool } from '@editor/tools/FluidTool';
 import { AxleTool, FixTool, SpringTool, ThrusterTool } from '@editor/tools/JointTools';
 import { SelectTool } from '@editor/tools/SelectTool';
 import { BoxTool, CircleTool, PlaneTool, PolygonTool } from '@editor/tools/ShapeTools';
@@ -124,6 +125,9 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   client.onRaysUpdate = (segments) => {
     useUiStore.getState().setRaySegments(segments);
   };
+  client.onFluidUpdate = (fluidId, xy) => {
+    renderer.updateFluidParticles(fluidId, xy);
+  };
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
   };
@@ -196,6 +200,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   tools.register(new ThrusterTool(toolCtx), 'u');
   tools.register(new PhotogateTool(toolCtx), 't');
   tools.register(new LaserTool(toolCtx), 'l');
+  tools.register(new FluidTool(toolCtx), 'w');
   tools.onActiveChange = (id) => useUiStore.getState().setActiveToolId(id);
 
   const deleteSelection = () => {

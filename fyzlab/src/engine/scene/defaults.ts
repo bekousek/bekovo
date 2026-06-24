@@ -569,6 +569,128 @@ export function periscopeScene(): SceneDoc {
   } satisfies SceneDocInput);
 }
 
+/**
+ * Kapalina v nádobě: voda se usadí na dně ohrazené 3 rovinami.
+ * Demonstruje gravitaci a tlak kapaliny.
+ */
+export function waterInBoxScene(): SceneDoc {
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: { id: 'preset-voda-nadoba', title: 'Voda v nádobě' },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 1.5, y: 1.5 }, metersPerScreenH: 6 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'floor',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'wall-l',
+        name: 'Levá stěna',
+        bodyType: 'static',
+        transform: { x: 0, y: 0, angle: -Math.PI / 2 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'wall-r',
+        name: 'Pravá stěna',
+        bodyType: 'static',
+        transform: { x: 3, y: 0, angle: Math.PI / 2 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'fluid',
+        id: 'water',
+        name: 'Voda',
+        restDensity: 1000,
+        viscosity: 0.05,
+        color: '#3b82f6',
+        region: { x: 0.1, y: 0.1, width: 2.8, height: 1.8 },
+        particleRadius: 0.07,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Dvě kapaliny různé hustoty: simulace rozvrstvení (lehčí plave na těžší).
+ * Demonstruje vztlak a Archimédův zákon v kapalinách.
+ */
+export function twoDensitiesScene(): SceneDoc {
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: { id: 'preset-dve-kapaliny', title: 'Dvě kapaliny' },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 1.5, y: 2 }, metersPerScreenH: 7 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'floor',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'wall-l',
+        name: 'Levá stěna',
+        bodyType: 'static',
+        transform: { x: 0, y: 0, angle: -Math.PI / 2 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'wall-r',
+        name: 'Pravá stěna',
+        bodyType: 'static',
+        transform: { x: 3, y: 0, angle: Math.PI / 2 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.1 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'fluid',
+        id: 'heavy',
+        name: 'Těžká kapalina',
+        restDensity: 1500,
+        viscosity: 0.05,
+        color: '#f59e0b',
+        region: { x: 0.1, y: 0.1, width: 2.8, height: 1.0 },
+        particleRadius: 0.07,
+      },
+      {
+        kind: 'fluid',
+        id: 'light',
+        name: 'Lehká kapalina',
+        restDensity: 700,
+        viscosity: 0.05,
+        color: '#3b82f6',
+        region: { x: 0.1, y: 1.2, width: 2.8, height: 1.0 },
+        particleRadius: 0.07,
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
 /** Demo scéna fáze 0: podlaha + dva míče + bedna. */
 export function demoScene(): SceneDoc {
   const input: SceneDocInput = {

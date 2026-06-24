@@ -24,6 +24,7 @@ export class SimWorkerClient {
   onFbdSample: ((sample: FbdSample) => void) | null = null;
   onPredictionResult: ((value: number) => void) | null = null;
   onRaysUpdate: ((segments: RaySegment[]) => void) | null = null;
+  onFluidUpdate: ((fluidId: string, xy: number[]) => void) | null = null;
   onError: ((message: string) => void) | null = null;
 
   private pendingMove: Vec2 | null = null;
@@ -80,6 +81,9 @@ export class SimWorkerClient {
         break;
       case 'raysUpdate':
         this.onRaysUpdate?.(msg.segments);
+        break;
+      case 'fluidUpdate':
+        this.onFluidUpdate?.(msg.fluidId, msg.xy);
         break;
     }
   }

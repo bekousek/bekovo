@@ -9,6 +9,7 @@ import { SignalBus } from './core/SignalBus';
 import type { SimModule, BodyState, InstrumentEvent } from './core/SimModule';
 import { InstrumentsModule } from './instruments/InstrumentsModule';
 import { OpticsModule, type RaySegment } from './optics/OpticsModule';
+import { FluidModule, type FluidExport } from './fluids/FluidModule';
 import { initRapier } from './rigid/rapier';
 import { RigidModule } from './rigid/RigidModule';
 import { SnapshotWriter, bodiesByteLength } from './snapshot/layout';
@@ -26,8 +27,9 @@ export class Engine {
   private readonly bus = new SignalBus();
   private readonly rigid: RigidModule;
   private readonly optics: OpticsModule;
+  private readonly fluid: FluidModule;
   private readonly instruments: InstrumentsModule;
-  /** Závazné pořadí: [circuits] → rigid → optics → instruments. */
+  /** Závazné pořadí: rigid → fluid → optics → instruments. */
   private readonly modules: SimModule[];
 
   doc: SceneDoc;
@@ -35,11 +37,12 @@ export class Engine {
   private constructor(rigid: RigidModule, doc: SceneDoc) {
     this.rigid = rigid;
     this.optics = new OpticsModule((id) => rigid.poseOf(id));
+    this.fluid = new FluidModule((id) => rigid.poseOf(id));
     this.instruments = new InstrumentsModule(
       (id) => rigid.poseOf(id),
       (id) => rigid.stateOf(id),
     );
-    this.modules = [rigid, this.optics, this.instruments];
+    this.modules = [rigid, this.fluid, this.optics, this.instruments];
     this.doc = doc;
     this.dt = 1 / doc.world.tickHz;
   }
@@ -84,11 +87,14 @@ export class Engine {
             this.rigid.insertBody(op.entity, bodyIndexOf(this.doc, op.entity.id));
             this.instruments.addEntity(op.entity);
             this.optics.addBody(op.entity);
+            this.fluid.addBody(op.entity);
             topologyChanged = true;
           } else if (op.entity.kind === 'joint') {
             this.rigid.addJoint(op.entity);
           } else if (op.entity.kind === 'opticalSource') {
             this.optics.addSource(op.entity);
+          } else if (op.entity.kind === 'fluid') {
+            this.fluid.addFluid(op.entity);
           } else {
             this.instruments.addEntity(op.entity);
           }
@@ -102,11 +108,14 @@ export class Engine {
             this.rigid.removeBody(op.id);
             this.instruments.removeEntity(op.id);
             this.optics.removeBody(op.id);
+            this.fluid.removeBody(op.id);
             topologyChanged = true;
           } else if (existing.kind === 'joint') {
             this.rigid.removeJoint(op.id);
           } else if (existing.kind === 'opticalSource') {
             this.optics.removeSource(op.id);
+          } else if (existing.kind === 'fluid') {
+            this.fluid.removeFluid(op.id);
           } else {
             this.instruments.removeEntity(op.id);
           }
@@ -118,10 +127,13 @@ export class Engine {
             this.rigid.replaceBody(op.entity, preserveKinematics);
             this.instruments.replaceEntity(op.entity);
             this.optics.replaceBody(op.entity);
+            this.fluid.replaceBody(op.entity);
           } else if (op.entity.kind === 'joint') {
             this.rigid.replaceJoint(op.entity);
           } else if (op.entity.kind === 'opticalSource') {
             this.optics.replaceSource(op.entity);
+          } else if (op.entity.kind === 'fluid') {
+            this.fluid.replaceFluid(op.entity);
           } else {
             this.instruments.replaceEntity(op.entity);
           }
@@ -134,6 +146,7 @@ export class Engine {
         case 'setWorld':
           this.doc = applyOpsToDoc(this.doc, [op]);
           this.rigid.setWorld(op.gravity, op.airDensity);
+          this.fluid.setGravity(op.gravity);
           break;
       }
     }
@@ -244,6 +257,13 @@ export class Engine {
   /** Vrátí aktuální sadu paprsků z posledního ticku (latest-wins). */
   readRaySegments(): readonly RaySegment[] {
     return this.optics.readRaySegments();
+  }
+
+  // --- Kapaliny (F4) -------------------------------------------------------
+
+  /** Vrátí aktuální polohy částic per-kapalina (latest-wins). */
+  readFluidData(): FluidExport[] {
+    return this.fluid.readFluidData();
   }
 
   // --- Ukazatel (drag joint) ----------------------------------------------

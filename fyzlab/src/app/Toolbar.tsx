@@ -28,6 +28,7 @@ const JOINT_TOOLS: ToolSpec[] = [
 const INSTRUMENT_TOOLS: ToolSpec[] = [
   { id: 'photogate', icon: '┆', labelKey: 'toolPhotogate', shortcut: 'T' },
   { id: 'laser', icon: '⟶', labelKey: 'toolLaser', shortcut: 'L' },
+  { id: 'fluid', icon: '💧', labelKey: 'toolFluid', shortcut: 'W' },
 ];
 
 function ToolButton({

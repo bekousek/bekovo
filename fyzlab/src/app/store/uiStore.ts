@@ -68,6 +68,10 @@ interface UiState {
   /** Aktuální sada paprsků (F3-A); latest-wins z workeru. */
   raySegments: RaySegment[];
   setRaySegments: (segments: RaySegment[]) => void;
+  /** Polohy částic per-kapalina (F4); fluidId → [x0,y0,x1,y1,...]. */
+  fluidParticles: Map<string, number[]>;
+  updateFluidParticles: (fluidId: string, xy: number[]) => void;
+  clearFluidParticles: () => void;
   // --- Predikce (F2-E) ---
   /** Lekce aktuálně načtené scény; null = scéna bez lekce. */
   lesson: Lesson | null;
@@ -106,6 +110,7 @@ export const useUiStore = create<UiState>()((set) => ({
   fbdBodyId: null,
   fbdForces: [],
   raySegments: [],
+  fluidParticles: new Map(),
   lesson: null,
   predictionState: 'waiting',
   predictionInput: '',
@@ -151,6 +156,13 @@ export const useUiStore = create<UiState>()((set) => ({
   setFbdForces: (forces) => set({ fbdForces: forces }),
   clearFbd: () => set({ fbdBodyId: null, fbdForces: [] }),
   setRaySegments: (segments) => set({ raySegments: segments }),
+  updateFluidParticles: (fluidId, xy) =>
+    set((s) => {
+      const next = new Map(s.fluidParticles);
+      next.set(fluidId, xy);
+      return { fluidParticles: next };
+    }),
+  clearFluidParticles: () => set({ fluidParticles: new Map() }),
   setLesson: (lesson) => set({ lesson }),
   setPredictionState: (predictionState) => set({ predictionState }),
   setPredictionInput: (predictionInput) => set({ predictionInput }),

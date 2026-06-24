@@ -57,4 +57,5 @@ export type WorkerToMain =
   | { type: 'plotChunk'; samples: import('@engine/instruments/Recorder').PlotSample[]; }
   | { type: 'fbdSample'; sample: import('@engine/rigid/fbd').FbdSample }
   | { type: 'predictionResult'; value: number }
-  | { type: 'raysUpdate'; segments: import('@engine/optics/OpticsModule').RaySegment[] };
+  | { type: 'raysUpdate'; segments: import('@engine/optics/OpticsModule').RaySegment[] }
+  | { type: 'fluidUpdate'; fluidId: string; xy: number[] };

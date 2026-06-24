@@ -16,6 +16,7 @@ import { VectorsLayer } from './layers/vectorsLayer';
 import { TracerLayer } from './layers/tracerLayer';
 import { FbdLayer } from './layers/fbdLayer';
 import { RaysLayer } from './layers/raysLayer';
+import { FluidLayer } from './layers/fluidLayer';
 import type { OverlaySource } from './layers/overlayTypes';
 import type { RaySegment } from '@engine/optics/OpticsModule';
 import type { SnapshotMsg } from '@worker/protocol';
@@ -40,6 +41,7 @@ export class Renderer {
   private tracer = new TracerLayer();
   private fbd = new FbdLayer();
   private rays = new RaysLayer();
+  private fluid = new FluidLayer();
   private instruments = new InstrumentsLayer();
   private overlay = new OverlayLayer();
 
@@ -75,6 +77,7 @@ export class Renderer {
     app.stage.addChild(this.grid.g);
     app.stage.addChild(this.world);
     this.world.addChild(this.bodies.container);
+    this.world.addChild(this.fluid.g);
     this.world.addChild(this.joints.g);
     this.world.addChild(this.rays.g);
     this.world.addChild(this.instruments.g);
@@ -107,6 +110,7 @@ export class Renderer {
   setScene(doc: SceneDoc, ids: readonly string[]): void {
     this.bodies.setScene(doc, ids);
     this.tracer.setScene(doc);
+    this.fluid.clear();
     this.setDocLayers(doc);
   }
 
@@ -123,6 +127,11 @@ export class Renderer {
     this.joints.setScene(doc);
     this.vectors.setScene(doc);
     this.instruments.setScene(doc);
+    this.fluid.setScene(doc);
+  }
+
+  updateFluidParticles(fluidId: string, xy: number[]): void {
+    this.fluid.update(fluidId, xy);
   }
 
   updateEntity(body: Body): void {
@@ -190,6 +199,7 @@ export class Renderer {
       fbd.forces,
       this.camera.pixelsPerMeter,
     );
+    this.fluid.draw(this.camera.pixelsPerMeter);
     this.rays.draw(this.raySegments(), this.camera.pixelsPerMeter);
     this.instruments.draw(this.camera.pixelsPerMeter);
 

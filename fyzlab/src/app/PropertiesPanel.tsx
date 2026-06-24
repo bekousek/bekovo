@@ -9,7 +9,7 @@ import { cmdReplaceEntity, cmdSetKinematics, cmdSetWorld, kinematicsOf } from '@
 import type { DocumentStore } from '@editor/DocumentStore';
 import type { DocOp, TransformPatch, VelocityPatch } from '@engine/scene/ops';
 import { MATERIAL_PRESETS, type MaterialPreset } from '@engine/scene/materials';
-import type { Body, BodyOptics, Entity, Instrument, Joint, OpticalSource } from '@engine/scene/schema';
+import type { Body, BodyOptics, Entity, Fluid, Instrument, Joint, OpticalSource } from '@engine/scene/schema';
 import type { Runtime } from './bootstrap';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
@@ -852,6 +852,47 @@ function OpticalSourceSection({
   );
 }
 
+function FluidSection({ store, fluid }: { store: DocumentStore; fluid: Fluid }) {
+  const replace = (label: string, after: Fluid) => store.apply(cmdReplaceEntity(label, fluid, after));
+  return (
+    <Section title={t('propFluid')}>
+      <NumberField
+        label={t('fluidDensity')}
+        value={fluid.restDensity}
+        step={50}
+        onCommit={(v) => v > 0 && replace(t('fluidDensity'), { ...fluid, restDensity: v })}
+      />
+      <SliderField
+        label={t('fluidViscosity')}
+        value={fluid.viscosity}
+        min={0}
+        max={1}
+        step={0.01}
+        onTransient={(v) => {
+          const op: DocOp = { op: 'replaceEntity', entity: { ...fluid, viscosity: v } };
+          store.applyTransient([op]);
+        }}
+        onCommit={(s, e) =>
+          replace(t('fluidViscosity'), { ...fluid, viscosity: e })
+        }
+      />
+      <NumberField
+        label={t('fluidRadius')}
+        unit="m"
+        value={fluid.particleRadius}
+        step={0.01}
+        onCommit={(v) => v > 0 && replace(t('fluidRadius'), { ...fluid, particleRadius: v })}
+      />
+      <Section title={t('fluidColor')}>
+        <ColorSwatches
+          value={fluid.color}
+          onPick={(c) => replace(t('fluidColor'), { ...fluid, color: c })}
+        />
+      </Section>
+    </Section>
+  );
+}
+
 function MultiSection({ store, entities }: { store: DocumentStore; entities: Entity[] }) {
   const bodies = entities.filter((e): e is Body => e.kind === 'body');
 
@@ -917,6 +958,8 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
         <InstrumentSection store={store} instrument={e} />
       ) : e.kind === 'opticalSource' ? (
         <OpticalSourceSection store={store} source={e} />
+      ) : e.kind === 'fluid' ? (
+        <FluidSection store={store} fluid={e} />
       ) : (
         null
       );
