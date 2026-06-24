@@ -169,22 +169,27 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 Stav: **134 testů zelených**, `tsc` čistý.
 
+- **F5-B, 1. půlka** — 8 nových kurikulárních scén (22 celkem):
+  `freeFallScene` (6. r. pohyb, lesson max-speed), `projectile45Scene` (7. r. pohyb, lesson landing-x),
+  `leverScene` (7. r. páka, lesson choice), `elasticCollisionScene` (9. r. hybnost, lesson choice),
+  `inelasticCollisionScene` (9. r. hybnost, lesson max-speed), `dominoScene` (9. r. hybnost),
+  `newtonsCradleScene` (9. r. hybnost), `rollingRampScene` (8. r. energie, lesson max-speed).
+  Všechny registrovány v LibraryDialog. TS opravy: unused buildHashXY, XSPH dvx/dvy index,
+  setWorld gravity optional, PropertiesPanel unused param.
+
+Stav: **134 testů zelených**, `tsc` čistý.
+
 ## Další na řadě
-**F5-B** — Obsah + vydání v1:
-- Kurikulární scény: ~15–20 dalších presetů mapovaných na bekovo.cz taxonomii
-  (6. r.: hustota, vztlak; 7. r.: čočky, hustota kapalin; 8. r.: SHM, kyvadlo…)
-- `content/scenes/` složka + manifest pro budoucí dynamický načítač
-- Lekce s `lesson` payloadem pro 3–5 scén (predikce výsledku)
-- `docs/HELPCS.md` nebo `/help` landing stránka (nápověda česky)
-- Výkonnostní průchod: profil tick u 200 těles, 5k částic, 100 paprsků
-- Doladění dotyku: test na tabletu (manuální krok uživatele)
-- Release v1: push + Cloudflare Pages deploy (manuální krok uživatele)
+**F5-B, 2. půlka** — Vydání v1:
+- Nápověda / landing (česky): krátká stránka nebo HelpDialog s ovladači a fyzikálními tématy
+- Výkonnostní průchod: změřit tick u 200 těles, 5 k částic, 100 paprsků (stats overlay)
+- Finální push + Cloudflare Pages deploy (manuální kroky uživatele)
+- Test na reálném tabletu (manuální krok uživatele)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3 + F4 + F5-A hotové** (134 testů zelených, tsc čistý, app ověřena v preview).
-- FluidTool zkratka W, hint "Táhni obdélník — vyplní oblast kapalinou." funguje.
-- PWA manifest + SW registrovány, favicon.svg v tabu prohlížeče.
-- OG image je SVG (fyzlab.bekovo.cz/og.svg) — pokud Twitter vyžaduje PNG, exportovat ručně.
+- **F3 + F4 + F5-A + F5-B/1 hotové** (134 testů zelených, tsc čistý, app ověřena v preview).
+- LibraryDialog má 22 dlaždic (8 nových kurikulárních scén, 5 z nich s lesson payloadem).
+- Lesson overlay funguje: šikmý vrh 45° zobrazí otázku a čeká na tip žáka.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)

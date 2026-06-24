@@ -146,7 +146,7 @@ export class Engine {
         case 'setWorld':
           this.doc = applyOpsToDoc(this.doc, [op]);
           this.rigid.setWorld(op.gravity, op.airDensity);
-          this.fluid.setGravity(op.gravity);
+          if (op.gravity) this.fluid.setGravity(op.gravity);
           break;
       }
     }

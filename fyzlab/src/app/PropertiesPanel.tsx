@@ -872,7 +872,7 @@ function FluidSection({ store, fluid }: { store: DocumentStore; fluid: Fluid }) 
           const op: DocOp = { op: 'replaceEntity', entity: { ...fluid, viscosity: v } };
           store.applyTransient([op]);
         }}
-        onCommit={(s, e) =>
+        onCommit={(_s, e) =>
           replace(t('fluidViscosity'), { ...fluid, viscosity: e })
         }
       />

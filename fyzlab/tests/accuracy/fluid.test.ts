@@ -66,7 +66,6 @@ function runSettle(ticks: number) {
   const xy = data[0]!.positions;
   const n = xy.length / 2;
   let sumY = 0;
-  let maxVel = 0;
   for (let i = 0; i < n; i++) {
     sumY += xy[i * 2 + 1]!;
   }

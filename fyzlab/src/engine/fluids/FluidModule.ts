@@ -81,16 +81,6 @@ function buildHash(sim: FluidSim): void {
   }
 }
 
-function buildHashXY(sim: FluidSim): void {
-  // Varianta buildHash pro finální (x,y) — pro XSPH po snapnutí pozic.
-  sim.ht.fill(-1);
-  const { N, h, htMask, x, y, ht, hn } = sim;
-  for (let i = 0; i < N; i++) {
-    const c = cellHash(x[i]!, y[i]!, h, htMask);
-    hn[i] = ht[c]!;
-    ht[c] = i;
-  }
-}
 
 function initFluid(def: Fluid): FluidSim {
   const r = def.particleRadius;
@@ -459,8 +449,8 @@ export class FluidModule implements SimModule {
                   if (r2 < h2) {
                     const x2 = h2 - r2;
                     const w = poly6C * x2 * x2 * x2;
-                    dvx[i] += (vx[j]! - vx[i]!) * w;
-                    dvy[i] += (vy[j]! - vy[i]!) * w;
+                    dvx[i] = (dvx[i] ?? 0) + ((vx[j] ?? 0) - (vx[i] ?? 0)) * w;
+                    dvy[i] = (dvy[i] ?? 0) + ((vy[j] ?? 0) - (vy[i] ?? 0)) * w;
                   }
                 }
                 j = hn[j]!;
