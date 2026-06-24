@@ -65,25 +65,36 @@ gotchas: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
   `predictionChosenId`, `predictionActual`; `bootstrap` wire-up + lekce při replaceDoc;
   `PredictionOverlay.tsx` (formulář tipu, lišta při running, výsledek + diff, Zkusit znovu);
   11 nových testů trackeru.
+- **F2-F, 1. půlka** — ThrusterJoint (tryska):
+  `joint.type === 'thruster'` v `JointSchema` (nové pole `thruster: {enabled, fx, fy}`);
+  `Thruster` type export; `FbdForceKind` rozšířen o `'thruster'`; `RigidModule.addJoint`
+  ukládá trysky do `jointData` (bez Rapier jointu); `RigidModule.tick` rotuje lokální sílu
+  do světových os a aplikuje `applyImpulse(F·dt)` + FBD vzorek; `FbdLayer`/`FbdPanel`
+  zelená barva + legenda; `ThrusterTool` (zkratka U, ťuknutí na těleso); `PropertiesPanel`
+  sekce s enabled/fx/fy; i18n cs.ts; 3 nové accuracy testy (A: force/m*t ±1 %,
+  B: rotace síly s tělesem, C: disabled = klid).
 
-Stav: **96 testů zelených**, `tsc` čistý, `npm run build` projde.
+Stav: **99 testů zelených**, `tsc` čistý.
 
 ## Další na řadě
-**F2-F — hloubka mechaniky (1. půlka): nůž/CSG nebo thruster**
-- Viz backlog níže. Doporučené pořadí: thruster (jednoduchý, velký didaktický přínos),
-  pak ozubení, lano/řetěz, CSG nůž, kolizní vrstvy.
+**F2-F — hloubka mechaniky (2. půlka): vizuální render trysky + raketa preset scéna**
+- Nakreslit šipku/plamen trysky v `JointsLayer` (nebo nová `ThrusterLayer`) z polohy tělesa
+  ve směru tahové síly; dynamická délka dle magnitudy.
+- Preset scéna „Raketa": box lehký (foam), tryska fy=30 N, gravity=9,81; žák dostane za úkol
+  nastavit sílu trysky pro stoupání a srovnání s tíhou.
+- Alternativně (stejný rozsah): `F2-F 2. půlka` = kolizní vrstvy A–J (maskování kontaktů
+  mezi skupinami těles) — záleží na prioritě.
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F2-E 2. půlka hotová a pushnutá na main** (commit `da56e51`, 96 testů zelených).
-- `PredictionOverlay.tsx`: centrovný dialog nad plátnem; stav 'waiting' (formulář),
-  'running' (modrá lišta nahoře), 'done' (výsledek + diff + Zkusit znovu).
-- Tracker detekuje doskok jako vy: záporné → nezáporné; sub-tick interpolace landing-x.
-  Pro `choice` se výsledek vyhodnotí ihned na main threadu (bez workeru).
+- **F2-F 1. půlka hotová** (99 testů zelených, tsc čistý).
+- `ThrusterTool` (zkratka U): ťuknutí na dynamické těleso přidá trysku s `fy=20 N`.
+- `PropertiesPanel` sekce `Tryska`: checkbox Aktivní, pole Síla X/Y v N.
+- `FbdPanel`/`FbdLayer`: zelená šipka pro druh 'thruster'.
+- Accuracy testy A/B/C: ověřena rotace síly s tělesem (natočení 90°) a disabled stav.
 - Cloudflare deploy a test na tabletu jsou RUČNÍ kroky uživatele.
-- Další běh = **F2-F 1. půlka**. Doporučuji thruster (`ThrusterJoint`): kloub
-  `type: 'thruster'` v schema + JointSchema, `force: Vec2` v lokálních souřadnicích,
-  `RigidModule.addJoint` zpracuje (applyImpulse na tělesu). Panel vlastností + preset
-  „Raketa" + i18n + accuracy test (těleso zrychlí o F/m·t za 0,5 s).
+- **Chybí vizuální render trysky** v Pixi (JointsLayer nebo nová vrstva) — to je doporučená
+  2. půlka F2-F: šipka/plamen ve směru tahové síly. Alternativa: preset scéna „Raketa" nebo
+  kolizní vrstvy.
 
 ## Backlog Fáze 2 (pořadí půlmilníků)
 1. ~~F2-C grafy + CSV (recorder → uPlot → CSV)~~ ✓ hotovo
@@ -91,7 +102,9 @@ Stav: **96 testů zelených**, `tsc` čistý, `npm run build` projde.
 3. ~~F2-D FBD režim (šipky sil v N)~~ ✓ hotovo
 3. ~~F2-E 1. půlka — lesson schéma + fixture~~ ✓ hotovo
 4. ~~F2-E 2. půlka — overlay + vyhodnocení predikce~~ ✓ hotovo
-5. F2-F hloubka mechaniky: nůž/CSG, lano/řetěz, thruster, ozubení,
+5. ~~F2-F 1. půlka — ThrusterJoint~~ ✓ hotovo
+5. F2-F 2. půlka: vizuální render trysky + preset/kolizní vrstvy
+5. F2-F hloubka mechaniky (zbývá): nůž/CSG, lano/řetěz, ozubení,
    vzájemná gravitace těles, kolizní vrstvy A–J
 5. F2-G ~10 kurikulárních scén + LibraryDialog (meta.curriculum)
 

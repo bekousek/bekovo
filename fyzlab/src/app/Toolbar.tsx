@@ -22,6 +22,7 @@ const JOINT_TOOLS: ToolSpec[] = [
   { id: 'axle', icon: '⊙', labelKey: 'toolAxle', shortcut: 'O' },
   { id: 'spring', icon: '∿', labelKey: 'toolSpring', shortcut: 'S' },
   { id: 'fixed', icon: '📌', labelKey: 'toolFixed', shortcut: 'F' },
+  { id: 'thruster', icon: '⇑', labelKey: 'toolThruster', shortcut: 'U' },
 ];
 
 const INSTRUMENT_TOOLS: ToolSpec[] = [

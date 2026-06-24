@@ -277,9 +277,8 @@ export class RigidModule implements SimModule {
     const bodyA = j.bodyA === null ? this.worldAnchor : (this.bodies.get(j.bodyA) ?? null);
     if (!bodyA || !bodyB) return; // visící reference — defenzivně přeskočit
 
-    // Pružina není Rapier joint — implicitní solver disipuje (SHM by vyhasl).
-    // Působí jako explicitní síla v ticku; kontakty mezi tělesy zůstávají.
-    if (j.type === 'spring') {
+    // Pružina a tryska nejsou Rapier jointy — působí jako explicitní síla v ticku.
+    if (j.type === 'spring' || j.type === 'thruster') {
       this.jointData.set(j.id, j);
       return;
     }
@@ -491,6 +490,25 @@ export class RigidModule implements SimModule {
         if (dynA && j.bodyA === this.fbdBodyId) {
           this.fbdForces.push({ kind: 'spring', fx: -f * ux, fy: -f * uy });
         }
+      }
+    }
+
+    // Trysky (F2-F): tahová síla v lokálních souřadnicích tělesa.
+    for (const j of this.jointData.values()) {
+      if (j.type !== 'thruster') continue;
+      const thruster = j.thruster;
+      if (!thruster?.enabled) continue;
+      const bodyB = this.bodies.get(j.bodyB);
+      if (!bodyB || !bodyB.isDynamic()) continue;
+      const angle = bodyB.rotation();
+      const cos = Math.cos(angle);
+      const sin = Math.sin(angle);
+      // Transformace z lokálního do světového souřadnicového systému.
+      const wx = thruster.fx * cos - thruster.fy * sin;
+      const wy = thruster.fx * sin + thruster.fy * cos;
+      bodyB.applyImpulse({ x: wx * ctx.dt, y: wy * ctx.dt }, true);
+      if (sampleFbd && j.bodyB === this.fbdBodyId) {
+        this.fbdForces.push({ kind: 'thruster', fx: wx, fy: wy });
       }
     }
 

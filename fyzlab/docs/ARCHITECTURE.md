@@ -100,6 +100,15 @@ Main→Worker: `init/loadScene(doc)` · `patch(DocOp[])` ·
 (koalescováno ≤1/frame) · `requestStateSync` · `returnBuffer` ·
 `setRecordBodyId(id|null)` (F2-C) · `setFbdBodyId(id|null)` (F2-D).
 
+## Tryska (`joint.type === 'thruster'`, F2-F)
+
+Žádný Rapier joint — čistá explicitní síla v ticku (jako pružina). Parametry:
+`thruster: { enabled, fx, fy }` v lokálních souřadnicích tělesa B. Každý tick se
+`(fx, fy)` rotuje maticí rotace tělesa do světových os a aplikuje jako impulz
+`applyImpulse(F·dt)`. Dokument nestanoví `bodyA` — vždy `null`. FBD hlásí kind
+`'thruster'` (zelená šipka). Nástroj `ThrusterTool` (zkratka U) vytvoří trysku
+ťuknutím na těleso; panel vlastností zobrazuje `enabled`, `fx`, `fy [N]`.
+
 Worker→Main: `ready/error` · `idTable` (jen při změně množiny TĚLES; klouby
 topologii nemění!) · `snapshot` (≤60 Hz, latest-wins; v pauze po každém
 patchi) · `status {running, speed}` · `stateSync` (automaticky po

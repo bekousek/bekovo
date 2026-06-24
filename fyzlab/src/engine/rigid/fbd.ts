@@ -10,7 +10,7 @@
 export const FBD_EVERY = 12;
 
 /** Druh síly — určuje barvu šipky a popisek v legendě. */
-export type FbdForceKind = 'gravity' | 'buoyancy' | 'drag' | 'spring';
+export type FbdForceKind = 'gravity' | 'buoyancy' | 'drag' | 'spring' | 'thruster';
 
 /** Jedna složka silového diagramu: vektor síly [N]. */
 export interface FbdForce {

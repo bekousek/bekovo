@@ -15,10 +15,11 @@ const LABEL: Record<FbdForceKind, MsgKey> = {
   buoyancy: 'fbdBuoyancy',
   drag: 'fbdDrag',
   spring: 'fbdSpring',
+  thruster: 'fbdThruster',
 };
 
 /** Pořadí řádků v legendě (stabilní, ať čísla neposkakují). */
-const ORDER: FbdForceKind[] = ['gravity', 'buoyancy', 'drag', 'spring'];
+const ORDER: FbdForceKind[] = ['gravity', 'buoyancy', 'drag', 'spring', 'thruster'];
 
 /** Sečte vektory sil podle druhu → magnituda na řádek legendy. */
 function netByKind(forces: readonly FbdForce[]): Map<FbdForceKind, number> {

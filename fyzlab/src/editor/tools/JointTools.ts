@@ -154,6 +154,29 @@ export class FixTool extends TapTool {
   }
 }
 
+export class ThrusterTool extends TapTool {
+  readonly id = 'thruster';
+
+  protected onTap(p: Vec2): void {
+    const ctx = this.ctx;
+    const stack = ctx.hitTestAll(p);
+    const bodyB = stack[0];
+    if (!bodyB) return;
+
+    const joint: Joint = {
+      kind: 'joint',
+      id: newEntityId(ctx.store.doc, 'j'),
+      type: 'thruster',
+      bodyA: null,
+      bodyB,
+      anchorA: { x: 0, y: 0 },
+      anchorB: { x: 0, y: 0 },
+      thruster: { enabled: true, fx: 0, fy: 20 },
+    };
+    addJointCmd(ctx, 'Přidat trysku', joint);
+  }
+}
+
 export class SpringTool implements Tool {
   readonly id = 'spring';
   private pid = -1;

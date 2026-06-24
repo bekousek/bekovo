@@ -548,6 +548,39 @@ function JointSection({ store, joint }: { store: DocumentStore; joint: Joint }) 
     );
   }
 
+  if (joint.type === 'thruster') {
+    const thruster = joint.thruster ?? { enabled: true, fx: 0, fy: 20 };
+    const setThruster = (label: string, patch: Partial<typeof thruster>) =>
+      replace(label, { ...joint, thruster: { ...thruster, ...patch } });
+    return (
+      <Section title={t('propJointThruster')}>
+        <label className="flex items-center justify-between text-xs text-slate-600">
+          <span>{t('thrusterEnabled')}</span>
+          <input
+            type="checkbox"
+            className="h-4 w-4 accent-blue-600"
+            checked={thruster.enabled}
+            onChange={(e) => setThruster(t('thrusterEnabled'), { enabled: e.target.checked })}
+          />
+        </label>
+        <NumberField
+          label={t('thrusterFx')}
+          unit="N"
+          value={thruster.fx}
+          step={1}
+          onCommit={(v) => setThruster(t('thrusterFx'), { fx: v })}
+        />
+        <NumberField
+          label={t('thrusterFy')}
+          unit="N"
+          value={thruster.fy}
+          step={1}
+          onCommit={(v) => setThruster(t('thrusterFy'), { fy: v })}
+        />
+      </Section>
+    );
+  }
+
   return (
     <Section title={t('propJointFixed')}>
       <p className="text-xs text-slate-500">{t('fixedInfo')}</p>

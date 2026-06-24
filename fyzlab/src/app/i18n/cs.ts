@@ -123,6 +123,14 @@ export const cs = {
   fbdBuoyancy: 'Vztlak',
   fbdDrag: 'Odpor vzduchu',
   fbdSpring: 'Pružina',
+  fbdThruster: 'Tryska',
+  // Tryska (F2-F)
+  toolThruster: 'Tryska',
+  hintThruster: 'Ťukni na těleso — přidá mu tahovou trysku (síla v lokálních souřadnicích).',
+  propJointThruster: 'Tryska',
+  thrusterEnabled: 'Aktivní',
+  thrusterFx: 'Síla X (lok.)',
+  thrusterFy: 'Síla Y (lok.)',
 } as const;
 
 export type MsgKey = keyof typeof cs;

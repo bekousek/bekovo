@@ -14,6 +14,7 @@ export const FBD_COLOR_HEX: Record<FbdForceKind, string> = {
   buoyancy: '#2563eb',
   drag: '#ea580c',
   spring: '#7c3aed',
+  thruster: '#16a34a',
 };
 
 const FBD_COLOR_NUM: Record<FbdForceKind, number> = {
@@ -21,6 +22,7 @@ const FBD_COLOR_NUM: Record<FbdForceKind, number> = {
   buoyancy: 0x2563eb,
   drag: 0xea580c,
   spring: 0x7c3aed,
+  thruster: 0x16a34a,
 };
 
 /** Délka nejsilnější šipky na obrazovce [px]. */

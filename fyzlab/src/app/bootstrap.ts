@@ -16,7 +16,7 @@ import { cmdRemoveEntities } from '@editor/commands';
 import { defaultPasteOffset, EditorClipboard } from '@editor/clipboard';
 import { cmdToggleFrozen, duplicateSelection } from '@editor/quickActions';
 import { PhotogateTool } from '@editor/tools/InstrumentTools';
-import { AxleTool, FixTool, SpringTool } from '@editor/tools/JointTools';
+import { AxleTool, FixTool, SpringTool, ThrusterTool } from '@editor/tools/JointTools';
 import { SelectTool } from '@editor/tools/SelectTool';
 import { BoxTool, CircleTool, PlaneTool, PolygonTool } from '@editor/tools/ShapeTools';
 import { ToolManager } from '@editor/tools/ToolManager';
@@ -189,6 +189,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   tools.register(new AxleTool(toolCtx), 'o');
   tools.register(new SpringTool(toolCtx), 's');
   tools.register(new FixTool(toolCtx), 'f');
+  tools.register(new ThrusterTool(toolCtx), 'u');
   tools.register(new PhotogateTool(toolCtx), 't');
   tools.onActiveChange = (id) => useUiStore.getState().setActiveToolId(id);
 

@@ -125,7 +125,7 @@ export const JointSchema = z.object({
   kind: z.literal('joint'),
   id: z.string().min(1),
   name: z.string().optional(),
-  type: z.enum(['axle', 'spring', 'fixed']),
+  type: z.enum(['axle', 'spring', 'fixed', 'thruster']),
   /** null = ukotvení ke světu; anchorA je pak ve SVĚTOVÝCH souřadnicích. */
   bodyA: z.string().nullable().default(null),
   bodyB: z.string().min(1),
@@ -144,6 +144,16 @@ export const JointSchema = z.object({
       stiffness: z.number().positive().default(100),
       /** Tlumení [N·s/m]. */
       damping: z.number().min(0).default(1),
+    })
+    .optional(),
+  /** Jen pro type==='thruster': tahová síla v lokálních souřadnicích tělesa B. */
+  thruster: z
+    .object({
+      enabled: z.boolean().default(true),
+      /** Síla ve směru lokální osy x tělesa [N]. */
+      fx: z.number().default(0),
+      /** Síla ve směru lokální osy y tělesa [N]. */
+      fy: z.number().default(20),
     })
     .optional(),
 });
@@ -213,6 +223,7 @@ export type Appearance = z.infer<typeof AppearanceSchema>;
 export type Body = z.infer<typeof BodySchema>;
 export type Joint = z.infer<typeof JointSchema>;
 export type Motor = z.infer<typeof MotorSchema>;
+export type Thruster = NonNullable<Joint['thruster']>;
 export type Instrument = z.infer<typeof InstrumentSchema>;
 export type Entity = z.infer<typeof EntitySchema>;
 export type SceneDoc = z.infer<typeof SceneDocSchema>;
