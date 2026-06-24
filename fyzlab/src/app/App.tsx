@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { bootstrap, type Runtime } from './bootstrap';
 import { GatePanel } from './GatePanel';
+import { HelpDialog } from './HelpDialog';
 import { LibraryDialog } from './LibraryDialog';
 import { PlotPanel } from './PlotPanel';
 import { FbdPanel } from './FbdPanel';
@@ -54,6 +55,7 @@ export default function App() {
   const [runtime, setRuntime] = useState<Runtime | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [showLibrary, setShowLibrary] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
 
   useEffect(() => {
     const host = hostRef.current;
@@ -98,7 +100,7 @@ export default function App() {
 
       {runtime && (
         <div className="absolute left-1/2 top-4 -translate-x-1/2">
-          <TopBar runtime={runtime} onLibrary={() => setShowLibrary(true)} />
+          <TopBar runtime={runtime} onLibrary={() => setShowLibrary(true)} onHelp={() => setShowHelp(true)} />
         </div>
       )}
 
@@ -145,6 +147,9 @@ export default function App() {
           onClose={() => setShowLibrary(false)}
         />
       )}
+
+      {/* Nápověda (F5-B) */}
+      {showHelp && <HelpDialog onClose={() => setShowHelp(false)} />}
 
       <Toast />
 

@@ -36,7 +36,15 @@ function BarButton({
   );
 }
 
-export function TopBar({ runtime, onLibrary }: { runtime: Runtime; onLibrary: () => void }) {
+export function TopBar({
+  runtime,
+  onLibrary,
+  onHelp,
+}: {
+  runtime: Runtime;
+  onLibrary: () => void;
+  onHelp: () => void;
+}) {
   const showVelocityAll = useUiStore((s) => s.showVelocityAll);
   const tracerEnabled = useUiStore((s) => s.tracerEnabled);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -89,6 +97,7 @@ export function TopBar({ runtime, onLibrary }: { runtime: Runtime; onLibrary: ()
       />
       <BarButton icon="📚" label={t('topLibrary')} onClick={onLibrary} />
       <BarButton icon="📂" label={t('topOpen')} onClick={() => fileRef.current?.click()} />
+      <BarButton icon="?" label={t('topHelp')} onClick={onHelp} />
       <BarButton icon="💾" label={t('topSave')} onClick={onSave} />
       <BarButton icon="🔗" label={t('topShare')} onClick={() => void onShare()} />
       <div className="mx-1 my-1.5 w-px bg-slate-200" />

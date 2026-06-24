@@ -164,6 +164,8 @@ export const cs = {
   fluidViscosity: 'Viskozita',
   fluidColor: 'Barva',
   fluidRadius: 'Poloměr částice [m]',
+  // Nápověda (F5-B)
+  topHelp: 'Nápověda',
   // Knihovna scén (F2-G)
   topLibrary: 'Scény',
   libraryTitle: 'Výběr scény',
