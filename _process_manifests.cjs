@@ -15,15 +15,7 @@ const GH_PATH = 'C:\\Program Files\\GitHub CLI\\gh.exe';
 // New manifests to process, in date order. driveId kept for the audit trail in
 // processed.json. file = byte-exact local copy in _queue/ (deduped to newest).
 const MANIFESTS = [
-  { driveId: '1qXDT9U86__YES69I2Mtltl5xO9L9XPmG', file: 'manifest-2026-06-05-plyny-7--vakuum.json' },
-  { driveId: '1ffaYqQ3muEbp0Qjv_Kb6pX_wJMGnOeYs', file: 'manifest-2026-06-06-pohyb--grafy.json' },
-  { driveId: '1rc-7UkCwMFU_CtBtOzi1KbqMbCeWqvq8', file: 'manifest-2026-06-08-skupenstvi-latek--skupenske-teplo.json' },
-  { driveId: '1L5lK9Tx7D5VkcJWcG2YxxlyRsyJtWFe_', file: 'manifest-2026-06-10-vlastnosti-latek--skupenske-prechody.json' },
-  { driveId: '12pjogkT5-9cVVzfCAKDKZklz3SKiI0bL', file: 'manifest-2026-06-11-akustika--vlneni.json' },
-  { driveId: '1AzRBcX8eXMnXpvHMoJPccYLfTR_4g-ef', file: 'manifest-2026-06-12-astronomie--dalsi-vesmirna-telesa.json' },
-  { driveId: '1KZWkSfkT1WCmIjzKl0kFwbM2hyuFjTWM', file: 'manifest-2026-06-13-castice-latky--skaly-castic.json' },
-  { driveId: '1KhKC3fKHblSCn_H4ic8Nsv5EcgtDSxYp', file: 'manifest-2026-06-14-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou.json' },
-  { driveId: '1fTFTrM5qiWj7Pb6KE5h_eAPZbdcYs6v-', file: 'manifest-2026-06-16-elektrostatika--elektricky-naboj.json' }
+  { driveId: '', file: 'manifest-2026-06-24-plyny-7--vztlak-v-plynech.json' }
 ];
 
 function run(cmd, opts = {}) {
