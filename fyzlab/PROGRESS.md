@@ -211,7 +211,7 @@ Stav: **138 testů zelených** (27 souborů), `tsc` čistý.
 - Test na reálném tabletu (dotykové ovládání, offline wifi)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3 + F4 + F5-A + F5-B + F5-C kompletní.**
+- **F3 + F4 + F5-A + F5-B + F5-C kompletní.** Celkem 30 preset scén v LibraryDialog.
 - **Holistický review v prohlížeči (2026-06-25)** — celý plán hotový loopem (běžel HEADLESS,
   bez prohlížeče), proto našel review v prohlížeči integrační/render chyby. Opraveno:
   1. **Optika — lom na výstupní stěně skla.** `shapeHits` hlásí index skla pro každou stěnu;
