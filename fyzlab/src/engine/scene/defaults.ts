@@ -1254,6 +1254,603 @@ export function rollingRampScene(): SceneDoc {
   } satisfies SceneDocInput);
 }
 
+// ---------------------------------------------------------------------------
+// F5-C: Dalších 8 kurikulárních scén (30 celkem)
+// ---------------------------------------------------------------------------
+
+/**
+ * Galilův pokus: ocelová a pěnová koule stejné velikosti puštěné ve vakuu.
+ * Dopadnou SOUČASNĚ — tíhové zrychlení nezávisí na hmotnosti. Lesson (choice).
+ */
+export function twoFallsScene(): SceneDoc {
+  const r = 0.28;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-galileo',
+      title: 'Galilův pokus — volný pád',
+      curriculum: { subject: 'fyzika', grade: 6, topic: 'pohyb a gravitace' },
+    },
+    lesson: {
+      question: 'Ocelová koule (hustota 7 800 kg/m², velmi těžká) a pěnová koule (hustota 50 kg/m², lehká) jsou stejně velké. Jsou puštěny ze stejné výšky VE VAKUU. Která dopadne dřív?',
+      prediction: {
+        kind: 'choice',
+        choices: [
+          { id: 'heavy', label: 'Těžší (ocelová) dopadne dřív' },
+          { id: 'same', label: 'Obě dopadnou současně' },
+          { id: 'light', label: 'Lehčí (pěnová) dopadne dřív' },
+        ],
+        correctId: 'same',
+      },
+      hint: 'Ve vakuu působí jen tíha. Zrychlení g = (m·g)/m = g — nezáleží na hmotnosti!',
+      level: 'základní',
+    },
+    world: { gravity: { x: 0, y: -9.81 }, airDensity: 0 },
+    camera: { center: { x: 0, y: 5 }, metersPerScreenH: 14 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-heavy',
+        name: 'Ocelová koule (těžká)',
+        transform: { x: -0.8, y: 9.5 },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 7800, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#475569' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-light',
+        name: 'Pěnová koule (lehká)',
+        transform: { x: 0.8, y: 9.5 },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 50, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#fbbf24' },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Délka kyvadla a perioda: dvě kyvadla (L=0,8 m a L=2,0 m) vychýlena o 20°.
+ * Kratší má kratší periodu (T ∝ √L). Lesson (choice).
+ */
+export function pendulumLengthScene(): SceneDoc {
+  const theta = (20 * Math.PI) / 180;
+  const pivot1 = { x: -1.5, y: 3.8 };
+  const pivot2 = { x: 1.5, y: 3.8 };
+  const L1 = 0.8;
+  const L2 = 2.0;
+  const r = 0.15;
+  const ball1 = {
+    x: pivot1.x + L1 * Math.sin(theta),
+    y: pivot1.y - L1 * Math.cos(theta),
+  };
+  const ball2 = {
+    x: pivot2.x + L2 * Math.sin(theta),
+    y: pivot2.y - L2 * Math.cos(theta),
+  };
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-kyvadla-delka',
+      title: 'Délka kyvadla a perioda',
+      curriculum: { subject: 'fyzika', grade: 8, topic: 'kmitání' },
+    },
+    lesson: {
+      question: 'Dvě kyvadla jsou vychýlena o stejný úhel (20°). Levé má délku závěsu 0,8 m, pravé 2,0 m. Které kyvadlo dokončí jeden celý kmit DŘÍVE?',
+      prediction: {
+        kind: 'choice',
+        choices: [
+          { id: 'short', label: 'Levé — kratší závěs (0,8 m)' },
+          { id: 'same', label: 'Obě ve stejný čas' },
+          { id: 'long', label: 'Pravé — delší závěs (2,0 m)' },
+        ],
+        correctId: 'short',
+      },
+      hint: 'Perioda kyvadla: T = 2π · √(L/g). Záleží jen na délce závěsu, ne na hmotnosti.',
+      level: 'střední',
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0, y: 2.5 }, metersPerScreenH: 8 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'ceiling',
+        name: 'Strop',
+        bodyType: 'static',
+        transform: { x: 0, y: 4.0 },
+        shapes: [{ type: 'box', hw: 2.2, hh: 0.15 }],
+        material: { density: 1000, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'bob-1',
+        name: 'Závaží 1 (L=0,8 m)',
+        transform: { x: ball1.x, y: ball1.y },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.1, restitution: 0.1 },
+        appearance: { fill: '#3b82f6' },
+      },
+      {
+        kind: 'body',
+        id: 'bob-2',
+        name: 'Závaží 2 (L=2,0 m)',
+        transform: { x: ball2.x, y: ball2.y },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.1, restitution: 0.1 },
+        appearance: { fill: '#ef4444' },
+      },
+      {
+        kind: 'joint',
+        id: 'string-1',
+        name: 'Závěs 1',
+        type: 'axle',
+        bodyA: null,
+        bodyB: 'bob-1',
+        anchorA: pivot1,
+        anchorB: { x: pivot1.x - ball1.x, y: pivot1.y - ball1.y },
+      },
+      {
+        kind: 'joint',
+        id: 'string-2',
+        name: 'Závěs 2',
+        type: 'axle',
+        bodyA: null,
+        bodyB: 'bob-2',
+        anchorA: pivot2,
+        anchorB: { x: pivot2.x - ball2.x, y: pivot2.y - ball2.y },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Vodorovný vrh z výšky 5 m s počáteční rychlostí 5 m/s (bez odporu vzduchu).
+ * Analyticky: t = √(2h/g) ≈ 1,01 s; x = v₀·t ≈ 5,05 m.
+ * Lesson (numeric): předpověď vodorovného dostřelu.
+ */
+export function horizontalThrowScene(): SceneDoc {
+  const r = 0.2;
+  const v0x = 5.0;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-vodorovny-vrh',
+      title: 'Vodorovný vrh z výšky',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'pohyb' },
+    },
+    lesson: {
+      question: 'Těleso je vrženo VODOROVNĚ z výšky 5 m s počáteční rychlostí 5 m/s (žádný vzduchový odpor). Kde dopadne (vodorovná vzdálenost v m)?',
+      prediction: {
+        kind: 'numeric',
+        targetBodyId: 'ball',
+        quantity: 'landing-x',
+        tolerance: 0.1,
+        unit: 'm',
+      },
+      hint: 'Vodorovně: x = v₀·t. Svisle: h = ½·g·t² → t = √(2h/g). Dosaď: x = v₀·√(2h/g).',
+      level: 'střední',
+    },
+    world: { gravity: { x: 0, y: -9.81 }, airDensity: 0 },
+    camera: { center: { x: 3, y: 3 }, metersPerScreenH: 10 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.0, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'ball',
+        name: 'Těleso',
+        transform: { x: 0, y: 5.0 + r },
+        velocity: { vx: v0x, vy: 0, omega: 0 },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.0, restitution: 0.0 },
+        appearance: { fill: '#ef4444', showVelocity: true },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Akce a reakce (3. Newtonův zákon): těleso A (≈1 kg) a B (≈2 kg) stlačená pružinou
+ * na kluzké podlaze. Po uvolnění letí A rychleji (m·v = konst., p = 0).
+ * Lesson (choice).
+ */
+export function newtonThirdScene(): SceneDoc {
+  const hw = 0.3;
+  const hh = 0.3;
+  // m = density × area, area = (2hw)(2hh) = 0.36 m²
+  // m_A ≈ 1 kg: density = 1/0.36 ≈ 3
+  // m_B ≈ 2 kg: density = 2/0.36 ≈ 6
+  const xA = -1.2;
+  const xB = 1.2;
+  const yBox = hh;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-akce-reakce',
+      title: 'Akce a reakce — pružina',
+      curriculum: { subject: 'fyzika', grade: 8, topic: 'silové účinky' },
+    },
+    lesson: {
+      question: 'Těleso A (≈1 kg) a B (≈2 kg) stojí na kluzké podlaze a je mezi nimi stlačená pružina. Po uvolnění se pohybují v opačných směrech. Které poletí rychleji?',
+      prediction: {
+        kind: 'choice',
+        choices: [
+          { id: 'same', label: 'Obě stejně rychle — na obě působí stejná síla' },
+          { id: 'a', label: 'A (lehčí) poletí rychleji' },
+          { id: 'b', label: 'B (těžší) poletí rychleji' },
+        ],
+        correctId: 'a',
+      },
+      hint: 'Zachování hybnosti: p = 0 → m_A·v_A = m_B·v_B → v_A/v_B = m_B/m_A = 2.',
+      level: 'střední',
+    },
+    world: { gravity: { x: 0, y: -9.81 }, airDensity: 0 },
+    camera: { center: { x: 0, y: 1.2 }, metersPerScreenH: 7 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Kluzká podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.0, restitution: 0.0 },
+        appearance: { fill: '#e2e8f0' },
+      },
+      {
+        kind: 'body',
+        id: 'box-a',
+        name: 'Těleso A (≈1 kg)',
+        transform: { x: xA, y: yBox },
+        shapes: [{ type: 'box', hw, hh }],
+        material: { density: 3, friction: 0.0, restitution: 0.0 },
+        appearance: { fill: '#3b82f6', showVelocity: true },
+      },
+      {
+        kind: 'body',
+        id: 'box-b',
+        name: 'Těleso B (≈2 kg)',
+        transform: { x: xB, y: yBox },
+        shapes: [{ type: 'box', hw, hh }],
+        material: { density: 6, friction: 0.0, restitution: 0.0 },
+        appearance: { fill: '#f59e0b', showVelocity: true },
+      },
+      {
+        kind: 'joint',
+        id: 'spring',
+        name: 'Pružina (stlačená)',
+        type: 'spring',
+        bodyA: 'box-a',
+        bodyB: 'box-b',
+        anchorA: { x: hw, y: 0 },
+        anchorB: { x: -hw, y: 0 },
+        spring: { restLength: 3.0, stiffness: 100, damping: 0.0 },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Moment síly — rovnováha páky: závaží 2 kg (1 m vlevo) vs závaží 1 kg (2 m vpravo).
+ * Momenty se vyrovnají → páka zůstane vodorovně. Neintuitivní! Lesson (choice).
+ */
+export function momentBalanceScene(): SceneDoc {
+  const levHw = 2.8;
+  const levHh = 0.05;
+  const levY = 0.55;
+  const r = 0.2;
+  // density = mass / (π·r²); pro m=2 kg a r=0.2: ρ=2/(π·0.04)≈16 kg/m²
+  const densityA = 16; // ≈ 2.01 kg
+  const densityB = 8;  // ≈ 1.01 kg
+  const massY = levY + levHh + r;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-moment-rovnovaha',
+      title: 'Moment síly — rovnováha páky',
+      curriculum: { subject: 'fyzika', grade: 9, topic: 'tuhé těleso' },
+    },
+    lesson: {
+      question: 'Páka je ve vodorovné poloze. Závaží A (≈2 kg) sedí 1 m VLEVO od čepu. Závaží B (≈1 kg) sedí 2 m VPRAVO od čepu. Co se stane po spuštění simulace?',
+      prediction: {
+        kind: 'choice',
+        choices: [
+          { id: 'left', label: 'Levá strana klesne — závaží A je těžší' },
+          { id: 'balance', label: 'Páka zůstane přibližně vodorovně — momenty sil jsou stejné' },
+          { id: 'right', label: 'Pravá strana klesne — závaží B je dál od čepu' },
+        ],
+        correctId: 'balance',
+      },
+      hint: 'Moment síly M = F · d. Pro A: 2 kg × 1 m = 2 (N·m/g). Pro B: 1 kg × 2 m = 2 (N·m/g). Stejné momenty = rovnováha!',
+      level: 'střední',
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0.5, y: 1.2 }, metersPerScreenH: 6 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'support',
+        name: 'Podpora',
+        bodyType: 'static',
+        transform: { x: 0, y: 0.22 },
+        shapes: [{ type: 'box', hw: 0.06, hh: 0.22 }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#64748b' },
+      },
+      {
+        kind: 'body',
+        id: 'lever',
+        name: 'Páka',
+        bodyType: 'dynamic',
+        transform: { x: 0, y: levY },
+        shapes: [{ type: 'box', hw: levHw, hh: levHh }],
+        material: { density: 200, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#b45309' },
+      },
+      {
+        kind: 'joint',
+        id: 'pivot',
+        name: 'Čep páky',
+        type: 'axle',
+        bodyA: null,
+        bodyB: 'lever',
+        anchorA: { x: 0, y: levY },
+        anchorB: { x: 0, y: 0 },
+      },
+      {
+        kind: 'body',
+        id: 'mass-a',
+        name: 'Závaží A (≈2 kg, 1 m vlevo)',
+        transform: { x: -1.0, y: massY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: densityA, friction: 0.8, restitution: 0.0 },
+        appearance: { fill: '#dc2626' },
+      },
+      {
+        kind: 'body',
+        id: 'mass-b',
+        name: 'Závaží B (≈1 kg, 2 m vpravo)',
+        transform: { x: 2.0, y: massY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: densityB, friction: 0.8, restitution: 0.0 },
+        appearance: { fill: '#16a34a' },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Pružnost odrazu (restituce): tři míče padají ze stejné výšky s různou restitucí.
+ * Červený (e=0,05) se téměř neodrází; zelený (e=0,9) skáče téměř do původní výšky.
+ * Explorační scéna — bez lekce.
+ */
+export function restitutionScene(): SceneDoc {
+  const r = 0.25;
+  const startY = 5.0 + r;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-restituce',
+      title: 'Pružnost odrazu — restituce',
+      curriculum: { subject: 'fyzika', grade: 7, topic: 'silové účinky' },
+    },
+    world: { gravity: { x: 0, y: -9.81 }, airDensity: 0 },
+    camera: { center: { x: 0, y: 3.5 }, metersPerScreenH: 10 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-plastic',
+        name: 'Plastický (e=0,05)',
+        transform: { x: -1.5, y: startY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.3, restitution: 0.05 },
+        appearance: { fill: '#ef4444' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-mid',
+        name: 'Poloelastický (e=0,5)',
+        transform: { x: 0, y: startY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.3, restitution: 0.5 },
+        appearance: { fill: '#f59e0b' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-elastic',
+        name: 'Pružný (e=0,9)',
+        transform: { x: 1.5, y: startY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 1000, friction: 0.3, restitution: 0.9 },
+        appearance: { fill: '#10b981' },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Kruhový pohyb: motor otáčí ramenem s koulí na konci (ω=2 rad/s).
+ * Závaží opisuje kružnici — pozoruj dostředivou sílu v FBD díagramu.
+ * Explorační scéna bez lekce.
+ */
+export function circularMotionScene(): SceneDoc {
+  const pivotY = 4.0;
+  const armHw = 1.2;
+  const armHh = 0.04;
+  const ballR = 0.22;
+  const omega = 2.0;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-kruhovy-pohyb',
+      title: 'Kruhový pohyb — motor a osa',
+      curriculum: { subject: 'fyzika', grade: 8, topic: 'pohyb' },
+    },
+    world: { gravity: { x: 0, y: -9.81 } },
+    camera: { center: { x: 0, y: pivotY }, metersPerScreenH: 8 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'hub',
+        name: 'Osa (pevná)',
+        bodyType: 'static',
+        transform: { x: 0, y: pivotY },
+        shapes: [{ type: 'circle', r: 0.12 }],
+        material: { density: 1000, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#64748b' },
+      },
+      {
+        kind: 'body',
+        id: 'spinner',
+        name: 'Rameno + závaží',
+        bodyType: 'dynamic',
+        transform: { x: 0, y: pivotY },
+        velocity: { vx: 0, vy: 0, omega },
+        shapes: [
+          { type: 'box', hw: armHw, hh: armHh, offset: { x: armHw, y: 0 } },
+          { type: 'circle', r: ballR, offset: { x: armHw * 2 + ballR, y: 0 } },
+        ],
+        material: { density: 15, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#6366f1' },
+      },
+      {
+        kind: 'joint',
+        id: 'motor-axle',
+        name: 'Motor',
+        type: 'axle',
+        bodyA: null,
+        bodyB: 'spinner',
+        anchorA: { x: 0, y: pivotY },
+        anchorB: { x: 0, y: 0 },
+        axle: { enabled: true, targetVelocity: omega, maxTorque: 500 },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
+/**
+ * Pád ve vzduchu — terminální rychlost: těžká vs. lehká koule stejného rozměru.
+ * Těžší dopadne dřív (velká tíha, malý relativní odpor vzduchu).
+ * Lehčí rychle dosáhne terminální rychlosti ≈ 5,4 m/s a padá pomalu.
+ * Lesson (choice).
+ */
+export function airResistanceFallScene(): SceneDoc {
+  const r = 0.3;
+  const startY = 14.7;
+  return parseSceneDoc({
+    format: 'fyzlab-scene',
+    version: 1,
+    meta: {
+      id: 'preset-pad-ve-vzduchu',
+      title: 'Pád ve vzduchu — terminální rychlost',
+      curriculum: { subject: 'fyzika', grade: 8, topic: 'silové účinky' },
+    },
+    lesson: {
+      question: 'Obě koule mají STEJNÝ PRŮMĚR (r=0,3 m). Koule A (hustota 200 kg/m², ≈56 kg) a B (hustota 3 kg/m², ≈0,8 kg) padají vzduchem ze stejné výšky. Která dopadne dřív?',
+      prediction: {
+        kind: 'choice',
+        choices: [
+          { id: 'same', label: 'Obě současně — Galilěův zákon' },
+          { id: 'heavy', label: 'Těžší A dříve — velká tíha, malý relativní odpor' },
+          { id: 'light', label: 'Lehčí B dříve — menší tíha k překonání' },
+        ],
+        correctId: 'heavy',
+      },
+      hint: 'Galilěův zákon platí jen VE VAKUU. Ve vzduchu závisí odpor na průřezu, ale tíha na hmotnosti → těžší objekt má výhodu.',
+      level: 'střední',
+    },
+    world: { gravity: { x: 0, y: -9.81 }, airDensity: 1.2 },
+    camera: { center: { x: 0, y: 8 }, metersPerScreenH: 22 },
+    entities: [
+      {
+        kind: 'body',
+        id: 'ground',
+        name: 'Podlaha',
+        bodyType: 'static',
+        transform: { x: 0, y: 0 },
+        shapes: [{ type: 'plane' }],
+        material: { density: 1000, friction: 0.5, restitution: 0.0 },
+        appearance: { fill: '#94a3b8' },
+      },
+      {
+        kind: 'body',
+        id: 'ball-heavy',
+        name: 'Koule A — těžká (ρ=200, ≈56 kg)',
+        transform: { x: -0.8, y: startY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 200, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#475569', showVelocity: true },
+      },
+      {
+        kind: 'body',
+        id: 'ball-light',
+        name: 'Koule B — lehká (ρ=3, ≈0,8 kg)',
+        transform: { x: 0.8, y: startY },
+        shapes: [{ type: 'circle', r }],
+        material: { density: 3, friction: 0.3, restitution: 0.0 },
+        appearance: { fill: '#fbbf24', showVelocity: true },
+      },
+    ],
+  } satisfies SceneDocInput);
+}
+
 /** Demo scéna fáze 0: podlaha + dva míče + bedna. */
 export function demoScene(): SceneDoc {
   const input: SceneDocInput = {

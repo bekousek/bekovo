@@ -191,6 +191,19 @@ Stav: **134 testů zelených**, `tsc` čistý.
 
 Stav: **136 testů zelených** (27 souborů), `tsc` čistý.
 
+- **F5-C** — 8 nových kurikulárních scén (30 preset dlaždic celkem):
+  `twoFallsScene` (6. r., gravitace — Galilův pokus, lesson choice),
+  `pendulumLengthScene` (8. r., kmitání — délka závěsu a perioda, lesson choice),
+  `horizontalThrowScene` (7. r., pohyb — vodorovný vrh z výšky 5 m, lesson numeric landing-x),
+  `newtonThirdScene` (8. r., silové účinky — akce-reakce stlačená pružina, lesson choice),
+  `momentBalanceScene` (9. r., tuhé těleso — rovnovážná páka 2 kg×1 m = 1 kg×2 m, lesson choice),
+  `restitutionScene` (7. r., silové účinky — 3 míče e=0,05/0,5/0,9, explorační),
+  `circularMotionScene` (8. r., pohyb — motor+rameno+závaží ω=2 rad/s, explorační),
+  `airResistanceFallScene` (8. r., silové účinky — těžká vs. lehká koule ve vzduchu, lesson choice).
+  Všechny registrovány v LibraryDialog. Všechny scény kompilují a nenarušují stávající testy.
+
+Stav: **138 testů zelených** (27 souborů), `tsc` čistý.
+
 ## Další na řadě
 **Vydání v1 — RUČNÍ kroky uživatele:**
 - `git push origin main`
@@ -198,7 +211,7 @@ Stav: **136 testů zelených** (27 souborů), `tsc` čistý.
 - Test na reálném tabletu (dotykové ovládání, offline wifi)
 
 ## Kde jsem skončil / poznámky pro další běh
-- **F3 + F4 + F5-A + F5-B kompletní.**
+- **F3 + F4 + F5-A + F5-B + F5-C kompletní.**
 - **Holistický review v prohlížeči (2026-06-25)** — celý plán hotový loopem (běžel HEADLESS,
   bez prohlížeče), proto našel review v prohlížeči integrační/render chyby. Opraveno:
   1. **Optika — lom na výstupní stěně skla.** `shapeHits` hlásí index skla pro každou stěnu;
