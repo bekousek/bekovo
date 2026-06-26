@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-naklonena-rovina",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Walter Fendt: Síly na nakloněné rovině (interaktivní applet)",
+  "type": "applet",
+  "description": "HTML5 simulace rozkladu sil na nakloněné rovině v češtině. Zobrazuje tíhovou sílu, složku rovnoběžnou s rovinou (tažná síla) a kolmou složku (normálová síla). Žáci mění úhel sklonu a hmotnost tělesa a sledují, jak se vektorový rozklad mění. Simulace podporuje pochopení, proč nakloněná rovina usnadňuje zvedání břemen.",
+  "url": "https://www.walter-fendt.de/html5/phcz/inclinedplane_cz.htm"
+}

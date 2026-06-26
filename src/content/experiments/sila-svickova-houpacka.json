@@ -1,0 +1,17 @@
+{
+  "id": "sila-svickova-houpacka",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Svíčková houpačka – demonstrace momentu síly na páce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s dvojzvratnou pákou ze školské soupravy mechaniky simulující pohyb svíčkové houpačky. Na rovnou tyč s dírkami se zavěsí závaží symetricky tak, aby soustava byla v rovnováze. Postupným odebíráním závaží z konce ramene, které se nachází dole, se simuluje ubývání hmotnosti — páka se kývá. Pokus přesvědčivě demonstruje princip momentu síly a rovnováhy na dvojzvratné páce bez výpočtů.",
+  "materials": [
+    "dvojzvratná páka ze školské soupravy mechaniky (rovná tyč s dírkami a osou otáčení)",
+    "sada závaží"
+  ],
+  "procedure": "Na dvojzvratnou páku zavěste závaží symetricky na obě ramena — páka je v rovnováze. Z konce jednoho ramene odeberte jedno závaží a sledujte vychýlení. Dále vždy odebírejte závaží z konce ramene, které je právě dole. Sledujte kývavý pohyb páky a diskutujte, proč se houpá stále jedním směrem.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1695/svickova-houpacka"
+  }
+}

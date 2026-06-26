@@ -1,0 +1,16 @@
+{
+  "id": "sila-inovacni-pokusy-paka",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Inovační pokusy s pákou – rovnováha tyčí",
+  "type": "qualitative",
+  "description": "Demonstrační pokus z příspěvku VNUF (Josef Janáš, Olomouc 2006). Žáci nejprve předpovídají, která ze dvou tyček s různě rozloženou hmotností překoná druhou na páce, a výsledek ověřují experimentem. Pokus pracuje s momentem síly, rovnováhou, těžištěm a závažím. Konfrontuje žákovské předpoklady s fyzikální realitou a rozvíjí fyzikální intuici.",
+  "materials": [
+    "dvě tyče nebo pravítka s různě rozloženou hmotností",
+    "podpora (osa otáčení)"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/11-14-Janas.html"
+  }
+}

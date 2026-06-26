@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-zakon-paky",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Walter Fendt: Zákon páky (interaktivní applet)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace zákon páky v českém překladu. Žáci přidávají závaží na různá místa oboustranné páky a sledují, kdy je páka v rovnováze. Simulace názorně ukazuje vztah mezi silou a ramenem páky a umožňuje okamžitě vidět výsledný moment síly. Vhodná pro samostatnou i frontální výuku pojmu moment síly.",
+  "url": "https://www.walter-fendt.de/html5/phcz/lever_cz.htm"
+}

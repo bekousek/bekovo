@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-kladkostroj",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Walter Fendt: Kladkostroj (interaktivní applet)",
+  "type": "applet",
+  "description": "HTML5 simulace kladkostroje s nastavitelným počtem kladek (2, 4 nebo 6). Žáci nastavují hmotnost břemene a počet kladek a sledují, jak roste mechanická výhoda — potřebná síla klesá, ale dráha lana se prodlužuje. Simulace propojuje pevnou i volnou kladku v jednom systému a je vhodná k demonstraci zlatého pravidla mechaniky.",
+  "url": "https://www.walter-fendt.de/html5/phcz/pulleysystem_cz.htm"
+}

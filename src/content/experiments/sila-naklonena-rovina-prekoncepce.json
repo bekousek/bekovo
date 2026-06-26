@@ -1,0 +1,18 @@
+{
+  "id": "sila-naklonena-rovina-prekoncepce",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Nakloněná rovina – měříme a odkrýváme předpoklady",
+  "type": "measurement",
+  "description": "Žákovský pokus zaměřený na odkrývání prekoncepcí při práci s nakloněnou rovinou. Žáci nejprve zapíší odhad, jak se změní potřebná síla pro pohyb tělesa v závislosti na úhlu sklonu, pak provedou měření siloměrem a porovnají výsledky s předpovědí. Pokus rozvíjí porozumění zlatému pravidlu mechaniky — co ušetříme na síle, přidáme na dráze.",
+  "materials": [
+    "nakloněná rovina (prkno nebo deska)",
+    "závaží nebo vozík",
+    "siloměr",
+    "pravítko"
+  ],
+  "source": {
+    "label": "FyzWeb",
+    "url": "https://fyzweb.cz/materialy/vlachovice/2013/materialy/piskac/c-piskac-naklonena_rovina.pdf"
+  }
+}

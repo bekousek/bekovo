@@ -1,0 +1,12 @@
+{
+  "id": "sila-jednoduche-stroje-venku",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Jednoduché stroje v přírodě a zahradě",
+  "type": "method",
+  "description": "Venkovní výuka zaměřená na jednoduché stroje v zahradním prostředí (metodický program z webu Učíme se venku). Žáci vyhledávají páky v zahradních nástrojích (lopata, zahradní nůžky, kolečko), sestavují improvizovanou houpačku jako páku a vyvažují různé předměty. Program propojuje pohybovou aktivitu venku s fyzikálními měřeními a diskusí o kladce a nakloněné rovině v reálných situacích.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/fyzika/"
+  }
+}
