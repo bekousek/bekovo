@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-24",
+  "lastPicked": "2026-06-23",
   "history": [
     {
       "date": "2026-05-08",
@@ -182,6 +182,12 @@
       "subtopic": "plyny-7--vztlak-v-plynech",
       "result": "pr-pending",
       "items": 17
+    },
+    {
+      "date": "2026-06-23",
+      "subtopic": "optika--opticke-pristroje",
+      "result": "pr-pending",
+      "items": 29
     }
   ],
   "skipUntil": {}

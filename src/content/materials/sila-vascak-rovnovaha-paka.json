@@ -1,0 +1,9 @@
+{
+  "id": "sila-vascak-rovnovaha-paka",
+  "subtopicId": "jednoduche-stroje",
+  "topicId": "sila",
+  "title": "Vaščák: Rovnováha na páce (animace)",
+  "type": "applet",
+  "description": "Animace rovnováhy na páce z české sbírky Fyzika ve škole (Vaščák). Žáci interaktivně zkoumají podmínky rovnováhy oboustranné páky přidáváním závaží a vizuálně sledují momenty sil na obou ramenech. Součást rozsáhlé české sbírky fyzikálních animací pro ZŠ a SŠ, vhodná pro samostatnou práci i frontální výuku.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_paka&l=cz"
+}
