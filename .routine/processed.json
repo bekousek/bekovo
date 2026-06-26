@@ -19,7 +19,10 @@
     "2026-06-17-energie--teplo-a-jeho-sireni",
     "2026-06-19-magnetismus--magneticke-pole-zeme",
     "2026-06-20-mechanika--prace",
-    "2026-06-22-mikrosvet--jaderna-energie"
+    "2026-06-22-mikrosvet--jaderna-energie",
+    "2026-06-23-optika--opticke-pristroje",
+    "2026-06-24-plyny-7--vztlak-v-plynech",
+    "2026-06-26-sila--jednoduche-stroje"
   ],
   "history": [
     {
@@ -198,6 +201,33 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/37",
       "merged": true,
       "processedAt": "2026-06-22T13:26:00.000Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-23-optika--opticke-pristroje",
+      "subtopic": "optika--opticke-pristroje",
+      "branch": "routine/nightly-2026-06-23-optika--opticke-pristroje",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/41",
+      "merged": true,
+      "processedAt": "2026-06-26T10:01:55.059Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-24-plyny-7--vztlak-v-plynech",
+      "subtopic": "plyny-7--vztlak-v-plynech",
+      "branch": "routine/nightly-2026-06-24-plyny-7--vztlak-v-plynech",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/42",
+      "merged": true,
+      "processedAt": "2026-06-26T10:03:21.357Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-26-sila--jednoduche-stroje",
+      "subtopic": "sila--jednoduche-stroje",
+      "branch": "routine/nightly-2026-06-26-sila--jednoduche-stroje",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/43",
+      "merged": true,
+      "processedAt": "2026-06-26T10:03:46.346Z",
       "driveFileId": ""
     }
   ]
