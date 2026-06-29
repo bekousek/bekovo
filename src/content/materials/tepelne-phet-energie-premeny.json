@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-phet-energie-premeny",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Energie a její přeměny – PhET simulace (parní kotel a generátor)",
+  "type": "applet",
+  "description": "PhET simulace 'Energy Forms and Changes' umožňuje žákům sestavit energetický řetězec zahrnující plynový hořák, parní kotel, turbínu a generátor. Žáci vizuálně sledují, jak se tepelná energie páry přeměňuje na mechanickou a dále na elektrickou energii — přímá ilustrace principu parního stroje. Simulace podporuje přepínání jazyka do češtiny a nevyžaduje instalaci.",
+  "url": "https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_all.html"
+}

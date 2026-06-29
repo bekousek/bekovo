@@ -1,0 +1,18 @@
+{
+  "id": "tepelne-parni-stroj-model",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Model parního stroje — provoz a pozorování",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus s komerčním modelem parního stroje (edukační pomůcka). Parní kotel se naplní horkou vodou (max. 2/3 objemu), uzavře a zahřeje pevným lihem pod kotlem. Po zapískání píšťaly — signálu dostatečného tlaku páry — se píšťala zavře a setrvačník nakopne; stroj se rozběhne. Pára střídavě pohybuje pístem a žáci sledují přeměnu tepelné energie v mechanický pohyb — základní princip parního stroje.",
+  "materials": [
+    "model parního stroje (edukační pomůcka)",
+    "tableta pevného lihu",
+    "horká voda"
+  ],
+  "procedure": "Naplnit kotel horkou vodou (max. 2/3 kapacity, kontrola vodoznakem). Nasadit těsnění, zašroubovat píšťalu a pojistný ventil. Zapálit pevný líh a vložit pod kotel. Otevřít píšťalu (páka svisle) a čekat na hvízdnutí. Zavřít píšťalu, nakopnout setrvačník — stroj se rozběhne.",
+  "source": {
+    "label": "Pokusy z UPOL",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/molekulova-fyzika-a-termika/tepelne-motory/parni-stroj-43/"
+  }
+}

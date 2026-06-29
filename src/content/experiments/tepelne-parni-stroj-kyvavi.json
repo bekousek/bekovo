@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-parni-stroj-kyvavi",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Demonstrační kývavý parní stroj",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus: učitel sestaví jednoduchý kývavý parní stroj poháněný vodní párou z Papinova hrnce (tlakového hrnce). Pára je řízena dvěma rotačními šoupátky, která střídavě přivádějí páru na obě strany pístu. Jako efektní doplněk lze připojit elektrický generátor sestavený z rozložitelného transformátoru. Kotel má gravitační přetlakový ventil — z hmotnosti závaží a průměru kuželky lze odvodit tlak páry. Pomůcky nevyžadují soustružení, pájení ani řezání závitů.",
+  "materials": [
+    "Papinův hrnec (tlakový hrnec) — starý typ ze silnostěnného hliníku",
+    "součástky kývavého parního stroje (popsány v článku VNUF)",
+    "rozložitelný transformátor jako generátor (volitelně)",
+    "hadice pro přívod páry, ochranné pomůcky"
+  ],
+  "procedure": "Parní stroj se sestaví dle návodu v kývavém uspořádání. Papinův hrnec se naplní vodou a zahřeje na plotýnce do vzniku páry požadovaného tlaku. Pára se přivede hadicí do stroje; šoupátka střídavě přivádějí páru na obě strany pístu. Nakopnutí setrvačníku spustí chod stroje.",
+  "source": {
+    "label": "VNUF 17",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-23-Konecny.html"
+  }
+}

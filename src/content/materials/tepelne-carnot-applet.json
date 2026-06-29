@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-carnot-applet",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Carnotův cyklus – interaktivní applet (Walter Fendt, česky)",
+  "type": "applet",
+  "description": "HTML5 applet zobrazuje ideální Carnotův cyklus v p–V diagramu krok za krokem: izotermická expanze, adiabatická expanze, izotermická komprese a adiabatická komprese. Žáci mohou měnit teploty ohřívače a chladiče a sledovat změnu účinnosti cyklu. Stránka je plně v češtině, bez instalace. Vhodné jako doplněk výkladu o účinnosti tepelných motorů a Carnotově limitě.",
+  "url": "https://www.walter-fendt.de/html5/phcz/carnotcycle_cz.htm"
+}

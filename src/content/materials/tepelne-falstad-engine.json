@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-falstad-engine",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Heat Engine – Falstad applet (tepelné cykly, anglicky)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 applet Falstad zobrazuje různé termodynamické cykly (Carnot, Otto, Brayton, Ericsson) jako základ tepelných motorů. Žáci vidí p–V diagram v reálném čase, mohou přepínat mezi cykly, měnit parametry a sledovat, jak se mění výkon a účinnost. Pomáhá pochopit, proč parní stroj nedokáže přeměnit veškeré teplo na práci. Vizuální interaktivita zpřístupňuje applet i žákům bez znalosti angličtiny pod vedením učitele.",
+  "url": "https://www.falstad.com/engine/"
+}
