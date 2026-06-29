@@ -102,7 +102,18 @@
       "Bash(cd C:/Users/bekon/bekovo && rm _run_nightly_20260616.cjs && git stash pop 2>&1)",
       "Bash(grep -v \"^commit\\\\|^Author\\\\|^Date\\\\|^$\\\\|untracked\")",
       "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"FOUND: $RC\"; & $RC listremotes } else { Write-Output \"NOT FOUND\" })",
-      "PowerShell(cd C:\\\\Users\\\\bekon\\\\bekovo; $ISO = \\(Get-Date -Format \"yyyy-MM-ddTHH-mm-ss\"\\); git stash push -u -m \"process-queue-auto-$ISO\"; Write-Output \"Stash result: $LASTEXITCODE\")"
+      "PowerShell(cd C:\\\\Users\\\\bekon\\\\bekovo; $ISO = \\(Get-Date -Format \"yyyy-MM-ddTHH-mm-ss\"\\); git stash push -u -m \"process-queue-auto-$ISO\"; Write-Output \"Stash result: $LASTEXITCODE\")",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"Found: $RC\"; & $RC listremotes } else { Write-Output \"rclone not found in WinGet packages\" })",
+      "PowerShell(git fetch origin)",
+      "PowerShell(git pull --ff-only origin main)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; Write-Output \"RC=$RC\"; if \\($RC\\) { & $RC listremotes } else { Write-Output \"rclone not found\" })",
+      "Bash(git merge *)",
+      "PowerShell($iso = \\(Get-Date -Format 'yyyy-MM-ddTHH-mm-ss'\\); git stash push -m \"process-queue-auto-$iso\" -- _process_manifests.cjs; Write-Output \"STASH_EXIT:$LASTEXITCODE\")",
+      "PowerShell(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1 | Select-Object FullName)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; Write-Host \"RC: $RC\"; & $RC listremotes)",
+      "PowerShell(git fetch origin 2>&1)",
+      "PowerShell(git checkout main 2>&1)",
+      "PowerShell(git pull --ff-only origin main 2>&1)"
     ]
   }
 }
