@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-vascak-brownuv-pohyb",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vaščák: Brownův pohyb",
+  "type": "applet",
+  "description": "Animace z kolekce Vaščák ilustrující Brownův pohyb — chaotický pohyb viditelných částic způsobený nárazy neviditelných molekul plynu. Přehledně ukazuje, že molekuly plynu jsou v neustálém pohybu. Vhodné jako motivační animace k tématu molekulárního modelu plynu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_brownuv_pohyb&l=cz"
+}

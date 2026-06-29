@@ -1,0 +1,16 @@
+{
+  "id": "vlastnosti-latek-plyny-difuze-vune",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Šíření vůně třídou — pokus s difúzí plynů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel postříká parfém v jednom rohu třídy a žáci zvedají ruku, jakmile vůni zachytí — sleduje se, jak se šíření rozrůstá od zdroje ke zbytku místnosti. Pokus ilustruje, že plyny se šíří (difundují) do celého dostupného prostoru a mísí se vzduchem, přestože zdroj zůstal na místě. Nulové náklady na pomůcky.",
+  "materials": [
+    "parfém nebo vonná látka v rozprašovači"
+  ],
+  "procedure": "Žáci sedí tiše bez pohybování vzduchu. Učitel postříká parfém v jednom rohu třídy. Žáci zvedají ruku, jakmile vůni ucítí. Diskuze: jak se vůně dostala k nim?",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

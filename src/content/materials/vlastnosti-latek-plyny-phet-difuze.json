@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-phet-difuze",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Difúze",
+  "type": "applet",
+  "description": "PhET simulace v češtině zaměřená na difúzi plynů — žáci smísí dva různé plyny a sledují, jak se samovolně rovnoměrně rozptylují. Lze měnit teplotu, hmotnost a velikost molekul a pozorovat vliv na rychlost difúze. Přímo ilustruje šíření plynů jako základní vlastnost plynné látky.",
+  "url": "https://phet.colorado.edu/cs/simulations/diffusion"
+}

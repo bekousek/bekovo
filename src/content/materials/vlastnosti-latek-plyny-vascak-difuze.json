@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-vascak-difuze",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vaščák: Difúze plynů",
+  "type": "applet",
+  "description": "Jednoduchá HTML5 animace z české kolekce Vaščák ukazující difúzi — samovolné promísení dvou plynů. Žáci sledují, jak se molekuly dvou různých plynů postupně rovnoměrně rozptýlí bez vnějšího vlivu. Přehledná vizualizace pro úvod k šíření plynů v 6. třídě.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_difuze&l=cz"
+}

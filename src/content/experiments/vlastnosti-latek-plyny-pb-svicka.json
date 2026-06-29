@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-plyny-pb-svicka",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Přelévání propan-butanu — těžší plyn hasí svíčku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel pustí propan-butan z kuchyňského piezo zapalovače do velké sklenice. Propan-butan je přibližně dvakrát těžší než vzduch, takže klesá ke dnu sklenice. Přeléváním plynu do nižší nádoby se svíčkou způsobí, že svíčka zhasne. Pokus demonstruje, že různé plyny mají různou hustotu a chovají se jako tekutiny.",
+  "materials": [
+    "kuchyňský piezo zapalovač (kartuš propan-butan)",
+    "velká sklenice nebo džbán",
+    "menší sklenice",
+    "svíčka",
+    "zapalovač"
+  ],
+  "procedure": "Do velké sklenice pustit propan-butan ze zapalovače (~5 sekund). Hořící špejlí ověřit přítomnost plynu u dna. Přelít plyn do menší nádoby se svíčkou — svíčka zhasne.",
+  "source": {
+    "label": "Metodický portál RVP — Přelévání plynu (1. část)",
+    "url": "https://clanky.rvp.cz/clanek/o/z/1818/PRELEVANI-PLYNU---1-CAST.html"
+  }
+}

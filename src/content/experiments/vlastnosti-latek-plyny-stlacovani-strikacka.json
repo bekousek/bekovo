@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-plyny-stlacovani-strikacka",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Stlačování vzduchu injekční stříkačkou",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci naplní injekční stříkačku vzduchem, zakryjí prstem otvor a pokusí se stlačit píst. Poté totéž provedou s vodou a porovnají výsledky. Pokus názorně ukazuje, že vzduch (plyn) lze stlačit, zatímco voda (kapalina) prakticky ne — přímo ilustruje stlačitelnost jako klíčovou vlastnost plynů.",
+  "materials": [
+    "injekční stříkačka (velká plastová)",
+    "voda"
+  ],
+  "procedure": "Naplnit stříkačku vzduchem, zakrýt otvor prstem, stlačit píst — vzduch povolí. Totéž s vodou — voda se nestlačí. Porovnat pozorování s žáky.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}
