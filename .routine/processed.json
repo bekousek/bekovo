@@ -22,7 +22,10 @@
     "2026-06-22-mikrosvet--jaderna-energie",
     "2026-06-23-optika--opticke-pristroje",
     "2026-06-24-plyny-7--vztlak-v-plynech",
-    "2026-06-26-sila--jednoduche-stroje"
+    "2026-06-26-sila--jednoduche-stroje",
+    "2026-06-29-vlastnosti-latek--plyny",
+    "2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
+    "2026-06-28-tepelne-motory--parni-stroj"
   ],
   "history": [
     {
@@ -228,6 +231,33 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/43",
       "merged": true,
       "processedAt": "2026-06-26T10:03:46.346Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-29-vlastnosti-latek--plyny",
+      "subtopic": "vlastnosti-latek--plyny",
+      "branch": "routine/nightly-2026-06-29-vlastnosti-latek--plyny",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/48",
+      "merged": true,
+      "processedAt": "2026-06-29T22:12:40.967Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
+      "subtopic": "skupenstvi-latek--vztah-teploty-a-tlaku",
+      "branch": "routine/nightly-2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/44",
+      "merged": true,
+      "processedAt": "2026-06-29T22:13:47.535Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-06-28-tepelne-motory--parni-stroj",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "branch": "routine/nightly-2026-06-28-tepelne-motory--parni-stroj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/47",
+      "merged": true,
+      "processedAt": "2026-06-29T22:13:47.535Z",
       "driveFileId": ""
     }
   ]
