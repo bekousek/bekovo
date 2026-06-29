@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-zavislost-varu-na-tlaku",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Závislost teploty varu vody na tlaku",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus: Voda se přivede k varu v rychlovarné konvici, poté přelije do průhledné kuchyňské vakuovací nádoby a pumpou se odčerpá vzduch. Žáci sledují, jak voda za sníženého tlaku znovu začne vřít při teplotě prokazatelně nižší než 100 °C. Pokus přibližuje situaci při vaření ve vyšší nadmořské výšce nebo ve vakuu a názorně ukazuje závislost bodu varu na tlaku okolí.",
+  "materials": [
+    "průhledná kuchyňská vakuovací nádoba s pumpou",
+    "rychlovarná konvice",
+    "digitální teploměr"
+  ],
+  "procedure": "Přivést vodu k varu, nechat krátce vřít, přelít do vakuovací nádoby (asi do poloviny výšky) a uzavřít. Pumpovat vzduch a sledovat, jak voda opět začne vřít.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1671/zavislost-teploty-varu-vody-na-tlaku"
+  }
+}

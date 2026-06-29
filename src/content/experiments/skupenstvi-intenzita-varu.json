@@ -1,0 +1,17 @@
+{
+  "id": "skupenstvi-intenzita-varu",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Teplota varu vody – nezávisí na intenzitě ohřevu",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ pokus: Dvě stejné nádoby se stejným množstvím vody se zahřívají různou tepelnou silou – jedna při prudkém varu, druhá při mírném. Teplotní senzory ukáží, že teplota varu je v obou nádobách prakticky stejná (~98–99 °C v Praze). Překvapivý výsledek vede žáky k pochopení, že teplota varu závisí pouze na tlaku vzduchu, nikoli na intenzitě ohřevu.",
+  "materials": [
+    "dva teploměry nebo teplotní senzory",
+    "dva stejné hrnce nebo kádinky",
+    "dva ohřívače"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1886/teplota-varu-vody"
+  }
+}

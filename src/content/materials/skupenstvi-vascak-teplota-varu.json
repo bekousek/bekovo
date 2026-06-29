@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-vascak-teplota-varu",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Vaščák: Teplota varu – závislost na atmosférickém tlaku",
+  "type": "applet",
+  "description": "Interaktivní animace z kolekce Fyzika ve škole (Vaščák) ukazuje závislost teploty varu vody na atmosférickém tlaku. Žák pohybuje posuvníkem tlaku a sleduje, jak se mění teplota, při níž voda začne vřít. Animace je v češtině a přímo ilustruje principy tlakového hrnce i varu ve vysoké nadmořské výšce.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_teplota_varu&l=cz"
+}

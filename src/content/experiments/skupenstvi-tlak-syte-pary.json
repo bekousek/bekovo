@@ -1,0 +1,21 @@
+{
+  "id": "skupenstvi-tlak-syte-pary",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Závislost tlaku syté vodní páry na teplotě",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ pokus: Baňka s destilovanou vodou je spojena s manometrickou trubicí a pumpou; vzduch je vyčerpán a měří se tlak nasycené páry při různých teplotách vodní lázně (přibližně 35–85 °C). Výsledky se zanáší do grafu a odpovídají části křivky syté páry ve fázovém diagramu vody. Pokus přímo propojuje naměřené hodnoty s teorií varu: var nastane, jakmile tlak syté páry dosáhne vnějšího tlaku.",
+  "materials": [
+    "experimentální baňka s trojotvorovým uzávěrem",
+    "manometrická trubice s vodním sloupcem",
+    "pumpa s hadicí",
+    "teploměr",
+    "kádinka jako vodní lázeň",
+    "destilovaná voda",
+    "ohřívač"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1672/zavislost-tlaku-syte-vodni-pary-na-teplote"
+  }
+}

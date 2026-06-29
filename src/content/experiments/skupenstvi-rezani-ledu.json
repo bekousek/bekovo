@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-rezani-ledu",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Řezání kostek ledu kovovým plátem",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ nebo ŽÁKOVSKÝ pokus: Na dvě stejné kostky ledu se položí tenký plát mosazi a tenký plát mědi (tloušťka ~0,3 mm) kratší hranou dolů. Vlastní vahou pláty postupně prořezávají led; měděný plát postupuje výrazně rychleji než mosazný. Pokus demonstruje vliv tlaku na teplotu tání (regelaci) i roli tepelné vodivosti kovu – vhodný jako výchozí bod pro diskusi o bruslení po ledu.",
+  "materials": [
+    "dvě stejné kostky ledu",
+    "plát mosazi a plát mědi stejných rozměrů (tloušťka ~0,3 mm)",
+    "izolační podložka (dřevo nebo polystyren)"
+  ],
+  "procedure": "Položit kostky ledu na izolační podložku a na každou umístit příslušný kovový plát kratší hranou dolů. Sledovat rychlost zařezávání do ledu a porovnat mosaz s mědí.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1676/rezani-kostek-ledu"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-26",
+  "lastPicked": "2026-06-27",
   "history": [
     {
       "date": "2026-05-08",
@@ -212,6 +212,12 @@
       "subtopic": "sila--jednoduche-stroje",
       "result": "pr-pending",
       "items": 30
+    },
+    {
+      "date": "2026-06-27",
+      "subtopic": "skupenstvi-latek--vztah-teploty-a-tlaku",
+      "result": "pr-pending",
+      "items": 18
     }
   ],
   "skipUntil": {}
