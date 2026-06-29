@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-parni-stroj-heronova-turbinka",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Herónova turbínka a jednoduché parní stroje z dostupných materiálů",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus (nebo žákovský v kroužku s dozorem): výroba jednoduché parní turbínky nebo parního stroje z levných materiálů — ohnivzdorná kovová nádoba naplněná vodou s výstupními tryskami. Pára vytékající tryskou způsobuje rotaci (Herónova turbína, princip reaktivního pohonu) nebo lineární pohyb. FyzWeb popisuje několik konstrukčních variant. Pára má vysokou teplotu — pokus provádí učitel nebo starší žáci výhradně s dozorem a ochrannými pomůckami.",
+  "materials": [
+    "ohnivzdorná kovová nádoba nebo zkumavka",
+    "drát nebo kovové tyčky",
+    "kahanky nebo čajová svíčka",
+    "voda, ochranné rukavice a brýle"
+  ],
+  "procedure": "Do nádoby se nalije voda; nádoba se uzavře kromě tenkých trysek pro výstup páry. Zahřátím vzniká pára, která vytéká tryskou a způsobuje rotaci nebo pohyb. Konkrétní konstrukční varianty jsou popsány na stránce FyzWeb.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/bizarni_kramy/parnistroj.php"
+  }
+}

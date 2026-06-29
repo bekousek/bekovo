@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-26",
+  "lastPicked": "2026-06-28",
   "history": [
     {
       "date": "2026-05-08",
@@ -212,6 +212,12 @@
       "subtopic": "sila--jednoduche-stroje",
       "result": "pr-pending",
       "items": 30
+    },
+    {
+      "date": "2026-06-28",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "result": "pr-pending",
+      "items": 15
     }
   ],
   "skipUntil": {}

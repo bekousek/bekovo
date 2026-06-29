@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-svet-energie-turbina-3d",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Parní turbína – 3D model (Svět energie / ČEZ)",
+  "type": "applet",
+  "description": "Interaktivní 3D model parní turbíny na portálu Svět energie (ČEZ) umožňuje prohlížení konstrukce ze všech úhlů včetně rotujících částí. Portál doplňuje výkladové stránky o fyzikálních principech parní turbíny v uhelných a jaderných elektrárnách — propojuje princip parního stroje s moderní energetikou. Vhodné jako rozšíření učiva 8. třídy o technické aplikace.",
+  "url": "https://www.svetenergie.cz/cs/3d-modely/parni-turbina"
+}
