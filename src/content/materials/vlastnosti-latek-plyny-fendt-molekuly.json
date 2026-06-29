@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-fendt-molekuly",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Walter Fendt: Pohyb částic v ideálním plynu (3D)",
+  "type": "applet",
+  "description": "HTML5 applet v češtině zobrazující chaotický pohyb molekul plynu ve 3D nádobě. Žáci vidí, jak se molekuly neustále pohybují různými rychlostmi a narážejí do stěn nádoby — přehledná vizualizace kinetické teorie. Lze měnit druh plynu, množství molekul a teplotu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gas3d_cz.htm"
+}

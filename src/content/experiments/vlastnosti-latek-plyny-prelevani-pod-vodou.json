@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-plyny-prelevani-pod-vodou",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Přelévání vzduchu pod vodou",
+  "type": "qualitative",
+  "description": "Demonstrační nebo skupinový žákovský pokus: Do akvária nebo velké průhledné nádoby naplněné vodou se vnořují dvě sklenice — jedna s lapnutým vzduchem (dnem vzhůru), druhá naplněná vodou. Vzduch se přelévá z jedné sklenice do druhé pod hladinou, jako by byl kapalina. Pokus ukazuje tekutost plynů a to, že plyn zaujímá tvar nádoby.",
+  "materials": [
+    "velká průhledná nádoba nebo akvárium",
+    "voda",
+    "dvě sklenice"
+  ],
+  "procedure": "Naplnit nádobu vodou. Jednu sklenici naplnit vzduchem a vnořit dnem vzhůru. Druhou naplnit vodou a vnořit. Pod hladinou naklonit sklenici se vzduchem k té s vodou — vzduch se přeleje nahoru.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-plyny-balonek-v-lahvi",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Balónek v lahvi — vzduch nelze nafouknout donekonečna",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci nasunou hrdlo balónku přes hrdlo PET lahve tak, aby byl balónek uvnitř lahve. Pokusí se nafouknout balónek ústy — nezdaří se, protože stlačený vzduch v lahvi vzdoruje. Po propíchnutí lahve jehličkou nafouknutí projde. Pokus demonstruje stlačitelnost vzduchu a to, že stlačený plyn vyvíjí sílu.",
+  "materials": [
+    "PET lahev (0,5 l)",
+    "balónek",
+    "jehla nebo propisovačka"
+  ],
+  "procedure": "Nasunout balónek přes hrdlo lahve, okraj balónku přehnout přes hrdlo. Zkusit nafouknout balónek — nejde. Propíchnout lahev jehlou. Zkusit znovu — balónek se nafoukne. Diskuse: co bránilo nafouknutí?",
+  "source": {
+    "label": "VNUF — Pokusy s plyny",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_01/01_19_Rojko.html"
+  }
+}

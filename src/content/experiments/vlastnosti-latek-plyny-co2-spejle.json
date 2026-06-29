@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-plyny-co2-spejle",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Průkaz CO₂ hořící špejlí — neviditelný plyn ve sklenici",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel naplní sklenici CO₂ (ze sifonu nebo z reakce octu a sody). Vnoří zapálenou špejli do sklenice — špejle zhasne, čímž se prokáže přítomnost CO₂. Plyn je pak přelit do druhé sklenice a průkaz se zopakuje, čímž se ověří, že CO₂ se skutečně přelil jako tekutina. Vhodné jako dramatický úvod k tématu různých plynů.",
+  "materials": [
+    "dvě sklenice",
+    "sifon s CO₂ nebo jedlá soda a ocet",
+    "dřevěná špejle",
+    "zapalovač"
+  ],
+  "procedure": "Naplnit sklenici CO₂ ze sifonu nebo z reakce octu a sody. Vnořit zapálenou špejli — zhasne. Přelít CO₂ do druhé sklenice, vložit špejli — opět zhasne. Porovnat s kontrolou (vzduch ve třetí sklenici).",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}
