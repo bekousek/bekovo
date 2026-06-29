@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-plyny-vzduch-misto",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vzduch zabírá místo — potopený suchý papír",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci vmáčknou zmačkaný papír do dna sklenice, otočí ji dnem vzhůru a celou sklenici svisle vnořují do nádoby s vodou. Papír zůstane suchý, protože vzduch v převrácené sklenici brání vodě vniknout. Pokus prokazuje, že vzduch je látka, zabírá místo a má určitý objem.",
+  "materials": [
+    "sklenice",
+    "papírový kapesník nebo zmačkaný papír",
+    "nádoba s vodou"
+  ],
+  "procedure": "Zmačkat papír a vložit do dna sklenice. Otočit sklenici dnem vzhůru a celou sklenici svisle ponořit do nádoby s vodou. Vyndat — papír je suchý.",
+  "source": {
+    "label": "Metodický portál RVP — Pokusy: existence vzduchu",
+    "url": "https://clanky.rvp.cz/clanek/s/Z/1924/POKUSY-%E2%80%93-EXISTENCE-VZDUCHU.html"
+  }
+}

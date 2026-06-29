@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-phet-stavy-hmoty",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Stavy hmoty",
+  "type": "applet",
+  "description": "Rozšířená PhET simulace v češtině zobrazující různé typy molekul v pevné látce, kapalině a plynu. Žáci přidávají nebo odebírají teplo, mění objem nádoby a sledují změny skupenství i pohyb molekul. Vhodná pro podrobnější prozkoumání kinetické teorie jako navazující aktivita.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter"
+}

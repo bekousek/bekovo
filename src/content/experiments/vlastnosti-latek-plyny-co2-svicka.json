@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-latek-plyny-co2-svicka",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Přelévání CO₂ — uhasnutí svíčky neviditelným plynem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel vyrobí CO₂ smícháním jedlé sody s octem v PET lahvi, počká až reakce doběhne, a pak plyn opatrně přeleje do sklenice. Hořící svíčku přiblíží ke sklenici a přeleje CO₂ na plamen — svíčka zhasne. Pokus ukazuje, že CO₂ je těžší než vzduch, lze ho přelévat jako kapalinu a má odlišné vlastnosti než vzduch.",
+  "materials": [
+    "jedlá soda (hydrogenuhličitan sodný)",
+    "ocet",
+    "PET lahev",
+    "velká sklenice",
+    "svíčka",
+    "zapalovač"
+  ],
+  "procedure": "Nasypat 2 lžíce jedlé sody do PET lahve, přidat ocet, počkat na doznění reakce (~2 min). Hrdlo přiblížit k okraji sklenice a přelít CO₂. Přiblížit hořící svíčku ke sklenici a přelít CO₂ na plamen — zhasne.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/chemie/pokus5.htm"
+  }
+}

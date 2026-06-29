@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-plyny-helium-vs-vzduch",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Heliový vs. vzduchový balónek — různá hustota plynů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel přinese balónek naplněný heliem a srovná ho s balónkem nafouklým vzduchem. Heliový balónek stoupá, vzduchový klesá — protože helium je lehčí než vzduch. Motivační úvod k tématu různé hustoty plynů; lze rozšířit o balónek s CO₂ (z octu a sody), který klesá ještě rychleji než vzduchový.",
+  "materials": [
+    "heliový balónek (z obchodu)",
+    "balónek nafouklý vzduchem",
+    "volitelně balónek naplněný CO₂"
+  ],
+  "procedure": "Pustit heliový balónek — stoupá. Pustit vzduchový balónek — klesá. Diskutovat, čím jsou naplněny a proč se chovají jinak. Případně demonstrovat CO₂ balónek, který klesá rychleji než vzduchový.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

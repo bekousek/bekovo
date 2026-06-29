@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-28",
+  "lastPicked": "2026-06-29",
   "history": [
     {
       "date": "2026-05-08",
@@ -224,6 +224,12 @@
       "subtopic": "tepelne-motory--parni-stroj",
       "result": "pr-pending",
       "items": 15
+    },
+    {
+      "date": "2026-06-29",
+      "subtopic": "vlastnosti-latek--plyny",
+      "result": "pr-pending",
+      "items": 28
     }
   ],
   "skipUntil": {}
