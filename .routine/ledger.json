@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-27",
+  "lastPicked": "2026-06-28",
   "history": [
     {
       "date": "2026-05-08",
@@ -76,12 +76,6 @@
       "items": 7
     },
     {
-      "date": "2026-06-07",
-      "subtopic": "sila--skladani-sil",
-      "result": "pr-pending",
-      "items": 12
-    },
-    {
       "date": "2026-06-05",
       "subtopic": "plyny-7--vakuum",
       "result": "pr-pending",
@@ -92,6 +86,12 @@
       "subtopic": "pohyb--grafy",
       "result": "pr-pending",
       "items": 7
+    },
+    {
+      "date": "2026-06-07",
+      "subtopic": "sila--skladani-sil",
+      "result": "pr-pending",
+      "items": 12
     },
     {
       "date": "2026-06-08",
@@ -178,12 +178,6 @@
       "items": 29
     },
     {
-      "date": "2026-06-24",
-      "subtopic": "plyny-7--vztlak-v-plynech",
-      "result": "pr-pending",
-      "items": 17
-    },
-    {
       "date": "2026-06-23",
       "subtopic": "optika--opticke-pristroje",
       "result": "pr-pending",
@@ -196,10 +190,10 @@
       "items": 17
     },
     {
-      "date": "2026-06-26",
-      "subtopic": "sila--jednoduche-stroje",
+      "date": "2026-06-24",
+      "subtopic": "plyny-7--vztlak-v-plynech",
       "result": "pr-pending",
-      "items": 30
+      "items": 17
     },
     {
       "date": "2026-06-24",
@@ -214,10 +208,22 @@
       "items": 30
     },
     {
+      "date": "2026-06-26",
+      "subtopic": "sila--jednoduche-stroje",
+      "result": "pr-pending",
+      "items": 30
+    },
+    {
       "date": "2026-06-27",
       "subtopic": "skupenstvi-latek--vztah-teploty-a-tlaku",
       "result": "pr-pending",
       "items": 18
+    },
+    {
+      "date": "2026-06-28",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "result": "pr-pending",
+      "items": 15
     }
   ],
   "skipUntil": {}
