@@ -1,0 +1,11 @@
+{
+  "id": "astronomie-vyfuk-vzdalenosti",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "Vzdálenosti ve vesmíru: jak je astronomové měří (Výfučtení)",
+  "description": "Žáci si prostudují vzdělávací text Výfuku vysvětlující metody měření kosmických vzdáleností: od trigonometrické paralaxy přes cefeidové proměnné hvězdy až po rudý posuv a Hubbleův zákon. Pochopení těchto metod umožňuje odvodit, jak víme, že se vesmír rozpíná a jak starý je — přímá vazba na téma Velkého třesku. Výzkumná domácí práce rozvíjí schopnost žáků pracovat s odborným populárně-vědeckým textem a propojuje teorii z hodiny s observační astronomií.",
+  "source": {
+    "label": "Výfuk (korespondenční seminář MFF UK)",
+    "url": "https://vyfuk.org/_media/ulohy/r5/vyfucteni/vyfucteni_5.pdf"
+  }
+}

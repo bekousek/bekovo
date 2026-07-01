@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-06-29",
+  "lastPicked": "astronomie--vesmir",
   "history": [
     {
       "date": "2026-05-08",
@@ -232,5 +232,13 @@
       "items": 28
     }
   ],
-  "skipUntil": {}
+  "skipUntil": {},
+  "entries": [
+    {
+      "date": "2026-07-01",
+      "subtopic": "astronomie--vesmir",
+      "result": "pr-pending",
+      "items": 19
+    }
+  ]
 }
