@@ -62,6 +62,8 @@ export class Renderer {
   private lastTickMs = 0;
   private lastSlowMotion = false;
   private lastSimTime = 0;
+  /** Stopa už byla po vypnutí smazána? Brání zamrznuté stopě na plátně. */
+  private tracerCleared = true;
   private fpsEma = 60;
   private lastStatsPush = 0;
   private poseScratch: BodySnapshotView = { x: 0, y: 0, angle: 0, vx: 0, vy: 0, omega: 0 };
@@ -185,6 +187,11 @@ export class Renderer {
     }
     if (this.tracerEnabled()) {
       this.tracer.draw(this.camera.pixelsPerMeter);
+      this.tracerCleared = false;
+    } else if (!this.tracerCleared) {
+      // Po vypnutí stopu jednou smazat — jinak zamrzne na plátně.
+      this.tracer.clear();
+      this.tracerCleared = true;
     }
     this.joints.draw((id) => this.bodies.poseOf(id), this.camera.pixelsPerMeter);
     this.vectors.draw(
@@ -201,7 +208,7 @@ export class Renderer {
     );
     this.fluid.draw(this.camera.pixelsPerMeter);
     this.rays.draw(this.raySegments(), this.camera.pixelsPerMeter);
-    this.instruments.draw(this.camera.pixelsPerMeter);
+    this.instruments.draw(this.camera.pixelsPerMeter, (id) => this.bodies.poseOf(id));
 
     // FPS + stats (push ~2× za sekundu)
     const dtMs = this.app.ticker.deltaMS;

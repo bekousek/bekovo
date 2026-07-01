@@ -70,6 +70,8 @@ export const cs = {
   gateOut: 'výstup',
   gateBlock: 'zákryt',
   gateNoData: 'zatím žádný průchod',
+  gateCollapse: 'Sbalit',
+  gateExpand: 'Rozbalit',
   selectionCount: 'Vybráno objektů',
   matWood: 'Dřevo',
   matSteel: 'Ocel',
@@ -115,6 +117,8 @@ export const cs = {
   predDiff: 'Odchylka',
   predTryAgain: 'Zkusit znovu',
   predRunning: 'Sleduj průběh simulace…',
+  predClose: 'Zavřít a prohlédnout scénu',
+  predReopen: 'Zobrazit lekci',
   // Silový diagram (F2-D)
   fbdTrack: 'Diagram sil',
   fbdPanelTitle: 'Síly na těleso',
@@ -134,7 +138,7 @@ export const cs = {
   thrusterFy: 'Síla Y (lok.)',
   // Optika — nástroj + panel (F3-C)
   toolLaser: 'Laser',
-  hintLaser: 'Ťukni — umístí laserový zdroj. Ťuknutí na těleso laser připevní k němu.',
+  hintLaser: 'Ťukni — umístí laserový zdroj. Směr paprsku nastavíš úhlem v panelu vlastností.',
   propOpticalSource: 'Zdroj světla',
   optSourceType: 'Typ',
   optSourceLaser: 'Laser',

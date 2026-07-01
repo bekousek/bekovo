@@ -14,7 +14,7 @@ import { Graphics } from 'pixi.js';
 import type { RaySegment } from '@engine/optics/OpticsModule';
 
 /** Převod vlnové délky [nm] na RGB (0–255). Aproximace CIE 1931. */
-function wavelengthToRgb(nm: number): { r: number; g: number; b: number } {
+export function wavelengthToRgb(nm: number): { r: number; g: number; b: number } {
   // λ = 0 = bílá
   if (nm === 0) return { r: 255, g: 255, b: 255 };
   let r = 0, g = 0, b = 0;
@@ -50,8 +50,14 @@ function wavelengthToRgb(nm: number): { r: number; g: number; b: number } {
   };
 }
 
-function rgbToHex(r: number, g: number, b: number): number {
+export function rgbToHex(r: number, g: number, b: number): number {
   return (r << 16) | (g << 8) | b;
+}
+
+/** Barva paprsku dané vlnové délky jako Pixi hex (0xrrggbb). */
+export function wavelengthColor(nm: number): number {
+  const rgb = wavelengthToRgb(nm);
+  return rgbToHex(rgb.r, rgb.g, rgb.b);
 }
 
 const RAY_WIDTH_M = 0.012; // tloušťka čáry v metrech (viditelná při libovolném zoomu)

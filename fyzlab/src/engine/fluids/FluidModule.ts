@@ -10,9 +10,15 @@
  */
 import type { SimModule, TickCtx, BodyState } from '../core/SimModule';
 import type { SnapshotWriter } from '../snapshot/layout';
+import { pointInPolygon } from '../core/math';
+import { bodyArea } from '../scene/mass';
 import type { Body, Fluid, SceneDoc } from '../scene/schema';
 
 type PoseGetter = (id: string) => { x: number; y: number; angle: number } | null;
+/** Rychlost těžiště tělesa — pro výpočet odporu kapaliny. */
+type VelGetter = (id: string) => { vx: number; vy: number } | null;
+/** Aplikace reakčního impulsu na dynamické těleso (obousměrná vazba). */
+type ImpulseApplier = (id: string, ix: number, iy: number) => void;
 
 // ---------------------------------------------------------------------------
 // Konstanty
@@ -29,6 +35,20 @@ const MAX_VEL = 20.0;    // clamp rychlosti [m/s]
  * znatelně bránila volnému pádu. 1 = bez tlumení.
  */
 const VEL_DAMPING = 0.99;
+/** Koeficient odporu kapaliny na ponořené těleso. Volen tak, aby vztlaková
+ * „pružina" byla u plovoucího tělesa přibližně kriticky tlumená → těleso se
+ * na hladině usadí bez dlouhého houpání (ne podtlumené kmitání dno↔hladina).
+ * Odpor se měří vůči klidné kapalině, ne lokální rychlosti — tu si klesající
+ * těleso strhává s sebou, takže by odpor zmizel. */
+const FLUID_DRAG = 40.0;
+/**
+ * Strop vztlaku jako násobek tíhy tělesa. I plně ponořené lehké těleso tak
+ * zrychluje vzhůru nejvýš ~(RATIO−1)·g — nikdy se „nevystřelí" do vesmíru,
+ * ať už odhad ponoru selže jakkoli.
+ */
+const BUOYANCY_MAX_RATIO = 2.5;
+/** Strop změny rychlosti tělesa z vazby na kapalinu za tick [m/s] (stabilita). */
+const MAX_COUPLE_DV = 0.6;
 
 // ---------------------------------------------------------------------------
 // Interní data jedné kapaliny
@@ -98,9 +118,16 @@ function initFluid(def: Fluid): FluidSim {
 
   // Spawn částic v mřížce uvnitř regionu.
   const { x: rx, y: ry, width: rw, height: rh } = def.region;
-  const spacing = 2 * r;
-  const cols = Math.max(1, Math.floor(rw / spacing));
-  const rows = Math.max(1, Math.floor(rh / spacing));
+  let spacing = 2 * r;
+  let cols = Math.max(1, Math.floor(rw / spacing));
+  let rows = Math.max(1, Math.floor(rh / spacing));
+  if (cols * rows > MAX_N) {
+    // Příliš mnoho částic → zvětši rozteč tak, aby se rozprostřely po CELÉ
+    // oblasti. (Jinak se zaplnilo jen dno a vršek regionu zůstal prázdný.)
+    spacing = Math.sqrt((rw * rh) / MAX_N);
+    cols = Math.max(1, Math.floor(rw / spacing));
+    rows = Math.max(1, Math.floor(rh / spacing));
+  }
   const N = Math.min(cols * rows, MAX_N);
 
   const xs = new Float32Array(N);
@@ -109,8 +136,8 @@ function initFluid(def: Fluid): FluidSim {
   outer: for (let row = 0; row < rows; row++) {
     for (let col = 0; col < cols; col++) {
       if (k >= N) break outer;
-      xs[k] = rx + r + col * spacing;
-      ys[k] = ry + r + row * spacing;
+      xs[k] = rx + spacing * 0.5 + col * spacing;
+      ys[k] = ry + spacing * 0.5 + row * spacing;
       k++;
     }
   }
@@ -159,11 +186,13 @@ function pushOut(
       case 'box': {
         const hw = shape.hw;
         const hh = shape.hh;
-        if (Math.abs(lx) < hw && Math.abs(ly) < hh) {
-          const dxL = lx + hw;
-          const dxR = hw - lx;
-          const dyB = ly + hh;
-          const dyT = hh - ly;
+        const bx = lx - (shape.offset?.x ?? 0);
+        const by = ly - (shape.offset?.y ?? 0);
+        if (Math.abs(bx) < hw && Math.abs(by) < hh) {
+          const dxL = bx + hw;
+          const dxR = hw - bx;
+          const dyB = by + hh;
+          const dyT = hh - by;
           let nlx = 0, nly = 0, depth = 0;
           if (dxL < dxR && dxL < dyB && dxL < dyT) {
             nlx = -1; depth = dxL;
@@ -175,6 +204,35 @@ function pushOut(
             nly = 1; depth = dyT;
           }
           return { cx: (ca2 * nlx - sa2 * nly) * depth, cy: (sa2 * nlx + ca2 * nly) * depth };
+        }
+        break;
+      }
+      case 'polygon': {
+        const pts = shape.points;
+        if (pointInPolygon({ x: lx, y: ly }, pts)) {
+          // Uvnitř polygonu → posun na nejbližší bod obvodu (nejkratší cesta ven).
+          let bestD2 = Infinity;
+          let qx = lx;
+          let qy = ly;
+          for (let i = 0; i < pts.length; i++) {
+            const a = pts[i]!;
+            const b = pts[(i + 1) % pts.length]!;
+            const ex = b.x - a.x;
+            const ey = b.y - a.y;
+            const len2 = ex * ex + ey * ey;
+            const tt = len2 > 0 ? Math.max(0, Math.min(1, ((lx - a.x) * ex + (ly - a.y) * ey) / len2)) : 0;
+            const cxp = a.x + ex * tt;
+            const cyp = a.y + ey * tt;
+            const d2 = (lx - cxp) * (lx - cxp) + (ly - cyp) * (ly - cyp);
+            if (d2 < bestD2) {
+              bestD2 = d2;
+              qx = cxp;
+              qy = cyp;
+            }
+          }
+          const nlx = qx - lx;
+          const nly = qy - ly;
+          return { cx: ca2 * nlx - sa2 * nly, cy: sa2 * nlx + ca2 * nly };
         }
         break;
       }
@@ -200,6 +258,53 @@ function pushOut(
   return null;
 }
 
+/** Světový AABB tělesa (bez nekonečných rovin) — pro odhad ponoru. */
+function bodyWorldExtent(
+  body: Body,
+  pose: { x: number; y: number; angle: number },
+): { minX: number; maxX: number; minY: number; maxY: number } | null {
+  const ca = Math.cos(pose.angle);
+  const sa = Math.sin(pose.angle);
+  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+  let has = false;
+  const add = (lx: number, ly: number) => {
+    const wx = pose.x + ca * lx - sa * ly;
+    const wy = pose.y + sa * lx + ca * ly;
+    if (wx < minX) minX = wx;
+    if (wx > maxX) maxX = wx;
+    if (wy < minY) minY = wy;
+    if (wy > maxY) maxY = wy;
+    has = true;
+  };
+  for (const shape of body.shapes) {
+    switch (shape.type) {
+      case 'circle': {
+        const ox = shape.offset?.x ?? 0;
+        const oy = shape.offset?.y ?? 0;
+        add(ox - shape.r, oy - shape.r);
+        add(ox + shape.r, oy + shape.r);
+        break;
+      }
+      case 'box': {
+        const ox = shape.offset?.x ?? 0;
+        const oy = shape.offset?.y ?? 0;
+        const sca = Math.cos(shape.angle);
+        const ssa = Math.sin(shape.angle);
+        for (const [cx, cy] of [[-shape.hw, -shape.hh], [shape.hw, -shape.hh], [shape.hw, shape.hh], [-shape.hw, shape.hh]] as const) {
+          add(ox + sca * cx - ssa * cy, oy + ssa * cx + sca * cy);
+        }
+        break;
+      }
+      case 'polygon':
+        for (const pt of shape.points) add(pt.x, pt.y);
+        break;
+      case 'plane':
+        break; // nekonečná — ponor nedává smysl
+    }
+  }
+  return has ? { minX, maxX, minY, maxY } : null;
+}
+
 // ---------------------------------------------------------------------------
 // FluidModule
 // ---------------------------------------------------------------------------
@@ -213,11 +318,22 @@ export class FluidModule implements SimModule {
   readonly name = 'fluid';
 
   private sims: FluidSim[] = [];
-  private bodies: { body: Body; pose: () => { x: number; y: number; angle: number } | null }[] = [];
+  private bodies: {
+    body: Body;
+    pose: () => { x: number; y: number; angle: number } | null;
+    /** Dynamické těleso přijímá reakční impuls od částic. */
+    dynamic: boolean;
+    /** Odhad hmotnosti [kg] pro dělení korekce podle poměru hmotností. */
+    mass: number;
+  }[] = [];
   private allBodies: Body[] = [];
   private gravity = { x: 0, y: -9.81 };
 
-  constructor(private readonly getPose: PoseGetter) {}
+  constructor(
+    private readonly getPose: PoseGetter,
+    private readonly applyImpulse: ImpulseApplier | null = null,
+    private readonly getVel: VelGetter | null = null,
+  ) {}
 
   build(doc: SceneDoc): void {
     this.gravity = { ...doc.world.gravity };
@@ -272,6 +388,8 @@ export class FluidModule implements SimModule {
     this.bodies = this.allBodies.map((body) => ({
       body,
       pose: () => this.getPose(body.id) ?? { x: body.transform.x, y: body.transform.y, angle: body.transform.angle },
+      dynamic: body.bodyType === 'dynamic',
+      mass: Math.max(1e-6, bodyArea(body) * body.material.density),
     }));
   }
 
@@ -329,7 +447,9 @@ export class FluidModule implements SimModule {
 
         // Lambda
         for (let i = 0; i < N; i++) {
-          const C = rho[i]! / rho0 - 1.0;
+          // Jen STLAČENÍ (C ≥ 0). Záporná podmínka u řídké volné hladiny by
+          // částice přitahovala (tahová nestabilita) → shluky a exploze.
+          const C = Math.max(0, rho[i]! / rho0 - 1.0);
           const ipx = px[i]!;
           const ipy = py[i]!;
           let sumGrad2 = 0;
@@ -394,8 +514,19 @@ export class FluidModule implements SimModule {
               }
             }
           }
-          dpx[i] = dpx[i]! / rho0;
-          dpy[i] = dpy[i]! / rho0;
+          // Pozn.: `f` už obsahuje 1/rho0 (gradient omezení ∇C = ∇W/rho0),
+          // takže korekce Δp = (1/rho0)·Σ(λi+λj)·∇W je HOTOVÁ. Dřívější
+          // druhé dělení rho0 zde dělalo tlak ~1000× slabší → kapalina byla
+          // fakticky bez tlaku, propadla se ke dnu, tam se rozdrtila a poziční
+          // odtlačení ji „vystřelilo" (vaření). Odstraněno.
+          // Strop korekce za iteraci ~ zlomek h → tlumí přestřelení (stabilita).
+          const maxC = 0.25 * h;
+          const dl = Math.hypot(dpx[i]!, dpy[i]!);
+          if (dl > maxC) {
+            const sc = maxC / dl;
+            dpx[i] = dpx[i]! * sc;
+            dpy[i] = dpy[i]! * sc;
+          }
         }
 
         // Aplikace korekci + kolize s telesy
@@ -404,7 +535,8 @@ export class FluidModule implements SimModule {
           py[i] = py[i]! + dpy[i]!;
         }
 
-        // Odtlaceni od telesu
+        // Odtlačení částic od těles (jednosměrné: tělesa vytlačují částice).
+        // Vztlak a odpor na těleso řeší samostatný hydrostatický průchod níže.
         for (const { body, pose } of this.bodies) {
           const p = pose();
           if (!p) continue;
@@ -474,6 +606,89 @@ export class FluidModule implements SimModule {
       // 5. Kopie predikci do aktualnich poloh
       x.set(px);
       y.set(py);
+
+      // Obousměrná vazba: hydrostatický vztlak + odpor na dynamická tělesa
+      // (po finálních polohách i rychlostech kapaliny).
+      this.applyBuoyancy(sim, dt);
+    }
+  }
+
+  /**
+   * Hydrostatický vztlak + odpor na dynamická tělesa (obousměrná vazba).
+   * Ponor odhadneme z výšky hladiny kapaliny u tělesa: Fb = ρ·g·(šířka·ponor).
+   * Lehčí těleso než kapalina vyplave, těžší klesne — bez pronikání částic.
+   */
+  private applyBuoyancy(sim: FluidSim, dt: number): void {
+    if (!this.applyImpulse) return;
+    const gMag = Math.hypot(this.gravity.x, this.gravity.y);
+    if (gMag < 1e-9) return;
+    const rho0 = sim.def.restDensity;
+    const ux = -this.gravity.x / gMag; // směr „nahoru" (proti gravitaci)
+    const uy = -this.gravity.y / gMag;
+    const { N, x, y, h } = sim;
+    if (N === 0) return;
+    // Bez dynamických těles není na co vztlak aplikovat → přeskočit i řazení.
+    if (!this.bodies.some((b) => b.dynamic)) return;
+
+    // Globální hladina kapaliny = vysoký percentil výšky (podél „nahoru").
+    // Robustní vůči šplouchnutí i vůči částicím, které si těleso vytáhne s
+    // sebou — pár odlehlých bodů percentil neposune, takže vztlak nemá zpětnou
+    // vazbu, která dřív těleso vymrštila. Zároveň zjistíme vodorovný rozsah
+    // kapaliny pro bránu „těleso je nad kapalinou".
+    const proj = new Float64Array(N);
+    let fluidMinX = Infinity;
+    let fluidMaxX = -Infinity;
+    for (let i = 0; i < N; i++) {
+      proj[i] = x[i]! * ux + y[i]! * uy;
+      const xi = x[i]!;
+      if (xi < fluidMinX) fluidMinX = xi;
+      if (xi > fluidMaxX) fluidMaxX = xi;
+    }
+    proj.sort();
+    const surfaceLevel = proj[Math.min(N - 1, Math.floor(N * 0.95))]!;
+
+    for (const { body, dynamic, mass } of this.bodies) {
+      if (!dynamic) continue;
+      const p = this.getPose(body.id);
+      if (!p) continue;
+      const ext = bodyWorldExtent(body, p);
+      if (!ext) continue;
+      const width = ext.maxX - ext.minX;
+      const height = ext.maxY - ext.minY;
+      if (width <= 1e-6 || height <= 1e-6) continue;
+
+      // Těleso musí ležet nad kapalinou i vodorovně (jinak by „vzdálený bazén"
+      // dodával fantomový vztlak). Bez nároku na částice těsně u tělesa —
+      // ponořené těleso u dna kolem sebe kapalinu vytlačí, ale vztlak dostat má.
+      if (ext.maxX < fluidMinX - h || ext.minX > fluidMaxX + h) continue;
+
+      // Ponor = kolik tělesa je pod globální hladinou (podél „nahoru").
+      const bottomLevel = ext.minX * ux + ext.minY * uy; // spodní hrana AABB
+      const topLevel = ext.maxX * ux + ext.maxY * uy;
+      const bodySpan = Math.max(1e-6, topLevel - bottomLevel);
+      const submergedFrac = Math.max(0, Math.min(1, (surfaceLevel - bottomLevel) / bodySpan));
+      if (submergedFrac <= 0) continue;
+
+      // Vztlak (plošná hustota): Fb = ρ·g·plocha·ponor, se stropem k·tíze.
+      const area = Math.max(1e-6, bodyArea(body));
+      let Fb = rho0 * gMag * area * submergedFrac;
+      Fb = Math.min(Fb, BUOYANCY_MAX_RATIO * mass * gMag);
+      let ix = ux * Fb * dt;
+      let iy = uy * Fb * dt;
+
+      // Odpor: odebere zlomek rychlosti tělesa (vůči klidné kapalině). Nikdy
+      // ji neobrátí (damp ≤ 0,6) → stabilní. Škáluje s ponorem.
+      const bv = this.getVel ? this.getVel(body.id) : null;
+      if (bv) {
+        const damp = Math.min(0.6, FLUID_DRAG * submergedFrac * dt);
+        ix += -bv.vx * damp * mass;
+        iy += -bv.vy * damp * mass;
+      }
+
+      // Strop změny rychlosti za tick (stabilita).
+      const dv = Math.hypot(ix, iy) / mass;
+      const s = dv > MAX_COUPLE_DV ? MAX_COUPLE_DV / dv : 1;
+      this.applyImpulse(body.id, ix * s, iy * s);
     }
   }
 

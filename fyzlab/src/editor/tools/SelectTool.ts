@@ -13,7 +13,7 @@ import type { Body, Entity, Shape } from '@engine/scene/schema';
 import type { DocOp, TransformPatch, VelocityPatch } from '@engine/scene/ops';
 import { aabbsOverlap, bodyWorldAABB } from '../bounds';
 import type { Command } from '../DocumentStore';
-import { findInstrumentAt, findJointAt } from '../hitTest';
+import { findInstrumentAt, findJointAt, findOpticalSourceAt } from '../hitTest';
 import type { Tool, ToolContext, ToolPointerEvent } from './Tool';
 
 type Mode = 'idle' | 'grab' | 'move' | 'rotate' | 'scale' | 'marquee';
@@ -144,6 +144,7 @@ export class SelectTool implements Tool {
     const hit =
       jointHit ??
       findInstrumentAt(this.ctx.store.doc, e.world, this.pxToWorld(12)) ??
+      findOpticalSourceAt(this.ctx.store.doc, (id) => state.poseOf(id), e.world, this.pxToWorld(14)) ??
       this.ctx.hitTest(e.world);
     if (hit) {
       this.downHit = hit;

@@ -11,7 +11,22 @@ import type { Runtime } from './bootstrap';
 import { t } from './i18n/t';
 
 const cardCls =
-  'pointer-events-auto w-full max-w-sm rounded-2xl bg-white/95 p-5 shadow-xl ring-1 ring-slate-200 backdrop-blur';
+  'pointer-events-auto relative w-full max-w-sm rounded-2xl bg-white/95 p-5 shadow-xl ring-1 ring-slate-200 backdrop-blur';
+
+/** Křížek v rohu karty — zavře overlay, aby si student mohl prohlédnout scénu. */
+function CloseButton({ onClose }: { onClose: () => void }) {
+  return (
+    <button
+      type="button"
+      aria-label={t('predClose')}
+      title={t('predClose')}
+      onClick={onClose}
+      className="absolute right-3 top-3 flex h-8 w-8 items-center justify-center rounded-full text-slate-400 transition hover:bg-slate-100 hover:text-slate-600 active:scale-95"
+    >
+      ✕
+    </button>
+  );
+}
 
 /** Formát čísla pro zobrazení výsledku (max 3 platné číslice). */
 function fmt(n: number): string {
@@ -26,11 +41,28 @@ export function PredictionOverlay({ runtime }: { runtime: Runtime }) {
   const predictionInput = useUiStore((s) => s.predictionInput);
   const predictionChosenId = useUiStore((s) => s.predictionChosenId);
   const predictionActual = useUiStore((s) => s.predictionActual);
+  const predictionDismissed = useUiStore((s) => s.predictionDismissed);
   const [showHint, setShowHint] = useState(false);
 
   if (!lesson) return null;
 
   const pred = lesson.prediction;
+  const dismiss = () => useUiStore.getState().setPredictionDismissed(true);
+
+  // Overlay zavřen studentem → jen malá lišta pro znovuotevření, plátno je volné.
+  if (predictionDismissed && predictionState !== 'running') {
+    return (
+      <div className="pointer-events-none absolute inset-x-0 top-20 flex justify-center px-4">
+        <button
+          type="button"
+          onClick={() => useUiStore.getState().setPredictionDismissed(false)}
+          className="pointer-events-auto rounded-xl bg-blue-600/90 px-4 py-2 text-sm font-medium text-white shadow backdrop-blur transition hover:bg-blue-500 active:scale-95"
+        >
+          📘 {t('predReopen')}
+        </button>
+      </div>
+    );
+  }
 
   // --- 'running': lišta, aby student věděl, co se děje ---
   if (predictionState === 'running') {
@@ -104,6 +136,7 @@ export function PredictionOverlay({ runtime }: { runtime: Runtime }) {
     return (
       <div className="absolute inset-0 flex items-center justify-center bg-slate-900/20 p-4">
         <div className={cardCls}>
+          <CloseButton onClose={dismiss} />
           <div
             className={`mb-1 text-lg font-bold ${correct ? 'text-emerald-600' : 'text-red-500'}`}
           >
@@ -150,6 +183,7 @@ export function PredictionOverlay({ runtime }: { runtime: Runtime }) {
   return (
     <div className="absolute inset-0 flex items-center justify-center bg-slate-900/20 p-4">
       <div className={cardCls}>
+        <CloseButton onClose={dismiss} />
         <h2 className="mb-1 text-xs font-bold tracking-wide text-blue-600 uppercase">
           Lekce
           {lesson.level && (

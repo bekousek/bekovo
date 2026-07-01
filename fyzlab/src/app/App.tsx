@@ -123,7 +123,7 @@ export default function App() {
       )}
 
       {runtime && (
-        <div className="absolute bottom-28 left-4 sm:bottom-24">
+        <div className="absolute bottom-28 left-20 sm:bottom-24">
           <GatePanel runtime={runtime} />
         </div>
       )}
