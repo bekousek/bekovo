@@ -25,7 +25,8 @@
     "2026-06-26-sila--jednoduche-stroje",
     "2026-06-29-vlastnosti-latek--plyny",
     "2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
-    "2026-06-28-tepelne-motory--parni-stroj"
+    "2026-06-28-tepelne-motory--parni-stroj",
+    "2026-07-01-astronomie--vesmir"
   ],
   "history": [
     {
@@ -259,6 +260,14 @@
       "merged": true,
       "processedAt": "2026-06-29T22:13:47.535Z",
       "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-01-astronomie--vesmir",
+      "subtopic": "astronomie--vesmir",
+      "branch": "routine/nightly-2026-07-01-astronomie--vesmir",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/51",
+      "merged": true,
+      "processedAt": "2026-07-01T09:24:55.756Z"
     }
   ]
 }
