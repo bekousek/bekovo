@@ -1,5 +1,128 @@
 @import "tailwindcss";
 
+/* ============================================================
+   DESIGN TOKENY — Refined Light Lab
+   Světlá varianta: výchozí (bez třídy)
+   Tmavá varianta: html.dark { … }
+   ============================================================ */
+
+@theme {
+  /* Základní barevná škála */
+  --color-accent: #4f46e5;
+  --color-accent-hover: #4338ca;
+  --color-accent-contrast: #ffffff;
+
+  --color-success: #10b981;
+  --color-danger: #f43f5e;
+  --color-warning: #f59e0b;
+
+  /* Rádiusy */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  /* Typografická škála */
+  --text-caption: 10px;
+  --text-footnote: 11px;
+  --text-body: 13px;
+  --text-label: 12px;
+  --text-title: 15px;
+}
+
+/* ── Světlá varianta (výchozí) ── */
+:root {
+  /* Povrchy */
+  --surface-0: #f1f5f9;   /* canvas pozadí */
+  --surface-1: #ffffff;   /* panel */
+  --surface-2: #f8fafc;   /* vyvýšený (input, čip) */
+
+  /* Text */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+
+  /* Okraje */
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+
+  /* Akcent */
+  --accent: #4f46e5;
+  --accent-hover: #4338ca;
+  --accent-contrast: #ffffff;
+
+  /* Sémantické */
+  --success: #10b981;
+  --danger: #f43f5e;
+  --warning: #f59e0b;
+
+  /* Stíny */
+  --shadow-panel: 0 1px 3px 0 rgb(0 0 0 / 0.08), 0 0 0 1px var(--border);
+  --shadow-pop: 0 8px 24px -4px rgb(0 0 0 / 0.12), 0 0 0 1px var(--border);
+
+  /* Plátno (PixiJS) */
+  --canvas-bg: #f1f5f9;
+  --grid-minor: #cbd5e1;
+  --grid-major: #94a3b8;
+  --grid-axis: #64748b;
+  --body-stroke: #334155;
+  --body-fill-default: #dbeafe;
+
+  /* FBD / vektory */
+  --fbd-force-gravity: #f43f5e;
+  --fbd-force-normal: #10b981;
+  --fbd-force-friction: #f59e0b;
+  --fbd-force-spring: #a78bfa;
+  --fbd-force-other: #64748b;
+  --vector-velocity: #3b82f6;
+}
+
+/* ── Tmavá varianta ── */
+.dark {
+  /* Povrchy */
+  --surface-0: #0f172a;
+  --surface-1: #1e293b;
+  --surface-2: #273548;
+
+  /* Text */
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+
+  /* Okraje */
+  --border: #334155;
+  --border-strong: #475569;
+
+  /* Akcent — světlejší pro lepší kontrast na tmavém */
+  --accent: #818cf8;
+  --accent-hover: #a5b4fc;
+  --accent-contrast: #1e1b4b;
+
+  /* Stíny — výraznější na tmavém */
+  --shadow-panel: 0 1px 3px 0 rgb(0 0 0 / 0.25), 0 0 0 1px var(--border);
+  --shadow-pop: 0 8px 24px -4px rgb(0 0 0 / 0.40), 0 0 0 1px var(--border);
+
+  /* Plátno (PixiJS) */
+  --canvas-bg: #0f172a;
+  --grid-minor: #1e293b;
+  --grid-major: #334155;
+  --grid-axis: #475569;
+  --body-stroke: #94a3b8;
+  --body-fill-default: #1e3a5f;
+
+  /* FBD / vektory — stejné sémantické barvy, čitelné na tmavém */
+  --fbd-force-gravity: #fb7185;
+  --fbd-force-normal: #34d399;
+  --fbd-force-friction: #fbbf24;
+  --fbd-force-spring: #c4b5fd;
+  --fbd-force-other: #94a3b8;
+  --vector-velocity: #60a5fa;
+}
+
+/* ============================================================
+   Globální reset & základ
+   ============================================================ */
+
 html,
 body,
 #root {
@@ -11,5 +134,8 @@ body,
 
 body {
   font-family: ui-sans-serif, system-ui, "Segoe UI", Roboto, sans-serif;
+  font-size: var(--text-body);
+  color: var(--text-primary);
+  background: var(--surface-0);
   -webkit-tap-highlight-color: transparent;
 }
