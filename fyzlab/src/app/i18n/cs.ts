@@ -173,6 +173,8 @@ export const cs = {
   librarySubtitle: 'Vyberte předpřipravenou scénu nebo začněte prázdnou.',
   libraryEmpty: 'Prázdná scéna',
   libraryLoad: 'Načíst',
+  switchToDark: 'Tmavý motiv',
+  switchToLight: 'Světlý motiv',
 } as const;
 
 export type MsgKey = keyof typeof cs;

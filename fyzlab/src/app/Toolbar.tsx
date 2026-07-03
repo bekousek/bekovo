@@ -2,59 +2,36 @@
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
+import { Button, Icon, Panel } from './ui';
+import type { IconName } from './ui';
 
 interface ToolSpec {
   id: string;
-  icon: string;
+  icon: IconName;
   labelKey: MsgKey;
   shortcut: string;
 }
 
 const SHAPE_TOOLS: ToolSpec[] = [
-  { id: 'drag', icon: '✋', labelKey: 'toolDrag', shortcut: 'V' },
-  { id: 'box', icon: '▭', labelKey: 'toolBox', shortcut: 'B' },
-  { id: 'circle', icon: '◯', labelKey: 'toolCircle', shortcut: 'K' },
-  { id: 'polygon', icon: '✏️', labelKey: 'toolPolygon', shortcut: 'P' },
-  { id: 'plane', icon: '⏤', labelKey: 'toolPlane', shortcut: 'R' },
+  { id: 'drag', icon: 'drag', labelKey: 'toolDrag', shortcut: 'V' },
+  { id: 'box', icon: 'box', labelKey: 'toolBox', shortcut: 'B' },
+  { id: 'circle', icon: 'circle', labelKey: 'toolCircle', shortcut: 'K' },
+  { id: 'polygon', icon: 'polygon', labelKey: 'toolPolygon', shortcut: 'P' },
+  { id: 'plane', icon: 'plane', labelKey: 'toolPlane', shortcut: 'R' },
 ];
 
 const JOINT_TOOLS: ToolSpec[] = [
-  { id: 'axle', icon: '⊙', labelKey: 'toolAxle', shortcut: 'O' },
-  { id: 'spring', icon: '∿', labelKey: 'toolSpring', shortcut: 'S' },
-  { id: 'fixed', icon: '📌', labelKey: 'toolFixed', shortcut: 'F' },
-  { id: 'thruster', icon: '⇑', labelKey: 'toolThruster', shortcut: 'U' },
+  { id: 'axle', icon: 'axle', labelKey: 'toolAxle', shortcut: 'O' },
+  { id: 'spring', icon: 'spring', labelKey: 'toolSpring', shortcut: 'S' },
+  { id: 'fixed', icon: 'fixed', labelKey: 'toolFixed', shortcut: 'F' },
+  { id: 'thruster', icon: 'thruster', labelKey: 'toolThruster', shortcut: 'U' },
 ];
 
 const INSTRUMENT_TOOLS: ToolSpec[] = [
-  { id: 'photogate', icon: '┆', labelKey: 'toolPhotogate', shortcut: 'T' },
-  { id: 'laser', icon: '⟶', labelKey: 'toolLaser', shortcut: 'L' },
-  { id: 'fluid', icon: '💧', labelKey: 'toolFluid', shortcut: 'W' },
+  { id: 'photogate', icon: 'photogate', labelKey: 'toolPhotogate', shortcut: 'T' },
+  { id: 'laser', icon: 'laser', labelKey: 'toolLaser', shortcut: 'L' },
+  { id: 'fluid', icon: 'fluid', labelKey: 'toolFluid', shortcut: 'W' },
 ];
-
-function ToolButton({
-  tool,
-  active,
-  onSelect,
-}: {
-  tool: ToolSpec;
-  active: boolean;
-  onSelect: (id: string) => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={() => onSelect(tool.id)}
-      aria-label={t(tool.labelKey)}
-      aria-pressed={active}
-      title={`${t(tool.labelKey)} (${tool.shortcut})`}
-      className={`flex h-12 w-12 items-center justify-center rounded-xl text-xl transition select-none active:scale-95 ${
-        active ? 'bg-blue-600 text-white shadow-sm' : 'text-slate-700 hover:bg-slate-100'
-      }`}
-    >
-      {tool.icon}
-    </button>
-  );
-}
 
 export function Toolbar({
   onSelect,
@@ -67,37 +44,65 @@ export function Toolbar({
   const snapEnabled = useUiStore((s) => s.snapEnabled);
 
   return (
-    <div className="pointer-events-auto flex flex-col gap-1 rounded-2xl bg-white/85 p-2 shadow-lg ring-1 ring-slate-200 backdrop-blur">
+    <Panel className="flex flex-col gap-0.5 p-1.5 backdrop-blur-sm">
       {SHAPE_TOOLS.map((tool) => (
-        <ToolButton key={tool.id} tool={tool} active={activeToolId === tool.id} onSelect={onSelect} />
+        <Button
+          key={tool.id}
+          variant="tool"
+          active={activeToolId === tool.id}
+          aria-label={t(tool.labelKey)}
+          aria-pressed={activeToolId === tool.id}
+          title={`${t(tool.labelKey)} (${tool.shortcut})`}
+          onClick={() => onSelect(tool.id)}
+        >
+          <Icon name={tool.icon} size={20} />
+        </Button>
       ))}
 
-      <div className="mx-2 my-1 h-px bg-slate-200" />
+      <div className="mx-2 my-0.5 h-px bg-[var(--border)]" />
 
       {JOINT_TOOLS.map((tool) => (
-        <ToolButton key={tool.id} tool={tool} active={activeToolId === tool.id} onSelect={onSelect} />
+        <Button
+          key={tool.id}
+          variant="tool"
+          active={activeToolId === tool.id}
+          aria-label={t(tool.labelKey)}
+          aria-pressed={activeToolId === tool.id}
+          title={`${t(tool.labelKey)} (${tool.shortcut})`}
+          onClick={() => onSelect(tool.id)}
+        >
+          <Icon name={tool.icon} size={20} />
+        </Button>
       ))}
 
-      <div className="mx-2 my-1 h-px bg-slate-200" />
+      <div className="mx-2 my-0.5 h-px bg-[var(--border)]" />
 
       {INSTRUMENT_TOOLS.map((tool) => (
-        <ToolButton key={tool.id} tool={tool} active={activeToolId === tool.id} onSelect={onSelect} />
+        <Button
+          key={tool.id}
+          variant="tool"
+          active={activeToolId === tool.id}
+          aria-label={t(tool.labelKey)}
+          aria-pressed={activeToolId === tool.id}
+          title={`${t(tool.labelKey)} (${tool.shortcut})`}
+          onClick={() => onSelect(tool.id)}
+        >
+          <Icon name={tool.icon} size={20} />
+        </Button>
       ))}
 
-      <div className="mx-2 my-1 h-px bg-slate-200" />
+      <div className="mx-2 my-0.5 h-px bg-[var(--border)]" />
 
-      <button
-        type="button"
-        onClick={onToggleSnap}
+      <Button
+        variant="tool"
+        active={snapEnabled}
         aria-label={t('snapGrid')}
         aria-pressed={snapEnabled}
         title={`${t('snapGrid')} (G)`}
-        className={`flex h-12 w-12 items-center justify-center rounded-xl text-xl transition select-none active:scale-95 ${
-          snapEnabled ? 'bg-slate-200 text-slate-800' : 'text-slate-400 hover:bg-slate-100'
-        }`}
+        onClick={onToggleSnap}
       >
-        ⌗
-      </button>
-    </div>
+        <Icon name="snap" size={20} />
+      </Button>
+    </Panel>
   );
 }

@@ -1,40 +1,14 @@
 /**
  * Horní lišta: otevřít/uložit .fyzlab, zkopírovat odkaz #s=, přepínač
- * vektorů rychlosti. Toast dole hlásí výsledky (zkopírováno, chyba…).
+ * vektorů rychlosti, stopy pohybu a motivu (světlý/tmavý).
  */
-import { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import { downloadScene, readSceneFile } from '@share/fileIO';
 import { encodeSceneParam, URL_WARN_BYTES } from '@share/urlCodec';
 import type { Runtime } from './bootstrap';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
-
-function BarButton({
-  icon,
-  label,
-  active,
-  onClick,
-}: {
-  icon: string;
-  label: string;
-  active?: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      aria-label={label}
-      aria-pressed={active}
-      title={label}
-      className={`flex h-11 w-11 items-center justify-center rounded-xl text-lg transition select-none active:scale-95 ${
-        active ? 'bg-emerald-600 text-white shadow-sm' : 'text-slate-700 hover:bg-slate-100'
-      }`}
-    >
-      {icon}
-    </button>
-  );
-}
+import { Button, Icon, Panel } from './ui';
 
 export function TopBar({
   runtime,
@@ -47,8 +21,9 @@ export function TopBar({
 }) {
   const showVelocityAll = useUiStore((s) => s.showVelocityAll);
   const tracerEnabled = useUiStore((s) => s.tracerEnabled);
+  const theme = useUiStore((s) => s.theme);
   const fileRef = useRef<HTMLInputElement>(null);
-  const toast = (msg: string) => useUiStore.getState().setToast(msg);
+  const showToast = (msg: string) => useUiStore.getState().setToast(msg);
 
   const onOpenPicked = async (file: File | undefined) => {
     if (!file) return;
@@ -56,13 +31,13 @@ export function TopBar({
       runtime.loadScene(await readSceneFile(file));
     } catch (err) {
       console.error('[fyzlab] open:', err);
-      toast(t('toastLoadError'));
+      showToast(t('toastLoadError'));
     }
   };
 
   const onSave = () => {
     downloadScene(runtime.docForSave());
-    toast(t('toastSaved'));
+    showToast(t('toastSaved'));
   };
 
   const onShare = async () => {
@@ -72,19 +47,19 @@ export function TopBar({
     try {
       await navigator.clipboard.writeText(url);
       const kb = (param.length / 1024).toFixed(1);
-      toast(
+      showToast(
         param.length > URL_WARN_BYTES
           ? t('toastLinkBig')
           : `${t('toastLinkCopied')} (${kb} kB)`,
       );
     } catch {
-      // Bez clipboard práv aspoň zůstává odkaz v adresním řádku.
-      toast(t('toastLinkCopied'));
+      // Bez clipboard práv odkaz zůstává v adresním řádku.
+      showToast(t('toastLinkCopied'));
     }
   };
 
   return (
-    <div className="pointer-events-auto flex gap-1 rounded-2xl bg-white/85 p-1.5 shadow-lg ring-1 ring-slate-200 backdrop-blur">
+    <Panel className="flex items-center gap-0.5 p-1.5 backdrop-blur-sm">
       <input
         ref={fileRef}
         type="file"
@@ -95,42 +70,55 @@ export function TopBar({
           e.target.value = '';
         }}
       />
-      <BarButton icon="📚" label={t('topLibrary')} onClick={onLibrary} />
-      <BarButton icon="📂" label={t('topOpen')} onClick={() => fileRef.current?.click()} />
-      <BarButton icon="?" label={t('topHelp')} onClick={onHelp} />
-      <BarButton icon="💾" label={t('topSave')} onClick={onSave} />
-      <BarButton icon="🔗" label={t('topShare')} onClick={() => void onShare()} />
-      <div className="mx-1 my-1.5 w-px bg-slate-200" />
-      <BarButton
-        icon="➶"
-        label={t('topVectors')}
+      <Button variant="bar" aria-label={t('topLibrary')} title={t('topLibrary')} onClick={onLibrary}>
+        <Icon name="library" />
+      </Button>
+      <Button variant="bar" aria-label={t('topOpen')} title={t('topOpen')} onClick={() => fileRef.current?.click()}>
+        <Icon name="open" />
+      </Button>
+      <Button variant="bar" aria-label={t('topHelp')} title={t('topHelp')} onClick={onHelp}>
+        <Icon name="help" />
+      </Button>
+      <Button variant="bar" aria-label={t('topSave')} title={t('topSave')} onClick={onSave}>
+        <Icon name="save" />
+      </Button>
+      <Button variant="bar" aria-label={t('topShare')} title={t('topShare')} onClick={() => void onShare()}>
+        <Icon name="share" />
+      </Button>
+
+      <div className="mx-1 my-1.5 w-px self-stretch bg-[var(--border)]" />
+
+      <Button
+        variant="bar"
         active={showVelocityAll}
+        aria-label={t('topVectors')}
+        aria-pressed={showVelocityAll}
+        title={t('topVectors')}
         onClick={() => useUiStore.getState().setShowVelocityAll(!showVelocityAll)}
-      />
-      <BarButton
-        icon="〰"
-        label={t('topTracer')}
+      >
+        <Icon name="vectors" />
+      </Button>
+      <Button
+        variant="bar"
         active={tracerEnabled}
+        aria-label={t('topTracer')}
+        aria-pressed={tracerEnabled}
+        title={t('topTracer')}
         onClick={() => useUiStore.getState().setTracerEnabled(!tracerEnabled)}
-      />
-    </div>
-  );
-}
+      >
+        <Icon name="tracer" />
+      </Button>
 
-/** Pomíjivá zpráva dole uprostřed. */
-export function Toast() {
-  const toast = useUiStore((s) => s.toast);
+      <div className="mx-1 my-1.5 w-px self-stretch bg-[var(--border)]" />
 
-  useEffect(() => {
-    if (!toast) return;
-    const id = window.setTimeout(() => useUiStore.getState().setToast(null), 3500);
-    return () => window.clearTimeout(id);
-  }, [toast]);
-
-  if (!toast) return null;
-  return (
-    <div className="pointer-events-none absolute bottom-36 left-1/2 -translate-x-1/2 rounded-xl bg-slate-800/90 px-4 py-2 text-sm text-white shadow-lg">
-      {toast}
-    </div>
+      <Button
+        variant="bar"
+        aria-label={theme === 'light' ? t('switchToDark') : t('switchToLight')}
+        title={theme === 'light' ? t('switchToDark') : t('switchToLight')}
+        onClick={() => useUiStore.getState().setTheme(theme === 'light' ? 'dark' : 'light')}
+      >
+        <Icon name={theme === 'light' ? 'moon' : 'sun'} />
+      </Button>
+    </Panel>
   );
 }
