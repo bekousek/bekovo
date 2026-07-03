@@ -1,0 +1,19 @@
+{
+  "id": "elektricke-obvody-kapaliny-pokovani",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Galvanické pokovování (galvanoplastika)",
+  "type": "qualitative",
+  "description": "Elektrolýzou roztoku síranu měďnatého (CuSO₄) se kovový předmět zapojený jako katoda pokryje tenkou vrstvou mědi. Fascinující vizuální výsledek silně motivuje žáky a propojuje fyzikální princip elektrolýzy s průmyslovou galvanoplastikou a pokovováním. Jde o demonstrační pokus učitele; CuSO₄ vyžaduje základní opatrnost.",
+  "materials": [
+    "roztok síranu měďnatého (CuSO₄)",
+    "zdroj stejnosměrného napětí",
+    "měděná elektroda (anoda)",
+    "kovový předmět k pokovení (katoda)",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/elektrina-a-magnetismus/vedeni-proudu-v-kapalinach/galvanicke-pokovovani-69/"
+  }
+}

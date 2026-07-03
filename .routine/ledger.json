@@ -1,5 +1,5 @@
 {
-  "lastPicked": "astronomie--vesmir",
+  "lastPicked": "elektricke-obvody--vedeni-proudu-v-kapalinach",
   "history": [
     {
       "date": "2026-05-08",
@@ -239,6 +239,12 @@
       "subtopic": "astronomie--vesmir",
       "result": "pr-pending",
       "items": 19
+    },
+    {
+      "date": "2026-07-03",
+      "subtopic": "elektricke-obvody--vedeni-proudu-v-kapalinach",
+      "result": "pr-pending",
+      "items": 36
     }
   ]
 }

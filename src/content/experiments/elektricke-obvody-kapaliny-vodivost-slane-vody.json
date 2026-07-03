@@ -1,0 +1,12 @@
+{
+  "id": "elektricke-obvody-kapaliny-vodivost-slane-vody",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Vodivost slané vody",
+  "type": "qualitative",
+  "description": "Žákovský pokus ověřující, že čistá voda elektrický proud nevede, ale solný roztok ano. Jednoduchou sestavou (baterie, žárovka nebo LED, elektrody ve sklenici s vodou) žáci sami demonstrují, jak přidání soli umožní průchod proudu kapalinou. Vhodný jako první a nejjednodušší pokus v tématu vedení proudu v kapalinách.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus17.htm"
+  }
+}
