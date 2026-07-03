@@ -1,0 +1,19 @@
+{
+  "id": "elektricke-obvody-kapaliny-primitivni-clanky",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Srovnání galvanických článků z různých plodů a kovů",
+  "type": "qualitative",
+  "description": "Žáci systematicky sestavují galvanické články z různých kombinací plodů (citron, pomeranč, brambor, cibule) a párů kovů (Cu+Zn, Cu+Fe, Al+Fe) a měří výsledné napětí voltmetrem. Porovnáváním výsledků zjišťují, které kombinace dávají vyšší napětí, a formulují závěry o roli elektrolytu a volby elektrod. Jde o žákovský badatelský pokus zpracovaný učiteli ZŠ.",
+  "materials": [
+    "citron, pomeranč, brambor, cibule",
+    "měděné, zinkové, železné a hliníkové elektrody",
+    "voltmetr",
+    "vodiče s krokodýlky"
+  ],
+  "procedure": "Zapíchneme dvě různé kovové elektrody do plodu, změříme napětí voltmetrem. Opakujeme pro různé kombinace kovů a plodů. Výsledky zaznamenáme do tabulky a porovnáme.",
+  "source": {
+    "label": "Veletrh nápadů učitelů fyziky — sborník",
+    "url": "http://vnuf.cz/sbornik/prispevky/03-12-Rauner.html"
+  }
+}

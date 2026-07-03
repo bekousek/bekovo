@@ -1,0 +1,18 @@
+{
+  "id": "elektricke-obvody-kapaliny-elektrolyza-nacl",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Elektrolýza roztoku kuchyňské soli",
+  "type": "qualitative",
+  "description": "Průchodem stejnosměrného proudu roztokem NaCl se na elektrodách vyvíjejí viditelné bublinky plynů a na anodě je cítit slabý chlorový zápach. Jde o demonstrační pokus učitele, který dokládá chemické účinky elektrického proudu v elektrolytu; provádí se v dobře větrané místnosti při nízkém napětí. Vhodný jako motivační úvod k tématu elektrolýzy.",
+  "materials": [
+    "roztok kuchyňské soli",
+    "zdroj stejnosměrného napětí",
+    "uhlíkové elektrody",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/elektrina-a-magnetismus/vedeni-proudu-v-kapalinach/elektrolyza-roztoku-nacl-65/"
+  }
+}
