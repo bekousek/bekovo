@@ -4,7 +4,8 @@
  * undoable Command; slidery jdou transientně a commit má undo z počátku tahu.
  * Funguje i za běhu simulace (live-edit).
  */
-import { useCallback, useRef, useState, useSyncExternalStore } from 'react';
+import { useCallback, useRef, useSyncExternalStore } from 'react';
+import { Activity, Crosshair } from 'lucide-react';
 import { cmdReplaceEntity, cmdSetKinematics, cmdSetWorld, kinematicsOf } from '@editor/commands';
 import type { DocumentStore } from '@editor/DocumentStore';
 import type { DocOp, TransformPatch, VelocityPatch } from '@engine/scene/ops';
@@ -14,6 +15,7 @@ import type { Runtime } from './bootstrap';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
+import { Panel, Section, Field, NumberInput, Slider, Chip, Swatch, Button } from './ui';
 
 const MAT_LABEL: Record<string, MsgKey> = {
   wood: 'matWood',
@@ -40,13 +42,16 @@ const COLORS = [
   '#1f2937',
 ];
 
-const DEG = 180 / Math.PI;
+/** Vlnové délky s odpovídajícími barvami pro vizuální identifikaci. */
+const WL_PRESETS = [
+  { label: '405 nm', value: 405, dot: '#8b00ff' },
+  { label: '450 nm', value: 450, dot: '#2255ff' },
+  { label: '550 nm', value: 550, dot: '#22cc44' },
+  { label: '589 nm', value: 589, dot: '#ffd700' },
+  { label: '650 nm', value: 650, dot: '#ff2222' },
+];
 
-/** Zaokrouhlení pro zobrazení (f32 šum: −1.2000000476 → −1.2). */
-function fmt(v: number): string {
-  const r = Math.round(v * 1000) / 1000;
-  return String(Object.is(r, -0) ? 0 : r);
-}
+const DEG = 180 / Math.PI;
 
 /** Překreslit panel při každé změně výběru/dokumentu/snapshotu. */
 export function useEditorVersion(rt: Runtime): number {
@@ -72,166 +77,6 @@ export function useEditorVersion(rt: Runtime): number {
 }
 
 // ---------------------------------------------------------------------------
-// Stavební prvky
-// ---------------------------------------------------------------------------
-
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
-  return (
-    <section className="space-y-1.5">
-      <h3 className="text-[11px] font-bold tracking-wide text-slate-400 uppercase">{title}</h3>
-      {children}
-    </section>
-  );
-}
-
-function NumberField({
-  label,
-  unit,
-  value,
-  step = 0.1,
-  onCommit,
-}: {
-  label: string;
-  unit?: string;
-  value: number;
-  step?: number;
-  onCommit: (v: number) => void;
-}) {
-  const [draft, setDraft] = useState<string | null>(null);
-
-  const commit = () => {
-    if (draft === null) return;
-    const v = Number(draft.replace(',', '.'));
-    setDraft(null);
-    if (Number.isFinite(v) && v !== value) onCommit(v);
-  };
-
-  return (
-    <label className="flex items-center justify-between gap-2 text-xs text-slate-600">
-      <span className="whitespace-nowrap">{label}</span>
-      <span className="flex items-center gap-1">
-        <input
-          type="number"
-          className="w-20 rounded-md border border-slate-200 bg-white px-1.5 py-1 text-right text-xs tabular-nums focus:border-blue-400 focus:outline-none"
-          value={draft ?? fmt(value)}
-          step={step}
-          onChange={(e) => setDraft(e.target.value)}
-          onFocus={() => setDraft(fmt(value))}
-          onBlur={commit}
-          onKeyDown={(e) => {
-            if (e.key === 'Enter') {
-              commit();
-              e.currentTarget.blur();
-            } else if (e.key === 'Escape') {
-              setDraft(null);
-              e.currentTarget.blur();
-            }
-          }}
-        />
-        <span className="w-9 text-[10px] text-slate-400">{unit ?? ''}</span>
-      </span>
-    </label>
-  );
-}
-
-function SliderField({
-  label,
-  value,
-  min,
-  max,
-  step,
-  onTransient,
-  onCommit,
-}: {
-  label: string;
-  value: number;
-  min: number;
-  max: number;
-  step: number;
-  /** Živá změna během tahu (bez undo záznamu). */
-  onTransient: (v: number) => void;
-  /** Konec tahu: hodnota z počátku tahu → finální (jeden undo krok). */
-  onCommit: (start: number, end: number) => void;
-}) {
-  const start = useRef<number | null>(null);
-  const last = useRef(value);
-
-  return (
-    <label className="block text-xs text-slate-600">
-      <span className="flex justify-between">
-        <span>{label}</span>
-        <span className="text-slate-400 tabular-nums">{fmt(value)}</span>
-      </span>
-      <input
-        type="range"
-        className="w-full accent-blue-600"
-        min={min}
-        max={max}
-        step={step}
-        value={value}
-        onPointerDown={() => {
-          start.current = value;
-          last.current = value;
-        }}
-        onChange={(e) => {
-          const v = Number(e.target.value);
-          last.current = v;
-          if (start.current !== null) onTransient(v);
-          else onCommit(value, v); // klávesnice — rovnou commit
-        }}
-        onPointerUp={() => {
-          if (start.current !== null && last.current !== start.current) {
-            onCommit(start.current, last.current);
-          }
-          start.current = null;
-        }}
-      />
-    </label>
-  );
-}
-
-function Chip({
-  label,
-  active,
-  onClick,
-}: {
-  label: string;
-  active?: boolean;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      type="button"
-      onClick={onClick}
-      className={`rounded-full px-2 py-1 text-[11px] transition select-none active:scale-95 ${
-        active ? 'bg-blue-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-      }`}
-    >
-      {label}
-    </button>
-  );
-}
-
-function ColorSwatches({ value, onPick }: { value: string; onPick: (c: string) => void }) {
-  return (
-    <div className="flex flex-wrap gap-1.5">
-      {COLORS.map((c) => (
-        <button
-          key={c}
-          type="button"
-          aria-label={c}
-          onClick={() => onPick(c)}
-          className={`h-6 w-6 rounded-full ring-2 transition active:scale-90 ${
-            value.toLowerCase() === c ? 'ring-blue-500' : 'ring-transparent hover:ring-slate-300'
-          }`}
-          style={{ backgroundColor: c }}
-        />
-      ))}
-    </div>
-  );
-}
-
-// ---------------------------------------------------------------------------
 // Sekce: svět / těleso / kloub / multi-výběr
 // ---------------------------------------------------------------------------
 
@@ -247,16 +92,30 @@ function WorldSection({ store }: { store: DocumentStore }) {
   };
   return (
     <Section title={t('propWorld')}>
-      <NumberField label={t('propGravity')} unit="m/s²" value={-g.y} step={0.1} onCommit={setGravity} />
+      <Field label={t('propGravity')} unit="m/s²">
+        <NumberInput value={-g.y} step={0.1} onCommit={setGravity} />
+      </Field>
       <div className="flex flex-wrap gap-1.5">
-        <Chip label={`${t('presetEarth')} 9,81`} active={Math.abs(-g.y - 9.81) < 1e-9} onClick={() => setGravity(9.81)} />
-        <Chip label={`${t('presetMoon')} 1,62`} active={Math.abs(-g.y - 1.62) < 1e-9} onClick={() => setGravity(1.62)} />
-        <Chip label={t('presetZeroG')} active={g.y === 0} onClick={() => setGravity(0)} />
+        <Chip active={Math.abs(-g.y - 9.81) < 1e-9} onClick={() => setGravity(9.81)}>
+          {t('presetEarth')} 9,81
+        </Chip>
+        <Chip active={Math.abs(-g.y - 1.62) < 1e-9} onClick={() => setGravity(1.62)}>
+          {t('presetMoon')} 1,62
+        </Chip>
+        <Chip active={g.y === 0} onClick={() => setGravity(0)}>
+          {t('presetZeroG')}
+        </Chip>
       </div>
-      <NumberField label={t('propAir')} unit="kg/m³" value={air} step={0.1} onCommit={setAir} />
+      <Field label={t('propAir')} unit="kg/m³">
+        <NumberInput value={air} step={0.1} onCommit={setAir} />
+      </Field>
       <div className="flex flex-wrap gap-1.5">
-        <Chip label={t('presetVacuum')} active={air === 0} onClick={() => setAir(0)} />
-        <Chip label={`${t('presetAir')} 1,2`} active={Math.abs(air - 1.2) < 1e-9} onClick={() => setAir(1.2)} />
+        <Chip active={air === 0} onClick={() => setAir(0)}>
+          {t('presetVacuum')}
+        </Chip>
+        <Chip active={Math.abs(air - 1.2) < 1e-9} onClick={() => setAir(1.2)}>
+          {t('presetAir')} 1,2
+        </Chip>
       </div>
     </Section>
   );
@@ -268,14 +127,15 @@ function presetChips(current: { density: number; friction: number; restitution: 
       {MATERIAL_PRESETS.map((p) => (
         <Chip
           key={p.id}
-          label={t(MAT_LABEL[p.id] ?? 'propMaterial')}
           active={
             current.density === p.density &&
             current.friction === p.friction &&
             current.restitution === p.restitution
           }
           onClick={() => apply(p)}
-        />
+        >
+          {t(MAT_LABEL[p.id] ?? 'propMaterial')}
+        </Chip>
       ))}
     </div>
   );
@@ -302,11 +162,10 @@ function BodyOpticsSection({ store, body }: { store: DocumentStore; body: Body }
 
   return (
     <Section title={t('propBodyOptics')}>
-      <label className="flex items-center justify-between text-xs text-slate-600">
-        <span>{t('opticsEnabled')}</span>
+      <Field label={t('opticsEnabled')}>
         <input
           type="checkbox"
-          className="h-4 w-4 accent-blue-600"
+          className="h-4 w-4 accent-[var(--accent)]"
           checked={!!optics}
           onChange={(e) =>
             replace(t('opticsEnabled'), {
@@ -315,63 +174,66 @@ function BodyOpticsSection({ store, body }: { store: DocumentStore; body: Body }
             })
           }
         />
-      </label>
+      </Field>
       {optics && (
         <>
-          <p className="text-[11px] font-medium text-slate-500">{t('opticsMode')}</p>
+          <p className="text-[11px] font-medium [color:var(--text-muted)]">{t('opticsMode')}</p>
           <div className="flex flex-wrap gap-1.5">
             {MODES.map(({ id, label }) => (
               <Chip
                 key={id}
-                label={label}
                 active={optics.mode === id}
                 onClick={() =>
                   optics.mode !== id && replace(t('opticsMode'), { ...body, optics: { ...optics, mode: id } })
                 }
-              />
+              >
+                {label}
+              </Chip>
             ))}
           </div>
           {optics.mode === 'glass' && (
             <>
-              <NumberField
-                label={t('opticsRefIndex')}
-                value={optics.refractiveIndex}
-                step={0.05}
-                onCommit={(v) =>
-                  v >= 1 && v <= 3 && replace(t('opticsRefIndex'), { ...body, optics: { ...optics, refractiveIndex: v } })
-                }
-              />
-              <NumberField
-                label={t('opticsCauchyB')}
-                unit="µm²"
-                value={optics.cauchyB}
-                step={0.005}
-                onCommit={(v) =>
-                  v >= 0 && replace(t('opticsCauchyB'), { ...body, optics: { ...optics, cauchyB: v } })
-                }
-              />
+              <Field label={t('opticsRefIndex')}>
+                <NumberInput
+                  value={optics.refractiveIndex}
+                  step={0.05}
+                  onCommit={(v) =>
+                    v >= 1 && v <= 3 && replace(t('opticsRefIndex'), { ...body, optics: { ...optics, refractiveIndex: v } })
+                  }
+                />
+              </Field>
+              <Field label={t('opticsCauchyB')} unit="µm²">
+                <NumberInput
+                  value={optics.cauchyB}
+                  step={0.005}
+                  onCommit={(v) =>
+                    v >= 0 && replace(t('opticsCauchyB'), { ...body, optics: { ...optics, cauchyB: v } })
+                  }
+                />
+              </Field>
             </>
           )}
           {optics.mode === 'lens' && (
-            <NumberField
-              label={t('opticsFocalLength')}
-              unit="m"
-              value={optics.focalLength}
-              step={0.1}
-              onCommit={(v) =>
-                v !== 0 && replace(t('opticsFocalLength'), { ...body, optics: { ...optics, focalLength: v } })
-              }
-            />
+            <Field label={t('opticsFocalLength')} unit="m">
+              <NumberInput
+                value={optics.focalLength}
+                step={0.1}
+                onCommit={(v) =>
+                  v !== 0 && replace(t('opticsFocalLength'), { ...body, optics: { ...optics, focalLength: v } })
+                }
+              />
+            </Field>
           )}
           {optics.mode !== 'lens' && (
-            <NumberField
-              label={t('opticsReflectivity')}
-              value={optics.reflectivity}
-              step={0.05}
-              onCommit={(v) =>
-                v >= 0 && v <= 1 && replace(t('opticsReflectivity'), { ...body, optics: { ...optics, reflectivity: v } })
-              }
-            />
+            <Field label={t('opticsReflectivity')}>
+              <NumberInput
+                value={optics.reflectivity}
+                step={0.05}
+                onCommit={(v) =>
+                  v >= 0 && v <= 1 && replace(t('opticsReflectivity'), { ...body, optics: { ...optics, reflectivity: v } })
+                }
+              />
+            </Field>
           )}
         </>
       )}
@@ -434,14 +296,14 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
         {!isPlane && (
           <div className="flex gap-1.5">
             <Chip
-              label={t('typeDynamic')}
               active={body.bodyType === 'dynamic'}
               onClick={() =>
                 body.bodyType !== 'dynamic' && replace(t('typeDynamic'), { ...body, bodyType: 'dynamic' })
               }
-            />
+            >
+              {t('typeDynamic')}
+            </Chip>
             <Chip
-              label={t('typeStatic')}
               active={body.bodyType === 'static'}
               onClick={() =>
                 body.bodyType !== 'static' &&
@@ -451,28 +313,35 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
                   velocity: { vx: 0, vy: 0, omega: 0 },
                 })
               }
-            />
+            >
+              {t('typeStatic')}
+            </Chip>
           </div>
         )}
-        <NumberField label="x" unit="m" value={body.transform.x} onCommit={(v) => setTransform({ x: v })} />
-        <NumberField label="y" unit="m" value={body.transform.y} onCommit={(v) => setTransform({ y: v })} />
-        <NumberField
-          label={t('propAngle')}
-          unit="°"
-          value={body.transform.angle * DEG}
-          step={5}
-          onCommit={(v) => setTransform({ angle: v / DEG })}
-        />
+        <Field label="x" unit="m">
+          <NumberInput value={body.transform.x} onCommit={(v) => setTransform({ x: v })} />
+        </Field>
+        <Field label="y" unit="m">
+          <NumberInput value={body.transform.y} onCommit={(v) => setTransform({ y: v })} />
+        </Field>
+        <Field label={t('propAngle')} unit="°">
+          <NumberInput
+            value={body.transform.angle * DEG}
+            step={5}
+            onCommit={(v) => setTransform({ angle: v / DEG })}
+          />
+        </Field>
         {body.bodyType === 'dynamic' && (
           <>
-            <NumberField label="vₓ" unit="m/s" value={body.velocity.vx} onCommit={(v) => setVelocity({ vx: v })} />
-            <NumberField label="v_y" unit="m/s" value={body.velocity.vy} onCommit={(v) => setVelocity({ vy: v })} />
-            <NumberField
-              label="ω"
-              unit="rad/s"
-              value={body.velocity.omega}
-              onCommit={(v) => setVelocity({ omega: v })}
-            />
+            <Field label="vₓ" unit="m/s">
+              <NumberInput value={body.velocity.vx} onCommit={(v) => setVelocity({ vx: v })} />
+            </Field>
+            <Field label="v_y" unit="m/s">
+              <NumberInput value={body.velocity.vy} onCommit={(v) => setVelocity({ vy: v })} />
+            </Field>
+            <Field label="ω" unit="rad/s">
+              <NumberInput value={body.velocity.omega} onCommit={(v) => setVelocity({ omega: v })} />
+            </Field>
           </>
         )}
       </Section>
@@ -486,16 +355,16 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
               appearance: { ...body.appearance, fill: p.fill },
             }),
           )}
-          <NumberField
-            label={t('propDensity')}
-            unit="kg/m²"
-            value={body.material.density}
-            step={10}
-            onCommit={(v) =>
-              v > 0 && replace(t('propDensity'), { ...body, material: { ...body.material, density: v } })
-            }
-          />
-          <SliderField
+          <Field label={t('propDensity')} unit="kg/m²">
+            <NumberInput
+              value={body.material.density}
+              step={10}
+              onCommit={(v) =>
+                v > 0 && replace(t('propDensity'), { ...body, material: { ...body.material, density: v } })
+              }
+            />
+          </Field>
+          <Slider
             label={t('propFriction')}
             value={body.material.friction}
             min={0}
@@ -504,7 +373,7 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
             onTransient={(v) => transientMaterial({ friction: v })}
             onCommit={(s, e) => commitMaterial('friction', s, e)}
           />
-          <SliderField
+          <Slider
             label={t('propRestitution')}
             value={body.material.restitution}
             min={0}
@@ -517,18 +386,23 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
       )}
 
       <Section title={t('propColor')}>
-        <ColorSwatches
-          value={body.appearance.fill}
-          onPick={(c) =>
-            replace(t('propColor'), { ...body, appearance: { ...body.appearance, fill: c } })
-          }
-        />
+        <div className="flex flex-wrap gap-1.5">
+          {COLORS.map((c) => (
+            <Swatch
+              key={c}
+              color={c}
+              active={body.appearance.fill.toLowerCase() === c}
+              onClick={() =>
+                replace(t('propColor'), { ...body, appearance: { ...body.appearance, fill: c } })
+              }
+            />
+          ))}
+        </div>
         {body.bodyType === 'dynamic' && (
-          <label className="flex items-center justify-between text-xs text-slate-600">
-            <span>{t('showVelocityBody')}</span>
+          <Field label={t('showVelocityBody')}>
             <input
               type="checkbox"
-              className="h-4 w-4 accent-blue-600"
+              className="h-4 w-4 accent-[var(--accent)]"
               checked={body.appearance.showVelocity}
               onChange={(e) =>
                 replace(t('showVelocityBody'), {
@@ -537,44 +411,42 @@ function BodySection({ store, body, runtime }: { store: DocumentStore; body: Bod
                 })
               }
             />
-          </label>
+          </Field>
         )}
       </Section>
 
       {body.bodyType === 'dynamic' && (
-        <button
-          type="button"
+        <Button
+          variant="secondary"
+          active={isTracking}
+          className="w-full gap-1.5 text-xs"
           onClick={() => {
             const ui = useUiStore.getState();
             ui.clearPlotBuffer();
             ui.setPlotBodyId(body.id);
             runtime.client.setRecordBodyId(body.id);
           }}
-          className={`w-full rounded-lg px-2 py-1.5 text-xs transition select-none active:scale-95 ${
-            isTracking
-              ? 'bg-blue-600 text-white'
-              : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-          }`}
         >
-          {isTracking ? '● ' : ''}{t('plotTrack')}
-        </button>
+          <Activity size={14} />
+          {t('plotTrack')}
+        </Button>
       )}
 
       {body.bodyType === 'dynamic' && (
-        <button
-          type="button"
+        <Button
+          variant="secondary"
+          active={isFbd}
+          className="w-full gap-1.5 text-xs"
           onClick={() => {
             const ui = useUiStore.getState();
             const next = isFbd ? null : body.id;
             ui.setFbdBodyId(next);
             runtime.client.setFbdBodyId(next);
           }}
-          className={`w-full rounded-lg px-2 py-1.5 text-xs transition select-none active:scale-95 ${
-            isFbd ? 'bg-rose-600 text-white' : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-          }`}
         >
-          {isFbd ? '● ' : ''}{t('fbdTrack')}
-        </button>
+          <Crosshair size={14} />
+          {t('fbdTrack')}
+        </Button>
       )}
 
       <BodyOpticsSection store={store} body={body} />
@@ -591,29 +463,28 @@ function JointSection({ store, joint }: { store: DocumentStore; joint: Joint }) 
       replace(label, { ...joint, axle: { ...axle, ...patch } });
     return (
       <Section title={t('propJointAxle')}>
-        <label className="flex items-center justify-between text-xs text-slate-600">
-          <span>{t('motorEnabled')}</span>
+        <Field label={t('motorEnabled')}>
           <input
             type="checkbox"
-            className="h-4 w-4 accent-blue-600"
+            className="h-4 w-4 accent-[var(--accent)]"
             checked={axle.enabled}
             onChange={(e) => setAxle(t('motorEnabled'), { enabled: e.target.checked })}
           />
-        </label>
-        <NumberField
-          label={t('motorTarget')}
-          unit="rad/s"
-          value={axle.targetVelocity}
-          step={0.5}
-          onCommit={(v) => setAxle(t('motorTarget'), { targetVelocity: v })}
-        />
-        <NumberField
-          label={t('motorTorque')}
-          unit="N·m"
-          value={axle.maxTorque}
-          step={10}
-          onCommit={(v) => v > 0 && setAxle(t('motorTorque'), { maxTorque: v })}
-        />
+        </Field>
+        <Field label={t('motorTarget')} unit="rad/s">
+          <NumberInput
+            value={axle.targetVelocity}
+            step={0.5}
+            onCommit={(v) => setAxle(t('motorTarget'), { targetVelocity: v })}
+          />
+        </Field>
+        <Field label={t('motorTorque')} unit="N·m">
+          <NumberInput
+            value={axle.maxTorque}
+            step={10}
+            onCommit={(v) => v > 0 && setAxle(t('motorTorque'), { maxTorque: v })}
+          />
+        </Field>
       </Section>
     );
   }
@@ -624,26 +495,26 @@ function JointSection({ store, joint }: { store: DocumentStore; joint: Joint }) 
       replace(label, { ...joint, spring: { ...spring, ...patch } });
     return (
       <Section title={t('propJointSpring')}>
-        <NumberField
-          label={t('springRest')}
-          unit="m"
-          value={spring.restLength}
-          onCommit={(v) => v >= 0 && setSpring(t('springRest'), { restLength: v })}
-        />
-        <NumberField
-          label={t('springStiffness')}
-          unit="N/m"
-          value={spring.stiffness}
-          step={10}
-          onCommit={(v) => v > 0 && setSpring(t('springStiffness'), { stiffness: v })}
-        />
-        <NumberField
-          label={t('springDamping')}
-          unit="N·s/m"
-          value={spring.damping}
-          step={1}
-          onCommit={(v) => v >= 0 && setSpring(t('springDamping'), { damping: v })}
-        />
+        <Field label={t('springRest')} unit="m">
+          <NumberInput
+            value={spring.restLength}
+            onCommit={(v) => v >= 0 && setSpring(t('springRest'), { restLength: v })}
+          />
+        </Field>
+        <Field label={t('springStiffness')} unit="N/m">
+          <NumberInput
+            value={spring.stiffness}
+            step={10}
+            onCommit={(v) => v > 0 && setSpring(t('springStiffness'), { stiffness: v })}
+          />
+        </Field>
+        <Field label={t('springDamping')} unit="N·s/m">
+          <NumberInput
+            value={spring.damping}
+            step={1}
+            onCommit={(v) => v >= 0 && setSpring(t('springDamping'), { damping: v })}
+          />
+        </Field>
       </Section>
     );
   }
@@ -654,36 +525,35 @@ function JointSection({ store, joint }: { store: DocumentStore; joint: Joint }) 
       replace(label, { ...joint, thruster: { ...thruster, ...patch } });
     return (
       <Section title={t('propJointThruster')}>
-        <label className="flex items-center justify-between text-xs text-slate-600">
-          <span>{t('thrusterEnabled')}</span>
+        <Field label={t('thrusterEnabled')}>
           <input
             type="checkbox"
-            className="h-4 w-4 accent-blue-600"
+            className="h-4 w-4 accent-[var(--accent)]"
             checked={thruster.enabled}
             onChange={(e) => setThruster(t('thrusterEnabled'), { enabled: e.target.checked })}
           />
-        </label>
-        <NumberField
-          label={t('thrusterFx')}
-          unit="N"
-          value={thruster.fx}
-          step={1}
-          onCommit={(v) => setThruster(t('thrusterFx'), { fx: v })}
-        />
-        <NumberField
-          label={t('thrusterFy')}
-          unit="N"
-          value={thruster.fy}
-          step={1}
-          onCommit={(v) => setThruster(t('thrusterFy'), { fy: v })}
-        />
+        </Field>
+        <Field label={t('thrusterFx')} unit="N">
+          <NumberInput
+            value={thruster.fx}
+            step={1}
+            onCommit={(v) => setThruster(t('thrusterFx'), { fx: v })}
+          />
+        </Field>
+        <Field label={t('thrusterFy')} unit="N">
+          <NumberInput
+            value={thruster.fy}
+            step={1}
+            onCommit={(v) => setThruster(t('thrusterFy'), { fy: v })}
+          />
+        </Field>
       </Section>
     );
   }
 
   return (
     <Section title={t('propJointFixed')}>
-      <p className="text-xs text-slate-500">{t('fixedInfo')}</p>
+      <p className="text-[12px] [color:var(--text-secondary)]">{t('fixedInfo')}</p>
     </Section>
   );
 }
@@ -700,35 +570,35 @@ function InstrumentSection({
   const tf = instrument.transform;
   return (
     <Section title={t('propPhotogate')}>
-      <NumberField
-        label="x"
-        unit="m"
-        value={tf.x}
-        onCommit={(v) => replace(t('propPosition'), { ...instrument, transform: { ...tf, x: v } })}
-      />
-      <NumberField
-        label="y"
-        unit="m"
-        value={tf.y}
-        onCommit={(v) => replace(t('propPosition'), { ...instrument, transform: { ...tf, y: v } })}
-      />
-      <NumberField
-        label={t('propAngle')}
-        unit="°"
-        value={tf.angle * DEG}
-        step={5}
-        onCommit={(v) =>
-          replace(t('propAngle'), { ...instrument, transform: { ...tf, angle: v / DEG } })
-        }
-      />
-      <NumberField
-        label={t('gateHalfLength')}
-        unit="m"
-        value={instrument.gate.halfLength}
-        onCommit={(v) =>
-          v > 0 && replace(t('gateHalfLength'), { ...instrument, gate: { halfLength: v } })
-        }
-      />
+      <Field label="x" unit="m">
+        <NumberInput
+          value={tf.x}
+          onCommit={(v) => replace(t('propPosition'), { ...instrument, transform: { ...tf, x: v } })}
+        />
+      </Field>
+      <Field label="y" unit="m">
+        <NumberInput
+          value={tf.y}
+          onCommit={(v) => replace(t('propPosition'), { ...instrument, transform: { ...tf, y: v } })}
+        />
+      </Field>
+      <Field label={t('propAngle')} unit="°">
+        <NumberInput
+          value={tf.angle * DEG}
+          step={5}
+          onCommit={(v) =>
+            replace(t('propAngle'), { ...instrument, transform: { ...tf, angle: v / DEG } })
+          }
+        />
+      </Field>
+      <Field label={t('gateHalfLength')} unit="m">
+        <NumberInput
+          value={instrument.gate.halfLength}
+          onCommit={(v) =>
+            v > 0 && replace(t('gateHalfLength'), { ...instrument, gate: { halfLength: v } })
+          }
+        />
+      </Field>
     </Section>
   );
 }
@@ -750,15 +620,6 @@ function OpticalSourceSection({
     { id: 'point', label: t('optSourcePoint') },
   ];
 
-  // Vlnové délky viditelného spektra — předpřipravené hodnoty.
-  const WL_PRESETS = [
-    { label: '🟣 405', value: 405 },
-    { label: '🔵 450', value: 450 },
-    { label: '🟢 550', value: 550 },
-    { label: '🟡 589', value: 589 },
-    { label: '🔴 650', value: 650 },
-  ];
-
   // Název tělesa, ke kterému je laser přichycen.
   const parentName = source.parentId
     ? (store.doc.entities.find((e) => e.id === source.parentId)?.name ?? source.parentId)
@@ -767,86 +628,95 @@ function OpticalSourceSection({
   return (
     <Section title={t('propOpticalSource')}>
       {/* Typ zdroje */}
-      <p className="text-[11px] font-medium text-slate-500">{t('optSourceType')}</p>
+      <p className="text-[11px] font-medium [color:var(--text-muted)]">{t('optSourceType')}</p>
       <div className="flex flex-wrap gap-1.5">
         {SOURCE_TYPES.map(({ id, label }) => (
           <Chip
             key={id}
-            label={label}
             active={source.type === id}
             onClick={() => source.type !== id && replace(t('optSourceType'), { ...source, type: id })}
-          />
+          >
+            {label}
+          </Chip>
         ))}
       </div>
 
       {/* Poloha a úhel */}
-      <NumberField
-        label="x"
-        unit="m"
-        value={tf.x}
-        onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, x: v } })}
-      />
-      <NumberField
-        label="y"
-        unit="m"
-        value={tf.y}
-        onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, y: v } })}
-      />
-      <NumberField
-        label={t('propAngle')}
-        unit="°"
-        value={tf.angle * DEG}
-        step={5}
-        onCommit={(v) => replace(t('propAngle'), { ...source, transform: { ...tf, angle: v / DEG } })}
-      />
+      <Field label="x" unit="m">
+        <NumberInput
+          value={tf.x}
+          onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, x: v } })}
+        />
+      </Field>
+      <Field label="y" unit="m">
+        <NumberInput
+          value={tf.y}
+          onCommit={(v) => replace(t('propPosition'), { ...source, transform: { ...tf, y: v } })}
+        />
+      </Field>
+      <Field label={t('propAngle')} unit="°">
+        <NumberInput
+          value={tf.angle * DEG}
+          step={5}
+          onCommit={(v) => replace(t('propAngle'), { ...source, transform: { ...tf, angle: v / DEG } })}
+        />
+      </Field>
 
       {/* Vlnová délka */}
-      <NumberField
-        label={t('optWavelength')}
-        unit="nm"
-        value={source.wavelength}
-        step={10}
-        onCommit={(v) => v >= 0 && v <= 750 && replace(t('optWavelength'), { ...source, wavelength: v })}
-      />
+      <Field label={t('optWavelength')} unit="nm">
+        <NumberInput
+          value={source.wavelength}
+          step={10}
+          onCommit={(v) => v >= 0 && v <= 750 && replace(t('optWavelength'), { ...source, wavelength: v })}
+        />
+      </Field>
       <div className="flex flex-wrap gap-1">
-        {WL_PRESETS.map(({ label, value }) => (
+        {WL_PRESETS.map(({ label, value, dot }) => (
           <Chip
             key={value}
-            label={label}
             active={source.wavelength === value}
             onClick={() => replace(t('optWavelength'), { ...source, wavelength: value })}
-          />
+          >
+            <span
+              className="inline-block h-2 w-2 rounded-full flex-shrink-0"
+              style={{ backgroundColor: dot }}
+              aria-hidden="true"
+            />
+            {label}
+          </Chip>
         ))}
       </div>
 
       {/* Počet paprsků (beam/point) */}
       {source.type !== 'laser' && (
-        <NumberField
-          label={t('optRayCount')}
-          value={source.rayCount}
-          step={1}
-          onCommit={(v) => v >= 1 && v <= 64 && replace(t('optRayCount'), { ...source, rayCount: Math.round(v) })}
-        />
+        <Field label={t('optRayCount')}>
+          <NumberInput
+            value={source.rayCount}
+            step={1}
+            onCommit={(v) => v >= 1 && v <= 64 && replace(t('optRayCount'), { ...source, rayCount: Math.round(v) })}
+          />
+        </Field>
       )}
       {source.type === 'beam' && (
-        <NumberField
-          label={t('optBeamWidth')}
-          unit="m"
-          value={source.beamWidth}
-          onCommit={(v) => v > 0 && replace(t('optBeamWidth'), { ...source, beamWidth: v })}
-        />
+        <Field label={t('optBeamWidth')} unit="m">
+          <NumberInput
+            value={source.beamWidth}
+            onCommit={(v) => v > 0 && replace(t('optBeamWidth'), { ...source, beamWidth: v })}
+          />
+        </Field>
       )}
 
       {/* Přichycení */}
-      <p className="text-[10px] text-slate-400">
+      <p className="text-[10px] [color:var(--text-muted)]">
         {t('optParent')}: {parentName ?? t('optParentNone')}
       </p>
       {source.parentId && (
         <Chip
-          label="Odpojit od tělesa"
           active={false}
           onClick={() => replace('Odpojit laser', { ...source, parentId: null })}
-        />
+        >
+          Odpojit od tělesa
+        </Chip>
       )}
     </Section>
   );
@@ -856,13 +726,14 @@ function FluidSection({ store, fluid }: { store: DocumentStore; fluid: Fluid }) 
   const replace = (label: string, after: Fluid) => store.apply(cmdReplaceEntity(label, fluid, after));
   return (
     <Section title={t('propFluid')}>
-      <NumberField
-        label={t('fluidDensity')}
-        value={fluid.restDensity}
-        step={50}
-        onCommit={(v) => v > 0 && replace(t('fluidDensity'), { ...fluid, restDensity: v })}
-      />
-      <SliderField
+      <Field label={t('fluidDensity')}>
+        <NumberInput
+          value={fluid.restDensity}
+          step={50}
+          onCommit={(v) => v > 0 && replace(t('fluidDensity'), { ...fluid, restDensity: v })}
+        />
+      </Field>
+      <Slider
         label={t('fluidViscosity')}
         value={fluid.viscosity}
         min={0}
@@ -876,18 +747,24 @@ function FluidSection({ store, fluid }: { store: DocumentStore; fluid: Fluid }) 
           replace(t('fluidViscosity'), { ...fluid, viscosity: e })
         }
       />
-      <NumberField
-        label={t('fluidRadius')}
-        unit="m"
-        value={fluid.particleRadius}
-        step={0.01}
-        onCommit={(v) => v > 0 && replace(t('fluidRadius'), { ...fluid, particleRadius: v })}
-      />
-      <Section title={t('fluidColor')}>
-        <ColorSwatches
-          value={fluid.color}
-          onPick={(c) => replace(t('fluidColor'), { ...fluid, color: c })}
+      <Field label={t('fluidRadius')} unit="m">
+        <NumberInput
+          value={fluid.particleRadius}
+          step={0.01}
+          onCommit={(v) => v > 0 && replace(t('fluidRadius'), { ...fluid, particleRadius: v })}
         />
+      </Field>
+      <Section title={t('fluidColor')}>
+        <div className="flex flex-wrap gap-1.5">
+          {COLORS.map((c) => (
+            <Swatch
+              key={c}
+              color={c}
+              active={fluid.color.toLowerCase() === c}
+              onClick={() => replace(t('fluidColor'), { ...fluid, color: c })}
+            />
+          ))}
+        </div>
       </Section>
     </Section>
   );
@@ -920,12 +797,18 @@ function MultiSection({ store, entities }: { store: DocumentStore; entities: Ent
       </Section>
       {bodies.length > 0 && (
         <Section title={t('propColor')}>
-          <ColorSwatches
-            value=""
-            onPick={(c) =>
-              applyAll(t('propColor'), (b) => ({ ...b, appearance: { ...b.appearance, fill: c } }))
-            }
-          />
+          <div className="flex flex-wrap gap-1.5">
+            {COLORS.map((c) => (
+              <Swatch
+                key={c}
+                color={c}
+                active={false}
+                onClick={() =>
+                  applyAll(t('propColor'), (b) => ({ ...b, appearance: { ...b.appearance, fill: c } }))
+                }
+              />
+            ))}
+          </div>
         </Section>
       )}
     </>
@@ -968,8 +851,8 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
   }
 
   return (
-    <div className="pointer-events-auto max-h-[72vh] w-60 space-y-3 overflow-y-auto rounded-2xl bg-white/90 p-3 shadow-lg ring-1 ring-slate-200 backdrop-blur">
+    <Panel className="max-h-[72vh] w-60 space-y-3 overflow-y-auto p-3">
       {content}
-    </div>
+    </Panel>
   );
 }
