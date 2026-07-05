@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-pojistky-vim-proc-ukol",
+  "subtopicId": "pojistky-a-jistice",
+  "topicId": "elektrina",
+  "title": "Natoč pokus o elektrické pojistce — ve stylu soutěže Vím proč",
+  "description": "Žák si doma navrhne a provede pokus demonstrujíci fyzikální princip pojistky nebo elektrické bezpečnosti (např. testování tavení tenkého odporového drátu při nadproudu z baterie, simulace přetíženého obvodu s různě silnými vodiči), natočí ho jako krátké video (max. 3 minuty) a připraví komentář vysvětlující fyzikální jev. Projekt trvá 1–2 týdny: rešerše, návrh, experimentování, natočení a odůvodnění. Hotové video lze přihlásit do soutěže Vím proč skupiny ČEZ.",
+  "source": {
+    "label": "Vím proč (ČEZ)",
+    "url": "https://www.vimproc.cz/"
+  }
+}
