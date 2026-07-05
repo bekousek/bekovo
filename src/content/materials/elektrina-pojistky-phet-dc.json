@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-pojistky-phet-dc",
+  "subtopicId": "pojistky-a-jistice",
+  "topicId": "elektrina",
+  "title": "PhET — Stavebnice obvodů: DC (pojistka v toolboxu)",
+  "type": "applet",
+  "description": "Interaktivní simulace Univerzity Colorado Boulder umožňuje sestavovat elektrické obvody z baterií, odporů, žárovek, pojistek a spínačů. Pojistka je přímou součástí toolboxu — žáci ji zapojí do obvodu a sledují, jak přetavení při nadproudu obvod přeruší. Simulace je plně přeložena do češtiny a spustitelná bez instalace.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc"
+}
