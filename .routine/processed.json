@@ -27,7 +27,8 @@
     "2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
     "2026-06-28-tepelne-motory--parni-stroj",
     "2026-07-01-astronomie--vesmir",
-    "2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach"
+    "2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach",
+    "2026-07-04-elektrina--pojistky-a-jistice"
   ],
   "history": [
     {
@@ -277,6 +278,15 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/53",
       "merged": true,
       "processedAt": "2026-07-03T08:25:56.900Z"
+    },
+    {
+      "manifestId": "2026-07-04-elektrina--pojistky-a-jistice",
+      "subtopic": "elektrina--pojistky-a-jistice",
+      "branch": "routine/nightly-2026-07-04-elektrina--pojistky-a-jistice",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/56",
+      "merged": true,
+      "processedAt": "2026-07-05T00:29:50.931Z",
+      "driveFileId": ""
     }
   ]
 }

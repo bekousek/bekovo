@@ -15,9 +15,9 @@ const GH_PATH = 'C:\\Program Files\\GitHub CLI\\gh.exe';
 // New manifests to process, in date order. driveId kept for the audit trail in
 // processed.json. file = byte-exact local copy in _queue/ (deduped to newest).
 const MANIFESTS = [
-  { driveId: '', file: 'manifest-2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku.json' },
-  { driveId: '', file: 'manifest-2026-06-28-tepelne-motory--parni-stroj.json' },
-  { driveId: '', file: 'manifest-2026-06-29-vlastnosti-latek--plyny.json' }
+  { driveId: '', file: 'manifest-2026-07-01-astronomie--vesmir.json' },
+  { driveId: '', file: 'manifest-2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach.json' },
+  { driveId: '', file: 'manifest-2026-07-04-elektrina--pojistky-a-jistice.json' }
 ];
 
 function run(cmd, opts = {}) {
