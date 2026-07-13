@@ -1,0 +1,12 @@
+{
+  "id": "mereni-teplota-globe-prumerna",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Průměrná teplota — skupinové měření na více místech",
+  "type": "group-work",
+  "description": "Skupiny žáků měří venkovní teplotu na různých místech v okolí školy (asfalt, trávník, stín, střecha) a zapisují data. Společně výsledky zanesou do grafu, formulují hypotézy o tom, proč se teploty liší, a diskutují vzájemné závislosti. Výsledky třídy tvoří síť měřicích bodů srovnatelnou s jednoduchou meteorologickou sítí.",
+  "source": {
+    "label": "GLOBE Czech — do výuky",
+    "url": "https://globe-czech.cz/portfolio/cz/prumerna-teplota"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mereni-teplota-mesicni-denik",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Měsíční deník teploty vybraného místa",
+  "description": "Žák si zvolí jedno konkrétní místo v okolí školy nebo domova a po dobu jednoho měsíce každé tři dny ve stejný čas měří teplotu (a volitelně vítr, světlo a vlhkost). Výstupem je tabulka měření s grafem, popis místa a závěr o tom, jak a proč se naměřené teploty proměňovaly. Aktivita rozvíjí systematičnost, práci s teploměrem a grafické zobrazení dat.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/wp-content/uploads/2025/05/lekce-MESIC-MERIM-MISTO_ucimesevenku.pdf"
+  }
+}

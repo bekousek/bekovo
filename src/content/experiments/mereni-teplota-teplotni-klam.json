@@ -1,0 +1,19 @@
+{
+  "id": "mereni-teplota-teplotni-klam",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Teplotní klam — proč naše smysly nestačí na měření teploty",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci ponoří jednu ruku do studené a druhou do teplé vody, poté obě najednou do vlažné — každá ruka hlásí jiný vjem teploty, přestože jsou obě ve stejné vodě. Pokus přesvědčivě demonstruje, proč subjektivní pocit nestačí k měření teploty a proč potřebujeme teploměr jako objektivní měřicí přístroj. Přirozeně motivuje zavedení pojmu fyzikální veličiny a potřebu měřidla.",
+  "materials": [
+    "tři nádoby nebo misky",
+    "studená voda (cca 10 °C)",
+    "teplá voda (cca 40 °C)",
+    "vlažná voda (cca 25 °C)"
+  ],
+  "procedure": "Do tří nádob připravit studenou, teplou a vlažnou vodu. Levou ruku ponořit do studené, pravou do teplé vody a podržet 1–2 minuty. Poté obě ruce přesunout do vlažné vody a porovnat vjemy. Diskuze: proč stejná voda působí pro každou ruku jinak?",
+  "source": {
+    "label": "Eduportál Techmania",
+    "url": "https://edu.techmania.cz/cs/encyklopedie/fyzika/struktura-latek/teplota/vnimani-teploty"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "mereni-teplota-kapalinovy-teplomer",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Jak pracuje kapalinový teploměr — roztažnost kapaliny v baňce",
+  "type": "qualitative",
+  "description": "Žákovský badatelský pokus: žáci sestaví model kapalinového teploměru z baňky naplněné obarvenou vodou se zátkou a trubičkou. Baňku ponoří do horké vody — kapalina v trubičce stoupá, do studené — klesá. Na základě vlastního pozorování formulují závěr, proč teploměr měří teplotu. Metodika zahrnuje i diskuzi o využití roztažnosti v praxi (dilatační spáry na kolejích, mostech, v potrubí).",
+  "materials": [
+    "skleněná baňka",
+    "zátka s otvorem",
+    "skleněná nebo plastová trubička",
+    "potravinářské barvivo",
+    "voda",
+    "nádoba s horkou vodou",
+    "nádoba se studenou vodou"
+  ],
+  "procedure": "Naplnit baňku obarvenou vodou, nasadit zátku s trubičkou (kapalina sahá asi do čtvrtiny délky trubičky). Ponořit baňku do horké vody — sledovat stoupání kapaliny. Přenést do studené vody — kapalina klesá. Diskutovat: proč teploměr ukazuje teplotu? Co by se stalo se vzduchem místo kapaliny?",
+  "source": {
+    "label": "Heuréka — projekt KDF MFF UK",
+    "url": "https://kdf.mff.cuni.cz/heureka/"
+  }
+}
