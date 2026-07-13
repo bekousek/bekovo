@@ -1,0 +1,11 @@
+{
+  "id": "kapaliny-lode-vyfuk-pluje",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Pluje lodička v nádobě? — výpočtová úloha (Výfuk)",
+  "description": "Výpočtová úloha z korespondenčního semináře Výfuk (10. ročník, série 6): žáci zjistí, zda lodička ve tvaru kvádru (25 × 7 × 7 cm, hustota poloviční oproti vodě) plave v krychlové nádobě o hraně 30 cm naplněné jednou desetinou svého objemu. Druhá otázka požaduje výpočet minimálního objemu vody v nádobě, aby lodička plula. Přesná aplikace Archimédova zákona a podmínek plovatelnosti — odpovídá učivu fyziky 7. třídy.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/10/6"
+  }
+}

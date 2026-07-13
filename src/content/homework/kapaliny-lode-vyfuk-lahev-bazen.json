@@ -1,0 +1,11 @@
+{
+  "id": "kapaliny-lode-vyfuk-lahev-bazen",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Lahev v bazénu — vztlaková síla a hydrostatický tlak (Výfuk)",
+  "description": "Výpočtová úloha z korespondenčního semináře Výfuk (13. ročník, série 6): Robert ponoří uzavřenou 1l lahev na dno 2m hlubokého bazénu. Žáci vypočítají vztlakovou sílu, zjistí, zda se mění s hloubkou, a určí hydrostatický tlak na dně. Bonus: kolik vody vteče do lahve, otočí-li ji Robert na dně a otevře tak, aby vzduch neunikl? Úloha propojuje Archimédův zákon, hydrostatiku a tlak kapaliny v realistickém scénáři.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/13/6"
+  }
+}

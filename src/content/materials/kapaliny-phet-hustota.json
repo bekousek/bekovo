@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-phet-hustota",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Hustota",
+  "type": "applet",
+  "description": "Česká simulace PhET zaměřená na pochopení hustoty jako klíčové veličiny pro plovatelnost: žáci manipulují s tělesy z různých materiálů, mění jejich hmotnost a objem a pozorují, zda těleso plave nebo klesá. Přímo demonstruje, proč ocelový trup lodě plave — vzduch uvnitř snižuje průměrnou hustotu pod 1 000 kg/m³.",
+  "url": "https://phet.colorado.edu/cs/simulations/density"
+}

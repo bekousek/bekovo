@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-lode-bubliny-potapi",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Bubliny potápí loď",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: do nádoby s vodou, na níž pluje model lodi, se přivádějí vzduchové bubliny z akvarijní pumpy. Masivní bubliny snižují průměrnou hustotu kapaliny; jakmile hustota klesne pod hustotu lodního trupu, loď ztratí vztlak a potopí se. Pokus modeluje vědeckou hypotézu o potápění lodí v oblastech výskytu metanových hydratů na dně moří. Metodika a vědecké pozadí k dispozici na edu.techmania.cz.",
+  "materials": [
+    "průhledná nádoba s vodou",
+    "akvarijní pumpa nebo vzduchová hadička",
+    "malý model lodě nebo krabička z korku",
+    "závaží pro nastavení ponoru modelu"
+  ],
+  "source": {
+    "label": "Techmania Science Center",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/747/bubliny-potapi-lod"
+  }
+}

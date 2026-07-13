@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-phet-vztlak",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Vztlak",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace PhET zkoumá vztlakovou sílu a Archimédův zákon. Žáci vkládají tělesa různých materiálů do kapaliny s nastavitelnou hustotou a sledují vektorové znázornění tíhy i vztlaku. Simulace má tři záložky: Zkoumání, Porovnání a Grafika. Vhodná pro demonstraci na projektoru i samostatnou badatelskou práci žáků při zkoumání plovatelnosti lodí.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy"
+}
