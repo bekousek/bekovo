@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-phet-pod-tlakem",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Pod tlakem – atmosférický tlak (PhET)",
+  "type": "applet",
+  "description": "Simulace umožňuje zkoumat tlak v různých tekutinách a v atmosféře – žáci mohou nastavit gravitaci, tvar nádoby nebo druh kapaliny a sledovat, jak se mění tlak. Přímé srovnání tlaku pod vodou a atmosférického tlaku pomáhá pochopit, co tlak vlastně je a proč vakuum znamená nulový tlak.",
+  "url": "https://phet.colorado.edu/cs/simulations/under-pressure"
+}

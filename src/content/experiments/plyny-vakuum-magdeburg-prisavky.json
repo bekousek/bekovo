@@ -1,0 +1,16 @@
+{
+  "id": "plyny-vakuum-magdeburg-prisavky",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Magdeburské polokoule s přísavkami",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dvě gumové přísavky (na nošení skla) se přiloží k sobě gumovým povrchem a přisají – tím se mezi nimi sníží tlak. Každou přísavku drží jeden žák a oba se pokoušejí je od sebe odtrhnout; síla atmosférického tlaku zvenčí jim v tom brání. Pokus odkazuje na historický experiment Otta von Guericka z roku 1654, kdy 16 koní nedokázalo od sebe odtrhnout vyčerpané měděné polokoule.",
+  "materials": [
+    "2 gumové přísavky na nošení skla"
+  ],
+  "procedure": "Očistit gumový povrch obou přísavek. Přiložit je k sobě gumovým povrchem a přisát. Každou chytí jeden žák a oba se snaží je oddělit tahem od sebe. Diskutovat, proč je to obtížné.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2096/magdeburske-polokoule"
+  }
+}

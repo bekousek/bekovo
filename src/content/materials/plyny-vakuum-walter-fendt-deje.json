@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-walter-fendt-deje",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Děje s ideálním plynem (Boyleův, Gay-Lussacův zákon) – animace Walter Fendt",
+  "type": "applet",
+  "description": "HTML5 applet demonstruje izotermický (Boyle-Mariottův), izobarický a izochorický děj ideálního plynu s animovaným pístem a grafem závislosti tlaku, objemu a teploty. Žáci mohou stlačovat plyn nebo ho roztahovat (přibližovat se k vakuu) a sledovat odpovídající změny tlaku. Applet je plně v češtině.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gasprocesses_cz.htm"
+}
