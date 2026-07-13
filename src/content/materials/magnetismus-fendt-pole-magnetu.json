@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-fendt-pole-magnetu",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Walter Fendt: Magnetické pole tyčového magnetu",
+  "type": "applet",
+  "description": "Česká HTML5 aplikace umožňuje pohybovat kompasovou střelkou kolem tyčového magnetu a sledovat, jak se orientuje ve směru magnetického pole; siločáry se zobrazí modrou barvou. Tlačítkem lze přepnout polaritu magnetu a pozorovat změnu orientace. Applet je přehledný, bez reklam a okamžitě spustitelný.",
+  "url": "https://www.walter-fendt.de/html5/phcz/magneticfieldbar_cz.htm"
+}

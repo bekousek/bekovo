@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-phet-magnety-elektromagnety",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "PhET: Magnety a elektromagnety",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině umožňuje prozkoumávat interakce kompasu s tyčovým magnetem – pohybovat magnetem, sledovat orientaci kompasové střelky a siločáry magnetického pole. Druhá část simulace umožňuje sestrojit elektromagnet z baterie a cívky a porovnat ho s permanentním magnetem. Vhodné jako výuková pomůcka i pro samostatnou práci žáků.",
+  "url": "https://phet.colorado.edu/cs/simulations/magnets-and-electromagnets"
+}
