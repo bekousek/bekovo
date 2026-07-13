@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-scale-universe-2",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Škála vesmíru 2 – interaktivní vizualizace (CERN/IPPOG)",
+  "type": "applet",
+  "description": "Interaktivní animace umožňující plynulé přibližování a oddalování od nejmenších subjaderných struktur (~10⁻³⁵ m) po rozměry pozorovatelného vesmíru (~10²⁶ m). Každý objekt je klikatelný se stručným popisem. Pokrývá femtometry (jaderná škála), pikometry a nanometry (atomové škály) i biologické objekty a kosmické vzdálenosti. Zprostředkováno přes databázi IPPOG/CERN; rozhraní v angličtině.",
+  "url": "https://ippog.web.cern.ch/ippog_resource_database/scale-universe-2"
+}
