@@ -1,0 +1,19 @@
+{
+  "id": "energie-prace-zatloukani-hrebiku",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Zatloukání hřebíku — přeměna mechanické práce na vnitřní energii",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Při zatloukání hřebíku do prkna se práce třecích a deformačních sil přemění na vnitřní energii — hřebík se ohřeje a to je po dokončení pozorovatelné dotekem nebo termovizní kamerou. Pokus propojuje pojmy mechanická práce a zákon zachování energie: energie se nepřišla nazmar, ale přešla do vnitřní energie materiálů. Klasická a přesvědčivá ukázka pro 8. třídu.",
+  "materials": [
+    "hřebík",
+    "prkno nebo silnější fošna",
+    "kladivo",
+    "termovizní kamera (doporučeno) nebo hmatová kontrola"
+  ],
+  "procedure": "Zatlukej hřebík do prkna; okamžitě po dokončení přilož opatrně prst na hřebík nebo zkontroluj termovizní kamerou — hřebík by měl být znatelně teplejší.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1589/zmena-vnitrni-energie-konanim-prace:-zatloukani-hrebiku"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-kyvadlo-energie",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Walter Fendt: Matematické kyvadlo — přeměny energie",
+  "type": "applet",
+  "description": "Česká HTML5 aplikace ukazuje pohyb matematického kyvadla s okamžitými hodnotami výchylky, rychlosti a energie. Žáci nastavují délku kyvadla a počáteční výchylku a sledují, jak se kinetická energie v dolním bodě přemění na potenciální energii v krajních polohách a zpět. Funguje přímo v prohlížeči bez instalace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/pendulum_cz.htm"
+}

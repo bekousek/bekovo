@@ -1,0 +1,18 @@
+{
+  "id": "energie-premena-ek-pad-zavazi",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Přeměna kinetické energie na vnitřní: pád závaží",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel). Závaží (~1 kg) se pustí volným pádem z výšky asi 1 m na polystyrénovou desku. Kinetická energie závaží se při dopadu přemění na vnitřní energii — v místě kontaktu lokálně vzroste teplota o jednotky °C, pozorovatelné termovizní kamerou nebo dotekem. Pokus názorně illustruje, že mechanická energie se při nepružném nárazu nevytratí, ale změní formu.",
+  "materials": [
+    "závaží ~1 kg s matným povrchem",
+    "polystyrénová deska (tácek z polystyrenu)",
+    "termovizní kamera (doporučeno) nebo hmatová kontrola"
+  ],
+  "procedure": "Závaží pusť z výšky ~1 m; okamžitě po dopadu zkontroluj místo kontaktu termovizní kamerou nebo opatrným dotekem — mělo by být hmatatelně teplejší.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1587/premena-kineticke-energie-na-vnitrni-energii:-pad-zavazi"
+  }
+}
