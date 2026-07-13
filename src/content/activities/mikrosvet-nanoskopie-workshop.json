@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-nanoskopie-workshop",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Nanoskopie a nanosvět (workshop Elixíru do škol)",
+  "type": "method",
+  "description": "Dvoučástový výukový workshop z programu Elixír do škol. První část zahrnuje historii nanotechnologií a škálování od viditelného světa po nanometrové rozměry (1 nm = 1e-9 m). Druhá část se věnuje nanoskopii: přehledu přístrojů pro zobrazování světa atomů (skenovací tunelovací mikroskop STM, mikroskop atomárních sil AFM, elektronová mikroskopie). Workshop je odlišný od položky Nanotechnologie pro ZŠ a přináší hlubší zaměření na přístrojové vizualizace nanosvěta.",
+  "source": {
+    "label": "Elixír do škol",
+    "url": "https://www.elixirdoskol.cz/nanoskopie-a-nanosvet/"
+  }
+}
