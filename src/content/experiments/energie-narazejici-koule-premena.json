@@ -1,0 +1,17 @@
+{
+  "id": "energie-narazejici-koule-premena",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Narážející koule — přeměna kinetické energie na tepelnou",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (soutěžní video Vím proč). Dvě ocelové kuličky se srazí s proužkem papíru vloženým mezi ně. Kinetická energie pohybujících se kuliček se při nárazu koncentruje do malého kontaktního bodu a propálí papír. Pokus ohromivě ilustruje, že energie se nepřišla nazmar — přeměnila se na teplo. Bezpečný a vizuálně přesvědčivý pro 8. třídu.",
+  "materials": [
+    "2 ocelové kuličky (průměr ~2–3 cm)",
+    "proužek papíru"
+  ],
+  "procedure": "Vlož proužek papíru mezi dvě kuličky a rychle je stlač k sobě z obou stran; papír by se měl v místě nárazu propálit nebo aspoň trvale otisknout.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/vim-proc/soutezni-videa/narazejici-koule-aneb-premena-energie-207900"
+  }
+}

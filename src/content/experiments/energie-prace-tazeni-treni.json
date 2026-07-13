@@ -1,0 +1,19 @@
+{
+  "id": "energie-prace-tazeni-treni",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Tažení tělesa po podložce — ohřev třením",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Těžký předmět (~1–2 kg) přivázaný na provázku se svižně táhne po stole. Práce třecí síly se přemění na vnitřní energii kontaktních ploch — termovizní kamera ukáže ohřev zejména na výstupcích třecí plochy; bez kamery lze ohřev cítit dotekem. Pokus doplňuje zatloukání hřebíku: zde je mechanismus tření (nikoli deformace), ohřev je rozložen podél dráhy tažení.",
+  "materials": [
+    "těžký předmět (~1–2 kg) s drsnou základnou",
+    "provázek",
+    "stůl nebo prkno jako podložka",
+    "termovizní kamera (doporučeno)"
+  ],
+  "procedure": "Přivař předmět na provázek a svižně ho táhni po podložce; bezprostředně po pokusu zkontroluj dotekem nebo termovizní kamerou, zda se kontaktní plochy ohřály.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1591/zmena-vnitrni-energie-konanim-prace:-tazeni-predmetu-po-podlozce"
+  }
+}

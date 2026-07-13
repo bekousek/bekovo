@@ -1,0 +1,11 @@
+{
+  "id": "energie-vyfuk-zachovani-domaci",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Výfuk: domácí experimentální úloha — zákony zachování",
+  "description": "Korespondenční fyzikální seminář Výfuk (MFF UK) zařazuje v každém ze šesti čísel ročníku jednu experimentální úlohu, kterou žák doma navrhne, provede a odevzdá protokol (náčrt aparatury, postup, naměřené hodnoty a závěr). Série věnovaná zákonům zachování cílí na měření přeměny a zachování mechanické energie s pomůckami dostupnými doma. Protokol se odevzdává online přes vyfuk.org a žák obdrží písemnou zpětnou vazbu od studentů MFF UK. Vhodné jako rozšíření pro nadanější žáky nebo jako třídní projekt s prezentací výsledků.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/"
+  }
+}

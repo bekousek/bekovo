@@ -1,0 +1,19 @@
+{
+  "id": "energie-dynamo-stavba-premena",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Jednoduché dynamo — přeměna mechanické energie na elektrickou",
+  "type": "qualitative",
+  "description": "Žákovský pokus (video soutěže Vím proč). Žáci si sami sestaví jednoduché dynamo z magnetu, vinutí z izolovaného měděného drátu a jednoduchého rámu. Otáčením rotoru ověří přeměnu kinetické energie na elektrickou energii rozsvícením LED nebo odečtem voltmetru. Pokus propojuje téma energie s elektromagnetickou indukcí a motivačně rozšiřuje zákon zachování energie za hranice mechaniky.",
+  "materials": [
+    "tyčový nebo podkovovitý magnet",
+    "izolovaný měděný drát (vinutí ~50–100 závitů)",
+    "LED dioda nebo voltmetr",
+    "jednoduchý rám z kartonu nebo dřeva"
+  ],
+  "procedure": "Navin cívku z měděného drátu, připoj LED, pohybuj magnetem dovnitř a ven z cívky nebo otoč cívkou v poli magnetu — LED by se měla rozsvítit.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/vim-proc/soutezni-videa/dynamo-aneb-premena-mechanicke-energie-na-energii-elektrickou-207904"
+  }
+}
