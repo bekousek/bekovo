@@ -1,0 +1,11 @@
+{
+  "id": "plyny-vakuum-globe-denik",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Týdenní deník atmosférického tlaku a počasí",
+  "description": "Žák po dobu 7–14 dní každý den ve stejnou dobu zaznamenává atmosférický tlak (z barometru, webové meteostanice nebo mobilní aplikace) a spolu s ním pozoruhodné projevy počasí. Na závěr sestaví graf vývoje tlaku a v krátkém reportu odpovídá na otázku: Jak předpovídá atmosférický tlak změnu počasí? Projekt sleduje badatelský cyklus: otázka → hypotéza → sběr dat → vyhodnocení.",
+  "source": {
+    "label": "GLOBE Czech — do výuky",
+    "url": "https://globe-czech.cz/cz/do-vyuky"
+  }
+}

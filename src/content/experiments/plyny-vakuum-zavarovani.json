@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vakuum-zavarovani",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Princip zavařování – svíčka mezi dvěma sklenicemi",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, proveditelný i žáky. Svíčka hoří ve sklenici přikryté navlhčenými papírovými prstenci a druhou sklenicí obrácenou dnem vzhůru. Plamen zahřeje vzduch, část unikne; po zhasnutí se vzduch ochladí a sníží objem, čímž vznikne podtlak. Atmosférický tlak pak obě sklenice přidrží k sobě – stejně jako při domácím zavařování se víčko plombuje.",
+  "materials": [
+    "dvě stejné zavařovací sklenice",
+    "hrubší papír",
+    "svíčka",
+    "zápalky",
+    "špejle"
+  ],
+  "procedure": "Vystřihnout papírové prstence (šíře 2 cm, průměr hrdla sklenice) a navlhčit je. Zapálit svíčku ve sklenici pomocí špejle. Položit prstence na hrdlo, přiložit druhou sklenici dnem vzhůru a přitlačit. Sledovat, že po zhasnutí svíčky se sklenice přidrží.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1905/princip-zavarovani"
+  }
+}

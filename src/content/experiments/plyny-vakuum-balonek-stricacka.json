@@ -1,0 +1,17 @@
+{
+  "id": "plyny-vakuum-balonek-stricacka",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Balónek v injekční stříkačce – podtlak a přetlak",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Malý nafouklý balónek se vloží do injekční stříkačky, výstup se ucpe prstem a píst se vytahuje – podtlak uvnitř způsobí, že se balónek zvětší. Při zatlačení pístu zpět se vzduch stlačí a balónek se smrskne. Experiment jednoduše a názorně ukazuje efekt podtlaku i přetlaku pomocí jediné stříkačky. Snadno navazuje na pokus s varem vody ve stříkačce.",
+  "materials": [
+    "injekční stříkačka (20 ml)",
+    "malý nafouklý balónek"
+  ],
+  "procedure": "Vložit malý nafouklý balónek do stříkačky, utěsnit výstup prstem, vytahovat píst a sledovat nafukování balónku; pak zatlačit píst a sledovat smrsknutí.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/03-06-Dirlbeck.html"
+  }
+}
