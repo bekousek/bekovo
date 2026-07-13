@@ -28,7 +28,14 @@
     "2026-06-28-tepelne-motory--parni-stroj",
     "2026-07-01-astronomie--vesmir",
     "2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach",
-    "2026-07-04-elektrina--pojistky-a-jistice"
+    "2026-07-04-elektrina--pojistky-a-jistice",
+    "2026-07-06-energie--energie",
+    "2026-07-07-kapaliny-7--lode",
+    "2026-07-08-magnetismus--magnety",
+    "2026-07-10-mereni--teplota",
+    "2026-07-11-mikrosvet--skaly-v-mikrosvete",
+    "2026-07-13-plyny-7--vakuum",
+    "2026-07-12-optika--oko"
   ],
   "history": [
     {
@@ -287,6 +294,70 @@
       "merged": true,
       "processedAt": "2026-07-05T00:29:50.931Z",
       "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-06-energie--energie",
+      "subtopic": "energie--energie",
+      "branch": "routine/nightly-2026-07-06-energie--energie",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/57",
+      "merged": true,
+      "processedAt": "2026-07-13T12:28:32.144Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-07-kapaliny-7--lode",
+      "subtopic": "kapaliny-7--lode",
+      "branch": "routine/nightly-2026-07-07-kapaliny-7--lode",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/58",
+      "merged": true,
+      "processedAt": "2026-07-13T12:29:06.827Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-08-magnetismus--magnety",
+      "subtopic": "magnetismus--magnety",
+      "branch": "routine/nightly-2026-07-08-magnetismus--magnety",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/59",
+      "merged": true,
+      "processedAt": "2026-07-13T12:29:40.586Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-10-mereni--teplota",
+      "subtopic": "mereni--teplota",
+      "branch": "routine/nightly-2026-07-10-mereni--teplota",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/60",
+      "merged": true,
+      "processedAt": "2026-07-13T12:30:23.611Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-11-mikrosvet--skaly-v-mikrosvete",
+      "subtopic": "mikrosvet--skaly-v-mikrosvete",
+      "branch": "routine/nightly-2026-07-11-mikrosvet--skaly-v-mikrosvete",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/61",
+      "merged": true,
+      "processedAt": "2026-07-13T12:31:08.418Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-13-plyny-7--vakuum",
+      "subtopic": "plyny-7--vakuum",
+      "branch": "routine/nightly-2026-07-13-plyny-7--vakuum",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/62",
+      "merged": true,
+      "processedAt": "2026-07-13T12:31:56.918Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-12-optika--oko",
+      "subtopic": "optika--oko",
+      "branch": null,
+      "prUrl": "",
+      "merged": false,
+      "processedAt": "2026-07-13T12:32:24.454Z",
+      "note": "invalid: files.length=17 but ledgerEntry.items=18 (integrity gate failure)",
+      "flag": "invalid"
     }
   ]
 }
