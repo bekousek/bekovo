@@ -1,0 +1,12 @@
+{
+  "id": "mereni-teplota-stromova-klimatizace",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Stromová klimatizace — srovnání teplot pod stromem a slunečníkem",
+  "type": "group-work",
+  "description": "Žáci ve skupinách měří teplotu ve stínu stromu, ve stínu slunečníku a na přímém slunci a srovnávají naměřené hodnoty. Formulují závěr, proč strom chladí lépe než slunečník (evapotranspirace), a diskutují praktické důsledky pro klima ve městě. Aktivita probíhá venku a propojuje měření teploty s environmentální tematikou.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/laborator-venku/stromova-klimatizace/"
+  }
+}

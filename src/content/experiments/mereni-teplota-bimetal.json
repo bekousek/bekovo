@@ -1,0 +1,18 @@
+{
+  "id": "mereni-teplota-bimetal",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Bimetal — ohýbání pásku při změně teploty",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: bimetalový pásek upevněný v držáku se zahříváním ohýbá na jednu stranu (kov s větší tepelnou roztažností se prodlužuje více), po zchlazení ledovými kostkami na stranu opačnou. Pokus názorně ilustruje princip bimetalového teploměru a elektromechanického termostatu (žehličky, přímotopy, jističe).",
+  "materials": [
+    "bimetalový pásek s držákem",
+    "svíčka nebo lihový kahan",
+    "2 kostky ledu"
+  ],
+  "procedure": "Upevnit bimetal do držáku. Zapálit svíčku přibližně 2–3 cm pod páskem a pozorovat ohýbání. Svíčku odstavit a nechat pásek narovnat, pak přiložit kostky ledu — pásek se ohne na opačnou stranu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/cs"
+  }
+}

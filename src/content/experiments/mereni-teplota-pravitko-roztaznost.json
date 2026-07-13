@@ -1,0 +1,20 @@
+{
+  "id": "mereni-teplota-pravitko-roztaznost",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Teplotní roztažnost plastového pravítka",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci hřebíčky vymezí na prkýnku délku plastového pravítka, vyjmou ho a ponoří do horké vody. Po vytažení se pravítko mezi hřebíčky nevejde a tvoří oblouk — vlivem tepelné délkové roztažnosti se prodloužilo. Plasty mají velký koeficient roztažnosti, takže efekt je zřetelně viditelný bez měření. Pokus přirozeně motivuje diskuzi o dilatačních spárách na kolejích, mostech a v potrubí.",
+  "materials": [
+    "plastové pravítko",
+    "prkýnko",
+    "2 hřebíčky",
+    "kladívko",
+    "nádoba s horkou vodou"
+  ],
+  "procedure": "Položit pravítko na prkýnko a přitlouci hřebíčky těsně u jeho konců. Pravítko vyjmout a vložit do nádoby s horkou vodou na 1–2 minuty. Vytáhnout a zkusit vložit zpět — pravítko se nevejde a tvoří oblouk.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/c/g/493/TEPLOTNI-ROZTAZNOST-PLASTOVEHO-PRAVITKA.html"
+  }
+}

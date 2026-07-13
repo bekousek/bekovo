@@ -1,0 +1,9 @@
+{
+  "id": "mereni-teplota-phet-skupenstvi",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "PhET: Skupenské stavy — základy",
+  "type": "applet",
+  "description": "Interaktivní simulace (česky) umožňuje zahřívat, ochlazovat a stlačovat atomy a molekuly a sledovat přechody mezi pevným, kapalným a plynným skupenstvím. Teploměr v simulaci zobrazuje teplotu v Celsiovi i Kelvinu — žáci vidí přímou vazbu mezi pohybem částic a teplotou.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter-basics"
+}

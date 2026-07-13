@@ -1,0 +1,11 @@
+{
+  "id": "mereni-teplota-vyfuk-teplomer",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Postav si vlastní teploměr a zkalibruj ho (Výfuk)",
+  "description": "Žák sestrojí vlastní kapalinový teploměr z láhve, brčka, plastelíny a roztoku lihu s vodou (1:1, obarveného potravinářským barvivem). Teploměr kalibruje pomocí přesného teploměru (označí stupnici pro dvě nebo více teplot), pak změří venkovní teplotu a porovná přesnost vlastního teploměru s komerčním. Výstupem je protokol s popisem konstrukce, naměřenými hodnotami a diskuzí o přesnosti a zdrojích chyb.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/ulohy/r09/s4"
+  }
+}
