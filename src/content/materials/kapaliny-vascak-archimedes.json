@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-vascak-archimedes",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Archimédův zákon — animace Vaščák",
+  "type": "applet",
+  "description": "Česká interaktivní HTML5 animace demonstruje Archimédův zákon pomocí barevných vektorů sil na těleso ponořené do kapaliny. Součást rozsáhlé sbírky fyzikálních simulací RNDr. Vladimíra Vaščáka. Srozumitelné znázornění vztlakové síly jako základu pro pochopení plovatelnosti lodí.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_archimedes&l=cz"
+}

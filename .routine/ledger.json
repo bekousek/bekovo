@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-06",
+  "lastPicked": "2026-07-07",
   "history": [
     {
       "date": "2026-05-08",
@@ -242,6 +242,12 @@
       "subtopic": "energie--energie",
       "result": "pr-pending",
       "items": 19
+    },
+    {
+      "date": "2026-07-07",
+      "subtopic": "kapaliny-7--lode",
+      "result": "pr-pending",
+      "items": 22
     }
   ],
   "skipUntil": {},
