@@ -1,0 +1,17 @@
+{
+  "id": "magnetismus-magnetovani-minci",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Magnetování mincí",
+  "type": "qualitative",
+  "description": "Žákovský pokus ukazující, že české mince obsahují ocel a chovají se jako feromagnetický materiál. Žák přiblíží minci k magnetu, sleduje přitažení; zmagnetovanou mincí (visící z magnetu) pak dokáže přitáhnout druhou minci na stole. Vhodnou manipulací lze sestavit trojici mincí různých nominálů do sloupce drženého pouze magnetickou silou. Pokus přirozeně ilustruje princip magnetizace dotykem.",
+  "materials": [
+    "permanentní magnet (tyčový nebo podkový)",
+    "sada českých mincí různých nominálů"
+  ],
+  "procedure": "Přibliž minci k magnetu zespodu – pozoruj přitažení. Nech minci přilnout tak, aby visela svisle z magnetu. Druhou mincí se přibliž k první zespodu – sleduj přitažení přes vzduchovou mezeru. Zkus sestavit sloupec tří mincí.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1636/magnetovani-minci"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "magnetismus-phyphox-magnety",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Magnety v hodině fyziky – určení pólů aplikací Phyphox",
+  "type": "method",
+  "description": "Metodická aktivita z VNUF 27 navrhuje využití aplikace Phyphox na chytrém telefonu žáka k rychlému určení pólů neoznačeného magnetu – žáci přikládají magnet k telefonu a pozorují výchylku magnetometru na ose x/y/z. Součástí jsou také demonstrace tvarů siločar feritovými magnety s fólií Flux Detector a krátká skupinová diskuze o aplikacích magnetismu v praxi. Nevyžaduje žádné zvláštní pomůcky – postačí chytrý telefon a magnety z výuky.",
+  "source": {
+    "label": "VNUF 27",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/27-04-Hejskova_P.pdf"
+  }
+}

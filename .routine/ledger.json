@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-07",
+  "lastPicked": "2026-07-08",
   "history": [
     {
       "date": "2026-05-08",
@@ -248,6 +248,12 @@
       "subtopic": "kapaliny-7--lode",
       "result": "pr-pending",
       "items": 22
+    },
+    {
+      "date": "2026-07-08",
+      "subtopic": "magnetismus--magnety",
+      "result": "pr-pending",
+      "items": 14
     }
   ],
   "skipUntil": {},
