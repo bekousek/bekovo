@@ -1,0 +1,9 @@
+{
+  "id": "sila-vascak-treti-zakon",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vaščák: 3. Newtonův zákon – zákon akce a reakce",
+  "type": "applet",
+  "description": "Česká HTML5 animace vizualizuje princip vzájemného silového působení: každá akce vyvolává stejně velkou, ale opačně orientovanou reakci. Žáci mohou interaktivně sledovat silové dvojice při různých situacích a ověřovat symetrii sil. Vhodná pro odstraňování žákovské intuice, že akce je silnější než reakce.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_newton3&l=cz"
+}

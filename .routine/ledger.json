@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-14",
+  "lastPicked": "2026-07-15",
   "history": [
     {
       "date": "2026-05-08",
@@ -278,6 +278,12 @@
       "subtopic": "pohyb--rychlost",
       "result": "pr-pending",
       "items": 18
+    },
+    {
+      "date": "2026-07-15",
+      "subtopic": "sila--newtonovy-zakony",
+      "result": "pr-pending",
+      "items": 27
     }
   ],
   "skipUntil": {},
