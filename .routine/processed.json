@@ -35,7 +35,9 @@
     "2026-07-10-mereni--teplota",
     "2026-07-11-mikrosvet--skaly-v-mikrosvete",
     "2026-07-13-plyny-7--vakuum",
-    "2026-07-12-optika--oko"
+    "2026-07-12-optika--oko",
+    "2026-07-14-pohyb--rychlost",
+    "2026-07-15-sila--newtonovy-zakony"
   ],
   "history": [
     {
@@ -358,6 +360,22 @@
       "processedAt": "2026-07-13T12:32:24.454Z",
       "note": "invalid: files.length=17 but ledgerEntry.items=18 (integrity gate failure)",
       "flag": "invalid"
+    },
+    {
+      "manifestId": "2026-07-14-pohyb--rychlost",
+      "subtopic": "pohyb--rychlost",
+      "branch": "routine/nightly-2026-07-14-pohyb--rychlost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/63",
+      "merged": true,
+      "processedAt": "2026-07-15T21:52:00.000Z"
+    },
+    {
+      "manifestId": "2026-07-15-sila--newtonovy-zakony",
+      "subtopic": "sila--newtonovy-zakony",
+      "branch": "routine/nightly-2026-07-15-sila--newtonovy-zakony",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/64",
+      "merged": true,
+      "processedAt": "2026-07-15T21:56:00.000Z"
     }
   ]
 }
