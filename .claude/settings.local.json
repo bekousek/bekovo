@@ -113,7 +113,11 @@
       "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; Write-Host \"RC: $RC\"; & $RC listremotes)",
       "PowerShell(git fetch origin 2>&1)",
       "PowerShell(git checkout main 2>&1)",
-      "PowerShell(git pull --ff-only origin main 2>&1)"
+      "PowerShell(git pull --ff-only origin main 2>&1)",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Host \"rclone found: $RC\"; & $RC listremotes } else { Write-Host \"rclone NOT found\" })",
+      "PowerShell($RC = \\(Get-ChildItem \"$env:LOCALAPPDATA\\\\Microsoft\\\\WinGet\\\\Packages\" -Recurse -Filter rclone.exe -ErrorAction SilentlyContinue | Select-Object -First 1\\).FullName; if \\($RC\\) { Write-Output \"Found: $RC\"; & $RC listremotes } else { Write-Output \"rclone NOT found\" })",
+      "Bash(git check-ignore *)",
+      "Bash(node -e \"const d=JSON.parse\\(require\\('fs'\\).readFileSync\\(0,'utf8'\\)\\); console.log\\(d.processedIds.length\\); console.log\\(d.processedIds.slice\\(-3\\)\\);\")"
     ]
   }
 }

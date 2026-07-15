@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-mereni-vlastni-rychlosti",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Laboratorní práce: měření rychlosti vlastního pohybu",
+  "type": "measurement",
+  "description": "Žákovský pokus venku nebo v tělocvičně. Žáci odměří několik drah (5, 10, 15, 20, 25 m) a stopkami měří čas chůze i běhu. Pro každý úsek vypočítají rychlost v = s/t, určí průměrnou rychlost a převádějí jednotky z m/s na km/h. Výsledky zapisují do tabulky a porovnávají chůzi s během.",
+  "materials": [
+    "pásmo nebo metr",
+    "stopky nebo mobilní telefon",
+    "pracovní list s tabulkou",
+    "křídy nebo kužely k označení dráhy"
+  ],
+  "procedure": "Označit startovní a cílové čáry ve vzdálenostech 5, 10, 15, 20 a 25 m. Žáci ve dvojicích měří čas pro každou dráhu (jeden jde nebo běží, druhý stopuje). Pro každý úsek vypočítat v = s/t a převést na km/h. Závěrem porovnat průměrnou rychlost chůze a běhu.",
+  "source": {
+    "label": "Školní příprava (Václav Koplík)",
+    "url": "https://skolnipriprava.estranky.cz/file/64/rychlost---laboratorni-prace-1---mereni-sveho-pohybu-po-urcitou-drahu.pdf"
+  }
+}

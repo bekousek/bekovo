@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-13",
+  "lastPicked": "2026-07-14",
   "history": [
     {
       "date": "2026-05-08",
@@ -272,6 +272,12 @@
       "subtopic": "plyny-7--vakuum",
       "result": "pr-pending",
       "items": 30
+    },
+    {
+      "date": "2026-07-14",
+      "subtopic": "pohyb--rychlost",
+      "result": "pr-pending",
+      "items": 18
     }
   ],
   "skipUntil": {},
