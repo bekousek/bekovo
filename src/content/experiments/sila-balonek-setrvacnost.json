@@ -1,0 +1,17 @@
+{
+  "id": "sila-balonek-setrvacnost",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Balónek vzdorující Newtonovým zákonům – setrvačnost plynu",
+  "type": "qualitative",
+  "description": "Žákovský/demonstrační pokus ukazující 1. Newtonův zákon nečekaně: průhledná lahev napůl plná vody se vzduchovým bublinkem se při rozjezdu pohybuje bublinkem ve směru pohybu – opačně než voda. Hustší voda se setrvačností přesouvá dozadu a tlačí lehčí vzduch dopředu. Pokus překvapuje žáky a motivuje k diskusi o setrvačnosti a hustotě prostředí.",
+  "materials": [
+    "průhledná uzavíratelná lahev napůl plná vody",
+    "malý vzduchový bubliněk uvnitř lahve"
+  ],
+  "procedure": "Naplň průhlednou lahev vodou, nech malý vzduchový bubliněk a lahev uzavři. Pohybuj lahví vpřed jako při rozjezdu – bubliněk se pohybuje ve stejném směru jako akcelerace, opačně než voda.",
+  "source": {
+    "label": "iQLANDIA Liberec – blog",
+    "url": "https://iqlandia.cz/iqblog/balonek-vzdorujici-newtonovym-zakonum"
+  }
+}

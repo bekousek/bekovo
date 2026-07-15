@@ -1,0 +1,20 @@
+{
+  "id": "sila-lihova-raketa",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Lihová raketa – zákon akce a reakce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: do PET lahve se nalije malé množství ethanolu, nechá se vypařit, poté se lahev zavěsí na provaz a ke dříku ve víčku se přiloží hořící zápalka. Lihové páry vzplanou a horký plyn se rychle rozpíná a vychází otvorem ven – raketa se pohybuje opačným směrem. Zákon akce a reakce: expandující plyn působí silou na stěny lahve (akce), lahev působí opačnou stejně velkou silou na plyn (reakce). Pokus vyžaduje dozor učitele a zachování bezpečnosti.",
+  "materials": [
+    "PET lahev (0,5–1 l)",
+    "ethanol/líh (~0,5 víčka)",
+    "zápalky nebo zapalovač",
+    "vrtačka s vrtákem 8 mm (na úpravu víčka)",
+    "pevný provaz nebo nit"
+  ],
+  "procedure": "1) Vyvrtat díru 8 mm do víčka lahve. 2) Nalít ~0,5 víčka lihu dovnitř, lahev uzavřít a otáčet 2–3 min, aby se líh vypařil. 3) Zavěsit lahev víčkem dolů na horizontálně natažený provaz. 4) Přiložit hořící zápalku k otvoru – plyn vzplane a raketa se rozjede opačným směrem.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2104/lihova-raketa"
+  }
+}
