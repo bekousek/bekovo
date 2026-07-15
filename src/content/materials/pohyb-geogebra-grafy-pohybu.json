@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-geogebra-grafy-pohybu",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "GeoGebra – grafy dráhy a rychlosti pohybu",
+  "type": "applet",
+  "description": "Interaktivní applet zobrazující závislost grafu dráhy a grafu rychlosti na čase pro různé typy pohybu. Žák mění parametry a sleduje, jak rovnoměrný pohyb vytváří přímku v grafu s–t a vodorovnou přímku v grafu v–t. Pomáhá rozvíjet grafickou gramotnost u tématu pohybu a rychlosti, spouští se v prohlížeči bez instalace.",
+  "url": "https://www.geogebra.org/m/dncudsbg"
+}

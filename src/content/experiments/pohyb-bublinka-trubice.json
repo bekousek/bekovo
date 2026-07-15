@@ -1,0 +1,21 @@
+{
+  "id": "pohyb-bublinka-trubice",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Bublinka v trubici – demonstrace rovnoměrného pohybu",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Plastová trubice naplněná barevnou kapalinou obsahuje vzduchovou bublinu, která se po naklonění pohybuje rovnoměrně. Žáci zaznamenávají polohu bublinky v pravidelných časových intervalech (každé 2 s), sestrojí graf dráhy na čase a vypočítají rychlost pomocí v = s/t. Změnou sklonu trubice lze dosáhnout různých rychlostí a zkoumat jejich závislost.",
+  "materials": [
+    "skleněná nebo plastová trubice (délka >1 m, vnitřní průměr >7 mm)",
+    "barevná kapalina (voda + potravinářské barvivo)",
+    "zátky na oba konce",
+    "stopky nebo mobilní telefon",
+    "pravítko nebo metr",
+    "fix na sklo nebo lepicí páska"
+  ],
+  "procedure": "Naplnit trubici barevnou kapalinou, ponechat malou vzduchovou bublinu a zatěsnit zátkami. Naklopit trubici; bublinka se pohybuje rovnoměrně. Zaznamenávat polohu bublinky fixem každé 2 s, změřit uraženou dráhu a vypočítat v = s/t. Sestrojit graf s = f(t) a odečíst konstantní rychlost pohybu.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/09-23-Polak.html"
+  }
+}
