@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@dimforge/rapier2d-deterministic-compat": "0.19.3",
+    "lucide-react": "^1.23.0",
     "pixi.js": "^8.19.0",
     "poly-decomp-es": "^0.4.2",
     "react": "^19.2.0",
