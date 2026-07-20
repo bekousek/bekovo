@@ -37,7 +37,11 @@
     "2026-07-13-plyny-7--vakuum",
     "2026-07-12-optika--oko",
     "2026-07-14-pohyb--rychlost",
-    "2026-07-15-sila--newtonovy-zakony"
+    "2026-07-15-sila--newtonovy-zakony",
+    "2026-07-17-tepelne-motory--spalovaci-motory",
+    "2026-07-18-vlastnosti-latek--latky-a-telesa",
+    "2026-07-19-akustika--zdroje-zvuku",
+    "2026-07-20-astronomie--vznik-a-zanik-hvezd"
   ],
   "history": [
     {
@@ -376,6 +380,42 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/64",
       "merged": true,
       "processedAt": "2026-07-15T21:56:00.000Z"
+    },
+    {
+      "manifestId": "2026-07-17-tepelne-motory--spalovaci-motory",
+      "subtopic": "tepelne-motory--spalovaci-motory",
+      "branch": "routine/nightly-2026-07-17-tepelne-motory--spalovaci-motory",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/65",
+      "merged": true,
+      "processedAt": "2026-07-20T12:25:52.315Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-18-vlastnosti-latek--latky-a-telesa",
+      "subtopic": "vlastnosti-latek--latky-a-telesa",
+      "branch": "routine/nightly-2026-07-18-vlastnosti-latek--latky-a-telesa",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/66",
+      "merged": true,
+      "processedAt": "2026-07-20T12:26:18.366Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-19-akustika--zdroje-zvuku",
+      "subtopic": "akustika--zdroje-zvuku",
+      "branch": "routine/nightly-2026-07-19-akustika--zdroje-zvuku",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/67",
+      "merged": true,
+      "processedAt": "2026-07-20T12:26:42.544Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-20-astronomie--vznik-a-zanik-hvezd",
+      "subtopic": "astronomie--vznik-a-zanik-hvezd",
+      "branch": "routine/nightly-2026-07-20-astronomie--vznik-a-zanik-hvezd",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/68",
+      "merged": true,
+      "processedAt": "2026-07-20T12:27:06.811Z",
+      "driveFileId": ""
     }
   ]
 }
