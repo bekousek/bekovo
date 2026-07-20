@@ -1,0 +1,12 @@
+{
+  "id": "akustika-hrajici-trubky",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hrající trubky — třída jako ansábl",
+  "type": "group-work",
+  "description": "Skupinová aktivita pro celou třídu. Každý žák dostane plastovou (PVC) trubku určité délky — kratší trubka vydá vyšší tón, delší nižší tón. Úderem napnuté dlaně do otevřeného konce trubky žák vydá jeden tón. Učitel jako dirigent ukazuje na barevně označené karty nebo noty a třída jako ansábl zahraje jednoduchou písničku. Aktivita demonstruje vzduchový sloupec uzavřený v trubce jako zdroj zvuku a závislost výšky tónu na délce vzduchového sloupce — zároveň je velmi motivační a propojuje fyziku s hudbou.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2102/hrajici-trubky"
+  }
+}
