@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-motory-zaruvzdorny-balonek",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Žáruvzdorný balónek — analogie vodního chlazení motoru",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): balónek naplněný vodou přidržíme nad plamenem svíčky — díky velké měrné tepelné kapacitě vody se plast nepřehřeje a balónek nepraskne, přestože se plamen přímo dotýká jeho povrchu. Pro kontrast zopakujeme s prázdným balónkem, který ihned praskne. Pokus slouží jako názorná analogie vodního chlazení spalovacích motorů — chladicí kapalina odvádí teplo od stěn válce stejně jako voda odvádí teplo od gumy balónku.",
+  "materials": [
+    "nafukovací balónek",
+    "voda (cca 200 ml)",
+    "svíčka nebo líhový kahan",
+    "zápalky"
+  ],
+  "procedure": "Naplnit balónek vodou, pevně zavázat. Přiblížit plamen svíčky k povrchu balónku a sledovat, že balónek nepraskne. Pro srovnání připravit prázdný (vzduchem plněný) balónek — ten praskne téměř okamžitě. Vysvětlit analogii s chladicím systémem spalovacího motoru.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1691/zaruvzdorny-balonek---princip-vodniho-chlazeni"
+  }
+}

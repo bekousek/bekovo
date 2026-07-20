@@ -1,0 +1,18 @@
+{
+  "id": "tepelne-motory-stirlinguv-stroj",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Stirlingův stroj — demonstrace tepelného motoru",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): Stirlingův stroj je vnější tepelný motor, ve kterém plyn v uzavřeném prostoru střídavě přijímá teplo od kahanu a odevzdává ho do okolí — rozdíl tlaků pohání píst a přes klikový mechanismus otáčí setrvačníkem. Žáci přímo vidí přeměnu tepelné energie na mechanickou práci a pochopí stejný fyzikální princip jako u spalovacího motoru, jen bez spalování. Stirlingův motor byl v 19. století přímým konkurentem parního stroje a dnes se uplatňuje v solárních elektrárnách a kryogenním chlazení.",
+  "materials": [
+    "Stirlingův stroj (školní demonstrační sada)",
+    "líhový kahan nebo plynový hořák",
+    "zápalky nebo zapalovač"
+  ],
+  "procedure": "Umístit kahan pod pracovní prostor Stirlingova motoru. Zahřívat přibližně 2–3 minuty. Spustit roztočením setrvačníku libovolným směrem — motor se začne sám otáčet, dokud je přiváděno teplo. Volitelně: přiložit ruku na studený povrch motoru a sledovat zrychlení otáček při větším teplotním rozdílu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1875/stirlinguv-stroj"
+  }
+}
