@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-vascak-dvoutakt",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Dvoudobý zážehový motor — interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace dvoudobého zážehového motoru ukazuje zjednodušenou konstrukci bez ventilů: místo nich fungují přepouštěcí kanálky. Celý pracovní cyklus probíhá ve dvou taktech — plnění s kompresí a expanze s výfukem. Animace slouží jako přímé srovnání s čtyřdobým motorem a pomáhá žákům pochopit, proč se dvoudobé motory používají v lehčích zařízeních (skútry, motorové pily). Běží v prohlížeči bez instalace, česky.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_dvoutakt&l=cz"
+}

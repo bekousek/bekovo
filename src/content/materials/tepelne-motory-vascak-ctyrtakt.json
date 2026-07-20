@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-vascak-ctyrtakt",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Čtyřdobý zážehový motor — interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace čtyřdobého zážehového (benzinového) motoru zobrazuje všechny čtyři takty: sání, kompresi (s zápalem palivové směsi elektrickou jiskrou), expanzi (pracovní takt) a výfuk. Žáci sledují pohyb pístu, otevírání a zavírání ventilů a okamžik zápalu. Animace běží v prohlížeči bez instalace, je v češtině a volně přístupná. Ideální jako vizuální opora při výkladu principu čtyřdobého motoru.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_ctyrtakt&l=cz"
+}

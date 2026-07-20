@@ -1,0 +1,21 @@
+{
+  "id": "tepelne-motory-model-lahev-hadice",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Model tepelného motoru z lahve a hadičky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): střídavé zahřívání a ochlazování vzduchu uzavřeného v lahvi způsobuje přesun kapaliny v hadičce — jednoduchý model přeměny tepelné energie na mechanickou práci prostřednictvím tlakového rozdílu. Autoři Červinková a Šaroch zasazují pokus do historického kontextu vývoje tepelných strojů (Saveryho parní čerpadlo, 1706) a navrhují ho jako úvod k tématu tepelných motorů pro ZŠ. Žáci sledují, jak teplotní rozdíl mezi dvěma místy pohání tok kapaliny analogicky jako spalovací motor pohání píst.",
+  "materials": [
+    "skleněná nebo plastová lahev (0,5–1 l)",
+    "plastová nebo gumová hadička",
+    "voda",
+    "dvě misky nebo nádoby",
+    "horká voda",
+    "studená voda (nebo led)"
+  ],
+  "procedure": "Zasunout hadičku do lahve, jeden konec ponořit do nádoby s horkou vodou, druhý do nádoby se studenou. Střídavým zahříváním a ochlazováním lahve (přiložením ruky, pak studenou vodou) vyvolat tok kapaliny hadičkou. Opakovaný cyklus simuluje funkci tepelného motoru.",
+  "source": {
+    "label": "VNUF 5 (2000) – Červinková, Šaroch: Tepelný motor",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_05/05_31_Saroch.html"
+  }
+}
