@@ -12,14 +12,34 @@ const BASE = 'C:\\Users\\bekon\\bekovo';
 const QDIR = path.join(BASE, '_queue');
 const GH_PATH = 'C:\\Program Files\\GitHub CLI\\gh.exe';
 
-// New manifests to process, in date order. driveId kept for the audit trail in
-// processed.json. file = byte-exact local copy in _queue/ (deduped to newest).
-const MANIFESTS = [
-  { driveId: '', file: 'manifest-2026-07-17-tepelne-motory--spalovaci-motory.json' },
-  { driveId: '', file: 'manifest-2026-07-18-vlastnosti-latek--latky-a-telesa.json' },
-  { driveId: '', file: 'manifest-2026-07-19-akustika--zdroje-zvuku.json' },
-  { driveId: '', file: 'manifest-2026-07-20-astronomie--vznik-a-zanik-hvezd.json' }
-];
+// Auto-discover manifests to process: every manifest-*.json in _queue/ whose
+// manifestId isn't already in .routine/processed.json, in filename order
+// (manifestId is date-prefixed, so this is date order). driveId is left blank —
+// rclone copy doesn't hand us per-file Drive IDs for free, and the audit trail
+// already tolerates "" (see existing processed.json history entries).
+function discoverManifests() {
+  const processed = readProcessed();
+  let files;
+  try {
+    files = fs.readdirSync(QDIR).filter(f => /^manifest-.*\.json$/.test(f)).sort();
+  } catch (e) {
+    console.error(`Cannot read ${QDIR}: ${e.message}`);
+    return [];
+  }
+  const out = [];
+  for (const file of files) {
+    let manifestId = null;
+    try {
+      manifestId = JSON.parse(fs.readFileSync(path.join(QDIR, file), 'utf-8')).manifestId;
+    } catch {
+      // Unparseable — enqueue anyway so the main loop's parse-error path records it as invalid.
+    }
+    if (!manifestId || !processed.processedIds.includes(manifestId)) out.push({ driveId: '', file });
+  }
+  return out;
+}
+
+const MANIFESTS = discoverManifests();
 
 function run(cmd, opts = {}) {
   return execSync(cmd, {
@@ -50,7 +70,15 @@ const MAX_TEXT_LEN = 500;
 // eslint-disable-next-line no-control-regex
 const HAS_CONTROL_CHARS = /[\x00-\x08\x0B\x0C\x0E-\x1F]/; // allow \t \n, reject the rest
 
+const MANIFEST_ID_RE = /^\d{4}-\d{2}-\d{2}-[a-z0-9-]+--[a-z0-9-]+$/;
+
 function validateManifestFields(manifest) {
+  if (manifest.version !== 1) {
+    return `bad version: ${JSON.stringify(manifest.version)}`;
+  }
+  if (typeof manifest.manifestId !== 'string' || !MANIFEST_ID_RE.test(manifest.manifestId)) {
+    return `bad manifestId: ${JSON.stringify(manifest.manifestId)}`;
+  }
   if (typeof manifest.branch !== 'string' || !BRANCH_RE.test(manifest.branch)) {
     return `bad branch: ${JSON.stringify(manifest.branch)}`;
   }
@@ -98,6 +126,22 @@ function writeLedger(data) {
   fs.writeFileSync(path.join(BASE, '.routine', 'ledger.json'), JSON.stringify(data, null, 2) + '\n', 'utf-8');
 }
 
+function deriveIdFromFilename(file) {
+  const m = /^manifest-(.+)\.json$/.exec(file);
+  return m ? m[1] : file;
+}
+
+// Permanently blacklists a manifest as invalid so it's never retried — per
+// process-queue.md section 4, validation failures are terminal, unlike
+// operational failures (build/sanity/branch-collision/push) which are retried
+// nightly since they may be transient.
+function markInvalid(manifestId, status, extra = {}) {
+  const p = readProcessed();
+  if (!p.processedIds.includes(manifestId)) p.processedIds.push(manifestId);
+  p.history.push({ manifestId, status, processedAt: new Date().toISOString(), ...extra });
+  writeProcessed(p);
+}
+
 const results = [];
 
 for (const m of MANIFESTS) {
@@ -107,6 +151,7 @@ for (const m of MANIFESTS) {
     manifest = JSON.parse(json);
   } catch (e) {
     console.error(`READ/PARSE ERROR for ${m.file}: ${e.message}`);
+    markInvalid(deriveIdFromFilename(m.file), 'invalid-parse-error', { error: e.message });
     results.push({ id: m.file, status: 'parse-error', error: e.message });
     continue;
   }
@@ -125,6 +170,7 @@ for (const m of MANIFESTS) {
   const expectedItems = manifest.ledgerEntry && manifest.ledgerEntry.items;
   if (typeof expectedItems !== 'number' || manifest.files.length !== expectedItems) {
     console.error(`INTEGRITY FAIL ${manifest.manifestId}: files=${manifest.files.length} but ledgerEntry.items=${expectedItems}. SKIPPING.`);
+    markInvalid(manifest.manifestId, 'invalid-integrity', { files: manifest.files.length, expected: expectedItems });
     results.push({ id: manifest.manifestId, status: 'integrity-fail', files: manifest.files.length, expected: expectedItems });
     continue;
   }
@@ -141,6 +187,7 @@ for (const m of MANIFESTS) {
   }
   if (!integrityOk) {
     console.error(`INTEGRITY FAIL ${manifest.manifestId}: bad file content/path. SKIPPING.`);
+    markInvalid(manifest.manifestId, 'invalid-integrity-content');
     results.push({ id: manifest.manifestId, status: 'integrity-fail-content' });
     continue;
   }
@@ -152,6 +199,7 @@ for (const m of MANIFESTS) {
   const fieldError = validateManifestFields(manifest);
   if (fieldError) {
     console.error(`FIELD VALIDATION FAIL ${manifest.manifestId}: ${fieldError}. SKIPPING.`);
+    markInvalid(manifest.manifestId || deriveIdFromFilename(m.file), 'invalid-field', { error: fieldError });
     results.push({ id: manifest.manifestId, status: 'field-validation-fail', error: fieldError });
     continue;
   }
