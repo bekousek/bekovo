@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-geogebra-hr-diagram",
+  "subtopicId": "vznik-a-zanik-hvezd",
+  "topicId": "astronomie",
+  "title": "HR diagram – interaktivní GeoGebra applet",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet zobrazující Hertzsprungův–Russellův diagram jako závislost svítivosti na teplotě povrchu hvězdy. Žáci mohou vizuálně zkoumat rozmístění hvězd různých typů (hlavní posloupnost, červení obři, bílí trpaslíci) a propojit polohu hvězdy v diagramu s etapami jejího vývoje. Funguje v prohlížeči bez instalace nebo registrace.",
+  "url": "https://www.geogebra.org/m/ADErP3Bp"
+}
