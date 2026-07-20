@@ -5,6 +5,7 @@ import type { PlotSample } from '@engine/instruments/Recorder';
 import type { FbdForce } from '@engine/rigid/fbd';
 import type { Lesson } from '@engine/scene/lesson';
 import type { RaySegment } from '@engine/optics/OpticsModule';
+import { applyTheme, loadStoredTheme, type ThemeMode } from '@app/theme';
 
 /** Strop délky `plotBuffer` — ochrana proti neomezenému růstu paměti při dlouhém záznamu. */
 const MAX_PLOT_SAMPLES = 50_000;
@@ -26,6 +27,9 @@ export interface RadialMenuState {
 }
 
 interface UiState {
+  /** Aktuální motiv aplikace. Inicializováno z localStorage / systémového nastavení. */
+  theme: ThemeMode;
+  setTheme: (mode: ThemeMode) => void;
   running: boolean;
   speed: number;
   stats: RenderStats;
@@ -96,6 +100,11 @@ interface UiState {
 }
 
 export const useUiStore = create<UiState>()((set) => ({
+  theme: loadStoredTheme(),
+  setTheme: (mode) => {
+    applyTheme(mode);
+    set({ theme: mode });
+  },
   running: false,
   speed: 1,
   stats: { fps: 0, tickMs: 0, bodies: 0, slowMotion: false, simTime: 0 },
@@ -184,3 +193,6 @@ export const useUiStore = create<UiState>()((set) => ({
   resetPrediction: () =>
     set({ predictionState: 'waiting', predictionInput: '', predictionChosenId: null, predictionActual: null }),
 }));
+
+// Aplikovat výchozí motiv ihned při inicializaci store (ještě před prvním renderem).
+applyTheme(useUiStore.getState().theme);
