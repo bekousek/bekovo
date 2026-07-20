@@ -1,0 +1,11 @@
+{
+  "id": "akustika-strunatci-fykos",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Strunatci — jak délka struny ovlivňuje výšku tónu",
+  "description": "Sestavte jednoduchý strunový nástroj: gumičku nebo nylonovou strunu upněte přes otevřenou krabici nebo připevněte ke stolu. Systematicky měňte délku vibrující části struny a u každé délky změřte základní frekvenci vydávaného tónu mobilní aplikací na ladění nástrojů. Výsledky zapište do tabulky a vyneste do grafu závislost frekvence na délce struny. Hledejte matematický vztah a propojte poznatky s fungováním kytary nebo houslí jako zdrojů zvuku. Výstupem je písemná zpráva s tabulkou naměřených hodnot, grafem a vlastním závěrem.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://static.fykos.cz/problems/fykos/24/media/serie5.pdf"
+  }
+}

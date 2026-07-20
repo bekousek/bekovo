@@ -1,0 +1,20 @@
+{
+  "id": "elektricke-obvody-kapaliny-citronovy-clanek",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Citronový galvanický článek",
+  "type": "qualitative",
+  "description": "Žáci vyrobí galvanický článek zapíchnutím měděné a zinkové elektrody do citronu; vzniklé napětí vychýlí voltmetr a při zapojení více citronů do série rozsvítí LED. Pokus demonstruje přeměnu chemické energie na elektrickou a roli elektrolytu v ovoci. Jde o žákovský pokus; porovnat lze různé plody (brambor, pomeranč, cibule).",
+  "materials": [
+    "citron nebo brambor",
+    "měděný plíšek nebo starší mince",
+    "zinkový plíšek nebo pozinkovaný hřebík",
+    "LED nebo voltmetr",
+    "vodiče s krokodýlky"
+  ],
+  "procedure": "Do citronu zarazíme dvě různé kovové elektrody ve vzdálenosti cca 2 cm. Připojíme voltmetr a zaznamenáme napětí. Pro rozsvícení LED zapojíme více citronových článků do série.",
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/elektrina-a-magnetismus/vedeni-proudu-v-kapalinach/obecny-galvanicky-clanek-71/"
+  }
+}

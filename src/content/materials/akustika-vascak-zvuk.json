@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-zvuk",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zvuk — animace (Vaščák: Fyzika ve škole)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce RNDr. Vladimíra Vaščáka vizualizuje vznik a šíření zvuku z kmitajícího zdroje. Sbírka Fyzika ve škole obsahuje přes 200 animací pro výuku fyziky ZŠ a SŠ, všechny v češtině a přizpůsobené přímému promítání ve třídě. Animace na téma zvuku ukazuje mechanické kmitání tělesa jako zdroj zvukového vlnění šířícího se do prostoru.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=kv_zvuk&l=cz"
+}

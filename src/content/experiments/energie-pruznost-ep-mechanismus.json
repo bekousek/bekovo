@@ -1,0 +1,15 @@
+{
+  "id": "energie-pruznost-ep-mechanismus",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Potenciální energie pružnosti — tři kroky přeměny",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (video soutěže Vím proč). Zařízení s napnutou pružinou (např. past na myši nebo gumičkové autíčko) ukazuje postupnou přeměnu elastické potenciální energie nejprve na kinetickou energii rotačního pohybu a dále na kinetickou energii posuvného pohybu. Tři-krokový řetězec přeměn (Ep pružnosti → Ek rotace → Ek posunu) pomáhá žákům rozlišit různé formy kinetické a potenciální energie.",
+  "materials": [
+    "past na myši nebo gumičkové autíčko s pružinovým mechanismem"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/vim-proc/soutezni-videa/potencialni-energie-pruznosti-232848"
+  }
+}

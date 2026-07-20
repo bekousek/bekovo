@@ -1,0 +1,19 @@
+{
+  "id": "elektricke-obvody-kapaliny-elektrolyza-vody",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Elektrolýza vody",
+  "type": "qualitative",
+  "description": "Průchodem stejnosměrného elektrického proudu vodou (s přídavkem jedlé sody jako elektrolytu) dochází k vývoji viditelných bublin na elektrodách — vodíku na katodě a kyslíku na anodě. Demonstrační pokus učitele názorně dokládá, že elektrický proud způsobuje chemické přeměny v kapalině. Po ukončení se soustava chová jako galvanický článek. Nízké napětí 4,5–9 V, bezpečné.",
+  "materials": [
+    "voda",
+    "jedlá soda (NaHCO₃)",
+    "zdroj stejnosměrného napětí 4,5–9 V",
+    "uhlíkové elektrody",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/elektrina-a-magnetismus/vedeni-proudu-v-kapalinach/elektrolyza-vody-68/"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-lode-kartezianek",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Karteziánek — model ponorky",
+  "type": "qualitative",
+  "description": "Žákovský pokus: kapátko se opatří zátěží tak, aby sotva plávalo na hladině; lahev se naplní vodou a pevně uzavře. Stlačením lahve se zvýší tlak, vzduch uvnitř kapátka se stlačí, průměrná hustota kapátka vzroste a kapátko se potopí. Po uvolnění se opět vynoří. Elegantní model spojující Pascalův zákon s Archimédovým zákonem — přímo modeluje princip plovacích komor ponorky.",
+  "materials": [
+    "průhledná plastová lahev s pevným víčkem (1,5–2 l)",
+    "kapátko nebo tenká trubička uzavřená z jedné strany",
+    "kancelářská sponka nebo plastelína jako zátěž",
+    "voda"
+  ],
+  "procedure": "Kapátko zatíž sponkou tak, aby stálo na pokraji potopení. Lahev naplň vodou po okraj, vlož kapátko, pevně uzavři. Stiskni lahev — kapátko se potopí; pusť — vynoří se.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/46"
+  }
+}

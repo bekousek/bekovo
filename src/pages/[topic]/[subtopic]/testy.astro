@@ -13,7 +13,7 @@ export async function getStaticPaths() {
 const { topic, subtopic } = Astro.props;
 const tests = subtopic.pastTests || [];
 ---
-<BaseLayout title={`${subtopic.name} - Minulé testy`}>
+<BaseLayout title={`${subtopic.name} - Minulé testy`} description={`Minulé testy a písemky k tématu ${subtopic.name} (${topic.name}).`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },

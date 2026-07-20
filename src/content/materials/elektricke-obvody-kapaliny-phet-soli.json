@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-kapaliny-phet-soli",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Soli a rozpustnost — vznik iontů v roztoku",
+  "type": "applet",
+  "description": "Simulace PhET ukazující, jak se ionty uvolňují při rozpouštění různých solí (NaCl, KNO₃ aj.) ve vodě — přímý základ pro pochopení elektrické vodivosti roztoků. Žáci vidí pohyb iontů a závislost jejich koncentrace na množství rozpuštěné látky. Vhodná jako úvodní aktivita před výkladem o elektrolytech.",
+  "url": "https://phet.colorado.edu/cs/simulations/soluble-salts"
+}

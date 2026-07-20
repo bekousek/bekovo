@@ -48,6 +48,13 @@ GitHub repozitář:
 CI (typecheck + testy + build) běží v GitHub Actions:
 `.github/workflows/fyzlab-ci.yml`, path-filtrované na `fyzlab/**`.
 
+## Podporované prohlížeče
+
+Build cílí na `es2022` a sdílení scén (`#s=`) používá `CompressionStream`/
+`DecompressionStream`. Minimální verze: **Chrome/Edge 80+, Safari 16.4+,
+Firefox 113+** (ES module workers potřebují Firefox 114+). Starší prohlížeč
+dostane čitelnou hlášku místo prázdné obrazovky (`src/main.tsx`).
+
 ## Struktura
 
 ```

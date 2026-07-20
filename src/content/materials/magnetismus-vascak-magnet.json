@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-vascak-magnet",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Vaščák: Animace permanentního magnetu",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Fyzika ve škole zobrazuje permanentní tyčový magnet s magnetickými póly a vizualizací magnetického pole. Animace je v češtině, bez nutnosti instalace, spustitelná přímo v prohlížeči. Vhodné jako rychlá vizualizace k výkladu nebo zopakování pojmů.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mag_magnet&l=cz"
+}

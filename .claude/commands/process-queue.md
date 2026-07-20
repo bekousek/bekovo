@@ -11,28 +11,30 @@ Jsi lokální assistant v repu `C:\Users\bekon\bekovo`. Tvá úloha: dokončit w
   {"processedIds": [], "history": []}
   ```
 
-## 1. Pre-flight (s auto-stash rozdělané práce)
+## 1. Pre-flight (s cíleným auto-stash)
 
-Tahle úloha běží automaticky jako naplánovaná úloha — uživatel klidně může mít v repu rozdělanou necommitnutou práci. **Neabortuj na špinavý tree; bezpečně ho odlož a na konci vrať.**
+Tahle úloha běží automaticky jako naplánovaná úloha — uživatel klidně může mít v repu rozdělanou necommitnutou práci KDEKOLI jinde v repu. **Neabortuj na špinavý tree, ale taky ho neber celý: stashuj výhradně pathspecem přes cesty, které tahle rutina sama zapisuje.**
+
+⚠️ **Nikdy nespouštěj `git stash push -u` bez pathspecu.** Bez pathspecu smete i cizí rozdělanou práci kdekoli v repu — přesně tohle jednou spolklo čerstvě napsaný `AUDIT.md` na 10 dní do stashe `process-queue-auto-*` (audit nález K10; zotavení: `git show <stash>^3:AUDIT.md`). Rutina potřebuje čisté jen tři soubory (viz sanity check v kroku 5e) — nikdy ne celý strom.
 
 ```bash
-git status --short
+git status --short -- _process_manifests.cjs .routine/ledger.json .routine/processed.json
 ```
 
-Spočítej „blokující změny" = cokoli MIMO tyto povolené cesty: `.claude/settings.local.json`, `.claude/worktrees/`, `.routine/processed.json`, `.routine/ledger.json`.
-
-- Pokud blokující změny **existují** → odlož je:
+- Pokud je něco z těchto **tří cest** změněné/untracked → odlož JEN je:
   ```bash
-  git stash push -u -m "process-queue-auto-<ISO-timestamp>"
+  git stash push -u -m "process-queue-auto-<ISO-timestamp>" -- _process_manifests.cjs .routine/ledger.json .routine/processed.json
   ```
-  Zapamatuj si `STASHED=1`. (`-u` vezme i untracked; gitignored soubory jako `.claude/worktrees/` zůstanou.)
-- Pokud žádné nejsou → `STASHED=0`.
+  Zapamatuj si `STASHED=1`.
+- Jinak → `STASHED=0`.
+
+Zbytek working tree (`.claude/settings.local.json`, `.claude/worktrees/`, a hlavně cokoli cizího jako rozepsané `.md`/scratch soubory) se pathspecem nedotkne — není důvod ho vůbec zkoumat nebo klasifikovat jako „blokující".
 
 ```bash
 git fetch origin && git checkout main && git pull --ff-only origin main
 ```
 
-Routine větve teď vzniknou z čistého `origin/main`, nedotčené uživatelovou rozdělanou prací.
+Routine větve teď vzniknou z čistého `origin/main`. Pokud `checkout main` odmítne kvůli lokálním změnám mimo ty tři cesty, to je v pořádku — nejsou routine věc, uživatel je zpracuje sám (viz i failsafe pravidla).
 
 ## 2. Drive přístup přes rclone (byte-přesné stahování)
 
@@ -77,8 +79,10 @@ Pro každý `_queue/manifest-*.json`, jehož `manifestId ∉ processed.json.proc
   - každý `files[].path` matches `^src/content/(experiments|activities|materials|homework)/[a-z0-9-]+\.json$`
   - každý `files[].content` parsovatelný jako JSON s poli `id`/`subtopicId`/`topicId`
 - Pokud cokoli selže → varování + skip (zaznamenej do processed.json s flagem `invalid` ať to nezkoušíme znovu)
+- **Field validation (bezpečnostní gate, ne jen integrity):** `branch` musí sedět na `^routine\/nightly-[a-z0-9-]+$`; `commit` a `prTitle` musí být neprázdné, ≤ 500 znaků a bez control znaků. Tahle tři pole (na rozdíl od `files[].content`, který jde jen do JSON souborů) končí jako argv pro `git`/`gh` — validuj je, i když integrity gate výše už prošel.
 
-Repo `package.json` má `"type":"module"` → pomocné skripty musí mít příponu **`.cjs`**. Hotový procesor, který implementuje sekce 4–5 (čte `_queue/`, integrity gate, build před mergem): `_process_manifests.cjs` v rootu repa.
+Repo `package.json` má `"type":"module"` → pomocné skripty musí mít příponu **`.cjs`**. Hotový procesor, který implementuje sekce 4–5 (čte `_queue/`, integrity gate, field validation, build před mergem): `_process_manifests.cjs` v rootu repa — **tenhle soubor je zdroj pravdy pro přesný tvar kódu** (regeneruj z něj, neopisuj jen z prózy výše). Klíčové vlastnosti, které musí přežít každou regeneraci:
+- `branch`/`commit`/`prTitle` jdou do `git`/`gh` výhradně přes `execFileSync(cmd, [...args])` (pole argumentů), **nikdy** přes `execSync` se stringem — vyhne se shellu úplně, takže escapování uvozovek/metaznaků není potřeba a není se čeho bát.
 
 ## 5. Process každý manifest
 

@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-hmotnosti-pruziny",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "PhET: Hmotnosti a pružiny",
+  "type": "applet",
+  "description": "Česká simulace PhET: závaží na pružinách různé tuhosti kmitá a žáci sledují přeměnu elastické potenciální energie a kinetické energie v reálném čase v energetickém grafu. Lze nastavit hmotnost závaží, tuhost pružiny i tlumení. Vhodný doplněk k výkladu, jak se energie uchovává v pružině a jak se mění na pohyb.",
+  "url": "https://phet.colorado.edu/cs/simulations/masses-and-springs"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "kapaliny-lode-ponorka-strikacky",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Model ponorky ze stříkaček a fólie",
+  "type": "qualitative",
+  "description": "Žákovský pokus (skupinová práce): z plastové fólie a injekčních stříkaček propojených akvarijní hadičkou se sestaví model balastních nádrží ponorky. Stlačením stříkačky se kapsy naplní vzduchem, průměrná hustota modelu klesne pod hustotu vody a model vypluje na hladinu — přesně jako skutečná ponorka. Vypuštěním vzduchu model opět klesne. Žáci si přímo vyzkoušejí princip řízení hloubky ponorky pomocí Archimédova zákona.",
+  "materials": [
+    "plastová fólie z obalu desek",
+    "2 injekční stříkačky",
+    "akvarijní hadička",
+    "horká lepicí pistole",
+    "závaží (malý kámen nebo sponky)",
+    "nádoba s vodou"
+  ],
+  "procedure": "Z fólie vyřízni obdélník; na obou koncích horkou pistolí vytvoř kapsy. Kapsy napoj hadičkami na stříkačky. Odstraň vzduch, zatíž model tak, aby se vznášel uprostřed vody. Stlač stříkačky — model vypluje. Nasaj vzduch zpět — model klesne.",
+  "source": {
+    "label": "VNUF 2008",
+    "url": "https://vnuf.cz/sbornik/prispevky/13-11-Jindra.html"
+  }
+}

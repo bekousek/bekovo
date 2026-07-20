@@ -1,0 +1,9 @@
+{
+  "id": "sila-vascak-druhy-zakon",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vaščák: 2. Newtonův zákon – zákon síly",
+  "type": "applet",
+  "description": "Česká HTML5 animace demonstruje vztah mezi výslednou silou, hmotností tělesa a jeho zrychlením (F = m·a). Žáci mění velikost síly i hmotnost a sledují výsledné zrychlení, čímž experimentálně ověřují 2. Newtonův zákon. Doplňuje výpočtové příklady a rozvíjí fyzikální intuici.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_newton2&l=cz"
+}

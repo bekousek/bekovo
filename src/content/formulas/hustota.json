@@ -9,7 +9,7 @@
       "name": "hustota",
       "unit": "kg/m³",
       "altUnits": [
-        { "unit": "g/cm³", "factor": 0.001 }
+        { "unit": "g/cm³", "factor": 1000 }
       ],
       "range": [100, 20000]
     },

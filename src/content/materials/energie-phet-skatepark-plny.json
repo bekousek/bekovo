@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-skatepark-plny",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "PhET: Energetický skatepark (plná verze)",
+  "type": "applet",
+  "description": "Plná verze skateparkové simulace PhET v češtině — navazuje na verzi Základy. Žáci mohou libovolně tvarovat dráhu, nastavit tření a sledovat v reálném čase přeměny kinetické, potenciální a tepelné energie pomocí sloupcových grafů i energetického koláče. Umožňuje ověřit zákon zachování energie i ukázat vliv tření na pokles celkové mechanické energie.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-skate-park"
+}

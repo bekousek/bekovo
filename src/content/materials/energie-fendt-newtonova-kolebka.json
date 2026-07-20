@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-newtonova-kolebka",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Walter Fendt: Newtonova kolébka",
+  "type": "applet",
+  "description": "Česká HTML5 simulace Newtonovy kolébky ukazuje zákon zachování energie a hybnosti při srážkách kuliček. Žáci nastavují počet zdvihnutých kuliček a sledují, jak se energie přenáší přes soustavu. Intuitivní propojení se zákonem zachování energie — vhodný úvod nebo motivace na začátku hodiny.",
+  "url": "https://www.walter-fendt.de/html5/phcz/newtoncradle_cz.htm"
+}

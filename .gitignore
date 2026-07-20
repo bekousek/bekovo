@@ -40,3 +40,9 @@ scripts/ai-pipeline/handwritten/
 
 # Routine ledger (per-run state — rutina commit­uje svou kopii na routine/* větve)
 .routine/
+# Stažené manifesty fronty (rclone, lokální kopie — zdroj pravdy je Drive folder)
+_queue/
+
+# Lokální Claude Code metadata (cesty, nástroje, folder ID) — do veřejného repa nepatří
+.claude/settings.local.json
+.claude/worktrees/

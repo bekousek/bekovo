@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-lode-ponorka-lahev",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Ponorka z plastové lahve",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: z plastové lahve se sestaví model ponorky — do dna se vyvrtají otvory pro vstup vody, do víčka se zavede hadička pro přívod vzduchu, dovnitř se vloží oblázky jako stálá zátěž. Přifouknutím vzduchu se voda vytlačí z lahve, průměrná hustota modelu klesne pod hustotu vody a model se vynoří. Zastavením přívodu vzduchu voda opět nateče a model se potopí. Vizuálně demonstruje řízení hloubky ponorky pomocí balastních nádrží.",
+  "materials": [
+    "plastová lahev s uzávěrem",
+    "hadička nebo brčko pro přívod vzduchu",
+    "oblázky nebo jiná zátěž",
+    "vrtáček nebo hřebík na vyvrtání otvorů",
+    "větší nádoba s vodou"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2781"
+  }
+}

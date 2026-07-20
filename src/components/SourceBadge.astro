@@ -11,13 +11,11 @@ interface Props {
 
 const { source } = Astro.props;
 
-const href = source
-  ? source.url
-    ? source.url
-    : source.pdf
-      ? `/sborniky/${source.pdf}`
-      : null
-  : null;
+// `source.pdf` sborníky nejsou (a nikdy nebyly) součástí produkčního
+// nasazení — public/sborniky/ je gitignored a Cloudflare je buildí z gitu
+// (ověřeno: bekovo.cz/sborniky/*.pdf vrací 404). Odkazovat jde jen na
+// source.url; bez něj se zdroj zobrazí jako neklikatelný štítek (viz níže).
+const href = source?.url ?? null;
 ---
 {source && (
   href ? (

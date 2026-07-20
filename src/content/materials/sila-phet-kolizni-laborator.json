@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-kolizni-laborator",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "PhET: Kolizní laboratoř",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace PhET umožňuje zkoumat srážky dvou těles v 1D i 2D. Žáci nastavují hmotnosti, počáteční rychlosti a elasticitu srážky a sledují vektory hybnosti před i po srážce. Propojuje 3. Newtonův zákon s pojmem hybnosti a poskytuje datové výstupy pro jednoduché výpočty.",
+  "url": "https://phet.colorado.edu/cs/simulations/collision-lab"
+}

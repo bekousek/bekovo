@@ -2,24 +2,11 @@
 import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Breadcrumb from '../../../components/Breadcrumb.astro';
 import SubtopicNav from '../../../components/SubtopicNav.astro';
-import { getCollection } from 'astro:content';
+import { getSubtopicPaths } from '../../../lib/paths';
 import { hasApplet } from '../../../lib/applets';
 
 export async function getStaticPaths() {
-  const topics = await getCollection('topics');
-  const subtopicsCollection = await getCollection('subtopics');
-
-  const paths = [];
-  for (const topic of topics) {
-    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
-    for (const subtopic of topicSubtopics) {
-      paths.push({
-        params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data },
-      });
-    }
-  }
-  return paths;
+  return getSubtopicPaths();
 }
 
 const { topic, subtopic } = Astro.props;
@@ -46,7 +33,7 @@ if (hasApplet(subtopic.id)) {
   });
 }
 ---
-<BaseLayout title={`${subtopic.name} - Přehled`}>
+<BaseLayout title={`${subtopic.name} - Přehled`} description={`Přehled podkapitoly ${subtopic.name} (${topic.name}): zápis, pokusy, aktivity, materiály a úkoly.`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name },
@@ -64,7 +51,7 @@ if (hasApplet(subtopic.id)) {
         href={section.href ?? `/${topic.id}/${subtopic.id}/${section.id}`}
         class="flex flex-col items-center gap-2 bg-white rounded-xl shadow-sm border border-gray-200 p-5 hover:shadow-md hover:border-primary-300 transition-all duration-200 text-center"
       >
-        <span class="text-3xl">{section.icon}</span>
+        <span class="text-3xl" aria-hidden="true">{section.icon}</span>
         <h3 class="font-semibold text-gray-900">{section.label}</h3>
         <p class="text-sm text-gray-500">{section.desc}</p>
       </a>

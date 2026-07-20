@@ -1,0 +1,9 @@
+{
+  "id": "mereni-teplota-vascak-stupnice",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Teplotní stupnice Celsius a Kelvin (Vaščák — animace)",
+  "type": "applet",
+  "description": "HTML5 animace srovnává teplotní stupnice Celsius a Kelvin na jednom vizuálním teploměru. Žáci mohou posouvat teplotu a vidět odpovídající hodnoty v obou stupnicích najednou, včetně polohy absolutní nuly. Vhodné jako doplněk k výkladu o měření teploty a teplotních stupnicích.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_teplotni_stupnice&l=cz"
+}

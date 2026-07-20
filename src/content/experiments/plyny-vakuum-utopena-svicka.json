@@ -1,0 +1,21 @@
+{
+  "id": "plyny-vakuum-utopena-svicka",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Utopená svíčka – voda stoupá pod sklenicí",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Svíčka hoří na talíři s obarvenou vodou a je přikryta vysokou sklenicí. Plamen spotřebovává kyslík a zahřívá vzduch; po zhasnutí se vzduch ochladí a zmenší objem, čímž uvnitř vznikne podtlak. Atmosférický tlak zvenčí vtlačí vodu do sklenice – hladina uvnitř viditelně stoupne nad úroveň v talíři. Výsledek je překvapivý a vizuálně velmi přesvědčivý.",
+  "materials": [
+    "svíčka",
+    "zápalky",
+    "vysoká sklenice nebo odměrný válec",
+    "talíř nebo mělká miska",
+    "voda",
+    "potravinářské barvivo"
+  ],
+  "procedure": "Nalít obarvenou vodu na talíř, zapálit svíčku, přikrýt ji sklenicí postavenou na talíři. Sledovat, jak nejprve unikají bublinky vzduchu a pak, po zhasnutí, voda stoupá do sklenice.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1904/utopena-svicka"
+  }
+}

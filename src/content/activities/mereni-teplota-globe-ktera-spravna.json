@@ -1,0 +1,12 @@
+{
+  "id": "mereni-teplota-globe-ktera-spravna",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Která teplota je ta správná? (GLOBE)",
+  "type": "method",
+  "description": "Třída společně zkoumá, co ovlivňuje odečet teploměru: žáci umisťují teploměry na různá místa (přímé slunce, stín stromu, stín budovy, mokrá tráva) a srovnávají naměřené hodnoty. Aktivita trvá 45 minut a vede k badatelskému závěru, že teploměr musí být umístěn ve stínu na volném prostranství, chráněn před srážkami. Součástí je pracovní list s místem pro záznamy.",
+  "source": {
+    "label": "GLOBE Czech — do výuky",
+    "url": "https://globe-czech.cz/portfolio/cz/ktera-teplota-je-ta-spravna"
+  }
+}

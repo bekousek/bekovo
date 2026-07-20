@@ -1,0 +1,11 @@
+{
+  "id": "pohyb-globe-rychlost-toku",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Měření rychlosti toku vody plovákovou metodou – GLOBE",
+  "description": "Žáci navštíví blízký potok nebo řeku a plovákovou metodou (korkový špunt, stopky, metr) opakovaně měří rychlost proudění v = s/t. Výsledky zapisují do standardizovaného protokolu GLOBE; doporučuje se měření opakovat v různých měsících jako součást dlouhodobého environmentálního monitoringu toku. Projekt propojuje fyziku s přírodovědou a terénním výzkumem.",
+  "source": {
+    "label": "GLOBE Czech – Hydrologie",
+    "url": "https://globe-czech.cz/_files/userfiles/hydrologie_PL_2019_FINAL.pdf"
+  }
+}

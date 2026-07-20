@@ -5,26 +5,15 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import SourceBadge from '../../../components/SourceBadge.astro';
 import { getCollection } from 'astro:content';
+import { getSubtopicPaths } from '../../../lib/paths';
 
 export async function getStaticPaths() {
-  const topics = await getCollection('topics');
-  const subtopicsCollection = await getCollection('subtopics');
   const activitiesCollection = await getCollection('activities');
-
-  const paths = [];
-  for (const topic of topics) {
-    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
-    for (const subtopic of topicSubtopics) {
-      const activities = activitiesCollection
-        .filter((a) => a.data.topicId === topic.data.id && a.data.subtopicId === subtopic.data.id)
-        .map((a) => a.data);
-      paths.push({
-        params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data, activities },
-      });
-    }
-  }
-  return paths;
+  return getSubtopicPaths((topic, subtopic) => ({
+    activities: activitiesCollection
+      .filter((a) => a.data.topicId === topic.id && a.data.subtopicId === subtopic.id)
+      .map((a) => a.data),
+  }));
 }
 
 const { topic, subtopic, activities } = Astro.props;
@@ -36,7 +25,7 @@ const typeLabels: Record<string, string> = {
   other: 'Jiné',
 };
 ---
-<BaseLayout title={`${subtopic.name} - Banka aktivit`}>
+<BaseLayout title={`${subtopic.name} - Banka aktivit`} description={`Banka aktivit k tématu ${subtopic.name} (${topic.name}).`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },

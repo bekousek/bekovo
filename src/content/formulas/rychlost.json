@@ -9,7 +9,7 @@
       "name": "rychlost",
       "unit": "m/s",
       "altUnits": [
-        { "unit": "km/h", "factor": 3.6 }
+        { "unit": "km/h", "factor": 0.2778 }
       ],
       "range": [0.5, 100]
     },

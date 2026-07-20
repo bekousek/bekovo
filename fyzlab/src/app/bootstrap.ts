@@ -61,6 +61,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
       initialDoc = await decodeSceneParam(sceneParam);
     } catch (err) {
       console.error('[fyzlab] Scénu z URL se nepodařilo načíst:', err);
+      useUiStore.getState().setToast(t('toastLoadError'));
     }
   }
 
@@ -130,6 +131,8 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
   };
   client.onError = (message) => {
     console.error('[fyzlab worker]', message);
+    useUiStore.getState().setToast(t('toastSimError'));
+    controller.pause();
   };
 
   store.subscribe((doc, ops) => {

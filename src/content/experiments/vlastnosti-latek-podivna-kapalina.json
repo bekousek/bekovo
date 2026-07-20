@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-podivna-kapalina",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Podivná kapalina – škrob a voda (nenewtonovská látka)",
+  "type": "qualitative",
+  "description": "Žákovský pokus: škrob smíchaný s vodou vytváří kapalinu, která se při pomalém pohybu chová jako kapalina (stéká z prstů), ale při rychlém nárazu jako pevná látka (nejde prorazit). Pokus slouží jako podnět k přemýšlení o tom, co vlastně skupenství a vlastnosti látky určují, a ukazuje, že hranice skupenství nejsou vždy ostré.",
+  "materials": [
+    "kukuřičný nebo bramborový škrob",
+    "voda",
+    "miska nebo plochá nádoba"
+  ],
+  "procedure": "1. Smíchat přibližně 2 díly škrobu s 1 dílem vody a pomalu míchat do pastovité konzistence. 2. Pomalu pohybovat prsty v kapalině – teče. 3. Rychle udeřit do povrchu nebo prudce zmáčknout – chová se jako pevná látka.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/nenewtonovska-kapalina"
+  }
+}

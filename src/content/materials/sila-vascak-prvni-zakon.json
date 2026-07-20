@@ -1,0 +1,9 @@
+{
+  "id": "sila-vascak-prvni-zakon",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vaščák: 1. Newtonův zákon – zákon setrvačnosti",
+  "type": "applet",
+  "description": "Česká HTML5 animace z kolekce Fyzika ve škole vizuálně demonstruje zákon setrvačnosti: těleso v klidu zůstává v klidu a těleso v pohybu pokračuje v rovnoměrném přímočarém pohybu, dokud na něj nepůsobí výsledná síla. Žáci mohou interaktivně zkoumat chování těles při nulovém i nenulovém silovém působení.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_newton1&l=cz"
+}

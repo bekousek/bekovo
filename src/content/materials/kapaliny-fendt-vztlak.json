@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-fendt-vztlak",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Vztlaková síla v kapalinách — Walter Fendt",
+  "type": "applet",
+  "description": "Česky psaný HTML5 applet zobrazuje těleso ponořené do kapaliny se silovými vektory (tíha, vztlaková síla) a číselně ukazuje velikost obou sil. Žáci mohou měnit materiál tělesa i druh kapaliny a sledovat výsledky. Přehledný, bez instalace, vhodný pro demonstraci na tabuli i samostatnou práci žáků.",
+  "url": "https://www.walter-fendt.de/html5/phcz/buoyantforce_cz.htm"
+}

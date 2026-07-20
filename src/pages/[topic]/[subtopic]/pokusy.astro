@@ -5,26 +5,15 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import SourceBadge from '../../../components/SourceBadge.astro';
 import { getCollection } from 'astro:content';
+import { getSubtopicPaths } from '../../../lib/paths';
 
 export async function getStaticPaths() {
-  const topics = await getCollection('topics');
-  const subtopicsCollection = await getCollection('subtopics');
   const experimentsCollection = await getCollection('experiments');
-
-  const paths = [];
-  for (const topic of topics) {
-    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
-    for (const subtopic of topicSubtopics) {
-      const experiments = experimentsCollection
-        .filter((e) => e.data.topicId === topic.data.id && e.data.subtopicId === subtopic.data.id)
-        .map((e) => e.data);
-      paths.push({
-        params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data, experiments },
-      });
-    }
-  }
-  return paths;
+  return getSubtopicPaths((topic, subtopic) => ({
+    experiments: experimentsCollection
+      .filter((e) => e.data.topicId === topic.id && e.data.subtopicId === subtopic.id)
+      .map((e) => e.data),
+  }));
 }
 
 const { topic, subtopic, experiments } = Astro.props;
@@ -34,7 +23,7 @@ const typeLabels: Record<string, string> = {
   measurement: 'S měřením',
 };
 ---
-<BaseLayout title={`${subtopic.name} - Banka pokusů`}>
+<BaseLayout title={`${subtopic.name} - Banka pokusů`} description={`Banka pokusů k tématu ${subtopic.name} (${topic.name}).`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
