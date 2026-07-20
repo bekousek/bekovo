@@ -6,6 +6,9 @@ import type { FbdForce } from '@engine/rigid/fbd';
 import type { Lesson } from '@engine/scene/lesson';
 import type { RaySegment } from '@engine/optics/OpticsModule';
 
+/** Strop délky `plotBuffer` — ochrana proti neomezenému růstu paměti při dlouhém záznamu. */
+const MAX_PLOT_SAMPLES = 50_000;
+
 /** Poslední měření jedné fotobrány. */
 export interface GateReading {
   lastEnter: number | null;
@@ -150,7 +153,17 @@ export const useUiStore = create<UiState>()((set) => ({
     }),
   clearGateReadings: () => set({ gateReadings: {} }),
   setPlotBodyId: (id) => set({ plotBodyId: id }),
-  appendPlotChunk: (samples) => set((s) => ({ plotBuffer: [...s.plotBuffer, ...samples] })),
+  appendPlotChunk: (samples) =>
+    set((s) => {
+      const combined = [...s.plotBuffer, ...samples];
+      // Strop na délku záznamu — dlouhé běhy (desítky minut @120Hz) by jinak
+      // rostly bez limitu; nejnovější vzorky mají přednost.
+      const plotBuffer =
+        combined.length > MAX_PLOT_SAMPLES
+          ? combined.slice(combined.length - MAX_PLOT_SAMPLES)
+          : combined;
+      return { plotBuffer };
+    }),
   clearPlotBuffer: () => set({ plotBuffer: [], plotBodyId: null }),
   setFbdBodyId: (id) => set({ fbdBodyId: id, fbdForces: [] }),
   setFbdForces: (forces) => set({ fbdForces: forces }),

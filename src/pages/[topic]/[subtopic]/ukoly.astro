@@ -5,31 +5,20 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import SourceBadge from '../../../components/SourceBadge.astro';
 import { getCollection } from 'astro:content';
+import { getSubtopicPaths } from '../../../lib/paths';
 
 export async function getStaticPaths() {
-  const topics = await getCollection('topics');
-  const subtopicsCollection = await getCollection('subtopics');
   const homeworkCollection = await getCollection('homework');
-
-  const paths = [];
-  for (const topic of topics) {
-    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
-    for (const subtopic of topicSubtopics) {
-      const homeworkItems = homeworkCollection
-        .filter((h) => h.data.topicId === topic.data.id && h.data.subtopicId === subtopic.data.id)
-        .map((h) => h.data);
-      paths.push({
-        params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data, homeworkItems },
-      });
-    }
-  }
-  return paths;
+  return getSubtopicPaths((topic, subtopic) => ({
+    homeworkItems: homeworkCollection
+      .filter((h) => h.data.topicId === topic.id && h.data.subtopicId === subtopic.id)
+      .map((h) => h.data),
+  }));
 }
 
 const { topic, subtopic, homeworkItems } = Astro.props;
 ---
-<BaseLayout title={`${subtopic.name} - Dobrovolné domácí úkoly`}>
+<BaseLayout title={`${subtopic.name} - Dobrovolné domácí úkoly`} description={`Dobrovolné domácí úkoly k tématu ${subtopic.name} (${topic.name}).`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },

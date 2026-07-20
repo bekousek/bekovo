@@ -55,6 +55,7 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
   const [layout, setLayout] = useState<Layout>(1);
   const [exporting, setExporting] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [exportError, setExportError] = useState(false);
 
   async function handleCopyLatex() {
     if (!latex) return;
@@ -291,6 +292,7 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
 
   async function handleExport() {
     setExporting(true);
+    setExportError(false);
     let overlay: HTMLDivElement | null = null;
     try {
       overlay = document.createElement('div');
@@ -306,6 +308,7 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
       else         await exportFromHtml();
     } catch (error) {
       console.error('PDF export failed:', error);
+      setExportError(true);
     } finally {
       if (overlay && overlay.parentNode) overlay.parentNode.removeChild(overlay);
       setExporting(false);
@@ -314,6 +317,11 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
 
   return (
     <div className="flex items-center gap-3 flex-wrap">
+      {exportError && (
+        <div role="alert" className="w-full text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+          Export selhal, zkuste to znovu.
+        </div>
+      )}
       <span className="text-sm font-medium text-gray-700">Export PDF:</span>
       <div className="flex gap-1">
         {([1, 2, 4] as Layout[]).map((n) => (

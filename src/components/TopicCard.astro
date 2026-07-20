@@ -28,7 +28,7 @@ const gradeColorsBorder: Record<number, string> = {
   class={`block bg-white rounded-xl shadow-sm border-l-4 ${gradeColorsBorder[grade]} p-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
 >
   <div class="flex items-start gap-3">
-    <span class="text-3xl">{icon}</span>
+    <span class="text-3xl" aria-hidden="true">{icon}</span>
     <div class="flex-1 min-w-0">
       <h3 class="font-semibold text-gray-900 text-lg leading-tight">{name}</h3>
       <div class="flex items-center gap-2 mt-2">

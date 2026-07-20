@@ -5,6 +5,8 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import NotebookExport from '../../../components/NotebookExport';
 import { getSubtopicPaths } from '../../../lib/paths';
+import 'katex/dist/katex.min.css';
+import '../../../styles/notebook.css';
 
 export async function getStaticPaths() {
   return getSubtopicPaths();
@@ -17,10 +19,21 @@ const latexPdf = subtopic.notebookEntry?.latexPdf ?? null;
 // Soubor PDF/SVG je pojmenován jako "{topicId}--{subtopicId}.pdf",
 // stejně jako to dělá scripts/compile-latex.mjs (basename(jsonFile)).
 const pdfHref  = latexPdf ? `/notebook-pdfs/${topic.id}--${subtopic.id}.pdf` : null;
----
-<BaseLayout title={`${subtopic.name} - Zápis do sešitu`}>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
 
+// Zápisy nad ~500 kB inline SVG zpomalují parse HTML (AUDIT.md V3 — nejtěžší
+// mají jednotky MB). Pro JEDNOSTRÁNKOVÉ zápisy je public/notebook-svgs/
+// přesně tenhle jeden <svg> soubor → jde servírovat jako <img> (cache mezi
+// návštěvami) místo vkládání do DOM. Vícestránkové zápisy takhle nejdou —
+// kombinovaný soubor má víc kořenových <svg> za sebou (není to platný
+// samostatný SVG dokument, prohlížeč by ho jako <img> nenačetl) — ty
+// zůstávají inline beze změny.
+const SVG_IMG_THRESHOLD_BYTES = 500_000;
+const notebookSvgHref =
+  latexSvgs && latexSvgs.length === 1 && new TextEncoder().encode(latexSvgs[0]).length > SVG_IMG_THRESHOLD_BYTES
+    ? `/notebook-svgs/${topic.id}--${subtopic.id}.svg`
+    : null;
+---
+<BaseLayout title={`${subtopic.name} - Zápis do sešitu`} description={`Zápis do sešitu k tématu ${subtopic.name} (${topic.name}) — fyzika pro ZŠ.`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
@@ -43,7 +56,9 @@ const pdfHref  = latexPdf ? `/notebook-pdfs/${topic.id}--${subtopic.id}.pdf` : n
 
       <div id="notebook-content" class="bg-white rounded-xl shadow-sm border border-gray-200 p-8">
         <div class="notebook-entry prose max-w-none">
-          {latexSvgs ? (
+          {notebookSvgHref ? (
+            <img src={notebookSvgHref} alt={`Zápis do sešitu: ${subtopic.name}`} class="w-full h-auto block" />
+          ) : latexSvgs ? (
             latexSvgs.map((svg) => (
               <div class={latexSvgs.length > 1 ? 'latex-page' : undefined}>
                 <Fragment set:html={svg} />
@@ -101,61 +116,6 @@ const pdfHref  = latexPdf ? `/notebook-pdfs/${topic.id}--${subtopic.id}.pdf` : n
       border-bottom: 2px solid #3b82f6;
       padding-bottom: 0.5rem;
       margin-bottom: 1rem;
-    }
-    .notebook-entry h3 {
-      font-size: 1.1rem;
-      font-weight: 600;
-      color: #1e40af;
-      margin-top: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .notebook-entry .formula {
-      text-align: center;
-      margin: 1rem 0;
-      padding: 0.75rem;
-      background: #eff6ff;
-      border-radius: 0.5rem;
-    }
-    .notebook-entry table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 0.75rem 0;
-      font-size: 0.9rem;
-    }
-    .notebook-entry th {
-      background: #1e40af;
-      color: white;
-      padding: 0.5rem 0.75rem;
-      text-align: left;
-      font-weight: 600;
-    }
-    .notebook-entry td {
-      padding: 0.4rem 0.75rem;
-      border-bottom: 1px solid #e5e7eb;
-    }
-    .notebook-entry tr:nth-child(even) td {
-      background: #f9fafb;
-    }
-    .notebook-entry p {
-      margin: 0.5rem 0;
-      line-height: 1.6;
-    }
-    .notebook-entry ul {
-      list-style: disc outside;
-      padding-left: 1.25rem;
-      margin: 0.5rem 0;
-    }
-    .notebook-entry ol {
-      list-style: decimal outside;
-      padding-left: 1.5rem;
-      margin: 0.5rem 0;
-    }
-    .notebook-entry li {
-      margin: 0.2rem 0;
-      line-height: 1.55;
-    }
-    .notebook-entry li::marker {
-      color: #1e40af;
     }
 
     /* ──────────────────────────────────────────────────────────

@@ -12,6 +12,17 @@
 
 const CACHE = 'fyzlab-v1';
 const OFFLINE_URL = '/';
+// Strop na počet položek v cache — bez něj se content-hashované assety ze
+// starých deployů hromadí donekonečna v rámci jedné verze cache.
+const MAX_ENTRIES = 200;
+
+async function trimCache(cache, maxEntries) {
+  const keys = await cache.keys();
+  const excess = keys.length - maxEntries;
+  for (let i = 0; i < excess; i++) {
+    await cache.delete(keys[i]);
+  }
+}
 
 self.addEventListener('install', (e) => {
   e.waitUntil(
@@ -42,7 +53,7 @@ self.addEventListener('fetch', (e) => {
       fetch(request)
         .then((res) => {
           const clone = res.clone();
-          caches.open(CACHE).then((c) => c.put(request, clone));
+          caches.open(CACHE).then((c) => c.put(request, clone).then(() => trimCache(c, MAX_ENTRIES)));
           return res;
         })
         .catch(() => caches.match(OFFLINE_URL).then((r) => r ?? Response.error()))
@@ -55,7 +66,7 @@ self.addEventListener('fetch', (e) => {
     caches.open(CACHE).then(async (c) => {
       const cached = await c.match(request);
       const fetchPromise = fetch(request).then((res) => {
-        if (res.ok) c.put(request, res.clone());
+        if (res.ok) c.put(request, res.clone()).then(() => trimCache(c, MAX_ENTRIES));
         return res;
       });
       return cached ?? fetchPromise;

@@ -154,6 +154,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
   const [showSolutions, setShowSolutions] = useState(false);
   const [nextId, setNextId] = useState(2);
   const [exporting, setExporting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   function getFormula(formulaId: string) {
     return formulas.find((f) => f.id === formulaId);
@@ -204,8 +205,14 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
       scenario: picked?.scenario ?? null,
       fillers: picked?.fillers,
     };
-    const [problem] = generateProblems(formula, settings);
-    updateSlot(slotId, { problem });
+    try {
+      const [problem] = generateProblems(formula, settings);
+      updateSlot(slotId, { problem });
+      setError(null);
+    } catch (e) {
+      console.error(e);
+      setError('Tento příklad se nepodařilo vygenerovat. Zkuste to znovu nebo zvolte jiný vzorec.');
+    }
   }
 
   function handleAdd() {
@@ -231,6 +238,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
   }
 
   function handleGenerateAll() {
+    let failed = false;
     setSlots((prev) =>
       prev.map((slot) => {
         const formula = getFormula(slot.formulaId);
@@ -245,10 +253,17 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
           scenario: picked?.scenario ?? null,
           fillers: picked?.fillers,
         };
-        const [problem] = generateProblems(formula, settings);
-        return { ...slot, problem };
+        try {
+          const [problem] = generateProblems(formula, settings);
+          return { ...slot, problem };
+        } catch (e) {
+          console.error(e);
+          failed = true;
+          return slot;
+        }
       }),
     );
+    setError(failed ? 'Některé příklady se nepodařilo vygenerovat. Zkuste to znovu nebo zvolte jiný vzorec.' : null);
     setShowSolutions(false);
   }
 
@@ -257,6 +272,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
   /* ── Helper: load font file as base64 string for jsPDF ── */
   async function loadFontBase64(url: string): Promise<string> {
     const res = await fetch(url);
+    if (!res.ok) throw new Error(`Nepodařilo se načíst font ${url} (${res.status})`);
     const buf = await res.arrayBuffer();
     const bytes = new Uint8Array(buf);
     let binary = '';
@@ -268,6 +284,7 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
   async function handleExportPdf() {
     if (generatedProblems.length === 0) return;
     setExporting(true);
+    setError(null);
 
     try {
       const { jsPDF } = await import('jspdf');
@@ -380,6 +397,9 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
       }
 
       doc.save('priklady.pdf');
+    } catch (e) {
+      console.error(e);
+      setError('Export PDF selhal, zkuste to znovu.');
     } finally {
       setExporting(false);
     }
@@ -387,6 +407,12 @@ export default function ExerciseGenerator({ formulas, scenarioBanks = [] }: Prop
 
   return (
     <div className="space-y-4">
+      {error && (
+        <div role="alert" className="p-3 bg-red-50 border border-red-200 rounded-lg text-sm text-red-700">
+          {error}
+        </div>
+      )}
+
       {/* Slot cards */}
       {slots.map((slot, idx) => {
         const formula = getFormula(slot.formulaId);

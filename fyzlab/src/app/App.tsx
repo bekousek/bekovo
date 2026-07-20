@@ -34,7 +34,7 @@ const HINT_BY_TOOL: Record<string, MsgKey> = {
 function HintLine() {
   const activeToolId = useUiStore((s) => s.activeToolId);
   return (
-    <p className="pointer-events-none absolute bottom-24 left-1/2 w-full max-w-xl -translate-x-1/2 text-center text-xs text-slate-400 sm:bottom-20">
+    <p className="pointer-events-none absolute bottom-24 left-1/2 w-full max-w-xl -translate-x-1/2 text-center text-xs text-slate-600 sm:bottom-20">
       {t(HINT_BY_TOOL[activeToolId] ?? 'hintDrag')}
     </p>
   );

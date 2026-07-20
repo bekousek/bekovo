@@ -28,13 +28,14 @@ const sections = [
     {sections.map((section) => (
       <a
         href={section.href}
+        aria-current={currentSection === section.id ? 'page' : undefined}
         class={`inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
           currentSection === section.id
             ? 'bg-primary-600 text-white shadow-sm'
             : 'bg-white text-gray-700 hover:bg-primary-50 hover:text-primary-700 border border-gray-200'
         }`}
       >
-        <span>{section.icon}</span>
+        <span aria-hidden="true">{section.icon}</span>
         <span>{section.label}</span>
       </a>
     ))}

@@ -5,38 +5,27 @@ import SubtopicNav from '../../../components/SubtopicNav.astro';
 import EmptyState from '../../../components/EmptyState.astro';
 import ExerciseGenerator from '../../../components/generator/ExerciseGenerator';
 import { getCollection } from 'astro:content';
+import { getSubtopicPaths } from '../../../lib/paths';
+import 'katex/dist/katex.min.css';
 
 export async function getStaticPaths() {
-  const topics = await getCollection('topics');
-  const subtopicsCollection = await getCollection('subtopics');
   const formulasCollection = await getCollection('formulas');
   const scenariosCollection = await getCollection('scenarios');
-
-  const paths = [];
-  for (const topic of topics) {
-    const topicSubtopics = subtopicsCollection.filter((s) => s.data.topicId === topic.data.id);
-    for (const subtopic of topicSubtopics) {
-      const formulas = formulasCollection
-        .filter((f) => f.data.subtopicIds.includes(subtopic.data.id))
-        .map((f) => f.data);
-      const formulaIds = formulas.map((f) => f.id);
-      const scenarioBanks = scenariosCollection
-        .filter((s) => formulaIds.includes(s.data.formulaId))
-        .map((s) => s.data);
-      paths.push({
-        params: { topic: topic.data.id, subtopic: subtopic.data.id },
-        props: { topic: topic.data, subtopic: subtopic.data, formulas, scenarioBanks },
-      });
-    }
-  }
-  return paths;
+  return getSubtopicPaths((_topic, subtopic) => {
+    const formulas = formulasCollection
+      .filter((f) => f.data.subtopicIds.includes(subtopic.id))
+      .map((f) => f.data);
+    const formulaIds = formulas.map((f) => f.id);
+    const scenarioBanks = scenariosCollection
+      .filter((s) => formulaIds.includes(s.data.formulaId))
+      .map((s) => s.data);
+    return { formulas, scenarioBanks };
+  });
 }
 
 const { topic, subtopic, formulas, scenarioBanks } = Astro.props;
 ---
-<BaseLayout title={`${subtopic.name} - Generátor příkladů`}>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" />
-
+<BaseLayout title={`${subtopic.name} - Generátor příkladů`} description={`Generátor fyzikálních příkladů k tématu ${subtopic.name} (${topic.name}).`}>
   <Breadcrumb items={[
     { label: topic.name, href: `/${topic.id}` },
     { label: subtopic.name, href: `/${topic.id}/${subtopic.id}` },
