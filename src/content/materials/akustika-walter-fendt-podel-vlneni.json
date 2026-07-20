@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-podel-vlneni",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Stojaté podélné vlnění ve vzduchové trubici (Walter Fendt)",
+  "type": "applet",
+  "description": "Česká HTML5 aplikace Waltera Fendta simuluje stojaté podélné vlnění ve vzduchové trubici — fyzikální princip dechových nástrojů jako zdrojů zvuku. Žáci sledují uzly a kmitny tlaku a výchylky částic vzduchu a mohou nastavovat různé harmonické tóny. Pomáhá pochopit, proč různě dlouhé trubice vydávají různě vysoké tóny.",
+  "url": "https://www.walter-fendt.de/html5/phcz/standinglongitudinalwaves_cz.htm"
+}

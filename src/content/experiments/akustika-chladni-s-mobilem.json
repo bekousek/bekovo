@@ -1,0 +1,21 @@
+{
+  "id": "akustika-chladni-s-mobilem",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Chladniho obrazce s mobilním telefonem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Mosazná nebo kovová deska upevněná na stativu je spojena přes malý reproduktor s mobilním telefonem s aplikací generátoru frekvencí. Na desku nasypeme tenkou vrstvu pšeničné krupice nebo kuchyňské soli. Při přehrávání různých frekvencí se na desce tvoří Chladniho obrazce — zrnka se hromadí v uzlových liniích stojatého vlnění, kde deska nekmitá. Žáci tak vizuálně sledují, jak kovová deska vibruje jako zdroj zvuku, a mohou pozorovat, jak se vzor mění s frekvencí.",
+  "materials": [
+    "kovová nebo mosazná deska",
+    "malý reproduktor s audio jackem",
+    "mobilní telefon s aplikací generátoru frekvencí (Audio Function Generator nebo podobnou)",
+    "pšeničná krupice nebo kuchyňská sůl",
+    "stojan a svěrka",
+    "vodováha"
+  ],
+  "procedure": "Desku vyvážit do vodorovné polohy na stativu. Připojit malý reproduktor pod desku přes audio jack k mobilu s aplikací generátoru. Nasypat tenkou vrstvu krupice. Postupně měnit frekvenci a sledovat vznikající obrazce — fotografovat vzory při různých tónech a porovnávat s diagramy uzlových linií.",
+  "source": {
+    "label": "VNUF 2020 — Kutnarová, Richterek",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/25-14-Kutnarova_A,_Richterek_L.pdf"
+  }
+}

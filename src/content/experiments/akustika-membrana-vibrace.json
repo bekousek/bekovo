@@ -1,0 +1,18 @@
+{
+  "id": "akustika-membrana-vibrace",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zvuk deformuje membránu",
+  "type": "qualitative",
+  "description": "Žákovský nebo demonstrační pokus. Přes otevřený konec kartónové trubice se přetáhne tenká membrána (potravinová fólie nebo tenká guma) a zajistí gumičkou. K druhému konci trubice je připojen reproduktor přehrávající hudbu nebo tóny z mobilního telefonu. Žáci sledují, jak membrána vibruje a vizuálně mění tvar v závislosti na zastoupení různých nástrojů a frekvencí ve hrané skladbě. Pokus demonstruje, že reproduktor je vibrujícím zdrojem zvukového vlnění, které předává mechanickou energii membráně.",
+  "materials": [
+    "kartónová trubice (délka cca 20 cm, průměr cca 5 cm) nebo větší trychtýř",
+    "potravinová fólie nebo tenká guma",
+    "gumička",
+    "mobilní telefon s reproduktorem nebo malý Bluetooth reproduktor"
+  ],
+  "source": {
+    "label": "RVP.CZ — metodický portál fyzika",
+    "url": "https://clanky.rvp.cz/clanek/k/g/9253/ZVUK-DEFORMUJE-MEMBRANU.html/"
+  }
+}

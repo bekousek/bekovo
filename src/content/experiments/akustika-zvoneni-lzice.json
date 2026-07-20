@@ -1,0 +1,18 @@
+{
+  "id": "akustika-zvoneni-lzice",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zvonící lžíce — vedení zvuku provázkem",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojici. Žák omotá konce provázku (délka cca 130 cm) okolo ukazováčků, přičemž na středu provázku visí kovová lžíce. Pomocník ťukne vidličkou do lžíce — žák nejprve porovná zvuk vedený vzduchem, poté přiloží prsty s provázkem k ušním boltcům a úder zopakuje. Zvuk přenášený pevnou látkou (provázkem) je výrazně intenzivnější a připomíná zvonění zvonu. Pokus ukazuje, že vibrující kovová lžíce je zdrojem zvuku a že zvuk se šíří různými látkovými prostředími různě intenzivně.",
+  "materials": [
+    "kovová lžíce",
+    "vidlička nebo tužka (pro údery do lžíce)",
+    "provázek délky cca 130 cm"
+  ],
+  "procedure": "Přivázat lžíci uprostřed provázku. Omotat oba konce provázku okolo ukazováčků. Pomocník ťukne vidličkou do lžíce — nejprve poslouchat zvuk vedený vzduchem, pak přiložit prsty s provázkem k uším a úder zopakovat. Srovnat intenzitu a charakter zvuku.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus1.htm"
+  }
+}
