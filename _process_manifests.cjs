@@ -5,7 +5,7 @@
 // -> PR -> squash-merge. Sequential. Integrity-gated. Never touches main directly.
 const fs = require('fs');
 const path = require('path');
-const { execSync } = require('child_process');
+const { execSync, execFileSync } = require('child_process');
 const os = require('os');
 
 const BASE = 'C:\\Users\\bekon\\bekovo';
@@ -15,13 +15,10 @@ const GH_PATH = 'C:\\Program Files\\GitHub CLI\\gh.exe';
 // New manifests to process, in date order. driveId kept for the audit trail in
 // processed.json. file = byte-exact local copy in _queue/ (deduped to newest).
 const MANIFESTS = [
-  { driveId: '', file: 'manifest-2026-07-06-energie--energie.json' },
-  { driveId: '', file: 'manifest-2026-07-07-kapaliny-7--lode.json' },
-  { driveId: '', file: 'manifest-2026-07-08-magnetismus--magnety.json' },
-  { driveId: '', file: 'manifest-2026-07-10-mereni--teplota.json' },
-  { driveId: '', file: 'manifest-2026-07-11-mikrosvet--skaly-v-mikrosvete.json' },
-  { driveId: '', file: 'manifest-2026-07-12-optika--oko.json' },
-  { driveId: '', file: 'manifest-2026-07-13-plyny-7--vakuum.json' }
+  { driveId: '', file: 'manifest-2026-07-17-tepelne-motory--spalovaci-motory.json' },
+  { driveId: '', file: 'manifest-2026-07-18-vlastnosti-latek--latky-a-telesa.json' },
+  { driveId: '', file: 'manifest-2026-07-19-akustika--zdroje-zvuku.json' },
+  { driveId: '', file: 'manifest-2026-07-20-astronomie--vznik-a-zanik-hvezd.json' }
 ];
 
 function run(cmd, opts = {}) {
@@ -32,6 +29,38 @@ function run(cmd, opts = {}) {
     timeout: 300000,
     ...opts
   }).toString().trim();
+}
+
+// Like run(), but takes argv as an array and never goes through a shell —
+// manifest-controlled strings (branch/commit/prTitle, ultimately sourced from
+// a Google Drive folder) are passed as literal argv, so shell metacharacters
+// (&, |, %, ", `) in them can't be interpreted. No escaping needed either.
+function runFile(cmd, args, opts = {}) {
+  return execFileSync(cmd, args, {
+    cwd: BASE,
+    encoding: 'utf-8',
+    stdio: ['pipe', 'pipe', 'pipe'],
+    timeout: 300000,
+    ...opts
+  }).toString().trim();
+}
+
+const BRANCH_RE = /^routine\/nightly-[a-z0-9-]+$/;
+const MAX_TEXT_LEN = 500;
+// eslint-disable-next-line no-control-regex
+const HAS_CONTROL_CHARS = /[\x00-\x08\x0B\x0C\x0E-\x1F]/; // allow \t \n, reject the rest
+
+function validateManifestFields(manifest) {
+  if (typeof manifest.branch !== 'string' || !BRANCH_RE.test(manifest.branch)) {
+    return `bad branch: ${JSON.stringify(manifest.branch)}`;
+  }
+  if (typeof manifest.commit !== 'string' || manifest.commit.length === 0 || manifest.commit.length > MAX_TEXT_LEN || HAS_CONTROL_CHARS.test(manifest.commit)) {
+    return 'bad commit message (empty, too long, or contains control chars)';
+  }
+  if (typeof manifest.prTitle !== 'string' || manifest.prTitle.length === 0 || manifest.prTitle.length > MAX_TEXT_LEN || HAS_CONTROL_CHARS.test(manifest.prTitle)) {
+    return 'bad prTitle (empty, too long, or contains control chars)';
+  }
+  return null;
 }
 
 function getGHToken() {
@@ -116,13 +145,24 @@ for (const m of MANIFESTS) {
     continue;
   }
 
+  // FIELD VALIDATION: branch/commit/prTitle end up as git/gh argv (or,
+  // historically, in a shell string) — reject anything that isn't a plain
+  // routine branch slug or a reasonably-sized, control-char-free text before
+  // it's used for anything.
+  const fieldError = validateManifestFields(manifest);
+  if (fieldError) {
+    console.error(`FIELD VALIDATION FAIL ${manifest.manifestId}: ${fieldError}. SKIPPING.`);
+    results.push({ id: manifest.manifestId, status: 'field-validation-fail', error: fieldError });
+    continue;
+  }
+
   console.log(`\n=== Processing: ${manifest.manifestId} (${manifest.files.length} files) ===`);
 
   // Branch
   try {
     run('git checkout main');
-    try { run(`git branch -D "${manifest.branch}" 2>nul`); } catch {}
-    run(`git checkout -b "${manifest.branch}"`);
+    try { runFile('git', ['branch', '-D', manifest.branch]); } catch {}
+    runFile('git', ['checkout', '-b', manifest.branch]);
   } catch (e) {
     console.error(`Branch error: ${e.message.substring(0, 200)}`);
     results.push({ id: manifest.manifestId, status: 'branch-error' });
@@ -146,7 +186,7 @@ for (const m of MANIFESTS) {
     console.error(`File write error at file ${filesWritten}: ${e.message}`);
   }
   if (fileError) {
-    try { run('git checkout main'); run(`git branch -D "${manifest.branch}"`); } catch {}
+    try { run('git checkout main'); runFile('git', ['branch', '-D', manifest.branch]); } catch {}
     results.push({ id: manifest.manifestId, status: 'file-error', error: fileError.message });
     continue;
   }
@@ -178,21 +218,40 @@ for (const m of MANIFESTS) {
   }
   if (!buildOk) {
     console.error('Build failed twice, skipping');
-    try { run('git checkout main'); run(`git branch -D "${manifest.branch}"`); } catch {}
+    try { run('git checkout main'); runFile('git', ['branch', '-D', manifest.branch]); } catch {}
     results.push({ id: manifest.manifestId, status: 'build-failed' });
     continue;
   }
 
-  // Sanity: only allowed paths changed
+  // Stage only what the routine itself writes. Using explicit paths (not `git
+  // add -A`/`.`) means whatever else is dirty in the working tree — e.g. a
+  // large unrelated in-progress redesign sitting uncommitted on main — never
+  // enters the index and can't ride along into this commit.
   try {
-    const changed = run('git diff --name-only HEAD').split('\n').filter(Boolean);
-    // Allowed: routine content dirs, the ledger, and pre-existing benign tracked
-    // mods left untouched by the routine (settings.local.json per skill pre-flight).
-    const allowedExact = new Set(['.routine/ledger.json', '.routine/processed.json', '.claude/settings.local.json', '_process_manifests.cjs']);
-    const bad = changed.filter(p => !/^src\/content\/(experiments|activities|materials|homework)\//.test(p) && !allowedExact.has(p));
+    run('git add src/content/experiments src/content/activities src/content/materials src/content/homework');
+    run('git add -f .routine/ledger.json');
+  } catch (e) {
+    console.error(`git add error: ${e.message.substring(0, 300)}`);
+    try { run('git reset'); run('git checkout main'); runFile('git', ['branch', '-D', manifest.branch]); } catch {}
+    results.push({ id: manifest.manifestId, status: 'add-error' });
+    continue;
+  }
+
+  // Sanity: only allowed paths are STAGED. Checking the staged diff (not the
+  // full working-tree diff) means pre-existing unstaged/unrelated dirt in the
+  // tree can't fail this check — only what's actually about to be committed
+  // matters here.
+  try {
+    const staged = run('git diff --cached --name-only').split('\n').filter(Boolean);
+    // .claude/settings.local.json may already be staged as a deletion from
+    // before this routine ran (an intentional pre-existing untrack-this-
+    // gitignored-file action) — carrying it into the first routine commit is
+    // harmless, and it won't reappear once committed.
+    const allowedExact = new Set(['.routine/ledger.json', '.claude/settings.local.json']);
+    const bad = staged.filter(p => !/^src\/content\/(experiments|activities|materials|homework)\//.test(p) && !allowedExact.has(p));
     if (bad.length) {
-      console.error(`Sanity FAIL: unexpected changed paths: ${bad.join(', ')}`);
-      run('git checkout main'); run(`git branch -D "${manifest.branch}"`);
+      console.error(`Sanity FAIL: unexpected staged paths: ${bad.join(', ')}`);
+      run('git reset'); run('git checkout main'); runFile('git', ['branch', '-D', manifest.branch]);
       results.push({ id: manifest.manifestId, status: 'sanity-fail', bad });
       continue;
     }
@@ -202,11 +261,8 @@ for (const m of MANIFESTS) {
 
   // Commit + push
   try {
-    run('git add src/content/experiments src/content/activities src/content/materials src/content/homework');
-    run('git add -f .routine/ledger.json');
-    const commitMsg = manifest.commit.replace(/"/g, '\\"');
-    run(`git commit -m "${commitMsg}"`);
-    run(`git push -u origin "${manifest.branch}"`);
+    runFile('git', ['commit', '-m', manifest.commit]);
+    runFile('git', ['push', '-u', 'origin', manifest.branch]);
     console.log('Pushed branch');
   } catch (e) {
     console.error(`Commit/push error: ${e.message.substring(0, 300)}`);
@@ -229,11 +285,7 @@ for (const m of MANIFESTS) {
 
   let prUrl = '';
   try {
-    const prTitle = manifest.prTitle.replace(/"/g, '\\"');
-    prUrl = execSync(
-      `"${GH_PATH}" pr create --title "${prTitle}" --body-file "${tmpBodyPath}" --base main --head "${manifest.branch}"`,
-      { cwd: BASE, encoding: 'utf-8', env, timeout: 60000 }
-    ).trim();
+    prUrl = runFile(GH_PATH, ['pr', 'create', '--title', manifest.prTitle, '--body-file', tmpBodyPath, '--base', 'main', '--head', manifest.branch], { env });
     console.log(`PR created: ${prUrl}`);
   } catch (e) {
     console.error(`PR create error: ${e.message.substring(0, 300)}`);
@@ -248,7 +300,7 @@ for (const m of MANIFESTS) {
 
   let merged = false;
   try {
-    execSync(`"${GH_PATH}" pr merge --squash --delete-branch`, { cwd: BASE, encoding: 'utf-8', env, timeout: 60000 });
+    runFile(GH_PATH, ['pr', 'merge', '--squash', '--delete-branch'], { env });
     merged = true;
     console.log('PR merged (squash)');
   } catch (e) {
