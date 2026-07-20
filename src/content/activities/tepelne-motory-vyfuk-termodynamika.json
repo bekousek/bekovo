@@ -1,0 +1,12 @@
+{
+  "id": "tepelne-motory-vyfuk-termodynamika",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Výfučtení: Termodynamika — seriálový text s úlohou (Výfuk)",
+  "type": "method",
+  "description": "Vzdělávací seriálový text Výfuku (11. ročník, 6. série) pokrývající termodynamiku přístupnou formou pro žáky 2. stupně ZŠ: tepelné motory, principy účinnosti a spalovací motory jako typická realizace termodynamického cyklu. Text je dostupný jako PDF a doplňuje ho výpočtová úloha „Tepelný výtah“ (kolik tepla musí stroj odebrat, aby zvedl břemeno), která propojuje teorii s praxí. Vhodné jako motivační čtení zadané žákům před hodinou nebo jako základ skupinové diskuze o účinnosti spalovacích motorů.",
+  "source": {
+    "label": "Výfuk — 11. ročník, 6. série (Výfučtení: Termodynamika)",
+    "url": "https://vyfuk.org/ulohy/r11/s6"
+  }
+}

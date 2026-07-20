@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-videoanalyza-pohybu",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Videoanalýza pohybu: měření rychlosti pomocí telefonu",
+  "type": "method",
+  "description": "Žáci nahrají pohybující se těleso (míč, auto, spolužák) na telefon a ve volném nástroji Tracker nebo podobné aplikaci měří polohu tělesa v různých časových okamžicích. Z hodnot dráhy a času přímo určují rychlost pohybu a sledují, jak se mění. Metoda propojuje téma rychlosti s digitálními technologiemi a základy videoanalýzy pohybu.",
+  "source": {
+    "label": "Science on Stage Europe",
+    "url": "https://www.science-on-stage.eu/material/dont-touch-the-ground"
+  }
+}

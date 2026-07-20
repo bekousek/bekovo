@@ -1,0 +1,20 @@
+{
+  "id": "mereni-teplota-zahrivani-vody",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Laboratorní práce: měření teploty kapalným teploměrem při zahřívání vody",
+  "type": "measurement",
+  "description": "Žákovský pokus navržený pro 6. třídu: žáci zahřívají malé množství vody nad svíčkou a každých 30 sekund odečítají teplotu z kapalného teploměru, data zapisují do tabulky. Ve druhé části pokusu přidají kostku ledu a sledují ochlazování. Z naměřených hodnot sestrojí teplotní křivku. Pokus rozvíjí klíčovou dovednost čtení stupnice teploměru a systematického záznamu dat.",
+  "materials": [
+    "kapalný teploměr",
+    "svíčka nebo lihový kahan",
+    "malá kádinka (50 ml)",
+    "stojan s držákem a kroužkem",
+    "stopky"
+  ],
+  "procedure": "Připravit tabulku pro záznamy po 30 s (0–6 minut). Zahřívat vodu nad svíčkou a každých 30 s odečítat a zapisovat teplotu. Po 6 minutách přidat kostku ledu a dál měřit ochlazování. Z naměřených hodnot sestrojit graf teplota–čas.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/mereni-teploty/"
+  }
+}

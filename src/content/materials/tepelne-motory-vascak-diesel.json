@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-vascak-diesel",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Vznětový motor (diesel) — interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace vznětového (dieselového) motoru zachycuje klíčový rozdíl oproti zážehovému motoru: vysoký kompresní poměr způsobí, že palivová směs se vznítí sama teplem a tlakem bez zapalovací svíčky. Žáci mohou vizuálně porovnat průběh cyklu s benzínovým motorem a pochopit, proč dieselový motor nepotřebuje svíčky. Animace je česky a dostupná v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_diesel&l=cz"
+}

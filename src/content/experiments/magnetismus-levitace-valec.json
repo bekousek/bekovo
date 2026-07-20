@@ -1,0 +1,17 @@
+{
+  "id": "magnetismus-levitace-valec",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Levitující magnet – pseudolevitace v odměrném válci",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ukazující odpudivé působení souhlasných magnetických pólů. Do odměrného válce se vloží první tyčový magnet, poté se opatrně vsune druhý magnet tak, aby se stejnými póly odpuzovaly – horní magnet se vznáší na magnetickém polštáři. Válec slouží jako stabilizátor polohy, proto se jedná o pseudolevitaci, nikoli skutečnou magnetickou levitaci. Vizuálně působivá ukázka odpudivých sil vhodná jako motivační demonstrace.",
+  "materials": [
+    "2 permanentní tyčové magnety shodného průměru",
+    "odměrný válec s vnitřním průměrem jen o málo větším než průměr magnetů"
+  ],
+  "procedure": "Vlož první magnet do odměrného válce. Druhý magnet drž nad ním stejnými póly dolů a pomalu spouštěj – horní magnet se zastaví a vznáší se na odpudivé síle.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2161/levitujici-magnet"
+  }
+}

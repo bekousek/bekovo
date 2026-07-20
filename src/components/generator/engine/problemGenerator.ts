@@ -71,8 +71,10 @@ function computeUnknown(formula: Formula, knownValues: Map<string, number>, solv
     }
   }
 
-  // Fallback
-  return 0;
+  // Unsupported formula shape (neither \cdot nor \frac, or a shape the
+  // heuristic can't parse) — fail loudly instead of silently returning a
+  // wrong "0" that would look like a valid solution.
+  throw new Error(`computeUnknown: nepodporovaný tvar vzorce "${formulaStr}" (formula id: ${formula.id})`);
 }
 
 export function generateProblems(formula: Formula, settings: GeneratorSettings): Problem[] {
@@ -111,7 +113,6 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
       } else {
         value = randomInRange(1, 100);
       }
-      knownValues.set(v.symbol, value);
 
       // Optionally convert to alternative unit
       let displayValue = value;
@@ -127,9 +128,14 @@ export function generateProblems(formula: Formula, settings: GeneratorSettings):
             displayValue = roundNice(value / altUnit.factor);
             displayUnit = altUnit.unit;
             needsConversion = true;
+            // Re-derive the base-unit value from the rounded display value so
+            // a student converting displayValue * factor lands on exactly the
+            // value the solution below is computed from (no rounding drift).
+            value = displayValue * altUnit.factor;
           }
         }
       }
+      knownValues.set(v.symbol, value);
 
       knowns.push({
         symbol: v.symbol,

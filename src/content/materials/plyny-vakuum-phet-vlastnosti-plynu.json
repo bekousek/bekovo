@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-phet-vlastnosti-plynu",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Vlastnosti plynu – interaktivní simulace (PhET)",
+  "type": "applet",
+  "description": "Žáci čerpají molekuly plynu do nádoby a pozorují, jak se mění tlak, teplota a objem při různých podmínkách. Simulace přímo ilustruje kinetickou molekulární teorii – lze měnit počet molekul, ohřívat nebo ochlazovat nádobu a sledovat rozložení rychlostí. Vakuum vznikne odstraněním všech molekul z nádoby.",
+  "url": "https://phet.colorado.edu/cs/simulations/gas-properties"
+}

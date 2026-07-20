@@ -1,43 +1,45 @@
-# Astro Starter Kit: Minimal
+# bekovo.cz
 
-```sh
-npm create astro@latest -- --template minimal
+Vzdělávací web fyziky pro 6.–9. třídu ZŠ. Astro 6 + Cloudflare Pages. Obsah je
+~1000 JSON souborů v `src/content/` (zápisy, pokusy, aktivity, materiály,
+úkoly), validovaný Zod schématy v `src/content.config.ts`.
+
+Monorepo obsahuje ještě jednu, zcela nezávislou aplikaci:
+
+- **[fyzlab/](fyzlab/README.md)** — FyzLab, webový 2D fyzikální sandbox
+  (náhrada Algodoo). Vlastní `package.json`, CI a Cloudflare projekt
+  (`fyzlab.bekovo.cz`); vyvíjí se odděleně od hlavního webu.
+
+## Vývoj
+
+```bash
+npm install
+npm run dev              # http://localhost:4321
+npm run build             # → dist/
+npm run validate-formulas # ověří převodní faktory v src/content/formulas/
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+FyzLab má vlastní `npm install`/`npm run dev` uvnitř `fyzlab/` — viz
+[fyzlab/README.md](fyzlab/README.md).
 
-## 🚀 Project Structure
+## Obsahová automatizace
 
-Inside of your Astro project, you'll see the following folders and files:
+Hlavní web se noc co noc doplňuje automaticky (cloud rutina najde a zpracuje
+zdroje → uloží manifest do Google Drive → lokální naplánovaná úloha ho
+zapracuje do `main`). Kompletní popis pipeline, schémat a konvencí je v
+**[AGENTS.md](AGENTS.md)** — tam se dívej, pokud potřebuješ pochopit strukturu
+obsahu nebo jak funguje noční workflow.
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+## Struktura
+
 ```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+src/pages/          statické routy: index, [topic]/, [topic]/[subtopic]/{zapis,priprava,
+                     generator,pokusy,aktivity,materialy,ukoly,testy}
+src/content/         JSON kolekce (experiments, activities, materials, homework,
+                     subtopics, topics, formulas, scenarios) + src/content.config.ts
+src/components/      Astro komponenty + React ostrovy (NotebookExport, ExerciseGenerator)
+public/              fonty, applety, notebook-svgs/pdfs (generované CI), sborniky/ (PDF, gitignored)
+scripts/             viz scripts/README.md
+fyzlab/               samostatná aplikace — viz fyzlab/README.md
+_process_manifests.cjs + _queue/ + .routine/   noční obsahová pipeline (viz AGENTS.md)
+```

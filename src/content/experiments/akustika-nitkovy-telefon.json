@@ -1,0 +1,18 @@
+{
+  "id": "akustika-nitkovy-telefon",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Nitkový telefon",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojici. Žáci sestaví nitkový telefon z papírových nebo plastových kelímků a napnutého provázku. Jeden žák mluví do kelímku — dno kelímku vibruje jako zdroj mechanického vlnění a šíří kmity napnutým provázkem k druhému žákovi, který přiloží svůj kelímek k uchu. Pokus demonstruje, že kmitající membrána (dno kelímku) je zdrojem zvuku šířícího se pevnou látkou. Lze zkoumat vliv délky a napnutí provázku na přenos zvuku nebo srovnávat různé materiály (bavlněný vs. nylonový provázek).",
+  "materials": [
+    "2 papírové nebo plastové kelímky",
+    "provázek délky 5–10 m",
+    "špendlík nebo párátko (pro průvlek provázku dnem kelímku)"
+  ],
+  "procedure": "Propíchnout dno každého kelímku a provléct provázek; uvázat uzel zevnitř, aby provázek nevyklouzl. Napnout provázek ve vzduchu (nesmí se dotýkat překážek). Jeden žák mluví do kelímku přiloženého ke rtům, druhý přikládá svůj kelímek k uchu.",
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2522"
+  }
+}

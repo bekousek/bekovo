@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-tavna-pojistka",
+  "subtopicId": "pojistky-a-jistice",
+  "topicId": "elektrina",
+  "title": "Demonstrace tavné pojistky s nízkonapěťovým zdrojem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: do sériového obvodu je zapojen tenký odporový drát jako model tavné pojistky. Při průchodu nadproudu se drát rozžhaví a přetaví, obvod se přeruší — žáci vidí samočinné odpojení. Diskutuje se, jak průměr a materiál drátu určuje mezní proud. Pokus je bezpečný při napětí do 6 V a lze ho provést jako demonstraci učitelem i jako žákovský pokus ve skupinách.",
+  "materials": [
+    "laboratorní zdroj 4,5–6 V nebo 3 baterie 1,5 V v sérii",
+    "tenký odporový drát (nichrom Ø 0,1–0,2 mm, délka cca 15 cm)",
+    "vodiče s krokosvorkami",
+    "žárovka 3,5 V nebo LED s předřadným odporem",
+    "ampermetr (volitelně)"
+  ],
+  "procedure": "1. Sestavte sériový obvod: zdroj → tenký drát → žárovka/LED. 2. Zapněte zdroj, sledujte svit žárovky. 3. Postupně zkracujte drát nebo přidejte paralelní větev, čímž zvyšujete proud. 4. Pozorujte rozžhavení a přetavení drátu a zhasnutí žárovky. 5. Diskutujte: proč drát přetaví? Jak závisí mezní proud na průměru a materiálu drátu? Proč se v domovní instalaci používá jistič místo tavné pojistky?",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/1331"
+  }
+}

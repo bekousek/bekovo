@@ -1,0 +1,12 @@
+{
+  "id": "sila-newton-metodika-rvp",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Metodika výkladu Newtonových zákonů (RVP)",
+  "type": "method",
+  "description": "Recenzovaný metodický článek na portálu RVP určený učitelům fyziky ZŠ pro 7. třídu. Popisuje optimální pořadí výkladu: nejprve kvalitativně 2. Newtonův zákon (opravuje mylnou žákovskou představu, že síla způsobuje rychlost, nikoli změnu rychlosti), poté 1. zákon jako speciální případ a nakonec 3. zákon s aktivitou, kdy se dvojice žáků od sebe odstrkuje a pozoruje pohyb obou. Vychází z analýzy typických prekoncepcí o pohybu a síle.",
+  "source": {
+    "label": "Metodický portál RVP – fyzika",
+    "url": "https://clanky.rvp.cz/clanek/c/z/213/VYUKA-NEWTONOVYCH-ZAKONU-II---VYKLAD.html"
+  }
+}

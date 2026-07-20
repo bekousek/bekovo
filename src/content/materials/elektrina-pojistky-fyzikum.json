@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-pojistky-fyzikum",
+  "subtopicId": "pojistky-a-jistice",
+  "topicId": "elektrina",
+  "title": "Jistič a chránič v praxi — Fyzikum.cz",
+  "type": "link",
+  "description": "Učebnicový text na Fyzikum.cz popisující fungování jističe: pomalá tepelná ochrana pomocí bimetalového pásku (přetížení) a rychlá elektromagnetická ochrana reagující do 50 ms při zkratu. Vysvětluje také princip proudového chrániče (rozdílový transformátor, citlivost 30 mA) a jeho odlišnost od jističe.",
+  "url": "https://fyzikum.cz/ucebnice/elektricky-proud/stridavy-proud-v-energetice-a-praxi/"
+}

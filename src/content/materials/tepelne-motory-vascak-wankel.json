@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-vascak-wankel",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Wankelův rotační motor — interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace Wankelova (rotačního) motoru ukazuje alternativní typ spalovacího motoru bez recipročního pohybu pístu: trojúhelníkový rotor se otáčí v oválné skříni a střídavě vytváří komory pro sání, kompresi, expanzi a výfuk. Jde o nadstandardní rozšíření tématu vhodné pro zvídavé žáky nebo jako motivace pro diskuzi o různých konstrukčních řešeních spalovacích motorů. Animace je česky a běží v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_wankel&l=cz"
+}

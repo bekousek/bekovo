@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-pojistky-falstad",
+  "subtopicId": "pojistky-a-jistice",
+  "topicId": "elektrina",
+  "title": "Falstad CircuitJS — online simulátor elektrických obvodů",
+  "type": "applet",
+  "description": "Volně dostupný HTML5 simulátor elektrických obvodů s animovaným tokem proudu v reálném čase. Učitel sestaví obvod, přidá spínač simulující zkrat a žákům ukáže prudký nárůst proudu a přerušení obvodu — vizuálně znázorňuje princip, na němž fungují pojistky a jističe. Rozhraní je anglické, ale animace elektronů a naměřených hodnot jsou intuitivně čitelné bez znalosti angličtiny.",
+  "url": "https://www.falstad.com/circuit/circuitjs.html"
+}

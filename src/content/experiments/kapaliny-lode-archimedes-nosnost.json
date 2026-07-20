@@ -1,0 +1,20 @@
+{
+  "id": "kapaliny-lode-archimedes-nosnost",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Archimédův zákon a nosnost plavidla",
+  "type": "measurement",
+  "description": "Demonstrační pokus (s měřicími prvky pro žáky): šest navazujících experimentů ověřujících Archimédův zákon. Klíčovým prvkem je model lodi s balastem, který se postupně zatěžuje závaží až do potopení — žáci měří nosnost jako funkci tvaru a objemu trupu. Dutý a plný válec zavěšený na siloměru a ponořený do vody ukazuje vztlakovou sílu; výsledky se porovnávají s tíhou vytlačené vody.",
+  "materials": [
+    "siloměr",
+    "dutý a plný válec na závěsu",
+    "nádoba s vodou a milimetrovým měřítkem",
+    "model lodi z plastu se závaží",
+    "odměrný válec"
+  ],
+  "procedure": "Model lodi ponořit do nádoby s vodou; postupně přidávat závaží a zaznamenávat nosnost. Dutý a plný válec zavěsit na siloměr a ponořit do vody — porovnat výsledky s hmotností vytlačené vody.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik_old/Veletrh_09/09_21_Patc.html"
+  }
+}

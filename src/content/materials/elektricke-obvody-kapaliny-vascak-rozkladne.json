@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-kapaliny-vascak-rozkladne",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Vaščák: Elektrolýza — rozkladné napětí (animace)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Vaščák zobrazující elektrolýzu s důrazem na rozkladné napětí a pohyb iontů v elektrolytu. Žáci sledují, jak elektrický proud prochází roztokem a způsobuje chemické procesy na elektrodách. Vhodná jako přímá demonstrace při výkladu nebo žákovská aktivita.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=elkap_rozkladne&l=cz"
+}

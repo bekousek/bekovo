@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-vascak-izotermicky",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Izotermický děj (Boyleův-Mariottův zákon) – animace Vaščák",
+  "type": "applet",
+  "description": "HTML5 animace zobrazuje stlačování a rozpínání plynu v cylindru s pístem při konstantní teplotě a sleduje odpovídající změny tlaku – přímá vizualizace Boyleova-Mariottova zákona p·V = konst. Žáci vidí, jak se při maximálním rozpínání pístu obsah nádoby blíží vakuu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_izotermicky_dej&l=cz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-aspire-zivotni-cyklus",
+  "subtopicId": "vznik-a-zanik-hvezd",
+  "topicId": "astronomie",
+  "title": "Životní cyklus hvězd – ASPIRE (University of Utah)",
+  "type": "applet",
+  "description": "Série interaktivních lekcí a animací z fyzikální katedry Univerzity v Utahu pokrývající celý vývojový cyklus hvězd: od protohvězdy a nukleární fúze na hlavní posloupnosti až po zánik a vznik kompaktních objektů. Materiál kombinuje animace, grafy a kvízy; vyžaduje základní znalost angličtiny. Před zařazením do výuky doporučeno ověřit funkčnost v aktuálním prohlížeči.",
+  "url": "http://outreach.physics.utah.edu/Labs/StarLife/"
+}

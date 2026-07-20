@@ -96,6 +96,7 @@ export const cs = {
   toastLinkCopied: 'Odkaz zkopírován',
   toastLinkBig: 'Scéna je velká — odkaz nemusí všude projít, zvaž uložení souboru.',
   toastLoadError: 'Scénu se nepodařilo načíst.',
+  toastSimError: 'Simulace selhala a byla zastavena.',
   toastSaved: 'Scéna uložena.',
   // Panel grafu (F2-C)
   plotPanelTitle: 'Graf pohybu',

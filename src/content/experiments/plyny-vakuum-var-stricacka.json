@@ -1,0 +1,17 @@
+{
+  "id": "plyny-vakuum-var-stricacka",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Var vody za sníženého tlaku v injekční stříkačce",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Do injekční stříkačky se nasaje trocha vlažné vody (55–65 °C), výstup se zacpe palcem a rychle se vytáhne píst – vznikne téměř vakuum a voda začne vřít, přestože má teplotu hluboko pod 100 °C. Experiment přesvědčivě demonstruje závislost bodu varu na tlaku. Každý žák pokus provede samostatně; při uvolnění palce se píst samovolně vrátí zpět a potvrdí podtlak uvnitř.",
+  "materials": [
+    "injekční stříkačka (10–20 ml)",
+    "vlažná voda (55–65 °C)"
+  ],
+  "procedure": "Nasát trochu vlažné vody do stříkačky, pevně ucpat výstup palcem, rychle vytáhnout píst – pozorovat var. Uvolnit palec a sledovat, jak se píst vrátí zpět.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/r/GCACA/13173/VAR-VODY-ZA-SNIZENEHO-TLAKU.html"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "plyny-vakuum-fykos-mereni",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Měření atmosférického tlaku převrácenou sklenicí",
+  "description": "Žák doma provede experiment: ponoří převrácenou sklenici do nádoby s vodou a změří výšku vodního sloupce, který v ní zůstane, když ji táhne nahoru. Z výšky sloupce, hustoty vody (ρ = 1000 kg/m³) a tíhového zrychlení (g ≈ 9,81 m/s²) spočítá atmosférický tlak jako p = ρ·g·h. Výsledky porovná se standardní hodnotou 101,3 kPa, zamyslí se nad zdroji chyb a vše sepíše do krátkého protokolu. Experiment trvá cca 30–45 minut.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://fykos.cz/"
+  }
+}

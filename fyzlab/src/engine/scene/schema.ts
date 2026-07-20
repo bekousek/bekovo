@@ -44,7 +44,7 @@ const BoxShapeSchema = z.object({
  */
 const PolygonShapeSchema = z.object({
   type: z.literal('polygon'),
-  points: z.array(Vec2Schema).min(3),
+  points: z.array(Vec2Schema).min(3).max(256),
 });
 
 /**
@@ -307,8 +307,9 @@ export const SceneDocSchema = z.object({
     /** Kolik metrů světa se vejde na výšku obrazovky. */
     metersPerScreenH: z.number().positive(),
   }),
-  /** Pořadí v poli = z-pořadí vykreslení; tělesa i klouby dohromady. */
-  entities: z.array(EntitySchema),
+  /** Pořadí v poli = z-pořadí vykreslení; tělesa i klouby dohromady.
+   *  Strop 2000 — ochrana proti hostilní/vadné scéně, která by položila worker. */
+  entities: z.array(EntitySchema).max(2000),
   /** Volitelná lekce s předpovědí (F2-E). */
   lesson: LessonSchema.optional(),
 });

@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-jednoduchy-elektromagnet",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Jednoduchý elektromagnet z hřebíku a drátu",
+  "type": "qualitative",
+  "description": "Žákovský pokus: navinutím měděného drátu na ocelový hřebík a připojením ploché baterie žáci vytvoří elektromagnet – hřebík přitahuje kancelářské svorky nebo ocelové piliny. Po odpojení baterie magnetismus mizí. Pokus přirozeně navazuje téma permanentních magnetů na elektromagnetismus a ukazuje klíčový rozdíl: elektromagnet lze zapnout a vypnout.",
+  "materials": [
+    "ocelový hřebík",
+    "měděný drát (~1 m, izolovaný)",
+    "plochá baterie 4,5 V nebo tužkové baterie AA",
+    "kancelářské svorky nebo ocelové piliny"
+  ],
+  "procedure": "Naviň drát těsně na hřebík (20–40 závitů). Konce drátu připoj k baterii. Přiblíž hřebík ke svorkám – sleduj přitahování. Odpoj baterii – svorky opadají. Vyzkoušej vliv počtu závitů na sílu elektromagnetu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2198/jednoduchy-elektromagnet"
+  }
+}

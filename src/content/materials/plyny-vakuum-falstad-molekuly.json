@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-falstad-molekuly",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Simulace molekul plynu – kinetická teorie (Falstad)",
+  "type": "applet",
+  "description": "Interaktivní prohlížečová simulace zobrazuje pohyb molekul plynu v nádobě s nastavitelným objemem, teplotou a gravitací; barva každé molekuly ukazuje její kinetickou energii. Žáci mohou snižovat počet molekul až k vakuu nebo sledovat Maxwell-Boltzmannovo rozložení rychlostí. Nevyžaduje žádný doplněk – běží přímo v prohlížeči.",
+  "url": "https://www.falstad.com/gas/"
+}

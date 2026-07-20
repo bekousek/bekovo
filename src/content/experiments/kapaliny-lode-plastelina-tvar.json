@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-lode-plastelina-tvar",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Plastelínová lodička — jak tvar ovlivňuje nosnost",
+  "type": "qualitative",
+  "description": "Žákovský pokus i domácí úkol: váleček plastelíny se vloží do vody — klesne. Přetvaruje se do loďky s dutým dnem a plave. Experiment se rozšiřuje o testování nosnosti: žáci postupně vkládají závaží (mince, kamínky) do loďky a sledují, kolik unese. Porovnávají nosnost různých tvarů — mělká a široká loďka vs. hluboká a úzká. Rozvíjí chápání vztahu mezi tvarem trupu, objemem a nosností plavidla.",
+  "materials": [
+    "plastelína",
+    "miska nebo hrnec s vodou",
+    "závaží (mince, kamínky, šroubky)"
+  ],
+  "procedure": "1) Váleček plastelíny → klesne. 2) Přetvaruj do loďky s dutým dnem → plave. 3) Postupně přidávej závaží do loďky; zaznamenej maximální nosnost. 4) Porovnej nosnost různých tvarů lodiček ze stejného množství plastelíny.",
+  "source": {
+    "label": "ZŠ Letohrad",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus3.htm"
+  }
+}

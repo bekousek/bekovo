@@ -1,0 +1,19 @@
+{
+  "id": "elektricke-obvody-kapaliny-elektrolyza-ki",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "Elektrolýza KI se škrobovým indikátorem",
+  "type": "qualitative",
+  "description": "Elektrolýzou roztoku jodidu draselného (KI) se na anodě uvolňuje jód, který ihned zbarví škrobový roztok do výrazné modrofialové barvy. Dramatická barevná změna je velmi působivým důkazem pohybu iontů v elektrolytu a chemické přeměny na elektrodách. Jde o demonstrační pokus učitele, vhodný jako srovnání s elektrolýzou NaCl.",
+  "materials": [
+    "roztok jodidu draselného (KI)",
+    "škrobový roztok nebo bramborový škrob",
+    "zdroj napětí",
+    "uhlíkové elektrody",
+    "vodiče"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/elektrina-a-magnetismus/vedeni-proudu-v-kapalinach/elektrolyza-roztoku-nacl-a-ki-66/"
+  }
+}

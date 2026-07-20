@@ -1,0 +1,37 @@
+name: Hlavní web CI
+
+# Build gate pro hlavní web (bekovo.cz) — na push/PR mimo fyzlab/ (to má
+# vlastní workflow fyzlab-ci.yml). Noční rutina merguje PR automaticky bez
+# lidské kontroly (viz AGENTS.md) — tohle je jediná brána na straně GitHubu,
+# která odchytí rozbitý build před mergem do main.
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'fyzlab/**'
+  pull_request:
+    paths-ignore:
+      - 'fyzlab/**'
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Validate formula data
+        run: npm run validate-formulas
+
+      - name: Build
+        run: npm run build

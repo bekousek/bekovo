@@ -1,0 +1,24 @@
+{
+  "id": "vlastnosti-latek-husty-koktejl",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Hustý koktejl – vrstvy kapalin podle hustoty",
+  "type": "qualitative",
+  "description": "Žákovský pokus: do skleničky se postupně nalévají sirup (nebo med), voda a olej; kapaliny se přirozeně seřadí do tří vrstev podle hustoty. Do nádoby se pak spouštějí různé předměty (šroubek, hroznové víno, LEGO kostka, korek) a žáci pozorují, na které vrstvě každý plave. Pokus přímou zkušeností ukazuje, že hustota je charakteristická vlastnost každé látky — hustší látky klesají, méně husté plavou.",
+  "materials": [
+    "sirup nebo tekutý med",
+    "voda",
+    "olej",
+    "potravinářské barvivo (volitelně)",
+    "vyšší sklenice",
+    "šroubek nebo matice",
+    "hroznové víno",
+    "LEGO kostka",
+    "korek"
+  ],
+  "procedure": "1. Pomalu nalit sirup na dno sklenice. 2. Po stěně přidat vodu. 3. Po stěně přidat olej – vzniknou tři oddělené vrstvy. 4. Opatrně spouštět jednotlivé předměty a pozorovat, kde se zastaví.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/husty-koktejl"
+  }
+}

@@ -25,7 +25,23 @@
     "2026-06-26-sila--jednoduche-stroje",
     "2026-06-29-vlastnosti-latek--plyny",
     "2026-06-27-skupenstvi-latek--vztah-teploty-a-tlaku",
-    "2026-06-28-tepelne-motory--parni-stroj"
+    "2026-06-28-tepelne-motory--parni-stroj",
+    "2026-07-01-astronomie--vesmir",
+    "2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach",
+    "2026-07-04-elektrina--pojistky-a-jistice",
+    "2026-07-06-energie--energie",
+    "2026-07-07-kapaliny-7--lode",
+    "2026-07-08-magnetismus--magnety",
+    "2026-07-10-mereni--teplota",
+    "2026-07-11-mikrosvet--skaly-v-mikrosvete",
+    "2026-07-13-plyny-7--vakuum",
+    "2026-07-12-optika--oko",
+    "2026-07-14-pohyb--rychlost",
+    "2026-07-15-sila--newtonovy-zakony",
+    "2026-07-17-tepelne-motory--spalovaci-motory",
+    "2026-07-18-vlastnosti-latek--latky-a-telesa",
+    "2026-07-19-akustika--zdroje-zvuku",
+    "2026-07-20-astronomie--vznik-a-zanik-hvezd"
   ],
   "history": [
     {
@@ -258,6 +274,147 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/47",
       "merged": true,
       "processedAt": "2026-06-29T22:13:47.535Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-01-astronomie--vesmir",
+      "subtopic": "astronomie--vesmir",
+      "branch": "routine/nightly-2026-07-01-astronomie--vesmir",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/51",
+      "merged": true,
+      "processedAt": "2026-07-01T09:24:55.756Z"
+    },
+    {
+      "manifestId": "2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach",
+      "subtopic": "elektricke-obvody--vedeni-proudu-v-kapalinach",
+      "branch": "routine/nightly-2026-07-03-elektricke-obvody--vedeni-proudu-v-kapalinach",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/53",
+      "merged": true,
+      "processedAt": "2026-07-03T08:25:56.900Z"
+    },
+    {
+      "manifestId": "2026-07-04-elektrina--pojistky-a-jistice",
+      "subtopic": "elektrina--pojistky-a-jistice",
+      "branch": "routine/nightly-2026-07-04-elektrina--pojistky-a-jistice",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/56",
+      "merged": true,
+      "processedAt": "2026-07-05T00:29:50.931Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-06-energie--energie",
+      "subtopic": "energie--energie",
+      "branch": "routine/nightly-2026-07-06-energie--energie",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/57",
+      "merged": true,
+      "processedAt": "2026-07-13T12:28:32.144Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-07-kapaliny-7--lode",
+      "subtopic": "kapaliny-7--lode",
+      "branch": "routine/nightly-2026-07-07-kapaliny-7--lode",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/58",
+      "merged": true,
+      "processedAt": "2026-07-13T12:29:06.827Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-08-magnetismus--magnety",
+      "subtopic": "magnetismus--magnety",
+      "branch": "routine/nightly-2026-07-08-magnetismus--magnety",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/59",
+      "merged": true,
+      "processedAt": "2026-07-13T12:29:40.586Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-10-mereni--teplota",
+      "subtopic": "mereni--teplota",
+      "branch": "routine/nightly-2026-07-10-mereni--teplota",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/60",
+      "merged": true,
+      "processedAt": "2026-07-13T12:30:23.611Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-11-mikrosvet--skaly-v-mikrosvete",
+      "subtopic": "mikrosvet--skaly-v-mikrosvete",
+      "branch": "routine/nightly-2026-07-11-mikrosvet--skaly-v-mikrosvete",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/61",
+      "merged": true,
+      "processedAt": "2026-07-13T12:31:08.418Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-13-plyny-7--vakuum",
+      "subtopic": "plyny-7--vakuum",
+      "branch": "routine/nightly-2026-07-13-plyny-7--vakuum",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/62",
+      "merged": true,
+      "processedAt": "2026-07-13T12:31:56.918Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-12-optika--oko",
+      "subtopic": "optika--oko",
+      "branch": null,
+      "prUrl": "",
+      "merged": false,
+      "processedAt": "2026-07-13T12:32:24.454Z",
+      "note": "invalid: files.length=17 but ledgerEntry.items=18 (integrity gate failure)",
+      "flag": "invalid"
+    },
+    {
+      "manifestId": "2026-07-14-pohyb--rychlost",
+      "subtopic": "pohyb--rychlost",
+      "branch": "routine/nightly-2026-07-14-pohyb--rychlost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/63",
+      "merged": true,
+      "processedAt": "2026-07-15T21:52:00.000Z"
+    },
+    {
+      "manifestId": "2026-07-15-sila--newtonovy-zakony",
+      "subtopic": "sila--newtonovy-zakony",
+      "branch": "routine/nightly-2026-07-15-sila--newtonovy-zakony",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/64",
+      "merged": true,
+      "processedAt": "2026-07-15T21:56:00.000Z"
+    },
+    {
+      "manifestId": "2026-07-17-tepelne-motory--spalovaci-motory",
+      "subtopic": "tepelne-motory--spalovaci-motory",
+      "branch": "routine/nightly-2026-07-17-tepelne-motory--spalovaci-motory",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/65",
+      "merged": true,
+      "processedAt": "2026-07-20T12:25:52.315Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-18-vlastnosti-latek--latky-a-telesa",
+      "subtopic": "vlastnosti-latek--latky-a-telesa",
+      "branch": "routine/nightly-2026-07-18-vlastnosti-latek--latky-a-telesa",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/66",
+      "merged": true,
+      "processedAt": "2026-07-20T12:26:18.366Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-19-akustika--zdroje-zvuku",
+      "subtopic": "akustika--zdroje-zvuku",
+      "branch": "routine/nightly-2026-07-19-akustika--zdroje-zvuku",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/67",
+      "merged": true,
+      "processedAt": "2026-07-20T12:26:42.544Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-20-astronomie--vznik-a-zanik-hvezd",
+      "subtopic": "astronomie--vznik-a-zanik-hvezd",
+      "branch": "routine/nightly-2026-07-20-astronomie--vznik-a-zanik-hvezd",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/68",
+      "merged": true,
+      "processedAt": "2026-07-20T12:27:06.811Z",
       "driveFileId": ""
     }
   ]

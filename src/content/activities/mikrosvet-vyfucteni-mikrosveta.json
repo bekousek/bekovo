@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-vyfucteni-mikrosveta",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Výfučtení: Mikrosvět atomů a elektronů",
+  "type": "other",
+  "description": "Populárně-vědecký úvodní text série Výfuku provázející zadání úloh o mikrosvětě. Pojednává o historii atomismu — od řeckého pojmu 'atomos' přes pokusy s katodovou trubicí až po objev elektronu a jaderný model atomu. Text je doplněn úlohou, v níž žáci prokáží pochopení škál od atomu (~10⁻¹⁰ m) po jádro (~10⁻¹⁵ m). Vhodné jako motivační čtení na začátek tématu nebo jako domácí příprava.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/ulohy/r09/s6"
+  }
+}

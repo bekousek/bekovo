@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-fendt-carnot",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Carnotův cyklus — interaktivní simulace (Walter Fendt, česky)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace ideálního Carnotova tepelného cyklu zobrazuje práci tepelného motoru v p-V diagramu spolu s animací pístu a výměnou tepla se zásobníky. Žáci mohou nastavovat teploty horkého a studeného zdroje a sledovat, jak se mění účinnost motoru — toto je teoretická mez platná i pro reálné spalovací motory (benzinový motor dosahuje jen 20–30 %). Stránka je plně v češtině a dostupná v prohlížeči bez instalace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/carnotcycle_cz.htm"
+}

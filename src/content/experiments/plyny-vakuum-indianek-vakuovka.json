@@ -1,0 +1,17 @@
+{
+  "id": "plyny-vakuum-indianek-vakuovka",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Indiánek (marshmallow) ve vakuové nádobě",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Do vakuové nádoby (skleněná nádoba s těsnicím víkem a ruční pumpičkou) se vloží marshmallow, bonbón indiánek nebo kousek pivní pěny – předmět s vzduchovými bublinami uvnitř. Po snížení tlaku pomocí pumpy se předmět dramaticky zvětšuje, protože vzduch v bublinkách se rozpíná. Při opětovném vpuštění vzduchu se smrskne zpět.",
+  "materials": [
+    "vakuová nádoba s těsnicím víkem a ruční pumpou",
+    "marshmallow nebo bonbón indiánek"
+  ],
+  "procedure": "Vložit bonbón do nádoby, přiklopit víko, začít vysávat vzduch ruční pumpou a sledovat zvětšování bonbónu; poté vpustit vzduch zpět a sledovat smrsknutí.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/2101/indianek-ve-vyveve"
+  }
+}

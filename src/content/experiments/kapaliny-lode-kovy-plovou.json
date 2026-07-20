@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-lode-kovy-plovou",
+  "subtopicId": "lode",
+  "topicId": "kapaliny-7",
+  "title": "Proč plují kovové lodě?",
+  "type": "qualitative",
+  "description": "Žákovský pokus: kompaktní kus plastelíny (hustota větší než voda) se vloží do vody — klesne ke dnu. Přetvarováním téhož množství plastelíny do tvaru misky nebo loďky s dutinou žáci dokáží, že tvar plave. Změní se objem tělesa (vzduch v dutině), nikoliv hmotnost — průměrná hustota soustavy klesne pod 1 000 kg/m³. Analogie se skutečnou lodí: trup z oceli (hustota ~7 800 kg/m³) je převážně vzduch, takže průměrná hustota lodi je nižší než hustota vody.",
+  "materials": [
+    "standardní modelovací plastelína (ne lehká polystyrenová)",
+    "průhledná nádoba s vodou"
+  ],
+  "procedure": "1) Vytvoř válec z plastelíny, vlož do vody — klesne. 2) Přetvaruj tutéž plastelínu do misky s dutinou, vlož do vody — plave. 3) Diskuse: co se změnilo? (objem včetně dutiny, tedy průměrná hustota).",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/r/GCABC/9293/PROC-PLOVOU-KOVOVE-ZAOCEANSKE-LODE.html"
+  }
+}

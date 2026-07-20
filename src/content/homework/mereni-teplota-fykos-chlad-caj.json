@@ -1,0 +1,11 @@
+{
+  "id": "mereni-teplota-fykos-chlad-caj",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Chladnutí čaje — míchaný nebo nemíchaný? (FYKOS)",
+  "description": "Žák uvaří čaj a měří závislost teploty na čase — jednou bez míchání, jednou s pravidelným mícháním lžičkou. Data zapíše do tabulky, sestrojí graf a ověří hypotézu: závisí doba ochlazení na pitnou teplotu na míchání? Výstupem je protokol s popisem aparatury, podmínek, grafem a závěrem. Přiměřená modifikace úlohy z korespondenčního semináře pro badatelsky orientované žáky 6. třídy.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://fykos.cz/zadani/27/4"
+  }
+}

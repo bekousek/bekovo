@@ -9,13 +9,41 @@ import type { SceneDoc } from '@engine/scene/schema';
 /** Nad ~8 kB hrozí potíže s délkou URL (chat aplikace, QR…) — varovat. */
 export const URL_WARN_BYTES = 8 * 1024;
 
+/** Strop na rozbalenou velikost `#s=` payloadu — ochrana proti dekompresní bombě
+ *  (malý odkaz, který by se jinak rozbalil na stovky MB a zamrznul tab oběti). */
+export const MAX_DECODED_BYTES = 5 * 1024 * 1024;
+
 async function pump(
   bytes: Uint8Array,
   stream: CompressionStream | DecompressionStream,
+  maxBytes?: number,
 ): Promise<Uint8Array> {
   const blob = new Blob([bytes as BlobPart]);
   const out = new Response(blob.stream().pipeThrough(stream));
-  return new Uint8Array(await out.arrayBuffer());
+  if (maxBytes === undefined) {
+    return new Uint8Array(await out.arrayBuffer());
+  }
+
+  const reader = out.body!.getReader();
+  const chunks: Uint8Array[] = [];
+  let total = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    total += value.byteLength;
+    if (total > maxBytes) {
+      await reader.cancel();
+      throw new Error(`Scéna z odkazu je po rozbalení příliš velká (limit ${maxBytes} B).`);
+    }
+    chunks.push(value);
+  }
+  const result = new Uint8Array(total);
+  let offset = 0;
+  for (const chunk of chunks) {
+    result.set(chunk, offset);
+    offset += chunk.byteLength;
+  }
+  return result;
 }
 
 function toBase64Url(bytes: Uint8Array): string {
@@ -42,7 +70,7 @@ export async function encodeSceneParam(doc: SceneDoc): Promise<string> {
 /** Dekóduje hodnotu `#s=` zpět na scénu (vč. migrace + validace). */
 export async function decodeSceneParam(param: string): Promise<SceneDoc> {
   const packed = fromBase64Url(param);
-  const json = await pump(packed, new DecompressionStream('deflate-raw'));
+  const json = await pump(packed, new DecompressionStream('deflate-raw'), MAX_DECODED_BYTES);
   return migrateSceneDoc(JSON.parse(new TextDecoder().decode(json)));
 }
 

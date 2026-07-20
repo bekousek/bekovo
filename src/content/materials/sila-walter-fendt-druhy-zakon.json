@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-druhy-zakon",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Walter Fendt: Experiment k 2. Newtonovu zákonu",
+  "type": "applet",
+  "description": "Interaktivní HTML5 applet v češtině zobrazující experiment na vzduchové dráze pro ověření druhého Newtonova zákona (F = m·a). Žák nastavuje hmotnost vozíku a působící sílu, applet zobrazí výsledné zrychlení a umožní porovnání s výpočtem. Vhodné pro frontální demonstraci i samostatnou práci u počítače.",
+  "url": "https://www.walter-fendt.de/html5/phcz/newtonlaw2_cz.htm"
+}

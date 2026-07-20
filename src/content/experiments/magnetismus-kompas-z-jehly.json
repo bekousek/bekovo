@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-kompas-z-jehly",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Vyrobte si kompas z jehly",
+  "type": "qualitative",
+  "description": "Žákovský pokus: šicí jehla se zmagnetizuje přejížděním jedním pólem magnetu (vždy od hrotu k oušku), poté se položí na papírek plovoucí na hladině vody v misce. Jehla se ustálí v severojižním směru – ouškem ukáže na sever. Pokus propojuje magnetizaci s existencí zemského magnetického pole a principem funkce kompasu. Vhodné i jako domácí pokus.",
+  "materials": [
+    "šicí jehla",
+    "permanentní magnet",
+    "miska s vodou",
+    "kousek tuhého papíru nebo korku"
+  ],
+  "procedure": "Magnetizuj jehlu: opakovaně přejíždej jedním pólem magnetu od hrotu jehly k oušku (vždy jedním směrem, nezdvihat). Polož jehlu na papírek na vodní hladině. Sleduj, jak se papírek s jehlou otočí a ustálí v ose S–J.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus20.htm"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "elektricke-obvody-kapaliny-led-roztok",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "LEDky v solném roztoku — vodivost kapalin",
+  "type": "qualitative",
+  "description": "Žáci testují elektrickou vodivost různých kapalin pomocí LED zapojené v obvodu s nízkým napětím (4,5 V). Do destilované vody vložená LED nesvítí; po přidání kuchyňské soli se LED rozsvítí. Dále se porovnávají roztok cukru, ocet a alkohol — sleduje se, které kapaliny vedou proud. Jde o žákovský pokus prováděný ve skupinách s výsledky zaznamenanými do tabulky.",
+  "materials": [
+    "destilovaná voda",
+    "kuchyňská sůl",
+    "LED dioda",
+    "baterie 4,5 V",
+    "vodiče s krokodýlky",
+    "sklenice",
+    "roztok cukru",
+    "ocet"
+  ],
+  "procedure": "Elektrody vložíme do nádoby s destilovanou vodou — LED nesvítí. Přisypeme sůl a mícháme — LED se rozsvítí. Pokus opakujeme s roztokem cukru (nesvítí) a octem. Žáci zapisují výsledky do tabulky a formulují závěr o podmínce vedení proudu v kapalině.",
+  "source": {
+    "label": "KDF MFF UK — Materiály do výuky (PSP2)",
+    "url": "https://kdf.mff.cuni.cz/vyuka/psp2/doku.php?id=03a_kapaliny_plyny"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-falstad-sense-of-scale",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "A Sense of Scale – subatomární škály (Falstad)",
+  "type": "applet",
+  "description": "Applet Paula Falstada porovnávající klasické průměry elektronu a protonu a vysvětlující, proč jsou tyto pojmy v kvantové mechanice problematické. Součást rozsáhlé sbírky fyzikálních HTML simulací na falstad.com. Vhodné jako rozšiřující materiál k diskusi o mezích klasických modelů velikostí elementárních částic. Rozhraní v angličtině.",
+  "url": "https://www.falstad.com/scale/"
+}

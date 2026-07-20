@@ -1,0 +1,17 @@
+{
+  "id": "sila-stena-silomet",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Působí silou stěna? – reakce pevného tělesa",
+  "type": "qualitative",
+  "description": "Žákovský pokus adresující rozšířenou mylnou představu, že nehybné předměty žádnou silou nepůsobí. Pomocí dvou siloměrů zapojených v sérii – jeden zavěšený na háčku pevně ukotveném ve zdi, druhý tahán rukou – žáci čtou sílu na obou siloměrech a zjišťují, že ukazují stejnou hodnotu. Tím se experimentálně demonstruje 3. Newtonův zákon: stěna skutečně působí stejně velkou silou jako ta, kterou žák vyvíjí.",
+  "materials": [
+    "2 pružinové siloměry",
+    "háček pevně ukotvený ve zdi nebo o zárubeň dveří"
+  ],
+  "procedure": "1) Zavěsit jeden siloměr háčkem na pevný bod ve zdi. 2) Připojit druhý siloměr sériově k prvnímu. 3) Táhnout za volný konec druhého siloměru různými silami. 4) Odečítat hodnoty na obou siloměrech a porovnávat.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4484/pusobi-silou-stena-"
+  }
+}

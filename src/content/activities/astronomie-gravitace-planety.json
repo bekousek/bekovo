@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-gravitace-planety",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "Odkud by se lépe startovalo do vesmíru? – gravitace a úniková rychlost na různých tělesech",
+  "type": "group-work",
+  "description": "Badatelská aktivita, v níž žáci ve skupinách 2–3 porovnávají tíhu (F = mg) na různých tělesech Sluneční soustavy a hledají odpověď na otázku, ze které planety by bylo fyzikálně nejsnazší dostat se do vesmíru. Aktivita přirozeně uvádí pojem úniková rychlost — klíčový pro pochopení černých děr jako těles, u nichž úniková rychlost překračuje rychlost světla. Žákovská aktivita s výpočty; k dispozici tabulky gravitačního zrychlení nebo přístup k internetu.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/c/ZF/22660/GRAVITACNI-SILA---TIHOVE-ZRYCHLENI.html"
+  }
+}

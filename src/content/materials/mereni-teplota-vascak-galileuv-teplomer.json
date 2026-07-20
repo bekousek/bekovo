@@ -1,0 +1,9 @@
+{
+  "id": "mereni-teplota-vascak-galileuv-teplomer",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Galileův teploměr (Vaščák — animace)",
+  "type": "applet",
+  "description": "HTML5 animace principu Galileova teploměru: barevné skleněné ampulky klesají a stoupají v závislosti na teplotě okolní kapaliny. Žáci mohou teplotu měnit a pozorovat, která ampulka zůstane nahoře a co to říká o teplotě. Výborný úvod k diskuzi o tom, co teploměr vlastně měří a jak funguje.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_galileo_teplomer&l=cz"
+}

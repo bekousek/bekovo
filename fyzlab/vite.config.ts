@@ -23,7 +23,9 @@ export default defineConfig({
   },
   build: {
     target: 'es2022',
-    sourcemap: true,
+    // 'hidden': mapy se pořád generují (dají se dohledat k chybě), ale
+    // nejsou linkované z buildu, takže je běžný návštěvník nestahuje.
+    sourcemap: 'hidden',
   },
   test: {
     include: ['tests/**/*.test.ts'],

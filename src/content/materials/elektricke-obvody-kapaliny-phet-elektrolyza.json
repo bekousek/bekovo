@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-kapaliny-phet-elektrolyza",
+  "subtopicId": "vedeni-proudu-v-kapalinach",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Elektrolýza",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET zobrazující elektrolýzu vody — žáci nastavují napětí a sledují pohyb iontů v roztoku a vznik plynů (H₂, O₂) na elektrodách. Spouští se přímo v prohlížeči bez instalace, dostupná v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/electrolysis"
+}
