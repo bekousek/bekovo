@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-19",
+  "lastPicked": "2026-07-20",
   "history": [
     {
       "date": "2026-05-08",
@@ -302,6 +302,12 @@
       "subtopic": "akustika--zdroje-zvuku",
       "result": "pr-pending",
       "items": 15
+    },
+    {
+      "date": "2026-07-20",
+      "subtopic": "astronomie--vznik-a-zanik-hvezd",
+      "result": "pr-pending",
+      "items": 18
     }
   ],
   "skipUntil": {},

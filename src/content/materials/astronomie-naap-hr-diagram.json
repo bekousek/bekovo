@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-naap-hr-diagram",
+  "subtopicId": "vznik-a-zanik-hvezd",
+  "topicId": "astronomie",
+  "title": "HR Diagram Explorer – Nebraska Astronomy Applet Project",
+  "type": "applet",
+  "description": "Interaktivní simulátor HR diagramu z projektu NAAP (Nebraska Astronomy Applet Project) umožňující žákům třídit hvězdy podle spektrálního typu a svítivostní třídy a sledovat jejich polohu v diagramu. K appletu je dostupná strukturovaná laboratorní příručka. Anglické rozhraní je vizuální, dostupný zdarma bez registrace v HTML5 verzi.",
+  "url": "https://astro.unl.edu/naap/hr/animations/hr.html"
+}
