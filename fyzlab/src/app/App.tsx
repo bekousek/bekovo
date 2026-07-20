@@ -10,7 +10,8 @@ import { PropertiesPanel } from './PropertiesPanel';
 import { RadialMenu } from './RadialMenu';
 import { SimControls } from './SimControls';
 import { Toolbar } from './Toolbar';
-import { Toast, TopBar } from './TopBar';
+import { TopBar } from './TopBar';
+import { Badge, Toast } from './ui';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
@@ -34,7 +35,8 @@ const HINT_BY_TOOL: Record<string, MsgKey> = {
 function HintLine() {
   const activeToolId = useUiStore((s) => s.activeToolId);
   return (
-    <p className="pointer-events-none absolute bottom-24 left-1/2 w-full max-w-xl -translate-x-1/2 text-center text-xs text-slate-600 sm:bottom-20">
+    <p className="pointer-events-none absolute bottom-24 left-1/2 w-full max-w-xl -translate-x-1/2 text-center text-[11px] [color:var(--text-secondary)] sm:bottom-20">
+
       {t(HINT_BY_TOOL[activeToolId] ?? 'hintDrag')}
     </p>
   );
@@ -43,11 +45,24 @@ function HintLine() {
 function StatsBadge() {
   const stats = useUiStore((s) => s.stats);
   return (
-    <div className="pointer-events-none rounded-lg bg-white/70 px-2 py-1 font-mono text-[11px] text-slate-500 ring-1 ring-slate-200 backdrop-blur">
+    <Badge className="pointer-events-none font-mono">
       {stats.fps} fps · tick {stats.tickMs.toFixed(2)} ms · {stats.bodies} {t('bodies')}
-      {stats.slowMotion && <span className="ml-1 font-semibold text-amber-600">· {t('slowMotion')}</span>}
-    </div>
+      {stats.slowMotion && (
+        <span className="ml-1 font-semibold [color:var(--warning)]">· {t('slowMotion')}</span>
+      )}
+    </Badge>
   );
+}
+
+/** Toast s automatickým zavřením po 3,5 s. */
+function AppToast() {
+  const toastMsg = useUiStore((s) => s.toast);
+  useEffect(() => {
+    if (!toastMsg) return;
+    const id = window.setTimeout(() => useUiStore.getState().setToast(null), 3500);
+    return () => window.clearTimeout(id);
+  }, [toastMsg]);
+  return <Toast message={toastMsg} />;
 }
 
 export default function App() {
@@ -85,13 +100,13 @@ export default function App() {
   }, []);
 
   return (
-    <div className="relative h-full w-full overflow-hidden bg-slate-100">
+    <div className="relative h-full w-full overflow-hidden bg-[var(--surface-0)]">
       {/* Canvas host — touch-action:none, gesta řeší PointerManager. */}
       <div ref={hostRef} className="absolute inset-0 touch-none" />
 
       <header className="pointer-events-none absolute left-4 top-4 flex items-baseline gap-2">
-        <h1 className="text-xl font-black tracking-tight text-slate-800">{t('appName')}</h1>
-        <span className="text-sm text-slate-500">{t('tagline')}</span>
+        <h1 className="text-[15px] font-black tracking-tight [color:var(--text-primary)]">{t('appName')}</h1>
+        <span className="text-[12px] [color:var(--text-muted)]">{t('tagline')}</span>
       </header>
 
       <div className="absolute right-4 top-4">
@@ -151,14 +166,14 @@ export default function App() {
       {/* Nápověda (F5-B) */}
       {showHelp && <HelpDialog onClose={() => setShowHelp(false)} />}
 
-      <Toast />
+      <AppToast />
 
       <div className="absolute inset-x-0 bottom-4 flex justify-center px-4">
         {runtime ? (
           <SimControls controller={runtime.controller} />
         ) : (
           !error && (
-            <div className="rounded-2xl bg-white/85 px-4 py-3 text-sm text-slate-600 shadow-lg ring-1 ring-slate-200">
+            <div className="pointer-events-auto rounded-[var(--radius-lg)] bg-[var(--surface-1)] px-4 py-3 text-[13px] [color:var(--text-secondary)] [box-shadow:var(--shadow-panel)]">
               {t('loading')}
             </div>
           )
@@ -169,9 +184,9 @@ export default function App() {
 
       {error && (
         <div className="absolute inset-0 flex items-center justify-center bg-slate-900/40 p-6">
-          <div className="max-w-md rounded-2xl bg-white p-5 shadow-xl">
-            <h2 className="mb-2 font-bold text-red-600">{t('errorTitle')}</h2>
-            <pre className="overflow-auto whitespace-pre-wrap text-xs text-slate-600">{error}</pre>
+          <div className="max-w-md rounded-[var(--radius-lg)] bg-[var(--surface-1)] p-5 [box-shadow:var(--shadow-pop)]">
+            <h2 className="mb-2 font-bold [color:var(--danger)]">{t('errorTitle')}</h2>
+            <pre className="overflow-auto whitespace-pre-wrap text-[11px] [color:var(--text-secondary)]">{error}</pre>
           </div>
         </div>
       )}

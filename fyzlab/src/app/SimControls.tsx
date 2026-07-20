@@ -1,23 +1,18 @@
 /**
  * Ovládání simulace: Spustit/Pauza, Krok, Reset, Zpět/Znovu, rychlost.
- * Dotykové cíle ≥ 48 px (tablety, interaktivní tabule).
+ * Dotykové cíle ≥ 44 px (tablety, interaktivní tabule).
  */
 import type { EditorController } from '@editor/EditorController';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
-
-const btnBase =
-  'flex h-12 min-w-12 items-center justify-center rounded-xl px-3 text-lg font-semibold ' +
-  'shadow-sm ring-1 transition select-none active:scale-95 disabled:opacity-40';
-const btn = `${btnBase} bg-white text-slate-700 ring-slate-200 hover:bg-slate-50`;
-const btnPrimary = `${btnBase} bg-blue-600 text-white ring-blue-600 hover:bg-blue-500`;
+import { Button, Icon, Panel } from './ui';
 
 /** Stopky — simulační čas (nuluje Reset/načtení scény). */
 function Stopwatch() {
   const simTime = useUiStore((s) => s.stats.simTime);
   return (
-    <span className="w-20 text-right font-mono text-sm text-slate-600 tabular-nums">
-      ⏱ {simTime.toFixed(2)}
+    <span className="w-20 text-right font-mono text-[11px] [color:var(--text-secondary)] tabular-nums">
+      {simTime.toFixed(2)} s
     </span>
   );
 }
@@ -30,63 +25,58 @@ export function SimControls({ controller }: { controller: EditorController }) {
   const canRedo = useUiStore((s) => s.canRedo);
 
   return (
-    <div className="pointer-events-auto flex items-center gap-2 rounded-2xl bg-white/85 p-2 shadow-lg ring-1 ring-slate-200 backdrop-blur">
-      <button
-        type="button"
-        className={btn}
+    <Panel className="flex items-center gap-1.5 p-2 backdrop-blur-sm">
+      <Button
+        variant="secondary"
         onClick={() => controller.undo()}
         disabled={!canUndo}
         aria-label={t('undo')}
         title={`${t('undo')} (Ctrl+Z)`}
       >
-        ↶
-      </button>
-      <button
-        type="button"
-        className={btn}
+        <Icon name="undo" />
+      </Button>
+      <Button
+        variant="secondary"
         onClick={() => controller.redo()}
         disabled={!canRedo}
         aria-label={t('redo')}
         title={`${t('redo')} (Ctrl+Y)`}
       >
-        ↷
-      </button>
+        <Icon name="redo" />
+      </Button>
 
-      <div className="mx-1 h-8 w-px bg-slate-200" />
+      <div className="mx-0.5 h-8 w-px bg-[var(--border)]" />
 
-      <button
-        type="button"
-        className={running ? btn : btnPrimary}
+      <Button
+        variant={running ? 'secondary' : 'primary'}
         onClick={() => controller.toggle()}
         aria-label={running ? t('pause') : t('play')}
         title={`${running ? t('pause') : t('play')} (mezerník)`}
       >
-        {running ? '⏸' : '▶'}
-        <span className="ml-2 hidden text-sm sm:inline">{running ? t('pause') : t('play')}</span>
-      </button>
+        <Icon name={running ? 'pause' : 'play'} />
+        <span className="ml-1.5 hidden text-sm sm:inline">{running ? t('pause') : t('play')}</span>
+      </Button>
 
-      <button
-        type="button"
-        className={btn}
+      <Button
+        variant="secondary"
         onClick={() => controller.step()}
         disabled={running}
         aria-label={t('step')}
         title={t('step')}
       >
-        ⏭
-      </button>
+        <Icon name="step" />
+      </Button>
 
-      <button
-        type="button"
-        className={btn}
+      <Button
+        variant="secondary"
         onClick={() => controller.reset()}
         aria-label={t('reset')}
         title={t('reset')}
       >
-        ↺
-      </button>
+        <Icon name="reset" />
+      </Button>
 
-      <label className="ml-2 flex items-center gap-2 pr-2 text-sm text-slate-600">
+      <label className="ml-1 flex items-center gap-2 pr-2 text-[13px] [color:var(--text-secondary)]">
         <span className="hidden sm:inline">{t('speed')}</span>
         <input
           type="range"
@@ -100,14 +90,14 @@ export function SimControls({ controller }: { controller: EditorController }) {
             setSpeed(snapped);
             controller.setSpeed(snapped);
           }}
-          className="h-12 w-28 accent-blue-600 sm:w-36"
+          className="h-11 w-28 accent-[var(--accent)] sm:w-36"
           aria-label={t('speed')}
         />
-        <span className="w-12 tabular-nums">{speed.toFixed(speed < 1 ? 2 : 1)}×</span>
+        <span className="w-12 tabular-nums [color:var(--text-muted)]">{speed.toFixed(speed < 1 ? 2 : 1)}×</span>
       </label>
 
-      <div className="mx-1 h-8 w-px bg-slate-200" />
+      <div className="mx-0.5 h-8 w-px bg-[var(--border)]" />
       <Stopwatch />
-    </div>
+    </Panel>
   );
 }
