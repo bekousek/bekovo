@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-tepelna-vodivost-folie",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Tepelná vodivost plastu a kovu – vizualizace termocitlivou folií",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: na zahřátou kovovou a plastovou destičku se přiloží termocitlivá folie a kelímky s ledem. Folie vizualizuje, že kovová destička se ochlazuje rovnoměrně po celé ploše (dobrý tepelný vodič), zatímco plastová pouze v místě kontaktu s kelímkem (tepelný izolant). Barevná změna folie je okamžitě srozumitelná celé třídě bez dalšího přístrojového vybavení.",
+  "materials": [
+    "termocitlivá folie (pracovní rozsah 25–30 °C)",
+    "kovová destička (Al nebo Cu)",
+    "plastová destička podobných rozměrů",
+    "dva kelímky s ledem"
+  ],
+  "procedure": "1. Zahřát obě destičky na přibližně 30 °C rukou nebo teplou vodou. 2. Přilepit termocitlivou folii na obě destičky. 3. Postavit kelímky s ledem na destičky současně. 4. Sledovat barevnou změnu folie – kov mění barvu plošně, plast pouze v místě kelímku.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1586/tepelna-vodivost-plastu-a-kovu-ii"
+  }
+}

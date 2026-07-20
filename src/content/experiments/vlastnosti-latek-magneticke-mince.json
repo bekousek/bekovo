@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-magneticke-mince",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Magnetické mince – přitahování magnetu jako vlastnost látky",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci přibližují magnet k českým mincím na stole a pozorují, jak je magnety přitahují (mince obsahují ocel – feromagnetická látka). Zmagnetovanou mincí pak ovládají pohyb jiné mince bez přímého dotyku. Pokus přímo demonstruje magnetičnost jako rozlišovací vlastnost látek a vede žáky k třídění materiálů na feromagnetické a neferromagnetické.",
+  "materials": [
+    "tyčový nebo permanentní magnet",
+    "libovolné české mince (ocelové)"
+  ],
+  "procedure": "1. Přiblížit magnet zespodu pod minci na stole – mince se přitáhne. 2. Magnetem pomalu pohybovat a táhnout za sebou shluk mincí. 3. Pokusit se sestavit věž ze tří mincí udržovaných magnetickými silami.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus7.htm"
+  }
+}
