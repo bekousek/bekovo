@@ -41,7 +41,8 @@
     "2026-07-17-tepelne-motory--spalovaci-motory",
     "2026-07-18-vlastnosti-latek--latky-a-telesa",
     "2026-07-19-akustika--zdroje-zvuku",
-    "2026-07-20-astronomie--vznik-a-zanik-hvezd"
+    "2026-07-20-astronomie--vznik-a-zanik-hvezd",
+    "2026-07-21-castice-latky--atom"
   ],
   "history": [
     {
@@ -415,6 +416,15 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/68",
       "merged": true,
       "processedAt": "2026-07-20T12:27:06.811Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-21-castice-latky--atom",
+      "subtopic": "castice-latky--atom",
+      "branch": "routine/nightly-2026-07-21-castice-latky--atom",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/69",
+      "merged": true,
+      "processedAt": "2026-07-23T18:35:22.953Z",
       "driveFileId": ""
     }
   ]
