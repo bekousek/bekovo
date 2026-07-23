@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-phet-izotopy",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "PhET: Izotopy a atomová hmotnost",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace PhET umožňující modelovat izotopy prvních 10 prvků — žák přidává nebo odebírá protony, neutrony a elektrony a sleduje změnu protonového a nukleonového čísla. Vizuálně propojuje počet částic v jádře s pojmem izotop. Vhodný doplněk k simulaci PhET Stavba atomu pro prohloubení pojmu nukleonové číslo.",
+  "url": "https://phet.colorado.edu/cs/simulations/isotopes-and-atomic-mass"
+}

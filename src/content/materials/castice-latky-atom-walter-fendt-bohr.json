@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-walter-fendt-bohr",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Walter Fendt: Bohrův model atomu vodíku (CZ)",
+  "type": "applet",
+  "description": "HTML5 animace v češtině zobrazující Bohrův planetární model atomu vodíku. Žák volí kvantové číslo n a sleduje pohyb elektronu po kruhové dráze kolem jádra — ilustruje elektronový obal a energetické hladiny. Nevyžaduje instalaci žádných pluginů.",
+  "url": "https://www.walter-fendt.de/html5/phcz/bohrmodel_cz.htm"
+}

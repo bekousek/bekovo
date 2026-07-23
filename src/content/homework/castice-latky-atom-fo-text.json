@@ -1,0 +1,11 @@
+{
+  "id": "castice-latky-atom-fo-text",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "FO: Studijní text Atomy — Thomson, Rutherford, Bohr",
+  "description": "Volně dostupný studijní text Fyzikální olympiády (PDF) systematicky pokrývající téma atomu: složení atomu (proton, neutron, elektron, jejich náboj a hmotnost) a přehled historických modelů — Thomsonův rozinkový pudink (1897), Rutherfordův experiment se zlatou fólií (1911), Bohrův model s kvantovými drahami (1913). Učitel může text zadat jako domácí četbu s připravenými otázkami nebo jako podklad pro referát o historii poznání atomu.",
+  "source": {
+    "label": "Fyzikální olympiáda",
+    "url": "http://fyzikalniolympiada.cz/texty/atomy.pdf"
+  }
+}

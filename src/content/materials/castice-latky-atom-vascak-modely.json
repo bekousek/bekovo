@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-vascak-modely",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Vaščák: Modely atomu — animace (CZ)",
+  "type": "applet",
+  "description": "Česká interaktivní HTML5 animace ukazující historický vývoj modelů atomu — Thomson, Rutherford, Bohr. Žák postupně přepíná mezi modely a porovnává, jak se představa o stavbě atomu vyvíjela. Animace je plně v češtině, navržena pro výuku na ZŠ a SŠ.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=atom_modely&l=cz"
+}
