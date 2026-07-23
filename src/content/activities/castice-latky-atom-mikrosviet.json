@@ -1,0 +1,12 @@
+{
+  "id": "castice-latky-atom-mikrosviet",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Modelovací aktivity z fyziky mikrosvěta",
+  "type": "other",
+  "description": "Sada modelovacích aktivit (Broklová, VNUF 2006) zaměřená na fyziku atomů a atomových jader. Žáci pomocí každodenních materiálů — provázků, kuliček, fazolí, magnetů — modelují abstraktní jevy mikrosvěta: poměr velikosti jádra a atomu, model elektronového obalu, uspořádání nukleonů v jádře. Každá aktivita má jednodušší variantu pro mladší a náročnější pro starší žáky; podrobné postupy jsou popsány v příspěvku VNUF.",
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik/prispevky/11-03-Broklova.html"
+  }
+}
