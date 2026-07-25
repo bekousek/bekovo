@@ -4,10 +4,7 @@
  */
 import { Graphics } from 'pixi.js';
 import type { Camera } from '@editor/camera';
-
-const MINOR_COLOR = 0xe2e8f0;
-const MAJOR_COLOR = 0xcbd5e1;
-const AXIS_COLOR = 0x94a3b8;
+import type { CanvasPalette } from '@app/theme';
 
 /** Krok mřížky 1-2-5×10ⁿ tak, aby major rozestup byl ≥ ~70 px. */
 export function niceStep(pixelsPerMeter: number): number {
@@ -22,6 +19,14 @@ export function niceStep(pixelsPerMeter: number): number {
 export class GridLayer {
   readonly g = new Graphics();
   private lastKey = '';
+
+  constructor(private palette: CanvasPalette) {}
+
+  /** Přebarví mřížku (přepnutí light/dark) — vynutí překreslení příští frame. */
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
+    this.lastKey = '';
+  }
 
   draw(camera: Camera): void {
     const key = `${camera.center.x}|${camera.center.y}|${camera.pixelsPerMeter}|${camera.viewportW}|${camera.viewportH}`;
@@ -48,7 +53,7 @@ export class GridLayer {
         const sy = camera.worldToScreenY(y);
         g.moveTo(0, sy).lineTo(w, sy);
       }
-      g.stroke({ width: 1, color: MINOR_COLOR });
+      g.stroke({ width: 1, color: this.palette.gridMinor });
     }
 
     for (let x = Math.ceil(rect.minX / step) * step; x <= rect.maxX; x += step) {
@@ -59,13 +64,13 @@ export class GridLayer {
       const sy = camera.worldToScreenY(y);
       g.moveTo(0, sy).lineTo(w, sy);
     }
-    g.stroke({ width: 1, color: MAJOR_COLOR });
+    g.stroke({ width: 1, color: this.palette.gridMajor });
 
     // Osy světa
     const ax = camera.worldToScreenX(0);
     const ay = camera.worldToScreenY(0);
     if (ax >= 0 && ax <= w) g.moveTo(ax, 0).lineTo(ax, h);
     if (ay >= 0 && ay <= h) g.moveTo(0, ay).lineTo(w, ay);
-    g.stroke({ width: 1.5, color: AXIS_COLOR });
+    g.stroke({ width: 1.5, color: this.palette.gridAxis });
   }
 }

@@ -9,9 +9,9 @@ import { Graphics } from 'pixi.js';
 import { rotate } from '@engine/core/math';
 import { jointWorldAnchors, type PoseGetter } from '@engine/scene/jointGeom';
 import type { Joint, SceneDoc } from '@engine/scene/schema';
+import type { CanvasPalette } from '@app/theme';
 import { DRAW_SCALE as S } from './bodiesLayer';
 
-const COLOR = 0x334155;
 const MOTOR_COLOR = 0xd97706;
 
 function drawSpring(
@@ -21,9 +21,10 @@ function drawSpring(
   bx: number,
   by: number,
   px: (n: number) => number,
+  color: number,
 ): void {
-  g.circle(ax, ay, px(2.6)).fill({ color: COLOR, alpha: 0.9 });
-  g.circle(bx, by, px(2.6)).fill({ color: COLOR, alpha: 0.9 });
+  g.circle(ax, ay, px(2.6)).fill({ color, alpha: 0.9 });
+  g.circle(bx, by, px(2.6)).fill({ color, alpha: 0.9 });
 
   const dx = bx - ax;
   const dy = by - ay;
@@ -48,7 +49,7 @@ function drawSpring(
   }
   g.lineTo(bx - ux * lead, by - uy * lead)
     .lineTo(bx, by)
-    .stroke({ width: px(1.8), color: COLOR, alpha: 0.9 });
+    .stroke({ width: px(1.8), color, alpha: 0.9 });
 }
 
 export class JointsLayer {
@@ -56,8 +57,12 @@ export class JointsLayer {
   private joints: Joint[] = [];
   private lastEmpty = true;
 
-  constructor() {
+  constructor(private palette: CanvasPalette) {
     this.g.scale.set(1 / S);
+  }
+
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
   }
 
   /** Obnoví seznam kloubů z dokumentu (volá se při každé změně docu). */
@@ -87,8 +92,8 @@ export class JointsLayer {
         case 'axle': {
           g.circle(bx, by, px(7))
             .fill({ color: 0xffffff, alpha: 0.9 })
-            .stroke({ width: px(2), color: COLOR, alpha: 0.9 });
-          g.circle(bx, by, px(2.2)).fill({ color: COLOR, alpha: 0.95 });
+            .stroke({ width: px(2), color: this.palette.structureColor, alpha: 0.9 });
+          g.circle(bx, by, px(2.2)).fill({ color: this.palette.structureColor, alpha: 0.95 });
           if (j.axle?.enabled) {
             // Oblouk = poháněná osa (motor). moveTo na start oblouku, jinak
             // canvas sémantika dokreslí spojnici od minulého bodu cesty.
@@ -101,19 +106,19 @@ export class JointsLayer {
           break;
         }
         case 'spring': {
-          drawSpring(g, anchors.a.x * S, anchors.a.y * S, bx, by, px);
+          drawSpring(g, anchors.a.x * S, anchors.a.y * S, bx, by, px, this.palette.structureColor);
           break;
         }
         case 'fixed': {
           const size = px(6);
           g.rect(bx - size, by - size, size * 2, size * 2)
             .fill({ color: 0xffffff, alpha: 0.9 })
-            .stroke({ width: px(1.8), color: COLOR, alpha: 0.9 });
+            .stroke({ width: px(1.8), color: this.palette.structureColor, alpha: 0.9 });
           g.moveTo(bx - size * 0.55, by - size * 0.55)
             .lineTo(bx + size * 0.55, by + size * 0.55)
             .moveTo(bx - size * 0.55, by + size * 0.55)
             .lineTo(bx + size * 0.55, by - size * 0.55)
-            .stroke({ width: px(1.4), color: COLOR, alpha: 0.9 });
+            .stroke({ width: px(1.4), color: this.palette.structureColor, alpha: 0.9 });
           break;
         }
         case 'thruster': {
@@ -125,7 +130,7 @@ export class JointsLayer {
           // Kruh trysky na místě kotvy tělesa B.
           g.circle(bx, by, px(5))
             .fill({ color: enabled ? 0xf97316 : 0x94a3b8, alpha: 0.88 })
-            .stroke({ width: px(1.4), color: 0x334155, alpha: 0.65 });
+            .stroke({ width: px(1.4), color: this.palette.structureColor, alpha: 0.65 });
 
           const mag = Math.hypot(fx, fy);
           if (!enabled || mag < 1e-6) break;

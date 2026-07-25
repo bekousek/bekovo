@@ -6,9 +6,9 @@
 import { Graphics } from 'pixi.js';
 import { readBodyInto, type BodySnapshotView } from '@engine/snapshot/layout';
 import type { Body, SceneDoc } from '@engine/scene/schema';
+import type { CanvasPalette } from '@app/theme';
 import { DRAW_SCALE as S } from './bodiesLayer';
 
-const COLOR = 0x16a34a;
 /** Šipka = dráha uražená za tento čas (5 m/s → 0,75 m šipka). */
 const TIME_SCALE = 0.15;
 const MIN_SPEED = 0.05;
@@ -19,8 +19,12 @@ export class VectorsLayer {
   private scratch: BodySnapshotView = { x: 0, y: 0, angle: 0, vx: 0, vy: 0, omega: 0 };
   private lastEmpty = true;
 
-  constructor() {
+  constructor(private palette: CanvasPalette) {
     this.g.scale.set(1 / S);
+  }
+
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
   }
 
   setScene(doc: SceneDoc): void {
@@ -70,7 +74,7 @@ export class VectorsLayer {
           .moveTo(w1.x, w1.y)
           .lineTo(x1, y1)
           .lineTo(w2.x, w2.y)
-          .stroke({ width: px(2.4), color: COLOR, alpha: 0.95 });
+          .stroke({ width: px(2.4), color: this.palette.vectorVelocity, alpha: 0.95 });
       }
     }
 

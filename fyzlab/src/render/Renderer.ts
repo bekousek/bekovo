@@ -6,6 +6,7 @@ import { Application, Container } from 'pixi.js';
 import type { Camera } from '@editor/camera';
 import type { Body, SceneDoc } from '@engine/scene/schema';
 import { BODY_STRIDE, readBodyInto, type BodySnapshotView } from '@engine/snapshot/layout';
+import type { CanvasPalette } from '@app/theme';
 import { Interpolator, type Snapshot } from './Interpolator';
 import { BodiesLayer } from './layers/bodiesLayer';
 import { GridLayer } from './layers/gridLayer';
@@ -34,16 +35,16 @@ export interface RenderStats {
 export class Renderer {
   private app: Application;
   private world = new Container();
-  private grid = new GridLayer();
-  private bodies = new BodiesLayer();
-  private joints = new JointsLayer();
-  private vectors = new VectorsLayer();
+  private grid: GridLayer;
+  private bodies: BodiesLayer;
+  private joints: JointsLayer;
+  private vectors: VectorsLayer;
   private tracer = new TracerLayer();
   private fbd = new FbdLayer();
-  private rays = new RaysLayer();
+  private rays: RaysLayer;
   private fluid = new FluidLayer();
-  private instruments = new InstrumentsLayer();
-  private overlay = new OverlayLayer();
+  private instruments: InstrumentsLayer;
+  private overlay: OverlayLayer;
 
   /** Globální přepínač vektorů rychlosti (zapojuje bootstrap → uiStore). */
   vectorsEnabled: () => boolean = () => false;
@@ -72,8 +73,16 @@ export class Renderer {
   private constructor(
     app: Application,
     private readonly camera: Camera,
+    initialPalette: CanvasPalette,
   ) {
     this.app = app;
+    this.grid = new GridLayer(initialPalette);
+    this.bodies = new BodiesLayer(initialPalette);
+    this.joints = new JointsLayer(initialPalette);
+    this.vectors = new VectorsLayer(initialPalette);
+    this.rays = new RaysLayer(initialPalette);
+    this.instruments = new InstrumentsLayer(initialPalette);
+    this.overlay = new OverlayLayer(initialPalette);
     app.stage.addChild(this.grid.g);
     app.stage.addChild(this.world);
     this.world.addChild(this.bodies.container);
@@ -92,10 +101,10 @@ export class Renderer {
     this.overlaySource = src;
   }
 
-  static async create(host: HTMLElement, camera: Camera): Promise<Renderer> {
+  static async create(host: HTMLElement, camera: Camera, initialPalette: CanvasPalette): Promise<Renderer> {
     const app = new Application();
     await app.init({
-      background: '#f8fafc',
+      background: initialPalette.canvasBg,
       antialias: true,
       preference: 'webgl',
       resizeTo: host,
@@ -104,7 +113,19 @@ export class Renderer {
     });
     host.appendChild(app.canvas);
     app.canvas.style.display = 'block';
-    return new Renderer(app, camera);
+    return new Renderer(app, camera, initialPalette);
+  }
+
+  /** Přebarví celé plátno (přepnutí light/dark) — vrstvy si samy vynutí překreslení. */
+  setPalette(palette: CanvasPalette): void {
+    this.app.renderer.background.color = palette.canvasBg;
+    this.grid.setPalette(palette);
+    this.bodies.setPalette(palette);
+    this.joints.setPalette(palette);
+    this.vectors.setPalette(palette);
+    this.rays.setPalette(palette);
+    this.instruments.setPalette(palette);
+    this.overlay.setPalette(palette);
   }
 
   setScene(doc: SceneDoc, ids: readonly string[]): void {

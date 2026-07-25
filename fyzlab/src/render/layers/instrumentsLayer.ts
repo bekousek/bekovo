@@ -6,6 +6,7 @@
 import { Graphics } from 'pixi.js';
 import { rotate } from '@engine/core/math';
 import type { Instrument, SceneDoc } from '@engine/scene/schema';
+import type { CanvasPalette } from '@app/theme';
 import { DRAW_SCALE as S } from './bodiesLayer';
 
 const COLOR = 0xdc2626; // červený „laser" paprsek
@@ -16,8 +17,13 @@ export class InstrumentsLayer {
   private gates: Instrument[] = [];
   private lastKey = '';
 
-  constructor() {
+  constructor(private palette: CanvasPalette) {
     this.g.scale.set(1 / S);
+  }
+
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
+    this.lastKey = '';
   }
 
   setScene(doc: SceneDoc): void {
@@ -65,7 +71,7 @@ export class InstrumentsLayer {
         .lineTo(ax + n.x * c, ay + n.y * c)
         .moveTo(bx - n.x * c, by - n.y * c)
         .lineTo(bx + n.x * c, by + n.y * c)
-        .stroke({ width: px(3), color: 0x334155, alpha: 0.9 });
+        .stroke({ width: px(3), color: this.palette.structureColor, alpha: 0.9 });
     }
   }
 }

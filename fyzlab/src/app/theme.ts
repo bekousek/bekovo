@@ -2,40 +2,41 @@
  * Theming — design tokeny pro canvas (PixiJS) a přepínání světlého/tmavého motivu.
  *
  * UI barvy jsou definovány jako CSS proměnné v styles.css.
- * Canvas (PixiJS) potřebuje numerické hex hodnoty — ty jsou zde.
+ * Canvas (PixiJS) potřebuje numerické hex hodnoty — ty jsou zde, odvozené
+ * 1:1 od stejných tokenů (canvasBg = --surface-0, accent = --accent, …).
  */
 
 export type ThemeMode = 'light' | 'dark';
 
 /** Paleta pro PixiJS renderer — numerické 0xRRGGBB hodnoty. */
 export interface CanvasPalette {
+  /** Pozadí plátna — stejné jako --surface-0. */
   canvasBg: number;
   gridMinor: number;
   gridMajor: number;
   gridAxis: number;
+  /** Obrys těles. */
   bodyStroke: number;
-  bodyFillDefault: number;
-  fbdGravity: number;
-  fbdNormal: number;
-  fbdFriction: number;
-  fbdSpring: number;
-  fbdOther: number;
+  /** Neutrální „konstrukční" barva — klouby, koncovky přístrojů. */
+  structureColor: number;
+  /** Akcent výběru/náhledů na plátně — stejný jako --accent. */
+  accent: number;
+  /** Vektory rychlosti. */
   vectorVelocity: number;
+  /** Násobitel jasu optických paprsků (1 = beze změny; <1 ztmavuje pro kontrast na světlém pozadí). */
+  raySpectrumFactor: number;
 }
 
 const LIGHT_PALETTE: CanvasPalette = {
   canvasBg: 0xf1f5f9,
-  gridMinor: 0xcbd5e1,
-  gridMajor: 0x94a3b8,
-  gridAxis: 0x64748b,
-  bodyStroke: 0x334155,
-  bodyFillDefault: 0xdbeafe,
-  fbdGravity: 0xf43f5e,
-  fbdNormal: 0x10b981,
-  fbdFriction: 0xf59e0b,
-  fbdSpring: 0xa78bfa,
-  fbdOther: 0x64748b,
+  gridMinor: 0xe2e8f0,
+  gridMajor: 0xcbd5e1,
+  gridAxis: 0x94a3b8,
+  bodyStroke: 0x0f172a,
+  structureColor: 0x334155,
+  accent: 0x4f46e5,
   vectorVelocity: 0x3b82f6,
+  raySpectrumFactor: 0.82,
 };
 
 const DARK_PALETTE: CanvasPalette = {
@@ -44,13 +45,10 @@ const DARK_PALETTE: CanvasPalette = {
   gridMajor: 0x334155,
   gridAxis: 0x475569,
   bodyStroke: 0x94a3b8,
-  bodyFillDefault: 0x1e3a5f,
-  fbdGravity: 0xfb7185,
-  fbdNormal: 0x34d399,
-  fbdFriction: 0xfbbf24,
-  fbdSpring: 0xc4b5fd,
-  fbdOther: 0x94a3b8,
+  structureColor: 0x94a3b8,
+  accent: 0x818cf8,
   vectorVelocity: 0x60a5fa,
+  raySpectrumFactor: 1,
 };
 
 /** Vrátí canvas paletu pro daný motiv. */

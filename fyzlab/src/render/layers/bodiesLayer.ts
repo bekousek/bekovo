@@ -7,6 +7,7 @@ import { Container, Graphics } from 'pixi.js';
 import { lerp, lerpAngle, rotate } from '@engine/core/math';
 import { BODY_STRIDE } from '@engine/snapshot/layout';
 import type { Body, SceneDoc, Shape } from '@engine/scene/schema';
+import type { CanvasPalette } from '@app/theme';
 import type { Sample } from '../Interpolator';
 
 /** Musí odpovídat náhradnímu kvádru v RigidModule. */
@@ -20,20 +21,19 @@ const PLANE_HALF_DEPTH = 100;
  */
 export const DRAW_SCALE = 100;
 
-const STROKE = { width: 0.02 * DRAW_SCALE, color: 0x0f172a, alpha: 0.35 } as const;
-
-function drawShape(g: Graphics, shape: Shape, fill: string): void {
+function drawShape(g: Graphics, shape: Shape, fill: string, palette: CanvasPalette): void {
   const S = DRAW_SCALE;
+  const stroke = { width: 0.02 * S, color: palette.bodyStroke, alpha: 0.35 } as const;
   switch (shape.type) {
     case 'circle': {
       const x = shape.offset.x * S;
       const y = shape.offset.y * S;
       const r = shape.r * S;
-      g.circle(x, y, r).fill(fill).stroke(STROKE);
+      g.circle(x, y, r).fill(fill).stroke(stroke);
       // „Paprsek" — zviditelňuje rotaci kruhu.
       g.moveTo(x, y)
         .lineTo(x + r * 0.92, y)
-        .stroke({ width: Math.max(0.015 * S, r * 0.08), color: 0x0f172a, alpha: 0.3 });
+        .stroke({ width: Math.max(0.015 * S, r * 0.08), color: palette.bodyStroke, alpha: 0.3 });
       return;
     }
     case 'box': {
@@ -48,13 +48,13 @@ function drawShape(g: Graphics, shape: Shape, fill: string): void {
         const r = rotate(c, shape.angle);
         pts.push((shape.offset.x + r.x) * S, (shape.offset.y + r.y) * S);
       }
-      g.poly(pts).fill(fill).stroke(STROKE);
+      g.poly(pts).fill(fill).stroke(stroke);
       return;
     }
     case 'polygon': {
       const pts: number[] = [];
       for (const p of shape.points) pts.push(p.x * S, p.y * S);
-      g.poly(pts).fill(fill).stroke(STROKE);
+      g.poly(pts).fill(fill).stroke(stroke);
       return;
     }
     case 'plane': {
@@ -66,7 +66,7 @@ function drawShape(g: Graphics, shape: Shape, fill: string): void {
       ).fill(fill);
       g.moveTo(-PLANE_HALF_WIDTH * S, 0)
         .lineTo(PLANE_HALF_WIDTH * S, 0)
-        .stroke({ width: 0.04 * S, color: 0x334155, alpha: 0.8 });
+        .stroke({ width: 0.04 * S, color: palette.structureColor, alpha: 0.8 });
       return;
     }
   }
@@ -76,9 +76,25 @@ export class BodiesLayer {
   readonly container = new Container();
   private items: Graphics[] = [];
   private indexById = new Map<string, number>();
+  private lastDoc: SceneDoc | null = null;
+  private lastIds: readonly string[] = [];
+
+  constructor(private palette: CanvasPalette) {}
+
+  /**
+   * Přebarví obrysy těles (přepnutí light/dark). Tělesa se kreslí jen
+   * jednou (transformy pak řeší `apply`), takže je nutné je znovu sestavit;
+   * pozice ihned opraví nejbližší `apply(sample)` v téže frame.
+   */
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
+    if (this.lastDoc) this.setScene(this.lastDoc, this.lastIds);
+  }
 
   /** Přestaví display objekty podle dokumentu a pořadí idTable. */
   setScene(doc: SceneDoc, ids: readonly string[]): void {
+    this.lastDoc = doc;
+    this.lastIds = ids;
     for (const g of this.items) g.destroy();
     this.container.removeChildren();
     this.items = [];
@@ -93,7 +109,7 @@ export class BodiesLayer {
       const body = byId.get(id);
       const g = new Graphics();
       if (body) {
-        for (const shape of body.shapes) drawShape(g, shape, body.appearance.fill);
+        for (const shape of body.shapes) drawShape(g, shape, body.appearance.fill, this.palette);
       }
       g.scale.set(1 / DRAW_SCALE);
       this.container.addChild(g);
@@ -143,6 +159,6 @@ export class BodiesLayer {
     if (index === undefined) return;
     const g = this.items[index]!;
     g.clear();
-    for (const shape of body.shapes) drawShape(g, shape, body.appearance.fill);
+    for (const shape of body.shapes) drawShape(g, shape, body.appearance.fill, this.palette);
   }
 }
