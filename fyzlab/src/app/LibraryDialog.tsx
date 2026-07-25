@@ -37,6 +37,7 @@ import {
 } from '@engine/scene/defaults';
 import type { SceneDoc } from '@engine/scene/schema';
 import { t } from './i18n/t';
+import { Dialog } from './ui';
 
 interface PresetDef {
   id: string;
@@ -299,58 +300,32 @@ export function LibraryDialog({
   onClose: () => void;
 }) {
   return (
-    // Backdrop — klik zavírá dialog.
-    <div
-      className="absolute inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4 backdrop-blur-sm"
-      onClick={onClose}
-    >
-      {/* Obsah dialogu — klik se nezpropaguje na backdrop. */}
-      <div
-        className="relative w-full max-w-xl rounded-2xl bg-white shadow-2xl ring-1 ring-slate-200"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Hlavička */}
-        <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
-          <div>
-            <h2 className="text-base font-semibold text-slate-800">{t('libraryTitle')}</h2>
-            <p className="mt-0.5 text-xs text-slate-500">{t('librarySubtitle')}</p>
-          </div>
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="Zavřít"
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
-          >
-            ✕
-          </button>
-        </div>
-
-        {/* Mřížka presetů — max výška + scroll, ať se vejde i na malá zařízení. */}
-        <div className="max-h-[70vh] overflow-y-auto p-4">
-          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-            {PRESETS.map((p) => (
-              <button
-                key={p.id}
-                type="button"
-                onClick={() => {
-                  onLoad(p.makeScene());
-                  onClose();
-                }}
-                className="flex flex-col items-start gap-2 rounded-xl border border-slate-200 bg-slate-50 p-4 text-left transition hover:border-blue-300 hover:bg-blue-50 active:scale-[0.98]"
-              >
-                <span className="text-3xl leading-none">{p.icon}</span>
-                <span className="text-sm font-semibold text-slate-800">{p.title}</span>
-                <span className="text-xs leading-snug text-slate-500">{p.description}</span>
-                {p.badge && (
-                  <span className="mt-auto rounded-full bg-slate-200 px-2 py-0.5 text-[10px] font-medium text-slate-600">
-                    {p.badge}
-                  </span>
-                )}
-              </button>
-            ))}
-          </div>
+    <Dialog title={t('libraryTitle')} subtitle={t('librarySubtitle')} onClose={onClose} maxWidth="max-w-xl">
+      {/* Mřížka presetů — max výška + scroll, ať se vejde i na malá zařízení. */}
+      <div className="max-h-[70vh] overflow-y-auto p-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {PRESETS.map((p) => (
+            <button
+              key={p.id}
+              type="button"
+              onClick={() => {
+                onLoad(p.makeScene());
+                onClose();
+              }}
+              className="flex flex-col items-start gap-2 rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface-2)] p-4 text-left transition hover:border-[var(--accent)]/40 hover:bg-indigo-50 active:scale-[0.98] dark:hover:bg-indigo-950/30"
+            >
+              <span className="text-3xl leading-none">{p.icon}</span>
+              <span className="text-sm font-semibold [color:var(--text-primary)]">{p.title}</span>
+              <span className="text-xs leading-snug [color:var(--text-muted)]">{p.description}</span>
+              {p.badge && (
+                <span className="mt-auto rounded-full bg-[var(--border)] px-2 py-0.5 text-[10px] font-medium [color:var(--text-secondary)]">
+                  {p.badge}
+                </span>
+              )}
+            </button>
+          ))}
         </div>
       </div>
-    </div>
+    </Dialog>
   );
 }

@@ -11,7 +11,7 @@ import { RadialMenu } from './RadialMenu';
 import { SimControls } from './SimControls';
 import { Toolbar } from './Toolbar';
 import { TopBar } from './TopBar';
-import { Badge, Toast } from './ui';
+import { Badge, Icon, Toast } from './ui';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
@@ -183,9 +183,12 @@ export default function App() {
       <HintLine />
 
       {error && (
-        <div className="absolute inset-0 flex items-center justify-center bg-slate-900/40 p-6">
-          <div className="max-w-md rounded-[var(--radius-lg)] bg-[var(--surface-1)] p-5 [box-shadow:var(--shadow-pop)]">
-            <h2 className="mb-2 font-bold [color:var(--danger)]">{t('errorTitle')}</h2>
+        <div className="absolute inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-6 backdrop-blur-sm">
+          <div className="max-w-md rounded-[var(--radius-xl)] bg-[var(--surface-1)] p-5 [box-shadow:var(--shadow-pop)]">
+            <h2 className="mb-2 flex items-center gap-1.5 font-semibold [color:var(--danger)]">
+              <Icon name="alertTriangle" size={18} />
+              {t('errorTitle')}
+            </h2>
             <pre className="overflow-auto whitespace-pre-wrap text-[11px] [color:var(--text-secondary)]">{error}</pre>
           </div>
         </div>

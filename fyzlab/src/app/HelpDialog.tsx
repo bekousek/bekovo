@@ -2,59 +2,48 @@
  * Modální nápověda FyzLab — klávesové zkratky, tipy k nástrojům, fyzikální témata.
  * Otevírá se tlačítkem ? v horní liště.
  */
-
-const KBD = ({ children }: { children: string }) => (
-  <kbd className="inline-flex h-5 min-w-5 items-center justify-center rounded border border-slate-300 bg-slate-100 px-1 font-mono text-[10px] font-semibold text-slate-700 shadow-sm">
-    {children}
-  </kbd>
-);
+import { Dialog, Kbd, Section } from './ui';
 
 const Row = ({ keys, label }: { keys: string[]; label: string }) => (
-  <tr className="border-b border-slate-100 last:border-0">
+  <tr className="border-b border-[var(--border)] last:border-0">
     <td className="py-1.5 pr-3">
       <span className="flex gap-1">
         {keys.map((k) => (
-          <KBD key={k}>{k}</KBD>
+          <Kbd key={k}>{k}</Kbd>
         ))}
       </span>
     </td>
-    <td className="py-1.5 text-sm text-slate-600">{label}</td>
+    <td className="py-1.5 text-sm [color:var(--text-secondary)]">{label}</td>
   </tr>
 );
 
-const SectionHeader = ({ children }: { children: string }) => (
-  <h3 className="mb-2 mt-5 text-[11px] font-semibold uppercase tracking-wider text-slate-400 first:mt-0">
-    {children}
-  </h3>
+const InfoRow = ({ label, value }: { label: string; value: string }) => (
+  <tr className="border-b border-[var(--border)] last:border-0">
+    <td className="py-1.5 pr-3 text-sm font-medium [color:var(--text-muted)]">{label}</td>
+    <td className="py-1.5 text-sm [color:var(--text-secondary)]">{value}</td>
+  </tr>
 );
+
+const TOPICS = [
+  { icon: '⬇️', label: 'Volný pád', grade: '6. r.' },
+  { icon: '🎯', label: 'Šikmý vrh', grade: '7. r.' },
+  { icon: '⚖️', label: 'Páka', grade: '7. r.' },
+  { icon: '⛷️', label: 'Přeměna energie', grade: '8. r.' },
+  { icon: '🎱', label: 'Pružná srážka', grade: '9. r.' },
+  { icon: '💥', label: 'Nepružná srážka', grade: '9. r.' },
+  { icon: '🔵', label: 'Newtonova kolébka', grade: '9. r.' },
+  { icon: '🁢', label: 'Domino efekt', grade: '9. r.' },
+  { icon: '🔵', label: 'Kyvadlo', grade: 'demo' },
+  { icon: '🌀', label: 'Pružina + závaží', grade: 'demo' },
+  { icon: '⟶', label: 'Optika a laser', grade: 'optika' },
+  { icon: '💧', label: 'PBF kapalina', grade: 'fyzika' },
+];
 
 export function HelpDialog({ onClose }: { onClose: () => void }) {
   return (
-    <div
-      className="absolute inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4 backdrop-blur-sm"
-      onClick={onClose}
-    >
-      <div
-        className="relative w-full max-w-lg rounded-2xl bg-white shadow-2xl ring-1 ring-slate-200"
-        onClick={(e) => e.stopPropagation()}
-      >
-        {/* Hlavička */}
-        <div className="flex items-center justify-between border-b border-slate-100 px-5 py-4">
-          <h2 className="text-base font-semibold text-slate-800">Nápověda — FyzLab</h2>
-          <button
-            type="button"
-            onClick={onClose}
-            aria-label="Zavřít"
-            className="flex h-8 w-8 items-center justify-center rounded-lg text-slate-400 transition hover:bg-slate-100 hover:text-slate-700"
-          >
-            ✕
-          </button>
-        </div>
-
-        {/* Obsah se scrollem */}
-        <div className="max-h-[75vh] overflow-y-auto px-5 pb-6">
-          {/* Simulace */}
-          <SectionHeader>Ovládání simulace</SectionHeader>
+    <Dialog title="Nápověda — FyzLab" onClose={onClose} maxWidth="max-w-lg">
+      <div className="space-y-5 px-5 pb-6 pt-4">
+        <Section title="Ovládání simulace">
           <table className="w-full">
             <tbody>
               <Row keys={['Mezerník']} label="Spustit / Pauza" />
@@ -64,9 +53,9 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
               <Row keys={['G']} label="Přichytávání k mřížce (zapnout/vypnout)" />
             </tbody>
           </table>
+        </Section>
 
-          {/* Nástroje — tvary */}
-          <SectionHeader>Nástroje — tvary</SectionHeader>
+        <Section title="Nástroje — tvary">
           <table className="w-full">
             <tbody>
               <Row keys={['V']} label="Ruka — pohyb a výběr těles" />
@@ -76,9 +65,9 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
               <Row keys={['R']} label="Rovina — ťukni pro vodorovnou podlahu; tahem urč sklon" />
             </tbody>
           </table>
+        </Section>
 
-          {/* Nástroje — spoje */}
-          <SectionHeader>Nástroje — spoje</SectionHeader>
+        <Section title="Nástroje — spoje">
           <table className="w-full">
             <tbody>
               <Row keys={['O']} label="Osa / čep — otočný kloub" />
@@ -87,9 +76,9 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
               <Row keys={['U']} label="Tryska — tahová síla v lokálních souřadnicích" />
             </tbody>
           </table>
+        </Section>
 
-          {/* Přístroje */}
-          <SectionHeader>Přístroje a speciální nástroje</SectionHeader>
+        <Section title="Přístroje a speciální nástroje">
           <table className="w-full">
             <tbody>
               <Row keys={['T']} label="Fotobrána — měří časy průchodů těles" />
@@ -97,64 +86,42 @@ export function HelpDialog({ onClose }: { onClose: () => void }) {
               <Row keys={['W']} label="Kapalina — táhni obdélník pro PBF tekutinu" />
             </tbody>
           </table>
+        </Section>
 
-          {/* Navigace */}
-          <SectionHeader>Navigace v prostoru</SectionHeader>
+        <Section title="Navigace v prostoru">
           <table className="w-full">
             <tbody>
-              <tr className="border-b border-slate-100 last:border-0">
-                <td className="py-1.5 pr-3 text-sm font-medium text-slate-500">Zoom</td>
-                <td className="py-1.5 text-sm text-slate-600">Kolečko myši · gesto dvěma prsty</td>
-              </tr>
-              <tr className="border-b border-slate-100 last:border-0">
-                <td className="py-1.5 pr-3 text-sm font-medium text-slate-500">Posun pohledu</td>
-                <td className="py-1.5 text-sm text-slate-600">Táhni prázdné místo (nástroj Ruka) · dva prsty</td>
-              </tr>
-              <tr className="border-b border-slate-100 last:border-0">
-                <td className="py-1.5 pr-3 text-sm font-medium text-slate-500">Výběr</td>
-                <td className="py-1.5 text-sm text-slate-600">Ťukni na těleso · táhni laso přes více těles</td>
-              </tr>
+              <InfoRow label="Zoom" value="Kolečko myši · gesto dvěma prsty" />
+              <InfoRow label="Posun pohledu" value="Táhni prázdné místo (nástroj Ruka) · dva prsty" />
+              <InfoRow label="Výběr" value="Ťukni na těleso · táhni laso přes více těles" />
             </tbody>
           </table>
+        </Section>
 
-          {/* Fyzikální témata */}
-          <SectionHeader>Dostupná fyzikální témata</SectionHeader>
+        <Section title="Dostupná fyzikální témata">
           <div className="grid grid-cols-2 gap-2">
-            {[
-              { icon: '⬇️', label: 'Volný pád', grade: '6. r.' },
-              { icon: '🎯', label: 'Šikmý vrh', grade: '7. r.' },
-              { icon: '⚖️', label: 'Páka', grade: '7. r.' },
-              { icon: '⛷️', label: 'Přeměna energie', grade: '8. r.' },
-              { icon: '🎱', label: 'Pružná srážka', grade: '9. r.' },
-              { icon: '💥', label: 'Nepružná srážka', grade: '9. r.' },
-              { icon: '🔵', label: 'Newtonova kolébka', grade: '9. r.' },
-              { icon: '🁢', label: 'Domino efekt', grade: '9. r.' },
-              { icon: '🔵', label: 'Kyvadlo', grade: 'demo' },
-              { icon: '🌀', label: 'Pružina + závaží', grade: 'demo' },
-              { icon: '⟶', label: 'Optika a laser', grade: 'optika' },
-              { icon: '💧', label: 'PBF kapalina', grade: 'fyzika' },
-            ].map(({ icon, label, grade }) => (
+            {TOPICS.map(({ icon, label, grade }) => (
               <div
                 key={label}
-                className="flex items-center gap-2 rounded-lg border border-slate-100 bg-slate-50 px-3 py-2"
+                className="flex items-center gap-2 rounded-[var(--radius-md)] border border-[var(--border)] bg-[var(--surface-2)] px-3 py-2"
               >
                 <span className="text-lg leading-none">{icon}</span>
                 <div>
-                  <p className="text-sm font-medium text-slate-700">{label}</p>
-                  <p className="text-[10px] text-slate-400">{grade}</p>
+                  <p className="text-sm font-medium [color:var(--text-primary)]">{label}</p>
+                  <p className="text-[10px] [color:var(--text-muted)]">{grade}</p>
                 </div>
               </div>
             ))}
           </div>
+        </Section>
 
-          {/* Tip */}
-          <p className="mt-5 rounded-xl bg-blue-50 px-4 py-3 text-xs leading-relaxed text-blue-800">
-            <strong>Tip:</strong> V předpřipravených scénách s lekcí (ročník + téma) se zobrazí{' '}
-            <em>predikční overlay</em> — odhadni výsledek ještě před spuštěním simulace.
-            Fotobrána, graf pohybu a silový diagram pomohou ověřit tvůj odhad přesněji.
-          </p>
-        </div>
+        {/* Tip */}
+        <p className="rounded-[var(--radius-lg)] bg-indigo-50 px-4 py-3 text-xs leading-relaxed [color:var(--accent)] dark:bg-indigo-950/40">
+          <strong>Tip:</strong> V předpřipravených scénách s lekcí (ročník + téma) se zobrazí{' '}
+          <em>predikční overlay</em> — odhadni výsledek ještě před spuštěním simulace.
+          Fotobrána, graf pohybu a silový diagram pomohou ověřit tvůj odhad přesněji.
+        </p>
       </div>
-    </div>
+    </Dialog>
   );
 }

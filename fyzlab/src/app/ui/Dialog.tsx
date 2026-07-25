@@ -8,13 +8,15 @@ import { Icon } from './Icon';
 
 export interface DialogProps {
   title: string;
+  /** Volitelný podtitul pod nadpisem (např. popis knihovny scén). */
+  subtitle?: string;
   onClose: () => void;
   children: ReactNode;
   /** Maximální šířka karty; výchozí 'max-w-lg' */
   maxWidth?: string;
 }
 
-export function Dialog({ title, onClose, children, maxWidth = 'max-w-lg' }: DialogProps) {
+export function Dialog({ title, subtitle, onClose, children, maxWidth = 'max-w-lg' }: DialogProps) {
   return (
     <div
       className="absolute inset-0 z-50 flex items-center justify-center bg-slate-900/50 p-4 backdrop-blur-sm"
@@ -26,7 +28,12 @@ export function Dialog({ title, onClose, children, maxWidth = 'max-w-lg' }: Dial
       >
         {/* Hlavička */}
         <div className="flex items-center justify-between border-b border-[var(--border)] px-5 py-4">
-          <h2 className="text-[15px] font-semibold [color:var(--text-primary)]">{title}</h2>
+          <div>
+            <h2 className="text-[15px] font-semibold [color:var(--text-primary)]">{title}</h2>
+            {subtitle && (
+              <p className="mt-0.5 text-xs [color:var(--text-muted)]">{subtitle}</p>
+            )}
+          </div>
           <Button variant="icon" onClick={onClose} aria-label="Zavřít">
             <Icon name="close" size={16} />
           </Button>
