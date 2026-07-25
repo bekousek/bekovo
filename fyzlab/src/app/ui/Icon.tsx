@@ -7,7 +7,9 @@ import {
   Activity,
   ArrowUp,
   ArrowUpRight,
+  AlertTriangle,
   BookOpen,
+  Check,
   ChevronDown,
   ChevronRight,
   Circle,
@@ -85,6 +87,8 @@ const ICON_MAP = {
   // Ostatní
   snap: Grid3x3,
   close: X,
+  check: Check,
+  alertTriangle: AlertTriangle,
   sun: Sun,
   moon: Moon,
   chevronDown: ChevronDown,
