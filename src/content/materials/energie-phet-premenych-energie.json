@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-premenych-energie",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "PhET: Formy energie a jejich přeměny",
+  "type": "applet",
+  "description": "Simulace PhET umožňuje žákům sledovat přeměny mezi různými formami energie (tepelná, světelná, zvuková, elektrická, mechanická) a zákon zachování energie v systémech složených z různých zdrojů a přeměničů. Žáci mohou sestavit vlastní energetický řetězec a pozorovat tok energie graficky. Dostupná v češtině jako HTML5 bez nutnosti pluginů.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-forms-and-changes"
+}

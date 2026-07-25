@@ -1,0 +1,9 @@
+{
+  "id": "energie-geogebra-shm",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "GeoGebra: Přeměny energie v harmonickém pohybu",
+  "type": "applet",
+  "description": "GeoGebra applet animovaně zobrazuje, jak se v průběhu harmonického pohybu (kyvadlo nebo pružina) střídá kinetická a potenciální energie při zachování celkové mechanické energie. Posuvníky umožňují měnit parametry a sledovat vliv na energetické diagramy. Applet je v angličtině, grafické znázornění je však srozumitelné i bez jazykové znalosti.",
+  "url": "https://www.geogebra.org/m/bjpSQ6Q5"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "energie-beranidlo-srazky",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Pružné a nepružné beranidlo — kyvadlo a typy srážek",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus. Kyvadlo s koulí, jejíž jedna polovina je z oceli (pružná srážka) a druhá potažena plastelínou (nepružná srážka), se rozkývá ze stejné výšky a narazí do dřevěné kostky. Otočením koule lze volit typ srážky. Žáci pozorují, že pružná srážka shodí kostku snadněji než nepružná, přestože kyvadlo má v okamžiku dopadu vždy stejnou kinetickou energii. Zdvih kyvadla před úderem přímo ilustruje přeměnu potenciální energie na kinetickou, srážka pak ukazuje, kam se kinetická energie \"ztrácí\" při nepružném nárazu.",
+  "materials": [
+    "kyvadlo (závěs + koule)",
+    "kulička obalená plastelínou z jedné strany",
+    "dřevěná kostka jako terč",
+    "pravítko pro měření výchylky (volitelně)"
+  ],
+  "procedure": "Připevněte kyvadlo. Zdvihněte ho na konstantní výchylku a pusťte. Sledujte, jak daleko kostka odletí po pružné srážce (ocelová strana). Otočte kuli a opakujte — nepružná srážka (plastelína) kostku odstrčí mnohem méně.",
+  "source": {
+    "label": "VNUF Veletrh 10",
+    "url": "https://vnuf.cz/sbornik/prispevky/10-31-Koupil.html"
+  }
+}
