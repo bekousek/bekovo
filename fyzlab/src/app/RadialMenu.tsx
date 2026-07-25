@@ -7,9 +7,10 @@ import { freezableBodies } from '@editor/quickActions';
 import type { Runtime } from './bootstrap';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
+import { Icon, type IconName } from './ui';
 
 interface Item {
-  icon: string;
+  icon: IconName;
   label: string;
   run: () => void;
 }
@@ -28,15 +29,13 @@ export function RadialMenu({ runtime }: { runtime: Runtime }) {
   const freezables = freezableBodies(doc, sel);
   const willUnfreeze = freezables.length > 0 && freezables.every((b) => b.bodyType === 'static');
 
-  const items: Item[] = [
-    { icon: '🗑️', label: t('menuDelete'), run: runtime.actions.deleteSelection },
-  ];
+  const items: Item[] = [{ icon: 'delete', label: t('menuDelete'), run: runtime.actions.deleteSelection }];
   if (hasBody) {
-    items.push({ icon: '⧉', label: t('menuDuplicate'), run: runtime.actions.duplicate });
-    items.push({ icon: '⇋', label: t('menuMirror'), run: runtime.actions.mirror });
+    items.push({ icon: 'duplicate', label: t('menuDuplicate'), run: runtime.actions.duplicate });
+    items.push({ icon: 'mirror', label: t('menuMirror'), run: runtime.actions.mirror });
     if (freezables.length > 0) {
       items.push({
-        icon: willUnfreeze ? '💧' : '❄️',
+        icon: willUnfreeze ? 'unfreeze' : 'freeze',
         label: willUnfreeze ? t('menuUnfreeze') : t('menuFreeze'),
         run: runtime.actions.toggleFrozen,
       });
@@ -55,8 +54,13 @@ export function RadialMenu({ runtime }: { runtime: Runtime }) {
       onPointerDown={close}
       onContextMenu={(e) => e.preventDefault()}
     >
+      {/* Středový terč — tečka + jemný prstenec, ať nepůsobí jako artefakt. */}
       <div
-        className="absolute h-2.5 w-2.5 -translate-x-1/2 -translate-y-1/2 rounded-full bg-blue-600/60"
+        className="absolute h-8 w-8 -translate-x-1/2 -translate-y-1/2 rounded-full border border-[var(--accent)]/30"
+        style={{ left: cx, top: cy }}
+      />
+      <div
+        className="absolute h-2 w-2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[var(--accent)]"
         style={{ left: cx, top: cy }}
       />
       {items.map((it, i) => {
@@ -67,7 +71,7 @@ export function RadialMenu({ runtime }: { runtime: Runtime }) {
           <button
             key={it.label}
             type="button"
-            className="absolute flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center rounded-full bg-white shadow-lg ring-1 ring-slate-200 transition select-none hover:bg-slate-50 active:scale-95"
+            className="absolute flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-0.5 rounded-full bg-[var(--surface-1)] [box-shadow:var(--shadow-panel)] transition select-none hover:bg-[var(--surface-2)] active:scale-95"
             style={{ left: x, top: y }}
             onPointerDown={(e) => e.stopPropagation()}
             onClick={() => {
@@ -75,8 +79,8 @@ export function RadialMenu({ runtime }: { runtime: Runtime }) {
               close();
             }}
           >
-            <span className="text-lg leading-none">{it.icon}</span>
-            <span className="mt-0.5 text-[9px] leading-none text-slate-500">{it.label}</span>
+            <Icon name={it.icon} size={18} className="[color:var(--text-secondary)]" />
+            <span className="text-[9px] leading-none [color:var(--text-muted)]">{it.label}</span>
           </button>
         );
       })}

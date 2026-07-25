@@ -9,6 +9,7 @@ import type { Runtime } from './bootstrap';
 import { useEditorVersion } from './PropertiesPanel';
 import { useUiStore } from './store/uiStore';
 import { t } from './i18n/t';
+import { Panel, Section } from './ui';
 
 const fmtT = (v: number | null) => (v === null ? '—' : `${v.toFixed(4)} s`);
 
@@ -22,29 +23,46 @@ export function GatePanel({ runtime }: { runtime: Runtime }) {
   if (gates.length === 0) return null;
 
   return (
-    <div className="pointer-events-auto max-w-xs rounded-2xl bg-white/85 p-3 shadow-lg ring-1 ring-slate-200 backdrop-blur">
-      <h3 className="mb-1.5 text-[11px] font-bold tracking-wide text-slate-400 uppercase">
-        {t('gatePanelTitle')}
-      </h3>
-      <div className="space-y-1">
-        {gates.map((gate) => {
-          const r = readings[gate.id];
-          return (
-            <div key={gate.id} className="text-xs text-slate-600 tabular-nums">
-              <span className="font-semibold text-slate-700">{gate.name ?? gate.id}</span>
-              {r ? (
-                <>
-                  {' · '}
-                  {t('gateIn')} {fmtT(r.lastEnter)} · {t('gateOut')} {fmtT(r.lastExit)} ·{' '}
-                  {t('gateBlock')} {fmtT(r.lastBlock)} · ×{r.count}
-                </>
-              ) : (
-                <span className="text-slate-400"> · {t('gateNoData')}</span>
-              )}
-            </div>
-          );
-        })}
-      </div>
-    </div>
+    <Panel className="max-w-xs p-3">
+      <Section title={t('gatePanelTitle')}>
+        <div className="space-y-1.5">
+          {gates.map((gate) => {
+            const r = readings[gate.id];
+            return (
+              <div
+                key={gate.id}
+                className="rounded-[var(--radius-sm)] bg-[var(--surface-2)] px-2 py-1.5"
+              >
+                <div className="flex items-center justify-between gap-2">
+                  <span className="text-[11px] font-semibold [color:var(--text-primary)]">
+                    {gate.name ?? gate.id}
+                  </span>
+                  {r && (
+                    <span className="text-[11px] tabular-nums [color:var(--text-muted)]">
+                      ×{r.count}
+                    </span>
+                  )}
+                </div>
+                {r ? (
+                  <div className="mt-0.5 flex flex-wrap gap-x-3 gap-y-0.5 text-[11px] tabular-nums [color:var(--text-secondary)]">
+                    <span>
+                      {t('gateIn')} {fmtT(r.lastEnter)}
+                    </span>
+                    <span>
+                      {t('gateOut')} {fmtT(r.lastExit)}
+                    </span>
+                    <span>
+                      {t('gateBlock')} {fmtT(r.lastBlock)}
+                    </span>
+                  </div>
+                ) : (
+                  <p className="mt-0.5 text-[11px] [color:var(--text-muted)]">{t('gateNoData')}</p>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      </Section>
+    </Panel>
   );
 }
