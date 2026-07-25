@@ -7,27 +7,15 @@
    ============================================================ */
 
 @theme {
-  /* Základní barevná škála */
-  --color-accent: #4f46e5;
-  --color-accent-hover: #4338ca;
-  --color-accent-contrast: #ffffff;
-
-  --color-success: #10b981;
-  --color-danger: #f43f5e;
-  --color-warning: #f59e0b;
-
-  /* Rádiusy */
+  /* Rádiusy — používané všude přes rounded-[var(--radius-*)] */
   --radius-sm: 6px;
   --radius-md: 10px;
   --radius-lg: 14px;
   --radius-xl: 18px;
 
-  /* Typografická škála */
-  --text-caption: 10px;
-  --text-footnote: 11px;
+  /* Základní velikost textu (viz body níže); zbytek škály se zapisuje
+     přímo jako text-[Npx] u jednotlivých prvků. */
   --text-body: 13px;
-  --text-label: 12px;
-  --text-title: 15px;
 }
 
 /* ── Světlá varianta (výchozí) ── */
@@ -40,7 +28,7 @@
   /* Text */
   --text-primary: #0f172a;
   --text-secondary: #475569;
-  --text-muted: #94a3b8;
+  --text-muted: #64748b;   /* na --surface-1 ≈4,8:1 (WCAG AA) */
 
   /* Okraje */
   --border: #e2e8f0;
@@ -51,30 +39,21 @@
   --accent-hover: #4338ca;
   --accent-contrast: #ffffff;
 
-  /* Sémantické */
-  --success: #10b981;
-  --danger: #f43f5e;
-  --warning: #f59e0b;
+  /* Sémantické — ztmaveno oproti běžným 500 odstínům, ať jako text na
+     --surface-1 splní WCAG AA (4,5:1); jako pozadí/ikony se nepoužívají. */
+  --success: #047857;
+  --danger: #e11d48;
+  --warning: #b45309;
 
   /* Stíny */
   --shadow-panel: 0 1px 3px 0 rgb(0 0 0 / 0.08), 0 0 0 1px var(--border);
   --shadow-pop: 0 8px 24px -4px rgb(0 0 0 / 0.12), 0 0 0 1px var(--border);
 
-  /* Plátno (PixiJS) */
-  --canvas-bg: #f1f5f9;
-  --grid-minor: #cbd5e1;
-  --grid-major: #94a3b8;
-  --grid-axis: #64748b;
-  --body-stroke: #334155;
-  --body-fill-default: #dbeafe;
-
-  /* FBD / vektory */
-  --fbd-force-gravity: #f43f5e;
-  --fbd-force-normal: #10b981;
-  --fbd-force-friction: #f59e0b;
-  --fbd-force-spring: #a78bfa;
-  --fbd-force-other: #64748b;
-  --vector-velocity: #3b82f6;
+  /* Odsazení okrajových prvků od fyzické hrany obrazovky (notch/gesture bar). */
+  --safe-top: max(1rem, env(safe-area-inset-top));
+  --safe-right: max(1rem, env(safe-area-inset-right));
+  --safe-bottom: max(1rem, env(safe-area-inset-bottom));
+  --safe-left: max(1rem, env(safe-area-inset-left));
 }
 
 /* ── Tmavá varianta ── */
@@ -87,7 +66,7 @@
   /* Text */
   --text-primary: #f1f5f9;
   --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-muted: #8593a8;   /* na --surface-1 ≈4,7:1 (WCAG AA) */
 
   /* Okraje */
   --border: #334155;
@@ -98,25 +77,15 @@
   --accent-hover: #a5b4fc;
   --accent-contrast: #1e1b4b;
 
+  /* Sémantické — na tmavém pozadí čitelné i ve výchozích/lehce zesvětlených
+     odstínech (opak světlého režimu — tam se tmavily). */
+  --success: #10b981;
+  --danger: #fb7185;
+  --warning: #f59e0b;
+
   /* Stíny — výraznější na tmavém */
   --shadow-panel: 0 1px 3px 0 rgb(0 0 0 / 0.25), 0 0 0 1px var(--border);
   --shadow-pop: 0 8px 24px -4px rgb(0 0 0 / 0.40), 0 0 0 1px var(--border);
-
-  /* Plátno (PixiJS) */
-  --canvas-bg: #0f172a;
-  --grid-minor: #1e293b;
-  --grid-major: #334155;
-  --grid-axis: #475569;
-  --body-stroke: #94a3b8;
-  --body-fill-default: #1e3a5f;
-
-  /* FBD / vektory — stejné sémantické barvy, čitelné na tmavém */
-  --fbd-force-gravity: #fb7185;
-  --fbd-force-normal: #34d399;
-  --fbd-force-friction: #fbbf24;
-  --fbd-force-spring: #c4b5fd;
-  --fbd-force-other: #94a3b8;
-  --vector-velocity: #60a5fa;
 }
 
 /* ============================================================
@@ -138,4 +107,18 @@ body {
   color: var(--text-primary);
   background: var(--surface-0);
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Respektovat systémové "omezit animace" — přechody/animace téměř okamžité
+   (ne přesně 0, aby prohlížeč pořád vystřelil transitionend tam, kde na něj
+   něco čeká). */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

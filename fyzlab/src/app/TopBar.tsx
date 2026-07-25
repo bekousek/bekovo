@@ -59,7 +59,7 @@ export function TopBar({
   };
 
   return (
-    <Panel className="flex items-center gap-0.5 p-1.5 backdrop-blur-sm">
+    <Panel className="flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-center gap-0.5 p-1.5 backdrop-blur-sm">
       <input
         ref={fileRef}
         type="file"

@@ -851,7 +851,7 @@ export function PropertiesPanel({ runtime }: { runtime: Runtime }) {
   }
 
   return (
-    <Panel className="max-h-[72vh] w-60 space-y-3 overflow-y-auto p-3">
+    <Panel className="max-h-[72vh] w-60 max-w-[calc(100vw-2rem)] space-y-3 overflow-y-auto p-3">
       {content}
     </Panel>
   );

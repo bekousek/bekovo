@@ -25,7 +25,7 @@ export function SimControls({ controller }: { controller: EditorController }) {
   const canRedo = useUiStore((s) => s.canRedo);
 
   return (
-    <Panel className="flex items-center gap-1.5 p-2 backdrop-blur-sm">
+    <Panel className="flex max-w-[calc(100vw-2rem)] flex-wrap items-center justify-center gap-1.5 p-2 backdrop-blur-sm">
       <Button
         variant="secondary"
         onClick={() => controller.undo()}
@@ -90,7 +90,10 @@ export function SimControls({ controller }: { controller: EditorController }) {
             setSpeed(snapped);
             controller.setSpeed(snapped);
           }}
-          className="h-11 w-28 accent-[var(--accent)] sm:w-36"
+          className={
+            'h-11 w-28 rounded-[var(--radius-sm)] accent-[var(--accent)] sm:w-36 ' +
+            'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]'
+          }
           aria-label={t('speed')}
         />
         <span className="w-12 tabular-nums [color:var(--text-muted)]">{speed.toFixed(speed < 1 ? 2 : 1)}×</span>
