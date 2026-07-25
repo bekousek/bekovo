@@ -71,7 +71,7 @@ export function RadialMenu({ runtime }: { runtime: Runtime }) {
           <button
             key={it.label}
             type="button"
-            className="absolute flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-0.5 rounded-full bg-[var(--surface-1)] [box-shadow:var(--shadow-panel)] transition select-none hover:bg-[var(--surface-2)] active:scale-95"
+            className="absolute flex h-14 w-14 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-0.5 rounded-full bg-[var(--surface-1)] [box-shadow:var(--shadow-panel)] transition select-none hover:bg-[var(--surface-2)] active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             style={{ left: x, top: y }}
             onPointerDown={(e) => e.stopPropagation()}
             onClick={() => {

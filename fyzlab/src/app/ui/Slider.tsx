@@ -49,7 +49,10 @@ export function Slider({ label, value, min, max, step, onTransient, onCommit }: 
             startRef.current = null;
           }
         }}
-        className="mt-1 w-full accent-[var(--accent)]"
+        className={
+          'mt-1 w-full accent-[var(--accent)] rounded-[var(--radius-sm)] ' +
+          'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]'
+        }
         aria-label={label}
       />
     </label>

@@ -312,7 +312,7 @@ export function LibraryDialog({
                 onLoad(p.makeScene());
                 onClose();
               }}
-              className="flex flex-col items-start gap-2 rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface-2)] p-4 text-left transition hover:border-[var(--accent)]/40 hover:bg-indigo-50 active:scale-[0.98] dark:hover:bg-indigo-950/30"
+              className="flex flex-col items-start gap-2 rounded-[var(--radius-lg)] border border-[var(--border)] bg-[var(--surface-2)] p-4 text-left transition hover:border-[var(--accent)]/40 hover:bg-indigo-50 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] dark:hover:bg-indigo-950/30"
             >
               <span className="text-3xl leading-none">{p.icon}</span>
               <span className="text-sm font-semibold [color:var(--text-primary)]">{p.title}</span>

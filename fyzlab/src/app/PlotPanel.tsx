@@ -118,7 +118,7 @@ export function PlotPanel({ runtime }: { runtime: Runtime }) {
   };
 
   return (
-    <Panel>
+    <Panel className="max-w-[calc(100vw-2rem)]">
       <PanelHeader title={t('plotPanelTitle')} onClose={handleClose} />
       <div className="p-3">
         {/* Přepínač série */}

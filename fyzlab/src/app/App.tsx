@@ -36,7 +36,6 @@ function HintLine() {
   const activeToolId = useUiStore((s) => s.activeToolId);
   return (
     <p className="pointer-events-none absolute bottom-24 left-1/2 w-full max-w-xl -translate-x-1/2 text-center text-[11px] [color:var(--text-secondary)] sm:bottom-20">
-
       {t(HINT_BY_TOOL[activeToolId] ?? 'hintDrag')}
     </p>
   );
@@ -104,23 +103,23 @@ export default function App() {
       {/* Canvas host — touch-action:none, gesta řeší PointerManager. */}
       <div ref={hostRef} className="absolute inset-0 touch-none" />
 
-      <header className="pointer-events-none absolute left-4 top-4 flex items-baseline gap-2">
+      <header className="pointer-events-none absolute left-[var(--safe-left)] top-[var(--safe-top)] flex items-baseline gap-2">
         <h1 className="text-[15px] font-black tracking-tight [color:var(--text-primary)]">{t('appName')}</h1>
         <span className="text-[12px] [color:var(--text-muted)]">{t('tagline')}</span>
       </header>
 
-      <div className="absolute right-4 top-4">
+      <div className="absolute right-[var(--safe-right)] top-[var(--safe-top)]">
         <StatsBadge />
       </div>
 
       {runtime && (
-        <div className="absolute left-1/2 top-4 -translate-x-1/2">
+        <div className="absolute left-1/2 top-[var(--safe-top)] -translate-x-1/2">
           <TopBar runtime={runtime} onLibrary={() => setShowLibrary(true)} onHelp={() => setShowHelp(true)} />
         </div>
       )}
 
       {runtime && (
-        <div className="absolute left-4 top-1/2 -translate-y-1/2">
+        <div className="absolute left-[var(--safe-left)] top-1/2 -translate-y-1/2">
           <Toolbar
             onSelect={(id) => runtime.tools.setActive(id)}
             onToggleSnap={() => {
@@ -132,19 +131,19 @@ export default function App() {
       )}
 
       {runtime && (
-        <div className="absolute right-4 top-14">
+        <div className="absolute right-[var(--safe-right)] top-14">
           <PropertiesPanel runtime={runtime} />
         </div>
       )}
 
       {runtime && (
-        <div className="absolute bottom-28 left-4 sm:bottom-24">
+        <div className="absolute bottom-28 left-[var(--safe-left)] sm:bottom-24">
           <GatePanel runtime={runtime} />
         </div>
       )}
 
       {runtime && (
-        <div className="absolute bottom-28 right-4 flex flex-col items-end gap-2 sm:bottom-24">
+        <div className="absolute bottom-28 right-[var(--safe-right)] flex flex-col items-end gap-2 sm:bottom-24">
           <FbdPanel runtime={runtime} />
           <PlotPanel runtime={runtime} />
         </div>
@@ -168,7 +167,7 @@ export default function App() {
 
       <AppToast />
 
-      <div className="absolute inset-x-0 bottom-4 flex justify-center px-4">
+      <div className="absolute inset-x-0 bottom-[var(--safe-bottom)] flex justify-center px-4">
         {runtime ? (
           <SimControls controller={runtime.controller} />
         ) : (

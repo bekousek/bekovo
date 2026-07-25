@@ -193,7 +193,7 @@ export function PredictionOverlay({ runtime }: { runtime: Runtime }) {
                 key={ch.id}
                 type="button"
                 onClick={() => useUiStore.getState().setPredictionChosenId(ch.id)}
-                className={`rounded-[var(--radius-lg)] px-3 py-2 text-sm transition select-none active:scale-95 ${
+                className={`rounded-[var(--radius-lg)] px-3 py-2 text-sm transition select-none active:scale-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] ${
                   predictionChosenId === ch.id
                     ? 'bg-[var(--accent)] text-[var(--accent-contrast)] shadow'
                     : 'bg-[var(--surface-2)] [color:var(--text-secondary)] hover:bg-[var(--border)]'
@@ -211,7 +211,7 @@ export function PredictionOverlay({ runtime }: { runtime: Runtime }) {
             <button
               type="button"
               onClick={() => setShowHint((v) => !v)}
-              className="flex items-center gap-1 text-xs [color:var(--text-muted)] hover:[color:var(--text-secondary)]"
+              className="flex items-center gap-1 rounded-[var(--radius-sm)] text-xs [color:var(--text-muted)] hover:[color:var(--text-secondary)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)]"
             >
               <Icon name={showHint ? 'chevronDown' : 'chevronRight'} size={12} />
               {t('predHint')}

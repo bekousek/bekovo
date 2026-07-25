@@ -44,7 +44,7 @@ export function Toolbar({
   const snapEnabled = useUiStore((s) => s.snapEnabled);
 
   return (
-    <Panel className="flex flex-col gap-0.5 p-1.5 backdrop-blur-sm">
+    <Panel className="flex max-h-[calc(100vh-2rem)] flex-col gap-0.5 overflow-y-auto p-1.5 backdrop-blur-sm">
       {SHAPE_TOOLS.map((tool) => (
         <Button
           key={tool.id}
