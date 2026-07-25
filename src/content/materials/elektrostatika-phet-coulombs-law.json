@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-coulombs-law",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: Coulombův zákon",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET (University of Colorado) umožňující zkoumat silové působení mezi dvěma nabitými tělesy. Žáci mění velikost nábojů a vzdálenost mezi nimi a sledují, jak se mění přitažlivá nebo odpudivá síla. Simulace je dostupná v češtině a demonstruje Coulombův zákon bez potřeby speciálního vybavení.",
+  "url": "https://phet.colorado.edu/cs/simulations/coulombs-law"
+}

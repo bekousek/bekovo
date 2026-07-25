@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-pet-motor",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrostatický motor z PET lahve",
+  "type": "qualitative",
+  "description": "Demonstrační pokus učitele. PET lahev nasazená otočně na hrotu elektrody se roztočí silou elektrostatického pole generovaného dvěma hřebeny (kovovými hroty) připojenými na výstupy Wimshurstova stroje. Pokus přesvědčivě ukazuje, že elektrická síla dokáže konat mechanickou práci: stejné náboje se odpuzují a otáčí lahev. Vyžaduje Wimshurstův nebo Van de Graaffův stroj — pouze demonstrace učitelem.",
+  "materials": [
+    "PET lahev s dírkami na dně pro nasazení na kovový hrot",
+    "dva hřebeny z kovových tyčí s hroty na izolačních stojanech",
+    "Wimshurstův nebo jiný indukční stroj (pouze pro učitele)"
+  ],
+  "procedure": "PET lahev se volně nasadí na kovový hrot; hřebeny se umístí po obou stranách lahve a napojí na výstupy vysokonapěťového stroje; po spuštění se lahev roztáčí elektrostatickou silou odpuzování.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/PETMOTOR/POPIS.HTM"
+  }
+}

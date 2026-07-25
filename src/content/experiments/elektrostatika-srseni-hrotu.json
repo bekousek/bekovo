@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-srseni-hrotu",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Sršení v okolí hrotu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus předváděný učitelem. V blízkosti hrotu silně nabitého vodiče je hustota náboje největší, dochází k ionizaci vzduchu a ke koronovému výboji. Proud nabitých iontů (iontový vítr) lze pozorovat jako odchylování plamene svíčky od hrotu. Pokus propojuje základní pojem elektrického náboje s praktickou aplikací hromosvodu a vyžaduje demonstraci učitelem kvůli použití vysokého napětí.",
+  "materials": [
+    "Wimshurstův stroj nebo Van de Graaffův generátor (pouze pro učitele)",
+    "kovový hrot nebo jehla na izolačním stojanu",
+    "svíčka"
+  ],
+  "procedure": "Hrot zapojený na výstup Wimshurstova stroje se umístí několik centimetrů od hořící svíčky; plamen se odchyluje od hrotu vlivem iontového větru způsobeného koronovým výbojem.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/759/srseni-v-okoli-hrotu"
+  }
+}

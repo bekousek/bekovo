@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-neviditelne-ruce",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Neviditelné ruce elektrického pole",
+  "type": "qualitative",
+  "description": "Sada pěti netradičních pokusů se statickou elektřinou s mimořádně jednoduchými pomůckami (autorka M. Černá). Zahrnuje chování papírové kancelářské sponky zavěšené na nitce v blízkosti nabitého tělesa, elektrostatickou indukci papírového lístku na plechovku přiblíženou k nabité tyči a další ukázky elektrické přitažlivosti a odpudivosti. Ke každému pokusu jsou připraveny otázky aktivizující badatelský přístup žáků. Lze provádět jako žákovský i demonstrační pokus.",
+  "materials": [
+    "papírová kancelářská spona",
+    "nit",
+    "prázdná plechovka",
+    "papírový lístek",
+    "nabitá ebonitová nebo PVC tyčka",
+    "vlněná látka"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/02-07-Cerna.html"
+  }
+}
