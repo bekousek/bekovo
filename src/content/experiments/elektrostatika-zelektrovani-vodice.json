@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-zelektrovani-vodice",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Zelektrování vodiče třením",
+  "type": "qualitative",
+  "description": "Žákovský nebo demonstrační pokus ukazující, že třením lze nabít nejen izolant, ale i vodič izolovaný od okolí. Kovová deska se třením o polystyren nabije kladně, polystyren záporně — vždy vznikají stejně veliké náboje opačného znaménka. Náboj na kovovém vodiči se rovnoměrně rozloží po celém povrchu, což lze ověřit elektroskopem přiloženým na různá místa. Pokus přímo ilustruje zákon zachování náboje a chování náboje na vodiči.",
+  "materials": [
+    "kovová deska (plech) na izolační podložce",
+    "deska z polystyrénu",
+    "elektroskop nebo elektropérko"
+  ],
+  "procedure": "Kovová deska se třením otírá o polystyren; deska se poté přiblíží elektroskopem na různých místech povrchu — odchýlení plátků potvrdí rovnoměrné rozložení náboje po celém povrchu vodiče.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/752/zelektrovani-vodice-trenim"
+  }
+}

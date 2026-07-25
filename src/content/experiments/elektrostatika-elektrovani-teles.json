@@ -1,0 +1,17 @@
+{
+  "id": "elektrostatika-elektrovani-teles",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrování těles a nové materiály",
+  "type": "qualitative",
+  "description": "Demonstrační sada pokusů s elektronickým elektroskopem, který indikuje kladný náboj červenou LED a záporný náboj zelenou LED — žáci okamžitě vidí, jaké znaménko náboje předmět nese. Jako zdroje náboje slouží plastové tyčky zasunuté do kovových trubek. Moderní plastové materiály jsou ideální pro elektrostatiku za libovolného počasí; pokus umožňuje roztřídění materiálů podle triboelektrické řady. Pokusy navrhl J. Hubeňák (KDF MFF UK).",
+  "materials": [
+    "elektronický elektroskop s LED indikací (červená = kladný, zelená = záporný náboj)",
+    "plastové tyčky v kovových trubkách",
+    "vzorky tkanin: vlna, hedvábí, polyester"
+  ],
+  "source": {
+    "label": "VNUF 2007",
+    "url": "https://vnuf.cz/sbornik/prispevky/12-03-Hubenak.html"
+  }
+}

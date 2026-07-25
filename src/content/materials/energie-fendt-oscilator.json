@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-oscilator",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Walter Fendt: Pružinový oscilátor — přeměny energie v grafu",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta zobrazuje v reálném čase průběh kinetické a potenciální energie pružinového oscilátoru. Žáci nastavují tuhost pružiny, hmotnost závaží a amplitudu a v grafu přímo vidí, jak se kinetická energie přeměňuje na potenciální a zpět — přičemž celková mechanická energie zůstává konstantní. Celý popis je v češtině.",
+  "url": "https://www.walter-fendt.de/html5/phcz/springpendulum_cz.htm"
+}

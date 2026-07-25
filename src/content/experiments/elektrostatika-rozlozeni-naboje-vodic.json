@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-rozlozeni-naboje-vodic",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Rozložení náboje na vodiči a izolantu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus srovnávající chování náboje na vodiči (plechovka) a izolantu (plastová kanalizační trubka). Na plechovce se náboj rovnoměrně rozloží po celém vnějším povrchu; uvnitř dutého vodiče náboj není. Na plastové trubce (izolantu) náboj zůstane pouze na místě nabití. Přítomnost náboje v různých místech se detekuje alobalovými lístky upevněnými na povrchu obou předmětů. Pokus přehledně vizualizuje klíčový rozdíl mezi vodičem a izolantem.",
+  "materials": [
+    "plechovka na izolační podložce",
+    "kanalizační PVC trubka podobného tvaru a velikosti",
+    "alobalové lístky přilepené na různých místech",
+    "ebonitová tyč nebo PVC tyčka",
+    "vlněná látka"
+  ],
+  "procedure": "Oba předměty opatříme lístky z alobalu; nabijeme plechovku i trubku třením nebo dotykem s nabitou tyčí; sledujeme, kde se lístky odchýlí — na plechovce všude, na plastové trubce jen v místě nabití.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1831/rozlozeni-naboje-na-vodici-a-izolantu"
+  }
+}

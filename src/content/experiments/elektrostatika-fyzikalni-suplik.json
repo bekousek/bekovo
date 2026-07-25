@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-fyzikalni-suplik",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Z fyzikálního šuplíku 003 — úvod do elektrického náboje",
+  "type": "qualitative",
+  "description": "Sada demonstračních pokusů pro zavedení pojmů elektrická síla a elektrický náboj navržená přímo pro ZŠ (V. Piskač). Jako bezpečný a spolehlivý zdroj náboje slouží piezozapalovač z plynového zapalovače — snadno dostupný a bezpečný. Obsahuje popis výroby demonstračního elektroskopu vlastní výroby a základní sadu pokusů se statickou elektřinou. Materiály a postupy jsou záměrně jednoduché a opakovatelné v každém školním kabinetu.",
+  "materials": [
+    "piezozapalovač z plynového zapalovače",
+    "demonstrační elektroskop",
+    "PVC trubka nebo skleněná tyčka",
+    "vzorky tkanin"
+  ],
+  "source": {
+    "label": "VNUF 2013",
+    "url": "https://vnuf.cz/sbornik/prispevky/18-24-Piskac.html"
+  }
+}

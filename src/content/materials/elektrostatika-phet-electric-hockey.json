@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-electric-hockey",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: Elektrický hokej",
+  "type": "applet",
+  "description": "Herní simulace PhET, ve které žáci umisťují elektrické náboje na hřišti tak, aby elektrická síla dostřelila puk do branky. Hravou formou procvičuje pochopení přitažlivosti a odpudivosti elektrických nábojů a závislosti síly na vzdálenosti a velikosti náboje. Dostupné v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/electric-hockey"
+}

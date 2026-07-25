@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-efield",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "PhET: Elektrické pole",
+  "type": "applet",
+  "description": "Simulace PhET zobrazující vektorové elektrické pole generované sítí nábojů. Žáci interaktivně přidávají kladné a záporné náboje a sledují výsledné elektrické pole pomocí šipek nebo siločar. Vhodné jako vizualizace pojmu elektrické pole po výkladu elektrického náboje. Dostupné v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/efield"
+}

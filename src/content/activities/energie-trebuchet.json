@@ -1,0 +1,12 @@
+{
+  "id": "energie-trebuchet",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Gravitační katapult (trebuchet) — přeměna potenciální energie na kinetickou",
+  "type": "other",
+  "description": "Žáci nebo učitel sestaví jednoduchý trebuchet (typ středověkého katapultu), kde závaží při pádu uvolní svou potenciální energii, jež se přeměňuje na kinetickou energii vystřeleného projektilu. Příspěvek VNUF ukazuje, proč je gravitační katapult účinnější než pružinový: závaží odevzdává energii postupně a s větší účinností než pružina. Aktivita propojuje historii techniky s fyzikálními principy (zákon zachování energie, účinnost) a je realizovatelná z levných materiálů (dřevěné lišty, šroub jako závaží).",
+  "source": {
+    "label": "VNUF Veletrh 8",
+    "url": "http://vnuf.cz/sbornik/prispevky/08-11-Bartos.html"
+  }
+}

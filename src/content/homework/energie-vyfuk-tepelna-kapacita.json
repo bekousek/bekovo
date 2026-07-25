@@ -1,0 +1,11 @@
+{
+  "id": "energie-vyfuk-tepelna-kapacita",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Výfuk r11/s5: Měrná tepelná kapacita brambor — domácí kalorimetrický pokus",
+  "description": "Žáci doma kalorimetrickou metodou změří měrnou tepelnou kapacitu bramboru: horkou vodu smísí s kouskem brambory o známé hmotnosti a teplotě, sledují vyrovnání teplot a z kalorimetrické rovnice (zákon zachování energie při přenosu tepla) vypočítají hledanou veličinu. Výsledky se zapisují do protokolu a odevzdávají v rámci korespondenčního semináře Výfuk (série trvá cca 3–4 týdny). Jde o domácí experiment proveditelný s kuchyňskými pomůckami, který přirozeně propojuje zákon zachování energie s termodynamikou.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/"
+  }
+}

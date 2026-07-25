@@ -1,0 +1,19 @@
+{
+  "id": "energie-vrtani-dreva",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Změna vnitřní energie konáním práce: Vrtání do dřeva",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus (s možností žákovského zapojení). Ruční nebo elektrická vrtačka vrtá do dřevěného špalíku; třením vzniká teplo patrné na zahřátém vrtáku i okolí vrtu. Mechanická práce otáčení vrtáku se přeměňuje na vnitřní energii soustavy. Žáci mohou sami vyzkoušet ruční vrtání a přímo pocítit zahřívání nástroje, což propojuje fyzikální koncept přeměny energie s každodenní zkušeností. Navazuje na pokusy 1587–1591 sbírky fyzikalnipokusy.cz.",
+  "materials": [
+    "ruční vrtačka nebo akuvrtačka",
+    "dřevěný špalík",
+    "svěrák nebo pevná podložka",
+    "termometr nebo termokamera (volitelně)"
+  ],
+  "procedure": "Upevněte špalík do svěráku. Vrtejte bez přerušení několik sekund. Okamžitě přiložte prst na vrták a na místo vrtu — oba budou znatelně teplejší. Porovnejte se špalíkem, do kterého se nevrtalo.",
+  "source": {
+    "label": "fyzikalnipokusy.cz",
+    "url": "http://fyzikalnipokusy.cz/1588/zmena-vnitrni-energie-konanim-prace:-vrtani-do-dreva"
+  }
+}
