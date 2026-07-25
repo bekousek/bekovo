@@ -29,6 +29,7 @@ import { decodeSceneParam, sceneParamFromHash } from '@share/urlCodec';
 import { SimWorkerClient } from '@worker/SimWorkerClient';
 import type { SceneDoc } from '@engine/scene/schema';
 import { useUiStore } from './store/uiStore';
+import { getCanvasPalette } from './theme';
 import { t } from './i18n/t';
 
 export interface Runtime {
@@ -72,7 +73,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
 
   const camera = new Camera(initialDoc.camera.center, initialDoc.camera.metersPerScreenH);
   const snap = new SnapService(camera);
-  const renderer = await Renderer.create(host, camera);
+  const renderer = await Renderer.create(host, camera, getCanvasPalette(useUiStore.getState().theme));
 
   renderer.onReleaseBuffer = (buffer) => client.returnBuffer(buffer);
   renderer.onStats = (stats) => useUiStore.getState().setStats(stats);
@@ -281,6 +282,10 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     const ui = useUiStore.getState();
     return { bodyId: ui.fbdBodyId, forces: ui.fbdForces };
   };
+  // Přepnutí motivu (TopBar) → přebarvit plátno.
+  const unsubscribeTheme = useUiStore.subscribe((state, prevState) => {
+    if (state.theme !== prevState.theme) renderer.setPalette(getCanvasPalette(state.theme));
+  });
 
   await client.init(initialDoc);
 
@@ -324,6 +329,7 @@ export async function bootstrap(host: HTMLElement): Promise<Runtime> {
     dispose: () => {
       removeDrop();
       removeShortcuts();
+      unsubscribeTheme();
       pointer.dispose();
       renderer.dispose();
       client.dispose();

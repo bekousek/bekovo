@@ -6,10 +6,10 @@
 import { Graphics } from 'pixi.js';
 import { rotate } from '@engine/core/math';
 import type { Shape } from '@engine/scene/schema';
+import type { CanvasPalette } from '@app/theme';
 import { DRAW_SCALE as S } from './bodiesLayer';
 import type { OverlaySource } from './overlayTypes';
 
-const ACCENT = 0x2563eb;
 const PLANE_HALF_WIDTH = 2000;
 
 function strokeShapeOutline(
@@ -17,6 +17,7 @@ function strokeShapeOutline(
   shape: Shape,
   pose: { x: number; y: number; angle: number },
   width: number,
+  accent: number,
 ): void {
   const at = (lx: number, ly: number) => {
     const r = rotate({ x: lx, y: ly }, pose.angle);
@@ -25,7 +26,7 @@ function strokeShapeOutline(
   switch (shape.type) {
     case 'circle': {
       const c = at(shape.offset.x, shape.offset.y);
-      g.circle(c.x, c.y, shape.r * S).stroke({ width, color: ACCENT, alpha: 0.95 });
+      g.circle(c.x, c.y, shape.r * S).stroke({ width, color: accent, alpha: 0.95 });
       return;
     }
     case 'box': {
@@ -40,7 +41,7 @@ function strokeShapeOutline(
         const p = at(shape.offset.x + local.x, shape.offset.y + local.y);
         pts.push(p.x, p.y);
       }
-      g.poly(pts).stroke({ width, color: ACCENT, alpha: 0.95 });
+      g.poly(pts).stroke({ width, color: accent, alpha: 0.95 });
       return;
     }
     case 'polygon': {
@@ -49,13 +50,13 @@ function strokeShapeOutline(
         const p = at(lp.x, lp.y);
         pts.push(p.x, p.y);
       }
-      g.poly(pts).stroke({ width, color: ACCENT, alpha: 0.95 });
+      g.poly(pts).stroke({ width, color: accent, alpha: 0.95 });
       return;
     }
     case 'plane': {
       const a = at(-PLANE_HALF_WIDTH, 0);
       const b = at(PLANE_HALF_WIDTH, 0);
-      g.moveTo(a.x, a.y).lineTo(b.x, b.y).stroke({ width, color: ACCENT, alpha: 0.95 });
+      g.moveTo(a.x, a.y).lineTo(b.x, b.y).stroke({ width, color: accent, alpha: 0.95 });
       return;
     }
   }
@@ -65,8 +66,13 @@ export class OverlayLayer {
   readonly g = new Graphics();
   private lastKey = '';
 
-  constructor() {
+  constructor(private palette: CanvasPalette) {
     this.g.scale.set(1 / S);
+  }
+
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
+    this.lastKey = '';
   }
 
   draw(src: OverlaySource, pixelsPerMeter: number): void {
@@ -75,6 +81,7 @@ export class OverlayLayer {
     this.lastKey = key;
 
     const g = this.g;
+    const ACCENT = this.palette.accent;
     g.clear();
 
     const lw = (1.5 / pixelsPerMeter) * S; // ≈1,5 px nezávisle na zoomu
@@ -119,7 +126,7 @@ export class OverlayLayer {
         case 'line':
           g.moveTo(p.a.x * S, p.a.y * S)
             .lineTo(p.b.x * S, p.b.y * S)
-            .stroke({ width: lw * 1.4, color: 0x475569, alpha: 0.8 });
+            .stroke({ width: lw * 1.4, color: this.palette.structureColor, alpha: 0.8 });
           break;
       }
     }
@@ -133,7 +140,7 @@ export class OverlayLayer {
 
     for (const { body, pose } of src.selectedBodies()) {
       for (const shape of body.shapes) {
-        strokeShapeOutline(g, shape, pose, lw * 1.3);
+        strokeShapeOutline(g, shape, pose, lw * 1.3, ACCENT);
       }
     }
 

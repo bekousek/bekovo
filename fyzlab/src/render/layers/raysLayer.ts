@@ -5,13 +5,14 @@
  * Barva závisí na vlnové délce (λ→RGB), intenzita řídí průhlednost.
  * Vrstva se kreslí do world containeru (y-up, metry → pixely řeší world.scale).
  *
- * Blending: normální (ne additivní). Plátno má světlé pozadí (#f8fafc) a
+ * Blending: normální (ne additivní). V light motivu má plátno světlé pozadí a
  * additivní blend by paprsky „rozsvítil do běla" (bílá + barva = bílá), takže
- * by byly neviditelné. Normální blend s barvou spektra je na světlém pozadí
- * čitelný.
+ * by byly neviditelné. Normální blend s (mírně ztmavenou) barvou spektra je
+ * na světlém pozadí čitelný; v dark motivu se ztmavení vypíná (viz palette).
  */
 import { Graphics } from 'pixi.js';
 import type { RaySegment } from '@engine/optics/OpticsModule';
+import type { CanvasPalette } from '@app/theme';
 
 /** Převod vlnové délky [nm] na RGB (0–255). Aproximace CIE 1931. */
 function wavelengthToRgb(nm: number): { r: number; g: number; b: number } {
@@ -59,8 +60,12 @@ const RAY_WIDTH_M = 0.012; // tloušťka čáry v metrech (viditelná při libov
 export class RaysLayer {
   readonly g: Graphics;
 
-  constructor() {
+  constructor(private palette: CanvasPalette) {
     this.g = new Graphics();
+  }
+
+  setPalette(palette: CanvasPalette): void {
+    this.palette = palette;
   }
 
   draw(segments: readonly RaySegment[], pixelsPerMeter: number): void {
@@ -73,15 +78,17 @@ export class RaysLayer {
     // px hodnota, kterou pak world.scale roztáhl na metry → paprsek byl
     // místo čáry obří světelný klín.)
     const lineWidth = Math.max(RAY_WIDTH_M, 1.5 / pixelsPerMeter);
+    const f = this.palette.raySpectrumFactor;
 
     for (const seg of segments) {
       const rgb = wavelengthToRgb(seg.wavelength);
-      // Mírné ztmavení spektrálních barev (×0,82) zvedne kontrast na světlém
-      // pozadí — čistá zelená/žlutá by jinak na bílé skoro zmizela.
+      // Ztmavení spektrálních barev zvedne kontrast na světlém pozadí —
+      // čistá zelená/žlutá by jinak na bílé skoro zmizela. Na tmavém plátně
+      // faktor = 1 (beze změny), tam už paprsky kontrastují samy.
       const color = rgbToHex(
-        Math.round(rgb.r * 0.82),
-        Math.round(rgb.g * 0.82),
-        Math.round(rgb.b * 0.82),
+        Math.round(rgb.r * f),
+        Math.round(rgb.g * f),
+        Math.round(rgb.b * f),
       );
       const alpha = Math.max(0.4, Math.min(0.95, seg.intensity * 0.9));
       this.g
