@@ -1,0 +1,12 @@
+{
+  "id": "elektrostatika-elixir-elektrovani",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrostatika tradičně i netradičně — Elixír do škol",
+  "type": "method",
+  "description": "Workshop Petra Žilavého (KDF MFF UK) publikovaný Elixírem do škol: žáci experimentují s třecí elektrizací různých materiálů a pozorují přitahování a odpuzování; staví jednoduché modely elektrometru z dostupných materiálů (alobal, plastová lahev) a testují, které materiály vedou náboj. Jako vyvrcholení třída sestaví zjednodušenou verzi Van de Graaffova generátoru z běžných komponent. Sada je navržena jako 45–90 min aktivit ve třídě bez nutnosti drahého vybavení.",
+  "source": {
+    "label": "Elixír do škol",
+    "url": "https://www.elixirdoskol.cz/elektrostatika-tradicne-i-netradicne/"
+  }
+}

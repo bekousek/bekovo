@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-elektroskop-plechovky",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektroskop z plechovky — žákovský pokus",
+  "type": "qualitative",
+  "description": "Žákovský pokus: každý žák si sestaví jednoduchý elektroskop z prázdné plechovky od nápoje a jogurtového kelímku s papírovým proužkem jako ukazatelem náboje. Sestavený elektroskop se nabíjí dotykem nebo elektrostatickou indukcí; čím větší náboj, tím více se papírový proužek odchyluje. Pokus přirozeně vede k porovnání nabíjení dotykem a indukcí a k diskusi o vodiči a izolantu. Navrženo J. Kusalou.",
+  "materials": [
+    "prázdná plechovka od nápoje",
+    "jogurtový kelímek",
+    "papírový proužek",
+    "PVC nebo ebonitová tyčka",
+    "vlněná látka"
+  ],
+  "procedure": "Z kelímku a plechovky se sestrojí improvizovaný elektroskop; nabitá tyčka se přiblíží nebo dotkne plechovky a sledujeme vychylování papírového proužku; porovnáme nabíjení dotykem a indukcí.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/c/G/1457/par-pokusu-z-elektrostatiky.html"
+  }
+}
