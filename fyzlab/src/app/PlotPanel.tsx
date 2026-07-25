@@ -9,6 +9,7 @@ import { useUiStore } from './store/uiStore';
 import type { Runtime } from './bootstrap';
 import { t } from './i18n/t';
 import type { MsgKey } from './i18n/cs';
+import { Button, Chip, Panel, PanelHeader } from './ui';
 
 type SeriesKey = 'x' | 'y' | 'speed';
 
@@ -21,18 +22,30 @@ const SERIES: { key: SeriesKey; label: MsgKey; unit: string; color: string }[] =
 const W = 284;
 const H = 130;
 
+/** Přečte aktuální hodnotu design tokenu (uPlot kreslí do canvasu — potřebuje resolvnutou barvu, ne var()). */
+function cssVar(name: string, fallback: string): string {
+  if (typeof window === 'undefined') return fallback;
+  const v = getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+  return v || fallback;
+}
+
 export function PlotPanel({ runtime }: { runtime: Runtime }) {
   const plotBodyId = useUiStore((s) => s.plotBodyId);
   const plotBuffer = useUiStore((s) => s.plotBuffer);
+  const theme = useUiStore((s) => s.theme);
   const [active, setActive] = useState<SeriesKey>('y');
   const containerRef = useRef<HTMLDivElement>(null);
   const chartRef = useRef<uPlot | null>(null);
 
-  // Vytvoř / přebuduj uPlot při změně aktivní série
+  // Vytvoř / přebuduj uPlot při změně aktivní série, motivu (light/dark), nebo když se
+  // kontejner poprvé objeví v DOM (panel se vykreslí až s plotBodyId — bez této závislosti
+  // by React efekt po tomto přechodu znovu nespustil a graf by se nikdy nenamountoval).
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
     const cfg = SERIES.find((s) => s.key === active)!;
+    const axisColor = cssVar('--text-muted', '#94a3b8');
+    const gridColor = cssVar('--border', '#e2e8f0');
     const opts: uPlot.Options = {
       width: W,
       height: H,
@@ -41,8 +54,22 @@ export function PlotPanel({ runtime }: { runtime: Runtime }) {
         { label: `${t(cfg.label)} [${cfg.unit}]`, stroke: cfg.color, width: 2 },
       ],
       axes: [
-        { label: 't [s]', size: 28, gap: 4 },
-        { label: cfg.unit, size: 36, gap: 4 },
+        {
+          label: 't [s]',
+          size: 28,
+          gap: 4,
+          stroke: axisColor,
+          grid: { stroke: gridColor, width: 1 },
+          ticks: { stroke: gridColor },
+        },
+        {
+          label: cfg.unit,
+          size: 36,
+          gap: 4,
+          stroke: axisColor,
+          grid: { stroke: gridColor, width: 1 },
+          ticks: { stroke: gridColor },
+        },
       ],
       cursor: { show: false },
       legend: { show: false },
@@ -53,7 +80,7 @@ export function PlotPanel({ runtime }: { runtime: Runtime }) {
       chart.destroy();
       chartRef.current = null;
     };
-  }, [active]);
+  }, [active, theme, plotBodyId]);
 
   // Aktualizuj data při změně bufferu nebo série
   useEffect(() => {
@@ -91,59 +118,38 @@ export function PlotPanel({ runtime }: { runtime: Runtime }) {
   };
 
   return (
-    <div className="pointer-events-auto rounded-2xl bg-white/85 p-3 shadow-lg ring-1 ring-slate-200 backdrop-blur">
-      {/* Záhlaví */}
-      <div className="mb-1.5 flex items-center justify-between gap-4">
-        <h3 className="text-[11px] font-bold tracking-wide text-slate-400 uppercase">
-          {t('plotPanelTitle')}
-        </h3>
-        <button
-          type="button"
-          onClick={handleClose}
-          className="rounded px-1.5 py-0.5 text-[11px] text-slate-400 hover:bg-slate-100 hover:text-slate-600"
-          aria-label="Zavřít"
+    <Panel>
+      <PanelHeader title={t('plotPanelTitle')} onClose={handleClose} />
+      <div className="p-3">
+        {/* Přepínač série */}
+        <div className="mb-1.5 flex gap-1">
+          {SERIES.map((cfg) => (
+            <Chip key={cfg.key} active={active === cfg.key} onClick={() => setActive(cfg.key)}>
+              {t(cfg.label)}
+            </Chip>
+          ))}
+        </div>
+
+        {/* Graf — kontejner je vždy v DOM, uPlot ho zaplní */}
+        <div className="relative" style={{ width: W, height: H }}>
+          <div ref={containerRef} />
+          {plotBuffer.length === 0 && (
+            <div className="absolute inset-0 flex items-center justify-center">
+              <p className="text-[11px] [color:var(--text-muted)]">{t('plotNoData')}</p>
+            </div>
+          )}
+        </div>
+
+        {/* CSV export */}
+        <Button
+          variant="secondary"
+          className="mt-2 w-full gap-1.5 text-xs"
+          onClick={handleCsv}
+          disabled={plotBuffer.length === 0}
         >
-          ✕
-        </button>
+          {t('plotExportCsv')}
+        </Button>
       </div>
-
-      {/* Přepínač série */}
-      <div className="mb-1.5 flex gap-1">
-        {SERIES.map((cfg) => (
-          <button
-            key={cfg.key}
-            type="button"
-            onClick={() => setActive(cfg.key)}
-            className={`rounded-full px-2 py-0.5 text-[11px] transition select-none ${
-              active === cfg.key
-                ? 'bg-blue-600 text-white'
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-            }`}
-          >
-            {t(cfg.label)}
-          </button>
-        ))}
-      </div>
-
-      {/* Graf — kontejner je vždy v DOM, uPlot ho zaplní */}
-      <div className="relative" style={{ width: W, height: H }}>
-        <div ref={containerRef} />
-        {plotBuffer.length === 0 && (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <p className="text-[11px] text-slate-400">{t('plotNoData')}</p>
-          </div>
-        )}
-      </div>
-
-      {/* CSV export */}
-      <button
-        type="button"
-        onClick={handleCsv}
-        disabled={plotBuffer.length === 0}
-        className="mt-2 w-full rounded-lg bg-slate-100 py-1 text-xs text-slate-600 hover:bg-slate-200 disabled:opacity-40"
-      >
-        {t('plotExportCsv')}
-      </button>
-    </div>
+    </Panel>
   );
 }
