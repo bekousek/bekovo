@@ -1,0 +1,18 @@
+{
+  "id": "energie-uder-palici",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Přeměna kinetické energie na vnitřní energii: Úder palicí",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus. Těžká palice opakovaně dopadá na pevný kovový předmět — kinetická energie nárazu se přeměňuje na vnitřní energii, což se projeví zřetelným ohřevem místa dopadu. Teplotní změnu lze ověřit dotykem nebo termovizní kamerou. Doplňuje sérii pokusů o přeměně mechanické energie na tepelnou (pád závaží, zatloukání hřebíku, tažení po podložce) a uzavírá přehled způsobů, jak lze konat práci vedoucí ke zvýšení vnitřní energie tělesa.",
+  "materials": [
+    "palice (gumová nebo kovová)",
+    "pevná kovová deska nebo tyč",
+    "termokamera nebo citlivý termometr (volitelně)"
+  ],
+  "procedure": "Položte kovový předmět na pevnou podložku. Prudce na něj udeřte palicí opakovaně (5–10 úderů). Přiložte prst na místo dopadu a porovnejte teplotu s okolím; pro větší efekt sledujte změnu termokamerou.",
+  "source": {
+    "label": "fyzikalnipokusy.cz",
+    "url": "https://fyzikalnipokusy.cz/1585/premena-kineticke-energie-na-vnitrni-energii:-uder-palici"
+  }
+}

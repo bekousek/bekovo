@@ -1,0 +1,19 @@
+{
+  "id": "energie-vykon-presypani",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Výkon snadno a srozumitelně — přesýpání materiálu různými lžícemi",
+  "type": "measurement",
+  "description": "ŽÁKOVSKÝ pokus. Dva žáci přesypávají sypký materiál (písek, kamínky) z jedné nádoby do druhé, přičemž každý dostane lžíci jiné velikosti. Žák s větší lžící úkol dokončí rychleji. Rozbor ukáže, že oba vykonali přibližně stejnou práci (přemístili stejné množství hmoty do stejné výšky), ale za různý čas — tedy pracovali s různým výkonem. Pokus přirozeně zavádí definici výkonu jako rychlosti konání práce (P = W/t) bez nutnosti složitých výpočtů.",
+  "materials": [
+    "2 stejné prázdné nádoby",
+    "1 větší nádoba naplněná sypkým materiálem (písek nebo drobné kamínky)",
+    "2 lžíce výrazně různé velikosti",
+    "stopky"
+  ],
+  "procedure": "Zadejte oběma žákům stejný úkol: přesypat obsah nádoby do cílové nádoby. Změřte časy obou. Diskutujte: kdo vykonal víc práce? A kdo pracoval s větším výkonem? Odhadněte výkon v [J/s].",
+  "source": {
+    "label": "RVP metodický portál",
+    "url": "https://clanky.rvp.cz/clanek/k/g/7825/VYKON-SNADNO-A-SROZUMITELNE.html"
+  }
+}

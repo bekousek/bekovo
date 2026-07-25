@@ -1,0 +1,12 @@
+{
+  "id": "energie-smart-cities-son",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Smart Cities: Energy for Tomorrow — skupinová výpočtová aktivita (Science on Stage)",
+  "type": "group-work",
+  "description": "Žáci badatelsky zkoumají, zda je reálné pohánět budoucí města sluneční energií. Pomocí volně dostupných dat vypočítávají, kolik elektrické energie lze vyprodukovat ze solárních panelů na dané ploše, formulují zjednodušující předpoklady a porovnávají výsledky se skutečnou spotřebou měst. Aktivita probíhá ve skupinách po dobu 2 × 45 min a rozvíjí dovednosti datové analýzy, propočtů výkonu a kritického myšlení. Materiál je v angličtině, ale výpočtová část je srozumitelná i bez hlubší jazykové znalosti.",
+  "source": {
+    "label": "Science on Stage Europe",
+    "url": "https://www.science-on-stage.eu/material/smart-cities-energy-tomorrow"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-hookuvzakon",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "PhET: Hookův zákon — potenciální energie pružiny",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace PhET zobrazuje závislost síly na prodloužení pružiny a vizualizuje potenciální energii pružnosti. Žáci mění tuhost pružiny a sledují, jak se mění uložená potenciální energie; simulace plynule navazuje na téma přeměny potenciální energie pružnosti na kinetickou. Dostupná v češtině bez nutnosti instalace.",
+  "url": "https://phet.colorado.edu/cs/simulations/hookes-law"
+}
