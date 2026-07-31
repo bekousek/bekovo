@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-vascak-spojene-nadoby",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Spojené nádoby — animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace ze sbírky Fyzika ve škole (Vaščák) přímo zobrazuje zákon spojených nádob: kapalina v propojených nádobách různých tvarů se ustálí na stejné výšce hladiny. Přehledná česká vizualizace vhodná jako demonstrace při výkladu nebo samostatné opakování.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mech_nadoby&l=cz"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "kapaliny-hydraulicky-lis-orech",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Hydraulický lis z injekčních stříkaček (demonstrace s ořechem)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel). Dvě injekční stříkačky různého průřezu (2,5 ml a 20 ml) jsou spojeny hadičkou a naplněny vodou. Na píst velké stříkačky (20 ml) se umístí vlašský ořech; malou silou na píst menší stříkačky se ořech rozdrtí. Pokus demonstruje hydraulický zákon spojených nádob a Pascalův zákon: poměr přenášených sil odpovídá poměru průřezů pístů.",
+  "materials": [
+    "injekční stříkačka 2,5 ml",
+    "injekční stříkačka 20 ml",
+    "spojovací hadička (HS 1,8×450 mm)",
+    "2 chemické stojany s příslušenstvím",
+    "vlašský ořech s měkkou skořápkou",
+    "voda"
+  ],
+  "procedure": "Obě stříkačky naplníme vodou a propojíme hadičkou bez vzduchových bublin. Upevníme svisle do stojanů. Na píst velké stříkačky (20 ml) položíme ořech a přichytíme svorkou. Malou silou stlačíme píst menší stříkačky (2,5 ml) — ořech se rozdrtí. Žáci vypočítají, kolikrát je výstupní síla větší než vstupní (poměr průřezů).",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/01-12-Macek.html"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-25",
+  "lastPicked": "2026-07-26",
   "history": [
     {
       "date": "2026-05-08",
@@ -338,6 +338,12 @@
       "subtopic": "energie--energie",
       "result": "pr-pending",
       "items": 26
+    },
+    {
+      "date": "2026-07-26",
+      "subtopic": "kapaliny-7--spojene-nadoby",
+      "result": "pr-pending",
+      "items": 15
     }
   ],
   "skipUntil": {},
