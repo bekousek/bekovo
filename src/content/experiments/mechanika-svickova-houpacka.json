@@ -1,0 +1,17 @@
+{
+  "id": "mechanika-svickova-houpacka",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Svíčková houpačka",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s dvouzvratnou pákou: svíčka zavěšená na párátku jako ose se samovolně rozhoupá, protože hoří z obou stran a průběžně mění rozložení tíhy. Žáci pozorují, jak nerovnováha momentů sil způsobuje periodický pohyb páky. Vhodné jako motivační úvod k tématu rovnováhy páky.",
+  "materials": [
+    "svíčka",
+    "párátko nebo tenký drát (osa)",
+    "dva stojany nebo sklenice (opěry pro osu)"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1695/svickova-houpacka"
+  }
+}

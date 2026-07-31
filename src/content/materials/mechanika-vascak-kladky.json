@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-vascak-kladky",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Vaščák: Kladka pevná a volná",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Physics at School (Vaščák) věnovaná pevné a volné kladce. Ukazuje rozdíl mezi pevnou kladkou (mění směr síly, nezmenšuje ji) a volnou kladkou (snižuje potřebnou zdvihací sílu na polovinu). Animace je v češtině a nevyžaduje registraci.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_kladky&l=cz"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mechanika-laboratorni-moment-sily",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Laboratorní práce: moment síly na páce",
+  "type": "measurement",
+  "description": "Žákovská laboratorní práce zaměřená na měření momentu síly na páce. Žáci zavěšují závaží na různé vzdálenosti od osy otáčení, měří síly a dráhy a ověřují podmínku rovnováhy páky (F₁ · r₁ = F₂ · r₂). Výsledkem je pochopení pravidla páky a mechanické výhody. Portál Školní příprava nabízí k tématu pracovní list (PDF).",
+  "materials": [
+    "páka (vyvažovadlo nebo pravítko na stojanu)",
+    "sada závaží",
+    "pravítko nebo metr",
+    "siloměr (volitelně)"
+  ],
+  "source": {
+    "label": "Školní příprava (Václav Koplík)",
+    "url": "https://skolnipriprava.estranky.cz/clanky/fyzika/paka/moment-sily--pracovni-listy--laboratorni-prace-.html"
+  }
+}

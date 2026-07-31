@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-geogebra-naklonena-rovina",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "GeoGebra: Nakloněná rovina – rozklad sil",
+  "type": "applet",
+  "description": "Komunitní GeoGebra applet vizualizující rozklad gravitační síly na nakloněné rovině včetně tření. Žák mění úhel sklonu a hmotnost tělesa a sleduje výsledné silové působení — základ pro pochopení nakloněné roviny jako jednoduchého stroje. Běží v HTML5 prostředí GeoGebra bez registrace.",
+  "url": "https://www.geogebra.org/m/nqRYJnse"
+}
