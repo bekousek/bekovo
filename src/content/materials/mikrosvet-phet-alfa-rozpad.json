@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-alfa-rozpad",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "PhET: Alfa rozpad",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET zobrazuje, jak alfa částice unikají z jádra polonia a způsobují alfa rozpad. Žák přepíná mezi pohledem na jedno jádro a soubor jader a sleduje, jak je každý jednotlivý rozpad náhodný, ale soubor jader statisticky odpovídá poločasu rozpadu. Applet má česky lokalizované rozhraní.",
+  "url": "https://phet.colorado.edu/cs/simulations/alpha-decay"
+}

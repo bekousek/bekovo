@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-radioaktivita-gm-zakon",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Studium radiace — rozpadový zákon pomocí GM trubice",
+  "type": "measurement",
+  "description": "Demonstrační nebo skupinová laboratorní úloha zaměřená na statistický charakter radioaktivního rozpadu. Žáci měří aktivitu zářiče v pravidelných intervalech pomocí Geigerovy-Müllerovy trubice, zaznamenávají kolísání hodnot kolem klesající exponenciální křivky a diskutují o náhodnosti přeměny jader. Pokročilejší žáci mohou provést exponenciální fit a z grafu určit poločas. Zdrojem záření manipuluje výhradně učitel.",
+  "materials": [
+    "Geigerova-Müllerova trubice s čítačem impulsů (nebo souprava Gamabeta)",
+    "školní radioaktivní zářič (manipuluje učitel)",
+    "stopky nebo software s automatickým záznamem",
+    "tabulka a grafový papír"
+  ],
+  "procedure": "Učitel umístí zářič do předepsané vzdálenosti od GM trubice. Žáci zaznamenávají počty impulsů za fixní intervaly, vynáší do grafu a sledují exponenciální pokles i statistické fluktuace. Z grafu odhadnou poločas přeměny.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/clanky/index.php?id=213"
+  }
+}

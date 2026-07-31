@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-geogebra-datovani",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "GeoGebra: Radioaktivní rozpad a uhlíkové datování",
+  "type": "applet",
+  "description": "GeoGebra applet pokrývá poločasy různých radionuklidů včetně C-14 a jejich využití při datování — žák nastavuje výchozí množství, volí izotop a sleduje zbývající aktivitu po daném čase. Část věnovaná uhlíkovému datování propojuje fyziku s archeologií a geologií. Applet zobrazuje jak grafický průběh, tak numerický výpočet.",
+  "url": "https://www.geogebra.org/m/SCVMRC3Z"
+}
