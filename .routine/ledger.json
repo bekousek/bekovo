@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-24",
+  "lastPicked": "2026-07-25",
   "history": [
     {
       "date": "2026-05-08",
@@ -330,6 +330,12 @@
     {
       "date": "2026-07-24",
       "subtopic": "elektrostatika--elektricky-naboj",
+      "result": "pr-pending",
+      "items": 26
+    },
+    {
+      "date": "2026-07-25",
+      "subtopic": "energie--energie",
       "result": "pr-pending",
       "items": 26
     }
