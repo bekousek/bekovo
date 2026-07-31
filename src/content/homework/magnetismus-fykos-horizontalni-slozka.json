@@ -1,0 +1,11 @@
+{
+  "id": "magnetismus-fykos-horizontalni-slozka",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Domácí měření horizontální složky zemského magnetického pole — inspirace FYKOS",
+  "description": "Badatelský úkol inspirovaný experimentální sérií FYKOS (série 37, č. 6): kompas umístěný do improvizované cívky (například drát navinutý na krabici od bot) mění orientaci v závislosti na superpozici zemského pole a pole cívky. Pro 6. třídu: žák systematicky zaznamenává, o kolik stupňů se střelka kompasu otočí při postupném přibližování tyčového magnetu, a zaznamená výsledky do tabulky. Výstupem je jednoduchý protokol (postup, naměřené hodnoty, závěr).",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://fykos.cz/"
+  }
+}
