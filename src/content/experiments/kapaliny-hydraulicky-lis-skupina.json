@@ -1,0 +1,22 @@
+{
+  "id": "kapaliny-hydraulicky-lis-skupina",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Navrhni hydraulické zařízení — skupinová laboratorní práce",
+  "type": "qualitative",
+  "description": "Žákovský skupinový projekt (2–3 žáci). Skupiny navrhnou a sestrojí vlastní hydraulické zařízení ze stříkaček různých průřezů propojených vodou: brzdový systém, výtah nebo lis. Po sestavení každá skupina předvede funkci svého zařízení a vypočítá poměr přenášených sil. Rozvíjí technické myšlení a propojuje zákon spojených nádob s praktickou konstrukcí.",
+  "materials": [
+    "injekční stříkačky různých objemů: 2 ml, 5 ml, 10 ml, 20 ml",
+    "hadičky z infuzního setu",
+    "voda",
+    "kartón nebo lepenka",
+    "tavná pistole a tyčinky",
+    "lepicí páska",
+    "závaží"
+  ],
+  "procedure": "Žáci se v týmech dohodnou na hydraulickém zařízení. Stříkačky propojí hadičkou a naplní vodou bez vzduchových bublin. Ze zbývajících materiálů sestaví fyzické zařízení (lis, výtah, brzda). Na závěr předvedou funkci třídě a spočítají poměr sil jako poměr průřezů pístů.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/laboratorni-prace-hydraulicky-lis/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-phet-tlak-tok",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Tlak kapaliny a průtok",
+  "type": "applet",
+  "description": "Česky lokalizovaná PhET simulace umožňuje zkoumat tlak kapaliny v nádobách různých tvarů. Žáci ověří, že hydrostatický tlak závisí jen na výšce sloupce kapaliny, nikoli na tvaru nádoby — základ zákona spojených nádob. Simulace obsahuje záložky pro statický i dynamický tlak.",
+  "url": "https://phet.colorado.edu/cs/simulations/fluid-pressure-and-flow"
+}
