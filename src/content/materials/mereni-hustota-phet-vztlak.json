@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hustota-phet-vztlak",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "PhET: Vztlak – Archimédův zákon",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace PhET. Žáci experimentují s bloky různých materiálů, mění hustotu kapaliny a zkoumají podmínky plavání a potápění. Navazuje na téma hustoty a rozšiřuje ho o Archimédův zákon a vztlakové síly.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy"
+}

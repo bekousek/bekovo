@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hustota-phet-vztlak-zaklady",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "PhET: Vztlak – základy",
+  "type": "applet",
+  "description": "Zjednodušená česká verze simulace vztlaku od PhET. Žáci manipulují s bloky různého objemu a hmotnosti ponořenými do kapalin různé hustoty a sledují podmínky plovatelnosti. Vhodná jako první interaktivní kontakt s tématem pro žáky 6. třídy.",
+  "url": "https://phet.colorado.edu/cs/simulations/buoyancy-basics"
+}
