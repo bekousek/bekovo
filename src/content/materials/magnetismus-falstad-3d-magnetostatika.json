@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-falstad-3d-magnetostatika",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "3D simulace magnetického pole — magnetická koule (Falstad)",
+  "type": "applet",
+  "description": "Interaktivní 3D simulace magnetostatických polí (Falstad) přímo v prohlížeči. Konfigurace 'Magnetic Sphere' vizualizuje dipólové pole s průběhem siločar nápadně podobným magnetickému poli Země. Lze pootočit scénou, přidat testovací dipól a sledovat pohyb v poli. Vhodné jako demonstrační nástroj pro učitele; rozhraní v angličtině.",
+  "url": "https://www.falstad.com/vector3dm/"
+}

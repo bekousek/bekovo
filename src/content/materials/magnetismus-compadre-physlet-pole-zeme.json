@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-compadre-physlet-pole-zeme",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Magnetické pole Země — interaktivní Physlet simulace (ComPADRE)",
+  "type": "applet",
+  "description": "Interaktivní Physlet simulace z kolekce Physlet Physics (ComPADRE / Physics Front) zobrazuje magnetické pole Země jako vektory nebo silové čáry. Žáci mohou přepínat mezi oběma reprezentacemi a vložit do pole virtuální kompas, jehož střelka se automaticky zarovná s vektory — přímá ukázka, proč kompas ukazuje k severu. Rozhraní v angličtině, vizuálně srozumitelné i bez překladu.",
+  "url": "https://www.compadre.org/physlets/electromagnetism/illustration27_2.cfm"
+}

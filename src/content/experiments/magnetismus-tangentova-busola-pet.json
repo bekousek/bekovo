@@ -1,0 +1,21 @@
+{
+  "id": "magnetismus-tangentova-busola-pet",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Tangentová busola z PET lahve — měření horizontální složky pole Země",
+  "type": "measurement",
+  "description": "Demonstrační pokus pro učitele — PET lahev ovinutá lakovaným drátem tvoří cívku, uvnitř níž leží malý kompas přesně ve středu. Průchodem stejnosměrného proudu vznikne magnetické pole kolmé na zeměpisný meridián a střelka kompasu se vychýlí o úhel δ. Z úhlu výchylky a parametrů cívky lze dosazením do vzorce tangentové busoly určit velikost horizontální složky geomagnetické indukce. Pro 6. třídu se matematický výpočet vynechá — žáci pozorují, jak se střelka otáčí se změnou proudu, a diskutují o superpozici dvou polí.",
+  "materials": [
+    "PET lahev (0,5 l)",
+    "lakovaný měděný drát (průměr cca 0,5 mm, cca 20 m)",
+    "malý kompas",
+    "zdroj ss proudu (2–4 V)",
+    "ampérmetr nebo multimetr",
+    "posuvné měřítko nebo pravítko"
+  ],
+  "procedure": "PET lahev omotat N závity drátu do rovnoměrného vinutí. Kompas umístit přesně do středu vinutí kolmo na magnetický poledník. Postupně zvyšovat proud a zaznamenávat úhel výchylky střelky. Pro výpočet: B_H = (μ₀ · N · I) / (2r · tan δ), kde r je polomer cívky.",
+  "source": {
+    "label": "Metodický portál RVP — Jaroslav Reichl (2011)",
+    "url": "https://clanky.rvp.cz/clanek/c/G/13403/magneticke-pole-zeme.html"
+  }
+}
