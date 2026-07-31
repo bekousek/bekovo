@@ -1,0 +1,11 @@
+{
+  "id": "mereni-hustota-fykos-vejce",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustota vejce v čase – FYKOS badatelský úkol",
+  "description": "Žáci měří hustotu čerstvého a stárnoucího vejce a sledují časovou závislost: každý den (nebo každé dva dny) vkládají vejce různého stáří do vody a pozorují, zda klesá, vznáší se nebo plave. Vzduchová komůrka uvnitř vejce se s časem zvětšuje a hustota vejce klesá pod 1 g/cm³. Úloha vyžaduje opakovaná měření v průběhu nejméně dvou týdnů, zápis závislosti a protokol s grafem a závěrem.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://static.fykos.cz/problems/fykos/22/media/serie1.pdf"
+  }
+}

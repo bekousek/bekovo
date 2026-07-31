@@ -1,0 +1,20 @@
+{
+  "id": "mereni-hustota-pevne-latky-lab",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustota pevných látek – laboratorní měření",
+  "type": "measurement",
+  "description": "Žákovský pokus. Žáci změří hmotnost tělíska z různých materiálů na laboratorních vahách a jeho objem metodou vytlačení vody v odměrném válci, poté vypočítají hustotu ze vzorce ρ = m/V a výsledek porovnají s tabulkovými hodnotami. Lze pracovat s kovy, plasty nebo dřevem ze školního kabinetu; výsledky různých skupin se porovnají a vedou k diskuzi o nejistotách měření.",
+  "materials": [
+    "tělíska z různých materiálů (kov, plast, dřevo)",
+    "laboratorní váhy",
+    "odměrný válec",
+    "voda",
+    "nit"
+  ],
+  "procedure": "Zvážit tělísko a zaznamenat hmotnost m. Naplnit odměrný válec vodou na objem V₁, ponořit tělísko na nitce a odečíst objem V₂; objem tělíska V = V₂ − V₁. Vypočítat hustotu ρ = m/V a porovnat s tabulkou látek.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/skolnipomucky/hustota_pevnych_latek.pdf"
+  }
+}

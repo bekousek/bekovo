@@ -1,0 +1,20 @@
+{
+  "id": "mereni-hustota-plovani-tri-kapaliny",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Plování a hustota – tělíska ve třech kapalinách",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Učitel připraví tři průhledné nádoby s kapalinami různé hustoty: denaturovaný líh (~800 kg/m³), voda (~1 000 kg/m³) a nasycený solný roztok (~1 200 kg/m³). Do každé nádoby vkládá identicky vypadající tělíska (kelímky z Kinder vajíček různě zatížené) a žáci sledují a předpovídají jejich chování. Výsledky vedou k diskuzi o podmínkách plovatelnosti a vztahu hustot tělesa a kapaliny.",
+  "materials": [
+    "denaturovaný líh",
+    "voda",
+    "nasycený solný roztok (cca 250 g soli/l)",
+    "tři průhledné skleněné nádoby",
+    "kelímky z Kinder vajíček (různě zatížené plastelínou)"
+  ],
+  "procedure": "Připravit tři nádoby s kapalinami různé hustoty. Postupně vkládat tělíska stejného vzhledu a pozorovat, zda plavou, klesají nebo se vznáší. Diskutovat závislost plovatelnosti na vzájemném poměru hustot tělesa a kapaliny.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/plovouci_telesa.pdf"
+  }
+}

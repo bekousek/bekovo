@@ -1,0 +1,17 @@
+{
+  "id": "mereni-hustota-neutralni-plovani",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Těleso s hustotou vody – neutrální vznášení",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ze sbírky UPOL. Speciálně připravený dutý válec má celkovou hustotu přesně rovnou hustotě vody (1 000 kg/m³). Po ponoření se vznáší v libovolné hloubce bez pohybu – ani neklesá ke dnu, ani nevystupuje na hladinu. Pokus dramaticky ilustruje, co nastane, když hustota tělesa přesně odpovídá hustotě okolní kapaliny.",
+  "materials": [
+    "kalibrovaný dutý válec s hustotou ≈ 1 000 kg/m³",
+    "vysoký průhledný skleněný válec",
+    "voda"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/uvod-do-mereni/zakladni-mereni/teleso-s-hustotou-vody-57/"
+  }
+}

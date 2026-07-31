@@ -1,0 +1,24 @@
+{
+  "id": "mereni-hustota-koktejl-vrstvy",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustý koktejl – vrstvení kapalin a poloha tělísek",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci nalijí do průhledné sklenice po vrstvách med, sirup, vodu a rostlinný olej; kapaliny se samovolně seřadí do barevných vrstev podle hustoty (nejhustší med ke dnu). Poté vhazují drobné pevné předměty (šroubek, hrozno, LEGO kostku, korek), které se usadí na různých rozhraních podle poměru vlastní hustoty k hustotě okolní kapaliny. Nevyžaduje žádné laboratorní vybavení – jen kuchyňské ingredience.",
+  "materials": [
+    "med",
+    "cukrový sirup",
+    "voda",
+    "rostlinný olej",
+    "průhledná sklenice",
+    "šroub nebo mince",
+    "hrozno",
+    "plastová LEGO kostka",
+    "korek"
+  ],
+  "procedure": "Nalévat kapaliny od nejhustší (med) k nejlehčí (olej), vždy pomalu podél stěny sklenice. Poté postupně vhazovat různé pevné předměty a sledovat, na jakém rozhraní se každý usadí.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/husty-koktejl"
+  }
+}

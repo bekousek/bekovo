@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hustota-fendt-hydrostatika",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Walter Fendt: Hydrostatický tlak v kapalinách",
+  "type": "applet",
+  "description": "HTML5 applet v češtině modelující hydrostatický tlak pomocí U-trubice. Žáci volí typ kapaliny nebo zadávají hustotu a hloubku; applet zobrazuje výsledný tlak. Propojuje hustotu kapaliny s jejím tlakovým účinkem v hloubce.",
+  "url": "https://www.walter-fendt.de/html5/phcz/hydrostaticpressure_cz.htm"
+}

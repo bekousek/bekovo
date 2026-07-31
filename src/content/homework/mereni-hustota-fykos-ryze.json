@@ -1,0 +1,11 @@
+{
+  "id": "mereni-hustota-fykos-ryze",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Hustota zrnek rýže – FYKOS badatelský úkol",
+  "description": "Žáci doma změří hustotu syrové rýže, přestože jde o sypnou granulární látku (mezi zrnky je vzduch, takže přímé odečtení vytlačeného objemu nepostačuje). Musejí navrhnout a provést metodu, jak změřit hustotu samotných zrnek, nikoli sypné hmoty jako celku – typicky ponořením rýže do vody v odměrném válci a sledováním přírůstku hladiny. Výstupem je protokol s popisem metody, naměřenými hodnotami a porovnáním s tabulkovou hodnotou.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://static.fykos.cz/problems/fykos/38/media/solution1-7.cs.pdf"
+  }
+}

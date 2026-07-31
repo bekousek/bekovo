@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-28",
+  "lastPicked": "2026-07-29",
   "history": [
     {
       "date": "2026-05-08",
@@ -356,6 +356,12 @@
       "subtopic": "mechanika--prace-na-jednoduchych-strojich",
       "result": "pr-pending",
       "items": 27
+    },
+    {
+      "date": "2026-07-29",
+      "subtopic": "mereni--hustota",
+      "result": "pr-pending",
+      "items": 25
     }
   ],
   "skipUntil": {},
