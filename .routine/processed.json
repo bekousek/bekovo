@@ -42,7 +42,15 @@
     "2026-07-18-vlastnosti-latek--latky-a-telesa",
     "2026-07-19-akustika--zdroje-zvuku",
     "2026-07-20-astronomie--vznik-a-zanik-hvezd",
-    "2026-07-21-castice-latky--atom"
+    "2026-07-21-castice-latky--atom",
+    "2026-07-24-elektrostatika--elektricky-naboj",
+    "2026-07-25-energie--energie",
+    "2026-07-26-kapaliny-7--spojene-nadoby",
+    "2026-07-27-magnetismus--magneticke-pole-zeme",
+    "2026-07-28-mechanika--prace-na-jednoduchych-strojich",
+    "2026-07-29-mereni--hustota",
+    "2026-07-30-mikrosvet--radioaktivita",
+    "2026-07-31-optika--oko"
   ],
   "history": [
     {
@@ -425,6 +433,78 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/69",
       "merged": true,
       "processedAt": "2026-07-23T18:35:22.953Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-24-elektrostatika--elektricky-naboj",
+      "subtopic": "elektrostatika--elektricky-naboj",
+      "branch": "routine/nightly-2026-07-24-elektrostatika--elektricky-naboj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/76",
+      "merged": true,
+      "processedAt": "2026-07-31T12:12:34.324Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-25-energie--energie",
+      "subtopic": "energie--energie",
+      "branch": "routine/nightly-2026-07-25-energie--energie",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/77",
+      "merged": true,
+      "processedAt": "2026-07-31T12:12:52.306Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-26-kapaliny-7--spojene-nadoby",
+      "subtopic": "kapaliny-7--spojene-nadoby",
+      "branch": "routine/nightly-2026-07-26-kapaliny-7--spojene-nadoby",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/78",
+      "merged": true,
+      "processedAt": "2026-07-31T12:13:10.444Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-27-magnetismus--magneticke-pole-zeme",
+      "subtopic": "magnetismus--magneticke-pole-zeme",
+      "branch": "routine/nightly-2026-07-27-magnetismus--magneticke-pole-zeme",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/79",
+      "merged": true,
+      "processedAt": "2026-07-31T12:13:28.622Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-28-mechanika--prace-na-jednoduchych-strojich",
+      "subtopic": "mechanika--prace-na-jednoduchych-strojich",
+      "branch": "routine/nightly-2026-07-28-mechanika--prace-na-jednoduchych-strojich",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/80",
+      "merged": true,
+      "processedAt": "2026-07-31T12:13:46.922Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-29-mereni--hustota",
+      "subtopic": "mereni--hustota",
+      "branch": "routine/nightly-2026-07-29-mereni--hustota",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/81",
+      "merged": true,
+      "processedAt": "2026-07-31T12:14:05.945Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-30-mikrosvet--radioaktivita",
+      "subtopic": "mikrosvet--radioaktivita",
+      "branch": "routine/nightly-2026-07-30-mikrosvet--radioaktivita",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/82",
+      "merged": true,
+      "processedAt": "2026-07-31T12:14:25.157Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-07-31-optika--oko",
+      "subtopic": "optika--oko",
+      "branch": "routine/nightly-2026-07-31-optika--oko",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/83",
+      "merged": true,
+      "processedAt": "2026-07-31T12:14:44.943Z",
       "driveFileId": ""
     }
   ]
