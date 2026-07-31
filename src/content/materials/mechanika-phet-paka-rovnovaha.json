@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-phet-paka-rovnovaha",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "PhET: Rovnováha na páce (Balancing Act)",
+  "type": "applet",
+  "description": "PhET simulace (Univerzita Colorado) přeložená do češtiny, ve které žák pokládá předměty různých hmotností na páku a zkoumá podmínky rovnováhy, rameno páky a moment síly. Obsahuje herní režim Balance Challenge motivující k experimentování. Funguje jako HTML5 v prohlížeči bez instalace, licence CC-BY.",
+  "url": "https://phet.colorado.edu/cs/simulations/balancing-act"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-vascak-paka",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Vaščák: Rovnováha na páce",
+  "type": "applet",
+  "description": "HTML5 animace RNDr. Vladimíra Vaščáka zobrazující páku v rovnováze. Žák přidává závaží na různá ramena páky a sleduje, za jakých podmínek nastane rovnováha — přímá simulace pravidla páky (F₁ · r₁ = F₂ · r₂). Rozhraní je v češtině, funguje bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_paka&l=cz"
+}
