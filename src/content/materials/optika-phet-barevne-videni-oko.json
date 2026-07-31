@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-barevne-videni-oko",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Barevné vidění – jak oko vnímá barvy (PhET simulace)",
+  "type": "applet",
+  "description": "PhET simulace v češtině umožňuje žákům míchat červené, zelené a modré světlo a sledovat, jakou barvu mozek vyhodnotí. Druhá záložka zobrazuje foton dopadající na oko a reakci tří typů čípků. Simulace srozumitelně vysvětluje trichromatickou teorii barevného vidění a propojuje fyziku světla se smyslovou fyziologií.",
+  "url": "https://phet.colorado.edu/cs/simulations/color-vision"
+}

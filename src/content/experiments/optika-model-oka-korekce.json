@@ -1,0 +1,21 @@
+{
+  "id": "optika-model-oka-korekce",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Fyzikální model oka – krátkozrakost, dalekozrakost a korekce brýlemi",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Pomocí optické soustavy simulující oko (spojka jako oční čočka, stínítko jako sítnice) se ukáže, jak vznikají vady zraku: u krátkozrakého oka se obraz tvoří před sítnicí, u dalekozrakého za ní. Přidáním korekční rozptylky (krátkozrakost) nebo spojky (dalekozrakost) se obraz vrátí zpět na stínítko-sítnici. Pokus fyzikálně propojuje učivo o čočkách s fyziologií oka a principem brýlí – žáci přesně vidí, co brýle opticky dělají.",
+  "materials": [
+    "zdroj světla (svíčka nebo LED)",
+    "spojná čočka (model oční čočky)",
+    "rozptylná čočka (korekce krátkozrakosti)",
+    "silnější spojná čočka (korekce dalekozrakosti)",
+    "stínítko (model sítnice)",
+    "optická lavice nebo improvizovaná lišta"
+  ],
+  "procedure": "Sestavit model: zdroj světla → spojná čočka → stínítko; nastavit ostrý obraz (zdravé oko). Posunout stínítko blíže k čočce (obraz za sítnicí – dalekozrakost) nebo dál (obraz před sítnicí – krátkozrakost); přiložením korekční čočky znovu zaostřit na stínítko. Porovnat potřebnou korekci pro oba typy vad.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1685/kratkozrakost-a-dalekozrakost"
+  }
+}

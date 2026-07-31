@@ -1,0 +1,17 @@
+{
+  "id": "optika-slepa-skvrna",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Slepá skvrna – kdy oko nevidí",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci si prakticky ověří existenci slepé skvrny – místa na sítnici, kde vychází zrakový nerv a kde nejsou žádné fotoreceptory. Na papír nakreslí dva černé kruhy průměru ~1 cm vzdálené ~10 cm od sebe, přikryjí jedno oko, zaostří na jeden kruh a pomalu přibližují papír k oku – ve chvíli, kdy obraz druhého kruhu dopadne na slepou skvrnu, druhý kruh zmizí. Pokus překvapivě demonstruje anatomický límit vlastního zrakového orgánu a vede k diskusi o tom, proč mozek tuto slepou skvrnu ve vidění automaticky vyplňuje.",
+  "materials": [
+    "papír",
+    "pero nebo tužka"
+  ],
+  "procedure": "Na papír nakreslit dva černé kruhy průměru ~1 cm s roztečí ~10 cm. Papír držet ~40 cm od tváře, zakrýt levé oko, pravým okem zaostřit na levý kruh a papír pomalu přibližovat – pravý kruh v určité vzdálenosti zmizí. Opakovat pro druhé oko.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus15.htm"
+  }
+}

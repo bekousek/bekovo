@@ -1,0 +1,17 @@
+{
+  "id": "optika-blizkyi-bod",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Měřím blízký bod vlastního oka",
+  "type": "measurement",
+  "description": "Žákovský pokus. Žáci změří vzdálenost blízkého bodu svého oka (nejbližší vzdálenost, při které ještě vidí text ostře) a z ní vypočítají optickou mohutnost oka v dioptriích (φ = 1/f). Aktivita spojuje fyzikální měření s fyziologií – žáci doslova měří vlastní oko pravítkem a na základě výsledku diskutují o akomodaci oční čočky. Výsledky ve třídě přirozeně variují a vedou k diskusi o vadách zraku.",
+  "materials": [
+    "pravítko nebo svinovací metr",
+    "malý tištěný text (kniha nebo novinový sloupec)"
+  ],
+  "procedure": "Žák drží tištěný text a postupně jej přibližuje k oku, dokud vidí text ostře. Ve chvíli, kdy se obraz rozmaže, změří pravítkem vzdálenost (blízký bod v metrech). Optická mohutnost: φ [D] = 1 / vzdálenost [m]. Výsledky zapsat a porovnat ve třídě.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/18-18-Kubinova.html"
+  }
+}
