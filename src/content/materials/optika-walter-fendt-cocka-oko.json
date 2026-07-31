@@ -1,0 +1,9 @@
+{
+  "id": "optika-walter-fendt-cocka-oko",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Zobrazení spojnou čočkou – applet (Walter Fendt, česky)",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta přeložený do češtiny umožňuje pohybovat předmětem před spojnou čočkou a sledovat, jak se mění poloha, velikost a charakter obrazu. Modeluje fyziku čočky oka i korekčních skel brýlí; žáci mohou měnit ohniskovou vzdálenost čočky a srovnávat s vadami zraku.",
+  "url": "https://www.walter-fendt.de/html5/phcz/imageconverginglens_cz.htm"
+}

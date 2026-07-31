@@ -1,0 +1,17 @@
+{
+  "id": "optika-newtonuv-disk-zrak",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Newtonův disk – setrvačnost zrakového vjemu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, realizovatelný i jako žákovský. Rychle se otáčející barevný disk (Newtonův disk s různobarevnými sektory) vytváří při dostatečné rychlosti dojem smíchané nebo bílé barvy – oko nestíhá rozlišit rychle se střídající barevné podněty (setrvačnost vidění ~1/16 s). Pokus demonstruje časové omezení zrakového vjemu a vysvětluje základ filmové projekce a televizního obrazu.",
+  "materials": [
+    "barevný papírový disk se sektory (Newtonův disk nebo vlastnoručně vyrobený)",
+    "špejle nebo provázek k roztočení"
+  ],
+  "procedure": "Disk s různobarevnými sektory upevnit na osu (nebo ovinout provázek) a roztočit. Od určité úhlové rychlosti se barvy 'mísí' a disk se jeví jednobarevný nebo bílý. Diskutovat, co to říká o rychlosti zpracování vjemu okem.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/16-13-Kehar.html"
+  }
+}

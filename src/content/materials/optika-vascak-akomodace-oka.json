@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-akomodace-oka",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Akomodace oka – interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace z webu Vaščák – Fyzika ve škole ukazuje, jak se čočka oka tvarově mění při pohledu na blízko a na dálku (akomodace). Žáci interaktivně posouvají sledovaný objekt a vidí, jak se mění zakřivení čočky a kde se obraz na sítnici vytvoří. Animace je plně česky a spustitelná v prohlížeči.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_akomodace&l=cz"
+}
