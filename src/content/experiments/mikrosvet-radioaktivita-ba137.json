@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-radioaktivita-ba137",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Měření poločasu přeměny Ba-137 se soupravou Gamabeta",
+  "type": "measurement",
+  "description": "Demonstrační laboratorní úloha, při níž žáci sledují skutečný radioaktivní rozpad barya-137 (poločas ~2,6 min) pomocí školní soupravy Gamabeta. Žáci zaznamenávají počty impulzů za 100 s v pravidelných intervalech, zakreslují data do grafu a z průběhu křivky odhadují poločas přeměny. Výsledky porovnají s exponenciálním modelem a diskutují o náhodném charakteru jaderného rozpadu. Ba-137 eluát připravuje výhradně učitel, záznam a analýza dat jsou žákovské.",
+  "materials": [
+    "souprava Gamabeta nebo GAMAbeta 2007",
+    "Ba-137 eluát — generátor k soupravě (manipuluje učitel)",
+    "tabulka pro zápis dat",
+    "milimetrový papír nebo tabulkový editor"
+  ],
+  "procedure": "Učitel vyextrahuje Ba-137 eluát z generátoru a umístí zdroj k detektoru. Žáci zaznamenávají počty impulzů po dobu 100 s v sérii ~8–10 měření. Data zakreslí do grafu, proloží klesající křivku a odhadnou poločas přeměny barya.",
+  "source": {
+    "label": "VNUF 2007",
+    "url": "https://vnuf.cz/sbornik/prispevky/12-12-Koudelkova.html"
+  }
+}

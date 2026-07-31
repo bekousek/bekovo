@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-07-29",
+  "lastPicked": "2026-07-30",
   "history": [
     {
       "date": "2026-05-08",
@@ -362,6 +362,12 @@
       "subtopic": "mereni--hustota",
       "result": "pr-pending",
       "items": 25
+    },
+    {
+      "date": "2026-07-30",
+      "subtopic": "mikrosvet--radioaktivita",
+      "result": "pr-pending",
+      "items": 24
     }
   ],
   "skipUntil": {},

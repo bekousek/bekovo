@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-beta-rozpad",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "PhET: Beta rozpad",
+  "type": "applet",
+  "description": "Simulace zachycuje beta rozpad jednotlivých jader i celé sbírky nestabilních nuklidů. Žák vidí přeměnu neutronu na proton a uvolnění elektronu (beta minus záření) a sleduje změny v nuklidu. K dispozici jsou různé izotopy a přepínání mezi individuálním a hromadným pohledem.",
+  "url": "https://phet.colorado.edu/cs/simulations/beta-decay"
+}

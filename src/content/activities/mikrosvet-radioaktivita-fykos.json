@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-radioaktivita-fykos",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "FYKOS: Online měření záření ze zdroje Am-241",
+  "type": "other",
+  "description": "Aktivita FYKOS umožňuje žákům přes webové rozhraní ovládat skutečný Geigerův-Müllerův detektor v laboratoři a provádět experiment s reálným zdrojem záření gama (americium-241, 241Am). Žáci volí parametry experimentu — vzdálenost zdroje od detektoru nebo tloušťku stínícího materiálu — a analyzují naměřená data. Druhý detektor měří přirozené záření pozadí pro korekci výsledků. Vhodné jako motivační aktivita pro výborné žáky 9. třídy nebo jako ukázka reálného fyzikálního experimentu.",
+  "source": {
+    "label": "FYKOS — Experimentální úlohy",
+    "url": "https://fykos.cz/akce/fykos/experimenty"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mikrosvet-radioaktivita-vyfuk-detekce",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Výfuk: Detekce záření — závislost na vzdálenosti a tloušťce stínění",
+  "description": "Experimentální domácí úloha z 10. ročníku korespondenčního semináře Výfuk. Žák měří počet zachycených radioaktivních částic jako funkci vzdálenosti zdroje od detektoru nebo tloušťky a druhu stínícího materiálu. Součástí odevzdaného řešení je popis experimentálního uspořádání, zdůvodnění volby zdroje záření, tabulka naměřených hodnot, grafická závislost a interpretace výsledků. Jde o odlišnou úlohu než model s čočkovými semeny — zde žák pracuje se skutečným zdrojem záření nebo přírodním pozadím a rozvíjí celý badatelský cyklus.",
+  "source": {
+    "label": "Výfuk — 10. ročník, 3. série",
+    "url": "https://vyfuk.org/zadani/10/3"
+  }
+}

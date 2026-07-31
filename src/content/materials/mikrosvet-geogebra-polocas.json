@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-geogebra-polocas",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "GeoGebra: Simulace poločasu rozpadu",
+  "type": "applet",
+  "description": "GeoGebra applet interaktivně zobrazuje exponenciální pokles počtu nerozpadnutých jader v závislosti na čase. Žák posuvníky nastavuje počáteční množství a poločas a sleduje, jak se mění tvar křivky; applet graficky i numericky ukazuje stav po 1T, 2T a 3T. Rozhraní je anglické, ale obsluha je intuitivní díky grafickému zobrazení.",
+  "url": "https://www.geogebra.org/m/a8RhbueG"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-phet-datovani",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "PhET: Hra s radioaktivním datováním",
+  "type": "applet",
+  "description": "Simulace PhET ukazuje princip radiometrického datování pomocí C-14 a dalších izotopů — žák odhaduje stáří vzorků podle zbývajícího podílu radioaktivního prvku a porovnává s výpočtem přes poločas rozpadu. Obsahuje výukovou část s vysvětlením i testovací hru formou kvízu. Jde o přímou aplikaci pojmu poločas na datování v archeologii a geologii.",
+  "url": "https://phet.colorado.edu/cs/simulations/radioactive-dating-game"
+}
