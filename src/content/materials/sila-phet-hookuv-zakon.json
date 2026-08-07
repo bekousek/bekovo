@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-hookuv-zakon",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "PhET: Hookův zákon",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace od University of Colorado, v níž žáci natahují a stlačují pružiny a sledují závislost síly na prodloužení (Hookův zákon) — přesně ten fyzikální princip, na němž siloměr funguje. Lze nastavit tuhost pružiny, přidat závaží a sledovat, jak se mění ukazatel síly. Simulace podporuje i serie pružin (sériové a paralelní zapojení).",
+  "url": "https://phet.colorado.edu/cs/simulations/hookes-law"
+}
