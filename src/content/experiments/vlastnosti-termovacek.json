@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-termovacek",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Termováček – rychlá krystalizace octanu sodného",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ukazující dramatický přechod z přechlazeného kapalného stavu do pevné krystalické látky. Přechlazený roztok octanu sodného se naleje na talíř s několika krystaly octanu — okamžitě vyroste bílý sloupeček pevné látky a roztok se zřetelně zahřeje (exotermická krystalizace). Pokus živě ukazuje, jak vzniká krystalická struktura pevné látky a že při tuhnutí se uvolňuje teplo. Liší se od pomalého pěstování krystalů — jde o okamžitý, vizuálně efektní přechod kapalina → pevná látka.",
+  "materials": [
+    "octan sodný trihydrát (CH₃COONa·3H₂O — dostupný v lékárnách nebo školní chemické zásobárně)",
+    "destilovaná nebo převařená voda",
+    "kádinka nebo sklenice",
+    "talíř",
+    "několik krystalků octanu sodného na 'startování' krystalizace"
+  ],
+  "procedure": "Rozpustit přibližně 80 g octanu sodného ve 30 ml vody zahříváním. Zakrytou sklenici nechat velmi pomalu vychladnout beze změn a otřesů (vznik přechlazeného roztoku). Na talíř nasypat pár krystalků a opatrně nalít přechlazený roztok — okamžitá krystalizace vytvoří pevný sloupeček a roztok se zahřeje.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/11-25-Vicha.html"
+  }
+}

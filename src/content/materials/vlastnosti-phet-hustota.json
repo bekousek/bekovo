@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-phet-hustota",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Hustota (česky)",
+  "type": "applet",
+  "description": "Česká simulace PhET zaměřená na hustotu pevných látek. Žáci pracují s kostkami různých materiálů, nastavují jejich hmotnost a objem a pozorují, zda plavou nebo klesají ve vodě. Přímá demonstrace hustoty jako klíčové vlastnosti pevných látek. HTML5, bez instalace.",
+  "url": "https://phet.colorado.edu/cs/simulations/density"
+}

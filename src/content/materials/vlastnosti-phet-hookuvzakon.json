@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-phet-hookuvzakon",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Hookův zákon – pružná deformace (česky)",
+  "type": "applet",
+  "description": "Česká simulace PhET demonstrující pružnou deformaci pevných těles. Žáci natahují nebo stlačují pružiny a sledují závislost síly na prodloužení — vizuální demonstrace Hookova zákona. Lze zkoumat pružiny zapojené sériově i paralelně. HTML5, bez instalace.",
+  "url": "https://phet.colorado.edu/cs/simulations/hookes-law"
+}

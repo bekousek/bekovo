@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-elasticita-polymeru",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Elasticita polymerů – pokusy s gumou",
+  "type": "qualitative",
+  "description": "Žákovský pokus porovnávající pružnost polymeru (gumy) a ocelové pružiny. Žáci zatěžují oba materiály postupně závaží a měří prodloužení. Guma se deformuje výrazně, deformace je plně vratná, ale na rozdíl od pružiny pro gumu neplatí Hookův zákon — prodloužení a síla nejsou přímo úměrné. Pokus rozvíjí pochopení pružnosti (elasticity) jako vlastnosti pevných polymerních látek a přirozené vede k pojmům pružná deformace a Hookův zákon.",
+  "materials": [
+    "gumičky nebo gumové proužky",
+    "ocelová pružina",
+    "závaží sady nebo siloměr",
+    "pravítko nebo měřicí páska"
+  ],
+  "procedure": "Upevnit gumu a pružinu za jeden konec. Postupně přidávat závaží a měřit prodloužení obou v cm. Sestavit tabulku a porovnat: pružina se prodlužuje úměrně závaží (Hookův zákon), guma neúměrně. Po odebrání závaží ověřit, zda se oba materiály vrátily na původní délku.",
+  "source": {
+    "label": "FyzWeb – pokusy a materiály",
+    "url": "http://fyzweb.cz/clanky/index.php?id=120"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-skorzapka-pevnost",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Pevnost a křehkost skořápky vejce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ukazující, jak tvar pevné křehké látky ovlivňuje její pevnost a odolnost vůči deformaci. Prázdná skořápka vejce překvapivě odolá tlaku zvenčí (klenbová konstrukce přenáší sílu do stran), ale snadno praská pod silou aplikovanou zevnitř — přesně jako kuřecí zobák. Žáci diskutují, proč architektonické klenby, skořepinové mosty a vzdušná tělesa přírody (škeble, schránky) fungují na stejném principu klenbového přenosu sil.",
+  "materials": [
+    "vejce nebo prázdná skořápka vejce",
+    "hřebík nebo tupý předmět (guma od tužky)",
+    "malá podložka"
+  ],
+  "procedure": "Přiložit prázdnou skořápku vejce (větší polovina, základnou dolů) na hlavu hřebíku zvenčí a pevně stisknout — skořápka překvapivě vydrží. Pak zkusit totéž zevnitř (propíchnout malý otvor a tlačit ven tupým předmětem) — skořápka snadno praská. Diskutovat o roli tvaru na pevnost křehké pevné látky.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/01-05-Brockmeyerova-Fenclova.html"
+  }
+}

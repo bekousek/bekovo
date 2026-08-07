@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-vascak-skupenstvi",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Skupenské přeměny látek – animace (Vaščák)",
+  "type": "applet",
+  "description": "Česká HTML5 animace ze sady Fyzika ve škole (Vaščák) zobrazující skupenské přeměny látky (tání, tuhnutí, vypařování, kondenzace) na úrovni částic. Ukazuje, proč mají pevné látky stálý tvar a objem a jak se uspořádání částic mění při skupenských přeměnách. Spustitelná přímo v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_skupenstvi&l=cz"
+}

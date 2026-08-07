@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-levitujici-tuha",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Levitující tuha – diamagnetické vlastnosti grafitu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ukazující neobvyklé magnetické vlastnosti pevné látky – grafitu. Tuha do mikrotužky (grafit, diamagnetická pevná látka) se umístí do korýtka ze čtyř silných neodymových magnetů a vznáší se přibližně 0,5 mm nad jejich povrchem. Diamagnetická odpudivá síla přesně kompenzuje tíhu tužky. Pokus překvapivě ukazuje, že pevné látky mají různé magnetické vlastnosti — většina je nemagnetická, ale grafit je aktivně odpuzován magnetickým polem.",
+  "materials": [
+    "tuha do mikrotužky (grafit)",
+    "4 silné neodymové magnety sestavené do tvaru korýtka"
+  ],
+  "procedure": "Sestavit korýtko ze čtyř neodymových magnetů (správná orientace polí je klíčová — viz zdroj). Opatrně vložit tuhu nad střed korýtka — tuha se vznáší. Lehce ji postrčit a sledovat pohyb téměř bez tření.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1877/levitujici-tuha---demonstrace-diamagnetismu"
+  }
+}

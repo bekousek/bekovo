@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-hydrostaticke-vahy",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Hydrostatické vážení – hustota pevné látky Archimedovou metodou",
+  "type": "measurement",
+  "description": "Žákovský nebo demonstrační pokus měřící hustotu pevných těles nepravidelných tvarů. Těleso se nejprve zváží na vzduchu, pak ponořené do vody — rozdíl zdánlivých hmotností odpovídá hmotnosti vytlačené vody, z níž lze vypočítat objem tělesa. Z hmotnosti a objemu žáci určí hustotu pevné látky a porovnají s tabulkovými hodnotami. Metoda funguje i pro tělesa složitých tvarů, kde nelze objem změřit pravítkem.",
+  "materials": [
+    "laboratorní nebo digitální váhy s háčkem pod vážicí platformou",
+    "nádoba s vodou",
+    "nit",
+    "různá pevná tělesa nepravidelných tvarů (kameny, kovové součásti, keramika)"
+  ],
+  "procedure": "Zvážit těleso na vzduchu — zapsat hmotnost m₁. Zavěsit těleso na nit pod váhy, ponořit celé do vody a znovu zvážit — zapsat zdánlivou hmotnost m₂. Objem tělesa V = (m₁ − m₂) / ρ_vody (= (m₁ − m₂) ml pro vodu v g). Hustota ρ = m₁ / V (g/cm³).",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/14-18-Malinova.html"
+  }
+}
