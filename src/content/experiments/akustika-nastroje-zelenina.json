@@ -1,0 +1,18 @@
+{
+  "id": "akustika-nastroje-zelenina",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hudební nástroje z ovoce a zeleniny",
+  "type": "qualitative",
+  "description": "Pokus, v němž jsou ze zeleniny a ovoce vyrobeny funkční hudební nástroje — mrkvová flétna, citronový basový nástroj a podobně. Demonstruje fyzikální principy vzniku zvuku na různých typech nástrojů: chvění vzduchového sloupce, membrány nebo struny. Lze provést jako demonstrační i jako žákovský skupinový projekt s dostupnými materiály.",
+  "materials": [
+    "mrkev",
+    "brambora nebo cuketa",
+    "citron",
+    "nůžky nebo malý vrtáček (s dohledem učitele)"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/1351"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "akustika-gumicka-vibrace",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Gumička jako zdroj zvuku",
+  "type": "qualitative",
+  "description": "Žáci napnou gumičku mezi dvě tužky a trhnout za ni prstem — pozorují viditelné kmitání gumičky a zároveň slyší vydávaný tón. Propojení viditelného pohybu se zvukovým vjemem je klíčové pro pochopení vibrací jako zdroje zvuku. Žákovský pokus snadno proveditelný v lavici bez jakéhokoli speciálního vybavení.",
+  "materials": [
+    "gumička",
+    "dvě tužky nebo dřevěné tyčinky"
+  ],
+  "procedure": "Napněte gumičku mezi dvě tužky a zafixujte je prsty. Trhnout za gumičku a sledujte její kmitání, zatímco posloucháte vydávaný tón. Poté měňte napnutí gumičky přibližováním nebo oddalováním tužek a pozorujte, jak se mění výška tónu.",
+  "source": {
+    "label": "KDF MFF UK — Leoš Dvořák: Jednoduché pokusy z vlnění a akustiky",
+    "url": "https://kdf.mff.cuni.cz/lide/dvorak/clanky/Dalsikonf/SoltesoveDni_2005_LD_JedPokusyVlneniaAkustika.pdf"
+  }
+}

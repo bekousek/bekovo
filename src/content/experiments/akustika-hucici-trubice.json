@@ -1,0 +1,16 @@
+{
+  "id": "akustika-hucici-trubice",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hučící trubice (bzučák)",
+  "type": "qualitative",
+  "description": "Žáci roztočí vlnitou plastovou hadici nad hlavou — proudící vzduch v dutinách hadice se rozkmitá a vydá čistý tón. Čím rychleji se hadice točí, tím vyšší tón; sada hadicí různé délky umožní hrát jednoduchou melodii. Žákovský pokus: každý žák si vyzkouší individuálně ve třídě nebo na chodbě.",
+  "materials": [
+    "vlnitá (vlnkovaná) plastová hadice délky 50–100 cm (hadička od vysavače nebo ze stavebního obchodu)"
+  ],
+  "procedure": "Uchopte volný konec vlnité hadice a kroužte s ní nad hlavou jako laso. Postupně zrychlujte a poslouchejte, jak se s rostoucí rychlostí mění výška vydávaného tónu. Zkuste uhrát jednoduchou stupnici.",
+  "source": {
+    "label": "KDF MFF UK — Leoš Dvořák: Jednoduché pokusy z vlnění a akustiky",
+    "url": "https://kdf.mff.cuni.cz/lide/dvorak/clanky/Dalsikonf/SoltesoveDni_2005_LD_JedPokusyVlneniaAkustika.pdf"
+  }
+}

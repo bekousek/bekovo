@@ -1,0 +1,9 @@
+{
+  "id": "akustika-fyzikum-ladeni-lahvi",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Laboratorní práce: ladění lahví aplikací Spectroid",
+  "type": "worksheet",
+  "description": "Podrobně popsaná laboratorní práce z Fyzikum.cz: žáci naplňují lahve vodou na různé výšky (vzduchový sloupec různé délky), foukají přes hrdlo a měří výslednou frekvenci tónu bezplatnou aplikací Spectroid (Android). Propojuje tvorbu zdroje zvuku (vzduchový sloupec) s přímým měřením jeho frekvence mobilem. Lze zkrátit nebo zjednodušit pro 8. ročník ZŠ.",
+  "url": "https://fyzikum.cz/laboratorni-prace-ladeni-lahvi-s-programem-spectroid/"
+}
