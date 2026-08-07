@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-diamagnetismus-krabicky",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Paramagnetické a diamagnetické vlastnosti látek",
+  "type": "qualitative",
+  "description": "Žákovský nebo demonstrační pokus třídící pevné (a kapalné) látky podle jejich magnetické odezvy. Dvě krabičky od fotografického filmu — jedna naplněná vodou, druhá modrou skalicí (síran měďnatý) — jsou zavěšeny na niti. Při přiblížení silného neodymového magnetu se krabička s vodou slabě odpuzuje (diamagnetická látka), krabička s modrou skalicí se přitahuje (paramagnetická látka). Žáci poznají, že pevné látky mají různé magnetické vlastnosti a mohou je systematicky třídit.",
+  "materials": [
+    "2 krabičky od fotografického filmu nebo malé plastové kelímky",
+    "nit a drát na zavěšení",
+    "silný neodymový magnet",
+    "voda",
+    "modrá skalice (síran měďnatý)"
+  ],
+  "procedure": "Naplnit krabičky: jednu vodou, druhou modrou skalicí. Zavěsit na nit tak, aby visely volně. Pomalu přibližovat neodymový magnet z boku a sledovat, zda se krabičky přitahují nebo odpuzují. Zopakovat s dalšími dostupnými pevnými látkami.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/971/paramagneticka-a-diamagneticka-latka-v-blizkosti-magnetu-i"
+  }
+}

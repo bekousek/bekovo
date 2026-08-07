@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-05",
+  "lastPicked": "2026-08-06",
   "history": [
     {
       "date": "2026-05-08",
@@ -398,6 +398,12 @@
       "subtopic": "tepelne-motory--proudovy-raketovy-motor",
       "result": "pr-pending",
       "items": 23
+    },
+    {
+      "date": "2026-08-06",
+      "subtopic": "vlastnosti-latek--pevne-latky",
+      "result": "pr-pending",
+      "items": 27
     }
   ],
   "skipUntil": {},

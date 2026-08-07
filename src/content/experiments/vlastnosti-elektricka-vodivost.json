@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-elektricka-vodivost",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Elektrická vodivost pevných látek",
+  "type": "qualitative",
+  "description": "Žákovský pokus třídící pevné látky podle elektrické vodivosti. Vzorky různých pevných materiálů — kovy (měď, železo), grafit (tuha), keramika, dřevo, plast — se postupně zapojují do jednoduchého elektrického obvodu; svítí-li žárovka nebo LED, látka vede elektrický proud. Žáci sestaví tabulku vodičů a izolantů a diskutují, co mají vodiče společného (kovový charakter, volné elektrony). Pokus lze rozšířit o méně obvyklé vzorky — magnetovec, vlákno ze staré žárovky.",
+  "materials": [
+    "baterie 4,5 V nebo nízkonapěťový zdroj",
+    "žárovka nebo LED s rezistorem",
+    "dráty s krokosvorkami",
+    "vzorky: drát měděný, drát železný, tuha do mikrotužky (grafit), kus keramiky, dřevěná tyčinka, plastová tyčinka"
+  ],
+  "procedure": "Sestavit jednoduchý obvod: zdroj → žárovka/LED → dvě volné krokosvorky. Střídavě připínat různá pevná tělesa do obvodu (krokosvorkami na oba konce vzorku) a sledovat, zda žárovka svítí. Výsledky zapisovat do tabulky vodiče / izolanty.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/03-16-Svoboda.html"
+  }
+}

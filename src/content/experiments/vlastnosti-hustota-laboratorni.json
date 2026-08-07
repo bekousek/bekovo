@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-hustota-laboratorni",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Měření hustoty pevné látky – laboratorní práce",
+  "type": "measurement",
+  "description": "Žákovská laboratorní práce pro 6. třídu ZŠ: měření hustoty pevných těles přímou metodou. Žáci měří hmotnost tělesa na vahách a objem buď výpočtem z rozměrů (pravidelná tělesa, V = a·b·c), nebo ponořením do odměrného válce (nepravidelná tělesa). Z naměřených hodnot vypočítají hustotu ρ = m/V a porovnají s tabulkovými hodnotami pro různé pevné látky. Pracovní listy s metodikou nabízí portál Školní příprava.",
+  "materials": [
+    "pevná tělesa různých tvarů: kvádr ze dřeva, kovový váleček, plastový předmět, kámen",
+    "laboratorní nebo kuchyňské váhy",
+    "pravítko nebo posuvné měřítko",
+    "odměrný válec 100 ml",
+    "voda"
+  ],
+  "procedure": "1. Zvážit těleso na váze (m v gramech). 2a. Pravidelné těleso: změřit délku, šířku a výšku pravítkem, vypočítat V = a·b·c (cm³). 2b. Nepravidelné těleso: odečíst hladinu v odměrném válci s vodou před a po ponoření — rozdíl = objem (1 ml = 1 cm³). 3. Vypočítat hustotu ρ = m/V (g/cm³) a porovnat s tabulkovými hodnotami.",
+  "source": {
+    "label": "Školní příprava (Václav Koplík)",
+    "url": "https://skolnipriprava.estranky.cz/clanky/fyzika/latky-a-telesa/latky-a-telesa--pracovni-listy-.html"
+  }
+}

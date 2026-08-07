@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-tepelna-vodivost",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Tepelná vodivost plastu a kovu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus porovnávající tepelnou vodivost dvou pevných látek — kovu a plastu. Kovová a plastová destička jsou zatíženy kelímky s ledem a sledovány termovizní kamerou nebo termocitlivou fólií. Kovová destička se ochladí rovnoměrně po celé ploše za cca 100 sekund, plastová pouze v místě kontaktu — kov jako dobrý tepelný vodič odvede teplo (chlad) daleko od zdroje, plast jako izolant nikoli. Pokus objasňuje, proč kovy působí 'studené na dotek' více než plasty.",
+  "materials": [
+    "kovová destička",
+    "plastová destička podobných rozměrů",
+    "dva kelímky s ledem nebo kostky ledu",
+    "termovizní kamera nebo termocitlivá (barevná) fólie"
+  ],
+  "procedure": "Umístit kelímky s ledem současně na obě destičky. Po přibližně 100 sekundách sledovat termovizní kamerou nebo termocitlivou fólií, jak daleko proniklo chlazení — u kovu rovnoměrně po celé ploše, u plastu jen v místě kontaktu s ledem.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1584/tepelna-vodivost-plastu-a-kovu-i"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-fendt-pruzina",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Walter Fendt: Pružinový oscilátor (česky)",
+  "type": "applet",
+  "description": "Český HTML5 applet Waltera Fendta simulující kmitání tělesa na pružině. Vizualizuje výchylku, rychlost, zrychlení, sílu a energii v čase a ilustruje pružnou deformaci pevného tělesa (pružiny). Vhodné jako demonstrace pružnosti pevných látek před nebo po pokusu s gumou a pružinou. Spustitelné online bez instalace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/springpendulum_cz.htm"
+}

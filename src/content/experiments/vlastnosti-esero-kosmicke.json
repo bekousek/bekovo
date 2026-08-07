@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-esero-kosmicke",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Materiály pro kosmické lodě – testování vlastností pevných látek (ESERO)",
+  "type": "measurement",
+  "description": "Žákovský pokus v motivujícím kosmickém kontextu (program ESA Artemis). Žáci testují sadu 8 pevných materiálů (dřevo, kámen, hliník, měď, polystyren, plast, mosaz, ocel) a systematicky měří jejich fyzikální vlastnosti: hustotu (hmotnost/objem), elektrickou vodivost (jednoduchý obvod), magnetické vlastnosti (přiblížení magnetu) a tepelnou vodivost (dotykem). Na závěr žáci rozhodnou, který materiál je nejvhodnější pro různé části kosmické lodi, a zdůvodní svůj výběr.",
+  "materials": [
+    "sada 8 vzorků pevných materiálů (dřevo, kámen, Al, Cu, polystyren, plast, mosaz, ocel)",
+    "váha a pravítko",
+    "baterie, LED a dráty s krokosvorkami (pro elektrickou vodivost)",
+    "neodymový magnet",
+    "pracovní listy ESERO pro zaznamenávání výsledků"
+  ],
+  "procedure": "Každý tým postupně testuje každý ze 8 vzorků: 1. Změřit hmotnost a objem, vypočítat hustotu. 2. Zapojit do obvodu — svítí LED? (elektrická vodivost) 3. Přiblížit magnet — přitahuje se? (magnetismus) 4. Přiložit na chvilku na zápěstí — studí víc než jiné? (tepelná vodivost) Výsledky zaznamenat do tabulky a rozhodnout o nejvhodnějším materiálu pro různé části kosmické lodi.",
+  "source": {
+    "label": "ESERO ČR",
+    "url": "https://www.eserocz.cz/materialy-pro-vyuku/materialy-pro-kosmicke-lode"
+  }
+}
