@@ -50,7 +50,13 @@
     "2026-07-28-mechanika--prace-na-jednoduchych-strojich",
     "2026-07-29-mereni--hustota",
     "2026-07-30-mikrosvet--radioaktivita",
-    "2026-07-31-optika--oko"
+    "2026-07-31-optika--oko",
+    "2026-08-02-pohyb--grafy",
+    "2026-08-03-sila--silomer",
+    "2026-08-04-skupenstvi-latek--zmeny-skupenstvi-latek",
+    "2026-08-05-tepelne-motory--proudovy-raketovy-motor",
+    "2026-08-06-vlastnosti-latek--pevne-latky",
+    "2026-08-07-akustika--zdroje-zvuku"
   ],
   "history": [
     {
@@ -505,6 +511,60 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/83",
       "merged": true,
       "processedAt": "2026-07-31T12:14:44.943Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-02-pohyb--grafy",
+      "subtopic": "pohyb--grafy",
+      "branch": "routine/nightly-2026-08-02-pohyb--grafy",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/84",
+      "merged": true,
+      "processedAt": "2026-08-07T12:12:27.598Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-03-sila--silomer",
+      "subtopic": "sila--silomer",
+      "branch": "routine/nightly-2026-08-03-sila--silomer",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/85",
+      "merged": true,
+      "processedAt": "2026-08-07T12:12:45.751Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-04-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
+      "branch": "routine/nightly-2026-08-04-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/86",
+      "merged": true,
+      "processedAt": "2026-08-07T12:13:03.753Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-05-tepelne-motory--proudovy-raketovy-motor",
+      "subtopic": "tepelne-motory--proudovy-raketovy-motor",
+      "branch": "routine/nightly-2026-08-05-tepelne-motory--proudovy-raketovy-motor",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/87",
+      "merged": true,
+      "processedAt": "2026-08-07T12:13:21.985Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-06-vlastnosti-latek--pevne-latky",
+      "subtopic": "vlastnosti-latek--pevne-latky",
+      "branch": "routine/nightly-2026-08-06-vlastnosti-latek--pevne-latky",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/88",
+      "merged": true,
+      "processedAt": "2026-08-07T12:13:40.722Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-07-akustika--zdroje-zvuku",
+      "subtopic": "akustika--zdroje-zvuku",
+      "branch": "routine/nightly-2026-08-07-akustika--zdroje-zvuku",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/89",
+      "merged": true,
+      "processedAt": "2026-08-07T12:13:59.671Z",
       "driveFileId": ""
     }
   ]
