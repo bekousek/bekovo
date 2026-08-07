@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-sul-skupenstvi",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Vliv soli na skupenské přechody vody",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: žáci měří teplotu varu čisté vody a roztoku kuchyňské soli a srovnávají naměřené hodnoty (čistá voda ~100 °C, slaný roztok nad 100 °C). Volitelně lze doplnit měření bodu tuhnutí. Pokus propojuje skupenské přechody s každodenními jevy: solení silnic v zimě, vaření těstovin, konzervace potravin.",
+  "materials": [
+    "kuchyňská sůl (NaCl)",
+    "voda",
+    "laboratorní teploměr nebo digitální teplotní čidlo",
+    "vařič nebo kahane",
+    "dvě nádoby na vaření"
+  ],
+  "procedure": "Zahřejeme čistou vodu a zaznamenáme teplotu varu. Opakujeme se silně osolenou vodou. Výsledky zapíšeme do tabulky a diskutujeme fyzikální příčinu naměřeného rozdílu.",
+  "source": {
+    "label": "iQLANDIA Liberec — iQBlog",
+    "url": "https://iqlandia.cz/iqblog/jak-sul-ovlivnuje-skupenske-premeny-vody"
+  }
+}

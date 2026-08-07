@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-var-papirovy-kelimek",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody v papírovém kelímku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: papírový kelímek naplněný vodou se zahřívá přímým plamenem kahánu zezdola. Papír nevzplane, protože voda průběžně pohlcuje dodávané teplo a udržuje teplotu stěny hluboko pod teplotou vznícení papíru (~230 °C). Voda nakonec dosáhne bodu varu a pokus dramaticky ukazuje, že skupenské teplo brání nárůstu teploty nad 100 °C. Efektní vizuální demonstrace vhodná jako motivační úvod tématu varu.",
+  "materials": [
+    "papírový kelímek nebo hrnek (bez plastového povlaku)",
+    "voda",
+    "stojan s kleštěmi nebo rukojetí",
+    "kahane nebo plynový hořák"
+  ],
+  "procedure": "Kelímek naplníme přibližně do poloviny vodou a upevníme do stojanu. Umístíme plamen kahánu pod kelímek. Papír nezhoří; po 5–10 minutách voda začne vařit.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2191/var-vody-v-papirovem-kelimku"
+  }
+}

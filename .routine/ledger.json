@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-03",
+  "lastPicked": "2026-08-04",
   "history": [
     {
       "date": "2026-05-08",
@@ -386,6 +386,12 @@
       "subtopic": "sila--silomer",
       "result": "pr-pending",
       "items": 11
+    },
+    {
+      "date": "2026-08-04",
+      "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
+      "result": "pr-pending",
+      "items": 15
     }
   ],
   "skipUntil": {},
