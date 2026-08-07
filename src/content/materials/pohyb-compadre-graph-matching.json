@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-compadre-graph-matching",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Graph Matching Motion Model (ComPADRE / OSP)",
+  "type": "applet",
+  "description": "Interaktivní simulace z portálu ComPADRE: žák nastavuje posuvníky počáteční podmínky pohybu a snaží se přiřadit pohyb červeného objektu k pohybu modrého objektu. Výsledek se zobrazuje jako graf polohy v závislosti na čase. Simulace pokrývá pohyb s konstantní rychlostí i se zrychlením a pomáhá pochopit tvar a sklon s-t grafu. Rozhraní je v angličtině, ovládání posuvníky nevyžaduje jazykové znalosti.",
+  "url": "https://www.compadre.org/precollege/items/detail.cfm?ID=10012"
+}
