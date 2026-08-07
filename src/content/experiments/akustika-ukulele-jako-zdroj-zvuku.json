@@ -1,0 +1,16 @@
+{
+  "id": "akustika-ukulele-jako-zdroj-zvuku",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Ukulele jako zdroj zvuku — struna a rezonátor",
+  "type": "qualitative",
+  "description": "Demonstrační pokus zkoumající, jak struna ukulele generuje zvuk a jak rezonátorová skříňka zesiluje výsledný tón. Ukáže, že napínání nebo povolování struny mění výšku tónu — tedy jak fyzikální vlastnosti zdroje (délka, napnutí) určují frekvenci. Části pokusu lze realizovat i jako žákovský pokus s gumičkami nataženými přes krabici od bot.",
+  "materials": [
+    "ukulele nebo akustická kytara",
+    "alternativně: gumičky různé tloušťky, krabice od bot"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/2808"
+  }
+}

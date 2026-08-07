@@ -1,0 +1,16 @@
+{
+  "id": "akustika-vzduchovy-sloupec-trubice",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Vzduchový sloupec v trubici jako zdroj zvuku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus zachycený na videu: sada trubic různé délky (vzduchové sloupce) je naladěna na tóny tak, aby šlo zahrát jednoduchou píseň. Pokus ukazuje, jak rozechvění vzduchového sloupce (foukáním nebo úderem do otvoru) vytváří tón a jak délka trubice určuje výšku tónu. Demonstrační pokus vhodný i jako inspirace pro žákovskou výrobu.",
+  "materials": [
+    "trubice různých délek (PVC hadice nebo papírové trubky)",
+    "ladičky (volitelně pro kontrolu ladění)"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/747"
+  }
+}

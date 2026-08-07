@@ -1,0 +1,18 @@
+{
+  "id": "akustika-ukazky-z-akustiky-osciloskop",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Ukázky zdrojů zvuku s osciloskopem",
+  "type": "qualitative",
+  "description": "Demonstrační video natočené se žáky 2. stupně ZŠ, v němž ladička a flétna slouží jako zdroje zvuku a mikrofon připojený k počítačovému osciloskopu zobrazuje tvar vlny. Žáci sledují, jak různé zdroje (ladička versus dechový nástroj) generují odlišné průběhy a jak výška tónu odpovídá frekvenci. Demonstrační pokus vedený učitelem, vhodný i jako inspirace pro laboratorní práci.",
+  "materials": [
+    "ladička",
+    "dechový nástroj (flétna nebo zobcová flétna)",
+    "mikrofon připojený k PC",
+    "software pro osciloskop (Audacity nebo webová aplikace)"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ) — Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/1925"
+  }
+}

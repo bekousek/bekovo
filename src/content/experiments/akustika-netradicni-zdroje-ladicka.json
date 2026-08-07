@@ -1,0 +1,19 @@
+{
+  "id": "akustika-netradicni-zdroje-ladicka",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Netradiční zdroje zvuku — skleničky a dřevěná žába",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: učitel ukazuje netradiční zdroje zvuku — krystalové skleničky vydávají čistý tón při nárazu nebo tření navlhčeným prstem, dřevěná hračka žabka vydává charakteristický zvuk při přejíždění tyčinkou po hřebenech, ladička se rozezní úderem i přiložením k různým rezonátorům. Rozšiřuje žákům pojem zdroje zvuku daleko za hranice tradičních hudebních nástrojů.",
+  "materials": [
+    "krystalové skleničky (různá velikost)",
+    "voda",
+    "dřevěná hračka žabka (orientální hračka)",
+    "palička",
+    "ladička"
+  ],
+  "source": {
+    "label": "Veletrh nápadů učitelů fyziky 11 — Leoš Dvořák",
+    "url": "https://vnuf.cz/sbornik/prispevky/11-07-Dvorak.html"
+  }
+}

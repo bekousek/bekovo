@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-hlasovy-trakt",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hlasový trakt jako zdroj zvuku — samohlásky (Falstad)",
+  "type": "applet",
+  "description": "Applet simuluje lidský hlasový trakt jako akustický filtr a zdroj zvuku samohlásek. Ukazuje, jak hlasivky produkují základní tón a tvar hlasového traktu (pohyb jazyka a rtů) formuje výsledný zvuk různých samohlásek. Žáci mohou přepínat mezi samohláskami a slyšet rozdíl — přímá ilustrace lidského hlasu jako biologického zdroje zvuku. Ovládání formou výběrového menu, popis v angličtině.",
+  "url": "https://www.falstad.com/vowel/"
+}

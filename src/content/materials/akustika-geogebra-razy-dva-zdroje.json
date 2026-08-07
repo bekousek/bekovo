@@ -1,0 +1,9 @@
+{
+  "id": "akustika-geogebra-razy-dva-zdroje",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Rázy — dva zdroje s blízkou frekvencí (GeoGebra)",
+  "type": "applet",
+  "description": "Česká interaktivní vizualizace v GeoGebra zobrazuje, co se stane při skládání kmitů dvou zdrojů zvuku s mírně odlišnou frekvencí — vznikají rázy (pravidelné zesilování a zeslabování). Žáci nastavují frekvence posuvníky a sledují výsledný signál. Jednoduché a přehledné rozhraní, funguje online v prohlížeči bez instalace.",
+  "url": "https://www.geogebra.org/m/uC6BFHea"
+}
