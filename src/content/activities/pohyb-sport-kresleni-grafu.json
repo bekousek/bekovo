@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-sport-kresleni-grafu",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Fyzika a sport – kreslení grafů pohybu ze sportovního videa",
+  "type": "method",
+  "description": "Aktivita reagující na zjištění, že žáci mají systematické problémy s chápáním grafů pohybu. Učitel pustí krátké sportovní video (např. hod basketbalovým míčem, sprint) a žáci samostatně nakreslí graf závislosti polohy tělesa na čase – bez předchozího výkladu, jen z toho, co pozorovali. Následuje skupinová diskuse, porovnání grafů a hledání správné odpovědi. Aktivita nevyžaduje žádné pomůcky kromě videa a papíru.",
+  "source": {
+    "label": "VNUF 2017",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/22-01-Mathelitsch_L.pdf"
+  }
+}

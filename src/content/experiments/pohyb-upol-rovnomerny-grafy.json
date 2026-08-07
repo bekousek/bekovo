@@ -1,0 +1,16 @@
+{
+  "id": "pohyb-upol-rovnomerny-grafy",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb – videoanalýza s-t a v-t grafů",
+  "type": "qualitative",
+  "description": "Demonstrační videopokus z katedry experimentální fyziky UP Olomouc: vozík se pohybuje po vzduchové dráze rovnoměrně a pohyb je zachycen kamerou. Videoanalýzou se automaticky vykreslí grafy závislosti polohy na čase x(t) – lineární přímka, a rychlosti na čase v(t) – vodorovná přímka odpovídající konstantní rychlosti. Učitel video promítá a vede diskusi o tom, co tvar grafu říká o charakteru pohybu. Speciální vybavení (vzduchová dráha) zajišťuje laboratoř; žáci sledují a interpretují výsledky.",
+  "materials": [
+    "video z portálu UPOL (dostupné online)",
+    "projektor nebo interaktivní tabule"
+  ],
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy KEF UP",
+    "url": "http://pokusy.upol.cz/videopokusy/kinematika-hmotnych-bodu/rovnomerny-primocary-pohyb-1/"
+  }
+}

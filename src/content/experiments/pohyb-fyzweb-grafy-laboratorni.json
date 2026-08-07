@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-fyzweb-grafy-laboratorni",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Zobrazení pohybu pomocí grafů – laboratorní úloha",
+  "type": "measurement",
+  "description": "Žákovský pokus: žáci měří pohyb tělesa (např. vozík, autíčko nebo pohyb vlastního těla) a naměřená data zaznamenávají do tabulky, ze které pak sestrojují graf závislosti dráhy na čase (s-t graf). Cílem je propojit reálný pohyb s jeho grafickým záznamem a naučit se z grafu odečítat informace o pohybu – rychlost, rovnoměrnost, klid. Portál FyzWeb MFF UK uvádí tuto úlohu jako vhodný námět pro základní školy.",
+  "materials": [
+    "stopky nebo mobilní aplikace s časovačem",
+    "pásový metr nebo svinovací metr",
+    "čtverečkovaný papír pro sestrojení grafu",
+    "vozík, autíčko nebo jiný pohybující se předmět"
+  ],
+  "procedure": "1. Žáci si zvolí pohybující se těleso a vymezí dráhu (např. 4 m). 2. V pravidelných časových intervalech (každé 2 s) odečítají vzdálenost od startu a zapisují do tabulky. 3. Data zanesou do grafu s-t. 4. Diskutují: co znamená přímka? Jaká je rychlost? Je pohyb rovnoměrný?",
+  "source": {
+    "label": "FyzWeb KDF MFF UK",
+    "url": "http://fyzweb.cz/clanky/index.php?id=136"
+  }
+}
