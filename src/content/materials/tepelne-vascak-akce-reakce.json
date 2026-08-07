@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-vascak-akce-reakce",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "3. Newtonův zákon – zákon akce a reakce (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Vaščák vizualizuje zákon akce a reakce – přesně ten princip, který pohání raketové i proudové motory: akční síla výtoku plynů z trysky vyvolává stejně velkou, opačně orientovanou reakční sílu pohánějící raketu vpřed. Animace je interaktivní, bez instalace, česky.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_newton3&l=cz"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tepelne-lihova-raketa",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Lihová raketa",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, provádí učitel. Do PET lahve se nalije malé množství ethanolu a nechá vypařit; lahev se zavěsí na natažený provázek. Hořící zápalkou se u otvoru ve víčku zapálí směs lihových par se vzduchem. Hořící páry se zahřejí, rozpínají a rychle unikají otvorem dozadu, takže lahev vyletí v opačném směru – přímá analogie raketového pohonu. Pokus vysvětluje zákon zachování hybnosti i zákon akce a reakce.",
+  "materials": [
+    "PET lahev 1–1,5 l",
+    "technický líh (ethanol)",
+    "víčko s malým otvorem",
+    "zápalky nebo zapalovač",
+    "provázek nebo drát na zavěšení"
+  ],
+  "procedure": "Nalijte ~5 ml ethanolu do lahve, protřepejte a přebytečný líh vylijte (páry zůstanou uvnitř). Lahev zavěste vodorovně na natažený provázek otvorem vzad. Přiložte hořící zápalku k otvoru – páry se vznítí a lahev se vymrští reakční silou.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2104/lihova-raketa"
+  }
+}

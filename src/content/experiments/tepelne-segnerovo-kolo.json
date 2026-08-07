@@ -1,0 +1,18 @@
+{
+  "id": "tepelne-segnerovo-kolo",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Segnerovo kolo – model reaktivní turbíny",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (jednodušší variantu lze provést jako žákovský). Válcovitá nádoba se zahnutými rameny v dolní části (Segnerovo kolo) se naplní vodou; voda vytéká tryšťmi zahnutých ramen a nádoba se roztáčí v opačném smyslu. Pokus přímo modeluje princip reaktivní turbíny a ukazuje, že výtoková síla (akce) uvede těleso do pohybu opačným směrem (reakce). Vynálezce Ján Segner byl předchůdcem moderních reaktivních pohonů.",
+  "materials": [
+    "Segnerovo kolo (standardní školní fyzikální pomůcka)",
+    "stojan s hákem nebo tyčí",
+    "miska nebo kbelík na odtok vody"
+  ],
+  "procedure": "Kolo zavěste na stojan nad mísu. Nalijte vodu do horní nádoby. Sledujte, jak voda vytéká zahnutými rameny a kolo se roztáčí v opačném směru – zákon akce a reakce v praxi.",
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/mechanika/reaktivni-motory/segnerovo-kolo-3/"
+  }
+}

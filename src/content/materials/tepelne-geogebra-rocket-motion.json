@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-geogebra-rocket-motion",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Exploring Rocket Motion – simulace letu rakety (GeoGebra)",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet simuluje svislý let rakety ve třech fázích: pohon aktivním motorem, volný let po vyčerpání paliva a sestup. Žáci sledují, jak tah motoru ovlivňuje rychlost a výšku letu, a mohou měnit parametry simulace. Rozhraní je v angličtině, ovládání intuitivní.",
+  "url": "https://www.geogebra.org/m/H8hfaQap"
+}

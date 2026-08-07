@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-phet-kolizni-laborator",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Kolizní laboratoř – zachování hybnosti (PhET, česky)",
+  "type": "applet",
+  "description": "Česká HTML5 simulace PhET umožňuje zkoumat srážky v 1D i 2D a vizualizovat vektory hybnosti – fyzikální veličiny klíčové pro pochopení principu raketového pohonu: výtok hmoty jedním směrem musí být kompenzován pohybem rakety směrem opačným. Žáci interaktivně mění hmotnosti a rychlosti a sledují zachování celkové hybnosti soustavy.",
+  "url": "https://phet.colorado.edu/cs/simulations/collision-lab"
+}

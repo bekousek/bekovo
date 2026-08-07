@@ -1,0 +1,19 @@
+{
+  "id": "tepelne-raketa-zapalka",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Miniraketa z alobalu a zápalky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, provádí výhradně učitel. Z proužku alobalu a zápalky se stočí miniaturní raketa s malou tryškou; zápalková hmota po zapálení shoří a plyny unikají tryškou, čímž raketa vyletí. Velmi jednoduchá a rychlá ukázka principu reaktivního pohonu z materiálů dostupných v každé domácnosti – vhodná jako motivační vsuvka na začátek hodiny.",
+  "materials": [
+    "zápalky",
+    "alobal",
+    "jehla nebo špendlík (k vytvoření tryšky)",
+    "zapalovač nebo svíčka"
+  ],
+  "procedure": "Zápalku položte na proužek alobalu u uzavřeného konce; zabalte alobalem těsně kolem hlavičky, otevřený konec zúžte jehličkou na tryšku. Raketu položte na hladký žlábek nebo skloněnou plochu a pod zápalnou hmotou přiložte plamen – raketa vyletí reakční silou.",
+  "source": {
+    "label": "FyzWeb MFF UK",
+    "url": "https://fyzweb.cz/materialy/bizarni_kramy/rocket.php"
+  }
+}
