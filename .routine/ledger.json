@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-02",
+  "lastPicked": "2026-08-03",
   "history": [
     {
       "date": "2026-05-08",
@@ -380,6 +380,12 @@
       "subtopic": "pohyb--grafy",
       "result": "pr-pending",
       "items": 12
+    },
+    {
+      "date": "2026-08-03",
+      "subtopic": "sila--silomer",
+      "result": "pr-pending",
+      "items": 11
     }
   ],
   "skipUntil": {},

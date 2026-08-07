@@ -1,0 +1,20 @@
+{
+  "id": "sila-vyroba-silomeru",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Vyrobte si siloměr — papírový pružinový siloměr",
+  "type": "measurement",
+  "description": "Žákovský pokus, při němž žáci sestrojí funkční pružinový siloměr ze dvou papírových trubiček (čtvrtka A4), gumiček, kousku špejle a kancelářských sponek. Po sestavení provedou kalibraci stupnice pomocí závaží o známé hmotnosti (1 kg ≈ 10 N), čímž si prakticky ověří přímou úměru mezi silou a prodloužením pružiny. Žáci pochopí nejen jak siloměr funguje, ale i proč — vztah síla–prodloužení pružiny je základem jeho konstrukce.",
+  "materials": [
+    "čtvrtka A4 (tvrdý papír)",
+    "dvě gumičky",
+    "kousek špejle",
+    "dvě kancelářské sponky nebo drát",
+    "závaží o známé hmotnosti (100 g, 200 g, 500 g)"
+  ],
+  "procedure": "Sroluj papír do dvou trubiček (vnější obal a vnitřní pohyblivá část), navlékni gumičku jako pružný element a přidej háček ze sponky. Postupně zavěšuj závaží o různé hmotnosti a na vnitřní trubičce zaznačuj polohu pro každou hodnotu síly v newtonech — vznikne kalibrovaná stupnice.",
+  "source": {
+    "label": "FyzWeb — pokusy a materiály (KDF MFF UK)",
+    "url": "https://fyzweb.cz/materialy/sily/obecne/silomer.php"
+  }
+}

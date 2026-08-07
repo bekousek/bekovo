@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-vztlak",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Walter Fendt: Siloměr při měření vztlakové síly (HTML5)",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 animace zobrazující těleso zavěšené na siloměru, které se postupně ponořuje do kapaliny — žáci přímo sledují, jak se mění ukazatel siloměru s hloubkou ponoření. Siloměr je centrem děje a žáci se učí odečítat jeho stupnici v reálném fyzikálním kontextu. Lze měnit hustotu tělesa i kapaliny a pozorovat vliv na naměřenou sílu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/buoyantforce_cz.htm"
+}
