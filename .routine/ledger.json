@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-04",
+  "lastPicked": "2026-08-05",
   "history": [
     {
       "date": "2026-05-08",
@@ -392,6 +392,12 @@
       "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
       "result": "pr-pending",
       "items": 15
+    },
+    {
+      "date": "2026-08-05",
+      "subtopic": "tepelne-motory--proudovy-raketovy-motor",
+      "result": "pr-pending",
+      "items": 23
     }
   ],
   "skipUntil": {},

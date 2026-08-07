@@ -1,0 +1,11 @@
+{
+  "id": "tepelne-motory-vim-proc-reakce",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Natoč a vysvětli: reakční pohon (soutěž Vím proč / ČEZ)",
+  "description": "Žák navrhne, připraví a natočí video (3–5 minut) dokumentující domácí experiment demonstrující princip reakčního pohonu – například balónkovou raketu na provázku, octovou raketu (ocet + jedlá soda) nebo vodní tlakovou raketu. Součástí videa je srozumitelný výklad fyzikálního principu: Newtonův 3. zákon a zachování hybnosti. Projekt trvá 1–2 týdny (příprava experimentu, natáčení, střih, komentář). Hotové video lze přihlásit do soutěže Vím proč v kategorii ZŠ; jako inspirace slouží archivní soutěžní videa o raketovém pohonu dostupná na webu soutěže.",
+  "source": {
+    "label": "Vím proč (ČEZ / Svět energie)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tepelne-lodnicka-reaktivni",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Lodička s reaktivním vodním pohonem",
+  "type": "qualitative",
+  "description": "Žákovský nebo demonstrační pokus. Z plastové lahve se sestaví jednoduchá plovoucí lodička: voda vytéká otvorem (tryskou) dozadu, čímž lodička reakční silou pluje dopředu. Pokus bezpečně a bez ohně ukazuje zákon akce a reakce na hladině vody. Na rozdíl od pop-pop lodičky (parní pohon) nepotřebuje zdroj tepla – pohon zajistí jen voda a gravitace.",
+  "materials": [
+    "plastová lahev s otvorem ve víčku (tryska)",
+    "nádoba s vodou nebo vana"
+  ],
+  "procedure": "Naplňte lahev vodou, uzavřete víčkem s malým otvorem a položte na hladinu vody otvorem dozadu. Lodička se začne pohybovat opačným směrem, než voda vytéká.",
+  "source": {
+    "label": "VNUF 1997",
+    "url": "https://vnuf.cz/sbornik/prispevky/02-17-Ondrusek.html"
+  }
+}

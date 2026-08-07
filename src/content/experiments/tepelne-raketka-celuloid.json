@@ -1,0 +1,22 @@
+{
+  "id": "tepelne-raketka-celuloid",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Raketka z celuloidové hmoty a alobalu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, provádí učitel venku. Kousek celuloidové hmoty (např. ze starého pravítka) se zabalí do alobalu s malým výtokovým otvorem; soustava se zavěsí na nit. Po zahřátí svíčkou zdola se celuloid vznítí, horké plyny rychle unikají otvorem a soustava se pohybuje v opačném směru – přesvědčivě ilustruje zákon akce a reakce při spalování. Pokus musí probíhat výhradně venku nebo ve větrané místnosti.",
+  "materials": [
+    "kousek celuloidové hmoty cca 4×2 cm (starší celuloidové pravítko)",
+    "alobal",
+    "dřevěná špajle (k vytvoření tryšky)",
+    "nit",
+    "zápalková krabička",
+    "svíčka",
+    "kleště"
+  ],
+  "procedure": "Celuloid zabalte do alobalu; před zabalením vložte špajli, aby vznikl otvor pro výtok plynů, a poté špajli vytáhněte. Alobal s krabičkou zavěste na nit venku. Zahřívejte zdola svíčkou – celuloid se vznítí, plyny unikají otvorem a raketka se pohne opačným směrem.",
+  "source": {
+    "label": "VNUF 1998",
+    "url": "http://vnuf.cz/sbornik/prispevky/03-09-Lansky.html"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "tepelne-vodni-raketa",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Vodní raketa z PET lahve",
+  "type": "qualitative",
+  "description": "Žákovský pokus – žáci sami sestavují a odpalují raketu venku. Plastová lahev se z části naplní vodou, do korku se vsadí automobilový ventil a pumpa natlakuje vzduch. Po uvolnění stlačený vzduch vytlačí vodní sloupec tryskou dolů a raketa vyletí reakční silou nahoru. Výška letu závisí na množství vody a přetlaku – lze optimalizovat a porovnávat, čímž pokus přechází v měření.",
+  "materials": [
+    "PET lahev 1,5 l",
+    "voda",
+    "korek s otvorem",
+    "dutý automobilový ventil (svorník)",
+    "ruční pumpa s manometrem",
+    "pěnové nebo plastové stabilizační ploutve"
+  ],
+  "procedure": "Vsaďte ventil do korku, nalijte do lahve ~1/3 vody, uzavřete korek. Lahev umístěte na jednoduchou odpalovací tyč, napumpujte vzduch na 4–8 barů. Uvolněte – voda vytryskne dolů a raketa vyletí nahoru.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/vodni-raketa-navod"
+  }
+}

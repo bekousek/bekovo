@@ -1,0 +1,12 @@
+{
+  "id": "tepelne-vyfuk-raketova",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Viktorova raketa – výpočet výšky letu (Výfuk XIV/2)",
+  "type": "other",
+  "description": "Žáci vypočítají výšku, do které vyletí raketa o hmotnosti 70 g vybavená raketovým motorem s impulsem tahu I = 6 N·s a dobou hoření 0,6 s; předpokládá se kolmý start, zanedbatelný odpor vzduchu a konstantní průběh tahu. Úloha procvičuje druhý Newtonův zákon a zachování hybnosti v reálném kontextu raketového pohonu. Trvá 30–60 minut, výstup je písemné řešení vhodné k odevzdání nebo ke srovnání výsledků v hodině.",
+  "source": {
+    "label": "Výfuk – korespondenční seminář MFF UK",
+    "url": "https://vyfuk.org/zadani/14/2"
+  }
+}

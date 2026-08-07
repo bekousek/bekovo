@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-compadre-rocket-car",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Rocket Car Simulation – raketové vozidlo (EJSS / ComPADRE)",
+  "type": "applet",
+  "description": "HTML5/JavaScript simulace raketového vozidla z projektu Easy JavaScript Simulations ukazuje, jak tah pohání těleso a jak se mění rychlost a poloha v závislosti na parametrech pohonu. Žáci vizuálně sledují vztah mezi tahem motoru, hmotností a zrychlením – přímá aplikace 2. a 3. Newtonova zákona v kontextu raketového pohonu. Rozhraní je v angličtině.",
+  "url": "https://www.compadre.org/osp/EJSS/5131/426.htm"
+}
