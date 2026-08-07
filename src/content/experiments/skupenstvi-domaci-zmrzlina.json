@@ -1,0 +1,21 @@
+{
+  "id": "skupenstvi-domaci-zmrzlina",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Výroba domácí zmrzliny – tuhnutí v solné směsi",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci si v párech vyrobí zmrzlinu pomocí chladicí solné směsi. Kuchyňská sůl snižuje teplotu tání ledu pod 0 °C; vzniklá směs (okolo −10 °C) způsobí tuhnutí smetanové náplně v sáčku. Pokus přímo ilustruje skupenský přechod tuhnutí (kapalina → pevná látka) a vliv příměsi na teplotu skupenského přechodu. Jedlý výsledek výrazně motivuje žáky k aktivní účasti.",
+  "materials": [
+    "rozmělněný led (cca 500 g na skupinu)",
+    "hrubá kuchyňská sůl (cca 10 lžic)",
+    "plnotučné mléko nebo smetana (cca 200 ml)",
+    "cukr, vanilka",
+    "dva igelitové sáčky se zipem (malý a velký)",
+    "plastová krabička s víkem"
+  ],
+  "procedure": "Led rozmělníme a smícháme se solí v krabičce. V malém sáčku připravíme směs mléka, cukru a vanilky. Sáček vložíme do krabičky se solní směsí, zavřeme a třepeme 10–15 minut. Vyjmeme sáček a zmrzlinu ochutnáme.",
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/domaci-zmrzlina"
+  }
+}

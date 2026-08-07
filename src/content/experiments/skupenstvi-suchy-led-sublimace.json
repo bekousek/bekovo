@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-suchy-led-sublimace",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Suchý led – demonstrace sublimace CO₂",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s tuhým oxidem uhličitým (suchý led, −78,5 °C): za normálního tlaku suchý led nepřechází do kapalné fáze, ale přímo sublimuje na plyn. Základní verze: kousek suchého ledu na vzduchu vytváří bílou mlhu (desublimovaná vodní pára z okolí). Rozšíření: uzavřením suchého ledu do PET preformy lze tlakem vyvolat přechod CO₂ do kapalného stavu a pak jeho zpětné tuhnutí – žáci pozorují efekt trojného bodu. Pokus demonstruje sublimaci, desublimaci i vliv tlaku na skupenství. Nutné ochranné rukavice.",
+  "materials": [
+    "suchý led (pevný CO₂; objednat u distributorů potravinářského CO₂)",
+    "kryogenní nebo silné kuchyňské rukavice",
+    "PET preforma (polotovar PET lahve) – pro rozšíření",
+    "větraná místnost"
+  ],
+  "procedure": "Základní: kousek suchého ledu (s rukavicemi) položíme na podložku a pozorujeme sublimaci a tvorbu mlhy. Rozšíření (trojný bod): suchý led nasypeme do PET preformy, zašroubujeme víčko, čekáme na zkapalně CO₂; opatrně uvolníme víčko – CO₂ opět přechází do pevného skupenství.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/suchy_led.pdf"
+  }
+}

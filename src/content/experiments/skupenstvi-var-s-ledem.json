@@ -1,0 +1,21 @@
+{
+  "id": "skupenstvi-var-s-ledem",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody s ledem – tání a var současně",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: skleněná zkumavka naplněná vodou s kouskem ledu přitěženým drátkem ke dnu se zahřívá plamenem v horní části. Voda nahoře začne vařit, zatímco led na dně zůstane neroztavený – díky nízké tepelné vodivosti vody. Pokus překvapivě ukazuje, že tání a var mohou probíhat v téže nádobě zároveň, a vyvracuje intuici žáků o rovnoměrném prohřívání kapaliny.",
+  "materials": [
+    "skleněná zkumavka nebo trubice (cca 25 cm)",
+    "kousek ledu",
+    "voda",
+    "tenký drát nebo olověné závaží (k přitěžení ledu)",
+    "kahane nebo plynový hořák",
+    "stojan s držákem"
+  ],
+  "procedure": "Kousek ledu přitěžíme drátkem ke dnu zkumavky a přelijeme vodou. Zkumavku uchytíme do stojanu pod ostrým úhlem a zahříváme plamenem její horní část. Čekáme, dokud voda nahoře nezačne vařit; průběžně kontrolujeme, zda led na dně zůstává celistvý.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2189/var-vody-s-ledem"
+  }
+}
