@@ -1,0 +1,16 @@
+{
+  "id": "magnetismus-magnetizace-radiatoru",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Zmagnetování železného radiátoru zemským polem",
+  "type": "qualitative",
+  "description": "Žákovský průzkumný pokus: žáci přikládají kompas k různým místům železného radiátoru ústředního topení a zjišťují, zda a kde má radiátor magnetické póly. Svislé feromagnetické předměty jsou dlouhodobě magnetizovány zemským magnetickým polem — horní a dolní část radiátoru tak tvoří opačné póly. Pokus propojuje abstraktní učivo o magnetizaci s reálným předmětem ve třídě nebo doma.",
+  "materials": [
+    "kompas"
+  ],
+  "procedure": "Pomalu přisunuj kompas k různým místům železného radiátoru (vršek, spodek, střed) a sleduj, na které straně se střelka vychyluje severním pólem — tím určíš magnetické póly radiátoru.",
+  "source": {
+    "label": "RVP.cz",
+    "url": "https://clanky.rvp.cz/clanek/k/g/495/ZMAGNETOVANI-RADIATORU-USTREDNIHO-TOPENI.html"
+  }
+}

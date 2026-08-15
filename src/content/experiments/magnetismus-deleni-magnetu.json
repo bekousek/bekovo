@@ -1,0 +1,18 @@
+{
+  "id": "magnetismus-deleni-magnetu",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Dělení tyčového magnetu",
+  "type": "qualitative",
+  "description": "Žákovský pokus, při němž žáci nejprve kompasem určí póly celistvého tyčového magnetu, poté ho přerazí a znovu určí póly obou kusů. Opakováním dělení žáci vlastním pozorováním zjistí, že každý kus má vždy oba póly — severní i jižní. Pokus přirozeně demonstruje, proč nelze magnetické póly izolovat.",
+  "materials": [
+    "starší tyčový magnet určený k přerazení",
+    "svěrák nebo kleště",
+    "kompas"
+  ],
+  "procedure": "1) Kompasem urči N a S pól celého magnetu. 2) Magnet přeraz pomocí svěráku nebo kleštěmi. 3) Kompasem urči póly obou kusů. 4) Volitelně: jeden kus dále přeraz a postup opakuj.",
+  "source": {
+    "label": "RVP.cz",
+    "url": "https://clanky.rvp.cz/clanek/k/ZKD/487/DELENI-TYCOVEHO-MAGNETU.html"
+  }
+}
