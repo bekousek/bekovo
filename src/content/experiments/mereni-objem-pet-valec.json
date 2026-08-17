@@ -1,0 +1,21 @@
+{
+  "id": "mereni-objem-pet-valec",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Výroba odměrného válce z PET lahve a měření objemu",
+  "type": "measurement",
+  "description": "Žákovský pokus: žáci si sami vyrobí odměrný válec z odříznuté PET lahve, kalibrují stupnici pomocí vody a pravítka a pak jím měří objem kapalin nebo sypných materiálů. Výroba vlastního měřidla prohlubuje porozumění tomu, co stupnice říká a proč musíme číst hladinu ve výši očí. Součástí příspěvku je pracovní list pro laboratorní práci i verzi domácího pokusu.",
+  "materials": [
+    "PET lahev 0,5 l nebo 1 l",
+    "nůžky nebo nůž",
+    "permanentní fixa",
+    "pravítko",
+    "voda k proměřování",
+    "nádoba pro měření"
+  ],
+  "procedure": "Odřízni horní část PET lahve — vznikne válcovitý nebo kónický kelímek. Naplňuj ho po 50 ml (100 ml) odměřenou vodou a fixem zaznačuj hladinu — takto vznikne stupnice. Hotovým válcem pak měř objem kapalin nebo sypanin.",
+  "source": {
+    "label": "VNUF 2012",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-18-Kabrhel.html"
+  }
+}
