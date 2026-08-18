@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-phet-stavba",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "PhET — Stavba atomu",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace, v níž žáci skládají atomy z protonů, neutronů a elektronů a okamžitě vidí, jak se mění prvek, náboj a hmotnostní číslo. Obsahuje herní režim pro procvičení. Pomáhá vybudovat konkrétní představu o složení atomového jádra a elektronového obalu.",
+  "url": "https://phet.colorado.edu/cs/simulations/build-an-atom"
+}

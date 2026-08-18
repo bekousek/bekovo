@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-atom-bublinove-ulohy",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Bublinové úlohy z atomistiky",
+  "type": "method",
+  "description": "Sada konceptuálních diskusních karet (concept cartoons) k tématu stavby atomu a jeho modelů pro žáky 13–15 let. Postavy vyslovují různé — správné i mylné — výroky o atomu, elektronech, jádru a historických modelech; žáci v malých skupinách rozhodují, kdo má pravdu, a zdůvodňují svůj výběr. Ke každé úloze jsou přiloženy metodické poznámky pro učitele s popisem typických miskoncepcí. Nevyžaduje žádné pomůcky.",
+  "source": {
+    "label": "Eva Hejnová — bublinové úlohy",
+    "url": "http://physics.ujep.cz/~ehejnova/Pro_ucitele/Letni_skola_Sluknov_2017/Bublinove_ulohy_atomistika_v2.pdf"
+  }
+}

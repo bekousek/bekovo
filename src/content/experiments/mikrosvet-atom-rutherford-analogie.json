@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-atom-rutherford-analogie",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Rozptylový pokus — analogie Rutherfordova pokusu zlatou fólií",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci pouštějí kuličky (mramory) po nakloněné rampě na skrytou překážku různého tvaru a z úhlů odrazu rekonstruují podobu překážky — přesná mechanická analogie Geiger-Marsdenova pokusu se zlatou fólií. Žáci pracují ve skupinách, zaznamenávají azimuty odrazů a odvozují tvar objektu, čímž prožijí způsob uvažování, jímž Rutherford dospěl k existenci malého hustého jádra atomu.",
+  "materials": [
+    "nakloněná rampa",
+    "kuličky nebo mramory",
+    "překážky různých tvarů (3D-tisknuté nebo z kartonu: válec, hranol, kopeček)",
+    "kruhová základna se sektory"
+  ],
+  "procedure": "Žáci střídavě pouštějí kuličky po rampě z různých stran na zakrytou překážku a zaznamenávají azimuty odrazu. Z výsledného vzoru usuzují na tvar a polohu překážky. Porovnají závěr s realitou a diskutují paralelu s Rutherfordovým pokusem.",
+  "source": {
+    "label": "CERN S'Cool LAB",
+    "url": "https://scoollab.web.cern.ch/classroom-activities/scattering-experiment"
+  }
+}

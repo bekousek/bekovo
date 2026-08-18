@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-walter-fendt-bohr-math",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt — Bohrův model vodíku (matematický)",
+  "type": "applet",
+  "description": "HTML5 aplikace rozšiřuje základní Bohrův model o výpočet poloměrů drah, energetických hladin a vlnových délek spektrálních čar vodíku. Zobrazuje odvozené vztahy vedoucí k předpovědi viditelného spektra (Balmerova série). Vhodné pro nadanější žáky 9. třídy.",
+  "url": "https://www.walter-fendt.de/html5/phcz/bohrmodel_math_cz.htm"
+}
