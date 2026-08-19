@@ -1,0 +1,9 @@
+{
+  "id": "optika-compadre-solar-lunar-eclipse",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Simulace zatmění Slunce a Měsíce (EjsS / ComPADRE)",
+  "type": "applet",
+  "description": "Interaktivní model zatmění Slunce a Měsíce z kolekce ComPADRE, vytvořený v prostředí EjsS. Simulace zobrazuje sklon oběžné dráhy Měsíce a vysvětluje, proč k zatmění nedochází každý měsíc. Žák může měnit parametry a pozorovat podmínky vzniku úplného i částečného zatmění obou typů.",
+  "url": "https://compadre.org/osp/EJSS/4690/SolarLunarEclipse/SolarLunarEclipse.html"
+}

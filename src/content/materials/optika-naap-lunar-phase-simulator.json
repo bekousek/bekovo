@@ -1,0 +1,9 @@
+{
+  "id": "optika-naap-lunar-phase-simulator",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "NAAP: Simulátor fází Měsíce (Lunar Phase Simulator)",
+  "type": "applet",
+  "description": "Interaktivní simulátor fází Měsíce z projektu Nebraska Astronomy Applet Project. Žák vidí současně pohled z vesmíru (poloha Měsíce na dráze kolem Země) i pohled ze Země (osvětlená část disku) a může přetahováním měnit pozici Měsíce. Propojení dvou perspektiv najednou je didakticky silné – žák ihned vidí, proč z dané polohy Měsíce vidíme právě tu fázi.",
+  "url": "https://astro.unl.edu/naap/lps/animations/lps.html"
+}
