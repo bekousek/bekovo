@@ -1,0 +1,12 @@
+{
+  "id": "plyny-meteo-laborator-venku",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Meteorologická laboratoř venku – předpověď počasí",
+  "type": "method",
+  "description": "Venkovní aktivita (30 min – 3 hodiny), při níž žáci vyrábějí jednoduché meteorologické přístroje (větroměr ze slámek a kelímků, rámečky na mraky) a sledují aktuální počasí. Propojuje fyziku s praktickým pozorováním atmosféry – tlak, vítr, oblačnost. Vhodné jako motivační úvod do tématu atmosféra před vlastním výkladem nebo pokusem.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/laborator-venku/predpoved-pocasi/"
+  }
+}
