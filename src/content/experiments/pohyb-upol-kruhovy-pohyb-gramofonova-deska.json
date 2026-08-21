@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-upol-kruhovy-pohyb-gramofonova-deska",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb po kružnici – videodemonstracea s otáčející se deskou",
+  "type": "qualitative",
+  "description": "Demonstrační videopokus. Na otáčející se desku (gramofonovou desku nebo otočný stůl) je umístěna výrazná barevná značka; záběr shora ukazuje bod pohybující se rovnoměrně po kružnici. Pokus se používá jako projekce pro celou třídu – žáci vizuálně pozorují, že rychlost (skalár) zůstává konstantní, ale směr vektoru rychlosti se neustále mění, a pochopí tak rozdíl mezi rovnoměrným přímočarým pohybem a rovnoměrným pohybem po kružnici.",
+  "materials": [
+    "gramofon nebo otočný stolek",
+    "barevná lepicí páska nebo výrazná značka",
+    "kamera nebo mobil pro záběr shora",
+    "projektor nebo interaktivní tabule"
+  ],
+  "procedure": "Nalepte výraznou značku na okraj otočné desky. Záběr kamerou z pozice kolmo shora. Spusťte otáčení a promítněte video třídě. Žáci sledují trajektorii (kružnice), odhadují rychlost a uvědomují si, že i když je rychlost konstantní, vektor rychlosti neustále mění směr – jde tedy o zrychlený pohyb (dostředivé zrychlení).",
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy KEF UP",
+    "url": "http://pokusy.upol.cz/videopokusy/kinematika-hmotnych-bodu/rovnomerny-pohyb-po-kruznici-i-9/"
+  }
+}

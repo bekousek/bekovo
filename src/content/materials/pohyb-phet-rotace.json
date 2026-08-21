@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-phet-rotace",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rotace – kruhový pohyb (PhET)",
+  "type": "applet",
+  "description": "HTML5 simulace PhET pro kruhový pohyb a rotaci. Žáci sledují závislost polohy, rychlosti a zrychlení na čase při pohybu po kružnici; vektory jsou zobrazeny graficky i numericky. Lze použít k pochopení rozdílu mezi přímočarým rovnoměrným pohybem a rovnoměrným kruhovým pohybem a k vizualizaci dostředivého zrychlení. Simulace je plně přeložená do češtiny.",
+  "url": "https://phet.colorado.edu/cs/simulations/rotation"
+}
