@@ -1,0 +1,18 @@
+{
+  "id": "sila-vidlicky-rovnovaha",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Tíhová síla – rovnováha vidliček na korkové zátce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: dvě vidličky jsou zapíchnuty symetricky do korkové zátky a celá soustava se vyváží na hraně sklenice nebo zápalky. Přestože to opticky vypadá nemožně, soustava drží – tíhová síla působí v těžišti, které leží pod bodem opory. Pokus je natolik jednoduchý, že žáci mohou snadno zopakovat doma.",
+  "materials": [
+    "2 kovové vidličky",
+    "korkový zátek",
+    "sklenice nebo zápalka"
+  ],
+  "procedure": "Zapíchnout obě vidličky symetricky do korkové zátky. Postavit zátek na hranu sklenice nebo na zápalku – soustava se udrží v rovnováze.",
+  "source": {
+    "label": "Svět energie – Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/472"
+  }
+}
