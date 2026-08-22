@@ -201,6 +201,7 @@ const osvItems = defineCollection({
       'plan-hodiny',
       'metodika',
       'pracovni-list',
+      'plakat',
       'video',
       'clanek',
       'dotaznik',

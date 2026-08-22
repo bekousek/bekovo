@@ -1,0 +1,43 @@
+{
+  "id": "osobnostni-karty-uklid-v-hlave",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Karty (Ú)klid v hlavě — 27 aktivit na seberegulaci",
+  "description": "Sada karet s 27 aktivitami na zklidnění nebo naopak aktivizaci: pohybová, dechová a relaxační cvičení s využitím imaginace. Ve škole se dají zařadit do třídnických hodin nebo komunitních kruhů.",
+  "keywords": [
+    "seberegulace",
+    "dech",
+    "relaxace",
+    "zklidnění",
+    "brain break",
+    "karty",
+    "komunitní kruh"
+  ],
+  "type": "aktivita",
+  "duration": "5–15 min na aktivitu",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák si vyzkouší několik technik zklidnění a najde tu, která funguje jemu.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "SOFA — Karty (Ú)klid v hlavě",
+    "url": "https://www.societyforall.cz/karty-u-klid-v-hlave",
+    "note": "Existuje i verze pro MŠ s 35 aktivitami. Karty jsou inspirované materiály Centra prevence násilí, traumatického stresu a suicidia RTVS."
+  },
+  "files": [
+    {
+      "label": "Karty (Ú)klid v hlavě — Dech jako kotva (PDF)",
+      "href": "https://www.societyforall.cz/file/c9feaadd68758f89b782fc908f34ebc2ca50636c.pdf?name=Karty+%28%C3%9A%29klid+v+hlav%C4%9B",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-22"
+}

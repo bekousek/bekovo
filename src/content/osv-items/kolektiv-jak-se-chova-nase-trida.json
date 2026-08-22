@@ -1,0 +1,33 @@
+{
+  "id": "kolektiv-jak-se-chova-nase-trida",
+  "categoryId": "tridni-kolektiv",
+  "title": "Jak se chová naše třída? — plakát na třídní pravidla",
+  "description": "Plakát pro tvorbu a udržování pravidel třídní komunity. Pravidla jsou formulovaná pozitivně a v první osobě, například „Zeptám se dospělého, když si nevím rady\" nebo „Naslouchám druhým, když mluví\".",
+  "keywords": [
+    "pravidla",
+    "plakát",
+    "třídní komunita",
+    "PBIS",
+    "odpovědnost",
+    "respekt"
+  ],
+  "type": "plakat",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Mít pravidla viditelně ve třídě a formulovaná tak, aby se dalo říct „tohle děláme\", ne „tohle nesmíš\".",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "SOFA — Jak se chová naše třída?",
+    "url": "https://www.societyforall.cz/jak-se-chova-nase-trida"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

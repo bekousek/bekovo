@@ -1,0 +1,24 @@
+{
+  "id": "osobnostni-pracovni-listy-sel",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Pracovní listy pro rozvoj socio-emočních dovedností",
+  "description": "Pracovní listy pro žáky, které patří k metodikám socio-emočního učení. Ke každé aktivitě jsou i otázky pro reflexi.",
+  "keywords": [
+    "pracovní list",
+    "socio-emoční dovednosti",
+    "reflexe",
+    "ke stažení"
+  ],
+  "type": "pracovni-list",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "SOFA — Pracovní listy pro rozvoj socio-emočních dovedností",
+    "url": "https://www.societyforall.cz/pracovni-listy-pro-rozvoj-socio-emocnich-dovednosti"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

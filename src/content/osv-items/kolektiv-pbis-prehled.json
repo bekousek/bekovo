@@ -1,0 +1,25 @@
+{
+  "id": "kolektiv-pbis-prehled",
+  "categoryId": "tridni-kolektiv",
+  "title": "Pozitivní podpora chování (PBIS) — celý rámec",
+  "description": "Přehled celého systému PBIS. Je to třístupňový systém podpory: první stupeň je nespecifická prevence pro celou školu, druhý cílí na děti s mírnými obtížemi v chování, třetí na individualizovanou podporu. V ČR byl pilotován v letech 2020–23.",
+  "keywords": [
+    "PBIS",
+    "třístupňová podpora",
+    "prevence",
+    "celoškolní přístup",
+    "klima školy"
+  ],
+  "type": "clanek",
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "SOFA — Pozitivní podpora chování (PBIS)",
+    "url": "https://www.societyforall.cz/pbis"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

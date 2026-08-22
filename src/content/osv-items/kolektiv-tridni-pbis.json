@@ -1,0 +1,34 @@
+{
+  "id": "kolektiv-tridni-pbis",
+  "categoryId": "tridni-kolektiv",
+  "title": "Třídní PBIS — pozitivní podpora chování ve třídě",
+  "description": "Jak zavést pozitivní podporu chování na úrovni jedné třídy. Základem je učení a fixace pozitivně formulovaných pravidel chování (tzv. očekávaného chování), což dětem vytváří srozumitelné a předvídatelné prostředí.",
+  "keywords": [
+    "PBIS",
+    "očekávané chování",
+    "pravidla",
+    "pozitivní podpora",
+    "prevence",
+    "předvídatelnost"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Místo řešení průšvihů dopředu nastavit, co se ve třídě očekává — a to pozitivně formulovat.",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "SOFA — Třídní PBIS",
+    "url": "https://www.societyforall.cz/tridni-pbis-pozitivni-podpora-chovani-ve-tride"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

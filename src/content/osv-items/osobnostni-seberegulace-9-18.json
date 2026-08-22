@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-seberegulace-9-18",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Seberegulace pro děti 9–18 let",
+  "description": "Materiál k seberegulaci cílený přesně na věk druhého stupně. Seberegulace pomáhá dětem lépe se soustředit, zvládat stres a řešit konflikty a snižuje impulzivitu.",
+  "keywords": [
+    "seberegulace",
+    "stres",
+    "soustředění",
+    "impulzivita",
+    "PDF",
+    "druhý stupeň"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Dát žákům konkrétní nástroje, jak se zklidnit nebo naopak nastartovat, když to potřebují.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "SOFA — Seberegulace pro děti 9–18 let",
+    "url": "https://www.societyforall.cz/file/1b6a028cc694d7fd603b001b1c7628b5e9176280.pdf?name=Seberegulace+pro+d%C4%9Bti+9-18+let"
+  },
+  "files": [
+    {
+      "label": "Seberegulace pro děti 9–18 let (PDF)",
+      "href": "https://www.societyforall.cz/file/1b6a028cc694d7fd603b001b1c7628b5e9176280.pdf?name=Seberegulace+pro+d%C4%9Bti+9-18+let",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-22"
+}

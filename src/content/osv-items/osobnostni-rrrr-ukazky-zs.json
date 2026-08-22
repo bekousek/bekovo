@@ -1,0 +1,31 @@
+{
+  "id": "osobnostni-rrrr-ukazky-zs",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Ukázky z metodik RRRR pro základní školy",
+  "description": "Vybrané ukázkové aktivity z metodik RRRR pro ZŠ — rychlý způsob, jak zjistit, jestli se metodika hodí, bez procházení celého PDF.",
+  "keywords": [
+    "RRRR",
+    "ukázky",
+    "aktivity",
+    "základní škola",
+    "na vyzkoušení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Emoce a jejich zvládání",
+    "Sebepoznávání a sebepojetí"
+  ],
+  "source": {
+    "label": "SOFA — Ukázky z metodik RRRR pro základní školy",
+    "url": "https://www.societyforall.cz/ukazky-z-metodik-rrrr-pro-zakladni-skoly"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

@@ -1,0 +1,33 @@
+{
+  "id": "kolektiv-balicek-tridniho-ucitele",
+  "categoryId": "tridni-kolektiv",
+  "title": "Balíček třídního učitele",
+  "description": "Program pro třídní učitele. Dopolední část pokrývá složky třídního managementu — pravidla, rutiny, rituály, pozitivní zpětnou vazbu a komunikaci. Odpolední se věnuje třídnickým hodinám a nástrojům pro budování vztahů mezi žáky, třídou a učitelem.",
+  "keywords": [
+    "třídní učitel",
+    "pravidla",
+    "rutiny",
+    "rituály",
+    "zpětná vazba",
+    "třídnické hodiny"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "SOFA — Balíček třídního učitele",
+    "url": "https://www.societyforall.cz/balicek-tridniho-ucitele"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}
