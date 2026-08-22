@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import OsvFilterBar from '../../components/osv/OsvFilterBar.astro';
+import OsvItemCard from '../../components/osv/OsvItemCard.astro';
+import { ACCENTS, getCategories, getItemCounts, getItems } from '../../lib/osv';
+
+const categories = await getCategories();
+const counts = await getItemCounts();
+const items = await getItems();
+const byId = new Map(categories.map((c) => [c.id, c]));
+const total = items.length;
+
+const plural = (n: number) => (n === 1 ? 'položka' : n >= 2 && n <= 4 ? 'položky' : 'položek');
+---
+<BaseLayout
+  title="OSV — Osobnostní a sociální výchova"
+  description="Banka aktivit, plánů hodin a námětů pro osobnostní a sociální výchovu a třídnické hodiny na 2. stupni ZŠ."
+>
+  <div data-osv-scope>
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900">Osobnostní a sociální výchova</h1>
+      <p class="mt-2 text-lg text-gray-600">
+        Aktivity, plány hodin a náměty pro OSV a třídnické hodiny.
+      </p>
+      <p class="mt-3 text-sm text-gray-500 max-w-3xl">
+        Členění vychází z revidovaného RVP ZV (2025), kde je OSV samostatný vzdělávací obor
+        v oblasti <em>Člověk, jeho osobnost a svět práce</em> se třemi tematickými okruhy.
+        Čtvrtá kategorie navíc pokrývá praktickou náplň třídnických hodin.
+      </p>
+    </div>
+
+    <OsvFilterBar
+      mode="reveal"
+      items={items}
+      placeholder="Hledat napříč všemi kategoriemi — název, klíčové slovo, téma…"
+    />
+
+    <div data-osv-browse>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {categories.map((category) => {
+          const accent = ACCENTS[category.accent];
+          const count = counts[category.id] ?? 0;
+          return (
+            <a
+              href={`/osv/${category.id}`}
+              class={`block bg-white rounded-xl shadow-sm ring-1 ring-gray-200 border-l-4 ${accent.border} p-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
+            >
+              <div class="flex items-start gap-3">
+                <span class="text-3xl shrink-0" aria-hidden="true">{category.icon}</span>
+                <div class="flex-1 min-w-0">
+                  <h2 class="font-semibold text-gray-900 text-lg leading-tight">{category.name}</h2>
+                  <p class="mt-1 text-sm text-gray-600">{category.tagline}</p>
+                  <div class="mt-3 flex flex-wrap items-center gap-2">
+                    <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${accent.chip}`}>
+                      {count} {plural(count)}
+                    </span>
+                    <span class="text-xs text-gray-500">{category.rvpAreas.length} podoblastí</span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+
+      {total === 0 && (
+        <p class="mt-6 text-sm text-gray-500">
+          Banka je zatím prázdná — kategorie jsou připravené a čekají na první náměty.
+        </p>
+      )}
+
+      <section class="mt-10 bg-white rounded-xl border border-gray-200 p-5">
+        <h2 class="font-semibold text-gray-900">Jak se náměty rozřazují</h2>
+        <dl class="mt-3 space-y-3 text-sm">
+          {categories.map((category) => (
+            <div>
+              <dt class="font-medium text-gray-800">{category.icon} {category.name}</dt>
+              <dd class="text-gray-600">{category.description}</dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    </div>
+
+    <div data-osv-results hidden>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+        {items.map((item) => (
+          <OsvItemCard item={item} category={byId.get(item.categoryId)!} showCategory />
+        ))}
+      </div>
+      <p data-osv-empty hidden class="py-12 text-center text-gray-500">
+        Nic takového tu zatím není. Zkus jiné klíčové slovo nebo zruš filtry.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,19 @@
+{
+  "id": "karierovy-rvp-karierovy-rozvoj",
+  "categoryId": "karierovy-rozvoj",
+  "title": "Kariérový rozvoj jako součást oboru OSV v revidovaném RVP",
+  "description": "Vysvětluje, jak revidovaný RVP ZV nově propojuje kariérové vzdělávání s osobnostním a sociálním rozvojem a co to znamená pro plánování hodin — kariérový rozvoj nemá vlastní hodinovou dotaci a stojí na sebepoznání.",
+  "keywords": ["RVP", "kariérové vzdělávání", "revize RVP", "ŠVP", "plánování", "výsledky učení"],
+  "type": "clanek",
+  "grades": [6, 7, 8, 9],
+  "goal": "Vědět, co po kariérovém rozvoji chce RVP, než se začnou plánovat konkrétní hodiny.",
+  "rvpAreas": ["Plánování kariérového směřování", "Objevování silných stránek a zájmů"],
+  "source": {
+    "label": "Průvodce kariérou (Zkola) — Kariérový rozvoj jako významná součást vzdělávacího oboru OSV",
+    "url": "https://pruvodcekarierou.zkola.cz/karierovy-rozvoj-jako-vyznamna-soucast-vzdelavaciho-oboru-osobnostni-a-socialni-vychova-v-revidovanem-rvp-zv/"
+  },
+  "files": [],
+  "status": "namet",
+  "notes": "Ukázková karta — kontext k RVP, ne aktivita do hodiny. Kartu klidně smaž.",
+  "added": "2026-08-22"
+}

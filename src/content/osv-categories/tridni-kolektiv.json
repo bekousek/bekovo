@@ -1,0 +1,21 @@
+{
+  "id": "tridni-kolektiv",
+  "name": "Rozvoj třídního kolektivu",
+  "shortName": "Třídní kolektiv",
+  "order": 4,
+  "icon": "🪁",
+  "accent": "violet",
+  "tagline": "My jako třída — pravidla, klima a společné zážitky.",
+  "description": "Provozní vrstva třídnických hodin: seznamování a adaptace nové šestky, tvorba a údržba třídních pravidel, klima a bezpečí ve třídě, role a dynamika skupiny, řešení konkrétních problémů a konfliktů ve třídě, prevence šikany a rizikového chování, teambuilding a reflexe fungování třídy. Sem patří to, co pracuje s touto konkrétní třídou a jejími vztahy — obecné sociální dovednosti patří do Sociálního a etického rozvoje.",
+  "rvpAnchor": "Není samostatný okruh RVP. Obsahově stojí na okruhu Sociální a etický rozvoj a na průřezovém tématu Péče o sebe; jde o praktickou náplň třídnických hodin a primární prevence.",
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny",
+    "Řešení problémů a konfliktů ve třídě",
+    "Prevence šikany a rizikového chování",
+    "Teambuilding a společné zážitky",
+    "Reflexe fungování třídy a zpětná vazba"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "osobnostni-rozvoj",
+  "name": "Osobnostní rozvoj",
+  "shortName": "Osobnostní",
+  "order": 1,
+  "icon": "🧭",
+  "accent": "emerald",
+  "tagline": "Já sám — kdo jsem, co zvládnu a jak se učím.",
+  "description": "Vše, co se odehrává uvnitř žáka: sebepoznání a sebepojetí, práce s emocemi, zvládání stresu a náročných situací, odolnost, psychohygiena, efektivní strategie učení, sebeorganizace a plánování vlastního rozvoje. Sem patří aktivity, u kterých je hlavním tématem žák sám, ne jeho vztah k druhým.",
+  "rvpAnchor": "Tematický okruh oboru Osobnostní a sociální výchova (RVP ZV, revize 2025) — vzdělávací oblast Člověk, jeho osobnost a svět práce.",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena",
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Kreativita a hledání vlastních řešení"
+  ]
+}
