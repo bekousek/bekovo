@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-thiosiran-krivka-tani",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Křivka tání a tuhnutí thiosíranu sodného",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: pentahydrát thiosíranu sodného (bod tání ~48 °C) se zahřívá ve vodní lázni a žáci zaznamenávají teplotu každých 30 sekund při zahřívání i následném ochlazování. Graf T(t) zřetelně zobrazuje vodorovné úseky při tání i tuhnutí – přímý empirický důkaz příjmu a uvolnění skupenského tepla bez změny teploty. Teplotní rozsah do 55 °C je bezpečný a experiment lze opakovat, protože thiosíran se používá opakovaně.",
+  "materials": [
+    "thiosíran sodný pentahydrát (Na₂S₂O₃·5H₂O), cca 20 g",
+    "zkumavka",
+    "teploměr nebo teplotní sonda s datalogerem",
+    "vodní lázeň (kádinka s horkou vodou nebo elektrický vařič)",
+    "stopky nebo datalogger"
+  ],
+  "procedure": "Vložte thiosíran do zkumavky a zahřejte ve vodní lázni na ~55 °C do úplného roztavení. Vyjměte zkumavku a nechte volně chladnout; každých 30 sekund zapisujte teplotu. Vyneste graf T(t) a vyznačte vodorovné úseky (skupenské přeměny).",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1615/teplota-tani-pentahydratu-thiosiranu-sodneho"
+  }
+}
