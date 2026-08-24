@@ -56,7 +56,19 @@
     "2026-08-04-skupenstvi-latek--zmeny-skupenstvi-latek",
     "2026-08-05-tepelne-motory--proudovy-raketovy-motor",
     "2026-08-06-vlastnosti-latek--pevne-latky",
-    "2026-08-07-akustika--zdroje-zvuku"
+    "2026-08-07-akustika--zdroje-zvuku",
+    "2026-08-08-astronomie--nocni-obloha",
+    "2026-08-09-castice-latky--brownuv-pohyb-difuze",
+    "2026-08-10-elektricke-obvody--zkrat",
+    "2026-08-11-elektrina--silnoproud",
+    "2026-08-12-elektrostatika--elektricky-naboj",
+    "2026-08-13-energie--teplo-a-jeho-sireni",
+    "2026-08-14-kapaliny-7--pascaluv-zakon",
+    "2026-08-16-mechanika--vykon",
+    "2026-08-18-mikrosvet--atom-a-jeho-modely",
+    null,
+    "2026-08-22-sila--gravitacni-a-tihova-sila",
+    "2026-08-24-tepelne-motory--parni-stroj"
   ],
   "history": [
     {
@@ -565,6 +577,108 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/89",
       "merged": true,
       "processedAt": "2026-08-07T12:13:59.671Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-08-astronomie--nocni-obloha",
+      "status": "invalid-integrity",
+      "processedAt": "2026-08-24T09:49:10.551Z",
+      "files": 22,
+      "expected": 21
+    },
+    {
+      "manifestId": "2026-08-09-castice-latky--brownuv-pohyb-difuze",
+      "subtopic": "castice-latky--brownuv-pohyb-difuze",
+      "branch": "routine/nightly-2026-08-09-castice-latky--brownuv-pohyb-difuze",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/90",
+      "merged": true,
+      "processedAt": "2026-08-24T09:49:31.295Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-10-elektricke-obvody--zkrat",
+      "subtopic": "elektricke-obvody--zkrat",
+      "branch": "routine/nightly-2026-08-10-elektricke-obvody--zkrat",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/91",
+      "merged": true,
+      "processedAt": "2026-08-24T09:49:50.043Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-11-elektrina--silnoproud",
+      "subtopic": "elektrina--silnoproud",
+      "branch": "routine/nightly-2026-08-11-elektrina--silnoproud",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/92",
+      "merged": true,
+      "processedAt": "2026-08-24T09:50:08.740Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-12-elektrostatika--elektricky-naboj",
+      "subtopic": "elektrostatika--elektricky-naboj",
+      "branch": "routine/nightly-2026-08-12-elektrostatika--elektricky-naboj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/93",
+      "merged": true,
+      "processedAt": "2026-08-24T09:50:26.559Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-13-energie--teplo-a-jeho-sireni",
+      "subtopic": "energie--teplo-a-jeho-sireni",
+      "branch": "routine/nightly-2026-08-13-energie--teplo-a-jeho-sireni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/94",
+      "merged": true,
+      "processedAt": "2026-08-24T09:50:44.491Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-14-kapaliny-7--pascaluv-zakon",
+      "subtopic": "kapaliny-7--pascaluv-zakon",
+      "branch": "routine/nightly-2026-08-14-kapaliny-7--pascaluv-zakon",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/95",
+      "merged": true,
+      "processedAt": "2026-08-24T09:51:02.132Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-16-mechanika--vykon",
+      "subtopic": "mechanika--vykon",
+      "branch": "routine/nightly-2026-08-16-mechanika--vykon",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/96",
+      "merged": true,
+      "processedAt": "2026-08-24T09:51:30.720Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-18-mikrosvet--atom-a-jeho-modely",
+      "subtopic": "mikrosvet--atom-a-jeho-modely",
+      "branch": "routine/nightly-2026-08-18-mikrosvet--atom-a-jeho-modely",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/97",
+      "merged": true,
+      "processedAt": "2026-08-24T09:51:56.912Z",
+      "driveFileId": ""
+    },
+    {
+      "status": "invalid-integrity",
+      "processedAt": "2026-08-24T09:52:16.336Z",
+      "files": 25
+    },
+    {
+      "manifestId": "2026-08-22-sila--gravitacni-a-tihova-sila",
+      "subtopic": "sila--gravitacni-a-tihova-sila",
+      "branch": "routine/nightly-2026-08-22-sila--gravitacni-a-tihova-sila",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/98",
+      "merged": true,
+      "processedAt": "2026-08-24T09:52:33.446Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-24-tepelne-motory--parni-stroj",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "branch": "routine/nightly-2026-08-24-tepelne-motory--parni-stroj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/99",
+      "merged": true,
+      "processedAt": "2026-08-24T09:53:00.386Z",
       "driveFileId": ""
     }
   ]
