@@ -1,0 +1,11 @@
+{
+  "id": "elektricke-obvody-zkrat-vyfuk-jistic",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Kdy jistič nezachrání: badatelská úloha o dosahu zkratu",
+  "description": "Badatelská domácí úloha z korespondenčního semináře Výfuk pro žáky ZŠ: žák zjišťuje, jak daleko od jističe může na vedení nastat zkrat, aniž by se jistič spustil. Pracuje s parametry domácí instalace (napětí, proudový limit jističe, odpor měděného vodiče) a aplikuje Ohmův zákon. Výsledek ho vede k úvaze, zda ochrana jističem je vždy zaručena — tedy k pochopení, proč zkrat ne vždy ochranný prvek aktivuje.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/ulohy/r13/s2"
+  }
+}

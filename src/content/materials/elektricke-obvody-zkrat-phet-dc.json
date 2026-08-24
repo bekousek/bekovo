@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-phet-dc",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Stavebnice obvodů: DC — PhET (česky)",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace PhET umožňuje žákům sestavovat elektrické obvody z baterií, žárovek, rezistorů, pojistek a spínačů. Propojením obou pólů zdroje vodičem bez odporu žák přímo vyvolá zkrat a sleduje přepálení pojistky. Obvod lze měřit virtuálním ampérmetrem a voltmetrem, takže žák vidí enormní nárůst proudu při zkratu.",
+  "url": "https://phet.colorado.edu/sims/html/circuit-construction-kit-dc/latest/circuit-construction-kit-dc_cs.html"
+}

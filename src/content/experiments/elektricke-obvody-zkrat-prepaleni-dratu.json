@@ -1,0 +1,21 @@
+{
+  "id": "elektricke-obvody-zkrat-prepaleni-dratu",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Přepálení drátu zkratovým proudem — model pojistky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): v sériovém obvodu se 12V žárovkou je jako součást vedení zapojen krátký tenký ocelový drát na nehořlavé podložce. Žárovka nejprve svítí. Zkratováním žárovky vodičem prudce vzroste proud a ocelový drát se přetaví, čímž přeruší obvod — stejně jako funguje tavná pojistka. Pokus propojuje pojem zkrat s principem ochrany elektrického obvodu.",
+  "materials": [
+    "12V regulovaný zdroj nebo akumulátor",
+    "12V žárovka v patici",
+    "spínač",
+    "tenký ocelový drát (cca 5 cm, např. struna od kytary)",
+    "hliníková fólie nebo keramická destička jako podložka",
+    "vodič pro zkratování"
+  ],
+  "procedure": "Sestavit sériový obvod: zdroj → spínač → žárovka → ocelový drát → zpět ke zdroji. Zapnout — žárovka svítí. Zkratovat žárovku přiložením vodiče na její kontakty: proud prudce vzroste, drát se přetaví a obvod se přeruší. Diskutovat s žáky, co se stalo a proč.",
+  "source": {
+    "label": "VNUF 2006",
+    "url": "https://vnuf.cz/sbornik/prispevky/11-19-Piskac.html"
+  }
+}

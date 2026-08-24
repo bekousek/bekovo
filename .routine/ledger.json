@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-09",
+  "lastPicked": "2026-08-10",
   "history": [
     {
       "date": "2026-05-08",
@@ -416,6 +416,12 @@
       "subtopic": "castice-latky--brownuv-pohyb-difuze",
       "result": "pr-pending",
       "items": 20
+    },
+    {
+      "date": "2026-08-10",
+      "subtopic": "elektricke-obvody--zkrat",
+      "result": "pr-pending",
+      "items": 10
     }
   ],
   "skipUntil": {},
