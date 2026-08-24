@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-fendt-ac-obvod",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Jednoduchý střídavý obvod – Walter Fendt HTML5",
+  "type": "applet",
+  "description": "Česky popsaný applet simuluje AC obvod s nastavitelnou frekvencí a amplitudou zdroje napětí; zobrazuje průběhy napětí a proudu na odporové, indukční či kapacitní zátěži. Relevantní pro pochopení střídavého napájení v domácí a průmyslové instalaci (silnoproud) a fázového posunu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/accircuits_cz.htm"
+}

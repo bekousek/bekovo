@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-silnoproud-badatelska-metodika",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Přenos elektrické energie na dálku – badatelský scénář (Heuréka)",
+  "type": "method",
+  "description": "Metodický scénář hodiny projektu Heuréka (KDF MFF UK) pro téma elektromagnetismus: žáci badatelskými otázkami sami odvozují, proč se používá střídavý proud (umožňuje transformaci), proč se elektřina přenáší při vysokém napětí (minimalizace ztrát P = I²R) a jak transformátor funguje v distribuci. Vhodné jako aktivní závěr výukové sekvence o silnoproudu.",
+  "source": {
+    "label": "Heuréka – projekt KDF MFF UK",
+    "url": "https://kdf.mff.cuni.cz/heureka/former/puvodni-web/Clanky/Heureka_Elektromagnetismus.htm"
+  }
+}

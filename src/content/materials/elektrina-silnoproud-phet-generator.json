@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-phet-generator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Generátor – PhET interaktivní simulace",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace umožňuje generovat elektrický proud otáčením magnetu v blízkosti cívky a sledovat závislost indukovaného napětí na rychlosti otáčení a počtu závitů. Přímo propojuje princip elektromagnetické indukce s provozem elektrárny a výrobou elektrické energie dodávané do silnoproudé sítě.",
+  "url": "https://phet.colorado.edu/cs/simulations/generator"
+}

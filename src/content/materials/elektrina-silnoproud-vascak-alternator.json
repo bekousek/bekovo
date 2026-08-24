@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-vascak-alternator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Alternátor a dynamo – Vaščák Fyzika ve škole",
+  "type": "applet",
+  "description": "Česká interaktivní animace porovnává konstrukci a funkci alternátoru (generátor AC) a dynama (generátor DC); ukazuje rotaci kotvy v magnetickém poli a vznik sinusového průběhu napětí. Alternátor je základ každé elektrárny dodávající střídavé napětí do silnoproudé rozvodné sítě.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mag_alternator&l=cz"
+}

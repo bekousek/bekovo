@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-silnoproud-transformator-dva-sekundary",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Transformátor se dvěma sekundárními vinutími",
+  "type": "qualitative",
+  "description": "Demonstrační pokus učitele: transformátor s jedním primárem a dvěma sekundárními vinutími s různými počty závitů, každé s jiným výstupním napětím. Analogie distribučního transformátoru zásobujícího domácnosti i průmysl různými napěťovými hladinami ze silnoproudé sítě. Žáci odečítají napětí na voltmetrech a ověřují poměrový zákon U₁/U₂ = N₁/N₂.",
+  "materials": [
+    "školní transformátor s navinutelnými cívkami",
+    "nízkonapěťový střídavý zdroj (bezpečnostní transformátor)",
+    "dva voltmetry"
+  ],
+  "procedure": "Naviňte primár a dvě sekundární vinutí s různými počty závitů na společné jádro. Přiložte střídavé nízké napětí na primár. Měřte a porovnávejte napětí na obou sekundárech; ověřte poměry závitů.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/902/transformator-se-dvema-sekundarnimi-vinutimi"
+  }
+}

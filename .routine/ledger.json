@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-10",
+  "lastPicked": "2026-08-11",
   "history": [
     {
       "date": "2026-05-08",
@@ -422,6 +422,12 @@
       "subtopic": "elektricke-obvody--zkrat",
       "result": "pr-pending",
       "items": 10
+    },
+    {
+      "date": "2026-08-11",
+      "subtopic": "elektrina--silnoproud",
+      "result": "pr-pending",
+      "items": 32
     }
   ],
   "skipUntil": {},

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-vascak-transformator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Transformátor – Vaščák Fyzika ve škole",
+  "type": "applet",
+  "description": "Česká interaktivní animace transformátoru umožňuje nastavovat počet závitů primárního a sekundárního vinutí a sledovat změnu napětí a proudu. Ilustruje klíčovou součást silnoproudé sítě – transformační stanice zvyšují napětí pro přenos na velké vzdálenosti a snižují ho pro odběratele.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=ac_transformator&l=cz"
+}

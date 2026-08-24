@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-geogebra-alternator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Princip činnosti alternátoru – GeoGebra animace",
+  "type": "applet",
+  "description": "Interaktivní animace zobrazuje rotaci smyčky v magnetickém poli a vznik střídavého napětí sinusového průběhu; student může regulovat rychlost otáčení. Ilustruje výrobu elektrické energie v elektrárnách jako výchozí bod silnoproudé distribuční soustavy.",
+  "url": "https://www.geogebra.org/m/w5q88n2w"
+}

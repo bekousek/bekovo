@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-falstad-transformator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Transformátor v obvodu – Falstad Circuit Simulator",
+  "type": "applet",
+  "description": "Živý simulátor obvodu zobrazuje ideální transformátor s animovaným tokem proudu a průběhy napětí na primárním i sekundárním vinutí. Uživatel může měnit parametry obvodu v reálném čase a sledovat vliv poměru závitů na výstupní napětí a proud – zásadní pro pochopení transformace napětí v distribuční soustavě.",
+  "url": "https://www.falstad.com/circuit/circuitjs.html?startCircuit=transformer.txt"
+}
