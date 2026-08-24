@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-vascak-pascal",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Pascalův zákon – animace (Vaščák)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace z kolekce Fyzika ve škole přímo demonstrující Pascalův zákon. Žák může sledovat, jak se tlak přiložený na kapalinu šíří rovnoměrně do všech směrů. Animace je česky lokalizovaná a navazuje na typické učivo 7. třídy ZŠ.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_pascal&l=cz"
+}

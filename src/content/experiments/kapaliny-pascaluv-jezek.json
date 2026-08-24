@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-pascaluv-jezek",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Tlak vyvolaný vnější silou – Pascalův ježek",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Skleněnou nádobu s trubičkami otevřenými do různých směrů (tzv. Pascalův ježek) naplníme slabě obarvenou vodou a uzavřeme; při stlačení pístu kapalina tryská ze všech trubiček rovnoměrně a do stejné výšky. Pokus přesvědčivě ukazuje, že tlak vyvolaný vnější silou se v uzavřené kapalině přenáší do všech směrů stejně a kolmo ke stěnám.",
+  "materials": [
+    "Pascalův ježek (skleněná nádoba s více trubičkami)",
+    "obarvená voda",
+    "gumový balonek nebo píst"
+  ],
+  "procedure": "Naplnit ježka obarvenou vodou a uzavřít. Stlačit píst nebo balonek a sledovat, zda voda vytéká ze všech trubiček stejně silně a do stejné výšky ve všech směrech.",
+  "source": {
+    "label": "Pokusy z fyziky – KEF UP Olomouc",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/mechanika/tlak-v-tekutinach/tlak-vyvolany-vnejsi-silou-9/"
+  }
+}
