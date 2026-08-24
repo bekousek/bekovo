@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-parni-stroj-geogebra-lokomotiva",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Parní lokomotiva — GeoGebra simulace (mechanismus)",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet vizuálně zobrazuje mechanismus parní lokomotivy — pohyb pístu, ojnice a hnacích kol. Simulace je anglicky popsaná, ale ovládání je intuitivní a zaměřené na vizuální pochopení mechanického principu. Spouští se v prohlížeči bez instalace. Vhodné jako doplněk k výkladu přeměny posuvného pohybu pístu na otáčivý pohyb kol.",
+  "url": "https://www.geogebra.org/m/Xx85q6zj"
+}

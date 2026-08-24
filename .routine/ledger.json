@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-22",
+  "lastPicked": "2026-08-24",
   "history": [
     {
       "date": "2026-05-08",
@@ -464,6 +464,12 @@
       "subtopic": "sila--gravitacni-a-tihova-sila",
       "result": "pr-pending",
       "items": 23
+    },
+    {
+      "date": "2026-08-24",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "result": "pr-pending",
+      "items": 10
     }
   ],
   "skipUntil": {},
