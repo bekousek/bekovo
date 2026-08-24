@@ -1,0 +1,19 @@
+{
+  "id": "energie-skupenske-teplo-varu",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Skupenské teplo varu vody — konvice na váze",
+  "type": "measurement",
+  "description": "Demonstrační pokus s elektrickou konvicí: voda se nejprve ohřívá (teplota roste), poté při nezměněném příkonu vaří a hmotnost ubývá odpařováním. Z příkonu P, doby varu Δt a odpařené hmoty Δm žáci vypočítají skupenské teplo varu L = P·Δt / Δm a porovnají s tabulkovou hodnotou. Pokus názorně ukazuje, že při skupenské přeměně se teplo spotřebovává bez změny teploty.",
+  "materials": [
+    "elektrická konvice se známým příkonem",
+    "kuchyňská váha",
+    "stopky",
+    "teploměr (nepovinný)"
+  ],
+  "procedure": "Konvici s vodou postavíme na váhu, zapneme a zaznamenáváme hmotnost v pravidelných intervalech (1 min) — nejprve při ohřevu pod 100 °C, pak při varu. Ze dvou fází odvodíme L.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1620/urceni-merneho-skupenskeho-tepla-varu-vody"
+  }
+}

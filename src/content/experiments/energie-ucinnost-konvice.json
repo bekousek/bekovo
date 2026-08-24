@@ -1,0 +1,20 @@
+{
+  "id": "energie-ucinnost-konvice",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Účinnost rychlovarné konvice — měření tepelných ztrát",
+  "type": "measurement",
+  "description": "Žákovská laboratorní práce: žáci změří elektrickou energii spotřebovanou konvicí (wattmetr nebo ampérmetr + voltmetr + stopky) a teplo předané vodě (Q = m·c·ΔT). Podílem obou hodnot vypočítají účinnost η a diskutují, proč je menší než 100 % (tepelné ztráty do okolí, ohřev nádoby, odpařování). Propojuje témata tepla, elektrické energie a praktické efektivity spotřebičů.",
+  "materials": [
+    "elektrická konvice",
+    "teploměr",
+    "wattmetr nebo ampérmetr + voltmetr",
+    "stopky",
+    "váha"
+  ],
+  "procedure": "Zvážíme vodu, změříme výchozí teplotu; zapneme konvici, zaznamenáme příkon P a dobu ohřevu t; po dosažení cílové teploty vypočítáme W_el = P·t, Q = m·c·ΔT a η = Q / W_el × 100 %.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/t/GM/10157/UCINNOST-RYCHLOVARNE-KONVICE.html"
+  }
+}

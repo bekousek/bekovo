@@ -1,0 +1,12 @@
+{
+  "id": "energie-pruzkum-teplot-venku",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Fyzikální průzkum teplot venku — les, louka, stín, slunce",
+  "type": "group-work",
+  "description": "Žáci v malých skupinách odcházejí ven a změří teplotu ve více prostředích (stín stromu, přímé slunce, louka, les, povrch půdy, nad asfaltem). Každý žák si nejprve napíše hypotézu o tom, kde bude nejtepleji a nejchladněji, skupiny provedou měření, zapíší výsledky a po návratu třída diskutuje, co teplotu ovlivňuje. Aktivita propojuje všechny tři způsoby šíření tepla — vedení v půdě, proudění vzduchu, záření slunce — s přímou zkušeností žáků. Trvá přibližně 45 minut.",
+  "source": {
+    "label": "Učíme se venku — Fyzika",
+    "url": "https://ucimesevenku.cz/fyzika/"
+  }
+}

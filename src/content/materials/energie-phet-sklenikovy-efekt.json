@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-sklenikovy-efekt",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "PhET: Skleníkový efekt — tepelné záření atmosférou",
+  "type": "applet",
+  "description": "Česká HTML5 simulace ukazuje, jak infračervené (tepelné) záření prochází atmosférou a jak ho pohlcují skleníkové plyny. Žáci mění složení atmosféry a sledují vliv na rovnovážnou teplotu Země. Propojuje mechanismus šíření tepla zářením s reálnými klimatickými jevy — vhodný jako vstup do diskuse o absorpci záření různými povrchy.",
+  "url": "https://phet.colorado.edu/cs/simulations/greenhouse-effect"
+}

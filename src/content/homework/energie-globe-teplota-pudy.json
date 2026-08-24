@@ -1,0 +1,11 @@
+{
+  "id": "energie-globe-teplota-pudy",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Měření teploty půdy v různých hloubkách — badatelský projekt GLOBE",
+  "description": "Žák jednou týdně po dobu celého školního roku měří teplotu půdy v hloubkách 5 a 10 cm, vždy kolem pravého poledne a na stejném místě, a hodnoty zaznamenává do tabulky. Na konci projektu porovnává sezónní průběhy teplot v různých hloubkách a hledá zpoždění teplotního signálu mezi povrchem a hloubkou — přímá demonstrace vedení tepla půdou. Naměřená data lze nahrát do globální databáze GLOBE. Projekt trvá minimálně jeden školní rok.",
+  "source": {
+    "label": "GLOBE Czech",
+    "url": "https://globe-czech.cz/cz/do-vyuky"
+  }
+}

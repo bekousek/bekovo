@@ -1,0 +1,21 @@
+{
+  "id": "energie-jouleovo-teplo",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Jouleovo teplo — přeměna elektrické energie na teplo",
+  "type": "measurement",
+  "description": "Žákovský (při dostatečném vybavení kabinetu) nebo demonstrační pokus, při němž žáci změří nárůst teploty vody ohřívané odporovým drátem ponořeným do kalorimetrické nádoby a ověří, zda množství vzniklého tepla odpovídá vztahu Q = I²·R·t. Přirozeně propojuje témata elektřiny a tepla a otevírá diskusi o přeměně elektrické energie na tepelnou ve spotřebičích.",
+  "materials": [
+    "odporový drát nebo topné tělísko",
+    "zdroj napětí (do 12 V)",
+    "ampérmetr, voltmetr",
+    "stopky",
+    "teploměr",
+    "kalorimetrická nádoba s vodou"
+  ],
+  "procedure": "Drát ponoříme do vody a připojíme na zdroj. V pravidelných intervalech (30 s) odečítáme teplotu vody a zaznamenáváme proud a napětí. Z naměřených hodnot vypočítáme teplo Q = m·c·ΔT a srovnáme s W = I²·R·t.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1657/jouleovo-teplo"
+  }
+}
