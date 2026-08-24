@@ -1,0 +1,26 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-partnerske-vztahy",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "JSNS: Partnerské vztahy",
+  "description": "Kategorie rozcestníku věnovaná partnerským vztahům — jejich zdravým i nezdravým podobám.",
+  "keywords": [
+    "partnerské vztahy",
+    "láska",
+    "hranice",
+    "vztahy",
+    "prevence"
+  ],
+  "type": "metodika",
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Zvládání konfliktů"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Rozcestník preventivních materiálů — Partnerské vztahy",
+    "url": "https://www.jsns.cz/rozcestnik-preventivnich-materialu/partnerske-vztahy"
+  },
+  "notes": "Věkové zacílení jednotlivých lekcí si ověř — v šestce bude použitelná jen část."
+}

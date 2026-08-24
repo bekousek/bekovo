@@ -1,0 +1,36 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Kdo jiný? — Projektové vyučování a sociální podniky (PDF)",
+      "href": "https://www.jsns.cz/nove/projekty/kdo-jiny/old/clk_kdo_jiny_prirucka_pedagogove_22web.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "karierovy-jsns-kdo-jiny",
+  "categoryId": "karierovy-rozvoj",
+  "title": "Kdo jiný? — projektové vyučování a sociální podniky",
+  "description": "Příručka pro vyučující k projektovému vyučování o sociálních podnicích. Součástí je i kariérová část: žáci individuálně vyplňují dotazník, kde do sloupce povolání píšou, čemu by se chtěli v životě věnovat.",
+  "keywords": [
+    "sociální podnikání",
+    "projektové vyučování",
+    "povolání",
+    "dotazník",
+    "plánování",
+    "sebehodnocení"
+  ],
+  "type": "metodika",
+  "goal": "Propojit otázku „čím chci být\" s tím, jakou práci má smysl dělat.",
+  "procedure": "Příručka upozorňuje, že projektové vyučování klade na učitele větší nároky než frontální výuka. Je potřeba dávat žákům dost impulzů, vést je k efektivnímu plánování, učit je sebehodnocení a být jim dostatečnou oporou — aby se uměli poučit z neúspěchu a zároveň oslavit úspěch.",
+  "rvpAreas": [
+    "Svět práce a povolání",
+    "Objevování silných stránek a zájmů",
+    "Hodnoty a příležitosti spojené s prací"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Kdo jiný? — příručka pro pedagogy",
+    "url": "https://www.jsns.cz/nove/projekty/kdo-jiny/old/clk_kdo_jiny_prirucka_pedagogove_22web.pdf"
+  },
+  "notes": "Jediná věc, kterou jsem na JSNS ke kariérovému rozvoji našel, a i tak je to spíš o sociálním podnikání než o volbě povolání. Kariérová část je uvnitř, ne hlavní téma. URL vede na starší (2022) verzi příručky v adresáři /old/ — možná existuje novější."
+}

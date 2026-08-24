@@ -1,0 +1,29 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-jsns-psychicke-zdravi",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "JSNS: Psychické zdraví — sebepoškozování, úzkosti, deprese",
+  "description": "Lekce k tématům sebepoškozování, poruch příjmu potravy, deprese a úzkostí. Metoda je společný filmový zážitek a povídání o příběhu někoho jiného — to umožňuje otevřít citlivé téma a zároveň ošetřit emoce, které vyvolá.",
+  "keywords": [
+    "duševní zdraví",
+    "úzkost",
+    "deprese",
+    "sebepoškozování",
+    "poruchy příjmu potravy",
+    "prevence"
+  ],
+  "type": "metodika",
+  "goal": "Otevřít téma duševního zdraví přes cizí příběh, ne přes osobní zpověď žáků.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Rozcestník preventivních materiálů — Psychické zdraví",
+    "url": "https://www.jsns.cz/rozcestnik-preventivnich-materialu/psychicke-zdravi"
+  },
+  "notes": "Věkové doporučení si u každé lekce zkontroluj zvlášť — část materiálů v této kategorii je až od 15 let."
+}

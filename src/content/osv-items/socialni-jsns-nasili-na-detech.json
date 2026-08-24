@@ -1,0 +1,25 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-nasili-na-detech",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "JSNS: Násilí na dětech — práva dítěte",
+  "description": "Lekce, které otevírají diskuzi o právech dětí a o tom, jak se dospělí k dětem chovat mají a jak ne. Nepříjemné, ale důležité téma se otevírá přes příběhy.",
+  "keywords": [
+    "práva dětí",
+    "násilí",
+    "ochrana",
+    "vyhledávání pomoci",
+    "prevence"
+  ],
+  "type": "metodika",
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Rozcestník preventivních materiálů — Násilí na dětech",
+    "url": "https://www.jsns.cz/rozcestnik-preventivnich-materialu/nasili-na-detech"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-jsns-marie-v-hlave",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Péče o duši: Marie v hlavě (film + lekce)",
+  "description": "Marie vypráví svůj příběh o sebepoškozování a sebevražedných myšlenkách. Poprvé se pořezala ve třinácti. Aktivity po filmu vedou žáky k přemýšlení, jak sami zvládají stres a psychickou zátěž, a hlavně k tomu, na koho se v těžké situaci obrátit.",
+  "keywords": [
+    "sebepoškozování",
+    "duševní zdraví",
+    "film",
+    "psychiatrická péče",
+    "vyhledávání pomoci",
+    "stres"
+  ],
+  "type": "video",
+  "duration": "26 min film + navazující aktivity",
+  "grades": [
+    9
+  ],
+  "goal": "Žák ví, kdo mu může pomoct a na koho se dá obrátit, když je psychicky zle.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Péče o duši — Marie v hlavě",
+    "url": "https://www.jsns.cz/lekce/1492240-pece-o-dusi-marie-v-"
+  },
+  "notes": "POZOR: JSNS doporučuje film až od 15 let. Do šestky se nehodí — zakládám ho sem jako zásobu na později, ne jako námět na letošek. Součástí lekce jsou informační materiály s otázkami a odpověďmi k sebepoškozování a k psychiatrické péči v ČR."
+}

@@ -1,0 +1,52 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-personifikace-dusevnich-poruch",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Personifikace duševních poruch — divadlo o vnitřním hlase",
+  "description": "Krátké scénky ve dvojicích: jeden hraje člověka žijícího s duševní poruchou, druhý hraje samotnou poruchu a stojí za ním jako jeho vnitřní hlas. Třída pak sleduje, jak ten hlas mluví — a jak těžké je ho přeslechnout.",
+  "keywords": [
+    "duševní zdraví",
+    "divadlo",
+    "scénka",
+    "vnitřní hlas",
+    "empatie",
+    "destigmatizace",
+    "úzkost",
+    "deprese",
+    "personifikace"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák pochopí, že duševní porucha není slabost charakteru ani volba, ale něco, co člověku průběžně mluví do hlavy — a že se s tím dá vyhledat pomoc.",
+  "materials": [
+    "Kartičky se zadáním rolí (jedna porucha na kartičku)",
+    "Volný prostor pro scénky",
+    "Kontakt na Linku bezpečí 116 111 viditelně ve třídě"
+  ],
+  "procedure": "Zadání (10 min): Vysvětli princip — ve dvojici hraje jeden běžnou situaci ze života (ráno před školou, oběd ve školní jídelně, test, sraz s kamarády). Druhý stojí kousek za ním a je tou poruchou: mluví nahlas to, co se člověku honí hlavou. Rozdej kartičky se zadáním, ať si žáci poruchu nevymýšlejí sami.\n\nPříprava ve dvojicích (10 min): Dvojice si scénku připraví. Drž je krátké — 60 až 90 sekund stačí.\n\nScénky (15 min): Dvojice hrají před třídou. Po každé scénce nech herce vystoupit z role: řeknou nahlas své jméno a „už nejsem ta úzkost\". Bez tohohle kroku se role táhne dál i o přestávce.\n\nReflexe (10 min): Až po odehrání všech scének. Ptej se na to, co diváci viděli, ne na osobní zkušenosti. Zakonči tím, kam se dá obrátit o pomoc.",
+  "reflection": [
+    "Co ten hlas tomu člověku říkal nejčastěji?",
+    "Šlo ho nějak umlčet? Zkoušel to?",
+    "Kdyby ten hlas slyšel váš kamarád, co byste mu řekli?",
+    "Kam se dá jít pro pomoc, když člověk takový hlas slyší dlouho?"
+  ],
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Sociálně-emocionální dovednosti",
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Ústní námět — Markéta Abrahámová",
+    "note": "Předáno ústně, bez psaného zdroje. Postup níže je moje rozepsání toho námětu, ne její scénář — než to pustíš do třídy, projdi si to s ní."
+  },
+  "notes": "Citlivá aktivita, nepouštěj ji jako první věc v roce. Pár věcí, které se vyplatí ohlídat:\n\n• Ve třídě skoro jistě je někdo s vlastní zkušeností nebo s někým takovým v rodině. Nikdy nezadávej žákovi hrát to, co sám zažívá.\n• Kartičky se zadáním jsou důležité. Když si poruchu vymýšlejí sami, sklouzne to ke karikatuře a zesměšnění.\n• Předem řekni nahlas pravidlo: nehrajeme parodii, hrajeme, jak to ten člověk má těžké.\n• Vystoupení z role po každé scénce nevynechávej.\n• Zvaž přizvání školní psycholožky nebo metodičky prevence — hlavně v šestce.\n\nV šesté třídě to bude potřebovat víc vedení než ve vyšších ročnících. Zvaž, jestli ji nezařadit až ve druhém pololetí, kdy se třída zná."
+}

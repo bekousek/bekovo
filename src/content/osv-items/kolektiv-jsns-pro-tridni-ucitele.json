@@ -1,0 +1,31 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-pro-tridni-ucitele",
+  "categoryId": "tridni-kolektiv",
+  "title": "JSNS: Pro třídní učitele",
+  "description": "Rozcestník JSNS určený přímo třídním učitelům. Ukazuje, jak dokumentárním filmem, reflexí emocí a navazujícími aktivitami ovlivňovat klima třídy a vytvářet emočně bezpečné prostředí pro sdílení.",
+  "keywords": [
+    "třídní učitel",
+    "klima třídy",
+    "bezpečné prostředí",
+    "reflexe emocí",
+    "důvěra"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Pro třídní učitele",
+    "url": "https://www.jsns.cz/pro-vyucujici/podpora-rozvoj/pro-tridni-ucitele"
+  }
+}
