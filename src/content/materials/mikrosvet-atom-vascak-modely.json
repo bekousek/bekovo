@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-vascak-modely",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Vaščák — Modely atomů",
+  "type": "applet",
+  "description": "Česká HTML5 animace přehledně zobrazuje vývoj modelů atomu od Thomsonova pudinkového modelu přes Rutherfordův planetární model až po Bohrův model. Umožňuje jejich vzájemné porovnání a je navržena přímo pro školní výuku. Spustitelná v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=atom_modely&l=cz"
+}

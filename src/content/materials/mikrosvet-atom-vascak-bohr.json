@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-vascak-bohr",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Vaščák — Bohrův model atomu vodíku",
+  "type": "applet",
+  "description": "HTML5 animace znázorňuje pohyb elektronu v atomu vodíku podle Bohrova modelu, přechody elektronu mezi energetickými hladinami a vznik fotonu při každém přechodu. Žáci sledují, jaká barva světla odpovídá konkrétnímu přechodu. Vhodná jako vizuální doplněk k výkladu emisního spektra vodíku.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=atom_vodik&l=cz"
+}

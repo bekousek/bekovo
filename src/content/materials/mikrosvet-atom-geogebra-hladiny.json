@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-geogebra-hladiny",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "GeoGebra — Energetické hladiny atomu vodíku",
+  "type": "applet",
+  "description": "Interaktivní applet zobrazuje energetické hladiny atomu vodíku a emitované fotony při přechodu elektronu mezi hladinami. Žáci mění hladiny a sledují, které spektrální čáry vodíku jim odpovídají. Propojuje Bohrův model s emisním spektrem a pomáhá porozumět, proč má vodík diskrétní čáry.",
+  "url": "https://www.geogebra.org/m/afmhbv6y"
+}
