@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-gravitace-drahy",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "PhET: Gravitace a dráhy",
+  "type": "applet",
+  "description": "Interaktivní simulace znázorňuje gravitační sílu mezi Sluncem, Zemí, Měsícem a vesmírnou stanicí. Žáci mohou pohybovat tělesy, vypínat gravitaci a sledovat, jak se mění dráhy a velikosti gravitačních sil. Simulace je plně v češtině a s nastavitelnou gravitací ukazuje, že gravitace je universální síla působící mezi všemi tělesy.",
+  "url": "https://phet.colorado.edu/cs/simulations/gravity-and-orbits"
+}

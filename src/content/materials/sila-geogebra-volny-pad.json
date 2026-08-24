@@ -1,0 +1,9 @@
+{
+  "id": "sila-geogebra-volny-pad",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "GeoGebra: Volný pád",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet simuluje pohyb tělesa ve volném pádu a ukazuje, jak roste rychlost a ujetá dráha v závislosti na čase. Uživatel může sledovat grafy polohy a rychlosti v reálném čase a intuitivně pochopit pojem tíhového zrychlení g. Rozhraní je v angličtině, grafické znázornění je však vizuálně přehledné a samoobslužné.",
+  "url": "https://www.geogebra.org/m/en3fhzqc"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-gravitacni-laborator-full",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "PhET: Gravitační laboratoř",
+  "type": "applet",
+  "description": "Rozšířená verze simulace gravitační síly umožňuje přesné měření sil pomocí pravítka a práci s vědeckým zápisem. Žáci manipulují hmotnostmi dvou objektů a vzdáleností mezi nimi a sledují změny gravitační síly pomocí šipkových vektorů. Simulace je lokalizována do češtiny a názorně demonstruje závislost gravitační síly na hmotnosti a vzdálenosti.",
+  "url": "https://phet.colorado.edu/cs/simulations/gravity-force-lab"
+}

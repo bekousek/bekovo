@@ -1,0 +1,18 @@
+{
+  "id": "sila-beztize-volny-pad",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Stav beztíže při volném pádu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus předváděný učitelem: kovové matice jsou zavěšeny na gumičce přes okraj plastové vaničky – v klidu je gumička natažena tíhou matic. Při uvolnění celé soustavy do volného pádu gumička ochably a matice přestávají viset, protože tíha těles je nulová. Pokus názorně odlišuje gravitační sílu (příčina pádu, stále působí) od tíhy tělesa (silová interakce s podložkou, při pádu nulová).",
+  "materials": [
+    "plastová vanička",
+    "gumičky",
+    "kovové matice (závaží)"
+  ],
+  "procedure": "Provléct gumičku pode dnem vaničky tak, aby matice visely přes okraj. Nechat soustavu ustálit (gumička napnutá). Pustit celou vaničku do volného pádu a pozorovat, že gumička ochably – matice přestaly vyvíjet tíhu.",
+  "source": {
+    "label": "fyzikalnipokusy.cz",
+    "url": "https://fyzikalnipokusy.cz/4306/stav-beztize-pri-volnem-padu"
+  }
+}

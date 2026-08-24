@@ -1,0 +1,12 @@
+{
+  "id": "sila-bublinove-ulohy-gravitace",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Bublinové úlohy – Gravitace",
+  "type": "method",
+  "description": "Soubor diskuzních úloh (concept cartoons) zaměřených na gravitaci od Evy Hejnové (UJEP). Žáci ve skupinách diskutují o nakreslených postavičkách zastávajících různé (správné i chybné) názory o gravitaci – odkud pochází, proč tělesa padají, zda Měsíc přitahuje Zemi. K souboru existují metodické poznámky pro učitele s tipy na navazující experimenty. Aktivita cíleně odhaluje a překonává typické žákovské miskoncepce o gravitační síle.",
+  "source": {
+    "label": "Eva Hejnová – bublinové úlohy (UJEP)",
+    "url": "http://physics.ujep.cz/~ehejnova/Pro_ucitele/"
+  }
+}
