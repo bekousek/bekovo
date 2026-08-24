@@ -1,0 +1,19 @@
+{
+  "id": "elektrostatika-techmania-elektricke-blesky",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrické blešky — nabíjení třením a polarizace",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: malé kousky různých materiálů (papír, alobal, plastové konfety) vložené pod skleněnou misku začínají skákat, když se přiloží plexisklová deska nabitá třením o plsť. Různé materiály reagují odlišně v závislosti na schopnosti polarizace — alobal jinak než papír nebo plast. Pokus spektakulárně ukazuje přitahování neutrálních těles nabitým předmětem a lze ho bezpečně provést ve třídě i doma.",
+  "materials": [
+    "plexisklová deska",
+    "skleněná miska nebo deska",
+    "plsť nebo vlněná látka",
+    "malé kousky materiálů — papír, alobal, plastové konfety"
+  ],
+  "procedure": "Nabít třením plexisklo plstí. Přiložit těsně nad skleněnou misku s kousky materiálů. Pozorovat skákání různých materiálů; diskutovat, proč reagují odlišně.",
+  "source": {
+    "label": "Techmania Science Center – Eduportál",
+    "url": "https://edu.techmania.cz/cs/katalog/edutorium/372/elektricke-blesky"
+  }
+}

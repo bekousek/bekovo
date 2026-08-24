@@ -1,0 +1,19 @@
+{
+  "id": "elektrostatika-fyzweb-elektrostaticka-indukce",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Oddělení indukovaných nábojů — elektrostatická indukce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: ke dvěma vodivým deskám na stojanku se přiblíží nabitá tyčinka. Desky se od sebe oddělí ještě za přítomnosti tyčinky a po jejím odtažení elektroskopy na každé z desek ukáží opačné výchylky. Pokus konkrétně ukazuje, že těleso lze nabít bez přímého dotyku — principem elektrostatické indukce — a patří k zásadním demonstracím v tématu elektrický náboj.",
+  "materials": [
+    "2 deskové vodiče s háčky na stojanku",
+    "2 listové elektroskopy",
+    "nabitá vinidurová tyčinka",
+    "kousek sukna"
+  ],
+  "procedure": "Desky přitisknout k sobě, přiblížit nabitou tyčinku. Za stále přiblížené tyčinky desky rozestupit. Odtáhnout tyčinku — sledovat opačné výchylky elektroskopů na obou deskách.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/ELINDUKT2/POPIS.HTM"
+  }
+}

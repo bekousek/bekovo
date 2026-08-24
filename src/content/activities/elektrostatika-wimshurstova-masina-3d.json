@@ -1,0 +1,12 @@
+{
+  "id": "elektrostatika-wimshurstova-masina-3d",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Wimshurstova elektrostatická mašina — výroba tiskem 3D",
+  "type": "other",
+  "description": "Učitel vytiskne funkční Wimshurstovu elektrostatickou mašinu na 3D tiskárně dle volně dostupných návrhů z blogu Fyzikář 3D (jsou k dispozici motorová i ruční verze). Hotová mašina slouží jako trvanlivá pomůcka pro demonstraci třecí elektrizace a elektrostatické indukce při generování náboje — viditelné jiskření, odpuzování nabitých těles i zvedání lehkých předmětů. Oproti komerční pomůcce je výrazně levnější a žáky fascinuje jako ukázka praktického využití 3D tisku.",
+  "source": {
+    "label": "Fyzikář 3D",
+    "url": "https://fyzikar3d.wordpress.com/2017/11/02/wimshurstova-elektrostatika/"
+  }
+}

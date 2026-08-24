@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-falstad-emstatic",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Falstad: 2D elektrostatická simulace — silové čáry a ekvipotenciály",
+  "type": "applet",
+  "description": "Interaktivní simulace zobrazující elektrické pole různých uspořádání nábojů ve 2D rovině. Uživatel přetahuje kladné a záporné bodové náboje myší a okamžitě sleduje silové čáry a ekvipotenciální plochy. Simulace nabízí desítky předdefinovaných scénářů (dipól, kondenzátor, vodič apod.). Rozhraní je anglicky, ale vizuálně intuitivní; vhodná zejména pro demonstraci učitelem na interaktivní tabuli.",
+  "url": "https://www.falstad.com/emstatic/"
+}

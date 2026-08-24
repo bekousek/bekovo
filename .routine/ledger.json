@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-11",
+  "lastPicked": "2026-08-12",
   "history": [
     {
       "date": "2026-05-08",
@@ -428,6 +428,12 @@
       "subtopic": "elektrina--silnoproud",
       "result": "pr-pending",
       "items": 32
+    },
+    {
+      "date": "2026-08-12",
+      "subtopic": "elektrostatika--elektricky-naboj",
+      "result": "pr-pending",
+      "items": 19
     }
   ],
   "skipUntil": {},

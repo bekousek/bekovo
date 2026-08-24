@@ -1,0 +1,19 @@
+{
+  "id": "elektrostatika-fyzweb-elektrovani-trenim",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrování těles třením — detekce náboje elektroskopem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: vinidurová tyčinka se tře kusem kůže (záporný náboj) a skleněná tyčinka se tře suknem (kladný náboj). Přiložením ke zlatolistovému elektroskopii se okamžitě ověří přítomnost náboje výchylkou listů. Porovnáním chování obou tyček (odpuzují se navzájem nebo přitahují?) se žáci sami přesvědčí o existenci dvou druhů elektrického náboje.",
+  "materials": [
+    "vinidurová nebo ebontová tyčinka",
+    "skleněná tyčinka",
+    "kousek kůže nebo sukna",
+    "zlatolistový elektroskop"
+  ],
+  "procedure": "Třít vinidur kůží, přiblížit k elektroskopii — listy se rozevřou. Opakovat se skleněnou tyčinkou. Přiblížit obě nabité tyčky k sobě — pozorovat přitahování; dvě vinidurové — odpuzování.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/ELEKTROVANI/POPIS.HTM"
+  }
+}

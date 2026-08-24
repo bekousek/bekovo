@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-coulombuv-zakon-pokus",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Coulombův zákon — přitahování a odpuzování nabitých těles",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, při němž jsou dvě pingpongové míčky pokryté vodivým lakem nabity z Van de Graaffova generátoru nebo influenčního stroje a umístěny na stojanek. Žáci pozorují, že stejně nabité míčky se odpuzují, zatímco různě nabité přitahují. Pokus v kvalitativní rovině srozumitelně ilustruje základní vlastnost elektrického náboje — silové působení mezi nabitými tělesy — bez potřeby matematického aparátu.",
+  "materials": [
+    "2 pingpongové míčky s vodivým lakem na stojanku",
+    "Van de Graaffův generátor nebo influenční stroj",
+    "spojovací vodiče"
+  ],
+  "procedure": "Míčky nabít ze stejného pólu generátoru (stejný náboj) — pozorovat odpuzování. Jednu míčku uzemnit a druhou znovu nabít (různý náboj) — pozorovat přitahování.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1713/coulombuv-zakon"
+  }
+}
