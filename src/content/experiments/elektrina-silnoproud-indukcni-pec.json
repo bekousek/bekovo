@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-silnoproud-indukcni-pec",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Indukční pec – model transformátoru s nakrátko spojeným sekundárem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus učitele: transformátor se zkratovým sekundárním vinutím (transformace dolů na nízké napětí, ale velmi vysoký proud) modeluje princip indukční pece. Demonstruje, proč se elektřina přenáší při vysokém napětí a nízkém proudu – přenos při nízkém napětí by způsoboval obrovské Jouleovy ztráty (P_z = I²R). Klíčový didaktický argument pro pochopení přenosové soustavy.",
+  "materials": [
+    "školní transformátor nebo model indukční pece",
+    "silný měděný vodič jako zkratovací sekundár",
+    "ampérmetr",
+    "nízkonapěťový střídavý zdroj (bezpečnostní transformátor)"
+  ],
+  "procedure": "Nakrátko spojte sekundární vinutí transformátoru silným vodičem. Primár napájejte nízkonapěťovým střídavým zdrojem. Měřte primární a sekundární proud; diskutujte o vztahu k ztrátám při přenosu elektřiny na dálku.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/899/indukcni-pec"
+  }
+}

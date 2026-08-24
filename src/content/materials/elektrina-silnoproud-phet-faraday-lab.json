@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-phet-faraday-lab",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Faradayova elektromagnetická laboratoř – PhET interaktivní simulace",
+  "type": "applet",
+  "description": "Česky lokalizovaná komplexní laboratoř ve třech modulech: magnet a cívka (indukce), elektromagnet a cívka, a transformátor. Modul transformátoru umožňuje měnit počet závitů primárního i sekundárního vinutí a sledovat přenos energie – klíčový prvek distribuce v silnoproudé soustavě.",
+  "url": "https://phet.colorado.edu/cs/simulations/faraday"
+}

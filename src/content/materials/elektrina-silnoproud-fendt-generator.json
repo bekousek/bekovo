@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-fendt-generator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Generátor elektrického proudu – Walter Fendt HTML5",
+  "type": "applet",
+  "description": "HTML5 applet v češtině zobrazuje rotující smyčku v magnetickém poli a umožňuje přepínat mezi alternátorem (výstup AC) a dynamem (výstup DC). Student vidí průběh napětí v reálném čase a může měnit rychlost otáčení – základ pro pochopení výroby střídavého napětí 50 Hz dodávaného do silnoproudé sítě.",
+  "url": "https://www.walter-fendt.de/html5/phcz/generator_cz.htm"
+}

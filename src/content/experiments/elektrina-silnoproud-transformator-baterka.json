@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-silnoproud-transformator-baterka",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Transformátor 'na baterku'",
+  "type": "qualitative",
+  "description": "Demonstrační i žákovský pokus: transformovat lze libovolné proměnné napětí, nejen síťových 230 V. Primár napájený nízkonapěťovým zdrojem (nebo baterií s přerušovačem) indukuje napětí v sekundáru. Poměr závitů určuje převodový poměr U₁/U₂ = N₁/N₂, čímž pokus ilustruje princip distribučních transformátorů v silnoproudé soustavě bez práce se síťovým napětím.",
+  "materials": [
+    "školní transformátor (železné jádro s navinutelnými cívkami)",
+    "variabilní nízkonapěťový zdroj nebo baterie s přerušovačem",
+    "voltmetr",
+    "žárovky jako indikátor"
+  ],
+  "procedure": "Naviňte primár i sekundár na jádro s různými počty závitů. Přiložte proměnné napětí na primár, voltmetrem měřte sekundární napětí. Měňte počet závitů a ověřte poměrový zákon U₁/U₂ = N₁/N₂.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/923/transformator-na-baterku"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-silnoproud-bezpecnost-demonstraci",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Bezpečnost při výuce silnoproudu – metodika pro učitele",
+  "type": "method",
+  "description": "Metodický příspěvek pro učitele fyziky: jak bezpečně pracovat se silnoproudem ve výuce. Striktně rozlišuje demonstraci učitele (přípustno 230 V, kvalifikovaná osoba) a žákovský pokus (výhradně bezpečná napětí ≤24 V). Součástí je popis demonstrační akustické zkoušečky fáze (bez vnitřního zdroje napětí) – nástroj přímo používaný při silnoproudé elektroinstalaci, vhodný pro ukázku žákům.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/14-13-Janda.html"
+  }
+}

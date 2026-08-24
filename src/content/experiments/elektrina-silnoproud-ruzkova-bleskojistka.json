@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-silnoproud-ruzkova-bleskojistka",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Růžková bleskojistka",
+  "type": "qualitative",
+  "description": "Výhradně demonstrační pokus učitele: transformátor zapojený jako zesilovač napětí generuje vysoké napětí a simuluje princip jiskrové ochrany – bleskojistky používané na VN vedeních silnoproudé distribuční soustavy. Žáci sledují jiskření (nepřicházejí do kontaktu s vysokým napětím) a diskutují o funkci ochranných prvků přenosové soustavy. Vizuálně působivá motivace pro téma distribuce elektrické energie.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/900/ruzkova-bleskojistka"
+  }
+}

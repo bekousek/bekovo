@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-phet-faradayuv-zakon",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Faradayův zákon – PhET interaktivní simulace",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace vizualizuje vznik indukovaného napětí pohybem magnetu skrze cívku v reálném čase včetně grafického znázornění magnetického toku. Přehledný úvod k fyzikálnímu základu, na němž fungují generátory elektráren a transformátory v rozvodné soustavě.",
+  "url": "https://phet.colorado.edu/cs/simulations/faradays-law"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-silnoproud-co-skryva-zasuvka",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Co skrývá elektrická zásuvka?",
+  "type": "other",
+  "description": "Popularizační článek jako základ řízené diskusní aktivity: co se skrývá za domácí elektrickou zásuvkou – střídavé napětí 230 V / 50 Hz, trojfázová soustava, ochranný vodič (uzemnění), pojistky a proudový chránič (RCD). Vysvětluje, proč je síťové napětí nevhodné pro přímý přenos na velké vzdálenosti a jak funguje distribuce. Žáci nepracují se síťovým napětím – aktivita probíhá formou četby s řízenými otázkami nebo strukturované diskuse.",
+  "source": {
+    "label": "FyzWeb – pokusy a materiály",
+    "url": "http://fyzweb.cz/clanky/index.php?id=92"
+  }
+}

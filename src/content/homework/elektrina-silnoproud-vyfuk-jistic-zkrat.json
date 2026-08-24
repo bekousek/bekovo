@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-silnoproud-vyfuk-jistic-zkrat",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Jistič a domácí rozvod – jak daleko může nastat zkrat? (Výfuk)",
+  "description": "Zadání Výfuku (korespondenční seminář ZŠ): Michal má jistič (jmenovitý proud 2 A, napětí sítě 230 V) chránící vedení z měděného vodiče průměru 1,8 mm a měrným odporem 17,8 mΩ·mm²·m⁻¹. Úkolem je vypočítat, jak daleko od jističe musí nastat zkrat, aby jistič právě reagoval. Propojuje Ohmův zákon s funkcí jističe v domácí silnoproudé instalaci; výstupem je výpočet s fyzikálním komentářem. Typická náročnost řešení: 30–60 minut.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/13/6"
+  }
+}

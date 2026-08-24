@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-silnoproud-zvonkovy-transformator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Skupinové pokusy se zvonkovým transformátorem (usměrňovač, elektrolýza)",
+  "type": "measurement",
+  "description": "Žákovský pokus – skupinová práce: levný zvonkový transformátor (230 V / 4–12 V AC) poskytuje bezpečné napětí pro sérii pokusů – jednocestný a dvojcestný usměrňovač, filtrace napětí kondenzátorem, elektrolýza střídavým proudem, měření AC a DC voltmetrem. Učitel připojí primár k síti, žáci pracují výhradně se sekundárním napětím ≤12 V. Propojuje téma střídavého proudu a principů silnoproudé sítě 50 Hz.",
+  "materials": [
+    "zvonkový transformátor 230 V / 4–12 V AC (cena do 400 Kč)",
+    "diody 1N4007 nebo podobné",
+    "elektrolytické kondenzátory",
+    "voltmetr (AC i DC)",
+    "elektrolyzér – nádoba s roztokem NaCl"
+  ],
+  "procedure": "Učitel připojí primár transformátoru k síti (230 V). Žáci pracují jen se sekundárem (≤12 V AC): sestaví jednocestný usměrňovač z diody, měří napětí voltmetrem. Přidají kondenzátor a porovnají pulsující a filtrované napětí. V elektrolyzéru s NaCl pozorují vznik bublin na elektrodách. Závěrem diskuse o principu sítě 50 Hz a střídavém proudu.",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-16-Hubenak.html"
+  }
+}

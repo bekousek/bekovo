@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-compadre-transformator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Transformer – ComPADRE Physics Front (interaktivní applet, EN)",
+  "type": "applet",
+  "description": "Anglické rozhraní: interaktivní applet transformátoru umožňuje nastavit počet závitů, odporovou zátěž, frekvenci a amplitudu vstupního napětí; zobrazuje průběhy napětí a proudu na obou stranách vinutí. Vhodné pro nadprůměrné žáky 9. třídy ke zkoumání transformačního poměru a chování transformátoru při různých zátěžích.",
+  "url": "https://www.compadre.org/introphys/items/detail.cfm?ID=5741"
+}

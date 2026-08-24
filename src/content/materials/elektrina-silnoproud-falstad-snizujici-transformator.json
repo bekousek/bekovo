@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-silnoproud-falstad-snizujici-transformator",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Snižující transformátor – Falstad Circuit Simulator",
+  "type": "applet",
+  "description": "Ukázka step-down transformátoru v živém obvodu: primární vinutí má 10× více závitů než sekundární, výstupní napětí je 1/10 vstupního. Přesně modeluje situaci distribučního transformátoru snižujícího napětí z přenosové soustavy na hladinu nízkého napětí (230/400 V) pro domácnosti.",
+  "url": "https://www.falstad.com/circuit/e-transformerdown.html"
+}

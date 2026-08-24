@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-silnoproud-ztratovy-vykon-uloha",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Ztrátový výkon na vedení z elektrárny – řešená úloha",
+  "type": "other",
+  "description": "Výpočtová úloha ze Sbírky KDF MFF UK: žáci vypočítají ztrátový výkon v elektrickém vedení z elektrárny při různých hodnotách napětí a proudu a ověří, proč přenosová soustava pracuje s velmi vysokým napětím. Vhodné jako třídní procvičování po výkladu nebo jako doplňková domácí úloha. Procvičuje vzorce P = UI a P_z = I²R v reálném kontextu silnoproudé sítě.",
+  "source": {
+    "label": "Sbírka řešených úloh KDF MFF UK",
+    "url": "https://reseneulohy.cz/170/ztratovy-vykon-na-vedeni-z-elektrarny"
+  }
+}

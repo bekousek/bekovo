@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-silnoproud-vyfuk-viktorovo-vedeni",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Viktorovo vedení – jak snížit odpor přívodního vodiče? (Výfuk)",
+  "description": "Zadání Výfuku (korespondenční seminář ZŠ): Viktor chce snížit odpor svého dlouhého elektrického vedení. Žák analyzuje, jaké parametry (délka, průřez, materiál, paralelní zapojení) odpor vedení ovlivňují, a navrhuje konkrétní opatření. Rozvíjí pochopení výkonových ztrát při přenosu elektřiny a poskytuje přímou analogii k přenosu elektrické energie na dálku (vysoké napětí, transformátory). Výstupem je fyzikálně zdůvodněná odpověď s popisem principu.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/14/2"
+  }
+}
