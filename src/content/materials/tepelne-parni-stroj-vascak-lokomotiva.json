@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-parni-stroj-vascak-lokomotiva",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Parní lokomotiva — interaktivní animace (Vaščák, česky)",
+  "type": "applet",
+  "description": "Česká HTML5 animace z kolekce Physics at School (RNDr. Vaščák) zobrazuje funkci parního stroje v lokomotivě. Animace znázorňuje pohyb pístu, rozvod páry a přeměnu tepelné energie na mechanickou práci. Spouští se přímo v prohlížeči bez instalace, ovládání je intuitivní. Vhodná pro přímé promítání ve výuce i pro samostatné studium žáků.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_parnistroj&l=cz"
+}

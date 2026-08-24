@@ -1,0 +1,23 @@
+{
+  "id": "tepelne-parni-stroj-newcomen-model",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Tepelný motor z láhve — Newcomenův princip kondenzace",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus ilustrující princip Newcomenova atmosférického parního stroje. Uzavřená láhev se střídavě ohřívá horkou vodou a ochlazuje studenou vodou — ohřev zvyšuje tlak páry uvnitř a vytlačuje barevnou vodu přes hadičky do horní nádoby; ochlazení způsobí kondenzaci páry, vznikne podtlak a voda se vrátí zpět. Postup nevyžaduje otevřený oheň ani tlakovou nádobu (jen konvici s horkou vodou), takže je bezpečný i pro třídní demonstraci. Propojuje historický vývoj parního stroje (Newcomen → Watt) s fyzikálním principem rozpínání a kondenzace páry.",
+  "materials": [
+    "uzavřená láhev s víčkem",
+    "2 stojany",
+    "2 sklenice",
+    "3 hadičky",
+    "trojcestný ventil (např. z bezového dřeva)",
+    "konvice s horkou vodou",
+    "studená voda",
+    "barevná voda"
+  ],
+  "procedure": "Naplnit láhev částečně barevnou vodou, pevně utáhnout víčkem s trojcestným ventilem a hadičkami. Přelít láhev horkou vodou z konvice — tlak páry uvnitř stoupne a přesune barevnou vodu přes ventil do horní sklenice. Zavřít příslušnou hadičku a přelít láhev studenou vodou — pára zkondenzuje, vznikne podtlak a voda se stáhne zpět.",
+  "source": {
+    "label": "Veletrh nápadů učitelů fyziky — sborník",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_05/05_31_Saroch.html"
+  }
+}
