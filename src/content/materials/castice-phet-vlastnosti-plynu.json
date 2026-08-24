@@ -1,0 +1,9 @@
+{
+  "id": "castice-phet-vlastnosti-plynu",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "PhET: Vlastnosti plynu (česky)",
+  "type": "applet",
+  "description": "Česká simulace s záložkou Difuze, kde žák sleduje mísení dvou druhů částic přes propustnou přepážku při různých teplotách. Záložka Kinetická energie ukazuje histogram rychlostí molekul závislý na teplotě — propojení tepelného pohybu s difuzí a Brownovým pohybem v jedné simulaci.",
+  "url": "https://phet.colorado.edu/cs/simulations/gas-properties"
+}

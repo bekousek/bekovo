@@ -1,0 +1,9 @@
+{
+  "id": "castice-falstad-molekuly-plynu",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Falstad: Simulace molekul plynu s dráhou Brownova pohybu",
+  "type": "applet",
+  "description": "Interaktivní anglická simulace pohybu molekul plynu s funkcí \"Show Brownian Motion Path\", která vykreslí chaotickou cik-cak trajektorii velké testovací části obklopené menšími molekulami. Barva každé molekuly odpovídá její kinetické energii; žák může nastavit teplotu, počet molekul a rychlost simulace.",
+  "url": "https://www.falstad.com/gas/"
+}

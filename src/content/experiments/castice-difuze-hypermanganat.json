@@ -1,0 +1,20 @@
+{
+  "id": "castice-difuze-hypermanganat",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Difuze hypermanganu ve vodě",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: krystaly permanganátu draselného (KMnO₄, \"hypermangan\") se opatrně vloží na dno dvou nádob — jedné se studenou a jedné s teplou vodou. Sytě fialová barva se pomalu šíří do celého objemu kapaliny bez míchání — čistě difuzí. Výrazné barevné srovnání obou nádob v čase (5, 15, 30 min) přímo dokazuje, že rychlost difuze závisí na teplotě a propojuje makroskopické pozorování s kinetickým modelem: v teplé vodě se molekuly pohybují rychleji. Demonstrační pokus — pro žáky vhodné jako řízeného pozorování při demonstraci učitelem.",
+  "materials": [
+    "krystaly permanganátu draselného (KMnO₄, hypermangan)",
+    "dvě skleněné kádinky nebo sklenice",
+    "studená voda",
+    "teplá voda (cca 50–60 °C)",
+    "pinzeta nebo dřevěná špejle"
+  ],
+  "procedure": "Do každé nádoby nalít vodu — jednu studenou, druhou teplou. Pinzetou opatrně vložit jeden krystal hypermanganu na dno každé nádoby. Nerušit kapalinu. Sledovat a fotit stav po 5, 15 a 30 minutách. Porovnat rychlost šíření fialového zbarvení v obou nádobách a diskutovat o příčině rozdílu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4544/difuze-hypermanganu-ve-vode"
+  }
+}

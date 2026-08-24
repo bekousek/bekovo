@@ -1,0 +1,9 @@
+{
+  "id": "castice-walter-fendt-castice-plynu",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Walter Fendt: Pohyb částic v ideálním plynu (česky)",
+  "type": "applet",
+  "description": "Česká HTML5 applet zobrazuje 3D animaci pohybu molekul ideálního plynu; žák si vybere druh plynu a nastaví teplotu a tlak. Simulace názorně ukazuje neuspořádaný tepelný pohyb částic, který je přímou příčinou Brownova pohybu. Nevyžaduje instalaci, funguje přímo v prohlížeči.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gas3d_cz.htm"
+}

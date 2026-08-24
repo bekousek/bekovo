@@ -1,0 +1,12 @@
+{
+  "id": "castice-latky-brownuv-magnety",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Modelování Brownova pohybu a difuze keramickými magnety",
+  "type": "other",
+  "description": "Demonstrační analogie molekulárních procesů na vzdušném stole s keramickými magnety. Pro Brownův pohyb: jeden velký magnet obklopený mnoha malými — velký se pohybuje výrazně pomaleji a chaoticky, čímž analogicky modeluje těžkou Brownovu částici bombardovanou neviditelnými molekulami. Pro difuzi: 25 červených a 25 zelených magnetů oddělených ostrou hranicí se po spuštění vzdušného stolu samovolně mísí — viditelný model difuze dvou látek. Aktivita vyžaduje vzdušný stůl (air table); vhodná jako demonstrace ve škole s fyzikální laboratoří.",
+  "source": {
+    "label": "VNUF 2001",
+    "url": "https://vnuf.cz/sbornik/prispevky/06-22-Wilke.html"
+  }
+}

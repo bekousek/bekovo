@@ -1,0 +1,9 @@
+{
+  "id": "castice-geogebra-brownuv-pohyb",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "GeoGebra: Brownův pohyb – dynamická animace",
+  "type": "applet",
+  "description": "Jednoduchá interaktivní GeoGebra animace zobrazující náhodný pohyb větší částice způsobený srážkami s menšími molekulami okolního média. Žák posuvníkem mění teplotu a sleduje, jak se intenzita Brownova pohybu zvyšuje s rostoucí teplotou. Nevyžaduje instalaci.",
+  "url": "https://www.geogebra.org/m/F6AFWkRJ"
+}
