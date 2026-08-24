@@ -1,0 +1,18 @@
+{
+  "id": "elektrostatika-fyzweb-prenos-naboje",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Přenos náboje — vodiče a izolanty",
+  "type": "qualitative",
+  "description": "Demonstrační pokus zaměřený na přenos elektrického náboje třením nabitou tyčinkou na různé materiály. Elektroskop indikuje, zda byl náboj přenesen — u kovů ano (vodiče), u plastů a skla ne (izolanty). Pokus přesvědčivě ukazuje, proč kovy vedou elektřinu a plasty ne, a vytváří intuitivní základ pro pozdější výuku elektrických obvodů.",
+  "materials": [
+    "nabitá vinidurová tyčinka",
+    "zlatolistový elektroskop",
+    "vzorky materiálů: kovy (měď, hliník), plasty, dřevo, sklo"
+  ],
+  "procedure": "Nabít tyčinku třením. Postupně se dotknout různých materiálů a každý okamžitě přiblížit k elektroskopii — zaznamenat, u kterých dojde k výchylce listů a u kterých ne.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/PRENOSNABOJE/POPIS.HTM"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-falstad-vector2de",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Falstad: Elektrické pole — 2D vektorová simulace",
+  "type": "applet",
+  "description": "Simulace znázorňující elektrické pole jako soustavu 2D vektorů pro různé konfigurace nábojů; zobrazuje potenciálový povrch a pohyb testovacích částic podél vektorů pole. Uživatel přepíná mezi předdefinovanými konfiguracemi nábojů a sleduje, jak se mění směr a hustota vektorů. Rozhraní je anglicky; vhodná jako učitelská demonstrace konceptu silového pole na interaktivní tabuli.",
+  "url": "https://www.falstad.com/vector2de/"
+}

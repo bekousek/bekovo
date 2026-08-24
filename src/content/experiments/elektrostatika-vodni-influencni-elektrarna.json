@@ -1,0 +1,12 @@
+{
+  "id": "elektrostatika-vodni-influencni-elektrarna",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Malá vodní influenční elektrárna",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: voda vytékající z kovové trubičky nese kladný elektrický náboj ze statické elektřiny vzniklé třením o stěny trubičky. Padající kapky pak prostřednictvím elektrostatické indukce nabíjejí dvě kovové nádoby pod sebou opačnými náboji. Jde o vizuálně poutavý motivační experiment, který propojuje každodenní jev (tekoucí voda) se vznikem elektrického náboje a elektrostatickou indukcí.",
+  "source": {
+    "label": "VNUF 2006",
+    "url": "http://vnuf.cz/sbornik/prispevky/06-19-Svoboda.html"
+  }
+}
