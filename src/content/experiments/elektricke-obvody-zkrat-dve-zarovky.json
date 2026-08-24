@@ -1,0 +1,19 @@
+{
+  "id": "elektricke-obvody-zkrat-dve-zarovky",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Zkrat pomocí spínače — dvě žárovky v sérii",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci sestaví sériový obvod se dvěma žárovkami a poté přidají spínač paralelně k jedné z nich. Po zavření spínače zjistí, že žárovka paralelně se spínačem zhasne — proud zvolil cestu přes spínač s nulovým odporem a žárovku obešel. Učitel poté zavede pojem zkrat a přejde k vysvětlení, jak pojistky a jističe chrání obvod před nebezpečnými zkraty.",
+  "materials": [
+    "plochá baterie nebo školní nízkonapěťový zdroj (do 6 V)",
+    "dvě žárovky se svítilnovými patičkami",
+    "spínač",
+    "spojovací vodiče s krokosvorkami"
+  ],
+  "procedure": "Zapojit sériový obvod: zdroj → žárovka A → žárovka B → zpět ke zdroji. Spínač připojit paralelně k žárovce B. Zapnout bez spínače — obě žárovky svítí. Zavřít spínač a pozorovat, že žárovka B zhasne. Diskutovat příčinu a zavést pojem zkrat.",
+  "source": {
+    "label": "KDF MFF UK – Heuréka, Elektrické obvody",
+    "url": "https://kdf.mff.cuni.cz/vyuka/ElmagKrokZaKrokem/Elektricke-obvody-1-cast.pdf"
+  }
+}

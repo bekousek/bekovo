@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-walter-fendt-ohm",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Ohmův zákon — interaktivní simulace (Walter Fendt, česky)",
+  "type": "applet",
+  "description": "Česká HTML5 simulace zobrazuje jednoduchý obvod se zdrojem napětí, rezistorem, voltmetrem a ampérmetrem. Žák interaktivně snižuje odpor posuvníkem a sleduje, jak prudce roste proud — při odporu blízkém nule proud prudce vzroste, což názorně ilustruje fyzikální princip zkratu (nulový odpor → obrovský proud). Simulace nevyžaduje znalost vzorce, stačí pozorovat chování.",
+  "url": "https://www.walter-fendt.de/html5/phcz/ohmslaw_cz.htm"
+}

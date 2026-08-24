@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-falstad",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Falstad Circuit Simulator — animovaný simulátor elektrických obvodů",
+  "type": "applet",
+  "description": "Webový simulátor elektrických obvodů zobrazuje pohyb elektrického náboje v reálném čase jako animované tečky. Učitel může sestavit obvod se zkratem a demonstrovat enormní nárůst proudu vizuálně. Rozhraní je anglické, ale animace jsou srozumitelné bez znalosti jazyka; k dispozici jsou předdefinované ukázkové obvody. Nejvhodnější jako demonstrace na projekci.",
+  "url": "https://www.falstad.com/circuit/"
+}
