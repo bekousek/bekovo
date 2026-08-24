@@ -117,6 +117,7 @@ PDF soubory sborníků žijí v `public/sborniky/` (gitignored). Nikdy neimportu
 Tyto cesty rutina **nikdy nemodifikuje**:
 
 - `fyzlab/**` (samostatná aplikace FyzLab — fyzikální sandbox; vlastní package.json, CI i Cloudflare deploy; vyvíjí se interaktivně, ne rutinou)
+- `src/content/osv-categories/**`, `src/content/osv-items/**`, `src/pages/osv/**`, `src/components/osv/**`, `src/lib/osv.ts`, `public/osv-soubory/**` (sekce OSV — osobnostní a sociální výchova; kurátoruje se ručně, viz [OSV.md](OSV.md))
 - `src/content/subtopics/**` (LaTeX zápisy + metadata podkapitol)
 - `src/content/topics/**` (struktura témat)
 - `src/content/formulas/**`, `src/content/scenarios/**` (generátor příkladů)

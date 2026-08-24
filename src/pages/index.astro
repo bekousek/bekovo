@@ -28,6 +28,25 @@ const gradeDotColors: Record<number, string> = {
     <p class="mt-2 text-lg text-gray-600">Učební materiály pro 6.–9. třídu</p>
   </div>
 
+  <a
+    href="/osv"
+    class="block mb-10 bg-white rounded-xl shadow-sm ring-1 ring-gray-200 border-l-4 border-l-violet-500 p-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+  >
+    <div class="flex items-start gap-3">
+      <span class="text-3xl" aria-hidden="true">🧩</span>
+      <div class="flex-1 min-w-0">
+        <h2 class="font-semibold text-gray-900 text-lg leading-tight">Osobnostní a sociální výchova</h2>
+        <p class="mt-1 text-sm text-gray-600">
+          Aktivity, plány hodin a náměty pro OSV a třídnické hodiny — osobnostní rozvoj,
+          sociální a etický rozvoj, kariérový rozvoj a třídní kolektiv.
+        </p>
+        <span class="mt-2 inline-flex items-center gap-1 text-sm font-medium text-violet-700">
+          Otevřít OSV →
+        </span>
+      </div>
+    </div>
+  </a>
+
   {grades.map((grade) => {
     const gradeTopics = topics.filter((t) => t.data.grade === grade);
     if (gradeTopics.length === 0) return null;

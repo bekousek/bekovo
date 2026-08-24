@@ -1,0 +1,27 @@
+{
+  "id": "osobnostni-metodicke-karty-pro-deti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Metodické karty pro děti — příběhy a hledání pomoci",
+  "description": "Karty s příběhy ohrožených dětí. Přístupnou formou ukazují různé problémy, se kterými se děti potýkají, a hlavně to, že se dá vyhledat pomoc.",
+  "keywords": [
+    "vyhledávání pomoci",
+    "příběhy",
+    "ohrožené děti",
+    "karty",
+    "podpora"
+  ],
+  "type": "aktivita",
+  "goal": "Žák ví, že na těžké situace není sám a kam se dá obrátit.",
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací"
+  ],
+  "source": {
+    "label": "SOFA — Metodické karty pro děti",
+    "url": "https://www.societyforall.cz/metodicke-karty-pro-deti"
+  },
+  "notes": "Věkové zacílení karet jsem neověřil — než je zařadíš do šestky, projdi si je.",
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

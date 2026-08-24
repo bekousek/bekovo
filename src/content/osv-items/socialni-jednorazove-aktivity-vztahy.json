@@ -1,0 +1,19 @@
+{
+  "id": "socialni-jednorazove-aktivity-vztahy",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Jednorázové aktivity pro podporu dobrých vztahů ve třídě",
+  "description": "Sada krátkých aktivit zaměřených na spolupráci, toleranci, empatii a komunikační pravidla. Každá je popsaná tak, že se dá zařadit samostatně do jedné hodiny, bez návaznosti na delší program.",
+  "keywords": ["vztahy", "spolupráce", "empatie", "tolerance", "komunikace", "krátké aktivity"],
+  "type": "metodika",
+  "grades": [6, 7, 8, 9],
+  "goal": "Zásobník aktivit, ze kterého se dá vzít jedna věc na jednu hodinu, když je potřeba zapracovat na vztazích ve třídě.",
+  "rvpAreas": ["Mezilidské vztahy", "Spolupráce a kooperace", "Sociálně-emocionální dovednosti"],
+  "source": {
+    "label": "Inkluzivní škola — Jednorázové aktivity pro podporu dobrých vztahů ve třídě",
+    "url": "https://inkluzivniskola.cz/jednorazove-aktivity-pro-podporu-dobrych-vztahu-ve-tride"
+  },
+  "files": [],
+  "status": "namet",
+  "notes": "Ukázková karta — zdroj z rychlé rešerše, projdi si ho a vyber, co použiješ. Kartu klidně smaž.",
+  "added": "2026-08-22"
+}

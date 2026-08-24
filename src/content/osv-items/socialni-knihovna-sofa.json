@@ -1,0 +1,27 @@
+{
+  "id": "socialni-knihovna-sofa",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Knihovna SOFA — všechny materiály na jednom místě",
+  "description": "Kompletní knihovna materiálů SOFA s filtry. Typy: infografika, metodika, plakát, video, výukový materiál, článek, studie. Témata mimo jiné socio-emoční učení, wellbeing, PBIS, trauma respektující přístup a společné vzdělávání.",
+  "keywords": [
+    "knihovna",
+    "rozcestník",
+    "materiály",
+    "filtry",
+    "ke stažení",
+    "SOFA"
+  ],
+  "type": "metodika",
+  "goal": "Když hledáš něco konkrétního, začni tady — knihovna se dá filtrovat podle typu i tématu.",
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "SOFA — Knihovna",
+    "url": "https://www.societyforall.cz/knihovna",
+    "note": "Užitečné přímé filtry: ?type=Metodika, ?type=Plakát, ?type=Infografika, ?type=Výukový materiál, ?topic=Socio-emoční učení, ?topic=Wellbeing"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

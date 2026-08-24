@@ -1,0 +1,34 @@
+{
+  "id": "socialni-rrrr-projekt",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "RRRR — Respekt, Rozmanitost, Rovnost, Resilience",
+  "description": "Rozcestník celého projektu RRRR. Cílem je rozvíjet socio-emoční dovednosti žáků a jejich pozitivní vztahy. Výzkumy ukazují, že cílená podpora v těchto oblastech zlepšuje zdraví a wellbeing žáků a snižuje výskyt rizikového chování a sklony k násilí.",
+  "keywords": [
+    "RRRR",
+    "respekt",
+    "rozmanitost",
+    "rovnost",
+    "resilience",
+    "vztahy",
+    "prevence"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Sociálně-emocionální dovednosti",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "SOFA — RRRR",
+    "url": "https://www.societyforall.cz/rrrr"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

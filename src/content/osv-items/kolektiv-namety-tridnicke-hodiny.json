@@ -1,0 +1,20 @@
+{
+  "id": "kolektiv-namety-tridnicke-hodiny",
+  "categoryId": "tridni-kolektiv",
+  "title": "Náměty pro třídnické hodiny",
+  "description": "Sborník námětů pro třídního učitele — aktivity na klima třídy, pravidla, spolupráci a řešení problémů ve skupině, připravené pro práci s celou třídou.",
+  "keywords": ["třídnická hodina", "klima třídy", "pravidla", "prevence", "třídní učitel", "skupinová dynamika"],
+  "type": "metodika",
+  "duration": "podle vybrané aktivity",
+  "grades": [6, 7, 8, 9],
+  "goal": "Mít po ruce zásobník, ze kterého se dá na příští třídnickou hodinu rychle vybrat.",
+  "rvpAreas": ["Klima a bezpečí ve třídě", "Pravidla a dohody ve třídě", "Reflexe fungování třídy a zpětná vazba"],
+  "source": {
+    "label": "ZŠ Rosice, metodik prevence — Náměty pro třídnické hodiny (PDF)",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny-namety.pdf"
+  },
+  "files": [],
+  "status": "namet",
+  "notes": "Ukázková karta — zdroj z rychlé rešerše. Kartu klidně smaž.",
+  "added": "2026-08-22"
+}

@@ -1,0 +1,183 @@
+---
+import { ITEM_TYPE_ICONS, ITEM_TYPE_LABELS, STATUS_LABELS, type OsvItem } from '../../lib/osv';
+
+interface Props {
+  /** Placeholder do vyhledávacího pole. */
+  placeholder: string;
+  /** Položky, nad kterými se filtruje — z nich se odvodí nabídka facetů. */
+  items: OsvItem[];
+  /**
+   * `inline` — karty jsou vidět rovnou a filtr je jen zužuje (stránka kategorie).
+   * `reveal` — karty jsou schované, dokud uživatel nezačne hledat (rozcestník /osv).
+   */
+  mode?: 'inline' | 'reveal';
+}
+
+const { placeholder, items, mode = 'inline' } = Astro.props;
+
+// Facet se ukáže jen tehdy, když v datech opravdu rozlišuje — s pár položkami
+// v bance by prázdné filtry působily rozbitě.
+const typeOrder = Object.keys(ITEM_TYPE_LABELS) as OsvItem['type'][];
+const presentTypes = new Set(items.map((i) => i.type));
+const types = typeOrder.filter((t) => presentTypes.has(t));
+
+const statusOrder = Object.keys(STATUS_LABELS) as NonNullable<OsvItem['status']>[];
+const presentStatuses = new Set(items.map((i) => i.status));
+const statuses = statusOrder.filter((s) => presentStatuses.has(s));
+
+const gradeSet = new Set<number>();
+for (const item of items) for (const g of item.grades ?? []) gradeSet.add(g);
+const grades = [...gradeSet].sort((a, b) => a - b);
+
+const facets = [
+  { key: 'type', label: 'Typ', values: types.length > 1 ? types.map((t) => ({ value: t, label: `${ITEM_TYPE_ICONS[t]} ${ITEM_TYPE_LABELS[t]}` })) : [] },
+  { key: 'grades', label: 'Ročník', values: grades.length > 1 ? grades.map((g) => ({ value: String(g), label: `${g}. třída` })) : [] },
+  { key: 'status', label: 'Stav', values: statuses.length > 1 ? statuses.map((s) => ({ value: s, label: STATUS_LABELS[s] })) : [] },
+].filter((f) => f.values.length > 0);
+---
+<div data-osv-filter data-osv-mode={mode} class="mb-6">
+  <label class="relative block">
+    <span class="sr-only">Hledat</span>
+    <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-gray-400" aria-hidden="true">🔍</span>
+    <input
+      type="search"
+      data-osv-query
+      placeholder={placeholder}
+      autocomplete="off"
+      class="w-full pl-10 pr-4 py-3 rounded-xl border border-gray-300 bg-white text-gray-900 placeholder-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition"
+    />
+  </label>
+
+  {facets.length > 0 && (
+    <div class="mt-3 flex flex-col gap-2">
+      {facets.map((facet) => (
+        <div class="flex flex-wrap items-center gap-1.5">
+          <span class="text-xs font-medium text-gray-500 w-16 shrink-0">{facet.label}</span>
+          {facet.values.map((option) => (
+            <button
+              type="button"
+              data-osv-chip={facet.key}
+              data-value={option.value}
+              aria-pressed="false"
+              class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium border border-gray-200 bg-white text-gray-600 hover:border-primary-300 hover:text-primary-700 transition-colors aria-pressed:bg-primary-600 aria-pressed:text-white aria-pressed:border-primary-600"
+            >
+              {option.label}
+            </button>
+          ))}
+        </div>
+      ))}
+    </div>
+  )}
+
+  <div class="mt-3 flex items-center justify-between gap-3 text-sm text-gray-500 min-h-6">
+    <span data-osv-count aria-live="polite"></span>
+    <button
+      type="button"
+      data-osv-reset
+      hidden
+      class="text-primary-600 hover:text-primary-800 hover:underline font-medium"
+    >
+      Zrušit filtry
+    </button>
+  </div>
+</div>
+
+<script>
+  // Odpovídá `normalize()` v src/lib/osv.ts — index v `data-search` je už
+  // znormalizovaný při buildu, tady se stejně ošetří jen uživatelův dotaz.
+  const normalize = (text: string) =>
+    text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+  const plural = (n: number, one: string, few: string, many: string) =>
+    n === 1 ? one : n >= 2 && n <= 4 ? few : many;
+
+  document.querySelectorAll<HTMLElement>('[data-osv-filter]').forEach((root) => {
+    const scope = root.closest('[data-osv-scope]') ?? document;
+    const input = root.querySelector<HTMLInputElement>('[data-osv-query]');
+    const counter = root.querySelector<HTMLElement>('[data-osv-count]');
+    const reset = root.querySelector<HTMLButtonElement>('[data-osv-reset]');
+    const chips = [...root.querySelectorAll<HTMLButtonElement>('[data-osv-chip]')];
+    const cards = [...scope.querySelectorAll<HTMLElement>('.osv-card')];
+    const empty = scope.querySelector<HTMLElement>('[data-osv-empty]');
+    const results = scope.querySelector<HTMLElement>('[data-osv-results]');
+    const browse = scope.querySelector<HTMLElement>('[data-osv-browse]');
+    const reveal = root.dataset.osvMode === 'reveal';
+    if (!input) return;
+
+    const apply = () => {
+      const query = normalize(input.value.trim());
+      const words = query.split(/\s+/).filter(Boolean);
+      const active = new Map<string, Set<string>>();
+      for (const chip of chips) {
+        if (chip.getAttribute('aria-pressed') !== 'true') continue;
+        const key = chip.dataset.osvChip!;
+        if (!active.has(key)) active.set(key, new Set());
+        active.get(key)!.add(chip.dataset.value!);
+      }
+
+      let visible = 0;
+      for (const card of cards) {
+        const haystack = card.dataset.search ?? '';
+        let match = words.every((word) => haystack.includes(word));
+        for (const [key, values] of active) {
+          if (!match) break;
+          // `data-grades` je seznam, ostatní facety mají jednu hodnotu.
+          const raw = card.dataset[key] ?? '';
+          const own = key === 'grades' ? raw.split(',').filter(Boolean) : [raw];
+          match = own.some((value) => values.has(value));
+        }
+        card.classList.toggle('hidden', !match);
+        if (match) visible += 1;
+      }
+
+      const filtering = words.length > 0 || active.size > 0;
+      if (reveal) {
+        // Rozcestník: karty se objeví, teprve když uživatel začne hledat.
+        results?.toggleAttribute('hidden', !filtering);
+        browse?.toggleAttribute('hidden', filtering);
+      }
+      empty?.toggleAttribute('hidden', !(filtering && visible === 0));
+      reset?.toggleAttribute('hidden', !filtering);
+      if (counter) {
+        // Na rozcestníku nedává počet položek smysl, dokud se listují kategorie.
+        counter.textContent = filtering
+          ? `${visible} ${plural(visible, 'výsledek', 'výsledky', 'výsledků')} z ${cards.length}`
+          : reveal
+            ? ``
+            : `${cards.length} ${plural(cards.length, 'položka', 'položky', 'položek')}`;
+      }
+    };
+
+    input.addEventListener('input', apply);
+    for (const chip of chips) {
+      chip.addEventListener('click', () => {
+        chip.setAttribute(
+          'aria-pressed',
+          chip.getAttribute('aria-pressed') === 'true' ? 'false' : 'true',
+        );
+        apply();
+      });
+    }
+    reset?.addEventListener('click', () => {
+      input.value = '';
+      for (const chip of chips) chip.setAttribute('aria-pressed', 'false');
+      apply();
+      input.focus();
+    });
+
+    // „/“ skočí do hledání, Esc ho vyprázdní — rychlé listování bez myši.
+    document.addEventListener('keydown', (event) => {
+      const target = event.target as HTMLElement | null;
+      const typing = target && /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName);
+      if (event.key === '/' && !typing) {
+        event.preventDefault();
+        input.focus();
+      } else if (event.key === 'Escape' && target === input) {
+        input.value = '';
+        apply();
+      }
+    });
+
+    apply();
+  });
+</script>

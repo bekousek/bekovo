@@ -1,0 +1,95 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import OsvFilterBar from '../../../components/osv/OsvFilterBar.astro';
+import OsvItemCard from '../../../components/osv/OsvItemCard.astro';
+import { ACCENTS, getCategories, getItems } from '../../../lib/osv';
+
+export async function getStaticPaths() {
+  const categories = await getCategories();
+  return Promise.all(
+    categories.map(async (category) => ({
+      params: { category: category.id },
+      props: { category, items: await getItems(category.id), categories },
+    })),
+  );
+}
+
+const { category, items, categories } = Astro.props;
+const accent = ACCENTS[category.accent];
+---
+<BaseLayout
+  title={`OSV — ${category.name}`}
+  description={`${category.tagline} Banka aktivit, plánů hodin a námětů pro OSV na 2. stupni ZŠ.`}
+>
+  <Breadcrumb rootLabel="OSV" rootHref="/osv" items={[{ label: category.name }]} />
+
+  <div data-osv-scope>
+    <div class="mb-6">
+      <div class="flex items-start gap-3">
+        <span class="text-4xl shrink-0" aria-hidden="true">{category.icon}</span>
+        <div>
+          <h1 class="text-2xl font-bold text-gray-900">{category.name}</h1>
+          <p class="mt-1 text-gray-600">{category.tagline}</p>
+        </div>
+      </div>
+    </div>
+
+    <nav class="mb-6 flex flex-wrap gap-2" aria-label="Kategorie OSV">
+      {categories.map((other) => (
+        <a
+          href={`/osv/${other.id}`}
+          aria-current={other.id === category.id ? 'page' : undefined}
+          class={`inline-flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            other.id === category.id
+              ? `${ACCENTS[other.accent].bg} text-white shadow-sm`
+              : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
+          }`}
+        >
+          <span aria-hidden="true">{other.icon}</span>
+          <span>{other.shortName}</span>
+        </a>
+      ))}
+    </nav>
+
+    <details class="mb-6 bg-white rounded-xl border border-gray-200 p-5 group">
+      <summary class="cursor-pointer font-semibold text-gray-900 marker:text-gray-400">
+        Co sem patří a jak to sedí na RVP
+      </summary>
+      <div class="mt-3 space-y-3 text-sm">
+        <p class="text-gray-600">{category.description}</p>
+        <p class="text-gray-500"><strong class="font-medium text-gray-700">RVP:</strong> {category.rvpAnchor}</p>
+        <div>
+          <p class="font-medium text-gray-700">Podoblasti</p>
+          <ul class="mt-1.5 flex flex-wrap gap-1.5">
+            {category.rvpAreas.map((area) => (
+              <li class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${accent.chip}`}>
+                {area}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </details>
+
+    <OsvFilterBar items={items} placeholder={`Hledat v kategorii ${category.name}…`} />
+
+    {items.length > 0 ? (
+      <>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+          {items.map((item) => <OsvItemCard item={item} category={category} />)}
+        </div>
+        <p data-osv-empty hidden class="py-12 text-center text-gray-500">
+          Nic takového tu zatím není. Zkus jiné klíčové slovo nebo zruš filtry.
+        </p>
+      </>
+    ) : (
+      <EmptyState
+        icon={category.icon}
+        title="Zatím tu nic není"
+        description="Kategorie je připravená — první náměty přibudou brzy."
+      />
+    )}
+  </div>
+</BaseLayout>

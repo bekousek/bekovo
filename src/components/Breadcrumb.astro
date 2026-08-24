@@ -6,14 +6,17 @@ interface BreadcrumbItem {
 
 interface Props {
   items: BreadcrumbItem[];
+  /** Kořen drobečkové navigace. Fyzika má „Témata“ → „/“, OSV „OSV“ → „/osv“. */
+  rootLabel?: string;
+  rootHref?: string;
 }
 
-const { items } = Astro.props;
+const { items, rootLabel = 'Témata', rootHref = '/' } = Astro.props;
 ---
 <nav class="mb-6 text-sm text-gray-500" aria-label="Breadcrumb">
   <ol class="flex items-center gap-1.5 flex-wrap">
     <li>
-      <a href="/" class="hover:text-primary-600 transition-colors">Témata</a>
+      <a href={rootHref} class="hover:text-primary-600 transition-colors">{rootLabel}</a>
     </li>
     {items.map((item) => (
       <li class="flex items-center gap-1.5">

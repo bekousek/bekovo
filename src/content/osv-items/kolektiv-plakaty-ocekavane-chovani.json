@@ -1,0 +1,33 @@
+{
+  "id": "kolektiv-plakaty-ocekavane-chovani",
+  "categoryId": "tridni-kolektiv",
+  "title": "Plakáty podporující očekávané chování",
+  "description": "Sada plakátů k očekávanému chování, vycházející z PBIS. Dají se vytisknout barevně ve velkém formátu jako podpora k probíranému tématu, nebo černobíle na A4 jako pracovní list, do kterého si žáci píší a kreslí vlastní postřehy.",
+  "keywords": [
+    "plakát",
+    "pracovní list",
+    "očekávané chování",
+    "PBIS",
+    "k vytištění",
+    "třídnická hodina"
+  ],
+  "type": "plakat",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "SOFA — Plakáty podporující očekávané chování",
+    "url": "https://www.societyforall.cz/plakaty-podporujici-ocekavane-chovani",
+    "note": "Autoři je zmiňují jako použitelné v třídnických hodinách i přímo v osobnostně-sociální výchově."
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

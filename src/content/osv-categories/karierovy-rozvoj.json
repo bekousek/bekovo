@@ -1,0 +1,19 @@
+{
+  "id": "karierovy-rozvoj",
+  "name": "Kariérový rozvoj",
+  "shortName": "Kariérový",
+  "order": 3,
+  "icon": "🧗",
+  "accent": "amber",
+  "tagline": "Kam mířím — silné stránky, svět práce a další cesta.",
+  "description": "Objevování vlastních silných stránek, zájmů a hodnot, poznávání světa práce a povolání, rozhodování o další vzdělávací cestě, plánování vlastního kariérového směřování a rovnováha mezi prací a volným časem. V šesté třídě jde hlavně o objevování a sebepoznání ve vztahu k budoucnosti, ne o volbu školy.",
+  "rvpAnchor": "Tematický okruh oboru Osobnostní a sociální výchova (RVP ZV, revize 2025) — kariérové vzdělávání je nově propojené s osobnostním a sociálním rozvojem, bez samostatné hodinové dotace.",
+  "rvpAreas": [
+    "Objevování silných stránek a zájmů",
+    "Svět práce a povolání",
+    "Hodnoty a příležitosti spojené s prací",
+    "Rozhodování o další vzdělávací cestě",
+    "Plánování kariérového směřování",
+    "Rovnováha mezi prací a volným časem"
+  ]
+}

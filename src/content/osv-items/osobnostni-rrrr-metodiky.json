@@ -1,0 +1,43 @@
+{
+  "id": "osobnostni-rrrr-metodiky",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Metodiky RRRR — socio-emoční učení po ročnících",
+  "description": "Soubor osmi metodik pro socio-emoční učení, rozdělených podle ročníků (mimo jiné 6.–7. a 8.–9. ročník ZŠ). Vznikly v Austrálii a byly adaptovány pro české školy. Ke stažení zdarma v PDF.",
+  "keywords": [
+    "RRRR",
+    "socio-emoční učení",
+    "metodika",
+    "zážitková pedagogika",
+    "6. ročník",
+    "ke stažení"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Systematicky rozvíjet socio-emoční dovednosti napříč celým druhým stupněm podle hotového plánu, ne jednorázově.",
+  "procedure": "Metodiky pokrývají osm tematických oblastí, kterými žáci procházejí postupně od prvních ročníků ZŠ až po konec SŠ:\n\n1. Emoční gramotnost\n2. Osobní silné stránky\n3. Zvládání náročných situací\n4. Řešení problémů\n5. Zvládání stresu\n6. Vyhledávání pomoci\n7. Gender a identita\n8. Pozitivní vztahy\n\nKaždá oblast obsahuje aktivity postavené na zážitkové pedagogice — hraní rolí, diskuze nad modelovými situacemi, práce s daty. Součástí jsou i pracovní listy pro žáky a otázky pro reflexi.",
+  "rvpAreas": [
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací",
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "SOFA — Metodiky RRRR",
+    "url": "https://www.societyforall.cz/metodiky-rrrr"
+  },
+  "files": [
+    {
+      "label": "RRRR — metodika pro 8.–9. ročník ZŠ (PDF)",
+      "href": "https://www.societyforall.cz/file/7cb90d1cebf763534e04afeb871279b0af796d57.pdf?name=RRRR+-+metodika+pro+8.-9.+ro%C4%8Dn%C3%ADk+Z%C5%A0",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Metodiku pro 6.–7. ročník ZŠ stáhni z rozcestníku — přímý odkaz na PDF se mi nepodařilo dohledat, ale na stránce Metodiky RRRR je ke stažení.",
+  "status": "namet",
+  "added": "2026-08-22"
+}

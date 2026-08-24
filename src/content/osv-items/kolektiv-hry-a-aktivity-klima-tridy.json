@@ -1,0 +1,37 @@
+{
+  "id": "kolektiv-hry-a-aktivity-klima-tridy",
+  "categoryId": "tridni-kolektiv",
+  "title": "Hry a aktivity pro podporu dobrého klimatu třídy",
+  "description": "Konkrétní hry na stmelení kolektivu a posílení bezpečného prostředí ve třídě, použitelné v průběhu celého školního roku. Bezpečné prostředí snižuje stres a usnadňuje učení.",
+  "keywords": [
+    "klima třídy",
+    "stmelování",
+    "hry",
+    "vztahy",
+    "začátek roku",
+    "seznamování",
+    "teambuilding"
+  ],
+  "type": "hra",
+  "duration": "10–20 min na hru",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Rychle použitelná zásoba her, když je potřeba třídu stmelit nebo jen prolomit ledy.",
+  "procedure": "Ze stránky namátkou několik aktivit:\n\nPodávání rukou — žáci se volně pohybují po vymezeném prostoru a podávají si ruce s těmi, koho potkají. Předchozí ruku ale smí pustit, teprve až si plácnou s dalším spolužákem, takže se pořád někoho drží.\n\nSeznam vlastností — každý si napíše vlastnosti, které na něj sedí. Dobrovolníci pak své vlastnosti čtou nahlas a ostatní tleskají, dupou nebo jinak dávají najevo, že to platí i o nich. Varianta pracuje místo vlastností s pocity: jak se dnes cítím, jak bych se cítil v určité situaci.\n\nCo jsme dělali o prázdninách — žáci vymyslí otázky na prázdninové aktivity a pak chodí po třídě a sbírají odpovědi spolužáků.\n\nLidský stroj — žáci postupně vstupují do hracího prostoru a společně vytvářejí stroj ze zvuků a pohybů; každý další přidá svůj pohyb a zvuk tak, aby seděl do rytmu předchozích.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Teambuilding a společné zážitky",
+    "Seznamování a adaptace"
+  ],
+  "source": {
+    "label": "SOFA — Hry a aktivity pro podporu dobrého klimatu třídy a posilování vztahů ve třídě",
+    "url": "https://www.societyforall.cz/hry-a-aktivity-pro-podporu-dobreho-klimatu-tridy-a-posilovani-vztahu-ve-tride"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}

@@ -144,6 +144,106 @@ const scenarios = defineCollection({
   }),
 });
 
+/* ---------------------------------------------------------------------------
+ * OSV — Osobnostní a sociální výchova (bekovo.cz/osv)
+ *
+ * Samostatná větev obsahu, nezávislá na fyzikálních tématech. Podle
+ * revidovaného RVP ZV (2025) je OSV plnohodnotný vzdělávací obor v oblasti
+ * „Člověk, jeho osobnost a svět práce“ (už ne průřezové téma) a jeho obsah je
+ * rozdělen do tří tematických okruhů: Osobnostní rozvoj, Sociální a etický
+ * rozvoj, Kariérový rozvoj. Čtvrtá kategorie (Rozvoj třídního kolektivu) není
+ * okruh RVP — je to provozní vrstva třídnických hodin.
+ * ------------------------------------------------------------------------- */
+
+// Odkaz na soubor: buď absolutní URL (Google Drive, web), nebo cesta uvnitř
+// tohoto webu začínající `/` (např. `/osv-soubory/emoce-karty.pdf`).
+const osvHref = z.string().refine(
+  (value) => /^https?:\/\//.test(value) || value.startsWith('/'),
+  { message: 'Musí být absolutní URL (https://…) nebo cesta na webu začínající „/“.' },
+);
+
+const osvCategories = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/osv-categories' }),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
+    /** Krátký název do navigace a breadcrumbů. */
+    shortName: z.string(),
+    order: z.number(),
+    icon: z.string(),
+    /** Barevný akcent. Hodnoty se v komponentách mapují na doslovné Tailwind
+     *  třídy — Tailwind neumí `bg-${accent}-100`, viz TopicCard.astro. */
+    accent: z.enum(['emerald', 'blue', 'amber', 'violet']),
+    /** Jedna věta na kartu kategorie. */
+    tagline: z.string(),
+    /** Co do kategorie patří — vodítko pro rozřazování nových námětů. */
+    description: z.string(),
+    /** Ukotvení v RVP ZV (2025). */
+    rvpAnchor: z.string(),
+    /** Kanonický číselník podoblastí — položky se jimi štítkují (`rvpAreas`). */
+    rvpAreas: z.array(z.string()),
+  }),
+});
+
+const osvItems = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/osv-items' }),
+  schema: z.object({
+    id: z.string(),
+    categoryId: z.string(),
+    title: z.string(),
+    /** Stručný popis — 1–3 věty, zobrazuje se na kartě. */
+    description: z.string(),
+    /** Klíčová slova pro vyhledávání. Bez diakritiky se hledá taky. */
+    keywords: z.array(z.string()).default([]),
+    type: z.enum([
+      'aktivita',
+      'hra',
+      'plan-hodiny',
+      'metodika',
+      'pracovni-list',
+      'plakat',
+      'video',
+      'clanek',
+      'dotaznik',
+      'namet',
+      'jine',
+    ]),
+    /** Časová náročnost, volný text: „15 min“, „1 vyučovací hodina“, „2×45 min“. */
+    duration: z.string().optional(),
+    /** Pro které ročníky se hodí. */
+    grades: z.array(z.number().int().min(1).max(9)).optional(),
+    /** Cíl — co si žáci odnesou. */
+    goal: z.string().optional(),
+    /** Pomůcky. */
+    materials: z.array(z.string()).optional(),
+    /** Podrobný postup / scénář hodiny. Odstavce oddělené prázdným řádkem. */
+    procedure: z.string().optional(),
+    /** Otázky do závěrečné reflexe. */
+    reflection: z.array(z.string()).optional(),
+    /** Štítky z číselníku `rvpAreas` mateřské kategorie. */
+    rvpAreas: z.array(z.string()).optional(),
+    /** Odkaz na původní zdroj. */
+    source: z.object({
+      label: z.string(),
+      url: z.string().url().optional(),
+      note: z.string().optional(),
+    }).optional(),
+    /** Přiložené soubory — Drive, nebo `/osv-soubory/…` v tomto repu. */
+    files: z.array(z.object({
+      label: z.string(),
+      href: osvHref,
+      type: z.enum(['pdf', 'doc', 'slides', 'sheet', 'image', 'audio', 'video', 'other']).default('other'),
+      note: z.string().optional(),
+    })).default([]),
+    /** Kde v přípravě položka je. */
+    status: z.enum(['namet', 'pripraveno', 'odzkouseno']).default('namet'),
+    /** Moje poznámka — co fungovalo, na co si dát pozor. */
+    notes: z.string().optional(),
+    /** Datum přidání (YYYY-MM-DD) — řadí se podle něj, nejnovější nahoře. */
+    added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  }),
+});
+
 export const collections = {
   topics,
   subtopics,
@@ -153,4 +253,6 @@ export const collections = {
   homework,
   formulas,
   scenarios,
+  osvCategories,
+  osvItems,
 };

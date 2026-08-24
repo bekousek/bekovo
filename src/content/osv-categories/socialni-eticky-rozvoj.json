@@ -1,0 +1,21 @@
+{
+  "id": "socialni-eticky-rozvoj",
+  "name": "Sociální a etický rozvoj",
+  "shortName": "Sociální a etický",
+  "order": 2,
+  "icon": "🤝",
+  "accent": "blue",
+  "tagline": "Já a druzí — jak spolu mluvíme, spolupracujeme a jednáme.",
+  "description": "Sociálně-emocionální dovednosti, vnímání a poznávání druhých lidí, komunikace a sociální interakce v různých situacích, mezilidské vztahy, spolupráce, zvládání konfliktů, prosociální chování, hodnoty, postoje a praktická etika. Výchozí kategorie při nejasném zařazení: pokud aktivita rozvíjí obecnou sociální dovednost (i když se odehrává ve třídě), patří sem — do Rozvoje třídního kolektivu jde jen to, co pracuje s konkrétní touto třídou.",
+  "rvpAnchor": "Tematický okruh oboru Osobnostní a sociální výchova (RVP ZV, revize 2025) — vzdělávací oblast Člověk, jeho osobnost a svět práce.",
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti",
+    "Poznávání a vnímání druhých lidí",
+    "Komunikace a sociální interakce",
+    "Mezilidské vztahy",
+    "Spolupráce a kooperace",
+    "Zvládání konfliktů",
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ]
+}

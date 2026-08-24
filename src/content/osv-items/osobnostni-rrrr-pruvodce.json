@@ -1,0 +1,24 @@
+{
+  "id": "osobnostni-rrrr-pruvodce",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Průvodce metodikou RRRR",
+  "description": "Úvod do toho, jak s metodikami RRRR pracovat — než se poprvé sáhne po konkrétní aktivitě. Vysvětluje logiku osmi tematických oblastí a jejich návaznost napříč ročníky.",
+  "keywords": [
+    "RRRR",
+    "průvodce",
+    "jak začít",
+    "socio-emoční učení",
+    "plánování"
+  ],
+  "type": "metodika",
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "source": {
+    "label": "SOFA — Průvodce metodikou RRRR",
+    "url": "https://www.societyforall.cz/pruvodce-metodikou-rrrr"
+  },
+  "status": "namet",
+  "added": "2026-08-22",
+  "files": []
+}
