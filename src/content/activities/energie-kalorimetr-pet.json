@@ -1,0 +1,12 @@
+{
+  "id": "energie-kalorimetr-pet",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Výroba kalorimetru z PET lahví",
+  "type": "other",
+  "description": "Žáci si sami sestrojí jednoduchý kalorimetr ze dvou PET lahví různých velikostí — menší zasunutá do větší, vzduchová mezera slouží jako tepelná izolace. Hotový přístroj vzápětí použijí pro základní kalorimetrická měření (míchání vod různých teplot, ověření kalorimetrické rovnice). Aktivita posiluje pochopení principu tepelné izolace a toho, proč kalorimetr omezuje tepelné ztráty do okolí.",
+  "source": {
+    "label": "FyzWeb — pokusy a materiály",
+    "url": "https://fyzweb.cz/clanky/index.php?id=162"
+  }
+}

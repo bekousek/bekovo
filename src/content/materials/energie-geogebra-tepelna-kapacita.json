@@ -1,0 +1,9 @@
+{
+  "id": "energie-geogebra-tepelna-kapacita",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "GeoGebra: Tepelná výměna a rovnovážná teplota",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra aplet modeluje tepelnou výměnu mezi dvěma látkami v tepelném kontaktu (voda, železo apod.). Žáci nastavují hmotnosti a počáteční teploty obou látek, spustí simulaci a sledují, jak teploty konvergují k rovnovážné hodnotě. Aplet konkrétně vizualizuje kalorimetrické rovnice a pojem měrné tepelné kapacity.",
+  "url": "https://www.geogebra.org/m/eD6nnXA7"
+}

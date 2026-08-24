@@ -1,0 +1,9 @@
+{
+  "id": "energie-falstad-kinetika-plynu",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Falstad: Kinetika plynových molekul — tepelný pohyb",
+  "type": "applet",
+  "description": "Vizuální aplet zobrazuje pohyb plynových molekul v nádobě; barva každé molekuly ukazuje její kinetickou energii. Žáci ovládají teplotu ohřívače a sledují, jak se mění rychlost pohybu molekul. Intuitivně ilustruje, že teplota je mírou průměrné kinetické energie částic — propojení mikroskopického pohledu s pojmem teplo a vnitřní energie. Ovládání je plně vizuální bez nutnosti znalosti angličtiny.",
+  "url": "https://www.falstad.com/gas/"
+}
