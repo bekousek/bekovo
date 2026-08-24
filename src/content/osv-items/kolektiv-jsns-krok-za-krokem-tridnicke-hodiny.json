@@ -1,0 +1,47 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Krok za krokem třídnickými hodinami 2025 — rozšířené vydání (PDF)",
+      "href": "https://www.jsns.cz/nove/projekty/vzdelavani-vyucujicich/tridnicke-hodiny/jsns_krok_za_krokem_tridnickahodina_2025.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Starší vydání 2023 (PDF)",
+      "href": "https://www.jsns.cz/nove/projekty/vzdelavani-vyucujicich/tridnicke-hodiny/krok_za_krokem_tridnickahodina_2023.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "kolektiv-jsns-krok-za-krokem-tridnicke-hodiny",
+  "categoryId": "tridni-kolektiv",
+  "title": "Krok za krokem třídnickými hodinami s JSNS (příručka 2025)",
+  "description": "Soubor metodických materiálů a tipů přímo pro třídnické hodiny. Nabízí vybrané audiovizuální lekce, které se v třídnických hodinách osvědčily — vždy dva filmy a tip na bonusový materiál na každé úrovni, zvlášť pro ZŠ a SŠ. Ke stažení v PDF, rozšířené vydání 2025.",
+  "keywords": [
+    "třídnická hodina",
+    "příručka",
+    "PDF",
+    "krok za krokem",
+    "filmy",
+    "klima třídy",
+    "reflexe emocí"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Mít hotový sled třídnických hodin postavený na filmech, ne skládat je po jedné.",
+  "procedure": "Zásada, kterou příručka opakuje: vždycky začínej zlehka a soustřeď se na reflexi emocí.\n\nStartuj u neutrálních témat, na kterých si žáci nacvičí umění diskuze a ověří si, že sdílet osobní zkušenost je ve třídě bezpečné.\n\nTeprve když se všichni navzájem respektují a poslouchají, dá se přejít k tématům, která vyvolávají silnější emoční reakce — a i pak je vždy dostatečně reflektovat a zpracovat.\n\nRozdělení na ZŠ a SŠ není striktní; vždycky záleží na charakteru třídy a na tom, čeho chceš dosáhnout. Doporučené filmy a aktivity se dají použít tak, jak jsou, nebo si je přizpůsobit.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Reflexe fungování třídy a zpětná vazba",
+    "Teambuilding a společné zážitky"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Krok za krokem třídnickými hodinami — rozšířené vydání 2025",
+    "url": "https://www.jsns.cz/krok-za-krokem/1766502-tridnicke-hodiny"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-sikana",
+  "categoryId": "tridni-kolektiv",
+  "title": "JSNS: Šikana — odhalit a řešit „nemoc skupiny\"",
+  "description": "Tematický okruh k šikaně s dvaceti lekcemi pro 2. stupeň ZŠ (a deseti pro 1. stupeň). Kromě aktivit obsahuje informační texty k pojmům jako šikana, osobnost agresora a řešení šikany — materiály, které pomůžou tuhle „nemoc skupiny\" odhalit a řešit.",
+  "keywords": [
+    "šikana",
+    "agresor",
+    "oběť",
+    "svědek",
+    "prevence",
+    "nemoc skupiny",
+    "řešení"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Řešení problémů a konfliktů ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Šikana — tematický okruh",
+    "url": "https://www.jsns.cz/lekce/15242-sikana",
+    "note": "Kategorie rozcestníku: https://www.jsns.cz/rozcestnik-preventivnich-materialu/sikana"
+  }
+}

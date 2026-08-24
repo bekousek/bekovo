@@ -1,0 +1,33 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-mame-neco-spolecneho",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Máme něco společného (lekce)",
+  "description": "Ukazuje naši tendenci sami sebe škatulkovat — a jak tím bezděčně vznikají bariéry, které nás rozdělují. Žáci si uvědomí sdílené zkušenosti a zájmy, což pomáhá překonat předem hotové představy o spolužácích.",
+  "keywords": [
+    "škatulkování",
+    "společné",
+    "bariéry",
+    "stmelení",
+    "předsudky",
+    "poznávání spolužáků"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák najde něco společného i s tím, koho by si automaticky zařadil jinam.",
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Mezilidské vztahy"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Máme něco společného",
+    "url": "https://www.jsns.cz/lekce/1498283-mame-neco-spolecneho"
+  }
+}

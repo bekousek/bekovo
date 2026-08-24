@@ -1,0 +1,43 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Začněte učit s filmem (PDF)",
+      "href": "https://www.jsns.cz/nove/pdf/zacnete_ucit_s_filmem_web.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učíme s filmem — metodická příručka (PDF)",
+      "href": "https://www.jsns.cz/nove/pdf/grv_prirucka_ucime-s-filmem_web.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Přehled všech audiovizuálních lekcí",
+      "href": "https://www.jsns.cz/lekce",
+      "type": "other"
+    }
+  ],
+  "id": "socialni-jsns-portal",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "JSNS.cz — jak portál rozjet (registrace zdarma, 280+ filmů)",
+  "description": "Audiovizuální portál Člověka v tísni. Registrace i používání jsou zcela zdarma. Bez ní jsou k dispozici jen ukázky filmů; po registraci se odemknou celé lekce a jde vygenerovat přístup i pro žáky. Ke každé lekci patří aktivity po projekci, metodické rady, otázky a odpovědi k tématu a odkazy.",
+  "keywords": [
+    "JSNS",
+    "registrace",
+    "zdarma",
+    "dokumentární filmy",
+    "audiovizuální lekce",
+    "jak začít",
+    "Člověk v tísni"
+  ],
+  "type": "metodika",
+  "goal": "Než se sáhne po konkrétní lekci: zaregistrovat se a vědět, jak se s filmem ve třídě pracuje.",
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Registrace a proč učit s filmem",
+    "url": "https://www.jsns.cz/registrace"
+  }
+}

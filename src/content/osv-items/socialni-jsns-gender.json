@@ -1,0 +1,26 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-gender",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "JSNS: Gender a sexuální orientace",
+  "description": "Kategorie rozcestníku k tématu genderu a sexuální orientace. Navazuje na okruh předsudečného chování — cílem je prostor pro kultivovanou diskuzi a vzájemný respekt.",
+  "keywords": [
+    "gender",
+    "sexuální orientace",
+    "identita",
+    "respekt",
+    "předsudky",
+    "homofobie"
+  ],
+  "type": "metodika",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Rozcestník preventivních materiálů — Gender a sexuální orientace",
+    "url": "https://www.jsns.cz/rozcestnik-preventivnich-materialu/gender-a-sexualni-orientace"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-rozcestnik",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "JSNS: Rozcestník preventivních materiálů (celý přehled)",
+  "description": "Rozcestník, kde jsou filmy a aktivity roztříděné podle preventivního tématu. Patnáct kategorií: seberozvoj, psychické zdraví, duševní odlišnosti, soužití v kolektivu, šikana, kyberšikana, předsudečné chování, partnerské a mezigenerační vztahy, gender a sexuální orientace, rizikové sexuální chování, násilí na dětech, rizika internetu a látkové i digitální závislosti.",
+  "keywords": [
+    "rozcestník",
+    "prevence",
+    "přehled",
+    "témata",
+    "filmy",
+    "aktivity"
+  ],
+  "type": "metodika",
+  "goal": "Když hledáš materiál na konkrétní preventivní téma, začni tady.",
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "JSNS (Jeden svět na školách) — Rozcestník preventivních materiálů",
+    "url": "https://www.jsns.cz/rozcestnik-preventivnich-materialu"
+  }
+}
