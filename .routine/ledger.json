@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-16",
+  "lastPicked": "2026-08-18",
   "history": [
     {
       "date": "2026-05-08",
@@ -452,6 +452,12 @@
       "subtopic": "mechanika--vykon",
       "result": "pr-pending",
       "items": 24
+    },
+    {
+      "date": "2026-08-18",
+      "subtopic": "mikrosvet--atom-a-jeho-modely",
+      "result": "pr-pending",
+      "items": 25
     }
   ],
   "skipUntil": {},

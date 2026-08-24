@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-falstad-orbitaly",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Falstad — Prohlížeč orbitalů atomu vodíku",
+  "type": "applet",
+  "description": "JavaScript aplikace zobrazuje ve 3D vlnové funkce elektronu v atomu vodíku; ukazuje, jak pravděpodobnost výskytu elektronu závisí na kvantových číslech n, l, m. Umožňuje model otáčet, měnit kvantová čísla a zobrazit řezy atomem. Demonstruje klíčovou myšlenku kvantového modelu: elektron netvoří pevnou dráhu, ale pravděpodobnostní mrak.",
+  "url": "https://www.falstad.com/qmatom/"
+}

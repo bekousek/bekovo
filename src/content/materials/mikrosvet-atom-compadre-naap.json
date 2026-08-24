@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-compadre-naap",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "NAAP — Laboratorní úloha: Energetické hladiny vodíku",
+  "type": "applet",
+  "description": "Simulace projektu NAAP (Nebraska Astronomy Applet Project) propojuje přechody elektronů v Bohrově modelu atomu vodíku s emisním spektrem. Žáci volí přechody a okamžitě vidí odpovídající spektrální čáru. Applet běží v prohlížeči bez pluginu. Materiál je v angličtině, ale vizuálně intuitivní.",
+  "url": "https://www.compadre.org/precollege/items/detail.cfm?ID=7904"
+}

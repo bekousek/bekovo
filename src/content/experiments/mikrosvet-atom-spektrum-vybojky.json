@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-atom-spektrum-vybojky",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Čárové spektrum výbojek",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): plynová spektrální trubice (rtuť, vodík, sodík) se přes difrakční mřížku pozoruje ze žákovských lavic. Žáci vidí, že každý plyn svítí jen ve specifických barevných čárách — to přímo dokládá diskrétní energetické hladiny elektronů a fyzikální základ Bohrova modelu. Napájení výbojky vyžaduje zdroj vysokého napětí, pokus smí provádět pouze učitel.",
+  "materials": [
+    "plynová spektrální trubice s různými plyny (rtuť, vodík, sodík)",
+    "zdroj vysokého napětí pro výbojky",
+    "difrakční mřížka nebo jednoduchý spektroskop"
+  ],
+  "procedure": "Učitel zapne výbojku, žáci přiloží difrakční mřížku k oku a pozorují rozložené světlo. Identifikují barevné čáry a porovnají spektra různých plynů. Diskuze: proč jsou spektra čárová, ne spojitá? Jak to vysvětluje Bohrův model energetických hladin?",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1838/carove-spektrum-vybojek"
+  }
+}
