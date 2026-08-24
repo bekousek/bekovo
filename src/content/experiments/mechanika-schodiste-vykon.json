@@ -1,0 +1,19 @@
+{
+  "id": "mechanika-schodiste-vykon",
+  "subtopicId": "vykon",
+  "topicId": "mechanika",
+  "title": "Výkon žáka na schodišti",
+  "type": "measurement",
+  "description": "Žákovský laboratorní pokus, při němž každý žák změří svoji hmotnost, určí výšku schodiště (počet schodů × výška jednoho schodu) a stopkami změří čas výstupu nejdříve chůzí, pak během. Z naměřených hodnot vypočítá tíhovou sílu F = mg, práci W = F·h a výkon P = W/t. Výsledky celé třídy se srovnají navzájem i s výkony různých motorů z tabulky — žáci zažijí pojem výkon na vlastním těle v konkrétních wattech.",
+  "materials": [
+    "osobní váha nebo siloměr",
+    "stopky",
+    "schodiště ve škole",
+    "metr nebo znalost výšky jednoho schodu"
+  ],
+  "procedure": "1. Žák se zváží (hmotnost m v kg). 2. Spočítá schody n a změří výšku jednoho schodu h₁ [m]; celková výška h = n·h₁. 3. Stopkami změří čas t₁ výstupu chůzí a t₂ výstupu během. 4. Vypočítá F = m·g, W = F·h, P₁ = W/t₁ a P₂ = W/t₂. 5. Srovná výsledky spolužáků a s výkony strojů.",
+  "source": {
+    "label": "VNUF sborník — Kabrhel P.: Pracovní listy pro laboratorní práce na ZŠ (Veletrh 17, Praha 2012)",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-18-Kabrhel.html"
+  }
+}

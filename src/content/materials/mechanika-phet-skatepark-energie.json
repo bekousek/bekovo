@@ -1,0 +1,9 @@
+{
+  "id": "mechanika-phet-skatepark-energie",
+  "subtopicId": "vykon",
+  "topicId": "mechanika",
+  "title": "Skatepark energie: základy (PhET, česky)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace od PhET Colorado v českém překladu. Žák staví dráhy pro skateboardistu a sleduje přeměny kinetické a potenciální energie v reálném čase pomocí přehledných grafů a sloupcových indikátorů. Simulace vizuálně ukazuje zachování mechanické energie a vliv tření — přímá motivační vsuvka před probíráním výkonu jako práce za čas.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-skate-park-basics"
+}

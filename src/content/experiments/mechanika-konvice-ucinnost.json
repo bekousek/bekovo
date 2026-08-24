@@ -1,0 +1,19 @@
+{
+  "id": "mechanika-konvice-ucinnost",
+  "subtopicId": "vykon",
+  "topicId": "mechanika",
+  "title": "Měření účinnosti rychlovarné konvice",
+  "type": "measurement",
+  "description": "Žákovský laboratorní pokus zaměřený na výkon a účinnost. Žáci odečtou jmenovitý příkon P₀ ze štítku konvice, teploměrem a stopkami změří ohřev 1 l vody a z tepelné bilance vypočítají skutečný výkon P a účinnost η = P/P₀. Výsledek (typicky 60–70 %) názorně dokládá, proč příkon bývá vždy větší než užitný výkon stroje.",
+  "materials": [
+    "rychlovarná konvice se štítkem příkonu",
+    "laboratorní nebo kuchyňský teploměr",
+    "stopky",
+    "odměrný válec nebo odměrná nádoba 1 l"
+  ],
+  "procedure": "1. Odečíst příkon P₀ ze štítku konvice [W]. 2. Nalít přesně 1 l vody, změřit počáteční teplotu T₁. 3. Zapnout konvici a stopovat čas ohřevu t do vypnutí. 4. Zapsat teplotu T₂. 5. Vypočítat teplo Q = m·c·ΔT (c = 4200 J/(kg·K)), výkon P = Q/t a účinnost η = P/P₀ × 100 %.",
+  "source": {
+    "label": "Metodický portál RVP — Účinnost rychlovarné konvice",
+    "url": "https://clanky.rvp.cz/clanek/k/fyzika/10157/UCINNOST-RYCHLOVARNE-KONVICE.html"
+  }
+}

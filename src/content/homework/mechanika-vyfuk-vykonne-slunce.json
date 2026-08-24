@@ -1,0 +1,11 @@
+{
+  "id": "mechanika-vyfuk-vykonne-slunce",
+  "subtopicId": "vykon",
+  "topicId": "mechanika",
+  "title": "Výfuk: Výkonné Slunce — domácí výpočtová úloha",
+  "description": "Domácí výpočtová úloha z korespondenčního semináře Výfuk (MFF UK pro žáky 2. stupně ZŠ). Žáci pracují s daty o slunečním záření a počítají výkon Slunce — množství energie vyzářené za jednotku času. Úloha propojuje pojem výkon (P = E/t) s astronomickým kontextem a vede žáky k numerické práci s watty a jouly. Archiv série je dostupný na vyfuk.org.",
+  "source": {
+    "label": "Výfuk — korespondenční seminář MFF UK pro ZŠ",
+    "url": "https://vyfuk.org/ulohy/archiv"
+  }
+}

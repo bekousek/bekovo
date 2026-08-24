@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-14",
+  "lastPicked": "2026-08-16",
   "history": [
     {
       "date": "2026-05-08",
@@ -446,6 +446,12 @@
       "subtopic": "kapaliny-7--pascaluv-zakon",
       "result": "pr-pending",
       "items": 15
+    },
+    {
+      "date": "2026-08-16",
+      "subtopic": "mechanika--vykon",
+      "result": "pr-pending",
+      "items": 24
     }
   ],
   "skipUntil": {},
