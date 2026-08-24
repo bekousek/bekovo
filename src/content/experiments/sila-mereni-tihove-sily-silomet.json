@@ -1,0 +1,18 @@
+{
+  "id": "sila-mereni-tihove-sily-silomet",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Měření tíhové síly siloměrem a srovnání s jinou planetou",
+  "type": "measurement",
+  "description": "Žákovský badatelský pokus: žáci změří siloměrem tíhovou sílu nejméně tří těles a z hodnot vypočítají jejich hmotnost pomocí vztahu F = m·g. Poté aplikují stejný vztah na povrch Venuše (g ≈ 8,87 m/s²) a srovnají výslednou tíhovou sílu se Zemí. Pokus propojuje experimentální měření s konceptuálním porozuměním tomu, proč se g liší na různých tělesech sluneční soustavy.",
+  "materials": [
+    "siloměr (nebo digitální senzor síly)",
+    "závaží různých hmotností",
+    "kalkulačka"
+  ],
+  "procedure": "1. Zvolit alespoň 3 tělesa. 2. Změřit siloměrem tíhovou sílu každého (F = m·g, g = 10 N/kg). 3. Vypočítat hmotnost: m = F/g. 4. Vypočítat tíhovou sílu na Venuši: F_V = m·8,87. 5. Srovnat a diskutovat výsledky.",
+  "source": {
+    "label": "RVP.cz",
+    "url": "https://clanky.rvp.cz/clanek/c/Z/22660/GRAVITACNI-SILA---TIHOVE-ZRYCHLENI.html"
+  }
+}

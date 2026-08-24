@@ -1,0 +1,9 @@
+{
+  "id": "sila-walter-fendt-gravitace",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Walter Fendt: Gravitace – problém dvou těles",
+  "type": "applet",
+  "description": "Český HTML5 applet simuluje pohyb dvou těles vzájemně se přitahujících gravitační silou. Žáci mohou měnit hmotnosti obou těles i jejich počáteční rychlosti a sledovat výsledné trajektorie (kružnice, elipsy). Applet ilustruje, že gravitace působí mezi každými dvěma hmotnostmi a závisí na jejich velikosti.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gravity_cz.htm"
+}

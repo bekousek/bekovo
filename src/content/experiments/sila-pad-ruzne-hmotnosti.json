@@ -1,0 +1,17 @@
+{
+  "id": "sila-pad-ruzne-hmotnosti",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Fyzikální hádanka – pád těles různé hmotnosti",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: kancelářský papír (~1 g) a polystyren (~26 g) jsou puštěny ze stejné výšky ve stejný okamžik. Žáci předpovídají, které těleso dopadne dříve, a výsledek konfrontují s Galileovým principem volného pádu. Pokus otevírá diskusi o roli odporu vzduchu vs. gravitace a snadno ho replikují i žáci doma.",
+  "materials": [
+    "list kancelářského papíru",
+    "kus polystyrenu srovnatelné velikosti"
+  ],
+  "procedure": "Pustit oba předměty ze stejné výšky ve stejný okamžik a pozorovat, který dopadne dříve; diskutovat roli odporu vzduchu vs. gravitace.",
+  "source": {
+    "label": "Svět energie – Vím proč",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/1960"
+  }
+}

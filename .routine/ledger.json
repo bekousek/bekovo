@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-18",
+  "lastPicked": "2026-08-22",
   "history": [
     {
       "date": "2026-05-08",
@@ -458,6 +458,12 @@
       "subtopic": "mikrosvet--atom-a-jeho-modely",
       "result": "pr-pending",
       "items": 25
+    },
+    {
+      "date": "2026-08-22",
+      "subtopic": "sila--gravitacni-a-tihova-sila",
+      "result": "pr-pending",
+      "items": 23
     }
   ],
   "skipUntil": {},

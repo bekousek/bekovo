@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-projektil",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "PhET: Pohyb projektilu",
+  "type": "applet",
+  "description": "Simulace znázorňuje šikmý vrh a volný pád různých předmětů – od baseballu po automobil. Žáci nastavují počáteční rychlost, úhel a výšku a sledují vliv tíhového zrychlení na dráhu tělesa; volitelný odpor vzduchu umožňuje srovnání reálného a ideálního pádu. Simulace je v češtině a pomáhá intuitivně pochopit, že tíhová síla stahuje všechna tělesa dolů stejně.",
+  "url": "https://phet.colorado.edu/cs/simulations/projectile-motion"
+}
