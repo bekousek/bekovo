@@ -1,0 +1,9 @@
+{
+  "id": "castice-phet-stavy-hmoty",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "PhET: Stavy hmoty – základy (česky)",
+  "type": "applet",
+  "description": "Česká interaktivní simulace umožňuje zahřívat, chladit a stlačovat atomy a molekuly a sledovat přechody mezi tuhým, kapalným a plynným skupenstvím. Žák vizuálně vidí, jak se částice pohybují rychleji při vyšší teplotě — přímá podpora kinetického modelu látek a pochopení příčiny difuze a Brownova pohybu.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter-basics"
+}

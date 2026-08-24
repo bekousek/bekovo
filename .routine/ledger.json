@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-07",
+  "lastPicked": "2026-08-09",
   "history": [
     {
       "date": "2026-05-08",
@@ -410,6 +410,12 @@
       "subtopic": "akustika--zdroje-zvuku",
       "result": "pr-pending",
       "items": 22
+    },
+    {
+      "date": "2026-08-09",
+      "subtopic": "castice-latky--brownuv-pohyb-difuze",
+      "result": "pr-pending",
+      "items": 20
     }
   ],
   "skipUntil": {},
