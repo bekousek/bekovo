@@ -1,0 +1,39 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Aktivita: Pihatým vstup zakázán (PDF)",
+      "href": "https://www.jsns.cz/nove/lekce/eugeniove/aktivita_eugeniove_03_pihatym-vstup-zakazan.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "socialni-jsns-eugeniove",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Eugéniové — aktivita „Pihatým vstup zakázán\"",
+  "description": "Aktivita, ve které si žáci nejdřív sepíšou tělesné znaky, které se ve třídě vyskytují, a pak pro vybrané znaky vymyslí omezení. Na vlastní kůži si tak zkusí, jak libovolně se dá vytvořit skupina „těch druhých\".",
+  "keywords": [
+    "diskriminace",
+    "předsudky",
+    "prožitková aktivita",
+    "tolerance",
+    "eugenika",
+    "značkování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák zažije, že hranice mezi „my\" a „oni\" může vzniknout na naprosté malichernosti.",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "JSNS — Eugéniové (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15670-eugeniove#vyukove-materialy"
+  },
+  "notes": "Samotná aktivita je použitelná samostatně. Pozor ale na kontext lekce — patří k tématu eugeniky, 2. světové války a holokaustu, což je pro šestku těžké. Aktivitu jde vzít bez filmu."
+}

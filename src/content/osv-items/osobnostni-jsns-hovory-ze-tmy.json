@@ -1,0 +1,26 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-jsns-hovory-ze-tmy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hovory ze tmy",
+  "description": "Anonymní krizové hovory na Lince bezpečí otevírají bránu k pomoci v nejtěžších chvílích. Mladí lidé je výtvarně reflektují.",
+  "keywords": [
+    "Linka bezpečí",
+    "krize",
+    "vyhledávání pomoci",
+    "duševní zdraví",
+    "anonymita"
+  ],
+  "type": "video",
+  "goal": "Žák ví, že Linka bezpečí existuje, je anonymní — a jak vypadá, když ji někdo použije.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "JSNS — Hovory ze tmy (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/2180081-hovory-ze-tmy#vyukove-materialy"
+  }
+}

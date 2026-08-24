@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-vsichni-spolu",
+  "categoryId": "tridni-kolektiv",
+  "title": "Všichni spolu",
+  "description": "Osmileté děti ze školy v Berg Fidelu v Münsteru vedou každý týden vlastní třídní setkání, kde probírají situace ve třídě a hledají shodu při řešení problémů. Ve škole se čtyři roky společně učí děti různého věku, národností i schopností.",
+  "keywords": [
+    "třídní setkání",
+    "komunitní kruh",
+    "samospráva",
+    "inkluze",
+    "řešení problémů",
+    "Berg Fidel"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Ukázat žákům, že třída může svoje problémy řešit sama a pravidelně — a pak to s nimi zkusit.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba",
+    "Řešení problémů a konfliktů ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "JSNS — Všichni spolu (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15621-vsichni-spolu#vyukove-materialy"
+  }
+}

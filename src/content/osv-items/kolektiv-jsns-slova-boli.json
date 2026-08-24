@@ -1,0 +1,31 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-slova-boli",
+  "categoryId": "tridni-kolektiv",
+  "title": "Slova bolí",
+  "description": "Lekce z okruhu Sociální problematika / Šikana o síle slov a slovní agresi.",
+  "keywords": [
+    "šikana",
+    "slovní agrese",
+    "nadávky",
+    "síla slov",
+    "prevence"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "JSNS — Slova bolí (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15708-slova-boli#vyukove-materialy"
+  }
+}

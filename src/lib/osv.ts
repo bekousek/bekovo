@@ -196,3 +196,12 @@ export function formatDate(iso?: string): string | null {
   if (!year || !month || !day) return iso;
   return `${day}. ${month}. ${year}`;
 }
+
+/**
+ * Zkratka organizace ze `source.label` — „JSNS — Poslouchám (výukové
+ * materiály)" → „JSNS". Na kartě se vejde, celý label zůstává v titulku
+ * a na detailu.
+ */
+export function sourceOrg(label: string): string {
+  return label.split(/\s+[—–-]\s+/)[0].trim();
+}

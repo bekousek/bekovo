@@ -1,0 +1,30 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Aktivita: Otázky a odpovědi (PDF)",
+      "href": "https://www.jsns.cz/nove-aktivity/posloucham/aktivita_posloucham_01_otazky-a-odpovedi.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "kolektiv-jsns-posloucham",
+  "categoryId": "tridni-kolektiv",
+  "title": "Poslouchám",
+  "description": "Lekce z okruhu Sociální problematika / Šikana. Součástí je aktivita „Otázky a odpovědi\".",
+  "keywords": [
+    "šikana",
+    "naslouchání",
+    "prevence",
+    "otázky a odpovědi"
+  ],
+  "type": "video",
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "JSNS — Poslouchám (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/404117-posloucham#vyukove-materialy"
+  }
+}

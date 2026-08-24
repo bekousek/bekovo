@@ -1,0 +1,32 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-pribeh-ostrakizace",
+  "categoryId": "tridni-kolektiv",
+  "title": "Příběh ostrakizace",
+  "description": "Lekce z okruhu Mediální vzdělávání / Rizika kyberprostoru — o vyčleňování jednotlivce ze skupiny, tedy o prvním stupni šikany.",
+  "keywords": [
+    "ostrakizace",
+    "vyčlenění",
+    "první stupeň šikany",
+    "skupina",
+    "prevence"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Role a dynamika skupiny",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "JSNS — Příběh ostrakizace (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/1660824-pribeh-ostrakizace#vyukove-materialy"
+  }
+}

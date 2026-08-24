@@ -1,0 +1,31 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-s-kym-si-pises",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "S kým si píšeš?",
+  "description": "Krátké video o náctiletých, kterým píšou neznámí vrstevníci zdánlivě neškodné zprávy — a situace se zvrtne v psychicky náročnou. Ukazuje, že není vždycky snadné poznat, kdo nám vlastně píše a jestli je tím, za koho se vydává.",
+  "keywords": [
+    "online komunikace",
+    "neznámí lidé",
+    "bezpečí",
+    "manipulace",
+    "sociální sítě",
+    "grooming"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "JSNS — S kým si píšeš? (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/1284925-s-kym-si-pises#vyukove-materialy"
+  }
+}

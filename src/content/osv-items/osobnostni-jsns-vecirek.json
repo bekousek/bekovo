@@ -1,0 +1,31 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-jsns-vecirek",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Večírek",
+  "description": "Martinovi bylo devatenáct, když sedl opilý a zdrogovaný za volant. Od té doby je ochrnutý a odkázaný na pomoc druhých.",
+  "keywords": [
+    "alkohol",
+    "drogy",
+    "následky",
+    "rozhodnutí",
+    "prevence",
+    "řízení"
+  ],
+  "type": "video",
+  "grades": [
+    8,
+    9
+  ],
+  "goal": "Ukázat následek jednoho rozhodnutí na konkrétním člověku, ne na statistice.",
+  "rvpAreas": [
+    "Zvládání stresu a náročných situací",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "JSNS — Večírek (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15721-vecirek#vyukove-materialy"
+  }
+}

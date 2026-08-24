@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-jsns-znas-cely-pribeh",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Znáš celý příběh?",
+  "description": "Za jednu hodinu si žáci projdou, jaký obraz o sobě na sítích vytvářejí a jaká jsou úskalí sebeprezentace a sebestylizace. Doprovodné aktivity mají formu interaktivních kvízů.",
+  "keywords": [
+    "sebeprezentace",
+    "sociální sítě",
+    "obraz o sobě",
+    "autenticita",
+    "kvíz",
+    "jedna hodina"
+  ],
+  "type": "video",
+  "duration": "1 vyučovací hodina",
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "goal": "Žák si všimne, kolik z toho, co sdílí, je opravdu on — a kolik je stylizace.",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "JSNS — Znáš celý příběh? (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/1284935-znas-cely-pribeh#vyukove-materialy"
+  },
+  "notes": "JSNS uvádí věk zhruba 11–14 let — sedí na šestku přesně."
+}

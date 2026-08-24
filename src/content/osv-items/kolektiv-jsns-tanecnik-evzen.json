@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-jsns-tanecnik-evzen",
+  "categoryId": "tridni-kolektiv",
+  "title": "Tanečník Evžen",
+  "description": "Evžen je terčem posměchu a šikany spolužáků — nejen kvůli nezvyklému jménu, ale hlavně kvůli tomu, že se věnuje klasickému tanci.",
+  "keywords": [
+    "šikana",
+    "posměch",
+    "odlišnost",
+    "zájmy",
+    "vyloučení",
+    "oběť"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Otevřít šikanu přes příběh někoho zvenčí, ne přes situaci ve vlastní třídě.",
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "JSNS — Tanečník Evžen (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15643-tanecnik-evzen#vyukove-materialy"
+  }
+}

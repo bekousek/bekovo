@@ -1,0 +1,32 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-jsns-merlijn",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Merlijn se už školy nebojí",
+  "description": "Merlijn je bystrý kluk, který kvůli autismu nemůže chodit do běžné školy. Učí se doma a do hodin se připojuje přes počítač.",
+  "keywords": [
+    "autismus",
+    "PAS",
+    "distanční výuka",
+    "jinakost",
+    "škola",
+    "inkluze"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "source": {
+    "label": "JSNS — Merlijn se už školy nebojí (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15705-merlijn-se-uz-skoly-neboji#vyukove-materialy"
+  }
+}

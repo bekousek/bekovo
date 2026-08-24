@@ -1,0 +1,42 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Aktivita: Každý jsme jiný (PDF)",
+      "href": "https://www.jsns.cz/nove/lekce/letajici_anne/aktivita_letajici-anne_02_kazdy-jsme-jiny.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "socialni-jsns-letajici-anne",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Létající Anne",
+  "description": "Obyčejná holka Anne se s pomocí odborníků a spolužáků naučila mluvit o svém životě s Tourettovým syndromem. Film nese téma odlišnosti a jedinečnosti a vztahů mezi dětmi, které z ní vyrůstají.",
+  "keywords": [
+    "Tourettův syndrom",
+    "odlišnost",
+    "jedinečnost",
+    "tolerance",
+    "spolužáci",
+    "jinakost"
+  ],
+  "type": "video",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák si uvědomí, jak těžké je pro „jiného\" žít ve většinové skupině — a že odlišnost skupinu obohacuje.",
+  "procedure": "Součástí lekce je aktivita Každý jsme jiný. Vede žáky k vnímání odlišnosti jako něčeho, co je obohacuje, a k vzájemné toleranci; zároveň jim ukáže, jak náročné to má někdo, kdo se vymyká.",
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "JSNS — Létající Anne (výukové materiály)",
+    "url": "https://www.jsns.cz/lekce/15634-letajici-anne#vyukove-materialy"
+  },
+  "notes": "Dobře navazuje na Markétinu personifikaci duševních poruch — po scénkách o vnitřním hlase film o konkrétním člověku."
+}
