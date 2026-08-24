@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-geogebra-pascal",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Pascalův zákon v hydraulickém zvedáku – GeoGebra",
+  "type": "applet",
+  "description": "GeoGebra applet interaktivně demonstrující Pascalův zákon na modelu hydraulického zvedáku se dvěma písty různého průřezu. Žák může měnit parametry a pozorovat, jak tlak přiložený na menší píst přenese větší sílu na píst s větším průřezem. Funguje přímo v prohlížeči bez instalace.",
+  "url": "https://www.geogebra.org/m/yb42hP5D"
+}
