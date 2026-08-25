@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-konvekce-kapaliny",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vzestupné proudy v kapalině — konvekce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Ohřátá kapalina má nižší hustotu a stoupá nahoru, zatímco studená kapalina klesá dolů — vznikají konvekční proudy. Jev lze zviditelnit kapkou obarveného studeného roztoku puštěného do teplé vody nebo kapkou teplé obarvenné vody vpuštěné pod studenou. Pokus propojuje hustotu kapalin s jejich teplotou a motivuje diskusi o přirozené cirkulaci kapalin.",
+  "materials": [
+    "skleněná nebo průhledná nádoba s vodou",
+    "teplá a studená voda",
+    "potravinářské barvivo",
+    "kapátko"
+  ],
+  "procedure": "Do nádoby nalijeme teplou vodu. Pomocí kapátka přidáme u dna kapku obarveného studeného roztoku a pozorujeme proudění — studená voda zůstává dole, teplá stoupá.",
+  "source": {
+    "label": "Techmania Science Center",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/428/vzestupne-proudy"
+  }
+}

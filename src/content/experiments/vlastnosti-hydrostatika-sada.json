@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-hydrostatika-sada",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Sada pokusů z hydrostatiky — tlak v hloubce, vztlak, hydrostatický paradox",
+  "type": "qualitative",
+  "description": "Demonstrační sada pokusů z improvizovaných pomůcek. Pomocí membrán z tenkých gumových rukavic, upravených plastových lahví a hadiček se demonstruje vznik hydrostatického tlaku, jeho závislost na hloubce, vznik vztlaku v kapalině a hydrostatický paradox. Příspěvek ve sborníku VNUF uvádí metodiku přímo pro výuku na ZŠ.",
+  "materials": [
+    "plastové lahve",
+    "tenké gumové rukavice (jako membrána)",
+    "hadičky",
+    "plastové nebo skleněné trubičky",
+    "voda"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/10-16-Lefner.html"
+  }
+}

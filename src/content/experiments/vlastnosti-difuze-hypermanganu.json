@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-difuze-hypermanganu",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Difuze hypermanganu ve vodě",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Do nádoby s klidnou vodou je vloženo malé množství hypermanganu (KMnO4), který se postupně rozpouští a intenzivně fialově barví vodu. Pokus vizuálně dokumentuje, jak se látky v kapalině mísí a šíří — difuzi. Vhodný jako motivace k diskusi o vlastnostech kapalin: míšení, barvení vody, tekutost.",
+  "materials": [
+    "sklenice s klidnou vodou",
+    "krystalky hypermanganu (KMnO4)",
+    "pinzeta nebo lžička"
+  ],
+  "procedure": "Do klidné vody vložíme pomocí pinzety několik krystalků hypermanganu a pozorujeme pomalé šíření fialového mraku od krystalku po celém objemu kapaliny.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4544/difuze-hypermanganu-ve-vode"
+  }
+}
