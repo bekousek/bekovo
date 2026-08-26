@@ -1,0 +1,18 @@
+{
+  "id": "akustika-plamen-svicky-zvuk",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Plamen svíčky ve zvukovém poli reproduktoru",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Učitel postaví hořící svíčku těsně před membránu reproduktoru a přehraje hluboký tón (100–200 Hz). Plamen se ohýbá a kmitá v rytmu zvuku, protože tlakové vlny periodicky zhušťují a zřeďují vzduch před membránou. Pokus vizuálně dokazuje, že zvuk je mechanické vlnění přenášející energii, a že akustický tlak působí na okolní tělesa.",
+  "materials": [
+    "reproduktor (s výkonným zesilovačem nebo pasivní)",
+    "svíčka",
+    "zdroj zvuku (telefon nebo PC)"
+  ],
+  "procedure": "Zapnout reproduktor a přehrát hluboký tón (100–200 Hz, například čistý sinusový tón nebo baskytaru). Přiblížit hořící svíčku k membráně na vzdálenost ∼5 cm a pozorovat pohyb plamene. Pokus provádí učitel, žáci sledují z bezpečné vzdálenosti.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus4.htm"
+  }
+}

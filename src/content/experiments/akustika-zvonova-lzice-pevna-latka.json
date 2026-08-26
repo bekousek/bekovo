@@ -1,0 +1,18 @@
+{
+  "id": "akustika-zvonova-lzice-pevna-latka",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Zvonící lžíce – šíření zvuku pevnou látkou",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojicích. Žák přiváže kovovou lžíci doprostřed provázku a přidrží oba konce prsty k ušním boltcům — lžíce volně visí. Spolužák lehce ťukne lžíci tužkou: žák slyší hluboký, silný zvuk vedený provázkem. Bez provázku (přes vzduch) je zvuk výrazně slabší. Pokus přesvědčivě ukazuje, že zvuk se pevnou látkou šíří lépe než vzduchem.",
+  "materials": [
+    "kovová lžíce",
+    "provázek (∼60 cm)",
+    "tužka nebo vidlička"
+  ],
+  "procedure": "Přivázat lžíci doprostřed provázku. Přidržet oba konce prsty k ušním boltcům (nebo omotat kolem boltců). Spolužák ťukne lžíci tužkou. Srovnat intenzitu zvuku vnímanou přes provázek a přes vzduch.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus1.htm"
+  }
+}
