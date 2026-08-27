@@ -1,0 +1,32 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-metodika-tridniho-ucitele",
+  "categoryId": "tridni-kolektiv",
+  "title": "Metodika práce třídního učitele s tématy OSV (Dubec)",
+  "description": "Druhá Dubcova metodika z Projektu Odyssea, zaměřená na roli třídního učitele a na to, jak témata osobnostní a sociální výchovy zvládat v běžném provozu třídy.",
+  "keywords": [
+    "třídní učitel",
+    "Dubec",
+    "Odyssea",
+    "OSV",
+    "metodika",
+    "role třídního"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Role a dynamika skupiny",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "M. Dubec, Projekt Odyssea — Metodika práce třídního učitele",
+    "url": "https://inkluzivniskola.cz/metodika-prace-tridniho-ucitele-s-tematy-osobnostni-socialni-vychovy-mgr-dubec-m-projekt-odyssea"
+  }
+}

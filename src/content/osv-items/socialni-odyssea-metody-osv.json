@@ -1,0 +1,31 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-odyssea-metody-osv",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Metody osobnostní a sociální výchovy (publikace)",
+  "description": "Publikace Odyssey se zásobníkem metod OSV — co použít, když víš, jaký cíl chceš, ale ne jakou formou k němu jít.",
+  "keywords": [
+    "metody",
+    "OSV",
+    "Odyssea",
+    "publikace",
+    "zásobník",
+    "formy práce"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "Odyssea — Metody osobnostní a sociální výchovy",
+    "url": "https://www.odyssea.cz/portfolio-items/metody-osobnostni-a-socialni-vychovy/"
+  }
+}

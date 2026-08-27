@@ -1,0 +1,42 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Metodika vedení třídnických hodin (PDF)",
+      "href": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "kolektiv-dubec-metodika-tridnickych-hodin",
+  "categoryId": "tridni-kolektiv",
+  "title": "Metodika vedení třídnických hodin s použitím metod OSV (Dubec 2007)",
+  "description": "Metodika Michala Dubce z Projektu Odyssea. Doporučení, jak třídnickou hodinu vést a strukturovat, jak nastavit společná pravidla, a manuál vybraných témat s náměty na konkrétní aktivity. Staví na zážitku jako základním formativním prvku.",
+  "keywords": [
+    "třídnická hodina",
+    "Dubec",
+    "Odyssea",
+    "struktura hodiny",
+    "pravidla",
+    "zážitek",
+    "PDF"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Základní příručka pro vedení třídnických hodin — od struktury po zásobník témat.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Pravidla a dohody ve třídě",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "M. Dubec, Projekt Odyssea (2007) — Metodika vedení třídnických hodin",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf",
+    "note": "PDF mirror na webu ZŠ Rosice."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [
+    {
+      "label": "Lekce 7.1 Pravidla chování ve třídě (PDF)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf",
+      "type": "pdf"
+    }
+  ],
+  "id": "kolektiv-odyssea-7-1-pravidla-chovani",
+  "categoryId": "tridni-kolektiv",
+  "title": "Lekce 7.1 — Poznáváme, určujeme a dodržujeme pravidla chování ve třídě",
+  "description": "Hotová lekce OSV k třídním pravidlům. Jedním z cílů je, aby žák rozuměl tomu, proč ve škole a ve třídě nějaká pravidla vůbec jsou — ne aby je jen odříkal.",
+  "keywords": [
+    "pravidla",
+    "třída",
+    "chování",
+    "dohoda",
+    "začátek roku",
+    "Odyssea",
+    "lekce OSV",
+    "PDF"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák rozumí tomu, proč pravidla jsou — a proto je spíš dodrží.",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 7.1",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf",
+    "note": "Lekce Odyssey jsou průřezové — nejsou rozpracované na konkrétní ročník ani předmět. Ročníky na kartě jsou můj odhad vhodnosti, ne údaj od autorů."
+  }
+}
