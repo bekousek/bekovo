@@ -1,0 +1,41 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-reka",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Řeka — diskuze, kde se třída musí shodnout",
+  "description": "Metoda skupinové diskuze, ve které žáci prezentují své myšlenky k tématu, diskutují o nich a sami moderují debatu s cílem shodnout se na stanoviscích, která vyhovují všem.",
+  "keywords": [
+    "diskuze",
+    "moderování",
+    "konsensus",
+    "stanoviska",
+    "řeka",
+    "Dubec",
+    "Odyssea"
+  ],
+  "type": "metodika",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zajistit, aby každý žák mohl přemýšlet a mluvit o problému, seznámil se s různými úhly pohledu a skupina vybrala z variant řešení.",
+  "materials": [
+    "Půlka A4 pro každého žáka",
+    "Jeden papír A4 pro každou skupinu"
+  ],
+  "procedure": "Autoři uvádějí konkrétní příklady použití: rozhodování o tom, na co použijeme peníze z třídního fondu, nebo která očekávání by měl naplnit školní výlet či soustředění.\n\nMetoda je určená pro 10 až 30 žáků a upravená podle publikace Zlatý fond her I (Portál 2002, s. 115).",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Spolupráce a kooperace",
+    "Zvládání konfliktů"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 61",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=62"
+  }
+}

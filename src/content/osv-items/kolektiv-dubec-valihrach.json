@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-valihrach",
+  "categoryId": "tridni-kolektiv",
+  "title": "Valihrach — kazuistika řešení nadávek za jednu hodinu",
+  "description": "Ukázka, jak reagovat na aktuální problém rovnou v hodině. Učitel si všimne, jak se dva žáci oslovují („Valihrachu“ — „Co je, demente?“), a otevře to bleskovým průzkumem ruk. Celý dialog učitel–žáci je v metodice rozepsaný.",
+  "keywords": [
+    "nadávky",
+    "oslovování",
+    "kazuistika",
+    "škála",
+    "bleskový průzkum",
+    "aktuální problém",
+    "Dubec"
+  ],
+  "type": "plan-hodiny",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Vidět na jednom konkrétním případu, jak se z drobné situace na chodbě udělá třídnická hodina.",
+  "procedure": "Učitel otevře téma: „Všiml jsem si, že se v naší třídě dva žáci oslovovali způsobem, který by mně byl asi hodně nepříjemný. Rád bych se zeptal, jak to vnímáte vy.“\n\nBleskový průzkum: každý rukou ukáže míru příjemnosti toho, jak je ve třídě oslovován. Ruka podél těla znamená často hodně nepříjemné, vzpažená ruka spokojenost.\n\nPokud několik rukou není vzpažených, následují otázky popisující současný stav — bez pátrání po vinících: Kdo z nás zažil, že byl během uplynulého týdne osloven tak, jak si nepřeje? Kdo si myslí, že některá oslovení mohou být někomu nepříjemná? Kdo by chtěl být někdy oslovován jinak?\n\nPak učitel otázkami vede žáky k návrhům řešení: Jaký způsob oslovování by vám byl nejpříjemnější? Má někdo jiný návrh? Co když se ta přezdívka tomu, kdo ji má, nelíbí?",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Pravidla a dohody ve třídě",
+    "Prevence šikany a rizikového chování"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 79",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=80"
+  }
+}

@@ -3,21 +3,42 @@
   "categoryId": "osobnostni-rozvoj",
   "title": "Můj erb — co mě dělá mnou",
   "description": "Každý žák si nakreslí vlastní erb rozdělený na čtyři pole: v čem jsem dobrý, co mě baví, co je pro mě důležité, čeho bych chtěl dosáhnout. Erby se pak vystaví a třída hledá, co mají společného.",
-  "keywords": ["sebepoznání", "silné stránky", "erb", "seznamování", "začátek roku", "hodnoty"],
+  "keywords": [
+    "sebepoznání",
+    "silné stránky",
+    "erb",
+    "seznamování",
+    "začátek roku",
+    "hodnoty"
+  ],
   "type": "aktivita",
   "duration": "30–45 min",
-  "grades": [6, 7],
+  "grades": [
+    6,
+    7
+  ],
   "goal": "Žák pojmenuje aspoň tři vlastní silné stránky a jednu věc, která je pro něj důležitá, a dokáže je sdělit spolužákům.",
-  "materials": ["Papír A4 pro každého", "Pastelky nebo fixy", "Lepicí guma nebo provázek na vystavení"],
+  "materials": [
+    "Papír A4 pro každého",
+    "Pastelky nebo fixy",
+    "Lepicí guma nebo provázek na vystavení"
+  ],
   "procedure": "Úvod (5 min): Ukaž na tabuli šablonu erbu rozdělenou na čtyři pole a nadepiš je otázkami — V čem jsem dobrý? Co mě baví? Co je pro mě důležité? Čeho bych chtěl dosáhnout? Zdůrazni, že se nekreslí umělecké dílo, stačí symboly.\n\nSamostatná práce (15 min): Každý kreslí svůj erb. Nemluví se. Kdo je hotov dřív, dokresluje detaily nebo vymýšlí heslo pod erb.\n\nSdílení ve dvojicích (10 min): Žáci si ve dvojicích erby vysvětlí. Pravidlo: druhý se jen ptá, nekomentuje a nehodnotí.\n\nVýstava (10 min): Erby se vyvěsí. Třída chodí a hledá shody — najdi tři lidi, se kterými máš něco společného. Na závěr se pár shod nahlas pojmenuje.",
   "reflection": [
     "Které pole se ti vyplňovalo nejhůř a proč?",
     "Zjistil jsi o někom něco, co jsi nevěděl?",
     "Napsal bys dnes do pole „v čem jsem dobrý“ něco jiného než před rokem?"
   ],
-  "rvpAreas": ["Sebepoznávání a sebepojetí", "Objevování silných stránek a zájmů"],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Objevování silných stránek a zájmů"
+  ],
   "files": [],
   "status": "namet",
-  "notes": "Ukázková karta — klasická OSV aktivita bez konkrétního zdroje. Až budeš mít vlastní šablonu erbu, přilož ji do souborů. Kartu klidně smaž.",
-  "added": "2026-08-22"
+  "notes": "„Můj erb“ je jedna ze čtyř seznamovacích her, které Dubcova metodika doporučuje na začátek roku. Popis níže je moje rozepsání, v metodice je hra vložená jako sken z knihy. Až budeš mít vlastní šablonu erbu, přilož ji do souborů.",
+  "added": "2026-08-22",
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 19 — seznamovací aktivity",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=20"
+  }
 }

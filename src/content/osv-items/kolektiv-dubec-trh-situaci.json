@@ -1,0 +1,39 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-trh-situaci",
+  "categoryId": "tridni-kolektiv",
+  "title": "Trh situací — co je nám ve třídě nepříjemné",
+  "description": "Každý žák napíše na post-it aspoň jednu situaci, kdy ve třídě zažil něco nepříjemného. Platí pravidlo nevyjadřování se za druhé — píšu jen to, co se stalo mně.",
+  "keywords": [
+    "post-it",
+    "nepříjemné situace",
+    "problémy třídy",
+    "sběr",
+    "anonymita",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "15–20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zviditelnit, co konkrétně žákům ve třídě vadí — bez pátrání po vinících.",
+  "materials": [
+    "Dva lepicí papírky (post-ity) pro každého žáka",
+    "Tabule"
+  ],
+  "procedure": "Žáci dostanou dva post-ity. Úkolem je napsat aspoň jednu situaci, kdy ve třídě zažívali něco nepříjemného.\n\nAby byl obsah lístečků co nejméně zraňující, dohodne se závazná úvodní formulace: „Bylo mi nepříjemné, když …“.\n\nUčitel napíše na tabuli „Věci, které jsou mi v naší třídě nepříjemné“ a žáci na ni lístečky vylepí.\n\nŽáky předem upozorni, že vše, co napíší, se bude nahlas číst.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 30",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=31"
+  }
+}

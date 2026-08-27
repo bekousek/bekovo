@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-dubec-myslenkova-mapa",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Myšlenková mapa — klasická a lístečková",
+  "description": "Dvě varianty. Lístečková je rozepsaná v šesti krocích a hodí se, když má třída zmapovat problém, který chce řešit, nebo očekávání před nějakou akcí.",
+  "keywords": [
+    "myšlenková mapa",
+    "lístečky",
+    "strukturování",
+    "mapování problému",
+    "očekávání",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "duration": "30–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žáci si strukturovaně uspořádají myšlenky podobným způsobem, jako je mají uložené v hlavě.",
+  "procedure": "Lístečková varianta po krocích:\n\n1. Určíte problém nebo téma. Každý žák promyslí a sepíše, co ho k němu napadá — každá myšlenka na nový lísteček.\n\n2. Lístečky se vyberou a vylepí tak, aby na ně všichni viděli.\n\n3. Nahlas se čtou. Lístečky s totožným obsahem se sloučí do jednoho.\n\n4. Žáci se vyjadřují k obsahu — autoři mohou vysvětlit, jak to mysleli, ostatní se ptají na nejasné. Vyplácí se jet po kolečku, kde každý, kdo chce, může promluvit; dá se to několikrát opakovat. Podle autorů to zmenšuje riziko popírání toho, jak svět vidí druzí.\n\n5. Seskupování podle podobnosti — učitel se ptá, mezi kterými lístečky žáci vidí podobnost, a přelepuje je k sobě.\n\n6. Žáci vymýšlejí názvy shrnující jednotlivé skupiny. Během toho se lístečky přeřazují a vznikají nové kategorie. Nakonec je hotová struktura včetně konkrétních příkladů.",
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Kreativita a hledání vlastních řešení"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 53",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=54"
+  }
+}

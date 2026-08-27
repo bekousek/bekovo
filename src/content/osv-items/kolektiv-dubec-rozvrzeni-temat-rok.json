@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-rozvrzeni-temat-rok",
+  "categoryId": "tridni-kolektiv",
+  "title": "Rozvržení témat třídnických hodin na celý rok",
+  "description": "Harmonogram devíti okruhů, jak je rámcově řadit během školního roku — od seznamovacích her přes pravidla a identitu třídy až po aktivity pro pobavení. U každého okruhu jsou jmenovitě uvedené aktivity.",
+  "keywords": [
+    "plán roku",
+    "harmonogram",
+    "témata",
+    "třídnické hodiny",
+    "příprava",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Mít rámcový plán třídnických hodin na rok, do kterého se dají zasadit aktuální potřeby třídy.",
+  "procedure": "I. Seznamovací hry — podpora vztahů mezi žáky a mezi pedagogem a třídou\nII. Aktivity na práci s pravidly školy\nIII. Aktivity na tvorbu pravidel třídy + postupy při jejich porušování\nIV. Aktivity na aktivní přístup k životu ve třídě\nV. Aktivity na utváření identity třídy (profilace, nikoli izolace)\nVI. Aktivity pro rozvoj vztahů ve třídě\nVII. Aktivity na řešení záležitostí ve třídě\nVIII. Aktivity na uzavírání nějaké zkušenosti\nIX. Aktivity s cílem pobavit\n\nAutoři zdůrazňují, že aktuální potřeby a problémy třídy mají vždy přednost před plánovaným harmonogramem.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Pravidla a dohody ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 12",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=13"
+  }
+}

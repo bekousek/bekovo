@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-uvodni-zklidnujici",
+  "categoryId": "tridni-kolektiv",
+  "title": "Zklidňující aktivity na začátek hodiny (6 kusů)",
+  "description": "Šest krátkých aktivit, kterými se dá třída ztišit a naladit. Všechny jsou na pár minut a nepotřebují nic než ticho.",
+  "keywords": [
+    "zklidnění",
+    "ztišení",
+    "úvodní aktivita",
+    "ticho",
+    "dech",
+    "začátek hodiny",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "1–5 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "procedure": "Poslouchání zvuků ticha — žáci se ztiší a minutu poslouchají zvuky ve třídě. Pak popíšou, kolik zvuků zaznamenali.\n\nHledání budíku — žáci zavřou oči, učitel schová ve třídě budík. Po chvíli poslouchání tikotu mají se zavřenýma očima ukázat rukou, kde budík stojí.\n\nHádání zvuků — žáci zavřou oči, učitel vytvoří známý zvuk, úkolem je uhodnout jaký.\n\nLinie dechu v sobě — žáci se postaví na svá místa, začnou klidně a pomalu dýchat, zavřou oči a představují si barevnou linii vlastního dechu, jak se s nádechem dostává do částí těla a s výdechem ven.\n\nPočítání učitele — při neklidu učitel pomalu počítá a viditelně ukazuje prsty. Po ztišení oznámí, jak dlouho to trvalo, a řekne, že by si přál příště kratší dobu.\n\nHromadné tleskání — učitel vytleskává známý jednoduchý rytmus. Žáci pravidlo znají a postupně se přidávají, až tleskají všichni a přehluší neklid.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 15",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=16"
+  }
+}

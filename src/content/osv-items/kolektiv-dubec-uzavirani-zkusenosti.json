@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-uzavirani-zkusenosti",
+  "categoryId": "tridni-kolektiv",
+  "title": "Aktivity na uzavření hodiny a vyjádření pocitů (12 technik)",
+  "description": "Dvanáct krátkých způsobů, jak uzavřít aktivitu: Barevná škála, Palec vzhůru, Ruce mluví, Jedním slovem, Mé místo, Horká židle, Diagram, Výraz obličeje, Úvodník, Trh pocitů, Největší zážitek, Povídání. Část míří na vyjádření pocitů, část na obsah činnosti.",
+  "keywords": [
+    "reflexe",
+    "uzavření hodiny",
+    "pocity",
+    "škála",
+    "horká židle",
+    "palec vzhůru",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "duration": "5–15 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 24",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=25"
+  },
+  "notes": "Popisy jsou v PDF naskenované z knihy Neuman, Dobrodružné hry a cvičení v přírodě (Portál 1998) — najdeš je až v dokumentu."
+}

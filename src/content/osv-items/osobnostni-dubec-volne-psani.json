@@ -1,0 +1,33 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-dubec-volne-psani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Volné psaní",
+  "description": "Každý žák individuálně píše všechno, co ho k tématu napadá — bez obav z hodnocení. Metoda převzatá z Kritického myšlení, použitelná i ve třiceti a více žácích.",
+  "keywords": [
+    "volné psaní",
+    "kritické myšlení",
+    "shrnutí",
+    "propojení se zkušeností",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Aktivně zapojit do přemýšlení všechny žáky ve třídě, i ty, kteří nahlas nemluví.",
+  "procedure": "Žáci si vybaví souvislosti mezi probíraným tématem a vlastní zkušeností, vyjádří svůj názor, nebo svými slovy shrnou, co se dozvěděli nového.\n\nPři probírání nové látky se hodí, když chceš, aby si žáci propojili téma s dosavadní zkušeností a ty zjistil, na co můžeš navázat. Při opakování slouží ke shrnutí a lepšímu zapamatování.",
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebepoznávání a sebepojetí"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 70",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=71"
+  }
+}

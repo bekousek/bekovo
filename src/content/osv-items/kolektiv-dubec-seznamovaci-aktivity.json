@@ -1,0 +1,32 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-seznamovaci-aktivity",
+  "categoryId": "tridni-kolektiv",
+  "title": "Seznamovací aktivity (Vizitka, Co o tobě vím?, Můj erb, Hra na jména)",
+  "description": "Čtyři seznamovací hry, které metodika doporučuje na začátek roku pro podporu vztahů mezi žáky navzájem i mezi třídou a učitelem.",
+  "keywords": [
+    "seznamování",
+    "vizitka",
+    "erb",
+    "hra na jména",
+    "začátek roku",
+    "šestka",
+    "Dubec"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Teambuilding a společné zážitky"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 19",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=20"
+  },
+  "notes": "Popisy těchto her jsou v PDF vložené jako naskenované stránky z knih, ne jako text — přečteš je až v samotném dokumentu. Původní zdroje uvádí metodika: Valenta, Učit se být (AISIS 2000); Hermochová–Neuman, Hry do kapsy VI (Portál 2004); Neuman, Dobrodružné hry a cvičení v přírodě (Portál 1998)."
+}

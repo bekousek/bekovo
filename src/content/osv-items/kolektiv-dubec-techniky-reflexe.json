@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-techniky-reflexe",
+  "categoryId": "tridni-kolektiv",
+  "title": "Techniky reflexe (zásobník)",
+  "description": "Reflexe je podle autorů základní metoda OSV — díky ní si žáci z prožitých aktivit odnášejí vědomě zpracovanou zkušenost. Metodika nabízí zásobník technik, aby se daly střídat a udržely pozornost.",
+  "keywords": [
+    "reflexe",
+    "škály",
+    "uzavření aktivity",
+    "zpětná vazba",
+    "Dubec",
+    "Odyssea"
+  ],
+  "type": "metodika",
+  "duration": "od několika desítek vteřin (škály) po desítky minut",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák popíše svou zkušenost, řekne, co by příště udělal stejně či jinak, a co si odnáší do života.",
+  "procedure": "Učitel má během reflexe provázející roli — klade otázky a nehodnotí. Na závěr mohou žáci spolu s ním dojít k tomu, co si z řečeného odnesou do běžného života.\n\nDůležitým úkolem učitele je zapojit co nejvíc žáků co nejintenzivnějším způsobem. Aby se udržela pozornost a motivace, je vhodné techniky reflexe kombinovat.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 50",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=51"
+  }
+}

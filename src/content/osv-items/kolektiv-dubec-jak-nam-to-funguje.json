@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-jak-nam-to-funguje",
+  "categoryId": "tridni-kolektiv",
+  "title": "Jak nám to funguje? — návrat k pravidlu po 7–14 dnech",
+  "description": "Pravidlo se neudrží samo. Po dohodě se stanoví termín, kdy se třída sejde a probere, jak jim to funguje. Mezitím mají žáci „domácí úkol“ všímat si situací, kdy pravidlo zafungovalo.",
+  "keywords": [
+    "udržení pravidla",
+    "zpětná vazba",
+    "follow-up",
+    "oceňuji a upozorňuji",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "20–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zaměřit po předem určenou dobu pozornost žáků na fungování nového pravidla.",
+  "procedure": "Po výběru řešení a zformulování pravidla zadej žákům „domácí úkol“: po předem stanovenou dobu — autorům se osvědčilo 7 až 14 dní — se soustředit na jednu situaci, kdy jim pravidlo ve třídě fungovalo.\n\nRovnou oznam, kdy se třída zase sejde. Na tom setkání dostanou všichni příležitost vyjádřit se k tomu, jak fungování pravidla vnímají.\n\nMetodika k tomuto kroku nabízí ještě aktivitu Oceňuji a upozorňuji.",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 43",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=44"
+  }
+}

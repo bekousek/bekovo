@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-zcitliveni-na-tema",
+  "categoryId": "tridni-kolektiv",
+  "title": "Jak žáky zcitlivět na téma hodiny (6 způsobů)",
+  "description": "Když téma vybere učitel, je dobré ho nejdřív propojit s tím, co žáci sami zažili. Šest způsobů, jak to udělat, než se do tématu pustíte naplno.",
+  "keywords": [
+    "zcitlivění",
+    "uvedení tématu",
+    "motivace",
+    "propojení se životem",
+    "Dubec",
+    "provokace"
+  ],
+  "type": "metodika",
+  "duration": "5–15 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "procedure": "Reálná situace — dvojice ztvární situaci, kde jeden udělá něco, co se druhému nelíbí, a ten reaguje. Používají běžné styly chování. Pak prezentace pár dvojic a krátká reflexe.\n\nJaké s tím mám zkušenosti? — otázky typu: Kde se ve svém životě s tímto tématem setkávám? Co by mě o něm zajímalo vědět? K čemu by mi bylo se o něm něco dozvědět?\n\nSbírka toho, co víme — každý má v jedné minutě napsat co nejvíc věcí, co ho k tématu napadne. Pak každý sdělí jeden nejzajímavější nápad, učitel je píše na tabuli.\n\nScénka — učitel předehraje krátkou scénku ilustrující téma. Žáci popíšou, co viděli. Například obejde několik žáků a různě je o něco požádá; úkolem je popsat, čím se způsoby lišily a který byl nejúčinnější.\n\nProvokace — učitel oznámí něco, s čím žáci nebudou souhlasit, například že žáci o sobě ve třídě navzájem nic nevědí. Pak se to dá prakticky ověřit: dvojice mají sepsat, co o tom druhém vědí, aniž by se ptaly.\n\nKdybychom to neměli… — otázky typu: Jaké důsledky by pro nás mělo, kdybychom ve třídě žádná pravidla neměli? Co by se v našem životě změnilo?",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Pravidla a dohody ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 17",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=18"
+  }
+}

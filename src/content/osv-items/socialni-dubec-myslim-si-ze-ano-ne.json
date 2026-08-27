@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-myslim-si-ze-ano-ne",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Myslím si, že ano; myslím si, že ne",
+  "description": "Diskuzní metoda, ve které žáci zaujímají stanoviska k otázce a diskutují o nich, aniž by popírali, jak se na věc dívají druzí. Trénuje dovednost reagovat nekonfliktně na názor, se kterým nesouhlasím.",
+  "keywords": [
+    "diskuze",
+    "postoje",
+    "názory",
+    "nesouhlas",
+    "ano ne",
+    "kontroverzní témata",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák si ujasní vlastní postoj a procvičí reagování na názory, se kterými nesouhlasí.",
+  "materials": [
+    "Papír A4 s velkým nápisem ANO",
+    "Papír A4 s velkým nápisem NE"
+  ],
+  "procedure": "Určeno pro 8 až 30 žáků. Autoři ji doporučují na pravidelnou diskuzi o kontroverzních tématech, která žáky zajímají, nebo na diskuzi o problému třídy.\n\nUpraveno podle publikace Zlatý fond her I (Portál 2002, s. 120).",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 73",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=74"
+  }
+}

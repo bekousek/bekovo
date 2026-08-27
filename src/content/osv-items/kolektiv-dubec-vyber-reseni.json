@@ -1,0 +1,36 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-vyber-reseni",
+  "categoryId": "tridni-kolektiv",
+  "title": "Výběr řešení: hlasování, měřítka, galerie, advokáti, lavina",
+  "description": "Pět způsobů, jak z nasbíraných nápadů vybrat ten, který třída použije. Hlasování je nejjednodušší, ale vždy rozdělí třídu na vítěze a poražené — proto se hodí i ostatní.",
+  "keywords": [
+    "výběr řešení",
+    "hlasování",
+    "měřítka",
+    "galerie",
+    "advokáti",
+    "lavina",
+    "konsensus",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "duration": "20–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "procedure": "Hlasování — nejjednodušší forma. Vždy rozdělí skupinu na ty, jejichž řešení zvítězilo, a ty, jejichž propadlo. Proto je někdy lepší sáhnout po dalších způsobech.\n\nStanovení měřítek výběru — podle autora patrně nejefektivnější. Omezuje riziko konfliktů mezi skupinami, které svá řešení prosazují argumenty, jež často nejsou racionální. Třída se nejdřív shodne na měřítkách, podle kterých bude nápady posuzovat, a teprve pak podle nich vybírá.\n\nDále metodika popisuje Galerii (vyvěšení nápadů a bodování), Advokáty a Lavinu.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Pravidla a dohody ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 36",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=37"
+  }
+}

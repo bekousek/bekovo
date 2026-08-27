@@ -1,0 +1,36 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-chceme-aby-nam-to-fungovalo",
+  "categoryId": "tridni-kolektiv",
+  "title": "Chceme, aby nám to fungovalo — scénky k novému pravidlu",
+  "description": "Když se třída na pravidle dohodne, tahle aktivita ukáže, co to znamená pro chování. Skupiny zahrají scénku, kde pravidlo nefunguje, a hned nato tutéž situaci s tím, že někdo zareaguje.",
+  "keywords": [
+    "pravidla",
+    "scénky",
+    "porušení pravidla",
+    "reakce",
+    "dohoda",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Ukázat, jak se dohodnuté řešení promítne do chování — a mít seznam vyzkoušených reakcí na jeho porušení.",
+  "procedure": "1. Řekni, čím se budete zabývat: nově dohodnutým pravidlem, například „Oslovujeme se křestním jménem nebo vyžádanou přezdívkou“, a tím, co dělat, když ho někdo poruší.\n\n2. Skupiny připraví krátkou scénku, ve které pravidlo nefunguje. Do jedné minuty.\n\n3. Pak vymyslí, co by bylo užitečné dělat, když někdo pravidlo porušuje, a secvičí druhou scénku. Začátek je stejný, ale někdo ze skupiny se pokusí zareagovat tak, aby pravidlo fungovalo.\n\n4. Skupiny předvádějí obě scénky za sebou — nejdřív tu, kde nikdo nic nedělá, hned nato tu s řešením.\n\n5. Diváci popíšou, co žáci ve druhé scénce udělali pro to, aby pravidlo opět fungovalo.\n\n6. Když skupina připraví řešení, které už někdo použil, nevadí, ať ho předvede znovu.\n\n7. Učitel průběžně zapisuje k novému pravidlu jednotlivá doporučení. Výhodou je, že si je žáci všechna vyzkoušeli.\n\n8. Na závěr si každý ze sepsaných doporučení jedno vybere — to má v takové situaci použít.",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 41",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=42"
+  },
+  "notes": "Autor uvádí, že aktivita je použitelná zhruba od 10 let a vejde se do 45 minut. Fotografie v metodice zachycují průběh se žáky šesté třídy — takže je ověřená přesně na tvojí věkové skupině."
+}

@@ -1,0 +1,43 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-prani-pradla",
+  "categoryId": "tridni-kolektiv",
+  "title": "Praní prádla — velká metoda na vztahy ve třídě",
+  "description": "Vlajková metoda celé metodiky, vyvinutá lektorským týmem Odyssey. Žáci nezraňujícím způsobem řeknou, co se jim ve třídě líbí a co ne, hovoří za sebe bez hodnocení druhých, a nakonec společně naplánují, co udělají s jedním typem chování, které se jim nelíbí.",
+  "keywords": [
+    "praní prádla",
+    "vztahy ve třídě",
+    "post-it",
+    "klima",
+    "dlouhodobý problém",
+    "Odyssea",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "90 min (kroky 2–8) až 4 vyučovací hodiny (celá metoda)",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zajistit, aby se každý žák mohl vyjádřit k tomu, jak vnímá vztahy ve své třídě — a to způsobem, který nikoho nezraní.",
+  "materials": [
+    "Post-ity velkého formátu (např. 13×8 cm), čtyřnásobek počtu žáků",
+    "Cca 20 papírů A4",
+    "Jeden větší balicí nebo flipový papír"
+  ],
+  "procedure": "1. Začni drobnou nesoutěžní problémovou aktivitou, kde všichni spolupracují — třeba Kooperativní míček, Křížovka, Žraloci nebo Kostkostroje. Cílem je zážitek, že jsme něco společně zvládli. U třídy, která se dlouho zná, se dá vypustit.\n\n2. Zarámování: „Budeme se zabývat mezilidskými vztahy v naší třídě. Vše, co budeme dělat, je dobrovolné. Nebudu vás nutit mluvit o něčem, o čem byste mluvit nechtěli.“\n\n3. Skupiny po 3–5 žácích dají během asi 5 minut dohromady odpovědi na otázku: Co všechno má vliv na vztahy v naší třídě?\n\n4. Skupiny označí každou věc znaménkem +, − nebo tečkou podle toho, jestli má na dění ve třídě kladný, záporný, nebo těžko určitelný dopad.\n\n5. Každý žák dostane dva post-ity a napíše aspoň jednu naprosto konkrétní situaci, kterou by označil plusem — typu „Jarmila mi dala kousnout ze své svačiny“. Píše se vždy jen za sebe. Upozorni, že se všechno bude nahlas číst.\n\n6. Učitel napíše na tabuli „Věci, které mi v naší třídě dělají radost“, žáci vylepí lístečky a učitel je postupně čte.\n\nMetodika pak pokračuje dalšími kroky až po společné naplánování, co se bude dělat s jedním typem nepříjemného chování.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Reflexe fungování třídy a zpětná vazba",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 45",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=46"
+  },
+  "notes": "Nejsilnější věc v celé metodice, ale i nejnáročnější — počítej se dvěma až čtyřmi hodinami. Než ji pustíš, přečti si kartu Pravidla psychické bezpečnosti v OSV; dobrovolnost je tu přímo v zadání."
+}

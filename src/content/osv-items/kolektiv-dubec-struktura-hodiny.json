@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-struktura-hodiny",
+  "categoryId": "tridni-kolektiv",
+  "title": "Struktura třídnické hodiny (Dubec)",
+  "description": "Třídílné schéma použitelné jak pro předem připravené téma, tak když si témata navrhnou žáci: úvodní aktivita → aktivita spojená s tématem → uzavření hodiny. U každé části je uvedeno, k čemu slouží a které konkrétní aktivity se na ni hodí.",
+  "keywords": [
+    "struktura hodiny",
+    "třídnická hodina",
+    "schéma",
+    "plánování",
+    "Dubec",
+    "Odyssea"
+  ],
+  "type": "metodika",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Mít kostru hodiny, do které se dosadí konkrétní aktivity.",
+  "procedure": "Úvodní aktivita (hra) — žáky zklidnit, nebo naopak probudit a naladit na další práci.\n\nAktivita spojená s tématem hodiny — zprostředkovat žákům prožitky, které umožňují získat novou zkušenost; často takové, které jinde nemají příležitost získat. Témata: provozní záležitosti, seznámení a stmelování, práce s pravidly a řešení aktuálních problémů, práce se vztahy, rozvoj specifických dovedností, vlastní projekty, specifická prevence, diagnostika, zábava.\n\nUzavření hodiny — upevnit získanou zkušenost a nechat žáky vyjádřit, co jim hodina dala. Slouží k tomu reflexe.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 9",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=10"
+  }
+}

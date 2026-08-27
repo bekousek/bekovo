@@ -1,0 +1,36 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-hrani-roli",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Hraní rolí — nácvik chování v bezpečí",
+  "description": "Žáci experimentují se svým jednáním v modelových situacích, reflektují ho a dostávají od spolužáků i učitele informace o tom, jak na ně dané jednání působí. Na základě prožitého si pak formulují praktická doporučení do reality.",
+  "keywords": [
+    "hraní rolí",
+    "nácvik",
+    "modelové situace",
+    "odmítání",
+    "manipulace",
+    "konflikty",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Naučit žáky efektivně řešit konkrétní typy situací — porušování pravidel, konflikty, odmítání drog.",
+  "procedure": "Počet žáků není omezen. Autoři metodu doporučují, když chceš žákům umožnit zkoušet různá řešení v bezpečném prostředí, cíleně rozvíjet dovednosti jako rozpoznávání a reagování na manipulaci, odmítání, moderování diskuze či konstruktivní řešení konfliktů, nebo nechat žáky odreagovat napětí z konfliktů.\n\nKonkrétní příklady tréninku: já se s někým hádám a přitom chci věc konstruktivně vyřešit; já jdu někomu říci něco nepříjemného.",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů",
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 77",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=78"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-divadlo-forum",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Variace na divadlo fórum — nácvik řešení konfliktů",
+  "description": "Boalovské divadlo fórum upravené pro třídu: žáci si v modelových situacích vyzkoušejí řešení problematických situací, do kterých se ve třídě dostávají. Zároveň to „pročistí vzduch“ tím, že se pojmenuje, co se ve třídě děje.",
+  "keywords": [
+    "divadlo fórum",
+    "Boal",
+    "konflikty",
+    "modelové situace",
+    "nácvik",
+    "scénky",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žáci si přímo vyzkoušejí efektivní chování v situacích, které je ve třídě potkávají.",
+  "procedure": "Metoda je použitelná i s celou třídou. Hodí se, když chceš nechat žáky popsat, do jakých obtížných situací se ve třídě dostávají, umožnit jim sdílet zkušenosti s jejich řešením, nebo jim plánovaně představit efektivní strategie.\n\nDvě zásadní pravidla, na která autoři upozorňují:\n• Během hraní nesmí dojít k proměně charakteru postavy — z bojácné dívky se nesmí stát průbojná dívka.\n• Je zakázáno řešit situace „kouzly“ — bojácná dívka se tajně učí karate.",
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Komunikace a sociální interakce",
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 66",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=67"
+  },
+  "notes": "Blízký příbuzný Markétiny personifikace duševních poruch — obojí staví na scénkách. Ta dvě pravidla proti „kouzlům“ a proměně charakteru se hodí i tam."
+}

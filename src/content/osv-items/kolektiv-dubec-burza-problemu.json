@@ -1,0 +1,38 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-burza-problemu",
+  "categoryId": "tridni-kolektiv",
+  "title": "Burza problémů — od konkrétní stížnosti k obecné skupině",
+  "description": "Každý napíše, co mu ve třídě vadí, a pak to zobecní do kategorie. Žáci pak chodí po třídě a hledají spolužáky s podobnou kategorií — tím vzniknou skupiny problémů, na které se dá zaměřit.",
+  "keywords": [
+    "problémy třídy",
+    "zobecnění",
+    "skupiny problémů",
+    "posmívání",
+    "braní věcí",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "30–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Cílem není vypátrat viníky, ale pobavit se o tom, co by mohlo fungovat lépe.",
+  "materials": [
+    "Čtvrtka papíru A4 pro každého žáka"
+  ],
+  "procedure": "Každý žák stručně napíše na čtvrtku papíru věc, která mu ve třídě vadí. Uveď příklady: Když mi někdo říká Tlusťochu. Když si někdo bere moje věci bez dovolení. Když mě někdo pomlouvá.\n\nJde jen o věci uvnitř třídy, na které mají vliv sami žáci — ne třeba neohlášený test od pana učitele.\n\nDále mají svůj problém zobecnit — vymyslet obecnou skupinu, do které patří. Zobecňování se vyplatí natrénovat: pár žáků řekne, co napsali, a obecnou skupinu vymýšlí celá třída. Například „Vadí mi, když mi někdo říká, že mám hnusné oblečení“ → Posmívání se. „Vadí mi, že si někdo půjčuje mé věci bez dovolení“ → Braní věcí. „Vadí mi, když mě holky tahají za vlasy“ → Fyzické ubližování.\n\nPak žáci vstanou, chodí po třídě a navzájem si své obecné skupiny představují. Kdo potká někoho s podobnou skupinou, pokračuje dál s ním. Každý by měl najít aspoň jednoho. Tak vzniknou skupiny problémů.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 30",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=31"
+  }
+}

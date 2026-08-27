@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-kouzelny-proutek",
+  "categoryId": "tridni-kolektiv",
+  "title": "Kouzelný proutek — jak poznám, že problém zmizel",
+  "description": "Varianta Burzy problémů: kromě toho, co žákovi vadí, napíše na druhý papír, podle čeho by poznal, že problém už neexistuje. Zakázáno je psát, co by se nedělo — jen to, co by se dělo.",
+  "keywords": [
+    "řešení problémů",
+    "pozitivní formulace",
+    "zázračná otázka",
+    "pravidla",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "30–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Převést stížnost na popis žádoucího stavu, se kterým se dá dál pracovat.",
+  "materials": [
+    "Dvakrát čtvrtka papíru A4 pro každého žáka"
+  ],
+  "procedure": "Začátek je stejný jako u Burzy problémů — každý napíše na jeden papír věc, která mu ve třídě vadí.\n\nNa druhý papír pak napíše, jak by sám poznal, že problém už neexistuje: „Představte si, že jste přišli do školy a problém, který jste napsali, už neexistuje. Jak byste to poznali? Co by bylo jinak? Co by se dělo?“\n\nJe zakázáno psát, co by se nedělo. Příklad: „Vadí mi, když si někdo půjčuje mé věci bez dovolení“ → Každý, kdo si chce něco půjčit, se mne zeptá. Mohu si o přestávce s klidem nechat na lavici své věci. Po přestávce najdu na lavici všechny věci tak, jak jsem je nechal.\n\nTím vzniknou podklady k tomu, se domluvit, jak zařídit, aby věci fungovaly tak, jak žáci popsali.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Pravidla a dohody ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 32",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=33"
+  }
+}

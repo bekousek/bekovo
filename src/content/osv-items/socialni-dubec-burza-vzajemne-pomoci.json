@@ -1,0 +1,38 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-burza-vzajemne-pomoci",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Burza vzájemné pomoci",
+  "description": "Žáci zformulují, s čím by ocenili pomoc, a pak si navzájem pomůžou. Pravidelné používání zároveň funguje jako diagnostika toho, s čím žáci potřebují pomoct nejvíc.",
+  "keywords": [
+    "pomoc",
+    "prosociální chování",
+    "požádat o pomoc",
+    "nabídnout pomoc",
+    "burza",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Rozvinout schopnost říct si o pomoc — a schopnost pomoc nabídnout.",
+  "materials": [
+    "Čtvrtina papíru A4 pro každého žáka"
+  ],
+  "procedure": "Metoda je použitelná i s celou třídou. Autoři ji doporučují například při zpracovávání nějakého projektu nebo úkolu v rámci třídy či školy.\n\nDůležité upozornění autorů: dobrovolnost.",
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Spolupráce a kooperace"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 64",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=65"
+  }
+}

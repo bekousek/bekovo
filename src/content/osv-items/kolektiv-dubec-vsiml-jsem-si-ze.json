@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-vsiml-jsem-si-ze",
+  "categoryId": "tridni-kolektiv",
+  "title": "Všiml jsem si, že… — scénky o tom, co se ve třídě děje",
+  "description": "Učitel předehraje scénku situace, které si ve třídě všiml a která ho znepokojuje. Pak skupiny žáků zdramatizují své vlastní nepříjemné situace. Bez jmen, bez pátrání po vinících.",
+  "keywords": [
+    "scénka",
+    "dramatizace",
+    "nepříjemné situace",
+    "posmívání",
+    "škála",
+    "Dubec"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zviditelnit situace, které jsou žákům nepříjemné, a dohodnout se, co pro jejich ubývání udělat.",
+  "procedure": "Učitel předehraje krátkou scénku situace, které si všiml — třeba posmívání kvůli neznačkovému oblečení. S partnerem ze třídy se domluví předem a vybere někoho, kdo to zvládne. Pak krátká reflexe: Jak jsi se během situace cítil? Jak jste vnímali, co se tu dělo? Jak moc vám to připadalo reálné — škála na prstech od nuly do deseti.\n\nUčitel řekne zásadu: cílem není vypátrat viníky, ale zviditelnit situace a dohodnout se, co udělat, aby jich ubylo.\n\nSkupiny po 3–5 žácích. Každý ve skupině nejdřív představí jednu situaci ze třídy, ve které se cítí nepříjemně — bez konkrétních jmen. Skupina pak jednu vybere a nacvičí z ní krátkou scénku.\n\nPo každé předvedené scénce rozbor: Jak jste to vnímali? Jak reálné vám to připadalo (škála na prstech)? Kdo se už do podobné situace dostal, zvedne ruku. Jak moc byste chtěli, aby k podobným situacím nedocházelo?",
+  "reflection": [
+    "Jak jste vnímali to, co se tu dělo? Co vás při tom napadalo?",
+    "Jak moc vám připadalo reálné to, co se tu dělo?",
+    "Jak moc byste chtěli, aby k podobným situacím v naší třídě nedocházelo?"
+  ],
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Prevence šikany a rizikového chování"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 32",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=33"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-problemove-situace",
+  "categoryId": "tridni-kolektiv",
+  "title": "Když se to zvrtne — čtyři typická úskalí třídnických hodin",
+  "description": "Co dělat, když žáci na sebe negativně reagují, odmítají být aktivní, reflexe se rozvleče, nebo se stane něco, na co jste nebyli připraveni. Autoři popisují, co se jim v takových chvílích osvědčilo.",
+  "keywords": [
+    "úskalí",
+    "odmítání",
+    "neaktivita",
+    "rozvleklá reflexe",
+    "krizovka",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Vědět dopředu, co dělat, když třídnická hodina nejde podle plánu.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 13",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=14"
+  },
+  "notes": "Přečti si to dřív, než něco z metodiky poprvé zkusíš — ne až potom."
+}

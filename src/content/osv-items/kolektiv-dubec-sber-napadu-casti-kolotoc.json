@@ -1,0 +1,33 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-sber-napadu-casti-kolotoc",
+  "categoryId": "tridni-kolektiv",
+  "title": "Sběr nápadů na řešení: Brainstorming, Části, Kolotoč",
+  "description": "Tři způsoby, jak se žáky nasbírat nápady na řešení problému, který jste ve třídě pojmenovali. Nejdřív se sbírá co nejvíc tvořivých řešení, teprve pak se vybírá.",
+  "keywords": [
+    "brainstorming",
+    "sběr nápadů",
+    "kolotoč",
+    "rozklad problému",
+    "skupinová práce",
+    "Dubec"
+  ],
+  "type": "metodika",
+  "duration": "20–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "procedure": "Brainstorming — vybraný problém se přepíše do otevřené otázky, například „Co uděláme v naší třídě pro to, abychom si navzájem nebrali věci bez dovolení?“ Pak se sbírají nápady, buď s celou třídou najednou, nebo po skupinách.\n\nČásti — problém se rozloží na jednotlivé části a nápady se sbírají zvlášť ke každé. „Bereme si věci“ + „Bez dovolení“ → jedna půlka třídy vymýšlí, co dělat, aby nám druzí nebrali věci, druhá půlka, jak si druhému o něco říct. Pak se skupiny rozpůlí a přeskládají tak, aby v každé nové byla polovina z každé části, a jejich úkolem je nápady zkombinovat. Počet skupin musí být sudý. Vhodné jen pro problémy, které jdou nenásilně rozložit.\n\nKolotoč — každá skupina dostane jeden problém a velký papír, zapíše si ho a sbírá nápady. Po deseti minutách si skupiny papíry vymění. Nová skupina přečte nahlas problém a dosavadní nápady a přidává další. Výměny pokračují, dokud se papíry nevrátí k původním skupinám.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 34",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=35"
+  }
+}
