@@ -1,0 +1,39 @@
+{
+  "id": "socialni-odyssea-5-2",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 5.2 — Tvořivě řešíme mezilidské situace",
+  "description": "Očekávaný výstup: Žák tvořivě řeší vybrané mezilidské situace, do kterých se dostává. Hotová lekce OSV z řady Projektu Odyssea, 34 stran, se zásobníkem 5 popsaných aktivit.",
+  "keywords": [
+    "kreativita",
+    "mezilidské situace",
+    "náročné situace",
+    "zásobník situací"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák tvořivě řeší vybrané mezilidské situace, do kterých se dostává.",
+  "procedure": "Témata lekce:\n• TÉMA A – Jak učit žáky tvořivě řešit náročné mezilidské situace, do\n• TÉMA B – Jak učit žáky tvořivě řešit běžné mezilidské situace, do\n\nZásobník aktivit (5), čísla stránek jsou v PDF o jednu vyšší:\nA1 Jde to i jinak? — s. 22\nA2 S tím já nic nenadělám! — s. 24\nA3 Zásobník situací — s. 27\nB1 Jak já to jen udělám? — s. 28\nB2 Jak my to jen uděláme? — s. 29",
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Sociálně-emocionální dovednosti"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 5.2: Tvořivě řešíme mezilidské situace",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-2-Tvorive-resime-mezilidske-situace.pdf#page=23",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 5.2 Tvořivě řešíme mezilidské situace (PDF, 34 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-2-Tvorive-resime-mezilidske-situace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

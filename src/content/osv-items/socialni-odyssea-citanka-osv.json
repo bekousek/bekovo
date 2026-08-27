@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "socialni-odyssea-citanka-osv",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Čítanka k osobnostní a sociální výchově",
+  "description": "Sbírka textů ke všem jedenácti tematickým okruhům OSV, 83 stran. Ke každému okruhu texty použitelné jako vstup do diskuse. Magdalena Ulmanová a Michal Dubec.",
+  "keywords": [
+    "čítanka",
+    "texty",
+    "diskuse",
+    "všech 11 okruhů",
+    "literatura",
+    "vstup do tématu"
+  ],
+  "goal": "Mít po ruce text, kterým se dá téma otevřít, když nechceš začínat hrou.",
+  "procedure": "Členění podle jedenácti okruhů OSV se stránkami:\n\n1. Rozvoj schopnosti poznávání — s. 5\n2. Sebepoznání a sebepojetí — s. 12\n3. Seberegulace a sebeorganizace — s. 20\n4. Psychohygiena — s. 28\n5. Kreativita — s. 33\n6. Poznávání lidí — s. 40\n7. Mezilidské vztahy — s. 46\n8. Komunikace — s. 53\n9. Kooperace a kompetice — s. 61\n10. Řešení problémů a rozhodovací dovednosti — s. 67\n11. Hodnoty, postoje, praktická etika — s. 73\n\nÚvodní kapitola Jak s čítankou pracovat je na s. 4.",
+  "rvpAreas": [
+    "Sociálně-emocionální dovednosti",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Odyssea — Čítanka k osobnostní a sociální výchově (Ulmanová, Dubec)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Citanka-k-osobnostni-a-socialni-vychove.pdf#page=5"
+  },
+  "files": [
+    {
+      "label": "Čítanka k OSV (PDF, 83 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Citanka-k-osobnostni-a-socialni-vychove.pdf",
+      "type": "pdf"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "kolektiv-odyssea-adaptacni-soustredeni",
+  "categoryId": "tridni-kolektiv",
+  "title": "Adaptační (stmelovací) soustředění pro 6. ročník",
+  "description": "Hotový scénář adaptačního kurzu OSV napsaný přímo pro žáky 6. ročníku ZŠ a primy. Michal Dubec, 49 stran. Cíle jsou zformulované tak, aby jejich dosažení bylo měřitelné, a k nim jsou přiřazené konkrétní aktivity.",
+  "keywords": [
+    "adaptační kurz",
+    "stmelování",
+    "šestka",
+    "začátek roku",
+    "soustředění",
+    "Dubec",
+    "důvěra"
+  ],
+  "goal": "Mít pro adaptační kurz šestky hotový program, ne jen sesbírané hry.",
+  "procedure": "Program je poskládaný ze šesti bloků, ke každému jsou v textu přiřazené aktivity:\n\n1. Zahájení — žák se seznámí s lektory, zformuluje, jak vnímá smysl kurzu a svá očekávání, vyslechne parametry kurzu a odsouhlasí i doplní základní pravidla.\n2. Rozehřívací aktivity — spolupráce se spolužáky na lehčích zábavných úkolech.\n3. Aktivity na prohloubení vzájemného poznání a hlubší poznání učitele.\n4. Aktivity zaměřené na skupinovou práci.\n5. Aktivity na společné zvládání náročných situací.\n6. Aktivity na rozvoj důvěry a uzavření akce.\n\nDále publikace obsahuje kapitoly Osvědčená pravidla pro adaptační soustředění, Fáze vývoje skupin v čase a jejich vztah k plánování, Nároky kladené na učitele a Problémové situace, na které můžeme narazit.\n\nZásobník aktivit od s. 40: Nosorožec, opice, kačka, slon · Brod · Myslím si, že ano; myslím si, že ne · Valihrach.",
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Teambuilding a společné zážitky",
+    "Klima a bezpečí ve třídě",
+    "Pravidla a dohody ve třídě"
+  ],
+  "source": {
+    "label": "Odyssea — Adaptační (stmelovací) soustředění (M. Dubec, 2007)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Adaptacni-stmelovaci-soustredeni-pro-6.-tridu-a-primu.pdf#page=13"
+  },
+  "files": [
+    {
+      "label": "Adaptační soustředění pro 6. třídu a primu (PDF, 53 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Adaptacni-stmelovaci-soustredeni-pro-6.-tridu-a-primu.pdf",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Jediná publikace z celé řady napsaná adresně pro šestku. Existuje i verze pro 1. třídu — tu jsem nezakládal."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyssea-1-1",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 1.1 — Umíme se soustředit",
+  "description": "Očekávaný výstup: Žák používá postupy zlepšující vlastní soustředění. Hotová lekce OSV z řady Projektu Odyssea, 37 stran, se zásobníkem 8 popsaných aktivit.",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "pocity",
+    "klid",
+    "relaxace"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák používá postupy zlepšující vlastní soustředění.",
+  "procedure": "Témata lekce:\n• TÉMA A - Jak vnímat a vyjádřit svoje skutečné pocity?\n• TÉMA B - Jak být stabilní - dostat se do svého klidného středu?\n• TÉMA C - Jak používat hudbu pro lepší soustředění pozornosti.\n\nZásobník aktivit (8), čísla stránek jsou v PDF o jednu vyšší:\nB1 Vědomá chůze — s. 26\nB2 Mírné světlo — s. 27\nB3 Můžeš tu chvíli se mnou zůstat! — s. 28\nB5 Ochranné zvíře — s. 30\nC1 Rezonance — s. 31\nC2 Sedm barev a sedm tónů — s. 32\nC3 Hry s písněmi — s. 33\nC4 Prales — s. 34",
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 1.1: Umíme se soustředit",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=27",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 1.1 Umíme se soustředit (PDF, 37 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

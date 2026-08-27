@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyssea-4-4",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 4.4 — Umíme vyhledat i poskytnout pomoc při osobních problémech",
+  "description": "Očekávaný výstup: Žák poskytne a vyhledá pomoc při osobních problémech. Hotová lekce OSV z řady Projektu Odyssea, 26 stran.",
+  "keywords": [
+    "pomoc",
+    "osobní problémy",
+    "požádat o pomoc",
+    "nabídnout pomoc",
+    "kam se obrátit"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák poskytne a vyhledá pomoc při osobních problémech.",
+  "procedure": "Témata lekce:\n• TÉMA A - Jak poskytovat pomoc druhým ve chvíli, kdy je to vhodné\n• TÉMA B - Jak vyhledat pomoc, když ji potřebujeme",
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 4.4: Umíme vyhledat i poskytnout pomoc při osobních problémech",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-4-Umime-vyhledat-i-poskytnout-pomoc-pri-osobnich-problemech.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 4.4 Umíme vyhledat i poskytnout pomoc při osobních problémech (PDF, 26 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-4-Umime-vyhledat-i-poskytnout-pomoc-pri-osobnich-problemech.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Lekce nemá vlastní zásobník aktivit — obsahuje cíle, praktickou teorii a doporučené postupy."
+}

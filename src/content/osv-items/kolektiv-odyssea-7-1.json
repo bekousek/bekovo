@@ -1,0 +1,43 @@
+{
+  "id": "kolektiv-odyssea-7-1",
+  "categoryId": "tridni-kolektiv",
+  "title": "Lekce 7.1 — Poznáváme, určujeme a dodržujeme pravidla chování ve třídě a ve škole",
+  "description": "Očekávaný výstup: Žák rozumí tomu, proč jsou ve škole a ve třídě nějaká pravidla. Umí se účinně chovat ve chvíli, kdy někdo společná pravidla porušuje a jemu to vadí. Dále zná důsledky toho, když sám některé pravidlo poruší. Hotová lekce OSV z řady Projektu Odyssea, 81 stran.",
+  "keywords": [
+    "pravidla",
+    "třída",
+    "sankce",
+    "porušování pravidel",
+    "dohoda",
+    "začátek roku"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák rozumí tomu, proč jsou ve škole a ve třídě nějaká pravidla. Umí se účinně chovat ve chvíli, kdy někdo společná pravidla porušuje a jemu to vadí. Dále zná důsledky toho, když sám některé pravidlo poruší.",
+  "procedure": "Témata lekce:\n• Téma pravidel ve třídě je komplexní. Naplnění jednotlivých cílů této\n• TÉMA A – Postupy práce s pravidly, jejichž použití usnadňuje",
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 7.1: Poznáváme, určujeme a dodržujeme pravidla chování ve třídě a ve škole",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 7.1 Poznáváme, určujeme a dodržujeme pravidla chování ve třídě a ve škole (PDF, 81 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Osmdesát stran věnovaných výhradně pravidlům — od jejich stanovování přes dodržování až po práci se sankcemi. Dubcova metodika se na tuhle lekci opakovaně odkazuje."
+}

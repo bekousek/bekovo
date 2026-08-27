@@ -1,0 +1,41 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "osobnostni-odyssea-jak-se-branit-drogam",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak se bránit drogám a předcházet závislostem — metodika pro 2. stupeň",
+  "description": "Nejrozsáhlejší publikace řady, 236 stran. Kromě scénáře kurzu obsahuje i teoretickou část o závislosti a rozbor mýtů a omylů o drogách a drogové prevenci.",
+  "keywords": [
+    "drogy",
+    "závislost",
+    "prevence",
+    "mýty o drogách",
+    "kurz",
+    "2. stupeň"
+  ],
+  "goal": "Vést prevenci závislostí tak, aby nebyla kontraproduktivní.",
+  "procedure": "Publikace jde po částech:\n\n• Doporučení pro bezpečnou a efektivní práci s touto metodikou (s. 7)\n• Základní pojmy — co to je závislost, cesta do závislosti (s. 11)\n• Pojetí a dělení prevence (s. 16)\n• Zásady primární prevence a úskalí při jejich naplňování (s. 18)\n• Mýty a omyly o drogách a drogové prevenci (s. 24)\n• Úvod a nastartování kurzu, program kurzu (s. 30)",
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací"
+  ],
+  "source": {
+    "label": "Odyssea — Jak se bránit drogám a předcházet závislostem (2. stupeň ZŠ)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=19"
+  },
+  "files": [
+    {
+      "label": "Jak se bránit drogám a předcházet závislostem (PDF, 236 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Kapitolu Zásady primární prevence a úskalí při jejich naplňování si přečti dřív než scénář — drogová prevence umí napáchat víc škody než užitku, když se dělá špatně."
+}

@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-odyssea-2-1",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 2.1 — Poznáváme svou osobnost",
+  "description": "Očekávaný výstup: Žák poznává svou osobnost (temperament, motivaci, schopnosti). Hotová lekce OSV z řady Projektu Odyssea, 64 stran, se zásobníkem 8 popsaných aktivit.",
+  "keywords": [
+    "osobnost",
+    "temperament",
+    "introverze",
+    "extraverze",
+    "motivace",
+    "schopnosti"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák poznává svou osobnost (temperament, motivaci, schopnosti).",
+  "procedure": "Témata lekce:\n• TÉMA A – Moje osobnost\n• TÉMA B – Poznáváme svůj temperament – extraverze - introverze\n• TÉMA C – Poznáváme svůj temperament – rychlost, intenzitu\n• TÉMA D – Co je součástí motivace – potřeby\n• TÉMA E – Co je součástí motivace – hodnoty a vzory\n• TÉMA F – Co je součástí motivace – zájmy\n• TÉMA G – Co je součástí motivace – zvyky\n• TÉMA H – Moje schopnosti\n\nZásobník aktivit (8), čísla stránek jsou v PDF o jednu vyšší:\nA1 Abeceda — s. 45\nA2 Jako já — s. 48\nA3 Vizitka — s. 50\nB1 Regulovčík 1 — s. 51\nB2 Jste introvertní nebo extravertní — s. 53\nC1 Regulovčík 2 — s. 55\nH1 Kruh schopností — s. 56\nH2 Reklama — s. 59",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 2.1: Poznáváme svou osobnost",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-1-Poznavame-svou-osobnost.pdf#page=46",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 2.1 Poznáváme svou osobnost (PDF, 64 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-1-Poznavame-svou-osobnost.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

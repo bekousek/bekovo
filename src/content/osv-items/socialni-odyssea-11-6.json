@@ -1,0 +1,40 @@
+{
+  "id": "socialni-odyssea-11-6",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 11.6 — Naplňujeme vlastní ideály",
+  "description": "Očekávaný výstup: Žák identifikuje, které reálné problémy si zasluhují jeho pozornost, a tyto problémy řeší. Hotová lekce OSV z řady Projektu Odyssea, 28 stran, se zásobníkem 11 popsaných aktivit.",
+  "keywords": [
+    "reálné problémy",
+    "angažovanost",
+    "etický projekt",
+    "závazek",
+    "ideály"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák identifikuje, které reálné problémy si zasluhují jeho pozornost, a tyto problémy řeší.",
+  "procedure": "Témata lekce:\n• TÉMA A\n\nZásobník aktivit (11), čísla stránek jsou v PDF o jednu vyšší:\nA1 Myslím si, že ano, myslím si, že ne. — s. 16\nA2 Úvaha — s. 17\nA3 Problémy v mém okolí — s. 18\nA4 Vymysli co nejvíc možností — s. 19\nA5 Co skutečně děláme? — s. 20\nA6 Ideální svět — s. 21\nA7 Etický projekt — s. 22\nA8 Co mě nenechá v klidu — s. 23\nA9 Závazek — s. 24\nA10 Co můžeme řešit? — s. 25\nA11 Erb — s. 26",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.6: Naplňujeme vlastní ideály",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=17",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 11.6 Naplňujeme vlastní ideály (PDF, 28 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

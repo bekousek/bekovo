@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyssea-2-3",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 2.3 — Učíme se být v pohodě každý sám se sebou",
+  "description": "Očekávaný výstup: Žák poznává a rozvíjí vztah k sobě samému (sebepojetí, sebepřijetí, sebedůvěru). Hotová lekce OSV z řady Projektu Odyssea, 87 stran, se zásobníkem 29 popsaných aktivit.",
+  "keywords": [
+    "sebepojetí",
+    "sebepřijetí",
+    "sebedůvěra",
+    "tělo",
+    "úspěch",
+    "neúspěch"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák poznává a rozvíjí vztah k sobě samému (sebepojetí, sebepřijetí, sebedůvěru).",
+  "procedure": "Témata lekce:\n• TÉMA A – Kdo jsem a kým bych chtěl být (sebeobraz a sebeideál,\n• TÉMA B – Moje tělo je v pořádku tak, jak je (sebepřijetí vlastního těla)\n• TÉMA C - Jsem v pořádku tak, jak jsem (sebepřijetí vlastní osobnosti)\n• TÉMA D – Jak se vidím (sebehodnocení versus sebereflexe)\n• TÉMA E – Jak si víc věřit (zdroje posilování sebedůvěry)\n• TÉMA F – Jak vidím své úspěchy (optimistický a pesimistický výklad\n• TÉMA G – Věřím, že budu úspěšný?\n\nZásobník aktivit (29), čísla stránek jsou v PDF o jednu vyšší:\nA1 Obraz mého jména — s. 48\nA2 Kdo jsem? — s. 49\nA3 Co bych byl, kdybych byl — s. 50\nA4 Můj obličej — s. 53\nA5 Rodinné stříbro — s. 54\nB1 5 věcí — s. 55\nB2 Lidé, kteří něco dokázali — s. 56\nB3 Hlas anorexie — s. 58\nC1 Moje klady — s. 60\nC2 Jak vidím sám sebe — s. 61\nC3 Světlo a stín — s. 62\nD1 Rozhovory se sebou samým — s. 63\nE1 Vzpomínka na úspěch — s. 64\nE2 Kouzelná skříňka — s. 65\nE3 Trefy — s. 66\nE4 Klubíčko — s. 67\nE5 Symboly osobního významu — s. 68\nE6 O skličujícím ponižování — s. 69\nE7 Techniky pozitivního povzbuzování — s. 70\nE8 Dvacet věcí, které rád dělám — s. 71\nE9 Jediný svého druhu — s. 73\nF1 Hra s brýlemi — s. 74\nF2 Představy a malování úspěchu — s. 76\nG1 Můj největší úspěch v tomto roce — s. 77\nG2 Řízená vizualizace úspěchu — s. 78\nG3 Poučení z neúspěchu — s. 79\nG4 Krok za krokem k úspěchu — s. 82\nG5 Dějiny mých úspěchů — s. 83\nG6 Budoucí úspěchy — s. 84",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 2.3: Učíme se být v pohodě každý sám se sebou",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf#page=49",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 2.3 Učíme se být v pohodě každý sám se sebou (PDF, 87 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Téma B pracuje s přijetím vlastního těla a obsahuje aktivitu Hlas anorexie — v šestce to zvaž a případně přizvi školní psycholožku."
+}

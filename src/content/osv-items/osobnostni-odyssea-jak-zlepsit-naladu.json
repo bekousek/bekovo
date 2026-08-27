@@ -1,0 +1,42 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "osobnostni-odyssea-jak-zlepsit-naladu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak si zdravým způsobem zlepšit náladu a být svěží — kurz pro 2. stupeň",
+  "description": "Dvoudenní kurz psychohygieny pro 2. stupeň ZŠ, 63 stran. Rozepsaný po minutách včetně úvodních pravidel, kterými se kurz otevírá.",
+  "keywords": [
+    "nálada",
+    "psychohygiena",
+    "svěžest",
+    "relaxace",
+    "pravidlo STOP",
+    "dvoudenní kurz"
+  ],
+  "goal": "Dát žákům konkrétní zdravé způsoby, jak si zvednout náladu a nabudit se.",
+  "procedure": "Kurz je rozvržený na dva dny. Otevírá se oznámením názvu, představením a pěti pravidly, na kterých celý kurz stojí:\n\n1. Pravidlo STOP\n2. Mluví jeden\n3. Pravidlo zvednuté ruky\n4. Chráníme soukromí druhých\n5. Respektujeme druhé\n\nPak následuje zcitlivění — žáci si připomenou a sdílejí konkrétní události ze svého života, které se k tématu vážou — a jednotlivé bloky s uvedenými časy.",
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "source": {
+    "label": "Odyssea — Jak si zdravým způsobem zlepšit náladu a být svěží (2. stupeň ZŠ)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=5"
+  },
+  "files": [
+    {
+      "label": "Jak si zdravým způsobem zlepšit náladu a být svěží (PDF, 63 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Těch pět úvodních pravidel se vyplatí převzít do jakékoli jiné OSV hodiny — pravidlo STOP zvlášť."
+}

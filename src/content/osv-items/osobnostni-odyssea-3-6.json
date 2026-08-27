@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyssea-3-6",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 3.6 — Rozvíjíme vůli pohybem",
+  "description": "Očekávaný výstup: Žák uplatňuje vůli při pohybových činnostech. Hotová lekce OSV z řady Projektu Odyssea, 49 stran, se zásobníkem 15 popsaných aktivit.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "motivace",
+    "výkon",
+    "tréninkový deník"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák uplatňuje vůli při pohybových činnostech.",
+  "procedure": "Témata lekce:\n• TÉMA A - Jak pomocí vůle zlepšovat své výkony\n• TÉMA B - Jak si užít radost z pohybu\n• TÉMA C - Jak si vytvořit tréninkový deník pro zlepšení fyzické kondice\n\nZásobník aktivit (15), čísla stránek jsou v PDF o jednu vyšší:\nA1 Hra na role — s. 27\nA2 Soutěživé hry ve dvojicích — s. 28\nA3 Sportovní týmy — s. 29\nA4 Kolečko fyzických dovedností — s. 30\nA5 Příjemný pohyb — s. 31\nA6 Překonej sám sebe — s. 32\nA7 Co mi dělá dobře — s. 33\nA8 Odhadni svůj výkon — s. 34\nB1 Indiánský běh — s. 35\nB2 Šance pro všechny — s. 36\nB3 Tělocvik mých snů — s. 37\nC1 Klady a zápory pohybových aktivit — s. 38\nC2 Seřaď aktivity podle užitečnosti — s. 39\nC3 Pexeso aktivit — s. 40\nC4 Tvoříme tréninkový deník — s. 41",
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 3.6: Rozvíjíme vůli pohybem",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=28",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 3.6 Rozvíjíme vůli pohybem (PDF, 49 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Dá se propojit s tělocvikem — část aktivit je přímo pohybová."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyssea-1-2",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 1.2 — Bystříme své smysly",
+  "description": "Očekávaný výstup: Žák rozvíjí smyslové poznávání a cit pro rytmus. Hotová lekce OSV z řady Projektu Odyssea, 52 stran, se zásobníkem 24 popsaných aktivit.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "příroda",
+    "rytmus",
+    "dech"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák rozvíjí smyslové poznávání a cit pro rytmus.",
+  "procedure": "Témata lekce:\n• TÉMA A – Vnímáme všemi smysly.\n• TÉMA B – Smyslové vnímání a prožitky v přírodě.\n• TÉMA C – Rytmus v našem těle a v našem životě.\n\nZásobník aktivit (24), čísla stránek jsou v PDF o jednu vyšší:\nA1 Slyšitelný učitel — s. 27\nA2 Hudba se zavřenýma očima — s. 27\nA3 Příjemné vůně — s. 29\nA4 Poznáváme vůně — s. 30\nA5 Jak mi to chutná? — s. 31\nA6 Poznáváme základní chutě — s. 32\nA7 Degustace vánočního cukroví — s. 33\nA8 Hladíme si zvíře — s. 34\nA9 Kapsáře poznávání — s. 35\nA10 Tančící dlaně — s. 36\nB1 Vůňový koktejl — s. 37\nB2 Hlasy z přírody — s. 38\nB3 Hladíme stromy — s. 39\nB4 Cesta poslepu — s. 40\nB5 Malování přírodninami — s. 41\nB6 Obrázky z přírodnin — s. 42\nB7 Najdi svůj strom — s. 43\nB8 Chodíme naboso — s. 44\nB9 Bzučení pod rozkvetlým stromem — s. 45\nC1 Nasloucháme svému dechu — s. 46\nC2 Tep našeho srdce — s. 47\nC3 Kde tiká budík — s. 48\nC4 Nasloucháme dešti — s. 49\nC14 Splašené bubny — s. 50",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 1.2: Bystříme své smysly",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=28",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 1.2 Bystříme své smysly (PDF, 52 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Téma A (chutě, vůně, vánoční cukroví) míří spíš na první stupeň. Pro šestku ber témata B (prožitky v přírodě) a C (rytmus, dech, tep) — ta fungují i s většími."
+}

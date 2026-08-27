@@ -1,0 +1,44 @@
+{
+  "id": "osobnostni-odyssea-4-2",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 4.2 — Učíme se uvolnit a obnovit své síly",
+  "description": "Očekávaný výstup: Žák provádí relaxační a aktivizační cvičení. Hotová lekce OSV z řady Projektu Odyssea, 76 stran, se zásobníkem 31 popsaných aktivit.",
+  "keywords": [
+    "relaxace",
+    "nálada",
+    "únava",
+    "svěžest",
+    "dech",
+    "jóga",
+    "Jacobson"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák provádí relaxační a aktivizační cvičení.",
+  "procedure": "Témata lekce:\n• TÉMA A - Jak si zdravým způsobem zlepšit náladu\n• TÉMA B - Jak obnovit své síly a připravit se k podání co nejlepšího výkonu\n• TÉMA C - Jak se dokonale uvolnit\n\nZásobník aktivit (31), čísla stránek jsou v PDF o jednu vyšší:\nA1 Jarda má špatnou náladu* — s. 30\nA2 Dotazník - Jak si zlepšuji náladu* — s. 31\nA3 Radost a smutek — s. 33\nA4 Vábení laně — s. 34\nA6 Pracovní list - Jakou mám právě náladu* — s. 36\nA7 Pracovní list - Graf nálady — s. 37\nA8 Jak moji náladu ovlivňují různé činnosti* — s. 38\nA9 Vzpomínková konzerva — s. 39\nA10 Pocitovník — s. 41\nA11 Vnitřní úsměv — s. 42\nA12 Prohloubené sebeuvědomování — s. 44\nB1 Pracovní list - Jak se nyní cítím* — s. 45\nB2 Co je to svěžest* — s. 47\nB3 Protahování do třídy* — s. 48\nB4 Probuzení svalů* — s. 49\nB5 Tření rukou* — s. 51\nB6 Indiánský rituál — s. 52\nB7 Pozdrav slunci* — s. 53\nB8 Tanec s hudbou* — s. 56\nB9 Jógová protahovací a balanční cvičení — s. 57\nC1 Relaxační deník — s. 61\nC2 Relaxace v pohybu — s. 62\nC3 Cvičení představivosti — s. 63\nC4 Jacobsonova progresivní relaxace* — s. 64\nC5 Relaxace s hudbou - Unavený medvídek — s. 66\nC6 Houpání — s. 67\nC7 Jógová relaxace - Šávásana — s. 68\nC8 Schulzův autogenní trénink — s. 70\nC9 Masáž podle počasí* — s. 72\nC10 Relaxační cvičení Hora — s. 73\nC11 Relaxační cvičení Klidný pozorovatel — s. 74",
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 4.2: Učíme se uvolnit a obnovit své síly",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=31",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 4.2 Učíme se uvolnit a obnovit své síly (PDF, 76 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Třicet tři aktivit — nejbohatší zásobník relaxačních a aktivizačních cvičení z celé řady. Sem sahej, když potřebuješ třídu zklidnit nebo nabudit."
+}

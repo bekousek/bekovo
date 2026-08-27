@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyssea-1-3",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 1.3 — Učíme se učit se",
+  "description": "Očekávaný výstup: Žák používá techniky a strategie efektivního učení a plánuje své učení. Hotová lekce OSV z řady Projektu Odyssea, 119 stran, se zásobníkem 27 popsaných aktivit.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "kritické myšlení",
+    "výpisky",
+    "plán zlepšení",
+    "mnemotechnika"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák používá techniky a strategie efektivního učení a plánuje své učení.",
+  "procedure": "Témata lekce:\n• TÉMA A - Učíme se kriticky myslet a čerpat informace z textu\n• TÉMA B - Jak si snadno uložíme informace do paměti\n• TÉMA C - Jak se zlepšit ve škole\n• TÉMA D - Vyučujeme efektivně (téma pro učitele)\n\nZásobník aktivit (27), čísla stránek jsou v PDF o jednu vyšší:\nA1 Insert — s. 49\nA2 Volné psaní — s. 51\nA3 Kostka — s. 54\nA4 Které věci patří k sobě a jak se jim dohromady říká? — s. 55\nA5 Mysli si věc — s. 56\nA6 Kolik je zde kostek? — s. 57\nA7 Vennovy diagramy — s. 59\nA8 Sezame, otevři se! — s. 60\nA9 SQ4R — s. 65\nA10 PQRST — s. 67\nA11 Čtení s otázkami — s. 68\nA12 Film s otázkami — s. 70\nA13 Učíme se navzájem — s. 71\nB1 Pojedeme do Ameriky — s. 76\nB2 Uspořádání pomáhá paměti — s. 77\nB3 Porovnáváním k lepšímu porozumění a zapamatování — s. 81\nB4 Kolik věcí udržíme najednou v paměti? — s. 85\nB5 Opakování a paměť — s. 92\nB6 Udělejme z toho příběh — s. 93\nB7 Piktogramy — s. 96\nB8 Paměť na jména a obličeje — s. 101\nB9 Zvukové asociace a rýmy — s. 108\nB10 Namalujeme schéma učiva — s. 109\nB11 Využíváme živých představ — s. 110\nB12 Propojení učiva se sebou samým — s. 111\nC1 Pracovní list - Plán zlepšení/udržení školních výsledků — s. 112\nC2 Učení — s. 115",
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 1.3: Učíme se učit se",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf#page=50",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 1.3 Učíme se učit se (PDF, 119 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Nejobsáhlejší lekce ze všech (119 stran) a přitom nejpraktičtější — dá se z ní brát celý rok a promítne se do všech předmětů."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyssea-5-1",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 5.1 — Tvořivě řešíme praktické situace",
+  "description": "Očekávaný výstup: Žák v situacích, kde to vnímá jako smysluplné, používá kreativní způsoby jejich řešení . Tyto způsoby mu usnadňují dané situace řešit. Hotová lekce OSV z řady Projektu Odyssea, 49 stran, se zásobníkem 6 popsaných aktivit.",
+  "keywords": [
+    "kreativita",
+    "tvořivost",
+    "nápady",
+    "brainstorming",
+    "mozek"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák v situacích, kde to vnímá jako smysluplné, používá kreativní způsoby jejich řešení . Tyto způsoby mu usnadňují dané situace řešit.",
+  "procedure": "Témata lekce:\n• TÉMA A – Co to je a jak funguje kreativita?\n• TÉMA B – Tvořivost a lidský mozek (zákonitosti fungování tvořivých\n• TÉMA C – Použití kreativních postupů při řešení praktických situací\n\nZásobník aktivit (6), čísla stránek jsou v PDF o jednu vyšší:\nA1 Kam pojedeme na školní výlet — s. 36\nA2 PET lahve — s. 38\nB1 Jedno a druhé — s. 40\nB2 Sváteční malíř — s. 41\nC1 Metafory problémů — s. 42\nC2 Analografie — s. 44",
+  "rvpAreas": [
+    "Kreativita a hledání vlastních řešení"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 5.1: Tvořivě řešíme praktické situace",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-1-Tvorive-resime-prakticke-situace.pdf#page=37",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 5.1 Tvořivě řešíme praktické situace (PDF, 49 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-1-Tvorive-resime-prakticke-situace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

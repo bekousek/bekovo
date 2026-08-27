@@ -1,0 +1,42 @@
+{
+  "id": "socialni-odyssea-7-2",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 7.2 — Pečujeme o dobré vztahy",
+  "description": "Očekávaný výstup: Žák projevuje chování podporující dobré mezilidské vztahy. Hotová lekce OSV z řady Projektu Odyssea, 44 stran, se zásobníkem 19 popsaných aktivit.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "etiketa",
+    "pochvala",
+    "omluva",
+    "poděkování"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák projevuje chování podporující dobré mezilidské vztahy.",
+  "procedure": "Témata lekce:\n• TÉMA A – Co to jsou dobré mezilidské vztahy\n• TÉMA B – Proč jsou dobré mezilidské vztahy důležité\n• TÉMA C – Jak na dobré mezilidské vztahy?\n• TÉMA D – Slušné chování jako základ dobrých mezilidských vztahů\n\nZásobník aktivit (19), čísla stránek jsou v PDF o jednu vyšší:\nA1 O čem je tato bajka — s. 21\nA2 O čem je tato kniha, tento film — s. 22\nA3 Znaky prostředí, kde panují dobré mezilidské vztahy — s. 23\nA4 Jak se cítím v situacích, kdy panují dobré mezilidské vztahy? — s. 25\nA5 Jak vidím mezilidské vztahy kolem sebe? — s. 26\nB1 Co nám dobré mezilidské vztahy přinášejí? — s. 28\nB2 Dobro v pohádkách — s. 30\nC1 Pošli to dál — s. 31\nC2 Můj vzor — s. 32\nC3 Otázka a prosba — s. 33\nC4 Poděkování a omluva — s. 34\nC5 Den dobrých mezilidských vztahů — s. 35\nC6 Strom pochval - komplimentů — s. 36\nC7 Pomyšlení — s. 37\nD1 Úsměv — s. 38\nD2 Oko — s. 39\nD3 Pozdrav — s. 40\nD4 Podání ruky — s. 41\nD5 Na koncertě, na hřišti — s. 42",
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 7.2: Pečujeme o dobré vztahy",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=22",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 7.2 Pečujeme o dobré vztahy (PDF, 44 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "socialni-odyssea-9-4",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 9.4 — Ovládáme umění soutěžit",
+  "description": "Očekávaný výstup: Žák zvládá situaci soutěže a konkurence. Hotová lekce OSV z řady Projektu Odyssea, 68 stran, se zásobníkem 18 popsaných aktivit.",
+  "keywords": [
+    "soutěž",
+    "výhra",
+    "prohra",
+    "fair play",
+    "emoce",
+    "konkurence"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák zvládá situaci soutěže a konkurence.",
+  "procedure": "Témata lekce:\n• TÉMA A – K čemu je dobré umět soutěžit\n• TÉMA B - Jak vyhrávat a jak prohrávat\n• TÉMA C - Jak mít během soutěže sám sebe pod kontrolou a jednat fair play\n• TÉMA D – Jak propojovat soutěž a spolupráci\n\nZásobník aktivit (18), čísla stránek jsou v PDF o jednu vyšší:\nA1 Obři, skřítci a čarodějnice — s. 32\nA2 Pexeso — s. 33\nA3 Seven up — s. 35\nB1 Příprava těla na podávání výkonu - postoj — s. 36\nB2 Příprava těla na podávání výkonu - dech — s. 38\nB3 Vizualizace — s. 39\nB4 Na kopírku — s. 40\nB5 Na strážce — s. 40\nB6 Zapni mozek — s. 42\nB7 Klávesnice — s. 42\nB8 Tyčka — s. 44\nB9 Miniscénky — s. 45\nC1 Pexeso 2 — s. 46\nC2 Co není splněno? — s. 47\nC3 Telefonát — s. 48\nC4 Empatie — s. 49\nC5 Fair play — s. 52\nD2 Natáčení reklamy — s. 54",
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 9.4: Ovládáme umění soutěžit",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=33",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 9.4 Ovládáme umění soutěžit (PDF, 68 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

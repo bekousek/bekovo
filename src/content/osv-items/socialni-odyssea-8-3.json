@@ -1,0 +1,42 @@
+{
+  "id": "socialni-odyssea-8-3",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 8.3 — Asertivita — otevřeně uplatňujeme své názory, potřeby a práva",
+  "description": "Očekávaný výstup: Žák kultivovaně projevuje a prosazuje své názory, potřeby a práva (s porozuměním používá vybrané asertivní postupy). Hotová lekce OSV z řady Projektu Odyssea, 79 stran.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "osobní práva",
+    "konflikt",
+    "agrese",
+    "pasivita"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák kultivovaně projevuje a prosazuje své názory, potřeby a práva (s porozuměním používá vybrané asertivní postupy).",
+  "procedure": "Témata lekce:\n• TÉMA A – Jak se chováme v problémových (konfliktních) situacích\n• TÉMA B – Poznáváme svá osobní práva\n• TÉMA C – Uplatňujeme oprávněné požadavky\n• TÉMA D – Odmítáme žádosti o laskavost\n• TÉMA E – Zvládáme kritiku",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 8.3: Asertivita — otevřeně uplatňujeme své názory, potřeby a práva",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 8.3 Asertivita — otevřeně uplatňujeme své názory, potřeby a práva (PDF, 79 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

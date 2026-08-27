@@ -1,0 +1,41 @@
+{
+  "id": "socialni-odyssea-11-2",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 11.2 — Zkoumáme ctnosti — odvaha, poctivost, spravedlnost",
+  "description": "Očekávaný výstup: Žák rozpoznává projevy a užitečnost etických jevů ve vlastním životě (zodpovědnost, spravedlnost, odvaha ...). Hotová lekce OSV z řady Projektu Odyssea, 15 stran.",
+  "keywords": [
+    "ctnosti",
+    "odvaha",
+    "poctivost",
+    "spravedlnost",
+    "zodpovědnost",
+    "etika"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák rozpoznává projevy a užitečnost etických jevů ve vlastním životě (zodpovědnost, spravedlnost, odvaha ...).",
+  "procedure": "Témata lekce:\n• TÉMA A - Odvaha\n• TÉMA B - Poctivost\n• TÉMA C - Spravedlnost\n• TÉMA D - Zodpovědnost\n• TÉMA E - Pravdomluvnost\n• TÉMA F - Pracovitost\n• TÉMA G - Prosociálnost – nezištná pomoc",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.2: Zkoumáme ctnosti — odvaha, poctivost, spravedlnost",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-2-Zkoumame-ctnosti.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 11.2 Zkoumáme ctnosti — odvaha, poctivost, spravedlnost (PDF, 15 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-2-Zkoumame-ctnosti.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Krátká lekce (15 stran) bez vlastního zásobníku aktivit — cíle jsou ale formulované tak konkrétně, že se z nich zadání dá udělat přímo."
+}

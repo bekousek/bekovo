@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-odyssea-3-2",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 3.2 — Prožíváme, vyjadřujeme a zvládáme své emoce",
+  "description": "Očekávaný výstup: Žák vědomě pracuje se svými emocemi. Hotová lekce OSV z řady Projektu Odyssea, 12 stran.",
+  "keywords": [
+    "emoce",
+    "pojmenování pocitů",
+    "respekt",
+    "projevy"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák vědomě pracuje se svými emocemi.",
+  "procedure": "Témata lekce:\n• TÉMA A - Co jsou emoce\n• TÉMA B - Každý má právo na své emoce\n• TÉMA C - Jak pracovat s emocemi - pojmenováváme, co prožíváme\n• TÉMA D - Jak pracovat s emocemi - emoce v našem těle\n• TÉMA E - Jak pracovat s emocemi - emoce, myšlení a chování\n• TÉMA F - Jak pracovat s emocemi - využití umění",
+  "rvpAreas": [
+    "Emoce a jejich zvládání",
+    "Sebepoznávání a sebepojetí"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 3.2: Prožíváme, vyjadřujeme a zvládáme své emoce",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-2-Prozivame-vyjadrujeme-a-zvladame-sve-emoce.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 3.2 Prožíváme, vyjadřujeme a zvládáme své emoce (PDF, 12 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-2-Prozivame-vyjadrujeme-a-zvladame-sve-emoce.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Krátká lekce (12 stran) — obsahuje cíle a praktickou teorii, ale vlastní zásobník aktivit ne. Aktivity k emocím najdeš v lekci 4.2 a v Dubcově metodice."
+}

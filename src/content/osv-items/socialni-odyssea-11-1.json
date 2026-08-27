@@ -1,0 +1,40 @@
+{
+  "id": "socialni-odyssea-11-1",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 11.1 — Přemýšlíme o hodnotách",
+  "description": "Očekávaný výstup: Žák reflektuje hodnoty (osobní žebříček hodnot, hodnoty druhých lidí). Hotová lekce OSV z řady Projektu Odyssea, 53 stran, se zásobníkem 21 popsaných aktivit.",
+  "keywords": [
+    "hodnoty",
+    "žebříček hodnot",
+    "vzory",
+    "postoje",
+    "burza hodnot"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák reflektuje hodnoty (osobní žebříček hodnot, hodnoty druhých lidí).",
+  "procedure": "Témata lekce:\n• TÉMA A - Já a mé hodnoty\n• TÉMA B – Hodnoty v naší společnosti\n\nZásobník aktivit (21), čísla stránek jsou v PDF o jednu vyšší:\nA1 Autoři a kritici — s. 24\nA2 To je On / Ona — s. 25\nA3 Burza hodnot — s. 26\nA4 Rozhlasová debata — s. 27\nA5 Věci, kterých se dokážeme zbavit — s. 28\nA6 Zeptej se, co… — s. 29\nA7 Moje schopnosti — s. 30\nA8 Super otec — s. 31\nA9 Perfektní matka — s. 32\nA10 Vzory — s. 33\nA11 Cílové hodnoty — s. 34\nA12 Čarodějka — s. 36\nA13 Místo po pravici — s. 37\nA14 Místa si vymění — s. 38\nB1 Dům dětí a mládeže — s. 39\nB2 Moje hodnoty tvoje hodnoty — s. 41\nB3 Citáty — s. 42\nB4 Křesťanství a islám — s. 44\nB5 Tři pravidla — s. 46\nB6 A co teď? — s. 47\nB7 Přehled hodnot — s. 48",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.1: Přemýšlíme o hodnotách",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=25",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 11.1 Přemýšlíme o hodnotách (PDF, 53 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

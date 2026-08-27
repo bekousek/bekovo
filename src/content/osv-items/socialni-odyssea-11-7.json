@@ -1,0 +1,41 @@
+{
+  "id": "socialni-odyssea-11-7",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 11.7 — Rozhodujeme se zodpovědně a jednáme eticky",
+  "description": "Očekávaný výstup: Žák se zodpovědně rozhoduje a jedná v eticky náročných situacích všedního dne. Hotová lekce OSV z řady Projektu Odyssea, 63 stran, se zásobníkem 20 popsaných aktivit.",
+  "keywords": [
+    "etická dilemata",
+    "rozhodování",
+    "Heinzovo dilema",
+    "morálka",
+    "diskuse"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák se zodpovědně rozhoduje a jedná v eticky náročných situacích všedního dne.",
+  "procedure": "Témata lekce:\n• TÉMA A – Co jsou eticky náročné situace?\n• TÉMA B – Rozhoduj se!\n\nZásobník aktivit (20), čísla stránek jsou v PDF o jednu vyšší:\nA1 Co je lepší? — s. 26\nA2 V čem je problém? — s. 28\nB1 Návrat z hrubého vrchu — s. 29\nB2 Operace srdce/B3 Sponzorský dar — s. 31\nB4 Dilema — s. 34\nB5 Krokodýlí řeka — s. 36\nB6 Zloděj/ka — s. 37\nB7 Jak na skupinovou diskusi s morálním obsahem — s. 38\nB8 Na život a na smrt — s. 42\nB9 Michalův pejsek — s. 43\nB10 Joeův výlet — s. 44\nB11 Tělocvikářka — s. 45\nB12 Jana a Honza — s. 46\nB13 Dvojice — s. 47\nB14 Dva příběhy — s. 49\nB15 Heinzovo dilema — s. 50\nB16 Moje spolužačka krade — s. 52\nB17 Cornway a Mellinson — s. 54\nB18 Příběhy ku zcitlivění — s. 58\nB19 Rozhovor — s. 60",
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Zvládání konfliktů"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.7: Rozhodujeme se zodpovědně a jednáme eticky",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-7-Rozhodujeme-se-zodpovedne-a-jedname-eticky.pdf#page=27",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 11.7 Rozhodujeme se zodpovědně a jednáme eticky (PDF, 63 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-7-Rozhodujeme-se-zodpovedne-a-jedname-eticky.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Dvacet hotových morálních dilemat k diskusi, včetně klasického Heinzova dilematu. Nejlepší zdroj na etickou diskusi z celé řady."
+}

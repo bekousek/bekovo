@@ -1,0 +1,43 @@
+{
+  "id": "kolektiv-odyssea-6-1",
+  "categoryId": "tridni-kolektiv",
+  "title": "Lekce 6.1 — Poznáváme své spolužáky",
+  "description": "Očekávaný výstup: Žák zná podstatné informace o svých spolužácích a umí s nimi ohleduplně zacházet. Hotová lekce OSV z řady Projektu Odyssea, 39 stran, se zásobníkem 12 popsaných aktivit.",
+  "keywords": [
+    "spolužáci",
+    "seznamování",
+    "ohleduplnost",
+    "začátek roku",
+    "šestka",
+    "poznávání"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák zná podstatné informace o svých spolužácích a umí s nimi ohleduplně zacházet.",
+  "procedure": "Témata lekce:\n• TÉMA A – Co to jsou podstatné informace o druhých a proč jsou\n• TÉMA B – Jak informace o druhých získávám, předávám a zpracovávám\n\nZásobník aktivit (12), čísla stránek jsou v PDF o jednu vyšší:\nA1 Dotazník — s. 18\nA2 Kdo jsem — s. 23\nA3 Víš o mně… — s. 25\nA4 Dopis — s. 26\nA5 Co dělám — s. 28\nB1 Moje srdce — s. 30\nB2 Dobrá rada do života — s. 31\nB3 Neviditelný — s. 33\nB4 SMS — s. 34\nB5 Dotknul ses mě — s. 35\nB6 Ranil jsi mě — s. 36\nB7 Místo po mé pravici… — s. 37",
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 6.1: Poznáváme své spolužáky",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf#page=19",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 6.1 Poznáváme své spolužáky (PDF, 39 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Pro nastupující šestku poskládanou z různých tříd je tohle první místo, kam sáhnout."
+}

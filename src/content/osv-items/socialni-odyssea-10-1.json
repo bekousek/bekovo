@@ -1,0 +1,41 @@
+{
+  "id": "socialni-odyssea-10-1",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 10.1 — Řešíme problémy a přijímáme výzvy",
+  "description": "Očekávaný výstup: Žák projevuje pozitivní postoj k řešení problémů, přijímá problémy jako výzvu. Upřesnění: Žák dovede charakterizovat problém, zná a vyzkouší si základní strukturu řešení problému. Dovede k problémové situaci přistupovat s výhledem kladného řešení. Žák dovede popsat výzvové a dobrodružné činnosti i jejich využití ve škole i volném čase. Hotová lekce OSV z řady Projektu Odyssea, 104 stran, se zásobníkem 9 popsaných aktivit.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "zátěžové situace",
+    "skupinové řešení",
+    "outdoor"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák projevuje pozitivní postoj k řešení problémů, přijímá problémy jako výzvu. Upřesnění: Žák dovede charakterizovat problém, zná a vyzkouší si základní strukturu řešení problému. Dovede k problémové situaci přistupovat s výhledem kladného řešení. Žák dovede popsat výzvové a dobrodružné činnosti i jejich využití ve škole i volném čase.",
+  "procedure": "Témata lekce:\n• TÉMA A - Co je problém a jak bychom ho charakterizovali. Vrozená\n• TÉMA B – Poznáváme problémové a zátěžové situace a hledáme\n• TÉMA C – Výzva a její role v učení a výchově\n• TÉMA D – Co to je vlastně dobrodružství. Některé cesty dobrodružství do\n\nZásobník aktivit (9), čísla stránek jsou v PDF o jednu vyšší:\nA1 N.A.S.A. CVIČENÍ — s. 56\nA2 Gordický uzel — s. 62\nC6 Bedny do nebe — s. 88\nC7 Vernisáž — s. 90\nD1 Bludičky — s. 92\nD2 Atomová bomba — s. 94\nD3 Paprsek ve tmě — s. 96\nD4 Celníci a pašeráci — s. 98\nD5 Sólo — s. 100",
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1: Řešíme problémy a přijímáme výzvy",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=57",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 10.1 Řešíme problémy a přijímáme výzvy (PDF, 104 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Aktivity D1–D5 (Bludičky, Atomová bomba, Paprsek ve tmě, Celníci a pašeráci, Sólo) jsou outdoorové týmové úkoly — hodí se na adaptační kurz."
+}

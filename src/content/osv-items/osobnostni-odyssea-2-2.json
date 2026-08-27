@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyssea-2-2",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 2.2 — Poznáváme svůj vztah k lidem",
+  "description": "Očekávaný výstup: Žák poznává svůj vztah ke druhým lidem. Hotová lekce OSV z řady Projektu Odyssea, 80 stran, se zásobníkem 24 popsaných aktivit.",
+  "keywords": [
+    "vztahy",
+    "rodina",
+    "přátelství",
+    "dominance",
+    "submisivita",
+    "soukromí"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák poznává svůj vztah ke druhým lidem.",
+  "procedure": "Témata lekce:\n• TÉMA A - Mapa mých důležitých vztahů\n• TÉMA B - Můj sklon vést druhé a můj sklon být veden\n\nZásobník aktivit (24), čísla stránek jsou v PDF o jednu vyšší:\nA1 Jaký jsem kamarád — s. 48\nA2 Dopis otci nebo matce — s. 50\nA3 Rozhovor rodičů — s. 51\nA4 Otec a syn, matka a dcera — s. 53\nA5 Zlatý déšť — s. 54\nA6 Světla a stíny — s. 55\nA7 Tatínku, ty jsi tak hodný — s. 56\nA8 Dárek — s. 57\nA9 Začarovaná rodina — s. 58\nA10 Volba rodiny — s. 59\nA11 Rodinné hry — s. 60\nA12 Můj přítel — s. 61\nA13 Přátelství — s. 62\nA14 Můj kamarád — s. 63\nA15 Moje rodina — s. 64\nA16 Můj přítel II — s. 66\nA17 Recept na přátelství — s. 67\nA18 Mám dost přátel? — s. 68\nA19 Jak ztrácíme přátele — s. 69\nA20 Mapa mých vztahů — s. 70\nA21 Příloha k aktivitě Deníkový záznam - Deník HIV pozitivní ženy — s. 71\nB1 Dotazník dominance — s. 75\nB2 Dům, strom a pes — s. 77\nB3 Vedení slepého — s. 78",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 2.2: Poznáváme svůj vztah k lidem",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf#page=49",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 2.2 Poznáváme svůj vztah k lidem (PDF, 80 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Aktivity A2–A11 pracují s rodinou (dopis rodiči, začarovaná rodina, volba rodiny). U dětí z rozvedených nebo náhradních rodin to může být citlivé — vybírej."
+}

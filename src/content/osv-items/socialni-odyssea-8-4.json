@@ -1,0 +1,42 @@
+{
+  "id": "socialni-odyssea-8-4",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Lekce 8.4 — Umíme druhému sdělit, co se nám v jeho chování líbí a co nelíbí",
+  "description": "Očekávaný výstup: Žák kultivovaně projevuje, co se mu líbí a co se mu nelíbí na chování druhého člověka (poskytuje druhému zpětnou vazbu). Hotová lekce OSV z řady Projektu Odyssea, 45 stran.",
+  "keywords": [
+    "zpětná vazba",
+    "pochvala",
+    "kritika",
+    "komunikace",
+    "nácvik"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák kultivovaně projevuje, co se mu líbí a co se mu nelíbí na chování druhého člověka (poskytuje druhému zpětnou vazbu).",
+  "procedure": "Témata lekce:\n• TÉMA A – Co to je zpětná vazba a jakou funkci má v mezilidské\n• TÉMA B - Jak efektivně poskytovat zpětné vazby",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Mezilidské vztahy",
+    "Zvládání konfliktů"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 8.4: Umíme druhému sdělit, co se nám v jeho chování líbí a co nelíbí",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-4-Umime-druhemu-sdelit-co-se-nam-v-jeho-chovani-libi-a-co-nelibi.pdf#page=1",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 8.4 Umíme druhému sdělit, co se nám v jeho chování líbí a co nelíbí (PDF, 45 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-4-Umime-druhemu-sdelit-co-se-nam-v-jeho-chovani-libi-a-co-nelibi.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24",
+  "notes": "Lekce nemá číslovaný zásobník aktivit — nácvik je popsaný uvnitř jednotlivých témat."
+}

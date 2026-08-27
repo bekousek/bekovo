@@ -1,0 +1,43 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "kolektiv-odyssea-jak-zlepsit-vztahy",
+  "categoryId": "tridni-kolektiv",
+  "title": "Jak zlepšit vztahy v naší třídě — kurz prevence šikany",
+  "description": "Dvoudenní program primární prevence šikany pro 2. stupeň ZŠ. Autoři Jakub Švec, Simona Jeřábková a Michal Kolář — tedy i autor českého pojetí stadií šikany. 79 stran.",
+  "keywords": [
+    "šikana",
+    "prevence",
+    "vztahy ve třídě",
+    "skupinová dynamika",
+    "Kolář",
+    "dvoudenní kurz"
+  ],
+  "goal": "Mít podložený program, když je potřeba se vztahy ve třídě zapracovat cíleně, ne jen hrou.",
+  "procedure": "Struktura publikace:\n\n• Vymezení základních pojmů\n• Vybrané informace o šikaně\n• Skupinová dynamika\n• Možná podoba primárně preventivního programu\n• Cíle dvoudenního programu zaměřeného na primární prevenci šikany\n• Vlastní scénář programu s aktivitami",
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Odyssea — Jak zlepšit vztahy v naší třídě (Švec, Jeřábková, Kolář, 2007)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=22"
+  },
+  "files": [
+    {
+      "label": "Jak zlepšit vztahy v naší třídě (PDF, 81 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Než program pustíš, přečti si úvodní kapitoly o šikaně a skupinové dynamice. Při podezření na rozvinutou šikanu se preventivní program nedělá — to je práce pro odborníka."
+}

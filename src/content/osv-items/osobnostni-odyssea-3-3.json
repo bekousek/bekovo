@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-odyssea-3-3",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Lekce 3.3 — Učíme se zvládat vlastní agresivitu",
+  "description": "Očekávaný výstup: Žák zvládá vlastní agresivitu (s ohledem na sebe i na své okolí). Hotová lekce OSV z řady Projektu Odyssea, 33 stran, se zásobníkem 8 popsaných aktivit.",
+  "keywords": [
+    "agresivita",
+    "vztek",
+    "seberegulace",
+    "ventilace",
+    "semafor"
+  ],
+  "type": "plan-hodiny",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák zvládá vlastní agresivitu (s ohledem na sebe i na své okolí).",
+  "procedure": "Témata lekce:\n• TÉMA A - Poznávání vlastní agresivity\n• TÉMA B - Strategie zvládání agresivity\n\nZásobník aktivit (8), čísla stránek jsou v PDF o jednu vyšší:\nA1 Vytvářet tlak — s. 19\nA2 Na čápy a žáby — s. 20\nA3 Stonožka (Mizející místo) — s. 21\nA4 Greenpeace — s. 22\nB1 Zatloukání kolíků — s. 23\nB2 Můžeš roztrhat noviny — s. 24\nB3 Semafor — s. 25\nB4 Živý večer s rodiči na téma: Jak posílit dítě vůči násilí — s. 27",
+  "rvpAreas": [
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 3.3: Učíme se zvládat vlastní agresivitu",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-3-Ucime-se-zvladat-vlastni-agresivitu.pdf#page=20",
+    "note": "Lekce Odyssey jsou průřezové, bez vazby na konkrétní ročník. Ročníky na kartě jsou můj výběr pro 2. stupeň."
+  },
+  "files": [
+    {
+      "label": "Lekce 3.3 Učíme se zvládat vlastní agresivitu (PDF, 33 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-3-Ucime-se-zvladat-vlastni-agresivitu.pdf",
+      "type": "pdf"
+    }
+  ],
+  "status": "namet",
+  "added": "2026-08-24"
+}

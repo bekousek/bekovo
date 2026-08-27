@@ -1,0 +1,42 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "type": "metodika",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "id": "osobnostni-odyssea-jak-se-ucit-efektivne",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak se učit efektivně — kurz pro 2. stupeň",
+  "description": "Hotový kurz o práci s pamětí a efektivním učení pro 2. stupeň ZŠ, 89 stran. Rozvržený na jednotlivé kroky včetně časů, od icebreakeru přes plakát s mozkem po konkrétní cvičení.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "Kimova hra",
+    "systém",
+    "mnemotechnika",
+    "kurz",
+    "efektivita"
+  ],
+  "goal": "Naučit žáky pár konkrétních postupů, jak si látku uložit — a to tak, že si je vyzkoušejí.",
+  "procedure": "Kurz vede krok za krokem: Zahájení → Icebreaker → Evokace a motivace → Plakát s mozkem → Kimova hra a princip sedmi prvků → Udělat si systém (výklad, procvičení, obtížnější cvičení) → aktivizační metoda Hu → Představit si to, co se učím.\n\nKaždý krok má v textu uvedený cíl a čas.",
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "source": {
+    "label": "Odyssea — Jak se učit efektivně (2. stupeň ZŠ)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=7"
+  },
+  "files": [
+    {
+      "label": "Jak se učit efektivně (PDF, 89 s.)",
+      "href": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "notes": "Kratší a praktičtější varianta lekce 1.3. Když nechceš 119 stran, začni tady."
+}
