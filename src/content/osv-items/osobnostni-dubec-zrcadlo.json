@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "osobnostni-dubec-zrcadlo",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zrcadlo — nechat si potvrdit, co na sobě mám rád",
+  "description": "Ve dvojici: jeden řekne vlastnost, které si u sebe váží, druhý ji klidně a souhlasně zopakuje s důrazem na sloveso. „Umím hrát na klavír.“ — „Ano, umíš hrát na klavír.“ Sdělení musí být jen kladná; zrcadlo nepotvrzuje nic záporného.",
+  "keywords": [
+    "sebepojetí",
+    "ocenění",
+    "dvojice",
+    "zrcadlení",
+    "sebeúcta",
+    "klid"
+  ],
+  "type": "aktivita",
+  "duration": "15–20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák nahlas pojmenuje, čeho si na sobě váží — a slyší to potvrzené od druhého.",
+  "procedure": "Dvojice si najde klidné místo a sedne si. Na chvíli zavřou oči, soustředí se na dech a uvolní se. Jeden je originál, druhý zrcadlo.\n\nOriginál si vybaví několik vlastností, kterých si u sebe sám váží a pokládá je za cenné. Řekne je druhému a přitom se na něj zpříma dívá. Zrcadlo poté klidně, souhlasně a s lehkým akcentem na slovese sdělení zopakuje:\n\nOriginál: „Umím hrát na klavír.“ → Zrcadlo: „Ano, umíš hrát na klavír.“\nOriginál: „Mám dobré známky ve škole.“ → Zrcadlo: „Ano, máš dobré známky ve škole.“\nOriginál: „Myslím, že jsem… docela kamarádská.“ → Zrcadlo: „Ano, jsi kamarádská.“\n\nRozhovor má volné tempo, hráči se na sebe dívají zpříma a za větami nechávají delší pauzy. Pokračují, dokud první nabízí nová sdělení. Sdělení musí být jen kladná — zrcadlo nepotvrzuje žádné negativní. Pak si role vymění. Po skončení mluví o pocitech, které při hře měli.",
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Emoce a jejich zvládání"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 21",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=22",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 95 (podle Luisy Hay)"
+  },
+  "notes": "Zdroj uvádí věk od 12 let."
+}

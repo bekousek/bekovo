@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-narodni-obrozeni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Národní obrození — pět slov na celý svět",
+  "description": "Hráči jsou v zemi, kde se smí mluvit jen málo: každý má povoleno jen pět slov, která si sám zvolí a nosí na lístku. Když se dva potkají, mluví každý jen svými pěti slovy. Pak diktatura padne.",
+  "keywords": [
+    "komunikace",
+    "slovní zásoba",
+    "jazyk",
+    "hra",
+    "pobavení",
+    "omezení"
+  ],
+  "type": "hra",
+  "duration": "30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zážitek toho, jak málo se dá říct — a jak rychle se to zlepší, když si lidé pomůžou.",
+  "materials": [
+    "Lístek a tužka pro každého"
+  ],
+  "procedure": "Vedoucí úvodem sdělí hráčům, že jsou v zemi, kde se smí mluvit jen málo. Každý má povoleno jen pět slov, která si sám zvolí, ale musí je kvůli kontrole nosit stále u sebe na lístku. Každý si tedy napíše na lístek pět slov, která pokládá za důležitá.\n\nVšichni se procházejí, a když se dva potkají, hovoří každý jen svými pěti slovy. Jiná slova — ani slova druhého hráče — nepoužívá. Kontroluje to určený hráč.\n\nPo chvíli vedoucí naváže: „Diktatura padla a přišla svoboda. Každý měl najednou právo mluvit, jak chce, třeba všemi slovy. Jenomže lidé už slova neznali, za ta léta je zapomněli. Zkuste tedy dát dohromady, co kdo zná, a jeden od druhého se naučte jeho slovům!“\n\nHráči se opět procházejí. Když se dva potkají, sednou si, navzájem se učí a připisují si svá slova. S každým novým besedníkem získává hráč další výrazy a rozbíhá se živější zábava. V následné debatě si sdělují dojmy a nápady.",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Spolupráce a kooperace"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 28",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=29",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 112"
+  },
+  "notes": "Zdroj uvádí věk od 10 let."
+}

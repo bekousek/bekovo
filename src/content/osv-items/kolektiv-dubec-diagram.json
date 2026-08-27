@@ -1,0 +1,34 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-diagram",
+  "categoryId": "tridni-kolektiv",
+  "title": "Diagram — graf oblíbenosti aktivit",
+  "description": "Na tabuli je svislá osa se škálou obliby 0–10 a vodorovná s jednotlivými hrami nebo částmi programu. Každý vyjádří křížkem své hodnocení a spojí body do křivky svých názorů.",
+  "keywords": [
+    "reflexe",
+    "graf",
+    "hodnocení",
+    "škála",
+    "vyhodnocení programu"
+  ],
+  "type": "aktivita",
+  "duration": "15 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Vidět naráz, co třídě sedlo a co ne — a mít z toho podklad k závěrečné debatě.",
+  "procedure": "Na velký papír nebo na tabuli vyznač na ose y škálu obliby či prospěšnosti od 0 do 10. Na ose x budou jednotlivé hry nebo části programu.\n\nKaždý hráč vyjádří křížkem své hodnocení, pak spojí jednotlivé body a vytvoří diagram svých názorů.\n\nSkupinový diagram může být podkladem k závěrečnému hodnocení řetězce her, hodnocení dne nebo celého kurzu.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 26",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=27",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 320"
+  }
+}

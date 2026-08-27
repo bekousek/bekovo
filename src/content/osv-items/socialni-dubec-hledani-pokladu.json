@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-hledani-pokladu",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Hledání pokladu — kdo má v dlani minci",
+  "description": "Jeden hráč odejde za dveře, mezitím dostane někdo do ruky minci a všichni položí zaťaté pěsti na kolena. Vrátivší se hráč pozoruje a třikrát hádá — každý odhad ale musí nahlas zdůvodnit.",
+  "keywords": [
+    "neverbální komunikace",
+    "pozorování",
+    "mimika",
+    "řeč těla",
+    "hra",
+    "mince"
+  ],
+  "type": "hra",
+  "duration": "20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žáci si všimnou, kolik toho o člověku prozradí něco jiného než slova.",
+  "materials": [
+    "Mince"
+  ],
+  "procedure": "Jeden z hráčů sedících v kruhu odejde za dveře. Jinému pak vedoucí dá do ruky minci — ten ji může a nemusí dát ještě někomu dalšímu. Všichni potom položí ruce sevřené v pěst na kolena.\n\nVrací se hráč, který byl za dveřmi. Rozhlíží se a pozoruje projevy ostatních, může s nimi mluvit a své soudy pronášet nahlas. Může třikrát hádat, kdo má minci v dlani, ale každý svůj odhad musí nahlas v několika větách zdůvodnit. Pokud se splete i potřetí, jde znovu za dveře, vedoucí dá minci jinému a hráč hádá znovu. Uhodne-li, jde hádat jiný.\n\nV debatě během hry mluvíme o tom, že je potřeba si všímat nejen rukou, ale i dalších mimoslovních signálů: držení těla, výrazu tváře, očí, jemných pohybů.",
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 27",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=28",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 319 (podle E. Vyskočilové a S. Hermochové)"
+  },
+  "notes": "Zdroj uvádí věk od 9 let."
+}

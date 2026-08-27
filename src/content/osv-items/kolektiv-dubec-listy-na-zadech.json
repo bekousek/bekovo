@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-listy-na-zadech",
+  "categoryId": "tridni-kolektiv",
+  "title": "Listy na zádech — jak mě vidí ostatní",
+  "description": "Každý si napíše v pěti větách, jak by ho asi hodnotili ostatní, a schová to. Druhý, čistý papír si připevní na záda a všichni si navzájem píšou dobré vlastnosti. Po čtvrt hodině se papíry sundají a porovnají.",
+  "keywords": [
+    "zpětná vazba",
+    "sebepojetí",
+    "dobré vlastnosti",
+    "papír na zádech",
+    "ocenění"
+  ],
+  "type": "aktivita",
+  "duration": "30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Ukázat rozdíl mezi tím, jak hodnotíme sebe, a tím, jak nás hodnotí ostatní.",
+  "materials": [
+    "Dva papíry a tužka pro každého",
+    "Lepicí páska nebo špendlíky"
+  ],
+  "procedure": "Hru hraj jen se skupinou, která se už zná.\n\nKaždý si vezme dva papíry. Na jeden si napíše v pěti větách, jak by ho asi hodnotili přítomní — co by o něm napsali — a papír si schová. Druhý, čistý papír si připevní na záda.\n\nVšichni pak chodí s tužkou po prostoru a komu koho potkají, tomu napíšou do listu na zádech stručně nějakou jeho dobrou vlastnost.\n\nAsi po čtvrt hodině hru zastav. Papíry se sejmou ze zad, každý si přečte zápisy, porovná je se svým prvním papírem a má-li chuť, sdělí ostatním, jak porovnání vyznělo. Kdo chce, čte zápisy nahlas.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 22",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=23",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 97"
+  },
+  "notes": "Zdroj uvádí věk od 8 let. Píšou se jen dobré vlastnosti — na to je potřeba dohlédnout."
+}

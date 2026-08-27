@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-rychle-skaly-na-konec",
+  "categoryId": "tridni-kolektiv",
+  "title": "Sedm rychlých způsobů, jak uzavřít hodinu",
+  "description": "Sedm dvouminutových technik na konec aktivity — od barevných kartiček přes prsty a palce až po jedno slovo. Všechny zapojí celou třídu najednou a žádná nepotřebuje víc než pár minut.",
+  "keywords": [
+    "reflexe",
+    "uzavření hodiny",
+    "škála",
+    "pocity",
+    "rychlé",
+    "palec vzhůru"
+  ],
+  "type": "metodika",
+  "duration": "2–10 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Mít po ruce několik způsobů, jak nechat třídu vyjádřit, jak jim hodina byla — a střídat je, aby nezevšedněly.",
+  "procedure": "Barevná škála — každý dostane před aktivitou barevné kartičky (zelenou, žlutou, červenou). Po skončení hru zhodnotí zvednutím karty: zelená = velmi líbila, žlutá = napůl, červená = nelíbila vůbec. Aby se vyloučilo vzájemné ovlivňování, zvedají karty zády do kruhu. Rozšíření: odevzdávání barevných kuliček do odměrných nádob — vznikne „přístroj“ na měření nálady.\n\nPalec vzhůru — palec nahoru znamená, že vše proběhlo výborně a práce v týmu se podařila, palec dolů, že se téměř nic nepodařilo, palec vodorovně uspokojivou práci.\n\nRuce mluví — sedíme v kruhu, každý má k hodnocení deset prstů. Na výzvu ukážou při zavřených očích počet prstů. Deset = absolutní spokojenost, žádný prst = naprostá nespokojenost nebo nezájem.\n\nJedním slovem — každý vyjádří své pocity jedním slovem nebo holou větou. Někdy jedno přiléhavé slovo vydá za dlouhé komentáře.\n\nVýraz obličeje — pět karet s obličeji v různých stupních spokojenosti; žáci se jimi vyjadřují k jednotlivým momentům hodiny.\n\nÚvodník — jednotlivec nebo skupinky po dvou až třech dostanou čistý papír jako úvodní stránku novin a vyplní ji krátkými články a zprávami, které vyjadřují jejich pocity a zkušenosti po aktivitě.\n\nTrh pocitů — každý si zvolí partnera a diskutuje s ním o tom, co se mu na aktivitě zdálo důležité nebo co ho nejvíc oslovilo. Po předem stanoveném čase se dvojice změní.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 24",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=25",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 318–319"
+  }
+}

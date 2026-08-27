@@ -1,0 +1,46 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-vizitka",
+  "categoryId": "tridni-kolektiv",
+  "title": "Vizitka — nakresli sám sebe bez písmen",
+  "description": "Každý dostane papírovou kartu větší než skutečná vizitka a pokusí se na ni vyjádřit sám sebe — jakoukoli výtvarnou nebo grafickou formou, ale bez použití písma. Hotové vizitky se pak shromáždí a hádá se, komu která patří.",
+  "keywords": [
+    "vizitka",
+    "seznamování",
+    "kresba",
+    "symboly",
+    "začátek roku",
+    "hádání"
+  ],
+  "type": "aktivita",
+  "duration": "20–30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák se představí obrazem, ne slovy — a zjistí, jak ho ostatní čtou.",
+  "materials": [
+    "Papírová karta pro každého (větší než vizitka)",
+    "Tužky, pastelky"
+  ],
+  "reflection": [
+    "Jak snadné bylo přenést sebe samého na vizitku?",
+    "Co se na vizitku nevešlo?",
+    "Co vás překvapilo? Co pro vás znamenají ty symboly a obrázky?",
+    "Jak snadné bylo uhádnout, čí vizitka je? Jakým způsobem jste hádali?",
+    "Co je to vlastně „já“?"
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 19",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=20",
+    "note": "Původní zdroj: Valenta, J. (2000). Učit se být. Kladno, AISIS, s. 48 (podle S. Hermochové)"
+  }
+}

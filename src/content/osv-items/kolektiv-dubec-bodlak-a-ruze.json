@@ -1,0 +1,41 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-bodlak-a-ruze",
+  "categoryId": "tridni-kolektiv",
+  "title": "Bodlák a růže — co se mi na tobě nelíbí a co ano",
+  "description": "Uprostřed kruhu leží růže a bodlák. Hráč je vezme, postaví se před někoho a řekne: „Dávám ti bodlák, protože…“ a pak „Dávám ti taky růži, protože…“. Obdarovaný nekomentuje, jen poděkuje.",
+  "keywords": [
+    "zpětná vazba",
+    "otevřenost",
+    "kritika",
+    "ocenění",
+    "kruh",
+    "kultura projevu"
+  ],
+  "type": "hra",
+  "duration": "30–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Naučit se říct kritiku i ocenění jedním dechem — a umět je přijmout beze slov.",
+  "materials": [
+    "Bodlák a růže (nebo dva podobné předměty)",
+    "Případně klubko provázku pro variantu"
+  ],
+  "procedure": "Uprostřed kruhu hráčů leží růže a bodlák. První hráč je vezme a po krátké úvaze se před někoho postaví. Řekne mu: „Dávám ti bodlák, protože…“ a připojí, co se mu na dotyčném nelíbí. Odmlčí se a pokračuje: „Dávám ti taky růži, protože…“ a připojí, co se mu na něm naopak líbí a čeho si u něj cení.\n\nObdarovaný nic nekomentuje. Sdělení bere na vědomí, poděkuje a rozhlédne se. S oběma věcmi v ruce se postaví před jiného hráče a podává mu je jednu po druhé se stejným úvodem.\n\nKdyž jsou všechna sdělení vyčerpána, hra končí a začne debata: hráči mohou někoho požádat o podrobnější vysvětlení, mluví o tom, co je překvapilo, potěšilo, mrzelo, od koho by co čekali.\n\nVarianta: hraje se s klubkem provázku. Konec drží první hráč a klubko se stejným slovním doprovodem putuje od hráče k hráči. Vlna se odvíjí a vzniká „síť vztahů“. Ta se pak zaplétá zpátky a hráč, který se provázku pouští, si připomíná, co mu bylo sděleno.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba",
+    "Řešení problémů a konfliktů ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 23",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=24",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 106 (podle E. Bosákové a M. Frýby)"
+  },
+  "notes": "Zdroj uvádí věk od 10 let. Do šestky ji nedávej dřív, než se třída zná a než máte nastavená pravidla — bodlák umí bolet."
+}

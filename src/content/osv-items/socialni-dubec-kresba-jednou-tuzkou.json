@@ -1,0 +1,39 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-kresba-jednou-tuzkou",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Kresba jednou tužkou — beze slov ve dvojici",
+  "description": "Dvojice dostane jeden papír a jednu tužku, kterou drží oba — každý jednou rukou. Domluví se, jak bude papír položený, a pak už nesmí promluvit. Deset minut kreslí společný obrázek.",
+  "keywords": [
+    "spolupráce",
+    "beze slov",
+    "mimoverbální",
+    "dvojice",
+    "kresba",
+    "ovládání"
+  ],
+  "type": "hra",
+  "duration": "15–20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Žák si všimne, jestli se ve dvojici spíš podřizuje, nebo druhého ovládá.",
+  "materials": [
+    "Papír a tužka pro každou dvojici"
+  ],
+  "procedure": "Dvojice dostanou jeden papír a jednu tužku. Dohodnou se, jak bude papír mezi nimi položen, a pak už nesmí hovořit.\n\nBěhem zhruba deseti minut mají nakreslit jednou tužkou, kterou drží oba — každý jednou rukou — jakoukoli nebo předem zadanou věc. Zdroj nabízí témata: ryba, hrad, obytná loď, společný dům, krajina, naše nálada, my dva a zbytek skupiny.\n\nPo dokončení kresby mohou dílo ještě nějak nazvat a název napsat — stále beze slova — společnou tužkou do dolního rohu výkresu.\n\nV následném rozhovoru se probírají sklony podřizovat se nebo druhého naopak ovládat a to, jak se kdo se svým partnerem cítil. Při jednoduchém zadání lze partnery několikrát vystřídat a pak porovnat, jak se komu s kým pracovalo.",
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Komunikace a sociální interakce"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 28",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=29",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 114 (podle E. Bosákové a M. Frýby)"
+  }
+}

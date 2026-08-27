@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-o-zlatou-rybku",
+  "categoryId": "tridni-kolektiv",
+  "title": "O zlatou rybku — tři přání adresovaná spolužákům",
+  "description": "Každý zformuluje tři přání, co by se dalo ve třídě zlepšit, aby se v ní všichni cítili líp. Každé přání se týká někoho konkrétního a říká se nahlas přímo jemu. Oslovený nemusí odpovídat.",
+  "keywords": [
+    "přání",
+    "zlepšení vztahů",
+    "kruh",
+    "promiň",
+    "komunikace",
+    "klima"
+  ],
+  "type": "hra",
+  "duration": "30–45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Říct nahlas a adresně, co bych potřeboval, aby se změnilo — bez obviňování.",
+  "materials": [
+    "Tužky a papíry"
+  ],
+  "procedure": "Uveď to obrazem: když chytíme zlatou rybku, splní nám tři přání. Mohli bychom na ni ale čekat dlouho a marně, tak zkusíme být takovou rybkou sami a pomoct si vlastními silami.\n\nVyzvi hráče, aby se zamysleli nad tím, co by se dalo ve skupině zlepšit a co by napomohlo tomu, aby se v ní všichni cítili lépe a příjemněji. Každý to sám za sebe zformuluje jako svá tři přání, která se týkají vždy někoho ze skupiny — třeba: „Karle, přál bych si, abys mi už nikdy neříkal ‚prtě‘!“\n\nKaždý si svá tři přání zapíše a pak je hráči postupně pronášejí nahlas, vždy přímo k tomu, koho se přání týká. Oslovený nemusí odpovídat — zváží sám, jestli vyslechnutému přání vyhoví. Tady se hodí mimoděk připomenout, jakou sílu má také slovo promiň.\n\nKdo byl osloven, má právo zase svým přáním oslovit jiného. Pokud jsou přání splnitelná, je dobré jim vyhovět.\n\nNa závěr mohou žáci posoudit, čí otázka nebo odpověď se jim nejvíc líbila a kdo si zaslouží putovní „Řád zlaté rybky“.",
+  "rvpAreas": [
+    "Řešení problémů a konfliktů ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 29",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=30",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 115"
+  },
+  "notes": "Zdroj uvádí věk od 11 let — sedí na šestku."
+}

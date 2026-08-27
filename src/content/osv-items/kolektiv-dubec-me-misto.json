@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-me-misto",
+  "categoryId": "tridni-kolektiv",
+  "title": "Mé místo — kde jsem stál ve vztahu ke třídě",
+  "description": "Symbolicky vyznačíme prostor, kterému říkáme skupinové centrum. Každý se do něj postaví podle toho, jak se ve vztahu ke skupině cítil a jaká byla v předchozí činnosti jeho role.",
+  "keywords": [
+    "reflexe",
+    "zapojení",
+    "role ve skupině",
+    "postavení",
+    "sociometrie"
+  ],
+  "type": "aktivita",
+  "duration": "10–15 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zviditelnit, kdo se v předchozí činnosti cítil uprostřed dění a kdo na okraji.",
+  "procedure": "Vyznač symbolicky prostor a nazvi ho skupinové centrum. Každý ze skupiny se do prostoru postaví podle toho, jak se ve vztahu ke skupině cítil, jaká byla v předcházející hře jeho role či zapojení.\n\nStejné hodnocení se dá udělat i na papíře: použij předtištěný vzor, který znázorňuje jádro a blízké či vzdálené okolí spolupracující skupiny — posádka lodě, držení podpěrného sloupu, soustředné kruhy, koruna stromu. Každý pak graficky označí svoji předpokládanou pozici.",
+  "rvpAreas": [
+    "Role a dynamika skupiny",
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 25",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=26",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 319"
+  }
+}

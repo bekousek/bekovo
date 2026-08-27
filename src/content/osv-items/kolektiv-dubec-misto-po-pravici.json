@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-misto-po-pravici",
+  "categoryId": "tridni-kolektiv",
+  "title": "Místo po pravici — chci, aby si sem sedl…",
+  "description": "V kruhu je jedna židle volná. Hráč nalevo od ní vyzve někoho, aby si přesedl, a musí uvést vlastnost, pro kterou si ho cení. Hra běží tak dlouho, dokud si každý aspoň jednou nepřesedne.",
+  "keywords": [
+    "sympatie",
+    "ocenění",
+    "kruh",
+    "soudržnost",
+    "vztahy ve třídě",
+    "neoblíbenost"
+  ],
+  "type": "hra",
+  "duration": "20–30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Nechat zaznít nahlas, čeho si na sobě ve třídě navzájem cení.",
+  "procedure": "Hráči sedí v kruhu a jedna židle je volná. Hráč nalevo od ní začíná větou: „Místo po mé pravé ruce je volné a chci, aby si sem sedl…“ — doplní jméno a zdůvodnění, například „…Jirka, protože je dobrý kamarád.“ Jirka poděkuje a sedne si tam. Tím uvolní svou židli a hráč nalevo od ní se zase ujímá slova.\n\nMluvčí vždy odůvodní svou volbu a uvede vlastnost, pro kterou si dotyčného cení.\n\nHru je třeba nechat běžet tak dlouho, dokud si každý aspoň jednou nepřesedne. Vyskytne-li se hráč, kterého nikdo nevyzve, pozve ho vedoucí hry.",
+  "rvpAreas": [
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 23",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=24",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 98"
+  },
+  "notes": "Zdroj uvádí věk od 9 let a upozorňuje na citlivé místo: když někoho nikdo nevyzve, pozve ho učitel. Při sdílení dojmů je někdy vhodné téma neoblíbenosti otevřít a společně hledat cestu ke změně — ale zvaž, jestli to tvoje třída unese."
+}

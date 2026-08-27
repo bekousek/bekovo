@@ -1,0 +1,44 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-co-o-tobe-vim",
+  "categoryId": "tridni-kolektiv",
+  "title": "Co o tobě vím? — interview za kamaráda",
+  "description": "Každý si představí svého nejlepšího kamaráda a udělá s ním v duchu interview pro časopis: vymyslí otázky a sám za něj na ně odpoví. Pak se sejdou dvojice a porovnávají, jak by kamarádi asi odpověděli doopravdy.",
+  "keywords": [
+    "seznamování",
+    "kamarád",
+    "interview",
+    "poznávání",
+    "dvojice",
+    "komunikace"
+  ],
+  "type": "aktivita",
+  "duration": "30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zjistit, jak dobře vlastně známe názory lidí, které považujeme za blízké.",
+  "materials": [
+    "Papír a tužka pro každého"
+  ],
+  "procedure": "Každý si vybaví svého nejlepšího kamaráda a představí si, že s ním dělá rozhovor pro časopis. Otázky si vymyslí libovolné, ale musí na ně za svého přítele sám odpovědět — třeba: Kterou barvu máš nejraději? Kterou písničku? Co děláš o prázdninách? Co tě nejvíc rozzlobí? Co by sis koupil, kdybys měl hodně peněz?\n\nAsi po patnácti minutách se vytvoří dvojice — nejlépe tak, aby se v nich potkali ti, kdo znají kamaráda toho druhého. Seznámí se navzájem se svými zápisy a povídají si o tom, jak by ti kamarádi asi odpověděli. Zhruba deset minut.",
+  "reflection": [
+    "Jak dobře znáte názory svých kamarádů?",
+    "Znají vás ostatní dobře, nebo se v něčem mýlí?",
+    "Proč si asi někdo myslí, že zastáváte určitý názor?"
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 19",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=20",
+    "note": "Původní zdroj: Hermochová, S.; Neuman, J. (2004). Hry do kapsy VI. Praha, Portál"
+  }
+}

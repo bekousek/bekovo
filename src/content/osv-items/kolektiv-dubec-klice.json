@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-klice",
+  "categoryId": "tridni-kolektiv",
+  "title": "Klíče — poslepu ubránit svazek klíčů",
+  "description": "Kruh ze židlí, uprostřed jedna židle a pod ní svazek klíčů. Kdo na ní sedí, má zavřené oči a brání klíče jen podle zvuků — ukazuje rukou tam, kde si myslí, že se někdo pohybuje.",
+  "keywords": [
+    "hra",
+    "pobavení",
+    "sluch",
+    "napětí",
+    "kruh",
+    "klíče"
+  ],
+  "type": "hra",
+  "duration": "15–20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Hodnotným cílem některých třídnických hodin je si prostě odpočinout — tohle je na to.",
+  "materials": [
+    "Židle do kruhu",
+    "Svazek klíčů"
+  ],
+  "procedure": "Žáci dají židle do kruhu tak, že se navzájem boky dotýkají, a sednou si na ně. Jedna židle je uprostřed kruhu a pod ní leží svazek klíčů. V prvním kole si na ni může sednout učitel nebo rovnou některý z žáků.\n\nKdo sedí uprostřed, zavře oči. Úkolem okolo sedících je pokusit se klíčů zmocnit. Ten uprostřed je brání: poslepu jen podle zvuků ukazuje rukou na místa, kde si myslí, že se někdo pohybuje. Ukáže-li správně, musí si dotyčný sednout zpět a v daném kole už se o klíče pokusit nemůže.\n\nPravidla:\n• Kdo chce klíče vzít, musí vstát ze své židle, dojít k židli uprostřed a vzít svazek přímo do ruky. Jakmile dosedne zpět na své místo, aniž na něj bylo ukázáno, klíče získal a kolo končí.\n• Počet lidí mířících ke klíčům najednou je vhodné omezit třeba na tři.\n• Jakmile je na někoho ukázáno, mělo by se ozvat „zásah“. Dotyčný si sedá zpět a daného kola se už neúčastní.",
+  "rvpAreas": [
+    "Teambuilding a společné zážitky",
+    "Klima a bezpečí ve třídě"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 27",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=28",
+    "note": "Původní zdroj: Aktivitu autory naučil Michal Vybíral"
+  }
+}

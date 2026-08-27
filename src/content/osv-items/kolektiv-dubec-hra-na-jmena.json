@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-hra-na-jmena",
+  "categoryId": "tridni-kolektiv",
+  "title": "Hra na jména — silný Bivoj a veselý Jirka",
+  "description": "Klasická mnemotechnická hra na zapamatování křestních jmen. Každý si vymyslí přídavné jméno, které ho charakterizuje, a řekne ho se svým jménem. Soused zopakuje předchozího a přidá sebe.",
+  "keywords": [
+    "jména",
+    "seznamování",
+    "paměť",
+    "kruh",
+    "začátek roku",
+    "bez pomůcek"
+  ],
+  "type": "hra",
+  "duration": "30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Naučit se jména nové třídy tak, aby se příští den dala použít.",
+  "procedure": "Sedíme nebo stojíme v kruhu či půlkruhu. Skupinu nad šestnáct lidí je lepší rozdělit na poloviny.\n\nZačni sám: vymysli si přídavné jméno, které tě charakterizuje nebo tě prostě napadne, a řekni ho se svým křestním jménem — „Já jsem silný Bivoj.“ Soused po pravé straně zopakuje přídavné i křestní jméno prvního a pokračuje svou vlastní charakteristikou: „To je silný Bivoj a já jsem veselý Jirka.“ A tak dál až k poslednímu.\n\nČást hráčů bude potřebovat nápovědu, aby vůbec dokončili první kolo — to nevadí, jen je nenech dlouho čekat. Na konci si dobrovolníci můžou vyzkoušet paměť a zopakovat všechna jména.",
+  "rvpAreas": [
+    "Seznamování a adaptace"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 20",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=21",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 52"
+  }
+}

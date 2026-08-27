@@ -1,0 +1,38 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-v-cem-jsme-stejni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "V čem jsme stejní a v čem jiní",
+  "description": "Hráči chodí prostorem, na tlesknutí chytí nejbližšího a vytvoří dvojici. Na přeložený papír píšou do jedné půlky, co mají společného, do druhé to, v čem se liší — a pak si o tom povídají.",
+  "keywords": [
+    "podobnost",
+    "odlišnost",
+    "dvojice",
+    "poznávání",
+    "tolerance",
+    "rychlá aktivita"
+  ],
+  "type": "aktivita",
+  "duration": "15–20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "materials": [
+    "Papír přeložený na polovinu a tužka pro každého"
+  ],
+  "procedure": "Hráči chodí prostorem. Na tlesknutí chytí nejbližšího a vytvoří dvojici. Každý dostane papír přeložený na polovinu a tužku: do jedné půlky píše, co mají oba ve dvojici společného, do druhé to, v čem se liší. Následně si o tom povídají.\n\nVarianty, které zdroj uvádí: totéž v kruhu, kde dvojice tvoří ti, co stojí přímo naproti sobě. Nebo — a to je ta zajímavější — dvojice tvoří ti, kteří si jdou navzájem trochu „na nervy“.",
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Mezilidské vztahy"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 21",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=22",
+    "note": "Původní zdroj: Šimanovský, Z.; Šimanovská, B. (2005). Hry pro rozvoj zdravé osobnosti. Praha, Portál, s. 35"
+  }
+}

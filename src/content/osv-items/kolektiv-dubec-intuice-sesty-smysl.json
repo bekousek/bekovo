@@ -1,0 +1,40 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-intuice-sesty-smysl",
+  "categoryId": "tridni-kolektiv",
+  "title": "Intuice, šestý smysl — trefit se do většiny",
+  "description": "Vedoucí hlásí čísla a témata (barva, číslo, hudební skladba, jméno, město, sport, strom, telefonní číslo, vůně, zvíře). Každý píše slovo, o kterém si myslí, že ho napíše i většina ostatních. Body se dávají za shodu.",
+  "keywords": [
+    "intuice",
+    "shoda",
+    "skupina",
+    "soudržnost",
+    "hra",
+    "pobavení"
+  ],
+  "type": "hra",
+  "duration": "20 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Zjistit, jak dobře žáci odhadnou, co si myslí zbytek třídy.",
+  "materials": [
+    "Tužka a papír pro každého"
+  ],
+  "procedure": "Každý hráč má tužku a papír. Vedoucí hry vždy nahlásí číslo a téma:\n\n1. barva  6. sport\n2. číslo  7. strom\n3. hudební skladba  8. telefonní číslo\n4. jméno  9. vůně\n5. město  10. zvíře\n\nKaždý hráč si zapíše uvedené číslo a připojí k němu slovo, o němž si myslí, že ho na dané téma napíšou spolu s ním také všichni ostatní nebo aspoň většina hráčů.\n\nPři vyhodnocení získává každý tolik bodů, kolikrát se u daného čísla vyskytlo stejné slovo. Když je hráčů mnoho, hraj po menších skupinách.",
+  "rvpAreas": [
+    "Role a dynamika skupiny",
+    "Teambuilding a společné zážitky"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 29",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=30",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 158 (podle E. Bakaláře)"
+  },
+  "notes": "Zdroj uvádí věk od 12 let."
+}

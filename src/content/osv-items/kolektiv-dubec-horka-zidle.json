@@ -1,0 +1,38 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-horka-zidle",
+  "categoryId": "tridni-kolektiv",
+  "title": "Horká židle — komentář od každého ve třídě",
+  "description": "Na papírech jsou jména všech, položené na zemi jménem dolů. Každý si postupně bere jeden po druhém a stručně komentuje činnost jmenovaného. Na konci má každý list s komentářem od všech.",
+  "keywords": [
+    "zpětná vazba",
+    "komentář",
+    "anonymita",
+    "hodnocení",
+    "dlouhodobá skupina"
+  ],
+  "type": "aktivita",
+  "duration": "30–45 min",
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "goal": "Dát každému písemnou zpětnou vazbu od celé třídy najednou.",
+  "materials": [
+    "Čistý papír se jménem pro každého žáka",
+    "Tužky"
+  ],
+  "procedure": "Určeno pro skupiny, které spolupracují delší dobu.\n\nPřiprav čisté papíry a na každý napiš jméno jednoho žáka. Listy polož na zem jménem dolů.\n\nKaždý si teď bere postupně jeden papír za druhým a stručně na něm komentuje činnost jmenovaného v předcházející hře nebo na celé akci.\n\nPo skončení obdrží každý svůj list s komentářem od všech členů skupiny. Je na každém, zda se pod svůj komentář podepíše.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 26",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=27",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 320"
+  },
+  "notes": "Náročnější na bezpečí než ostatní reflexe — každý dostane písemně komentář od celé třídy. V šestce bych to nechal až na dobu, kdy se třída zná a pravidla drží."
+}

@@ -1,0 +1,35 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "kolektiv-dubec-nejvetsi-zazitek",
+  "categoryId": "tridni-kolektiv",
+  "title": "Největší zážitek — pantomima toho, co utkvělo",
+  "description": "Skupiny po pěti až deseti si připraví pantomimické vystoupení představující jejich nejdůležitější zážitky, a pak si je navzájem přehrají.",
+  "keywords": [
+    "pantomima",
+    "zážitek",
+    "reflexe",
+    "skupinová práce",
+    "uzavření akce"
+  ],
+  "type": "hra",
+  "duration": "20–30 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Uzavřít výlet, projekt nebo delší akci tím, co si z ní žáci opravdu odnesli.",
+  "procedure": "Rozděl třídu do menších skupin po pěti až deseti členech. Každá skupina si připraví pantomimické vystoupení, které představuje jejich nejdůležitější zážitky.\n\nPo výběru a herecké přípravě si skupiny vystoupení vzájemně přehrávají.",
+  "rvpAreas": [
+    "Reflexe fungování třídy a zpětná vazba",
+    "Teambuilding a společné zážitky"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 26",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=27",
+    "note": "Původní zdroj: Neuman, J. (1998). Dobrodružné hry a cvičení v přírodě. Praha, Portál, s. 320"
+  }
+}

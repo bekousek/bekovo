@@ -1,0 +1,37 @@
+{
+  "status": "namet",
+  "added": "2026-08-24",
+  "files": [],
+  "id": "socialni-dubec-chlapci-a-devcata",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Chlapci a děvčata — zahrát toho druhého",
+  "description": "Nejdřív se mluví o tom, jak děvčata vidí chlapce a co jim na nich imponuje, pak naopak. Potom skupinky sehrají příhodu, ve které ztělesní příslušníky opačného pohlaví — děvčata hrají chlapce a obráceně.",
+  "keywords": [
+    "gender",
+    "vzájemné vnímání",
+    "scénka",
+    "stereotypy",
+    "dospívání",
+    "empatie"
+  ],
+  "type": "aktivita",
+  "duration": "45 min",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "goal": "Podívat se na sebe očima druhého pohlaví — a zjistit, kolik z toho je stereotyp.",
+  "procedure": "Nejprve společný rozhovor: jak děvčata vidí chlapce, co jim na nich imponuje a co ne. Pak chlapci říkají, jak vnímají děvčata, co u nich obdivují a co ne. Společně vzpomínají, jak chlapci a děvčata jednají za běžných a za vypjatých okolností a jaké jsou rozdíly a shody v jejich prožívání.\n\nPotom vytvoří skupinky, domluví se a sehrají příhodu, v níž ztělesní příslušníky opačného pohlaví v situaci, která se jim pro ně zdá nejpříznačnější. Děvčata hrají ve své příhodě chlapce a naopak.\n\nNásledně se hovoří o myšlenkách a pocitech, jaké měli herci i diváci.\n\nVarianta: chlapec a děvče hrají první schůzku na lavičce v parku. Za každým z nich stojí jeho druhé já — druhé já chlapce hraje dívka a sděluje nahlas myšlenky, které se chlapci honí hlavou; druhé já děvčete ztělesňuje chlapec.",
+  "rvpAreas": [
+    "Poznávání a vnímání druhých lidí",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "source": {
+    "label": "Dubec: Třídnické hodiny (Odyssea 2007), str. 22",
+    "url": "https://www.zsrosi.cz/userFiles/metodik-prevence/tridnicke-hodiny.pdf#page=23",
+    "note": "Původní zdroj: Šimanovský, Z. (2002). Hry pro zvládání agresivity a neklidu. Praha, Portál, s. 96"
+  },
+  "notes": "Zdroj uvádí věk od 10 let. Varianta s „druhým já“ je blízká Markétině personifikaci duševních poruch — stejný princip vnitřního hlasu."
+}
