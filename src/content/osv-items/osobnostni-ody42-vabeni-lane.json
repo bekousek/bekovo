@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-ody42-vabeni-lane",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vábení laně",
+  "description": "Žáci si rozšíří aktivní slovní zásobu, pomocí které mohou vyjadřovat své emoce. Naučí se rozlišovat duševní a tělesné pocity a pocity libé a nelibé.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "vábení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "15 - 20 min",
+  "procedure": "Žáci se rozdělí do dvojic. Jeden hraje roli laně a druhý lovce, který chce laň\nk sobě přivábit. Lovec a laň stojí na začátku hry čelem k sobě, ve vzdálenosti cca\n6 metrů od sebe. Lovec může laň vábit pouze tím, že řekne nějaké slovo nebo\nslovní spojení (Např. „plavání v jezeře“ nebo „zmrzlina“). Žák v roli laně na toto\nslovo zareaguje podle toho, jestli má toto rád. Pokud je pro něj tato věc přitažlivá,\nudělá krok k lovci, pokud tu věc rád nemá, udělá krok zpět, pokud je mu ta věc\nlhostejná, zůstává na místě.\nNejedná se o soutěž. Hra je náročná na vcítění. Žáci si díky ní mohou vyzkoušet,\nzda se dokáží vcítit do druhých, a nabídnout jim to, co jim udělá radost. Je možné\nzmínit souvislost s vybíráním dárků pro druhé. Kdy se vám podařilo vybrat\ndruhému opravdu dobrý dárek? Kdy jste naopak šlápli vedle?\nReflexe:\nJaké znáte pocity? Proč (k čemu) máme pocity?",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita A4 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=35",
+    "note": "Zdroj aktivity uvedený v lekci: Autor neznámý, úprava o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: (1. ?) 2. - 9. třída."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody42-relaxacni-cviceni-hora",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Relaxační cvičení Hora",
+  "description": "Žáci si vyzkoušejí jednoduché relaxační cvičení, které se provádí ve stoje.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "relaxační",
+    "cvičení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Max. 5 minut",
+  "procedure": "Postavte se zpříma do stoje spojného (s chodidly u sebe). Zavřete oči. Uvědomte\nsi, jak je váha mezi chodidly rovnoměrně rozložena, zpevňujte zezdola nahoru\ntělo. Nejprve zpevněte lýtka, pak stehna, hýždě, spodní část břicha. Lopatky jsou\ndolů a k sobě, hlavu vytahujte za nejvyšší místo směrem vzhůru. Stojíte pevně a\nvyváženě. Nyní budeme uvolňovat svaly, které nepotřebujete k zachování\npevného stoje. Uvolněte čelo, svaly kolem očí, ústa, čelist, hlasivky. Uvolněte\ntaké obě paže. Dokonce můžete uvolnit i některé svaly trupu a nohou\na zůstat přitom pevně a zpříma. Stojíte pevně a uvolněně - nyní i v životě. Nyní\notevřete oči, cvičení končí.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita C10 (s. 73)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=74",
+    "note": "Zdroj aktivity uvedený v lekci: NEŠPOR, Karel: Preventivní program FIT IN http://www.drnespor.eu"
+  },
+  "notes": "Věk uvedený v lekci: Od 12 let."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "kolektiv-ody61-dotknul-ses-me",
+  "categoryId": "tridni-kolektiv",
+  "title": "Dotknul ses mě",
+  "description": "Každý člověk se něčím občas druhého dotkne či ho neúmyslně raní. Ohleduplnost se dá trénovat a ke zvyšování citlivost lze přispět.",
+  "keywords": [
+    "spolužáci",
+    "seznamování",
+    "poznávání",
+    "dotknul"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 50 minut",
+  "materials": [
+    "Papír a tužka"
+  ],
+  "procedure": "Žáci napíší deset vět, ve kterých se objeví slovo poranit, ranit, dotknout se.\nNásledně ve dvojících zvažují, zda je užito výrazu v tělesném či psychickém\nvýznamu. Následně probíhá vyhodnocení . Ujasníme, co si pod uvedenými výrazy\npředstavujeme, ptáme se, zda se věty týkaly více tělesných nebo psychických\nstavů, co komu vadí víc /zda být raněn fyzicky, či psychicky/ a proč.\nDiskusi doporučujeme uzavřít otázkami typu: \"Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\";\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 6.1, aktivita B5 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf#page=36",
+    "note": "Zdroj aktivity uvedený v lekci: Kartotéka S. Hermochové"
+  },
+  "notes": "Věk uvedený v lekci: Od čtvrté třídy."
+}

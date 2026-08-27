@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody72-posli-to-dal",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pošli to dál",
+  "description": "Žáci zaměří pozornost na jednání lidí ve svém okolí v konkrétních situacích každodenního života, které podporují dobré mezilidské vztahy a situaci popíší.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "pošli"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Po dobu jednoho týdne či jednoho měsíce, je možné vracet se k aktivitě v pravidelných intervalech i po celý rok",
+  "materials": [
+    "Sešit , list nebo arch balícího papíru, na který se bude vybrané pozorované",
+    "chování zapisovat"
+  ],
+  "procedure": "Žáci dostanou pokyn sledovat situace a chování lidí ve svém okolí, a pokud\nvnímají chování jako posilující dobré mezilidské vztahy, doplní jej na domluvené\nmísto. /Napíší, kdo byl aktérem situace, jak konkrétně chování probíhalo a v čem\nspočívalo/.\nV pravidelných intervalech se k seznamu vracíme a sledujeme, jaké chování je\npoznamenáváno a jak ho přibývá. Nejen, že vznikne jistá inspirační banka, ale\nuvedená aktivita udrží pozornost na dobré mezilidské vztahy.\nDiskusi doporučujeme uzavřít otázkami typu:\" Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\" ;\n\"Co jsem se dozvěděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita C1 (s. 31)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=32",
+    "note": "Zdroj aktivity uvedený v lekci: Archív Jana Vaňková – upraveno pro Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od páté třídy."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody42-dotaznik-jak-si-zlepsuji-naladu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Dotazník - Jak si zlepšuji náladu",
+  "description": "Žáci zhodnotí sami sebe, jaké postupy zlepšování nálady používají a jak jim tyto postupy pomáhají.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "dotazník",
+    "zlepšuji",
+    "náladu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "10 - 20 min (podle délky diskuse)",
+  "materials": [
+    "Dotazník pro každého žáka."
+  ],
+  "procedure": "Všichni žáci najednou vyplňují dotazník v pracovním listu Jak si zlepšuji náladu\n(viz následující strana). Využívají nápady z předchozí aktivity Jarda má špatnou\nnáladu. Na závěr necháme žáky přečíst, který postup zlepšování nálady\nvyhodnotili jako pro sebe nejúčinnější. Zdůrazníme, že každému člověku\nvyhovuje jiný postup.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita A2 (s. 31)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=32",
+    "note": "Zdroj aktivity uvedený v lekci: O.s. Projekt Odyssea Pracovní list - Jak si zlepšuji náladu* jméno a příjmení ........................................... Zadání Prohlédni si seznam postupů zlepšování nálady, který jste dali dohromady se spolužáky. Do prvního sloupce tabulky napiš, které z těchto postupů používáš, aby sis zlepšil náladu. Pokud používáš nějaké další postupy, o kterých jsme ještě nemluvili, napiš je také. Do druhého sloupce napiš, jak je každý z těchto postupů účinný, tj. jak dobře funguje. Pokud používáš více než 10 postupů, napiš do tabulky jen těch deset, které považuješ za nejdůležitější. Doplň postup, který používáš, aby sis zlepšil náladu. Jak je tento postup účinný? Příklad: Když si chci zlepšit náladu,... jdu se projít ven. Funguje to dobře, ale jen když je hezké počasí. Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Když si chci zlepšit náladu, ... Podtrhni jeden postup, který ti nejlépe a nejspolehlivěji dokáže zlepšit náladu."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-klavesnice",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Klávesnice",
+  "description": "Umožnit prožít výhru, zjistit, jaké pocity ve mně vyvolává.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "klávesnice"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Je vyznačen kruh (lanem, křídou) v němž jsou rozházeny kartičky z tvrdého\npapíru s čísly 1 – 30. Žáci po odstartování doběhnou z místa startu (vzdáleného\ntak, že vidí kruh, ale nevidí, kde jsou jaká čísla) ke kruhu a v co nejkratším čase se\nsnaží dotknout se všech kartiček postupně podle hodnoty čísla 1 – 30. V kruhu\nsmí být v daný okamžik pouze jeden člověk, nikdy více. Za každé porušení tohoto\npravidla se přičítá 10 sekund. Před odstartováním má skupina 5 min. na domluvu\nsvého „nabíjecího“ pokřiku, domluvu strategie a oznámení času, za který si myslí,\nže to zvládnou. Po doběhu zpět za startovní čáru jim učitel oznámí výsledný čas.\nZeptá se, jestli si myslí, že by to zvládli rychleji. Pokud ano, poskytne další 3\nminuty na změnu strategie a oznámení času, za který by to chtěli stihnout nyní. To\nse může ještě jednou opakovat. Před každým odstartováním nechte proběhnout\nnabíjecí pokřik, pokud do něj mají žáci chuť. Celá aktivita by měla být velmi\ndynamická.\nLépe je mít skupinu max. po 12 účastnících, můžete paralelně nechat hrát\ndvě skupiny na dvou stanovištích; každé určete rozhodčího (např. žáka, který je\nosvobozen z běhu), který bude dohlížet na dodržování pravidel.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B7 (s. 43)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=44"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-pexeso",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pexeso",
+  "description": "Cíl zařazení této aktivity v lekci: zažít soutěživou situaci. Cíl samotné aktivity: procvičit si libovolné učivo, např. vyjmenovaná slova, protáhnout se.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "pexeso"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Připraveny jsou dvojice kartiček se správnými a chybnými výrazy\n(v případě procvičování např. vyjmenovaných slov: přemýšlet – přemíšlet, víla –\nvýla, ...). Kartiček musí být vytvořeno větší množství, alespoň 2 – 3x více dvojic,\nnež je počet účastníků hry. V prostoru jsou provazem vyznačeny dva kruhy,\nv každém z nich je umístěna jedna ze dvojice kartiček tak, že slovo je viditelné.\nDoporučená vzdálenost kruhů od sebe je (podle věku dětí, prostorových možností,\natd.) 4 – 25 m.\nŽáci se rozdělí na dvě poloviny (pokud je ve třídě mnoho žáků, můžeme\nvytvořit čtyři družstva a nechat probíhat dvě stejné hry současně). Každý kruh\n„náleží“ jednomu družstvu, které se za ním shromáždí a má cca 5 minut na\ndomluvu strategie. Po odstartování hry pak začnou žáci, každý s obyčejnou\ntužkou, běhat mezi kruhy a přenášet kartičky: žák běží k druhému kruhu, vezme\njednu kartičku a běží zpět ke svému kruhu. Pokud v něm je druhá z kartiček,\nvezme ji a tužkou podtrhne výraz, o kterém si myslí, že je ten správný. Dvojici\npak odloží stranou za kruh. Pokud se však stane, že druhou kartičku ve vlastním\nkruhu nenajde, tj. o získání stejné dvojice se právě pokouší někdo se soupeřního\ndružstva, odloží ji žák do svého kruhu a běží pro jinou. Hra je buď ohraničena\nčasovým limitem, nebo končí v okamžiku, kdy v každém kruhu nezůstala žádná\nkartička, tj. žáci by jen přenášeli sem tam kartičky, které mají v ruce a nemohli by\nje zařadit. Po ukončení hry následují další 3 minuty, v němž mají žáci možnost\nzkontrolovat podtržení slov. Poté se sečtou body.\nBodování kartiček: za každou získanou dvojici jeden bod, pokud je\nsprávně označen bezchybný výraz, navíc další bod. Družstvo má možnost určit si\nzvláštní funkci jednoho z hráčů, který neběhá, ale stojí u kruhu svého družstva a\npomáhá přibíhajícím dětem hledat druhou z dvojice kartiček, případně koordinuje\nvýběhy družstva, jak je potřeba. Žáci se mohou v této funkci libovolně střídat.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita A2 (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=34"
+  }
+}

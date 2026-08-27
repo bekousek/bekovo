@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody72-o-cem-je-tato-kniha-tento-film",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "O čem je tato kniha, tento film",
+  "description": "Zmapovat, co žáci čtou či sledují. Jaké mezilidské vztahy je zajímají a čeho si na mezilidských vztazích všímají",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "kniha",
+    "tento"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "7min práce jednotlivce 20 a více podle délky diskuse ve třídě",
+  "materials": [
+    "Pro každého papír na poznámky"
+  ],
+  "procedure": "Necháme žáky popřemýšlet o jejich oblíbené knize, filmu či seriálu. Následně\nnecháme vlastními slovy každého říct, jak by popsal vztahy hlavních hrdinů a co\nho právě na této knize, tomto seriálu či filmu s ohledem na mezilidské vztahy\nzaujalo?\nDiskusi doporučujeme uzavřít otázkami typu:\" Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\" ;\n\"Co jsem se dozvěděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita A2 (s. 22)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=23",
+    "note": "Zdroj aktivity uvedený v lekci: Archív Jana Vaňková – upraveno pro Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od páté třídy."
+}

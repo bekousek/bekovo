@@ -1,0 +1,36 @@
+{
+  "id": "kolektiv-ody61-vis-o-mne",
+  "categoryId": "tridni-kolektiv",
+  "title": "Víš o mně…",
+  "description": "Aktivita umožní bezprostřední srovnání vzájemné znalosti žáků ve třídě. Přispěje k lepšímu vzájemnému poznání.",
+  "keywords": [
+    "spolužáci",
+    "seznamování",
+    "poznávání"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 50 minut",
+  "materials": [
+    "Pro všechny sadu kartiček ano –ne, papír a tužku"
+  ],
+  "procedure": "Každý na papír napíše otázku zjišťující něco o druhých, na kterou lze odpovědět\nano nebo ne(umíš jezdit na kole, máš doma zvíře, posloucháš vážnou hudbu,\nhraješ na klavír atd.).\nVybraný žák si otázku vylosuje, zamyslí se a sám ze sebe a podle pravdy odpoví.\nVezme kartičku se správnou variantou odpovědi a položí ji před sebe tak, aby\nnebyla odpověď vidět a nikomu „nenapovídal“ .\nVšichni ostatní si pokusí vybavit, zda ví, jak vybraný žák odpoví. Položí před sebe\ntu variantu, kterou u vybraného žáka předpokládají, zatím tak, aby ji nikdo\nneviděl a nemohl „opisovat“.\nDáme pokyn k obrácení kartiček a srovnání odpovědí. Jeden po druhém vysvětlují\nna základě čeho volí vybranou odpověď. Jako poslední otáčí kartičku vybraný\nžák.\nV následné diskusi se můžeme ptát, u koho se žáci nejvíc shodli, kdo se\nnejvíckrát „trefil“, jaký měli pocit, když odpověděli „správně“ – ve shodě\ns vybraným žákem, jak se cítili, když se mýlili. Je pro třídu dobře, když se žáci\nodhadují správně.\nDiskusi doporučujeme uzavřít otázkami typu:\" Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\";\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 6.1, aktivita A3 (s. 25)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf#page=26",
+    "note": "Zdroj aktivity uvedený v lekci: Kartotéka S. Hermochové"
+  },
+  "notes": "Věk uvedený v lekci: Od třetí třídy."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody42-vnitrni-usmev",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vnitřní úsměv",
+  "description": "Žáci si vyzkoušejí a procvičí postup zlepšující náladu a vyvolávající tělesné i duševní uvolnění. Postup také podporuje rozvoj pozitivního vztahu k sobě samému.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "vnitřní",
+    "úsměv"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "5 - 10 min",
+  "procedure": "Žáci stojí nebo leží, mají zavřené oči a podle průběžných instrukcí učitele si\npředstavují, jak jejich tělem putuje „úsměv“. Úsměv prochází jednotlivými částmi\ntěla, zastavuje se v nich a prozařuje je světlem a teplem. Lze vždy propojit\ni s navozením pocitu vděčnosti za to, jak nám daná část těla slouží.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita A11 (s. 43)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=44",
+    "note": "Zdroj aktivity uvedený v lekci: CANFIELD, Jack, SICCONE, Frank. 1998. Hry pro výchovu k odpovědnosti a sebedůvěře. Praha: Portál. str. 55"
+  },
+  "notes": "Věk uvedený v lekci: od 10 let."
+}

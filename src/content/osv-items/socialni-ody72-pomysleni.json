@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody72-pomysleni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pomyšlení",
+  "description": "Dosáhnout prohloubení zájmu o jednotlivé členy skupiny a podpořit pozitivní chování a dobré vztahy mezi žáky.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "pomyšlení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Týden, pak lze aktivitu opakovat",
+  "materials": [
+    "Podle potřeby"
+  ],
+  "procedure": "Žákům rozdáme kartičky – každý se na svou podepíše. Kartičky vybereme\na každý pak dostane jednu se jménem svého spolužáka. Vylosovaná jména\nse nesdělují .Úkolem je po danou dobu /týden nebo den/ dělat vylosované osobě\n\"pomyšlení\". Pomyšlením může být vše, co mu dělá dobře a co nějak potřebuje:\npomáhat mu, chválit ho, povzbuzovat. Po dané době všichni hádají, kdo jim dělal\npomyšlení. Součástí reflexe je i to,jak se žák do pomyšlení trefil a jak se při tom\ncítil. Uvažujeme i o tom, jaké to bylo, dělat někomu pomyšlení.\nDiskusi doporučujeme uzavírat otázkami typu:\" Co mi tato aktivita přináší?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\" ;\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita C7 (s. 37)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=38",
+    "note": "Zdroj aktivity uvedený v lekci: HERMOCHOVÁ, Soňa.- archiv"
+  },
+  "notes": "Věk uvedený v lekci: Od třetí třídy."
+}

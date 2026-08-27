@@ -1,0 +1,35 @@
+{
+  "id": "socialni-ody72-oko",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Oko",
+  "description": "Žáci si uvědomí význam komunikace očima a zrakového kontaktu pro dobré mezilidské vztahy.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "20 minut",
+  "materials": [
+    "Podle potřeby"
+  ],
+  "procedure": "Můžeme začít otázkou, zda uvedené tvrzení žáci znají, zda s ním souhlasí a co\nvlastně znamená :Oko, do duše okno – oko nás vždy prozradí.\nPokračujme tím, jaký typ pohledu žáci znají /zasněný, uhrančivý, ďábelský, milý,\nvstřícný,. naštvaný, zamilovaný/. Zastavíme se u toho, kdy, který a jaký\npoužívají. Žáci popisují různé situace a předvádějí pohled.\nŽáci se pokošejí předvést práci s očním kontaktem a to jak správnou, kdy oční\nkontakt podpoří verbální snahu , tak takový, který vede ke zmatení\na nedorozumění /mluvím a očima se dívám jinam apod./.\nDáme prostor pro vlastní, osobní zkušenosti žáků s pohledy.\nDiskusi doporučujeme uzavírat otázkami typu:\" Co mi tato aktivita přináší?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\" ;\n\"Co jsem se dozvěděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita D2 (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=40",
+    "note": "Zdroj aktivity uvedený v lekci: Lencz, L.Křížová, O.: Etická výchova, ,Praha Luxpress 2000 ISBN 80-7130-091-8"
+  },
+  "notes": "Věk uvedený v lekci: Od třetí třídy."
+}

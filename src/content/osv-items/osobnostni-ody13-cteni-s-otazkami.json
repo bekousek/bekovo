@@ -1,0 +1,32 @@
+{
+  "id": "osobnostni-ody13-cteni-s-otazkami",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Čtení s otázkami",
+  "description": "Účelem aktivity je pomoci žákům aktivně a s porozuměním číst text a čerpat z něj informace.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "studijní technika",
+    "čtení",
+    "otázkami"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Čtení s otázkami neboli ReQuest Procedure je postup podporující aktivní čtení\ns porozuměním. Žáci při něm pracují obvykle ve dvojicích, čtou text po\nodstavcích a v přestávkách mezi odstavci vymýšlejí otázky a pokládají je střídavě\njeden druhému. Druhý odpovídá podle toho, co se v textu dočetl a podle svých\ndosavadních znalostí. Postup žáky vede k hlubšímu zamyšlení nad informacemi\nobsaženými v textu. Zformulovat kvalitní otázku není snadné a vyžaduje, aby žák\npřemýšlel o souvislostech. Při realizaci metody je třeba dbát na to, aby otázky\nžáků nebyly povrchní a aby se netýkaly jen ověřování jednoduchých fakt, která\njsou v textu uvedena. Např. Karlův most byl postaven v roce 1357. Zbytečně\njednoduchá otázka zní „Kdy byl postaven Karlův most?“ Zajímavá otázka by\nmohla znít: „Kolik bylo Karlu IV. let, když nechal Karlův most postavit? Byl před\nKarlovým mostem v Praze nějaký jiný kamenný most? Jak dlouho asi Karlův\nmost stavěli? Co bylo dříve hotovo: Univerzita Karlova, Karlův most, Karlštejn\nnebo Svatovítská katedrála? Co bylo nejdražší? Jak ovlivnilo postavení Karlova\nmostu život Pražanů? Kdo měl z postavení mostu největší zisk? Kdo mohl mít\nz postavení Karlova mostu škodu? Z jakých peněz byla stavba Karlova mostu\nfinancována. Je v Česku nějaký podobně starý most? Jaké gotické mosty se\nzachovaly v Evropských městech? Čím je asi Karlův most v Praze jedinečný?\nKterá z informací obsažených v přečteném odstavci by se mohla ukázat jako\ndůležitá při dalším čtení?“ Jedná-li se o příběh, otázky mohou vypadat např. takto:\n„Jak se cítily jednotlivé postavy? Jaké asi důvody měly ke svému jednání? Jak se\nasi bude příběh vyvíjet dál? Kdo je vám sympatický, kdo nesympatický a proč?\nJak byste jednali na místě hlavního hrdiny atd.?“\nNejprve učitel předvede ve dvojici s vybraným žákem, co následně budou žáci\nprovádět samostatně ve dvojicích: přečte nahlas první odstavec textu, poté položí\nžáku, který je s ním ve dvojici, několik dobře promyšlených otázek, které se\nvztahují k přečtenému.\nPoté, co žák odpoví, je na něm, aby položil učiteli několik dalších otázek.\nNyní následuje práce žáků ve dvojicích. Dvojice čtou text po odstavcích a\nv přestávkách mezi odstavci si vzájemně kladou otázky.\nVarianta s celou třídou\nTuto metodu je možné realizovat také v plénu, tj. s celou třídou najednou. V tom\npřípadě se po přečtení odstavce žáci hlásí a kladou učiteli otázky ohledně\npřečteného. Poté položí učitel žákům několik promyšlených otázek, které\npropojují informace s obecnějšími poznatky v daném oboru, s jejich životem, se\n\nsoučasnými společenskými jevy, s jinými vzdělávacími obory a dalšími\nsouvislostmi. Tato varianta učiteli umožňuje mít větší kontrolu nad kvalitou\notázek, učitel může např. zajímavé otázky vyzdvihovat a oceňovat.\nCo s náročnými, nezodpovězenými otázkami?\nPokud žáci přinášejí mnoho otázek, na které nikdo nezná odpověď, je možné tyto\nnezodpovězené otázky sepsat. Poté žáci pomocí hlasování vyberou ty, které\nhodnotí jako nejzajímavější. Každé otázky se následně ujme jedna skupina, která\nnaplánuje, jak by mohla zjistit odpověď, a svůj plán sdělí ostatním. Příště každá\nskupina pracuje na své otázce. Nalezené odpovědi se vzájemně prezentují. Pokud\nněkolik skupin pracovalo nezávisle na sobě na stejné otázce, může být zajímavé\nsrovnat postup pátrání skupin a výsledky jejich práce. Také učitel si zvolí\nněkterou z otázek, provede pátrání a sdělí žákům svůj postup a to, na co přišel.",
+  "source": {
+    "label": "Odyssea — Lekce 1.3, aktivita A11 (s. 68)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf#page=69",
+    "note": "Zdroj aktivity uvedený v lekci: MEREDITH, K., STEELE, J.L. a TEMPLE, K.: Čtení, psaní a diskuse ve všech předmětech. Příručka III, o.s. Kritické myšlení, Praha, 1997, úprava o.s. Projekt Odyssea."
+  }
+}

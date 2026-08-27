@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-ody42-relaxace-v-pohybu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Relaxace v pohybu",
+  "description": "Žáci si vyzkoušejí navodit stav lehkého tělesného a duševního uvolnění pomocí poslechu hudby a pohybu na hudbu.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "pohybu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Vhodná hudba: J. Suk: Pohádka (O Radúzovi a Mahuleně)\nKlademe důraz na to, aby pohyb byl zpomalený a maximálně uvolněný.Při\npomalé hudbě hráči improvizují uvolněné pohyby s představou, že jsou:\nkosmonauti v beztížném stavu,\npotápěči v lehkém skafandru a zvolna se nechávají unášet silným,\nlíným proudem pod hladinou,\nve sprše se lenivě protahují pod proudem příjemné teplé vody,\nloutky,\nmořská tráva přirostlá ke skále a zlehka zmítaná vlnami,\nbabí léto ve vánku atd.\nZáměrně zpomalené pohyby lze kombinovat s dynamickými hudebními\nsekvencemi, při kterých se žáci pohybují rychle a volně.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita C2 (s. 62)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=63",
+    "note": "Zdroj aktivity uvedený v lekci: ŠIMANOVSKÝ Zdeněk, 1998. Hry s hudbou a techniky muzikoterapie ve výchově, sociální práci a klinické praxi. Praha: Portál. s. 230 Zde naleznete i další podobné aktivity pro žáky všeho věku."
+  },
+  "notes": "Věk uvedený v lekci: Od 10 let."
+}

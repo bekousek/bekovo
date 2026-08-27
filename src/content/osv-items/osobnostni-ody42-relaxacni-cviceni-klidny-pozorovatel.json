@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody42-relaxacni-cviceni-klidny-pozorovatel",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Relaxační cvičení Klidný pozorovatel",
+  "description": "Žáci si vyzkoušejí jednoduché relaxační cvičení.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "relaxační",
+    "cvičení",
+    "klidný",
+    "pozorovatel"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "3 minuty",
+  "procedure": "Pohodlně, ale pokud možno zpříma se posaďte. Zavřete oči. Zaposlouchejte se do\nzevních zvuků, které k vám přicházejí. Nehodnoťte je, neposuzujte, pouze je\nvnímejte. Zachovávejte při tom postoj nezúčastněného diváka... Nyní si uvědomte\nvlastní tělo. Vnímejte ho co nejpozorněji a nejsoustředěněji. I tady ale\nzachovávejte postoj neosobního, nezúčastněného diváka. Nejsou dobré pocity ani\nšpatné pocity, prostě tělo vnímáte, nic víc... A nyní s uvědomte vlastní myšlenky\na duševní pocity. I zde je vnímejte pozorně, ale uvolněně a neosobně. Nechte\nmyšlenky přicházet a odcházet, uvědomujte si, jak navazují i mezery mezi nimi.\nZachovávejte ale stále postoj uvolněného nezaujatého diváka, svědka,\npozorovatele... Nyní se připravte na konec cvičení. Hlouběji se nadechněte,\nprotáhněte se a otevírejte oči.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita C11 (s. 74)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=75",
+    "note": "Zdroj aktivity uvedený v lekci: NEŠPOR, Karel: Preventivní program FIT IN http://www.drnespor.eu Mgr. Kateřina Srbová UČÍME SE UVOLNIT A OBNOVIT SVÉ SÍLY © Projekt Odyssea, 2007 ISBN 978-80-87145-10-4"
+  },
+  "notes": "Věk uvedený v lekci: Od 12 let."
+}

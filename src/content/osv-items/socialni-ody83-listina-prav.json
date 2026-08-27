@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody83-listina-prav",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Listina práv",
+  "description": "Žáci si uvědomí svá osobní práva a práva druhých.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "listina"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "30 až 60 minut",
+  "materials": [
+    "Flipchart, fixy na flipchart, pracovní listy (B2), tužky"
+  ],
+  "procedure": "Rozdělíme žáky do skupinek po čtyřech. Požádáme je, aby si každá skupinka\nnašla své místo v místnosti tak, aby ji ostatní skupiny nerušily.\nDo každé skupiny dáme jeden pracovní list (B2). Je dobře, když jsou pracovní\nlisty předem připravené na arších papíru A4, lepší variantou je, když jsou\npřipraveny na arších flipchartového papíru.\nI když na pracovních listech je instrukce napsána, řekneme žákům, co je úkolem\nkaždé skupiny: „Každá skupina obdržela pracovní list. Úkolem každé skupiny je\nsestavit svou listinu práv. Zamyslete se společně, jaká práva byste měli\nbezpodmínečně mít. Pokud Vám nebude stačit předem připravený pracovní list,\nmůžete si vzít další čistý arch papíru.“\nKaždá skupina přednese svou listinu práv. V plénu se diskutuje o všech právech,\no nichž si kterýkoli žák myslí, že jsou nejednoznačná. Dále se identifikují\na diskutují sporné nároky.\nPak se třída pokusí ze všech listin sestavit jednu jedinou, o které by se dalo říct,\nže je to jejich vlastní listina práv.\nV závěrečné diskusi se žáky probereme, jak se cítí, když někdo nerespektuje nebo\ndokonce porušuje jejich práva. Jak reagují v situacích, kdy je narušováno nějaké\njejich právo. Pozornost je možné zaměřit i na to, zda oni sami někdy svým\nchováním neomezují nebo nenarušují práva druhých a jak na to druzí reagují.\nV závěru diskuse by mělo být shrnutí směřované k tomu, co jsme se naučili nebo\nco jsme se o sobě dozvěděli.",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita B1 (s. 59)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=60",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

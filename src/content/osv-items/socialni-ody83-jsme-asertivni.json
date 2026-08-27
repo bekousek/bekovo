@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody83-jsme-asertivni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Jsme asertivní",
+  "description": "Žáci porozumí asertivnímu vzorci chování a naučí se jej prakticky používat.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "asertivní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "40 až 50 minut",
+  "materials": [
+    "Flipchart, fixy na flipchart, pracovní listy, tužky."
+  ],
+  "procedure": "Provedeme krátký výklad na téma „Asertivita a základní vzorec asertivního\nchování“, přičemž vycházíme z kapitoly 2.2.2. Praktická teorie.\nRozdělíme žáky do skupinek po čtyřech. Požádáme je, aby si každá skupinka\nnašla své místo v místnosti tak, aby ji ostatní skupiny nerušily.\nDo každé skupiny dáme jeden pracovní list (B5). Je dobré, když jsou pracovní\nlisty předem připravené na arších papíru A4, lepší variantou je, když jsou\npřipraveny na arších flipchartového papíru.\nZadáme instrukci: „Každá skupina se domluví na jedné problémové situaci. Tuto\nsituaci popíšete v oddílu A. Pak budete společně diskutovat o tom, jaká jsou vaše\npráva v situaci, kterou jste právě popsali. Na právech se musíte shodnout, pak je\nnapíšete do oddílu B na předznačené místo („Jaká jsou v této situaci naše práva:“).\nV dalším kroku se zamyslíte, jaká jsou práva ostatních lidí, kterých se popsaná\nsituace týká. I na těchto právech se musíte shodnout. Ta napíšete rovněž do oddílu\nB na předznačené místo („Jaká jsou v této situaci práva druhých:“). Pak se\npokusíte zformulovat vaše chtění, tzn., co v této situaci chcete. Na tom závisí,\njak ji pak budete řešit. Při úvahách o svém chtění mějte na zřeteli svá práva\na práva druhých. Své chtění rovněž zaznamenejte do oddílu B na předznačené\nmísto („CO CHCI“). Do oddílu C pak napište, jak byste danou situaci řešili,\naby nebyla ohrožena vaše práva, ani práva ostatních lidí, kterých se situace\ndotýká. Máte na to 20 minut.“\nKaždá skupina prezentuje výsledky své práce a následuje diskuse v plénu\nk jednotlivým řešením. Je důležité odhalit případné agrese, pasivní chování\na manipulace, které mohou být obsaženy v jednotlivých řešeních. Jednotlivá\nřešení je zapotřebí společnými silami dopracovat tak, aby skutečně odpovídala\npojetí asertivity.\nVybereme jedno řešení, které bylo „opraveno“. Rozdělíme žáky do dvou skupin.\nJedna skupina pomocí hraní rolí předvede původní řešení, druhá skupina řešení\n„opravené“.\n\nPři závěrečné reflexi diskutujeme se žáky o tom, jak prožívali scénku vycházející\nz původního řešení a jak prožívali scénku vycházející z „opraveného“ řešení, co\nbylo při přípravě na scénku nejtěžší, co jim ulehčovalo práci a co se přitom o sobě\ndozvěděli (naučili).\nV závěru požádáme žáky, aby postup znázorněný na pracovním listu (B5) každý\nz nich použil alespoň 3x v nastávajícím období (můžeme rozdat každému žákovi\npracovní list na formátu A4).",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita B4 (s. 63)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=64",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

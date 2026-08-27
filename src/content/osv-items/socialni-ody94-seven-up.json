@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-seven-up",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Seven up",
+  "description": "Umožnit uvědomit si některé přínosy soutěživých situací, zejména např. trénink vytrvalosti a síly k sebepřekonání, dále např. stmelení skupiny a její odhodlání k společnému překonání výzvy dané soutěží, atd.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "seven"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Úkol zní: všichni členové skupiny musí mít po dobu 7 minut ruce nahoře, nejlépe\nve výšce ramen (nesmí klesnout např. pod hranici pupku). Mohou se jakkoli\nhecovat, povzbuzovat, podpírat (ale pouze rukama k lokti, tj. nelze si opřít ruku o\nspolužákovo rameno). Úkol sám o sobě je velmi těžký, učitel se pokud možno\nzapojí do hry a sám bude povzbuzovat nebo žádat pomoc.\nPozn. 1: chcete-li úkol zdynamizovat, jako věcnou výhru nabídněte láhev\nstejnojmenného nápoje (7 up) – pro celou skupinu. Úkol může být obohacen o\npovinnost držet tuto láhev celou dobu zvednutýma rukama ve vzduchu, žáci si ji\nmohou libovolně předávat.\nPozn. 2: je dobré dobu hry podkreslit hudbou, nejlépe skladbou trvající 7\nminut. O přípravu takovéto hudby můžete předem požádat nějakého žáka.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita A3 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=36"
+  }
+}

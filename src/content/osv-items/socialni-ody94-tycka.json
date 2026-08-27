@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-tycka",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Tyčka",
+  "description": "Umožnit prožít pocit prohry.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "tyčka"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Žáci jsou ve skupinkách po max. 10 lidech. Každá skupinka má jednu\nvelmi lehkou tyčku 1 – 1,5 m dlouhou. Všichni se jí musí po celou dobu hry\ndotýkat, a to ukazovákem jedné ruky - tak, že tyčka na těchto prstech leží. Žáci si\nto vyzkouší a učitel zatím tyčku přidržuje naopak shora a udržuje ji tak v rovině.\nŘíká, že až ji pustí, bude úkolem všech tyčku položit do půl minuty na zem; tak,\naby nespadla a tak, aby se jí všichni stále dotýkali. Nejedná se o soutěž skupinek\nmezi sebou, ale soutěž každé skupinky s úkolem.\nV okamžiku, kdy učitel tyčku pustí, obvykle se stane to, že tyčka stoupá,\nmísto aby klesala. Všichni se totiž snaží se jí dotýkat zespodu, a tím ji postrkují\nvzhůru. Do půl minuty obvykle nelze stihnout ji položit zpět na zem, vyžaduje to\ntotiž delší domluvu a soustředěnost všech.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B8 (s. 44)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=45"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody83-manipulativni-kritika",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Manipulativní kritika",
+  "description": "Žáci se naučí kultivovaně zvládat manipulativní kritiku.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "manipulativní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "30 až 40 minut",
+  "materials": [
+    "Pracovní listy E6, C2a, čisté papíry A4, tužky."
+  ],
+  "procedure": "Každý žák dostane dva pracovní listy E6, C2a – jeden je s komentářem v oddílech\nA až C, jeden bez komentáře v oddílech A až C.\nVyzveme žáky, aby si představili nějakou konkrétní situaci, kdy je někdo\nmanipulativně kritizoval. O co šlo nebo jde, napíší do oddílu A v pracovním listu\nbez komentáře C2a (pracovní list s komentáři E6 slouží jako tahák). Do oddílu C\nsi napíší jasnou formulaci otevřených dveří a negativního dotazování. Poskytneme\njim na to cca 5 až 7 minut.\nŽáci vytvoří dvojice a začne se s cvičením. Jeden z dvojice manipulativně\nkritizuje druhého, druhý z dvojice tuto kritiku zvládá. Pak si vymění role. Ostatní\nžáci jsou v roli pozorovatelů a po každé miniscénce mohou diskutovat\no předvedenému chování. Tímto způsobem si každý žák vyzkouší roli toho,\nkdo manipulativně kritizuje, a roli toho, kdo manipulativní kritiku zvládá.\nPři závěrečné reflexi diskutujeme se žáky o tom, jak se cítili v roli toho,\nkdo manipulativně kritizoval, jak se cítili v roli toho, kdo zvládal kritiku, co je\npři cvičení překvapilo, co jim činilo problémy, co by s tím šlo dělat, jak by jim\ntato dovednost mohla být užitečná.",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita E5 (s. 76)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=77",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

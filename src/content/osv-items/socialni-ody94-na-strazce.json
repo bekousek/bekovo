@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-na-strazce",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Na strážce",
+  "description": "Nacvičit zvýšení soustředěnosti, koncentrace, trénink obratnosti.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "strážce"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Na židlích postavených do kruhu sedí polovina hráčů. Za každým stojí jeho\nstrážce. Úkolem strážce je sedícího před sebou hlídat, a když se zvedá, aby unikl,\ndotknout se ho rukou – hlídaný se pak musí vrátit. Strážce má povinně ruce za\nzády, nesmí z místa a smí se dívat jen na zátylek sedícího před sebou. Jedna židle\nv kruhu je prázdná. Hráč za ní (volný strážce) se dívá po sedících a některého\nzamrkáním vyzve, aby si k němu přesednul. Mrknutím oslovený hráč zkusí\nnečekaně vstát, přeběhnout a sednout si na židli před volným strážcem. Když se\nmu to podaří, má zase jeho bývalý strážce před sebou volnou židli. Rozhlédne se a\nmrká na někoho ze sedících atd.\nZdroj: ŠIMANOVSKÝ, Z.. Hry pro zvládání agresivity a neklidu. Praha: Portál,\n2002. Str. 79.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B5 (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=42"
+  }
+}

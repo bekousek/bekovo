@@ -1,0 +1,32 @@
+{
+  "id": "socialni-ody72-muj-vzor",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Můj vzor",
+  "description": "Žáci zaměří pozornost na nositele dobrých mezilidských vztahů ve svém okolí",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 20 minut",
+  "procedure": "Žákům klademe otázky: Kdo se stará ve vašem okolí o dobré mezilidské vztahy\nnejvíce a nejlépe? Kdo je pro vás vždy inspirací a umí případně poradit , jak se\ns mezilidskými vztahy vypořádat tak, aby zůstaly vždy dobré? Koho bychom\noznačili jako vzor pro ostatní? Koho si jako vzoru ceníte vy osobně? Je to\ndospělý, je to spolužák?\nNásledně žáci seznámí ostatní s vybranou osobou a popíší ji co možná\nnejdetailněji.\nDiskusi doporučujeme uzavírat otázkami typu:\" Co mi tato aktivita přináší?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\" ;\n\"Co jsem se dozvěděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita C2 (s. 32)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=33",
+    "note": "Zdroj aktivity uvedený v lekci: HERMOCHOVÁ, Soňa. Hry pro život 1. Sociálně psychologické hry pro děti a mládež. Praha: Portál, 1994. ISBN 80-85282-79-8– upraveno pro Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od páté třídy."
+}

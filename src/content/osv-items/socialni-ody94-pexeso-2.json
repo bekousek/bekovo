@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-pexeso-2",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pexeso 2",
+  "description": "Projít si (a pasivně zapamatovat) seznam dovedností potřebných k nedestruktivní soutěži a následně se zamyslet nad jednou z nich jako nad exemplárním příkladem.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "pexeso"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Každá dvojice žáků spolu hraje specielně vyrobené pexeso. Každá sada obsahuje\nkartičky po dvou s názvy dovedností potřebných pro nedestruktivní soutěž:\n hrát čestně (fair play),\n užívat si soutěž, výhru i prohru,\n sledovat pokrok soutěžících,\n nepřeceňovat výsledky (oddělit výsledky od pohledu na\nsebe i ostatní),\n být dobrým vítězem a dobrým poraženým,\n být dobrým soutěžícím: nepoškozovat nic a nikoho a\nnenechat se poškozovat soutěživou situací, být\nodpovědný za své jednání v situaci soutěže, zvládat\nprojevy své agrese, umět se vcítit do soupeře (být\nempatický).\nPoté si každý žák vybere jednu dovednost z těch, které jsou uvedeny na\nkartičkách, které on získal. Původní dvojice se rozpadnou a utvoří se skupinky\nžáků, kteří si vybrali stejnou dovednost. Žáci mají diskutovat, jak vypadá soutěž,\nkde tato dovednost schází, a soutěž, kde se tato dovednost používá. Je vyvěšen\nseznam dovedností potřebných pro nedestruktivní soutěž a zástupci skupinek ke\nkaždé dovednosti stručně shrnou závěr z diskuze své skupinky.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita C1 (s. 46)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=47"
+  }
+}

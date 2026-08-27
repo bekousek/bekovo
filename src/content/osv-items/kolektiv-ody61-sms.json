@@ -1,0 +1,36 @@
+{
+  "id": "kolektiv-ody61-sms",
+  "categoryId": "tridni-kolektiv",
+  "title": "SMS",
+  "description": "Nabídnutí možnosti vyjádřit obavy, lítost, stud, napětí, nelibost a hledání možnosti případné neohleduplné jednání napravit, či jinak vyčistit vztahy od napětí .",
+  "keywords": [
+    "spolužáci",
+    "seznamování",
+    "poznávání"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 50 minut",
+  "materials": [
+    "Dostatek menších papírů pro každého, tužka"
+  ],
+  "procedure": "Zahájíme s žáky debatu na téma, zda mají strach, či se stydí někdy někomu něco\nříci. Někdy k nám někdo není ohleduplný a nás se to dotkne a nevíme, jak mu to\nříci. Někdy nás někdo potěší a my se stydíme mu dát najevo radost a potěšení.\nŽáci se zamyslí a takovou situaci si ze svého života vybaví. Nabídneme, že\ndotyčnému můžou napsat SMS. Každý napíše krátký vzkaz tomu, komu by chtěl\nněco vzkázat a nemá k tomu odvahu či příležitost. SMSek může každý napsat víc\n– rodičům , sourozencům, kamarádům, spolužákům apod., necháme proto dost\nčasu. S žáky se předem domluvíme, jak se SMSkami po aktivitě naložíme –\nzůstanou u nás, před zraky všech je roztrháme na kousíčky do koše či jinak\nzajistíme skutečnou anonymitu i po aktivitě atd.\nSMSky pak vybereme a lektor anonymně čte jednu po druhé. Ptáme se žáků, jaké\npocity asi měl pisatel a jak by asi reagoval příjemce a jaké by mohla mít SMSka\ndůsledky.\nZávěrem se ptáme, zda někdy podobnou SMSku poslali či dostali, zda by bylo\nmožné některou ze SMSek skutečně poslat.\nDiskusi doporučujeme uzavřít otázkami typu: \"Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\";\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 6.1, aktivita B4 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf#page=35",
+    "note": "Zdroj aktivity uvedený v lekci: Kartotéka S. Hermochové"
+  },
+  "notes": "Věk uvedený v lekci: Od páté třídy."
+}

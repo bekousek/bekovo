@@ -1,0 +1,31 @@
+{
+  "id": "osobnostni-ody13-insert",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Insert",
+  "description": "Jde o metodu, kterou si čtenář zpracovává text při prvním čtení, a která mu má pomoci vnímat text pozorně a uvědomovat si lépe informace, které text obsahuje. Čtenář během čtení rozhoduje o tom, jaký má vztah k té či oné informaci, může se po přečtení textu vracet k místům, která mu byla při prvním čtení nejasná, apod. Nejdůležitější informace si může nakonec seřadit do tabulky INSERT, která žákovi ve škole slouží místo zápisu do sešitu. Učitel musí počítat s tím, že každý žák bude mít jiný zápis. Nejprve provedeme se žáky brainstorming, myšlenkovou mapu nebo volné psaní na dané téma. Čtenáři se tak při čtení budou moci snáze rozhodnout, zdali je informace v textu pro ně vůbec důležitá, známá, nová, rozporuplná či matoucí.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "studijní technika",
+    "insert"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "1. Instrukce k četbě se značkami INSERT\nČtěte text s tužkou v ruce. Během první četby se zamýšlejte nad významem\ninformací, na které v textu narazíte. Informace označujte a využívejte k tomu\nnásledující znaménka:\nD\nUdělejte „fajfku“ na okraji textu, jestliže něco z toho, co čtete,\npotvrzuje to, co jste věděli nebo si mysleli, že víte.\n-\nUdělejte mínus, jestliže informace, kterou čtete, je v rozporu s tím,\nco jste si mysleli nebo jste slyšeli.\n+\nUdělejte plus, jestliže informace, kterou se dozvíte, je pro vás nová\na důvěřujete jí.\n?\nUdělejte otazník, jestliže objevíte informaci, které nerozumíte,\nkterá vás mate nebo o které byste se chtěli dozvědět více.\nPoznámka: Až si budete dělat během čtení znaménka, neoznačujte každou\ninformaci, kterou text obsahuje. Značka by měla odrážet váš vztah k vybrané\ninformaci – totiž to, zda považujete informaci za důležitou, zajímavou, apod.\nVyužijte zhruba jednu nebo dvě značky na odstavec, někde více, jinde méně. Je\n\nšikovné dělat značky po pravém okraji textu. Pokud je to pro lepší orientaci\nv textu potřeba, můžete si podtrhnout konkrétní slova, k nimž se značka vztahuje.\nDbejte na to, abyste označovali opravdu konkrétní informace, a ne třeba celé\nhnízdo informací (např. označit celý odstavec nedává smysl, protože odstavec\nobyčejně obsahuje mnohem víc, než jednu informaci).\nTabulka INSERTu\nKdyž žáci prodiskutují, nač v textu narazili (učitel má několik možností, jak vést\ntuto diskusi – ale nesmí ji vynechat), přistoupíme v hodině k zápisu (k fázi\nreflexe). Zápis může být proveden různými způsoby, často se volí tabulka\nINSERTu. Žák si v ní zapisuje pod znaménka INSERTu ty informace, které sám\npovažuje za významné.\nTabulku si vyplní každý žák individuálně. Na závěr hodiny vyzve učitel tři žáky,\naby doslova přečetli všechny své zápisy v prvním ze sloupců (tj. k témuž\nznaménku), pak další tři žáky k druhému sloupci – znaménku atd. Žáci tak mají\nsrovnání svého vnímání textu s tím, jak stejný text vidí spolužáci.\nInstrukce k zápisu do tabulky INSERTu\nKaždý si pro sebe nakreslete do sešitu (či na list pro portfolio) dost prostornou\ntabulku se čtyřmi sloupci. Do každého sloupce budete sami zapisovat informace\nk jedné ze čtyř značek. V prvním sloupci tabulky je „D“ – zapište tři informace,\nkteré jste znali už před četbou a text je potvrdil. V druhém sloupci je nadepsáno\n„+“, tam zapíšete samostatně tři nové informace, které považujete za\ndůvěryhodné. Pod značku „-\" do třetího sloupce zapište minimálně jednu\ninformaci, která je v rozporu s tím, co jste si mysleli před četbou. Do čtvrtého\nsloupce pod „?“ zformulujte otázku (= bude to celá věta tázací, ne jen heslo!).\nNa co si dát pozor: Vždy si zapisujte docela konkrétní informaci. Např. „naložený\nvelbloud kráčí rychlostí 40 km za den“ je konkrétní informace, zatímco heslo\n„rychlost velblouda“ není konkrétní informace.",
+  "source": {
+    "label": "Odyssea — Lekce 1.3, aktivita A1 (s. 49)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf#page=50",
+    "note": "Zdroj aktivity uvedený v lekci: STEELOVÁ, J. L., MEREDITH K. S., TEMPLE, Ch., WALTER, S.: Co je kritické myšlení (vymezení pojmu a rámce E-U-R) Příručka I, o.s. Kritické myšlení, Praha, 1997."
+  }
+}

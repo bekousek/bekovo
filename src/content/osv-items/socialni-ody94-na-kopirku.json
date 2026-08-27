@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-na-kopirku",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Na kopírku",
+  "description": "Procvičit soustředěnost, koncentraci, vizuální paměť.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "kopírku"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Učitel nechá žáky prohlížet si nějakou věc, poté ji schová a žáci mají během\njedné minuty (či několika minut) věc co nejpřesněji nakreslit. Vedoucí postupně\nzkracuje dobu, po kterou předvádí další věci. Předměty mohou být různě „složité“\nna nakreslení – telefonní karty, mobilní telefony; mezi jednotlivými předměty se\nmůžete pozastavit nad tím, čeho si kdo všímá (celek/detaily), …\nZdroj: ŠIMANOVSKÝ, Z.. Hry pro zvládání agresivity a neklidu. Praha: Portál,\n2002. Str. 76.",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B4 (s. 40)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=41"
+  }
+}

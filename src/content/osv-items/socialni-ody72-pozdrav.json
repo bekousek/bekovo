@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody72-pozdrav",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pozdrav",
+  "description": "Žáci věnují pozornost běžné, ale o to důležitější činnosti, jakou je pozdravení. Pozdrav je projevem úcty , ale i navázáním kontaktu a počátkem vzájemné interakce lidí. A proto je takovou vstupní branou, a může navodit atmosféru, ve které se bude interakce odehrávat.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "pozdrav"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 30minut",
+  "procedure": "Probereme nejběžnější situace, kdy se zdravíme. Můžeme se více zastavit\nu důležitých situací a ty ve dvojicích modelovat./Setkání s významnou osobou,\nkamarádem, rodiči kamaráda, prodavačem, úředníkem/. Sledujeme oslovení, oční\nkontakt, stisk ruky.\nPohovoříme, jaký pozdrav kdo preferuje a proč, co z pozdravu o druhém\nusuzujeme.\nDiskusi doporučujeme uzavírat otázkami typu:\" Co mi tato aktivita přináší?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyn?\" ;\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita D3 (s. 40)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=41",
+    "note": "Zdroj aktivity uvedený v lekci: Lencz, L.Křížová, O.: Etická výchova, ,Praha Luxpress 2000 ISBN 80-7130-091-8"
+  },
+  "notes": "Věk uvedený v lekci: Od třetí třídy."
+}

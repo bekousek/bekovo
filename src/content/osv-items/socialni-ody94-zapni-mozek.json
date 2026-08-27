@@ -1,0 +1,32 @@
+{
+  "id": "socialni-ody94-zapni-mozek",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Zapni mozek",
+  "description": "Procvičit soustředěnost, aktivizovat mozek.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "zapni",
+    "mozek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Žáci si zvolí 12 příjemných slov, která jsou zapisována na tabuli, vždy tři vedle\nsebe, tj. do čtyř sloupců. Nad každé slovo je napsáno libovolné písmeno z těchto:\nL (= levá), P (= pravá), O (= obě). Poté si všichni stoupnou čelem k tabuli, slova\nčtou a zvedají u každého slova pravou, levou nebo obě ruce, podle nadepsaného\npísmene. Při druhém kole se u slov zvedají pravá nebo levá noha, na „obě“ se\nvyskočí. Ve třetím kole se u čtení zapojí jak ruce, tak nohy. Lze zapojit i čtvrté\nkolo (zejména jsou-li žáci na toto cvičení zvyklí), při němž zvedající se ruce\nodpovídají nadepsanému písmenu a nohy se současně zvedají naopak (tj. např. P =\npravá ruka, levá noha).\nZdroj: Autor neznámý",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B6 (s. 42)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=43"
+  }
+}

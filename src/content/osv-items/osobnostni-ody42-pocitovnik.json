@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody42-pocitovnik",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Pocitovník",
+  "description": "Pocitovník slouží třídě k tomu, aby každý mohl kdykoli jednoduše dát najevo druhým, jak se právě cítí. Žáci se učí všímat si svých pocitů, rozpoznat je a pojmenovat.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "pocitovník"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "10 min",
+  "materials": [
+    "Pocitovník (obrázek s názvy různých emocí), vlaječky se jmény všech žáků,",
+    "korková nebo jiná měkčí nástěnka"
+  ],
+  "procedure": "Pocitovník je obrázek, na kterém jsou napsány názvy různých emocí a dalších\ndůležitých prožitků. Obrázek je připnutý na nástěnce. Vedle něj se nacházejí\nšpendlíky se jmenovkami všech žáků včetně učitele. Žáci mohou dát najevo, jak\nse cítí, tím, že zapíchnou svůj špendlík k odpovídajícímu pocitu. Každý má právo\nzaparkovat svůj špendlík na okraj nástěnky a nechat si své pocity pro sebe.\nCeloroční práce s pocitovníkem řízená učitelem\nTřída může pocitovník využívat pod vedením třídního učitele po celý rok, např. na\nzačátku a na konci týdne, na začátku a na konci třídnické hodiny a při různých\njiných příležitostech. Další možností je používat pocitovník každý den během\nurčitého vymezeného období, např. po dobu trvání projektu, který v ideálním\npřípadě navazuje na tento kurz a ve kterém se po dobu jednoho měsíce\nsystematicky trénují nebo zkoušejí postupy osvojené v tomto kurzu. Učitel\nv určitých okamžicích vyzve žáky, aby dali pomocí pocitovníku najevo, jak se\ncítí, a může navázat krátkou diskusí, ve které mají žáci příležitost hovořit o svých\npocitech a o tom, co je vyvolalo. Po skončení diskuse učitel pocitovník odnese.\nTýdenní volně přístupný pocitovník\nKromě toho můžeme nechat žáky pracovat po\nomezenou dobu (např. jednoho týdne)\ns pocitovníkem samostatně. V tomto případě je\npocitovník volně k dispozici ve třídě. Tento postup\nvšak doporučujeme jen tehdy, pokud se třídy během\ntýdne nestěhují ze třídy do třídy, aby „pocity“ žáků\nnebyly vystavovány pohledům žáků z jiných tříd.\nReálnější je využití volně přístupného pocitovníku\nnapř. na horách, na adaptačním nebo jiném\nvýjezdním soustředění třídy.\nZdroj: o.s. Projekt Odyssea\n\nsmutek\nstrach\nhněv\npochybnosti o\nsobě\núzkost\nnervozita\nostych\nlhostejnost\nnuda\núnava\nzlost\nvyčerpání\nradost\nspokojenost\nnadšení\nklid\nštěstí\npohoda\nsíla a\nenergie\nsebedůvěra\nsvěžest\nvděčnostdůvěra\nsmělost\nchuť do\npráce\npřátelské\npocity\nsoucit",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita A10 (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=42"
+  }
+}

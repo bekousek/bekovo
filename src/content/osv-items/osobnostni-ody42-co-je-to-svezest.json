@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody42-co-je-to-svezest",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Co je to svěžest",
+  "description": "Žáci vysvětlí, co je to svěžest, únava, jak se projevují a čím jsou vyvolány.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "svěžest"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "5 min",
+  "materials": [
+    "Flipchartový papír, fixa"
+  ],
+  "procedure": "Ukážeme žákům předem připravený flipchart s třemi otázkami:\nJak se cítím, když jsem\nunavený svěží?\nJak se chovám, když jsem\nunavený svěží?\nJak v sobě mohu vyvolat\núnavu svěžest?\nPokládáme žákům otázky a jejich odpovědi zapisujeme na papír.\n¾ Co to znamená být svěží?\n¾ Jak se cítí člověk, který je svěží?\n¾ Jak na někom poznáme, že je svěží? Jak se to na něm projevuje?\n¾ Co je opakem svěžesti?\n¾ Předveďte, jak stojí svěží člověk a jak člověk unavený?\n¾ Jak byste se mohli nejlépe unavit?\n¾ Jak byste mohli obnovit svoje síly, svoji svěžest?",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita B2 (s. 47)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=48",
+    "note": "Zdroj aktivity uvedený v lekci: O.s. Projekt Odyssea"
+  }
+}

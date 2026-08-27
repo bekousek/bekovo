@@ -1,0 +1,32 @@
+{
+  "id": "osobnostni-ody13-udelejme-z-toho-pribeh",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Udělejme z toho příběh",
+  "description": "Žáci si ověří jeden z důležitých principů fungování paměti: informace propojené do příběhu se zapamatují lépe a rychleji než informace bez souvislosti.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "studijní technika",
+    "udělejme",
+    "příběh"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Žáci mají za úkol propojit do příběhu soubor slov, který je třeba se naučit\nnazpaměť. Pro soubory slov mohou posloužit Verdiho opery, skladby Mé vlasti,\nnaši prezidenti, apod.\nNapř. Když byli Braniboři v Čechách, Prodali nevěstu Daliborovi, ten pak dal\nDvěma vdovám Hubičku a o tom Tajemství se za Čertovou stěnou dozvěděla\nViola.",
+  "source": {
+    "label": "Odyssea — Lekce 1.3, aktivita B6 (s. 93)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf#page=94",
+    "note": "Zdroj aktivity uvedený v lekci: LAIROVÁ, Sylvie. 1999. Trénink paměti. Praha: Portál, ISBN 80-7178-293-9, s. 89-90."
+  }
+}

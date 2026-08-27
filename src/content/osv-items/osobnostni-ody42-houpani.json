@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody42-houpani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Houpání",
+  "description": "Žáci s pomocí spolužáků zažijí relaxaci využívající uvolňovacího účinku dotyků a hudby.",
+  "keywords": [
+    "relaxace",
+    "psychohygiena",
+    "nálada",
+    "houpání"
+  ],
+  "type": "aktivita",
+  "grades": [
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Podle počtu žáků. 30 žáků ve třech skupinách 15 min.",
+  "procedure": "Tuto aktivitu lze provádět pouze se třídou, kde máme kázeň pod kontrolou. Jinak\nby mohlo dojít ke zranění.\nRozdělíme třídu do skupin po osmi až deseti. Žáci se ve skupinách rozestaví do\ndvou řád stojících proti sobě. Proti sobě stojící žáci se vezmou za ruce. Jeden žák\nsi zvolna lehne na ruce ostatních. Ti jej pomalu houpají. Hraje příjemná relaxační\nhudba. Ulehnutí na ruce a postavení se zpět na nohy je třeba nacvičit. Necháme\nžáky vymyslet co nejelegantnější způsob jak žáka nalodit a vylodit. Učitel stojí\nmimo skupiny a dohlíží na bezpečnost. V případě nekázně zastaví práci všech\nskupin.",
+  "source": {
+    "label": "Odyssea — Lekce 4.2, aktivita C6 (s. 67)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-4-2-Ucime-se-uvolnit-a-obnovit-sve-sily.pdf#page=68",
+    "note": "Zdroj aktivity uvedený v lekci: ŠIMANOVSKÝ Zdeněk, 1998. Hry s hudbou a techniky muzikoterapie ve výchově, sociální práci a klinické praxi. Praha: Portál."
+  },
+  "notes": "Věk uvedený v lekci: Od 14 let."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody83-uplatnujeme-opravneny-pozadavek",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Uplatňujeme oprávněný požadavek",
+  "description": "Žáci se naučí uplatňovat oprávněné požadavky.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "uplatňujeme",
+    "oprávněný",
+    "požadavek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "30 až 40 minut",
+  "materials": [
+    "Pracovní listy C2, C2a, čisté papíry A4, tužky."
+  ],
+  "procedure": "Každý žák dostane dva pracovní listy C2, C2a – jeden s komentářem v oddílech\nA až C, jeden bez komentáře v oddílech A až C.\nVyzveme žáky, aby si představili nějakou konkrétní situaci, kdy jim někdo\nodmítal nebo by mohl odmítat splnění jejich oprávněného požadavku. O co šlo\nnebo jde, napíší do oddílu A v pracovním listu bez komentáře (pracovní list\ns komentáři slouží jako tahák). Do oddílu C si napíší jasnou formulaci (deklaraci)\nsvého oprávněného požadavku a co by považovali za přijatelný kompromis,\nkdyby partner pořád odmítal splnění. Poskytneme jim na to cca 5 až 7 minut.\nŽáci vytvoří dvojice a začne se s cvičením. Jeden z dvojice uplatňuje svůj\npřipravený požadavek, druhý z dvojice se snaží o to, aby první od svého\npožadavku ustoupil. Pak si vymění role. Ostatní žáci jsou v roli pozorovatelů\na po každé miniscénce mohou diskutovat o předvedeném chování. Tímto\nzpůsobem si každý žák vyzkouší roli toho, kdo oprávněný požadavek uplatňuje,\na roli toho, kdo splnění oprávněného požadavku odmítá.\nV závěrečné reflexi diskutujeme se žáky o tom, jak se cítili v roli toho,\nkdo odmítá splnění oprávněného požadavku, jak se cítili v roli toho,\nkdo uplatňoval oprávněný požadavek, co je při cvičení překvapilo, co jim činilo\nproblémy, co by s tím šlo dělat, jak by jim tato dovednost mohla být užitečná.",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita C1 (s. 67)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=68",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

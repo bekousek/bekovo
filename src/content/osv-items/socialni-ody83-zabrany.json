@@ -1,0 +1,42 @@
+{
+  "id": "socialni-ody83-zabrany",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Zábrany",
+  "description": "Žáci si uvědomí překážky v uplatňování svých osobních práv a najdou možnosti jejich eliminace.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "zábrany"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "20 až 30 minut – jedno téma",
+  "materials": [
+    "Flipchart, fixy na flipchart",
+    "Témata k diskusi:",
+    "Co by nám mohlo bránit:",
+    "mít vlastní názory a hodnoty?",
+    "tyto vlastní hodnoty a názory veřejně hlásat?",
+    "v samostatném rozhodování?"
+  ],
+  "procedure": "Uvedeme diskusi: „Pojďme se pobavit o tom, co by nám mohlo bránit v tom,\nabychom měli vlastní názory a hodnoty. Kdo chce začít?“\nŽáci diskutují, učitel jednotlivé zábrany zaznamenává na flipchart. Je třeba dbát\nna to, aby žáci vždy odsouhlasili zápis. Zapsané flipcharty viditelně věšíme na\nstěny místnosti.\nKdyž už nikoho nic nenapadá, požádáme žáky, aby si každý vybral ze seznamu\njednu zábranu, kterou by chtěl překonat.\nŽáci jednotlivě mluví nahlas přede všemi, co by mohli dělat, aby zábranu\nodstranili. Ostatní mohou přispívat svými nápady.\nProvedeme reflexi, během které se žáky diskutujeme o tom, co koho překvapilo,\nco nového se o sobě dozvěděli, jak jim to může pomoct.\n\nTuto aktivitu můžeme rozdělit do několika setkání. Doporučuje se na jednom\nsetkání probrat jenom jedno téma.\nPrvní tři témata by měla být povinná. Ostatní témata zařazujeme podle potřeby\npříslušné skupiny, přičemž nemusíme nutně čerpat témata pouze z uvedeného\nseznamu. Pokud je to pro skupinu užitečné a potřebné, můžeme vymyslet\ni specifická témata.",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita B3 (s. 61)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=62",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

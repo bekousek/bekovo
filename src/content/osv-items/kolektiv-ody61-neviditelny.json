@@ -1,0 +1,37 @@
+{
+  "id": "kolektiv-ody61-neviditelny",
+  "categoryId": "tridni-kolektiv",
+  "title": "Neviditelný",
+  "description": "Žáci zjistí, kdy a jak se snaží zviditelnit, uvědomí si, jak se asi cítí ten, kdo je opomíjen, uvědomí si, že součástí ohleduplného vztahu k ostatním je i dopřát druhým pozornost stejně tak jako respektovat, že o pozornost nemají zrovna zájem.",
+  "keywords": [
+    "spolužáci",
+    "seznamování",
+    "poznávání",
+    "neviditelný"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Seznamování a adaptace",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 60 minut",
+  "materials": [
+    "Papír, tužka"
+  ],
+  "procedure": "Žákům položíme otázku, zda si někdy přáli být neviditelní a proč, nebo kdy se\njako neviditelní skutečně cítili a proč. Ptáme se i na to, jak si pozornost druhých\nzajišťují.\nVyzveme žáky, aby svůj zážitek, kdy byli přehlíženi, popsali jako příběh. Pak ve\nskupinkách po cca třech si své příběhy představí a srovnávají, v čem se liší a co\nmají společního.\nNásleduje debata s celou třídou. Závěry z práce ve skupinkách žáci využijí\nk tomu, aby si odpověděli na to, kdy jim vadí přehlížení druhých a jakou metodu\nzviditelnění považují za nejúčinnější a přijatelnou. Co mohou sami dělat, aby si\njich druzí všímali.\nPtát se můžeme i na to, zda někdy o pozornost druhých nestojí a jak jim to dají\nnajevo.\nDiskusi doporučujeme uzavřít otázkami typu:\" Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\";\n\"Co jsem se dověděl nového?\"",
+  "source": {
+    "label": "Odyssea — Lekce 6.1, aktivita B3 (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-6-1-Poznavame-sve-spoluzaky.pdf#page=34",
+    "note": "Zdroj aktivity uvedený v lekci: Kartotéka S. Hermochové"
+  },
+  "notes": "Věk uvedený v lekci: Od čtvrté třídy."
+}

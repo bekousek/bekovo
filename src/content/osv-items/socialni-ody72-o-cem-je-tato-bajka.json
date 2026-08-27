@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody72-o-cem-je-tato-bajka",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "O čem je tato bajka",
+  "description": "Ukázat na různé typy mezilidských vztahů, posílit citlivost vůči projevům dobrých mezilidských vztahů.",
+  "keywords": [
+    "mezilidské vztahy",
+    "slušné chování",
+    "bajka"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Mezilidské vztahy",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "Do 10 minut čtení 20 a více podle délky diskuse ve třídě",
+  "materials": [
+    "Jakákoli kniha bajek, nejlépe Ladovy bajky."
+  ],
+  "procedure": "Vybereme bajku a to i s ohledem na to, zda ve třídě cítíme nějaký problém, který\ntímto můžeme ovlivnit.\nBajku přečteme. Následuje diskuse. Zeptáme se: Jaký vztah mají hrdinové mezi\nsebou? Má v sobě bajka návod jak vztah vylepšit? Lze podobně postupovat\ni v reálném životě?\nDiskusi doporučujeme uzavřít otázkami typu:\" Co mi tato aktivita přinesla?\";\n\"O čem jsem v této souvislosti dosud neuvažoval?\"; \"Co mi došlo až nyní?\";\n\"Co jsem se dozvěděl nového?\".",
+  "source": {
+    "label": "Odyssea — Lekce 7.2, aktivita A1 (s. 21)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-2-Pecujeme-o-dobre-vztahy.pdf#page=22",
+    "note": "Zdroj aktivity uvedený v lekci: Archív Jana Vaňková – upraveno pro Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od třetí třídy."
+}

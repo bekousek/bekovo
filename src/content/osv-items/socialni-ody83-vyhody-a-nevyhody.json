@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody83-vyhody-a-nevyhody",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Výhody a nevýhody",
+  "description": "Žáci si uvědomí výhody asertivního chování.",
+  "keywords": [
+    "asertivita",
+    "odmítání",
+    "kritika",
+    "výhody",
+    "nevýhody"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Komunikace a sociální interakce",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "duration": "30 až 40 minut",
+  "materials": [
+    "Flipchart, fixy na flipchart."
+  ],
+  "procedure": "Rozdělíme žáky do 4 skupin a požádáme je, aby si každá skupinka našla své místo\nv místnosti tak, aby ji ostatní skupiny nerušily.\nKaždé skupině určíme typ chování, se kterým bude pracovat (agresivní, pasivní,\nmanipulativní, asertivní).\nKaždá skupina si vezme dva čisté flipchartové papíry. Sdělíme skupinám zadání:\n„Vaším úkolem je sepsat na jeden flipchartový papír výhody a na druhý\nflipchartový papír nevýhody toho typu chování, který vám byl přidělen. Máte\nna to 10 minut.“\nKaždá skupina prezentuje výsledky své práce. Po každé prezentaci následuje\nkrátká diskuse. Diskutují se sporné věci, ostatní skupiny mohou navrhovat\ndoplnění. Vypracované a doplněné flipcharty věšíme na stěny tak, aby je všichni\nměli na očích.\nProvedeme „zkoušku správnosti“ tak, že si každá skupina připraví krátkou scénku,\nve které předvede ten typ chování, ke kterému psala výhody a nevýhody.\nPo každé scénce proběhne krátká diskuse, zaměřená na výhody a nevýhody\npříslušného typu chování. Je možné přitom doplňovat inventáře visící na stěnách.\nPři závěrečné reflexi diskutujeme se žáky o tom, co je překvapilo, co nového\nse o sobě dozvěděli, co by jim mohlo být užitečné se naučit.\nV závěru požádáme žáky, aby opět použili úmyslně alespoň 3x v nastávajícím\nobdobí asertivní postup podle pracovního listu (B5 - můžeme rozdat každému\nžákovi pracovní list na formátu A4).",
+  "source": {
+    "label": "Odyssea — Lekce 8.3, aktivita B6 (s. 66)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-8-3-Ucime-se-otevrene-uplatnovat-sve-nazory-potreby-a-prava-Asertivita.pdf#page=67",
+    "note": "Zdroj aktivity uvedený v lekci: o.s. Projekt Odyssea"
+  },
+  "notes": "Věk uvedený v lekci: Od 11 let."
+}

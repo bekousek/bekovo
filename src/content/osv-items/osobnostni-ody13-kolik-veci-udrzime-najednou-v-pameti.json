@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-ody13-kolik-veci-udrzime-najednou-v-pameti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kolik věcí udržíme najednou v paměti?",
+  "description": "Účelem této aktivity je, aby žáci objevili, kolik prvků si jsou schopni zapamatovat při jednom předvedení (7 +/-2), kolik zapomenou s časovým odstupem a že si nejvíce pamatujeme to, co se učíme na začátku a na konci. Vyzkouší si svoji krátkodobou paměť na slova, čísla a obrázky.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "studijní technika",
+    "kolik",
+    "udržíme",
+    "najednou",
+    "paměti?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Přečteme žákům seznam 15 slov, která nemají žádnou souvislost.\nHned poté žáky požádáme, aby si vybavili a zapsali všechna slova, která si\npamatují.\nPozor. Nenecháme žáky, aby si svůj seznam kontrolovali nebo pročítali.\nVyzveme žáky, ať se na nás podívají, a 1 minutu k nim o něčem hovoříme.\nVyzveme je, aby otočili stránku, a opět napsali všechna slova, která si\nzapamatovali.\nPřečteme opět tento seznam slov a požádáme žáky, aby si vypočítali, kolik si byli\nschopni zapamatovat napoprvé, kolik napodruhé. Zda více, méně nebo stejně.\nPtáme se proč tomu tak asi bylo.\nKolik slov jste si zapamatovali?\nVětšina lidí si dokáže najednou zapamatovat 7 +/- 2 prvky.\nCo z toho vyplývá pro naše učení?\nKolik slov jste si zapamatovali z prvních tří slov? Kolik z posledních tří?\nVětšinou si lidé lépe zapamatují to, co se učí na začátku a na konci. To, co se\nučíme uprostřed si zapamatujeme obtížněji.\nPotvrdilo se to i v našem experimentu ve třídě?\nCo z toho vyplývá pro vaše učení?\nStejně postupujeme s předměty a čísly.",
+  "source": {
+    "label": "Odyssea — Lekce 1.3, aktivita B4 (s. 85)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-3-Ucime-se-ucit-se.pdf#page=86",
+    "note": "Zdroj aktivity uvedený v lekci: LAIROVÁ, Sylvie. 1999. Trénink paměti. Praha: Portál, ISBN 80-7178-293-9, s. 14 - 19."
+  }
+}

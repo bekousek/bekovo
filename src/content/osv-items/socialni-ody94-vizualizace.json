@@ -1,0 +1,31 @@
+{
+  "id": "socialni-ody94-vizualizace",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Vizualizace",
+  "description": "Vizualizovat si svůj osobní pokrok v nějakém tématu či disciplíně.",
+  "keywords": [
+    "soutěž",
+    "výhra a prohra",
+    "fair play",
+    "vizualizace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Spolupráce a kooperace",
+    "Emoce a jejich zvládání"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-24",
+  "procedure": "Stručně žáky seznámíme s výzkumem uvedeným výše v praktické teorii. Lépe\nbude pro nácvik zvolit ze začátku nějaký sportovní výkon (př. skok do dálky) než\nmentální výkon, mohl by být pro představy žáků příliš abstraktní. Učitel pak žáky\nse zavřenýma očima provází vizualizací (představuji si, jak jsem před rozběhem\nkoncentrovaný, rozbíhám se, výborně se odrážím přesně na místě, kde potřebuji,\nletím vysoko ve vzduchu a dopadám daleko za místo svého obvyklého doskoku\n...). Celou vizualizaci formulujte v pozitivních větách (tj. např. při míčových\nhrách: vyhýbám se soupeřům = pozitivní formulace; nenarážím do soupeřů =\nnegativní formulace, té se vyhněte, mozek si neumí představit ne!)",
+  "source": {
+    "label": "Odyssea — Lekce 9.4, aktivita B3 (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=40"
+  }
+}
