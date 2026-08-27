@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-isky-smartphone",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "iSky – orientace na noční obloze smartphonem",
+  "type": "method",
+  "description": "Žáci využívají aplikace na smartphonu k orientaci podle noční oblohy a měří výšku Slunce nad obzorem; z délky dne pak propočítají obvod Země. Materiál z projektu Science on Stage Europe kombinuje astronomická pozorování s jednoduchou matematikou a prací s mobilními aplikacemi. Část pozorování probíhá venku za šera nebo v noci, žáci dokumentují svá měření – vhodné jako doplněk hodiny nebo domácí pozorování.",
+  "source": {
+    "label": "Science on Stage Europe",
+    "url": "https://www.science-on-stage.eu/material/isky"
+  }
+}

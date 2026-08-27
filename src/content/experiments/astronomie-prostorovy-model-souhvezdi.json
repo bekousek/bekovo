@@ -1,0 +1,17 @@
+{
+  "id": "astronomie-prostorovy-model-souhvezdi",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Prostorový model souhvězdí – proč záleží na úhlu pohledu",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci prozkoumají prostorový model souhvězdí z různých úhlů a empiricky zjistí, že hvězdy daného souhvězdí spolu ve skutečnosti prostorově nesouvisejí – jejich zdánlivé uspořádání závisí výhradně na úhlu pohledu pozorovatele ze Země. Každý žák poté zhotoví vlastní kapesní model souhvězdí odpovídajícího jeho datu narození (hvězdy zvěrokruhu). Pokus buduje prostorové myšlení a odkrývá konceptuální podstatu souhvězdí jako perspektivního jevu.",
+  "materials": [
+    "papír nebo karton",
+    "špejle nebo tyčky různých délek",
+    "lepidlo nebo páska"
+  ],
+  "source": {
+    "label": "iQLANDIA Liberec – pro školy",
+    "url": "https://iqlandia.cz/skoly/vzdelavaci-programy/iqplanetarium"
+  }
+}

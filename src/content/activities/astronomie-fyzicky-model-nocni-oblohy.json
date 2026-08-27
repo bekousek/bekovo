@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-fyzicky-model-nocni-oblohy",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Fyzický model noční oblohy – planisféra a sezónní souhvězdí",
+  "type": "group-work",
+  "description": "Žáci ve skupinách vytvoří vlastní fyzický model noční oblohy (otáčivý disk – planisféra) a pomůcku k určování souhvězdí viditelných v jednotlivých ročních obdobích. Součástí je diskuse o světelném znečištění – proč jsou ve městech vidět méně hvězd než na venkově. Na závěr žáci sdílejí poznatky a screenshoty z aplikace Stellarium, čímž propojují manuální práci s digitálním pozorováním.",
+  "source": {
+    "label": "RVP.cz",
+    "url": "https://clanky.rvp.cz/clanek/c/Z/24083/vesmir-pozorovani-nocni-oblohy.html"
+  }
+}
