@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-bod-varu-mereni",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Měření teploty varu vody",
+  "type": "measurement",
+  "description": "Žákovský měřicí pokus: žáci zahřívají vodu a každých 30 sekund zapisují teplotu, přičemž sledují, kdy var začne a zda teplota dál roste. Naměřenou teplotu varu srovnávají s tabelovanou hodnotou 100 °C a diskutují vliv nadmořské výšky nebo nečistot. Pokus přímým měřením vymezuje pojem teplota varu a upevňuje dovednost práce s teplotní sondou a grafem T(t).",
+  "materials": [
+    "elektrický vařič nebo kahan",
+    "kádinak (250 ml) s vodou",
+    "teploměr nebo teplotní sonda s datalogerem",
+    "stopky"
+  ],
+  "procedure": "Zahřívejte vodu v kádince. Od cca 90 °C odečítejte teplotu každých 30 sekund. Zaznamenejte hodnotu, při níž var začne a teplota přestane stoupat. Vyneste graf T(t) a vyznačte bod varu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1886/teplota-varu-vody"
+  }
+}

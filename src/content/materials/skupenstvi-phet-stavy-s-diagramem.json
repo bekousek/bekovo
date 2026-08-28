@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-phet-stavy-s-diagramem",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "PhET: Stavy hmoty (úplná simulace s fázovým diagramem)",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET zobrazující chování molekul v pevném, kapalném a plynném skupenství. Žáci přidávají nebo odebírají teplo a sledují průběh skupenských přeměn (tání, var, kondenzace, sublimace) na molekulární úrovni. Záložka Fázový diagram zobrazuje PT diagram s oblastmi všech tří skupenství a přechodovými křivkami – pokročilejší doplněk oproti základní verzi. Dostupná plně v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter"
+}

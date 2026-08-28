@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-phet-formy-energie",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "PhET: Formy energie a jejich přeměny",
+  "type": "applet",
+  "description": "Simulace PhET zobrazuje přenos tepelné energie mezi různými materiály (voda, železo, cihla). Žáci sledují, jak přijatá energie mění teplotu látky a jak při dosažení bodu tání nebo varu nastupuje skupenská přeměna – teplota se přestane měnit. Záložka Energie umožňuje vizualizovat tok tepla. Vhodná jako doplněk k výkladu skupenského tepla a varu. Dostupná v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/energy-forms-and-changes"
+}

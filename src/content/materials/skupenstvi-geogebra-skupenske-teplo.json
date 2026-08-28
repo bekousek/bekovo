@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-geogebra-skupenske-teplo",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "GeoGebra: Skupenské teplo a fázový přechod",
+  "type": "applet",
+  "description": "Interaktivní aplet zobrazuje dvě tělesa v tepelném kontaktu – lze nastavit materiál, hmotnost a počáteční teplotu. Pokud teplota dosáhne bodu tání nebo varu, posuvník umožní nastavit podíl tuhé/kapalné fáze a sledovat odebírání skupenského tepla bez změny teploty. Dobře ilustruje pojem latentní teplo. Rozhraní je anglicky, ale vizuálně srozumitelné bez pokročilé jazykové vybavenosti.",
+  "url": "https://www.geogebra.org/m/eD6nnXA7"
+}

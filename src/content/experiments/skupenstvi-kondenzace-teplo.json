@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-kondenzace-teplo",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Kondenzace vodní páry – uvolňování skupenského tepla",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: sklenice nebo kelímek s vodou ochlazený na ~2 °C se vloží do teplé místnosti. Vodní páry ze vzduchu kondenzují na studené stěně – orosení je viditelné pouhým okem. Při demonstraci s termovizní kamerou je zřetelné tepelné záření v místě kondenzace způsobené uvolněným skupenským teplem kapalnění. Pokus dokazuje, že kapalnění je exotermický děj, a doplňuje výklad o vypařování jako ději endotermickém.",
+  "materials": [
+    "sklenice nebo kelímek naplněný ledovou vodou (~2 °C)",
+    "led nebo chladicí směs",
+    "termovizní kamera (volitelně – pokus funguje i bez ní)"
+  ],
+  "procedure": "Vychlaďte sklenici s vodou pod 5 °C. Postavte ji do teplé místnosti (>20 °C, relativní vlhkost >60 %). Po 1–2 minutách sledujte orosení povrchu. Při použití termovizní kamery nasměrujte ji na boční stěnu kelímku a sledujte teplotní rozdíl mezi suchým a oroséným povrchem.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1624/kondenzace-vodnich-par"
+  }
+}

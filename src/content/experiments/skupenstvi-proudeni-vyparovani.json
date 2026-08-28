@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-proudeni-vyparovani",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Proudění vzduchu urychluje vypařování kapalin",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci srovnávají rychlost ochlazení smočeného povrchu (termistor nebo teploměr ovlhčený vodou či lihem) bez proudění a při foukání vzduchu. Pohyb vzduchu odnáší nasycenou páru od povrchu a urychluje vypařování – termistor se ochlazuje rychleji. Pokus propojuje skupenský přechod kapalina→pára s každodenní zkušeností (pocit chladu z větru při pocení, sušení prádla na větru) a přirozeně motivuje pojem skupenské teplo vypařování.",
+  "materials": [
+    "voda nebo líh (ethanol)",
+    "teploměr nebo termistor s ohmmetrem",
+    "ventilátor nebo slamka na foukání"
+  ],
+  "procedure": "Ovlhčete termistor nebo čidlo teploměru vodou nebo lihem. Odečtěte počáteční teplotu. Srovnejte pokles teploty bez proudění a při foukání vzduchu na smočený povrch. Opakujte s lihem – líh se odpařuje rychleji než voda.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1625/jak-proudeni-vzduchu-urychluje-vyparovani-kapalin"
+  }
+}

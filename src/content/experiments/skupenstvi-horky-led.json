@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-horky-led",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Horký led – tuhnutí a krystalizace octanu sodného",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: přesycený roztok octanu sodného (vyrobený z octa a jedlé sody) se opatrně ochladí na pokojovou teplotu, čímž vznikne podchlazená kapalina – zůstává tekutá i pod teplotou tuhnutí. Vložením jediného zárodku krystalizace (dotyk prstem nebo krystálkem) se roztok okamžitě tuhne za viditelného uvolnění tepla – teplota vzroste na ~50 °C. Pokus dramaticky ilustruje tuhnutí, skupenské teplo tuhnutí a pojem podchlazená kapalina; aplikace v komerčních hřejivých polštářcích propojuje fyziku s technikou.",
+  "materials": [
+    "ocet (10% kyselina octová), 3 díly",
+    "jedlá soda (hydrogenuhličitan sodný), 1 díl",
+    "hrnec nebo malý vařič na odpařování přebytečné vody",
+    "čistá sklenice nebo plastová nádoba na ochlazení",
+    "teploměr (volitelně)"
+  ],
+  "procedure": "Smíchejte 3 díly octa s 1 dílem jedlé sody a zahřívejte, dokud roztok lehce nezhoustne (odpařit přebytek vody). Přelejte do čisté nádoby a nechte velmi pomalu vychladnout na pokojovou teplotu bez otřesů. Vložte drobný krystal nebo se dotkněte prstem – roztok okamžitě zkrystalizuje a je hřejivý.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cz/vim-proc/video/292"
+  }
+}
