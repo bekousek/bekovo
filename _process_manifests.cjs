@@ -34,7 +34,11 @@ function discoverManifests() {
     } catch {
       // Unparseable — enqueue anyway so the main loop's parse-error path records it as invalid.
     }
-    if (!manifestId || !processed.processedIds.includes(manifestId)) out.push({ driveId: '', file });
+    // Fall back to the filename-derived id for malformed manifests with no
+    // manifestId, so a manifest blacklisted under that id isn't re-enqueued
+    // every run.
+    const id = manifestId || deriveIdFromFilename(file);
+    if (!processed.processedIds.includes(id)) out.push({ driveId: '', file });
   }
   return out;
 }
@@ -156,10 +160,15 @@ for (const m of MANIFESTS) {
     continue;
   }
 
+  // A malformed manifest may have no manifestId at all — key blacklisting off
+  // the filename-derived id instead, so it's recorded once and never retried
+  // (and processedIds never accumulates a null on every nightly run).
+  const blacklistId = manifest.manifestId || deriveIdFromFilename(m.file);
+
   const processed = readProcessed();
-  if (processed.processedIds.includes(manifest.manifestId)) {
-    console.log(`SKIP already processed: ${manifest.manifestId}`);
-    results.push({ id: manifest.manifestId, status: 'already-processed' });
+  if (processed.processedIds.includes(blacklistId)) {
+    console.log(`SKIP already processed: ${blacklistId}`);
+    results.push({ id: blacklistId, status: 'already-processed' });
     continue;
   }
 
@@ -169,8 +178,8 @@ for (const m of MANIFESTS) {
   // no branch, no commit, no merge.
   const expectedItems = manifest.ledgerEntry && manifest.ledgerEntry.items;
   if (typeof expectedItems !== 'number' || manifest.files.length !== expectedItems) {
-    console.error(`INTEGRITY FAIL ${manifest.manifestId}: files=${manifest.files.length} but ledgerEntry.items=${expectedItems}. SKIPPING.`);
-    markInvalid(manifest.manifestId, 'invalid-integrity', { files: manifest.files.length, expected: expectedItems });
+    console.error(`INTEGRITY FAIL ${blacklistId}: files=${manifest.files.length} but ledgerEntry.items=${expectedItems}. SKIPPING.`);
+    markInvalid(blacklistId, 'invalid-integrity', { files: manifest.files.length, expected: expectedItems });
     results.push({ id: manifest.manifestId, status: 'integrity-fail', files: manifest.files.length, expected: expectedItems });
     continue;
   }
@@ -187,7 +196,7 @@ for (const m of MANIFESTS) {
   }
   if (!integrityOk) {
     console.error(`INTEGRITY FAIL ${manifest.manifestId}: bad file content/path. SKIPPING.`);
-    markInvalid(manifest.manifestId, 'invalid-integrity-content');
+    markInvalid(blacklistId, 'invalid-integrity-content');
     results.push({ id: manifest.manifestId, status: 'integrity-fail-content' });
     continue;
   }
@@ -199,7 +208,7 @@ for (const m of MANIFESTS) {
   const fieldError = validateManifestFields(manifest);
   if (fieldError) {
     console.error(`FIELD VALIDATION FAIL ${manifest.manifestId}: ${fieldError}. SKIPPING.`);
-    markInvalid(manifest.manifestId || deriveIdFromFilename(m.file), 'invalid-field', { error: fieldError });
+    markInvalid(blacklistId, 'invalid-field', { error: fieldError });
     results.push({ id: manifest.manifestId, status: 'field-validation-fail', error: fieldError });
     continue;
   }
