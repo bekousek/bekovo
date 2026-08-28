@@ -1,0 +1,32 @@
+{
+  "id": "osobnostni-odyk-uceni-icebreaker",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Icebreaker",
+  "description": "„Prolomení ledů“ mezi účastníky a lektorem. Žáci se rozproudí, zvýší se míra jejich bdělosti. Kurz se nastartuje něčím, co bude žákům příjemné, tím se vytvoří pozitivní očekávání.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "icebreaker"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Rozdělíme žáky do skupin. Každá skupina si vytvoří stanoviště a do něj umístí tužku a papír. Do vzdálenosti 15 - 20 metrů od stanovišť umístíme papír s textem v maorštině. Úkolem skupiny je zapamatovat si text a na stanovišti jej zapsat na papír. K maorskému textu smí běžet vždy jen jeden žák ze skupiny. K přenášení textu smí použít jen svoji vlastní hlavu, nikoli tedy tužku, jinou psací potřebu, telefon nebo fotoaparát. Za každou chybu bude skupině přičteno 5 vteřin.\n\nVarianta: (ve které se zapojují najednou všichni žáci) Je třeba sudý počet hráčů. Ideální terén je na hřišti, v tělocvičně nebo na louce. Je třeba zařídit, aby během hry žáci nemuseli probíhat dveřmi. Rozdělíme žáky do skupin. Skupiny si udělají svá stanoviště, a do nich si uloží tužku a papír. Hrací plocha je rozdělena do dvou území. Území se stanovišti skupin. Stanoviště skupiny je židle a psací potřeby. Území s textem. Území jsou oddělena čarou. Vzdálenost stanovišť a textu je cca 30 metrů. Každá skupina se rozdělí na dvě poloviny - jedna polovina skupiny, tzv. čtenáři, se smí pohybovat pouze na území mezi textem a čarou a druhá polovina, tzv. spisovatelé, se během hry smí pohybovat na území mezi čarou a stanovištěm skupiny. Na čáře dochází k tomu, že čtenáři učí spisovatele. Psát smějí jen spisovatelé a to pouze tehdy, když jsou přítomni ve stanovišti. Cíl hry je stejný jako v první variantě: Skupiny soutěží, která co nejdříve „přenese“ text na svůj papír s minimem chyb. Skupina, která je hotova, předá svůj text lektorovi, ten si zapíše čas předání a zkontroluje počet chyb. Za jednu chybu se připočítává pokuta 5 vteřin. V této variantě je třeba dát žákům alespoň 5 minut na dohodnutí strategie. Úkol je obtížnější, když žáci předem nevědí, jak bude text vypadat. E minaka ana taku waha Ki te kai a te rangatira, Taku reo rangatira Taku kuru pounamu tuku iho.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 7)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=8"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-odyk-nalada-linky-a-city",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Linky a city",
+  "description": "Žáci si vyzkouší vyjádřit různé emoce pomocí barvy a tvaru čáry.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "linky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10-15 min",
+  "materials": [
+    "Bílé papíry A4 pro každého 5 ks, pastelky nebo voskovky"
+  ],
+  "procedure": "Žáci malují v lavicích nebo na zemi. Jejich úkolem je namalovat čáry s určitým pocitem. Veselé čáry, smutné, naštvané, smutné, unavené atd. Jakou barvu budou mít veselé čáry? Dovolíme i více variant. Žák nadepíše nahoru na papír: Veselé a maluje voskovkou čáry, které vypadají vesele, které by namaloval veselý člověk (2 min). Další papír nadepíše Smutné ... atd.",
+  "reflection": [
+    "Jak se mi cvičení líbilo? Jaký cit se mi kreslil nejsnadněji? Který byl nejobtížnější?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 46)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=47",
+    "note": "Zdroj aktivity uvedený v metodice: Hermochová, S. 1994. Hry pro život 1. Praha: Portál, 165 -"
+  }
+}

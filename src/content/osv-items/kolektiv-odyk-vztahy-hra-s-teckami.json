@@ -1,0 +1,47 @@
+{
+  "id": "kolektiv-odyk-vztahy-hra-s-teckami",
+  "categoryId": "tridni-kolektiv",
+  "title": "Hra s tečkami",
+  "description": "Žáci prožijí náročnou situaci odloučení od skupiny.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "tečkami"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Barevné samolepky ve tvaru tečky alespoň čtyř různých barev (pro každého účastníka bude 1)"
+  ],
+  "procedure": "Celá aktivita probíhá beze slov.\nNejprve se účastníci postaví do kruhu a zavřou oči. Lektor každému nalepí na čelo tečku určité barvy. Po celou dobu lepení mají všichni zavřené oči. Od té doby, co jim lektor řekne, že mohou oči otevřít, nesmějí mluvit. Počet teček zvolíme dopředu podle počtu lidí ve skupině. Doporučujeme tuto aktivitu dělat ve třídě, kterou již známe a víme, jaké v ní kdo má postavení. Pomocí různobarevných teček rozdělíme třídu do čtyř skupin, např. takto:\n• dvě dvojice,\n• jedna trojice\n• jedna čtveřice,\n• jeden člověk zůstane sám,\n• zbytek třídy utvoří skupinu.\nPro člověka, který zůstane sám, bude situace emočně nejnáročnější. Proto už předem vybereme silného jedince, někoho, o kom si myslíme, že tuto situaci unese, ideálně někoho, s kým máme dobrý vztah a bezpečně víme, že není strůjcem ani obětí možné šikany. Až otevřou účastníci oči, nesmějí mluvit. Zadáme jim následující úkoly:\n• Rozdělte se do skupin podle barvy svých teček..\nPo rozdělení můžeme aktivitu ukončit a reflektovat ji, nebo můžeme pokračovat a zadat účastníkům ještě další úkoly, při jejichž plnění již mohou mluvit. Další úkoly:\n• Jako skupina udělejte dohromady co nejrychleji 10 dřepů, 10 kliků a 5 výskoků (můžete si to libovolně rozdělit).\n• Vymyslete báseň o čtyřech verších, které se rýmují.\n• Vejděte se na co nejméně židlí a to tak, aby to bylo bezpečné. (Lektoři mohou kdykoli říci, co už bezpečné není.)",
+  "reflection": [
+    "• Nejprve se ptáme na pocity, věnujeme jim dostatek času, protože se jedná o velmi emočně náročnou aktivitu.",
+    "– Jak jste se cítili, když jste zjistili, do jaké skupiny patříte? Jak se cítil ten, kdo byl sám? Jak dvojice? Jak trojice? Jak čtveřice? Jak ostatní?",
+    "– Co Vás napadalo, když jste se podívali na velikost ostatních skupin?",
+    "• Poté reflektujeme počet lidí v jednotlivých skupinách.",
+    "– Stalo se Vám, že jste někdy byli v roli „samotáře“?",
+    "– Podle čeho samotáře poznáme?",
+    "– Podle čeho se skupinkujeme (podle jakých „barev“) ve skutečném životě?",
+    "– Podle čeho se skupinkujeme v naší třídě?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 69)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=70",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIŠKOVÁ, Tatjana, ed. Výchova k toleranci a proti rasismu. Praha: Portál, 1998. s. 188. Upraveno o. s. Projekt"
+  }
+}

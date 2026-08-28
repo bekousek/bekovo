@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-moje-slunce-a-mraky",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Moje slunce a mraky",
+  "description": "Účastníci mapují různé vlivy na své prožívání.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "slunce",
+    "mraky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Papíry a pastelky"
+  ],
+  "procedure": "Každý žák dostane papír a má za úkol nakreslit žlutou/oranžovou pastelkou 3 slunce a černou/tmavě modrou 3 mraky. Do sluncí napíše 3 věci, které mu nejvíce náladu zlepšují („drží ho nad vodou“, vyvolávají u něj příjemné emoce) a do mraků napíše 3 věci, které mu nejvíce náladu kazí (způsobují smutky, starosti, které ho štvou, zkrátka vyvolávají jeho nepříjemné emoce.). Kdo chce, může to zveřejnit. Následuje povídání/diskuse o tom, co se dá dělat v případě nepříjemné nálady, zda existují lidé, kteří mají jen samá slunce (zda to eventuelně není jen přetvářka). Na závěr shrneme, že život je jako počasí – nic většinou netrvá věčně a i ten nejčernější mrak většinou přejde (možno též užít metaforu bouřky – po bouřce se vyčasí atd.). Doporučujeme upozornit, že není ostudou mít skleslou náladu, že nemusím ani znát její důvod, že není ostuda vyhledat odbornou pomoc, a připomenout dětem krizová telefonní čísla (viz výše v metodice).",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 90)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=91",
+    "note": "Zdroj aktivity uvedený v metodice: PRÁCE NA REÁLNÉM (ZDRAVÉM) SEBEOBRAZU (SEBEVĚDOMÍ) Zde vycházíme z toho, že má-li o sobě někdo realistické mínění, nepovažuje-li se za méněcenného, pak snadněji odolává skupinovému tlaku, snáze odmítá, krizové situace řeší konstruktivně"
+  }
+}

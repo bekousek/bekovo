@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody116-uvaha",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Úvaha",
+  "description": "Žáci si ujasní své vlastní názory na téma Co rozumím pod Angažovat se v řešení problému – přidat ruku k dílu - jít do toho – nasadit své síly..",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "úvaha"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "40 min i s prezentací",
+  "procedure": "Každý žák samostatně píše úvahu na téma: Co rozumím pod Angažovat se v řešení problému – přidat ruku k dílu - jít do toho – nasadit své síly. K přemýšlení můžeme žákům nabídnout otázky: Jaké podmínky musejí být splněny, abych se chtěl v něčem angažovat? V jakých situacích chci pomáhat? Co musím zvažovat, když volím způsob mého přispění k řešení nějakého problému? Ve kterých případech vnímám problém jako „svůj“, vím, že ho musím řešit právě já? Jaké výhody mi přináší, když budu problém řešit? Jaké nevýhody to přináší? Jaký to má pro mě přínos, když budu přemýšlet o tom, kde bych mohl přiložit ruku k dílu? Následně mohou žáci sdílet informace svých úvah, případně přečíst některé celé třídě.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A2 (s. 17)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=18",
+    "note": "Zdroj aktivity uvedený v metodice: o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 12+."
+}

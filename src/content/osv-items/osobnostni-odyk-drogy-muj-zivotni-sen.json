@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-muj-zivotni-sen",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Můj životní sen",
+  "description": "Účastníci si uvědomí a zkonkretizují své představy a cíle vztahující se k jejich blízké budoucnosti. Rovněž se zdokonalí v komunikačních dovednostech, včetně aktivního naslouchání.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "životní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "25 minut (podle počtu účastníků a délky závěrečné reflexe)",
+  "procedure": "Účastníci se rozdělí do dvojic a mají za úkol si popovídat (cca 6 minut) o tom, jak asi bude – podle jejich představ – vypadat jejich život za 5 let. Každý z dvojice hovoří o sobě přibližně polovinu času. Poté následuje druhá část aktivity, kdy každý účastník představí svého partnera z dvojice ostatním tak, jako by už doba za 5 let nastala: např. „Toto je můj kamarád Vašek, je mu 18 let, žije ...., pracuje, má....“. Poté následuje reflexe:\n• jak se účastníkům aktivita líbila,\n• jaké emoce v nich vzbuzovala,\n• zda pro ně bylo něco z ní (velmi) obtížné, příp. co bylo obtížnější (zda si představit svůj život za 5 let, sdělit tyto představy, či naslouchat druhému atd.),\n• co z uvedených představ by skutečně chtěli a co ne, jaké jsou jejich cíle (do jaké míry jsou reálné atd.) – zde je důležité více než v jiných částech reflexe, aby žáci hovořili zcela dobrovolně,\n• co mohou udělat pro to, aby svých cílů dosáhli, případně aby zabránili tomu, co nechtějí, aby v jejich životě nastalo.\n• Lze propojit i s tématem návykových látek – jakou roli v dosahování našich cílů mohou návykové látky hrát atd.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 49)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=50",
+    "note": "Zdroj aktivity uvedený v metodice: Autor neznámý. Pro o. s. Projekt Odyssea upravila PhDr. Veronika Tesařová. MOTIVACE A SEBEMOTIVACE Cílem tohoto bloku je pomoci žákům ještě hlouběji pochopit, co nás žene kupředu. Že existují věci, kterých chceme dosáhnout, a že existují"
+  }
+}

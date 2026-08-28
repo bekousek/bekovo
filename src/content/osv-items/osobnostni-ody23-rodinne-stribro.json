@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-ody23-rodinne-stribro",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Rodinné stříbro",
+  "description": "prohloubení sebepoznání a sebepojetí",
+  "keywords": [
+    "sebepřijetí",
+    "sebevědomí",
+    "pohoda",
+    "rodinné",
+    "stříbro"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 45 min",
+  "procedure": "Rodinné stříbro může být cokoli v naší rodině, co nám naši předkové předali, a my si toho vážíme nebo nám to nějak pomáhá v životě. Žáci za domácí úkol promluví se svými příbuznými o tom, jaké je toto „rodinné stříbro“ právě v jejich rodině. Nechají si vyprávět různé příběhy z jejich života, mohou také přinést do školy jejich fotografie. Potom pojmenují, co mají členové jejich rodu (z matčiny a otcovy strany) společného a co je odlišuje od jiných lidí. Žáci jeden po druhém dostávají od učitele „zlaté“ mince (např. čokoládové) a zároveň sdělují ostatním, co dobrého získali od svých předků. i. jaké „rodinné stříbro“ jsem získal po svých předcích? ii. co sám do „pokladnice našeho rodu“ přináším nebo chci přinést já? Další možné otázky rozvíjející téma identity: iii. v čem jsem po rodičích, po předcích iv. co mám s rodiči společného (názory, hodnoty, ...) v. v čem se moje názory, hodnoty, životní styl liší od názorů mých rodičů vi. o kterých názorech svých rodičů někdy pochybuji",
+  "source": {
+    "label": "Odyssea — Lekce 2.3, aktivita A5 (s. 54)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf#page=55",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: možno upravit pro různé věkové kategorie."
+}

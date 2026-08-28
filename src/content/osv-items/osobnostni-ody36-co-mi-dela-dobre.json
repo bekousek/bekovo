@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody36-co-mi-dela-dobre",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Co mi dělá dobře",
+  "description": "Žáci zjišťují, čím se motivují k lepšímu výkonu jejich spolužáci a co jim samotným pomáhá přemáhat sám sebe.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "dobře"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 minut",
+  "materials": [
+    "Kartičky, na které žáci budou zapisovat svoje návrhy na odměny (motivace) a případně úkoly."
+  ],
+  "procedure": "Každý žák si napíše co nejdelší seznam „odměn“, kterými se motivuje nebo odměňuje. Každou „odměnu“ zapíše na zvláštní kartičku. Učitel může předložit, nebo žáci sami vymyslí, seznam splnitelných úkolů. Následuje „burza“. Každý si do tabulky zaznamenává, jaké úkoly a za jakou „cenu“ je ochoten udělat.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A7 (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=34"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od deseti let věku.."
+}

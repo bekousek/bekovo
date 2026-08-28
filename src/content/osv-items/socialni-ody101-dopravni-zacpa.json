@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody101-dopravni-zacpa",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Dopravní zácpa",
+  "description": "Řešení problému, spolupráce, tělesný kontakt",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "dopravní",
+    "zácpa"
+  ],
+  "type": "aktivita",
+  "grades": [
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 minut",
+  "materials": [
+    "žádné,viz dále"
+  ],
+  "procedure": "Hra jako by nás připravovala na přelidněná města. Procvičíme si úsporný a k cíli vedoucí pohyb ve dvou stejně početných skupinách. Skupiny se postaví proti sobě, každý hráč v jednom boxu, uprostřed mezi nimi zůstane jeden box volný. Dále to pokračuje jako v opravdové dopravní špičce. Skupiny si musí vyměnit místa. K prvnímu kroku využijí volný box ležící mezi nimi. Pro tuto zvláštní dopravu stanovíme několik pravidel:\na) hráč se může posunout vpřed na volný box ležící před ním;\nb) hráč jedné skupiny může postoupit vpřed také tím, že obejde hráče z druhé skupiny, je-li za ním volný box, nesmí takto obcházet hráče ze své skupiny;\nc) není dovolen pohyb vzad;\nd) hráči se musí míjet obličejem k sobě;\ne) je dovolen pouze pohyb jednoho hráče.\nVeškerá komunikace probíhá v základním postavení, členové obou skupin stojí ve vyznačených boxech a řeší dopravní problém na místě. Složitá dopravní situace je vyřešena v tom okamžiku, kdy se celá skupina stojící vlevo od volného boxu přemístí napravo a obráceně.\n\nVarianta: * Před zahájením přesunu skupin se snaží každý hráč nalézt vlastní individuální řešení. Může si pomoci mincemi, papírky a jinými malými předměty. V celé skupině pak dojde ke konfrontaci a výběru toho nejlepšího návrhu. * Zvládne-li skupina přesun, může se pokusit o přesun ještě jednou, ale pouze na jedno nadechnutí.",
+  "reflection": [
+    "Vytvoříme z hráčů dvě skupiny a každá z nich si připraví své stanovisko ke cvičení – jak se jim líbilo a na čem záleželo řešení. Pokud se neshodnou? Vysvětlí, kde tkví rozdílnost názorů? Zkusili různé způsoby řešení? Které znalosti ze školní výuky by mohly pomoci při řešení? Lze na základě tohoto problému odvodit některé z obecnějších principů při řešení problémů?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A6 (s. 70)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=71",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 16 let."
+}

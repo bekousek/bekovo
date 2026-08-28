@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody11-hry-s-pisnemi",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hry s písněmi",
+  "description": "koncentrace, hudebnost, spolupráce a slovní zásoba",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "písněmi"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 – 60 minut",
+  "materials": [
+    "doprovodný hudební nástroj"
+  ],
+  "procedure": "Skládání nebo doplňování písní je oblíbená aktivita. Děti hned zpozorní, když mají možnost uplatnit svoji tvořivost, vtip a slovní zásobu. Můžeme proto:\na) mít připravený text známé písně s vynechanými slovy, které má žák (nebo skupina) doplnit. Nové resp. takto upravené texty jsou pak po krátké přípravě ve skupině zahrány všem. Můžeme i :\nb) přepisovat a upravovat některé (např. naivní) písně a psát na ně parodie nebo\nc) si vzít veršovaný text, říkadlo, báseň, hádanku a ty společně zhudebnit. Je možné se pokusit také o\nd) vytvoření celé vlastní písně, textu i hudby.\nBezděčné projekce osobních témat žáků do práce poskytují učiteli cenné znalosti o jednotlivých dětech. Může tak lépe porozumět jim i tomu, čím žijí, co potřebují a co mají rády.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita C3 (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=34",
+    "note": "Zdroj aktivity uvedený v metodice: Podle KANTOR, Jiří a kolektiv, Základy muzikoterapie, Élysion , České Budějovice"
+  },
+  "notes": "Věk uvedený v metodice: 7 a více."
+}

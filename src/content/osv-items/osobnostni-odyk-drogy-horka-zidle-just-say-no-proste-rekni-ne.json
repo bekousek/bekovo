@@ -1,0 +1,47 @@
+{
+  "id": "osobnostni-odyk-drogy-horka-zidle-just-say-no-proste-rekni-ne",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Horká židle – just say no! (prostě řekni ne!)",
+  "description": "Žáci trénují techniku „prostého ne“ či „asertivního ne“.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "horká",
+    "židle",
+    "(prostě",
+    "řekni"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "procedure": "Tato aktivita je čistě tréninková, každý, kdo chce, si ji bude moci vyzkoušet. Nikdo není nucen, nicméně příležitost, možnost dostanou všichni. Podobně jako tenisté trénují forehand a backhand na zdi, aby jim to šlo lépe na kurtu, budeme my teď trénovat odmítnutí pomocí prostého ne. Sedneme si do kruhu. Uprostřed kruhu bude prázdná židle, na kterou se může kdokoli posadit. Ostatní mu budou libovolně klást otázky a dávat různé návrhy. Úkolem uprostřed sedícího člověka je na každou otázku odpovědět „Ne!“ Je možné kdykoli vstát a z prostřední židle odejít bez udání důvodu. Důrazně vyzveme žáky, aby ve svých otázkách či návrzích nešli do osobních témat, neútočili na druhého, nebyli zlí, ale aby to na druhou stranu ten uprostřed neměl příliš snadné – musí si vyzkoušet odmítání, pokud se pro to dobrovolně rozhodne. Příklady otázek: „Mohu Tě pozvat na kávu“, „Dal/a by sis teď nějakou dobrou čokoládu?“, „Pomůžeš mi s domácím úkolem?“, „Půjčíš mi stovku?“, „Mohu si od Tebe poslat SMSku?“, apod.",
+  "reflection": [
+    "• Co jste prožívali, když jste seděli uprostřed? Jak Vám to bylo příjemné /nepříjemné?",
+    "• Do jaké míry jste to dokázali vnímat jako „hru“?",
+    "• Jakou máte zkušenost s prožíváním podobných pocitů ve všedních situacích Vašeho života?",
+    "• Jak se Vám dařilo říkat „ne“ při této „hře“? A jak jste s tím spokojeni ve Vašem životě?",
+    "• Co nám pomáhá, abychom byli schopni odmítnout?",
+    "• Jakou máte zkušenost s odmítnutím věcí, které bychom možná chtěli vyzkoušet a přitom si racionálně uvědomujeme, že by nám mohly uškodit?",
+    "• Co může pomoci, že v těchto situacích opravdu zvládneme odmítnout?",
+    "• Co si z tohoto cvičení můžeme odnést, co jsme se naučili?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 112)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=113",
+    "note": "Zdroj aktivity uvedený v metodice: Autor neznámý (inspiraci jsme čerpali ze sociálně-psychologických výcviků). Úprava o. s. Projekt"
+  }
+}

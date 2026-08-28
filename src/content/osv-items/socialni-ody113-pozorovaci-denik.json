@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-pozorovaci-denik",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pozorovací deník",
+  "description": "Žák bude mít příležitost vyjádřit respekt živým tvorům. Žák si uvědomí svůj vztah ke zvířatům. Žák si vytvoří pozorovací deník a do něj zapisuje svá pozorování.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "pozorovací",
+    "deník"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Několik dní",
+  "materials": [
+    "Sešit bez linek, psací a kreslící potřeby, pravítko Ptačí krmítko v dohledu od pozorovacího stanoviště"
+  ],
+  "procedure": "Můžeme využít zimního období a možnosti dobře pozorovat ptáky na krmítku, nebo v létě u napajedla. Do sešitu bez linek si každý den zaznamenáme datum a čas pozorování, druhy ptáků, které jsme pozorovali. Zápisy doplníme obrázky (nakreslíme nebo s mladšími žáky vystřihneme z časopisů apod.). Zaznamenáme zajímavosti v chování ptáků. Po ukončení třeba týdenního pozorování shrneme, kolik ptačích druhů kolem nás žije, co zajímavého jsme pozorovali. Jak se pozorovatel chová, aby ptáky nevyplašil? Deníky si vystavíme ve třídě.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita C7 (s. 43)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=44",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ, Ivana. S dětmi v přírodě. Praha : Portál, 2007. s."
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

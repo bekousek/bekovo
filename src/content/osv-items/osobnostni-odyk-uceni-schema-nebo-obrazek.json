@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-uceni-schema-nebo-obrazek",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Schéma nebo obrázek",
+  "description": "Žáci si vyzkouší zpracovat důležité informace z textu do schématu nebo obrázku.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "schéma",
+    "obrázek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "Text pro každého žáka",
+    "papír A2 (balicí nebo flipchartový) do každé čtyřčlenné skupiny pastelky a fixy"
+  ],
+  "procedure": "1. Individuální čtení\nRozdělíme žáky do čtyř skupin. Každý žák ví, zda je A, B, C, nebo D, ale v první fázi bude pracovat samostatně. Žáci ze skupiny A budou číst odstavec Uvnitř zděného domu, žáci ze skupiny B odstavec Ve volné přírodě, žáci ze skup. C odstavec V autě a žáci ze skupiny D odstavec Člověk po zásahu bleskem. Žáci si při čtení vyznačí všechny důležité informace, které považují za důležité. Po přečtení odstavce shrnou písemně veškerý obsah odstavce písemně jednou větou.\n2. Skupinové kreslení\nŽáci se seskupí do skupin (A, B, C, D). Skupina by měla obsahovat cca 4 osoby. Je-li žáků více, může být více skupin daného písmena. Nyní si vyzkoušíte postup, jak si udělat takové výpisky z textu, které vám pomohou se text spolehlivě a příjemným způsobem naučit. Vaším úkolem je vytvořit schéma nebo obrázek, který přehlednou a názornou formou vyjádří všechny důležité informace z vašeho textu. Můžete použít barvy, můžete psát i kreslit.\n3. Skupiny prezentují nebo jen vyvěsí své výtvory ve třídě.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 80)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=81"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody51-analografie",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Analografie",
+  "description": "Žáci používají tvořivý způsob práce s informacemi.",
+  "keywords": [
+    "tvořivost",
+    "řešení problémů",
+    "nápady",
+    "analografie"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Kreativita a hledání vlastních řešení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "Existují dva druhy analografií:\nSlovní analogramy\nU slovních analogramů se postupuje tak, že se ke každému písmenu slova, o kterém chceme přemýšlet nebo si ho chceme zapamatovat, napíšeme asociaci. Tato asociace musí nějak s daným slovem souviset. Při tvorbě slovního analogramu dochází k tomu, že si své asociace k jednotlivým slovům představujeme.\n\nVla\nď\nka\nLadislav\n(Setkání)\n(Mělník je jako\nrozmělnit,\nrozmixovat)\nNa základě těchto představ se nám dané slovo propojuje se strukturami, které už v hlavě máme. Tvorba slovních analogramů je jednou z technik, která nám může umožnit o slovech hlouběji přemýšlet a snadněji si je vybavit. Grafické asociace Grafické asociace fungují na stejných principech jako slovní. Tyto asociace se vážou ke slovu či informaci, o kterých chceme přemýšlet nebo si je zapamatovat. Například: Vltava se stéká s Labem u Mělníka. .",
+  "source": {
+    "label": "Odyssea — Lekce 5.1, aktivita C2 (s. 44)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-1-Tvorive-resime-prakticke-situace.pdf#page=45",
+    "note": "Zdroj aktivity uvedený v metodice: BIRKENBIHL,V. F.. Nebojte se myslet hlavou. Praha, Portál, 2002. s. 26 Příloha k aktivitě: Kruhy Vaším úkolem je doplnit co nejvíce níže zobrazených kruhů tak, aby se z něj stal obrázek něčeho, co ostatní poznají (například míč). R."
+  },
+  "notes": "Věk uvedený v metodice: Tato aktivita je bez úprav použitelná od cca 10 let věku. Pro nižší věk je třeba upravit instrukce jednotlivých kroků.."
+}

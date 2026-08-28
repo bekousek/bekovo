@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-nalada-jarda-ma-spatnou-naladu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jarda má špatnou náladu",
+  "description": "Zmapovat, co způsobuje, že mají děti špatnou náladu, a jaké způsoby už samy používají, aby si zlepšily náladu.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "jarda",
+    "špatnou",
+    "náladu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Flipchart (tabule) s obrázkem dítěte (Jardy), které má špatnou náladu a stejného dítěte, které má dobrou náladu. Fixy pro lektora."
+  ],
+  "procedure": "Na připraveném flipchartovém papíru máme obrázek dítěte, které je přibližně stejně staré jako účastníci kurzu (Jardy) a které má špatnou náladu. Zeptáme se žáků, co asi způsobilo, že má Jarda špatnou náladu – co způsobuje, že lidé v jejich věku mají špatnou náladu? Odpovědi zaznamenáme na flipchart k obrázku. Pak se žáků zeptáme, co by poradili Jardovi, aby se mu zlepšila nálada. Jejich odpovědi opět zaznamenáme na flipchart. Na závěr přilepíme na flipchart obrázek Jardy, který má dobrou náladu.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 11)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=12"
+  }
+}

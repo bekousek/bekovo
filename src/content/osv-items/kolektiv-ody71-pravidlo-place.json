@@ -1,0 +1,35 @@
+{
+  "id": "kolektiv-ody71-pravidlo-place",
+  "categoryId": "tridni-kolektiv",
+  "title": "Pravidlo pláče",
+  "description": "Žáci si vyzkoušejí chování, které mohou použít ve chvíli, kdy někdo porušuje společně dohodnutá pravidla a někomu z nich to vadí",
+  "keywords": [
+    "pravidla",
+    "třídní dohody",
+    "chování",
+    "pravidlo",
+    "pláče"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "1. Sdělíme žákům, že se budeme zabývat jednotlivými pravidly třídy a situacemi, ve kterých nefungují. Smyslem aktivity, kterou budeme dělat, je vyzkoušet si, co je možné dělat ve chvílích, kdy někdo ve třídě porušuje dohodnutá pravidla.\n2. Rozdělíme žákům do skupin jednotlivá pravidla třídy. Ideální velikost skupin je 3-6 žáků. Úkolem každé skupiny je dát dohromady situaci, ve které toto pravidlo nefunguje. Tuto situaci každá skupina později předvede v krátké scénce.\n3. Dalším úkolem skupin je vymyslet, co by bylo užitečné v situaci, kdy někdo porušuje dohodnuté pravidlo, dělat. Každá skupinka poté secvičí druhou krátkou scénku. Začátek této scénky je stejný jako v prvním případě. Někdo poruší dohodnuté pravidlo a zpočátku s tím nikdo nic nedělá. Rozdíl je v tom, že během této situace se některý ze žáků dané skupiny pokusí zareagovat tak, aby pravidlo fungovalo.",
+  "source": {
+    "label": "Odyssea — Lekce 7.1, aktivita A3 (s. 46)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf#page=47",
+    "note": "Zdroj aktivity uvedený v metodice: Michal Dubec, o.s. Projekt Odyssea Jednotlivá pravidla: Co je možné dělat ve chvíli, kdy pravidlo někdo poruší: V jednu chvíli mluví jeden Zastavit řeč Stop, skáčeme si do řeči Zastavit řeč a začít udělovat slovo Stop, mluví nás moc"
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let věku žáků, pro menší věk je možné aktivitu upravit. zadání této aktivity se osvědčilo vysvětlit žákům na konkrétním příkladě. Fotografie zachycují průběh popisované aktivity se žáky šesté třídy (primy). 4. Skupiny poté postupně předvádějí své situace. Úkolem diváků je nejprve poznat, o jaké pravidlo šlo. Dále diváci popisují, co udělali /hráči/ žáci při předvádění druhé scénky pro to, aby pravidlo opět fungovalo? Pokud některého z diváků napadne nějaký další způsob, je možné nechat původní skupinu situaci rozehrát a nechat ho vstoupit do scénky a použít, co vy"
+}

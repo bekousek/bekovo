@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody11-prales",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Prales",
+  "description": "kontakt se svým prožíváním, pozornost, hlubší sebepřijetí",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "prales"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 - 20 minut",
+  "materials": [
+    "doprovodný hudební nástroj"
+  ],
+  "procedure": "Nežijeme už dávno v pralesích, ale i přesto zvuky přírody, hlasy zvířat a ptáků, šumění deště, hukot vln, praskání ohně v nás oživují dávné vzpomínky. Probouzejí naše základní instinkty, pocity a reflexy, intuici. Podvědomě se tomu bráníme. Přirozené zvuky vlastního těla jako zívání, pláč, smích, překvapení, strach apod. také potlačujeme. Přijetí všech těchto zvuků a emocí s nimi spojených nám však pomáhá přijmout v hlubší rovině také sebe sama. Děti se uvolní, zrelaxují a volně dýchají. Pustíme jim nahrávku, v níž je hojně přírodních zvuků (Procházka pralesem, Prales v dešti ap.). Děti se v leže noří do představ, které poslech přináší. Po několika minutách nahrávku vypneme a mluvíme s dětmi o tom, co si představovaly a co měly za pocity. Nahrávku pak pustíme znovu a děti se teď při ní mohou jakkoli pohybovat, v prostoru, v imaginárním lese tak, aby svým jednáním vystihly svoje představy a pocity. Nakonec si o tom všem spolu popovídáme.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita C4 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=35",
+    "note": "Zdroj aktivity uvedený v metodice: Z. Šimanovský: (z připravované publikace) Hry s hudbou a techniky muzikoterapie"
+  },
+  "notes": "Věk uvedený v metodice: 7 a více."
+}

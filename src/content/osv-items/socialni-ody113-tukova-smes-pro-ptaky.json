@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-tukova-smes-pro-ptaky",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Tuková směs pro ptáky",
+  "description": "Žák vyrobí tukovou směs pro přikrmování ptáků v zimě. Žák vysvětlí, jak o pečuje o zvíře.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "tuková",
+    "ptáky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "Květináč nebo půl kokosového ořechu, drátek, provázek, nádoba na rozpouštění tuku, hrnec s horkou vodou, tuky, semena (vločky, ořechy, mák aj.)"
+  ],
+  "procedure": "Do otvoru ve dně malého květináče upevníme drátek nebo smyčku provázku, za které se nádobka po naplnění zavěsí. Pak vyrobíme tukovou směs. Do rozehřátého tuku, který jsme rozpustili v nádobě postavené do hrnce s horkou vodou, aby se tuk nepřepálil, vmícháme různá semena. Použijeme lůj nebo ztužený pokrmový tuk, nikdy zbytky tuků po vaření, krmnou směs nikdy nesolíme ani neochucujeme! Tuhnoucí směs nalijeme do květináčku a po ztuhnutí zavěsíme ven. Umístíme nejlépe do hustých korun stromů. Nezavěšujeme na přímo osluněné místo (tuk by se kazil), ani na volné prostranství (útok dravců). V reflexi se ptáme, jaké krmivo pro ptáky jsme vybrali? Proč jsme nepoužili zbytky potravin od vaření? Proč jsme dbali na vhodné umístění tukového závěsu? Proč přikrmujeme v zimě ptáky?",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita C8 (s. 44)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=45",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ, Ivana. S dětmi v přírodě. Praha : Portál, 2007. s."
+  },
+  "notes": "Věk uvedený v metodice: 1.,2.,3. období."
+}

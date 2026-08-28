@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyk-drogy-skola-naruby-aneb-odnaucit-se-odnaucit-se-odna",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Škola naruby (aneb odnaučit se, odnaučit se, odnaučit se!)",
+  "description": "Cílem je zamyslet se nad tím, že součástí učení je i opačný proces, totiž odnaučování. Aktualizovat vlastní zkušenosti s odnaučováním se a sdílet „praktické návody“ na odnaučování se.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "škola",
+    "naruby",
+    "(aneb",
+    "odnaučit"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Je možno začít fantaskní motivací o tom, jak by fungovala škola, která by dělala opak toho, co škola normálně dělá. Domněnek bude jistě více, měla by se objevit i domněnka, že nebude učit, ale odnaučovat to, co člověk už umí. Motivace se dá převést do reálu. Existuje taková „škola“ odnaučování v našem životě? Každý se zamyslí nad tím, zda už někdy v takové škole byl, tedy zda se již něčemu odnaučoval nebo zda by se něčemu odnaučovat chtěl. Dále se zamyslí nad tím, jak úspěšný (dokonce známka?) v odnaučovací škole je nebo byl. A co musel udělat pro to, aby úspěšný byl a co naopak neudělal (a chtěl by udělat), pokud zcela úspěšný nebyl.",
+  "reflection": [
+    "může proběhnout v menších skupinách nebo ve skupině velké (v plénu). Ve velké skupině můžeme případně reflektovat již jen doporučené strategie – postupy – metody – triky pro odnaučování. Objeví-li se problém kouření cigaret, popř. jiných návykových látek, zastavme se u něj a pohovořme o úskalích úspěšného odnaučování a jeho možnostech na základě odborných znalostí (viz výše text „Jak přestat kouřit“)."
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 150)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=151"
+  }
+}

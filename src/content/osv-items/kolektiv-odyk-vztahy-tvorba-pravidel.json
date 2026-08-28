@@ -1,0 +1,38 @@
+{
+  "id": "kolektiv-odyk-vztahy-tvorba-pravidel",
+  "categoryId": "tridni-kolektiv",
+  "title": "Tvorba pravidel",
+  "description": "Žáci formulují společná pravidla chování ve třídě.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "tvorba",
+    "pravidel"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 – 45 min",
+  "materials": [
+    "Flipchartový (balící) papír, fixy."
+  ],
+  "procedure": "Budeme pracovat v menších skupinách (o cca 4 členech). Každá skupina si vezme jednu či více věcí, které byly popsány na lístečcích jako přání, co bychom chtěli změnit. Počet věcí rozdělíme mezi skupiny rovnoměrně. Pokud by chtěl někdo pracovat individuálně a nechtěl pracovat ve skupině, lze mu to samozřejmě umožnit. Úkol má pak stejný jako ostatní skupiny. Každá skupina dostane za úkol vymyslet pravidlo (pravidla) vzájemného chování, která pomohou třídě uskutečnit tu danou konkrétní věc. Povzbuzujeme k maximální konkrétnosti, abychom pravidlům všichni rozuměli – abychom všichni věděli, co máme dělat, jak se máme chovat. Během skupinové práce lektoři obcházejí skupiny a facilitují tvorbu pravidel. Po skončení skupinové práce zapisuje lektor utvořená pravidla na flipchart, podle potřeby je se souhlasem skupiny upraví („Mohu tomu rozumět také tak, že ...“, „Můžeme na tabuli napsat tuto formulaci ...?“). U pravidel, která nejsou formulována konkrétně uvedeme pod tímto pravidlem vždy alespoň jeden příklad. Cílem je, aby všichni členové skupiny rozuměli pravidlům a uměli si představit, jak se podle nich budou chovat. Po skončení tvorby pravidel je mohou všichni stvrdit svými podpisy. Flipchart s pravidly vzájemného chování vyvěsíme ve třídě. Na závěr je ještě možné ztvárnit nové modely chování (podle vytvořených pravidel) ve scénkách. Nebo stanovit garanty dodržování pravidel (viz např. výše v kapitole „Možná podoba primárně preventivního programu“, podbod č. 7 „Závěrečné setkání“).",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 67)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=68",
+    "note": "Zdroj aktivity uvedený v metodice: PhDr. Zdenko Matula a o. s. Projekt"
+  }
+}

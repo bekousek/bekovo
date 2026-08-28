@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody101-celnici-a-paseraci",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Celníci a pašeráci",
+  "description": "Prvek dobrodružnosti v překonávání protivníka, rozvoj strategického a taktického myšlení, tvůrčí řešení problémů a komunikace v menší skupině.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "celníci",
+    "pašeráci"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "na přípravu: 100-120 minut",
+  "materials": [
+    "kopie bankovek a jejich dostatečné množství,věci k pašování a jejich peněžní hodnota"
+  ],
+  "procedure": "V této hře se vrátíme ke starým námětům s menší úpravou pravidel. Skupina se rozdělí na dva týmy. Jeden tým bude v prvním kole představovat celníky a druhý pašeráky. V druhém kole se vymění. Celníci se rozestaví kolem lesní stezky či cesty, která vede údolím vedle potoka. Pásmo celníků se rozprostírá od cesty nebo potoka na obě strany v šířce 10-20 metrů a délce cca 100 m dle terénu. Celníci se mohou pohybovat jen v tomto daném prostoru. Skrýše pašeráků jsou od této hranice vzdáleny aspoň 50 m ( celníci na ně nesmí vidět a neměli by ani slyšet, co se tam dohaduje ). V první skrýši pašeráků jsou shromážděny předměty, které se mají propašovat. Věcí je nejméně dvakrát tolik než je pašeráků . Čím větší předmět se podaří propašovat, tím má vyšší finanční hodnotu. Předměty musí být vybírány tak, aby nemohly způsobit zranění. Náměty na pašované věci : umělé kbelíky a mísy, metrová polena, ešusy,lžíce,baterky,baterie,hřebeny,míče, kusy oděvu, pytlíky s pískem atp. Nejnižší peněžní hodnota by mohla být 100 Euro (baterie) až po cenu vzácné slonoviny ( velkého polena ) 10 000 Euro. Druhá skrýše pašeráků za hranicí skrývá překupníka, který za propašované věci proplácí peníze. Při průchodu hranicí zpět musí pašeráci ukrýt peníze na svém těle. Peníze se nesmí přenášením znehodnotit - je tedy dovoleno jen jejich rolování. Pašeráci uschovávají vydělané peníze na svém těle , v oblečení a obutí. Pašeráci se musí s penězi vrátit zpět do své první skrýše, to znamená znovu překročit hranici. Celníci chytají pašeráky dotekem ruky. Potom se už nesmí pašerák zatčení bránit. Když má pašovanou věc, tak mu ji odeberou a propustí ho. Odebrané věci zůstávají na celníci a nesmí být dále kradeny. Když chytnou pašeráka přicházejícího z druhé strany ( má tedy pravděpodobně už peníze), mohou ho prohledávat maximálně 30 vteřin ( pašerák počítá tedy do třiceti – na hranicích\n\nmohou být 1-2 kontroloři pro dodržování pravidel). Najdou - li peníze, tak je zabaví, když po 30 sekundách nic nenajdou, tak musí pašeráka propustit. Po daném časovém limitu 30- 45 minut oznámí vedoucí domluveným signálem konec hry. Obě dvě strany spočítají své výdělky. Celníci cenu zabavených věcí a hodnotu získaných peněz. Pašeráci hodnotu propašovaných peněz. Vítězem se stává ta skupina, která získala na své konto nejvyšší finanční sumu.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita D4 (s. 98)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=99",
+    "note": "Zdroj aktivity uvedený v metodice: HERMOCHOVÁ, Soňa, NEUMAN,Jan. Hry do kapsy. Díl IV."
+  },
+  "notes": "Věk uvedený v metodice: + 12."
+}

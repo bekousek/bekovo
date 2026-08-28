@@ -1,0 +1,35 @@
+{
+  "id": "socialni-ody116-co-muzeme-resit",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Co můžeme řešit?",
+  "description": "Žák identifikuje v textu nebo v předvedené modelové situaci problémy, které může pomoci řešit.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "můžeme",
+    "řešit?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Žáci ve skupinách sehrají situaci, ve které se domnívají, že by mohli oni sami pomoci. Po přehrání scének ostatní říkají své postřehy a vstupují s nápady svého řešení do děje. Žáci dostanou DÚ najít v textech (literárních, novinových článcích, dokumentech, filmech, divadelních hrách) problémy, které mohou pomoci řešit.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A10 (s. 25)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=26",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 9+."
+}

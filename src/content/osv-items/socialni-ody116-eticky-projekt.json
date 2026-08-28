@@ -1,0 +1,35 @@
+{
+  "id": "socialni-ody116-eticky-projekt",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Etický projekt",
+  "description": "Žáci zažijí situaci, ve které budou řešit nějaký problém a reflektují ji.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "etický",
+    "projekt"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Žáci si vytvoří vlastní malý projekt, ve kterém budou pomáhat řešení nějakého konkrétního problému (ve skupinách či samostatně). Vytyčí si, čeho by chtěli dosáhnout, jaké důvody je vedou k jejich počínání. Stanoví si plán a čas – v průběhu příštího týdne, kdy ho budou naplňovat. V průběhu týdne si zapisují, jak jejich práce postupuje, myšlenky, které je k ní napadají atd. Po týdnu reflektujeme práci žáků: Můžeme číst úryvky z deníků, nechat si popsat nejdůležitější momenty projektu… V případě, že jsou žáci s některým svým chováním v průběhu projektu nespokojeni, můžeme sesbírat od ostatních nápady, jak by situace šla řešit. Případně je dramatizovat a obměňovat chování některé postavy.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A7 (s. 22)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=23",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 12+."
+}

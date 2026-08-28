@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody36-indiansky-beh",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Indiánský běh",
+  "description": "Žák si vyzkouší, jak se cítí při zdolávání větší vzdálenosti pravidelným střídáním chůze a běhu. Žáci porovnají své pocity při střídavém běhu a chůzi a plynulém běhu.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "indiánský"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Dvakrát 45 minut, dvě vyučovací hodiny.",
+  "materials": [
+    "Hodinky, píšťalka, atletický ovál nebo vhodná trasa s vyznačenými padesátimetrovými úseky.."
+  ],
+  "procedure": "O indiánském běhu jste již asi všichni slyšeli. Zkuste ale, jaký je rozdíl mezi normálním a indiánským během na vlastní kůži. Při první hodině tělesné výchovy zkuste za 12 minut zdolat co největší vzdálenost indiánským během. Po každých 50m přejdete z běhu do chůze a naopak. Po té zapište nejen dosažený výkon, ale i své pocity (zda vám střídavý běh vyhovoval nebo ne, zda jste se někdy museli přemlouvat, abyste se rozběhli nebo naopak zpomalili, …). V následující hodině zkuste uběhnout během 12 minut co největší vzdálenost a opět zapište nejen výkon, ale i vlastní pocity.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita B1 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=36"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od deseti let věku.."
+}

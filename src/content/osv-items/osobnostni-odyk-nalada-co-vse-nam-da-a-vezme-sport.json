@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-nalada-co-vse-nam-da-a-vezme-sport",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Co vše nám dá a vezme sport?",
+  "description": "Žáci vyjmenují, čím sport může obohatit jejich život a co od nich sport vyžaduje.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "vezme",
+    "sport?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "materials": [
+    "2 flipchartové papíry s obrázky pokladu a klíče, fixy list papíru A4 pro každou pětičlennou skupinu"
+  ],
+  "procedure": "1. Žáci ve skupinách po max. 5 členech vymýšlí metodou brainstormingu odpovědi na otázku: „Co dobrého a příjemného jim přinese, když se budou věnovat nějakému sportu?“ Zástupci všech skupin střídavě předčítají své nápady.\n2. Učitel doplní přínosy sportu, které nezazněly. Žáci si je připíší do seznamu.\n3. Stejný postup s otázkou: „Co všechno sport vyžaduje nebo by vyžadoval ode mne (co by mi vzal)?“\n4. Učitel doplní nároky sportu, které nezazněly. Žáci si je připíší do seznamu.\n5. Každý sám si vybere tři věci ze seznamu přínosů, které jsou pro něj osobně nejpřitažlivější nebo nejdůležitější. Věci, pro jejichž získání by byl ochoten i něco obětovat. Každý žák zapíše své tři věci na společný flipchart s obrázkem pokladu.\n6. Každý sám si vybere a zapíše alespoň tři věci ze seznamu nároků, které už někdy v životě byť i na čas obětoval, aby získal užitek, který přináší sport. Své tři věci každý žák zapíše na společný flipchart s obrázkem klíče.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=35",
+    "note": "Zdroj aktivity uvedený v metodice: DALŠÍ MOŽNOSTI"
+  }
+}

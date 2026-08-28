@@ -1,0 +1,35 @@
+{
+  "id": "socialni-ody116-co-me-nenecha-v-klidu",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Co mě nenechá v klidu",
+  "description": "Žáci si uvědomí, co je nutí jednat.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "nenechá",
+    "klidu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Ve kterých situacích musím jednat? Které situace mě nenechají v klidu přihlížet, ale musím začít něco dělat? (Se staršími žáky můžeme celou aktivitu směřovat na situace, které v člověku vyvolávají jakýsi principiální etický nárok – musíš řešit z jakého si „vyššího“ důvodu). Každý žák sepíše co nejvíce situací, ve kterých prostě „musí“ zasáhnout. Následně vybere pět nejdůležitějších. Postupem řeka (viz Zásobník her) postupně žáci ve zvětšujících se skupinách vybírají pět nejnaléhavějších situací. Diskutují o nich. V závěrečné prezentaci nejnaléhavějších situací (skupiny max. po osmi žácích) zkusíme vyvodit, co mají situace společného, které motivy nás burcují.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A8 (s. 23)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=24",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 12+."
+}

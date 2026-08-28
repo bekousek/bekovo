@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-zvladani-smutku",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zvládání smutku",
+  "description": "Naučit se více pracovat s emocemi.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "zvládání",
+    "smutku"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 10 min",
+  "procedure": "Opět se používají podobné postupy jako rozpoznání rizikových situací, relaxace, dýchání, fyzická aktivita. V psychoterapii se navíc osvědčuje „vychytávání smutných myšlenek a jejich zpochybňování“, např. „Když se na mě ten kluk vykašlal, co to pro mne ve skutečnosti znamená? Co z toho pro mne doopravdy vyplývá?“, apod. Platí ale, že těžká, dlouho trvající deprese vyžaduje ovšem psychologickou a někdy také lékařskou péči (léčbu pomocí léků). V krizi je vhodné volat na linku důvěry. Můžeme žákům zadat jako úkol, aby sehnali nejrůznější kontakty na odborníky a instituce, na které se mohou obrátit, kdyby se dostali do náročné situace. Inspirací nám zde může také být lekce č. 4.8 s názvem „Umíme vyhledat i poskytnout pomoc při osobních problémech.“",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 86)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=87"
+  }
+}

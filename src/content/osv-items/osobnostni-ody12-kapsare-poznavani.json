@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody12-kapsare-poznavani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kapsáře poznávání",
+  "description": "Žák si procvičí hmat a poznává jeho prostřednictvím předměty.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "kapsáře",
+    "poznávání"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Několik látkových hlubších kapsářů. V každém ukryté 2 až 3 předměty (např.: 1. jablko, šiška, kámen. 2. guma, papírové kapesníčky, autíčko. 3.cibule, hlemýždí ulita, klacík)."
+  ],
+  "procedure": "Žáci poznávají hmatem věci skryté v kapsáři. Volíme spíše předměty dětem známé, aby se dařilo je poznávat. Ptáme se, podle čeho předměty poznali, jaké informace o předmětu pomocí hmatu získali.",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A9 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=36",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ Ivana. S dětmi v přírodě. Praha : Portál, 2007."
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

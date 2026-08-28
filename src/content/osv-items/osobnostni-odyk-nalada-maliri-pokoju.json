@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-nalada-maliri-pokoju",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Malíři pokojů",
+  "description": "Žáci si vyzkouší projevit pohybem celého těla zadané emoce.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "malíři",
+    "pokojů"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "7 minut",
+  "procedure": "Učitel: Pozorovali jste již někdy malíře či lakýrníka při práci? Jak dlouhými tahy natírá dveře, plot či velkou stěnu? Postavte se a představte si, že berete do ruky velký štětec. Začněte jakoby natírat zeď. Jste čilý nebo unavený malíř? Jste malíř rychlý nebo pomalý? Teď si představte, že pospícháte. Jak nyní držíte štětec? Vaše nálada se změnila - jste rozhněvaní. Jak teď malujete? Nyní jste smutní. Jak se při tom změnil váš způsob natírání? Najednou jste se rozhněvali a pak náhle dostáváte strach. Jak budete malovat? Nyní malujte podle toho, jakou máte doopravdy náladu.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 51)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=52",
+    "note": "Zdroj aktivity uvedený v metodice: Hermochová, S. 1994. Hry pro život 1. Praha:"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody116-problemy-v-mem-okoli",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Problémy v mém okolí",
+  "description": "Nabídnout žákům prostor k zamyšlení se nad jejich problémy, nad tím, co by chtěli zlepšit, změnit. Konfrontovat nápady žáků mezi sebou.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "problémy",
+    "okolí"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "tužky, papíry"
+  ],
+  "procedure": "Každý žák si sepíše nejméně pět problémů ze svého okolí, které chce řešit. Následně si žáci problémy mezi sebou čtou, každý čte vždy pouze jeden problém a sice takový, který ještě nikdo před ním nečetl. Čtení ukončíme po několika „kolečkách“, když se neobjevují nové problémy. Žáků se ptáme, které problémy z uvedených považují za nejpalčivější. Rozvedeme diskusi na téma „co s nimi“. Žáci u problémů uvádějí, co by pro ně znamenalo (jaké následky to přinese), kdyby problém řešili a kdyby ne. Během celé aktivity si učitel dělá poznámky, sebrané problémy dále využijeme.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A3 (s. 18)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=19",
+    "note": "Zdroj aktivity uvedený v metodice: o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: není omezen."
+}

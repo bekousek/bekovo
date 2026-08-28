@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-ruka",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Ruka",
+  "description": "Účastníci posilují svou sebeúctu.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Navážeme na techniku „Co se mi na mně líbí, čeho si na sobě cením“ tak, že předtím jsme se snažili přijít na to, co se nám líbí na sobě samých, nyní si budeme podobně sdělovat, co se nám líbí na sobě navzájem. Každý žák dostane papír, na něj namaluje obrys své dlaně a papír podepíše (např. doprostřed své dlaně). Svůj papír předá sousedovi po levé ruce, ten do obrysu dlaně (např. do některého z prstů) napíše něco, čeho si na dotyčném spolužákovi cení, a pak jej zase předá dál a tak stále dokola. (Takže papír postupně oběhne celou třídu). Upozorníme, že se mohou psát jen věci, kterých si na druhých vážíme, nikoli jejich opaky. Proto se aktivita hodí do pokročilejších skupin. Pomůže, pokud navíc ještě zdůrazníme, že se jedná o „vážnou věc“ a požádáme žáky, aby ji brali seriózně. Kdo se na aktivitu necítí, nemusí se účastnit (pravidlo „STOP“). Pokud si nejsme jisti, že skupina je disciplinovaná a dokáže toto zadání dodržet, nemá cenu se do této aktivity pouštět. Pomoci může také, pokud si dokážeme představit, jak bychom v reflexi ošetřili, že někdo tam některému žákovi napíše něco hodně nepříjemného (i přes pozitivní zadání aktivity). Lektor (pedagog) může během aktivity obcházet třídou a sledovat, co žáci píší. Pokud by některému žákovi hrozilo, že by mu někdo sdělil něco, co je zraňující, lze aktivitu zastavit a provést okamžitou reflexi. Je také možné vzít si autora takové",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 99)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=100",
+    "note": "Zdroj aktivity uvedený v metodice: ODMÍTÁNÍ Vycházíme z toho, že odmítání je důležitá sociální dovednost, která nám může pomoci k tomu, abychom se závislostmi vůbec nezačali „koketovat“. Umět odmítat je velice důležité, je to základní podmínka naší svobody. Se žáky můžeme"
+  },
+  "notes": "stranou a pobavit se s ním o tom. Případně ošetřit celou situaci v reflexi na konci aktivity. Cílem je, aby všichni žáci dostali od druhých pozitivní informace. Na závěr se všechny papíry dostanou ke svým majitelům, kteří mají možnost si vše přečíst. Kdo chce, může zprávy, které dostal, přečíst nahlas. Na úplný závěr se lektor zeptá, jak se dětem hra líbila či nelíbila, co pro ně bylo obtížné, zda/co je potěšilo, překvapilo, co si z ní odnáší, jak se teď cítí, atd."
+}

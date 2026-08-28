@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody36-odhadni-svuj-vykon",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Odhadni svůj výkon",
+  "description": "Žák si vyzkouší, jak je schopen odhadnout své výkony.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "odhadni",
+    "výkon"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina",
+  "materials": [
+    "Podle vybraných aktivit."
+  ],
+  "procedure": "Žáci odhadují své výkony v jednotlivých disciplínách (měřitelných) a výsledky porovnávají s odhadem. Jednotlivé disciplíny mohou vycházet např. ze starých tabulek pro „Odznak zdatnosti“, nebo z knihy Jana Neumana: Cvičení a testy obratnosti, vytrvalosti a síly. Pokud chceme žákům aktivitu obměnit, z disciplín sestavíme pětiboj (desetiboj) a necháme žáky odhadnout jejich bodový součet. Žáci by měli mít k dispozici bodové tabulky.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A8 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=35"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

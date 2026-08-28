@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody101-prekonane-obtize",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Překonané obtíže",
+  "description": "Zaměřeno na kladný přístup k problémům a jejich řešení. Z řešení každého problému se můžeme poučit pro náš další život. Určeno pro třídy a žáky starší 8 let.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "překonané",
+    "obtíže"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Třídu rozdělíme do 4 týmů (4-6 členů).Formu dělení mohou navrhnout samotní žáci. V tomto případě však můžeme přikročit i k náhodnému výběru (losování, přiřazování čísel atp.). Doporučíme, aby si v každém týmu zvolili mluvčího, který bude vystoupení a sdělení týmu uvádět. Prodiskutujeme se žáky situace, kdy někdo úspěšně řešil vážný problém. Mohli bychom zmínit osud našich dvou prvních prezidentů ve svobodné zemi ( T.G. Masaryka a V. Havla), kteří se nezalekli překážek a ve svém úsilí vytrvali a přispěli k řešení velkého problému. Čtyřem týmům po úvodním krátkém motivačním příběhu a následné diskusi zadáme samostatný úkol, který by měli během jednoho nebo dvou týdnů vyřešit. Jeden tým vyhledá v literatuře příklady osob, které úspěšně vyřešily problémy, před které je postavil život a doba. Shodne se na jednom příběhu a ten vlastními slovy převypráví. Druhý tým bude hledat úspěšně vyřešené problémy v okruhu vlastních rodin, včetně příbuzenstva. Členové týmu se budou snažit najít příběhy, kdy mělo vyřešení obtížné situace dobrý konec. Dohodnou se na jednom příběhu, který převypráví celé třídě. Třetí tým se soustředí na problémy svých členů a bude se snažit popsat pozitivně vyřešený problém jednoho nebo několika členů týmu. Tento úkol vyvolá diskusi v týmu. Každý se zamyslí a seznámí tým se svým příběhem s dobrým koncem. Po té se dohodnou, se kterým příběhem třídu seznámí. Čtvrtý tým podnikne opravdové pátrání a bude se snažit vyprávět skutečný příběh obyvatele České republiky, který překonal velké obtíže a dosáhl v životě úspěch. Příklad může být vybrán z příběhů tzv. obyčejného života nebo z příběhů významných lidí (vědců, umělců, sportovců, vynálezců, podnikatelů).",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita B2 (s. 76)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=77",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan návrh autora"
+  }
+}

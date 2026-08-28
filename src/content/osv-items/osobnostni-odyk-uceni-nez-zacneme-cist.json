@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-nez-zacneme-cist",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Než začneme číst",
+  "description": "Žáci si vyzkouší tři postupy (přehled, myšlenková mapa a otázky), které je připraví na čtení náročného textu.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "začneme"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "Text Blesk pro každého žáka."
+  ],
+  "procedure": "Vysvětlíme žákům účel strategie a necháme je, ať si ji vyzkouší.\n1. Přehled\nProhlédněte si krátce text, abyste získali přehled, o čem bude. (3 min.) Na konci tohoto prozkoumávání textu byste měli být schopni odpovědět na tyto otázky: (napíšeme je na tabuli). Která část asi bude pro vás nejzajímavější? Která bude nejdůležitější? Která část vypadá jako nejobtížnější? Která asi obsahuje informace, které již znáte? Co vám pomůže získat přehled? Co budete během následujících tří minut dělat? Dejte si pozor, abyste se nezačetli. Po třech minutách necháme žáky odpovědět na otázky na tabuli. Zeptáme se, jak postupovali, aby získali přehled.\n2. Myšlenková mapa\nNež se pustíme do čtení, je užitečné zamyslet se nad tím, co už o dané věci víme nebo co si o ní myslíme. Tímto způsobem se připravíme na nové a možná složité poznatky, se kterými se v textu budeme setkávat. Budeme si schopni snadněji propojovat to, co se dočteme, s tím, co již známe, a budeme se v textu lépe orientovat. Udělejte si myšlenkovou mapu na téma blesk. Doprostřed papíru napište otázku Jak se chránit před úderem blesku?, kolem ní dělejte paprsky a k nim připisujte své myšlenky. Zapište, co všechno vás k tomuto tématu napadá, všechno, co již víte o ochraně před blesky, zapište také své domněnky, tedy to, co si o ochraně před blesky myslíte, ale nejste si tím jisti.\n3. Otázky\nNež začneme číst, je užitečné ujasnit si, co se z textu chceme dozvědět. Prakticky to znamená, že si zformulujeme několik otázek. Pomocí otázek se ptáme na informace, které potřebujeme, abychom mohli vyřešit určitý praktický problém.\n\nOtázky poukazují na to, kde je něco nejasného.\nLidé kladou různé otázky, podle toho, co je zajímá, co již znají, a jaké praktické, technické nebo teoretické otázky řeší. Vymyslete otázku týkající se bouřky a blesků, která by asi zajímala... horolezce, který se chystá v horách spát několik nocí pod stanem, policejního vyšetřovatele, který ohledává mrtvolu, údajně zabitou bleskem, zdravotníka, který dává první pomoc, konstruktéra, který navrhuje lanovku v horách, fotografa, který chce vyfotit úder blesku do stromu. Napište si své vlastní otázky, které máte ohledně blesků a ochrany před nimi. Co se potřebujete dozvědět, abyste byli schopni bezpečně pobývat několik dní a nocí ve volné přírodě? Co dalšího nevíte? Co byste se rádi dozvěděli? K čemu je dobré zformulovat si ještě před čtením nějaké otázky? Otázkami probouzíme svoji zvědavost. Ještě před čtením si uděláme jasno, co se chceme z textu dozvědět. Naše otázky nás pak při čtení nasměrují k informacím, které nás zajímají nebo které jsou pro nás důležité.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 70)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=71",
+    "note": "Zdroj aktivity uvedený v metodice: 5.2.1 Jak se chránit před úderem blesku - pracovní list Úvod Blesk je jednoznačně nejnebezpečnějším doprovodným jevem bouřek u nás. Silnější bouřka takových blesků produkuje tisíce a každý jeden z nich je potenciálním zabijákem. Pohybovat"
+  }
+}

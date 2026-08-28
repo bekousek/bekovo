@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody116-vymysli-co-nejvic-moznosti",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Vymysli co nejvíc možností",
+  "description": "Aktivita podporuje tvořivost žáků při řešení problémů.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "vymysli",
+    "nejvíc",
+    "možností"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "seznam situací a problémů"
+  ],
+  "procedure": "Žákům rozdáme seznam situací a problémů, ve kterých se mohou angažovat. Ideálně obsahuje situace, které nám vyšly z „koleček“, můžeme doplnit příklady ze seznamu situací (viz praktická teorie). Žáci se rozdělí do dvojic, každá si vybere jednu situaci. Jejich úkolem je napsat co nejvíce možných chování, která mohou následovat. Cílem je získat co nejvíce různých možných reakcí. Následně dvojice prezentují všechny své možnosti ostatním. Žáci mohou klást dotazy k různým variantám řešení – může vzniknout nový návrh. Poté třída společně odhlasuje řešení, které shledává jako nejlepší. Žáci mohou nejlepší řešení zdramatizovat.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A4 (s. 19)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=20",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 10+."
+}

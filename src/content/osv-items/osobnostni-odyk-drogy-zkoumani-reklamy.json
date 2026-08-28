@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-zkoumani-reklamy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zkoumání reklamy",
+  "description": "Umět se chránit před negativními vlivy médií, efektivně využívat různé informační zdroje.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "zkoumání",
+    "reklamy"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Příklady reklam na tabákové výrobky a alkohol (např. filmové ukázky)."
+  ],
+  "procedure": "Každá skupina dostane za úkol analyzovat určenou reklamu podle následujícího klíče (tabulka níže) a seznámí ostatní s výsledky své práce. Pozornost věnujeme zejména reklamám na alkohol a tabákové výrobky a jejich lživosti (kouření a pití alkoholu není cestou ke štěstí, úspěchu ani dospělosti, a nejsou rozhodně čisté ani zdravé). Název výrobku: Stručný popis reklamy: Cílová skupina (komu je reklama určena): Co tvrdí reklama zjevně: Co tvrdí reklama skrytě: Jaké eventuální triky reklama využívá:",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 133)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=134"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-nalada-radost-v-mem-zivote",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Radost v mém životě",
+  "description": "Soustředit se na něco pozitivního (radost v mém životě) a vyjádřit, jak to prožívám pomocí výtvarné techniky.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "radost",
+    "životě"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "materials": [
+    "Čtvrtka A3 pro každého účastníka, tempery / vodovky."
+  ],
+  "procedure": "Účastníci dostanou za úkol namalovat radost v jejich životě – způsob, jak ji ztvární je na nich (zda konkrétně či abstraktně). Důležitá není „uměleckost“ samotného ztvárnění, ale to, aby byli sami s obrázkem spokojeni a rozuměli mu. V reflexi můžeme mluvit o tom, jak snadné či těžké bylo radost nakreslit, co kdo chtěl pomocí obrázku vyjádřit, anebo můžeme mluvit přímo o tématu – kde v mém životě je radost, jak se projevuje, kdo a co ji způsobuje, apod.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 46)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=47"
+  }
+}

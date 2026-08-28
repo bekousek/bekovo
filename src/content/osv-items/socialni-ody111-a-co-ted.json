@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody111-a-co-ted",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "A co teď?",
+  "description": "Žák v modelové situaci předvede, jak se konkrétní hodnoty projevují v chování.",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "procedure": "Žáci si v pětičlenných skupinách stanoví tři různé hodnoty, které jsou pro ně důležité. Následně vymyslí a zdramatizují tři různá řešení situace, každé s akcentem na jednu z vybraných hodnot. Role: Babička Zuzana Jan (její syn) Lenka (Janova žena) Jirka a Lucka (syn a dcera Jana a Lenky) Uvedení do situace: Babička Zuzana leží doma a nemůže vstát z postele. Před chvílí spadla v koupelně a od té doby ji hodně bolí záda. Jirka má odpoledne volno a chce jít s klukama na fotbal. Lucka má odpoledne hodinu zpěvu a chce se učit na zítřejší test. Jan má dnes narozeniny, je na služební cestě v zahraničí, vrátí se v osm večer domů. Lenka je do čtyř hodin v práci, cestou domů chce koupit Janovi dárek k narozeninám a potom doma připravit slavnostní narozeninovou večeři pro celou rodinu. Babička telefonuje Lucce a říká: „Ahoj Lucko! Já spadla v koupelně, asi jsem si udělala něco se zádama, nemůžu se ani hnout, ležím doma v posteli. Janovi jsem se nedovolala.“ Připravené dramatizace si žáci vzájemně přehrají. Diváci tipují, která hodnota byla ve scénce zohledněna.",
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita B6 (s. 47)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=48",
+    "note": "Zdroj aktivity uvedený v metodice: autor neznámý, upravilo o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 10+."
+}

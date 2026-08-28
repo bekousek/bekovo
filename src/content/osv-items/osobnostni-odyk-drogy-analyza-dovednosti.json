@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-analyza-dovednosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Analýza dovedností",
+  "description": "Účastníci se zamyslí nad tím, na jaké úrovni jsou jejich „vztahové“ (tj. sociální) dovednosti.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "analýza",
+    "dovedností"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 - 30 min",
+  "materials": [
+    "Níže uvedený formulář"
+  ],
+  "procedure": "Žáci individuálně vyplní níže uvedený formulář. Pak proběhne reflexe a diskuse nad tímto vyplněným formulářem. Formulář pro analýzu dovedností: Dovednost Výborně Dobře Málo Požádat telefonicky neznámého člověka o informaci Pozdravit někoho, s kým obvykle nemluvíme Požádat přímo neznámého člověka o informaci Chválit Začít konverzaci Pokračovat v konverzaci Vhodně ukončit konverzaci Možno doplnit: Učitel se může ptát, co vedlo žáky k tomu, že vnímají úroveň svých dovedností právě takovým způsobem, a vyzvat je, aby popsali zážitky, na základě kterých tak usuzují. Můžeme diskutovat o tom, jaké další dovednosti jsou důležité a patří do našeho seznamu. Žáci je mohou doplnit na volná místa. Lze také přemýšlet o tom, které dovednosti a jak chci ještě rozvíjet. Dovednosti se rozvíjí zejména tréninkem. Co budu muset dělat, abych dovednosti rozvinul a zlepšil?",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 196)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=197"
+  }
+}

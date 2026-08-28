@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-povidani-a-diskuse-na-tema-alkohol",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Povídání a diskuse na téma alkohol",
+  "description": "Účastníci prohloubí své znalosti a formulují své názory na alkohol.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "povídání",
+    "diskuse",
+    "alkohol"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Začneme společně brainstormingem, budeme hledat co nejvíce odpovědí na otázku: „Co se komu vybaví, když se řekne ,alkohol‘?“ Odpovědi zapisujeme na tabuli/flipchart. Získané asociace jsou odrazovým můstkem pro následnou diskuzi. Následuje scénka. Lektor hraje alkoholika a žáci mají za úkol klást mu otázky. (Pozor! Nesmí jít o úkoly typu: „Zazpívejte nám“ nebo „Přejděte rovně po této čáře“. Cílem je vážně se pobavit o negativním dopadu alkoholu na život člověka. Tedy. Je dovoleno klást otázky, nikoli zadávat úkoly!!!) Na závěr provedeme shrnutí toho, co jsme se dozvěděli o způsobu života alkoholika, co se nám na jeho životě líbí (pokud vůbec něco) a co nelíbí, co nás překvapilo, co si z toho odnášíme, atd. Můžeme to doplnit osobními zkušenostmi nebo příklady ze života známých osobností, které si zkomplikovaly život či zemřely kvůli alkoholu.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 160)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=161"
+  }
+}

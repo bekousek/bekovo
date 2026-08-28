@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody36-serad-aktivity-podle-uzitecnosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Seřaď aktivity podle užitečnosti",
+  "description": "Žáci si uvědomí různé pohledy na užitečnost jednotlivých pohybových aktivit.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "seřaď",
+    "aktivity",
+    "podle",
+    "užitečnosti"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 minut",
+  "materials": [
+    "Kartičky s napsanými pohybovými aktivitami, papír, tužka pro každého."
+  ],
+  "procedure": "Vyrobíme si soubor kartiček, na kterých budou různé pohybové činnosti. Kartičky rozmístíme po místnosti a žáky vyzveme, aby si vytvořili seznam všech aktivit a seřadili jej podle jejich názoru od nejprospěšnější až po nejméně užitečnou aktivitu. Pak si se žáky nahlas přečteme jejich seznamy a prodiskutujeme, proč má každý z nich seznam seřazený jinak.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita C2 (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=40"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody36-klady-a-zapory-pohybovych-aktivit",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Klady a zápory pohybových aktivit",
+  "description": "Žáci si uvědomí, že pohybové aktivity mohou mít i negativní vliv na člověka. Naučí se hledat pozitiva i negativa pohybových aktivit a tím i kombinovat aktivity tak, aby nedocházelo k jednostrannému přetížení.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "klady",
+    "zápory",
+    "pohybových",
+    "aktivit"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina.",
+  "materials": [
+    "Kartičky, na které budou žáci zapisovat pohybové aktivity a jejich pozitivní a negativní vlivy, obálky, papíry na poznámky."
+  ],
+  "procedure": "Rozdělíme třídu na skupiny, nejlépe tak, aby v každé skupině byl žák velice sportovně aktivní a zároveň žák nesportovní. Každá skupina sepíše seznam pohybových aktivit, které zná a zapíše k ní, jaký má pozitivní vliv, případně jaký může mít negativní vliv na člověka. Každou aktivitu zapíší žáci na kartičku a její vliv zvlášť na jinou kartičku. V obálce vše pošlou další skupině. Žáci z obálky vyndají všechny kartičky a snaží se je vzájemně přiřadit. Výsledek si zapíší na papír, případně doplní, pokud jim některé vlivy k daným aktivitám chybí, nebo si zapíší, pokud některou kartičku nepřiřadili. Obálky kolují, dokud se ke každé skupině nedostanou všechny obálky.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita C1 (s. 38)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=39"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody23-predstavy-a-malovani-uspechu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Představy a malování úspěchu",
+  "description": "podpora pozitivní prožívání úspěchu tím, že si ho žáci představují",
+  "keywords": [
+    "sebepřijetí",
+    "sebevědomí",
+    "pohoda",
+    "představy",
+    "malování",
+    "úspěchu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 45 min",
+  "procedure": "Vedeme žáky k tomu, aby si se zavřenýma očima představili nějaký svůj úspěch, který zažili. Během vizualizace je můžeme takto provázet: Jakou má asi barvu pozitivní energie, která z něj vyzařuje? Představte si tuto záři. Představte si, jak tento úspěch proniká do ostatních oblastí vašeho života, do vašeho srdce do vaší minulosti a budoucnosti. Požádáme žáky, aby tento svůj úspěch, který si představovali, namalovali pomocí barev (abstraktně nebo realisticky – jakou formu zvolí, je na nich). Aby namalovali jeho pronikání do celé své osobnosti, jeho vyzařování do své minulosti a do různých sfér svého života i do své budoucnosti. Na závěr dáme žákům prostor své obrázky ukázat ostatním a okomentovat je. Během reflexe mluvíme o tom, jak snadno či méně snadno se nám dařilo si vzpomenout na nějaký svůj úspěch, jak se nám dařilo si jej představovat a které oblasti našeho života zasáhl. Reflexi můžeme spojit s povídáním o obrázcích.",
+  "source": {
+    "label": "Odyssea — Lekce 2.3, aktivita F2 (s. 76)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf#page=77",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: možno upravit pro různé věkové kategorie."
+}

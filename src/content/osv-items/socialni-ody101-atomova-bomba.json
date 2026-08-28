@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody101-atomova-bomba",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Atomová bomba",
+  "description": "Řešení problému s dobrodružným podtextem, spolupráce",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "atomová",
+    "bomba"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 minut",
+  "materials": [
+    "dvě 40 m lana, umělohmotný kbelík s obrubou a velký míč. Pro"
+  ],
+  "procedure": "Z jednoho lana vytvoříme v blízkosti silných stromů (asi 4 metry od nejbližšího stromu) kruh o poloměru sedm metrů. Do středu kruhu položíme kbelík a do něho dáme míč tak, aby byl z poloviny vidět (případně podložíme travou, papírem). Tak jsme vytvořili zakázané území a v jeho středu nebezpečnou nálož. Čím je vyspělejší skupina, tím může být nálož nestabilnější. Legenda: V zamořeném území (kruh z lana) se nachází atomová bomba, která každou chvíli hrozí výbuchem. Jedinou záchranou pro široké okolí je bezpečné a rychlé vynesení bomby ze zamořené oblasti a její pozdější zneškodnění. Skupina pyrotechniků, na jejichž přesné a rychlé práci závisí osudy mnoha lidí, musí dostat bombu ven z nepřístupného území, aniž by se někdo dotkl zamořeného prostoru. K odstranění bomby může použít jen jednu pomůcku - dlouhé lano, které se rovněž nesmí dotknout vymezeného prostoru. Před zahájením akce se poradíme o taktice a možných způsobech přenesení nebezpečné bomby.\n\nVarianta: sedací úvazek a karabina.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita D2 (s. 94)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=95",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 12 let."
+}

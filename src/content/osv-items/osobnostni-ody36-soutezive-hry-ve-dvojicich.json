@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody36-soutezive-hry-ve-dvojicich",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Soutěživé hry ve dvojicích",
+  "description": "Žáci pozorují chování svých spolužáků při soutěžích. Žáci si uvědomí odlišnosti v chování a úskalí ve spolupráci.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "soutěživé",
+    "dvojicích"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina",
+  "materials": [
+    "šátky, kartičky, míče, drátěnky, obruče, tělocvičné nářadí, arch na zapisování výsledků"
+  ],
+  "procedure": "Žáky rozdělíme do dvojic a pak vysvětlíme pravidla soutěže. Výsledky průběžně zapisujeme a seznamujeme žáky s průběžným pořadím. Pokud chceme, aby se povahové vlastnosti žáků u pohybových soutěživých aktivit silněji projevily, doporučuji u starších žáků trochu žáky „stresovat“ (časovým omezením, důležitostí výsledku – na známku, vyřazováním, …).\n• doběhněte k určitému cíli (na koni, jako třínozí, jako trakař, …)\n• posbírejte všechny předměty (kartičky, míče, …..) po jednom\n• překonej překážku(y) (přeskok, přelez přes překážku, dostaň se do určité výšky, …)\n• kolikrát si „přihrajete“ bez pádu míče na zem\n• na jakou největší vzdálenost si přehodíte míč\n• doplňte podle svých zkušeností",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A2 (s. 28)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=29",
+    "note": "Zdroj aktivity uvedený v metodice: běžně používané soutěže a sportovní"
+  },
+  "notes": "Věk uvedený v metodice: Soutěživé hry ve dvojicích lze zařazovat od šesti let věku.."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyk-drogy-odmitani-vyhnutim-se-i-prevence-odmitani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Odmítání „vyhnutím se I.“ (prevence odmítání)",
+  "description": "Žáci si ujasní, kdy lze nějaké situaci odmítání předejít prostě tím, že se jí vyhneme.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "„vyhnutím",
+    "(prevence",
+    "odmítání)"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "V diskusi společně se žáky dáme dohromady, co to je technika „odmítnutí vyhnutím se“ (viz výše). Dáme dohromady situace, které pro nás někdy může být těžké odmítnout (čím jsou účastníci mladší, tím více jim tyto situace můžeme nabídnout sami). Žáci pak vymýšlejí (ve skupinkách, ve dvojicích či individuálně) nejrůznější varianty, jak se daným situacím vyhnout (postupy si buď pouze pamatují, nebo je zapisují, což doporučujeme). Nakonec způsoby „vyhnutí“ zveřejníme a diskutujeme o nich.",
+  "reflection": [
+    "– Jak se Vám dařilo vymyslet různé varianty „vyhnutí“?",
+    "– Co bylo nejobtížnější?",
+    "– Do jaké míry jsou Vaše varianty uplatnitelné v praxi?",
+    "– Co byste uplatnili? V jaké situaci?",
+    "– Co si z tohoto cvičení můžeme odnést?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 106)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=107"
+  }
+}

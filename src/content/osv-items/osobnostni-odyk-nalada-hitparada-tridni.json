@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-nalada-hitparada-tridni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hitparáda třídní",
+  "description": "Žáci jeden po druhém lepí své samolepky k postupům, které by chtěli v následujícím měsíci vyzkoušet užívat společně se spolužáky ve třídě. Učitel shrne výsledky hitparády a domluví se s žáky, kdy, jak často, kde a s jakým učitelem se bude konat zvolená celotřídní aktivita v následujícím měsíci.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "hitparáda",
+    "třídní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Flipchartový papír se seznamem postupů, které se vyzkoušely na kurzu. Malé barevné samolepky pro každého 3 ks"
+  ],
+  "procedure": "Žáci jeden po druhém lepí své samolepky k postupům, které by chtěli v následujícím měsíci vyzkoušet užívat společně se spolužáky ve třídě. Učitel shrne výsledky hitparády a domluví se s žáky, kdy, jak často, kde a s jakým učitelem se bude konat zvolená celotřídní aktivita v následujícím měsíci. Následuje rozloučení. Ideální je, když se alespoň poslední hodiny účastní třídní učitel.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 59)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=60",
+    "note": "Zdroj aktivity uvedený v metodice: O. s. Projekt Odyssea POUŽITÁ"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody52-jde-to-i-jinak",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Jde to i jinak?",
+  "description": "Žáci si vyzkoušejí tvořivě řešit mezilidské situace, do kterých se dostali a které vnímali jako nepříjemné.",
+  "keywords": [
+    "tvořivost",
+    "mezilidské situace",
+    "řešení",
+    "jinak?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Sociálně-emocionální dovednosti"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Na tuto aktivitu je vhodné mít 90 minut. Je možné ji zkrátit na 45 minut, nebo j",
+  "procedure": "1. Sdělíme žákům cíl a smysl aktivity. Cílem je vyzkoušet si tvořivě řešit mezilidské situace, do kterých se žáci dostávají a které vnímají jako nepříjemné. Smyslem může být to, že se „objeví“ některá řešení těchto situací, která potom budou prakticky použitelná.\n2. Rozdělíme žáky do dvojic. Úkolem každé dvojice je nejprve sdělit si navzájem nejméně jednu situaci, do které se žáci dostali a kterou vnímali jako nepříjemnou. Ze sdělených situací si žáci vyberou jednu, se kterou potom dále pracují. Žáci jsou upozorněni na to, že situace budou později sdílet s ostatními.\n3. Dále žáci secvičí krátkou scénku. Scénka by měla zpočátku co nejvěrněji kopírovat vybranou reálnou situaci. Cílem každé dvojice je pokusit se po rozehrání scénky řešit situaci jinak, než jak reálně probíhalo její řešení. Nové řešení by mělo být v dané situaci použitelné (akceptovatelné pro toho, kdo ho použije).\n4. Jednotlivé dvojice předvádějí své krátké scénky. Po přehrání každé z nich je možné zařadit krátkou reflexi. Jejím cílem je nechat žáky vyvozovat závěry ze způsobu jejího řešení, případně navrhovat další /jiné/ možné způsoby řešení dané situace. Během této reflexe je možné použít některé z následujících otázek:\n– Co se vám na předvedeném řešení líbilo? A proč?\n– Jak byste případně řešili jinak danou situaci?\n– Dostali jste se někdy do podobné situace? Pokud ano, jak jste ji řešili?\n– Může mít nějaké výhody přemýšlet v podobné situaci nad jinými způsoby jejího řešení, než je ten první, který nás napadne?\n– Pokud ano, jaké?",
+  "source": {
+    "label": "Odyssea — Lekce 5.2, aktivita A1 (s. 22)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-2-Tvorive-resime-mezilidske-situace.pdf#page=23",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Tato aktivita je použitelná pro žáky od 10 let věku.. Před reflexí je možné žákům sdělit, že každý, koho napadne další možnost jak danou situaci řešit, dostane možnost si řešení vyzkoušet. Pokud nebude chtít tuto možnost využít, může řešení pouze popsat. Jinak je jeden člen původní dvojice nahrazen tímto žákem a předvedení situace s jiným řešením probíhá „živě“. 5. Na závěr může proběhnout krátké zhodnocení. Je možné ho udělat například tak, že každý žák může sdělit, co si z dnešní lekce zaměřené na tvořivost v mezilidských situací odnáší. Zde je možné použít kupříkladu"
+}

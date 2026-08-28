@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-ktera-pece-je-lehka-a-ktera-obtizna",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Která péče je lehká a která obtížná?",
+  "description": "Žák vyjádří a porovná, jak je pro něj lehké nebo obtížné pečovat o věci, rostliny, zvířata a lidi.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "která",
+    "lehká",
+    "obtížná?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45min",
+  "materials": [
+    "4 odlišená pracovní místa, hlasovací kamínky nebo fazole (10 pro každého žáka), flipchart, fixy"
+  ],
+  "procedure": "Připravíme 4 různé pracovní plochy, které označíme symboly pro objekty naší péče: tedy – věci, rostliny, zvířata, lidi. Každý žák dostane 10 hlasovacích kamínků. Podle svého uvážení je rozdělí na zmíněná místa podle toho, o kolik věcí, rostlin, zvířat nebo lidí pečuje.Vyzveme žáky, aby - každý sám za sebe - vysvětlili a porovnali obtížnost péče o věci , rostliny, zvířata a lidi z hlediska svých zkušeností",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita E1 (s. 50)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=51"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

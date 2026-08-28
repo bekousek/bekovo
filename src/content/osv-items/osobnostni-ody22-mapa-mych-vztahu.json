@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody22-mapa-mych-vztahu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Mapa mých vztahů",
+  "description": "Žáci si udělají přehled blízkých vztahů a lidí, kteří jsou pro ně oporou.",
+  "keywords": [
+    "vztahy",
+    "sebepoznání",
+    "druzí lidé",
+    "vztahů"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Požádáme žáky, aby namalovali do středu papíru malou kružnici a do ní napsali své jméno. Od svého jména namalují paprsky a na jejich konci budou kroužky se jmény osob, se kterými mají nějaký vztah a tento vztah je pro ně důležitý. Délka paprsku by měla vyjadřovat míru blízkosti/ vzdálenosti mezi danou osobou a žákem. Vyzveme žáky, aby ke každému zakreslenému důležitému vztahu připsali, co jim tento vztah dává, v čem jim tento vztah pomáhá. Necháme žáky, aby do svých výkresů další barvou (např. oranžovou) zakreslili ideální stav, tj. mohou přikreslit kroužky se jmény nějakých dalších osob, nakreslit kroužek určité osoby blíže nebo dále od svého kroužku, popř. ho úplně vyškrtnout. Hovoříme se žáky o tom, kolik důležitých osob kolem sebe nakreslili, jak daleko (v centimetrech) nakreslili nejbližší osobu, co jim vztahy dávají. Na závěr necháme žáky napsat jejich názory na zadní stranu výkresu (formou nedokončených vět). Požádáme žáky, aby byli konkrétní. Pokud není nic, co by chtěli měnit, mohou vyplnit pouze první dvě věty. Lidé, o které se mohu opřít, jsou ..... Ve svých vztazích jsem spokojen s ..... Ve svých vztazích nejsem spokojen s ..... Abych byl spokojenější se svými vztahy, mohl/a bych zkusit ...",
+  "source": {
+    "label": "Odyssea — Lekce 2.2, aktivita A20 (s. 70)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf#page=71",
+    "note": "Zdroj aktivity uvedený v metodice: O. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: od 10 let."
+}

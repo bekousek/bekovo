@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody36-telocvik-mych-snu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Tělocvik mých snů",
+  "description": "Žáci vyjádří svůj pozitivní nebo negativní postoj k tělesné výchově. Sami vytvoří návrh hodiny, která by se jim líbila. Žáci zdůvodní skladbu činnosti v hodině tělesné výchovy.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "tělocvik"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina.",
+  "materials": [
+    "papír, tužka"
+  ],
+  "procedure": "Žáky rozdělíme do skupin max. po 4 dětech. Každá skupina nejdříve obhájí svůj postoj (kladný nebo záporný) k tělesné výchově. Po té připraví hodinu tělesné výchovy podle svých představ. Musí dodržovat jediné pravidlo, že základem tělesné výchovy je fyzická aktivita. Na konci hodiny zdůvodní skladbu činnosti. Vyhodnotíme celkově nejlepší hodinu a tu vyzkoušíme v praxi.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita B3 (s. 37)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=38"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

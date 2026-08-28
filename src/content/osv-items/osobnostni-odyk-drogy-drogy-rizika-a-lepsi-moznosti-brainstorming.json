@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-odyk-drogy-drogy-rizika-a-lepsi-moznosti-brainstorming",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Drogy: rizika a lepší možnosti - brainstorming",
+  "description": "Motivovat k abstinenci od drog, nabídnout relevantní dovednosti.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "drogy:",
+    "rizika",
+    "lepší",
+    "možnosti",
+    "brainstorming"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Psací potřeby a papíry"
+  ],
+  "procedure": "Další úkol bude brainstormingový pro žáky rozdělené do 4 skupin (možný postup viz výše v kapitole „Plánování a dosahování životních cílů“ na str. 46 a 47). Pro brainstorming můžeme použít následující otázky:\n• Jak zdravě uspokojit touhu poznávat nové?\n• Jak zdravě zvládat nepříjemné duševní stavy?\n• Viz předchozí část, např. tělesné cvičení, relaxace, psychoterapie, někam zavolat, svěřit se, uvědomit si dobré možnosti, které člověk má. Zabývat se hudbou nebo jinými druhy umění, vyhledat odbornou pomoc, atd.\n• Jak dosáhnout zdravě a bezpečně příjemných pocitů?\n• Např. koupit si nějakou maličkost, najít si „nedrogové“ zájmy, rozvíjet partnerský a sexuální život, dát si nějaký motivační cíl a dosáhnout ho, udělat si čas „jen“ pro sebe, udělat si nějaký dobrý čaj, pustit si hudbu, něco dobrého si uvařit, udělat radost jinému člověku, atd.\n• Jak (zdravě) zahnat nudu?\n• Např. sportovat, cestovat, najít si “nedrogové“ zájmy a záliby, pěstovat kulturu a umění (nejen pasivně, ale i aktivně, např. psát básně či povídky nebo kreslit), studovat cizí jazyky, věnovat se kutilství, atd.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 170)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=171"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody101-solo",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Sólo",
+  "description": "Dobrodružný náboj osamoceného pobytu v přírodě, sebepoznání, vnímání přírody.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "pro každého - spací pytel, izolační podložky, baterka, lehký přístřešek nebo igelitová plachta, láhev s pitím, omezené množství jídla (nebo žádné), píšťalka, vhodné oblečení, batoh."
+  ],
+  "procedure": "Rychlý rytmus normálního života nám téměř nedává příležitost, abychom se někde ocitli na několik hodin samotní bez přímého kontaktu s civilizací. Mnozí z nás mají dokonce strach být jen sami se sebou. Sólo je jedinečná příležitost, je to výzva pro každého. Nabízí se zde úzký kontakt s přírodou a nezvykle dlouhé setkání se sebou samým. Sólo by nemělo představovat zcela izolovaný zážitek. Přimlouváme se za to, aby to byl důležitý bod programu, který lze organicky začlenit na konec akce. Jeho úspěšné uskutečnění je možné za podpory celé skupiny. Při delším trvání osamělého pobytu věnujeme potřebný čas přípravě. Po vícedenní akci se většina účastníků setkala se všemi potřebnými činnostmi (budování přístřešku, výběr místa pro bivakování, rozdělávání a bezpečné udržování ohně, zahlazování všech stop). Užitečné je doplňovat osamělý pobyt drobnými rukodělnými pracemi (vyřezáváním ze dřeva, pletením a dalšími výtvarnými činnostmi). Každého seznámíme s místem, kde bude probíhat jejich osamělý pobyt v přírodě i s možnostmi návratu na základnu. Každý dostane k dispozici odpovídající výsek mapy. Sólový pobyt začíná obvykle před setměním a končí v ranních hodinách. Účastník si bere s sebou skutečně jen ty nejnutnější věci. Nevzdaluje se během\n\npobytu z určeného místa. Vymezenou dobu věnuje rozvažování o svém působení na akci, hodnocení svého vztahu k přírodě i zamyšlení nad životními hodnotami. Vedoucí obvykle tento programový bod uvede, zdůvodní jeho zařazení, význam a naznačí úkoly, které by měl splnit. Je-li to potřebné, projedná přípravu s každým individuálně. Není vyloučeno, že během delšího osamělého pobytu vedoucí každého účastníka navštíví. Úvahy, nápady i předsevzetí by měly být zaznamenány do deníku, který lze využít v závěrečném hodnocení akce.\n\nVarianta: * Jednou z variant sóla je několikahodinový osamělý pobyt během dne. Zařazuje se na kratších akcích a pro mladší účastníky. * Další alternativou je uskutečnění sóla ve dvojicích nebo v trojicích. To je nutné v případech, kdy jsou účastníci velmi mladí nebo se bojí. * Třídenní sólový pobyt byl zařazován jako klasická součást programu na 26denních kursech organizace Outward Bound. Je to pro účastníky působivé a velmi náročné. * Velmi silné zážitky může přinést několikahodinový pobyt jednotlivce v jeskyni, kde je omezen počet podnětů, vzrůstá pocit osamění a jedinec je odkázán skutečně jen sám na sebe. * Vhodným úkolem pro sólo je psaní si poznámek formou \"dopisu pro sebe\". Každý se zamýšlí nad svými postoji, hodnotí prospěšnost akce a popisuje své bezprostřední prožitky. Po skončení sóla vloží dopis do obálky, zalepí ji a napíše na ni svou adresu. Obálku předá vedoucímu a ten dopis odešle s určitým časovým odstupem.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita D5 (s. 100)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=101",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě. Praha:Portál, Doc. PhDr. Jan Neuman"
+  },
+  "notes": "Věk uvedený v metodice: od 10 let Doba trvání: v závislosti na vyspělosti účastníků, nejméně cca 4-5 hodin, ideálně 8 hodin s přespáním.."
+}

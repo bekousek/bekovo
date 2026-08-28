@@ -1,0 +1,38 @@
+{
+  "id": "kolektiv-odyk-vztahy-harry-potter",
+  "categoryId": "tridni-kolektiv",
+  "title": "Harry potter",
+  "description": "Žáci pracují s tématem šikany – jak se asi cítí oběť, co může vést agresory k ubližování, jak lze šikaně bránit.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "harry",
+    "potter"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Flipchartový (balicí) papír pro každou skupinu, fixy pro každou skupinu, namnožený text z knihy J. K. Rowlingové Harry Potter a Fénixův řád – str. 594 – 596 („Už to prosím tě schovej,“ ozval se konečně Sirius, …… „Myslíš, bůhvíjak nejsi vtipný,“ řekla mu chladně. „Nech ho na pokoji!“)."
+  ],
+  "procedure": "Na začátek přečteme příběh z knihy J. K. Rowlingové Harry Potter a Fénixův řád. K příběhu se budou vázat následující úkoly. Protože někdo může text vnímat lépe vizuálně než sluchem, doporučujeme čtenou pasáž nakopírovat a rozdat žákům, aby ho měli před očima. Žáci pracují ve skupinách (cca 4 – 5 skupin celkem). Jejich úkolem je dát dohromady poster, na kterém budou odpovědi na následující otázky vztahující se k příběhu z Harryho Pottera:\n• Jak se asi cítil Snape? Jaké myšlenky se mu honily hlavou?\n• Proč to asi James Potter a Sirius Black dělali? Co je k tomu vedlo?\n• Jste v Bradavicích. Vidíte, že James Potter a Sirius Black znovu šikanují Snapea. Kolem nikdo není, jen Vy. Co vše byste v té chvíli mohli udělat? Jak byste tomu mohli zabránit?\n\nPo skončení skupinové práce vylepíme postery na jedno místo vedle sebe a společně dáme dohromady, co je v odpovědích na každou otázku společné či podobné. Z odpovědí žáků uvedených na posterech nakonec „vytáhneme“ postupně znaky šikany a označíme je barevně, případně k žákovským výpovědím doplníme vlastní komentáře. V reflexi lze mluvit o tom, co si z příběhu můžeme vzít pro náš život ve třídě. Pobavíme se o tom, co je šikana, jaké s ní kdo má zkušenosti (nikoho nenutíme mluvit!), jaké má znaky a jak se projevuje. Zejména zdůrazníme, že jsou chvíle, kdy nemůžeme mlčet, ale nemůžeme se ani agresorům postavit hned. Proto je pak nutné zkontaktovat výchovnou autoritu (rodiče, učitele, vedení školy, školního psychologa, atd.) Můžeme se žáků ptát, za kým by asi šli. Můžeme trénovat (viz níže divadlo fórum), jak by zprávu o šikaně sdělovali. Můžeme je vést k odlišení „žalování“ od „oznámení ubližování (šikany)“. Na závěr doporučujeme ještě otevřít diskusi, jak lze poznat, že se škádlíme a že se již možná jedná o šikanu (pro inspiraci lze použít text uvedený výše v kapitole „Vymezení základních pojmů“, kde mluvíme o rozdílech mezi škádlením a šikanováním). Můžeme žáky nechat ve skupinách a požádat je, aby zformulovali odpověď písemně na papír jednoho z nich nebo na velký papír. Písemné výstupy pak odprezentujeme (podobně jako u předešlé aktivity). Výstupem z diskuse by pak mělo být jednoznačné poznání, že děláme-li někomu něco, byť nám samotným to přijde zábavné, ale druhý jasně deklaruje, že se mu to nelíbí, přestaneme. Pokud bychom pokračovali, nejednalo by se už o škádlení, ale o ubližování a šikanu!!! Navážeme další aktivitou „Co je to šikana a jak funguje“.",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 50)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=51",
+    "note": "Zdroj aktivity uvedený v metodice: O. s. Projekt Odyssea ROWLINGOVÁ, Joanne K. Harry Potter a Fénixův řád. Praha: Albatros, 2004. s. 594 –"
+  }
+}

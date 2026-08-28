@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody22-dum-strom-a-pes",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Dům, strom a pes",
+  "description": "Žáci si zmapují míru svého sklon k dominanci v situaci konfliktu.",
+  "keywords": [
+    "vztahy",
+    "sebepoznání",
+    "druzí lidé",
+    "strom"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Žáci se rozdělí do dvojic. Každá dvojice dostane jeden papír a jednu tužku. Úkolem dvojic je namalovat obrázek, na kterém bude dům, strom, a pes. Před kreslením, ani v jeho průběhu nesmí nikdo ze dvojice mluvit. Po skončení kreslení jednotlivé dvojice ukáží svůj výtvor a hovoří o tom, kdo kdy vedl tužku, kdo se spíše podřídil, kdo se ujal vedení. Zda se střídali ve vedoucí roli a proč.",
+  "source": {
+    "label": "Odyssea — Lekce 2.2, aktivita B2 (s. 77)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf#page=78",
+    "note": "Zdroj aktivity uvedený v metodice: Velmi rozšířená aktivita. Autor neznámý. Úprava: O.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody113-mapa-nejblizsich-lidi",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Mapa nejbližších lidí",
+  "description": "Žák nakreslí mapu nejbližších lidi a zaznamená druhy vzájemné péče. Žák objasní význam péče o druhé lidi pro mezilidské vztahy.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "nejbližších"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Čtvrtka formátu A3 nebo flipchartový papír, kreslící a psací potřeby, dlouhé pravítko"
+  ],
+  "procedure": "Každý žák si doprostřed čtvrtky velkého formátu zaznačí symbolicky nebo nakreslí sebe a kolem lidi ze svého nejbližšího okolí (např.: členy rodiny, kamarády). Mezi sebou a jednotlivými lidmi pravítkem udělá přímku tam, kde o něj někdo pečuje. Stručně napíše projev péče (např.: Maminka – čte mi před spaním.). Přímek může být k jedné osobě více, podle toho, v jaké míře o žáka daná osoba pečuje. Přímkou zaznačí žák i případ, že o někoho pečuje on sám. Směr péče vyznačíme šipkou. V reflexi se ptáme: Co jsme dnes objevili? Jak se o nás starají blízcí lidé? Jak pečujeme o své blízké my sami?",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita D7 (s. 49)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=50"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

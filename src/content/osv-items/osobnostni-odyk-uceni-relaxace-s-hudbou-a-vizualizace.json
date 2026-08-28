@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyk-uceni-relaxace-s-hudbou-a-vizualizace",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Relaxace s hudbou a vizualizace",
+  "description": "Žáci si vyzkouší uvolnit se pomocí poslechu klidné hudby a s pomocí uklidňujících vizuálních představ. Žáci si vyzkouší využít vizuálních představ k lepšímu zapamatování skupiny informací.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "relaxace",
+    "hudbou",
+    "vizualizace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "CD přehrávač",
+    "relaxační hudba",
+    "barevné fotografie Malediv"
+  ],
+  "procedure": "Uvedeme relaxační metodu a její smysl (uvolnit se a nabrat síly). Ukážeme žákům fotografie z Malediv. Požádáme žáky, aby se pohodlně usadili a zaposlouchali se do hudby. Během poslechu by se měli pokusit představit si, že jsou na nějakém korálovém ostrově a odpočívají tam. Po uplynutí 4 minut žáky vyzveme, aby se pokusili zakomponovat do své představy různé informace, které se dozvěděli z článku. Tento postup by jim měl pomoci si tyto poznatky lépe zapamatovat. Necháme žáky, aby se věnovali svým představám další tři minuty. Ukončíme relaxaci.",
+  "reflection": [
+    "Hovoříme se žáky o tom, jak se jim dařilo se uvolnit, jak se jim dařilo vyvolat zadané představy, co si představovali, jaké to pro ně bylo, a jak se jim na závěr dařilo zapojit do svých představ jednotlivé poznatky o Maledivách."
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 51)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=52"
+  }
+}

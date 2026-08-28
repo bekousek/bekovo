@@ -1,0 +1,40 @@
+{
+  "id": "socialni-ody111-mista-si-vymeni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Místa si vymění",
+  "description": "Žák se zamyslí, co má společného se svými spolužáky.",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse",
+    "místa",
+    "vymění"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Žáci sedí v kruhu, jeden stojí vprostřed a jeho cílem je se posadit. Stojící řekne vždy stejnou větu: MÍSTA SI VYMĚNÍ VŠICHNI TI, KTEŘÍ… a doplní něco, co se týká i jeho samotného. Následně si všichni, koho se charakteristika týká, přesedají a on si sedá na některou uvolněnou židli. Hra se opakuje. V začátku je pro rozjezd hry dobré, aby stál vprostřed učitel a třeba tři kola říkal a nesedal si. Pro náš cíl doporučujeme využívat v úvodu věty jako: … Mají rádi… Si váží… Nemůžou žít bez…",
+  "reflection": [
+    "– Co jsme zjistili o naší třídě?",
+    "– Překvapilo vás během hry něco?",
+    "– Uvědomili jste si na sobě něco nového?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita A14 (s. 38)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=39",
+    "note": "Zdroj aktivity uvedený v metodice: autor neznámý, upravilo o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 6+."
+}

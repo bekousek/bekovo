@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-uceni-efektivni-cteni-prehled-ii",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Efektivní čtení - přehled II",
+  "description": "Žáci si samostatně procvičí postup, díky kterému získají základní přehled o textu, který se chystají číst.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "efektivní",
+    "čtení",
+    "přehled"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Požádáme žáky, aby si krátce (3 min.) prohlédli (nikoli přečetli) celý text Maledivy a udělali si představu, o čem pojednává, které jeho části asi budou jednoduché, které obtížnější, které části by mohly být pro ně zajímavé atd. Své postřehy a o textu si zapíší. Na tabuli napíšeme následující otázky, na které během této fáze hledáme odpověď. Co se asi z textu dozvíte? Komu je asi určen? Které jeho části vám připadají zajímavé? Které jeho části vám připadají obtížné a které snadné? Která část bude asi nejdůležitější pro žáka, který se připravuje na písemnou práci ze zeměpisu? U jakého textu je užitečné věnovat nejprve trochu času jeho prohlédnutí a zorientování se? Co nepříjemného by se mohlo stát, kdybyste se rovnou pustili do čtení, aniž byste si nejprve udělali o textu přehled? (Mohlo by se stát, že věnujeme zbytečně mnoho času textu, který neobsahuje důležité informace nebo nějaké jeho nedůležité části. Bez celkového přehledu bychom nemuseli pochopit smysl dílčích částí textu.)",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=42",
+    "note": "Zdroj aktivity uvedený v metodice: 3.3.1 Maledivy - pracovní list Název v anglickém jazyce: Maldives Počet obyvatel (odhad v r. 2005): 349 000 Rozloha včetně moře: 90 000 km2 Rozloha souše: odhadována na cca 300 km2 Hlavní město: Male Úřední jazyk: dhivehština (neboli"
+  }
+}

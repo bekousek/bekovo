@@ -1,0 +1,40 @@
+{
+  "id": "osobnostni-ody36-prekonej-sam-sebe",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Překonej sám sebe",
+  "description": "Žáci se snaží překonat nepříjemné pocity (únava, strach…).",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "překonej"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "jednotlivé disciplíny cca 20 minut",
+  "materials": [
+    "Brtník: vhodné stromy bez větví.",
+    "Stolička: rovná zeď.",
+    "Přeskok: koza, kůň, žíněnky, odrazový můstek.",
+    "Skok do výšky: žíněnka na doskočiště, stojany, laťka. Skok z výšky: bazén se skokanskou věží. Vis: vodorovné větve (tyče, hrazdy), na které se mohou žáci pověsit."
+  ],
+  "procedure": "Brtník - každý žák si najde svůj strom bez větví, ke kterému se postaví a na výkřik „brtník“ všichni naskočí na strom, obejmou ho rukama a nohama, nesmí se ničím dotýkat země a vítězí ten, který se jako poslední dotkne země. Stolička – každý žák si najde svoje místo u hladké stěny, opře se zády o zeď, nohama vytvoří „stoličku“ tak, že chodidla jsou přibližně 30 cm od stěny a ohyb v kolenou svírá přibližně 90°, ruce položí na kolena a „sedí“ na stoličce co nejdéle. Přeskok – jedná se o klasický přeskok přes kozu nebo přes koně s tím, že můžeme zvyšovat „překážku“ nebo zvětšovat vzdálenost můstku a „překážky“. Skok do výšky – podle pravidel skoku do výšky. Skok z výšky – v bazénu se skokanskou věží můžeme vyzkoušet skok z prkna, skok ze 3m nebo z 5m. Vis – každý žák si najde vodorovnou větev, v tělocvičně můžeme využít žebřiny, na hřišti fotbalovou branku, atd. „Hrazda“ musí být doskočná, aby se žáci ve visu nedotýkali dolními končetinami země. Soutěžíme o to, kdo nejdéle vydrží viset.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A6 (s. 32)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=33",
+    "note": "Zdroj aktivity uvedený v metodice: běžně používané soutěže a sportovní"
+  },
+  "notes": "Věk uvedený v metodice: Výběr aktivit lze zařadit od devíti let věku.."
+}

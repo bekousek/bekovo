@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-strom-radosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Strom radostí",
+  "description": "Účastníci si ujasní, které věci v životě jim přinášejí radost.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "strom",
+    "radostí"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Papíry a výtvarné potřeby"
+  ],
+  "procedure": "Můžeme volně navázat na „Povídání a diskuzi na téma kouření“ otázkou: „Proč lidi kouří (eventuelně berou jiné drogy)?“ Mohou mít nedostatek radostí, zájmů, zálib, atd. Každý dostane papír a má za úkol nakreslit ovocný strom, na kterém místo ovoce rostou jeho radosti. Pak se udělá „výstavka“ – každý položí svůj obrázek na židli v kruhu, ostatní chodí a dívají se na jednotlivé obrázky. Následuje povídání o tom, co koho u koho překvapilo, potěšilo/nepotěšilo (žáci se mezi sebou mohou i ptát na objasnění něčeho na obrázcích) atd., co můžeme dělat, abychom o své radosti nepřišli, atd. Náměty na reflexi – jak se nám technika líbila, jak rychle nás radosti napadaly, koho napadly některé, až když je viděl u někoho jiného (lektor může povolit, aby si tam kdokoli cokoli pak ještě dokreslil), o co všechno bychom díky kouření/drogám mohli přijít, atd. Na závěr se zeptáme, co si z techniky žáci odnášejí, co se „naučili“.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 189)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=190"
+  }
+}

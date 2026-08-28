@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-nalada-pantomimicke-ztvarneni-emoci",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Pantomimické ztvárnění emocí",
+  "description": "Zcitlivění na téma emocí a jejich tělesných projevů.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "pantomimické",
+    "ztvárnění",
+    "emocí"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "7 min",
+  "procedure": "Žáci se volně procházejí po třídě a po tlesknutí znázorňují neverbálně různé emoce a psychické stavy. Např.: vztek, strach, smutek, radost, nadšení, rozpaky, zamilovanost, touha, bolest, únava, energie, sebevědomí. V reflexi můžeme mluvit o tom, jaké emoce se jim znázorňovaly lépe a jaké hůře a na čem to záviselo.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 55)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=56"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody12-slysitelny-ucitel",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Slyšitelný učitel",
+  "description": "Žák objeví své možnosti sluchu, zkusí popsat činnost učitele na základě toho, co slyšel, na vnímání zvuků",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "slyšitelný",
+    "učitel"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "materials": [
+    "Běžné předměty ve třídě (dveře, okno, židle, křída, tabule, papír, láhev s vodou a sklenice aj.). Šátek pro každého žáka."
+  ],
+  "procedure": "Žáci budou sedět v lavicích jako obvykle při vyučování, ale se zavázanýma očima. Učitel vstoupí do třídy a bude vydávat ilustrující doprovodné zvuky pomocí předmětů ve třídě, které zřetelně oddělí pauzami. Např: dovře hlučně dveře, odsune hlasitě židli, otevře okno, nalije si minerálku do sklenice, bude listovat v třídnici, zapíše datum vrzající křídou na tabuli… Sekvenci zvuků je dobré mít předem připravenou a zapsanou na papíře, abychom se vyvarovali chyb při rekonstrukci učitelova jednání a nepříliš dlouhou, aby si děti mohly zapamatovat jejich pořadí. Po skončení žáci ve skupinách sestaví popis učitelova jednání. Nakonec jim vše učitel předvede znovu před jejich očima.",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A1 (s. 27)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=28"
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

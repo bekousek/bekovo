@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyk-drogy-odmitani-vyhnutim-se-ii-prevence-odmitani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Odmítání „vyhnutím se II.“ (prevence odmítání)",
+  "description": "Žáci se seznámí s jednou z technik odmítání, které působí spíše jako prevence – odmítnutí vyhnutím se – a zmapují situace, ve kterých by tento způsob mohli použít.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "„vyhnutím",
+    "(prevence",
+    "odmítání)"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Rozstříhaný text zadání (barevně odlišené části) – viz další strana Barevné náramky (pro každého jeden) – případně jiná „rozlišovadla“"
+  ],
+  "procedure": "Text „Odmítnutí vyhnutím se“ (uvedený na následující straně) rozstřihneme na čtyři díly. Každý díl umístíme do jiného rohu místnosti. Jednotlivé rohy barevně odlišíme. Rozdělíme žáky do skupin, v každé skupině budou 4 žáci. Každý ze skupiny dostane jinak barevný náramek (nebo jiné „rozlišovadlo“) – barvy náramků odpovídají barvám jednotlivých rohů třídy. Každý člen skupiny má tak přístup pouze do toho rohu třídy, který má stejnou barvu jako jeho náramek. Skupiny mají za úkol složit text a splnit v něm obsažený úkol. Podle toho, jakou chceme zvolit obtížnost a kolik máme času, můžeme buď zakázat používat tužky mimo stanoviště skupiny, nebo jejich používání povolit. Skupiny prezentují výsledek. Podle zadání, které dopředu nevědí (nicméně dozví se ho z textu zkompletované zprávy), bude každý člen skupiny prezentovat jednu situaci, ve které je vhodné „se vyhnout“. V reflexi se můžeme věnovat třem oblastem:\n• spolupráci ve skupině\n• zkušenostem se situacemi, kterým je lépe se vyhnout, a jak lze tyto situace dopředu rozpoznat, případně jaké jiné (další) způsoby „vyhnutí se“ známe\n• případně přímo místům, na kterých se můžeme vyhnout tabáku, alkoholu, dalším drogám.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 107)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=108",
+    "note": "Zdroj aktivity uvedený v metodice: ODMÍTNUTÍ VYHNUTÍM"
+  }
+}

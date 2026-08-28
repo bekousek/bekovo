@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody113-zahradni-slavnost",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Zahradní slavnost",
+  "description": "Žák představí své domácí zvíře. Žák si uvědomí svůj vztah ke zvířatům. Žák vysvětlí, jak o své zvíře pečuje.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "zahradní",
+    "slavnost"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 - 120 min",
+  "materials": [
+    "Vhodný venkovní prostor s možností posezení, zvířata, misky na vodu pro zvířata, fotoaparát, občerstvení pro děti"
+  ],
+  "procedure": "Využijeme teplejšího období září, května nebo června a uspořádáme setkání žáků s rodiči a jejich zvířecími kamarády na zahradní slavnosti v blízkosti školy. Slavnost připraví děti samy: určíme přípravný výbor, pomocníky s nejrůznějšími rolemi. U mladších žáků využijeme pomoci rodičů.Vyzveme žáky, aby s sebou na školní zahradní slavnost přivedli své domácí zvířecí kamarády. Během programu každý představí své zvíře a vysvětlí, jak o něj pečuje a kdo mu pomáhá. Každého žáka se zvířátkem vyfotografujeme. Fotografie použijeme k dalšímu navazování na téma ve vyučování (např. vyrobíme popisky, nástěnku, napíšeme slohovou práci.).",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita C1 (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=42"
+  },
+  "notes": "Věk uvedený v metodice: 1.,2.,3. období."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody116-erb",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Erb",
+  "description": "Žáci si ujasní, za to chtějí ve svém životě „bojovat“. Symbolicky znázorní „svá“ témata.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "60 min",
+  "materials": [
+    "papíry, fixy - pastelky - barvy"
+  ],
+  "procedure": "Rytíř slouží svému ideálu.\nSepíšeme na tabuli, co si žáci představí pod pojmem rytíř. Každý žák si vytvoří erb(tvar si může vymyslet, rozdělujeme na čtyři stejné díly), jako má každý rytíř, a do polí znázorní, za co on, jako rytíř v současnosti bojuje. Co jsou jeho vlastní témata, nebo co jsou témata, kterým se věnovat chce. Vytvoříme výstavu erbů a pobavíme se o jejich obsahu.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A11 (s. 26)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=27",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt Odyssea Mgr. Anna"
+  },
+  "notes": "Věk uvedený v metodice: 6+."
+}

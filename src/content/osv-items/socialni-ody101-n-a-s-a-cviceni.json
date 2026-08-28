@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody101-n-a-s-a-cviceni",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "N.A.S.A. Cvičení",
+  "description": "Klasické cvičení, které vychází z praxe skupinové dynamiky a dává náměty na vytváření podobných úkolů i ve školních předmětech. Cvičení vyvolává potřebu skupiny nalézt společná stanoviska. Výsledek může vypovídat o schopnosti skupiny řešit společně problémy i o tom, jaký typ řešení volí.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "n.a.s.a.",
+    "cvičení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "1,5 – 3 hodiny.",
+  "materials": [
+    "Pro každou osobu list se zadáním úkolu a později i klíč k řešení. Pro skupinu list s obecnými náměty jak má skupina při řešení postupovat, dále tabulku, kde se budou zaznamenávat výsledky řešení všech členů skupiny, formulář pro zaznamenání výsledků jednotlivých skupin a otázky, ke kterým přiřadí počet bodů.."
+  ],
+  "procedure": "1.Nejprve rozdáme každému žákovi instrukce se seznamem věcí, které má správně seřadit. Každý pracuje sám bez komunikace s ostatními ( 10-15 minut).\n2. Po uplynutí času rozdělíme třídu na skupiny po 6-8 žácích.\n3. Každý si ve skupině nechá svoje instrukce a každá skupina dostane ještě list s obecnými náměty, jak postupovat při dosahování společných stanovisek. Dále\n\ndáme do každé skupiny tabulku, do které každý člen skupiny zaznamená své výsledky (cca 10 minut).\n4. Následuje fáze hledání domluvy na vytvoření pořadí, se kterým budou všichni souhlasit ( 30-60 minut).\n5. Po uplynutí daného času předáme do každé skupiny klíč k řešení a formulář pro zaznamenávání výsledků jednotlivých skupin s otázkami, ke kterým přiřadí počet bodů (cca 10 minut).\n6. Diskuse v každé skupině o tom, jak docházeli ke společným závěrům a odpovědi na otázky zadané ve formuláři ( cca 30 minut).\n7. Srovnání výsledků skupin zanesených do jednoho společného formuláře. Je zřejmé, že se vždy bude srovnávat pořadí jednotlivců i skupin s pořadím, které určili experti. Zjistí se rozdíly, nejmenší součet rozdílů může být 15, tedy čím menší součet rozdílů, tím více se jedinec nebo skupina přiblížili ke správnému řešení.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A1 (s. 56)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=57",
+    "note": "Zdroj aktivity uvedený v metodice: Upraveno dle ANTONS, Klaus. Praxi der Gruppendynamik. Übungen und Technikem. Göttingen: Verlag für Psychologie,Dr.C.J.Hogrefe, 1973, s."
+  },
+  "notes": "Věk uvedený v metodice: lze uzpůsobit od 8 roků,."
+}

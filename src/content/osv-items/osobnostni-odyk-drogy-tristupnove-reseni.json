@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-tristupnove-reseni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Třístupňové řešení",
+  "description": "Pomoci účastníkům, aby si ujasnili, co působí na jejich rozhodování. Zlepšit schopnost správně se rozhodovat se zřetelem na vyhýbání se psychoaktivním látkám.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "třístupňové",
+    "řešení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Psací potřeby a papíry (nebo formulář pro každého)"
+  ],
+  "procedure": "Nabízíme zde jednoduchý postup, který popisuje G. J. Botvin ve svém programu „Life skills training“, se podobá našemu „9 bodovému procesu řešení problému a rozhodování“ nebo „semaforu“ a sestává se ze tří kroků:\n1. Ujasni si, o čem máš rozhodnout (tj. problém a své cíle).\n2. Uvědom si, co můžeš udělat a jaké máš možnosti. Uvažuj o co nejvíce možnostech. Opatři si k tomu potřebné informace. Domysli následky každého rozhodnutí. (Sem tedy patří získávání a třídění informací, tvorba variant, jejich třídění na 2 – 3 hlavní a konečně výběr té jediné varianty s co nejpříjemnějšími důsledky.)\n3. Vyber si nejlepší možnost a u své volby setrvej (nakonec pak klidně vyhodnoť, co bys dělal příště stejně a co jinak). I s tímto postupem je možné pracovat ve formulářích, jedna z možných podob formuláře je uvedena na další stránce. Domácí úkol:\n1. Některý žák může udělat z třístupňového řešení problému plakát.\n2. Žáci zpracují za pomoci třístupňového řešení svůj konkrétní problém a také otázku, zda kouřit nebo ne (např. do připraveného formuláře).\n\nTřístupňové řešení problému\nNázev, pojmenování problému:\nCo je mým (konkrétním) cílem s ohledem na daný problém?\nJaké informace mám k dispozici? Které z nich jsou nejdůležitější? Možné varianty řešení: Možné následky (důsledky) variant: 1. 2. 3. 4. 5. 6. 7. Rozhodnutí (výběr): (Zdůvodnění výběru):",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 69)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=70",
+    "note": "Zdroj aktivity uvedený v metodice: O. s. Projekt"
+  }
+}

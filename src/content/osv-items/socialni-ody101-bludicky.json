@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody101-bludicky",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Bludičky",
+  "description": "Dobrodružství v noci , řešení problému, spolupráce, orientace, tělesná zdatnost",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "bludičky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "40 minut",
+  "materials": [
+    "9 svítidel (plochá baterie + žárovka připevněná leukoplastí), 9 pevných závěsných průsvitných obalů s částmi textu (zde uvádíme text z Malého prince)."
+  ],
+  "procedure": "Večer umístit průhledné obaly se svítidly a textem tak, aby bylo vidět od jednoho světla (bludičky) k druhému. Umístění je třeba vyzkoušet ve dne. Každá bludička má svoje číslo. Bludičky jsou podle pověstí duše, které se po smrti lidí proměnily v malá světýlka. Ta poskakují po bažinách, svítí na lukách i kolem lidských stavení. Povahu mají různou - trestají, pomáhají hledat cestu a svým způsobem i promlouvají. Dnes se bludičky objevily severně od nás. Jsou přátelské a nesou nám určité sdělení. Text sdělení (knížka - Antoine de Saint-Exupéry: Malý princ): \"Lidé mají své hvězdy, jenže ty nejsou stejné. Těm, kdo cestují, jsou průvodci. Pro druhé nejsou ničím než malými světýlky. Pro jiné, pro vědce, znamenají problémy. Pro mého byznysmena byly zlatem. Ale všechny ty hvězdy mlčí. Ty budeš mít hvězdy, jaké nemá nikdo... Ty budeš mít hvězdy, které se umějí smát!\"\n\nÚkolem malé skupiny (3-5 osob) je vyhledat každou z bludiček, přečíst jejich vzkazy, zapamatovat si je, vrátit se na start a text věrně zaznamenat na papír. Startuje se za naprosté tmy v intervalu tří minut. Nikdo ze skupiny nemá svítilnu, tužku, ani papír. Nikdo se nesmí bludiček dotýkat. Pohyb přírodou je tichý a obezřetný. Úkol se musí splnit ve volně stanoveném limitu např. 60 minut. Po skončení chůze skupiny zaznamenávají na papír obsah sdělení bludiček.Zpráva začíná slovy, které nese bludička číslo 1 a končí sdělením bludičky s číslem 9. Potom vedoucí přečte správný text a skupiny si samy určují počet chyb. Důležitější než počet chyb je porozumět sdělenému textu a atmosféře noci.\n\nVarianta: * Umístění bludiček, jejich vzdálenost a obtížnost dosažení, závisí na věku a zdatnosti účastníků. V létě může být bludička i uprostřed rybníka. Zaznamenali jsme bludičky umístěné i pod vodou.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita D1 (s. 92)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=93",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 10 let."
+}

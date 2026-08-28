@@ -1,0 +1,43 @@
+{
+  "id": "osobnostni-odyk-uceni-efektivni-cteni-prehled-i",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Efektivní čtení - přehled I",
+  "description": "Žáci si vyzkouší získat základní přehled o textu, který se chystají číst.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "efektivní",
+    "čtení",
+    "přehled"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Přehled\nProhlédněte si krátce text, abyste získali přehled, o čem bude. (3 min.) Na konci tohoto prozkoumávání textu byste měli být schopni odpovědět na tyto otázky: (otázky napíšeme na tabuli). Co je to za text? Co zhruba se z něj můžeme dozvědět? Komu je asi hlavně určen? Která část asi bude nejzajímavější pro vás? Která část vypadá jako nejobtížnější? Která část asi obsahuje informace, které již znáte? Co vám pomůže získat přehled? Co budete během následujících tří minut dělat? Dejte si pozor, abyste se nezačetli. Poskytneme žákům 5 minut. (Pokud budou potřebovat více času, poskytneme jim ho. Zdůrazníme, že nemají text podrobně pročítat.)",
+  "reflection": [
+    "Po třech minutách necháme žáky odpovědět na otázky na tabuli.",
+    "Jak jste postupovali, abyste získali přehled.",
+    "Jaké to pro vás bude číst článek o grilování teď, když jste si o něm udělali přehled? V čem to pro vás bude jiné? Jaký je rozdíl v tom, číst text hned a číst text po té, co jsme věnovali nějaký čas dělání přehledu. Pozor: Text o grilování žáci nebudou číst. Využijeme jej pouze k demonstraci toho, jak se dělá přehled před začátkem čtení.",
+    "3.2.1 Prevence onemocnění z potravin při grilování pokrmů",
+    "v přírodě",
+    "Úvod",
+    "Nejrůznější úpravy pokrmů a stolování pod širým nebem v letním období získávají v naší republice stále větší oblibu. Mezi nejčastější způsob tepelné úpravy pokrmů patří grilování masa, ryb a uzenin. Grilování je opékání potravin na roštu nebo rožni. V prvém případě klademe potravinu na kovovou mřížku (rošt), ve druhém případě provlékneme masem kovový rožeň ve tvaru jehlice. Snad každý se s grilováním již setkal nebo ho sám někdy prováděl. Údaje o tom, jak velké procento naší populace se pravidelně věnuje během letních měsíců grilování nejsou zatím k dispozici. Např. podle Americké dietetické společnosti (ADA) se 85 % populace v USA pravidelně věnuje během letních měsíců grilování (barbecue), 71 % z toho tvoří muži. Cílem článku je upozornit občany na možná zdravotní nebezpečí, která při grilování mohou vznikat, a poradit jim, jak uvedenému zdravotnímu nebezpečí efektivně předcházet. Přináší konzumace grilovaných potravin nějaká zdravotní nebezpečí? Dobré zprávy Grilované potraviny jsou obvykle připravovány bez tuku. Např. 200g porce kuřecích prsou připravených na grilu obsahuje přibližně o polovinu nižší množství tuku než obdobná porce smaženého kuřete. Při grilování jde často spíše o atmosféru a pobyt na čerstvém vzduchu než o cokoli jiného. Obvykle bývá spojeno s posezením s přáteli u číše dobrého moku či s rodinnými oslavami a přispívá tak k dobré psychické pohodě. Grilované pokrmy jsou obvykle konzumovány společně s dostatečným množstvím čerstvého ovoce a zeleniny, o které není v letním období nouze. Špatné zprávy",
+    "1. Výskyt rakovinotvorných (karcinogenních) látek"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=36"
+  }
+}

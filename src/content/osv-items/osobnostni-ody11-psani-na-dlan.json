@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody11-psani-na-dlan",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Psaní na dlaň",
+  "description": "komunikace a pozornost k prožívání druhých i k vlastním pocitům",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "psaní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 – 20 minut",
+  "materials": [
+    "elementární hudební nástroje pro všechny"
+  ],
+  "procedure": "Lormova abeceda je doteková abeceda, u níž jsou písmena přiřazena jednotlivým místům na prstech a dlani.Jde o psaní písmen do dlaně nejlépe levé ruky příjemce. Mluvčí píše ukazováčkem nebo rychleji /dlaň na dlaň/ všemi prsty. Lormovu abecedu se nenaučíme. Je složitá. Zkusíme však trochu jednodušší formu dorozumění. Vytvoříme dvojice. Menší v každé z nich se pokusí sdělit většímu mlčky, jen psaním prstem na jeho dlaň jednoduchou zprávu, například to, co si o něm skutečně myslí… Když větší porozumí sdělení, může menšímu odpovědět rovněž jen psaním do dlaně. Pět až deset minut si tak děti ve dvojicích „povídají“ beze slov. Číslice lze psát také obrysově do dlaně. Označení tisíc, milión, miliarda - zkratkou - tis., mil., mld. Další signály: Nerozumím - zavřít dlaň. Otazník - ukazováčkem vypsat do dlaně obrys otazníku. Mezera mezi slovy - plochou ruky přejet jedenkrát po dlani. Omyl - lehké klepnutí do dlaně. Konec věty - plochou ruky přejet dvakrát po dlani. Při komunikaci se skutečně hluchoslepou osobou platí, že co člověk, to specifická varianta komunikace. Platí to i mezi zdravými lidmi?",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita A5 (s. 25)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=26",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II (materiál k připravované"
+  },
+  "notes": "Věk uvedený v metodice: od 7 let výše."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-vlivy-pri-rozhodovani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vlivy při rozhodování",
+  "description": "Pomoci účastníkům si ujasnit, co působí na jejich rozhodování. Zlepšit schopnost správně se rozhodovat se zřetelem na vyhýbání se psychoaktivním látkám",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "vlivy",
+    "rozhodování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Psací potřeby a tabulka pro každého žáka"
+  ],
+  "procedure": "Rozhodování se týká např. toho, co si obléknout, jak moc se učit nebo kdy přijít domů. Některá rozhodnutí děláme automaticky, o jiných přemýšlíme. Při rozhodování na nás působí nejrůznější vlivy. Abychom se správně rozhodovali, je třeba si tyto vlivy uvědomovat. Nyní si uděláme takovou bilanci toho, kdo nebo co mělo (či má) vliv na naše konkrétní rozhodování. Požádáme žáky, aby vyplnili do tabulky (viz následující strana) konkrétní rozhodnutí, která již udělali, právě dělají nebo budou dělat. U těch vlivů, které na ně při rozhodování působí, mají udělat křížek. Kdo chce, může zveřejnit konkrétní rozhodnutí a další informace. Během reflexe mluvíme o různých vlivech na naše rozhodování, o poměru jednotlivých vlivů a o tom, k čemu tyto vlivy přispívají, do jaké míry se chceme nechat ovlivnit. Pak můžeme přejít k tomu, jak pracovat s obtížnými rozhodnutími.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 65)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=66",
+    "note": "Zdroj aktivity uvedený v metodice: VLIVY PŘI ROZHODOVÁNÍ – TABULKA Rozhodnutí doma Vlivy na rozhodování: 1. Já Rodiče Kamarádi Učitelé Sdělovací prostředky Další vlivy (jaké): 2. Já Rodiče Kamarádi Učitelé Sdělovací prostředky Další vlivy (jaké): 3. Já Rodiče Kamarádi"
+  }
+}

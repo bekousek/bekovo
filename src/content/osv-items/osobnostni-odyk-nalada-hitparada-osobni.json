@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-nalada-hitparada-osobni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hitparáda osobní",
+  "description": "Žáci si zvolí jeden postup zlepšování nálady (a obnovy svěžesti), který zavedou do svého osobního života.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "hitparáda",
+    "osobní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "5 min",
+  "materials": [
+    "Flipchartový papír se seznamem všech postupů, které se vyzkoušely na kurzu. Malé barevné samolepky, pro každého 1ks."
+  ],
+  "procedure": "Žáci jeden po druhém lepí svou samolepku k postupu, který chtějí v následujícím měsíci vyzkoušet užívat ve svém osobním životě. Zde je možné se zdržet hlasování a nic si nevybrat.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 58)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=59"
+  }
+}

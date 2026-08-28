@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-kyvadlo-pendl",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kyvadlo (pendl)",
+  "description": "Účastníci zažijí silné emoce ve skupině.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "kyvadlo",
+    "(pendl)"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Pracujeme ve skupinách po 8 – 12 členech.\nÚčastníci v každé skupině se postaví co nejblíže k sobě – utvoří semknutý kruh. Jeden se postaví doprostřed, zpevní svoje tělo, aby byl rovný a pevný „jako prkno“, překříží ruce na hrudníku a může zavřít oči. Až bude připravený, zeptá se, zda „může“ (kvůli bezpečnosti). Jsou-li ostatní účastníci v kruhu připraveni a soustředěni, odpoví mu: „můžeš“. On pak spadne na některou stranu. Ti, kdo vytvářejí kruh, tak jsou vždy připraveni ho zachytit a když na ně spadne, tak ho chytí a pomalu odrážejí. Doporučujeme, aby toho, kdo je uprostřed, vždy chytali 2 - 3 lidé podle toho, kam dopadne (opět kvůli bezpečnosti). Prostředního si ostatní posílají pomalu, je to prevence pádu. Atmosféře pomůže, pokud se během aktivity nemluví. V reflexi můžeme mluvit\n• o různých emocích, které jsme během aktivity prožívali;\n• o dalších způsobech, jakými lze zařídit prožívání silných emocí;\n• o věcech (činnostech), které vyvolávají příjemné a nepříjemné emoce;\n• o tom, jak pracovat s nepříjemnými emocemi;\n• o vlivu návykových látek na naše prožívání (jak drogy působí na naše emoce);\n• o tom, z jakého důvodu si asi někteří lidé nedokážou „zařídit“ příjemné emoce a co se s tím dá dělat;\n• o tom, z jakého důvodu se snaží někdy lidé dosáhnout příjemných emocí skrze drogy a co se s tím dá dělat.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 76)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=77",
+    "note": "Zdroj aktivity uvedený v metodice: Sociálně psychologické výcviky, encounterové programy, úprava o. s. Projekt"
+  }
+}

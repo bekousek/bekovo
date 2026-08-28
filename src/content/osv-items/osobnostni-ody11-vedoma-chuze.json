@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody11-vedoma-chuze",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vědomá chůze",
+  "description": "uvolnění tenze, nácvik umění plné koncentrace",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "vědomá",
+    "chůze"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 5 – 8 minut, podle počtu dětí",
+  "materials": [
+    "CD s hudbou (např. J. S. Bach AIR on The G String)"
+  ],
+  "procedure": "Jdeme volně za doprovodu hudby a přitom si pozorně uvědomujeme každý, i ten nejmenší pohyb, který při chůzi vykoná naše tělo. Jsme naprosto, na sto procent soustředění jen na svoji chůzi.Vědomá chůze uvolňuje stres, napětí a podporuje oběh energií v těle. Při chůzi se také někomu lépe myslí a líp řeší problémy. Nemůžeme-li vzhledem k prostoru chodit, „šlapeme“ aspoň chvíli v sedě nohama na zemi, nebo dlaněmi zlehka na kraj stolu. I to však děláme maximálně vědomě. Vyloučíme každou jinou myšlenku a jsme plně soustředěni jenom na své pohyby. Takto – plně vědomě – se pak snažíme dělat i další činnosti.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita B1 (s. 26)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=27",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

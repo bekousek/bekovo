@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-pomaly-a-rychly-mozek",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Pomalý a rychlý mozek",
+  "description": "Pomoci účastníkům, aby si ujasnili, co působí na jejich rozhodování.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "pomalý",
+    "rychlý",
+    "mozek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Nejprve si stručně vysvětlíme, co je to „rychlý“ a „pomalý“ mozek. Jedná se pouze o jakési didaktické zjednodušení, nicméně v určitém kontextu velmi užitečné. Některé věci dělá člověk automaticky a nemusí o nich přemýšlet (např. zavazování tkaniček od bot). Na to stačí tzv. „rychlý mozek“. Složitější problémy ale vyžadují důkladnější přemýšlení. „Pomalému mozku“ to sice déle trvá, ale dokáže vzít v úvahu více skutečností a lépe domyslet následky. Lidé nejčastěji chybují tím, že používají rychlý mozek tam, kde by měli používat pomalý. Požádáme žáky, aby si každý připravil 3 příklady na to, kdy je možné použít „rychlý mozek“ a kdy je lépe používat „pomalý mozek“. Kdo chce, může příklady zveřejnit. O příkladech diskutujeme.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 64)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=65"
+  }
+}

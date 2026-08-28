@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-naucte-nas-vase-jmena-aplikace-naucenych-princ",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Naučte nás vaše jména - aplikace naučených principů",
+  "description": "Žáci si vyzkouší aplikovat naučené principy fungování paměti v praktické situaci.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "naučte",
+    "jména",
+    "aplikace",
+    "naučených",
+    "principů"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Požádáme žáky, aby lektora naučili svá jména. (Pokud jména známe, můžeme se učit křestní jména rodičů žáků nebo zájmy žáků.) Třída pracuje jako celek. Lektor moderuje rozhodování třídy.\n1. Nechá žáky vymýšlet různé postupy a zapisuje je na tabuli.\n2. Poté vyzve žáky, aby zvolili, který postup (které postupy) použijí, popř. v jakém pořadí.\n3. Ke každému postupu se přihlásí jeden žák jako jeho „manažer“.\n4. Následuje fáze realizace. Žáci realizují svůj postup pod vedením „manažerů“.\n5. Pokud žáci nepočítali s tím, že si ověří, jak dobře lektora svá jména naučili, požádáme je, aby výsledky své výuky ověřili.\n6. Dále je vyzveme, aby pojmenovali, co zafungovalo, co ne a popř. vytvořili doplňující postup, kterým si může lektor chybějící znalosti doplnit.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 32)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=33"
+  }
+}

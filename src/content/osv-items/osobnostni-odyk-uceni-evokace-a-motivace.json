@@ -1,0 +1,32 @@
+{
+  "id": "osobnostni-odyk-uceni-evokace-a-motivace",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Evokace a motivace",
+  "description": "Žáci pojmenují své přání naučit se nové postupy efektivního učení. Žáci vyjmenují věci, které se v minulosti učili, a věci, které se chtějí nebo musejí učit v budoucnosti. Žáci popíší, jak se v současné době učí a jak jsou tyto postupy účinné.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "evokace",
+    "motivace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "1. Co to znamená, když někdo řekne: já se neumím učit?\nK čemu vám bude v životě užitečné, když se budete umět učit?\n2. Co je to efektivní učení?\nNecháme žáky vysvětlit, co znamená slovo efektivita nebo efektivní.\n3. Co všechno jsme se naučili\nNež se pustíme do objevování nových postupů efektivního učení, pobavíme se o tom, jaké máte s učením zkušenosti. Učení je něco, s čím se setkáváme ve všech oblastech našeho života. Prakticky neustále něco nového poznáváme nebo se něčemu učíme. Co všechno jsme se už naučili? Nemyslete jen na školu! Žáci zapisují na kartičky, co se jim podařilo se naučit tak, že to dodnes umí. Třídění kartiček do skupin (ve čtveřicích). Rozdělte kartičky do skupin tak, aby bylo vidět různé druhy věcí, které se lidé učí. Dohodněte se na skupinách. Dejte skupinám název, který dobře vystihne, co v té skupině najdeme. Zástupci skupin sdělí třídě, jaké druhy učení objevili. Do jakých skupin jste kartičky rozdělili?\n4. Škála\nUkažte na škále 1 - 10 pomocí prstů, jak se umíte učit. (1 znamená neumím se učit vůbec, 10 znamená umím se učit maximálně efektivně.) Pozor! Umět se učit není to samé jako mít dobré známky.\n5. Co všechno děláte, když se chcete něco naučit? Co z toho vám dobře funguje? Nápady žáků zapíšeme na velký papír a vyvěsíme na zeď.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 9)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=10"
+  }
+}

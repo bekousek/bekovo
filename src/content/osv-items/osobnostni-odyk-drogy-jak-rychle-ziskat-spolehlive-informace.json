@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-drogy-jak-rychle-ziskat-spolehlive-informace",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak rychle získat spolehlivé informace",
+  "description": "Umět se chránit před negativními vlivy médií, efektivně využívat různé informační zdroje.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "rychle",
+    "získat",
+    "spolehlivé",
+    "informace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Každá skupina dostane za úkol určit, kde si nejlépe opatřit informace:\n1. O počasí.\n2. Informace o možnostech dalšího vzdělávání.\n3. Popis cvičení, které pomůže při problémech s páteří (nápověda: tady bude patrně nejvhodnější fyzioterapeut nebo lékař).\n4. Podklady pro studentskou odbornou práci týkající se významné osobnosti, která žila v okolí školy. Rozšíření programu Reklama na zdravý způsob života (kresba, slogan, pro vyspělejší i scénář 30 vteřinového televizního šotu zahraný formou scénky).",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 134)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=135"
+  }
+}

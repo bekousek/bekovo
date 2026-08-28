@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody36-tvorime-treninkovy-denik",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Tvoříme tréninkový deník",
+  "description": "Žáci si vytvoří svůj tréninkový deník. Mohou zaznamenat svá předsevzetí a naplánovat cestu, jak je naplnit, nebo zapisovat své aktivity a zpětně vyhodnotit, zda došlo ke změně.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "tvoříme",
+    "tréninkový",
+    "deník"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Příprava: dvakrát 45 minut, dvě vyučovací hodiny.",
+  "materials": [
+    "Sešit, tužka."
+  ],
+  "procedure": "Nejdříve se žáky sepíšeme seznam všech kolonek, které by v žádném tréninkovém deníku neměly chybět (příloha P5). Po té žáky vyzveme, aby si zvolili, zda jejich tréninkový deník bude jen záznamem pohybových aktivit nebo cíleným tréninkovým plánem pro zlepšení konkrétního výkonu. V případě, že bude tréninkový deník záznamem, si žáci do deníku zaznamenají výsledky svých výkonů ve všeobecných testech (síla,vytrvalost, obratnost). Pokud má být deník záznamem o plnění plánu, pak si nejdříve žák musí zvolit aktivitu, ve které se bude pravidelným tréninkem zlepšovat. Zaznamená si počáteční výkon v této aktivitě, zvolí činnosti, které budou tuto aktivitu rozvíjet a zároveň činnosti, které budou doplňkové a vyrovnávací. Vše zaznamená do tréninkového plánu, který je součástí deníku a zaznamenává jeho plnění. V průběhu pololetí může docházet ke změnám a úpravám podle konkrétní situace. Vždy by ale měl být uveden důvod, proč ke změně došlo.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita C4 (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=42"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.. 1. týden 2. týden 3. týden 4. týden 5. týden 6. týden 7 týden 8. týden 9. týden 10. týden 11. týden 12. týden 13. týden 14. týden 15. týden 16. týden 17. týden 18. týden 19. týden 20. týden x … 1 … aktivita probíhala 1x týdně 2 … aktivita probíhala 2x týdně 3 … aktivita probíhala 3x týdně 4 … aktivita probíhala 4x týdně 5 … aktivita probíhala 5x týdně 6 … aktivita probíhala 6x týdně 7 … aktivita probíhala 7x týdně Příloha P3 • lyžování sjezdové • lyžování běžecké • snowboarding • skateboarding • bruslení • inline bruslení • le"
+}

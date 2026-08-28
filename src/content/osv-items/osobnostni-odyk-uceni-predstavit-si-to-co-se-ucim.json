@@ -1,0 +1,31 @@
+{
+  "id": "osobnostni-odyk-uceni-predstavit-si-to-co-se-ucim",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Představit si to, co se učím",
+  "description": "Žáci si vyzkouší strategii zapamatování, která využívá zrakové a jiné smyslové představy.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "představit"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Nyní si vyzkoušíme další způsob, jak se efektivně učit seznamy věcí. Bude asi vyhovovat těm z vás, kdo mají bohatou představivost. Když se učíme seznam slov, může nám pomoci, že si jednotlivé věci představíme jako součásti jednoho obrazu. Vraťme se k prvnímu seznamu slov, nyní však již roztříděnému do skupin. Nábytek: židle, skříň, botník, stůl, křeslo, kuchyňská linka Vybavení auta: výfuk, volant, řadící páka, pneumatika, brzda, stěrače Oblečení: šála, kalhoty, čepice, bunda, rukavice Zelenina: mrkev, okurka, paprika, rajče, hlávkový salát Státy: Indie, Rusko, Čína, Austrálie, Nový Zéland Zavřete oči a zkuste si představit slova ze skupiny „zelenina“ jako mísu se salátem, ve které vidíte jednotlivé druhy zeleniny ze seznamu, můžete si dokonce představit, jak chutnají. Okurka, rajče, hlávkový salát, paprika, mrkev. Věnujte nějaký čas této představě. Všimněte si jakou barvu má vaše paprika, jak nadrobno je nakrájena mrkev apod. Pokuste se vytvořit si realistickou představu salátu z těchto surovin. Otevřete oči. Měl váš salát nějakou zálivku? Jak byla nakrájena okurka? Čím detailněji vypracujete svoji představu, tím lépe si ji zapamatujete. Máme pět základních smyslů. Zrak, sluch, hmat, čich, chuť. Čím více smyslů do své představy zapojíte, tím lepší bude výsledek. Nyní si vyzkoušejte samostatně představit skupinu vybavení auta. Představte si auto, postupně si tuto svou představu prohlížejte a objevte v ní jednotlivé prvky ze seznamu slov: výfuk, volant atd. Co můžete udělat tehdy, když se učíte něco, o čem nevíte, co to je, ani jak to vypadá? (zeptat se, vyhledat si to na internetu, v encyklopedii apod.)",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 19)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=20"
+  }
+}

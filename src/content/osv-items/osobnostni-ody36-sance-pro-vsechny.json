@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody36-sance-pro-vsechny",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Šance pro všechny",
+  "description": "Žáci si vyzkoušejí prezentaci svých nápadů a seznámí se s pozitivy různých sportů.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "šance",
+    "všechny"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina",
+  "materials": [
+    "Velké papíry na plakáty, pastelky, fixy, seznam sportovních oddílů (příloha P4)."
+  ],
+  "procedure": "Každý žák sehraje roli náborového agenta sportovního oddílu, zaměřeného na konkrétní sport. Vymyslí si některou sportovní aktivitu (pokud máme pochybnosti o dostatečné různorodosti, můžeme žákům rozdat lístečky nebo nabídnout seznam, viz. příloha P3). Oddíl potřebuje sehnat co největší členskou základnu, protože na každého člena dostává příspěvek, bez ohledu na jeho výkonnost. Jedinou podmínkou uznaného členství je aktivní přístup k danému sportu. Úkolem agenta je vymyslet co nejvíce pozitiv a nabídkových (motivačních) aktivit (ne finančních) pro konkrétní sport a přesvědčit co nejvíce spolužáků ke členství v jeho oddíle. Každý ze žáků si může zvolit několik členství, ale minimálně se musí napsat alespoň do jednoho oddílu. Nábor může probíhat ve třech variantách.\n1) Všichni žáci se pohybují po místnosti a vzájemně si nabízejí svoje aktivity. 2) Každý vytvoří náborový plakát, kde vypíše všechny výhody členství. Všechny plakáty se vyvěsí po místnosti a každý ze žáků se podepíše pod svoji volbu. 3) Vytvoříme týmy (max. 3-4 žáci), které si připraví prezentaci svého sportovního oddílu. Po prezentaci tým rovnou může vybírat přihlášky nebo necháme proběhnout všechny prezentace a pak se každý ze žáků rozhodne.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita B2 (s. 36)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=37"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

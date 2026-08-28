@@ -1,0 +1,48 @@
+{
+  "id": "kolektiv-odyk-vztahy-kooperativni-micek",
+  "categoryId": "tridni-kolektiv",
+  "title": "Kooperativní míček",
+  "description": "Žáci spolupracují na splnění úkolu.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "kooperativní",
+    "míček"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Míček, stopky"
+  ],
+  "procedure": "Žáci mají za úkol zařídit, že se míčku dotknou všichni v co nejkratším čase při zachování následujících podmínek:\n• za dotek se považuje pouze dotek kůží,\n• v jednu chvíli se míčku smí dotýkat pouze jeden člověk,\n• míček se nesmí zničit.\nPřed začátkem necháme žáky tipovat, jakého času si myslí, že dosáhnou. Čas měříme u každého pokusu, u kterého o měření požádají. Většinou se třídě podaří dostat pod časový limit, který původně tipovala. Můžeme pobídnout třídu k dalšímu pokusu s ještě nižším časem.",
+  "reflection": [
+    "• Znázorněte pomocí šály, jak jste spokojeni s výsledkem. Kdo chce, může okomentovat.",
+    "• Co Vám bylo během aktivity nepříjemné?",
+    "• Popišme si, jak aktivita probíhala.",
+    "• Co Vám pomohlo, že jste úkol v tomto čase zvládli?",
+    "• Co byste příště udělali stejně?",
+    "• Co byste příště udělali jinak?",
+    "• Jaké situace ze života Vaší třídy Vám to připomíná?",
+    "• Co to asi vypovídá o Vaší třídě?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 45)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=46",
+    "note": "Zdroj aktivity uvedený v metodice: Podle doc. Hany"
+  }
+}

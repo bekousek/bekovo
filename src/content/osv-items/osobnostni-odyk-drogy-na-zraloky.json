@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-na-zraloky",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Na žraloky",
+  "description": "Účastníci zažijí spolupráci při společném plnění úkolu, dojde k prohloubení důvěry ve skupině, podpoře vzájemných vztahů a ke zvýšení skupinové koheze.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "žraloky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "40 minut (v případě potřeby lze zkrátit i na polovinu, pak je potřeba zmenšit hr",
+  "materials": [
+    "Židličky (počet v závislosti na počtu hráčů: vždy maximálně tolik židlí, kolik je hráčů)"
+  ],
+  "procedure": "Na jedné straně místnosti utvoříme souvislou řadu ze židlí. Ty symbolizují loď. Hráči představující námořníky se na ně postaví. Nyní vysvětlíme pravidla hry. Je dobré začít krátkým příběhem nebo alespoň objasněním situace, ve které se jako námořníci nacházejí. Loď narazila na útes, ti, kteří přežili, se zachránili na části vraku. Jedinou šancí na přežití je dopádlovat na blízký ostrůvek. K potápějící se lodi však připlavali obrovští lidožraví žraloci (těmi budou učitelé, vedoucí... ). Každé plácnutí do vody je okamžitě přiláká… Hráči mají za úkol dostat se na opačnou stranu místnosti. K dispozici mají pouze židle, na kterých stojí. Protože žraloci citlivě vnímají jakýkoliv zvuk, nesmí hráči mluvit, dorozumívají se pouze pohyby a gesty. Koho žralok uslyší, toho sežere (žák vypadává ze hry, odchází si sednout někam stranou). Stejně tak ze hry vypadne i ten, kdo se dotkne jakoukoliv částí těla země. Jakmile přemisťovaná židle vydá nějaký zvuk při kontaktu s podlahou, je žraloky odebrána a už není dále k dispozici. Na ostrov musí dorazit všichni námořníci společně. Způsob, resp. měřítka na odebírání židlí, je dobré volit podle toho, jak hra žákům jde – pokud “odsýpá“, je vhodné být přísnější a nenechávat ve hře více židlí, než je nutné. V reflexi můžeme mluvit o tom, co bychom příště dělali stejně a co jinak, co nám jako skupině pomáhalo úkol splnit, jaké jsme v průběhu aktivity prožívali emoce, do jaké míry jsme táhli za jeden provaz, kdo „sóloval“, jak bychom příště mohli zařídit, abychom více a lépe spolupracovali, co jsme se na aktivitě naučili.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 194)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=195",
+    "note": "Zdroj aktivity uvedený v metodice: Autor neznámý. Upravil Martin Dočekal a o. s. Projekt"
+  }
+}

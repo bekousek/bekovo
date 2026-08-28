@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody101-gordicky-uzel",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Gordický uzel",
+  "description": "Kontakt s ostatními, smysl pro kooperaci, obratnost, tvořivý přístup k řešení problému. Výborný prostředek, jak zapojit všechny do akce při řešení zdánlivě jednoduchého pohybového úkolu.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "gordický"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Vytvořte kruh tak, abyste se dotýkali rameny. Předpažte levou paži a uchopte za ruku některého ze svých spoluhráčů. Pozor, nesmí to být váš soused zprava ani zleva. Totéž proveďte pravou paží (je možno provést se zavřenýma očima). Nyní jste dokonale propletení, vytvořili jste Gordický uzel. Nečekejte na Alexandra Makedonského a snažte se rozmotat vlastními silami, aniž byste se pustili. Podaří-li se vám rozplést tuto změť končetin a těl a vytvořit jeden kruh (platí i postavení zády do středu kruhu), budete zapsáni do desek maloasijského města Gordia. Asie vám bude ležet u nohou. Selžou-li všechny pokusy o rozpletení lidského uzlu, může vedoucí uvolnit jedno spojení, o kterém si skupina myslí, že je klíčové. Pak se pokračuje v řešení úkolu. Při větším počtu hráčů bývá potřebný i druhý zásah vedoucího. Hráči i vedoucí by se měli obrnit trpělivostí a hledat řešení. V průběhu hry se může měnit způsob držení rukou při zachování stálého kontaktu, nesmí to však měnit základní postavení. Při větším počtu osob se někdy podaří vytvořit i několik menších kruhů.\n\nVarianta: * Zahájení hry s malým počtem hráčů a postupné zvětšování skupiny. * Při velkém počtu hráčů lze přerušit jedno spojení a uložit skupině vytvoření řady. * Lze určit časový limit pro řešení či soutěžit v úspěšnosti mezi několika skupinami.",
+  "reflection": [
+    "Po skončení cvičení se děti vyjádří k tomu, jak se jim dařilo rozetnout gordický uzel. Znovu se podívají kolem a řeknou, kdo se na vyřešení podílel. Kdo a jak prosazoval svůj postup. Zodpoví si otázku, co bylo nejdůležitější pro řešení takového problému."
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A2 (s. 62)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=63",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan. Dobrodružné hry v tělocvičně. Praha:Portál, 2001, 243"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

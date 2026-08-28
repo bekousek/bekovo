@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-kratke-predstaveni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Krátké představení",
+  "description": "Účastníci se vzájemně představí, obrátí pozornost na sebe navzájem a na své volnočasové aktivity.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "krátké",
+    "představení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Každý z účastníků má za úkol se představit tak, že řekne své křestní jméno a jaké má koníčky, co dělá ve volném čase. Jako první se představí lektoři. Možná reflexe:\n• Z jakého důvodu na kurzu prevence závislostí hovoříme o volném čase a o tom, co nás baví?\n• V čem nám mohou naše koníčky pomoci předcházet závislostem?\n• Říká se, že častou příčinou „pádu“ do závislosti je nuda. Z jakého důvodu nás může nuda dovést k závislosti? Jak (čím) se můžeme nudě bránit, jak jí můžeme čelit?",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=35"
+  }
+}

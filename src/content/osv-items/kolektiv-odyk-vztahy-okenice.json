@@ -1,0 +1,47 @@
+{
+  "id": "kolektiv-odyk-vztahy-okenice",
+  "categoryId": "tridni-kolektiv",
+  "title": "Okenice",
+  "description": "Žáci procházejí jednotlivými fázemi vývoje skupiny a určí, ve které z nich se nachází jejich třída.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "okenice"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Flipchartový papír do každé skupiny, různobarevné voskovky"
+  ],
+  "procedure": "Rozdělíme žáky do skupin o 4 – 6 členech. Každá skupina dostane jeden papír. Každý si vezme jednu voskovku a to tak, že bude mít jinou barvu než kolegové z jeho skupiny. Barvy během aktivity nebudeme měnit. Doporučujeme brát si výraznější barvy (např. žlutá je špatně vidět, někomu by to mohlo být líto). Celá aktivita probíhá beze slov. Budeme ve skupinách kreslit podle instrukcí. O všem, co se nám honilo hlavou, budeme mluvit po skončení aktivity. Každá skupina se posadí ke svému papíru tak, aby k němu měli všichni přístup. Celá aktivita probíhá beze slov. Nejprve se na sebe podívají, aby věděli, s kým pracují. Poté bude jejich prvním úkolem rozdělit papír na čtyři stejné části, papír se nesmí trhat. Už není možné domlouvat se mluvením! Jednotlivé části označíme malými čísly od 1 do 4. Postupně budeme kreslit do každé z částí.\n• Část č. 1 je určena k tomu, aby se každý ze skupiny nějak představil pomocí obrázku či symbolu. Každý vstoupí na papír sám za sebe svou barvou. Účastníci mají tolik času, kolik potřebují.\n• V části č. 2 má každý za úkol zabrat co nejvíce místa pro sebe. Pomocí svojí barvy obsadit co nejvíce místa z druhé části papíru pro sebe. Kdo nebude mít dostatek prostoru, bude na tom „špatně“. Stále se nesmíme domlouvat. Po nějaké době kreslení zastavíme důrazným „stop“.\n• Část č. 3 je určena pro společný obrázek, který bude každá skupina vytvářet dohromady a to tak, že v jednu chvíli smí být na papíře pouze jeden kreslík. Jeden ze skupiny začne, něco nakreslí, další na jeho kresbu naváže. Je nutné, aby se neustále střídali všichni. Připomeneme, že o tom, co bude skupina kreslit se nesmí domlouvat pomocí slov. Účastníci mají opět tolik času, kolik potřebují.\n• Část č. 4 je také určena pro společný obrázek, který bude každá skupina vytvářet dohromady. Tentokrát tak, že v jednu chvíli musí být na papíře všechny voskovky. Cílem je společný obrázek, který kreslí všichni členové skupiny najednou. Samozřejmě, že stále bez mluvení. Po ukončení kreslení otočíme obrázky pomalovanou stranou dolů a posadíme se do kruhu, ve kterém bude probíhat reflexe.",
+  "reflection": [
+    "• Pocitová reflexe:",
+    "– Jak se Vám to malovalo? Co jste prožívali? Co Vám bylo příjemné, co nepříjemné? Co se Vám honilo hlavou?",
+    "• Preference jednotlivých částí:",
+    "– Která ze čtyř částí okenice Vás bavila nejvíc? Která nejméně? Z jakých důvodů?",
+    "– V čem se asi budou obrázky shodovat a v čem lišit?",
+    "• Otočíme obrázky tak, aby na ně všichni viděli.",
+    "• Průběh aktivity:",
+    "– Jak se Vám dařilo se v první části představit?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 46)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=47",
+    "note": "Zdroj aktivity uvedený v metodice: Semináře Milady Votavové – Základy psychoterapie pro pedagogy, katedra pedago - giky FFUK v letech 2003-6. POHLED"
+  }
+}

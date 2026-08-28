@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-nacrtek",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Náčrtek",
+  "description": "Žáci si vyzkouší vytvořit náčrtek za účelem lepšího porozumění textu.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "náčrtek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "text pro každého"
+  ],
+  "procedure": "1. Vyzveme žáky, aby si přečetli odstavec Tři typy zásahu bleskem a pokusili se udělat si náčrtek, který by jim pomohl vyjádřit, co je to krokové napětí, a jak může člověka ohrozit. Pokud žákům text připadá příliš složitý a nepochopitelný: vyzveme je, aby podtrhli v textu modře vše, čemu rozumí, a vlnovkou červeně vše, čemu nerozumí. Pravděpodobně nebudou rozumět slovu potenciál, možná i napětí. Necháme žáky pojmenovat, co se potřebují dozvědět, aby dokázali pochopit, co je to krokové napětí. Jak by mohli získat na svou otázku jednoduchou a srozumitelnou odpověď? Navrhneme žákům, aby si udělali myšlenkovou mapu na téma elektřina. Co vědí o elektrickém proudu, kde všude se s elektřinou setkávají, jaké znají úrazy elektrickým proudem, jak k nim dochází apod. Pokud ani toto nepomůže, poskytneme žákům text Krokové napětí - podrobnější vysvětlení. Vyzveme je, aby si text přečetli, objevili klíčové pojmy a zformulovali max. tři hlavní myšlenky textu, které vysvětlují, co je to krokové napětí. Nakonec žáci vytvoří náčrtek tohoto jevu.\n\n5.8.1 Krokové napětí - Podrobnější vysvětlení\nKrokové napětí je příčinou některých úmrtí či zranění lidí elektrickým proudem. Dochází k němu tehdy, když člověk stojí na zemi nedaleko (až 40 metrů) od místa, do kterého udeřil blesk. Elektrický proud se k tomu člověku dostane ze země a projde jeho tělem. Nejčastěji vstoupí jednou nohou do těla a druhou nohou vyjde ven. Další variantou je, že elektrický proud projde tělem člověka, který leží na zemi. V tom případě např. vstoupí hlavou a vyjde chodidly. Elektrické napětí vždy vzniká mezi dvěma místy, které mají rozdílný elektrický potenciál. Když se tato dvě místa propojí nějakým vodičem, začne mezi nimi procházet elektrický proud. V případě krokového napětí, se tím vodičem stává lidské tělo. Elektrické napětí se nachází např. v zásuvce. Když do zásuvky zasuneme nějaký spotřebič (např. lampu) a zapneme ho, začne spotřebičem protékat elektrický proud. Může lidským tělem procházet elektrický proud? Bohužel ano. Lidské tělo vede elektrický proud podobně jako voda nebo železo. Lidské tělo obsahuje mnoho vody a proto vede elektrický proud lépe než země. Pokud si má elektřina „vybrat“, zda projde zemí nebo lidským tělem, „vybere“ si lidské tělo. Lidské tělo totiž klade elektrickému proudu menší odpor než země. Pokud se stane, že člověk stojí tak, že každá jeho noha stojí v místě s jiným elektrickým potenciálem, jeho tělem začne procházet elektrický proud. To se může přihodit v blízkosti místa, kam před chvílí udeřil blesk, nebo v okolí místa, kde leží na zemi elektrické vedení, které je pod proudem. V místě, kam blesk právě udeřil, je elektrický potenciál největší. Z tohoto místa se tento potenciál šíří do všech stran. Čím dále od místa úderu, tím je slabší. Pokud budete stát jednou nohou blíže místa úderu (tam, kde je silnější potenciál) a druhou nohou dále od místa úderu (tam, kde je slabší potenciál), může vás to stát život. Jako byste právě strčili ruce do zásuvky.\n\n5.8.2 Krokové napětí - řešení",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 82)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=83",
+    "note": "Zdroj aktivity uvedený v metodice: Marcel Vanžura"
+  }
+}

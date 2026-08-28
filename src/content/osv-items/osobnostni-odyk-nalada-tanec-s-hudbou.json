@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-odyk-nalada-tanec-s-hudbou",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Tanec s hudbou",
+  "description": "Žáci si vyzkouší aktivizační metodu náročnou na rychlé reagování a na sebeovládání.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "tanec",
+    "hudbou"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "5 min",
+  "materials": [
+    "CD přehrávač nebo jiný zdroj hudby, zvukový nosič"
+  ],
+  "procedure": "Když hraje hudba, žáci skáčí do rytmu na jedné noze. Mohou nohy střídat, pokud je začnou bolet. Když hudba ztichne, žáci ztuhnou ve zcela nehybné pozici. Kdo se pohne, dostane trestný bod. Žáci si sami pamatují, kolik dostali trestných bodů. Proběhne několik kol. První kolo je zkušební. Vítězí žák s nejmenším počtem trestných bodů.",
+  "reflection": [
+    "Jaký vliv měla hudba na vaši chuť do hry?",
+    "Jak byste mohli využít tento povzbudivý účinek hudby ve svém běžném životě?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=34"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-aktivity-na-rozehrati-icebreak-prostorova-skal",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Aktivity na rozehřátí icebreak – prostorová škála",
+  "description": "Účastníci vyjadřují svůj postoj k zadaným věcem.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "aktivity",
+    "rozehřátí",
+    "icebreak",
+    "prostorová",
+    "škála"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Účastníci mají za úkol vyjádřit svůj vztah k věcem, lidem nebo tématům tak, že se postaví na určité místo prostorové škály. Jako ohraničení škály můžeme použít stěny místnosti. U jedné stěny je 100%, u protější stěny 0%. Mezi těmito dvěma stěnami je možnost se kdekoli v prostoru postavit na takové místo na škále, jehož hodnota popisuje můj vztah k dané věci. Začínáme s věcmi „obyčejnými“ (např. naše škola), postupně zacílíme k tématu (např. cigarety) a končíme něčím pozitivním (např. svíčková nebo prázdniny). Říkáme jednotlivá témata, účastníci se postaví na některé místo, a pak vyzveme ke komentářům – Z jakého důvodu stojíte právě tady? Požádáme účastníky, aby se vymezili např. k následujícím věcem:\n• Aneta Langerová\n• Naše škola\n• Letošní zima\n• Popelář\n• Peníze\n• Cigarety\n• Výlet do hor\n• Harry Potter\n• Pivo\n• Koupání se v rybníce\n(v přírodě)\n• Svíčková s knedlíkem\n• Kočka (domácí zvíře)\n• Marihuana\n• Televize\n• Prázdniny\nReflexi provádíme v průběhu – během komentářů.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 36)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=37"
+  }
+}

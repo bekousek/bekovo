@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-ody36-hra-na-role",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hra na role",
+  "description": "Žáci si uvědomí, že každý jedinec má jiný vztah k pohybu. Žáci si vyzkouší spolupráci se spolužákem, který představuje jedince jiného typu.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, vyučovací hodina",
+  "materials": [
+    "Kartičky nebo lístečky podle počtu žáků, na kterých jsou zapsány čtyři základní typy. Doporučuji vyrobit kartičky ve čtyřech různých barvách."
+  ],
+  "procedure": "Rozdáme žákům lístečky se čtyřmi různými rolemi (učitel si může nabídku rozšířit):\n1) Žák chce za každou cenu vyhrát.\n2) Žák má radost z pohybu (ze soutěže), ale je mu úplně jedno, zda vyhraje.\n3) Žák je z jakékoliv aktivity znechucen.\n4) Žák si chce aktivity „užít“, ale v kolektivu (pomáhá druhým, dává přednost, ..) Z žáků vytvoříme dvojice (s rozdílnými typy rolí) nebo žáci si vytvoří dvojice s tím, že ve dvojici nesmí být dvě kartičky stejné barvy. Potom hrajeme několik soutěživých her např. z aktivity A2. Po ukončení pohybových aktivit se žáky diskutujeme, jak se cítili ve své roli a jak se jim spolupracovalo ve dvojici. Zkusíme odhadnout, kterým „typům“ se ve dvojici spolupracovalo nejsnáze.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A1 (s. 27)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=28"
+  },
+  "notes": "Věk uvedený v metodice: Tato aktivita je vhodná pro děti od 10 let věku."
+}

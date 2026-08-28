@@ -1,0 +1,31 @@
+{
+  "id": "osobnostni-odyk-uceni-ohlednuti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Ohlédnutí",
+  "description": "Žáci si vyzkouší postup, který jim pomůže zakončit práci s textem.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "ohlédnutí"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Co je nejlepší udělat na závěr učení?\nProhlédněte si své zápisky, svou myšlenkovou mapu a své otázky a zamyslete se nad tím, jak se obohatily vaše znalosti o ochraně před bleskem. Co nového jste se dozvěděli? Jaké vaše dosavadní názory byly vyvráceny? Prohlédněte si své úvodní otázky a stručně si na ně zpaměti nebo s pomocí textu odpovězte. Jaké vaše otázky text nezodpověděl?",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 85)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=86"
+  }
+}

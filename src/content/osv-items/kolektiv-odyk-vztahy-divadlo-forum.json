@@ -1,0 +1,35 @@
+{
+  "id": "kolektiv-odyk-vztahy-divadlo-forum",
+  "categoryId": "tridni-kolektiv",
+  "title": "Divadlo fórum",
+  "description": "Žáci trénují, jak reagovat v situaci, kdy se někdo vůči nim chová agresivně, případně nacvičují, jak jít ohlásit výchovné autoritě, že v naší třídě „kvete“ šikana.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "divadlo",
+    "fórum"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min – 90 minut",
+  "procedure": "Aby se jednalo o divadlo fórum, musí žáci napřed vidět nějakou scénku, kterou si připraví lektoři. (Bez tohoto principu se nejedná o divadlo fórum, nýbrž o „hraní scének“ neboli „hraní rolí“ – i to je však velmi užitečný postup. Boalovské divadlo má velkou „výhodu“ v tom, že kulisy příběhu a jeho rámec určí herci předem. Nicméně to, zda zvolíme metodu „boalovského divadla“ či „hraní rolí“ záleží na skupině, cílech, čase, situaci, apod. Ani jedna metoda sama o sobě není „lepší“ nebo „horší“.). Je-li lektor sám, může hrát i více rolí (vždy musí zařídit, aby diváci věděli, kterou postavu hraje). Nakonec je divákům oznámeno, že příběh zahrajeme znovu a že mohou měnit chování jedné z postav (té „utlačované“). Stačí, aby řekli „stop“ nebo tleskli a mohou změnit jeho chování. Zároveň jim příběh můžeme posunout o něco vpřed či dozadu, stejně, jako na videu. Protože trénujeme obranu před agresí, jsou žáci vyzváni k tomu, aby měnili v příběhu pouze chování oběti nikoli agresora. Své vystoupení v roli oběti může kdykoli žák zastavit a z role vystoupit (stačí říci například „stop“). Po jeho výstupu se ho vždy ptáme na pocity dojmy, na to, jak byl spokojen s důsledky, které jeho chování vyvolalo, a co by dělal eventuelně příště stejně/jinak. Můžeme pak reflexi rozšířit na skupinu a ptát se všech, jak bychom asi nazvali strategii, kterou zvolil žák v roli oběti, k jakým důsledkům tato strategie většinou vede, jaké jiné strategie známe a jaké mají důsledky a jak by jejich užití konkrétně vypadalo. Na závěr můžeme poučení z hraní situací formulovat písemně na tabuli nebo flipchart. Budeme-li trénovat, jak sdělit někomu z výchovných autorit, že v naší třídě je šikana, můžeme opět zvolit metodu divadla fórum, kdy předem připravíme scénku, v níž někdo nepřesně a zmateně informuje o dění ve třídě. Diváci pak mají za úkol měnit jeho chování. Můžeme zvolit i metodu „pouhého“ hraní rolí, kdy mají žáci ve skupinkách připravit zadání pro jednoho z nich, jehož úkolem bude sdělit autoritě (lektorovi v roli autority), že ve třídě se vyskytla šikana. Velmi důležité je, aby „lektor v roli“ velmi citlivě přistupoval ke sdělování informacím a vyjadřoval\n\npochopení pro „svěřovatele“. V opačném případě by mohl u žáků vyvolat pocit, že oznamovat šikanu „dospělým“ nemá smysl.",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 55)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=56",
+    "note": "Zdroj aktivity uvedený v metodice: Projekt pořádaný katedrou výchovné dramatiky na DAMU v letech 2000 a 2001 pod vedením lektorů z"
+  }
+}

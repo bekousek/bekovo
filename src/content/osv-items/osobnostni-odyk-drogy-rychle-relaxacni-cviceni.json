@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-rychle-relaxacni-cviceni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Rychlé relaxační cvičení",
+  "description": "Naučit se s emocemi více pracovat. Vyhýbat se zneužívání psychoaktivních látek v duševních krizích.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "rychlé",
+    "relaxační",
+    "cvičení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 1 min",
+  "procedure": "Relaxace navozuje v těle změny, které jsou opakem stresu. Umění relaxovat nám může pomoci zvládat lépe stresové a emočně náročné situace. Relaxaci můžeme uvést např. takto: „Pohodlně se posaďte. Postupně uvolněte všechny svaly těla od prstů u nohou nahoru až ke krku a hlavě. Pak si co nejzřetelněji představte, že se nacházíte na nějakém klidném a pohodovém místě.“ Mladším dětem můžeme místo „klidného pohodového místa“ uvést přímo konkrétní prostor např. „louku“, „rozkvetlý sad“, „zahradu“, „příjemné místo ve Vašem bytě“, apod.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 79)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=80"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody116-zavazek",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Závazek",
+  "description": "Žák přijme na konkrétní čas určitý závazek, vyplní ho a reflektuje.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "závazek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min, měsíc, 90 min",
+  "procedure": "Každý žák si samostatně vybere jeden problém, kterému se chce v průběhu dalších dnů věnovat (dle stáří dětí, nedoporučujeme více než měsíc). Vymyslí si konkrétní úkoly, kterými bude k jeho řešení systematicky pomáhat. Vytvoří si tabulku s daty a popisy úkolů. V průběhu následujícího měsíce si bude vybarvovat okénka, v případě, že daný den úkol splní. Reflektujeme dlouhodobou práci dětí v průběhu i v závěr celého časového úseku. Jaký je to pocit, systematicky se věnovat řešení nějakého problému? S jakými problémy jsi se setkával? Jak jsi je řešil? Nakolik Ti přišla tvá snaha smysluplná? Co bys mohl označit za výsledek tvé práce? Jak reagovalo tvé okolí?",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A9 (s. 24)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=25",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 10+."
+}

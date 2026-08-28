@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-vztah-k-cigarete",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vztah k cigaretě",
+  "description": "Cílem je pantomimicky ztvárnit svůj vztah k cigaretě, resp. ke kouření tabáku, resp. ke kuřákům.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "vztah",
+    "cigaretě"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Předmět zastupující cigaretu (příp. skutečná cigareta)"
+  ],
+  "procedure": "Všichni sedí v kruhu. Uprostřed je jakýkoliv předmět, který bude zastupovat cigaretu (tužka, balónek, příp. i cigareta sama). Hráči postupně přicházejí do hracího prostoru. Nejprve mohou říci, zda budou hrát vztah k cigaretě, ke kouření nebo ke kuřákům (příp. všechny). Pak pantomimicky tento svůj vztah vyjádří. Zástupný předmět mohou v rámci akce použít. Následuje reflexe (podle rozhodnutí lektora /učitele/ a skupiny buď po každé aktivitě, nebo až na konci). Je možno zavést další kolo, v němž ti, kteří chtějí některý ze vztahů změnit, zahrají stejnou technikou, jak by měl vypadat tento vztah po změně. Náměty k reflexi:\n• Pocity, dojmy? Co se Vám v průběhu honilo hlavou?\n• Jak slovně vyjádřit vztah, který jsme právě viděli?\n• Jaké další informace, komentáře atd. k těmto vztahům můžeme nabídnout?\n• Jaký byl rozdíl současné podoby vztahu a jeho podoby žádoucí – po změně?\n• Do jaké míry to, co jsme viděli, odpovídá něčemu, co známe z našeho okolí? Čemu?\n• Jak tato aktivita změnila Vaše postoje?\n• Co si z ní odnášíte? S čím odcházíte?",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 149)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=150"
+  }
+}

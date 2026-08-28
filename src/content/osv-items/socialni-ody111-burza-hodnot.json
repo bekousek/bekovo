@@ -1,0 +1,41 @@
+{
+  "id": "socialni-ody111-burza-hodnot",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Burza hodnot",
+  "description": "Žák si ujasní svůj žebříček hodnot",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse",
+    "burza",
+    "hodnot"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min a 45 min (lze rozdělit)",
+  "procedure": "Každý žák obdrží deset papírků, na každý z nich napíše jednu hodnotu. Následně je všechny vybereme a smícháme v klobouku. Každý žák dostane pracovní list s deseti okénky. Úkolem žáků je vlepit do nich vlastní žebříček hodnot podle významu od nejvyšší po nejnižší. Vlepovat ale můžeme pouze cedulky z klobouku. Každý žák si vylosuje deset cedulek, které může následně se spolužáky vyměňovat. Ve chvíli, kdy je s výběrem spokojený, může si hodnoty vlepit na svůj papír.",
+  "reflection": [
+    "- Kterou cedulku – hodnotu bylo nejtěžší získat?",
+    "- Proč jsou pro tebe některé hodnoty důležitější?",
+    "- Popiš situaci, ve které jsi se zachoval podle svých hodnot, ideálů.",
+    "- V jakých situacích se chováš s rozporu se svými hodnotami?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita A3 (s. 26)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=27",
+    "note": "Zdroj aktivity uvedený v metodice: autor neznámý, upravilo o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 12+."
+}

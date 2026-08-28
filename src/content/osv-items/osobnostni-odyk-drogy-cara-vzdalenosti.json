@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-drogy-cara-vzdalenosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Čára (vzdálenosti)",
+  "description": "Účastníci provedou sebereflexi a evaluaci kurzu.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "(vzdálenosti)"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Židličky"
+  ],
+  "procedure": "Každý žák se postaví do takové vzdálenosti od předmětu umístěného uprostřed místnosti (např. židle), která odpovídá stupni, jak se mu celý program líbil, do jaké míry ho pro sebe vnímal jako užitečný nebo jak si myslí, že program ovlivnil jeho postoje či chování, jak se nyní, po skončení programu, staví k návykovým látkám, apod. (Škálu zvolí lektor dle aktuálních možností a záměrů.) Kdo chce, může (ale nemusí) okomentovat, z jakého důvodu se postavil právě tam.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 200)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=201"
+  }
+}

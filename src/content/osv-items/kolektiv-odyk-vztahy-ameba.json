@@ -1,0 +1,43 @@
+{
+  "id": "kolektiv-odyk-vztahy-ameba",
+  "categoryId": "tridni-kolektiv",
+  "title": "Améba",
+  "description": "Celá třída spolupracuje na splnění úkolu.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "améba"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Několik členů skupiny se vezme za ruce a ostatní stojí uvnitř kruhu, který těchto pár lidí vytvoří. Počet zvolíme podle počtu účastníků, nejčastěji začínáme s 5 lidmi držícími se za ruce. Cílem je, aby se do tohoto kruhu všichni pohodlně vešli, ale aby zároveň nebyl příliš velký. Poté se zeptáme účastníků, zda si myslí, že by se vešli, kdyby se kruh o jednoho člověka zmenšil, tzn. za ruce by se drželi 4 lidé. Vyzkoušíme to. Stejně postupujeme dále, dokud budou účastníci chtít zkoušet, do jak malého kruhu se všichni vejdou.",
+  "reflection": [
+    "• Jak jste spokojeni s výsledkem?",
+    "• Co jste museli udělat, co jste dělali, abyste se dobrali výsledku?",
+    "• Co Vám nejvíce fungovalo?",
+    "• Co byste příště dělali jinak?",
+    "• V čem tato aktivitka připomínala Váš běžný školní život?",
+    "• V jakých situacích bývá potřeba, abyste jako třída něco udělali dohromady?",
+    "• Jaké zásady se vyplatí dodržovat, snažíme-li se dělat něco dohromady?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 68)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=69",
+    "note": "Zdroj aktivity uvedený v metodice: Prázdninová škola"
+  }
+}

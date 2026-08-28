@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody11-zdroje",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zdroje",
+  "description": "kontakt s hlubšími emocemi, koncentrace na zdroje vlastních sil",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "zdroje"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 – 30 minut, podle počtu dětí",
+  "materials": [
+    "elementární hudební nástroje pro všecny"
+  ],
+  "procedure": "Žáci vytvoří dvojice. Každý má v ruce elementární nástroj. Menší v každé dvojici požádá většího, aby mu zastupoval jeho zdroje síly. Větší nic nepředvádí, jenom se prostě postaví a představuje si, že je nyní zdrojem duševních a fyzických sil menšího. Menší se postaví před ním, pozorně se dívá. Pak spolu chvíli vedou pozorný mimoverbální dialog na nástroje. Když skončí, usednou a promluví si spolu o svých dojmech. O tom, jak se zástupce zdrojů cítil a co by byl potřeboval. Po cca čtyřech minutách sdílení si žáci vymění role. Menší teď zastupuje zdroje většímu. Děti bývají při hře pozorné. Cítí, že je důležité se o svých zdrojích něco dozvědět.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita A4 (s. 24)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=25",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 7 let výše."
+}

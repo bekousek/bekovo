@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-povidani-a-diskuse-na-tema-koureni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Povídání a diskuse na téma kouření",
+  "description": "Účastníci prohloubí své znalosti a zformulují své názory na kouření.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "povídání",
+    "diskuse",
+    "kouření"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Můžeme volně navázat na icebreakovou aktivitu „Prostorová škála“ tak, že necháme žáky, aby se vymezili vůči cigaretám, kouření nebo tabáku. Lektor položí otázku: „Co se nám může na kouření nelíbit (co všechno se nám nelíbí)?“ Navazuje volná diskuse, kterou učitel /lektor/ prokládá škálami v prostoru (např. „Jaký máte vztah ke sportu, přírodě, zvířatům.“ atd. – vždy se naváže povídáním o tom, jak jde sport, příroda atd. dohromady s kouřením, atp.). Lektor pošle dokola míček a každý řekne, zda chce, či nechce v budoucnu kouřit a z jakého důvodu. Na závěr kolečka lektor shrne důvody, které zazněly, a může dodat ještě jiné, které slyšel v jiných třídách, myslí si on sám, atd. Dále se žáci rozdělí do 4 – 5 skupin (podle počtu žáků ve třídě). Každá skupina dostane přidělenou 1 cenu krabičky cigaret (bere se balení o 20 cigaretách) a má za úkol vypočítat, kolik utratí kuřák za 1 rok, pokud vykouří:\na) 1 krabičku denně,\nb) 2 krabičky denně,\nc) 3 krabičky denně\nd) jakékoli různé jiné kombinace.\nLektor mezitím, kdy žáci počítají, nakreslí na tabuli/flipchart tabulku pro jednotlivé ceny a počty krabiček. Po skončení počítání zanese zapisovatel každé skupiny výsledky počítání do této tabulky. Lektor provede shrnutí výsledků a iniciuje diskusi na téma, co by se za ty konkrétní sumy dalo koupit, co by se s nimi dalo vykonat, atd. Eventuelně může pak napsat za čísla nulu, aby bylo vidět, kolik se utratí za 10 let, atd. Nakonec se můžeme žáků zeptat, co si z celého cvičení odnášejí, co je „oslovilo“.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 151)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=152"
+  }
+}

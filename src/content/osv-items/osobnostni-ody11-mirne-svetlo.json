@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody11-mirne-svetlo",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Mírné světlo",
+  "description": "vyrovnanost, vnitřní stabilita, spočinutí ve svém středu",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "mírné",
+    "světlo"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "4 – 10 minut",
+  "materials": [
+    "CD (klidná, příjemná hudba) např. J. S. Bach – Pastorale pro varhany; zpěv tibetských mnichů apod.), event. klidná hra na melodický nástroj"
+  ],
+  "procedure": "Ve zdravě fungující skupině je běžné, aby byl někdo hlouběji ponořen do svých myšlenek, aniž by to jinému vadilo nebo připadalo divné. Můžeme tak být spolu, i každý sám. Meditace je metoda, která už tisíce let lidem umožňuje se soustředit. Někdy je spojena s jemnou hudbou, která působí jako kulisa. Meditovat,v klidu se soustředit na jediné téma je činnost, která bude žákům v dalším životě prospěšná. Sedíme zpříma, uvolněně, páteř je kolmo k zemi. Volně dýcháme a snažíme se nic teď neřešit. Jenom jsme a sledujeme svoje myšlení…Soustředíme se na představu světla (nebo lásky, přátelství ap.). Dýcháme volně a pravidelně a zabýváme se svým tématem z různých úhlů, rozumem, citem, intuitivně.. Stačí tři až pět minut, později můžeme přidat. Doporučené maximum je zde deset minut.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita B2 (s. 27)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=28",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 11 let."
+}

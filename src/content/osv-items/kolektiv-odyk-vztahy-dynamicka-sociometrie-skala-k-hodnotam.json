@@ -1,0 +1,36 @@
+{
+  "id": "kolektiv-odyk-vztahy-dynamicka-sociometrie-skala-k-hodnotam",
+  "categoryId": "tridni-kolektiv",
+  "title": "Dynamická sociometrie – škála k hodnotám",
+  "description": "Účastníci vyjadřují svůj postoj k zadaným hodnotám.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "dynamická",
+    "sociometrie",
+    "škála",
+    "hodnotám"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Účastníci mají za úkol vyjádřit svůj vztah k daným hodnotám či tématům tak, že se postaví na určité místo prostorové škály. Jako ohraničení škály můžeme použít stěny místnosti. U jedné stěny je 100%, u protější stěny 0%. Mezi těmito dvěma stěnami je možnost se kdekoli v prostoru postavit na takové místo na škále, jehož hodnota popisuje můj vztah k dané věci. Začínáme s věcmi „obyčejnými“ (např. naše škola), postupně zacílíme k tématu (např. násilí) a končíme něčím pozitivním (např. mít někoho blízkého). Říkáme jednotlivá témata, účastníci se postaví na některé místo, a pak vyzveme ke komentářům – Z jakého důvodu stojíte právě tady? Požádáme účastníky, aby se vymezili např. k následujícím tématům a hodnotám:\n• Letošní zima (jaro, ...)\n• Naše škola\n• Přátelství\n• Násilí\n• Umět nesouhlasit s druhými\n• Romové\n• Fyzická síla\n• Naše třída\n• Dodržování pravidel\n• Pomoc druhým\n• Umět říci, že něco nechci\n• Mít někoho blízkého\nReflexi provádíme v průběhu – během komentářů.",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 43)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=44"
+  }
+}

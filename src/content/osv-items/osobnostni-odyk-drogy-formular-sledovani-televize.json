@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-formular-sledovani-televize",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Formulář „sledování televize“",
+  "description": "Žáci sledují, jak se témata jako kouření či pití alkoholu vykytují v televizních programech.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "formulář",
+    "„sledování",
+    "televize“"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "1 hod – několik dní (žáci ho dostávají za domácí úkol)",
+  "materials": [
+    "Níže uvedený formulář"
+  ],
+  "procedure": "Žáci individuálně doma při sledování televize postupně vyplňují níže uvedený formulář podle skutečných televizních programů. Pak ho přinesou do školy, kde proběhne reflexe a diskuse nad tímto vyplněným formulářem. Sledování televize Název programu/četnost Kouření Pití alkoholu Drogy Násilí Podobně mohou žáci počítat akty násilí, k nímž v průběhu určitého programu dochází. Zde považuje K. Nešpor za sporné, zda v rámci domácího úkolu ještě dospívající povzbuzovat k dívaní se na násilné televizní programy.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 135)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=136"
+  }
+}

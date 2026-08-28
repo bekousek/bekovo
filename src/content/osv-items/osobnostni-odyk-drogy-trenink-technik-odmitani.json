@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-trenink-technik-odmitani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Trénink technik odmítání",
+  "description": "Žáci trénují (vybrané) techniky odmítání.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "trénink",
+    "technik"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Situace pro odmítání uvedené na lístečcích (příklady takových situací uvádíme na dalších třech stránkách) Techniky odmítání, uvedené na lístečcích (viz techniky uvedené výše)"
+  ],
+  "procedure": "Žáci se rozdělí do dvojic. Každá dvojice si vylosuje dva lístečky. Na každém z nich je popsána situace, ve které mají odmítnout, a technika, kterou mají použít. Dvojice „hraje“ vždy jednoho člověka. Dostanou chvíli na promyšlení strategie. Lektor je v roli toho, kdo po nich něco chce. Každá dvojice má za úkol zareagovat způsobem, který je popsán na jejich lístečku. Může mluvit pouze jeden z dvojice nebo se mohou doplňovat, záleží na nich. Během reflexe mluvíme o tom, co by žáci dělali příště stejně a co jinak. Ptáme se, které techniky odmítání by chtěli ve svém životě používat a v jakých situacích. Vždy doporučujeme diskutovat o důsledcích toho kterého způsobu odmítnutí na vztahy a komunikaci vůbec, a tedy pro které situace, jaká prostředí a jaké lidi se hodí.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 117)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=118"
+  }
+}

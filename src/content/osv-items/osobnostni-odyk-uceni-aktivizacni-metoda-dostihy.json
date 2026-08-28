@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-uceni-aktivizacni-metoda-dostihy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Aktivizační metoda - dostihy",
+  "description": "Zvýší se úroveň bdělosti a pozornosti žáků. Žáci pojmenují vliv pohybu na svou pozornost a motivaci.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "aktivizační",
+    "metoda",
+    "dostihy"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Učitel vyzve žáky k tomu, aby se rovně posadili na židle ve třídě. Trup se stehny by měl svírat pravý úhel. Žáci si položí ruce na svá stehna. Učitel vyzve žáky, aby společně s ním začali rukama plácat (střídavě pravá levá, zvuk se podobá klusu koně) do svých stehen. Rytmus plácaní je podmíněn učitelovým vyprávěním zachycujícím atmosféru koňských dostihů: „Koně se volně procházejí v padocku, přicházejí žokejové a berou koně za uzdu, všechny koně jdou pravidelným krokem ke startovní čáře“. Pak učitel zahájí pomyslný závod, během kterého rytmem plácaní se do stehen určuje rytmus klusu koní: „Koně vyrážejí na povel startéra a řítí se do první zatáčky (v zatáčce se všichni společně s učitelem nakloní na danou stranu) blížíme se k první překážce, je to nízké proutí (na této překážce všichni vstanou a vyskočí)“. Tímto způsobem učitel provede žáky celým závodem, během kterého se všichni plácají do stehen, naklánějí se a vyskakují podle pokynů učitele. Dostihová terminologie pro lektora/učitele Kůň jde: krokem, klusem, cvalem, tryskem. Překážky: nízké proutí, vysoké proutí, živý plot, malý vodní příkop, velký vodní příkop, taxisův příkop (největší). Dostihy končíme cílovou rovinkou.",
+  "reflection": [
+    "Jak se změnil váš celkový tělesný a duševní pocit během dostihů? Jak je to nyní s vaší pozorností? Jak se změnila během předchozí hry vaše bdělost? Jak je to",
+    "nyní s vaší chutí do práce? Na základě této zkušenosti, zkuste pojmenovat, jaký má pohyb vliv na tělesný a duševní stav člověka? Jak můžete tuto zkušenost využít při vašem učení?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 23)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=24",
+    "note": "Zdroj aktivity uvedený v metodice: Tuto aktivitu nás naučil Radek"
+  }
+}

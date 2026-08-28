@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-nalada-karty-pocitu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Karty pocitů",
+  "description": "Propojit konkrétní situace ze života žáků s emocemi, které v nich prožívají, sdílení zkušeností.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "karty",
+    "pocitů"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Karty pocitů (10 - 20 na každou skupinu)"
+  ],
+  "procedure": "V malých skupinách si žáci losují karty, na každé z nich je napsán jeden pocit (jedna emoce). Ten, kdo si ji vylosuje, vypráví ostatním zážitek ze svého života nebo situaci, ve které danou emoci prožíval. Když domluví, ostatní členové skupiny („hráči“) mohou připojit vlastní zážitek. Potom losuje další.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 51)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=52",
+    "note": "Zdroj aktivity uvedený v metodice: Pike, Graham a Selby, David. 2000. Cvičení a hry pro globální výchovu 2. Praha: Portál, 17. osamělý veselý naštvaný nadšený ublížený vystrašený šťastný vzteklý spokojený vděčný nervózní svěží vyčerpaný důvěřivý tréma plný sebedůvěry"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody11-jsem-strom",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jsem strom",
+  "description": "vyrovnanost, vnitřní stabilita, nalezení svého středu, sebenáhled",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "strom"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "asi 5 min., plus reflexe = celkem cca 15 minut",
+  "materials": [
+    "CD (hudba klidná a příjemná, např. J. S. Bach – Pastorale pro varhany; zpěv tibetských mnichů apod.), event. tichá klidná hra na melodický nástroj"
+  ],
+  "procedure": "Každý si najde v prostoru takové místo, kde se cítí dobře a tam se postaví. Učitel k nim pak hovoří klidně, přirozeně, ale mnohem pomaleji nežli v běžné praxi.Dělá i mnohem delší pauzy mezi větami. Stoupněte si a můžete zavřít oči. Komu by to vadilo, může je mít jenom přivřené. Volně dýchejte a představujte si, že jste strom. Krásný a silný, strom, který stojí zpříma na úpatí hor…A představte si, že máte i silné a pevné kořeny. Rostou zdola, odněkud z hlubin Země a jsou vaší jistotou při poryvech větru. Máte taky silný kmen a nahoře velkou košatou korunu. …Její větve se rozpínají do široka a jsou plné zelených listů…Těmi listy a zdola kořeny do vás vchází velká životní síla… Naplňuje vaše tělo a přináší zdraví. Tu sílu si teď v sobě dobře uschovejte …a zas se pomalu vracejte vědomím sem zpátky..do téhleté místnosti..Přestáváte být stromem ….A stáváte se zase jako dřív …chlapcem a nebo děvčetem jakým jste byli vždy….Jste zpátky, jste zas sami sebou…Otevřete oči! A protááhněte se! A můžete si párkrát zacvičit, protáhnout si a rozhýbat celé tělo. Žáci se pak sesednou do kruhu a mohou v něm sdílet své dojmy.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita B4 (s. 29)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=30",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 9 let."
+}

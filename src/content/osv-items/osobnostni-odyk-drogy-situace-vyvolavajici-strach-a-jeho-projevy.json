@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyk-drogy-situace-vyvolavajici-strach-a-jeho-projevy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Situace vyvolávající strach a jeho projevy",
+  "description": "Rozpoznat situace, kdy vznikají nepříjemné emoce. Naučit se s emocemi více pracovat. Vyhýbat se zneužívání psychoaktivních látek v duševních krizích.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "situace",
+    "vyvolávající",
+    "strach",
+    "projevy"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Formulář pro každého účastníka"
+  ],
+  "procedure": "V úvodu můžeme uvést několik úvodních informací o emocích: K základním emocím patří strach (týká se narozdíl od úzkosti něčeho konkrétního), úzkost, smutek, hněv a radost. Stresem se obvykle rozumí reakce organismu na (nadměrnou) zátěž. Silné emoce a stres se projevují tělesnými změnami a mohou oslabit schopnost správně se rozhodovat. Níže uvádíme dva formuláře: První z nich lze použít k lepšímu uvědomování si úzkosti a situací, které ji vyvolávají.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 77)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=78"
+  }
+}

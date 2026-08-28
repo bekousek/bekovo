@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody113-pecovatelske-tymy",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pečovatelské týmy",
+  "description": "Žák se zamyslí, k čemu je v životě dobré umět pečovat o sebe, o své věci, životní prostředí i druhé lidi. Žák si vyzkouší prakticky konkrétní péči.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "pečovatelské"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min zadání, dlouhodobě",
+  "procedure": "Žáci podle své volby vytvoří pracovní týmy, které si prakticky vyzkoušejí péči o věci, rostliny, zvířata a druhé lidi. ( Týmy si stanoví cíle a vymyslí názvy, např.: Tým pro příjemné klima ve třídě, Tým pro mapování stavu školní nebo městské zeleně, Tým pro vztahy se zvířaty, Tým pro péči o nemocné spolužáky, Tým specialistů pro doškolování v předmětech atd.). Aby byl tým funkční, musíme žáky na týmovou spolupráci naladit. Žáci by měli mít příležitost sami vymyslet a navrhnout organizaci práce v týmu (role, zodpovědnost). Tyto týmy budou pracovat aspoň tři měsíce. Průběžně budou svoji práci dokumentovat a reflektovat výsledky své činnosti. Při reflexi budeme také hovořit o podílu jednotlivých členů na týmové práci, o organizaci týmu, o rolích.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita E6 (s. 54)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=55"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}
