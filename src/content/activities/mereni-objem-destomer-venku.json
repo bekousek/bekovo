@@ -1,0 +1,12 @@
+{
+  "id": "mereni-objem-destomer-venku",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Kolik vody zachytí déšť? — venkovní měření a porovnání srážek",
+  "type": "method",
+  "description": "Žáci venku (školní zahrada, park) rozmístí jednoduché nádoby na různých místech — na otevřeném prostranství a pod korunou stromu — a po dešti odměří objem zachycené vody odměrným válcem. Porovnají naměřené objemy, vypočítají, kolik litrů vody dopadá na 1 m², a diskutují o rozdílu pod stromem versus na volném prostranství. Aktivita propojuje jednotky objemu (ml, dl, l) s pozorováním přírody a může přerůst v domácí dlouhodobé měření srážek.",
+  "source": {
+    "label": "Učíme se venku — fyzika",
+    "url": "https://ucimesevenku.cz/fyzika/"
+  }
+}

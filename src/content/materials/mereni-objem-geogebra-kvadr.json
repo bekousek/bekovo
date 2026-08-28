@@ -1,0 +1,9 @@
+{
+  "id": "mereni-objem-geogebra-kvadr",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "GeoGebra: Objem kvádru — stavebnice z kostek",
+  "type": "applet",
+  "description": "Applet ukazuje kvádr sestavený z jednotkových krychlí; žáci mění délku, šířku a výšku a sledují, jak roste počet kostek (objem). Pomáhá pochopit vztah V = a·b·c i smysl kubických jednotek bez pouhého memorování vzorce. Bez registrace.",
+  "url": "https://www.geogebra.org/m/svgz3mtk"
+}

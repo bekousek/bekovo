@@ -1,0 +1,11 @@
+{
+  "id": "mereni-objem-destomer",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Domácí dešťoměr: dlouhodobé měření objemu srážek",
+  "description": "Žák si z odříznuté PET lahve sestaví dešťoměr kalibrovaný odměrným válcem a každý den (nebo bezprostředně po dešti) měří výšku sloupce vody v mm — přičemž 1 mm srážek odpovídá 1 litru na 1 m². Naměřené hodnoty zaznamenává do tabulky po dobu 4–6 týdnů a výsledky zobrazí v grafu. Projekt propojuje jednotky objemu (ml, l, dm³) s reálným měřením počasí a rozvíjí porozumění fyzikálním jednotkám v každodenním kontextu.",
+  "source": {
+    "label": "GLOBE Czech — Meteorologie, Metodika 1",
+    "url": "https://globe-czech.cz/_files/userfiles/Metodika1.pdf"
+  }
+}

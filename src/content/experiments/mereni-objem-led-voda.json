@@ -1,0 +1,20 @@
+{
+  "id": "mereni-objem-led-voda",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Měření změny objemu vody při tuhnutí",
+  "type": "measurement",
+  "description": "Žákovský projekt (tři setkání, ~6 vyučovacích hodin): žáci naplní kelímky vodou, odměrným válcem změří objem kapaliny a vloží je přes noc do mrazáku. Na dalším setkání změří objem vzniklého ledu a porovnají rozdíl — voda se při tuhnutí rozepne přibližně o 10 %. Pokus propojuje téma objemu se skupenskými změnami a motivuje diskusi, proč praskají přeplněné lahve v mrazáku. Metodicky ověřeno ve třídách.",
+  "materials": [
+    "skleněné nebo plastové kelímky",
+    "odměrný válec",
+    "váhy",
+    "mrazák",
+    "pravítko nebo posuvné měřítko"
+  ],
+  "procedure": "Žáci naplní kelímky vodou, změří objem odměrným válcem a hmotnost váhami, pak kelímky vloží do mrazáku přes noc. Na dalším setkání změří objem ledu (výpočtem z výšky hladiny a průřezu nádoby) a vypočítají procentuální rozdíl objemů.",
+  "source": {
+    "label": "FyzWeb — seminář Vlachovice 2013",
+    "url": "http://fyzweb.cz/materialy/vlachovice/2013/materialy/kopecka/vlachovice2013-kopecka.pdf"
+  }
+}
