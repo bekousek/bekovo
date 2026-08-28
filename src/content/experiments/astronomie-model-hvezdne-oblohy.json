@@ -1,0 +1,19 @@
+{
+  "id": "astronomie-model-hvezdne-oblohy",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Model hvězdné oblohy z černého kartónu – proč hvězdy blikají",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: učitel připraví model noční oblohy z černého kartónu s otvory odpovídajícími rozmístění hvězd v hlavních souhvězdích. Ve ztmavené třídě model nasvítí zezadu a žáci rozpoznávají souhvězdí. Pohybem průhledné fólie s kapkami vody před světlem se simuluje blikání hvězd (scintilace) způsobené atmosférickými turbulencemi. Žáci diskutují rozdíl mezi hvězdami (bodové zdroje světla → blikají) a planetami (plošné disky → neblikají).",
+  "materials": [
+    "černý kartón (A2 nebo větší)",
+    "šídlo nebo vrták",
+    "baterka nebo projektér",
+    "průhledná fólie s kapkami vody"
+  ],
+  "procedure": "Vyrobte z černého kartónu desku s otvory odpovídajícími rozmístění hvězd v hlavních souhvězdích. Ve ztmavené třídě nasvěťte model zezadu. Pohybem průhledné fólie s kapkami vody před světlem simulujte blikání hvězd. Nechte žáky hádat, která souhvězdí jsou vyobrazena.",
+  "source": {
+    "label": "VNUF 2012",
+    "url": "https://vnuf.cz/sbornik/prispevky/17-21-Kehar.html"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-naap-rotating-sky",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "The Rotating Sky Lab – pohyb hvězd na obloze (NAAP, anglicky)",
+  "type": "applet",
+  "description": "Interaktivní laboratorní simulace Nebraska Astronomy Applet Project (přes ComPADRE). Žák zkoumá hvězdné souřadnicové systémy a sleduje, jak se hvězdy pohybují po obloze v závislosti na zeměpisné šířce pozorovatele. Simuluje pohled na noční oblohu ze střední Evropy, USA nebo rovníku.",
+  "url": "https://www.compadre.org/precollege/items/detail.cfm?ID=7875"
+}
