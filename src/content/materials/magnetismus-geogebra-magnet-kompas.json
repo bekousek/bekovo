@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-geogebra-magnet-kompas",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "GeoGebra: Magnet a kompas",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet zobrazující vzájemné působení permanentního magnetu a kompasové střelky. Žáci mohou posouvat kompas kolem tyčového magnetu a pozorovat, jak se orientace střelky mění v závislosti na poloze vůči magnetu — vizualizace průběhu magnetického pole.",
+  "url": "https://www.geogebra.org/m/bduddk7f"
+}

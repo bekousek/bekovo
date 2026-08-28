@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-falstad-3d-pole",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Falstad: 3D simulace magnetostatického pole",
+  "type": "applet",
+  "description": "Webová 3D simulace magnetostatického pole (Falstad) zobrazuje siločáry pole kolem různých zdrojů včetně tyčového magnetu. Žáci mohou interaktivně měnit typ zdroje a sledovat prostorový průběh siločar jako animaci pohybujících se částic; běží přímo v prohlížeči bez instalace. Vhodné pro demonstraci na interaktivní tabuli.",
+  "url": "https://www.falstad.com/vector3dm/"
+}

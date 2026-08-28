@@ -1,0 +1,16 @@
+{
+  "id": "magnetismus-keramicke-magnety",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Zajímavé pokusy s keramickými magnety",
+  "type": "qualitative",
+  "description": "Demonstrační sada pokusů s keramickými (feritovými) magnety: učitel předvádí magnetizaci feromagnetických těles přiložením magnetu a účinky přitažlivých i překvapivě silných odpudivých sil. Keramické magnety mají výraznou odpudivou sílu, která vzbudí zájem žáků. Sada tvoří motivační a demonstrační úvod k tématu magnetismu pokrývající přitažlivost, odpuzování i magnetizaci.",
+  "materials": [
+    "keramické (feritové) magnety různých tvarů",
+    "drobné feromagnetické předměty (hřebíky, kovové svorky)"
+  ],
+  "source": {
+    "label": "VNUF 6",
+    "url": "https://vnuf.cz/sbornik/prispevky/06-22-Wilke.html"
+  }
+}

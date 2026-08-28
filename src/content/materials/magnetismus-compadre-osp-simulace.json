@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-compadre-osp-simulace",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "ComPADRE / OSP: Simulace magnetického pole (EJSS)",
+  "type": "applet",
+  "description": "JavaScript EJSS simulace magnetického pole z databáze Open Source Physics na ComPADRE. Applet vizualizuje magnetické pole různých zdrojů a umožňuje interaktivní zkoumání průběhu siločar; přístupný přímo v prohlížeči bez instalace.",
+  "url": "https://www.compadre.org/osp/EJSS/4500/285.htm"
+}
