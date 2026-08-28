@@ -1,0 +1,20 @@
+{
+  "id": "castice-latky-jod-igelit",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Pronikání molekul jodu přes igelitový sáček",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: do igelitového sáčku se nalije roztok jodu a sáček se ponoří do škrobového roztoku. Ačkoli sáček zůstane neporušený, molekuly jodu postupně pronikají přes igelit a zbarvují škrob do modra. Pokus názorně dokládá, že molekuly jsou neustále v pohybu a jsou dostatečně malé, aby prošly i zdánlivě neprostupným materiálem. Výsledek je jasně viditelný po několika minutách.",
+  "materials": [
+    "roztok jodu (tinktura jodu zředěná vodou)",
+    "igelitový sáček (nebo střívko)",
+    "škrobový roztok (bramborový škrob ve vlažné vodě)",
+    "sklenice nebo nádoba",
+    "gumička nebo provázek"
+  ],
+  "procedure": "Připravit škrobový roztok: rozmíchat lžičku bramborového škrobu v 200 ml vlažné vody. Naplnit igelitový sáček řídkým roztokem jodu a pevně zavázat. Sáček ponořit do škrobového roztoku ve sklenici. Po 5–10 minutách sledovat, zda a jak se zbarvuje škrobový roztok — modrá barva potvrdí průnik molekul jodu přes igelit.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/k/g/1720/PRONIKANI-MOLEKUL-JODU-PRES-IGELIT.html"
+  }
+}

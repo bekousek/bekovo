@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-vascak-difuze",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Difuze – animace (Vaščák, česky)",
+  "type": "applet",
+  "description": "Česká interaktivní animace zobrazující difúzi jako samovolné promíchávání dvou látek v důsledku neuspořádaného tepelného pohybu částic. Navazuje na Brownův pohyb jako experimentální důkaz existence a pohybu molekul. Součást série Physics at School od Miroslava Vaščáka, běží v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_difuze&l=cz"
+}

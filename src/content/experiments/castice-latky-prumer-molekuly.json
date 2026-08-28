@@ -1,0 +1,21 @@
+{
+  "id": "castice-latky-prumer-molekuly",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Průměr molekuly kyseliny olejové",
+  "type": "measurement",
+  "description": "Demonstrační pokus: odměřená kapka roztoku kyseliny olejové v etanolu se nakápne na hladinu vody v misce posypané lykopodijem. Po odpaření ředidla zůstane na hladině kruhová vrstvička kyseliny olejové silná jednu molekulu. Změřením průměru kruhu a z objemu kapky žáci vypočítají přibližný průměr molekuly (~10⁻⁹ m). Pokus dává žákům konkrétní číslo pro to, jak nepatrně malé molekuly jsou.",
+  "materials": [
+    "roztok kyseliny olejové v etanolu (0,2 ml kyseliny na 500 ml etanolu)",
+    "lycopodium (lykopodium — jemný prach)",
+    "kapátko s kalibrovanou kapkou",
+    "pravítko nebo měřicí pásmo",
+    "mělká miska (průměr alespoň 30 cm)",
+    "voda"
+  ],
+  "procedure": "Naplnit misku vodou a hladinu rovnoměrně posypat lykopodiem. Kapátkem nakápnout jednu kalibrovanou kapku roztoku kyseliny olejové na střed hladiny. Po odpaření etanolu (cca 30 s) se lykopodium odtlačí a vznikne viditelný kruh. Změřit průměr d kruhu, vypočítat plochu S = π(d/2)². Tloušťka vrstvy h = V_kapky / S odpovídá přibližnému průměru jedné molekuly.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1938/prumer-molekuly-kyseliny-olejove"
+  }
+}
