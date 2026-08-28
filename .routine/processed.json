@@ -68,7 +68,9 @@
     "2026-08-18-mikrosvet--atom-a-jeho-modely",
     null,
     "2026-08-22-sila--gravitacni-a-tihova-sila",
-    "2026-08-24-tepelne-motory--parni-stroj"
+    "2026-08-24-tepelne-motory--parni-stroj",
+    "2026-08-21-pohyb--druhy-pohybu",
+    "2026-08-27-astronomie--nocni-obloha"
   ],
   "history": [
     {
@@ -680,6 +682,20 @@
       "merged": true,
       "processedAt": "2026-08-24T09:53:00.386Z",
       "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-08-21-pohyb--druhy-pohybu",
+      "status": "invalid-integrity",
+      "processedAt": "2026-08-28T12:24:56.651Z",
+      "files": 25,
+      "note": "wrong manifest schema (no version/manifestId/branch/ledgerEntry) — generator produced old-style shape"
+    },
+    {
+      "manifestId": "2026-08-27-astronomie--nocni-obloha",
+      "status": "invalid-integrity",
+      "processedAt": "2026-08-28T12:25:06.363Z",
+      "files": 18,
+      "note": "manifest has no ledgerEntry so integrity gate cannot verify; content also pushed separately as branch routine/nightly-2026-08-27-astronomie--nocni-obloha"
     }
   ]
 }
