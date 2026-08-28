@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-doppler",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Dopplerův jev",
+  "type": "applet",
+  "description": "Česky lokalizovaný HTML5 applet zobrazuje, jak se mění frekvence zvuku vnímaná pozorovatelem v závislosti na pohybu zdroje. Žáci mohou měnit rychlost zdroje a polohu pozorovatele a sledovat vlnoplochy v reálném čase — při pohybu ke zdroji jsou vlnoplochy zhuštěny (vyšší frekvence), při oddalování roztaženy (nižší frekvence). Bez registrace, plně funkční v prohlížeči.",
+  "url": "https://www.walter-fendt.de/html5/phcz/dopplereffect_cz.htm"
+}

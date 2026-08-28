@@ -1,0 +1,12 @@
+{
+  "id": "akustika-doppler-ultrazvuk",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Dopplerův jev – ultrazvukový detektor pohybu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (exponát Edutoria Techmania). Zařízení vysílá ultrazvuk, který se odráží od návštěvníka; snímač zachycuje odražený signál. Pohybuje-li se návštěvník, liší se frekvence odraženého ultrazvuku od vysílané — z reproduktoru pak zazní tón odpovídající frekvenčnímu rozdílu. Pokus zpřístupňuje Dopplerův frekvenční posun jako vlnový jev s přímou praktickou aplikací (radarová kontrola rychlosti, ultrazvuk v medicíně).",
+  "source": {
+    "label": "Eduportál Techmania – Edutorium",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/368/doppleruv-jev"
+  }
+}

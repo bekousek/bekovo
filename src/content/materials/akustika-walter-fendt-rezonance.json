@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-rezonance",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Buzené kmity a rezonance",
+  "type": "applet",
+  "description": "Česky lokalizovaný HTML5 applet demonstruje nucené kmitání a rezonanci. Žáci mění budící frekvenci a pozorují, jak amplituda roste při rezonanci — tedy když se budící frekvence rovná vlastní frekvenci soustavy. Applet zobrazuje i fázový posun kmitání. Vhodné jako doplněk výkladu o stojatém vlnění a rezonanci.",
+  "url": "https://www.walter-fendt.de/html5/phcz/resonance_cz.htm"
+}
