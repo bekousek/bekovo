@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-kartezianek",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Karteziánek — potápěč v lahvi",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Do PET lahve naplněné vodou se vloží kapátko nebo uzavřené brčko naplněné vodou přesně tak, aby sotva plovalo. Zmáčknutím lahve se zvýší tlak vody, potápěč se potopí; uvolněním lahve opět vyplave. Pokus názorně demonstruje, jak tlak kapaliny působí do všech stran (Pascalův zákon) a jak hustota tělesa ovlivňuje, zda plave nebo klesá.",
+  "materials": [
+    "PET lahev s uzávěrem (plná vody)",
+    "kapátko nebo brčko zavázané na jednom konci",
+    "voda"
+  ],
+  "procedure": "Kapátko naplníme vodou tak, aby sotva plovalo (hladina vody v kapátku musí být nastavitelná). Vložíme do lahve naplněné vodou a uzavřeme. Mačkáme a pouštíme lahev — sledujeme pohyb potápěče.",
+  "source": {
+    "label": "VIDA!",
+    "url": "https://vida.cz/blog/potapec"
+  }
+}

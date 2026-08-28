@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-hydrostatika-lahev",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Hydrostatika s plastovou lahví — tlak, vztlak a Archimédův zákon",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Sada pokusů sestavená z plastové lahve, akvarijních hadiček, těsnících kroužků a injekční stříkačky umožňuje demonstrovat Pascalův zákon, vznik vztlaku (Archimédův zákon) a závislost hydrostatického tlaku na hloubce. Vhodné jako nízkonákladová alternativa ke standardnímu laboratornímu vybavení.",
+  "materials": [
+    "plastová lahev",
+    "akvarijní hadičky",
+    "těsnící kroužky (O-rings)",
+    "injekční stříkačka",
+    "voda"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/13-11-Jindra.html"
+  }
+}

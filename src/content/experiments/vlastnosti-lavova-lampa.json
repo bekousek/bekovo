@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-lavova-lampa",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Lávová lampa",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Do nádoby se nalijí nemísitelné kapaliny různých hustot — obarvená voda a rostlinný olej. Přidáním soli nebo šumivé tablety kapaliny dynamicky mění polohu: barevné kapky oleje stoupají a klesají jako v lávové lampě. Žáci pozorují, jak hustota určuje polohu vrstvy kapaliny a jak přidané bubliny dočasně změní vztah hustot obou kapalin.",
+  "materials": [
+    "sklenice nebo průhledná lahev",
+    "voda",
+    "rostlinný olej",
+    "potravinářské barvivo",
+    "sůl nebo šumivá tableta"
+  ],
+  "procedure": "Do sklenice nalijeme vodu obarvenou potravinářským barvivem. Přidáme vrstvu oleje. Sypeme sůl nebo přidáme šumivou tabletu a sledujeme pohyb barevných kapiček oleje.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2187/lavova-lampa"
+  }
+}

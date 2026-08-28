@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-kapaliny-vrstvy",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Hustý koktejl — barevné vrstvy kapalin",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci opatrně nalejí do průhledné nádoby za sebou kapaliny různých hustot (zlatý sirup nebo med, mycí prostředek, obarvená voda, rostlinný olej) — vzniknou barevné vrstvy, které se nemísí. Pokus je vizuálně efektní a přímo ukazuje, že hustota rozhoduje o poloze kapaliny v nádobě. Pomůcky dostupné z každé domácnosti.",
+  "materials": [
+    "vysoká průhledná sklenice",
+    "zlatý sirup nebo med",
+    "mycí prostředek (Jar)",
+    "voda s potravinářským barvivem",
+    "rostlinný olej",
+    "kapátko nebo stříkačka"
+  ],
+  "procedure": "Do sklenice nalijeme kapaliny pomalu po kapkách nebo opatrně po stěně v pořadí od nejhustší (sirup) po nejméně hustou (olej). Sledujeme vznik barevných vrstev.",
+  "source": {
+    "label": "VIDA!",
+    "url": "https://vida.cz/blog/husty-koktejl"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-nestlacitelnost-strikacky",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Nestlačitelnost vody — Pascalův zákon s injekčními stříkačkami",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dvě injekční stříkačky jsou propojeny hadičkou naplněnou vodou. Pokud žák zmáčkne píst jedné stříkačky, síla se přenese na druhou — hydraulický princip. Pokus demonstruje nestlačitelnost kapaliny a umožňuje přímé porovnání se stlačitelností vzduchu (při nahrazení vody vzduchem). Pomůcky levné a snadno dostupné.",
+  "materials": [
+    "2 injekční stříkačky (různé průměry pro ukázku hydrauliky)",
+    "plastová hadička",
+    "voda"
+  ],
+  "procedure": "Propojíme stříkačky hadičkou naplněnou vodou bez vzduchových bublin. Žák zmáčkne píst jedné stříkačky a sleduje pohyb pístu druhé. Porovnáme s variantou naplněnou vzduchem.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/vim-proc/soutezni-videa/rybicky-nestlacitelnost-vody-pascaluv-zakon-207599"
+  }
+}
