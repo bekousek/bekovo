@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody117-v-cem-je-problem",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "V čem je problém?",
+  "description": "Žák rozpozná eticky náročnou situaci.",
+  "keywords": [
+    "etika",
+    "rozhodování",
+    "zodpovědnost",
+    "problém?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "75 min",
+  "procedure": "Žáci, ve skupinách cca po šesti, vymyslí a vytvoří živý obraz „problém“. Na přípravu dáme asi pět minut. Poté, co shlédneme každý jeden obraz, ptáme se skupiny: „Co vidíte?“ „Co myslíte, že představuje tato osoba?“ „V čem je problém?“ „Které postavy jsou proti kterým?“ „Které táhnou za jeden provaz?“ „Co si asi myslí tato postava?“ Až poté, co se vyjádří celá skupina necháme promluvit autory – sochy. Žáky necháme připravit další živý obraz, vystihující, co předcházelo problému, jaké byly jeho příčiny. Obraz bude znázorňovat, co bylo před obrazem „problém“. Během shlížení obrazů opět diskutujeme o tom, co vidíme, jak si postavy vykládáme, jak se asi chovají. „Co je důvodem problému?“ „Vyvolává ho některá osoba?“ „V čem cítíme, že je napětí?“ „Je někdo, kdo nemá s problémem nic společného?“ Až poté, co se vyjádří celá skupina necháme promluvit autory – sochy. Třetí živý obraz žáci vytvoří na téma, jak to dopadne, jak bude problém vyřešen. Obraz znázorňuje, co je po „problému“. Během shlížení obrazů opět diskutujeme nejdříve s diváky. „Jak to dopadlo?“ „Proč myslíte?“ „Co se tam stalo?“ „Co dělala tato postava v předcházejícím obraze?“ Až poté, co se vyjádří celá skupina necháme promluvit autory – sochy. V závěru každá skupina secvičí svůj „problém“ jako divadelní skeč. Hra začne živým obrazem co předcházelo, přes obraz „problém“ až k jeho vyřešení. Ve scénce by se měly objevit všechny tři obrazy. Žáci mohou mluvit i pohybovat se.",
+  "source": {
+    "label": "Odyssea — Lekce 11.7, aktivita A2 (s. 28)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-7-Rozhodujeme-se-zodpovedne-a-jedname-eticky.pdf#page=29",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 12+."
+}

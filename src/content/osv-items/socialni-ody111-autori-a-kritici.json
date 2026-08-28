@@ -1,0 +1,35 @@
+{
+  "id": "socialni-ody111-autori-a-kritici",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Autoři a kritici",
+  "description": "Vyladění na problematiku hodnot",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse",
+    "autoři",
+    "kritici"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "80 min",
+  "procedure": "Každý žák v roli autora moudrých textů samostatně napíše pojednání „Co je Dobro“ nebo „Co je Zlo“. Texty necháme autory nazvat a následně vyvěsit po třídě. Poté v rolích literárních kritiků procházíme prostor samostatně, či ve dvojicích, a ke čteným textům si každý píše odborné postřehy a poznámky ke kriteriím:\n1. Text, se kterým nejvíce souhlasíš.\n2. Text, který se nejvíce liší od tvého osobního názoru.\n3. Myšlenka, která mě nikdy nenapadla.\n4. Najdi tři texty, jejichž autoři se v názorech shodují.\n5. Najdi dva texty, které se od sebe radikálně odlišují.\nNásledně kritici vytvoří odborná sdružení, cca po pěti lidech, a každé sdružení vypracuje prezentaci svých odborných názorů na těchto pět témat (můžeme nabídnout balicí papír pro grafické znázornění názorů). U některých bodů mohou kritici uvést i více příkladů. Může následovat odborná debata kritiků. Dle věku dětí můžeme uzpůsobit počet a typ kriterií ke čtení.",
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita A1 (s. 24)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=25",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 10 +."
+}

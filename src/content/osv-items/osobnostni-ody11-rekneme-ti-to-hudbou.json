@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody11-rekneme-ti-to-hudbou",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Řekneme ti to hudbou!",
+  "description": "pozorná komunikace žáka se třídou, projevy autentických emocí",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "řekneme",
+    "hudbou!"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 15 - 20 minut, podle počtu a zájmu žáků",
+  "materials": [
+    "elementární hudební nástroje pro všechny"
+  ],
+  "procedure": "Protagonista (v té roli se žáci střídají) se postaví proti skupině. Otáže se jí slovy, nebo hrou na nástroj na to, co by rád věděl. Každý za sebe zkusí být otevřený a upřímný. Příklady : „Kdo si myslí, že je z naší třídy nejchytřejší?“ „Kdo se rád směje?“ „Kdo má rád jaro?“ Nebo jiný žák „Kdo si rád se mnou povídá?“ „Proč se mi smějete?“ „Koho tady ve třídě štvu?“ „Co vám na mě vadí?“ atp. Skupina mu vždy krátce spontánně odpoví beze slov jen volně improvizovanou hrou na nástroje. Odvíjí se dialog žáka se třídou.Jeho otázky mohou být slovní nebo hudební, mohou se i kombinovat, ale třída mu odpovídá výhradně hrou na nástroje, event. zvuky, pohybem. Po odpovědi vždy necháme krátkou pauzu. Učitel dává žáku, který chce být upřímný, vhodnou podporu. Neváhá hru i ukončit, pokud by se děti chovaly příliš tvrdě. Počet otázek můžeme limitovat (tři, pět) nebo necháme žáka, dokud se má na co ptát. Po hře si sedneme v kruhu a sdělíme si své pocity, myšlenky a dojmy. Při otevřené debatě nám pomohou tři věci: pozornost, úcta a láska.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita A2 (s. 22)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=23",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

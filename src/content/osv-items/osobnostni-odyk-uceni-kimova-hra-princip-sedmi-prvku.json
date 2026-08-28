@@ -1,0 +1,43 @@
+{
+  "id": "osobnostni-odyk-uceni-kimova-hra-princip-sedmi-prvku",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kimova hra - princip sedmi prvků",
+  "description": "Žáci na základě vlastní zkušenosti pojmenují jeden z principů fungování paměti: krátkodobá paměť pojme najednou 7+/-2 nesmyslných prvků. Žáci na základě vlastní zkušenosti pojmenují další z principů fungování paměti: věci, které mají smysl a nějak spolu souvisejí si zapamatujeme snáze.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "kimova",
+    "princip",
+    "sedmi",
+    "prvků"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "Kartičky se slabikami 25 ks.",
+    "25 předmětů",
+    "šátek na zakrytí kartiček a předmětů"
+  ],
+  "procedure": "Položíme na zem 25 předmětů a zakryjeme je šátkem.\nPředměty odhalíme. Necháme žákům 30 sekund na to, aby si zapamatovali co nejvíce předmětů. Předměty opět zakryjeme. Žáci zapíšou během 3 minut, co si zapamatovali. Kolik si kdo zapamatoval? Na zem položíme 25 kartiček zakrytých šátkem, na kterých jsou napsány smysluprosté slabiky: gr, ml, se, fi, ro, wy, cu, šr, ko, me, ci, qo, sl, du, ut, an, ik, uz, oš, eč, sý, dě, ži, rů, hé. Slabiky odkryjeme. Dáme žákům 30 sekund na to, aby si zapamatovali co nejvíce slabik. Žáci zapíšou během 3 minut, co si zapamatovali. Necháme žáky zkontrolovat, kolik slabik si zapamatovali správně.",
+  "reflection": [
+    "Kolik jste si zapamatovali slabik? Jaký je rozdíl mezi vaší úspěšností v prvním a druhém úkolu? Proč si snáze zapamatujeme předměty než slabiky? Co se z tohoto experimentu můžeme dozvědět o učení, o tom jak funguje paměť? Kdy jste se naposledy učili něco, co jste si vůbec nedovedli představit? Snadněji se učíme to, co si umíme představit, co něco znamená, co má nějaké souvislosti. Když se učíme věci, které si neumíme představit nebo které spolu vzájemně nesouvisí, zapamatujeme si po prvním přečtení 7+/2 prvků.",
+    "Jak můžeme tento poznatek o paměti využít, když se něco učíme? Nejlepší je učit se najednou maximálně 7 prvků, pokud se musím učit něco, co má více prvků, je třeba si to rozdělit do skupin po max. sedmi. Když se něco nového učím, je dobré si zjistit, jak to vypadá, nebo nějaké podrobnosti o tom, abych si to uměl/a představit."
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 13)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=14"
+  }
+}

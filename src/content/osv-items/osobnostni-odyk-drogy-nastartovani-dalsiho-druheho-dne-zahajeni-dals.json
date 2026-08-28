@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-nastartovani-dalsiho-druheho-dne-zahajeni-dals",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Nastartování dalšího (druhého) dne, zahájení dalšího bloku",
+  "description": "Účastníci zopakují, co jsme na kurzu dělali předcházející den (minule) a co z toho považují za důležité, co si pamatují, co je oslovilo.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "nastartování",
+    "dalšího",
+    "(druhého)",
+    "zahájení",
+    "bloku"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Lektor pouze účastníky vyzve k opakování, např. slovy: „Opakování je matka moudrosti. Pojďme si proto společně připomenout, co jsme dělali včera (minule, před týdnem, apod.), čím jsme se zabývali a co jsme si z toho odnesli. Pro nás, lektory, to bude navíc svědectvím o tom, co Vás oslovilo, co považujete za důležité a co se nám podařilo Vám předat. Takže, co jsme včera (minule) dělali, co si z toho pamatujete? Co podle Vás stojí za připomenutí?“ Někdy po této otázce nastane relativně dlouhé ticho, které je třeba „ustát“. Můžeme žákům napovědět, ale v zásadě platí, že by opakování měli provést oni, nikoli lektoři. Nakonec tohoto opakovacího bloku (někdy i v jeho průběhu) můžeme doplnit důležité informace, které žáci neuvedli, ale dle našeho soudu stojí za připomenutí.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=36",
+    "note": "Zdroj aktivity uvedený v metodice: Mgr. Adéla Boučková a o. s. Projekt"
+  }
+}

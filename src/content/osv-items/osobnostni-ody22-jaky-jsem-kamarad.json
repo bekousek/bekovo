@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody22-jaky-jsem-kamarad",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jaký jsem kamarád",
+  "description": "Žáci si připomenou své interpersonální chování a pojmenují jeho důsledky na budování mezilidských vztahů. Žáci pojmenují, jak jejich vlastnosti ovlivňují jejich vztahy ke druhým lidem.",
+  "keywords": [
+    "vztahy",
+    "sebepoznání",
+    "druzí lidé",
+    "kamarád"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "Kartičky s výroky"
+  ],
+  "procedure": "1. Každý žák si vylosuje jednu kartičku. Na kartičkách jsou slovesa popisující určité chování, např. „povzbudil je.“ Každý žák si má vzpomenout na situaci, kdy udělal to, co je napsáno na kartičce. Tento krátký příběh si stručně zapíše do sešitu a kartičku vrátí, aniž by někomu prozradil, co si vytáhl. Následují dvě další kola losování, vzpomínání a psaní.\n2. Rozdělíme žáky do skupin po třech až čtyřech. Každá skupina dostane za úkol zahrát jeden z příběhů, některého ze svých členů. Ostatní skupiny hádají, co bylo napsáno na kartičce, kterou si autor příběhu vylosoval.\n3. Kartičky položíme na zem textem nahoru v dostatečných odstupech, aby bylo možné mezi nimi procházet. Žáci mají za úkol prohlédnout si všechny kartičky a zapsat si do svého sešitu chování, které je pro ně typické. Mohou si vybrat jedno až pět chování. Kartičky nechávají na zemi.\n4. Žáci v kruhu hovoří o tom, jaká slovesa si vybrali a proč.\n5. Žáci se procházejí stejným způsobem mezi kartičkami a hledají sloveso, které popisuje chování, které by rádi dělali častěji. Zvolí jednu kartičku. Opíší si sloveso do svého sešitu a posadí se zpátky na své místo.\n6. Žáci mají za úkol nalézt spolužáky, kteří si vybrali stejné sloveso. (Co chtějí dělat více.) Žáci se stejným slovesem utvoří skupinky po max. čtyřech. Společně vymyslí scénku, ve které předvedou chování, které by chtěli dělat častěji v konkrétní situaci.\n\nText na kartičkách:\nněco věnoval\nfandil\nudělal radost\nzlepšil jim náladu\nzpůsobil bolest\ndůvěřoval\nbyl vděčný\npomohl jim\nzpůsobil jim\nproblémy\nporadil jim\norganizoval je\nprominul něco\nustoupil\nnařizoval\nříkal o svých\nnápadech\nnadchnul je pro\nněco\nzaujal je něčím\npřesvědčil o něčem\nnaučil je něco\ninformoval je o\nněčem\npodezříval\nochránil nebo\nzachránil\nuklidnil je\nnechal na holičkách\npobavil je, rozesmál\nobdivoval je, ocenil\nje\nnechtěl je vidět\nzklamal je\nnaštval je\notrávil je\nznudil je\npřekvapil",
+  "source": {
+    "label": "Odyssea — Lekce 2.2, aktivita A1 (s. 48)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf#page=49",
+    "note": "Zdroj aktivity uvedený v metodice: o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

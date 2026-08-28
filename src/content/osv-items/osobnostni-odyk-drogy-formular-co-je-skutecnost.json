@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-formular-co-je-skutecnost",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Formulář „co je skutečnost?“",
+  "description": "Žáci analyzují, do jaké míry je to, co zobrazují filmy (zejména násilí), reálné.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "formulář",
+    "skutečnost?“"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 minut – 3 hod (při sledování konkrétního filmu)",
+  "materials": [
+    "Níže uvedený formulář"
+  ],
+  "procedure": "Žáci individuálně při sledování konkrétního filmu v televizi (doma či ve škole) nebo ukázky na videu postupně vyplňují níže uvedený formulář podle skutečného děje ve filmu. Pak proběhne reflexe a diskuse nad tímto vyplněným formulářem. Co je skutečnost? Zkoumání konkrétního televizního programu.\n• Do jaké míry se to stává i ve skutečném životě?\n• Jak moc s tím, co se děje ve filmu, souhlasím?\n• Do jaké míry je k takovému násilí důvod?\n• Do jaké míry je cílem tvůrců filmu vyvolat v divákovi vzrušení?\n• Jaké by mělo podobné násilí ve skutečném životě následky?\n• Do jaké míry a jak jsou zde tyto následky uvedeny?\n• Není náhodou hrdina v právu, ať už dělá, co chce?\n• Jak se chová hrdina na plátně? Čím vším porušuje „dobré mravy“ nebo dokonce zákony?\n• Do jaké míry dostane hrdina to, co zasluhuje, i když si počíná nezákonně?\n• K jakým důsledkům vede většinou takový postup, takové chování?\n• Jak by se takový konflikt dal vyřešit lépe (jinak)?\n• Jaký je můj vztah k násilí?\n• V kterých situacích si myslím, že je násilí v právu (pokud vůbec)?\n• Jaké jiné způsoby řešení problémů, kromě násilí, existují?\nV reflexi a následné diskusi debatujeme nad tím, co nám vyšlo, do jaké míry se shodujeme či lišíme a co z námi zjištěných výsledků vyplývá. Nezapomeneme to na závěr shrnout a zeptat se na přínosy či závěry pro život.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 136)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=137",
+    "note": "Zdroj aktivity uvedený v metodice: Podle „Life skills training“ a Prim. MUDr. Karla Nešpora, CSc."
+  }
+}

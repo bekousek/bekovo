@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody116-idealni-svet",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Ideální svět",
+  "description": "Žáci tvoří ve skupinách fantaskní obraz, zamýšlejí se nad ideálním řešením.",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "ideální"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "balicí papír,fixy či jiné barvy"
+  ],
+  "procedure": "Sesbíráme co nejvíce nápadů na problémy, které bychom chtěli řešit. (Můžeme využít některé z kolečka.) Necháme žáky, aby si ve skupinách vždy vybrali jeden a společně vytvořili obraz ideálního světa, ve kterém se všichni podílejí na naplňování vytyčeného cíle (můžeme využít i přesně opačný postup a nechat žáky vytvořit obraz apokalyptický – jak by to vypadalo, kdyby se nikdo na světě tomuto problému nevěnoval). Skupiny pracují vždy na jednom velkém společném obraze, mohou využívat i písmo. V závěru uděláme výstavu obrazů, během které lze projít obrázky jeden po druhém a klást dotazy umělcům.",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A6 (s. 21)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=22",
+    "note": "Zdroj aktivity uvedený v metodice: o.s.Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 6+."
+}

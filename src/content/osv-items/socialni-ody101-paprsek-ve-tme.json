@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody101-paprsek-ve-tme",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Paprsek ve tmě",
+  "description": "Nezvyklost (dobrodružnost) situace, komunikace s okolím, spolupráce, rozhodnost, důvěra.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "paprsek"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "dlouhá pevná šňůra (asi 100 m), páska na oči pro každého žáka"
+  ],
+  "procedure": "V členitém lesním terénu natáhneme mezi stromy šňůru. Obtáčíme ji kolem stromů v různé výši - od země do úrovně očí. Trasu vedeme přes překážky, mezi stromy, přes kameny, houštinou apod. Konec cesty by měl být na nějakém hezkém zajímavém místě a musí být výrazně označen. Legenda Zdrželi jsme se při průzkumu jednoho divokého a nebezpečného údolí. Nepřipravené nás zastihla hluboká tma. Z textu starého průvodce víme, že z určitého místa je cesta ven vyznačena šňůrou. K té jsme se nyní dostali a prakticky poslepu postupujeme dále. Jdeme za sebou a tiše si vyměňujeme informace o překážkách. Tak se dostaneme k bezpečnému místu, kde můžeme přenocovat. Ráno (nebo po sundání pásek z očí) se můžeme pokochat krásným výhledem a za světla se podívat, kudy jsme vlastně prolézali. Vyměňujeme si při tom pocity, které každý z nás měl. Nemůžeme uvěřit, co všechno jsme dokázali poslepu překonat. Je zřejmé, že skupina by neměla trasu předem vidět. Přivedeme ji tedy ke startu poslepu z větší vzdálenosti. Prvnímu položíme ruce na šňůru a ostatní pouštíme v odpovídajících intervalech ( po ujití 20-30 metrů prvního) a sledujeme pohyb celé skupiny.\n\nVarianta: * Prožitek ze samostatného překonávání neznámé trasy zvýšíme, když necháme každého procházet po trase samostatně a v naprostém tichu. * Vytvoříme dvojice nebo malé skupinky, které si vyměňují informace pouze doteky.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita D3 (s. 96)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=97",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  }
+}

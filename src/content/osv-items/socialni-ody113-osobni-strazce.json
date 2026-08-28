@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-osobni-strazce",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Osobní strážce",
+  "description": "Žák bude mít příležitost prožít a uvědomit si hodnotu toho, když o něj někdo pečuje. Žák bude mít příležitost pečovat o svého spolužáka.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "osobní",
+    "strážce"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "V průběhu celého dne ve škole aspoň 5 dní, každý den zadání a vyhodnocení 30min",
+  "materials": [
+    "Kostýmy pro úvodní scénku, pro střelce měkké míčky"
+  ],
+  "procedure": "Domluvíme se s dvěma žáky na asistenci při úvodní scénce na téma Osobní strážce. Např. sehrajeme napadení známé osobnosti na veřejnosti a účinný zásah ochranky. Rozebereme situaci, co se stalo, úkol ochránce a jak se ho podařilo splnit. Tímto uvedeme hru: Dva žáci si vylosují roli střelce, z ostatních žáků utvoříme (nejlépe losem) dvojice. Mohou být smíšené (dívka může být např. filmová hvězda, zvolí si jméno a fiktivní životopis). Jeden z dvojice je určený osobním strážcem. Má za úkol ji během určené doby všude doprovázet, jinak se hvězda vystavuje nebezpečí, že ji někdo napadne (zasáhne měkkým míčkem) a přijde o život. Strážce, který o svěřenou osobu nebude dobře pečovat a dopustí, že hvězda bude napadena, nesplnil svůj úkol. Na konci vyučování zjistíme, kolika hvězdám se podařilo přežít, jak se zachovali jejich strážci. Hru hrajeme opakovaně několik dní za sebou, vždy znovu losujeme jiné dvojice.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita E4 (s. 53)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=54",
+    "note": "Zdroj aktivity uvedený v metodice: ČAPEK, Martin, DUŠEK Petr, Projekt."
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

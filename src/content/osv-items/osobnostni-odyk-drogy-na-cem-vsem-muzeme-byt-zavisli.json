@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-na-cem-vsem-muzeme-byt-zavisli",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Na čem všem můžeme být závislí",
+  "description": "Účastníci diskutují nad tím, na čem všem můžeme být „závislí“.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "můžeme",
+    "závislí"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Kartičky s názvy závislostí (viz níže)"
+  ],
+  "procedure": "Rozdělíme skupinu na cca 4 – 7 členné skupiny. Každá skupina dostane sadu kartiček (viz dále). Úkolem skupin je seřadit kartičky podle toho, jak se domnívají, že jsou závislosti uvedené na lístcích pro nás nebezpečné (míněno důsledky těchto závislostí). Po cca 10 až 15 minutách vezme každá skupina své kartičky, vytvoříme kruh a v něm odprezentujeme jednotlivá pořadí a diskutujeme o nich. Možné názvy kartiček (lze je upravit a doplnit s ohledem na věk žáků; zde uvedená skladba kartiček byla opakovaně s úspěchem testována v osmé třídě):\n• Heroinismus\n• Alkoholismus\n• Chorobné hráčství\n(gamblerství)\n• Závislost na LSD\n• Kouření marihuany\n• „Závislost“ na sexu\n• Užívání hašiše\n• Nikotinismus, kouření\n• „Závislost“ na nakupování\n• Závislost na PC, TV\n• Workoholismus, nadměrné\nvěnování se práci\n• „Závislost“ na extrémních\nzážitcích, extrémních sportech\n• Závislost na jídle\n• Závislost na nějaké zálibě\n• Závislost na ...........................\n(tzv. „bianco“ závislost, lze\nčímkoli doplnit nebo vyhodit)\nPři reflexi podotkneme, že není žádné „správné“ nebo „špatné“ pořadí. Bavíme se o tom, z jakého důvodu jsme dali kartičku na to které místo, a zejména, co asi daná závislost znamená (významy pojmů na jednotlivých lístečcích lze projít již před aktivitou). Diskutujeme s žáky o tom, co mají závislosti společného a čím se liší. Můžeme poukazovat na drastické důsledky závislostí na tvrdých drogách a alkoholu, potažmo cigaretách. Můžeme se ptát žáků na jejich vlastní zkušenosti se světem závislostí, zda se setkali se závislým člověkem, apod. Můžeme se ptát, jakou závislost doplnili na volný lísteček a co je k tomu vedlo. Na závěr můžeme skupinu vyzvat, aby formulovala, co si z aktivity odnáší, co se žáci dozvěděli nového.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 180)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=181",
+    "note": "Zdroj aktivity uvedený v metodice: Podle PhDr. Štěpána Tichého upravilo o. s. Projekt Odyssea NA"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-odyk-drogy-naladomer",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Náladoměr",
+  "description": "Účastníci se naladí na téma emocí, nálady, emočních problémů a jejich zvládání.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "náladoměr"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Každý pomocí škály znázorní, jakou má právě náladu – zda příjemnou či nepříjemnou. Svou náladu může přímo pojmenovat nebo ji nějak jinak popsat či vyjádřit /třeba barvou nebo nakreslením patřičného obličejíčku: „smajlíka“ či „mračíka“, apod./. Můžeme se bavit o tom, zda bychom tu danou náladu na druhém člověku poznali a podle čeho. Také se můžeme zeptat žáků, kteří ukazují spíše nepříjemnou náladu, co by jim pomohlo, aby ji mohli mít příjemnější.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 88)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=89"
+  }
+}

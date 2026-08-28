@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-odyk-drogy-co-se-mi-na-mne-libi-ceho-si-na-sobe-cenim",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Co se mi na mně líbí, čeho si na sobě cením",
+  "description": "Účastníci posilují svou sebeúctu.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "cením"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Každý žák dostane za úkol promyslet, co se mu na něm samotném líbí, jakých svých vlastností si cení. Kdo chce, může nakonec ostatním sdělit jednu (více) z těchto vlastností dle vlastního výběru.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 95)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=96"
+  }
+}

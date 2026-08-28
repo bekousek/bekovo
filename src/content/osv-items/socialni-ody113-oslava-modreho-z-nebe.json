@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-oslava-modreho-z-nebe",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Oslava modrého z nebe",
+  "description": "Žák prožije radost z dárku. Žák bude mít příležitost udělat někomu radost.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "oslava",
+    "modrého"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "Doma připravené drobné originální dárky"
+  ],
+  "procedure": "S dostatečným předstihem se s dětmi dohodneme a vyhlásíme námi vymyšlený originální svátek, který bude slavit jen naše třída. Doma každý připraví jeden co nejoriginálnější dárek, který bude určen neznámému spolužákovi. Další adresné dárky mohou být součástí oslavy, ale také nemusí být. Důležité je, aby každý žák mohl vylosovat jiný, než svůj dárek. V den D vyzdobíme třídu. Po úvodním programu oslavy přistoupíme k rozdávání dárků. Dbáme, abychom dárky rozbalovali postupně, každému dárku věnujeme pozornost a oceníme jej. Autoři dárků mohou zůstat anonymní, anebo se k dárku přihlásí, záleží na přání dětí. Na závěr se zeptáme: Jaký pocit jsme měli při rozbalování nečekaného dárku? Zažili jsme dnes překvapení? Co nás na vymýšlení dárku nejvíc bavilo?",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita D6 (s. 48)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=49",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ Ivana, Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 1.,2.,3. období."
+}

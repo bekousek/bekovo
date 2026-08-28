@@ -1,0 +1,32 @@
+{
+  "id": "kolektiv-ody71-cile-a-pravidla",
+  "categoryId": "tridni-kolektiv",
+  "title": "Cíle a pravidla",
+  "description": "Žáci rozumí souvislostem mezi pravidly a cíli, díky kterým pravidla existují.",
+  "keywords": [
+    "pravidla",
+    "třídní dohody",
+    "chování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "1. Sdělíme žákům, že se budeme zabývat jednotlivými pravidly školy a jejich představami o ideální podobě pravidel ve škole.\n2. Rozdělíme žáky do skupin (ideální je počet 3-5 žáků na skupinu).\n3. Zadáme žákům otázku: „Kdybyste měli jednou větou vyjádřit, co by podle vás mělo být cílem školy, do které byste chtěli chodit, jak by tato věta zněla?“\n4. Tato věta by měla být srozumitelná desetiletému žákovi základní školy.\n5. Zadáme skupinám čas na práci (například 7 minut).\n6. Po vypršení této doby by každá skupina měla mít napsanou větu, na které se ideálně všichni ve skupině shodnou. Jednotlivé skupiny prezentují své věty a učitel je zapisuje na tabuli. Poté, co jsou na tabuli sepsány všechny věty, připíše k nim učitel větu, která vyjadřuje cíle školy podle něj. Například: „Cílem naší školy je umožnit každému žákovi maximální rozvoj a pečovat o duševní i tělesné zdraví všech našich žáků.“\n7. Ilustrujeme žákům úlohu pravidel v životě. Pokud nejsme na světě sami, tak vždy při realizaci jakýchkoliv cílů potřebujeme nějaká pravidla. Například, když se chceme někam dostat autem, potřebujeme pravidla silničního provozu, protože jinak bychom se velmi brzo s někým srazili. Úlohu pravidel v životě je možné ilustrovat tak, že vybereme /dáme společně se žáky dohromady/ některé činnosti, které žáci rádi vykonávají a vyzveme je k tomu, aby sdělovali pravidla, která jsou smysluplná, aby mohli bez obav o své zdraví či život tyto činnosti vykonávat.",
+  "source": {
+    "label": "Odyssea — Lekce 7.1, aktivita A1 (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf#page=40",
+    "note": "Zdroj aktivity uvedený v metodice: Michal Dubec, o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let věku žáků, pro menší věk je možné aktivitu upravit. Pravidla u jednotlivých oblíbených činností nemá smysl vymýšlet nijak násilně. Pokud žáky žádná smysluplná pravidla nenapadají, nemá smysl na ně tlačit. Při zadávání této aktivity se vyplatí uvést konkrétní příklad, viz níže. Příklady: Chceme-li si pochutnat na zmrzlině, jaká pravidla by byla smysluplná proto, abychom tohoto cíle „bez problémů“ dosáhli? Chceme-li se projet na kole, jaká pravidla by byla smysluplná pro to, abychom tohoto cíle „bez problémů“ dosáhli? Dalším úkolem žáků je dát v původních skupin"
+}

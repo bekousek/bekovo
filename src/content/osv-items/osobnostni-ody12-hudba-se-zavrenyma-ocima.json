@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody12-hudba-se-zavrenyma-ocima",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hudba se zavřenýma očima",
+  "description": "Žák se soustředí na zvuk, tóny, melodii, na celkové vnímání skladby. Popíše pocity z poslechu hudby se zavřenýma očima.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "hudba",
+    "zavřenýma",
+    "očima"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Přehrávač CD, CD se skladbami vážné nebo relaxační hudby, šátek pro každého žáka (není nutný)."
+  ],
+  "procedure": "Žáci se pohodlně usadí ve třídě a postačí, když zavřou oči. Zaposlouchají se do vybrané hudební skladby. Mladší žáci poslouchají asi 5 minut, starší mohou až 8 min. Po skončení si povídáme o zážitcích z hudby, jak se nám dařilo se soustředit na hudbu, jak jsme ji vnímali.",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A2 (s. 27)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=28"
+  },
+  "notes": "Věk uvedený v metodice: Pro všechny věkové kategorie, u mladších dětí volíme kratší poslech a přizpůsobíme téma skladby.."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody12-degustace-vanocniho-cukrovi",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Degustace vánočního cukroví",
+  "description": "Žák si vyzkouší roli posuzovatele kvality potravin, procvičí si vnímání vůně, chuti i vzhledu potravin. Uvědomí si význam smyslového vnímání při jídle.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "degustace",
+    "vánočního",
+    "cukroví"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Vánoční cukroví, tácy, degustační talířky nebo papírové tácky, kartónové kartičky s čísly, flipchart a papír nebo tabule a fix, čistá voda a sklenice nebo kelímky na zapíjení ochutnávek pro členy komise, ceny pro vítěze."
+  ],
+  "procedure": "Žáci vlastnoručně doma či ve škole vyrobí vánoční cukroví. Ve třídě vyhlásíme soutěž o nejchutnější cukroví. Žáci i učitelé vytvoří degustační komise 3 až 4 členné. V komisi pro daný výrobek se nesmí samozřejmě účastnit autor posuzovaného cukroví. Posuzují se vždy výrobky jednoho druhu cukroví (sekce: vosí hnízda, kokosové kuličky, perníčky, linecké pečivo, rohlíčky aj.). Hodnocení probíhá anonymně. Vzorky jsou očíslovány a jen asistent a moderátor zná klíč. Hodnotíme dojem z celkového vzhledu, vůně a chuti. Každou veličinu posuzuje a boduje porota zvlášť, asistent zapisuje výsledky a součty na flipchart. Degustátoři komentují své zážitky z posuzování jednotlivých kategorií. Moderátor vede degustaci jako zábavnou akci. Žáci, kteří se právě neúčastní v porotě, jsou napjatými diváky. Celou aktivitu je dobré vést s humorem a vtipem. Výherce samozřejmě odměníme lákavou odměnou.",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A7 (s. 33)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=34",
+    "note": "Zdroj aktivity uvedený v metodice: Čapek Martin, Dušek Petr, Vánoční výprava Changleska Thozi"
+  },
+  "notes": "Věk uvedený v metodice: Střední a starší školní věk."
+}

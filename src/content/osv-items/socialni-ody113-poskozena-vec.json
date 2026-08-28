@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody113-poskozena-vec",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Poškozená věc",
+  "description": "Žák odpoví na otázku, co udělá s věcí, která se rozbije?",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "poškozená"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Poškozené věci"
+  ],
+  "procedure": "Žáci hrají scénku podle daného scénáře s otevřeným koncem. Použijí poškozenou věc jako rekvizitu. Témata: Rozlepená podrážka na botě. Utržený knoflík u košile. Zlomená tuha tužky. Ušpiněný oděv. Roztržená igelitka. Apod. Žáci zrekonstruují, jak se asi věc stala, zahrají dramatickou situaci a na závěr se volně rozhodují, jak naloží s poškozenou věcí.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita A5 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=35"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3.."
+}

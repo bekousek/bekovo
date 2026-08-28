@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-swan",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "SWAN",
+  "description": "Pomoci žákům nacházet a uskutečňovat hodnotné cíle neslučitelné se zneužíváním psychoaktivních látek a hazardní hrou.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Psací potřeby a papíry"
+  ],
+  "procedure": "Anglické slovo „swan“ (do češtiny překládáme jako „labuť“) se skládá z počátečních písmen slov: S – strengths (silné stránky) W – weaknesses (slabé stránky) A – ambitions (ctižádosti, ambice) N – needs (potřeby) Požádáme žáky, aby každý sám za sebe na kus papíru napsali:\n1. své silné stránky,\n2. své slabé stránky,\n3. své ctižádosti, ambice,\n4. své potřeby.\nDoporučíme, aby si každý týden vybrali jednu svou silnou stránku, kterou budou cíleně posilovat, a jednu slabou, kterou budou cíleně oslabovat, překonávat. Takto lze pracovat individuálně nebo ve skupinkách v rovině tělesné, psychické, duchovní.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 93)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=94"
+  }
+}

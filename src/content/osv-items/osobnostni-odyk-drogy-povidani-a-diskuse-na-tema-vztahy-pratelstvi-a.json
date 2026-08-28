@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-povidani-a-diskuse-na-tema-vztahy-pratelstvi-a",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Povídání a diskuse na téma vztahy, přátelství a jejich role v drogových problémech",
+  "description": "Účastníci pojmenují souvislosti mezi vztahy a drogovými problémy.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "povídání",
+    "diskuse",
+    "vztahy",
+    "přátelství",
+    "jejich"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Diskutujeme např. o následujících tématech:\n• přijetí/odmítnutí skupinou,\n• vstup do nové skupiny,\n• samota,\n• vliv skupiny na jedince,\n• vyčleňování někoho ze skupiny,\n• jak někoho do skupiny dostat, pokud je „mimo“,\n• skupinový tlak a obrana vůči němu,\n• vedení skupiny,\n• podskupiny ve skupině,\n• jak mohu zlepšit své vztahy,\n• jak (čím) můžeme zlepšit atmosféru ve skupině,\n• jak pečovat o vztahy,\n• jaká nepsaná pravidla v naší skupině panují,\n• za kým jít, když se v naší skupině dějí věci, které se mi nelíbí a co v takové situaci mohu dělat já,\n• jak mi dobré vztahy mohou pomoci, abych nefetoval/a,\n• apod.,\nNa závěr:\n• co jsem se dozvěděl, co pro mne bylo nejdůležitější, s čím odcházím.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 195)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=196"
+  }
+}

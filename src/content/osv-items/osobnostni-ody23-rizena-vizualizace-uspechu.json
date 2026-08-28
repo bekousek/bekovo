@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody23-rizena-vizualizace-uspechu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Řízená vizualizace úspěchu",
+  "description": "žáci posilují svou důvěru v budoucí úspěch tím, že si ho představují",
+  "keywords": [
+    "sebepřijetí",
+    "sebevědomí",
+    "pohoda",
+    "řízená",
+    "vizualizace",
+    "úspěchu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 45 min",
+  "procedure": "Vedeme žáky k tomu, aby si se zavřenýma očima představili situaci v budoucnu, ve které prožijí úspěch. Dále vedeme žáky pomocí otázek: Jakou má úspěch barvu? Jaký má zvuk? Kde v těle ho cítím? Které oblasti mého života zasáhne? Jak se budu cítit, až budu prožívat úspěch?",
+  "source": {
+    "label": "Odyssea — Lekce 2.3, aktivita G2 (s. 78)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf#page=79",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: možno upravit pro různé věkové kategorie."
+}

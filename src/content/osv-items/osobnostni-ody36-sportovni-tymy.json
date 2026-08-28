@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody36-sportovni-tymy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Sportovní týmy",
+  "description": "Žáci si uvědomí, co který sport rozvíjí a které svalové skupiny jsou namáhány.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "sportovní"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina",
+  "materials": [
+    "Kartičky s názvy jednotlivých sportovních týmů."
+  ],
+  "procedure": "Rozdělíme žáky do několika skupin po 4 – 6 členech. Každá skupina dostane lísteček, na kterém je napsáno, jaký sportovní tým představují (např. fotbalový tým, horolezecké družstvo, basketbalový, volejbalový tým, gymnastické družstvo, mohou představovat závodníky jednotlivých atletických disciplín, plavecké družstvo, …). Buď necháme žáky vybrat „specializaci“ nebo jim ji přidělíme. Každá skupina předvede a zdůvodní cviky vhodné pro rozcvičku, vlastní aktivitu a protažení.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A3 (s. 29)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=30"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od deseti let věku.."
+}

@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody101-ulicka-duvery",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Ulička důvěry",
+  "description": "Důvěra, odvaha, odhad situace",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "ulička",
+    "důvěry"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "procedure": "Ulička důvěry je na první pohled velmi snadnou záležitostí. To zvýší přitažlivost pro nejširší okruh zájemců a jejich motivaci pro další cvičení a hry tohoto zaměření. Požádáme skupinu, aby vytvořila dvě řady stojící proti sobě ve vzdálenosti asi 80 cm. Tím vznikne ulička důvěry. Vyzveme prvního dobrovolníka, aby se postavil 15 metrů před dvojice. Má za úkol proběhnout uličkou a udržet stejnou rychlost, jakou běžel před ní. Má to však jeden malý háček. Všichni, kteří tvoří uličku, předpaží, a tím uzavřou průchod. Otvírají ho zvedáním paží až těsně před běžcem. Před startem se běžec ptá celé skupiny na její připravenost, skupina odpovídá: \"Jsme připraveni! Můžeš běžet!\" Běžec se rozbíhá, nabírá rychlost, a když se dostane do těsné blízkosti, zvednou se paže první dvojice a vlna zvedajících se paží proběhne až na konec uličky. Po doběhnutí si každý zhodnotí svůj pokus a očití svědkové potvrdí, zda v uličce zpomalil nebo ne. Doporučujeme provést první pokusy rychlou chůzí, neboť se všichni musí naučit rychle a včas vzpažovat - otevírat průchod uličkou důvěry.\n\nVarianta: * Rozšířit uličku a nechat probíhat dvojice držící se za ruce.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita C2 (s. 79)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=80",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 10 let."
+}

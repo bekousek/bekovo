@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyk-drogy-zakazane-ovoce",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zakázané ovoce",
+  "description": "Účastníci si uvědomí, co je pro ně jejich „zakázaným ovocem“. Zreflektují, jaké strategie vypořádávání se se svým „zakázaným ovocem“ používají a jaké by ještě používat mohli.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "zakázané",
+    "ovoce"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 – 90 min",
+  "materials": [
+    "Věc(i), které budou představovat zakázané ovoce. Lze použít svícen a zapálenou svíčku nebo např. noviny. Mějme však na paměti, že v této aktivitě mohou účastníci „zakázané ovoce“ i zničit, i to je jedna ze strategií vypořádávání se se zakázaným ovocem. V takovém případě bychom o svícen mohli přijít. Volme proto takové předměty, jejichž možné poškození by nás nerozesmutnilo."
+  ],
+  "procedure": "Během této aktivity sedíme v kruhu. V krátkém úvodním proslovu sdělíme účastníkům, že každý z nás má nějaké to „zakázané ovoce“. Pro někoho je to čokoláda, pro někoho jídlo vůbec, pro někoho uzeniny, pro někoho televize, káva, alkohol, drogy, počítačové hry, ... Máme také různé strategie, jak se se zakázaným ovocem vypořádáváváme, jak se s ním „popasováváme“. A my si teď některé strategie předvedeme či vyzkoušíme. Zde uprostřed nás bude něco reprezentovat zakázané ovoce (balík novin, plastelína, zapálená svíčka ve svícnu). Každý z nás má možnost nějak zacházet se zakázaným ovocem, nějak se vůči němu vymezit. Nesmíme při tom však mluvit. Další, co je ještě zakázáno, je napadat druhé.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 168)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=169",
+    "note": "Zdroj aktivity uvedený v metodice: Autor neznámý, úprava o. s. Projekt"
+  },
+  "notes": "K REALIZACI: Aktivita patří k náročnějším. Proto ji doporučujeme pouze zkušeným lektorům, kteří budou vědět, jak ji řídit a jak ji případně emočně ošetřit v reflexi."
+}

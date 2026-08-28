@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-dotaznik-o-zavislostech",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Dotazník o závislostech",
+  "description": "Účastníci získají informace o návykových látkách a o jejich dopadu na člověka.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "dotazník",
+    "závislostech"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Dotazník"
+  ],
+  "procedure": "V úvodu žáci dostanou dotazník (viz níže) a vyplní ho (každý sám za sebe). Můžeme jim říci, že u některé otázky může být i více správných odpovědí (nebo všechny), nejen jedna jediná. Pak společně ve skupině procházíme jednotlivé odpovědi a diskutujeme nad nimi. I když existují „správné“ odpovědi, můžeme diskutovat o tom, co vede žáky k tomu, že odpověděli jinak. Informace v dotazníku můžeme doplňovat o jakékoli relevantní otázky, můžeme žáky vyzývat k dalším otázkám. Cílem této aktivity je předání informací. Jedná se tedy o jakousi formu interaktivního výkladu.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 142)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=143",
+    "note": "Zdroj aktivity uvedený v metodice: PhDr. Štěpán Tichý a o. s. Projekt Odyssea Dotazník viz níže další stránka (správné odpovědi jsou označeny tučně – přičemž u některých otázek jsou správné všechny odpovědi). DOTAZNÍK"
+  }
+}

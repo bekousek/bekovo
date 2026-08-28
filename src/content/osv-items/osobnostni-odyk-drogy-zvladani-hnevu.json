@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-zvladani-hnevu",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Zvládání hněvu",
+  "description": "Naučit se více pracovat s emocemi.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "zvládání",
+    "hněvu"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 10 min",
+  "procedure": "Používají se analogické postupy k postupům uvedeným výše v metodice, tj. rozpoznání rizikových situací, relaxace, dýchání, fyzická aktivita. Lze také s výhodou použít již popsané různé způsoby řešení problému a rozhodování (např. „semafor“), zklidňující autosugesce, kdy si říkáme „Zvládnu to.“, „Dokážu zůstat klidný.“, „Líbí se mi být klidný a ovládat se.“. Další možností je změna vztahového rámce, tzv. „přerámování situace“. Žák se např. může sám sebe zeptat „stojí mi za to se rozčilovat?“ „Skutečně se mě chtěl ten člověk dotknout?“ „Nedalo by se toho, co chci, dosáhnout jinak?“ Můžeme si také udělat inventář situací, které nás rozčilují, a dál s nimi pracovat (např. tak, že budeme hledat prevenci před těmito situacemi – abychom se do nich vůbec nedostali – nebo že se s nimi budeme učit žít a zpracovávat je tak, aby nás nerozčilovaly). Co mě rozčiluje? Situace Mírný vztek Střední vztek Velký vztek 1. 2. 3. 4. 5. 6. 7. Na další stránce uvádíme ještě „deník hněvu“.\n\nDeník hněvu\nSituace č. 1\nDatum:",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 84)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=85"
+  }
+}

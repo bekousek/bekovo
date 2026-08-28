@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-drogy-tematicke-molekuly",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Tematické molekuly",
+  "description": "Účastníci se aktivizují pro další práci, více se stmelí.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "tematické",
+    "molekuly"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "5 - 7 min",
+  "procedure": "Žáci se pohybují po třídě, hraje hudba, když ji lektor zastaví a řekne např. „skupinky podle znamení narození“, seskupí se žáci podle uvedeného znaku. Můžeme žádat, aby žáci vytvářeli skupiny podle různých kritérií (podle čísla bot, výšky, měsíce narození, roku narození, názoru na trest smrti, názoru na legalizaci měkkých drog, na to, který politický systém považují za nejlepší, apod.) Po rozdělení a dokončení „hemžení“ se můžeme v reflexi ptát jednotlivých skupin, jaká je jejich hlavní spojující myšlenka, jaké výhody (a eventuální nevýhody) vidí na své pozici, co jim jejich názor „dává“ a co jim „bere“, apod.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=40",
+    "note": "Zdroj aktivity uvedený v metodice: PLÁNOVÁNÍ"
+  }
+}

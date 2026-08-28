@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-odyk-nalada-jak-se-emoce-projevuji-v-nasem-tele",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak se emoce projevují v našem těle",
+  "description": "Zmapovat projevy různých emocí ve svém těle a uvádět je do souvislosti se situacemi, ve kterých je prožíváme.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "emoce",
+    "projevují",
+    "našem"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Papír alespoň formátu A3 a pět barevných pastelek nebo voskovek (černá, modrá, zelená, hnědá, červená) pro každého účastníka."
+  ],
+  "procedure": "Každý účastník dostane papír a čtyři barvy, z nichž každá slouží ke znázornění jedné ze čtyř základních emocí: strach, vztek, smutek, radost. Na papír nakreslí hrubý obrys postavy černou barvou nebo obyčejnou tužkou. Po té se postaví, zavřou oči a lektor je vede ke vzpomínce na situaci, ve které zažili nejprve strach, potom vztek, smutek a na závěr radost. Po každé vzpomínce si vezmou jednu barvu a zakreslí emoci v těle - kde tam byla, jakou měla intenzitu, směr apod. Na závěr je diskuze o obrázcích a strategiích, jak emoce odžít s vědomím, kde v těle je každý má zakotvené. Představy emocí můžeme vést např. takto: „Některé emoce nás aktivizují, jiné ochromují, tlumí, některé aktivizují i spoutávají, záleží na tom, v jaké situaci je prožíváme. Začneme nepříjemnou emocí. Stoupněte si, zavřete oči, soustřeďte se na své tělo. Uvědomíme si svoje tělo a zároveň se pokusíme vybavit si situaci, kdy se něčeho bojíme, máme strach. Zkusíme si vybavit situaci strachu…ten strach možná cítíme někde v těle – na uších, očích, v hrdle – možná máme stažené hrdlo, v hrudníku –možná se nemůžeme nadechnout, možná se nám svírá žaludek, možná máme strach v nohách – podklesávají nám kolena. Náš strach má směr, je nějak intenzivní, tvar, má svoje místo, někde je v našem těle lokalizován. Vezměte si zelenou pastelku a nakreslete svůj strach, svou úzkost. Jak vypadá váš strach? Kde v těle se nachází? Jakou má intenzitu, směr, tvar?“ Podobně uvedeme ostatní tři emoce: vztek znázorníme modrou barvou, smutek hnědou barvou. Na závěr si představujeme radost, kterou pak namalujeme červenou barvou. (Při práci s emocemi nemůžeme nikdy končit negativní emocí, aby si ji někdo neodnesl s sebou. Nikdy nemůžeme přesně vědět, jak intenzivně kdo danou emoci prožívá.)",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 56)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=57",
+    "note": "Zdroj aktivity uvedený v metodice: Seminář Základy psychoterapie pro pedagogy vedený PhDr. Miladou Votavovou na katedře pedagogiky"
+  }
+}

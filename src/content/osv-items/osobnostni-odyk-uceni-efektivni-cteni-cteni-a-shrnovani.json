@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-uceni-efektivni-cteni-cteni-a-shrnovani",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Efektivní čtení - čtení a shrnování",
+  "description": "Žáci si vyzkouší, jaké to je číst text poté, co o něm získali přehled o zformulovali si k textu otázky. Žáci si vyzkouší shrnout hlavní myšlenku odstavce jednou větou. Žáci si vyzkouší vysvětlit a zapsat důležité informace z odstavce vlastními slovy.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "efektivní",
+    "čtení",
+    "shrnování"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "text pro každého žáka"
+  ],
+  "procedure": "Vysvětlíme žákům princip strategie Čtení a shrnování\npři čtení budeme sledovat, zda nenarazíme na odpovědi na své otázky budeme číst vždy jen jeden odstavec po přečtení odstavce (písemně) shrneme svými slovy, co jsme se zajímavého nebo užitečného dozvěděli pokusíme se shrnout (písemně) hlavní myšlenku odstavce do jedné věty Čteme text nahlas (někdo z žáků nebo lektor). Kdykoli žáci narazí na odpověď na některou ze svých otázek, přihlásí se (nebo řeknou stop). Sdělí otázku a jak byla v textu zodpovězena. Lektor odškrtává otázky, které byly zodpovězeny.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 47)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=48"
+  }
+}

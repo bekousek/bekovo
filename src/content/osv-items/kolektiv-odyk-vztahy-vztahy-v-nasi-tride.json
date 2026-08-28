@@ -1,0 +1,38 @@
+{
+  "id": "kolektiv-odyk-vztahy-vztahy-v-nasi-tride",
+  "categoryId": "tridni-kolektiv",
+  "title": "Vztahy v naší třídě",
+  "description": "Žáci popisují, s čím jsou spokojeni, co se týká vztahů ve třídě, a co by chtěli změnit.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "vztahy",
+    "třídě"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Lepící papírky Post-it, flipchartový (balící) papír, fixy"
+  ],
+  "procedure": "Každý si může vybrat, zda chce pracovat sám, ve dvojici nebo ve trojici. Skupiny s větším počtem členů by byly příliš velké. Můžeme nicméně aktivitu zadat jako individuální práci. Jednotlivec, dvojice či trojice napíší na jeden lísteček jednu věc, se kterou jsou spokojeni, která se jim líbí, ze které mají radost, jsou jí nadšeni (připomínáme, že z oblasti třídních mezilidských vztahů). Na druhý lísteček napíší jednu věc, která se týká vztahů ve třídě a chtěli by ji změnit. V instrukci zdůrazníme, že se budeme zabývat vztahy (tzn. např. nepišme, že bychom chtěli nové počítače) a poprosíme o co největší konkrétnost, abychom všichni rozuměli, co autor myslel (např. pokud někdo napíše „chci, abychom na sebe byli hodnější“, ostatní možná nebudou vědět, co mají dělat a jak se chovat, aby byli hodnější). Pokud někdo pracuje sám, napíše za sebe rovněž ty samé dvě věci – jednu, se kterou je spokojený, a jednu, kterou by chtěl změnit. Dvojice a trojice se musí domluvit a zvolit za skupinu pouze jednu věc, se kterou jsou spokojeni, a jednu, kterou by chtěli změnit. Co napíšeme na lístečky, bude zveřejněno. Lektoři si potom lístečky vyberou a budou je číst nahlas. Může se stát, že něčemu neporozumí nebo nebudou moci přečíst, proto je možné, že se autorů zeptají, jak to mysleli. Na lístečky proto pišme věci, které chceme zveřejnit a mluvit o nich s celou třídou.\n\nJednotlivé lístečky vybereme a lepíme je na flipchartový (balící) papír, který rozdělíme na dvě poloviny – na jednu polovinu budeme lepit věci, se kterými jsme spokojeni, na druhou věci, které bychom chtěli změnit. Lektor čte jednotlivé věci a lepí je na flipchart, společně se žáky se rozhodnou, které lístečky jsou si podobné, a dají je do skupin. Když jsou všechny lístečky nalepené, každou skupinu ohraničíme\n– uděláme kolem kruh fixou - a společně s účastníky pro danou skupinu (množinu) lístečků vymyslíme název. Nyní si dáme přestávku a následuje aktivita na spolupráci celé skupiny. Když mluvíme o věcech, které nám nejsou příjemné, otvíráme pomyslné skříně s kostlivci, což podporuje odstředivé síly ve skupině. Je to jeden z důvodů, proč řadíme uprostřed této práce aktivitu, která je zaměřena na spolupráci celé skupiny při plnění společného úkolu. Aktivita tohoto typu naopak podporuje dostředivé síly a umožňuje skupině prožít společný úspěch. Potom se vrátíme k věcem, které bychom chtěli na vztazích v naší třídě - na tom, jak se k sobě navzájem chováme - změnit. Společně vytvoříme pravidla, která nám pomohou tyto změny uskutečnit.",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 64)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=65",
+    "note": "Zdroj aktivity uvedený v metodice: PhDr. Zdenko Matula a o. s. Projekt"
+  }
+}

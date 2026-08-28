@@ -22,10 +22,15 @@
   ],
   "files": [],
   "status": "namet",
-  "added": "2026-08-24",
-  "procedure": "Je vyznačen kruh (lanem, křídou) v němž jsou rozházeny kartičky z tvrdého\npapíru s čísly 1 – 30. Žáci po odstartování doběhnou z místa startu (vzdáleného\ntak, že vidí kruh, ale nevidí, kde jsou jaká čísla) ke kruhu a v co nejkratším čase se\nsnaží dotknout se všech kartiček postupně podle hodnoty čísla 1 – 30. V kruhu\nsmí být v daný okamžik pouze jeden člověk, nikdy více. Za každé porušení tohoto\npravidla se přičítá 10 sekund. Před odstartováním má skupina 5 min. na domluvu\nsvého „nabíjecího“ pokřiku, domluvu strategie a oznámení času, za který si myslí,\nže to zvládnou. Po doběhu zpět za startovní čáru jim učitel oznámí výsledný čas.\nZeptá se, jestli si myslí, že by to zvládli rychleji. Pokud ano, poskytne další 3\nminuty na změnu strategie a oznámení času, za který by to chtěli stihnout nyní. To\nse může ještě jednou opakovat. Před každým odstartováním nechte proběhnout\nnabíjecí pokřik, pokud do něj mají žáci chuť. Celá aktivita by měla být velmi\ndynamická.\nLépe je mít skupinu max. po 12 účastnících, můžete paralelně nechat hrát\ndvě skupiny na dvou stanovištích; každé určete rozhodčího (např. žáka, který je\nosvobozen z běhu), který bude dohlížet na dodržování pravidel.",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Je vyznačen kruh (lanem, křídou) v němž jsou rozházeny kartičky z tvrdého papíru s čísly 1 – 30. Žáci po odstartování doběhnou z místa startu (vzdáleného tak, že vidí kruh, ale nevidí, kde jsou jaká čísla) ke kruhu a v co nejkratším čase se snaží dotknout se všech kartiček postupně podle hodnoty čísla 1 – 30. V kruhu smí být v daný okamžik pouze jeden člověk, nikdy více. Za každé porušení tohoto pravidla se přičítá 10 sekund. Před odstartováním má skupina 5 min. na domluvu svého „nabíjecího“ pokřiku, domluvu strategie a oznámení času, za který si myslí, že to zvládnou. Po doběhu zpět za startovní čáru jim učitel oznámí výsledný čas. Zeptá se, jestli si myslí, že by to zvládli rychleji. Pokud ano, poskytne další 3 minuty na změnu strategie a oznámení času, za který by to chtěli stihnout nyní. To se může ještě jednou opakovat. Před každým odstartováním nechte proběhnout nabíjecí pokřik, pokud do něj mají žáci chuť. Celá aktivita by měla být velmi dynamická. Lépe je mít skupinu max. po 12 účastnících, můžete paralelně nechat hrát dvě skupiny na dvou stanovištích; každé určete rozhodčího (např. žáka, který je osvobozen z běhu), který bude dohlížet na dodržování pravidel.",
+  "reflection": [
+    "Nakreslete na arch papíru přímku, bude to „škála“ pocitů. Uprostřed je nula, na pravém konci pocity rostou do kladných, extrémem je absolutní radost. Nechte každého napsat na tuto škálu jeden pocit vyvolaný výhrou v této aktivitě a jeden, na který si vzpomenou, jaký prožívali při své největší životní výhře. Pocit mohou vyjádřit slovem, malým obrázkem, zapsaným výkřikem, atd. Upraveno dle: NEUMAN, J. Dobrodružné hry a cvičení v přírodě. Praha, Portál, 1998. Str.206"
+  ],
   "source": {
     "label": "Odyssea — Lekce 9.4, aktivita B7 (s. 43)",
     "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-9-4-Ovladame-umeni-soutezit.pdf#page=44"
-  }
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let."
 }

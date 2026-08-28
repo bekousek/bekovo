@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody51-pet-lahve",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "PET lahve",
+  "description": "Žáci si vyzkoušejí tvořivě řešit nějaký problém, který je pro ně zajímavý.",
+  "keywords": [
+    "tvořivost",
+    "řešení problémů",
+    "nápady",
+    "lahve"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Kreativita a hledání vlastních řešení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "Cílem první části aktivity je žákům ilustrovat, jak „funguje originalita“. Nejprve stanovíme společně se žáky nějaký problém (např. Jak omezit spotřebu PET lahví u obyvatelstva České republiky?) a necháme je dávat (ve skupinkách či v celé třídě) dohromady jakékoliv nápady, jak by bylo případně možné tento problém řešit? Záměrně při tom podporujeme i nápady bizarní (např. vyrábět lahve na stáčené nápoje pouze ze dřeva, vrátit se ke skleněným lahvím, prodávat nápoje stáčené původně do PET lahví pouze do přinesených nádob...). Pokud takovéto nápady nepřicházejí, může jich učitel několik uvést sám. Dále je možné vyzvat žáky k tomu, aby vymýšleli i nápady, jejichž realizaci si neumí v praxi představit (nebo umí jen velmi těžko).",
+  "source": {
+    "label": "Odyssea — Lekce 5.1, aktivita A2 (s. 38)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-1-Tvorive-resime-prakticke-situace.pdf#page=39",
+    "note": "Zdroj aktivity uvedený v metodice: Michal Dubec, o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Tato aktivita je určena především pro druhý stupeň. Po úpravách instrukcí jednotlivých kroků použitelná již od třetí třídy.. – první krok tvořivého přemýšlení tedy často spočívá v „chrlení nápadů“, které se nekomentují (nekritizují, ani se o nich neříká, že jsou dobré) a jen se zaznamenávají. – první část je nutné od druhé oddělit. Nikdy by se neměla fáze vybírání nápadů (řešení) míchat dohromady s fází chrlení. Pokud se tak stane, spolehlivě tvořivost zablokujeme! Cílem druhé části je žákům představit druhý ze základních rysů, který by mělo jakékoliv tvořivé řešení nap"
+}

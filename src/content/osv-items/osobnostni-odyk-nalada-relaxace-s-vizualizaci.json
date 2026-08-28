@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-nalada-relaxace-s-vizualizaci",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Relaxace s vizualizací",
+  "description": "Žáci prožijí relaxaci vsedě pomocí příjemných vizuálních představ",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "vizualizací"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "3 až 5 minut",
+  "procedure": "Cvičí se vsedě. Vhodnější je ale klidné prostředí a poloha vleže, v níž se může tělo lépe uvolnit. Učitel vede relaxaci pomalým a klidným hlasem. „Zavřete oči a nechte tělo se uvolnit. Přeneste pozornost za zavřená víčka a za čelo. Nechte tam, jako na promítacím plátně, vystupovat následující obrazy: Klidná vodní hladina v záři dobrotivého slunce... Vysoké modré nebe, na něm jediný bílý obláček... Opět nebe, tentokrát za bezměsíčné noci se spoustou hvězd... Silný a zdravý strom s kořeny hluboko v zemi a s korunou obracenou k obloze... Nějaké zvíře, které máte rádi, např. kotě nebo štěně... Vaše oblíbená květina, možná růže, karafiát, sedmikráska... A opět klidná vodní hladina v záři dobrotivého slunce. Nyní si vzpomeňte na svůj cíl, který jste napsali na svou záložku sebedůvěry. Vzpomeňte si na cestu ke svému cíli. Představte si, že po této cestě již kráčíte, co děláte ..., jaké lidi potkáváte, ... v jakém prostředí se pohybujete, ... jak se chováte, ... jak se při tom cítíme, ... jak se vám daří plnit vaše dnešní předsevzetí, ... jak je to den za dnem snazší, ...., děláte to, co jste si dnes zvolili za cíl a jde vám to čím dál lépe a představte si sebe sama, jak jste svého cíle dosáhli. Přestavte si svoji radost z toho úspěchu, pocit radosti, síly a sebevědomí, který vás zaplaví. ............ Nyní zhluboka se nadechněte, pořádně se protáhněte jako ráno při probuzení a otevírejte oči. Cvičení končí.“ Jak se vám dařilo představovat si vodu, slunce, šumící les, svůj cíl, svoji cestu k cíli, to, jak jste cíle dosáhli, jakou máte radost...? Nyní jste již v představách viděli cestu, která vede k vašemu cíli, ke vašemu úspěchu. Co je třeba ještě udělat, abyste cíle skutečně dosáhli?",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 40)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=41",
+    "note": "Zdroj aktivity uvedený v metodice: Nešpor, K. 1998. Uvolněně a s přehledem. Praha: Grada Publishing, spol."
+  }
+}

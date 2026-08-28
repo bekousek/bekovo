@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-ody51-kam-pojedeme-na-skolni-vylet",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kam pojedeme na školní výlet",
+  "description": "Žáci tvořivě řeší problém, který se jich týká.",
+  "keywords": [
+    "tvořivost",
+    "řešení problémů",
+    "nápady",
+    "pojedeme",
+    "školní",
+    "výlet"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Kreativita a hledání vlastních řešení"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "Dáváme-li dohromady například, kam pojedeme na třídní výlet, vyplatí se před sbíráním nápadů nejprve zmapovat potřeby žáků. Začneme tedy tím, že zjistíme, jaké potřeby si žáci s výletem spojují - například: Co bychom tam chtěli zažít? Kolik by nás to maximálně mělo stát? Kolik maximálně času chceme strávit dopravou? Tyto potřeby je vhodné zaznamenat. Záznam potřeb žáků spojených se školním výletem potom vypadá například takto: Co tam chceme zažít: Kolik by nás to maximálně mělo stát? Koupat se 100,-Kč Zahrát si Městečko Palermo 250,-Kč Hrát nějaké hry 13,50,-Kč Hru, kterou jsme hráli na táboře 50,-Kč Diskotéku Musím se zeptat rodičů Airsoftovou přestřelku\n\nKolik maximálně času bychom chtěli\nstrávit dopravou?\n1 hodinu\n2 hodiny\n½ hodiny\n1,5 hodiny\n3 hodiny\nDalším krokem může být vyjádření učitele k těm potřebám, jejichž realizaci na školním výletě si jako ten, kdo je za tuto akci odpovědný, nepřeje. V našem případě by se učitel pravděpodobně takto vyjádřil k airsoftové přestřelce. Aby byla kritéria funkční (konkrétní), je nyní potřeba vybrat z každé skupiny to, na čem se shodne většina žáků ve třídě. To se dá udělat například tak, že každý žák má jeden hlas pro každou skupinu, který udělí tomu, co by nejvíce naplňovalo jeho potřeby. Tímto způsobem by z každé skupiny měla zůstat 1 věc, která je v souladu s potřebami většiny lidí ve třídě. V našem modelovém případu tedy například: chceme si tam zahrát hru Městečko Palermo; mělo by to stát maximálně 250,-Kč; doprava tam i zpět by měla trvat nejdéle 2 hodiny. Nyní máme jasná kritéria, podle kterých budeme později vybírat ze všech nápadů. Můžeme se pustit do vymýšlení nápadů. Zde se připouštějí jakékoliv nápady bez jejich komentování, tedy i nápady, které nesplňují předem stanovená kritéria. Toto pravidlo je vhodné na začátku sbírání nápadů zmínit. Učitel nebo některý ze žáků může stát u tabule a nápady zapisovat. Poté, co jsou sepsány veškeré nápady, nastává výběr. Při výběru by měla rozhodovat především společně odsouhlasená kritéria. Každý z nápadů se dá obodovat podle míry toho, jak daná kritéria naplňuje. Tedy například jedno kritérium = jeden bod. Tím, že se kritéria předem dohodla a odsouhlasila, se dá často předejít tomu, že se žáci začnou dohadovat nad dvěma /či více/ variantami a snášet pro ně argumenty typu (Když na to nemáte, tak nejezděte nikam; To zase strávíme půl dne ve vlaku a nic z toho nebude; ...)",
+  "source": {
+    "label": "Odyssea — Lekce 5.1, aktivita A1 (s. 36)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-5-1-Tvorive-resime-prakticke-situace.pdf#page=37",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Tato aktivita je určena především pro druhý stupeň. Po úpravách instrukcí jednotlivých kroků použitelná již od třetí třídy.."
+}

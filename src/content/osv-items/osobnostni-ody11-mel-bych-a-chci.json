@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody11-mel-bych-a-chci",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Měl bych a chci",
+  "description": "komunikace žáka se skupinou, sebenáhled, sebevyjádření, koncentrace na rozdíl mezi vlastními zájmy a zájmy blízkých",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 15 - 20 minut, podle počtu a zájmu žáků,",
+  "materials": [
+    "elementární hudební nástroje pro všechny"
+  ],
+  "procedure": "Žáci mají v ruce Orffovy nástroje. Nejdřív improvizují na zadání:\nzahraj : JAKÝ (JAKÁ) BYS MĚL (MĚLA) BÝT !\nPo kruhu potom reflektujeme, co kdo hrál a jaký má z toho pocit.\nHrané projevy emocí nelze hodnotit jako špatné. Souvisejí s ochotou dětí vyhovět svým významným blízkým. Nejlépe když je nebudeme hodnotit vůbec, ale pokusíme se je víc poznat. Následně zadáme dětem, aby zahrály volnou improvizaci na téma: JAKÝ (JAKÁ) CHCI BÝT ! Opět mluvíme o tom, co kdo hrál a také o tom, jak se to liší od prvního projevu, tedy od toho co si myslíme, že bychom kdo MĚL… Obecně je rozdíl mezi tím, jaký by člověk MĚL být a CHTĚL být v tom, že v prvním případě často vycházíme vstříc dobře míněným radám a přáním svých rodičů a prarodičů nebo učitele. Někdy jde dokonce jen o naše představy toho,co co si ti druzí přejí. S tématem (chci být) zase souvisí naše vlastní, osobní touhy a představy. Obojí může být skvělé, i zcestné. Je cenné mít si s kým o tom povídat.",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita A1 (s. 21)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=22",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 10 let."
+}

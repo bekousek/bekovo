@@ -1,0 +1,41 @@
+{
+  "id": "socialni-ody111-rozhlasova-debata",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Rozhlasová debata",
+  "description": "Žák se zamyslí, jaké výhody mu v životě přináší, že má vlastní žebříček hodnot",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse",
+    "rozhlasová",
+    "debata"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Žáci v pětičlenných skupinách připraví rozhlasovou relaci. Budou zastávat role: moderátor, odborník na hodnoty, paní z ulice, studentka z Ghany a doktor. Relace bude na témata „Hodnoty v našem životě“ a bude probíhat formou debaty pozvaných hostů. U starších žáků můžeme moderátorovi dát některé otázky, které musí vnést do diskuse. Př.: „Co je pro vás hodnotou?“ „Jak hodnoty ovlivňují váš život?“ „Co si myslíte o žebříčku hodnot českých žáků?“ „Co lidem přináší, když mají svůj žebříček hodnot?“ Žáci si debatu během desíti minut připraví. Během „pouštění“ jednotlivých debat, budou mít všichni posluchači zavřené oči, aby byla relace autentičtější.",
+  "reflection": [
+    "- Jaké pro vás bylo hovořit o vašich hodnotách?",
+    "- Stalo se vám, že jste se setkali s člověkem, který měl jiný žebříček hodnot než vy? Jak se to projevovalo? Jak jste na to reagovali?",
+    "- Jaké to pro vás bylo, když jste museli klást jiným lidem otázku o jejich hodnotách?",
+    "- Kterou z hodnot, jež máte na vrcholu svého žebříčku hodnot vy, by podle vás dali na stejné místo svého žebříčku hodnot i vaši spolužáci?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita A4 (s. 27)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=28",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 10+."
+}

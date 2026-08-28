@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody116-myslim-si-ze-ano-myslim-si-ze-ne",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Myslím si že ano, myslím si že ne",
+  "description": "Žáci vyjádří svůj postoj k různým problematickým situacím",
+  "keywords": [
+    "ideály",
+    "angažovanost",
+    "hodnoty",
+    "myslím"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Prosociální chování a pomoc druhým"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "učitelův seznam otázek"
+  ],
+  "procedure": "viz Zásobník metod\nSeznam otázek (vybereme a doplníme dle věku dětí a situace ve třídě): Nahlásím v obchodě, že si pán strčil pod bundu láhev vodky? Zjistil jsem, že spolužák bere drogy, mluvil jsem s ním o tom, a nepomohlo to. Řeknu to někomu? Viděl jsem spolužáka, jak rozbil tenisákem video ve třídě. Učitelka nám řekla, že musíme teď nahlásit, kdo to udělal, jinak nepojedeme na ŠvP. Nahlásím jeho jméno? Vím, že se holky domluvily, že budeme všichni ve třídě jednu dívku ignorovat. Budu se s ní i přesto bavit? Viděl jsem, jak spolužáci pravidelně osahávají spolužačku. Řeknu to učitelce? Kamarád ukradl v bufetu bagetu a nese si ji domů. Řeknu to někomu? Viděl jsem, jak spolužáci z vyšší třídy mlátili na WC kluka od nás z ročníku. Řeknu to někomu? Viděla jsem, jak si spolužačky na záchodcích dělaly dírky do uší a jedna omdlela. Řeknu to někomu? Může jedinec pomoci lidem ke štěstí? Můžou obyvatelé země ovlivnit změnu zákonů? Můžu já sám nějak přispět k lepšímu světu? Můžeme my, jako třída, něco zlepšit?",
+  "source": {
+    "label": "Odyssea — Lekce 11.6, aktivita A1 (s. 16)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-6-Naplnujeme-vlastni-idealy.pdf#page=17",
+    "note": "Zdroj aktivity uvedený v metodice: o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: není omezen."
+}

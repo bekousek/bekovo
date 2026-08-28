@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-vyuzit-asociace",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Využít asociace",
+  "description": "Žáci si vyzkouší využít svých asociací, k lepšímu zapamatování nových poznatků.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "využít",
+    "asociace"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "slovíčka pro každého žáka"
+  ],
+  "procedure": "1. Rozdáme žákům Latinská slovíčka - pracovní list a necháme je, aby nalezli a napsali, co jim latinská slovíčka připomínají. Pro názornost uvedeme příklad: Příklad život - bios ....... slovo bios mi připomíná biologii. přední - anterior ...... anterior je jako anténa Požádáme žáky, aby s námi sdíleli, co si ke slovům napsali.\n2. Nyní jsme se se slovíčky seznámili a propojili jsme je ve svém mozku s tím, co již důvěrně známe. Už pro nás nejsou cizí. Teď už by se nám měli učit mnohem snadněji. Abychom je však opravdu uměli nazpaměť, je třeba udělat ještě jeden krok. Co děláte, když se učíte slovíčka? Žáci pravděpodobně dají dohromady všeobecně rozšířené postupy, jako je opakované vyslovování slovíčka, zakrývání střídavě sloupce českých a latinských slovíček a odříkávání zpaměti. Vysvětlíme žákům, jak lze využívat asociací, které si zapsali, při učení se slovíčkům: České a latinské slovíčko je třeba propojit nějakou souvislostí (asociací). Taková souvislost se může zakládat na skutečném etymologickém původu slova, nebo na pouhé zvukové nebo jiné podobnosti a jejím umělém propojení. Život .... to je jako ta biologie, biologie je věda o živých tvorech ..... život se řekne bios. Soror je sestra. Jak bychom mohli propojit latinské slovo soror, které zní podobně jako horor se sestrou? Moje soror, to je horor. Moje soror nemá ráda horor. atd.\n\n2.14.1 Latinská slovíčka - Pracovní list\nVymyslete a napište, jaká česká, přejatá nebo cizojazyčná slova vám připomínají následující latinská slovíčka. Příklad život - bios ...... slovo bios mi připomíná biologii přední - anterior ...... anterior je jako anténa soror - sestra .... soror je jako horor česky latinsky co mi to připomíná --------------------------------------------------------------------------------------------------- zdraví sanitas město urbs příroda physis (čti: fyzis) přírodní naturalis přírodní physicus (fyzikus) práce operatio (operacio) pracuji laboro lázně thermae (termé) král rex rozumím scio (scio) lékař medicus (medikus) učitel didascalus (didaskalus) vejce ovum vzduch aer křehké fragile vnitřní interior splav sinus spojenec socius",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 30)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=31"
+  }
+}

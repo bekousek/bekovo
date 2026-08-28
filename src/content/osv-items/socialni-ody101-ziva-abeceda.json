@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody101-ziva-abeceda",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Živá abeceda",
+  "description": "Řešení pohybového úkolu, komunikace, tvořivost, tělesný kontakt.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "abeceda"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "V této činnosti se všichni staneme na chvíli herci, kteří prostřednictvím svých těl sdělují nějakou informaci, i diváky, kteří se snaží pochopit význam tohoto sdělení. Rozdělíme se na dvě skupiny. Jedna ze skupin se vzdálí a tajně si domluví slovo, které ztvární pomoci svých těl. Do \"psaní\" se zapojí každý člen skupiny. Využití prstového písma si necháme na jinou příležitost. Jakmile dokončí konstrukci slova, oznámí to druhé skupině. Tato skupina se společným úsilím všech svých členů snaží slovo přečíst. Když si myslí, že ho našla, oznámí to mluvčí skupiny. Po přečtení daného slova se úlohy vymění.\n\nVarianta: * V méně početné skupině (pod 8 členů) čte sdělení vedoucí nebo jeden vybraný hráč. Máme-li dost času, vystřídají na místě \"čtenáře\" všichni členové skupiny. * Můžeme měřit čas, za který je sdělení rozluštěno, a uspořádat soutěž mezi družstvy nebo jednotlivci. * Vymezíme slovní druh, případně řeč, ve které budeme tvořit. * Píšeme první slova ze známých přísloví a \"čtenáři\" musí zbytek doplnit.",
+  "reflection": [
+    "Srovnáváme aktivitu jednotlivých členů skupiny. Kdo navrhl slovo? Jak jste si rozdělovali psaní jednotlivých písmen? Kdo se ujal řízení celé akce? Napadá vás",
+    "ještě další problém, který byste mohli všichni svými těly řešit? Šlo by takové cvičení využít v některém školním předmětu?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A3 (s. 64)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=65",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan. Dobrodružné hry v tělocvičně. Praha:Portál, 2001, 243"
+  },
+  "notes": "Věk uvedený v metodice: od 6 let."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "kolektiv-odyk-vztahy-klubicko-vztahu",
+  "categoryId": "tridni-kolektiv",
+  "title": "Klubíčko vztahů",
+  "description": "Posílení vzájemných vztahů ve skupině a zároveň posílení sebedůvěry jednotlivých členů.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "klubíčko",
+    "vztahů"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Klubíčko"
+  ],
+  "procedure": "Posadíme se do kruhu. Lektor má klubíčko provázku či vlny. Klubíčko si budeme házet, dokud se mezi námi nevytvoří „pavučina“. Každý, kdo dostane klubko, si odmotá kus provázku a hodí ho dalšímu členu skupiny. Když klubko hází, má za úkol říci člověku, kterému ho hází, nějaké pohlazení – něco, co se mu na něm líbí, co obdivuje, co mu udělalo radost apod. Házíme vždy tomu, kdo ještě klubíčko neměl. Když se vystřídají všichni, klubíčko se vrátí zpátky k lektorovi a pavučina se uzavře. Následuje diskuze o vztazích a reflexe našich vztahů ve třídě: Pavučina mezi námi je modelem našich vztahů. Co se stane, když někdo za provázek zatahá? Co se stane, když někdo nedrží nit pevně? Co se stane, když někdo odejde? Potom pavučinu pomalu rozmotáme. Opět si budeme házet klubíčko, tentokrát pozpátku. Každý na něj namotá nit, a než ho pošle dál, odpoví na otázku: Co z kurzu bych chtěl dělat ve svém životě?",
+  "reflection": [
+    "• Jak se Vám dařilo vymýšlet pohlazení?",
+    "• Jak jste se cítili, když Vám někdo hodil klubíčko?",
+    "• Jak jste se cítili, když mezi námi byla viditelná pavučina?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 71)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=72",
+    "note": "Zdroj aktivity uvedený v metodice: Semináře Milady Votavové – Základy psychoterapie pro pedagogy, katedra pedagogiky FFUK v letech 2003-2006. CANFIELD, Jack, WELLS, Clive H. Hry pro zlepšení motivace a sebepojetí žáků. Praha: Portál, 1995. s."
+  }
+}

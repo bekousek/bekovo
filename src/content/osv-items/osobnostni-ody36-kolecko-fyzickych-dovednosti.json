@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody36-kolecko-fyzickych-dovednosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Kolečko fyzických dovedností",
+  "description": "Žák si vyzkouší míru svých fyzických dovedností.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "kolečko",
+    "fyzických",
+    "dovedností"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut, jedna vyučovací hodina",
+  "materials": [
+    "Podle vybraných aktivit. Minutka, švihadla, hrazda, žíněnka, židle, pevný, neklouzavý povrch (např. dvě žíněnky nebo gymnastický koberec), křída či páska na vyznačení odrazu, měřící pásmo, lavička, pravítko, stopky."
+  ],
+  "procedure": "Vytvoříme několik stanovišť (můžeme vybrat z uvedené nabídky) a žáci si postupně vyzkouší, změří a zapíší dosažené výsledky. Příklady stanovišť:\n• Skoky přes švihadlo: úkolem je zvládnout co nejvíce přeskoků přes švihadlo za dvě minuty. Skáčeme snožmo bez meziskoků.\n• Výdrž ve shybu: hrazda je umístěna podle nejvyšší osoby, pro zaujmutí polohy ve shybu, při níž je brada nad žerdí, použijeme židli, musíme jednotně určit, zda se držíme podhmatem nebo nadhmatem, test skončí, když brada spočine na žerdi nebo podklesne pod žerď.\n• Skok daleký z místa odrazem snožmo: skok opakujte třikrát, počítá se nejlepší výkon.\n• Předklon ve stoji: ze základního postoje na lavičce ve stoji spatném se žák zvolna předklání (bez hmitu) a při napnutých nohou se snaží dosáhnout co nejhlouběji, v této poloze vydrží tři sekundy, měříme vzdálenost konečků prstů od úrovně chodidel.\n• Flamengo: žák se postaví na svojí dominantní nohu, druhou nohu ohne v koleni a chytí ji stejnostrannou rukou za nárt, v této poloze zůstane stát, musí držet ohnutou nohu a nesmí se dotýkat podložky žádnou jinou částí těla, pro stížení podmínek můžeme test provádět se zavřenýma očima nebo na kladince.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A4 (s. 30)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=31",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan: Cvičení a testy obratnosti, vytrvalosti a síly. Praha: Portál"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od šesti let věku, při vhodném výběru sportovních aktivit na jednotlivých stanovištích.."
+}

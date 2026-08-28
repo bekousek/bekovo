@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody36-prijemny-pohyb",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Příjemný pohyb",
+  "description": "Žák si vyzkouší, která pohybová aktivita mu přináší příjemné prožitky nebo užitek a vydrží ji dělat půl roku.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "příjemný"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "vysvětlení: 20 – 30 min.",
+  "materials": [
+    "Záznamový arch (příloha P2) pro každého žáka."
+  ],
+  "procedure": "Žák si zvolí pohybovou aktivitu, kterou bude považovat za smysluplnou a nebude mu nepříjemná; vydrží ji provádět pravidelně minimálně po dobu šesti měsíců (jedno pololetí) a bude vyplňovat záznamový arch.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita A5 (s. 31)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=32"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od dvanácti let věku.."
+}

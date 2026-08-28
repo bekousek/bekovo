@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-hra-na-hazard",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "„Hra“ na hazard",
+  "description": "Účastníci si zažijí atmosféru sázení, uvidí, jak je dokáže „vtáhnout“ do hry. Vyzkouší si, co vše by byli ochotni udělat a obětovat pro „výhru“.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "„hra“",
+    "hazard"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "60 – 90 min",
+  "materials": [
+    "Různé hazardní hry: např. ruleta, karty, hrací šestistěnné kostky, herní peníze."
+  ],
+  "procedure": "Účastníci jsou vyzváni ke „hře na sázení a hazard“. Je jim sděleno, že vše bude probíhat jen jako. Cílem je, aby prozkoumali své pocity během aktivity, přemýšleli o tom, co se jim při ní bude honit hlavou a co vše jsou ochotni udělat pro výhru. Na začátku samotné aktivity obdrží herní peníze. Mohou dostat všichni stejnou částku nebo lze různě velké částky přidělovat losem (V reflexi pak lze diskutovat o tom, jak se cítili, jak vnímali spravedlnost takového rozdělování, jak je vlastně „spravedlivá“ náhoda, apod.). Pak vypukne sázení a hraní. Nám se osvědčila poněkud zjednodušená hra ruleta (návod ke hře najdete přímo v balení oné deskové hry), dále pak např. karetní hra „oko“, kdy hráči sází proti bankéři, zda budou blíže k 21 bodům či nikoli. Pokud jsou blíže k tomuto počtu bodů a bankéř je od 21 bodů více vzdálen, obdrží dvojnásobek svého vkladu, v opačném případě jejich peníze propadají do banku. S kostkami lze hrát různé varianty hazardních her, např. „sedmičku“. K této hře je nutné mít herní plán se třemi poli („méně“, „sedmička“ a „více“). Bankéř vždy hodí dvěma šestistěnnými kostkami. Počítá se vždy součet. Pokud hodil méně než sedm (např. 5), ti, co vsadili na „méně“, vyhrávají dvojnásobek, ostatní peníze propadají banku. Podobně padne-li více než sedm (např. 11), ti, co vsadili na „více“, vyhrávají dvojnásobek a zbylé sázky propadají. Ještě lze vsadit na sedmičku, zde je pak při padnutí sedmi bodů (při 2 + 5 či 3 + 4 nebo 1 + 6) možno vyhrát pětinásobek sázky, přičemž sázky na „velké“ a „malé“ propadají. Hráči hrají tak dlouho, dokud mohou sázet, tj. mají peníze. Pokud je prosázejí, mohou získat další, ale za určitou službu. (Hru je možno rozdělit do několika kol, kdy se vždy cca 10 minut hraje a pak je pětiminutová pauza na vydělávání si peněz formou provádění úkolů.) Úkoly volíme takové, aby byly nepříjemné a nutily účastníky dělat věci, do kterých se jim moc nechce (mohou např. zazpívat před ostatními píseň, recitovat báseň, udělat 10 kliků, vypočítat matematický příklad,\n\napod. Nikdy by nemělo jít o „potupné úkoly“ (typu mytí podlahy kartáčkem na zuby), či úkoly, které negativně zasahují do sebeobrazu vykonavatele. Na konci sázení není vyhlášen vítěz – neučíme účastníky přece hazardu. Řekneme, že i když výhru mohla do určité míry ovlivnit strategie, jsou výhry i prohry věcí náhody a nijak nesouvisejí se schopnostmi či inteligencí účastníků. V reflexi se pak ptáme na pocity a dojmy účastníků, tážeme se jich, co si myslí o vlivu náhody, jaké měli „strategie“ a jak se jim osvědčily, co si myslí o lidech kteří říkají, že vymysleli stoprocentně spolehlivý systém, jak přelstít náhodu, apod. Nakonec se zeptáme na to, jak jim bylo příjemné vykonávat jednotlivé úkoly, aby získali peníze do sázek. Co je vedlo k tomu, že úkoly opakovali, i když jim to mohlo být velmi nepříjemné. Tážeme se, zda si dovedou představit situace, kdy by se v reálném životě chovali podobně. Zda si dovedou představit, co asi žene lidi do víru sázek, kdy zastaví dům, prodají auto, stanou se něčími „otroky“, jen aby mohli sázet. Požádáme je, aby zformulovali, co nám může pomoci nepropadnout „kouzlu“ a mámení sázení. Na závěr požádáme skupinu, aby zformulovala „poučení z této aktivity“, co jsme se naučili, co nám aktivita „dala a vzala“.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 184)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=185"
+  },
+  "notes": "K REALIZACI: Aktivita patří k náročnějším. Proto ji doporučujeme pouze zkušeným lektorům, kteří budou vědět, jak ji řídit a jak ji případně emočně ošetřit v reflexi."
+}

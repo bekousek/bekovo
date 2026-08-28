@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-odyk-drogy-jak-odmitat",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Jak odmítat",
+  "description": "Nácvik odmítání a případně i dalších sociálních dovedností tak, jak s ním pracuje Prim. MUDr. Karel Nešpor, CSc.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "odmítat"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "procedure": "V úvodu hodiny (vyučovací jednotky) se se žáky pobavíme o smyslu dovednosti odmítání. Svobodný je jen ten, kdo umí odmítat, protože se může rozhodnout. Kdo odmítat neumí, nemá na vybranou. V úvodu hodiny napíší účastníci, za jakých okolností jim byly nabízeny tabák, alkohol nebo drogy a jak odmítli. Smyslem je zorientovat se v situacích, v nichž budou frekventanti dovednosti odmítání potřebovat. Kromě toho se tak mohou utvrdit v již spontánně vytvořených dovednostech odmítání a jejich příklady lze v hodině použít k ilustraci jednotlivých způsobů. Můžeme připojit několik úvodních informací. Je vhodné zdůraznit, že umět odmítnout je dobré i v jiných situacích než jen v souvislosti s alkoholem nebo drogami. Více způsobů odmítání existuje proto, abychom mohli vybírat vhodné odmítnutí podle okolností. Často zde používáme analogii s různým oblékáním pro různé příležitosti (do divadla, na procházku, do sklepa). Rozdělení způsobů odmítání do podskupin (viz výše) má smysl, usnadňuje se tak jejich zapamatování a rozhodování, kdy který způsob použít. Způsoby odmítání a jejich nácvik:",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 123)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=124",
+    "note": "Zdroj aktivity uvedený v metodice: MEDIÁLNÍ GRAMOTNOST (REKLAMY NA TABÁK A ALKOHOL) Reklama na tabák a alkohol je v současné době omezována a díky přísným zákonům, platným v Evropské unii, možná vymizí docela. Doposud se však můžeme setkat s reklamou na alkoholické nápoje"
+  }
+}

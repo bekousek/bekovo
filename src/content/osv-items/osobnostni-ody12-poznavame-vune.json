@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody12-poznavame-vune",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Poznáváme vůně",
+  "description": "Žák procvičí vnímání čichem, poznává známé vůně.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "poznáváme"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Šátek pro každého žáka.",
+    "Skleničky s víčkem (5 až 6 ks) s označením. Vzorky potravin: např. : syrová okurka, rozkrojený citrón, peprmintové žvýkačky, heřmánek – čaj, med, meruňkový džem, majoránka – koření aj. Jednu vůni zvolíme takovou, aby bylo co nejméně pravděpodobné, že se s ní žáci již setkali."
+  ],
+  "procedure": "Žák se zavázanýma očima bude očichávat postupně jednotlivé vzorky a určovat druh potravin nebo název původce vůně. Tipy zapisujeme do záznamového archu. Ostatní žáci čekají, než na ně přijde řada, v jiné části místnosti. Na závěr se seznámíme s výsledky. Proč někteří poznali všechny druhy a jiní ne? Pro koho bylo poznávání obtížné? Jak bys popsal vůni, u které si nejsi jistý, z čeho pochází?",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A4 (s. 30)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=31"
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

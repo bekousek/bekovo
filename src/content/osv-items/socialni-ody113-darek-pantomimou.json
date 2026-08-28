@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody113-darek-pantomimou",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Dárek pantomimou",
+  "description": "Žák prožije radost z dárku. Žák bude mít příležitost udělat někomu radost.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "dárek",
+    "pantomimou"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Sedneme si do kruhu na zem nebo na židle.\nHru uvedeme otázkou, zda dostal někdo dárek někdy jen tak, bez zvláštní příležitosti, když to nečekal? Jaké to bylo? Co jsme dostali? Co si můžeme dát teď hned, aniž bychom potřebovali na dárek peníze? Pak žáky vyzveme, aby si dárek předali tak, že ho jen naznačí pantomimou. Kdo bude mít dárek vymyšlený, stoupne si před spolužáka, dárek mu „předá“. Může to být naznačená věc, nebo příjemný dotyk. Obdarovaný poděkuje. Učitel postupně obdaruje také všechny žáky.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita D5 (s. 47)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=48"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

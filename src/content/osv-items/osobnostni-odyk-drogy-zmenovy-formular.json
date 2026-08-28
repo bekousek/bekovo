@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-zmenovy-formular",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "„Změnový“ formulář",
+  "description": "Sebepoznání: Účastníci identifikují, kde u sebe vidí příležitosti ke zlepšení.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "„změnový“",
+    "formulář"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 - 30 min",
+  "materials": [
+    "Níže uvedený formulář"
+  ],
+  "procedure": "Žáci individuálně vyplní níže uvedený formulář. Pak proběhne reflexe a diskuse\nnad tímto vyplněným formulářem. Je vhodné navázat na dva uvedené předchozí\nformuláře.\nCo chci na sobě změnit a jak je to pro mě důležité\n1. ......................................................................................... Hodně Středně Málo\n2. ......................................................................................... Hodně Středně Málo\n3. ......................................................................................... Hodně Středně Málo\n4. ......................................................................................... Hodně Středně Málo\n5. ......................................................................................... Hodně Středně Málo V reflexi žáci mohou (dobrovolně) odtajnit to, na čem u sebe chtějí pracovat. Diskutujeme o tom, z jakého důvodu si vybrali to, co si vybrali. Také se můžeme zabývat úvahami na téma, jak jsou změny důležité a k čemu by mohlo dojít, pokud se měnit nebudeme. Můžeme pak diskutovat o tom, jak dané změny nejlépe dosáhnout a co proto bude nutné udělat. Lze identifikovat možná úskalí, tlumivé a podpůrné síly. Žáci pak mohou vytvářet „akční plány“: co, kde, kdy a jak (pomocí jakých kroků) změní.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 98)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=99"
+  }
+}

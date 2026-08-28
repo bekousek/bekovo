@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody12-hladime-si-zvire",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Hladíme si zvíře",
+  "description": "Žák si vyzkouší pohladit různá zvířata. Popíše vlastními slovy, jaké vjemy při hlazení zvířete získává a jaké pocity je doprovázejí (např.: při hlazení srsti savců). Uvědomí si význam hmatu pro svůj život.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "hladíme",
+    "zvíře"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Domácí nebo terarijní ochočená zvířata."
+  ],
+  "procedure": "Upozornění: před touto aktivitou zjistíme, zda některý žák netrpí alergií na zvířecí srst. V instrukci uvedeme pravidla, jak se můžeme zvířat dotýkat a související etické principy našeho chování ke zvířatům. Žáci si hladí při návštěvě farmy domácí zvířata. Zvířata, která děti chovají doma, můžeme přinést nebo přivést na zahradní slavnost do školy. Můžeme také domluvit návštěvu některého chovatele. Pohladit psa můžeme také při canisterapii. Při dotyku zvířete žáci popisují, co vnímají a jaké mají pocity. Společně si odpovíme na otázku, co nám přináší kontakt s živým zvířetem.",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A8 (s. 34)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=35"
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

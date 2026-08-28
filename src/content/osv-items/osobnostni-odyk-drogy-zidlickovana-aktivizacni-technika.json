@@ -1,0 +1,43 @@
+{
+  "id": "osobnostni-odyk-drogy-zidlickovana-aktivizacni-technika",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Židličkovaná (aktivizační technika)",
+  "description": "Žáci se protáhnou a rozlišují odmítání v příběhu.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "židličkovaná",
+    "(aktivizační",
+    "technika)"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 min",
+  "procedure": "Postavíme židle do kruhu zády k sobě. V kruhu je o jednu židli méně. Všichni hráči stojí vně kruhu za sebou a chodí různě rytmizovanou chůzí dokola kolem židlí. (Můžeme je např. vyzvat, aby rychlost své chůzi rozdělili od jedné do desíti, kdy jedna je pomalé šourání a desítka je skoro běh. Pak můžeme říkat různá čísla a vyzývat žáky, aby rychlost upravili podle daného čísla.) Lektor čte úryvek z knihy, např. z Malého prince je možno číst z kapitol 2, 3 nebo\n10. Kdykoli v příběhu hráči uslyší něco, co jakkoli souvisí s odmítáním, posadí se. Kdo se nestihl posadit, vypadává. Reflexi provedeme po každém sednutí si.",
+  "reflection": [
+    "• V čem bylo odmítání v ukázce obsaženo? Jak to souviselo s odmítáním?",
+    "• Jakou strategii odmítnutí osoba v příběhu použila?",
+    "• Pro kterou situaci je daná strategie spíše vhodná a pro kterou situaci spíše ne?",
+    "• Jak bychom se tím mohli inspirovat?",
+    "• Co si z toho můžeme vzít?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 114)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=115",
+    "note": "Zdroj aktivity uvedený v metodice: Autor neznámý. Úprava o. s. Projekt"
+  }
+}

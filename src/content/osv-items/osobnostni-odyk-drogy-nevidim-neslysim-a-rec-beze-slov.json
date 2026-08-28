@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyk-drogy-nevidim-neslysim-a-rec-beze-slov",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Nevidím – neslyším a řeč beze slov",
+  "description": "Žáci si procvičí neverbální techniky odmítání.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "nevidím",
+    "neslyším"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "procedure": "Rozdělíme žáky do skupin po cca čtyřech členech. Každá skupina má za úkol vymyslet 2 scénky a formou pantomimy předvést obě dvě neverbální techniky odmítání: řeč beze slov a nevidím – neslyším. Každá skupina předvádí scénky, ostatní hádají, která technika byla použita a o co ve scénkách šlo.",
+  "reflection": [
+    "• Jak se Vám dařilo znázornit odmítnutí v daných situacích?",
+    "• Jak jste s tím spokojeni? Jak si myslíte, že by to fungovalo v realitě?",
+    "• Co byste udělali příště stejně a co eventuálně jinak?",
+    "• Jakou máte zkušenost s neverbálním odmítnutím?",
+    "• V jakých situacích byste ho použili?",
+    "• Co si z tohoto cvičení můžeme vzít?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 111)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=112"
+  }
+}

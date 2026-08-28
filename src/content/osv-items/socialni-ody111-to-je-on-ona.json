@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody111-to-je-on-ona",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "To je On / Ona",
+  "description": "Žák popíše, který člověk je/by mohl být jeho vzorem",
+  "keywords": [
+    "hodnoty",
+    "postoje",
+    "diskuse"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "procedure": "Debata s žáky „Co je to vzor?“ „Komu bych se chtěl podobat?“ „Koho obdivuji?“„Kteří lidé jsou jiným lidem vzorem?“ Každý žák se zamyslí, kdo je jeho vzorem. Poté nakreslí na papír (min A5) co nejpřesněji svůj vzor v pro něj typické pozici. Následně do postavy či kolem ní vepíše její vlastnosti, názory, postoje, činy, slova, zážitky…, zkrátka vše, co ho k dané postavě napadá a je pro ni charakteristické. Texty ať jsou psány do těla k místům, ze kterých vycházejí (činy – ruce, cesty – nohy, řeč – pusa…) Reflektující otázky\n- Uveď příklad ze života, kdy jsi se řídil podle svého vzoru.\n- Jaké tvé chování ovlivňuje tvůj vzor?\n- V čem se od svého vzoru lišíš a chceš se mu přiblížit?\n- V čem se svému vzoru podobat nechceš?",
+  "source": {
+    "label": "Odyssea — Lekce 11.1, aktivita A2 (s. 25)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-1-Premyslime-o-hodnotach.pdf#page=26",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 6 +."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-ody12-poznavame-zakladni-chute",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Poznáváme základní chutě",
+  "description": "Žák si procvičí chuť. Pozná, se kterou potravinou je chuť spojená. Určí ochutnávanou potravinu.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "poznáváme",
+    "základní",
+    "chutě"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Šátek pro každého žáka. Tác nebo talíř se vzorky potravin, asi 4 druhy potravin, 1 ks jednoho druhu pro každého žáka. Např. tropické ovoce, jablko, syrová zelenina nastrouhaná, bílý jogurt, chléb, kyselé zelí, apod."
+  ],
+  "procedure": "Žáci se zavázanýma očima ochutnávají postupně od každého druhu potravin a popisují, jakou má vzorek chuť. Pokusí se určit potraviny. Tipy zapisujeme do záznamového archu. Ostatní žáci čekají, než na ně přijde řada, v jiné části místnosti. Na závěr se seznámíme s výsledky. Proč někteří poznali všechny druhy a jiní ne? Pro koho bylo poznávání obtížné?",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A6 (s. 32)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=33"
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

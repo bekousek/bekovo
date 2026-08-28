@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-aktivizacni-technika-mizejici-zidle",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Aktivizační technika – mizející židle",
+  "description": "Žáci pomocí pohybu zvýší úroveň své bdělosti.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "aktivizační",
+    "technika",
+    "mizející",
+    "židle"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Postavíme židle do kruhu zády k sobě. V kruhu je o jednu židli méně. Všichni hráči stojí vně kruhu za sebou a chodí rychlou chůzí dokola kolem židlí. Lektor čte úryvek z jakékoli knihy. Hráči mají za úkol se posadit vždy, když uslyší např. podstatné jméno nebo něco, co souvisí s učením apod. Kdo se nestihl posadit, vypadává.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 53)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=54",
+    "note": "Zdroj aktivity uvedený v metodice: Upraveno Projekt"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody113-poradenska-centra",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Poradenská centra",
+  "description": "Žák navrhne, jak zlepšit péči o věci. Žák vysvětlí, jak udržuje své věci v pořádku. Žák shromáždí rady, jak udržet co nejdéle funkčnost konkrétního výrobku",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "poradenská",
+    "centra"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "Příručky s radami, případně PC s internetem, velké barevné papíry a flipchartový papír, fixy, pravítko, psací potřeby"
+  ],
+  "procedure": "Žáci vytvoří pracovní skupiny pro dané výrobky (např.: Centrum pro plyšáky, čistírna skvrn na oděvu, údržba PC, údržba sportovní obuvi a vybavení atd.) Témata si mohou navrhnout sami. Žáci ve skupinách vypracují rady pro uživatele výrobků. Vytvoří informační letáky, které nakonec vystaví ve třídě nebo ve škole.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita A6 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=36"
+  },
+  "notes": "Věk uvedený v metodice: 1., 2., 3.období."
+}

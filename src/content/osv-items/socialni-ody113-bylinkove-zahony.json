@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody113-bylinkove-zahony",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Bylinkové záhony",
+  "description": "Žák bude pečovat o rostliny Žák si vyzkouší práci zahradníka.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "bylinkové",
+    "záhony"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Vícedenní",
+  "materials": [
+    "Místo pro záhon nebo venkovní truhlík na pěstování rostlin, zemina, nářadí, semena a sazenice, konev na zalévání, cedulky na označení zasetých druhů"
+  ],
+  "procedure": "Žáci v dubnu přinesou různá semena a sazenice bylinek z domova, nebo je můžeme společně koupit na trhu. Do záhonu nebo truhlíku, který jsme si předem připravili, každý žák zaseje či zasadí svoji rostlinu. O záhon budou žáci pravidelně pečovat, růst rostlin budeme sledovat. Když rostliny povyrostou, můžeme je poznávat podle vůně lístků, které rozemneme mezi prsty. V červnu některé bylinky můžeme nasbírat a usušit na léčivé čaje.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita B4 (s. 40)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=41"
+  },
+  "notes": "Věk uvedený v metodice: 1., 2.,3. období."
+}

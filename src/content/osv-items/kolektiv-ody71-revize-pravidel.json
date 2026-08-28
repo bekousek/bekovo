@@ -1,0 +1,35 @@
+{
+  "id": "kolektiv-ody71-revize-pravidel",
+  "categoryId": "tridni-kolektiv",
+  "title": "Revize pravidel",
+  "description": "Žáci přemýšlejí o tom, jak fungují společně dohodnutá pravidla ve třídě a formulují pravidla, která by mohla zmenšit výskyt situací, ve kterých jim je nepříjemně.",
+  "keywords": [
+    "pravidla",
+    "třídní dohody",
+    "chování",
+    "revize",
+    "pravidel"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "1. Nejprve sdělíme žákům, že se budeme zabývat tím, jak oni vnímají funkčnost a smysl třídních pravidel, která dali dohromady.\n2. Rozdáme žákům dva papíry. Stačí formát A5.\n3. Necháme žáky, aby se individuálně zamysleli nad jednou situací, ve které se ve třídě cítili dobře, a nad jednou situaci, při které se ve třídě cítili nedobře. Jedná se o konkrétní situace typu: Viktor mi pomohl naučit se matematiku; Standa se mi smál, když jsem na tělocviku nepřeskočil kozu. Obě tyto situace necháme žáky sepsat na rozdané papíry. Příjemnou i nepříjemnou situaci zvlášť na svůj papír.",
+  "source": {
+    "label": "Odyssea — Lekce 7.1, aktivita A4 (s. 48)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf#page=49",
+    "note": "Zdroj aktivity uvedený v metodice: Michal Dubec, o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let věku žáků, pro menší věk je možné aktivitu upravit. Zde je vhodné žáky upozornit na to, že situace, které jsou jim nepříjemné, nebudou muset dále sdělovat. 4. Dáme žákům za úkol individuálně se zamyslet nad tím, jestli nepříjemná situace byla zapříčiněna nefungováním nějakého společně dohodnutého třídního pravidla, nebo nikoliv. V případě že ne, necháme žáky individuálně /případně ve dvojicích, pokud jsou žáci ochotni ve dvojici sdílet situace, které jim byly nepříjemné/ zformulovat pravidlo, vedoucí v ideálním případě k tomu, aby se daná situace neopakovala. "
+}

@@ -1,0 +1,33 @@
+{
+  "id": "osobnostni-ody23-5-veci",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "5 věcí",
+  "description": "každý žák najde 5 věcí, které jsou na jeho těle krásné, což podporuje sebepřijetí",
+  "keywords": [
+    "sebepřijetí",
+    "sebevědomí",
+    "pohoda"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "cca 45 min",
+  "procedure": "V úvodu upozorněme, že tato aktivita má svůj význam a je silná pouze, pokud ji budeme brát vážně. Doporučujeme, aby se účastnili pouze ti žáci, kteří mají zájem a kteří ji brát vážně chtějí. Ostatní dostanou samostatnou práci. Pokud by si v průběhu aktivity někdo začal dělat legraci či aktivitu zlehčoval, připomeňme pravidlo „brát ji vážně“. Pokud by se to opakovalo, daný účastník může z aktivity odejít a věnovat se samostatné práci. Každý žák dostane papír, ze kterého vystřihne základní obrys postavy, napíše na něj své jméno a položí jej na lavici. Poté mají žáci čas na to, aby obešli třídu a na papírové postavy svých spolužáků napsali následující větu: Líbí se mi Tvoje __________________, protože __________________________. Např. Líbí se mi Tvoje vlasy, protože jsou dlouhé. Cílem je, aby napsali alespoň jednu věc, která se jim líbí, co se týká tělesného vzhledu jejich konkrétního spolužáka/spolužačky (např. barva vlasů, délka vlasů, oči, apod.). Budeme se snažit vést je ke konkrétním věcem a zdůvodnění, proč se jim líbí právě ta věc, kterou napsali. Každý si přečte, co má napsáno ve své postavě a vybere 5 věcí, se kterými souhlasí (např. také si o sobě myslí, že má hezké oči). Těchto pět věcí si sám pro sebe někam napíše.",
+  "source": {
+    "label": "Odyssea — Lekce 2.3, aktivita B1 (s. 55)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-3-Ucime-se-v-byt-v-pohode-kazdy-sam-se-sebou.pdf#page=56",
+    "note": "Zdroj aktivity uvedený v metodice: o. s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: možno upravit pro různé věkové kategorie."
+}

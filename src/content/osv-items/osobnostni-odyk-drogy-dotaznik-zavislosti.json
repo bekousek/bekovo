@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-drogy-dotaznik-zavislosti",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Dotazník závislosti",
+  "description": "Účastníci si zmapují, zda se u nich (ne)objevily některé příznaky závislosti.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "dotazník"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 min",
+  "materials": [
+    "Dotazník pro každého účastníka"
+  ],
+  "procedure": "Definice závislosti na tabáku, alkoholu a drogách je společná. Rozdáme účastníkům dotazník (viz níže), podle kterého mohou zjistit, jestli se u nich neobjevují některé příznaky závislosti. Seznam možných otázek pro dotazník: Všechny následující otázky se týkají období 12 měsíců. Vyberte, prosím, tu z následujících odpovědí, která se nejvíc blíží skutečnosti, a zatrhněte ji. „Droga“ znamená i tabák, alkohol nebo marihuanu nebo kombinaci různých drog.\n1. Cítil/a jste někdy silnou touhu nebo nutkání užívat drogu?\nNe - Někdy - Často\n2. Nedokázal/a jste se ve vztahu k droze ovládat? (Vzal/a jste si ji i tehdy, když to bylo nevhodné, nebo jste si vzal/a víc, než jste původně chtěl/a?) Často - Někdy - Ne\n3. Měl/a jste tělesné odvykací potíže („absťák“) po vysazení drogy nebo jste bral/a nějakou drogu nebo lék proto, abyste odvykací potíže zmírnil/a? Ne - Někdy - Často\n4. Zvyšoval/a jste dávku, abyste dosáhl/a účinku, původně vyvolaného nižší dávkou? Často - Někdy - Ne\n5. Zanedbával/a jste dobré záliby kvůli droze nebo jste potřeboval/a víc času k získání a k užívání drogy nebo k zotavení se z jejího účinku? Ne - Někdy - Často\n6. Pokračoval/a jste v užívání drogy přes škodlivé následky, o kterých jste věděl/a? Často - Někdy – Ne Vyhodnocení: Spočítejte odpovědi „často“ a odpovědi „někdy“. 3 - 6 odpovědí „často“ a „někdy“ znamená, že se pravděpodobně jedná o závislost.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 186)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=187"
+  }
+}

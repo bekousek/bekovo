@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-vymyslime-pro-sebe-priklad",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vymýšlíme pro sebe příklad",
+  "description": "Žáci si vyzkouší odlišit v textu informace důležité a nedůležité ve vztahu k určitému praktickému problému. Žáci si vyzkouší prohloubit své porozumění textu tím, že si vymyslí sami pro sebe slovní úlohu nebo příklad.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "vymýšlíme",
+    "příklad"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "text pro každého žáka"
+  ],
+  "procedure": "1. Necháme žáky přečíst odstavec Jak daleko od nás je bouřka.\n2. Jaké informace z tohoto odstavce jsou užitečné pro člověka, který chce zjistit, jak daleko je od něj bouřka? Jaké informace jsou pro něj zbytečné? (rychlost světla a rychlost zvuku) Tento text v sobě obsahuje návod na jednoduchý výpočet. V mnoha školních předmětech se potřebujeme naučit něco vypočítat nebo vyřešit. Na to nám nebude stačit si něco zapamatovat nebo si to přečíst. Jak se můžeme naučit něco vypočítat?\n3. Nalezněte v textu věty, které popisují výpočet.\n4. Zapište a zakreslete si tento výpočet tak názorně, abyste mu rozuměli a uměli jej použít, kdykoli se v budoucnosti k tomuto zápisu vrátíte.\n5. Vymyslete alespoň dvě různé slovní úlohy na toto téma. V těchto úlohách by mělo být známo buď vaše vzdálenost od místa, kam blesk udeřil, nebo za jak dlouho uslyšíte hrom. Jeden údaj musí být znám a druhý údaj bude třeba vypočítat.\n6. Žáci vypočítají slovní úlohy, které vymysleli jejich spolužáci.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 79)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=80"
+  }
+}

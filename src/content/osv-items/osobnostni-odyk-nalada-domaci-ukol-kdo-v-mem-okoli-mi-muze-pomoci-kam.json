@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-nalada-domaci-ukol-kdo-v-mem-okoli-mi-muze-pomoci-kam",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Domácí úkol: kdo v mém okolí mi může pomoci – kam se mohu obrátit?",
+  "description": "Najít kontakt na konkrétní lidi (instituce) v nejbližším okolí, kam se žáci mohou obrátit, když budou potřebovat pomoc v konkrétních situacích.",
+  "keywords": [
+    "nálada",
+    "relaxace",
+    "svěžest",
+    "domácí",
+    "úkol:",
+    "okolí",
+    "pomoci",
+    "obrátit?"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Emoce a jejich zvládání",
+    "Zvládání stresu a náročných situací"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "5 min na zadání + 10 min na společné sdělení informací",
+  "procedure": "Žáci dostanou za domácí úkol vyhledat kontakt na konkrétní lidi (instituce) v nejbližším okolí, kam se mohou obrátit, když budou potřebovat pomoc v konkrétních situacích. Např. telefonní číslo na Linku bezpečí, adresu a telefonní číslo nejbližšího psychologa, apod. Zjištěné kontakty sdílí se svými spolužáky. Každý žák by měl mít u sebe tyto kontakty napsané, popř. vědět, kde je hledat.",
+  "source": {
+    "label": "Odyssea — kurz Jak si zdravým způsobem zlepšit náladu a být svěží (s. 45)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-si-zdravym-zpusobem-zlepsit-naladu-a-byt-svezi.-2.-stupen-ZS.pdf#page=46"
+  }
+}

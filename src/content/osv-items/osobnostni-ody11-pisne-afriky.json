@@ -1,0 +1,39 @@
+{
+  "id": "osobnostni-ody11-pisne-afriky",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Písně Afriky",
+  "description": "spontaneita, hudebnost a rytmičnost, koncentrace",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "písně",
+    "afriky"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 - 20 minut",
+  "materials": [
+    "elementární nástroje"
+  ],
+  "procedure": "Vytvoříme z dětí skupiny.V nich si po dohodě společně vytvoříme pár „afrických“ slov. Tak, že pospojujeme první slabiky ze svých křestních jmen : MArie, KArel, JUlie a PAvla, TOník. = MAKAJUPATO. „Africká“ slova si pak v rytmu opakujeme a rytmizujeme - přízvukem zdůrazňujeme střídavě různé slabiky, prvou, třetí anebo poslední. Slabiky nebo skupiny slabik různě přehazujeme a můžeme i doplnit verš v řeči mumbo jumbo, (jenom napodobuje stavbu slov a vět) a divošské pohyby. Doplníme případně i citoslovce : ó hééj, waú, ahéj hoj! …a máme „africkou píseň“. Z rytmizovaného skandování slabik přejdeme do zpěvu a na prostý nápěv si spolu zpíváme „africký“ text opakovaně. Každá skupina potom svoji oslavnou nebo bojovou píseň zazpívá, někdy i zatančí za doprovodu bubnů a dalších nástrojů všem. Část skupiny (popřípadě celá) přitom může tančit. Příklad „afrického“ textu : /: MAKAJUPATO MAJUPA MAKA MAKATO MAJUPA PUJAMATOKA KAMATO MAKA MAJUPA KAMATO - HEJ HÉÉÉÉJ!:/ ap. Zrytmizovat a zazpívat můžeme taky své nebo něčí jméno. (Inspirovat nás může videozáznam veřejného konzertu Bobbyho Mac Ferrina).",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita C5 (s. 35)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=36",
+    "note": "Zdroj aktivity uvedený v metodice: Z. Šimanovský: (z připravované publikace) Hry s hudbou a techniky muzikoterapie II. Mgr. et Mgr. Zdeněk Šimanovský UMÍME SE"
+  },
+  "notes": "Věk uvedený v metodice: od 7let."
+}

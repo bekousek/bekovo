@@ -1,0 +1,40 @@
+{
+  "id": "socialni-ody101-ostrov",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Ostrov",
+  "description": "Spolupráce, řešení problému, tělesný kontakt.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "ostrov"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 minut",
+  "materials": [
+    ": pevný dřevěný podstavec o rozměrech 60 x 60 cm, 30 cm na zemí (lze nahradit několika betonovými dlaždicemi, silnými dřevěnými deskami, špalky nebo velkými pařezy)"
+  ],
+  "procedure": "Ocitli jsme se v tropickém pásmu. Putujeme pralesy a bažinami. Při přecházení široké mělké řeky nám domorodí průvodci signalizují nebezpečí. Každou chvíli hrozí útok dravých ryb. Zachráníme se, jestliže všichni rychle vystoupíme na blízký malý ostrůvek, který je tvořen dřevěným podstavcem, dlaždicemi, dřevěnými deskami, špalky či pařezem. Nikdo se nesmí dotýkat žádnou částí těla vody (v našem případě země) aspoň po dobu 10 sekund. Pak pomine ohrožení a můžeme jít dále. Z charakteristiky situace vyplývá, že musíme jednat rychle, ale ne ukvapeně. Hledáme společně polohu nohou a různé možnosti držení, které nám umožní setrvat a přežít na záchranném ostrově.\n\nVarianta: * Ostrov lze vymezit také kusem látky nebo kruhem. * Omezíme předběžné pokusy. Dovolíme jen určitou dobu na plánování a přípravu a pak jen jeden pokus. * Postupně zmenšujeme velikost záchranného ostrůvku a hledáme hranice možností u dané skupiny. * Každý ze skupiny vstoupí do hry s tkaničkou do bot. Ze všech tkaniček vytvoří kolo - ostrov, do kterého si všichni stoupnou. Pak rozvažujeme o tom, jaké nejmenší množství tkaniček bude potřeba pro kruh, ve kterém se může skupina shromáždit, aniž by se dotýkala země vně kruhu.",
+  "reflection": [
+    "Byl tento úkol ve srovnání se dvěma předcházejícími náročnější? A proč? V čem bylo řešení? Záleželo na fyzické síle nebo také na nápadu? Mohla by se taková situace vyskytnout ve skutečnosti? Jak by se řešilo to, kdyby se někdo na ostrov nedostal? Cítil každý z vás podíl na řešení tohoto problému? Jaký problém lidstva by se dál tímto cvičením ilustrovat? Podílí se na řešení pohybových úkolů stále stejní žáci? Zkuste sami navrhnout podobný problém a zainteresovat do něj celou skupinu. NEUMAN,Jan Dobrodružné hry a cvičení v přírodě. Praha:Portál, 1998.325 s."
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A4 (s. 66)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=67"
+  },
+  "notes": "Věk uvedený v metodice: od 8 let."
+}

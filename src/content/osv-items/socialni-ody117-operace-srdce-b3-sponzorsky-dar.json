@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody117-operace-srdce-b3-sponzorsky-dar",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Operace srdce/B3 Sponzorský dar",
+  "description": "Žák se zamyslí nad správným řešením složité situace a vyzkouší své stanovisko sdělit ostatním.",
+  "keywords": [
+    "etika",
+    "rozhodování",
+    "zodpovědnost",
+    "operace",
+    "srdce/b3",
+    "sponzorský"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Hodnoty, postoje a praktická etika",
+    "Zvládání konfliktů"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "40 min",
+  "procedure": "Žáky rozdělíme do skupin (počet dle věku dětí, min 3 max 6), každé dáme pracovní list. Skupiny diskutují, jejich cílem je shodnout se na jednom řešení. Starší děti se mohou následně sloučit do větších skupin a diskutovat o výsledcích své práce – nová skupina se skládá ze dvou původních, pravděpodobně se bude diskuse týkat dvou hlavních názorů. Když se skupiny shodnou na svých řešeních, odprezentují je ostatním a vysvětlí, proč se rozhodly právě tak. Můžeme nechat prostor pro kladení otázek, vedeme žáky k co nejhlubšímu zamyšlení nad souvislostmi a důsledky rozhodnutí.",
+  "source": {
+    "label": "Odyssea — Lekce 11.7, aktivita B2 (s. 31)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-7-Rozhodujeme-se-zodpovedne-a-jedname-eticky.pdf#page=32",
+    "note": "Zdroj aktivity uvedený v metodice: Pracovní listy: SADALLA, G., HENRIQUEZ, M., HOLBERG, M.: Konflikt, koření života. Praha: Partners for Democratic Change a Tereza, 1996. str."
+  },
+  "notes": "Věk uvedený v metodice: 11+."
+}

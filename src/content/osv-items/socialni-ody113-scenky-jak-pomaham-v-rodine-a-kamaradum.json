@@ -1,0 +1,40 @@
+{
+  "id": "socialni-ody113-scenky-jak-pomaham-v-rodine-a-kamaradum",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Scénky Jak pomáhám v rodině a kamarádům",
+  "description": "Žák popíše, jak pomáhá členům své rodiny.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "scénky",
+    "pomáhám",
+    "rodině",
+    "kamarádům"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "Předměty denní potřeby"
+  ],
+  "procedure": "Žáci si připraví ve skupinách tajně několik návrhů scénky na téma: Jak (pravidelně) pomáhám v rodině a kamarádům. 1 nebo 2 scénky předvedou bez mluvení. Ostatní žáci mají za úkol uhodnout, o jakou situaci se jedná a co konkrétního žák dělá.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita D1 (s. 45)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=46",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ Ivana, Projekt"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "osobnostni-ody11-me-detstvi-mladi-dospelost-a-stari",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Mé dětství, mládí, dospělost a stáří",
+  "description": "kontakt s vlastními emocemi, zážitek relativity, pokora, úcta k životu",
+  "keywords": [
+    "soustředění",
+    "pozornost",
+    "koncentrace",
+    "dětství",
+    "mládí",
+    "dospělost",
+    "stáří"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Emoce a jejich zvládání",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 – 45 minut, podle počtu dětí",
+  "materials": [
+    "elementární hudební nástroje pro všecny"
+  ],
+  "procedure": "Žáci vytvoří pětičlenné skupiny. Každý má v ruce elementární nástroj. Jeden v každé skupině potom požádá čtyři ostatní, aby mu zastupovali čtyři etapy jeho života : První reprezentuje jeho dětství, druhý mládí, třetí dospělost a čtvrtý jeho stáří. Postaví si je okolo sebe do kruhu. Pak – už beze slov - předstoupí před prvního a pozorně se na něj dívá. Zahájí s ním dialog na Orffovy nástroje. Po chvíli, když už cítí oba, že dialog je u konce, se s ním rozloučí úklonou hlavy a jde před dalšího. Chvilku se na něj dívá a pak zahájí dialog s ním …atd. Postupně si tak beze slova, za pomoci nástrojů „promluví“ se všemi čtyřmi etapami svého života. Hra probíhá v klimatu klidné pozornosti, beze slov. Po její skončení si pětice sednou a prohovoří spolu svoje dojmy a pocity ze hry. Pak je na řadě další. Požádá zbylé čtyři, aby mu na chvíli zastupovali čtyři etapy jeho života… atd. Hra končí, když se v úloze protagonisty vystřídali všichni. Na závěr můžeme ještě uspořádat sdílení ve společném kruhu. Pro některé děti je to objev, že na ně kdesi za horizonty času čeká jejich vlastní, osobní stáří…:o)",
+  "source": {
+    "label": "Odyssea — Lekce 1.1, aktivita A3 (s. 23)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-1-Umime-se-soustredit.pdf#page=24",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIMANOVSKÝ, Zdeněk Hry s hudbou a techniky muzikoterapie II"
+  },
+  "notes": "Věk uvedený v metodice: od 9 let výše."
+}

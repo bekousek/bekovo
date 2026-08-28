@@ -1,0 +1,34 @@
+{
+  "id": "osobnostni-ody22-vedeni-slepeho",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Vedení slepého",
+  "description": "Žáci si vyzkouší být ve vedoucí a zodpovědné pozici a v pozici toho, kdo je veden. Žáci popíší specifické nároky obou těchto rolí. Žáci pojmenují, která z těchto rolí jim byla příjemnější.",
+  "keywords": [
+    "vztahy",
+    "sebepoznání",
+    "druzí lidé",
+    "vedení",
+    "slepého"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Poznávání a vnímání druhých lidí"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Žáci se rozdělí do dvojic. Jeden ze dvojice vstoupí do role slepého a zaváže si oči. Druhý z dvojice bude slepého provádět přes určitý terén přiměřené náročnosti. Existuje varianta se zákazem mluvení a s povoleným tichým instruováním. Když všechny dvojice projdou terénem, role se vymění (můžeme i změnit terén). Po skončení hovoříme o tom, jak se kdo cítil v roli slepého, jak se kdo cítil v roli průvodce. Co bylo náročné na tom být slepý? Co bylo náročné na tom být průvodce? Z aktivity samozřejmě nelze jednoznačně zobecňovat na dominanci nebo submisivitu konkrétního žáka. Někteří žáci mohou např. být v běžném životě submisivní. Jejich sklon zaujímat submisivní roli však může být během této aktivity převážen nechutí pohybovat se poslepu.",
+  "source": {
+    "label": "Odyssea — Lekce 2.2, aktivita B3 (s. 78)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-2-2-Poznavame-svuj-vztah-k-lidem.pdf#page=79",
+    "note": "Zdroj aktivity uvedený v metodice: Velmi rozšířená aktivita. Autor neznámý. Úprava: O.s. Projekt Odysse Mgr. Kateřina"
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let."
+}

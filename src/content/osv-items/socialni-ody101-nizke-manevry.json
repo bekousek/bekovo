@@ -1,0 +1,34 @@
+{
+  "id": "socialni-ody101-nizke-manevry",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Nízké manévry",
+  "description": "Cit pro rovnováhu, koordinace rukou a nohou, odhad vlastních sil, odvaha. Materiál a konstrukce K vybudování tohoto stanoviště použijeme lana s menší pružností a o větším průměru, to platí hlavně o nosném lanu. Jako nosné lano je výhodné použít 8mm ocelové lano.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "nízké",
+    "manévry"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Klasická překážka, známá také jako Přemostění. Mezi dvěma stromy jsou v různé výšce napnuta dvě lana. Úkolem účastníka je překonat vzdálenost mezi oběma stromy pomocí lan. Po nižším laně se přechází a vyšší slouží jako opora pro ruce. Technika přecházení je libovolná. V praxi se osvědčil přechod úkroky stranou, kdy jsou chodidla téměř stále v kontaktu s nosným lanem.\n\nVarianta: * Zadáváme způsob či techniku přechodu – stranou, čelně, pozadu, přidržování se jen jednou rukou, chůze se zavázanýma očima. * Upravujeme vzdálenosti mezi nosným a opěrným lanem. Větší vzdálenost klade nárok na sílu paží, malá vzdálenost zvyšuje nároky na rovnováhu. * Výzvovou situaci zvýšíme, necháme-li lana méně vypnutá. * Lana napneme přes řeku nebo úzkou zátoku rybníka. * Pomocí lan můžeme přemostit i mělkou rokli.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita C5 (s. 86)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=87",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan,VOMÁČKO, Ladislav, VOMÁČKOVÁ, Soňa. Překážkové dráhy, lezecké stěny a výchova prožitkem. Praha : Portál, 1999. 315"
+  }
+}

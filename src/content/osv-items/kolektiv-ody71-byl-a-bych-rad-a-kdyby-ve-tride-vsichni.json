@@ -1,0 +1,38 @@
+{
+  "id": "kolektiv-ody71-byl-a-bych-rad-a-kdyby-ve-tride-vsichni",
+  "categoryId": "tridni-kolektiv",
+  "title": "Byl(a) bych rád(a), kdyby ve třídě všichni",
+  "description": "Žáci zformulují, co by ocenili, aby ve třídě případně mohli dělat.",
+  "keywords": [
+    "pravidla",
+    "třídní dohody",
+    "chování",
+    "byl(a)",
+    "rád(a)",
+    "kdyby",
+    "třídě",
+    "všichni"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Pravidla a dohody ve třídě",
+    "Klima a bezpečí ve třídě"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 minut",
+  "procedure": "1. Sdělíme žákům, že se budeme zabývat tím, co by byli rádi, kdyby to ve třídě mohli dělat.\n2. Rozdáme žákům papíry. Každý žák by měl dostat dvě poloviny A5.\n3. Zadáme žákům úkol, aby každý z nich zformuloval jednu věc, o které by byl rád, aby mu ve třídě byla umožněna. Jedná se o jakoukoliv potřebu. Zde je vhodné použít příklad: Byl(a) bych rád(a) , kdyby ve třídě všichni mohli o přestávce hrát na kytaru. Záměrně zde zatím neomezujeme pole nápadů toho, co by žáci chtěli.",
+  "source": {
+    "label": "Odyssea — Lekce 7.1, aktivita A5 (s. 51)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-7-1-Poznavame-urcujeme-a-dodrzujeme-zakladni-pravidla-chovani-ve-tride-a-ve-skole.pdf#page=52",
+    "note": "Zdroj aktivity uvedený v metodice: Michal Dubec, o.s. Projekt"
+  },
+  "notes": "Věk uvedený v metodice: Od 10 let věku žáků, pro menší věk je možné aktivitu upravit. Jednotlivá přání zapisujeme tak, aby vytvářela kategorie (osvědčilo se členit je podle toho, jestli by žáci tyto činnosti rádi vykonávali o přestávce, v hodinách nebo o delších časových pauzách mezi dopoledním a odpoledním vyučováním). Pokud zazní přání, které už padlo, nepíšeme je podruhé. Zde je uveden příklad toho, jak mohou přání rozdělená do jednotlivých skupin vypadat: 7. Vybereme jedno z přání a ukážeme na něm žákům, že každé chtění s sebou přináší nějaké další nároky. Příklad: Chodit o polední pauze d"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "socialni-ody101-slepy-ctverec",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Slepý čtverec",
+  "description": "Řešení problému, spolupráce, komunikace",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "slepý",
+    "čtverec"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "asi 20 min",
+  "materials": [
+    "páska na oči pro každého, 30 m horolezeckého lana nebo silné šňůra (nejméně 2 metry na osobu)"
+  ],
+  "procedure": "Stojíme před zdánlivě jednoduchým úkolem a hned v úvodu upozorníme na trpělivost a plné soustředění. Všichni členové skupiny si zavážou oči. Potom odvádíme každého hráče zvlášť k ležícímu lanu, rozestavíme je v pravidelných intervalech a dáme jim do ruky lano. V tomto postavení jim oznámíme jejich úkol a základní pravidla: \"Vytvořte z lana čtverec. V průběhu hry musíte být stále v kontaktu s lanem. Pro čtverec musíte využít celou délku lana. Jakmile se ve skupině dohodnete, že jste úkol už splnili, položte lano na zem a sundejte si pásky z očí. Je zřejmé, že každý může mít vlastní názor, jak celý problém řešit. Buďte trpěliví a každého vyslechněte a společně se rozhodněte pro jedno z řešení.\" V průběhu hledání řešení připomeneme, že čtverec je obrazec, který má všechny strany stejně dlouhé. Připomenutí může ovlivnit úspěšné a přesné řešení problému.\n\nVarianta: * Dovolíme jednomu hráči pustit lano a přecházet kolem celé skupiny. * Pro mladší skupiny zkrátíme lano a oba konce předem svážeme. * Pozorujeme průběh řešení a několika nejaktivnějším hráčům, kteří již převzali řízení celé akce, pošeptáme, ať přestanou mluvit. Vytvoříme tak šance pro ty, kdo byli dosud pasivní. * Místo čtverce lze vytvářet rovnoramenný trojúhelník, obdélník či jiné víceúhelníky. * Máme-li dvě lana, rozdělíme skupinu na dvě části. Jedna bude konstruovat čtverec a druhá rovnoramenný trojúhelník. Na závěr by měly obě společně vytvořit dům, stěny tvoří čtverec a střechu trojúhelník. * Zavážeme skupině oči a necháme ji ve vymezeném prostoru hledat lano a pak konstruovat určené útvary. * Jeden ze skupiny vidí a na dálku řídí konstruování obrazců. Nedotýká se lana ani osob. * Další variantu bychom mohli nazvat Čínská skládačka. Skupina využije lana k tomu, aby z něj vytvořila složité obrazce podle předlohy vedoucího. Hráči vidí, musí se držet celou dobu lana, mohou se pohybovat, ale nesmí měnit své místo vůči ostatním. Lano vytvářející obrazec nesmí být zdvojené. Nabízí se mnoho variací - konstrukce obrazců na čas, vedoucí ukáže obrazec jen části skupiny, jeden vidí a ostatní si zavážou oči.",
+  "reflection": [
+    "Jak se vám pracovalo se zakrytýma očima? Co to znamenalo pro vyřešení úkolu? Kdo přišel na nápad, jak vytvořit stejné strany ? V kolika hráčích by se dala tato úloha splnit nejlépe? Které školní znalosti jste mohli využít ? Co bylo pro vyřešení problému nejdůležitější?"
+  ],
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita A5 (s. 68)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=69",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan. Dobrodružné hry v tělocvičně. Praha:Portál, 2001, 243"
+  },
+  "notes": "Věk uvedený v metodice: od 10 let."
+}

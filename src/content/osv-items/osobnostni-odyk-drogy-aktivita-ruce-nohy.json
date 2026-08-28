@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-drogy-aktivita-ruce-nohy",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Aktivita „ruce – nohy“",
+  "description": "Účastníci se protáhnou a rozhýbou a svými těly ztvární vybraná témata, která souvisí s problematikou závislostí (čímž provedou jakousi „pohybovou“ reflexi těchto témat). V reflexi se pak můžeme dotknout mediální problematiky (viz níže).",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "aktivita",
+    "„ruce",
+    "nohy“"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 – 30 min",
+  "procedure": "Rozdělíme žáky do 4 – 6 zhruba stejně početných skupin. Aktivita má několik kol (můžeme uvést, že kolo bude trvat např. 3 – 5 minut). V každém kole dostanou žáci zadání, kolika rukama a kolika nohama se smí dotýkat země. V každém kole tak musí žáci v každé skupině vytvořit jakousi formaci či sochu (ve které musí vydržet alespoň 10 vteřin) a země se mohou dotýkat vždy pouze předepsaným počtem rukou a nohou (tj. pouze dlaněmi a chodidly – tedy nikoli koleny, lokty nebo zadkem). Navíc musí ztvárnit sochou ještě nějaké téma, které souvisí s problematikou prevence. (Např. „v pětičlenných skupinách vytvořte sochu, která bude stát před lesoparkem a bude se jmenovat „šťastná rodina na výletě“ a použijte k tomu pouze 4 nohy a 6 rukou“). S počtem nohou a rukou lze takřka libovolně experimentovat. Nejmenší doporučený počet nohou jsou dvě nohy, přičemž vždy dejme skupinám za úkol, aby se dotýkaly země hned několika rukama. (Nedoporučujeme dávat žákům za úkol, aby se země dotýkali menším počtem nohou, než jsou dvě nohy na skupinu, tj. jednou nebo žádnou. V takovém případě by byli nuceni vytvářet stojky – tedy pokud by dodrželi pravidlo, že se země nesmí dotýkat ničím jiným než ploskou nohy /chodidlem/ nebo dlaní. Pokud pak nepoužijí koleno či zadek, což pravidla nedovolují, musí při takto nízkém počtu nohou volit stojky: což je jednak velmi obtížné a jednak to může být i nebezpečné. Proto doporučujeme jako onen nejnižší",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 131)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=132",
+    "note": "Zdroj aktivity uvedený v metodice: Podle prázdninové školy Lipnice upravilo o. s. Projekt"
+  }
+}

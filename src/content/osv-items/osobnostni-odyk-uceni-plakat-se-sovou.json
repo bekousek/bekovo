@@ -1,0 +1,35 @@
+{
+  "id": "osobnostni-odyk-uceni-plakat-se-sovou",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Plakát se sovou",
+  "description": "Žáci získají přehled o strategiích efektivního čtení.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "plakát",
+    "sovou"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "Velký list papíru, na kterém je uprostřed nalepený obrázek sovy (ve velikosti A3)."
+  ],
+  "procedure": "Požádáme žáky, aby připomněli, co nám pomáhá při čtení náročnějších textů. Kolem sovy uděláme paprsky a na jejich konec zapíšeme názvy jednotlivých strategií efektivního čtení. Strategie, které se používají před započetím čtení píšeme nahoru a strategie používané během čtení a po čtení píšeme dolů. Žáci si mohou z minulého bloku vzpomenout na strategie Přehled, Otázky, Shrnutí vlastními slovy a Schéma. V tomto navazujícím bloku si zopakujeme strategie, které jsme již probírali a vyzkoušíme si některé další. Během kurzu budeme připisovat další strategie kolem sovy v pořadí, jak je budeme používat.\n\n5.1.1 Přehled strategií efektivního čtení pro lektora\nPro lektora kurzu zde nabízíme přehled všech strategií, které budou probrány během celého kurzu. Strategie označené hvězdičkou již žáci znají z předchozí části kurzu. Pro většinu strategií platí, že jsou tím přínosnější, čím obtížnější text se jimi zpracovává. Např. udělat si přehled se nám vyplatí u dlouhého, složitého a málo přehledného textu. Než začneme číst\n*Přehled: O čem to asi bude? Jaká část asi bude nejdůležitější? Co asi bude pro mne nové? Myšlenková mapa: Co už o tom vím? Co si o tom myslím?\n*Otázky: Co mi není jasné? Co se potřebuji dozvědět? Co bych se rád dozvěděl? Strategie používané během čtení a po čtení Hledání klíčových slov Náčrtek: Jak by se to dalo nakreslit? Co je tu důležité? Srovnávání: Čemu se to podobá? Od čeho se to odlišuje? Vyjasňování: Čemu nerozumím? Vymýšlení příkladů pro sebe\n*Schéma učiva\n* Shrnutí vlastními slovy: O čem byl tento odstavec? Co si pamatuji z tohoto odstavce? Jak bych shrnul/a to, co jsem se dozvěděl/a v tomto odstavci? Ohlédnutí se zpět: Co jsem se dozvěděl/a nového? Co jsem si ověřil/a? Co mi text vyvrátil? Co jsem se nedozvěděl/a?",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 66)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=67"
+  }
+}

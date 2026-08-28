@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-drogy-formular-jak-se-vidim",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Formulář: „jak se vidím“",
+  "description": "Sebepoznání: Účastníci více poznají své slabiny i silné stránky a dostanou příležitost zlepšit se tam, kde to vnímají jako důležité.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "formulář:",
+    "vidím“"
+  ],
+  "type": "dotaznik",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "20 - 30 min",
+  "materials": [
+    "Níže uvedený formulář"
+  ],
+  "procedure": "Žáci individuálně vyplní níže uvedený formulář. Následně proběhne reflexe a diskuse nad tímto vyplněným formulářem. Jak se vidím Jak se vidím nyní Jaký bych chtěl být S přáteli 1. 2. 3. Ve škole 1. 2. 3. Doma 1. 2. 2. Celkově 1. 2. 3. V reflexi a následné diskusi se učitel může ptát, co vedlo k tomu, že se žáci vnímají právě takovým způsobem, a vyzvat je, aby popsali zážitky, které podstatně ovlivnily to, co vůči sobě cítí (úspěchy nebo neúspěchy ve škole, sportu či jinde, nemoc, úraz apod.). Vhodným tématem je také otázka, jak to, co děláme, ovlivňuje naše sebevědomí. Lze také uvažovat o sebevědomí v různých situacích.",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 96)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=97"
+  }
+}

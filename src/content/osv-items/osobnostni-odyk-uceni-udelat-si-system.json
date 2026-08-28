@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-odyk-uceni-udelat-si-system",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Udělat si systém",
+  "description": "Žáci si vyzkouší zapamatovat si jednoduchý seznam položek pomocí utřídění položek do systému.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "udělat",
+    "systém"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "materials": [
+    "Pro každého žáka seznam slov na papírku"
+  ],
+  "procedure": "Oznámíme žákům smysl této aktivity: Budou si moci vyzkoušet účinnou metodu, jak se učit seznamy, výčty nebo jiné větší skupiny informací. Příklady seznamů členské státy EU, básnické sbírky J. Seiferta, povinné vybavení vozidla, skupiny léků, příčiny 1. světové války, příznaky určité nemoci, svaly na lidském těle, prezidenti USA apod. Motivačně evokační otázky Jaké podobné seznamy jste se už učili? Jak jste při tom postupovali? Jaké seznamy se asi budete v budoucnosti učit v souvislosti s přípravou na vaše budoucí povolání? Rozdáme žákům papírky se seznamem slov a požádáme je, aby se pokusili zapamatovat si co nejvíce z těchto slov. Na zapamatování budou mít 3 minuty. Vyzveme je, aby využili jakoukoli strategii, kterou uznají za vhodné. Seznam slov Výfuk, šála, mrkev, volant, Indie, Nový Zéland, židle, kalhoty, okurka, skříň, řadicí páka, čepice, pneumatika, bunda, brzda, paprika, botník, stůl, rajče, Rusko, Čína, křeslo, rukavice, Austrálie, stěrače, kuchyňská linka. Po uplynutí 3 minut necháme žáky zapsat zpaměti všechna slova, na která si vzpomenou. Kolik slov jste si zapamatovali? Jak jste postupovali? V jakém pořadí se vám slova vybavovala, když jste si je snažili vzpomenout? Obvykle se slova vybavují po skupinách, např. nejdřív všechny zvířata, pak všechny dopravní značky apod.\n\nPředvedeme strategii Udělat si systém\nNaše mysl funguje tak, že hledá souvislosti mezi věcmi. Tyto souvislosti jí potom pomáhají při vybavování z paměti. 27 slov je obtížné si najednou zapamatovat. Je to více než 7+/-2 prvků. Proto je třeba je rozdělit do skupin. Jakých skupin jste si tam všimli? nábytek oblečení zelenina státy vybavení auta Když budeme brát celou skupinu jako jeden prvek, kolik zde máme prvků? (pět) Která slova patří do jednotlivých skupin? Nábytek: židle, skříň, botník, stůl, křeslo, kuchyňská linka Vybavení auta: výfuk, volant, řadící páka, pneumatika, brzda, stěrače Oblečení: šála, kalhoty, čepice, bunda, rukavice Zelenina: mrkev, okurka, paprika, rajče, hlávkový salát Státy: Indie, Rusko, Čína, Austrálie, Nový Zéland Kolik je prvků v jednotlivých skupinách? Nikde není více než sedm, proto by mělo být snadné se každou z nich naučit. Máme skupiny, víme, co do nich patří, co uděláme pak? Vezmeme vždy jen jednu skupinu. V klidu si slova několikrát přečteme. Zkusíme si slova v dané skupině zpaměti napsat. Když nějaké slovo zapomeneme, zopakujeme čtení i psaní zpaměti. Zopakujeme si zpaměti názvy skupin: nábytek, auto, oblečení, zelenina, státy.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 15)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=16"
+  }
+}

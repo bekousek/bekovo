@@ -1,0 +1,36 @@
+{
+  "id": "osobnostni-ody12-prijemne-vune",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Příjemné vůně",
+  "description": "Žák si procvičí vnímání čichem, určí pro sebe příjemnou vůni.",
+  "keywords": [
+    "smysly",
+    "vnímání",
+    "pozornost",
+    "příjemné"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebepoznávání a sebepojetí",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min",
+  "materials": [
+    "3 až 4 skleničky s víčkem s připravenými odlišnými vůněmi ( např. ocet, tekuté mýdlo, skořice, uzený sýr). Nebo použijeme různé aromatické jednodruhové oleje, případně kuchyňské koření. Šátek pro každého žáka."
+  ],
+  "procedure": "Žák postupně dostane očichat vzorky, potom označí ten, jehož vůně mu byla nejpříjemnější. Není cílem poznat, jakého původu vůně jsou. Nehledáme ani univerzální příjemnou vůni. Soustředíme se na to, aby každý žák dokázal zvolit a popsat pro sebe tu nejpříjemnější vůni. Jak se příjemná vůně odlišuje od těch ostatních? Pokud budeme s výsledky děti seznamovat, můžeme toto cvičení použít pro ilustraci rozdílů vnímání i hodnocení informací i jako cvičení tolerance a respektu k druhým lidem (nebudeme se nikomu smát, že mu voní něco jiného než ostatním).",
+  "source": {
+    "label": "Odyssea — Lekce 1.2, aktivita A3 (s. 29)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-1-2-Bystrime-sve-smysly.pdf#page=30"
+  },
+  "notes": "Věk uvedený v metodice: Mladší a střední školní věk."
+}

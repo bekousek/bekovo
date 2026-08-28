@@ -1,0 +1,38 @@
+{
+  "id": "osobnostni-odyk-drogy-vyhody-nekoureni-brainstorming",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Výhody nekouření - brainstorming",
+  "description": "Motivovat k nekuřáctví a nabídnout relevantní dovednosti.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence",
+    "výhody",
+    "nekouření",
+    "brainstorming"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "materials": [
+    "Psací potřeby a papíry"
+  ],
+  "procedure": "Další úkol bude brainstormingový pro žáky rozdělené do 4 skupin (možný postup viz výše v kapitole „Plánování a dosahování životních cílů“). Pro brainstorming můžeme použít následující otázky:\n• Jaké jsou zdravotní výhody nekouření?\n• Jaké jsou výhody nekouření ve škole a v práci?\n• Jaké jsou výhody nekouření ve vztahu k životnímu prostředí? Domácí úkol Kde je relativně čistý vzduch a kterým místům se vyhnete, protože je tam nakouřeno?",
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 144)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=145"
+  }
+}

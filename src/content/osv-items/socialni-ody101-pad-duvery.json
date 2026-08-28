@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody101-pad-duvery",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Pád důvěry",
+  "description": "Překonání obav, rozvoj důvěry, odpovědnosti a odvahy, tělesný kontakt",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "důvěry"
+  ],
+  "type": "aktivita",
+  "grades": [
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30-40 minut",
+  "materials": [
+    "dřevěná platforma 130-150 cm vysoká"
+  ],
+  "procedure": "Pád důvěry představuje jednoduché, ale přitom účinné cvičení pomáhající vytvářet ovzduší důvěry a odhodlanosti. Vyhledáme zvýšené místo, ze kterého se bude padat. Pod ním vytvoří skupina dvě řady vzdálené na předpažení. Hráči v řadě se dotýkají rameny, předpaží dlaněmi vzhůru a paže uspořádají \"zipovitým\" způsobem (mezi pažemi jednoho se nalézá paže druhého stojícího v protilehlé řadě). Každý stojí s jednou nohou zakročenou a hlavou mírně zakloněnou. To je vyzkoušené bezpečné postavení pro chytání pádů. Z paží vytvořená záchranná plošina musí být delší než osoba, která padá. První dobrovolník (obvykle lehčí) vyleze na zvýšenou podložku a postaví se zády ke skupině tak, aby směřoval právě doprostřed obou řad. Pak se zeptá: \"Jste připraveni?\" Skupina: \"Jsme připraveni, Adame, můžeš padat.\" Odpověď zní: \"Pozor! Adam padá.\" Po tomto potřebném rituálu osoba padá se zpevněným tělem a připaženýma rukama. Stále zdůrazňujeme: \"Zůstaň jako prkno, zpevni hýžďové svaly.\"\n\nPůsobivější je pád se zavřenýma očima. Chytající jdou s napjatými pažemi vstříc padajícímu, aby ho pak lehkým \"zapérováním\" chytili. Lehce ho pohoupou a postaví na nohy. Pro první pokusy doporučujeme, aby byla dospělá osoba v místech, kam asi dopadne hlava. Důležitá je výška místa, ze kterého se padá. To by mělo být nejvíce o 10 cm vyšší než je vzdálenost předpažených paží průměrně vysokého člena skupiny od země (tzn. obvykle 130-140 cm nad zemí). Skupinu uspořádáme tak, aby ti menší chytali nohy a ti větší trup a hlavu. Při tomto cvičení by měli být vždy dva vedoucí. Jeden připravuje účastníky k pádu a druhý se postaví tak, aby mohl v případě nutnosti zachytit hlavu padajícího.\n\nVarianta: * Padající je po zachycení pohoupán a posunován hlavou vpřed. Zůstane zpevněn jako při pádu. Dvě poslední dvojice ho uchopí za ramena a pod zády a další zvedají jeho trup a nohy tak, že vlastně udělá jakýsi veletoč v rukou předposlední dvojice. Konec otáčení tlumí poslední dvojice a zajišťuje spolu s vedoucím bezpečný doskok. Tato varianta je vhodná pro vyspělou skupinu.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita C3 (s. 81)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=82",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 14 let."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "kolektiv-odyk-vztahy-icebreak-razeni-na-care",
+  "categoryId": "tridni-kolektiv",
+  "title": "Icebreak – řazení na čáře",
+  "description": "Celá třída spolupracuje na splnění úkolu, komunikuje beze slov a dostanou se k sobě i lidé, kteří se vedle sebe neposadili.",
+  "keywords": [
+    "šikana",
+    "vztahy ve třídě",
+    "prevence",
+    "icebreak",
+    "řazení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prevence šikany a rizikového chování",
+    "Klima a bezpečí ve třídě",
+    "Role a dynamika skupiny"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Účastníci mají za úkol seřadit se na čáře podle data narození. Při řazení nesmějí komunikovat pomocí slov – ani mluvených ani psaných. Komunikují pouze neverbálně. Mohou se řadit od nejmladšího k nejstaršímu, nebo pouze podle měsíce, ve kterém se narodili. Pro kontrolu každý řekne, kdy se narodil. Podruhé poprosíme účastníky, aby si představili nějaké zvíře (pokud možno ne příliš běžné – abychom alespoň trochu ovlivnili, že si jedna polovina lidí představí psa a druhá kočku). Nikomu neříkají, co si představili. Opět mají za úkol se seřadit, tentokrát od nejmenšího zvířete k největšímu. Opět nesmějí mluvit ani psát. Můžeme povolit vydávat zvuky jednotlivých zvířat. Pro kontrolu každý řekne, jaké zvíře si představoval. Provedeme krátkou reflexi, jak se komunikovalo beze slov, co bylo příjemné a co nepříjemné. Aktivity tohoto typu mají také diagnostický potenciál, co se týká vztahů ve třídě. Během řazení můžeme sledovat, jakým způsobem spolu účastníci komunikují, zda komunikují se všemi, kdo je případně na okraji, kdo komunikuje s nejvíce lidmi, kdo si pouze hledá své místo v řadě a příliš se nezapojuje, apod.",
+  "source": {
+    "label": "Odyssea — kurz Jak zlepšit vztahy v naší třídě (s. 41)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-zlepsit-vztahy-v-nasi-tride.-2.-stupen-ZS-kurz-prevence-sikany.pdf#page=42"
+  }
+}

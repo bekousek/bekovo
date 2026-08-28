@@ -1,0 +1,37 @@
+{
+  "id": "socialni-ody113-pruzkum-zelene",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Průzkum zeleně",
+  "description": "Žák prozkoumá zelenou plochu a zjistí, kdo a jak o ni pečuje.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "průzkum",
+    "zeleně"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Vícedenní",
+  "materials": [
+    "Vhodný terén v nejbližším okolí školy, poznámkové bloky, psací potřeby, flipchartový papír, fixy, pravítko"
+  ],
+  "procedure": "Žáci vytvoří pracovní skupiny, které budou mapovat danou lokalitu. Zaznamenají plochu zeleně, mohou určit rostlinné druhy. Každý tým bude zkoumat odlišnou lokalitu. Zjistí, kdo má na starosti péči o zeleň. Mohou si připravit otázky pro garanta péče (lesník, odbor životního prostředí, Agentura ochrany přírody, soukromý vlastník, firma, zahradník…) a požádat ho o rozhovor.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita B3 (s. 39)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=40"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody113-faktory-pece",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Faktory péče",
+  "description": "Žák vyjádří a porovná, jak je pro něj lehké nebo obtížné pečovat o věci, rostliny, zvířata a lidi. Žák zjišťuje podstatné faktory, které ovlivňují možnost a kvalitu péče.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "faktory"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "30 min",
+  "procedure": "Vytvoříme skupiny žáků, kteří se shodovali v názorech na péči nebo podle preference objektů péče. Skupiny budou mít za úkol objevit ty nejpodstatnější charakteristiky a faktory jednotlivých cílů a způsobů péče. Zapíší je na flipchart. Seznámí se svými závěry ostatní.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita E2 (s. 51)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=52"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

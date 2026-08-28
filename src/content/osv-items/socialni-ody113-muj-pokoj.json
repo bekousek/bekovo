@@ -1,0 +1,36 @@
+{
+  "id": "socialni-ody113-muj-pokoj",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Můj pokoj",
+  "description": "Žák si uvědomí, jak nakládá se svými věcmi. Žák vysvětlí, jak udržuje své věci v pořádku. Žák popíše, kde mají jeho věci doma své místo.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "pokoj"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "Čtvrtka formátu A3 pro každého žáka, tužky, barvy, pastelky, pravítko"
+  ],
+  "procedure": "Žáci nakreslí svůj pokoj. Vyrobí popisky do obrázku, kde jsou uloženy jeho věci (šaty ve skříni, CD v pořadači, hračky v krabici atd.). Obrázky vystavíme ve třídě a porovnáme. Všímáme si originálních nápadů na ukládání věcí v dětském pokoji.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita A2 (s. 32)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=33"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

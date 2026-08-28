@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-zivot-pod-listim",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Život pod listím",
+  "description": "Žák bude mít příležitost vyjádřit respekt živým tvorům.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "život",
+    "listím"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min až 60 min",
+  "materials": [
+    "Zahradní lopatka, sklenice od džemu, papír, gumička, bílá čtvrtka, obyčejná tužka"
+  ],
+  "procedure": "Vyjdeme si na školní zahradu nebo na procházku do lesa. Pomocí jednoduchého testu odhalíme, jak vypadá život pod listím. Ze spodní vrstvy spadaného listí nabereme lopatkou trochu humusu a dáme do sklenice. Sklenici překryjeme papírem , do něhož jsme udělali dírky kvůli přístupu vzduchu. Pak sklenici postavíme na světlo. Na jejích stěnách po chvíli uvidíme plno drobných živočichů. Můžeme si je zkusit namalovat tužkou na čtvrtku. Potom živočichy vrátíme zpět na svobodu. V reflexi si povídáme o tom, jak se chováme k drobným živočichům. Proč je vracíme na stejné místo? Jakou funkci mají tito živočichové v přírodě? Z encyklopedie ve školní knihovně zjistíme, jaké živočichy jsme objevili.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita C4 (s. 42)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=43",
+    "note": "Zdroj aktivity uvedený v metodice: ŠIRCOVÁ, Ivana . S dětmi v přírodě. Praha : Portál, 2007. s."
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

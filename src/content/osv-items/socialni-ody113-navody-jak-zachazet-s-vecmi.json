@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody113-navody-jak-zachazet-s-vecmi",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Návody Jak zacházet s věcmi",
+  "description": "Žák navrhne, jak zlepšit péči o věci ve třídě.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "návody",
+    "zacházet",
+    "věcmi"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "90 min",
+  "materials": [
+    "Papíry, čtvrtky, psací a kreslící potřeby, pravítko, provázek"
+  ],
+  "procedure": "Po inventuře stavu věcí ve třídě žáci navrhují, jak odstranit závady a jak předcházet zbytečnému zhoršování stavu společných věcí ve třídě. Ve skupinách připraví návrhy, jak zacházet s věcmi, aby se nepoškodily a byly co nejdéle funkční, v dobrém stavu. Na speciální předměty mohou vyrobit visačky o používání a přidělit jim konkrétního správce, který bude stav věci průběžně kontrolovat a pečovat o ni.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita A8 (s. 36)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=37"
+  },
+  "notes": "Věk uvedený v metodice: 1., 2., 3. období."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "socialni-ody101-bedny-do-nebe",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Bedny do nebe",
+  "description": "Samostatná volba velikosti výzvy. Taktika, odvaha, obratnost, volba řešení, rovnováha. Materiál a konstrukce Úspěšné provedení tohoto zadání závisí na pevnosti použitých beden.",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "bedny"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "procedure": "Je to akce pro jednu osobu, která staví na sebe bedny z umělé hmoty (např. od Coca–Coly) tak dlouho, dokud se na nich sama udrží. Bedny podávají ze země další účastníci akce. Pokud je stavba již vysoká, vytahují nahoru další bedny ke stavbě pomocí lana. Výsledné skóre je počet beden, na kterých se ještě osoba udržela bez pádu. Členové skupiny stojící kolem také zajišťují horní jištění s využitím sedacích úvazků, dynamického lana, karabin a smycí.\n\nVarianta: * Uspořádání soutěže mezi dvěma účastníky nebo družstvy. Soutěží se o nejvyšší",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita C6 (s. 88)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=89",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN, Jan,VOMÁČKO, Ladislav, VOMÁČKOVÁ, Soňa. Překážkové dráhy, lezecké stěny a výchova prožitkem. Praha : Portál, 1999. 315"
+  }
+}

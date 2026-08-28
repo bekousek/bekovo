@@ -1,0 +1,42 @@
+{
+  "id": "osobnostni-odyk-drogy-odmitani-beze-slov",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Odmítání beze slov",
+  "description": "Žáci znázorňují (předvádějí) odmítnutí beze slov.",
+  "keywords": [
+    "závislosti",
+    "odmítání",
+    "prevence"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Odolnost a psychohygiena",
+    "Zvládání stresu a náročných situací",
+    "Prevence šikany a rizikového chování"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "10 min",
+  "procedure": "Žáci se procházejí beze slov sem tam po třídě. Lektor je vybídne, aby se soustředili na své tělo. Po chvíli tleskne a řekne situaci. Žáci mají beze slov, každý sám za sebe předvést, jak by neverbálně odmítli. Pak se zase procházejí, lektor tleskne a uvede další situaci. Příklady situací:\n• Někdo tě nutí\n– vypít něco, co strašně nemáš rád (hořký čaj, čaj s medem,\nslanou teplou vodu),\n– abys půjčil druhému knihu, když přitom ty nechceš,\n– aby ses plazil po náměstí po břiše,\n– zavázat mu tkaničky.\n• Parta po tobě chce,\n– abys ukradl cigarety,\n– lhal svému kamarádovi,\n– přišel pozdě domů, ale ty víš, že by tě čekal průšvih,\n– abys vypil půl litru alkoholu a hrozila by ti otrava.\n• Někdo Ti nabízí,\n– že Ti zaplatí v hospodě pivo,\n– že Tě naučí kouřit marihuanu.",
+  "reflection": [
+    "• Pocity, dojmy?",
+    "• Jak se Vám dařilo znázornit odmítnutí v daných situacích?",
+    "• Co šlo spíše lépe a co spíše hůře?",
+    "• Ve kterých situacích se nám odmítá obtížněji?",
+    "• Pro které situace jsou takováto odmítnutí, jaká jsme tu viděli, spíše vhodná?",
+    "• Jak bychom je mohli nazvat?",
+    "• Jak se asi cítí ten, kdo je takto odmítnut?",
+    "• Ve kterých situacích bychom se nicméně nerozpakovali takovéto odmítnutí použít?"
+  ],
+  "source": {
+    "label": "Odyssea — kurz Jak se bránit drogám a předcházet závislostem (s. 109)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-branit-drogam-a-predchazet-zavislostem.-2.-stupen-ZS.pdf#page=110"
+  }
+}

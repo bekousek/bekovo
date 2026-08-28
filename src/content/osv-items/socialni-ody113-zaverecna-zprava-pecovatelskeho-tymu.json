@@ -1,0 +1,39 @@
+{
+  "id": "socialni-ody113-zaverecna-zprava-pecovatelskeho-tymu",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Závěrečná zpráva pečovatelského týmu",
+  "description": "Žák vypracuje závěrečnou zprávu o svém pečovatelském působení. Zhodnotí výsledky své činnosti. Žák se zamyslí, k čemu je v životě dobré umět pečovat o sebe, o své věci, životní prostředí i druhé lidi.",
+  "keywords": [
+    "péče",
+    "zodpovědnost",
+    "pomoc",
+    "závěrečná",
+    "zpráva",
+    "pečovatelského"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Prosociální chování a pomoc druhým",
+    "Hodnoty, postoje a praktická etika"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "45 min zadání",
+  "materials": [
+    "Psací potřeby, fotografie z aktivity E5, papíry, PC"
+  ],
+  "procedure": "Tato aktivita navazuje na aktivitu E6 – Pečovatelské týmy. Na závěr dlouhodobého projektu jednotlivé týmy vypracují písemně závěrečnou zprávu, kterou mohou uveřejnit ve školním nebo místním časopise. Žáci by měli pracovat podle shodné osnovy, v níž bude obsažen: název týmu, členové, cíle péče, objekt péče, důvod našeho výběru, postup péče- popis, co jsme dělali, další okolnosti, fotografie, hodnocení výsledků, co jsme zažili a co jsme si uvědomili.",
+  "source": {
+    "label": "Odyssea — Lekce 11.3, aktivita E7 (s. 55)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-11-3-Pecujeme-o-sebe-i-o-druhe.pdf#page=56",
+    "note": "Zdroj aktivity uvedený v metodice: Mgr. Ivana Šircová PEČUJEME O SEBE I O"
+  },
+  "notes": "Věk uvedený v metodice: 2.,3. období."
+}

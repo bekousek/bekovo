@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-odyk-uceni-udelat-si-system-procviceni",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Udělat si systém - procvičení",
+  "description": "Žáci si procvičí strategii Udělat si systém.",
+  "keywords": [
+    "učení",
+    "paměť",
+    "čtení s porozuměním",
+    "udělat",
+    "systém",
+    "procvičení"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Efektivní strategie učení",
+    "Sebeorganizace a plánování vlastního rozvoje"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "materials": [
+    "seznam slov pro každého žáka"
+  ],
+  "procedure": "V předchozí aktivitě jste se seznámili s několika strategiemi, jak si něco zapamatovat, jaké to byly? (Udělat si systém a učit se max. sedm prvků.) Zapíšeme tyto strategie na plakát s mozkem. Nyní dostanete podobný seznam slov a vaším úkolem je opět naučit se jej co nejlépe nazpaměť a přitom tyto strategie použít. Napište krok po kroku, co uděláte, poté, co uvidíte seznam slov? Přečteme si to a objevíme skupiny. Vypíšeme si, co patří do jednotlivých skupin. Přeříkáme si zpaměti slova z jednotlivých skupin. Přeříkáme si zpaměti, jaké jsou tam skupiny. Co se vyplácí, když se nechcete moc zdržet při psaní názvů skupin a prvků, které do nich patří? (Nepsat celá slova, ale jen zkratky.) Rozdáme žákům seznamy slov a necháme je pracovat na úkolu 6 minut. Časový limit je delší, protože použití této strategie v některých případech zabere o něco více času, zapamatování však bude trvalejší. Chceme, aby si všichni žáci stihli vyzkoušet tento postup a zažili úspěch.\n2. seznam slov\nVánoce, lednice, oheň, Karel IV, smrk, letadlo, vítr, pračka, Jan Lucemburský, mixér, autobus, Zikmund, jedle, myčka, tramvaj, metro, voda, Silvestr, borovice, Václav IV, Velikonoce, Nový rok, mikrovlnná trouba.",
+  "source": {
+    "label": "Odyssea — kurz Jak se učit efektivně (s. 17)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Jak-se-ucit-efektivne.-2.-stupen-ZS.pdf#page=18",
+    "note": "Zdroj aktivity uvedený v metodice: LAIROVÁ, Sylvie. Trénink paměti. Principy, metody a cvičení pro využití a rozvoj paměti. Praha: Portál, 1999, s."
+  }
+}

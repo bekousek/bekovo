@@ -118,3 +118,50 @@ musí se stejně změnit i kopie uvnitř `OsvFilterBar.astro`.**
 
 Čtyři položky s `notes` začínající „Ukázková karta" jsou jen demo, aby nebyly
 kategorie prázdné. Klidně je smaž.
+
+## Odyssea — jak vznikly karty aktivit
+
+Metodiky Projektu Odyssea (39 PDF z `odyssea.cz/metodiky/lekce-a-kurzy/`) mají
+uvnitř zásobníky konkrétních aktivit. Karty z nich nejsou psané ručně — text se
+vytahuje přímo z PDF, aby na kartě nebylo nic vymyšleného.
+
+Skripty jsou pracovní, žijí mimo repozitář (`/tmp/split.mjs` parser,
+`/tmp/gen2.mjs` generátor). Když je bude potřeba spustit znovu, musí se PDF
+nejdřív stáhnout a převést na text (pdfjs-dist, značky `===== STRANA N =====`).
+
+**Co parser musí zvládnout**, protože sazba se mezi metodikami liší:
+
+| Rozdíl | Varianty v korpusu |
+|---|---|
+| nadpis aktivity | `A1 Název`, `A 1 Název`, `A.1 Název`, `2.4 NÁZEV`, holý `NÁZEV` verzálkami |
+| název pole | `Postup`, `Postup:`, `Postup: hodnota`, `Věk 10 +` (bez dvojtečky) |
+| název postupu | `Postup`, `Popis postupu`, `Popis`, `Průběh` |
+| víceřádkový nadpis | verzálky zalomené přes dva řádky se spojují |
+
+Režim se pozná z dokumentu: pole bez dvojtečky se povolí, teprve když se
+v textu najdou aspoň tři jednoznačné výskyty (`Čas 45 min`, `Věk 10 +`).
+
+**Co se z karet vyřazuje:**
+
+- aktivita bez rozepsaného postupu (pod 120 znaků) — v metodice je jen odkaz
+  na cizí knihu, karta by nebyla k ničemu (např. 11.7 „Krokodýlí řeka“);
+- aktivita, jejíž pole `Věk` končí pod 6. ročníkem. Lekce 1.2 a 11.3 značí věk
+  **vzdělávacími obdobími** (1. = 1.–3. roč., 2. = 4.–5. roč., 3. = 6.–9. roč.),
+  ne ročníky — bere se jen to, co má „3. období“;
+- organizační bloky kurzů (zarámování dne, evaluační dotazník, práce
+  s hodnotícími archy);
+- duplicity — kurzy přebírají aktivity z lekcí, drží se první výskyt.
+
+**Odkaz vede přímo na stránku aktivity** (`…pdf#page=N`). Tištěné číslo strany
+je v celé řadě o jedna nižší než stránka PDF; popisek zdroje uvádí tištěné,
+odkaz stránku PDF.
+
+**Kde se dělit nedá** (a proč zůstává jen karta celé metodiky):
+
+- 2.1 a 3.3 — popisy aktivit jsou v PDF obrázky, textová vrstva má jen nadpis
+  a `Zdroj`; totéž platí pro většinu aktivit v 2.2;
+- 4.4, 8.4, 8.5, 8.10 — nemají zásobník aktivit, obsah je souvislý
+  „Doporučený postup“ k celému tématu;
+- 11.2 a 3.2 — koncepty lekce, jen „Tipy na aktivity“ v bodech;
+- Čítanka, Úvodní kapitoly, Zdravotnický kurz — teorie;
+- materiály pro 1. stupeň a mateřské školy.

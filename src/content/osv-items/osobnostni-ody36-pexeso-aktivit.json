@@ -1,0 +1,37 @@
+{
+  "id": "osobnostni-ody36-pexeso-aktivit",
+  "categoryId": "osobnostni-rozvoj",
+  "title": "Pexeso aktivit",
+  "description": "Žák si vyzkouší, jak se cítí při zdolávání větší vzdálenosti pravidelným střídáním chůze a běhu.",
+  "keywords": [
+    "vůle",
+    "pohyb",
+    "vytrvalost",
+    "pexeso",
+    "aktivit"
+  ],
+  "type": "hra",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Sebeorganizace a plánování vlastního rozvoje",
+    "Odolnost a psychohygiena"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "Dvakrát 45 minut, dvě vyučovací hodiny.",
+  "materials": [
+    "Kartičky s pohybovými aktivitami, jejich pozitivy a negativy."
+  ],
+  "procedure": "Varianta A: Můžeme využít kartiček s pohybovými činnostmi z předcházející aktivity C2. Na jiné kartičky napíšeme pozitiva těchto aktivit. Všechny kartičky rozmístíme po místnosti a žáci se snaží najít vždy k sobě odpovídající dvojice. Pokud chceme udělat hru obtížnější, doplníme soubor kartiček o negativa a žáci pak hledají trojice. Varianta B: Využijeme kartiček pouze s vypsanými aktivitami a žáci se snaží najít dvojice vhodných doplňkových (vyrovnávacích) aktivit.",
+  "source": {
+    "label": "Odyssea — Lekce 3.6, aktivita C3 (s. 40)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-3-6-Rozvijime-vuli-pohybem.pdf#page=41"
+  },
+  "notes": "Věk uvedený v metodice: Aktivitu lze zařadit od šesti let věku.."
+}

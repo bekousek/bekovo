@@ -1,0 +1,38 @@
+{
+  "id": "socialni-ody101-tatkovo-kolo",
+  "categoryId": "socialni-eticky-rozvoj",
+  "title": "Taťkovo kolo",
+  "description": "Odvaha, rozhodnost, koordinace",
+  "keywords": [
+    "řešení problémů",
+    "výzva",
+    "spolupráce",
+    "důvěra",
+    "taťkovo"
+  ],
+  "type": "aktivita",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "rvpAreas": [
+    "Zvládání konfliktů",
+    "Spolupráce a kooperace"
+  ],
+  "files": [],
+  "status": "namet",
+  "added": "2026-08-28",
+  "duration": "15 minut",
+  "materials": [
+    "10metrové lano, karabina, lanová smyčka"
+  ],
+  "procedure": "Příprava: Ve výšce asi 8 metrů nad zemí upevnit přes lanovou smyčku a karabinu lano. K upevnění lana můžeme využít i větev. Konstrukce musí umožnit, abychom vhodným odrazem strom obkroužili z jedné strany na druhou. Úkolem je obkroužit strom z jednoho vyznačeného místa na druhé, aniž bychom se dostali se stromem do kontaktu. Jedinec se několika kroky rozběhne a odrazí tak, aby na laně plynule opsal elipsu kolem stromu. Ihned po odrazu se musí přitáhnout a udržet se ve shybu. Ideální je, když je po celou dobu letu čelem ke stromu. Pokud se kyv nezdaří, ztlumí dopad pružně nohou o kmen stromu. Vrací-li se zády ke kmenu, musí dva zachránci kontakt se stromem ztlumit. Za technicky správný pokus považujeme přistání na druhé straně stromu bez cizí dopomoci.\n\nVarianta: * Stejné cvičení můžeme provádět na stromech v lese. Vyznačíme místo odrazu a hranici, za kterou se musí doletět. Je to jednodušší a zcela bezpečná verze pro děti i starší účastníky. To je verze, kterou bychom měli začínat. * Skupina s dobrou koordinací a odvahou může zkoušet dvojnásobné obkroužení stromu nebo dokonce oblet na jedné ruce.",
+  "source": {
+    "label": "Odyssea — Lekce 10.1, aktivita C4 (s. 84)",
+    "url": "https://odyssea.cz/wp-content/uploads/2023/07/Lekce-10-1-Resime-problemy-a-prijimame-vyzvy.pdf#page=85",
+    "note": "Zdroj aktivity uvedený v metodice: NEUMAN,Jan Dobrodružné hry a cvičení v přírodě."
+  },
+  "notes": "Věk uvedený v metodice: od 12 let."
+}
