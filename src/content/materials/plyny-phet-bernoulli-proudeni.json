@@ -1,0 +1,9 @@
+{
+  "id": "plyny-phet-bernoulli-proudeni",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Tlak kapaliny a průtok – PhET simulace Bernoulliho jevu",
+  "type": "applet",
+  "description": "Simulace PhET ukazuje vztah mezi rychlostí proudění a tlakem v potrubí (Bernoulliho princip). Žáci mění průřez potrubí a sledují, jak roste rychlost a klesá tlak – analogie k proudění vzduchu kolem křídla nebo střechy. Dostupná v češtině přímo na PhET.",
+  "url": "https://phet.colorado.edu/cs/simulations/fluid-pressure-and-flow"
+}

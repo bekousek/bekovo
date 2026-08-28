@@ -1,0 +1,16 @@
+{
+  "id": "plyny-auticko-po-zdi",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Autíčko jezdící po svislé stěně",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Hračkové autíčko s malým ventilátorem v podvozku přisává vzduch z úzké mezery mezi sebou a hladkou svislou plochou (sklo, tabule). Vzniklý podtlak způsobí, že atmosférický tlak ze strany hračky přimáčkne autíčko ke stěně, takže po ní může jezdit vzhůru nohama. Pokus názorně ukazuje, že atmosférický tlak nepůsobí pouze shora, ale ze všech stran rovnoměrně.",
+  "materials": [
+    "hračkové autíčko s ventilátorem a podtlakovým systémem (tzv. Wall Climber)",
+    "hladká svislá plocha – tabule, skleněné dveře nebo okno"
+  ],
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/2106/auticko-jezdici-po-zdi"
+  }
+}
