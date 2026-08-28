@@ -1,0 +1,21 @@
+{
+  "id": "castice-latky-difuze-permanganistan",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Difúze permanganistanu v teplé a studené vodě",
+  "type": "qualitative",
+  "description": "Žákovský pokus porovnávající rychlost difúze v závislosti na teplotě. Do jedné sklenice žáci nalijí studenou vodu a do druhé teplou, na hladinu každé položí kousek savého papíru a na něj nasypou několik zrnek permanganistanu draselného. Sledují, ve které sklenici se fialová barva šíří rychleji. Pokus ověřuje, že pohyb molekul — a tedy i rychlost difúze — roste s teplotou.",
+  "materials": [
+    "permanganistan draselný (KMnO₄, malé množství)",
+    "2 sklenice",
+    "teplá voda (cca 60 °C)",
+    "studená voda",
+    "2 kousky savého papíru (piják nebo kuchyňský papír)",
+    "lžička"
+  ],
+  "procedure": "Naplnit jednu sklenici studenou a druhou teplou vodou. Na hladinu každé sklenice položit kousek savého papíru tak, aby se dotýkal hladiny. Na papír opatrně nasypat 2–3 zrnka permanganistanu. Sledovat šíření fialového zbarvení v obou sklenicích a porovnat rychlost difúze.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/chemie/pokus43.htm"
+  }
+}

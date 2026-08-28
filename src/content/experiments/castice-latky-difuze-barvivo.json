@@ -1,0 +1,19 @@
+{
+  "id": "castice-latky-difuze-barvivo",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Difúze potravinářského barviva v teplé a studené vodě",
+  "type": "qualitative",
+  "description": "Žákovský pokus bez chemikálií: do jedné sklenice žáci nalijí studenou vodu a do druhé teplou, do každé pak opatrně nakápnou jednu kapku potravinářského barviva nebo vloží čajový sáček. Barvivo se v teplé vodě šíří znatelně rychleji, protože molekuly při vyšší teplotě pohybují rychleji. Pokus je zcela bezpečný a proveditelný doma, vhodný i jako domácí úkol.",
+  "materials": [
+    "2 sklenice",
+    "teplá voda (cca 50–60 °C)",
+    "studená voda",
+    "potravinářské barvivo (nebo čajový sáček)"
+  ],
+  "procedure": "Do jedné sklenice nalijeme studenou vodu, do druhé teplou. Do každé sklenice opatrně nakápneme kapku barviva (nebo vložíme čajový sáček bez pohnutí sklenicí). Sledujeme a porovnáme rychlost šíření barvy v obou sklenicích.",
+  "source": {
+    "label": "Školní příprava (Koplík)",
+    "url": "https://skolnipriprava.estranky.cz/uct/clanky/fyzika/latky-a-telesa/"
+  }
+}
