@@ -1,0 +1,20 @@
+{
+  "id": "eo-svitici-jablka-galvanclanek",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Svítící jablka – galvanický článek z ovoce",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci zasazují do jablek měděné a zinkové elektrody a zapojují je sériově, čímž vytvoří galvanický článek o napětí dostatečném pro rozsvícení LED. Pokus motivačně ukazuje, co je zdroj elektrického napětí a jak proud vzniká chemickou reakcí. Přirozeně vede k otázce, jak velký musí být proud a napětí, aby LED svítila.",
+  "materials": [
+    "5 jablek",
+    "5 měděných plátků nebo měděných drátků",
+    "5 pozinkovaných plátků nebo zinkových tyčinek",
+    "krokosvorkové vodiče",
+    "LED dioda"
+  ],
+  "procedure": "Do každého jablka zasuňte do vzdálenosti asi 4 cm měděný a zinkový plátek. Propojte jablka sériově: měď jednoho jablka → zinek dalšího. Na volné konce připojte LED diodu a sledujte, zda svítí.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://zsletohrad.cz/eu/fyzika/pokus18.htm"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "eo-phet-stavebnice-obvodov",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Stavebnice obvodů – stejnosměrný proud",
+  "type": "applet",
+  "description": "Plnohodnotná česká PhET simulace, kde žáci sami sestavují elektrické obvody z baterie, žárovek, odporů, ampérmetru a voltmetru. Lze přepnout do realistického nebo schematického zobrazení, čímž propojuje praktický pokus se schématem obvodu. Odlišuje se od PhET: Ohmův zákon – zde žáci volně sestavují celý obvod podle vlastní volby.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc"
+}
