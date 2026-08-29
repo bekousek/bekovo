@@ -1,0 +1,19 @@
+{
+  "id": "eo-zakovske-obvody-sada",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Žákovské elektrické obvody – sada základních pokusů pro 6. třídu",
+  "type": "qualitative",
+  "description": "Sada 8 žákovských pokusů sestavených přímo pro 6. třídu ZŠ. Každá skupina dostane vlastní sadu součástek a prochází pokusy postupně: přímé zapojení žárovky ke zdroji, test vodivosti předmětů ze školního pouzdra (zahrnuje objev vodivosti grafitu tužky), spínač a vypínač, sériové a paralelní zapojení dvou žárovek, přepínač (semafor) a schodišťový obvod se dvěma přepínači. Výhradně žákovský pokus – učitel kreslí schéma na tabuli, žáci ho sestavují.",
+  "materials": [
+    "2× žárovka E10 (6 V / 0,4 A) s paticí",
+    "2× vypínač, 2× přepínač, 1× spínač",
+    "plochá baterie 4,5 V nebo 3× tužkové monočlánky",
+    "krokosvorkové vodiče"
+  ],
+  "procedure": "Žáci sestavují obvody postupně podle schémat na tabuli; obvod vždy staví bez jednoho pólu baterie, nechají zkontrolovat učitelem a teprve poté obvod dokončí. Diskuse po každém pokusu: co se stane, když obvod přerušíme? Proč tužka vede proud?",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/aaa_pomucky/zakovske_elektricke_obvody_-_prirucka.pdf"
+  }
+}

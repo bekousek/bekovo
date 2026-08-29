@@ -1,0 +1,20 @@
+{
+  "id": "eo-grafitove-odpory-tuzka",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Pokusy s grafitovými odpory nakreslenými tužkou",
+  "type": "qualitative",
+  "description": "Sada experimentů, při nichž žáci kreslí grafitovou tužkou (0B nebo 1B) různě dlouhé a tlusté vodiče na čtverečkovaný papír a sledují změnu jasu žárovky nebo odporu. Základní experimenty se závislostí odporu na délce a průřezu jsou žákovské pokusy; pokročilejší varianty jako dělič napětí nebo potenciometr jsou vhodné jako demonstrační pokus. Pokus přirozeně zavádí pojmy odpor, závislost proudu na délce a průřezu vodiče.",
+  "materials": [
+    "měkká grafitová tužka (0B nebo 1B)",
+    "čtverečkovaný papír",
+    "plochá baterie nebo tužkové články",
+    "ohmmetr nebo miliampérmetr",
+    "krokodýlkové svorky s vodiči"
+  ],
+  "procedure": "Nakreslete grafitovou linku délky 5 cm. Připojte krokodýlkové svorky na oba konce a odečtěte odpor nebo proud. Zdvojte délku linky a porovnejte. Nakreslete linku stejné délky, ale dvakrát širší. Diskutujte závislost odporu na délce a průřezu vodiče.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/r/ZF/153/POKUSY-S.html"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "eo-vascak-napeti-proud-odpor",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Vaščák: Napětí, proud a odpor (animace)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace ukazující vztah mezi elektrickým napětím, proudem a odporem v jednoduchém obvodu. Žák může měnit hodnoty a sledovat, jak se ostatní veličiny okamžitě mění. Součást rozsáhlé české sbírky fyzikálních animací.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=ele_uir&l=cz"
+}
