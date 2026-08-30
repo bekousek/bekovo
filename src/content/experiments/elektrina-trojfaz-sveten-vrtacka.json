@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-trojfaz-sveten-vrtacka",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Vrtačka jako generátor — model alternátoru (Svět energie)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Vrtačka slouží jako mechanický pohon malého alternátoru — názorně demonstruje přeměnu mechanické energie na elektrickou a modeluje princip alternátoru v elektrárně. Rozsvícená žárovka nebo LED potvrzuje výrobu elektřiny. Ke stažení pracovní list pro žáky i pedagogy se vzorovým řešením.",
+  "materials": [
+    "vrtačka nebo ruční pohon",
+    "malý alternátor nebo motor zapojený jako generátor",
+    "žárovka nebo LED",
+    "ampérmetr nebo voltmetr"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/videopokusy/umi-vrtacka-vyrobit-elektrinu"
+  }
+}

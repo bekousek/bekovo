@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-trojfaz-vyfuk-napeti",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Cítíte to napětí? — výzkumný projekt o přenosu el. energie (Výfuk, 13. ročník)",
+  "description": "Třídílná seriálová úloha z korespondenčního semináře Výfuk (13. ročník, 4. série). Část 1: výpočet efektivního proudu spotřebiče ze sítě 230 V. Část 2: výpočet výkonových ztrát při přenosu na trase Praha–Brno (400 kV, vedení AlFe) — žák sám vyhledává měrný odpor materiálu. Část 3: návrh transformátoru napájeného ze trojfázové zásuvky. Doprovodný text Výfučtění XIII/IV Vysoké napětí vysvětluje teorii. Řeší se doma v průběhu série (cca 3 týdny) a odevzdává elektronicky.",
+  "source": {
+    "label": "Výfuk — 13. ročník, 4. série",
+    "url": "https://vyfuk.org/zadani/13/4"
+  }
+}

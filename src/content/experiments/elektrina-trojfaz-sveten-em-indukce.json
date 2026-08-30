@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-trojfaz-sveten-em-indukce",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Elektromagnetická indukce — základ trojfázové soustavy (Svět energie)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Pohybem magnetu v cívce vzniká střídavé napětí (Faradayův zákon) — základní princip, na němž stojí alternátor trojfázové soustavy. Pokus pracuje s bezpečným nízkým napětím, galvanometr nebo LED signalizuje vznik napětí. Ke stažení pracovní list pro žáky i pedagogy se vzorovým řešením.",
+  "materials": [
+    "tyčový magnet",
+    "indukční cívka",
+    "galvanometr nebo LED",
+    "vodiče"
+  ],
+  "procedure": "Zasouvat a vysouvat magnet do cívky, pozorovat výchylku galvanometru nebo svit LED; měnit rychlost pohybu a počet závitů.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/videopokusy/elektromagneticka-indukce-aneb-kouzlo-dratu-a-magnetu"
+  }
+}

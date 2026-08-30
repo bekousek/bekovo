@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-trojfaz-generator-trojuhelnik",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Trojfázový generátor — zapojení do hvězdy a trojúhelníku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Navazuje na panel trojfázového generátoru: ukazuje, jak se napětí z trojfázového generátoru přivádí na spotřebiče zapojené v trojúhelníku nebo hvězdě. Pokus demonstruje rozdíl mezi fázovým a sdruženým napětím a typické schéma rozvodu v budovách.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/DOTROJUHEL/POPIS.HTM"
+  }
+}

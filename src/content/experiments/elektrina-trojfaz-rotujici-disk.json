@@ -1,0 +1,17 @@
+{
+  "id": "elektrina-trojfaz-rotujici-disk",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Trojfázová soustava — model s rotujícím diskem (Piskač, VNUF)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Otočný disk se třemi kluznými kontakty rozmístěnými po 120° vytváří na třech voltmetrech napětí libovolně nízké frekvence — posun třetiny periody je snadno viditelný i pouhým okem. Pomůcka umožňuje také demonstraci sdruženého napětí (voltmetr mezi dvěma fázovými vodiči) a je bezpečná, protože pracuje s malými napětími.",
+  "materials": [
+    "otočný disk se třemi kluznými kontakty (po 120°)",
+    "tři voltmetry",
+    "nízkonapěťový zdroj střídavého napětí nebo baterie s přepínačem"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_05/05_27_Piskac.html"
+  }
+}

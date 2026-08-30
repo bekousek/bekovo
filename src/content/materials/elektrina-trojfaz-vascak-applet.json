@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-trojfaz-vascak-applet",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Třífázový generátor — animace (Vaščák, Fyzika ve škole)",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace trojfázového generátoru z kolekce RNDr. Vladimíra Vaščáka (Physics at School). Vizualizuje princip výroby trojfázového střídavého napětí — tři vinutí otočená o 120° a vznik tří sinusových průběhů. Česky, bez instalace, vhodné k přímé projekci v hodině.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mag_generator&l=cz"
+}
