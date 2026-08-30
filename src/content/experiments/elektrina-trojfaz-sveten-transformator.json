@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-trojfaz-sveten-transformator",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Model transformátoru — změna počtu závitů mění napětí (Svět energie)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Dvě cívky s různým počtem závitů na společném železném jádře demonstrují princip transformátoru: trojfázová přenosová soustava využívá blokové transformátory ke zvýšení napětí pro dálkový přenos a k jeho snížení pro domácí rozvody (230/400 V). Ke stažení pracovní list pro žáky i pedagogy se vzorovým řešením.",
+  "materials": [
+    "dvě cívky s různým počtem závitů",
+    "železné jádro nebo feritový toroid",
+    "střídavý zdroj nízkého napětí",
+    "voltmetry (2×)"
+  ],
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/videopokusy/chces-li-zmenit-napeti-zmen-pocet-zavitu"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-trojfaz-walterfedt-generator",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Elektrický generátor (alternátor) — HTML5 applet (Walter Fendt, česky)",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta v češtině animující otáčení závitu v magnetickém poli a vznik střídavého napětí. Žák může měnit rychlost otáčení a přepínat mezi alternátorem a dynamem. Přehledný úvod k principu, na němž je trojfázová soustava postavena.",
+  "url": "https://www.walter-fendt.de/html5/phcz/generator_cz.htm"
+}
