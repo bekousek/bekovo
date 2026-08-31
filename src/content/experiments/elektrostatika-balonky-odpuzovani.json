@@ -1,0 +1,11 @@
+{
+  "id": "elektrostatika-balonky-odpuzovani",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Balónky a elektrostatika — odpuzování a přitahování",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dva nafukovací balónky se zelektrují třením o oděv a přivážou na konce provázku (cca 1 m) drženého uprostřed — balónky se zřetelně odpuzují (souhlasné náboje). Vložíme-li ruku mezi ně, oba se k ní přitáhnou (elektrostatická polarizace nenabitého tělesa). Pokus elegantně předvede oba základní projevy elektrického náboje — odpuzování i přitahování — v jediném jednoduchém experimentu.",
+  "materials": ["nafukovací balónky (2 ks)", "provázek (cca 1 m)"],
+  "procedure": "Nafouknout oba balónky. Třením o oděv zelektrovat. Přivázat na konce provázku a držet uprostřed — sledovat odpuzování. Vložit ruku mezi balónky — sledovat přitahování k ruce.",
+  "source": { "label": "VNUF", "url": "http://vnuf.cz/sbornik/prispevky/12-15-Onderova.html" }
+}
