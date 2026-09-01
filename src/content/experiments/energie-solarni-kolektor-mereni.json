@@ -1,0 +1,22 @@
+{
+  "id": "energie-solarni-kolektor-mereni",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Sluneční kolektor — měření přeměny zářivé energie na tepelnou",
+  "type": "measurement",
+  "description": "Žákovský pokus (provádějí žáci ve skupinách). Žáci sestaví jednoduchý plochý sluneční kolektor z tepelně izolované krabice, průhledné hadičky a malého čerpadla; vodou cirkulující hadicí ozářenou sluncem (nebo halogenovou lampou) měří teplotu na vstupu a výstupu ve 2minutových intervalech. Naměřená data zaznamenají do grafu a diskutují přeměnu zářivé energie na vnitřní energii vody a pojem účinnosti kolektoru. Propojuje fyziku s environmentální výchovou.",
+  "materials": [
+    "tepelně izolovaná krabice (např. polystyrenová)",
+    "skleněná deska nebo průhledná fólie",
+    "průhledná hadička (1–2 m)",
+    "malé čerpadlo na cirkulaci vody (např. stěračové čerpadlo)",
+    "nádoba na vodu",
+    "2 teploměry nebo teplotní čidla",
+    "halogenová lampa (náhrada slunce v učebně)"
+  ],
+  "procedure": "Sestavit kolektor (hadička vedená tepelně izolovanou krabicí překrytou sklem), spustit čerpadlo, zaznamenávat teploty na vstupu a výstupu každé 2 minuty po dobu 20 minut, vykreslit graf T = f(t) a diskutovat, kde se energie přeměňuje a co ovlivňuje účinnost.",
+  "source": {
+    "label": "Metodický portál RVP — fyzika",
+    "url": "https://clanky.rvp.cz/clanek/22044/FYZIKA-A-ENVIRONMENTALNI-VYCHOVA-2-ENERGIE-SLUNCE.html"
+  }
+}
