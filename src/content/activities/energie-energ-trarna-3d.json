@@ -1,0 +1,12 @@
+{
+  "id": "energie-energ-trarna-3d",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Větrná Energ-trárna — model přeměn kinetické a potenciální energie",
+  "type": "other",
+  "description": "Žáci (nebo učitel předem) sestaví 3D tištěný větrný mlýnek, který zachytává kinetickou energii proudícího vzduchu a ukládá ji zdvihem ozubeného pásku jako gravitační potenciální energii. Uložená energie se posléze uvolní a znovu roztočí vrtuli — model tak názorně demonstruje celý cyklus kinetická → potenciální → kinetická energie. Aktivita propojuje fyzikální pojmy přeměn energie s tématem obnovitelných zdrojů a ukládání energie.",
+  "source": {
+    "label": "Fyzikář 3D (Karel Havlíček, MFF UK)",
+    "url": "https://fyzikar3d.wordpress.com/2018/01/18/vetrna-energ-trarna/"
+  }
+}

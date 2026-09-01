@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-naklonena-rovina",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Walter Fendt: Nakloněná rovina — práce a energie",
+  "type": "applet",
+  "description": "Applet simuluje pohyb tělesa po nakloněné rovině se zobrazením všech složek sil. Žák mění úhel sklonu, hmotnost a koeficient tření a sleduje, jak se mění potřebná hnací síla a tedy vykonaná mechanická práce. Propojuje pojmy síla, práce a potenciální energie na klasickém příkladu vhodném pro výpočtové úlohy.",
+  "url": "https://www.walter-fendt.de/html5/phcz/inclinedplane_cz.htm"
+}
