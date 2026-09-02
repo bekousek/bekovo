@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-7-tlak-karton-tuzka",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Proražení kartonu tužkou",
+  "type": "qualitative",
+  "description": "Žáci ve dvojicích se pokoušejí prorazit papírový karton nejprve ostrým hrotem tužky, poté tupým koncem při přibližně stejné přitlačené síle. Žákovský pokus přímo demonstruje vztah p = F/A: menší plocha hrotu vytvoří větší tlak a karton prorazí snadněji. Žáci formulují závěr vlastními slovy a zapíší jej do sešitu.",
+  "materials": [
+    "papírový karton (silnější lepenka)",
+    "tužka s ostrým hrotem"
+  ],
+  "procedure": "Každá dvojice dostane kus kartonu a tužku. Střídavě tlačí na karton (1) hrotem tužky a (2) plochým koncem (nebo gumou) tužky při stejně odhadnuté síle. Porovnají výsledek a formulují závěr: při stejné síle závisí tlak na ploše kontaktu.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/k/z/1731/POJEM-TLAK---PRUBEH-LEKCE.html"
+  }
+}
