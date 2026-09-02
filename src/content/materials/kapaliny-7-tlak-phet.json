@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-7-tlak-phet",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Tlak kapaliny a průtoku",
+  "type": "applet",
+  "description": "Interaktivní HTML5 simulace PhET (Univerzita Colorado), lokalizovaná do češtiny. Žák zkoumá, jak se mění tlak v kapalině v závislosti na hloubce, tvaru nádoby a hustotě kapaliny. Lze přepínat různé konfigurace nádob a měřit tlak sondou — ideální úvod k pojmu p = F/A i k přechodu na hydrostatický tlak. Simulace je zdarma a nevyžaduje instalaci.",
+  "url": "https://phet.colorado.edu/cs/simulations/fluid-pressure-and-flow"
+}

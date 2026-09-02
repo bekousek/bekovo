@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-7-tlak-fendt",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Walter Fendt: Hydrostatický tlak v kapalinách",
+  "type": "applet",
+  "description": "Česky lokalizovaná HTML5 simulace zobrazující manometr s pružnou membránou. Žák pohybuje manometrem do různých hloubek a sleduje, jak se membrána deformuje a jak stoupá hladina v trubici — přímé měření hydrostatického tlaku. Lze volit z přednastavených kapalin nebo zadat vlastní hustotu; simulace zobrazuje aktuální tlak a demonstruje vzorec p = h·ρ·g.",
+  "url": "https://www.walter-fendt.de/html5/phcz/hydrostaticpressure_cz.htm"
+}
