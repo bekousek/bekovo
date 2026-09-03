@@ -1,9 +1,9 @@
 {
   "id": "magnetismus-phet-magnet-kompas",
-  "subtopicId": "magnety",
+  "subtopicId": "magneticke-pole-zeme",
   "topicId": "magnetismus",
-  "title": "PhET: Magnet a kompas",
+  "title": "PhET — Magnet a kompas (HTML5, česky)",
   "type": "applet",
-  "description": "Simulace v češtině zobrazuje magnetické pole tyčového magnetu pomocí kompasů a siločar. Žáci vidí, jak se střelka kompasu natáčí podle pole a kde je pole u pólů nejsilnější.",
+  "description": "Interaktivní HTML5 simulace PhET (Univerzita Colorado) plně přeložená do češtiny. Žák pohybuje kompasem kolem tyčového magnetu, sleduje silové čáry a měří magnetické pole virtuálním měřičem. Funkce 'Přidat Zemi' zobrazí, že zemský magnetický dipól odpovídá tyčovému magnetu — magnetický jižní pól Země leží u geografického severního pólu. Simulace přímo propojuje magnetické pole tyčového magnetu s magnetickým polem Země a ukazuje funkci kompasu.",
   "url": "https://phet.colorado.edu/cs/simulations/magnet-and-compass"
 }
