@@ -66,11 +66,15 @@
     "2026-08-14-kapaliny-7--pascaluv-zakon",
     "2026-08-16-mechanika--vykon",
     "2026-08-18-mikrosvet--atom-a-jeho-modely",
-    null,
     "2026-08-22-sila--gravitacni-a-tihova-sila",
     "2026-08-24-tepelne-motory--parni-stroj",
     "2026-08-21-pohyb--druhy-pohybu",
-    "2026-08-27-astronomie--nocni-obloha"
+    "2026-08-27-astronomie--nocni-obloha",
+    "2026-08-15-magnetismus--magnety",
+    "2026-08-17-mereni--objem",
+    "2026-08-19-optika--faze-mesice-zatmeni",
+    "2026-08-20-plyny-7--atmosfera",
+    "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek"
   ],
   "history": [
     {
@@ -696,6 +700,56 @@
       "processedAt": "2026-08-28T12:25:06.363Z",
       "files": 18,
       "note": "manifest has no ledgerEntry so integrity gate cannot verify; content also pushed separately as branch routine/nightly-2026-08-27-astronomie--nocni-obloha"
+    },
+    {
+      "manifestId": "2026-08-15-magnetismus--magnety",
+      "subtopic": "magnetismus--magnety",
+      "branch": "routine/nightly-2026-08-15-magnetismus--magnety",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/102",
+      "merged": true,
+      "processedAt": "2026-09-04T12:15:23.070Z",
+      "driveFileId": "",
+      "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
+    },
+    {
+      "manifestId": "2026-08-17-mereni--objem",
+      "subtopic": "mereni--objem",
+      "branch": "routine/nightly-2026-08-17-mereni--objem",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/103",
+      "merged": true,
+      "processedAt": "2026-09-04T12:15:23.070Z",
+      "driveFileId": "",
+      "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
+    },
+    {
+      "manifestId": "2026-08-19-optika--faze-mesice-zatmeni",
+      "subtopic": "optika--faze-mesice-zatmeni",
+      "branch": "routine/nightly-2026-08-19-optika--faze-mesice-zatmeni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/104",
+      "merged": true,
+      "processedAt": "2026-09-04T12:15:23.070Z",
+      "driveFileId": "",
+      "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
+    },
+    {
+      "manifestId": "2026-08-20-plyny-7--atmosfera",
+      "subtopic": "plyny-7--atmosfera",
+      "branch": "routine/nightly-2026-08-20-plyny-7--atmosfera",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/105",
+      "merged": true,
+      "processedAt": "2026-09-04T12:15:23.070Z",
+      "driveFileId": "",
+      "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
+    },
+    {
+      "manifestId": "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
+      "branch": "routine/nightly-2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/106",
+      "merged": true,
+      "processedAt": "2026-09-04T12:15:23.070Z",
+      "driveFileId": "",
+      "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
     }
   ]
 }
