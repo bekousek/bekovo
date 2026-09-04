@@ -1,0 +1,19 @@
+{
+  "id": "mechanika-prace-esero-krater",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Impakt! Udělej si vlastní kráter — práce a kinetická energie dopadajícího tělesa",
+  "type": "qualitative",
+  "description": "Žákovský pokus: Žáci ve skupinách simulují vznik impaktních kráterů — spouštějí tělíska z různých výšek do vrstvy písku nebo mouky a měří průměr vzniklého kráteru. Pozorují, jak výška pádu (a tedy kinetická energie = práce vykonaná tíhovou silou) ovlivňuje velikost dopadu. Pracovní listy zahrnují i výpočet kinetické energie v okamžiku dopadu. Mezipředmětový přesah do zeměpisu a astronomie (meteority, krátery na Měsíci).",
+  "materials": [
+    "písek nebo mouka (pro modelování povrchu)",
+    "různě velká tělíska simulující meteority",
+    "pravítko",
+    "pracovní list (ke stažení z ESERO ČR)"
+  ],
+  "procedure": "Připravte vrstvu písku nebo mouky jako modelový povrch (výška ~5 cm). Spouštějte tělíska z různých výšek (0,3 m; 0,6 m; 1,0 m) a měřte průměr a hloubku vzniklého kráteru. Výsledky zapište do tabulky a porovnejte vliv výšky pádu a hmotnosti tělíska na velikost kráteru.",
+  "source": {
+    "label": "ESERO ČR",
+    "url": "https://www.eserocz.cz/materialy-pro-vyuku/udelej-si-vlastni-krater"
+  }
+}
