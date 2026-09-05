@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hmotnost-phet-pruziny",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "PhET: Hmotnosti a pružiny — základy",
+  "type": "applet",
+  "url": "https://phet.colorado.edu/cs/simulations/masses-and-springs-basics",
+  "description": "Česky lokalizovaná HTML5 simulace, kde žáci zavěšují závaží různé hmotnosti na pružiny a sledují prodloužení úměrné hmotnosti — analogie pružinové váhy. Simulace obsahuje i neznámá závaží, jejichž hmotnost žáci určují porovnáváním s kalibrovanými závažími. Lze přepnout prostředí na jiné planety a porovnat, jak se mění tíha při stejné hmotnosti."
+}

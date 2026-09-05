@@ -1,0 +1,9 @@
+{
+  "id": "mereni-hmotnost-vascak-paka",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Vaščák: Rovnováha na páce",
+  "type": "applet",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mech_paka&l=cz",
+  "description": "HTML5 animace zobrazující rovnoramennou páku s možností umísťovat závaží na různá místa ramene. Žáci experimentálně ověřují podmínku rovnováhy a intuitivně srovnávají hmotnosti předmětů — základ principu rovnoramenných vah. Jde o odlišnou aplikaci než PhET Balancing Act, zaměřenou spíše na páku a podmínku rovnováhy."
+}

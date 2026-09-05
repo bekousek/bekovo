@@ -1,0 +1,11 @@
+{
+  "id": "mereni-hmotnost-vaha-domaci-vyroba",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Domácí výroba váhy a měření malých hmotností",
+  "description": "Žák si doma sestrojí jednoduché rovnoramenné váhy z nitě, gumiček a špejlí. Jako kalibrační závaží používá listy papíru A4 (přibližně 5 g na list) nebo A5 (přibližně 2,5 g na list), jejichž plošná hmotnost je standardizovaná. Pomocí vlastnoručně vyrobené váhy měří hmotnosti drobných předmětů (sponky, knoflíky, mince) a výsledky zapisuje do tabulky. Projekt lze rozšířit o sérii měření různě velkých předmětů a grafické porovnání výsledků.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/skola-doma/"
+  }
+}
