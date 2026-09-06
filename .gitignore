@@ -46,3 +46,7 @@ _queue/
 # Lokální Claude Code metadata (cesty, nástroje, folder ID) — do veřejného repa nepatří
 .claude/settings.local.json
 .claude/worktrees/
+
+# wrangler
+.wrangler
+.dev.vars*
