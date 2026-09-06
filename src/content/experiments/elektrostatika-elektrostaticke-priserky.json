@@ -1,0 +1,11 @@
+{
+  "id": "elektrostatika-elektrostaticke-priserky",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrostatické příšerky z mikrotenového sáčku",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Z mikrotenového (polyethylenového) sáčku se nastříhají tvary — příšerky s chapadélky. Zelektrované třením o vlasy nebo suchou dlaň se příšerka přilne k holé paži nebo stěně a obtížně opadá. Ze stejného materiálu lze vyrobit elektrostatický mop: proužky sáčku navinuté na tyčce sbírají drobné nečistoty. Pokus demonstruje přitahování nabitého tělesa k tělesu nenabitému vlivem elektrostatické polarizace.",
+  "materials": ["mikrotenové sáčky", "nůžky", "tyčka (volitelně pro výrobu mopu)"],
+  "procedure": "Z mikrotenového sáčku nastříhat tvary (kruhy, proužky, chapadélka). Třením o vlasy nebo suchou dlaň zelektrovat. Přiložit k holé paži nebo stěně a sledovat přilnutí. Varianta mopu: navinout proužky na tyčku, zelektrovat, přiložit k drobnému prachu a sledovat sbírání nečistot.",
+  "source": { "label": "VNUF", "url": "http://vnuf.cz/sbornik/prispevky/05-23-Pachlova.html" }
+}

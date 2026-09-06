@@ -1,0 +1,11 @@
+{
+  "id": "elektrostatika-elektricky-akrobat",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Elektrický akrobat",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Z průklepového papíru se vystřihne figurka akrobata a navleče na nit zavěšenou mezi dvěma opěradly židlí. Nabitým plastovým pravítkem (zelektrovaným třením o oděv) přiblíženým k figurce se figurka rozhoupá a začne se otáčet kolem niti. Jev je způsoben elektrostatickou polarizací: nabité pravítko přitahuje nenabitý papír. Pokus lze rozšířit tak, že každé dítě vyrobí vlastní figurku a všechny se navlečou na jeden společný provázek.",
+  "materials": ["průklepový nebo tenký papír", "nit (cca 50 cm)", "jehla", "dvě židle", "plastové pravítko"],
+  "procedure": "Vystřihnout figurku akrobata. Protáhnout jehlou nit, zavěsit nit mezi dvě opěradla. Zelektrovat pravítko třením o oděv. Pomalu přibližovat pravítko k figurce a sledovat přitahování a otáčení.",
+  "source": { "label": "VNUF", "url": "http://vnuf.cz/sbornik/prispevky/02-28-Vesely.html" }
+}

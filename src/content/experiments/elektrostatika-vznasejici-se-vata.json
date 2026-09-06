@@ -1,0 +1,11 @@
+{
+  "id": "elektrostatika-vznasejici-se-vata",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Vznášející se vata",
+  "type": "qualitative",
+  "description": "Žákovský pokus (vhodný i jako domácí). Vatička potřená grafitovou tužkou se přitáhne na zelektrovanou plastovou trubku; po prudkém strhnutí trubku rychle podstrčíme pod padající vatu — vata se vznáší nad trubkou. Jev vzniká proto, že vata při dotyku přijala stejný náboj jako trubka a souhlasné náboje se odpuzují. Dramatická a srozumitelná demonstrace odpuzování souhlasných nábojů s materiály z domácnosti.",
+  "materials": ["plastová trubka nebo skleněná tyč", "vata", "grafitová tužka (tuha)"],
+  "procedure": "Vatičku lehce potřít grafitovou tužkou. Přiblížit zelektrovanou trubku — vata se přitáhne a nalepí na ni. Prudkým pohybem vatičku strhnout, vzápětí rychle podstrčit trubku pod padající vatu. Sledovat, jak se vata vznáší nad trubkou.",
+  "source": { "label": "VNUF", "url": "http://vnuf.cz/sbornik/prispevky/04-11-Lansky.html" }
+}
