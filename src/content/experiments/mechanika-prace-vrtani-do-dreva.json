@@ -1,0 +1,18 @@
+{
+  "id": "mechanika-prace-vrtani-do-dreva",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Vrtání do dřeva — práce přeměněná na teplo rotačním pohybem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel vrtá ruční vrtáčkou do prkna; vyvrtané třísky a okolí otvoru jsou teplé na dotek. Síla vrtáku působí přes dráhu otáčení (práce W = F·s v rotační podobě), tato práce se přemění na teplo. Pokus ilustruje, že práce může být konána i rotačním pohybem a že výsledkem práce nemusí být viditelný posun tělesa — může být zahřátí materiálu. Vhodné jako doplňkový příklad při výkladu pojmu fyzikální práce.",
+  "materials": [
+    "ruční vrtáčka nebo ruční vrták",
+    "prkno",
+    "svěrák nebo pevná podložka"
+  ],
+  "procedure": "Vrtejte do prkna po dobu přibližně 15 sekund. Bezprostředně po vrtání se opatrně dotkněte třísky nebo vyvrtaného otvoru — cítíte teplo? Prodiskutujte se žáky, kde se vzala energie a jak se projevila práce vrtáku.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1588/zmena-vnitrni-energie-konanim-prace:-vrtani-do-dreva"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "mechanika-prace-zatloukani-hrebiku",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Zatloukání hřebíku — práce se mění na teplo",
+  "type": "qualitative",
+  "description": "Demonstrační pokus prováděný učitelem: Kladivo opakovaně zasazuje hřebík do dřevěného špalku. Každý úder koná práci (W = F·s), která se přemění na teplo — hřebík se po zatloukání znatelně zahřeje. Pokus zřetelně demonstruje, že práce je konána pokaždé, když síla způsobuje přemístění tělesa, a vizuálně ověřitelný výsledek (teplo hřebíku) potvrzuje energetickou bilanci. Vhodné jako motivační demonstrace při uvádění pojmu fyzikální práce.",
+  "materials": [
+    "kladivo",
+    "hřebíky",
+    "dřevěný špalek"
+  ],
+  "procedure": "Zatloukejte hřebík do dřeva. Po zatloukání nechte žáky opatrně sáhnout na hřebík (pozor na teplotu). Diskutujte: jaká síla konala práci, jaká byla dráha, kam šla energie?",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1589/zmena-vnitrni-energie-konanim-prace:-zatloukani-hrebiku"
+  }
+}

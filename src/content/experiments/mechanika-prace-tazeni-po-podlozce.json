@@ -1,0 +1,20 @@
+{
+  "id": "mechanika-prace-tazeni-po-podlozce",
+  "subtopicId": "prace",
+  "topicId": "mechanika",
+  "title": "Tažení předmětu po podložce — práce a zahřátí povrchu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: Učitel táhne závaží nebo dřevěnou kostku po různých podložkách pomocí dynamometru, odečítá sílu a měří dráhu. Vypočítaná práce W = F·s se přeměňuje na teplo třením — podložka a závaží se po přetažení hmatatelně zahřejí. Pokus výborně ukazuje, kdy se práce koná (síla působí ve směru pohybu), a zároveň propojuje mechaniku s termodynamikou. Porovnání třecí síly na různých površích (papír, plast, koberec) dává žákům data k výpočtu práce.",
+  "materials": [
+    "závaží nebo dřevěná kostka",
+    "dynamometr",
+    "různé podložky (papír, koberec, plast)",
+    "pravítko nebo metr",
+    "teploměr nebo termokamera (volitelně)"
+  ],
+  "procedure": "Položte závaží na různé povrchy, pomocí dynamometru je táhněte rovnoměrně po dráze 0,5 m a odečtěte potřebnou sílu. Vypočítejte práci W = F·s pro každý povrch. Bezprostředně po přetažení nechte žáky opatrně sáhnout na podložku a závaží — zahřály se? Porovnejte výsledky a diskutujte, kam šla vykonaná práce.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1591/zmena-vnitrni-energie-konanim-prace:-tazeni-predmetu-po-podlozce"
+  }
+}
