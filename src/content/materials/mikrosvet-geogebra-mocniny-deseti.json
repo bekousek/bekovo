@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-geogebra-mocniny-deseti",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "GeoGebra — Mocniny deseti: vědecká notace (applet)",
+  "type": "applet",
+  "description": "Interaktivní GeoGebra applet vizualizující přechody mezi mocninami deseti ve vědecké notaci. Uživatel zkoumá, jak se čísla různých řádů zobrazují na škálové ose, a intuitivně chápe, proč jsou pro srovnání extrémně malých i velkých objektů (atom vs. člověk vs. planeta) potřeba mocniny deseti. Vhodný doplněk k tabulce hierarchie velikostí v mikrosvětě.",
+  "url": "https://www.geogebra.org/m/QVyqB35w"
+}

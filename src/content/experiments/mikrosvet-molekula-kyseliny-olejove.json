@@ -1,0 +1,21 @@
+{
+  "id": "mikrosvet-molekula-kyseliny-olejove",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Průměr molekuly kyseliny olejové",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ pokus (nebo žákovská laboratorní práce pro zdatnější skupiny): na hladinu vody posypané drceným korkem kápneme jednu kapku silně zředěného roztoku kyseliny olejové v petroleji. Petrolej se vypaří a kyselina olejová se rozteče do monomolekulární vrstvy tvořící tenký kruhový film. Žáci změří průměr kruhu a z objemu kyseliny v kapce vypočítají průměr jedné molekuly — výsledek vychází v řádu 10⁻¹⁰ m, čímž pokus přímo zhmotnuje nejmenší škálu v hierarchii mikrosvěta.",
+  "materials": [
+    "kyselina olejová",
+    "petrolej nebo líh (ředidlo, poměr ~1 : 2 000)",
+    "mělká miska (průměr ~25 cm)",
+    "drcený korek nebo lycopodium",
+    "pipeta s odměrnou stupnicí",
+    "pravítko"
+  ],
+  "procedure": "Připravit roztok kyseliny olejové v petroleji (~1 : 2 000). Zjistit počet kapek v 1 ml a odvodit objem jedné kapky. Objem kyseliny olejové v kapce = V_kapky / 2 000. Nalít do misky vodu a posypat hladinu drceným korkem. Kápnout jednu kapku do středu hladiny — korek se rozestoupí. Změřit průměr vzniklého kruhu na několika místech, vypočítat plochu S. Průměr molekuly: d = V_mol / S.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1938/prumer-molekuly-kyseliny-olejove"
+  }
+}

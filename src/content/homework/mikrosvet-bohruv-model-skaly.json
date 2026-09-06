@@ -1,0 +1,11 @@
+{
+  "id": "mikrosvet-bohruv-model-skaly",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Badatelská úloha: Škálování atomu – stadionová analogie",
+  "description": "Výzkumná (V) úloha z korespondenčního semináře Výfuk (ročník 12, série 5). Žáci řeší trojici podúloh o škálování atomu a Bohrově modelu: (1) výpočet poloměru orbity elektronu v heliovém kationtu He⁺ v ångströmech; (2) stadionové škálování — přepočet atomového jádra na rozměry fotbalového stadionu jako názorný způsob, jak pochopit, jak prázdný atom skutečně je; (3) výpočet frekvence oběhu elektronu kolem jádra. Odevzdává se písemně v rámci semináře; žáci pracují doma po dobu několika týdnů.",
+  "source": {
+    "label": "Výfuk, ročník 12, série 5",
+    "url": "https://vyfuk.org/zadani/12/5"
+  }
+}
