@@ -1,0 +1,16 @@
+{
+  "id": "magnetismus-zmagnetovane-radiatory",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Zmagnetování radiátorů ústředního topení",
+  "type": "qualitative",
+  "description": "Žákovský pokus — žáci přikládají kompas postupně k různým místům litinového nebo ocelového radiátoru a pozorují vychylování střelky. Zjišťují, které části přitahují severní a které jižní pól, čímž ověřují, že radiátor stojící dlouhodobě na místě se postupně zmagnetoval zemským magnetickým polem (inklinace v ČR ~65°). Pokus lze opakovat na více radiátorech v budově nebo doma a výsledky srovnat. Nevyžaduje žádné speciální pomůcky ani výpočty.",
+  "materials": [
+    "kompas",
+    "litinový nebo ocelový radiátor ústředního topení"
+  ],
+  "source": {
+    "label": "Metodický portál RVP — fyzika",
+    "url": "https://clanky.rvp.cz/clanek/c/ZVF/495/ZMAGNETOVANI-RADIATORU-USTREDNIHO-TOPENI.html"
+  }
+}

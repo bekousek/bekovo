@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-hrotovy-kompas",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Stavba hrotového kompasu",
+  "type": "qualitative",
+  "description": "Žákovský pokus — podle podrobného PDF návodu Václava Piskače (Fyzikální šuplík) žáci sestrojí hrotový kompas: zmagnetizovaná ocelová střelka je vyvážena na kovovém pivotu (hrotu), nikoli plovoucí na vodě. Výsledný přístroj ukazuje sever díky zemskému magnetickému poli. Hotový kompas žáci porovnají s komerčním kompasem i s plovoucím kompasem z předchozích pokusů a diskutují o výhodách a nevýhodách různých konstrukcí.",
+  "materials": [
+    "ocelová jehla nebo hřebík",
+    "magnet (k namagnetování jehly)",
+    "kovový hrot nebo špendlík (pivot)",
+    "základna (karton, polystyren nebo víčko od PET lahve)"
+  ],
+  "procedure": "Ocelovou jehlu několikrát přejet magnetem v jednom směru, aby se zmagnetizovala. Upevnit hrot (špendlík hrotem nahoru) do základny. Jehlu pinzetou opatrně položit na hrot ve vodorovné poloze a ověřit, zda se volně otáčí. Sever ukáže konec jehly, který byl při magnetizaci veden od jižního pólu magnetu.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/navody/kompas_-_navod.pdf"
+  }
+}
