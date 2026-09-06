@@ -1,0 +1,17 @@
+{
+  "id": "elektrina-trojfaz-generator-rojko",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Střídavý proud od generátoru k trojfázové soustavě — komplexní sada (Rojko, VNUF)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Příspěvek pokrývá celý tematický celek střídavého proudu pro ZŠ a SŠ, včetně demonstrace trojfázové soustavy se standardním školním vybavením. Zahrnuje: princip alternátoru, frekvenční závislost, trojfázový generátor a základy usměrnění. Vhodné jako komplexní demonstrační sada ke kapitole střídavého proudu v 9. ročníku.",
+  "materials": [
+    "školní panel alternátoru nebo funkční generátor",
+    "voltmetry a ampérmetry",
+    "standardní kabinet elektriky ZŠ"
+  ],
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/02-23-Rojko.html"
+  }
+}

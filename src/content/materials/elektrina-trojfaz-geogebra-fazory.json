@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-trojfaz-geogebra-fazory",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Trojfázová soustava — fázory vs. sinusoidy (GeoGebra)",
+  "type": "applet",
+  "description": "Animovaný GeoGebra applet dynamicky zobrazující vztah mezi třemi fázorovými vektory a jejich odpovídajícími sinusovými průběhy v trojfázové střídavé soustavě. Vizualizuje vzájemný fázový posun 120° všech tří napětí. Vhodný jako demonstrační pomůcka pod vedením učitele (anglicky, ale graficky intuitivní).",
+  "url": "https://www.geogebra.org/m/wv4rba43"
+}

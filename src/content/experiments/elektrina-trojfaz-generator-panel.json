@@ -1,0 +1,18 @@
+{
+  "id": "elektrina-trojfaz-generator-panel",
+  "subtopicId": "trojfazova-soustava",
+  "topicId": "elektrina",
+  "title": "Trojfázový generátor — demonstrační panel",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel). Panel školního trojfázového generátoru má stator ze tří cívek svírajících vzájemně 120° a rotor tvořený magnety, který se otáčí ruční klikou. Na třech voltmetrech jsou viditelné střídavé výchylky fázově posunuté o třetinu periody. Žáci sledují, že amplitudy jsou stejné, ale ukazatele nejsou soufázné — tím si vytvoří intuitivní obraz trojfázové soustavy bez práce se síťovým napětím 400 V.",
+  "materials": [
+    "panel trojfázového generátoru (školní pomůcka)",
+    "tři voltmetry (analogové)",
+    "spojovací vodiče"
+  ],
+  "procedure": "Připojit voltmetry ke třem vývodům generátoru, pomalu otáčet klikou, sledovat střídavé výchylky na voltmetrech. Zvyšovat rychlost otáčení, pozorovat závislost frekvence na otáčkách. Diskutovat fázový posun 120° (třetina periody).",
+  "source": {
+    "label": "FyzWeb",
+    "url": "https://fyzweb.cz/materialy/videopokusy/POKUSY/3FGENERATOR/POPIS.HTM"
+  }
+}
