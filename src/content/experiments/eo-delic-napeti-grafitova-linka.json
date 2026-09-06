@@ -1,0 +1,20 @@
+{
+  "id": "eo-delic-napeti-grafitova-linka",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Dělič napětí vytvořený z grafitové linky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ze sbírky KDF MFF UK. Grafitová linka nakreslená na papíru funguje jako jednoduchý potenciometr: přesunem pohyblivého kontaktu podél linky žáci mění délku aktivního vodiče a tím ovlivňují napětí na připojené LED nebo žárovce. Vizuálně přesvědčivý pokus propojující pojmy odpor, napětí a proud – žáci přímo vidí, jak závisí jas (proud) na poloze kontaktu.",
+  "materials": [
+    "měkká grafitová tužka",
+    "papír (délka linky asi 20 cm)",
+    "plochá baterie",
+    "LED nebo malá žárovka 1,5–3 V",
+    "2 krokodýlkové svorky s vodiči"
+  ],
+  "procedure": "Nakreslete grafitovou linku délky asi 20 cm. Připojte krokodýlkovou svorku pevně na jeden konec (záporný pól zdroje). Druhou svorku připojte k LED a tuto pohyblivou svorku přikládejte k různým místům grafitové linky. Sledujte změnu jasu LED.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2192/delic-napeti-vytvoreny-z-grafitove-linky"
+  }
+}

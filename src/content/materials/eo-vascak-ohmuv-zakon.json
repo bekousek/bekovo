@@ -1,0 +1,9 @@
+{
+  "id": "eo-vascak-ohmuv-zakon",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Vaščák: Ohmův zákon (animace s obvodem)",
+  "type": "applet",
+  "description": "Interaktivní animace demonstrující Ohmův zákon s nastavitelnými hodnotami odporu a napětí – žák vidí okamžitou změnu proudu. Zobrazuje schéma obvodu s ampérmetrem a voltmetrem, čímž propojuje zákon s reálným měřením v obvodu. Doplňuje simulaci PhET: Ohmův zákon, protože zobrazuje úplné schéma zapojení měřicích přístrojů.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=ele_ohm&l=cz"
+}

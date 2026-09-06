@@ -1,0 +1,12 @@
+{
+  "id": "eo-led-indikatory-proudu",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "LED jako indikátory průchodu elektrického proudu",
+  "type": "other",
+  "description": "Metodický námět z VNUF popisující využití LED diod jako levných a okamžitých vizuálních indikátorů průchodu proudu v obvodu. LED svítí pouze tehdy, pokud je zapojena správnou polaritou a obvodem teče proud nad prahovým napětím – žáci tak okamžitě vidí, zda je obvod uzavřen a zda proud skutečně teče. Aktivita slouží jako methodický nástroj pro lepší pochopení pojmu elektrický proud na začátku výukové jednotky.",
+  "source": {
+    "label": "VNUF 1998",
+    "url": "https://vnuf.cz/sbornik/prispevky/03-17-Tokar.html"
+  }
+}

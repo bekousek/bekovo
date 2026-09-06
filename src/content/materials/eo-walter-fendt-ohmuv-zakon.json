@@ -1,0 +1,9 @@
+{
+  "id": "eo-walter-fendt-ohmuv-zakon",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Walter Fendt: Ohmův zákon (HTML5 applet)",
+  "type": "applet",
+  "description": "Ověřená interaktivní HTML5 simulace zobrazující jednoduchý obvod s voltmetrem (paralelně) a ampérmetrem (sériově). Žák nastavuje odpor a napětí a sleduje naměřené hodnoty v reálném čase – výborné pro pochopení funkce měřicích přístrojů a Ohmova zákona. Plně česká lokalizace, bez nutnosti instalace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/ohmslaw_cz.htm"
+}

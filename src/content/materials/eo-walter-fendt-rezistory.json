@@ -1,0 +1,9 @@
+{
+  "id": "eo-walter-fendt-rezistory",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Walter Fendt: Zapojování rezistorů (HTML5 applet)",
+  "type": "applet",
+  "description": "HTML5 applet ukazující sériové a paralelní zapojení rezistorů – žák vidí výsledný odpor i rozložení proudu a napětí v obvodu. Propojuje téma proudu a napětí s pochopením, proč se obvody zapojují různými způsoby. Vhodné jako rozšíření pro zvídavé žáky nebo příprava na pokročilejší učivo.",
+  "url": "https://www.walter-fendt.de/html5/phcz/combinationresistors_cz.htm"
+}

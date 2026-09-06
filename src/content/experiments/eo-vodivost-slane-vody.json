@@ -1,0 +1,21 @@
+{
+  "id": "eo-vodivost-slane-vody",
+  "subtopicId": "proud-a-napeti",
+  "topicId": "elektricke-obvody",
+  "title": "Vodivost slané vody",
+  "type": "qualitative",
+  "description": "Žákovský pokus: do obvodu se zdrojem a žárovkou se zapojí nádoba s vodou z vodovodu – žárovka nesvítí, protože čistá voda nevede proud dobře. Po přidání kuchyňské soli žárovka rozsvítí, protože ionty umožní průchod elektrického proudu. Pokus propojuje téma vodič/izolant s jednoduchým elektrickým obvodem a názorně ukazuje, co průchod proudu umožňuje.",
+  "materials": [
+    "plochá baterie nebo 3× tužkový monočlánek",
+    "žárovka 2,5 V s paticí",
+    "2 vodiče s krokodýlkovými svorkami",
+    "sklenice s vodou z vodovodu",
+    "kuchyňská sůl",
+    "lžička"
+  ],
+  "procedure": "Sestavte obvod: zdroj → vodič → žárovka → vodič → dvě elektrody ponořené do sklenice s vodou. Pozorujte, zda žárovka svítí. Přidejte několik lžiček soli, míchejte a znovu pozorujte jas žárovky.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus17.htm"
+  }
+}
