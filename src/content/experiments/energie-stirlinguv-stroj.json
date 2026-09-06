@@ -1,0 +1,18 @@
+{
+  "id": "energie-stirlinguv-stroj",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Stirlingův stroj — přeměna tepelné energie na mechanickou",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel). Model Stirlingova stroje je ukázán ve dvou konfiguracích: jako tepelný motor (tepelná energie → mechanická práce) i jako tepelné čerpadlo (mechanická energie → teplotní gradient). Volitelně lze tepelné chování válce sledovat termovizní kamerou. Pokus propojuje pojmy vnitřní energie, práce a účinnost přeměny v konkrétním stroji.",
+  "materials": [
+    "model Stirlingova stroje",
+    "zdroj tepla (alkoholová lampa nebo horká voda)",
+    "termovizní kamera (volitelně)"
+  ],
+  "procedure": "Přiložit teplo k dolnímu válci — stroj se roztočí a koná mechanickou práci (konfigurace tepelného motoru). Poté otáčet pístem rukou — termokamera (nebo dotykem) ukáže vznik teplotního gradientu (konfigurace tepelného čerpadla). Diskutovat s žáky, kde se energie přeměňuje a kde se ztrácí jako teplo do okolí.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1875/stirlinguv-stroj"
+  }
+}

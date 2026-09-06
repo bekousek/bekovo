@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-srazky",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Walter Fendt: Pružná a nepružná srážka",
+  "type": "applet",
+  "description": "Interaktivní HTML5 applet ukazuje dokonale pružnou a dokonale nepružnou srážku dvou vozíků. Žák nastavuje hmotnosti a rychlosti a sleduje, jak se při různých typech srážek zachovává hybnost, ale liší se kinetická energie — nazorná ilustrace zákona zachování energie a jeho mezí při nepružné srážce.",
+  "url": "https://www.walter-fendt.de/html5/phcz/collision_cz.htm"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "energie-vascak-mechanicka-prace",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Vaščák: Mechanická práce — animace",
+  "type": "applet",
+  "description": "Animace Vladimíra Vaščáka ukazuje mechanickou práci na příkladu výtahu — žák sleduje, jak závisí vykonaná práce na velikosti síly a uražené dráze. Vizualizuje vztah W = F · s a pomáhá pochopit, kdy se práce koná a kdy ne. Vhodná jako úvodní simulace k definici mechanické práce.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mech_prace&l=cz"
+}

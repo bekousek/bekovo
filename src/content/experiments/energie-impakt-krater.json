@@ -1,0 +1,19 @@
+{
+  "id": "energie-impakt-krater",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Impakt! Udělej si vlastní kráter — kinetická energie dopadajícího tělesa",
+  "type": "measurement",
+  "description": "Žákovský pokus (provádějí žáci). Žáci vrhají různě těžké kuličky do nádoby s pískem nebo moukou z různých výšek a modelují vznik impaktních kráterů. Měří průměr a hloubku kráterů v závislosti na hmotnosti a výšce dopadu, diskutují závislost na kinetické energii tělesa při dopadu. Propojuje zákon zachování energie s kosmonautikou — přiložený pracovní list zahrnuje výpočty kinetické energie asteroidu.",
+  "materials": [
+    "nádoba s pískem nebo moukou (hloubka alespoň 10 cm)",
+    "kuličky různé hmotnosti (např. skleněné, ocelové, golfový míč)",
+    "pravítko nebo posuvné měřítko",
+    "pracovní list ESERO"
+  ],
+  "procedure": "Naplnit nádobu pískem a srovnat povrch. Z různých výšek (0,5 / 1 / 1,5 m) pouštět kuličky stejné hmotnosti — měřit průměr kráterů. Pak z stejné výšky pouštět kuličky různé hmotnosti. Zaznamenat výsledky do tabulky, vynést graf a diskutovat vazbu na kinetickou energii.",
+  "source": {
+    "label": "ESERO ČR — vzdělávací kancelář ESA",
+    "url": "https://www.eserocz.cz/materialy-pro-vyuku/udelej-si-vlastni-krater"
+  }
+}
