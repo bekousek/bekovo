@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-7-tlak-vascak",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Vaščák: Animace kapalin a tlaku",
+  "type": "applet",
+  "description": "Sbírka HTML5 animací z portálu Vladimíra Vaščáka (Physics at School) zaměřená na téma tlaku a kapalin. Dostupné jsou animace základní definice tlaku (p = F/A), hydrostatického paradoxonu (tlak nezávisí na tvaru nádoby), Pascalova zákona a hydraulického lisu. Animace jsou v češtině, bez instalace. Na stránce vyberte sekci Mechanika → Hydrostatika.",
+  "url": "https://www.vascak.cz/physicsanimations.php?l=cz"
+}

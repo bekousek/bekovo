@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-7-tlak-chodidla",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Jakým tlakem působíš na svá chodidla?",
+  "type": "measurement",
+  "description": "Žáci změří svou tělesnou hmotnost, obkreslí obě chodidla na čtverečkovaný papír a odhadnou jejich plochu sečtením čtverečků. Poté vypočítají tlakovou sílu F = m·g a tlak p = F/A v Pa. Žákovský měřicí pokus propojuje definici a vzorec tlaku s vlastním tělem; výsledky žáci ve třídě porovnávají a diskutují o vlivu druhu obuvi.",
+  "materials": [
+    "osobní váha",
+    "čtverečkovaný papír (A4)",
+    "tužka nebo fix",
+    "kalkulačka"
+  ],
+  "procedure": "1. Žák se zváží a zaznamená hmotnost m. 2. Obkreslí obě chodidla na čtverečkovaný papír, spočítá čtverečky uvnitř obrysu a odhadne plochu v cm², převede na m². 3. Vypočítá F = m·g (g ≈ 10 N/kg) a tlak p = F/A. 4. Porovná výsledky se spolužáky.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/k/z/11241/PRAKTICKY-PRISPEVEK-JAKO-INSPIRACE-NA-VYUCOVACI-HODINU-FYZIKY-S-TEMATEM-TLAKOVA-SILA-TLAK.html"
+  }
+}

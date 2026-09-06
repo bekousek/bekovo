@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-7-tlak-hrach-karton",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Bořivý pokus – hrách a čtverec z kartonu",
+  "type": "qualitative",
+  "description": "Skupiny žáků dostanou nádobu s hrachem a čtverec z kartonu (cca 10×10 cm). Žáci boří prst přímo do hrachu (bolestivý tlak), poté opřou prst přes karton položený na hrachu — tlak se znatelně sníží. Žákovský pokus fyzicky prožívanou cestou demonstruje, že zvětšením plochy (při stejné síle) se tlak zmenší — přímá aplikace p = F/A.",
+  "materials": [
+    "nádoba s hrachem nebo suchým pískem",
+    "čtverce z kartonu cca 10×10 cm"
+  ],
+  "procedure": "Žák boří ukazovák přímo do hrachu a vnímá tlak. Poté položí karton na hrách a boří prst přes karton — tlak je znatelně menší. Skupiny diskutují o důvodu rozdílu a formulují závěr o vztahu tlaku a plochy.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/k/z/1731/POJEM-TLAK---PRUBEH-LEKCE.html"
+  }
+}
