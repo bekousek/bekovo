@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-geogebra-logaritmicka-skala",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "GeoGebra — Logaritmická škála a mocniny deseti (applet)",
+  "type": "applet",
+  "description": "Interaktivní applet umožňující nastavit koeficient a exponent čísla (m × 10ⁿ) a sledovat jeho polohu na logaritmické ose. Pomáhá žákům pochopit, proč se pro srovnávání extrémně rozdílných velikostí — od atomu (10⁻¹⁰ m) přes člověka (1 m) po vzdálenosti ve vesmíru — používá logaritmická škála. Okamžitá vizuální zpětná vazba bez nutnosti pokročilé matematiky.",
+  "url": "https://www.geogebra.org/m/wk5rqpgv"
+}

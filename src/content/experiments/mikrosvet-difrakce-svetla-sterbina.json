@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-difrakce-svetla-sterbina",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Difrakce světla – proč optický mikroskop atom neuvidí",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus: světlo prochází úzkou štěrbinou nebo difrakční mřížkou a vytváří na stínítku střídavé světlé a tmavé proužky. Pokus ilustruje vlnovou délku viditelného světla (~400–700 nm) jako přirozenou délkovou škálu: protože virus i atom jsou menší než tato vlnová délka, světelným mikroskopem je neuvidíme. Propojuje téma škál mikrosvěta s fyzikálním omezením optiky a motivuje k otázce, jak vědci atomy vlastně vidí.",
+  "materials": [
+    "laserové ukazovátko nebo LED světelný zdroj",
+    "difrakční mřížka nebo úzká štěrbina",
+    "stínítko (bílý papír nebo zeď)"
+  ],
+  "procedure": "Nasměrovat světelný zdroj na difrakční mřížku; na stínítku vzniká difrakční obrazec s proužky. Učitel vede diskuzi: jaká je vlnová délka světla v nanometrech? Jak velký je atom (0,1 nm) a virus (100 nm) ve srovnání s vlnovou délkou světla (500 nm)? Proč je optický mikroskop pro pozorování atomu nedostatečný?",
+  "source": {
+    "label": "Techmania Science Center — Edutorium",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/388/ohyb-svetla"
+  }
+}

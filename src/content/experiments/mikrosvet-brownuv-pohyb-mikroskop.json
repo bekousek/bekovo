@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-brownuv-pohyb-mikroskop",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Brownův pohyb – pozorování pod mikroskopem",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus: kamera namířená do mikroskopu snímá pohyb latexových nebo inkoustových částic ve vodě a přenáší obraz na projektor či televizní obrazovku. Žáci přímo sledují chaotický trhavý pohyb způsobený nárazy neviditelných molekul vody — jev, který jinak pouhým okem nezpozorujeme. Pokus přirozeně kotví pojem mikroskopické škály (latexové částice ~1 μm) a otevírá otázku, co je ještě menší a proč to nevidíme ani mikroskopem.",
+  "materials": [
+    "světelný mikroskop s kamerou nebo tabletem",
+    "projektor nebo televize",
+    "latexové částice nebo inkoustová kapka ve vodě",
+    "podložní a krycí sklíčko"
+  ],
+  "source": {
+    "label": "Techmania Science Center — Edutorium",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium-i/359/brownuv-pohyb-mikroskop"
+  }
+}
