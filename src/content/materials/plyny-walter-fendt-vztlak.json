@@ -1,0 +1,9 @@
+{
+  "id": "plyny-walter-fendt-vztlak",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Vztlaková síla – Walter Fendt (HTML5, česky)",
+  "type": "applet",
+  "description": "Česky lokalizovaný HTML5 applet od Waltera Fendta interaktivně zobrazuje vztlakovou sílu při ponoření tělesa do prostředí. Uživatel mění rozměry tělesa, hustotu materiálu i hustotu prostředí – princip je identický pro kapaliny i vzduch. Applet lze využít k analogickému vysvětlení vztlaku horkovzdušného balónu nebo vzducholodě. Funguje přímo v prohlížeči bez pluginů.",
+  "url": "https://www.walter-fendt.de/html5/phcz/buoyantforce_cz.htm"
+}
