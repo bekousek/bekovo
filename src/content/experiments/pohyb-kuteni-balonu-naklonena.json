@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-kuteni-balonu-naklonena",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Kutálení balónu po nakloněném chodníku — nerovnoměrný pohyb",
+  "type": "measurement",
+  "description": "Žákovský pokus (venku, ~45 minut). Žáci kutálejí florbalový nebo basketbalový balón po nakloněném chodníku a stopkami měří časy průchodu balónu značkami ve vzdálenostech 1, 2, 4, 7, 10 a 14 m. Z naměřených dat počítají průměrné rychlosti v jednotlivých úsecích a kreslí graf pohybu. Závěrem identifikují typ pohybu jako nerovnoměrný přímočarý pohyb (zrychlený), protože rychlost v každém úseku roste.",
+  "materials": ["florbalový nebo basketbalový balón", "stopky nebo mobilní telefon", "křída nebo barevná páska", "nakloněný chodník nebo rampa"],
+  "procedure": "Na nakloněném chodníku vyznačíme body ve vzdálenostech 1, 2, 4, 7, 10, 14 m od startu. Skupina se rozdělí — jeden startér pustí balón a stopky, každý žák měří čas průchodu svým bodem. Data se sdílí, žáci počítají průměrné rychlosti v úsecích a vykreslují grafy.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/graf-pohybu-po-naklonene-rovine-kutaleni-balonu-po-chodniku/"
+  }
+}

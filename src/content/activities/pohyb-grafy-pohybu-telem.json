@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-grafy-pohybu-telem",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Grafy pohybu vlastním tělem — dramatizace grafů",
+  "type": "group-work",
+  "description": "Skupinová aktivita. Skupiny žáků dostanou vytisknuté grafy polohy v závislosti na čase (přímočarý rovnoměrný pohyb, zrychlení, zastavení) a jejich úkolem je vlastním pohybem v tělocvičně nebo na chodbě předvést pohyb vyjádřený grafem. Ostatní skupiny hodnotí, zda pohyb odpovídá grafu. Aktivita rozvíjí schopnost číst grafy rovnoměrného a nerovnoměrného pohybu a propojuje abstraktní grafické znázornění s pohybem vlastního těla.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/grafy-pohybu-vlastnim-telem/"
+  }
+}

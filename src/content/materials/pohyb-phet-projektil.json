@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-phet-projektil",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Pohyb projektilu — simulace křivočarého pohybu (PhET)",
+  "type": "applet",
+  "description": "Simulace modeluje vrh šikmý, vodorovný i svislý. Žáci nastaví úhel, počáteční rychlost a hmotnost objektu a sledují parabolickou trajektorii křivočarého pohybu. Lze zapnout vzdušný odpor a porovnat trajektorie s ním i bez něj. Plně lokalizována do češtiny, parabolická trajektorie názorně ukazuje křivočarý pohyb jako složení dvou přímočarých pohybů.",
+  "url": "https://phet.colorado.edu/cs/simulations/projectile-motion"
+}

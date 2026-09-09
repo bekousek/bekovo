@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-fendt-vrhy",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Vrhy v tíhovém poli — applet (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet demonstruje vrh šikmý, vodorovný a svislý jako příklady křivočarého pohybu v tíhovém poli. Nastavují se počáteční výška, rychlost, úhel a gravitační zrychlení. Lze sledovat souřadnice polohy a okamžitou rychlost v průběhu pohybu. Efektivně ukazuje, jak skládání dvou pohybů vytváří parabolickou trajektorii.",
+  "url": "https://www.walter-fendt.de/html5/phcz/projectile_cz.htm"
+}

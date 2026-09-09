@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-cd-vznasedlo",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "CD vznášedlo — rovnoměrný přímočarý pohyb",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Z CD disku, krabičky od kinofilmu a balónku se sestaví vzduchové vznášedlo pohybující se po hladkém povrchu s minimálním třením. Nafouklý balónek tvoří vzdušný polštář, který vznášedlo unáší rovnoměrným přímočarým pohybem. Pokus názorně ilustruje rovnoměrný přímočarý pohyb a diskutuje, co by těleso potřebovalo, aby se pohybovalo stále bez zpomalení.",
+  "materials": ["CD disk", "krabička od kinofilmu (nebo plastová čepička)", "pouťový balonek", "lepidlo"],
+  "procedure": "Do víčka krabičky od kinofilmu vyvrtáme malý otvor (1 mm), do dna otvor asi 1 cm. Víčko přilepíme na střed CD disku (na straně bez potisku). Balónek navlečeme na krabičku. Nafoukneme balonek, přiložíme prst a přeneseme vznášedlo na hladkou plochu stolu. Lehce ho uvedeme do pohybu a sledujeme trajektorii.",
+  "source": {
+    "label": "Metodický portál RVP",
+    "url": "https://clanky.rvp.cz/clanek/s/G/9259/VZNASEDLO.html"
+  }
+}

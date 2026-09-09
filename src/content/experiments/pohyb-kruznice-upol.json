@@ -1,0 +1,13 @@
+{
+  "id": "pohyb-kruznice-upol",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb po kružnici — demonstrace",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Ukázky rovnoměrného pohybu po kružnici jako nejjednoduššího křivočarého pohybu: kulička na motouzu, body na brusném kotouči, gramofonová deska. Žáci pozorují, že trajektorií je kružnice a velikost rychlosti je stálá, ale její směr se neustále mění — vždy tečně k dráze. Tím se pohyb po kružnici liší od přímočarého rovnoměrného pohybu. Dostupné jako videozáznam z UPOL.",
+  "materials": ["kulička na motouzu (nebo gramofonová deska, brusný kotouč na stojanu)"],
+  "source": {
+    "label": "Pokusy z UPOL",
+    "url": "http://pokusy.upol.cz/videopokusy/kinematika-hmotnych-bodu/rovnomerny-pohyb-po-kruznici-i-9/"
+  }
+}
