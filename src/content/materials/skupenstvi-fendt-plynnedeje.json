@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-fendt-plynnedeje",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Walter Fendt: Děje s ideálním plynem (Gay-Lussacův zákon)",
+  "type": "applet",
+  "description": "Český HTML5 applet znázorňuje izobarický, izochorický a izotermický děj ideálního plynu. Při izochorickém ději (stálý objem) applet přímo zobrazuje Gay-Lussacův zákon p/T = konst. — přímou úměru mezi tlakem a termodynamickou teplotou. Žáci zadávají počáteční a konečné hodnoty a vidí výsledek okamžitě v p–V–T diagramech. Applet funguje v prohlížeči bez instalace.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gasprocesses_cz.htm"
+}

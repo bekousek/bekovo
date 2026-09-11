@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-vascak-var-vyska",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Vaščák: Teplota varu a nadmořská výška",
+  "type": "applet",
+  "description": "Animace ukazuje, jak klesající atmosférický tlak s rostoucí nadmořskou výškou snižuje teplotu varu vody. Žáci mění výšku a sledují odpovídající teplotu varu — praktická aplikace vztahu teplota varu–tlak (proč se v horách vaří vejce déle nebo káva chutná jinak). Doplňuje existující Vaščákovu animaci o přímé závislosti bodu varu na tlaku o zeměpisný kontext.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_teplota_varu_vyska&l=cz"
+}
