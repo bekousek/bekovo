@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-trojny-bod-co2",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Trojný bod CO₂ v PET preformě",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: suchý led (pevný CO₂, −78 °C) se nasype do průhledné PET preformy (polotovar PET lahve s cca 3mm stěnami) a pevně uzavře. Sublimací CO₂ stoupá tlak uvnitř až nad 511 kPa; při tomto tlaku existuje CO₂ jako kapalina, takže pevný suchý led se přetaví do kapalného skupenství viditelného průhlednou stěnou. Po opatrném povolení víčka tlak poklesne a kapalný CO₂ okamžitě přechází zpět na suchý led. Pokus vizuálně ilustruje fázový diagram CO₂ a ukazuje, že skupenství závisí na kombinaci teploty A tlaku — ne jen na jedné veličině.",
+  "materials": [
+    "suchý led (pevný CO₂, objednatelný u dodavatelů technických plynů, cca 50 Kč/kg)",
+    "PET preforma (polotovar pro výrobu PET lahví — silné stěny ~3 mm, odolné tlaku)",
+    "izolační rukavice (suchý led nelze brát holýma rukama)"
+  ],
+  "procedure": "1. Nasypte suchý led do preformy (cca do 1/3 objemu). 2. Pevně zašroubujte víčko. 3. Počkejte cca 1 minutu — CO₂ sublimuje, tlak v nádobě roste. 4. Pozorujte průhlednou stěnou, jak pevný CO₂ přechází v kapalný. 5. Velmi pomalu a opatrně povolte víčko — tlak poklesne a kapalný CO₂ vzkypí a ztuhne zpět na suchý led.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/suchy_led.pdf"
+  }
+}
