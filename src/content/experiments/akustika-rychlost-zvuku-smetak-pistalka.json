@@ -1,0 +1,20 @@
+{
+  "id": "akustika-rychlost-zvuku-smetak-pistalka",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Měření rychlosti zvuku smetákem a píšťalkou",
+  "type": "measurement",
+  "description": "Žákovský pokus v terénu: skupina žáků měří rychlost zvuku pomocí píšťalky jako bodového zdroje zvuku ze vzdálenosti 300–500 m. Jedna osoba současně zvedne smeták (viditelný signál) a zapíská; ostatní stopkami na mobilu měří čas mezi zahlédnutím pohybu a zaslechnutím zvuku a z časového rozdílu a vzdálenosti počítají přibližnou rychlost zvuku.",
+  "materials": [
+    "smeták nebo tyč",
+    "reflexní vesta",
+    "píšťalka",
+    "mobilní telefony se stopkami",
+    "otevřené prostranství s vyměřenými vzdálenostmi 300–500 m"
+  ],
+  "procedure": "Jedna osoba se vzdálí od skupiny na určenou vzdálenost, zvedne smeták a současně zapíská na píšťalku; ostatní měří čas mezi viděním pohybu smetáku a zaslechnutím zvuku píšťalky a z časového rozdílu a vzdálenosti počítají rychlost zvuku.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/mereni-rychlosti-zvuku-smetakem-a-pistalkou-laborka-a-dalsi-odkazy/"
+  }
+}

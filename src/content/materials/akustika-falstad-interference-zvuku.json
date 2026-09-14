@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-interference-zvuku",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Interference zvukových vln ze dvou zdrojů (Falstad)",
+  "type": "applet",
+  "description": "Applet znázorňuje interferenci zvukových vln vycházejících ze dvou bodových zdrojů zvuku a zobrazuje vzniklé interferenční obrazce. Vhodné jako kvalitativní ukázka, jak se šíří zvuk z více zdrojů zároveň, bez nutnosti anglického textu.",
+  "url": "https://www.falstad.com/interference/"
+}

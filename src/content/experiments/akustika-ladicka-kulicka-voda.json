@@ -1,0 +1,19 @@
+{
+  "id": "akustika-ladicka-kulicka-voda",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Vizualizace chvění ladičky — kulička a hladina vody",
+  "type": "qualitative",
+  "description": "Demonstrační pokus učitele: rozezvučená ladička se přiblíží k hladině vody v misce, kde chvění rozstříkne kapky, nebo se dotkne kuličky zavěšené na niti, kterou svým chvěním odráží. Obě varianty žákům viditelně dokazují, že zdrojem zvuku ladičky je její rychlé mechanické chvění, jinak pouhým okem téměř nepostřehnutelné.",
+  "materials": [
+    "ladička",
+    "gumové nebo dřevěné kladívko",
+    "miska s vodou",
+    "malá kulička (např. pingpongový míček) zavěšená na niti"
+  ],
+  "procedure": "Ladička se rozezvučí úderem kladívka a poté se konec jejího raménka přiblíží k hladině vody (voda se rozstříkne) nebo k zavěšené kuličce (kulička se od raménka opakovaně odráží).",
+  "source": {
+    "label": "Školní příprava (Václav Koplík) — Akustika",
+    "url": "https://skolnipriprava.estranky.cz/clanky/fyzika/akustika/akustika--experimenty-.html"
+  }
+}
