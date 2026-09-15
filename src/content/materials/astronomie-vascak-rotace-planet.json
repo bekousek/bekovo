@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-rotace-planet",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Vaščák: Rotace planet",
+  "type": "applet",
+  "description": "Animace znázorňující rotaci jednotlivých planet kolem vlastní osy a rozdíly v délce jejich dne – od rychlé rotace Jupiteru po pomalou rotaci Venuše.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_rotaceplanet&l=cz"
+}

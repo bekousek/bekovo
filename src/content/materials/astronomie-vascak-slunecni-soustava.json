@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-slunecni-soustava",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Vaščák: Sluneční soustava",
+  "type": "applet",
+  "description": "Česká HTML5 animace znázorňující uspořádání sluneční soustavy – Slunce a planety, jejich vzájemné polohy a oběžné dráhy. Součást rozsáhlé sbírky Fyzika ve škole.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_soustavy&l=cz"
+}

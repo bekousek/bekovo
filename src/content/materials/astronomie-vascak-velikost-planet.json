@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-velikost-planet",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Vaščák: Velikosti planet",
+  "type": "applet",
+  "description": "Animace porovnávající velikosti jednotlivých planet sluneční soustavy navzájem i vůči Slunci – pomáhá vytvořit správnou představu o poměrech rozměrů těles.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_velikostplanet&l=cz"
+}

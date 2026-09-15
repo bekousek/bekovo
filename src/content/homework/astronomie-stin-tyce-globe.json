@@ -1,0 +1,11 @@
+{
+  "id": "astronomie-stin-tyce-globe",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Stín tyče v pravé poledne – jak se mění během roku",
+  "description": "Dlouhodobý badatelský úkol podle mezinárodního protokolu GLOBE: žák si doma zapíchne do země svislou tyč (gnómon) a v pravé sluneční poledne (kdy je stín nejkratší a míří k severu) měří jeho délku. Měření opakuje jednou týdně nebo měsíčně po celý školní rok a zaznamenává výsledky do deníku pozorování, aby zjistil a vysvětlil, jak se mění výška Slunce nad obzorem v souvislosti se sklonem zemské osy a oběhem Země kolem Slunce.",
+  "source": {
+    "label": "GLOBE Czech – metodika meteorologie",
+    "url": "https://globe-czech.cz/_files/userfiles/Metodika1.pdf"
+  }
+}
