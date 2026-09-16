@@ -1,0 +1,11 @@
+{
+  "id": "castice-latky-fykos-velikost-molekuly-vody",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "FYKOS: Odhad velikosti molekuly vody z výparného tepla a povrchového napětí",
+  "description": "Rozcvičková (nejjednodušší) úloha z korespondenčního semináře FYKOS: ze znalosti skupenského tepla vypařování vody a jejího povrchového napětí má žák úvahou o poměru celkového povrchu vzniklých drobných „kapiček“-molekul k původnímu povrchu kapaliny odhadnout velikost molekuly vody. Jde o klasický fyzikální odhad řešitelný tužkou a papírem doma, bez potřeby laboratorního vybavení — vhodné jako dlouhodobější badatelský domácí úkol pro šikovnější žáky 8.–9. třídy.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://fykos.cz/zadani/26/5"
+  }
+}
