@@ -1,0 +1,20 @@
+{
+  "id": "eo-elektromagnet-sila-proud",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Závislost síly elektromagnetu na velikosti proudu",
+  "type": "measurement",
+  "description": "Demonstrační až žákovský pokus: elektromagnet (cívka se železným jádrem) se postupně napájí různě velkým proudem a při každé hodnotě se siloměrem nebo digitální váhou změří síla, jakou přitahuje železné závaží. V 6. třídě lze provést zjednodušeně jen kvalitativně (více proudu = silnější přitahování), starší žáci mohou sestavit tabulku a graf a ověřit přímou úměrnost síly a proudu.",
+  "materials": [
+    "elektromagnet (cívka se železným jádrem)",
+    "zdroj s regulovatelným napětím",
+    "ampérmetr",
+    "siloměr nebo digitální váha",
+    "železné závaží nebo předmět"
+  ],
+  "procedure": "Elektromagnet se postupně napájí různě velkým proudem (odečítaným na ampérmetru) a při každé hodnotě se siloměrem nebo váhou změří síla, jakou elektromagnet přitahuje železné závaží. Výsledky se zaznamenají do tabulky/grafu a diskutuje se závislost síly na proudu.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/1739/zavislost-velikosti-magneticke-sily-na-proudu"
+  }
+}

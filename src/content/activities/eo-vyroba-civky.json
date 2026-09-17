@@ -1,0 +1,12 @@
+{
+  "id": "eo-vyroba-civky",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "Výroba vlastní cívky pro elektromagnet",
+  "type": "method",
+  "description": "Návod na výrobu jednoduché cívky z PVC trubičky, plastových nebo dřevěných čel a smaltovaného či telefonního drátu, kterou lze použít jako součást školního elektromagnetu. Jde primárně o učitelskou přípravu pomůcky; u starších žáků (8.–9. třída) ji lze zadat i jako žákovskou konstrukční aktivitu pod dohledem, protože navíjení drátu vyžaduje vrtačku.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/jaknato/jak_vyrobit_civku.pdf"
+  }
+}
