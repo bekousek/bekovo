@@ -1,0 +1,12 @@
+{
+  "id": "energie-teplo-horkovzdusny-balonek",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Výroba horkovzdušného balónu z odpadkového pytle",
+  "type": "group-work",
+  "description": "Skupinová aktivita: žáci k otevřené části velkého tenkého odpadkového pytle připevní nitěné očko, pytel drží za horní rohy a naplní ho horkým vzduchem z fénu nebo horkovzdušné pistole. Po puštění pytel s ohřátým vzduchem stoupá vzhůru jako mini horkovzdušný balón. Aktivita prakticky demonstruje, že ohřátý vzduch má menší hustotu než okolní chladný vzduch, což vede ke vztlaku.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

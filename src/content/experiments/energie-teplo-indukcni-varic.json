@@ -1,0 +1,20 @@
+{
+  "id": "energie-teplo-indukcni-varic",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Pokusy s indukčním vařičem – teplo bez vedení z topné desky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: na indukční vařič se postaví železný nebo smaltovaný hrnec s trochou vody a zapne se — voda se rychle uvede do varu, přestože sklokeramická deska pod hrncem zůstává na dotek studená. Na rozdíl od klasického vařiče zde teplo nevzniká vedením z topné desky, ale přímo v materiálu hrnce. Pro srovnání se pokus zopakuje s dřevěnou nebo polystyrenovou podložkou pod hrncem (voda se přesto uvaří) a s hliníkovým nádobím (vařič ohřev odmítne).",
+  "materials": [
+    "indukční vařič",
+    "železný nebo smaltovaný hrnec",
+    "voda",
+    "kousek dřeva nebo polystyrenu",
+    "hliníkové nádobí nebo alobal (pro srovnání)"
+  ],
+  "procedure": "1) Postavit hrnec s vodou na indukční vařič, zapnout a sledovat var. 2) Ihned po sundání hrnce ověřit rukou, že deska zůstala studená. 3) Zopakovat s podložkou ze dřeva/polystyrenu pod hrncem. 4) Zopakovat s hliníkovým nádobím a pozorovat, že vařič neohřívá.",
+  "source": {
+    "label": "Heuréka – P. Žilavý: Pokusy s indukčním vařičem",
+    "url": "http://kdf.mff.cuni.cz/~zilavy/clanky/Pokusy_s_indukcnim_varicem.pdf"
+  }
+}

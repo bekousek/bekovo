@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-termocitlivy-papir",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Hrátky s termocitlivým papírem a gumovacími pery",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci kreslí gumovacím perem na papír a zjišťují, že tření nehtem obrázek „vygumuje“ a zahřátí nad svíčkou ho vrátí zpět — ukázka vratné tepelné reakce termocitlivé barvy. Na účtenkách (termopapír) pak teplo ze tření nebo z plamene vyvolá naopak nevratné černání. Demonstruje rozdíl mezi vratnou a nevratnou přeměnou vyvolanou dodáním nebo odebráním tepla.",
+  "materials": [
+    "gumovací propisky",
+    "účtenky z pokladen (termocitlivý papír)",
+    "svíčka a zápalky",
+    "malé nádobky s vodou",
+    "párátka",
+    "papír A5"
+  ],
+  "procedure": "1) Nakreslit obrázek běžnou propiskou, přes něj gumovacím perem. 2) Vygumovat kresbu třením nehtem nebo prstem. 3) Zahřát papír nad svíčkou — kresba se vrátí. 4) Na účtenku přejet nehtem (vznikne černá čára třením) nebo na ni kápnout vodu a zahřát nad plamenem — černá čára se objeví všude mimo navlhčená místa. 5) Papíry vložit na 5 minut do mrazáku a pozorovat zmizení/návrat stopy.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/hratky-s-termocitlivym-papirem-a-gumovacimi-pery-ridikulus/"
+  }
+}

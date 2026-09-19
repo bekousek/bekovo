@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-termoska-mereni",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Jak funguje termoska? – měření chladnutí",
+  "type": "measurement",
+  "description": "Žákovský pokus ve skupinách: stejné množství horké vody se nalije do termosky a do běžného hrnku, oba se zakryjí a v pravidelných intervalech se teploměrem měří pokles teploty. Pro srovnání lze pokus zopakovat s kostkami ledu a sledovat, ve které nádobě tají pomaleji. Žáci vyvodí, že vzduchová mezera v dvojitých stěnách termosky (špatný vodič tepla) brání úniku i příjmu tepla.",
+  "materials": [
+    "termoska nebo termohrnek",
+    "běžný hrnek",
+    "horká voda",
+    "kostky ledu",
+    "teploměr",
+    "hodinky nebo stopky"
+  ],
+  "procedure": "1) Nalít stejné množství horké vody do termosky a do běžného hrnku, oba zakrýt. 2) Každých 5 minut zaznamenat teplotu v obou nádobách. 3) Zopakovat s kostkami ledu a porovnat rychlost tání. 4) Vysvětlit roli vzduchové mezery jako tepelného izolantu.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

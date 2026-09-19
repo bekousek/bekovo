@@ -1,0 +1,18 @@
+{
+  "id": "energie-teplo-konvekce-fyzikum",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Vrtulka nad svíčkou a barevné proudy – proudění tepla",
+  "type": "qualitative",
+  "description": "Dvě propojené žákovské aktivity demonstrující proudění (konvekci). V první se z víčka od jogurtu vystřihne spirála nasazená na špejli, která se nad plamenem svíčky roztočí, protože ohřátý vzduch stoupá vzhůru. Ve druhé se barvivo (hypermangan) přidá do dvou kádinek s vodou — jedna zůstává v klidu, druhá se zespodu zahřívá nad svíčkou; v zahřívané kádince barvivo viditelně stoupá vzhůru, zatímco v klidové zůstává u dna.",
+  "materials": [
+    "víčko od jogurtu, špejle, párátko, izolepa, nůžky",
+    "svíčka, zápalky",
+    "2 kádinky s vodou, hypermangan, lžička"
+  ],
+  "procedure": "1) Vystřihnout z víčka spirálu a nasadit ji na špejli s párátkem jako osou. 2) Přibližovat spirálu nad plamen svíčky v různé výšce a pozorovat rotaci. 3) Do dvou kádinek s vodou přidat hypermangan, jednu nechat v klidu, druhou zahřívat zespodu nad svíčkou. 4) Porovnat, jak barvivo stoupá v zahřívané kádince oproti klidové.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/laborka-zmena-hustoty-s-teplotou-proudeni-vyroba-hracky-z-vicka-od-jogurtu-a-pozorovani-barevnych-proudu/"
+  }
+}
