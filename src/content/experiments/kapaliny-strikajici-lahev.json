@@ -1,0 +1,20 @@
+{
+  "id": "kapaliny-strikajici-lahev",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Stříkající láhev – tlak roste s hloubkou",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Do stěny PET láhve se ve třech různých výškách propíchnou otvory (dočasně zaslepené izolepou). Láhev se naplní vodou a poté se otvory postupně odlepí – voda z nejnižšího otvoru stříká nejdál a nejsilněji, protože hydrostatický tlak roste s hloubkou. Žáci porovnávají vzdálenost dostřiku z jednotlivých otvorů a vyvozují závěr o závislosti tlaku na hloubce.",
+  "materials": [
+    "PET láhev",
+    "voda",
+    "hřebík nebo špejle na propíchnutí otvorů",
+    "izolepa na zaslepení otvorů",
+    "miska nebo tác na zachycení vody"
+  ],
+  "procedure": "Do boku PET láhve propíchneme tři otvory nad sebou v různých výškách a zaslepíme je izolepou. Láhev naplníme vodou po okraj. Poté najednou odlepíme izolepu ze všech otvorů a pozorujeme, jak daleko a jak silně stříká voda z každého z nich – nejnižší otvor stříká nejdál.",
+  "source": {
+    "label": "VNUF 13 (Plzeň 2008) – Jindra J.",
+    "url": "https://vnuf.cz/sbornik/prispevky/13-11-Jindra.html"
+  }
+}

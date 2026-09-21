@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-vascak-hydrostaticky-tlak",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Vaščák: Hydrostatický tlak (animace)",
+  "type": "applet",
+  "description": "Česká interaktivní animace ze sbírky Fyzika ve škole věnovaná přímo tématu hydrostatický tlak, navazující na téma Archimédova zákona.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_hydrotlak&l=cz"
+}

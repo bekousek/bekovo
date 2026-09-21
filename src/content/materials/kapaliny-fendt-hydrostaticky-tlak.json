@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-fendt-hydrostaticky-tlak",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Walter Fendt: Hydrostatický tlak v kapalině",
+  "type": "applet",
+  "description": "Interaktivní česká HTML5 simulace: žák ponořuje U-trubicový manometr do kapaliny a sleduje, jak se s hloubkou mění rozdíl hladin (tlak). Lze měnit hustotu kapaliny a pozorovat vztah mezi hloubkou, hustotou a tlakem.",
+  "url": "https://www.walter-fendt.de/html5/phcz/hydrostaticpressure_cz.htm"
+}
