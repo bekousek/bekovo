@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-phet-fazovy-diagram",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "PhET: Skupenství látek – základní verze (fázový diagram)",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET umožňuje nastavovat teplotu a tlak a sledovat, jak se mění skupenství látky (voda, dusík, argon). Žáci mohou přímo prozkoumávat fázový diagram a vidět, kde leží trojný bod a kritický bod. Vhodné pro vizualizaci vztahu teploty a tlaku při změnách skupenství.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter-basics"
+}
