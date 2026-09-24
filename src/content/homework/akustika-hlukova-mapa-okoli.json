@@ -1,0 +1,11 @@
+{
+  "id": "akustika-hlukova-mapa-okoli",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hluková mapa mého okolí",
+  "description": "Dlouhodobý badatelský úkol: žák pomocí aplikace v chytrém telefonu měří po dobu několika dní hladinu hluku na různých místech doma, ve škole nebo v okolí bydliště a zaznamenává, jaké zdroje zvuku (doprava, stroje, hlasy, příroda) k naměřeným hodnotám přispívají. Výsledkem je jednoduchá „hluková mapa“ s popisem hlavních zdrojů zvuku v jednotlivých lokalitách.",
+  "source": {
+    "label": "Science on Stage Europe — Noise Pollution",
+    "url": "https://www.science-on-stage.eu/noise-pollution"
+  }
+}

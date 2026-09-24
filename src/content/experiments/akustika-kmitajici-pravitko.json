@@ -1,0 +1,17 @@
+{
+  "id": "akustika-kmitajici-pravitko",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Kmitající pravítko na stole",
+  "type": "qualitative",
+  "description": "Žákovský pokus: pravítko přiložené na hraně lavice se přesahující částí rozkmitá prstem. Chvějící se konec pravítka je vidět i slyšet jako zdroj tónu a žáci pozorují, jak se s délkou přesahující (kmitající) části mění výška tónu i amplituda chvění.",
+  "materials": [
+    "plastové nebo dřevěné pravítko",
+    "hrana lavice nebo stolu"
+  ],
+  "procedure": "Pravítko se přitiskne dlaní k hraně stolu tak, aby část přečnívala. Volný konec se prstem vychýlí a pustí — žáci pozorují a poslouchají chvění; pokus se opakuje s různě dlouhým přesahem a porovnává se výška vznikajícího tónu.",
+  "source": {
+    "label": "Školní příprava (Václav Koplík) — Akustika",
+    "url": "https://skolnipriprava.estranky.cz/clanky/fyzika/akustika/akustika--experimenty-.html"
+  }
+}
