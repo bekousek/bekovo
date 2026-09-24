@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-ciechanowski-spalovaci-motor",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Spalovací motor — interaktivní 3D vizualizace (Bartosz Ciechanowski)",
+  "type": "applet",
+  "description": "Hluboce interaktivní webový článek s manipulovatelnými 3D animacemi čtyřtaktního spalovacího motoru — postupně vysvětluje klikový mechanismus, pohyb pístu, funkci ventilů a spalovací komory až po model čtyřválce. Uživatel může otáčet 3D modely, ovládat posuvníky a pozastavovat animace pro detailní pochopení mechanismu. Článek je v angličtině, ale 3D animace jsou srozumitelné i bez znalosti jazyka.",
+  "url": "https://ciechanow.ski/internal-combustion-engine"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-motory-vascak-parni-stroj",
+  "subtopicId": "spalovaci-motory",
+  "topicId": "tepelne-motory",
+  "title": "Parní lokomotiva — interaktivní animace (Vaščák)",
+  "type": "applet",
+  "description": "Animace parní lokomotivy (parního stroje) zobrazuje princip přeměny tepelné energie na mechanický pohyb pomocí pístu a válce. Žáci vidí, jak pára pohání píst, který přes klikový mechanismus otáčí koly lokomotivy. Animace patří do série Václava Vaščáka o tepelných motorech (čtyřtaktní, dvoudobý, diesel, Wankelův) a slouží jako historický kontext vývoje spalovacích motorů.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_parnistroj&l=cz"
+}
