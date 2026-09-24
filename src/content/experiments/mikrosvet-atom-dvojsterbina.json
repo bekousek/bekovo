@@ -1,0 +1,21 @@
+{
+  "id": "mikrosvet-atom-dvojsterbina",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Dvojštěrbina — je elektron kulička, nebo vlna?",
+  "type": "qualitative",
+  "description": "Demonstrační pokusy (předvádí učitel) a žákovská práce s apletem. Žáci nejdřív odhadnou, jaký obrazec za dvojštěrbinou vytvoří vlny a jaký kuličky. Vlny ukáže simulace PhET Interference vln (česky): vlnění dopadá na celé stínítko a tvoří interferenční proužky. Kuličky: učitel stříkne rozprašovačem s obarvenou vodou přes dvojštěrbinu vystřiženou z kartonu na papír — každá kapka dopadne na jedno místo, vzniknou dva pruhy, k interferenci nedojde. Pak žáci v apletu Fyzweb posílají dvojštěrbinou elektrony a odpovídají na návodné otázky. Závěr: jeden elektron dopadne na jedno místo jako kulička, ale mnoho elektronů vytvoří interferenční proužky typické pro vlny — i když je posíláme po jednom. Nakonec lze ukázat laser a dvojštěrbinu: i světelné proužky se skládají z dopadů jednotlivých fotonů. Laser obsluhuje jen učitel a nesvítí nikomu do očí.",
+  "materials": [
+    "dvojštěrbina vystřižená z kartonu",
+    "rozprašovač s obarvenou vodou",
+    "velký papír nebo tabule jako stínítko",
+    "počítače nebo tablety s apletem Fyzweb a simulací PhET Interference vln",
+    "laserové ukazovátko a dvojštěrbina (volitelně, jen učitel)"
+  ],
+  "procedure": "1) Odhad: jaký obrazec na stínítku vytvoří vlny a jaký kuličky? 2) Vlny: PhET Interference vln (https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_all.html?locale=cs), případně video vodní hladiny (Veritasium: The Original Double Slit Experiment, 4:45–5:20). 3) Kuličky: stříknout obarvenou vodu přes kartonovou dvojštěrbinu na papír. 4) Aplet Fyzweb (https://fyzweb.cz/materialy/kvantovka/Double_slit_experiment.html): vystřelte několik elektronů — jak vypadá stopa jednoho elektronu, umíte předpovědět, kam dopadne další? Vystřelte 700–1000 elektronů — kde je velká pravděpodobnost dopadu dalšího? Načrtněte a popište obrazec. V čem se podobá obrazci kuliček a v čem vln? 5) Pozor na častou mylnou představu: vlnové chování nezpůsobuje to, že elektronů letí mnoho najednou — stejný obrazec vznikne i při posílání po jednom.",
+  "driveFileUrl": "https://www.mff.cuni.cz/data/nodes/65888/Popis-aktivity-dvojsterbina.pdf",
+  "source": {
+    "label": "Den s kvantovkou (KDF MFF UK)",
+    "url": "https://www.mff.cuni.cz/cs/kdf/ucitele/den-s-kvantovkou/den-s-kvantovkou-interaktivni-dilny"
+  }
+}

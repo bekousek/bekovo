@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-atom-fyzweb-dvojsterbina",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Fyzweb — Dvojštěrbinový experiment s elektrony (aplet)",
+  "type": "applet",
+  "url": "https://fyzweb.cz/materialy/kvantovka/Double_slit_experiment.html",
+  "description": "Aplet J. Legerské (2024): elektrony dopadají přes dvojštěrbinu na stínítko po jednom i po stovkách. Lze nastavit energii (vlnovou délku) elektronů a vzdálenost štěrbin, zavřít jednu štěrbinu, zapnout detektor, kterou štěrbinou elektron prošel, a zobrazit hustotu pravděpodobnosti dopadu. Ovládání má jednoduché anglické popisky. Návodné otázky jsou u pokusu Dvojštěrbina."
+}
