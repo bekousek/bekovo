@@ -1,0 +1,20 @@
+{
+  "id": "mereni-slunecni-hodiny-svitilna",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Sluneční hodiny nanečisto — simulace svítilnou ve třídě",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci si vyrobí jednoduchý model slunečních hodin (párátko jako gnómon zapíchnuté v plastelíně na kartonu) a pomocí svítilny simulují pohyb Slunce po obloze — v pravidelných intervalech mění polohu lampy a zaznamenávají polohu a délku vrženého stínu. Aktivita funguje nezávisle na počasí a denní době, protože reálné Slunce nahrazuje lampa, a žáci si na ní ověří princip nejstaršího způsobu měření času, než ho případně zkusí i venku na skutečném slunci.",
+  "materials": [
+    "karton",
+    "párátko nebo tenká tyčka (gnómon)",
+    "plastelína",
+    "svítilna nebo lampa (simulace Slunce)",
+    "tužka na značení stínu"
+  ],
+  "procedure": "Do kartonu zapíchněte pomocí plastelíny svisle párátko. Svítilnou simulujte pohyb Slunce po obloze — v pravidelných intervalech měňte její polohu vůči kartonu a pokaždé tužkou obtáhněte polohu a délku vrženého stínu. Diskutujte, proč se stín během „dne“ mění, a porovnejte princip s fungováním skutečných slunečních hodin venku.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/mereni-casu-vyroba-sekundoveho-kyvadla-a-slunecnich-hodin-sifra-na-prevody-jednotek/"
+  }
+}
