@@ -1,0 +1,13 @@
+{
+  "id": "mikrosvet-atom-kvantove-lode",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Kvantové lodě — kde je kvantová jachta?",
+  "type": "game",
+  "description": "Obdoba hry lodě, jenže místo jedné lodi hledáme rozložení pravděpodobnosti, s jakou „kvantovou jachtu“ najdeme na devíti polích A–I. Učitel (nebo spolužák) připraví pytlíček s 10 žetony označenými písmeny polí — každý žeton znamená 10 % (např. 4× E, 2× B, 2× C, 1× F, 1× G). Žák vylosuje žeton = „naměří“ jachtu na daném poli, výsledek zapíše nebo na pole položí čtvereček průhledné barevné fólie (vrstvené fólie tmavnou a samy vykreslí rozložení pravděpodobnosti) a žeton vrátí — každé měření se dělá na „nové jachtě“ ve stejném výchozím stavu. Žáci sami odhadují, kolik měření stačí (pro jistotu nekonečně mnoho, prakticky pár desítek); mají-li všechny dvojice stejné pytlíčky, sloučené výsledky třídy ukážou zpřesnění. Přímo navazuje na kvantový model atomu: orbital je právě takové rozložení pravděpodobnosti výskytu elektronu. Na závěr lze zmínit redukci stavu — opravdu kvantová jachta by po změření zůstala jen na tom jednom poli.",
+  "driveFileUrl": "https://www.mff.cuni.cz/data/nodes/65888/Popis-aktivity-kvantove-lode.pdf",
+  "source": {
+    "label": "Den s kvantovkou (KDF MFF UK)",
+    "url": "https://www.mff.cuni.cz/cs/kdf/ucitele/den-s-kvantovkou/den-s-kvantovkou-interaktivni-dilny"
+  }
+}

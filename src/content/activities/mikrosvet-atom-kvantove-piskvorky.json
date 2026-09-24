@@ -1,0 +1,13 @@
+{
+  "id": "mikrosvet-atom-kvantove-piskvorky",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Kvantové piškvorky — superpozice a kvantové měření",
+  "type": "game",
+  "description": "Hra pro dva hráče na plánu 3×3, na které si žáci sami „provedou“ superpozici a kvantové měření. Kromě klasických kamenů (symbol plnou čarou) má každý hráč dva kvantové kameny: dvojici žetonů s čárkovaným symbolem, které položí na dvě různá volná pole — kámen je v superpozici obou poloh a na každém poli ho najdeme se stejnou pravděpodobností. Po zaplnění plánu přijde měření: u každého kvantového kamene zvlášť rozhodne hod kostkou (sudá/lichá — žetony jsou označené S a L), kde kámen skutečně je. Nahradí se klasickým kamenem a druhá poloha se „ztratí“ (redukce stavu). Když ještě nikdo nevyhrál, hraje se dál. Varianty: měření může hráč vyvolat kdykoli během hry, nebo mají polohy nestejnou pravděpodobnost (např. 1–2 = L, 3–6 = S). Nejde o strategii — důležité je upozornit, že u věcí našeho světa superpozici nepozorujeme, proto ji modelujeme kostkou. Pomůcky: plán 3×3, víčka od lahví nebo papírové žetony, kostka. Pravidla a žetony k tisku jsou na stránce zdroje, online verze v Materiálech.",
+  "driveFileUrl": "https://www.mff.cuni.cz/data/nodes/65888/Popis-aktivity-piskvorky.pdf",
+  "source": {
+    "label": "Den s kvantovkou (KDF MFF UK)",
+    "url": "https://www.mff.cuni.cz/cs/kdf/ucitele/den-s-kvantovkou/den-s-kvantovkou-interaktivni-dilny"
+  }
+}

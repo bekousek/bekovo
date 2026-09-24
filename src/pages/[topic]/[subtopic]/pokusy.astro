@@ -6,6 +6,7 @@ import EmptyState from '../../../components/EmptyState.astro';
 import SourceBadge from '../../../components/SourceBadge.astro';
 import { getCollection } from 'astro:content';
 import { getSubtopicPaths } from '../../../lib/paths';
+import { fileLinkLabel } from '../../../lib/fileLink';
 
 export async function getStaticPaths() {
   const experimentsCollection = await getCollection('experiments');
@@ -61,7 +62,7 @@ const typeLabels: Record<string, string> = {
               )}
               {exp.driveFileUrl && (
                 <a href={exp.driveFileUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 mt-2 text-sm text-primary-600 hover:text-primary-700">
-                  Soubor na Google Drive ↗
+                  {fileLinkLabel(exp.driveFileUrl)}
                 </a>
               )}
             </div>

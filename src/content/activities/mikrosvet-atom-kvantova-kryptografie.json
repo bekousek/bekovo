@@ -1,0 +1,13 @@
+{
+  "id": "mikrosvet-atom-kvantova-kryptografie",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Kvantová kryptografie — Alice, Bob a špionka Eva",
+  "type": "group-work",
+  "description": "Hra na bezpečné předání šifrovacího klíče (protokol BB84), první praktické využití kvantového měření. Používá kvantovou kartu (viz aktivita Kvantová karta; odkaz níže je předloha karty k tisku). Alice kostkou zvolí, zda měří rub (1–3), nebo líc (4–6), změří ho, výsledek převede na bit (modrá/král = 1, červená/dáma = 0), zapíše a kartu pošle Bobovi, který postupuje stejně. Po 15–20 kolech si veřejně sdělí jen to, kterou veličinu v každém kole měřili — kde měřili totéž, mají jistě stejný bit, a z těchto řádků vznikne tajný klíč. Pak do hry vstoupí Eva, která karty cestou tajně měří: protože měření mění stav, objeví se v klíči chyby (zhruba ve čtvrtině bitů) a Alice s Bobem porovnáním části klíče odposlech odhalí. Žáci si vyzkouší, že kvantový stav nejde změřit bez ovlivnění ani zkopírovat. Článek ve zdroji popisuje původní verzi pro SŠ — dramatizaci s fotony a polarizačními filtry — včetně úvodu, jak se šifruje pomocí klíče. Pro zvídavé žáky 9. ročníku nebo seminář.",
+  "driveFileUrl": "https://www.mff.cuni.cz/data/nodes/65888/karty.pdf",
+  "source": {
+    "label": "VNUF 2019",
+    "url": "https://vnuf.cz/sbornik/rocniky/Veletrh_24_(Hradec_Kralove_2019).pdf#page=99"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "mikrosvet-atom-kvantova-karta",
+  "subtopicId": "atom-a-jeho-modely",
+  "topicId": "mikrosvet",
+  "title": "Kvantová karta — nekompatibilní veličiny",
+  "type": "method",
+  "description": "Papírový model kvantové částice se dvěma vlastnostmi: barvou rubu (červená/modrá) a hodnotou líce (dáma/král). Karta je slepená ze dvou rozstřižených vrstev s překlápěcími chlopněmi, takže může být celá dáma, celá král, nebo napůl dáma a napůl král (superpozice) — a stejně tak rub. Měření: kartu vsuneme do obálky, otočíme ji stranou, kterou měříme, hodíme kostkou a podle sudé/liché ji povytáhneme na příslušné straně — co uvidíme, je výsledek. Pak chlopně přehneme tak, aby karta měla jen naměřenou hodnotu (redukce stavu). Žáci zjistí, že opakované měření líce dává stále stejný výsledek, že po změření líce je rub napůl červený a napůl modrý a že po změření rubu je líc znovu náhodný — měření jedné vlastnosti „smaže“ hodnotu druhé. Takové veličiny nazýváme nekompatibilní (nemohou mít současně přesnou hodnotu), souvisí s relacemi neurčitosti. Spíš pro zvídavé žáky nebo seminář. Nápad M. Bondani a V. De Renzi (GIREP-EPEC 2025) v úpravě Z. Koupilové; předloha karty k tisku je na stránce zdroje. Navazuje aktivita Kvantová kryptografie.",
+  "driveFileUrl": "https://www.mff.cuni.cz/data/nodes/65888/Popis-aktivity-kvantova-karta.pdf",
+  "source": {
+    "label": "Den s kvantovkou (KDF MFF UK)",
+    "url": "https://www.mff.cuni.cz/cs/kdf/ucitele/den-s-kvantovkou/den-s-kvantovkou-interaktivni-dilny"
+  }
+}
