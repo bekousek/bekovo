@@ -1,0 +1,18 @@
+{
+  "id": "mereni-hmotnost-vaha-z-papiru",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Jednoduché vážky z jednoho listu papíru",
+  "type": "qualitative",
+  "description": "Žákovský pokus — návod na výrobu funkčních rovnoramenných vah z jediného listu papíru A4 a špendlíku. Papír se přeloží do tvaru V-kanálku, který tvoří ramena vah, a špendlík slouží jako osa otáčení. Vážky umožňují porovnávat hmotnosti drobných předmětů (mince, kamínky, knoflíky) a názorně demonstrují princip rovnoramenné váhy. Materiál od KDF MFF UK (FyzWeb).",
+  "materials": [
+    "1 list papíru A4",
+    "1 špendlík nebo kancelářský pin",
+    "malé předměty k porovnání (mince, kamínky, knoflíky)"
+  ],
+  "procedure": "1. Přeložit list papíru podélně do V-profilu. 2. Přeložit příčně napůl pro nalezení středu. 3. Prostrčit špendlík středem — špendlík bude osa otáčení. 4. Položit na podpěru nebo zavěsit. 5. Na obě ramena ukládat předměty a sledovat naklonění — těžší strana klesne.",
+  "source": {
+    "label": "FyzWeb",
+    "url": "http://fyzweb.cz/materialy/sily/paka/vaha.php"
+  }
+}

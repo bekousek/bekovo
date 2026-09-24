@@ -1,0 +1,19 @@
+{
+  "id": "mereni-hmotnost-lab-kapalina",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Laboratorní práce: Hmotnost kapaliny",
+  "type": "measurement",
+  "description": "Žákovský pokus — žáci zjišťují hmotnost kapaliny nepřímou metodou: nejprve změří hmotnost prázdné nádoby, pak nádoby s kapalinou a rozdílem určí hmotnost samotné kapaliny. Pokus rozšiřuje pochopení pojmu hmotnosti na kapalné látky a procvičuje práci s rovnoramennými vahami. Výsledky se zaznamenávají do tabulky.",
+  "materials": [
+    "rovnoramenné váhy",
+    "sada závaží",
+    "kádinka nebo odměrný válec",
+    "voda (nebo jiná kapalina)"
+  ],
+  "procedure": "1. Zvážit prázdnou nádobu a zapsat hmotnost. 2. Nalít kapalinu do nádoby. 3. Zvážit nádobu s kapalinou. 4. Hmotnost kapaliny = m(nádoba s kapalinou) − m(prázdná nádoba).",
+  "source": {
+    "label": "Školní příprava",
+    "url": "https://skolnipriprava.estranky.cz/file/38/hmotnost---laboratorni-prace--zjistit-hmotnost-kapaliny---rovnoramene-vahy-.pdf"
+  }
+}

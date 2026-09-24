@@ -1,0 +1,18 @@
+{
+  "id": "mereni-hmotnost-lab-pevna-latka",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Laboratorní práce: Vážení pevné látky rovnoramennými vahami",
+  "type": "measurement",
+  "description": "Žákovský pokus — strukturovaný laboratorní list, v němž žáci samostatně měří hmotnost různých pevných těles na rovnoramenných vahách pomocí sady závaží. Postup vede žáky krokem po kroku od ustavení nulové polohy vah přes přikládání závaží od největšího po nejmenší až po zápis výsledku s jednotkou. Výstupem je vyplněná tabulka naměřených hmotností.",
+  "materials": [
+    "rovnoramenné váhy",
+    "sada závaží (g, dg, cg)",
+    "různé pevné předměty k vážení"
+  ],
+  "procedure": "1. Ustaví se nulová poloha vah — prázdné misky musí být v rovnováze. 2. Na jednu misku se položí měřené těleso. 3. Na druhou misku se přikládají závaží od největšího. 4. Závaží se přidávají nebo ubírají, dokud není rovnováha. 5. Výsledná hmotnost = součet závaží na misce.",
+  "source": {
+    "label": "Školní příprava",
+    "url": "https://skolnipriprava.estranky.cz/file/37/hmotnost---laboratorni-prace---vazeni-rovnoramenymi-vahami.pdf"
+  }
+}
