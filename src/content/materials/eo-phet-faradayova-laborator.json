@@ -1,0 +1,9 @@
+{
+  "id": "eo-phet-faradayova-laborator",
+  "subtopicId": "elektromagnet",
+  "topicId": "elektricke-obvody",
+  "title": "PhET — Faradayova elektromagnetická laboratoř",
+  "type": "applet",
+  "description": "Interaktivní simulace umožňuje sestavit elektromagnet z baterie a cívky a pomocí kompasu i žárovky pozorovat jeho magnetické pole. Obsahuje i panely s tyčovým magnetem, cívkou a generátorem pro rozšíření tématu.",
+  "url": "https://phet.colorado.edu/sims/html/faradays-electromagnetic-lab/latest/faradays-electromagnetic-lab_all.html"
+}
