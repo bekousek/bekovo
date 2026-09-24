@@ -74,7 +74,8 @@
     "2026-08-17-mereni--objem",
     "2026-08-19-optika--faze-mesice-zatmeni",
     "2026-08-20-plyny-7--atmosfera",
-    "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek"
+    "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek",
+    "2026-09-21-kapaliny-7--hydrostaticky-tlak"
   ],
   "history": [
     {
@@ -750,6 +751,16 @@
       "processedAt": "2026-09-04T12:15:23.070Z",
       "driveFileId": "",
       "note": "content verified byte-equal to main HEAD; PR merged manually 2026-08-28; catch-up bookkeeping only"
+    },
+    {
+      "manifestId": "2026-09-21-kapaliny-7--hydrostaticky-tlak",
+      "subtopic": "kapaliny-7--hydrostaticky-tlak",
+      "branch": "claude/dreamy-pascal-k08t77",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/125",
+      "merged": true,
+      "processedAt": "2026-09-24T16:30:55.454Z",
+      "driveFileId": "",
+      "note": "manifest doruceny mailem (result: pr-pending, PR routina nezalozila); obsah porovnan proti vetvi claude/dreamy-pascal-k08t77 — 16/17 souboru byte-identickych, 17. se lisi jen pomlckou (em-dash vs en-dash); PR #125 zalozena a zmergovana rucne 2026-09-24"
     }
   ]
 }
