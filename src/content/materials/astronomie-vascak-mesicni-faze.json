@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-mesicni-faze",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Vaščák: Fáze Měsíce",
+  "type": "applet",
+  "description": "Animace vysvětlující vznik fází Měsíce na základě vzájemné polohy Slunce, Země a Měsíce. Žák sleduje, jak se mění osvětlená část Měsíce viditelná ze Země v průběhu jeho oběhu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_mesic_geol&l=cz"
+}

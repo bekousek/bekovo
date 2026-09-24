@@ -1,0 +1,12 @@
+{
+  "id": "astronomie-model-hmotnosti-planet",
+  "subtopicId": "slunecni-soustava",
+  "topicId": "astronomie",
+  "title": "Model hmotnosti a vzdáleností těles sluneční soustavy",
+  "type": "group-work",
+  "description": "Žákovská skupinová aktivita z badatelské metodiky Heuréka: žáci pomocí drobných předmětů (např. hrášků nebo kuliček) modelují poměr hmotností těles sluneční soustavy a objevují, že Jupiter tvoří asi dvě třetiny celkové hmotnosti všeho kromě Slunce. V navazující části zakreslují vzdálenosti planet od Slunce, což je často překvapí – vnitřní planety jsou k sobě mnohem blíže, než si běžně představují.",
+  "source": {
+    "label": "Heuréka – Astronomie, metodika (KDF MFF UK)",
+    "url": "https://kdf.mff.cuni.cz/heureka/astronomie---metodika4.pdf"
+  }
+}
