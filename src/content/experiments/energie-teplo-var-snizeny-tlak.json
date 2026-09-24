@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-var-snizeny-tlak",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Jak vaří horolezci? – var vody za sníženého tlaku",
+  "type": "measurement",
+  "description": "Demonstrační nebo skupinový pokus pod dohledem učitele: do skleničky se nalije vlažná voda, změří se její teplota a sklenička se vloží pod zvon ruční vývěvy. Při postupném odčerpávání vzduchu se z vody nejprve uvolňují bublinky a poté začne vřít, přestože její teplota zůstává výrazně pod 100 °C. Vysvětluje závislost bodu varu na tlaku a proč se ve vysokých horách hůř vaří jídlo.",
+  "materials": [
+    "ruční vývěva se zvonem",
+    "sklenička",
+    "vlažná voda",
+    "teploměr"
+  ],
+  "procedure": "1) Nalít vlažnou vodu do skleničky a změřit teplotu. 2) Vložit skleničku pod zvon vývěvy. 3) Postupně odčerpávat vzduch a pozorovat vznik bublinek a var. 4) Po pokusu vpustit vzduch zpět a ověřit, že se teplota vody nezvýšila.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

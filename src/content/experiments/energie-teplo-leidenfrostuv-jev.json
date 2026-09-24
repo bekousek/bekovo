@@ -1,0 +1,17 @@
+{
+  "id": "energie-teplo-leidenfrostuv-jev",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Kapka vody na rozžhavené plotýnce (Leidenfrostův jev)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (kvůli riziku popálení provádí pouze učitel): na dostatečně rozehřátou kovovou plotýnku vařiče se opatrně kápne kapka vody. Kapka se hned neodpaří, ale „běhá“ po povrchu, protože se pod ní okamžitě vytvoří tenká vrstva páry, která teplo z plotýnky do kapky vede jen pomalu. Lze přidat další kapky a sledovat jejich splývání.",
+  "materials": [
+    "elektrická plotýnka vařiče",
+    "voda (kapátko nebo lžička)"
+  ],
+  "procedure": "1) Rozehřát plotýnku na vysokou teplotu. 2) Opatrně kápnout kapku vody na povrch. 3) Pozorovat poskakující kapku, která se neodpařuje okamžitě. 4) Vysvětlit vznik izolační parní vrstvy pod kapkou, která brzdí přenos tepla.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

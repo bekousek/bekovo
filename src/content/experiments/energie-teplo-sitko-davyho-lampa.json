@@ -1,0 +1,18 @@
+{
+  "id": "energie-teplo-sitko-davyho-lampa",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Plamen pod kovovým sítkem (princip Davyho lampy)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (kvůli otevřenému ohni provádí pouze učitel): nad zapálený lihový kahan nebo svíčku se vodorovně vloží jemné kovové drátěné sítko. Plamen hoří jen pod sítkem, nad ním už páry nevzplanou, protože kovové drátky odvádějí teplo a nad sítkem klesne teplota pod bod vzplanutí. Pokus se propojí s historickým vysvětlením Davyho hornické bezpečnostní lampy proti výbuchu metanu.",
+  "materials": [
+    "drátěné sítko (kovová mřížka)",
+    "lihový kahan nebo svíčka",
+    "zápalky"
+  ],
+  "procedure": "1) Zapálit kahan nebo svíčku. 2) Vodorovně vložit drátěné sítko do plamene v malé výšce nad knotem. 3) Pozorovat, že plamen hoří jen pod sítkem. 4) Vysvětlit odvod tepla kovem a návaznost na Davyho bezpečnostní lampu.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

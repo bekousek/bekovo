@@ -1,0 +1,9 @@
+{
+  "id": "energie-teplo-vascak-vedeni",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Vaščák: Přenos energie vedením",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace znázorňující, jak se teplo šíří vedením mezi částicemi látky — přenos tepelné energie od teplejšího místa k chladnějšímu na mikroskopické úrovni.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_vedeni_energie&l=cz"
+}

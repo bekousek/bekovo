@@ -1,0 +1,19 @@
+{
+  "id": "energie-teplo-papir-kovova-tycka",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Nehořlavý papír na kovové tyčce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: učitel nejprve zapálí volný proužek papíru, aby ukázal, že papír normálně hoří. Poté těsně (bez vzduchové mezery) omotá proužek papíru kolem kovové tyčky a drží ho nad plamenem svíčky nebo lihového kahanu — papír nevzplane, jen zhnědne, protože kov teplo z papíru rychle odvádí, takže se nezahřeje na zápalnou teplotu. Ukazuje prakticky, proč jsou kovy dobré tepelné vodiče.",
+  "materials": [
+    "kovová tyčka",
+    "proužek papíru",
+    "lihový kahan nebo svíčka",
+    "zápalky"
+  ],
+  "procedure": "1) Ukázat hoření volného proužku papíru. 2) Těsně namotat druhý proužek papíru na kovovou tyčku bez mezery. 3) Držet tyčku s papírem nad plamenem — papír nevzplane, jen zhnědne. 4) Vysvětlit, že kov teplo rychle odvádí pryč z papíru.",
+  "source": {
+    "label": "KDF MFF UK – Materiály do výuky: Teplo – náměty pro motivační pokusy",
+    "url": "http://kdf.mff.cuni.cz/~mandikova/kurz/materialy/teplo.pdf"
+  }
+}

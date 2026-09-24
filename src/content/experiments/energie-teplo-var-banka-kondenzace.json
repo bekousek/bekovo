@@ -1,0 +1,21 @@
+{
+  "id": "energie-teplo-var-banka-kondenzace",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Var vody s Erlenmayerovou baňkou – objemové změny a parní čerpadlo",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (vyžaduje otevřený oheň a horké sklo, provádí pouze učitel): přes hrdlo baňky s trochou vroucí vody se natáhne nafukovací balónek, který se zvětšuje vlivem vypařování. Po odstavení z ohně a rychlém uzavření začne pára uvnitř kondenzovat, vzniká podtlak a balónek je vtažen dovnitř baňky. Ve variantě s trubičkou ponořenou do nádobky s vodou je po zchlazení baňky voda nasáta hadičkou vzhůru. Ukazuje uvolnění a spotřebu skupenského tepla varu a kondenzace.",
+  "materials": [
+    "Erlenmayerova baňka",
+    "tábornický vařič nebo kahan",
+    "nafukovací balónek",
+    "gumová zátka s trubičkou",
+    "PVC hadička",
+    "nádobka s vodou"
+  ],
+  "procedure": "1) Na hrdlo baňky s trochou vroucí vody natáhnout balónek — nafoukne se párou. 2) Baňku odstavit a rychle uzavřít balónkem — po zkondenzování páry je balónek vtažen dovnitř. 3) Ve variantě se zátkou s trubičkou ponořenou do nádobky s vodou nechat baňku zchladnout — voda hadičkou vystoupá a je nasáta dovnitř.",
+  "source": {
+    "label": "Fyzikální šuplík (V. Piskač): Var vody s baňkou",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/var_vody_s_bankou.pdf"
+  }
+}
