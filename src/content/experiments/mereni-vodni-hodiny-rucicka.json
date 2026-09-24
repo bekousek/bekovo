@@ -1,0 +1,22 @@
+{
+  "id": "mereni-vodni-hodiny-rucicka",
+  "subtopicId": "cas",
+  "topicId": "mereni",
+  "title": "Vodní hodiny s otáčející se ručičkou",
+  "type": "measurement",
+  "description": "Demonstrační pokus — sestavení vyžaduje dohled učitele kvůli práci s ostrými nástroji (šídlo, vylamovací nůž), samotné pozorování a kalibraci ale zvládnou žáci. Do sklenice se šroubovacím víčkem přitéká rovnoměrným proudem voda; plovák uvnitř sklenice stoupá a nití přes osičku ve víčku otáčí papírovou ručičkou nad víčkem. Žáci hodiny okalibrují stopkami a porovnají tento mechanismus (plovák + kladka) s odkapávací klepsydrou — jiný způsob, jak převést rovnoměrný tok vody na měření času.",
+  "materials": [
+    "sklenice se šroubovacím víčkem",
+    "tvrdý papír (kartón) na ručičku",
+    "špejle",
+    "malý pružný míček jako plovák",
+    "matička jako protizávaží",
+    "nit",
+    "stopky na kalibraci"
+  ],
+  "procedure": "Z kartonu vyřízneme a vyvážíme papírovou ručičku, propíchneme jí otvor pro špejli jako osu. Do víčka sklenice prořízneme dva protilehlé otvory a z odříznutých plechových jazýčků ohneme ložiska pro osu. Na jeden konec špejle upevníme na niti plovák (míček), na druhý konec provlečeme ručičku a na niti zavěsíme přes okraj víčka protizávaží (matičku). Sklenici plníme rovnoměrným přítokem vody — plovák stoupá, závaží klesá, ručička se otáčí. Stopkami okalibrujeme, kam se ručička dostane za danou dobu.",
+  "source": {
+    "label": "Fyzikální šuplík — Vodní hodiny s ručičkou",
+    "url": "https://fyzikalnisuplik.websnadno.cz/navody/vodni_hodiny_s_rucickou.pdf"
+  }
+}
