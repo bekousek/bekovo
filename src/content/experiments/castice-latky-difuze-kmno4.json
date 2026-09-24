@@ -1,0 +1,20 @@
+{
+  "id": "castice-latky-difuze-kmno4",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Difuze kapalin — manganistan draselný ve studené a horké vodě",
+  "type": "qualitative",
+  "description": "Žákovský pokus demonstrující difuzi jako důkaz neustálého neviditelného pohybu částic. Zrnka manganistanu draselného (hypermanganu) se současně vsypou do studené a do vroucí vody a žáci porovnávají, jak rychle se v každé z nich šíří růžové zbarvení. Rychlejší šíření v horké vodě ukazuje, že částice se pohybují tím rychleji, čím vyšší je teplota látky.",
+  "materials": [
+    "dvě průhledné kádinky nebo sklenice",
+    "studená voda",
+    "vroucí voda (z rychlovarné konvice)",
+    "hypermangan (manganistan draselný, KMnO4) — pár zrnek",
+    "dvě čajové lžičky, pinzeta"
+  ],
+  "procedure": "Do jedné nádoby nalít studenou vodu, do druhé vroucí vodu. Pinzetou odměřit na dvě lžičky přibližně stejné množství zrnek hypermanganu a současně je vsypat do obou nádob. Pozorovat a porovnat rychlost šíření růžového zbarvení v obou nádobách. Vysvětlit: rychlejší difuze v horké vodě dokazuje, že částice vody se v teplejší kapalině pohybují rychleji.",
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/molekulova-fyzika-a-termika/kineticka-teorie-latek/difuze-kapalin-59/"
+  }
+}

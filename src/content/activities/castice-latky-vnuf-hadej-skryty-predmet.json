@@ -1,0 +1,12 @@
+{
+  "id": "castice-latky-vnuf-hadej-skryty-predmet",
+  "subtopicId": "skaly-castic",
+  "topicId": "castice-latky",
+  "title": "Hádej skrytý předmět — model nepřímého důkazu (analogie Rutherfordova rozptylu)",
+  "type": "group-work",
+  "description": "Skupinová hra ze sborníku VNUF: pod kartonovou deskou je v jednom z rohů skrytý předmět (např. kostka nebo korkový špunt) a žáci po desce koulí kuličku po nakloněné rampě. Z toho, jak se dráha kuličky odchyluje, se snaží uhodnout tvar a polohu skrytého předmětu, aniž by se na něj mohli podívat. Aktivita ukazuje princip, jakým lze existenci a vlastnosti neviditelných malých struktur zjistit nepřímo — stejně jako vědci nepřímo dokazovali existenci atomů a jejich jádra.",
+  "source": {
+    "label": "VNUF — Broklová Z.: Aktivity z fyziky mikrosvěta",
+    "url": "http://vnuf.cz/sbornik/prispevky/11-03-Broklova.html"
+  }
+}
