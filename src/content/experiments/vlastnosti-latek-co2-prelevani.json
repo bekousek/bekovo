@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-co2-prelevani",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Přelévání CO₂ – plyn má hmotnost a hustotu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Učitel vyrobí CO₂ reakcí octa a jedlé sody ve sklenici a pak tento plyn 'přelije' přes řadu hořících svíček – plameny jeden po druhém zhasínají, přestože sklenice vypadá prázdná. Pokus dramaticky ukazuje, že plynné látky mají hmotnost a hustotu, jsou neviditelné, ale reálné; CO₂ je hustší než vzduch, takže se drží u dna a 'teče' dolů. Klíčový demonstrační pokus pro zavedení tématu vlastností látek a skupenství v 6. ročníku.",
+  "materials": [
+    "sklenice nebo džbán",
+    "jedlá soda (1 lžíce)",
+    "ocet (100 ml)",
+    "2–3 svíčky v řadě na stole"
+  ],
+  "procedure": "1. Do sklenice nasyp lžíci jedlé sody, přilej ocet – vznikne CO₂. 2. Počkej 30 s, až reakce dozní. 3. Nakloň sklenici nad řadu svíček a pomalu 'přelévej' plyn – svíčky jedna po druhé zhasínají.",
+  "source": {
+    "label": "Školní příprava (Václav Koplík)",
+    "url": "https://skolnipriprava.estranky.cz/clanky/fyzika/latky-a-telesa/latky-a-telesa--experimenty-.html"
+  }
+}
