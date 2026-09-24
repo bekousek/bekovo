@@ -1,0 +1,11 @@
+{
+  "id": "pohyb-vyfuk-rychlost-vody",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Měření rychlosti vytékající vody fotografií — Výfuk",
+  "description": "Badatelský domácí úkol z korespondenčního semináře Výfuk. Žák fotografuje proud vody vytékající z kohoutku a z geometrie proudu (průřez, výška pádu) nepřímo vypočítá rychlost proudění. Paralelně provede přímé měření — objem za čas. Naměřené výsledky porovná a vyhodnotí zdroje chyb. Výstupem je fyzikální protokol s teorií, postupem, výsledky v grafu a závěrem. Termín odevzdání přibližně 3–4 týdny od vydání série.",
+  "source": {
+    "label": "Výfuk",
+    "url": "http://vyfuk.org/zadani/9/6"
+  }
+}

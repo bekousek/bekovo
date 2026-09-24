@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-vzdusna-draha-rovnomerny",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný přímočarý pohyb na vzdušné dráze",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Vozík klouzá po vzdušné dráze (air track) s minimálním třením a jeho poloha se zaznamenává v pravidelných časových intervalech. Žáci analyzují data a ověřují, že vozík urazí stejně dlouhé úseky za stejné doby — to je definice rovnoměrného přímočarého pohybu. Pokus je dostupný jako demonstrační videozáznam z katedry experimentální fyziky UPOL.",
+  "materials": ["vzdušná dráha (air track)", "vozík", "světelná závora nebo kamera se stopkami"],
+  "procedure": "Vozík se uvede do pohybu na vzdušné dráze. Světelnými závorami nebo kamerou se měří časy průchodu úseky stejné délky. Data se zanesou do tabulky a grafu s = f(t). Žáci ověřují konstantní rychlost.",
+  "source": {
+    "label": "Pokusy z UPOL",
+    "url": "http://pokusy.upol.cz/videopokusy/kinematika-hmotnych-bodu/rovnomerny-primocary-pohyb-1/"
+  }
+}

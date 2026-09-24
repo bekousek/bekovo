@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-mince-balonek",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Mince v balónku — pohyb po kružnici",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Drobná mince se vloží do velkého nafukovacího balónku, který se nafukuje a zavazuje. Při kroužení balónkem mince obíhá po vnitřní ploše po kružnici díky dostředivé síle způsobené napětím v gumy. Žáci si mohou vyzkoušet pohyb po kružnici na vlastní ruce a diskutovat, proč mince 'chce ven' — to je ukázka, že pohyb po kružnici vyžaduje neustálou sílu směrem ke středu.",
+  "materials": ["velký nafukovací balónek", "drobná mince (1 Kč)"],
+  "procedure": "Minci vložíme do balónku, balónek nafoukáme a zavážeme. Balónek uchopíme oběma rukama a kroužíme jím v kruzích. Mince začne obíhat po vnitřní ploše. Zvyšujeme tempo a sledujeme chování mince.",
+  "source": {
+    "label": "VIDA! — Pokusy do školy",
+    "url": "https://vida.cz/blog/dostrediva-sila"
+  }
+}

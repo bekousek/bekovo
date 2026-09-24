@@ -1,0 +1,14 @@
+{
+  "id": "pohyb-kolo-zarovka",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Kolo se žárovkou — trajektorie a vztažná soustava",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Na obvod jízdního kola (nebo kola na stojanu) se připevní svítící LED. Při valení kola žáci v zatemnělé třídě pozorují tvar trajektorie světla (cykloidu) z různých míst. Diskuse ukáže, že tvar trajektorie závisí na zvoleném vztažném tělesu — pozorovatel stojící u kola a pozorovatel vzdálený vidí odlišnou křivku. Pokus přirozeně vede k pojmům trajektorie, vztažné těleso a relativita pohybu.",
+  "materials": ["jízdní kolo nebo kolo na stojanu", "malá LED s baterkou (nebo svítící náramek)", "zatemnělá třída"],
+  "procedure": "LED připevníme na obvod kola. V zatemnělé místnosti valíme kolo rovnoměrně po rovné ploše. Žáci z různých vzdáleností kreslí nebo fotografují tvar, který světlo opisuje, a diskutují, co vidí z různých vztažných soustav.",
+  "source": {
+    "label": "VNUF",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_09/09_17_Janas.html"
+  }
+}

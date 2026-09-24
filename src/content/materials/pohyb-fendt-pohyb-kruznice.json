@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-fendt-pohyb-kruznice",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb po kružnici — applet (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet znázorňuje těleso pohybující se po kružnici a zobrazuje polohový vektor, vektor rychlosti a dostředivé zrychlení. Žáci mění poloměr dráhy, periodu a hmotnost tělesa a pozorují, jak se mění zrychlení. Klíčové sdělení: při rovnoměrném pohybu po kružnici se rychlost nemění velikostí, ale směrem — směr je vždy tečný k dráze.",
+  "url": "https://www.walter-fendt.de/html5/phcz/circularmotion_cz.htm"
+}
