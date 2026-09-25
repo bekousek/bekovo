@@ -1,0 +1,21 @@
+{
+  "id": "plyny-vakuum-vajicko-vyveva",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Syrové vajíčko pod vývěvou",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Syrové vajíčko s otvorem asi 5 mm ve špičce stojí špičkou dolů ve stojánku (odříznutá horní část PET láhve) nad miskou uvnitř ruční vývěvy. Při odčerpávání vzduchu se vzduchová bublina uvnitř vajíčka rozpíná a vytlačuje z něj bílek a pak i žloutek. Při napouštění vzduchu vnější tlak natlačí obsah zpět do skořápky – musí ale zůstat spojený s otvorem, proto má být špička jen 3–5 mm nad miskou.",
+  "materials": [
+    "ruční vývěva",
+    "syrové vajíčko",
+    "jehla",
+    "plastová láhev na stojánek",
+    "nůž",
+    "miska"
+  ],
+  "procedure": "Z horní části PET láhve vyrobit stojánek tak, aby špička vajíčka byla 3–5 mm nad miskou. Jehlou udělat do špičky otvor asi 5 mm. Vajíčko ve stojánku vložit do vývěvy, odčerpávat vzduch a sledovat vytékání; pak vzduch pomalu napustit.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mereni-teplota-stozar-na-lahvi",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Poskakující knoflík (mince) na zahřívané láhvi",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Na hrdlo láhve smočené v bublifuku se položí lehký plastový knoflík se „stožárem“ (brčko nebo špejle, dírky zakápnuté parafínem) nebo jen vhodná mince. Když láhev zahříváme v dlaních nebo v teplé vodě, vzduch uvnitř se ohřívá a jeho tlak roste, až knoflík nadzvedne a část vzduchu unikne. Knoflík dopadne zpět a vše se opakuje – stožár se rytmicky naklání, mince poskakuje. Ukazuje, že zahřátý plyn v uzavřeném objemu zvyšuje tlak.",
+  "materials": [
+    "skleněná láhev",
+    "lehký plastový knoflík velikosti hrdla (nebo mince)",
+    "brčko nebo špejle jako stožár",
+    "parafín ze svíčky nebo lepidlo",
+    "bublifuk"
+  ],
+  "procedure": "Zakápnout dírky knoflíku a vztyčit na něm stožár. Hrdlo láhve smočit v bublifuku a posadit na něj knoflík (minci). Láhev zahřívat v dlaních nebo v teplé vodě a sledovat pohyb knoflíku.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

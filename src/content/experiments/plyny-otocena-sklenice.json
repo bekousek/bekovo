@@ -1,0 +1,19 @@
+{
+  "id": "plyny-otocena-sklenice",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Otočená sklenice s vodou a „kouzelná“ sklenice s punčochou",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Sklenice plná vody přikrytá papírem se otočí dnem vzhůru – papír drží a voda nevyteče, protože atmosférický tlak zvenku je větší než hydrostatický tlak vody ve sklenici. Papír slouží jen k udržení rovného povrchu vody. Rozšíření: na okraj sklenice se nalepí kus dámské punčochy – pak lze papír opatrně sundat a voda přesto nevyteče (roli papíru převezme povrchová blána mezi očky); po klepnutí do sklenice vyteče. Pokus lze zopakovat s vyšší zavařovací sklenicí a otevřít otázku, jak vysoká by sklenice mohla být – přechod k vodnímu barometru.",
+  "materials": [
+    "sklenice (případně vyšší zavařovací)",
+    "papír",
+    "voda",
+    "volitelně: kus dámské punčochy a epoxidové lepidlo"
+  ],
+  "procedure": "Sklenici naplnit vodou, přikrýt papírem, papír přidržet a sklenici otočit dnem vzhůru; ruku odtáhnout. Varianta: na okraj sklenice přilepit punčochu, zopakovat a po otočení papír opatrně sundat.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

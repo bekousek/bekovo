@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-plyny-kulicka-do-lahve",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Fouknutí papírové kuličky do láhve",
+  "type": "qualitative",
+  "description": "Žákovský pokus se soutěží. Papírová kulička položená na okraji hrdla vodorovně ležící láhve při prudkém fouknutí nevletí dovnitř, ale vyletí ven. Láhev je plná vzduchu; fouknutím do ní přidáme další a stlačený vzduch, který se dere zpět ven, kuličku vytlačí. Aby se kulička dostala dovnitř, je třeba foukat jemně, aby vzduch proudil dovnitř spodní částí hrdla a horem mohl unikat. Vhodné jako rychlá motivační soutěž „kdo to dokáže napoprvé“.",
+  "materials": [
+    "plastová nebo skleněná láhev",
+    "papírový ubrousek na kuličku"
+  ],
+  "procedure": "Vyrobit malou papírovou kuličku, láhev položit vodorovně na stůl, kuličku dát na okraj hrdla a zkusit ji fouknout dovnitř. Porovnat prudké a jemné fouknutí.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

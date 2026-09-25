@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-plyny-vylevani-lahve",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vylévání vody z láhve – kdo to zvládne nejrychleji?",
+  "type": "measurement",
+  "description": "Žákovský pokus se soutěží. Žáci vylévají vodu ze skleněné láhve různými způsoby (jen otočit, naklonit, otočit a zakroužit, aby vznikl vír) a stopkami měří, jak dlouho voda vytéká. Nejrychleji to jde s vírem – jeho středem vzniká tunýlek, kterým může dovnitř snadno vstupovat vzduch, zatímco voda odtéká po stěnách. Při prostém otočení si vtékající vzduch a vytékající voda v hrdle vzájemně překážejí. Pokus ukazuje, že vzduch zaujímá místo a do „prázdné“ láhve se musí dostat.",
+  "materials": [
+    "skleněná láhev",
+    "umyvadlo nebo kbelík",
+    "voda",
+    "stopky"
+  ],
+  "procedure": "Naplnit láhev vodou a vylít ji nad umyvadlem. Opakovat různými způsoby (otočit dnem vzhůru, naklonit, otočit a několikrát zakroužit). Pokaždé změřit čas vytékání a výsledky porovnat. Diskutovat, proč je vír nejrychlejší.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

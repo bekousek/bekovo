@@ -1,0 +1,19 @@
+{
+  "id": "plyny-padajici-kornouty",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Padající kornouty – horní dožene spodní",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Ze dvou stejných papírových kruhů se slepí dva mělké kornouty. Puštěné vedle sebe dopadnou současně; puštěné nad sebou – horní dožene spodní. Souvisí s tím, jak se cyklisté nebo běžci „vezou“ za vedoucím závodníkem. Pozor na zjednodušení: nejde jen o to, že spodní kornout „rozráží vzduch“ – rozhodující je složité proudění vzduchu za spodním kornoutem, jehož podrobný výklad přesahuje úroveň ZŠ.",
+  "materials": [
+    "papír",
+    "kružítko",
+    "nůžky",
+    "lepidlo"
+  ],
+  "procedure": "Vystřihnout dva stejné kruhy a slepit z nich dva mělké kornouty (přelep jen úzký). Pustit je nejprve vedle sebe, pak nad sebou, a pozorovat dopad.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

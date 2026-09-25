@@ -1,0 +1,18 @@
+{
+  "id": "plyny-magnusuv-valec",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Magnusův válec – papírová roura zatáčí pod prkno",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Kulička nebo dřevěný váleček skutálený ze šikmého prkna dopadne běžným obloukem před prkno. Lehký papírový válec však během pádu překvapivě zatočí pod prkno. Rotující válec strhává vrstvičku vzduchu, která na jedné straně brzdí a na druhé urychluje vzduch obtékající padající válec; vzniklý rozdíl tlaků válec odtlačí stranou. Jde o Magnusův jev, díky němuž zatáčí rotující míče ve fotbale nebo ve stolním tenisu.",
+  "materials": [
+    "prkno",
+    "lehký papírový válec (např. z tvrdšího papíru)",
+    "kulička nebo dřevěný váleček"
+  ],
+  "procedure": "Podržet prkno šikmo a nechat po něm skutálet kuličku (váleček) – sledovat dopad. Pak skutálet papírový válec a porovnat, kam dopadne.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

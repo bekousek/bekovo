@@ -1,0 +1,21 @@
+{
+  "id": "mereni-objem-vydechnuty-vzduch",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Kolik vzduchu vydechneme?",
+  "type": "measurement",
+  "description": "Žákovský pokus s měřením. Na 3–5l láhev si žáci vyrobí stupnici objemu – postupně do ní přilévají po půl litru vody a značí výšku hladiny. Láhev plnou vody pak obrátí hrdlem dolů do kbelíku a hadičkou do ní po hlubokém nádechu vydechnou. Vytlačená voda ukáže na stupnici objem vydechnutého vzduchu. Lze navázat měřením počtu nádechů za minutu v klidu a po 10 dřepech. Z hygienických důvodů nasadí každý žák na konec hadičky nové brčko.",
+  "materials": [
+    "plastová nebo skleněná láhev 3–5 l",
+    "papírová páska nebo lihová fixa na stupnici",
+    "odměrka (půl litru)",
+    "kbelík, akvárium nebo mísa s vodou",
+    "hadička",
+    "brčka (pro každého žáka nové)"
+  ],
+  "procedure": "Po půl litru plnit láhev vodou a na pásce značit hladiny. Plnou láhev obrátit hrdlem do nádoby s vodou, do hrdla zasunout hadičku s brčkem. Po hlubokém nádechu vydechnout do láhve a na stupnici odečíst objem vzduchu.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vakuum-zkumavka-vyveva",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Zkumavka pod ruční vývěvou – vzduch vybublá, voda nateče",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s ruční kuchyňskou vývěvou (vakuová dóza na potraviny). Pod vývěvou je sklenice s vodou a v ní ponořená zkumavka dnem vzhůru se vzduchem. Při odčerpávání klesá tlak na hladinu a vzduch ze zkumavky vybublává ven; při opětovném napouštění vzduchu vzroste tlak na hladinu a voda vystoupá do zkumavky, protože zbylý vzduch v ní se stlačí. Hezky ukazuje vyrovnávání tlaků.",
+  "materials": [
+    "ruční vývěva (vakuová nádoba s pumpičkou, vyšší nádoba)",
+    "sklenice s vodou",
+    "zkumavka"
+  ],
+  "procedure": "Do sklenice napůl naplněné vodou vložit zkumavku se vzduchem dnem vzhůru a vše dát pod vývěvu. Odčerpávat vzduch a sledovat bubliny, pak vzduch pomalu napustit a sledovat hladinu ve zkumavce.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

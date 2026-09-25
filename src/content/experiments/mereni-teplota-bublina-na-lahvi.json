@@ -1,0 +1,18 @@
+{
+  "id": "mereni-teplota-bublina-na-lahvi",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Bublina na láhvi – vzduch se teplem roztahuje",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Na hrdle skleněné láhve namočeném v bublifuku vyfoukne žák brčkem malou bublinu. Když láhev zahřeje (stačí ji držet v dlaních), bublina se začne zvětšovat – vzduch v láhvi se zahřívá a roztahuje. Jednoduchá ukázka teplotní roztažnosti plynů. Kvalitní bublifuk: 1 kávová lžička medu v 10 lžících převařené vody, 1 lžička glycerinu a 1 lžička saponátu; vydrží dlouho v lednici.",
+  "materials": [
+    "skleněná láhev",
+    "brčko",
+    "bublifukový roztok"
+  ],
+  "procedure": "Namočit hrdlo láhve do bublifuku a brčkem na něm vyfouknout malou bublinu. Láhev obejmout dlaněmi a sledovat, co se s bublinou děje.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

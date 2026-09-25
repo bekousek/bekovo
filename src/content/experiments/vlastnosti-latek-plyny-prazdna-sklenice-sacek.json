@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-plyny-prazdna-sklenice-sacek",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Jsou sklenice a sáček opravdu prázdné?",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Sklenice vnořená do akvária dnem vzhůru nenaplní se vodou, dokud ji nenakloníme – pak z ní uniknou bubliny vzduchu a voda zaujme jejich místo. Uzavřený „prázdný“ sáček nejde snadno zmáčknout, a když jeho ústí namíříme na hořící svíčku, proud vytlačeného vzduchu ji sfoukne. Pokus prokazuje, že vzduch je látka, která zaujímá objem. Metodický tip: nechte žáky nejprve samotné vymyslet pokus, kterým existenci vzduchu dokážou (mávání sešitem, stříkačka ucpaná prstem, foukání stříkačkou do vody).",
+  "materials": [
+    "akvárium nebo velká průhledná nádoba s vodou",
+    "sklenice",
+    "papírový nebo mikrotenový sáček",
+    "svíčka",
+    "zápalky"
+  ],
+  "procedure": "Sklenici vnořit do vody dnem vzhůru, pak ji pod vodou naklonit a sledovat bubliny. Sáček co nejvíc otevřít, sevřít okraj a nechat žáka sáček stisknout. Pak ústí mírně povolit, namířit na hořící svíčku a sáček znovu stisknout.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "plyny-balonek-v-lahvi-ventilek",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Zavázaný balónek v natlakované láhvi",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Uvnitř PET láhve s automobilovým ventilkem ve víčku je nafouknutý a zavázaný balónek. Když láhev nahustíme hustilkou, balónek se výrazně zmenší; když vzduch ventilkem upouštíme, balónek se znovu nafukuje. Tlak v láhvi a v balónku se musí vyrovnat, proto balónek mění objem podle tlaku okolního vzduchu. Lze zadat jako problém: jak nafouknout balónek v láhvi, aniž ho rozvážeme? POZOR: víčkem s ventilkem na nikoho nemiřte, natlakovanou láhev nenechávejte bez dozoru.",
+  "materials": [
+    "PET láhev s automobilovým ventilkem ve víčku",
+    "nafukovací balónek",
+    "nit",
+    "plastová trubička",
+    "automobilová hustilka"
+  ],
+  "procedure": "Do láhve zasunout trubičku a balónek, balónek nafouknout, vytáhnout trubičku a balónek zavázat. Uzavřít láhev a nahustit ji – balónek se zmenší. Upouštět vzduch ventilkem – balónek se nafukuje.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

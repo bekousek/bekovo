@@ -1,0 +1,18 @@
+{
+  "id": "plyny-piti-brckem",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Pití brčkem – kdo žene vodu do úst?",
+  "type": "qualitative",
+  "description": "Žákovský pokus a diskuse nad běžnou zkušeností. Při sání snížíme tlak vzduchu nad hladinou v brčku; tlak nad okolní hladinou ve sklenici je vyšší, a tak okolní vzduch natlačí vodu do brčka a do úst. Vhodné k vyvrácení představy, že vodu „vytáhneme“ – ve skutečnosti ji tlačí atmosféra. Dobře navazuje na pokus s měřením podtlaku, který dokážeme vyvinout.",
+  "materials": [
+    "sklenice",
+    "brčko",
+    "voda"
+  ],
+  "procedure": "Napít se brčkem vody ze sklenice a společně rozebrat, co vodu do úst dopravilo.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

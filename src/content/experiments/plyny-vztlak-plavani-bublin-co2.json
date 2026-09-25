@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vztlak-plavani-bublin-co2",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Bubliny plovoucí na „hladině“ oxidu uhličitého",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Akvárium se alespoň do poloviny naplní oxidem uhličitým (jedlá soda + ocet nebo sifonové bombičky). Bubliny z bublifuku puštěné shora neklesnou na dno, ale zastaví se a plují na neviditelné hladině CO₂ – ten má větší hustotu než vzduch v bublinách a nadlehčuje je, podobně jako voda nadlehčuje míč. Časem bubliny klesají, protože CO₂ proniká jejich blánou dovnitř.",
+  "materials": [
+    "akvárium nebo větší průhledná nádoba",
+    "oxid uhličitý (jedlá soda + ocet, nebo sifonová láhev)",
+    "bublifuk (lépe na velké bubliny)"
+  ],
+  "procedure": "Naplnit nádobu oxidem uhličitým aspoň do poloviny výšky. Shora do ní foukat bubliny a sledovat, kde se zastaví a jak se chovají v čase.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

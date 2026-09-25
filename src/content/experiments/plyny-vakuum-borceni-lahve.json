@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vakuum-borceni-lahve",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Borcení plastové láhve vytékající vodou",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Plastová láhev plná vody je uzavřená víčkem, kterým prochází hadička vedoucí dolů do kbelíku. Jak voda hadičkou vytéká, tlak uvnitř láhve klesá a vnější vzduch láhev postupně zmačká. Pokles tlaku závisí na svislé délce vodního sloupce v hadičce – hadička proto musí být dost dlouhá a viset svisle, ne ležet na stole.",
+  "materials": [
+    "plastová láhev (tenkostěnná)",
+    "víčko s vzduchotěsně zapuštěnou hadičkou",
+    "dlouhá hadička",
+    "voda",
+    "kbelík"
+  ],
+  "procedure": "Do víčka zapustit hadičku, láhev naplnit vodou a uzavřít. Postavit ji tak, aby hadička visela svisle dolů do kbelíku, a sledovat láhev při vytékání vody.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

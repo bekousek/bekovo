@@ -1,0 +1,16 @@
+{
+  "id": "plyny-foukani-mezi-papiry",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Foukání mezi dva listy papíru",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dva svisle visící listy papíru asi 5 cm od sebe se po fouknutí mezi ně k sobě přiblíží, přestože žáci většinou čekají opak. V proudícím vzduchu je nižší tlak než v klidném vzduchu kolem, a tak okolní vzduch papíry přitlačí k sobě. Varianta: list držený za okraje se po fouknutí nad něj zvedne do vodorovné polohy.",
+  "materials": [
+    "2 listy papíru"
+  ],
+  "procedure": "Nechat žáky nejprve odhadnout, co se stane. Pak podržet listy svisle asi 5 cm od sebe a foukat mezi ně. Varianta: podržet jeden list za okraj a foukat nad jeho horní stranu.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

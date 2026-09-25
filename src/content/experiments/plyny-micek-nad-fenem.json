@@ -1,0 +1,17 @@
+{
+  "id": "plyny-micek-nad-fenem",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Pingpongový míček v proudu vzduchu z fénu",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Míček vložený do proudu vzduchu z fénu mířícího vzhůru se vznáší; když ho z boku postrčíme, vrátí se zpět, a udrží se i nad mírně nakloněným fénem. Pro žáky stačí vysvětlení, že se o míček „přetahují“ proud vzduchu (tlačí vzhůru) a Země (táhne dolů). U nakloněného fénu proudí vzduch nad míčkem rychleji, je tam menší tlak a rozdíl tlakových sil vyrovnává tíhu. Pozor: boční stabilita míčku se často chybně vysvětluje Bernoulliho principem – podrobnější rozbor ukazuje, že je to složitější.",
+  "materials": [
+    "fén",
+    "pingpongový míček"
+  ],
+  "procedure": "Fén namířit kolmo vzhůru, zapnout a do proudu vložit míček. Opatrně ho z boku postrčit. Fén pomalu naklánět a sledovat, do jakého náklonu míček vydrží.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}
