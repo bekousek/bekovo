@@ -1,0 +1,20 @@
+{
+  "id": "mereni-horeni-zelezne-vaty-vaha",
+  "subtopicId": "hmotnost",
+  "topicId": "mereni",
+  "title": "Hoření železné vaty na váze – hmotnost roste",
+  "type": "measurement",
+  "description": "Demonstrační pokus (nehořlavá podložka, ochranné brýle). Ocelová (železná) vata leží na kovové desce na digitální váze. Po zapálení vata žhne a – proti intuici – její hmotnost na váze roste. Železo se při hoření slučuje se vzdušným kyslíkem na oxidy železa; produkt proto váží tolik co původní vata plus navázaný kyslík. Pokus ukazuje, že hmotnost se při ději zachovává (kyslík „přibude“ ze vzduchu) a že hoření je slučování s kyslíkem. Zapálit lze i plochou baterií 4,5 V přiloženou k vatě. Klíčová slova: hmotnost, zákon zachování hmotnosti, hoření, oxidace.",
+  "materials": [
+    "ocelová vata (jemná)",
+    "kovová nebo keramická deska",
+    "digitální váha",
+    "zapalovač nebo plochá baterie 4,5 V",
+    "ochranné brýle"
+  ],
+  "procedure": "Desku s načechranou vatou položit na váhu a vytárovat nebo zapsat hmotnost. Vatu zapálit a sledovat údaj váhy během hoření a po něm.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfjbfirsovygweuwytvofq"
+  }
+}

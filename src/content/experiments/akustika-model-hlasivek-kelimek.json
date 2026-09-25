@@ -1,0 +1,18 @@
+{
+  "id": "akustika-model-hlasivek-kelimek",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Hlasivky z kelímku a gumičky",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Přes průhledný kelímek je zvenku přetažená gumička (přes hrdlo a dno). Žák brčkem fouká na gumičku a snaží se ji vzduchem rozkmitat; pak mění její napnutí a poslouchá rozdíly ve zvuku. Podobně jako hlasivky v hrtanu se napnutá gumička v proudu vzduchu rozkmitá a vytváří tlakové vlny – zvuk. Víc napnutá gumička kmitá rychleji a zní výš, volnější nižším tónem. Kelímek zastupuje dutiny v ústech, hltanu a nose, které jako rezonanční prostor zvuk zesilují a mění jeho barvu. Klíčová slova: hlasivky, kmitání, zdroj zvuku, rezonance.",
+  "materials": [
+    "plastový kelímek",
+    "gumičky",
+    "brčko"
+  ],
+  "procedure": "Gumičku natáhnout přes kelímek (přes hrdlo a dno). Brčkem foukat přesně na gumičku, až se rozkmitá. Měnit napnutí gumičky a porovnávat výšku tónu.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

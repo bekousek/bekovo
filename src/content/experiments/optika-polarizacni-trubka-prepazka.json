@@ -1,0 +1,19 @@
+{
+  "id": "optika-polarizacni-trubka-prepazka",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Trubka s „neviditelnou přepážkou“ z polarizačních filtrů",
+  "type": "qualitative",
+  "description": "Žákovský pokus. V průhledné trubce je zdánlivě tmavá přepážka – přesto jí pingpongový míček volně projede. Na trubce (nebo v ní) jsou dva kusy polarizační fólie otočené vůči sobě o 90°; tam, kde se překrývají, vzniká tmavé místo. Každý filtr propouští jen světlo kmitající v jednom směru – první filtr propustí jednu rovinu polarizace, druhý, otočený kolmo, ji téměř úplně zablokuje. Mozek tmavou oblast automaticky vyloží jako předmět, ve skutečnosti se jen změnily vlastnosti procházejícího světla. Pozorováním přes další polarizační filtr lze ukázat, jak se jednotlivé části trubky zjasňují a ztmavují. Klíčová slova: polarizace světla, zkřížené polarizátory.",
+  "materials": [
+    "průhledná trubka (např. plexisklová)",
+    "polarizační fólie",
+    "pingpongový míček",
+    "další polarizační filtr k pozorování"
+  ],
+  "procedure": "Poslat míček trubkou a pozorovat, že „přepážkou“ projede. Pak se na trubku podívat přes polarizační filtr a otáčet jím. Vysvětlit, jak tmavé místo vzniká.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

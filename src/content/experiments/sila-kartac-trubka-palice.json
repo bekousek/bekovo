@@ -1,0 +1,18 @@
+{
+  "id": "sila-kartac-trubka-palice",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Kartáč, trubka a palice – setrvačnost",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Do spodní části svisle postavené trubky se zasune kartáč (např. na lahve), který se v ní může posouvat. Když gumovou palicí opakovaně udeříme shora do trubky, kartáč uvnitř „leze“ vzhůru. Při každém úderu se trubka prudce pohne dolů, kdežto kartáč díky setrvačnosti zůstává na místě – vůči trubce se tedy posune nahoru. Mezi údery kartáč drží tření o stěny trubky. Stejným způsobem se nasazuje uvolněná hlava kladiva úderem násady o zem. Klíčová slova: setrvačnost, tření, relativní pohyb.",
+  "materials": [
+    "trubka (např. plastová nebo kovová)",
+    "kartáč, který jde do trubky ztuha",
+    "gumová palice"
+  ],
+  "procedure": "Kartáč zasunout do spodní části trubky, trubku držet svisle a palicí opakovaně udeřit do jejího horního okraje. Sledovat, kam se kartáč posouvá.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

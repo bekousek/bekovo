@@ -1,0 +1,18 @@
+{
+  "id": "akustika-synchronizace-metronomu",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Synchronizace metronomů na pohyblivé desce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Dvě plechovky se položí vodorovně vedle sebe a na ně lehká deska, aby se mohla volně pohybovat. Na desku se postaví dva metronomy nastavené na stejné tempo a spustí se v různých okamžicích. Po chvíli se jejich kyvadla začnou pohybovat souhlasně (synchronizují se); s více metronomy trvá synchronizace déle. Metronomy nejsou přímo propojené, ale každý svým kmitáním působí malou silou na desku, která se nepatrně pohybuje, a tento pohyb se přenáší na ostatní – vznikne vzájemná vazba. Jev popsal už Christiaan Huygens u kyvadlových hodin v 17. století. Podobně se synchronizují spřažená kyvadla, elektrické obvody i biologické rytmy. Klíčová slova: kmitání, spřažené oscilátory, synchronizace, fáze.",
+  "materials": [
+    "2–5 mechanických metronomů",
+    "lehká deska (např. tvrdý karton, prkénko)",
+    "2 prázdné plechovky"
+  ],
+  "procedure": "Desku položit na plechovky, postavit na ni metronomy se stejným tempem a spustit je v různé fázi. Sledovat, jak se jejich pohyb postupně sjednocuje. Porovnat s metronomy postavenými na pevném stole.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

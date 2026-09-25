@@ -1,0 +1,20 @@
+{
+  "id": "optika-luminol-dmso",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Luminol v DMSO – chemiluminiscence (studené světlo)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel – hydroxid draselný je žíravina, nutné brýle a rukavice). Do Erlenmeyerovy baňky se nalije trochu DMSO (dimethylsulfoxidu), rozpustí se v něm špetka luminolu (asi ¼ lžičky) a přidá se lžička šupinek hydroxidu draselného. Při protřepávání roztok začne modře svítit, a čím víc se s baňkou třepe, tím víc září. Energie chemické reakce se tu neuvolňuje jako teplo, ale jako „studené“ světlo – chemiluminiscence. Třepání přivádí do roztoku vzdušný kyslík, který luminol oxiduje; vzniklá molekula je v excitovaném stavu a přebytečné energie se zbaví vyzářením fotonu modrého světla. Hodí se k tématu zdroje světla (světlo nemusí vznikat jen z horkých těles). Klíčová slova: chemiluminiscence, zdroj světla, oxidace.",
+  "materials": [
+    "Erlenmeyerova baňka se zátkou",
+    "DMSO",
+    "luminol",
+    "hydroxid draselný (šupinky)",
+    "ochranné brýle a rukavice"
+  ],
+  "procedure": "Do baňky nalít DMSO do výšky asi 1 cm, přidat ¼ lžičky luminolu a protřepat, až se rozpustí. Přidat lžičku šupinek KOH, uzavřít a třepat, dokud roztok nezačne svítit. Pozorovat v zatemnění, jak se záře mění s intenzitou třepání.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

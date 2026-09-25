@@ -1,0 +1,19 @@
+{
+  "id": "akustika-komin-termalni-vibrace",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Komín – trubice rozezněné ohněm",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (stanoviště „v terénu“, pracuje se s ohněm). Úkol: rozezni trubice pomocí ohně. Kovové trubice různé délky se drží svisle nad plamenem nebo se v nich zahřeje kovové sítko umístěné ve spodní části. Teplý vzduch v trubici stoupá jako v komíně a proudění vzduchu rozkmitá vzduchový sloupec, trubice začne hlasitě „zpívat“ (Rijkeho trubice). Výška tónu závisí na délce trubice – delší trubice zní hlouběji, podobně jako píšťaly varhan. Zdrojem zvuku je kmitající vzduchový sloupec, energii mu dodává teplo. Klíčová slova: zdroj zvuku, vzduchový sloupec, rezonance, proudění vzduchu.",
+  "materials": [
+    "kovové trubice různé délky (průměr několik cm)",
+    "kovové sítko vložené do dolní čtvrtiny trubice",
+    "kahan nebo plynový hořák",
+    "stojan, žáruvzdorná rukavice"
+  ],
+  "procedure": "Sítko v dolní části trubice rozžhavit plamenem, trubici oddálit od plamene a držet ji svisle. Poslouchat tón. Porovnat trubice různé délky; zkusit trubici naklonit do vodorovné polohy (zvuk ustane).",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

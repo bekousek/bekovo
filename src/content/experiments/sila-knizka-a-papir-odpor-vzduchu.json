@@ -1,0 +1,17 @@
+{
+  "id": "sila-knizka-a-papir-odpor-vzduchu",
+  "subtopicId": "gravitacni-a-tihova-sila",
+  "topicId": "sila",
+  "title": "Knížka a papír – odpor vzduchu při pádu",
+  "type": "qualitative",
+  "description": "Žákovský pokus. List papíru a kniha puštěné současně ze stejné výšky nedopadnou současně – kniha je dole dřív. Když se papír položí pod knihu, dopadnou spolu. Klíčová otázka: co se stane, když papír položíme na knihu? Oba dopadnou současně – papír se od knihy neoddělí. Ve vakuu by všechna tělesa padala stejně rychle; ve vzduchu ale lehký papír s velkou plochou výrazně brzdí odpor vzduchu. Kniha papír „stíní“: vytlačuje vzduch pod sebou, takže na papír nad ní téměř žádný odpor vzduchu nepůsobí a padá s ní. Klíčová slova: volný pád, odporová síla vzduchu, plocha, hmotnost.",
+  "materials": [
+    "kniha",
+    "list papíru menší než kniha"
+  ],
+  "procedure": "Pustit knihu a papír vedle sebe ze stejné výšky. Zopakovat s papírem pod knihou. Nechat žáky předpovědět, co se stane s papírem položeným navrch knihy, a ověřit.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

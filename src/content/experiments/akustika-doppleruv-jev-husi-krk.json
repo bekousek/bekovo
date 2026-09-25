@@ -1,0 +1,17 @@
+{
+  "id": "akustika-doppleruv-jev-husi-krk",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Dopplerův jev s roztočenou trubicí („husí krk“)",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Do jednoho konce plastové ohebné trubice (např. „husí krk“, vlnitá hadice) se zpívá nebo se do něj vydává stálý tón a trubice se roztočí kolem sebe. Lidé stojící kolem slyší, že výška tónu se pravidelně mění – střídavě vyšší a nižší. Když se konec trubice, ze kterého zvuk vychází, pohybuje k posluchači, zvukové vlny se před ním „stlačují“ a posluchač vnímá vyšší frekvenci; když se vzdaluje, vlny se natahují a tón je nižší. Jde o Dopplerův jev, který využívají radary pro měření rychlosti, lékařský ultrazvuk i astronomové. Klíčová slova: Dopplerův jev, frekvence, výška tónu, rychlost zdroje.",
+  "materials": [
+    "ohebná plastová trubice (husí krk, vlnitá hadice) asi 1 m",
+    "případně píšťalka nebo malý bzučák na konci"
+  ],
+  "procedure": "Do jednoho konce trubice vydávat stálý tón (nebo do něj upevnit píšťalku) a trubici roztočit nad hlavou. Posluchači stojí kolem a popisují, co slyší. Varianta: bzučák na provázku.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

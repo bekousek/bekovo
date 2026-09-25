@@ -1,0 +1,19 @@
+{
+  "id": "optika-polarizace-cukrem",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Polarizace světla přes cukr – optická aktivita",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Tři sklenice – s roztokem sacharózy, s roztokem fruktózy a s čistou vodou – se postaví na polarizační filtr a zespodu se prosvítí. Shora se přes ně díváme druhým polarizačním filtrem, kterým pomalu otáčíme. U roztoků cukrů se objevují barvy, které se při otáčení mění, u vody ne. Světlo za prvním filtrem je lineárně polarizované; molekuly cukru jsou opticky aktivní a stáčejí rovinu polarizace – každý cukr jiným směrem a o jiný úhel, a různé barvy (vlnové délky) o různý úhel. Druhý filtr proto různé barevné složky zeslabí různě. Klíčová slova: polarizace světla, polarizační filtr, optická aktivita.",
+  "materials": [
+    "2 polarizační filtry (fólie)",
+    "plošný zdroj světla (např. displej, lampa)",
+    "3 průhledné sklenice",
+    "sacharóza, fruktóza, voda"
+  ],
+  "procedure": "Připravit koncentrované roztoky sacharózy a fruktózy a sklenici čisté vody. Sklenice postavit na polarizační filtr nad zdroj světla. Na horní okraj přiložit druhý filtr a pomalu jím otáčet; porovnat barvy a jas u jednotlivých sklenic.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://youtu.be/O00Gu-qUbqg"
+  }
+}

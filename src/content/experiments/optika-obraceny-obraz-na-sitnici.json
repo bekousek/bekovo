@@ -1,0 +1,17 @@
+{
+  "id": "optika-obraceny-obraz-na-sitnici",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Obrácený obraz na sítnici – stín špendlíku",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žák se dívá malým otvorem propíchnutým v papíru proti světlé ploše a zespodu před oko posouvá hlavičku špendlíku. Stín hlavičky se přitom v zorném poli pohybuje shora dolů – obráceně, než se špendlík skutečně pohybuje. Oční čočka vytváří na sítnici skutečný převrácený obraz: co je dole před okem, dopadá na horní část sítnice. Stín špendlíku ale vzniká přímo na sítnici (bez zobrazení čočkou), a mozek, zvyklý obraz převracet, ho proto „převrátí“ špatně. Klíčová slova: oko, sítnice, převrácený obraz.",
+  "materials": [
+    "list papíru",
+    "špendlík"
+  ],
+  "procedure": "Špendlíkem propíchnout v papíru malý otvor. Přiložit papír těsně k oku a dívat se otvorem na světlou plochu. Hlavičku špendlíku pomalu posouvat zespodu nahoru těsně před okem a sledovat, kterým směrem se pohybuje její stín.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

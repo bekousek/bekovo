@@ -1,0 +1,19 @@
+{
+  "id": "energie-infrateplomer-kovovy-papirovy-kelimek",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Infrateploměr a kelímky – proč teploměr „lže“",
+  "type": "measurement",
+  "description": "Žákovský badatelský pokus. Voda ohřátá v konvici se změří infrateploměrem a nalije do kovového a papírového kelímku. Otázka: která nádoba bude na povrchu teplejší? Po změření infrateploměrem vyjde lesklý kovový kelímek výrazně „chladnější“, přestože je v něm stejně horká voda (a na dotek pálí). Ověření klasickým teploměrem ukáže skutečnou teplotu. Infrateploměr měří tepelné záření povrchu; lesklý kov září málo a navíc odráží záření z okolí, takže přístroj ukáže nižší teplotu. Papír září téměř jako „černé těleso“, a údaj je proto blíž realitě. Klíčová slova: tepelné záření, odrazivost materiálu, měření teploty.",
+  "materials": [
+    "rychlovarná konvice",
+    "kovový (lesklý) a papírový kelímek",
+    "infrateploměr",
+    "klasický teploměr"
+  ],
+  "procedure": "Změřit teplotu vody v konvici infrateploměrem. Vodu nalít do obou kelímků, nechat žáky tipovat a změřit povrch kelímků infrateploměrem. Výsledky ověřit teploměrem ponořeným do vody a vysvětlit rozdíl.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://youtu.be/AUQEaUE8Wpk"
+  }
+}

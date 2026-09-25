@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-fazole-a-micky",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Fazole a míčky – sypká látka se chová jako kapalina",
+  "type": "qualitative",
+  "description": "Žákovský pokus. V míse plné suchých fazolí jsou zahrabané pingpongové míčky a na povrchu leží kovové kuličky. V klidu zůstává vše na místě – fazole se chovají jako pevná látka. Jakmile se mísou třese, fazole se začnou přesouvat, míčky vyplavou na povrch a kovové kuličky zapadnou dolů. Třesení umožní částicím pohyb, takže se sypký materiál chová podobně jako kapalina: lehčí a větší tělesa „vyplouvají“, těžší klesají. Nejde ale o skutečný vztlak podle Archimédova zákona, jen o podobný princip – dobrá příležitost diskutovat, co je a co není kapalina. Klíčová slova: vztlaková síla (analogie), kapalina vs. pevná látka, hustota.",
+  "materials": [
+    "mísa",
+    "suché fazole (rýže, čočka)",
+    "pingpongové míčky",
+    "kovové kuličky"
+  ],
+  "procedure": "Míčky zahrabat do fazolí, kovové kuličky položit na povrch. Chvíli nechat v klidu, pak mísou třást a sledovat, kam se které těleso přesune.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

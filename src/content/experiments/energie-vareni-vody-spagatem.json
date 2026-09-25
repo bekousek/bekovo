@@ -1,0 +1,20 @@
+{
+  "id": "energie-vareni-vody-spagatem",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Vaření vody špagátem – přeměna pohybové energie na vnitřní",
+  "type": "measurement",
+  "description": "Žákovský badatelský pokus. Do zkumavky (trubičky) se kapátkem nakape trochu vody, kolem zkumavky se jednou smyčkou omotá provázek a žáci ho rychle tahají tam a zpět. Třením se pohybová energie provázku mění na vnitřní energii – zkumavka i voda se zahřívají, což žáci měří teploměrem. Výzva: dokážete vodu zahřát až k varu? Pokus ukazuje, že konání práce proti tření zvyšuje vnitřní energii tělesa. Klíčová slova: tření, přeměna energie, teplota varu.",
+  "materials": [
+    "zkumavka nebo kovová trubička",
+    "kapátko s vodou",
+    "provázek (špagát)",
+    "teploměr (čidlo)",
+    "stojan nebo držák"
+  ],
+  "procedure": "Do zkumavky nakapat trochu vody, změřit teplotu. Provázek omotat jednou smyčkou kolem zkumavky a rychle ho tahat tam a zpět (ve dvojici). Průběžně měřit teplotu vody.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://youtu.be/-GWx07zqpXg"
+  }
+}

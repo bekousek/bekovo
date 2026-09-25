@@ -1,0 +1,17 @@
+{
+  "id": "sila-naklonena-plechovka-teziste",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Nakloněná plechovka – těžiště a stabilita",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci zkoušejí postavit plechovku na hranu dna tak, aby stála nakloněná. Prázdná ani plná plechovka to nedokážou, částečně naplněná (asi třetina vody) ano. Voda se přelije do nejnižší části plechovky a sníží polohu těžiště. Plechovka je v rovnováze, dokud svislice procházející těžištěm prochází plochou, kterou se plechovka opírá o podložku. U prázdné i plné plechovky je těžiště zhruba v polovině výšky a svislice z něj míjí opěrnou hranu. Klíčová slova: těžiště, rovnovážná poloha, opěrná plocha.",
+  "materials": [
+    "3 stejné plechovky (prázdná, částečně naplněná, plná)",
+    "voda"
+  ],
+  "procedure": "Zkusit postavit každou plechovku nakloněnou na hraně dna. Postupně dolévat vodu do prázdné plechovky a hledat, kdy stojí nejlépe. Zakreslit polohu těžiště a svislici z něj.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "akustika-ladickove-zkousky-sluchu",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Ladičkové zkoušky sluchu – kostní vedení zvuku",
+  "type": "qualitative",
+  "description": "Žákovský pokus s přesahem do biologie. Žák rozkmitá ladičku a její spodek přikládá na temeno, za ucho (na kost za boltcem), na loket a na další části těla; sleduje, kde zvuk slyší nejlépe. Zvuk se do vnitřního ucha nemusí dostat jen vzduchem – rozkmitaná ladička vytváří vibrace, které se šíří tkáněmi a kostmi až do hlemýždě. Nejlépe je slyšet při přiložení na kosti lebky, kde kostní vedení obchází zevní i střední ucho. Stejný princip využívají lékaři při ladičkových zkouškách sluchu (Rinneho a Weberova zkouška). Klíčová slova: šíření zvuku pevnou látkou, kostní vedení, sluch, vibrace.",
+  "materials": [
+    "ladička (ideálně 256–512 Hz)",
+    "palička"
+  ],
+  "procedure": "Rozkmitat ladičku a přiložit její spodek na různá místa těla (temeno, kost za uchem, loket, zuby). Porovnat hlasitost. Varianta: přiložit za ucho, a když zvuk zanikne, přesunout ramena ladičky před ucho – je zase slyšet?",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

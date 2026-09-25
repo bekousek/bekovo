@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-kaca-a-spinner",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Káča a spinner na provázku – stabilita rotujícího tělesa",
+  "type": "qualitative",
+  "description": "Žákovský pokus (badatelské stanoviště). Roztočená káča se udrží ve svislé poloze, dokud se dostatečně rychle otáčí. Spinner roztočený ve svislé rovině a zavěšený z jedné strany na provázku nespadne, ale začne pomalu obíhat kolem bodu závěsu (precese). Rychle rotující těleso „drží“ směr své osy otáčení – čím rychleji rotuje, tím je stabilnější. Na tom je založen setrvačník, gyroskop i stabilita jedoucího kola. Klíčová slova: rotace, setrvačník, rotační (kinetická) energie, stabilita.",
+  "materials": [
+    "káča",
+    "spinner",
+    "provázek"
+  ],
+  "procedure": "Roztočit káču a pozorovat, kdy začne padat. Spinner roztočit ve svislé rovině, držet ho z jedné strany za provázek a sledovat jeho pohyb; porovnat s neroztočeným spinnerem.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfqepenwrtxglriernmwiw"
+  }
+}

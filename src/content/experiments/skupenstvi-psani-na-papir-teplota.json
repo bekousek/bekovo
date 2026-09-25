@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-psani-na-papir-teplota",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Psaní na papír – tření ohřívá, vypařování ochlazuje",
+  "type": "measurement",
+  "description": "Žákovský badatelský pokus. Žáci píší na papír tužkou, propiskou a fixou a malují štětcem namočeným do vody a do lihu. Infrateploměrem (nebo termokamerou) měří teplotu povrchu papíru při psaní a po něm. Tuha tužky papír třením mírně ohřeje, kdežto stopa po vodě nebo lihu je chladnější než okolí – kapalina se vypařuje a na vypařování odebírá papíru teplo (skupenské teplo vypařování). Líh se vypařuje rychleji než voda, a ochlazuje proto víc. Otázky: Proč jsou výsledky různé? Jak závisí na náplni psacích potřeb? Klíčová slova: tření, vypařování, skupenské teplo, teplota.",
+  "materials": [
+    "papír",
+    "tužka, propiska, fix",
+    "štětec",
+    "voda a líh",
+    "infrateploměr nebo termokamera"
+  ],
+  "procedure": "Změřit teplotu papíru. Psát různými psacími potřebami a malovat štětcem s vodou a s lihem; měřit teplotu stop během psaní a po něm. Výsledky zapsat do tabulky a vysvětlit.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

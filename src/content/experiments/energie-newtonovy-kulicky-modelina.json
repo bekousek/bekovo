@@ -1,0 +1,18 @@
+{
+  "id": "energie-newtonovy-kulicky-modelina",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Newtonovy kuličky, pingpongový míček a modelína – pružná a nepružná srážka",
+  "type": "qualitative",
+  "description": "Žákovský pokus (badatelská prezentace). Na Newtonových kuličkách žáci odklánějí jednu, dvě i více kuliček a zkoušejí různé kombinace; pak ze strany přiloží pingpongový míček a experimentují s ním. Srážky ocelových kuliček jsou téměř pružné – kuličky si předávají většinu pohybové energie. Nakonec se na jednu kuličku nalepí kousek modelíny: srážka se změní na nepružnou, kuličky se „slepí“ a většina pohybové energie se přemění na vnitřní (tepelnou) energii modelíny. Klíčová slova: pružná a nepružná srážka, pohybová energie, přeměna energie.",
+  "materials": [
+    "Newtonovy kuličky (Newtonovo kyvadlo)",
+    "pingpongový míček",
+    "modelína"
+  ],
+  "procedure": "Odklánět různý počet kuliček a pozorovat. Přiložit pingpongový míček na konec řady a zkoumat jeho pohyb. Nalepit modelínu mezi dvě kuličky a porovnat.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

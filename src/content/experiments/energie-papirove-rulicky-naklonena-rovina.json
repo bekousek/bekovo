@@ -1,0 +1,18 @@
+{
+  "id": "energie-papirove-rulicky-naklonena-rovina",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Papírové ruličky na nakloněné rovině – rotační energie",
+  "type": "qualitative",
+  "description": "Žákovský badatelský pokus. Papírové ruličky o různých poloměrech (a případně plný váleček) se pouštějí současně z nakloněné roviny. Otázka: která sjede nejrychleji a proč? Polohová energie se při valení mění nejen na pohybovou energii posuvného pohybu, ale i na energii rotační; podíl energie, který „spotřebuje“ otáčení, závisí na tom, jak je hmota tělesa rozložená kolem osy. Žáci zkoušejí i různé povrchy nakloněné roviny (hladký, korkový) a vliv tření. Klíčová slova: přeměna energie, polohová a pohybová energie, rotační energie.",
+  "materials": [
+    "papírové ruličky různých průměrů",
+    "deska jako nakloněná rovina",
+    "podložky různých povrchů (hladká, korková)"
+  ],
+  "procedure": "Pouštět vždy dvě ruličky současně ze stejné výšky nakloněné roviny a sledovat, která je dole dřív. Měnit průměr ruliček, sklon a povrch roviny. Formulovat hypotézu a ověřit ji.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfimcgxkykqpheybjllg"
+  }
+}

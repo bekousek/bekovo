@@ -1,0 +1,19 @@
+{
+  "id": "energie-ohnive-tornado",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Ohnivé tornádo – proudění teplého vzduchu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel, nehořlavá podložka, hasicí pomůcky po ruce). V nehořlavé misce se zapálí kousek vaty nasáklé lihem a z boků se k plameni přiloží dvě poloviny průhledné plexisklové trubky tak, aby mezi nimi zůstaly úzké štěrbiny. Plamen se začne stáčet a vytvoří spirálový ohnivý vír. Hořící líh ohřívá vzduch, teplý vzduch má menší hustotu a stoupá, a zespodu je nasáván chladnější vzduch. Štěrbiny způsobí, že přitékající vzduch proudí po obvodu a začne rotovat, takže natáhne plamen do spirály. Jde o zmenšený model atmosférických vírů; přesah do zeměpisu – nerovnoměrné zahřívání povrchu Země vytváří rozdíly teplot a tlaků, a tím větry i rotující bouře. Klíčová slova: proudění (konvekce), hustota vzduchu, vír.",
+  "materials": [
+    "nehořlavá miska a podložka",
+    "vata a líh",
+    "dvě poloviny průhledné trubky (plexisklo) nebo válec z kovové síťky",
+    "zapalovač"
+  ],
+  "procedure": "Vatu nasáklou lihem položit do misky a zapálit. Z boků přiložit obě poloviny trubky a mírně je posunout proti sobě, aby vznikly úzké štěrbiny. Pozorovat stáčení plamene.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

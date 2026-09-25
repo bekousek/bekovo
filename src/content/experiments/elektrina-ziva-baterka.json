@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-ziva-baterka",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Živá baterka – galvanický článek z lidí",
+  "type": "measurement",
+  "description": "Žákovský pokus. Žáci stojí v řadě a navlhčenýma rukama drží vždy v jedné ruce zinkovou a v druhé měděnou tyč (trubku); sousedé se drží za tyče tak, aby se kovy střídaly. Krajní tyče se připojí k voltmetru a změří se napětí – s každým dalším žákem v řadě roste. Dvojice elektrod zinek–měď s dostatečným rozdílem elektrochemických potenciálů tvoří galvanický článek; elektrolytem je lidské tělo, které obsahuje vodu a rozpuštěné soli, jejichž ionty přenášejí náboj. Největší odpor má kůže, proto pomůže navlhčení rukou (sůl z potu vytvoří vodivé prostředí). Klíčová slova: galvanický článek, elektrody, elektrolyt, napětí.",
+  "materials": [
+    "zinkové (pozinkované) a měděné tyče nebo trubky",
+    "vodiče s krokosvorkami",
+    "voltmetr (multimetr)",
+    "voda na navlhčení rukou"
+  ],
+  "procedure": "Jeden žák drží v každé ruce jinou tyč; změřit napětí mezi tyčemi. Přidávat další žáky do řady (zinek–měď–zinek–měď…) a měřit napětí. Porovnat suché a navlhčené ruce.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

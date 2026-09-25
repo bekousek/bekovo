@@ -1,0 +1,18 @@
+{
+  "id": "plyny-fen-micek-trubka",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Fén, pingpongový míček a trubka – míček vystřelí",
+  "type": "qualitative",
+  "description": "Žákovský pokus – rozšíření známého vznášejícího se míčku. Míček v proudu vzduchu z fénu mířícího vzhůru se ustálí a nespadne: tíhu vyrovná síla proudícího vzduchu a při vychýlení ho rozdíl tlaků vrací do středu proudu. Pak se nad míček opatrně přidrží papírová trubka a pomalu se přibližuje. Jakmile se míček dostane do trubky, prudce vystřelí vzhůru. V trubce je proud vzduchu usměrněný (převážně laminární), kdežto volně nad fénem víří. Usměrněním se zmenší ztráty, vzduch kolem míčku proudí rychleji a síla směrem vzhůru vzroste. Řízení proudění (trysky, difuzory, potrubí) se využívá u vysavačů, klimatizací i proudových motorů. Klíčová slova: proudění vzduchu, laminární a turbulentní proudění, tlak.",
+  "materials": [
+    "fén",
+    "pingpongový míček",
+    "papírová trubka (např. srolovaný papír A4)"
+  ],
+  "procedure": "Zapnout fén směrem vzhůru a vložit do proudu míček. Nad míček pomalu přibližovat papírovou trubku zespodu otevřenou, dokud míček nevtáhne. Zkusit trubky různých průměrů a délek.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

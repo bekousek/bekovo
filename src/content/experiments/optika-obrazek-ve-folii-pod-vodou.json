@@ -1,0 +1,17 @@
+{
+  "id": "optika-obrazek-ve-folii-pod-vodou",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Obrázek ve fólii pod vodou – strom, který „ztratí listí“",
+  "type": "qualitative",
+  "description": "Žákovský pokus (stanoviště „v terénu“). Obrázky stromů zatavené ve fólii (v průhledném obalu se vzduchovou mezerou) se ponoří do vody. Při šikmém pohledu přes stěnu nádoby nebo hladinu část obrázku zmizí – listnatý strom „opadá“, kdežto jehličnan zůstane. Úloha zní: proč jehličnan neopadá? Mizení souvisí s úplným odrazem světla: světlo z části obrázku, která je od vody oddělená vrstvičkou vzduchu, dopadá na rozhraní voda–vzduch pod velkým úhlem a úplně se odrazí, takže do oka nedojde. Co je s fólií a vodou v optickém kontaktu (nebo nakreslené jinak), zůstane vidět. Pokus je vhodný jako hádanka k úplnému odrazu.",
+  "materials": [
+    "obrázky stromů zatavené/zalaminované ve fólii (s tenkou vzduchovou mezerou)",
+    "průhledná nádoba s vodou"
+  ],
+  "procedure": "Obrázky ponořit do vody a dívat se na ně z různých úhlů (šikmo přes stěnu nádoby nebo shora přes hladinu). Zjistit, při jakém pohledu část obrázku zmizí, a hledat vysvětlení, proč jehličnan „neopadá“.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "optika-chlorofyl-uv",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Chlorofyl pod UV světlem – červená fluorescence",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Listy rostliny se v třecí misce rozetřou s trochou lihu, čímž se extrahuje chlorofyl. Zelený roztok po osvícení UV (nebo silným modrým) světlem temně červeně svítí. V listu chlorofyl pohlcuje modrou a červenou část spektra a energii předává k fotosyntéze. V izolovaném roztoku ji ale nemá komu předat, a tak ji vyzáří jako světlo s delší vlnovou délkou – viditelné červené světlo. Jde o fluorescenci; pokus ukazuje, že barva, kterou látka svítí, nemusí být barva, kterou má za denního světla. Klíčová slova: fluorescence, UV světlo, pigmenty, vlnová délka.",
+  "materials": [
+    "zelené listy (např. špenát)",
+    "třecí miska s tloučkem",
+    "líh",
+    "průhledná nádobka",
+    "UV nebo silná modrá baterka"
+  ],
+  "procedure": "Listy natrhat do třecí misky, přilít trochu lihu a důkladně rozetřít. Zelený roztok slít do průhledné nádobky a v šeru ho osvítit UV (modrou) baterkou.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

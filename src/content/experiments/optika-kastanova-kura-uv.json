@@ -1,0 +1,19 @@
+{
+  "id": "optika-kastanova-kura-uv",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Kaštanová kůra ve vodě pod UV světlem – eskulin",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Odlomená větvička jírovce maďalu (kaštanu) se ponoří lomem do kádinky s vodou (nebo se do vody nastrouhá trochu kůry) a kádinka se prosvítí UV baterkou. Z kůry se do vody pomalu uvolňuje eskulin a kapalina pod UV zářením modravě až tyrkysově září; je vidět, jak „svítící“ látka klesá od hladiny do objemu vody. Molekuly eskulinu pohlcují neviditelné UV záření, část energie spotřebují na vibrace a zbytek vyzáří jako viditelné světlo – fluorescence. Klíčová slova: fluorescence, UV záření, přírodní látky.",
+  "materials": [
+    "větvička jírovce (kaštanu)",
+    "kádinka s vodou",
+    "UV baterka",
+    "případně klíč na nastrouhání kůry"
+  ],
+  "procedure": "Větvičku ponořit lomem do vody, nebo do vody nastrouhat trochu kůry. Kádinku prosvítit UV baterkou (nejlépe v šeru) a pozorovat, jak se svítící eskulin šíří vodou.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfxlocnxvdwgvwmsba"
+  }
+}

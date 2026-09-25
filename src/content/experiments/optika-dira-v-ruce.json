@@ -1,0 +1,16 @@
+{
+  "id": "optika-dira-v-ruce",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Díra v ruce – binokulární vidění",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žák přiloží papírovou ruličku k jednomu oku a dlaň druhé ruky dá vedle ruličky (rulička v úžlabí mezi palcem a ukazovákem). Při pohledu oběma očima „vidí“ v dlani kruhovou díru. Každé oko vidí jiný obraz – jedno dlaň, druhé průhled ruličkou – a mozek se oba obrazy snaží spojit do jedné smysluplné scény. Posouváním ruky podél ruličky se „díra“ v dlani přesouvá. Pokus ukazuje, jak vzniká prostorové (binokulární) vidění. Klíčová slova: binokulární vidění, zraková iluze, mozek.",
+  "materials": [
+    "papírová rulička (např. od kuchyňských utěrek nebo srolovaný papír)"
+  ],
+  "procedure": "Ruličku vzít do jedné ruky a přiložit k oku na stejné straně. Dlaň druhé ruky otevřít vedle ruličky asi v její polovině, obě oči nechat otevřené a dívat se do dálky. Pozorovat „díru“ v dlani a zkusit posouvat ruku podél ruličky.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

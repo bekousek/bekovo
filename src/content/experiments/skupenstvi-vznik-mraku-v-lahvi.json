@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-vznik-mraku-v-lahvi",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Vznik mraku v láhvi – kondenzace při rozpínání vzduchu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (láhev tlakuje učitel, jen PET láhev od perlivého nápoje). Do průhledné PET láhve se nalije trochu isopropylalkoholu (stačí i voda), dovnitř se vpustí kouř ze sfouknuté sirky a láhev se uzavře víčkem s ventilkem. Pumpičkou se natlakuje (asi na 3,5 baru), protřepe se a víčko se rychle uvolní – uvnitř se okamžitě vytvoří bílá mlha. Při rychlém rozepnutí se vzduch ochladí (adiabatické ochlazení), nedokáže udržet tolik páry a ta zkondenzuje na drobných kapičkách – vznikne aerosol, tedy oblak. Částečky kouře slouží jako kondenzační jádra. Opětovným natlakováním se vzduch zahřeje a mlha zmizí. Stejně vznikají oblaka ve stoupajícím, rozpínajícím se vzduchu; opačný děj (klesající, zahřívající se vzduch) stojí za tepelnými kopulemi a vlnami veder. Klíčová slova: kondenzace, adiabatické ochlazení, oblaka.",
+  "materials": [
+    "PET láhev od perlivého nápoje",
+    "víčko s ventilkem (autoventilek)",
+    "pumpička s manometrem",
+    "isopropylalkohol nebo voda",
+    "sirky"
+  ],
+  "procedure": "Do láhve nalít trochu isopropylalkoholu, vpustit kouř ze sfouknuté sirky a uzavřít víčkem s ventilkem. Natlakovat pumpičkou, protřepat a rychle uvolnit víčko. Pozorovat mlhu; znovu natlakovat a sledovat, jak mizí.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "akustika-pet-lahev-ton-tlak",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Nafukování PET láhve a změna tónu",
+  "type": "qualitative",
+  "description": "Žákovský pokus. PET láhev má místo víčka ventilek, takže lze měnit tlak vzduchu uvnitř. Žák na láhev lehce poklepe paličkou a poslouchá tón, pak pumpičkou mírně zvýší tlak a poklepe znovu; opakuje několikrát. S rostoucím tlakem je tón vyšší. Zvuk vzniká kmitáním stěn láhve. Vyšším tlakem se stěny víc napnou a ztuhnou, tužší stěna kmitá rychleji, a vlastní frekvence láhve proto roste. Stejně je to u strun hudebních nástrojů – víc napnutá struna zní výš. Klíčová slova: zdroj zvuku, frekvence, výška tónu, napětí.",
+  "materials": [
+    "PET láhev",
+    "víčko s ventilkem",
+    "pumpička (s manometrem)",
+    "palička (např. xylofonová)"
+  ],
+  "procedure": "Poklepat na láhev bez přetlaku a poslouchat. Pumpičkou postupně zvyšovat tlak (nepřekračovat asi 3–4 bary) a po každém kroku poklepat. Popsat, jak se mění výška tónu; výšku tónu lze měřit mobilní aplikací.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

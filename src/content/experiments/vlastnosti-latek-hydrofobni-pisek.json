@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-hydrofobni-pisek",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Hydrofobní písek – kapka, která nesmáčí",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Po talíři se rozprostře hydrofobní (vodu odpuzující) písek a kápne se na něj kapka vody. Kapka si drží kulovitý tvar a při naklánění talíře po písku jezdí, aniž by ho namočila. Hydrofobní písek je křemičitý písek povrchově upravený vrstvou (např. silikonu nebo vosku), ke které se molekuly vody nepřitahují. Molekuly vody drží silně pohromadě (povrchové napětí), a proto kapka zůstává kulatá. Takový písek se dá použít při odstraňování ropných skvrn – vodou se nesmáčí, ale váže ropu. Klíčová slova: povrchové napětí, smáčivost, hydrofobní povrch.",
+  "materials": [
+    "hydrofobní písek (kinetický/„magický“ písek)",
+    "talíř",
+    "kapátko s vodou"
+  ],
+  "procedure": "Rozprostřít písek po talíři, kápnout na něj kapku vody a naklánět talíř. Zkusit písek nasypat do sklenice s vodou a zase ho vytáhnout – je suchý?",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "akustika-laser-membrana-dvd",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zvuk kreslí laserem – membrána, kousek DVD a plechovka",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Přes otvor plechovky (bez dna i víka) je natažená pružná latexová membrána (balónek) a na ní je nalepený malý kousek DVD jako zrcátko. Laser se namíří na DVD tak, aby odražený paprsek dopadal na vzdálenou stěnu. Když do plechovky mluvíme nebo zpíváme, světelná skvrna na stěně kreslí obrazce, které se mění s výškou a hlasitostí zvuku. Zvuk je mechanické vlnění – změny tlaku vzduchu rozkmitají membránu a s ní i zrcátko. I nepatrný pohyb membrány změní směr odraženého paprsku, na vzdálené stěně se výrazně zvětší. Obrazce tedy nejsou přímo „obrazem zvuku“, ale záznamem pohybu membrány. Klíčová slova: kmitání, zvuk jako vlnění, membrána, odraz světla.",
+  "materials": [
+    "plechovka bez dna i víka (nebo trubka)",
+    "balónek (latexová membrána)",
+    "gumička",
+    "malý kousek DVD nebo zrcátka",
+    "laserové ukazovátko",
+    "stojan na laser"
+  ],
+  "procedure": "Balónek natáhnout přes jeden konec plechovky a zajistit gumičkou, na membránu mimo střed nalepit kousek DVD. Laser upevnit tak, aby paprsek po odrazu dopadal na stěnu. Do plechovky mluvit, zpívat různé tóny a pozorovat obrazce.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}
