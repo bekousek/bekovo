@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-jaderna-polocas-fazole",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Model poločasu rozpadu s fazolemi",
+  "type": "measurement",
+  "description": "ŽÁKOVSKÝ pokus modelující radioaktivní rozpad pomocí fazolí označených křížkem na jedné straně. Skupina fazole nasype do kelímku, protřepe a vysype na stůl — fazole s křížkem nahoru představují „rozpadlé atomy“ a odeberou se; postup se opakuje a žáci zapisují počet zbývajících fazolí po každém hodu. Vynesením grafu počtu zbývajících fazolí proti počtu hodů žáci prakticky ověří exponenciální pokles a princip poločasu rozpadu.",
+  "materials": [
+    "cca 100 fazolí na skupinu (jedna strana označená fixem — křížek)",
+    "kelímek nebo miska",
+    "papír na zápis a graf (nebo sešit)"
+  ],
+  "procedure": "1) Fazole (křížkem dolů) nasypat do kelímku. 2) Protřepat a vysypat na stůl. 3) Odebrat fazole ležící křížkem nahoru (= rozpadlé atomy) a zapsat počet zbývajících. 4) Opakovat se zbylými fazolemi, dokud nezbude žádná. 5) Vynést graf počtu zbývajících fazolí proti počtu hodů a diskutovat tvar křivky (exponenciální pokles, poločas rozpadu).",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/jaderne-laborky-za-par-korun-aneb-exponenciala-s-pivem-a-fazolemi-nazorne-a-bez-pocitacu/"
+  }
+}

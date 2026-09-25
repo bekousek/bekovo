@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-vascak-radioaktivita",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Vaščák: Radioaktivita",
+  "type": "applet",
+  "description": "Česká animace představující základní typy radioaktivního záření (alfa, beta, gama) a jejich pronikavost. Vhodná jako úvod do tématu radioaktivity před podrobnějšími simulacemi konkrétních typů rozpadu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=jadro_zareni&l=cz"
+}

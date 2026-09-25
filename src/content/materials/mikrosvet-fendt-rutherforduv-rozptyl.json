@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-fendt-rutherforduv-rozptyl",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Walter Fendt: Rutherfordův rozptyl",
+  "type": "applet",
+  "description": "Česká HTML5 simulace slavného Rutherfordova experimentu z roku 1911 — rozptylu alfa částic na tenké zlaté fólii. Žák mění protonové číslo terčového jádra, rychlost částic i vzdálenost dráhy od jádra a pozoruje úhel rozptylu, čímž se ukazuje, jak experiment odhalil malé kladně nabité jádro uprostřed z většiny prázdného atomu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/rutherfordscattering_cz.htm"
+}
