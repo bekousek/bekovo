@@ -1,0 +1,21 @@
+{
+  "id": "plyny-pretlak-podtlak-plic",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Jaký přetlak a podtlak dokážeme vyvinout?",
+  "type": "measurement",
+  "description": "Žákovský pokus s měřením. Malá láhev s obarvenou vodou je uzavřená zátkou se dvěma vzduchotěsně zapuštěnými hadičkami, delší (asi 2 m) je napnutá svisle. Žák nejprve nasává delší hadičkou jako brčkem a změří, do jaké výšky dokáže vodu nasát; pak fouká do kratší hadičky a měří, do jaké výšky vodu vytlačí. Každý centimetr vodního sloupce odpovídá rozdílu tlaku 100 Pa (1 hPa), takže žáci přímo přepočítají podtlak a přetlak svých plic. Z hygienických důvodů nové brčko pro každého žáka.",
+  "materials": [
+    "malá láhev se zátkou",
+    "2 průhledné hadičky (delší asi 2 m) vzduchotěsně zapuštěné do zátky",
+    "obarvená voda",
+    "metr",
+    "brčka",
+    "nůžky"
+  ],
+  "procedure": "Láhev naplnit obarvenou vodou a uzavřít zátkou s hadičkami. Delší hadičku napnout svisle a sát – změřit dosaženou výšku. Pak foukat do druhé hadičky a změřit, kam vystoupí voda v delší hadičce. Výšky převést na tlak (1 cm vody ≈ 100 Pa).",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

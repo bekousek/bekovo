@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-plyny-zhasinani-svicek-co2",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Postupné zhasínání svíček v oxidu uhličitém",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Na dně akvária hoří tři různě vysoké svíčky. Po stěně nádoby se pomalu napouští oxid uhličitý (z reakce jedlé sody s octem nebo ze sifonových bombiček). Svíčky zhasínají postupně od nejnižší – CO₂ má větší hustotu než vzduch, hromadí se ode dna a zhasínající plameny ukazují výšku jeho neviditelné „hladiny“. Litr CO₂ váží asi 1,8 g, litr vzduchu asi 1,2 g.",
+  "materials": [
+    "akvárium nebo větší průhledná nádoba",
+    "oxid uhličitý (jedlá soda + ocet, případně sifonová láhev s bombičkami)",
+    "3 různě dlouhé svíčky",
+    "zápalky"
+  ],
+  "procedure": "Postavit na dno nádoby tři různě vysoké svíčky a zapálit je. Po stěně nádoby pomalu napouštět oxid uhličitý a sledovat pořadí, ve kterém svíčky zhasínají.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

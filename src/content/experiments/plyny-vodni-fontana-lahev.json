@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vodni-fontana-lahev",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Vodní fontána – stlačený vzduch vytlačí vodu",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Láhev je zčtvrtiny naplněná vodou a uzavřená zátkou, kterou těsně prochází trubička až nad dno. Když do trubičky foukáme, zvyšujeme tlak vzduchu nad hladinou; po přestání foukat stlačený vzduch tlačí na vodu a vytlačí ji trubičkou ven jako fontánu. Lépe funguje trubička se zúženým horním koncem. Trubičku lze utěsnit modelínou v provrtaném víčku nebo gumovou zátkou.",
+  "materials": [
+    "láhev",
+    "zátka nebo víčko s otvorem",
+    "dlouhá trubička (ideálně se zúženým koncem)",
+    "modelína na utěsnění",
+    "voda"
+  ],
+  "procedure": "Nalít do láhve vodu asi do čtvrtiny výšky, uzavřít zátkou s trubičkou sahající těsně nade dno. Foukat trubičkou do láhve, pak přestat a pozorovat stříkající vodu.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

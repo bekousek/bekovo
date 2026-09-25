@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vakuum-zavarovaci-sklenice-plamen",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Víčko přisáté k zavařovací sklenici plamenem",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Do zavařovací sklenice se vhodí zapálený proužek papíru a za okamžik se přitiskne víčko. Papír zhasne a víčko nejde sundat. Horké plyny se nejprve rozepnuly a část unikla; po zhasnutí se zbylé plyny o stěny ochladily, jejich tlak klesl a vnější vzduch víčko přitlačuje. Pozor na rozšířenou chybnou představu, že „shořel kyslík a zbylo po něm místo“ – při hoření vznikají jiné plyny (CO₂, vodní pára), podtlak způsobuje hlavně ochlazení.",
+  "materials": [
+    "zavařovací sklenice s víčkem",
+    "proužek papíru",
+    "zápalky"
+  ],
+  "procedure": "Zapálit proužek papíru, vhodit ho do sklenice a za okamžik přitisknout víčko. Po zhasnutí zkusit víčko sundat.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

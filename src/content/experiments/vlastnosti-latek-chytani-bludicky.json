@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-chytani-bludicky",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Chytání bludičky – plamen nad hladinou CO₂",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Rozhořelá svíčka na drátěném držáku se opatrně ponoří těsně pod hladinu oxidu uhličitého ve sklenici. Plamen se od knotu na okamžik odtrhne a „vznáší se“ nad hladinou CO₂; rychlým vynořením svíčky ho lze znovu zachytit na knot, a to i několikrát. Ukazuje, že nehoří knot, ale páry parafínu – knot funguje jen jako „zplynovač“ roztaveného parafínu. Navazuje pokus se zapalováním parafínových par.",
+  "materials": [
+    "větší sklenice",
+    "oxid uhličitý (jedlá soda + ocet)",
+    "svíčka",
+    "kus drátu na držák",
+    "zápalky"
+  ],
+  "procedure": "Připravit ve sklenici CO₂. Z drátu udělat držák na svíčku, svíčku zapálit a nechat rozhořet. Opatrně ji vnořit těsně pod hladinu CO₂, sledovat plamen a svíčku rychle vynořit.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

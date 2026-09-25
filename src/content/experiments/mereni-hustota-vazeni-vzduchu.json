@@ -1,0 +1,21 @@
+{
+  "id": "mereni-hustota-vazeni-vzduchu",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Vážení vzduchu – kolik váží litr vzduchu?",
+  "type": "measurement",
+  "description": "Demonstrační pokus s měřením. PET láhev s automobilovým ventilkem ve víčku se natlakuje hustilkou a zváží na digitálních vahách (přesnost 0,1 g). Pak se z ní přes hadičku vypustí vzduch do 2l láhve naplněné vodou a obrácené hrdlem dolů v kbelíku – jakmile vzduch vytlačí všechnu vodu, ubyly z tlakové láhve právě 2 litry vzduchu. Opětovné vážení ukáže úbytek asi 2,5 g, tedy asi 1,25 g na litr – odtud hustota vzduchu přibližně 1,25 kg/m³. Navazující úloha: žáci odhadnou a pak spočítají hmotnost vzduchu ve třídě. POZOR: víčkem s ventilkem na nikoho nemiřte, natlakované láhve nenechávejte bez dozoru.",
+  "materials": [
+    "digitální váhy s přesností 0,1 g",
+    "PET láhev 1,5 l s automobilovým ventilkem ve víčku",
+    "PET láhev 2 l z pevnějšího plastu",
+    "automobilová hustilka",
+    "tenká plastová hadička (vnitřní průměr 0,7–0,9 mm)",
+    "kbelík s vodou"
+  ],
+  "procedure": "Láhev s ventilkem natlakovat a zvážit. 2l láhev naplnit vodou a hrdlem dolů ponořit do kbelíku. Hadičku nasadit na ventilek, druhý konec zasunout do 2l láhve a mačkáním ventilku vypouštět vzduch, dokud nevytlačí všechnu vodu. Tlakovou láhev znovu zvážit a z rozdílu hmotností spočítat hmotnost 1 litru vzduchu. Nakonec odhadnout objem vzduchu ve třídě a jeho hmotnost.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vtekani-vzduchu-do-lahve",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Vtékání vzduchu do láhve s vodou",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Láhev plná vody je obrácená hrdlem do nádoby s vodou. Do hrdla se zasune hadička, jejíž volný konec je stisknutý. Po uvolnění stisku začne hadičkou do láhve proudit okolní vzduch a voda z láhve vytéká. Tlak okolního vzduchu je větší než tlak vody u ústí hadičky v láhvi, a proto vzduch vnikne nad hladinu.",
+  "materials": [
+    "láhev",
+    "hadička",
+    "akvárium nebo jiná nádoba s vodou"
+  ],
+  "procedure": "Láhev naplnit po okraj vodou, otočit a ponořit hrdlem do nádoby s vodou. Hadičku na jednom konci stisknout, druhý konec vsunout do láhve a pak stisk uvolnit.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

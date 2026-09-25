@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-plyny-vodni-tornado",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vodní tornádo ze dvou PET lahví",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dvě PET láhve jsou spojené slepenými uzávěry s otvorem uprostřed (průměr 10–13 mm). Když je plná láhev nahoře, voda do spodní láhve skoro neteče – brání jí vzduch, který ve spodní láhvi je a nemá kudy uniknout. Když láhvemi zakroužíme, vznikne nad otvorem vodní vír, jehož středem uniká vzduch nahoru a voda plynule přetéká dolů. Uzávěry je dobré zdrsnit a spojit tavnou pistolí, případně zpevnit kouskem trubky.",
+  "materials": [
+    "2 stejné PET láhve",
+    "2 uzávěry slepené k sobě s provrtaným otvorem 10–13 mm",
+    "tavná pistole",
+    "voda"
+  ],
+  "procedure": "Jednu láhev naplnit vodou, spojenými uzávěry připojit druhou a otočit plnou láhví nahoru. Pozorovat, že voda téměř neteče. Poté láhvemi několikrát rychle zakroužit, aby vznikl vír, a sledovat přetékání.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

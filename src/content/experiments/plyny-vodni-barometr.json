@@ -1,0 +1,21 @@
+{
+  "id": "plyny-vodni-barometr",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Vodní barometr z desetimetrové hadice",
+  "type": "measurement",
+  "description": "Demonstrační pokus s měřením (venku nebo na schodišti). Průhledná 10m hadice uzavřená na jednom konci se naplní obarvenou vodou bez bublin, druhý konec se zaspuntuje a ohne do tvaru U. Hadice se spustí z dostatečně vysokého okna, dole se odspuntuje – trocha vody vyteče, ale sloupec vysoký asi 10 m zůstane viset. Z jeho výšky žáci spočítají atmosférický tlak: p = h·ρ·g ≈ 10 m · 1000 kg/m³ · 10 m/s² ≈ 100 000 Pa (jako by na každý cm² stálo kilogramové závaží). Nad sloupcem není prázdno, ale vodní pára. Navazuje otázka, z jak hluboké studny vytáhne vodu ruční pumpa.",
+  "materials": [
+    "průhledná plastová hadice 10 m, průměr 8–10 mm",
+    "vzduchotěsné zátky na oba konce",
+    "drát na zajištění ohybu",
+    "voda s potravinářským barvivem",
+    "kelímek nebo kádinka",
+    "pásmo nebo metr"
+  ],
+  "procedure": "Hadici natáhnout po schodišti nebo spustit z okna uzavřeným koncem dolů a pomalu ji naplnit obarvenou vodou (bubliny uvolnit poklepáním). Zaspuntovat, konec ohnout do U a zajistit drátem. Spustit z okna, dole vyndat špunt, po ustálení znovu zaspuntovat a nahoře označit hladinu. Po vytažení změřit výšku sloupce a spočítat tlak.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

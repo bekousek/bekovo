@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-parafinove-pary",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Zapalování parafínových par – co vlastně hoří u svíčky?",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Rozhořelou svíčku sfoukneme a do stoupajícího dýmu vnoříme hořící špejli, aniž se dotkneme knotu. Páry vzplanou a plamen „sjede“ zpět na knot – při silném dýmu i ze vzdálenosti 2 cm. Hoří tedy parafínové páry, ne knot ani kapalný parafín. Rozšíření: kousky parafínu zahřívat v misce z alobalu nad svíčkou a zapálit páry nad miskou. Stejně tak benzín a jiné hořlavé kapaliny hoří až ve formě par smíchaných se vzduchem.",
+  "materials": [
+    "svíčka",
+    "zápalky",
+    "špejle",
+    "volitelně: kousky parafínu a miska z alobalu"
+  ],
+  "procedure": "Svíčku zapálit a nechat důkladně rozhořet, pak ji sfouknout a do dýmu vnořit hořící špejli tak, aby se nedotkla knotu. Pozorovat, jak plamen přeskočí na knot.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

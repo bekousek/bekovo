@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vakuum-nafukovani-rukavice",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Rukavice nafouknutá dovnitř láhve",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Skleněná nádoba má u dna vzduchotěsně zapuštěnou trubičku s dlouhou hadičkou (aspoň 1 m) a je plná vody; na hrdle je pevně upevněná gumová rukavice. Když hadička visí dolů a voda vytéká do kbelíku, tlak vzduchu v nádobě klesá a rukavice se nafukuje dovnitř nádoby – lze si do ní sáhnout. Zvednutím hadičky vnikne dovnitř vzduch a rukavice splaskne; fouknutím do hadičky se rukavice vztyčí, nafoukne opačně a může i „odstartovat“ ke stropu. Motivační otázka: dá se nafouknout balónek tak, abychom si mohli sáhnout dovnitř?",
+  "materials": [
+    "skleněná nádoba s trubičkou vzduchotěsně zapuštěnou u dna",
+    "hadička dlouhá alespoň 1 m",
+    "gumová chirurgická rukavice nebo balónek",
+    "voda",
+    "kbelík"
+  ],
+  "procedure": "Nádobu naplnit vodou, na hrdlo navléknout a upevnit rukavici. Nechat hadičku viset do kbelíku a sledovat nafukování rukavice. Pak hadičku zvednout, nakonec do ní fouknout.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

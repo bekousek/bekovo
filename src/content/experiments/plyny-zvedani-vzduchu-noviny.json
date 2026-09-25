@@ -1,0 +1,20 @@
+{
+  "id": "plyny-zvedani-vzduchu-noviny",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Zvedání vzduchu – noviny, deska a provázek",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Deska (cca 20 × 20 cm) s háčkem uprostřed leží na zemi přikrytá velkým listem novin, k háčku je uvázaný provázek. Při pomalém tahu se deska s novinami zvedne. Při prudkém škubnutí se provázek přetrhne – vzduch nad novinami nestihne uhnout a provázek by musel naráz rozpohybovat sloupec vzduchu, který může vážit i několik tun. Provázek si namotejte na tyčku, aby se nezařízl do ruky, a škubnutí si předem vyzkoušejte.",
+  "materials": [
+    "deska z překližky nebo tvrdého papíru cca 20 × 20 cm s háčkem",
+    "velký list novin",
+    "pevnější provázek",
+    "tyčka na namotání provázku",
+    "nůžky"
+  ],
+  "procedure": "Desku položit na zem, přikrýt novinami (háček prostrčit otvorem) a uvázat provázek. Nejprve pomalu táhnout – deska se zvedne. Pak provázek namotat na tyčku a prudce škubnout – provázek praskne.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}

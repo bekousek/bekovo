@@ -1,0 +1,19 @@
+{
+  "id": "plyny-fixirka",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Fixírka – rozprašovač ze dvou brček",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Kratší brčko (asi 8 cm) stojí ve sklenici s vodou a jeho konec vyčnívá nad hladinu; druhým brčkem (asi 5 cm) žák silně fouká přes jeho horní konec. Voda ve svislém brčku vystoupá a proud vzduchu ji rozprašuje. Nad koncem brčka je v proudícím vzduchu nižší tlak než nad hladinou ve sklenici, takže okolní vzduch vodu do brčka natlačí. Vhodný sklon foukacího brčka je dobré předem vyzkoušet; připravte hadr.",
+  "materials": [
+    "2 brčka",
+    "sklenice s vodou",
+    "nůžky",
+    "hadr"
+  ],
+  "procedure": "Ustřihnout z brček kousky asi 8 cm a 5 cm. Delší ponořit do vody tak, aby vyčníval, a přes jeho horní konec silně foukat kratším brčkem. Hledat nejlepší sklon.",
+  "source": {
+    "label": "KDF MFF UK — Vzduch a jiné plyny",
+    "url": "https://kdf.mff.cuni.cz/ucitele/kurzprirodoveda/vzduch_def.pdf"
+  }
+}
