@@ -2,16 +2,15 @@
   "id": "plyny-vetrny-panak",
   "subtopicId": "atmosfera",
   "topicId": "plyny-7",
-  "title": "Větrný panák – tančící rukáv z fólie",
+  "title": "Větrný panák – tančící igelitový tubus na fukaru na listí",
   "type": "qualitative",
-  "description": "Žákovský badatelský úkol (stanoviště „v terénu“): rozjeď větrného panáka a uprav ho, aby tancoval co nejvíc. Rukáv z tenké fólie nasazený na ventilátor se proudícím vzduchem nafoukne a vztyčí. Vzduch v rukávu má vyšší tlak než okolí a proudí ven horním otvorem. Když se rukáv někde prohne, proud vzduchu se přiškrtí, tlak nad ohybem poklesne a horní část spadne; tlak pod ohybem pak rukáv zase narovná – a děj se opakuje, panák „tančí“. Žáci zkoumají, jak pohyb ovlivní délka a průměr rukávu, velikost horního otvoru, zářezy nebo „ruce“. Klíčová slova: proudění vzduchu, tlak vzduchu, kmitání.",
+  "description": "Žákovský badatelský úkol (stanoviště „v terénu“): rozjeď větrného panáka a uprav ho, aby tancoval co nejvíc. Dlouhý hotový igelitový tubus se nasadí na výstup fukaru na listí. Proudící vzduch tubus nafoukne a vztyčí. Vzduch v tubusu má vyšší tlak než okolí a uniká ven horním otvorem. Když se tubus někde prohne, proud vzduchu se přiškrtí, tlak nad ohybem poklesne a horní část spadne. Tlak pod ohybem pak tubus zase narovná a děj se opakuje – panák „tančí“. Žáci zkoumají, jak pohyb ovlivní výkon fukaru, sklon a upevnění tubusu, velikost horního otvoru nebo zkrácení tubusu. Klíčová slova: proudění vzduchu, tlak vzduchu, kmitání.",
   "materials": [
-    "ventilátor nebo fukar",
-    "tenká fólie nebo pytel na odpadky (rukáv)",
-    "lepicí páska",
-    "nůžky"
+    "fukar na listí",
+    "dlouhý igelitový tubus (hotový, případně pytlovina na míru)",
+    "lepicí páska nebo stahovací pásek na upevnění k fukaru"
   ],
-  "procedure": "Z fólie slepit dlouhý rukáv a nasadit ho na výstup ventilátoru. Zapnout a pozorovat pohyb. Upravovat délku, horní otvor nebo přidat „ruce“ a hledat nejtanečnější tvar.",
+  "procedure": "Igelitový tubus nasadit na výstup fukaru a upevnit. Zapnout fukar a pozorovat pohyb panáka. Měnit výkon fukaru, jeho náklon nebo velikost horního otvoru a hledat nastavení, při kterém panák tančí nejvíc.",
   "source": {
     "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
     "url": "https://herohero.co/scienceon/post/mqxedftjjiftfvmiqurwmqnrzmzlemgcaw"
