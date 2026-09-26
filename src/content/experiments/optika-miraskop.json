@@ -1,0 +1,17 @@
+{
+  "id": "optika-miraskop",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Miraskop – 3D iluze ve dvou dutých zrcadlech",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (učitel má obvykle jeden kus, žáci se střídají v pozorování ve skupinkách): miraskop je hračka složená ze dvou parabolických (dutých) zrcadel umístěných proti sobě tak, že ohnisko horního zrcadla leží ve vrcholu spodního a naopak; horní zrcadlo má uprostřed malý otvor. Na dno miraskopu se vloží drobný předmět a nad otvorem horního zrcadla se vytvoří jeho skutečný, vzpřímený a stejně velký obraz, na který si žáci mohou zkusit „sáhnout“ – prst v místě obrazu narazí do vzduchu, protože jde jen o obraz. Pokus názorně ukazuje zobrazování dutým (parabolickým) zrcadlem a rozdíl mezi skutečným předmětem a jeho optickým obrazem.",
+  "materials": [
+    "miraskop (běžně dostupná optická hračka, cca 300–500 Kč)",
+    "malý drobný předmět k vložení dovnitř"
+  ],
+  "procedure": "Do spodní části miraskopu vložte drobný předmět. Žáci se dívají otvorem v horním zrcadle a hledají místo, kde se objeví obraz předmětu jakoby vznášející se nad povrchem. Zkusí na obraz sáhnout prstem a zjistí, že tam nic hmatatelného není. Následně prodiskutujte se žáky, jak dvojice dutých zrcadel obraz vytváří (odraz rovnoběžných paprsků do ohniska a zpět).",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2185/miraskop"
+  }
+}
