@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-leydenske-lahve-analogie-lahev",
+  "subtopicId": "civky-a-kondenzatory",
+  "topicId": "elektrina",
+  "title": "Leydenské láhve a analogie s PET lahví – náboj, napětí, kapacita",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (vysoké napětí – předvádí učitel). Wimshurstova elektrika má dvě Leydenské láhve – kondenzátory. Když jsou připojené, dává elektrika vzácné, ale mohutné jiskry. Po jejich odpojení (při stejné vzdálenosti elektrod) přeskakují jen slabé, ale velmi časté jiskřičky. Vzduch se prorazí vždy při stejném napětí (zhruba 10–30 kV na centimetr), takže velká jiskra neznamená vyšší napětí, ale větší uložený náboj. Názorná analogie: PET láhev se zátkou = kondenzátor; počet stlačení pumpičky = náboj; tlak v láhvi = napětí; vystřelení zátky = průraz. Zátka vyletí vždy při stejném tlaku, ale z větší láhve (větší kapacita) unikne víc vzduchu a rána je silnější. Na závěr diskuze: proč se kondenzátory nehodí jako baterie – napětí při vybíjení klesá úměrně s nábojem (telefon potřebuje stálé napětí), izolant se samovolně vybíjí a uložená energie je malá (odpovídá jen lehkému točení klikou). Kondenzátory naopak umí náboj velmi rychle přijmout i vydat.",
+  "materials": [
+    "Wimshurstova elektrika s odpojitelnými Leydenskými láhvemi",
+    "PET láhve různého objemu",
+    "zátka s jehlou na míč nebo víčko s ventilkem",
+    "pumpička"
+  ],
+  "procedure": "Točit klikou Wimshurstovy elektriky s připojenými a pak s odpojenými Leydenskými láhvemi, porovnat jiskry. Pak v PET láhvi natlakovat vzduch pumpičkou, až vystřelí zátka; zopakovat s větší láhví a porovnat počet stlačení a sílu rány.",
+  "source": {
+    "label": "Science ON (Herohero) — Proč má Wimshurstův induktor obří kondenzátory? | Leydenské láhve",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfkaazqpnqkngevoeq"
+  }
+}

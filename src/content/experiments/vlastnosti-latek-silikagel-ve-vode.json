@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-silikagel-ve-vode",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Silikagel ve vodě praská",
+  "type": "qualitative",
+  "description": "Pokus pro žáky (s brýlemi). Kuličky silikagelu ze sáčků v krabicích od bot jsou pórovité: jejich vnitřní povrch je obrovský a na stěny pórů se váže voda (adsorpce – voda zůstává na povrchu pórů, nevstupuje do struktury látky). Pojmou až pětinu své hmotnosti vody. Když čerstvý (suchý) silikagel hodíme do vody, nasává ji tak rychle, že kuličky praskají a úlomky mohou i odskočit. Použitý silikagel se dá vysušit v troubě a znovu použít. Rozdíl pojmů: adsorpce (na povrchu) vs. absorpce (do celého objemu).",
+  "materials": [
+    "čerstvé kuličky silikagelu (vysušené)",
+    "sklenice nebo miska s vodou",
+    "ochranné brýle"
+  ],
+  "procedure": "Nasadit brýle, vhodit několik suchých kuliček silikagelu do vody a pozorovat a poslouchat, jak praskají. Pro srovnání vhodit kuličky, které už vlhkost nasály.",
+  "source": {
+    "label": "Science ON (YouTube) — HYDRO – vědecký stream s pokusy",
+    "url": "https://www.youtube.com/watch?v=IpWFWsosmo0&t=3600s"
+  }
+}

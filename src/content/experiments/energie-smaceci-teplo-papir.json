@@ -1,0 +1,19 @@
+{
+  "id": "energie-smaceci-teplo-papir",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Mokrý papír se zahřeje – smáčecí teplo pod termokamerou",
+  "type": "qualitative",
+  "description": "Pokus s termokamerou. Na papírový kapesník (nebo jiný savý papír) kápneme obyčejnou vodu. Žáci předem tipují, zda papír zvlhne, zahřeje se, ochladí se, nebo všechno. Termokamera ukáže, že mokrá skvrna je celkově chladnější (voda se odpařuje a odebírá teplo), ale po jejím okraji, kde se voda právě vsakuje, vzniká teplejší lem. Tomu se říká smáčecí teplo: molekuly vody se navážou na vlákna celulózy, „zklidní se“ a jejich pohybová energie se uvolní jako teplo. Na hladkém kancelářském papíře je efekt slabší, protože má méně pórů. Správně je tedy všechno: papír zvlhne, na okraji se krátce zahřeje a pak se odpařováním ochladí.",
+  "materials": [
+    "termokamera",
+    "papírový kapesník nebo ubrousek",
+    "kancelářský papír pro srovnání",
+    "kapátko nebo lžička s vodou pokojové teploty"
+  ],
+  "procedure": "Namířit termokameru na kapesník, kápnout na něj trochu vody a sledovat šířící se skvrnu a její okraj. Zopakovat na kancelářském papíru a porovnat.",
+  "source": {
+    "label": "Science ON (Herohero) — Proč se mokrý papír zahřeje? | Paradox s termokamerou",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfqcydnlgusnwshwbpfg"
+  }
+}

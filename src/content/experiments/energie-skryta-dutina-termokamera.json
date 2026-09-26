@@ -1,0 +1,17 @@
+{
+  "id": "energie-skryta-dutina-termokamera",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Skryté písmeno – termokamera odhalí dutinu v materiálu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s termokamerou. Destička vytištěná na 3D tiskárně vypadá zvenku obyčejně, uvnitř ale skrývá vzduchovou dutinu ve tvaru písmene (třeba E). Po krátkém přiložení teplé dlaně se na termokameře písmeno objeví jako teplejší místo. Otázka pro žáky: má materiál písmene vyšší, nebo nižší tepelnou vodivost než okolí? Správně nižší – vzduch vede teplo hůř než plast, teplo se v tenké vrstvě nad dutinou „zdrží“, a povrch je proto teplejší (kdyby byl uvnitř lepší vodič, místo by bylo chladnější). Stejně funguje nedestruktivní zkoušení materiálů: povrch se ohřeje lampou nebo zábleskem a termokamera ukáže skryté vady, třeba v potrubí nebo v křídlech letadel.",
+  "materials": [
+    "3D tištěná destička se skrytou vzduchovou dutinou těsně pod povrchem",
+    "termokamera"
+  ],
+  "procedure": "Zahřát dlaň, přitisknout ji na 3 s celou plochou na destičku, oddálit a snímat termokamerou. Nechat žáky rozhodnout, zda je dutina lepší, nebo horší vodič tepla.",
+  "source": {
+    "label": "Science ON (Herohero) — Dokáže termokamera odhalit něco, co lidské oko vůbec nevidí?",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfrkzvwjbradetdpormw"
+  }
+}
