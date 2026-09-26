@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-karmanova-virova-stezka",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Kármánova vírová stezka v akváriu",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Do akvária nebo široké mělké nádoby s vodou se rozmíchají jemné třpytky (nebo perleťový pigment), které zviditelní proudění. Válečkem (tyčkou, fixou) svisle ponořeným do vody táhneme rovnoměrnou rychlostí napříč nádobou. Při vhodné rychlosti se za válečkem střídavě z jedné a z druhé strany odtrhávají víry s opačným směrem otáčení a za sebou tvoří pravidelnou „stezku“. Vysvětlení: tekutina se o povrch tělesa brzdí a roztáčí; jeden vír je vždy o něco silnější, utrhne se dřív a uvolní místo pro vír na druhé straně. V jádru víru je nižší tlak, takže těleso je střídavě přitahováno na jednu a druhou stranu a může se rozkmitat. Kde to potkáme: kmitající sloupy veřejného osvětlení ve větru, zřícení chladicích věží elektrárny Ferrybridge (1965), víry v oblacích za ostrovy na družicových snímcích, praskání lopatek čerpadel a turbín. Užitečné využití: eolská harfa (vítr rozeznívá struny), průtokoměry (frekvence odtrhávání vírů roste úměrně rychlosti proudu) i výroba malého množství elektřiny z kmitajícího válce s cívkou nad magnety.",
+  "materials": [
+    "akvárium nebo široká průhledná nádoba s vodou",
+    "jemné třpytky nebo perleťový pigment",
+    "váleček (tyčka, fixa, zkumavka)",
+    "boční osvětlení (baterka)"
+  ],
+  "procedure": "Rozmíchat třpytky ve vodě a nechat vodu uklidnit. Ponořit váleček svisle a táhnout ho rovnoměrně napříč nádobou. Zkusit různé rychlosti a průměry válečku a sledovat, kdy se víry odtrhávají pravidelně.",
+  "source": {
+    "label": "Science ON (Herohero) — Kármánova vírová stezka – Pavel Rudolf",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfdyvhcyqplwgwqvdnoza"
+  }
+}

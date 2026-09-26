@@ -1,0 +1,17 @@
+{
+  "id": "energie-gumicka-na-rtu",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Natažený balónek hřeje – teplotu poznáme rty",
+  "type": "qualitative",
+  "description": "Žákovský pokus (bez termokamery). Gumový balónek nebo širokou gumičku přiložíme ke rtům, které jsou velmi citlivé na teplotu, a rychle ji natáhneme – guma se citelně ohřeje. Když ji po chvíli (až se teplota vyrovná) rychle povolíme, ochladí se. Termokamerou lze ohřátí natažené gumy ukázat celé třídě. Nejde o tření: guma se skládá z dlouhých zamotaných řetězců molekul; při natažení se srovnají a uspořádají, a protože děj proběhne rychle a teplo nestihne uniknout (adiabatický děj), projeví se to rychlejším neuspořádaným kmitáním částic – vyšší teplotou. Podobně se ohřívá vzduch stlačovaný v láhvi pumpičkou. Pro starší žáky: souvislost s pojmem entropie (neuspořádanost).",
+  "materials": [
+    "gumový balónek nebo široká gumička",
+    "termokamera (volitelně)"
+  ],
+  "procedure": "Přiložit balónek ke rtům, rychle ho natáhnout a vnímat teplotu. Nechat chvíli natažený, pak ho rychle povolit a znovu vnímat teplotu.",
+  "source": {
+    "label": "Science ON (Herohero) — Proč se balónek při natažení zahřeje?",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfuuzflzliatwqqpxw"
+  }
+}

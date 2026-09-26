@@ -1,0 +1,17 @@
+{
+  "id": "energie-otisk-dlane-v-katalogu",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Tepelný otisk dlaně – na kolikáté stránce katalogu ho ještě uvidíme?",
+  "type": "qualitative",
+  "description": "Pokus s termokamerou (stačí i termokamera k mobilu). Nejdřív žák na 5–10 s přiloží dlaň na stůl: po oddálení ruky zůstane na stole tepelný otisk, který okem nevidíme – teplo přešlo z teplejší ruky na chladnější stůl. Pak dlaň na 10 s přiloží na tlustý katalog nebo knihu s tenkými listy a žáci tipují, na kolikáté stránce bude otisk ještě vidět. Při listování je otisk patrný desítky stránek hluboko (typicky kolem 50–60 listů), postupně slábne a prsty splývají do jedné skvrny. Teplo se šíří vedením nejen do hloubky, ale i do stran. Kniha je vhodná proto, že je „předem nakrájená“ na tenké vrstvy.",
+  "materials": [
+    "termokamera nebo termokamera k mobilu",
+    "tlustý katalog nebo kniha s tenkými listy"
+  ],
+  "procedure": "Přiložit dlaň na stůl, oddálit a pozorovat otisk. Pak přiložit dlaň na 10 s na katalog, nechat žáky tipovat a listovat stránku po stránce pod termokamerou, dokud otisk nezmizí.",
+  "source": {
+    "label": "Science ON (Herohero) — Dokáže termokamera odhalit něco, co lidské oko vůbec nevidí?",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfrkzvwjbradetdpormw"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "mereni-teplota-drat-prodlouzeni-proudem",
+  "subtopicId": "teplota",
+  "topicId": "mereni",
+  "title": "Drát se prodlouží, když jím teče proud – klesající klíče",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (velký proud – předvádí učitel). Mezi dvěma stojany se napne tenký kovový drát a doprostřed se na něj zavěsí závaží, třeba svazek klíčů. Když drátem pustíme proud (řádově několik ampérů z laboratorního zdroje), drát se zahřeje a prodlouží – klíče viditelně klesnou; po vypnutí se drát ochladí a klíče se zvednou. Termokamerou lze ukázat, že vodič se proudem zahřívá, i když to na dotek skoro necítíme; při dalším zvyšování proudu by drát začal žhnout jako vlákno žárovky. Na závěr si žáci zahrají model částic: stojí těsně u sebe („chumel“ bez energie), po „dodání energie“ se začnou víc hýbat a rozestoupí se – látka zvětšila objem. Klíčová slova: tepelná délková roztažnost, tepelné účinky proudu, částicový model.",
+  "materials": [
+    "tenký kovový drát (asi 1 m)",
+    "dva stojany",
+    "závaží (svazek klíčů)",
+    "regulovatelný laboratorní zdroj s ampérmetrem",
+    "termokamera (volitelně)"
+  ],
+  "procedure": "Napnout drát mezi stojany, doprostřed zavěsit klíče a označit jejich výšku. Postupně zvyšovat proud a sledovat pokles klíčů, případně drát snímat termokamerou. Po vypnutí pozorovat návrat. Nakonec zahrát částicový model se žáky.",
+  "source": {
+    "label": "Science ON (Herohero) — Proč se drát prodlouží, když se zahřeje? | Tepelná roztažnost",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfxbfbyvujrbcpcnfsefq"
+  }
+}
