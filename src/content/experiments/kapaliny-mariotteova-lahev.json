@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-mariotteova-lahev",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Mariotteova láhev – stálý proud vody řízený brčkem",
+  "type": "qualitative",
+  "description": "Žákovský pokus (stanoviště „v terénu“). Z láhve s otvorem u dna vytéká voda; láhev je uzavřená víčkem, kterým prochází brčko (trubička) ponořené do vody. Posouváním brčka nahoru a dolů žáci regulují proud vytékající vody. Výtok určuje hloubka otvoru pod dolním koncem brčka, ne výška hladiny: u konce brčka je stále atmosférický tlak (vzduch tudy bublá dovnitř), takže tlak u otvoru – a tedy i rychlost výtoku – zůstává stejný, dokud hladina neklesne pod konec brčka. Když je konec brčka níž než otvor, voda neteče vůbec. Klíčová slova: hydrostatický tlak, atmosférický tlak, výtok kapaliny.",
+  "materials": [
+    "PET láhev s otvorem u dna",
+    "víčko s otvorem, kterým těsně prochází brčko",
+    "voda",
+    "nádoba na vytékající vodu"
+  ],
+  "procedure": "Láhev naplnit vodou, uzavřít víčkem s brčkem a otevřít otvor u dna. Posouvat brčko nahoru a dolů a sledovat délku proudu vody. Zjistit, kdy proud nemění délku, i když hladina klesá, a kdy voda přestane téct.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

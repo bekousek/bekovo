@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-propichovani-pytliku-s-vodou",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Propichování sáčku s vodou – pružnost polymeru",
+  "type": "qualitative",
+  "description": "Žákovský pokus (stanoviště „v terénu“, dělejte nad umyvadlem nebo venku). Úkol: dokážeš udělat tunel skrz sáček s vodou? Ostře ořezanou tužkou (nebo ostrým brčkem) se prudce propíchne sáček se zipem naplněný vodou – tužka projde oběma stěnami a voda nevyteče. Polyethylenová fólie je z dlouhých molekul polymeru; při propíchnutí se kolem tužky natáhne a pružně se k ní přitiskne, takže otvor utěsní. Po vytažení tužky voda vyteče. V polarizovaném světle lze napětí ve fólii kolem tužky zviditelnit (barevné proužky). Klíčová slova: polymery, pružná deformace, vlastnosti pevných látek.",
+  "materials": [
+    "sáček se zipem (mikroténový)",
+    "voda",
+    "ostře ořezané tužky nebo ostrá brčka",
+    "volitelně 2 polarizační filtry"
+  ],
+  "procedure": "Sáček naplnit vodou a zavřít. Jedním rychlým pohybem propíchnout tužkou skrz obě stěny. Zkusit propíchnout více tužkami. Kolem vpichu pozorovat fólii přes polarizační filtry.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfettlwcrlehqyvnmaca"
+  }
+}

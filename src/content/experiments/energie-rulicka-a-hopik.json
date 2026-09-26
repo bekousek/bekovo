@@ -1,0 +1,18 @@
+{
+  "id": "energie-rulicka-a-hopik",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Rulička a hopík – přenos energie při odrazu",
+  "type": "qualitative",
+  "description": "Žákovský pokus (badatelská prezentace). Do hopíku je zapíchnutá tužka a na ni se navlékne lehká papírová rulička. Když se hopík s ruličkou pustí na zem, rulička po odrazu vystřelí vysoko do vzduchu – výš, než odkud padala. Při odrazu hopík předá lehké ruličce část své energie; protože má rulička malou hmotnost, projeví se to velkou rychlostí. Podobně funguje „Galileiho dělo“ s dvěma míčky na sobě. Klíčová slova: pružná srážka, hmotnost, přenos energie.",
+  "materials": [
+    "hopík",
+    "tužka (zapíchnutá do hopíku)",
+    "papírová rulička nebo lehká trubička"
+  ],
+  "procedure": "Navléknout ruličku na tužku v hopíku a pustit hopík svisle na tvrdou podlahu. Pozorovat, jak vysoko rulička vyletí. Porovnat s výškou, ze které padala.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

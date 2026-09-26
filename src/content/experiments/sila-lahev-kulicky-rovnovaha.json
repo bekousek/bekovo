@@ -1,0 +1,18 @@
+{
+  "id": "sila-lahev-kulicky-rovnovaha",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Láhev s kuličkami – model rovnovážného ústrojí",
+  "type": "qualitative",
+  "description": "Žákovský pokus s přesahem do biologie. V průhledné láhvi (zavařovací sklenici) s vodou leží na dně malé kuličky. Při naklánění se kuličky vždy odkutálejí ve směru náklonu (působí na ně tíhová síla). Když se s nádobou několikrát zakrouží a pak se zastaví, voda i kuličky se ještě chvíli točí setrvačností. Tak funguje rovnovážné ústrojí ve vnitřním uchu: krystalky (otolity) se při naklonění hlavy posouvají vlivem gravitace a dráždí smyslové buňky; tekutina v polokruhovitých kanálcích se po zastavení otáčení ještě chvíli pohybuje – proto se nám po roztočení točí hlava. Klíčová slova: setrvačnost, tíhová síla, rovnovážné ústrojí.",
+  "materials": [
+    "průhledná láhev nebo zavařovací sklenice s víčkem",
+    "voda",
+    "několik malých kuliček (korálků)"
+  ],
+  "procedure": "Nádobu naplnit vodou, na dno dát kuličky a uzavřít. Pomalu naklánět do různých stran a sledovat kuličky. Pak s nádobou zakroužit, zastavit ji a sledovat, co dělá voda a kuličky.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

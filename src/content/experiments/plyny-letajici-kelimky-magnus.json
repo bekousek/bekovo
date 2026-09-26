@@ -1,0 +1,18 @@
+{
+  "id": "plyny-letajici-kelimky-magnus",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Létající kelímky – Magnusův jev",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Dva papírové kelímky slepené dny k sobě se nejdřív hodí jako běžný předmět – spadnou obloukem. Pak se kolem jejich středu omotá gumička (řetízek z gumiček) tak, aby volný konec vycházel zespodu a směřoval od nás; gumička se napne a kelímky se vystřelí dopředu. Díky gumičce se kelímky zároveň rychle roztočí: nejprve vyletí vzhůru, pak zpomalují a klesají pomalým zakřiveným pohybem, může se i „vracet“. Na straně, kde se povrch rotujícího tělesa pohybuje ve směru proudění vzduchu, proudí vzduch rychleji a je tam nižší tlak; vznikne síla kolmá ke směru letu – Magnusův jev. Využívá se při zakroucených kopech a úderech s rotací. Klíčová slova: Magnusův jev, proudění vzduchu, tlak vzduchu.",
+  "materials": [
+    "2 papírové kelímky",
+    "lepicí páska",
+    "gumičky (svázané do řetízku)"
+  ],
+  "procedure": "Kelímky slepit dny k sobě. Hodit je bez rotace. Pak kolem středu omotat gumičku tak, aby volný konec vycházel zespodu, napnout ji a kelímky vystřelit dopředu. Porovnat obě dráhy a zkusit různou sílu výstřelu.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

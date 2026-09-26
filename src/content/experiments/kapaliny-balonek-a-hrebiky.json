@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-balonek-a-hrebiky",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Balónek a hřebíky – tlak závisí na ploše",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Nafouknutý balónek přitlačený na jediný hřebík snadno praskne. Druhý balónek položený na desku s mnoha hřebíky vydrží, i když na něj zatlačíme (nebo na něj položíme knihu). U jednoho hřebíku působí síla na nepatrnou plochu špičky, tlak je velký a guma se protrhne. U desky s mnoha hřebíky se stejná síla rozdělí mezi mnoho špiček, každá působí menším tlakem a balónek vydrží. Stejný princip mají sněžnice (větší plocha, menší tlak) i ostré nože (malá plocha, velký tlak). Klíčová slova: tlak, síla, plocha.",
+  "materials": [
+    "balónky",
+    "jeden hřebík",
+    "deska s mnoha hřebíky (fakírská deska)"
+  ],
+  "procedure": "Nafouknutý balónek opatrně přitlačit na jeden hřebík. Druhý balónek položit na desku s hřebíky a postupně na něj tlačit (případně pokládat knihy). Porovnat.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

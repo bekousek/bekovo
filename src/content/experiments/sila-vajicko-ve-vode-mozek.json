@@ -1,0 +1,18 @@
+{
+  "id": "sila-vajicko-ve-vode-mozek",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vajíčko ve vodě – model mozku v mozkomíšním moku",
+  "type": "qualitative",
+  "description": "Žákovský pokus s přesahem do biologie. Do jedné uzavíratelné sklenice se vloží syrové vajíčko, druhá sklenice se naplní vodou a vajíčko se do ní ponoří. Obě sklenice se pevně uzavřou a zatřesou přibližně stejně. Ve sklenici bez vody vajíčko narazí do stěn a rozbije se, ve vodě zůstane zpravidla celé. Vajíčko má setrvačnost – při prudkém pohybu nádoby narazí do stěny; voda jeho pohyb tlumí, rozkládá náraz a vajíčko je navíc částečně nadnášeno. Podobně chrání mozek mozkomíšní mok – ale při silném nárazu či prudkém zabrzdění ani tato ochrana nestačí (proto helmy a pásy). Klíčová slova: setrvačnost, tlumení nárazu, vztlaková síla.",
+  "materials": [
+    "2 uzavíratelné sklenice",
+    "2 syrová vajíčka",
+    "voda"
+  ],
+  "procedure": "Do první sklenice vložit vajíčko a uzavřít. Druhou naplnit vodou, vložit vajíčko a uzavřít (bez vzduchu). Obě sklenicemi stejně zatřást a porovnat výsledek.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

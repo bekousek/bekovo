@@ -1,0 +1,17 @@
+{
+  "id": "energie-pruziny-v-pixle",
+  "subtopicId": "energie",
+  "topicId": "energie",
+  "title": "Pružiny v pixle – energie pružnosti",
+  "type": "qualitative",
+  "description": "Žákovský pokus (badatelská prezentace). Žáci dostanou dvě stejné pixly (krabičky od filmu, dózy) – v jedné je stlačená pružina, ve druhé nic. Po otevření pružina vyskočí i s víčkem. Stlačením pružiny jsme jí předali energii, kterou si uložila jako energii pružnosti (deformační energii); po otevření se tato energie přemění na pohybovou energii pružiny a víčka. Žáci mohou tipovat, ve které pixle pružina je, a zkoumat, jak výška výskoku závisí na stlačení nebo tuhosti pružiny. Klíčová slova: pružná deformace, energie pružnosti, pohybová energie.",
+  "materials": [
+    "2 stejné pixly nebo dózy s víčkem",
+    "pružina (např. z propisky nebo větší)"
+  ],
+  "procedure": "Do jedné pixly stlačit pružinu a zavřít. Nechat žáky tipovat, která pixla „ukrývá energii“. Pixly otevřít a pozorovat. Zkusit různé pružiny a měřit výšku výskoku.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

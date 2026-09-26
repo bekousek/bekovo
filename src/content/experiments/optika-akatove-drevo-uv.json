@@ -1,0 +1,18 @@
+{
+  "id": "optika-akatove-drevo-uv",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Akátové dřevo pod UV baterkou – fluorescence",
+  "type": "qualitative",
+  "description": "Demonstrační i žákovský pokus. Na kus akátového dřeva se posvítí nejprve obyčejnou LED baterkou a pak UV baterkou – pod UV zářením dřevo (hlavně vnitřní jádrové) jasně žlutozeleně svítí. Jádrové dřevo akátu obsahuje flavonoidy a další fenolické látky, které strom chrání před UV zářením a mikroby. Tyto látky UV záření pohltí, část energie se změní na pohyb molekul a zbytek se vyzáří jako méně energetické viditelné světlo – fluorescence. Klíčová slova: fluorescence, UV záření, pohlcení a vyzáření světla.",
+  "materials": [
+    "kousek akátového dřeva (nejlépe čerstvý řez)",
+    "LED baterka",
+    "UV baterka"
+  ],
+  "procedure": "Posvítit na dřevo LED baterkou, pak UV baterkou v zatemněné místnosti. Porovnat, co je vidět. Varianta: porovnat s jinými druhy dřeva.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

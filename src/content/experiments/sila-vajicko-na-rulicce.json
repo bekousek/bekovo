@@ -1,0 +1,19 @@
+{
+  "id": "sila-vajicko-na-rulicce",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vajíčko na ruličce – zákon setrvačnosti",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (zkušení žáci ho zvládnou sami). Na sklenici s vodou se položí talířek (nebo tácek), na něj papírová rulička a na ruličku syrové vajíčko přesně nad otvor sklenice. Rychlým vodorovným úderem do talířku odletí talířek i rulička stranou a vajíčko spadne svisle do vody. Vajíčko má snahu setrvat v klidu (1. Newtonův zákon). Úder působí jen velmi krátce, talířek a rulička se odsunou dřív, než stihnou vajíčku předat znatelnou vodorovnou rychlost; pak na něj působí jen tíhová síla. Při pomalém posunu by tření vajíčko strhlo s sebou. Klíčová slova: setrvačnost, síla, tíhová síla.",
+  "materials": [
+    "sklenice s vodou",
+    "talířek nebo tácek",
+    "papírová rulička (od toaletního papíru)",
+    "syrové vajíčko (na zkoušku vařené)"
+  ],
+  "procedure": "Talířek položit na sklenici, na něj postavit ruličku a na ni vajíčko nad otvor sklenice. Rychle a vodorovně udeřit do okraje talířku (ne do ruličky). Nejprve vyzkoušet s vařeným vajíčkem.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

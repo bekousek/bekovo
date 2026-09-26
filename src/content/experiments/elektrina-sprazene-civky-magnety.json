@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-sprazene-civky-magnety",
+  "subtopicId": "elektromagnetismus-a-indukce",
+  "topicId": "elektrina",
+  "title": "Spřažené cívky s magnety na pružinkách",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Magnet zavěšený na pružince kmitá nad cívkou tak, že při pohybu zajíždí do cívky; na cívce se indukuje napětí (lze ukázat měřidlem). Stejně se vyzkouší druhá cívka. Pak se obě cívky propojí vodiči: rozkmitaný magnet nad první cívkou rozhýbe i magnet nad druhou cívkou – pohyb se přenáší elektrickým proudem (spřažené oscilátory). Zkouší se různá zapojení cívek a otočení magnetů. Nakonec se cívka zkratuje – kmitání magnetu se rychle utlumí. Pohybem magnetu se mění magnetické pole v cívce a indukuje se napětí (elektromagnetická indukce); proud v cívce vytváří vlastní pole, které podle Lenzova pravidla působí proti změně, jež ho vyvolala. Při zkratu teče velký proud a magnet je silně brzděn – pohybová energie se mění na elektrickou a nakonec na teplo. Klíčová slova: elektromagnetická indukce, indukované napětí, Lenzovo pravidlo.",
+  "materials": [
+    "2 cívky (např. 600–1200 závitů)",
+    "2 silné magnety",
+    "2 pružinky a stojany",
+    "vodiče",
+    "voltmetr nebo galvanometr"
+  ],
+  "procedure": "Magnet zavěsit na pružinku nad cívku a rozkmitat; sledovat indukované napětí. Obě cívky propojit, rozkmitat jen jeden magnet a pozorovat druhý. Změnit polaritu zapojení. Nakonec cívku zkratovat a porovnat tlumení kmitů.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

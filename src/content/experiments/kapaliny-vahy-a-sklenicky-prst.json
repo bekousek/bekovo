@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-vahy-a-sklenicky-prst",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Váhy a skleničky – ponořený prst zatíží váhy",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Na rovnoramenné (jazýčkové) váhy se postaví dvě stejné skleničky s vodou a vyváží se. Když do jedné z nich ponoříme prst tak, aby se nedotkl dna ani stěn, váhy se vychýlí na stranu s prstem. Voda nadnáší prst vztlakovou silou; podle 3. Newtonova zákona působí prst na vodu stejně velkou silou dolů, a ta se přenese na sklenici. Když se skleničky naplní až po okraj a prst vytlačí vodu ven, váhy zůstanou téměř v rovnováze – vyteklá voda má tíhu rovnou vztlakové síle (Archimédův zákon). Klíčová slova: vztlaková síla, akce a reakce, Archimédův zákon.",
+  "materials": [
+    "rovnoramenné nebo jazýčkové váhy",
+    "2 stejné skleničky",
+    "voda",
+    "podložka na přetékající vodu"
+  ],
+  "procedure": "Skleničky s vodou postavit na váhy a vyvážit. Ponořit prst do jedné sklenice (nedotýkat se) a sledovat váhy. Pak obě sklenice naplnit až po okraj, znovu vyvážit a pokus zopakovat.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

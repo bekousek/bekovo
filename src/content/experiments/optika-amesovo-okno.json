@@ -1,0 +1,17 @@
+{
+  "id": "optika-amesovo-okno",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Amesovo okno – klam našeho vnímání",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Amesovo okno zavěšené na provázku se roztočí a pozorovatelé sledují jeho pohyb nejprve oběma očima, pak jen jedním okem. Místo skutečné rotace vidí většina lidí jen kývání sem a tam. Okno má ve skutečnosti nepravidelný (lichoběžníkový) tvar, ale perspektiva a stínování z něj dělají „obyčejné“ obdélníkové okno. Mozek skládá prostorový vjem z obrazu obou očí, perspektivy a zkušenosti; když se kratší strana okna dostane blíž, než mozek čeká, drží se raději známé interpretace „pravoúhlého okna“ a rotaci si vyloží jako kývavý pohyb. Klíčová slova: optická iluze, perspektiva, zrakové vnímání.",
+  "materials": [
+    "Amesovo okno (vytištěné na kartonu)",
+    "provázek"
+  ],
+  "procedure": "Zavěsit Amesovo okno na provázek a roztočit. Pozorovat oběma očima, pak zopakovat a dívat se jen jedním okem. Porovnat, jak se vnímání pohybu změní.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

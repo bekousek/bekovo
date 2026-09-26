@@ -1,0 +1,17 @@
+{
+  "id": "optika-trik-se-sipkou",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Trik se šipkou – osová souměrnost a zrcadlové obrazy",
+  "type": "qualitative",
+  "description": "Demonstrační „kouzlo“, které si žáci snadno vyrobí. Na obou stranách kartičky je stejná šipka, ale obě kresby jsou vůči sobě osově souměrné (zrcadlově). Když se kartička otáčí kolem jedné úhlopříčky (drží se za dva protilehlé rohy), divák vidí šipku stále mířit stejným směrem. Při otáčení kolem druhé úhlopříčky se šipka při každé půlotáčce „obrátí“. Záleží na tom, kolem které osy kartičku otáčíme – jen u jedné osy na sebe zrcadlové kresby navazují. Pokus je pěkným úvodem k osové souměrnosti a zrcadlovému obrazu. Klíčová slova: osová souměrnost, zrcadlový obraz, optická iluze.",
+  "materials": [
+    "čtvercová kartička",
+    "fix"
+  ],
+  "procedure": "Na jednu stranu kartičky nakreslit šipku, na druhou stejnou šipku zrcadlově převrácenou. Kartičku uchopit za dva protilehlé rohy a plynule ji otáčet, pak ji uchopit za druhou dvojici rohů a zopakovat. Porovnat, co vidí divák.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://youtu.be/cMHZew3uI24"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "mereni-lahev-s-koralky-hustota",
+  "subtopicId": "hustota",
+  "topicId": "mereni",
+  "title": "Láhev s korálky – dvě kapaliny a hustota",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (hotovou láhev lze předávat žákům). V uzavřené láhvi je isopropylalkohol a slaná voda – dvě kapaliny, které se po protřepání postupně zase oddělí (slaná voda dole, alkohol nahoře). Barevné korálky mají hustotu větší než alkohol a menší než slaná voda, proto se v klidu drží na rozhraní uprostřed láhve. Po zatřesení se kapaliny promíchají, hustota kolem korálků se změní a korálky začnou stoupat nebo klesat; jak se kapaliny znovu oddělují, pohybují se korálky zpět, až se opět usadí na rozhraní. Těleso klesá, když má větší hustotu než okolní kapalina, a stoupá, když menší. Klíčová slova: hustota, vztlaková síla, plování těles.",
+  "materials": [
+    "průhledná láhev s víčkem",
+    "isopropylalkohol",
+    "voda a sůl (případně potravinářské barvivo)",
+    "korálky různých hustot"
+  ],
+  "procedure": "Láhev naplnit slanou vodou a isopropylalkoholem, přidat korálky, které se usadí na rozhraní, a pevně uzavřít. Zatřást a sledovat pohyb korálků, dokud se kapaliny znovu neoddělí.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

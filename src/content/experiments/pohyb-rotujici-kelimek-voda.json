@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-rotujici-kelimek-voda",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rotující kelímek s vodou – pohyb po kružnici",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Plastový kelímek položený dnem vzhůru se roztočí na hladké podložce a žáci zkoumají, jak dlouho vydrží stabilní, i s různými předměty uvnitř. Nakonec se do kelímku nalije trochu vody a kelímek (na provázku nebo v ruce) se roztočí ve svislé kružnici, případně i nad hlavou – voda nevyteče. Při pohybu po kružnici musí stěny kelímku na obsah působit dostředivou silou, která mění směr jeho pohybu. Z pohledu rotující soustavy se to projevuje jako „odstředivá síla“ přitlačující vodu ke dnu. Při dostatečné rychlosti voda zůstane v kelímku i v nejvyšším bodě. Klíčová slova: pohyb po kružnici, dostředivá síla, odstředivá síla.",
+  "materials": [
+    "plastový kelímek (případně s provázkem nebo závěsem)",
+    "drobné předměty",
+    "trochu vody"
+  ],
+  "procedure": "Roztočit prázdný kelímek na podložce, pak s předměty uvnitř. Nalít trochu vody a opatrně kelímek roztočit ve svislé kružnici (nejlépe venku nebo nad umyvadlem); zkusit, jak pomalu se smí točit, aby voda nevytekla.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

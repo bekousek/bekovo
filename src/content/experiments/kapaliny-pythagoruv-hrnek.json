@@ -1,0 +1,18 @@
+{
+  "id": "kapaliny-pythagoruv-hrnek",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Pythagorův hrnek – spravedlivý pohár s násoskou",
+  "type": "qualitative",
+  "description": "Žákovský pokus (stanoviště „v terénu“). Úkol: nalij pohár až po okraj a odhal jeho tajemství. Dokud je hladina pod určitou ryskou, pohár drží vodu jako obyčejný. Jakmile ji přelijeme, vyteče dnem celý obsah. Uvnitř středového sloupku je skrytá ohnutá trubička – násoska. Když hladina přesáhne nejvyšší místo ohybu, voda trubičku zaplní a pak z poháru vyteče všechna (výtok je níž než hladina v poháru). Pohár se prý používal proti nestřídmému pití. Pokus je vhodný k tématu spojených nádob a hydrostatického tlaku; násosku si žáci mohou sestavit i z hadičky. Klíčová slova: násoska, spojené nádoby, hydrostatický tlak.",
+  "materials": [
+    "Pythagorův pohár (případně model z kelímku a ohnuté hadičky/brčka)",
+    "voda",
+    "miska"
+  ],
+  "procedure": "Nalévat vodu do poháru nad miskou, nejdřív opatrně pod rysku, pak nad ni. Zjistit, kdy a proč voda vyteče. Zkusit postavit model z kelímku, ohnutého brčka a plastelíny.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

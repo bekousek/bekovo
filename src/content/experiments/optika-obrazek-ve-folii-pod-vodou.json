@@ -1,0 +1,20 @@
+{
+  "id": "optika-obrazek-ve-folii-pod-vodou",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Obrázek ve fólii pod vodou – listnatý strom „opadá“",
+  "type": "qualitative",
+  "description": "Žákovský pokus (stanoviště „v terénu“). Obrázek jehličnatého stromu je zalaminovaný. Obrázek listnatého stromu je vložený do sáčku se zipem a na sáčku jsou zvenku fixou obtažené kmen a větve. Po ponoření do vody je jehličnan vidět celý, kdežto u listnatého stromu obrázek zmizí a zůstane vidět jen kmen s větvemi obtaženými na sáčku – strom „opadá“. Úloha zní: proč jehličnan neopadá? V sáčku zůstane mezi obrázkem a fólií tenká vrstva vzduchu. Světlo, které z vody dopadá šikmo na rozhraní fólie–vzduch, se úplně odrazí (úhel dopadu je větší než mezní úhel). Místo obrázku tak vidíme lesklou plochu a obrázek „zmizí“. Kresba fixou je na vnější straně sáčku, přímo ve vodě, a proto je vidět dál. Zalaminovaný obrázek nemá žádnou vzduchovou mezeru, takže k úplnému odrazu nedojde a jehličnan je vidět celý. Klíčová slova: úplný odraz, mezní úhel, lom světla.",
+  "materials": [
+    "vytištěný obrázek jehličnatého stromu (zalaminovaný)",
+    "vytištěný obrázek listnatého stromu",
+    "sáček se zipem",
+    "lihový (voděodolný) fix",
+    "průhledná nádoba s vodou"
+  ],
+  "procedure": "Obrázek listnatého stromu vložit do sáčku se zipem, sáček zavřít a na něj zvenku fixou obtáhnout kmen a větve. Oba obrázky ponořit do vody a dívat se na ně šikmo přes stěnu nádoby nebo hladinu. Porovnat, co je vidět, a hledat vysvětlení, proč jehličnan „neopadá“.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

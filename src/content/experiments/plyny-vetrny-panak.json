@@ -1,0 +1,18 @@
+{
+  "id": "plyny-vetrny-panak",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Větrný panák – tančící igelitový tubus na fukaru na listí",
+  "type": "qualitative",
+  "description": "Žákovský badatelský úkol (stanoviště „v terénu“): rozjeď větrného panáka a uprav ho, aby tancoval co nejvíc. Dlouhý hotový igelitový tubus se nasadí na výstup fukaru na listí. Proudící vzduch tubus nafoukne a vztyčí. Vzduch v tubusu má vyšší tlak než okolí a uniká ven horním otvorem. Když se tubus někde prohne, proud vzduchu se přiškrtí, tlak nad ohybem poklesne a horní část spadne. Tlak pod ohybem pak tubus zase narovná a děj se opakuje – panák „tančí“. Žáci zkoumají, jak pohyb ovlivní výkon fukaru, sklon a upevnění tubusu, velikost horního otvoru nebo zkrácení tubusu. Klíčová slova: proudění vzduchu, tlak vzduchu, kmitání.",
+  "materials": [
+    "fukar na listí",
+    "dlouhý igelitový tubus (hotový, případně pytlovina na míru)",
+    "lepicí páska nebo stahovací pásek na upevnění k fukaru"
+  ],
+  "procedure": "Igelitový tubus nasadit na výstup fukaru a upevnit. Zapnout fukar a pozorovat pohyb panáka. Měnit výkon fukaru, jeho náklon nebo velikost horního otvoru a hledat nastavení, při kterém panák tančí nejvíc.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfvmiqurwmqnrzmzlemgcaw"
+  }
+}

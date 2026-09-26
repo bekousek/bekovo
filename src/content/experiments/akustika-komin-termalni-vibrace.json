@@ -1,0 +1,19 @@
+{
+  "id": "akustika-komin-termalni-vibrace",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Komín – okapová trubka troubí jako parník",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (stanoviště „v terénu“, pracuje se s horkým vařičem). Do jednoho konce kovové okapové trubky se zasune kus drátěnky. Trubka se postaví svisle drátěnkou dolů nad vařič, drátěnka se rozpálí a trubka se pak z vařiče sundá (stále svisle). Trubka začne hlučně houkat jako parník. Rozpálená drátěnka ohřívá vzduch, který v trubici stoupá jako v komíně, a zespodu je nasáván studený vzduch. Toto proudění rozkmitá vzduchový sloupec v trubici a vzniká stojaté zvukové vlnění (tzv. Rijkeho trubice). Energii kmitům dodává teplo z drátěnky, a proto zvuk ustane, jakmile drátěnka vychladne nebo když trubku položíme vodorovně (vzduch přestane proudit). Výška tónu závisí na délce trubky – delší trubka zní hlouběji, podobně jako píšťaly varhan. Klíčová slova: zdroj zvuku, vzduchový sloupec, stojaté vlnění, proudění vzduchu.",
+  "materials": [
+    "kovová okapová trubka (délka asi 1 m)",
+    "kus drátěnky (kovové síťky) zasunutý do jednoho konce trubky",
+    "vařič (elektrický nebo plynový)",
+    "žáruvzdorná rukavice"
+  ],
+  "procedure": "Drátěnku zasunout do jednoho konce trubky. Trubku postavit svisle drátěnkou dolů nad vařič a nechat drátěnku rozpálit. Trubku z vařiče sundat, dál ji držet svisle a poslouchat. Zkusit trubku naklonit do vodorovné polohy a porovnat trubky různé délky.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

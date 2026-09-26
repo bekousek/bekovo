@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-zluc-emulze",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Voda, olej a jar – jak žluč pomáhá trávit tuky",
+  "type": "qualitative",
+  "description": "Žákovský pokus s přesahem do biologie. Nádoba s vodou a olejem se protřepe – vrstvy se po chvíli zase oddělí, voda a olej se nemísí. Po přidání pár kapek jaru a novém protřepání už se vrstvy neoddělují: vznikne emulze. Molekuly saponátu mají jednu část „podobnou oleji“ a druhou „podobnou vodě“, obalí drobné kapičky oleje a udrží je rozptýlené ve vodě (a sníží povrchové napětí). Stejnou úlohu má v našich střevech žluč, díky níž lze strávit tuky a vitamíny A, D, E, K. Klíčová slova: nemísitelné kapaliny, emulze, povrchové napětí.",
+  "materials": [
+    "uzavíratelná průhledná nádoba",
+    "voda",
+    "olej",
+    "jar (saponát)"
+  ],
+  "procedure": "Do nádoby nalít vodu a olej, uzavřít, protřepat a sledovat oddělování vrstev. Přidat pár kapek jaru, znovu protřepat a porovnat.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

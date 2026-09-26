@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-slzy-vina",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Slzy vína – Marangoniho jev",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Do sklenice se nalije trochu obarvené směsi vody a ethanolu („víno“) a zakroužením se smočí stěny. Po chvíli se na stěně tvoří „slzy“ – kapalina v tenkém filmu šplhá vzhůru a pak stéká v kapkách dolů. Ethanol se z tenkého filmu na stěně odpařuje rychleji než voda a má menší povrchové napětí. Ve filmu tak stoupne podíl vody, a tím i povrchové napětí, které k sobě táhne kapalinu ze spodní části sklenice po stěně nahoru. Nahromaděná kapalina pak gravitací stéká zpět jako slzy (Marangoniho jev). Děje se to, dokud je ve směsi dost alkoholu. Klíčová slova: povrchové napětí, vypařování, Marangoniho jev.",
+  "materials": [
+    "sklenice (nejlépe na víno)",
+    "voda",
+    "líh nebo ethanol",
+    "potravinářské barvivo"
+  ],
+  "procedure": "Smíchat vodu s lihem (např. 2 : 1) a obarvit. Nalít trochu do sklenice, zakroužit, aby se smočily stěny, a sklenici nechat stát. Pozorovat vznik slz; porovnat se sklenicí s čistou vodou.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfvqbmoqexvpfeglspxg"
+  }
+}

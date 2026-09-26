@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-hroznove-vino-diamagnetismus",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Magnet a hroznové víno – diamagnetismus vody",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Na lehké vahadélko (brčko nebo špejle zavěšená na niti, na obou koncích kulička hroznového vína) se vyváží hrozny tak, aby se mohly volně otáčet. Když se k hroznu přiblíží silný neodymový magnet (bez dotyku), hrozen se od něj pomalu vzdaluje. Hroznové víno je převážně voda a voda je diamagnetická – v silném magnetickém poli vytváří velmi slabé pole opačného směru, a je proto magnetem slabě odpuzována. Běžným magnetem to nepozorujeme; lehce zavěšený hrozen a silný magnet tento nepatrný jev zviditelní. Magnetické pole tedy působí na všechny látky, jen různě silně a různým směrem. Klíčová slova: diamagnetismus, magnetické pole, magnetické vlastnosti látek.",
+  "materials": [
+    "2 kuličky hroznového vína",
+    "brčko nebo špejle jako vahadélko",
+    "nit a stojánek",
+    "silný neodymový magnet"
+  ],
+  "procedure": "Hrozny napíchnout na konce brčka a brčko zavěsit uprostřed na nit, vyvážit. Počkat, až se ustálí. Přiblížit magnet těsně k jednomu hroznu (nedotýkat se) a sledovat pohyb vahadélka.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

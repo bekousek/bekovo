@@ -1,0 +1,20 @@
+{
+  "id": "optika-opticky-kabel-z-vody",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Optický kabel z vody – vedení světla úplným odrazem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Z průhledné láhve s vodou, do které je z boku zasunuté brčko, vytéká po povolení víčka souvislý proud vody. Když se láserem posvítí skrz láhev přímo do brčka, světlo „jede“ po zakřiveném proudu vody a v místě dopadu vody svítí skvrna. Světlo se na rozhraní voda–vzduch opakovaně úplně odráží (dopadá pod úhlem větším než mezní), takže nemůže z proudu uniknout a sleduje jeho dráhu. Stejně fungují skleněná optická vlákna pro přenos dat. Ve tmě je efekt nejvýraznější. Klíčová slova: úplný odraz, mezní úhel, optické vlákno.",
+  "materials": [
+    "průhledná PET láhev s víčkem",
+    "brčko (vlepené do otvoru v boku láhve)",
+    "voda",
+    "laserové ukazovátko",
+    "nádoba na zachycení vody"
+  ],
+  "procedure": "Láhev naplnit vodou a uzavřít (voda brčkem neteče). Zatemnit místnost, namířit laser skrz láhev do otvoru brčka a povolit víčko. Sledovat světlo v proudu vytékající vody.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://herohero.co/scienceon/post/mqxedftjjiftfonyjrbojurilqhyepw"
+  }
+}

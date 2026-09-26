@@ -1,0 +1,18 @@
+{
+  "id": "plyny-fukar-trubka-micek",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Fukar, trubka a míček – vyfouknutí míčku z boku",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Pingpongový míček leží ve svislé trubce uzavřené zespodu; po stranách spodní části trubky jsou malé otvory. Míček je uvězněný a zdá se, že ho nejde vyfouknout nahoru. Když se ale fukarem (nebo pusou) fouká z boku kolem horního okraje trubky, míček se překvapivě zvedne a vyletí ven. Vzduch proudí rychle kolem horního otvoru, nad míčkem tak vznikne oblast s nižším tlakem (Bernoulliho princip), zatímco pod míčkem – kam vzduch přichází bočními otvory – zůstává tlak vyšší. Rozdíl tlaků vytvoří sílu, která přemůže tíhu míčku. Klíčová slova: proudění vzduchu, tlak, Bernoulliho princip.",
+  "materials": [
+    "trubka o něco širší než pingpongový míček, zespodu uzavřená, s malými otvory po stranách u dna",
+    "pingpongový míček",
+    "fukar, fén nebo brčko"
+  ],
+  "procedure": "Vložit míček do trubky. Zkusit ho vyfouknout. Pak foukat fukarem z boku přes horní okraj trubky a sledovat míček.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

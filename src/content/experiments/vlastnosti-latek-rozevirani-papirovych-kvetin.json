@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-rozevirani-papirovych-kvetin",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Rozevírání papírových květin na vodě – vzlínavost",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Z papíru se vystřihnou květy, okvětní lístky se přehnou do středu a složené květy se opatrně položí na vodní hladinu. Během chvíle se samy rozevřou. Voda vzlíná (kapilárními jevy) do struktury papíru, celulózová vlákna bobtnají a v místech přehnutí vzniká pnutí, které papír narovnává. Podobně se otvírají i skutečné květy – voda plní buňky na spodní straně okvětních lístků a turgor je roztlačí. Zajímavé je porovnat různé druhy papíru. Klíčová slova: vzlínavost, kapilární jevy, bobtnání.",
+  "materials": [
+    "papír (kancelářský, novinový, papírové ubrousky)",
+    "nůžky",
+    "miska s vodou",
+    "pastelky na obarvení (volitelně)"
+  ],
+  "procedure": "Vystřihnout květy, lístky přehnout do středu. Opatrně položit na hladinu a sledovat. Porovnat rychlost rozevírání u různých papírů.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}

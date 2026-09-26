@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-psani-na-papir-teplota",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Psaní na papír pod termokamerou – tření ohřívá, vypařování ochlazuje",
+  "type": "measurement",
+  "description": "Demonstrační pokus (provádí učitel – pracuje se s benzínem: dobře větrat, v blízkosti žádný otevřený oheň). Učitel píše na papír tužkou, propiskou a fixou a maluje štětcem namočeným do vody, lihu a benzínu. Termokamerou se sleduje teplota povrchu papíru při psaní a po něm. Tuha tužky papír třením mírně ohřeje, kdežto stopy po kapalinách jsou chladnější než okolí – kapalina se vypařuje a na vypařování odebírá papíru teplo (skupenské teplo vypařování). Benzín a líh se vypařují rychleji než voda, a ochlazují proto výrazněji. Otázky pro žáky: Proč jsou výsledky různé? Jak závisí na náplni psacích potřeb? Klíčová slova: tření, vypařování, skupenské teplo, tepelná energie, teplota.",
+  "materials": [
+    "papír",
+    "tužka, propiska, fix",
+    "štětce",
+    "voda, líh, benzín (v malých uzavíratelných nádobkách)",
+    "termokamera (případně napojená na projektor)"
+  ],
+  "procedure": "Termokamerou ukázat teplotu papíru. Psát tužkou, propiskou a fixou a malovat štětcem s vodou, lihem a benzínem; sledovat teplotu stop během psaní a po něm. Nechat žáky předpovídat výsledky a vysvětlit rozdíly.",
+  "source": {
+    "label": "Science ON — 13 hodin s pokusy 2026 (letní kurz pro učitele)",
+    "url": "https://www.scienceon.cz"
+  }
+}
