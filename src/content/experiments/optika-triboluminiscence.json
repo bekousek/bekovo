@@ -1,0 +1,19 @@
+{
+  "id": "optika-triboluminiscence",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Triboluminiscence – křemeny a cukr, které svítí při tření",
+  "type": "qualitative",
+  "description": "Žákovský pokus (v úplné tmě, oči nechat chvíli přivyknout). Dva křemenné oblázky se o sebe silně třou nebo tlučou – mezi nimi se objevují oranžové záblesky. Kostka cukru rozdrcená sklenicí (díváme se shora přes dno) nebo zakousnutá zuby slabě blikne, světélkuje i rychle odlepovaná izolepa. Při lámání krystalu se oddělí náboje a jejich vyrovnání je provázeno světlem; přesný mechanismus u křemene se stále zkoumá. Srovnání s dalšími „studenými“ zdroji světla: bioluminiscence (světlušky, houba václavka), chemiluminiscence (svítící tyčinky) a radioluminiscence (tritiové přívěsky). Klíčová slova: zdroje světla, luminiscence, studené světlo.",
+  "materials": [
+    "2 křemenné oblázky (bílé, průsvitné)",
+    "kostky cukru a sklenice",
+    "izolepa",
+    "zatemnitelná místnost"
+  ],
+  "procedure": "Zatemnit místnost a počkat, až si oči přivyknou. Třít a tlouct křemeny o sebe, drtit kostku cukru sklenicí, rychle odlepovat izolepu. Popsat barvu záblesků.",
+  "source": {
+    "label": "Science ON (YouTube) — Triboluminiscence – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=3oi5itY-E6M"
+  }
+}

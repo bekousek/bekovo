@@ -1,0 +1,18 @@
+{
+  "id": "energie-crookesuv-mlynek",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Crookesův mlýnek – točí ho světlo, nebo teplo?",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Crookesův mlýnek (radiometr) je skleněná baňka se zředěným vzduchem a lehkým větrníkem, jehož lopatky jsou z jedné strany černé a z druhé bílé (lesklé). Po osvícení lampou se roztočí tak, že černé strany ustupují od světla. Kdyby lopatky tlačilo samotné světlo, víc by tlačilo na lesklou stranu a mlýnek by se točil opačně. Ve skutečnosti se černá strana ohřeje víc a zbytek vzduchu v baňce do ní naráží „teplejšími“ částicemi, které ji odstrkují. Když mlýnek po osvícení postříkáme chladicím sprejem, začne se točit opačně – černá strana vyzáří teplo rychleji a teplejší zůstane bílá. Klíčová slova: tepelné záření, pohlcování záření, pohyb částic plynu.",
+  "materials": [
+    "Crookesův mlýnek (radiometr)",
+    "lampa nebo silná baterka",
+    "chladicí sprej (volitelně)"
+  ],
+  "procedure": "Posvítit na mlýnek, určit směr otáčení a zeptat se žáků, zda ho tlačí světlo. Posvítit z různých stran, zastínit, nakonec baňku ochladit sprejem a sledovat změnu směru.",
+  "source": {
+    "label": "Science ON (YouTube) — Crookesův mlýnek – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=dQTcNt4FcqE"
+  }
+}

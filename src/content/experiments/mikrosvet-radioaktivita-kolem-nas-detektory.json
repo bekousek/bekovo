@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-radioaktivita-kolem-nas-detektory",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Radioaktivní předměty kolem nás a jejich detekce",
+  "type": "measurement",
+  "description": "Demonstrační pokus s bezpečnými „drobnými zářiči“. Nejprve se detektorem (GM počítač, částicová kamera) změří přirozené pozadí. Pak se k detektoru přikládají předměty, které lze potkat v běžném životě: uranové sklo, kousek smolince, staré hodinky se svítícím rádiem, toriová punčoška do plynové lampy, školní zářič americia. Počet impulzů výrazně stoupne. Na částicové kameře je vidět, že různé záření zanechává různé stopy – alfa částice velké kulaté, beta „červíky“, gama drobné tečky, výjimečně dlouhé rovné stopy mionů z kosmického záření. Jako projekt lze postavit jednoduchou ionizační komoru ze dvou plechovek s tranzistorem, ke které se připojí voltmetr – s přiblížením zářiče napětí vzroste. Klíčová slova: radioaktivita, druhy záření, radiační pozadí, detektor.",
+  "materials": [
+    "GM počítač (nebo částicová kamera)",
+    "drobné zářiče ze školní sbírky, uranové sklo, toriová punčoška",
+    "volitelně ionizační komora z plechovek a voltmetr"
+  ],
+  "procedure": "Změřit pozadí v místnosti. Postupně přikládat jednotlivé předměty k detektoru a zapisovat hodnoty. Porovnat stopy na částicové kameře a diskutovat, odkud se bere přirozená radioaktivita.",
+  "source": {
+    "label": "Science ON (YouTube) — Detekce radiace – Anna Kufová",
+    "url": "https://www.youtube.com/watch?v=nj71Bxo7KV0"
+  }
+}

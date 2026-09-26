@@ -1,0 +1,19 @@
+{
+  "id": "optika-barevne-stiny-hvezda",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Barevné stíny – osmicípá hvězda ze dvou svíček",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Šablona čtyřcípé hvězdy (vystřižená v kartonu) se osvětlí dvěma svíčkami nebo baterkami z různých míst – na stínítku vznikne osmicípá hvězda. Když se před jednu svíčku dá červený filtr, cípy od ní jsou červené, ale cípy od druhé, bílé svíčky nejsou bílé – vypadají azurové (modrozelené). Se zeleným filtrem vypadají druhé cípy purpurové. Oko se přizpůsobí převládající barvě a v „bílých“ místech pak vidíme doplňkovou barvu. Stejně funguje známý obrázek plechovky Coca-Coly složený jen z azurové, bílé a černé, který přesto vidíme červený. Klíčová slova: skládání barev, doplňkové barvy, barevné vidění.",
+  "materials": [
+    "karton se šablonou hvězdy (nebo jakéhokoli tvaru)",
+    "2 svíčky nebo baterky",
+    "červený a zelený filtr (fólie)",
+    "bílé stínítko"
+  ],
+  "procedure": "Nastavit obě světla tak, aby se stíny překrývaly do osmicípé hvězdy. Před jedno světlo dát červený filtr a popsat barvy cípů; zopakovat se zeleným filtrem.",
+  "source": {
+    "label": "Science ON (YouTube) — Proč Coca-Cola není červená? – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=Dk_cP-uBZ-M"
+  }
+}

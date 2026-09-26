@@ -1,0 +1,18 @@
+{
+  "id": "akustika-gumicka-natazeni-ton",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Natažená gumička – proč se tón skoro nezmění?",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Nejprve připomenutí: kmitající pilka nebo pravítko zní níž, když na konec přidáme závaží (magnet), a výš, když je zkrátíme. Pak se gumička natáhne přes plechovku nebo krabičku a brnkneme na ni. Otázka: když gumičku natáhneme na dvojnásobnou délku, bude tón vyšší, nebo nižší? U kytarové struny by větší napnutí tón zvýšilo. U gumičky se ale s natažením zároveň prodlouží kmitající část a gumička se ztenčí – vlivy se téměř vyruší a tón zůstane skoro stejný. Klíčová slova: kmitání, frekvence, výška tónu, napětí struny.",
+  "materials": [
+    "plechovka nebo krabička",
+    "gumička",
+    "pilka nebo pravítko, magnet (závaží)"
+  ],
+  "procedure": "Brnknout na gumičku natáhnutou přes plechovku. Nechat žáky tipovat, pak gumičku postupně natahovat (tahat za volný konec) a brnkat. Tón lze změřit aplikací v mobilu.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak se změní tón gumičky, když ji natáhnete? – Stuart Kohlhagen",
+    "url": "https://www.youtube.com/watch?v=5vP5WxVDve8"
+  }
+}

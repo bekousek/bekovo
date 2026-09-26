@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-model-urychlovace",
+  "subtopicId": "elektricky-naboj",
+  "topicId": "elektrostatika",
+  "title": "Model urychlovače částic – kulička na nabitých proužcích",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Na kolejnici (žlábek) jsou nalepené měděné nebo alobalové proužky, které se střídavě připojí k jednomu a druhému pólu Wimshurstovy indukční elektriky – sousední proužky mají opačný náboj. Lehká kulička natřená vodivou barvou (nebo obalená alobalem) se po malém postrčení začne pohybovat: od proužku se nabije stejným nábojem, je odpuzena a přitahována k sousednímu opačně nabitému proužku, tam se přebije a pokračuje dál. Když se proužky nalepí dokola do salátové mísy, kulička obíhá po kružnici – model kruhového urychlovače, jako je LHC v CERNu. Po skončení je nutné elektriku vybít. Klíčová slova: elektrický náboj, přitahování a odpuzování, elektrické pole.",
+  "materials": [
+    "Wimshurstova indukční elektrika",
+    "kolejnice nebo salátová mísa",
+    "alobal nebo měděná páska",
+    "lehká kulička s vodivým povrchem (pingpongový míček s alobalem/vodivou barvou)",
+    "vodiče"
+  ],
+  "procedure": "Nalepit proužky, propojit je střídavě s póly elektriky, položit kuličku a roztočit elektriku; kuličku lehce postrčit. Zopakovat v míse. Po pokusu vybít elektriku.",
+  "source": {
+    "label": "Science ON (YouTube) — Urychlovač částic – Anja Kranjc Horvat",
+    "url": "https://www.youtube.com/watch?v=H5q4MaEWZyM"
+  }
+}

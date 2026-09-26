@@ -1,0 +1,20 @@
+{
+  "id": "plyny-domaci-aerodynamicky-tunel",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Domácí aerodynamický tunel s kouřem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus nebo projekt pro šikovné žáky. Tunel tvoří voština (mřížka z mnoha šestiúhelníkových kanálků, např. z 3D tiskárny nebo z brček), za ní kartonový konfuzor (zužující se nálevka), průhledná pozorovací část s modelem auta a delší „uklidňovací“ část, na jejímž konci saje vzduch počítačový ventilátor s regulací otáček. Před voštinu se postaví doutnající františek. Voština a konfuzor usměrní proudění, takže kouř tvoří tenké rovnoběžné proudnice, které obtékají model. Je vidět, kde se proud od střechy auta odtrhne a za autem vzniká víření (úplav). Tunely se používají při vývoji aut a letadel, dnes se doplňují počítačovými simulacemi. Klíčová slova: proudění vzduchu, proudnice, odpor vzduchu.",
+  "materials": [
+    "karton, lepicí páska, průhledná fólie nebo plexisklo",
+    "voština (3D tisk nebo svazek brček)",
+    "počítačový ventilátor a zdroj s regulací",
+    "františek (vonná kuželka)",
+    "model auta"
+  ],
+  "procedure": "Sestavit tunel v pořadí voština – konfuzor – pozorovací část – uklidňovací část – ventilátor (saje). Zapálit františek před voštinou, zavřít okna, nastavit otáčky a sledovat proudnice kouře kolem modelu. Porovnat různé tvary modelů.",
+  "source": {
+    "label": "Science ON (YouTube) — Aerodynamický tunel – Jakub Vlašic a Martin Michálek",
+    "url": "https://www.youtube.com/watch?v=KNyvWUwx4xo"
+  }
+}

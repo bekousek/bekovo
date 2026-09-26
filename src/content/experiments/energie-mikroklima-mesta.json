@@ -1,0 +1,20 @@
+{
+  "id": "energie-mikroklima-mesta",
+  "subtopicId": "teplo-a-jeho-sireni",
+  "topicId": "energie",
+  "title": "Mikroklima města pod termokamerou – barvy, materiály a skleník",
+  "type": "measurement",
+  "description": "Badatelský pokus. Infražárovka (do terária) představuje slunce, teplota se měří termokamerou nebo infrateploměrem. 1) Stejné plechy – bílý, černý a lesklý – se 2 minuty ohřívají: černý se ohřeje nejvíc, bílý méně, lesklý záření odráží (termokamera na něm ukazuje spíš odražené okolí). 2) Krabičky s různě barevnými „fasádami“ a střechami. 3) Hliník, kámen, dřevo, papír a plast: hliník se ohřeje rychle, ale i rychle vychladne, kámen se ohřívá pomalu a teplo dlouho drží – proto je město večer teplejší než okolí (tepelný ostrov). 4) Model skleníkového efektu: misky s mokrou vatou, jedna zakrytá potravinovou fólií, třetí s propíchanou fólií – pod fólií je nejtepleji. Vhodná diskuse, proč jsou pro města lepší světlé (ne však oslnivě bílé) povrchy, zeleň a voda. Klíčová slova: tepelné záření, pohlcování a odraz, mikroklima.",
+  "materials": [
+    "infražárovka nebo silná lampa",
+    "termokamera nebo infrateploměr",
+    "bílý, černý a lesklý plech",
+    "vzorky materiálů",
+    "3 misky, vata, voda, potravinová fólie"
+  ],
+  "procedure": "Vystavit vzorky stejně dlouho záření a měřit teplotu; po vypnutí sledovat chladnutí. Sestavit model skleníku a porovnat teploty misek. Výsledky zapsat do tabulky.",
+  "source": {
+    "label": "Science ON (YouTube) — Proč je v některých částech města nesnesitelné horko?",
+    "url": "https://www.youtube.com/watch?v=epjS_uEoG60"
+  }
+}

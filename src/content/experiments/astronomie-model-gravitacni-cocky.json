@@ -1,0 +1,17 @@
+{
+  "id": "astronomie-model-gravitacni-cocky",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "Model gravitační čočky z vinné sklenice",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Hmotné objekty (galaxie, kupy galaxií) zakřivují časoprostor a světlo, které letí kolem nich, zahýbá – vzniká gravitační čočka. Model: stopka a silné dno vinné sklenice fungují jako čočka, přes kterou se díváme na malou svítící LED (nebo bod na papíře). Posouváním LED za sklenicí vidíme obraz zdvojený, ztrojený, a když je LED přesně za středem, rozprostře se do prstence (Einsteinův prstenec). Tak astronomové vidí galaxie schované za jinými galaxiemi, někdy i několikrát, a mapují rozložení temné hmoty. Klíčová slova: gravitace, ohyb světla, galaxie, temná hmota.",
+  "materials": [
+    "vinná sklenice se silným dnem a stopkou",
+    "LED nebo malá baterka (případně tečka na papíře)"
+  ],
+  "procedure": "Dívat se skrz dno a stopku sklenice na LED a pomalu ji posouvat za sklenicí do stran i přesně za střed. Pozorovat počet a tvar obrazů a popsat je.",
+  "source": {
+    "label": "Science ON (YouTube) — Gravitační čočky – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=RIaVl2eXiqo"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "mikrosvet-ozareni-vs-kontaminace",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Ozáření vs. kontaminace – která houbička bude radioaktivní?",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Tři stejné houbičky se změří GM počítačem – ukazují jen pozadí. První se nechá několik minut ozařovat školními zářiči, druhá se „ozáří“ v mikrovlnné troubě a třetí se otře o kousek uranové rudy (smolince). Po měření se ukáže, že aktivitu zvýšila jen třetí houbička – nesou ji na sobě prachové částečky rudy. Ozáření samo o sobě předmět radioaktivním neudělá (běžně ne), nebezpečné je, když se radioaktivní látka (prach, spad) dostane na předmět nebo do těla. Klíčová slova: radioaktivita, ozáření, kontaminace, radioaktivní spad.",
+  "materials": [
+    "GM počítač",
+    "3 houbičky",
+    "školní zářiče",
+    "mikrovlnná trouba",
+    "vzorek uranové rudy (ze školní sbírky)",
+    "rukavice"
+  ],
+  "procedure": "Změřit všechny houbičky. Jednu ozařovat zářiči, druhou dát na minutu do mikrovlnky, třetí otřít o rudu. Znovu změřit a porovnat. Po pokusu houbičku s prachem zlikvidovat a umýt ruce.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak se něco stane radioaktivním? – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=H9TIGE5TKs8"
+  }
+}

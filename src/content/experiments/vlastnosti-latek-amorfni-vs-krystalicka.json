@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-amorfni-vs-krystalicka",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Vosk vs. led – jak tají amorfní a krystalické látky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Kus ledu a svíčka (vosk) se zahřívají horkovzdušnou pistolí. Led taje při stálé teplotě 0 °C a mění se rovnou v kapalinu, kdežto vosk postupně a plynule měkne – někde je už měkký, jinde ještě tvrdý. Krystalická látka má částice pravidelně uspořádané („postavený dům“) a k jejímu rozboření je potřeba určité teplo při určité teplotě tání. Amorfní látky (vosk, sklo, pryskyřice, jantar) mají částice uspořádané nepravidelně („slum“), a proto se rozpadají pozvolna a nemají přesnou teplotu tání. Doplněk: na povrch voskových granulí se položí těžší kuličky – při zahřívání se do měknoucího materiálu propadají. Klíčová slova: krystalické a amorfní látky, teplota tání.",
+  "materials": [
+    "svíčka nebo kus vosku",
+    "kostka ledu",
+    "horkovzdušná pistole nebo fén",
+    "teploměr",
+    "nehořlavá podložka"
+  ],
+  "procedure": "Zahřívat střídavě led a vosk horkovzdušnou pistolí, sledovat, jak se mění, a měřit teplotu. Porovnat tání ledu a měknutí vosku a vysvětlit rozdíl pomocí uspořádání částic.",
+  "source": {
+    "label": "Science ON (YouTube) — Amorfní látky – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=H7UEE0614tI"
+  }
+}

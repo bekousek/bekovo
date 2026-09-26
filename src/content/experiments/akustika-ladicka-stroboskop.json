@@ -1,0 +1,19 @@
+{
+  "id": "akustika-ladicka-stroboskop",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Ladička pod stroboskopem – zastavené kmity a určení frekvence",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Rotující kotouč osvětlený stroboskopem (bliká nastavitelnou frekvencí) se zdánlivě točí pomalu, stojí, nebo se točí opačně – vidíme ho jen v okamžicích záblesků. Stejně „zastavíme“ kmity ladičky: její ramena promítneme čočkou na stínítko a osvětlíme stroboskopem. Když se frekvence záblesků blíží frekvenci ladičky, ramena kmitají zdánlivě velmi pomalu, při shodě stojí. Z frekvence stroboskopu (údaj v blicích za minutu ÷ 60, případně násobky) určíme frekvenci ladičky – např. 6 220 min⁻¹ ≈ 104 Hz, × 4 ≈ 414 Hz, tedy tón blízký komornímu a. Místo stroboskopu lze použít aplikaci s blikající svítilnou mobilu. Klíčová slova: kmitání, frekvence, stroboskopický jev.",
+  "materials": [
+    "ladička (a paličkou)",
+    "stroboskop (nebo aplikace pro mobil)",
+    "spojná čočka a stínítko",
+    "rotující kotouč s značkou (ventilátor)"
+  ],
+  "procedure": "Osvětlit rotující kotouč stroboskopem a měnit frekvenci. Rozkmitat ladičku, promítnout její ramena na stínítko a ladit frekvenci stroboskopu, až se kmity zastaví. Frekvenci přepočítat na hertzy.",
+  "source": {
+    "label": "Science ON (YouTube) — Ladička pod stroboskopem – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=Ot-qNeCGrk8"
+  }
+}

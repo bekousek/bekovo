@@ -1,0 +1,18 @@
+{
+  "id": "optika-fosforescencni-deska-lasery",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Fosforescenční deska a lasery různých barev",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Na fosforescenční (ve tmě svítící) fólii nebo desku se svítí lasery různých barev. Červený ani zelený laser nezanechá žádnou stopu, fialový (405 nm) i při malém výkonu kreslí svítící čáry, které dlouho dosvítí – lze jím psát. Nezáleží na výkonu, ale na barvě: aby světlo „nakoplo“ elektrony v látce, musí mít každý foton dost energie, a tu mají jen fotony s kratší vlnovou délkou. Rozšíření: laser odražený od zrcátka na membráně kreslí na fosforescenční desku tvar zvuku (Lissajousovy obrazce). Klíčová slova: fosforescence, foton, vlnová délka, energie světla.",
+  "materials": [
+    "fosforescenční fólie nebo nálepky",
+    "laserová ukazovátka červené, zelené a fialové barvy",
+    "baterka"
+  ],
+  "procedure": "Nasvítit desku baterkou a sledovat dosvit. V zatemnění kreslit po desce postupně červeným, zeleným a fialovým laserem. Diskutovat, proč záleží na barvě, a ne na výkonu. Pozor, do laseru se nedívat.",
+  "source": {
+    "label": "Science ON (YouTube) — Dá se odposlouchávat LASEREM?",
+    "url": "https://www.youtube.com/watch?v=PU1w2O0tQGs"
+  }
+}

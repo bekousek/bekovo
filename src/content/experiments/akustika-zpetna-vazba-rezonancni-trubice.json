@@ -1,0 +1,17 @@
+{
+  "id": "akustika-zpetna-vazba-rezonancni-trubice",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Akustická zpětná vazba a trubice různé délky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (pozor na hlasitost). Když mikrofon přiblížíme k reproduktoru, ozve se pískání: šum z reproduktoru zachytí mikrofon, zesilovač ho zesílí, reproduktor ho vydá hlasitěji a tak dokola. Když mikrofon zasuneme do trubice, zpětná vazba se „naladí“ na tón, který v trubici rezonuje – s delší trubicí je tón hlubší, s kratší vyšší. Stejně rezonanční dutiny zesilují zvuk strun nebo hlasivek. Pro zajímavost lze ukázat obrazovou zpětnou vazbu: kamera namířená na obrazovku, na které je její vlastní obraz. Klíčová slova: zpětná vazba, rezonance, vzduchový sloupec, výška tónu.",
+  "materials": [
+    "mikrofon, zesilovač a reproduktor (nebo reprobedna)",
+    "trubice různé délky a průměru (PVC, kartonové)"
+  ],
+  "procedure": "Opatrně přibližovat mikrofon k reproduktoru při nízké hlasitosti. Zasunout mikrofon do trubic různé délky a porovnat výšku tónu. Hlasitost držet nízko.",
+  "source": {
+    "label": "Science ON (YouTube) — Fenomén zpětné vazby – Aleš Tišina Pilgr",
+    "url": "https://www.youtube.com/watch?v=QUmP3BJkrZg"
+  }
+}

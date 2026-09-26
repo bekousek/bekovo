@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-setrvacniky-precese-kola",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Kolo z jízdního kola a setrvačníky – precese",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Roztočené kolo z jízdního kola, podepřené jen na jednom konci osy (na provázku nebo prstu), nespadne – osa zůstává zhruba vodorovně a pomalu se stáčí dokola (precese). Neroztočené kolo okamžitě spadne. Kdo drží roztočené kolo za osu a zkusí ho naklonit, pocítí, že se kolo „brání“ a uhýbá do strany. Doplněk: dvě stejné káči se liší jen zakončením špičky – ta se zaoblenou špičkou se po roztočení sama vztyčí do svislé polohy, ta s plochou ploškou ne. Rotující tělesa drží směr osy – toho využívají gyroskopy v navigaci. Klíčová slova: rotace, setrvačník, precese, stabilita.",
+  "materials": [
+    "kolo z jízdního kola (nejlépe s prodlouženou osou nebo rukojeťmi)",
+    "provázek",
+    "káči s různou špičkou"
+  ],
+  "procedure": "Kolo roztočit, zavěsit za jeden konec osy na provázek a pustit. Pozorovat stáčení osy. Zkusit roztočené kolo držet a naklánět. Porovnat káči s různou špičkou.",
+  "source": {
+    "label": "Science ON (YouTube) — Setrvačníky – Tomáš Tyc",
+    "url": "https://www.youtube.com/watch?v=w31qdT0h3AM"
+  }
+}

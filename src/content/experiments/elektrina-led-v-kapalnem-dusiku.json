@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-led-v-kapalnem-dusiku",
+  "subtopicId": "polovodice",
+  "topicId": "elektrina",
+  "title": "LED dioda v kapalném dusíku – zhasne, nebo změní barvu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (jen pokud je k dispozici kapalný dusík; ochranné brýle a rukavice). Svítící žlutá LED napájená stálým napětím se ponoří do kapalného dusíku a zhasne; po vytažení a zahřátí se znovu rozsvítí. Ochlazením se zvětší zakázaný pás polovodiče a stejné napětí už nestačí, aby elektrony přechod „přeskočily“. Když se LED napájí zdrojem se stálým proudem (zdroj si sám zvýší napětí), dioda v dusíku svítí dál, ale změní barvu ze žluté na zelenou – každý přechod elektronu teď uvolní víc energie, a vyzářené světlo má proto vyšší frekvenci. Klíčová slova: polovodič, PN přechod, LED, energie fotonu.",
+  "materials": [
+    "žlutá (nebo červená) LED",
+    "laboratorní zdroj s režimem stálého napětí i stálého proudu",
+    "kapalný dusík v Dewarově nádobě",
+    "ochranné brýle, rukavice"
+  ],
+  "procedure": "Rozsvítit LED ze zdroje nastaveného na stálé napětí a ponořit ji do dusíku. Pak zdroj přepnout na stálý proud a ponoření zopakovat. Sledovat svit a barvu; vytáhnout a nechat zahřát.",
+  "source": {
+    "label": "Science ON (YouTube) — Dioda v dusíku",
+    "url": "https://www.youtube.com/watch?v=r2066maPZ_0"
+  }
+}

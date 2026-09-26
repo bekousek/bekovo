@@ -1,0 +1,18 @@
+{
+  "id": "sila-varene-a-syrove-vejce",
+  "subtopicId": "newtonovy-zakony",
+  "topicId": "sila",
+  "title": "Vařené a syrové vejce – roztočit, zastavit, skutálet",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Roztočené vařené vejce se točí rychle a dlouho, syrové se točí pomalu a „kloktá“. Když obě na okamžik prstem zastavíme a hned pustíme, vařené zůstane stát, ale syrové se samo znovu roztočí – tekutý obsah uvnitř se setrvačností točil dál a skořápku zase rozpohyboval. U syrového vejce se navíc část energie ztrácí třením mezi skořápkou a obsahem. Překvapení: na mírně nakloněné desce se rychleji skutálí syrové vejce, protože se na začátku roztáčí hlavně skořápka, ne celý obsah. Model: průhledná krabička s vodou a plovoucími kousky. Klíčová slova: setrvačnost, rotace, tření.",
+  "materials": [
+    "vařené a syrové vejce",
+    "talíř nebo hladký stůl",
+    "deska jako nakloněná rovina"
+  ],
+  "procedure": "Roztočit obě vejce na talíři a porovnat. Obě krátce zastavit prstem a hned pustit. Pustit obě vejce současně z nakloněné desky. Nechat žáky předem tipovat.",
+  "source": {
+    "label": "Science ON (YouTube) — Které vajíčko se spíš skutálí ze stolu? – Anna Kratochvílová",
+    "url": "https://www.youtube.com/watch?v=dJIcsU20Wf0"
+  }
+}

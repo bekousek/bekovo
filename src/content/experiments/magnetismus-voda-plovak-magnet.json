@@ -1,0 +1,20 @@
+{
+  "id": "magnetismus-voda-plovak-magnet",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Odpuzuje magnet vodu? Kelímek na plováku a neodym",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Kelímek s vodou se postaví na lehký plovák (víčko, polystyren), který volně plave v misce s vodou. Když k němu přiblížíme silný neodymový magnet, kelímek pomalu odplouvá – voda je diamagnetická a magnet ji slabě odpuzuje, bez ohledu na pól. Přidáme-li do vody špetku železných pilin, kelímek se naopak k magnetu přitáhne (železo je feromagnetické). Stejně lze vyzkoušet krev: přestože obsahuje železo v hemoglobinu, převáží diamagnetismus vody a okysličeného hemoglobinu, takže se krev odpuzuje. Klíčová slova: diamagnetismus, feromagnetismus, magnetické vlastnosti látek.",
+  "materials": [
+    "miska s vodou",
+    "plovák (víčko, polystyren) a malý kelímek",
+    "silný neodymový magnet",
+    "železné piliny",
+    "volitelně zvířecí krev"
+  ],
+  "procedure": "Postavit kelímek s vodou na plovák, počkat, až se uklidní, a přiblížit magnet (nedotýkat se). Vyzkoušet oba póly. Pak přidat piliny a zopakovat.",
+  "source": {
+    "label": "Science ON (YouTube) — Jaké jsou magnetické vlastnosti krve? – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=lbRlR_ZmoSo"
+  }
+}

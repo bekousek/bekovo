@@ -1,0 +1,20 @@
+{
+  "id": "skupenstvi-vlhkost-vzduchu-neviditelna-para",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Proč pára u hrdla není vidět? Relativní vlhkost a kondenzace",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Z trubičky zátky varné baňky s vroucí vodou uniká pára. Těsně u ústí trubičky není nic vidět, bílý oblak se objeví až o kousek dál. Vodní pára je neviditelný plyn; to, co vidíme, jsou drobné kapičky (aerosol), které vzniknou, když se pára ochladí. Horký vzduch u ústí udrží hodně páry, dál se ochladí, jeho relativní vlhkost vzroste přes 100 % a pára kondenzuje. Když do „neviditelné“ části proudu vložíme vychlazené sklíčko (z mrazáku), okamžitě se kolem něj objeví mlha. Kondenzaci usnadňují drobné částečky (kondenzační jádra) – např. dým ze sfouknuté sirky. Model: houba nasáklá vodou – ochlazení je jako zmáčknutí houby. Klíčová slova: kondenzace, vodní pára, relativní vlhkost, oblaka.",
+  "materials": [
+    "varná baňka se zátkou a trubičkou (nebo konvice)",
+    "kahan nebo vařič",
+    "sklíčko vychlazené v mrazáku",
+    "sirky",
+    "houba"
+  ],
+  "procedure": "Uvést vodu do varu a pozorovat proud páry u ústí a dál od něj. Vložit do neviditelné části vychlazené sklíčko. Vysvětlit rozdíl mezi absolutní a relativní vlhkostí na modelu houby.",
+  "source": {
+    "label": "Science ON (YouTube) — Vlhkost vzduchu – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=b2maDoMWh6A"
+  }
+}

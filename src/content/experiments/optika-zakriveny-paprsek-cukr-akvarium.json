@@ -1,0 +1,19 @@
+{
+  "id": "optika-zakriveny-paprsek-cukr-akvarium",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Zakřivený laserový paprsek v cukerném roztoku – jak fungují optická vlákna",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Akvárium s vodou obarvenou trochou fluoresceinu zviditelní laserový paprsek (nejlépe fialovým nebo zeleným laserem). Nejprve ukážeme lom na hladině ke kolmici a od kolmice a úplný odraz: když paprsek z vody dopadá na hladinu dost šikmo, celý se odrazí zpět. Tak světlo drží uvnitř optického vlákna. Pak na dno akvária nasypeme cukr a necháme ho rozpouštět – u dna je roztok koncentrovanější a má větší index lomu, výš postupně menší. Paprsek vedený šikmo u dna se v takovém „gradientu“ plynule ohýbá dolů, jak světlo zatáčí směrem k většímu indexu lomu. Na tom je založeno gradientní optické vlákno. Klíčová slova: lom světla, úplný odraz, index lomu, optické vlákno.",
+  "materials": [
+    "akvárium",
+    "fluorescein (případně pár kapek mléka)",
+    "laser",
+    "cukr (1–2 kg)"
+  ],
+  "procedure": "Posvítit laserem do vody z různých úhlů a najít úplný odraz na hladině. Na dno nasypat cukr, nechat několik hodin rozpouštět bez míchání a posvítit šikmo u dna.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak funguje internet? Tajemství optických kabelů",
+    "url": "https://www.youtube.com/watch?v=ReKaLSdJFV4"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sila-zahadna-spulka",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Záhadná špulka – kam se kutálí, když za ni táhneme?",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Na velkou cívku (špulku od filamentu, nitě nebo kabelu) se namotá provázek tak, aby vycházel zespodu. Když za provázek táhneme vodorovně, špulka se nekutálí pryč, ale k nám – ve směru tahu. Když provázek zvedáme strměji, při určitém úhlu špulka jen klouže a při ještě strmějším se začne odvalovat opačným směrem. Rozhoduje, na kterou stranu od bodu dotyku s podložkou míří přímka síly – podle toho vzniká otáčivý účinek jedním, nebo druhým směrem. Když špulku postavíme na kolejničky tak, že se opírá o vnitřní namotanou část, chová se opačně. Klíčová slova: síla, působiště, otáčivý účinek síly (moment), valení.",
+  "materials": [
+    "velká cívka nebo špulka (případně dvě CD spojená válečkem)",
+    "provázek"
+  ],
+  "procedure": "Nechat žáky tipovat, pak táhnout za provázek vodorovně, šikmo a strmě a sledovat směr pohybu. Najít úhel, kdy se špulka neodvaluje. Zakreslit přímku síly a bod dotyku.",
+  "source": {
+    "label": "Science ON (YouTube) — Záhadná špulka – Anna Krčmářová",
+    "url": "https://www.youtube.com/watch?v=pDct9dw9g-A"
+  }
+}

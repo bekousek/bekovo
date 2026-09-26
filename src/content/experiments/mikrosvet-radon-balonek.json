@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-radon-balonek",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Radon chycený na balónek",
+  "type": "measurement",
+  "description": "Demonstrační nebo žákovský pokus s GM počítačem. Radon je radioaktivní plyn, který vzniká přeměnou uranu v horninách a stavebních materiálech a proniká do budov. Jeho produkty přeměny ulpívají na prachu. Nafouknutý balónek se zelektrizuje třením o vlasy nebo svetr a nechá se 1–2 hodiny viset ve vzduchu (nejlépe ve sklepě nebo v nevětrané místnosti). Pak se opatrně vyfoukne, stáhne se tím dohromady všechno, co se na něj nachytalo, a přiloží se ke GM počítači – ukazuje zvýšenou aktivitu (např. z 0,13 na 0,5 µSv/h). Kontrolou je stejný balónek bez elektrizování. List papíru odstíní většinu alfa záření. Radon je druhou nejčastější příčinou rakoviny plic; nejlepší ochranou je větrání. Klíčová slova: radon, radioaktivita, alfa záření, elektrostatika.",
+  "materials": [
+    "balónky",
+    "GM počítač",
+    "provázek",
+    "papír"
+  ],
+  "procedure": "Změřit pozadí a nový balónek. Balónek zelektrizovat, zavěsit tak, aby se ničeho nedotýkal, a nechat 1–2 h viset. Vyfouknout, položit na detektor a měřit. Porovnat s nezelektrizovaným balónkem a vyzkoušet stínění papírem.",
+  "source": {
+    "label": "Science ON (YouTube) — Radon – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=-tkbj1oUzg8"
+  }
+}

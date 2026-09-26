@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-nosnost-papirove-rulicky",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Kolik unese papírová rulička?",
+  "type": "measurement",
+  "description": "Žákovský pokus. List papíru A4 se sroluje do ruličky a slepí páskou. Položená naležato se pod závažím 0,5 kg okamžitě zmačká. Postavená nastojato ale unese překvapivě mnoho – závaží se pokládá na prkénko na ruličce postupně (0,5 kg, 1 kg, …) a v pokusu Science ON vydržela 5 kg a zhroutila se až pod 7,5 kg. Výsledek hodně závisí na rovnosti podložky, pečlivosti srolování a papíru. Rulička je namáhána tlakem ve směru osy; při určitém zatížení se náhle zvlní a podlomí (vzpěr) a pak se okamžitě zhroutí. Proto se u lehkých konstrukcí dávají tenké prvky raději do tahu než do tlaku. Klíčová slova: deformace, tlak, vzpěr, pevnost.",
+  "materials": [
+    "papíry A4",
+    "lepicí páska",
+    "prkénko nebo tácek",
+    "závaží (sáčky s pískem, kila mouky, knihy)",
+    "váhy"
+  ],
+  "procedure": "Srolovat ruličku, postavit ji nastojato, položit na ni prkénko a postupně přidávat závaží až do zhroucení. Zapsat maximální zátěž. Porovnat ruličky různého průměru nebo tři ruličky vedle sebe.",
+  "source": {
+    "label": "Science ON (YouTube) — Pokusy s papírovými ruličkami – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=4lYzgwCDvZo"
+  }
+}

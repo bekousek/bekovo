@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-dostrediva-sila-auticka",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Dostředivá síla s autíčky na baterky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Autíčko na baterky jede rovnoměrně přímočaře. Když ho přivážeme provázkem ke středu, jede stále stejně rychle, ale po kružnici – mění směr, takže zrychluje. Po přestřižení provázku odjede rovně po tečně. Stejnou roli dostředivé síly může převzít stěna mísy (autíčko v míse jezdí dokola, mimo ni rovně), dráha se smyčkou nebo průhledná koule, ve které autíčko jezdí vodorovně i svisle. Na smyčce s mezerou nahoře autíčko při dost velké rychlosti projede – v nejvyšším bodě mu dostředivou sílu dodá tíha. Klíčová slova: pohyb po kružnici, dostředivá síla, zrychlení, setrvačnost.",
+  "materials": [
+    "autíčko na baterky",
+    "provázek a nůžky",
+    "velká mísa",
+    "volitelně autodráha se smyčkou"
+  ],
+  "procedure": "Pustit autíčko volně, pak na provázku upevněném ve středu; provázek přestřihnout a sledovat směr. Zopakovat v míse. Zkusit smyčku dráhy.",
+  "source": {
+    "label": "Science ON (YouTube) — Dostředivá síla – Diane Riendau a Chris Chiaverina",
+    "url": "https://www.youtube.com/watch?v=F3o9KW-IMOA"
+  }
+}

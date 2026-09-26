@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-test-ochrannych-pomucek",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Chrání opravdu? Test brýlí proti modrému světlu a přívěsku „proti 5G“",
+  "type": "qualitative",
+  "description": "Badatelský pokus pro kritické myšlení. Oranžové brýle proti modrému světlu se prosvítí lasery: červený projde, zelený se zeslabí, modrý neprojde vůbec; UV baterka za brýlemi už nerozsvítí fluoreskující předmět – brýle skutečně filtrují krátkovlnné světlo. „Ochranný“ přívěsek proti wifi a 5G (s „negativními ionty“) se přiloží k mobilu – wifi funguje dál. GM počítač ale u přívěsku ukáže zvýšený dávkový příkon: „negativní ionty“ tu zajišťuje radioaktivní příměs. Přidávat radioaktivní látky do šperků a hraček je v ČR zakázáno. Klíčová slova: filtry světla, UV záření, radioaktivita, klamavá reklama.",
+  "materials": [
+    "brýle proti modrému světlu",
+    "lasery (červený, zelený, modrý), UV baterka, fluoreskující předmět",
+    "GM počítač",
+    "případně „ochranný“ přívěsek (nenosit)"
+  ],
+  "procedure": "Svítit lasery přes brýle a sledovat, co projde. Otestovat UV baterkou. Zjistit, zda přívěsek ovlivní wifi. Změřit přívěsek GM počítačem a porovnat s pozadím.",
+  "source": {
+    "label": "Science ON (YouTube) — Ochrana proti 5G sítím – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=mhTimDPuvLs"
+  }
+}

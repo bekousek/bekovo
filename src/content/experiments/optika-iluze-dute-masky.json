@@ -1,0 +1,18 @@
+{
+  "id": "optika-iluze-dute-masky",
+  "subtopicId": "oko",
+  "topicId": "optika",
+  "title": "Iluze duté masky – obličej, který se otáčí za vámi",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Karnevalová maska se postaví tak, abychom viděli její vnitřní (vydutou) stranu, a osvětlí se zespodu. Ačkoli je obličej „vmáčknutý dovnitř“, vidíme ho vypouklý – a když kolem něj chodíme (nebo pohybujeme kamerou), zdá se, že se otáčí a sleduje nás. Mozek je tak zvyklý vídat vypouklé obličeje, že dá přednost známé interpretaci, a stínování pak „přepočítá“ špatně. Iluze funguje nejlépe při pohledu jedním okem nebo na kameru. Podobně funguje papírový „drak“ s vydutou hlavou nebo Amesova místnost, v níž se lidé zdánlivě zvětšují a zmenšují. Klíčová slova: zrakové vnímání, optická iluze, monokulární vidění.",
+  "materials": [
+    "levná plastová maska obličeje (vydutá zevnitř)",
+    "baterka",
+    "mobil nebo kamera"
+  ],
+  "procedure": "Masku postavit vnitřní stranou k pozorovateli, osvětlit zespodu. Dívat se jedním okem nebo kamerou a pohybovat se do stran. Pak masku otočit a porovnat.",
+  "source": {
+    "label": "Science ON (YouTube) — Optické klamy – Chris Chiaverina a Brian Jonson",
+    "url": "https://www.youtube.com/watch?v=Wea95aUkRk0"
+  }
+}

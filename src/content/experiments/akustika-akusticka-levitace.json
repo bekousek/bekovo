@@ -1,0 +1,19 @@
+{
+  "id": "akustika-akusticka-levitace",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Akustická levitace – polystyren v uzlech stojaté vlny",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Akustický levitátor tvoří dvě sady malých ultrazvukových reproduktorů proti sobě (levné stavebnice s Arduinem). Mezi nimi vznikne stojaté zvukové vlnění, které neslyšíme. Kuličky polystyrenu vložené pinzetou se udrží ve vzduchu v místech uzlů, kde vzduch nekmitá – najednou jich lze zavěsit i několik nad sebou a levitátor lze dokonce otočit. Princip stojaté vlny lze předem ukázat na kmitající pružině nebo gumovém laně (uzly a kmitny); oblasti uzlů lze zviditelnit mlhou. Levitovat takto jdou jen velmi lehké a malé předměty; využívá se ve výzkumu k bezdotykové manipulaci. Klíčová slova: stojaté vlnění, uzel, kmitna, ultrazvuk.",
+  "materials": [
+    "ultrazvukový akustický levitátor (stavebnice)",
+    "kuličky polystyrenu",
+    "pinzeta nebo špachtle",
+    "pružina/gumové lano k vysvětlení"
+  ],
+  "procedure": "Zapnout levitátor, pinzetou vkládat kuličky polystyrenu mezi reproduktory a hledat místa, kde se udrží. Zkusit kolik kuliček se vejde nad sebe a zda levitátor funguje i po otočení.",
+  "source": {
+    "label": "Science ON (YouTube) — Akustická levitace – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=4R3q7X6WOck"
+  }
+}
