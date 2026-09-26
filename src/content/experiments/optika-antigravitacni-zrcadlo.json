@@ -1,0 +1,17 @@
+{
+  "id": "optika-antigravitacni-zrcadlo",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Antigravitační zrcadlo – iluze levitace",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žák se postaví bokem k rovinnému zrcadlu tak, aby okraj zrcadla procházel středem obličeje/těla mezi očima, a pohybuje jednou polovinou těla (např. zvedá nohu). Díky zákonu odrazu (úhel odrazu se rovná úhlu dopadu) odraz vytvoří dojem, že se druhá polovina těla vznáší. Ukazuje symetrii a věrnost odrazu v rovinném zrcadle.",
+  "materials": [
+    "rovinné zrcadlo (postavené na hraně, např. na stole)",
+    "žák jako pozorovaný objekt"
+  ],
+  "procedure": "Zrcadlo postavíme kolmo na stůl. Žák se postaví bokem tak, aby hrana zrcadla dělila jeho tělo/obličej na dvě poloviny procházející osou mezi očima. Poté hýbe jednou polovinou těla (rukou, nohou) směrem od zrcadla – v odrazu to vypadá, jako by se vznášel, protože viditelná polovina a její zrcadlový obraz vytváří symetrický, ale klamavý celek.",
+  "source": {
+    "label": "Techmania Science Center – Edutorium",
+    "url": "https://edu.techmania.cz/cs/katalog/edutorium/353/antigravitacni-zrcadlo"
+  }
+}

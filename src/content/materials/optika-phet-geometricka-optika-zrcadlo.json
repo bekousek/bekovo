@@ -1,0 +1,9 @@
+{
+  "id": "optika-phet-geometricka-optika-zrcadlo",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "PhET – Geometrická optika (zrcadla a čočky)",
+  "type": "applet",
+  "description": "Simulace umožňuje přepínat mezi dutým a vypuklým zrcadlem (i čočkami), posouvat předmět a pozorovat chod paprsků a vznik obrazu v reálném čase. Oficiálně lokalizováno do češtiny.",
+  "url": "https://phet.colorado.edu/cs/simulations/geometric-optics"
+}

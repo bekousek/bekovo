@@ -1,0 +1,9 @@
+{
+  "id": "optika-ray-optics-simulator",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Ray Optics Simulation – interaktivní simulátor chodu paprsků",
+  "type": "applet",
+  "description": "Bezplatný webový simulátor běžící přímo v prohlížeči, ve kterém lze rozmisťovat zdroje světla, rovinná i kulová zrcadla a čočky a sledovat chod paprsků a úhly odrazu v reálném čase. Doporučeno na českém rozcestníku Fyzikum.cz.",
+  "url": "https://phydemo.app/ray-optics/simulator/"
+}

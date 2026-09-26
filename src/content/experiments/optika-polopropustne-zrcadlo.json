@@ -1,0 +1,18 @@
+{
+  "id": "optika-polopropustne-zrcadlo",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Polopropustné zrcadlo – proč v noci vidíme v okně svůj odraz",
+  "type": "qualitative",
+  "description": "Demonstrační pokus vysvětlující, proč se okenní tabule za tmy chová jako zrcadlo, zatímco ve dne je průhledná. Sklo částečně odráží a částečně propouští světlo; převládne to, co je zrovna intenzivnější – proto z osvětlené strany vidíme odraz a z tmavé strany hledíme skrz. Princip se využívá i u pozorovacích zrcadel.",
+  "materials": [
+    "tabule skla nebo okno",
+    "baterka nebo lampa",
+    "dvě různě osvětlené strany místnosti (případně krabice se sklem uprostřed)"
+  ],
+  "procedure": "Postavíme skleněnou tabuli mezi dva prostory – jeden osvětlený, druhý tmavý. Z osvětlené strany je na skle vidět vlastní odraz, z tmavé strany je sklo naopak průhledné. Žáci porovnají pozorování z obou stran a diskutují, kam se „ztrácí“ odražené světlo v závislosti na osvětlení.",
+  "source": {
+    "label": "Techmania Science Center – Věda v pozadí: Tváří v tvář",
+    "url": "http://edu.techmania.cz/cs/veda-v-pozadi/589"
+  }
+}
