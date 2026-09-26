@@ -90,11 +90,14 @@ interface UiState {
   predictionChosenId: string | null;
   /** Naměřená hodnota z enginu (numerická predikce); null = zatím není. */
   predictionActual: number | null;
+  /** Student zavřel overlay lekce, aby si prohlédl scénu; lze znovu otevřít. */
+  predictionDismissed: boolean;
   setLesson: (lesson: Lesson | null) => void;
   setPredictionState: (state: 'waiting' | 'running' | 'done') => void;
   setPredictionInput: (input: string) => void;
   setPredictionChosenId: (id: string | null) => void;
   setPredictionActual: (value: number | null) => void;
+  setPredictionDismissed: (dismissed: boolean) => void;
   /** Reset formuláře predikce na 'waiting' (Zkusit znovu). */
   resetPrediction: () => void;
 }
@@ -128,6 +131,7 @@ export const useUiStore = create<UiState>()((set) => ({
   predictionInput: '',
   predictionChosenId: null,
   predictionActual: null,
+  predictionDismissed: false,
   setRunning: (running) => set({ running }),
   setSpeed: (speed) => set({ speed }),
   setStats: (stats) => set({ stats }),
@@ -190,8 +194,15 @@ export const useUiStore = create<UiState>()((set) => ({
   setPredictionInput: (predictionInput) => set({ predictionInput }),
   setPredictionChosenId: (predictionChosenId) => set({ predictionChosenId }),
   setPredictionActual: (predictionActual) => set({ predictionActual }),
+  setPredictionDismissed: (predictionDismissed) => set({ predictionDismissed }),
   resetPrediction: () =>
-    set({ predictionState: 'waiting', predictionInput: '', predictionChosenId: null, predictionActual: null }),
+    set({
+      predictionState: 'waiting',
+      predictionInput: '',
+      predictionChosenId: null,
+      predictionActual: null,
+      predictionDismissed: false,
+    }),
 }));
 
 // Aplikovat výchozí motiv ihned při inicializaci store (ještě před prvním renderem).
