@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-jaderna-polocas-pivni-pena",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Poločas rozpadu pivní pěny",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ pokus (provádí učitel, případně s asistencí žáků), který na analogii pěny z nealkoholického piva nebo jiného perlivého nápoje ukazuje exponenciální pokles typický pro radioaktivní rozpad. Po nalití nápoje do odměrného válce se v pravidelných intervalech měří výška pěny; zaznamená se čas, za který výška klesne na polovinu. Měření se zopakuje vícekrát a časy se zprůměrují — žáci tak vidí, že relativní rychlost úbytku je stále stejná bez ohledu na počáteční množství, stejně jako u poločasu rozpadu radioaktivní látky.",
+  "materials": [
+    "odměrný válec (širší je lepší)",
+    "nealkoholické pivo nebo jiný perlivý nápoj (limonáda, sodovka)",
+    "stopky nebo mobil se stopkami"
+  ],
+  "procedure": "1) Nalít nápoj do válce tak, aby vznikla pěna, a ihned začít měřit čas. 2) V pravidelných intervalech odečítat výšku pěny. 3) Zaznamenat čas, za který výška klesne na polovinu. 4) Měření vícekrát zopakovat a časy zprůměrovat. 5) Porovnat s principem poločasu rozpadu — konstantní relativní rychlost úbytku bez ohledu na počáteční množství.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/jaderne-laborky-za-par-korun-aneb-exponenciala-s-pivem-a-fazolemi-nazorne-a-bez-pocitacu/"
+  }
+}

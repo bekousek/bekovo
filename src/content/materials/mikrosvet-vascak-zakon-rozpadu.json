@@ -1,0 +1,9 @@
+{
+  "id": "mikrosvet-vascak-zakon-rozpadu",
+  "subtopicId": "jaderna-energie",
+  "topicId": "mikrosvet",
+  "title": "Vaščák: Zákon radioaktivní přeměny",
+  "type": "applet",
+  "description": "Česká animace znázorňující exponenciální pokles počtu nerozpadlých jader v čase podle zákona radioaktivní přeměny. Vizuálně doplňuje téma poločasu rozpadu bez nutnosti počítat exponenciály.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=jadro_rozpad&l=cz"
+}
