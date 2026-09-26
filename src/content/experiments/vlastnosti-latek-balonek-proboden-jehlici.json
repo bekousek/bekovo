@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-balonek-proboden-jehlici",
+  "subtopicId": "pevne-latky",
+  "topicId": "vlastnosti-latek",
+  "title": "Balónek propíchnutý jehlicí, který nepraskne",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Nafouknutý balónek se propíchne dlouhou jehlicí (namočenou v oleji) nejprve u uzlu a pak na protějším vrcholu – balónek nepraskne a skoro neuchází. Na těchto místech je guma napnutá nejméně (je tam tmavší), polymerní řetězce se kolem jehlice stáhnou a otvor utěsní. Na boku, kde je guma napnutá nejvíc, balónek okamžitě praskne. Napětí v průhledných plastech lze zviditelnit mezi dvěma zkříženými polarizačními filtry: natažený balónek, pravítko, úhloměr nebo mačkaný igelit ukáží barevné proužky podle toho, kde je materiál namáhaný (fotoelasticimetrie – využívá se při navrhování nosníků). Klíčová slova: polymery, pružnost, napětí v materiálu.",
+  "materials": [
+    "balónky",
+    "dlouhá jehlice (špejle) a trocha oleje",
+    "volitelně 2 polarizační filtry a plastové předměty"
+  ],
+  "procedure": "Nafouknout balónek jen trochu, jehlici naolejovat a otáčivým pohybem propíchnout u uzlu a pak na protějším vrcholu. Pro srovnání píchnout do boku. Prohlížet plasty mezi zkříženými filtry.",
+  "source": {
+    "label": "Science ON (YouTube) — Polarizace polymerů – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=Bm3uUkQ3c00"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "optika-svetlo-vlna-castice-led",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Světlo jako vlna i jako částice – štěrbina z nožů a LED detektor",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. 1) Laser svítí na úzkou štěrbinu mezi dvěma noži (žiletkami) upnutými ve svěráku. Když štěrbinu zužujeme, tečka se nejdřív nemění, pak se roztáhne do čáry s tmavými a světlými proužky – světlo se ohýbá jako vlna (difrakce). 2) LED dioda připojená k voltmetru funguje i obráceně jako detektor. Posvítíme na ni slabým i silným červeným laserem – napětí nevznikne. Posvítíme fialovým laserem, i slabým – napětí se objeví. Rozhoduje barva, ne výkon: světlo dopadá po „balíčcích“ – fotonech – a jen fotony s dost velkou energií (kratší vlnovou délkou) dokážou v diodě uvolnit elektrony. Klíčová slova: difrakce, vlnová povaha světla, foton.",
+  "materials": [
+    "laser (červený, zelený, fialový)",
+    "2 žiletky nebo nože a svěrák",
+    "LED dioda (modrá), multimetr",
+    "stínítko"
+  ],
+  "procedure": "Svítit laserem na štěrbinu a pomalu ji zužovat, pozorovat obraz. Pak připojit LED k voltmetru a svítit na ni lasery různé barvy a výkonu.",
+  "source": {
+    "label": "Science ON (YouTube) — Jaká je fyzikální podstata světla? – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=ktMZ9NYTrBo"
+  }
+}

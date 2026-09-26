@@ -1,0 +1,18 @@
+{
+  "id": "akustika-zvukovy-reaktivni-pohon-lahve",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Zvukový reaktivní pohon – láhve roztočené reproduktorem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Láhev má vlastní (rezonanční) frekvenci – když na ni foukneme přes hrdlo, zahouká; větší objem dává hlubší tón. Dvě stejné láhve se upevní na lehké otočné rameno a před ně se postaví reproduktor, který hraje tón přesně o vlastní frekvenci láhví (u malých lahví kolem 120 Hz). Láhve se začnou pomalu otáčet směrem od hrdla. Vzduch v láhvi rezonuje, u hrdla se střídavě vytlačuje a nasává a vytlačovaný vzduch vytváří víry, které odnášejí hybnost – láhev je odpuzována jako raketa. Při jiné frekvenci se nic nestane. Klíčová slova: rezonance, vlastní frekvence, zákon akce a reakce.",
+  "materials": [
+    "2 stejné skleněné láhve",
+    "lehké rameno na hrotu (otočný stojan)",
+    "reproduktor a generátor tónu (aplikace v mobilu + zesilovač)"
+  ],
+  "procedure": "Fouknutím a mobilní aplikací zjistit vlastní frekvenci láhví. Láhve upevnit na rameno hrdly stejným směrem, přiblížit reproduktor a hrát jejich frekvenci; pak zkusit jinou frekvenci.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak funguje zvukový reaktivní pohon?",
+    "url": "https://www.youtube.com/watch?v=RtmticBiivc"
+  }
+}

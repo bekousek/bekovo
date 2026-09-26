@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-kavitace-lahev",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Kavitace – úder na hrdlo utrhne láhvi dno",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel – ochranné brýle, láhev obalit ručníkem nebo dělat venku nad kbelíkem). Do skleněné láhve se nalije trochu vody. Když prudce udeříme dlaní shora na hrdlo, láhev poskočí dolů rychleji než voda, u dna vznikne na okamžik podtlak a v něm bublinky páry. Ty se vzápětí zhroutí (implodují) a vzniklá tlaková rána dokáže utrhnout dno. Zhroucení bublinek páry se říká kavitace. Stejný jev slyšíme v rychlovarné konvici: na začátku je hlučná, protože bublinky páry u topné spirály kolabují ve studené vodě, a těsně před varem ztichne. Kavitace ničí lodní šrouby a turbíny. Klíčová slova: kavitace, tlak, var, pára.",
+  "materials": [
+    "stará skleněná láhev (od vína)",
+    "voda",
+    "ručník, ochranné brýle, kbelík",
+    "rychlovarná konvice"
+  ],
+  "procedure": "Nalít do láhve několik centimetrů vody, obalit ji ručníkem, držet za hrdlo nad kbelíkem a prudce udeřit dlaní na hrdlo. Poslouchat rychlovarnou konvici během ohřevu a popsat změny zvuku.",
+  "source": {
+    "label": "Science ON (YouTube) — Kavitace – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=Z1nI71W370Q"
+  }
+}

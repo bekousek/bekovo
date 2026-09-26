@@ -1,0 +1,20 @@
+{
+  "id": "castice-difuze-vs-konvekce-laser",
+  "subtopicId": "brownuv-pohyb-difuze",
+  "topicId": "castice-latky",
+  "title": "Míchá se čaj difuzí? Konvekce vs. difuze a laserový paprsek",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Čaj nebo kapka fluoresceinu v akváriu se rozptýlí za pár minut – hlavní podíl ale nemá difuze, nýbrž proudění (konvekce): hladina se odpařováním ochlazuje, chladnější voda klesá a teplejší stoupá, a tím se kapalina promíchává. Skutečně pomalou difuzi ukáže druhý pokus: do kyvety s vodou se ke dnu pomalu přikape (nebo stříkačkou vpraví) koncentrovaný roztok soli. Laserový paprsek vedený vodorovně přes rozhraní se na stěně projeví jako „vlnka“, protože se na přechodu mezi slaným roztokem a vodou láme. Během hodin se rozhraní vlivem difuze rozmazává a paprsek na stěně se mění – vhodné zaznamenat časosběrně. Klíčová slova: difuze, Brownův pohyb, konvekce, lom světla.",
+  "materials": [
+    "kádinka s čajem nebo akvárium s fluoresceinem a UV baterkou",
+    "kyveta nebo úzká nádoba",
+    "nasycený roztok soli, stříkačka",
+    "laserové ukazovátko",
+    "stínítko (stěna)"
+  ],
+  "procedure": "Nasypat čaj / kápnout fluorescein a sledovat šíření. Pak do kyvety s vodou opatrně vpravit ke dnu solný roztok, prosvítit laserem přes rozhraní a zaznamenat obraz na stěně; fotografovat v intervalech několik hodin.",
+  "source": {
+    "label": "Science ON (YouTube) — Difuze ve vodě – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=Zb6Pkf0jPD0"
+  }
+}

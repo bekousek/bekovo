@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-krevni-tlak-vodni-sloupec",
+  "subtopicId": "hydrostaticky-tlak",
+  "topicId": "kapaliny-7",
+  "title": "Krevní tlak 120 mm Hg – vytlačím vodu do stejné výšky?",
+  "type": "measurement",
+  "description": "Žákovský pokus. Krevní tlak 120/80 se udává v milimetrech rtuťového sloupce. Rtuť má asi 13,5krát větší hustotu než voda, takže 120 mm Hg odpovídá asi 1,6 m vodního sloupce. Žák fouká hadičkou do uzavřené láhve s vodou, ze které vede průhledná hadička svisle vzhůru podél metru, a zkouší vytlačit vodu do výšky 1,6 m nad hladinu v láhvi. Většina to se štěstím zvládne – ale srdce takový tlak vytváří asi 70krát za minutu. Doplněk: měření tlaku manžetou, kde místo fonendoskopu poslouchá piezosnímač připojený k reproduktoru. Klíčová slova: hydrostatický tlak, hustota, krevní tlak, jednotky tlaku.",
+  "materials": [
+    "PET láhev s vodou a zátkou se dvěma otvory",
+    "dvě hadičky (jedna dlouhá průhledná)",
+    "svinovací metr",
+    "volitelně tlakoměr s manžetou"
+  ],
+  "procedure": "Sestavit láhev s hadičkou na foukání a dlouhou svislou hadičkou. Vyznačit na stěně výšku 1,6 m nad hladinou. Foukat a sledovat, kam až voda vystoupá; spočítat, jakému tlaku to odpovídá.",
+  "source": {
+    "label": "Science ON (YouTube) — Fyzika krevního tlaku – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=yub8fjSYkoU"
+  }
+}

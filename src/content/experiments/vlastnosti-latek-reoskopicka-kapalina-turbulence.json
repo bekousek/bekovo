@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-reoskopicka-kapalina-turbulence",
+  "subtopicId": "kapaliny",
+  "topicId": "vlastnosti-latek",
+  "title": "Víry ve vodě zviditelněné – reoskopická kapalina",
+  "type": "qualitative",
+  "description": "Žákovský i demonstrační pokus. Do vody se rozmíchá trocha jemného perleťového pigmentu (slída; náhradou může být perleťový šampon nebo jar s perletí) a nalije se do vysoké průhledné nádoby. Drobné destičky pigmentu se natáčejí podle proudění a odrážejí světlo, takže proudění vody je vidět. Po zamíchání se objeví spousta vírů různých velikostí, které se navzájem roztáčejí (turbulence); po zastavení míchání se pohyb rychle utlumí a energie se přemění na teplo. Při pomalém roztočení nádoby lze pozorovat pásy podobné atmosféře planet. Víry urychlují míchání – proto se cukr v čaji rozmíchá lžičkou za chvíli, zatímco samotnou difuzí by to trvalo hodiny. Klíčová slova: proudění, turbulence, víry, difuze.",
+  "materials": [
+    "vysoká průhledná nádoba (váza, odměrný válec)",
+    "voda",
+    "perleťový pigment (slída) nebo perleťový šampon",
+    "míchátko"
+  ],
+  "procedure": "Rozmíchat pigment ve vodě, nalít do nádoby a nechat uklidnit. Zamíchat a pozorovat víry, pak míchání zastavit a sledovat útlum. Zkusit nádobu pomalu roztočit.",
+  "source": {
+    "label": "Science ON (YouTube) — Turbulence – Pavel Rudolf",
+    "url": "https://www.youtube.com/watch?v=GA-ai0Y1r9M"
+  }
+}

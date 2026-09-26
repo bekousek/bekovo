@@ -1,0 +1,20 @@
+{
+  "id": "akustika-termoakusticky-motor",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Termoakustický motor – zkumavka, která píská teplem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (práce s plamenem). Do skleněné zkumavky se asi do třetiny zasune chomáček ocelové vaty. Zkumavka se upne vodorovně, jeden konec vaty se ohřívá plamenem kahanu a druhou část zkumavky chladí mokrý papírový ubrousek. Po chvíli se ozve tón. Rozdíl teplot na koncích ocelové vaty rozkmitá vzduch v zkumavce a kmity se udržují v rezonanci se vzduchovým sloupcem – teplo se tu přímo mění na zvuk. Příbuzné pokusy: okapová trubka s rozžhavenou drátěnkou nebo trubice nad hořákem, které „houkají“; delší trubice zní hlouběji. Klíčová slova: zdroj zvuku, rezonance vzduchového sloupce, přeměna tepla.",
+  "materials": [
+    "zkumavka (nejlépe varná)",
+    "ocelová vata (drátěnka)",
+    "kahan",
+    "stojan s držákem",
+    "mokrý papírový ubrousek"
+  ],
+  "procedure": "Zasunout ocelovou vatu do zkumavky, upnout ji do stojanu, ovinout mokrým ubrouskem a zahřívat konec vaty plamenem. Poslouchat. Vyzkoušet, jak tón závisí na délce zkumavky.",
+  "source": {
+    "label": "Science ON (YouTube) — Pokusy se zvukem, které neznáte – Jak se učí fyzika v Americe",
+    "url": "https://www.youtube.com/watch?v=WFDgRZg8MrM"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "plyny-flettneruv-rotor",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Flettnerův rotor – loď poháněná rotujícím válcem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Model lodi nebo vozíku na kolejnici má místo plachty svislý válec, který roztáčí motorek. Když válec stojí a foukáme na něj fukarem z boku, vozík se nerozjede. Když se válec točí, vozík se po fouknutí rozjede kolmo ke směru větru. Otočíme-li směr otáčení (nebo loď), jede opačně. Rotující válec strhává vzduch, na jedné straně proudí rychleji a je tam nižší tlak – vzniká boční síla (Magnusův jev). Proudění lze zviditelnit mlhou ze suchého ledu. Tento pohon vymyslel Anton Flettner ve 20. letech 20. století a dnes se znovu zkouší na nákladních lodích. Klíčová slova: Magnusův jev, proudění, tlak vzduchu.",
+  "materials": [
+    "vozík nebo loďka s motorkem roztáčejícím lehký válec (plechovka, papírová trubka)",
+    "fukar nebo fén",
+    "volitelně suchý led pro mlhu"
+  ],
+  "procedure": "Foukat na stojící válec, pak na roztočený. Změnit směr otáčení a sledovat směr pohybu. Vysvětlit pomocí rozdílu tlaků.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak funguje loď s Flettnerovým pohonem?",
+    "url": "https://www.youtube.com/watch?v=fzANIpZoa_c"
+  }
+}

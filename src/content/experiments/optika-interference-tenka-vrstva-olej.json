@@ -1,0 +1,19 @@
+{
+  "id": "optika-interference-tenka-vrstva-olej",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Duhové barvy tenké vrstvy – perleť, bublina a olej na vodě",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Proč je perleť v lastuře, mýdlová bublina nebo olejová skvrna duhová, i když je materiál sám bezbarvý? Laser posvítí šikmo na skleněnou destičku – na stínítku jsou dvě tečky, protože se světlo odráží od horní i spodní plochy. Čím tenčí destička, tím blíž jsou tečky. Ve velmi tenké vrstvě (tloušťky kolem vlnové délky světla) se oba odražené paprsky překryjí a podle tloušťky se některé barvy zesílí a jiné vyruší (interference). Pokus: kapka motorového oleje kápnutá na mokrý tmavý karton nebo na vodu v tmavé misce se rozteče a zbarví se duhově; barvy se mění s úhlem pohledu, úhlem osvětlení a tloušťkou vrstvy. Klíčová slova: interference, odraz, tenká vrstva, barvy.",
+  "materials": [
+    "laser, skleněná destička (tlustá a tenká)",
+    "tmavý karton nebo miska s vodou",
+    "kapka oleje",
+    "bublifuk, lastura (volitelně)"
+  ],
+  "procedure": "Posvítit laserem na destičky a porovnat odrazy. Namočit karton, kápnout olej, pozorovat barvy z různých úhlů. Pozorovat bublinu a lasturu.",
+  "source": {
+    "label": "Science ON (YouTube) — Interference na tenké vrstvě – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=cGEtHYRrWBE"
+  }
+}

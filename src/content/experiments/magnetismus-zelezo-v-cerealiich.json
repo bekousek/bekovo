@@ -1,0 +1,19 @@
+{
+  "id": "magnetismus-zelezo-v-cerealiich",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Železo v cereáliích – vytáhni ho magnetem",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Snídaňové cereálie s přidaným železem (na obalu „obsahuje železo“, např. 100 % denní dávky) se rozmixují s vodou nebo rozmačkají v uzavíratelném sáčku s vodou na kaši. Silný neodymový magnet se pak přiloží na sáček a pomalu se jím krouží. Po chvíli se u magnetu nahromadí tmavé zrníčko – drobné kovové železo, které se do cereálií přidává jako prášek. Na magnetu lze sáček dokonce zvednout. Železo je feromagnetické, ostatní složky potravin (a voda) se k magnetu nepřitahují. Doplněk: Curieův motor – kousek niklu zahřátý plamenem ztratí feromagnetismus a magnet ho pustí. Klíčová slova: feromagnetismus, magnetické vlastnosti látek.",
+  "materials": [
+    "cereálie s přidaným železem",
+    "uzavíratelný sáček nebo mixér",
+    "voda",
+    "silný neodymový magnet"
+  ],
+  "procedure": "Rozmačkat cereálie s vodou v sáčku, nechat asi 20 minut rozmočit. Přiložit magnet na sáček a pomalu jím krouživě posouvat, pak ho nadzvednout a hledat nachytané železo.",
+  "source": {
+    "label": "Science ON (YouTube) — Úžasný magnetismus – Diane Riendau a Chris Chiaverina",
+    "url": "https://www.youtube.com/watch?v=BnyfL6VP36Q"
+  }
+}

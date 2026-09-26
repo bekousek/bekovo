@@ -1,0 +1,19 @@
+{
+  "id": "optika-proc-je-papir-bily",
+  "subtopicId": "svetlo",
+  "topicId": "optika",
+  "title": "Proč je papír bílý a mastný papír průsvitný?",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Papír se skládá z celulózových vláken, která jsou sama o sobě skoro průhledná. Na každém rozhraní vlákno–vzduch se ale část světla odrazí; po mnoha odrazech ve spleti vláken se většina světla vrátí zpět – papír je bílý a neprůhledný. Když papír pokapeme olejem, vyplní olej vzduchové mezery a má podobný index lomu jako celulóza. Odrazy na rozhraní skoro zmizí a mastné místo je proti světlu průsvitné. Pod mikroskopem vypadá tentýž papír osvětlený shora bílý a podsvícený zespodu tmavý. Klíčová slova: odraz a rozptyl světla, index lomu, průhlednost.",
+  "materials": [
+    "kancelářský papír",
+    "jedlý olej, kapátko",
+    "svítilna nebo okno",
+    "volitelně mikroskop"
+  ],
+  "procedure": "Kápnout na papír olej a prohlížet mastné místo proti světlu a na tmavém podkladu. Porovnat papír pod mikroskopem osvětlený shora a zespodu. Vyzkoušet i vodu (po zaschnutí zmizí).",
+  "source": {
+    "label": "Science ON (YouTube) — Proč je papír bílý? – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=cV2BdAElY8w"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "castice-kontrakce-objemu-voda-lih",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "10 ml vody + 10 ml lihu není 20 ml",
+  "type": "measurement",
+  "description": "Žákovský pokus. Do odměrného válce se odměří přesně 10 ml vody a do druhého 10 ml lihu. Po slití do jednoho válce je objem viditelně menší než 20 ml (asi 19 ml), hmotnost se přitom nezmění. Molekuly vody jsou menší a zapadnou do mezer mezi většími molekulami ethanolu. Model: kbelík hrachu a hrnek máku (nebo velké a malé korálky) – po smíchání zaberou menší objem než každý zvlášť. Pokus ukazuje, že látky se skládají z částic a mezi nimi jsou mezery; také vysvětluje, proč chemici měří množství látky počtem částic (mol). Klíčová slova: částicové složení látek, objem, hmotnost.",
+  "materials": [
+    "2 odměrné válce (co nejužší, 10–25 ml)",
+    "voda, líh (ethanol)",
+    "váhy",
+    "hrách a mák (model)"
+  ],
+  "procedure": "Přesně odměřit 10 ml vody a 10 ml lihu (případně zvážit), slít, promíchat a odečíst objem. Porovnat s modelem hrachu a máku.",
+  "source": {
+    "label": "Science ON (YouTube) — Látkové množství – Hynek Podlipný",
+    "url": "https://www.youtube.com/watch?v=b5HDPdMqQqU"
+  }
+}

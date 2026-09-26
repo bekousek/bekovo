@@ -1,0 +1,18 @@
+{
+  "id": "optika-laserovy-chaos-valce",
+  "subtopicId": "zrcadla-zakon-odrazu",
+  "topicId": "optika",
+  "title": "Laserový chaos – krabice plná lesklých válců",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Do krabice se nepravidelně postaví několik lesklých válců (nařezaná chromovaná trubka, např. noha od stolu). Laser se posvítí dovnitř malým otvorem ve stěně. Světlo se mnohokrát odrazí a na stěnách krabice vytvoří několik světelných skvrn. Stačí laserem nepatrně pohnout a skvrny se objeví úplně jinde. Každý odraz se přitom řídí jen zákonem odrazu – ale vypuklé válce každou malou odchylku zvětšují a po několika odrazech se výsledek prakticky nedá předpovědět. To je podstata chaosu. Totéž lze vyzkoušet v online simulátoru optiky. Klíčová slova: zákon odrazu, vypuklé zrcadlo, chaos.",
+  "materials": [
+    "krabice s otvorem ve stěně",
+    "lesklé válce (chromovaná trubka, plechovky obalené alobalem)",
+    "laserové ukazovátko"
+  ],
+  "procedure": "Rozmístit válce v krabici, posvítit laserem otvorem a zakreslit polohu skvrn. Laser nepatrně pootočit a sledovat, jak se obraz změní. Vysvětlit zákonem odrazu na zakřivené ploše.",
+  "source": {
+    "label": "Science ON (YouTube) — Laserový chaos – Adam Blahák",
+    "url": "https://www.youtube.com/watch?v=-2blMrTSCcE"
+  }
+}

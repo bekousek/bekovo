@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-crash-test-prilby-meloun",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Crash test cyklistické přilby s melounem",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (venku nebo na podložce). Meloun s nasazenou cyklistickou přilbou a meloun bez přilby se pustí ze stejné výšky (např. ze žebříku) na tvrdou zem. Meloun bez přilby se roztříští, s přilbou vydrží výrazně víc, přilba se ale deformuje nebo praskne. Přilba rozloží sílu nárazu na velkou plochu, takže tlak na „hlavu“ je mnohem menší, a svou deformací pohltí část energie nárazu. Důležitý závěr: přilbu, která už utrpěla náraz (i malou prasklinu), je nutné vyměnit. Obdobně lze ukázat stavební přilbu, na kterou dopadají různé předměty. Klíčová slova: tlak, síla, plocha, pohlcení energie.",
+  "materials": [
+    "2 melouny (nebo dýně)",
+    "stará cyklistická přilba",
+    "žebřík nebo vyvýšené místo",
+    "igelit na podlahu"
+  ],
+  "procedure": "Nasadit přilbu na meloun a zajistit ji. Pustit ze stejné výšky meloun s přilbou a bez přilby a porovnat poškození. Prohlédnout deformaci přilby a diskutovat, proč už nechrání.",
+  "source": {
+    "label": "Science ON (YouTube) — Chrání cyklistická helma padající meloun?",
+    "url": "https://www.youtube.com/watch?v=xaQ2AXHeUNg"
+  }
+}

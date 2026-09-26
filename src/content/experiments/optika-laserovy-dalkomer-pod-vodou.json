@@ -1,0 +1,20 @@
+{
+  "id": "optika-laserovy-dalkomer-pod-vodou",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Laserový dálkoměr pod vodou – akvárium „naroste“",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Šířka akvária se změří metrem (např. 38 cm) a laserovým dálkoměrem ve vzduchu – oba údaje se shodují. Dálkoměr měří čas, za který se světlo vrátí od stěny, a přepočítává ho na vzdálenost. Pak se dálkoměr (ve vodotěsném sáčku) ponoří do vody a měří skrz vodu: ukáže asi 51 cm. Světlo se ve vodě šíří asi 1,33krát pomaleji než ve vzduchu (index lomu vody), dálkoměr to „neví“ a vzdálenost nadsadí. Z poměru obou údajů lze určit index lomu. Paprsek ve vodě zviditelní trocha fluoresceinu a UV nebo fialový laser. Klíčová slova: rychlost světla, index lomu, měření vzdálenosti.",
+  "materials": [
+    "laserový dálkoměr",
+    "akvárium s vodou",
+    "svinovací metr",
+    "vodotěsný sáček",
+    "volitelně fluorescein"
+  ],
+  "procedure": "Změřit šířku akvária metrem a dálkoměrem na vzduchu. Dálkoměr v sáčku ponořit ke stěně a měřit skrz vodu. Spočítat poměr naměřených hodnot a porovnat s indexem lomu vody.",
+  "source": {
+    "label": "Science ON (YouTube) — Laserový měřák pod vodou – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=BXc9gKnh7WA"
+  }
+}

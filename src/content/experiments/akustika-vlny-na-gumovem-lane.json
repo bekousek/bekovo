@@ -1,0 +1,16 @@
+{
+  "id": "akustika-vlny-na-gumovem-lane",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Vlny na gumovém laně – módy, uzly a polarizace",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojici. Gumové lano (nebo měkká hadice) je napnuté mezi dvěma žáky, jeden ho drží pevně, druhý kmitá. Při vhodné frekvenci vznikne stojaté vlnění: nejprve jedna kmitna uprostřed, při dvojnásobné frekvenci dvě kmitny a uzel uprostřed, pak tři, čtyři. Když kmitáme svisle, vodorovně nebo krouživě, mění se rovina kmitání – to je polarizace, stejná jako u světla (např. 3D brýle používají kruhovou polarizaci). Jednotlivý puls („údolíčko“) doběhne k pevnému konci, odrazí se a vrací se obrácený jako „kopeček“. Klíčová slova: stojaté vlnění, uzel, kmitna, polarizace, odraz vlny.",
+  "materials": [
+    "gumové lano, dlouhá pružina nebo měkká hadice (3–5 m)"
+  ],
+  "procedure": "Napnout lano, rozkmitat ho a hledat frekvence, při kterých vznikne 1., 2., 3. mód. Kmitat svisle, vodorovně a krouživě. Poslat jednotlivý puls a sledovat odraz.",
+  "source": {
+    "label": "Science ON (YouTube) — Optické vlny – Tomáš Tyc",
+    "url": "https://www.youtube.com/watch?v=zj16FaVuBGU"
+  }
+}

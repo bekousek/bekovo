@@ -1,0 +1,19 @@
+{
+  "id": "akustika-model-zemetreseni",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Model zemětřesení – podélné a příčné vlny",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Na dlouhé pružině (slinky) se ukáže podélná vlna (zhušťování a zřeďování jako u zvuku) a příčná vlna (kmitání napříč). Plastové pravítko nebo pásek, který opřeme o hranu stolu a ohýbáme, hromadí napětí a náhle švihne – tak se zasekávají a pak poskakují litosférické desky: napětí se sbírá roky a uvolní se během sekund. Na desku (tácek na válečcích nebo pružinách) se postaví „budovy“ z kostek či špejlí; deskou se kmitá tam a zpět a pak nahoru a dolů a porovná se, které kmitání budovy víc ničí. Klíčová slova: podélné a příčné vlnění, energie, zemětřesení.",
+  "materials": [
+    "dlouhá pružina (slinky)",
+    "plastové pravítko",
+    "deska nebo tácek na válečcích",
+    "kostky, špejle, modelína na „budovy“"
+  ],
+  "procedure": "Vybudit na pružině podélnou a příčnou vlnu. Ohýbat pravítko o hranu stolu až do švihnutí. Postavit budovy na desku a kmitat s ní vodorovně a svisle; porovnat výsledky.",
+  "source": {
+    "label": "Science ON (YouTube) — Zemětřesení – Václav Vávra",
+    "url": "https://www.youtube.com/watch?v=4ixcpei0d_0"
+  }
+}

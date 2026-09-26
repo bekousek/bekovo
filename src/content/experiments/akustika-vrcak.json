@@ -1,0 +1,17 @@
+{
+  "id": "akustika-vrcak",
+  "subtopicId": "zdroje-zvuku",
+  "topicId": "akustika",
+  "title": "Vrčák (bullroarer) – prkénko, které vrčí",
+  "type": "qualitative",
+  "description": "Žákovský pokus (venku, dostatečný odstup od ostatních). Tenké prkénko nebo pravítko přivázané na provázku se roztočí nad hlavou nebo před sebou. Za chvíli se prkénko samo začne otáčet kolem své podélné osy a hlasitě vrčí; provázek se přitom kroutí, až se otáčení zastaví a obrátí. Proudící vzduch prkénko roztáčí, kmitající prkénko rozechvívá vzduch – vzniká zvuk. Rotující prkénko se navíc střídavě vychyluje nahoru a dolů, protože na něj působí boční síla Magnusova jevu (jako na roztočené kelímky). Vrčák používali původní obyvatelé Austrálie k dorozumívání. Klíčová slova: zdroj zvuku, kmitání, Magnusův jev.",
+  "materials": [
+    "tenké prkénko nebo dřevěné pravítko s otvorem na konci",
+    "pevný provázek (asi 1 m)"
+  ],
+  "procedure": "Pevně přivázat prkénko na provázek a roztočit ho po kružnici. Poslouchat zvuk a sledovat pohyb prkénka. Vyzkoušet různou rychlost a délku provázku.",
+  "source": {
+    "label": "Science ON (YouTube) — Magnusův jev – Tomáš Tyc",
+    "url": "https://www.youtube.com/watch?v=b02Cd_vcMOg"
+  }
+}

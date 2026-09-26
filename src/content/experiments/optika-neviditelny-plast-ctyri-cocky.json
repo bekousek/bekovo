@@ -1,0 +1,20 @@
+{
+  "id": "optika-neviditelny-plast-ctyri-cocky",
+  "subtopicId": "cocky-zakon-lomu",
+  "topicId": "optika",
+  "title": "Neviditelný plášť ze čtyř čoček",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Čtyři stejné spojné čočky se postaví za sebe na optickou lavici tak, aby vzdálenosti mezi nimi odpovídaly ohniskovým vzdálenostem (ohniska sousedních čoček se potkávají). Při pohledu skrz celou soustavu vidíme předmět za ní (svíčku) ve správné velikosti i orientaci – první dvě čočky obraz převrátí, další dvě ho převrátí zpět. Když pak mezi první a druhou čočku zasuneme tyčku mimo osu, v obrazu ji nevidíme: paprsky mezi čočkami procházejí jen úzkým svazkem kolem ohniska, takže tyčka mimo něj žádný z nich nezastíní. Chod paprsků lze ukázat laserem v mlze nebo akváriu. Klíčová slova: spojná čočka, ohnisko, chod paprsků, zobrazení.",
+  "materials": [
+    "4 stejné spojné čočky (např. f = 10–20 cm)",
+    "optická lavice nebo stojany",
+    "svíčka nebo předmět",
+    "tyčka",
+    "volitelně laser"
+  ],
+  "procedure": "Rozmístit čočky ve vzdálenostech podle ohniskové vzdálenosti a zkontrolovat, že obraz svíčky je vzpřímený a nezkreslený. Zasouvat tyčku mezi čočky na různá místa a sledovat, kdy zmizí.",
+  "source": {
+    "label": "Science ON (YouTube) — Trik se svíčkou a čočkami – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=kG42fJqHhOo"
+  }
+}

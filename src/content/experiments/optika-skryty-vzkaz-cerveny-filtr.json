@@ -1,0 +1,19 @@
+{
+  "id": "optika-skryty-vzkaz-cerveny-filtr",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Skrytý vzkaz odhalený červeným filtrem",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Na bílý papír se napíše vzkaz modrou fixou a pak se přes něj hustě „začmárá“ červenou fixou (čárky, spirály), až se nedá přečíst. Při pohledu přes červenou fólii se vzkaz objeví: bílý papír i červené čáry odrážejí červené světlo, které filtrem projde, takže splývají. Modrá fixa červené světlo pohlcuje, a proto je přes filtr tmavá a čitelná. Obdobně modrý předmět vypadá přes červený filtr černý a „duha“ nakreslená pastelkami se přes filtr změní. Oko vnímá tři základní barvy (červenou, zelenou, modrou) a ostatní barvy skládá mozek. Klíčová slova: barvy, barevný filtr, odraz a pohlcení světla.",
+  "materials": [
+    "bílý papír",
+    "modrá a červená fixa",
+    "červená průhledná fólie (filtr)",
+    "barevné předměty"
+  ],
+  "procedure": "Napsat modrou fixou vzkaz a překrýt ho červeným čmáráním. Vyměnit si vzkazy a přečíst je přes červenou fólii. Prohlížet přes filtr další barevné předměty a vysvětlit výsledek.",
+  "source": {
+    "label": "Science ON (YouTube) — Pokusy s papírem – Kúzelná fyzika",
+    "url": "https://www.youtube.com/watch?v=Da-QRDJhpYs"
+  }
+}

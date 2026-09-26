@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-rotujici-magneticke-pole-asynchron",
+  "subtopicId": "elektromotor",
+  "topicId": "elektrina",
+  "title": "Rotující magnetické pole a model asynchronního motoru",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Kompas ukáže, že jedna cívka se střídavým proudem střelku jen kývá tam a zpět. Dvě cívky (nebo dva magnety) natočené o 90° a buzené posunutě vytvoří pole, které se otáčí – střelka se roztočí s ním (synchronní motor); při příliš rychlém otáčení se „utrhne“ a zastaví. Druhá část: nad kelímkem plovoucím na vodě se roztočí akušroubovák s dvojicí magnetů. Když na kelímek položíme kousek hliníku, začne se otáčet za magnety, ale pomaleji: v hliníku vznikají vířivé proudy a jejich magnetické pole je unáší (asynchronní motor). Dřevo se nehne a ocel se k magnetům přilepí. Klíčová slova: magnetické pole, elektromotor, vířivé proudy, indukce.",
+  "materials": [
+    "kompas, 2 cívky nebo 2 magnety",
+    "akušroubovák s nástavcem nesoucím 2 magnety",
+    "miska s vodou a lehký kelímek jako lodička",
+    "kousek hliníku, dřeva a oceli"
+  ],
+  "procedure": "Otáčením dvou kolmých magnetů kolem kompasu roztočit střelku. Pak na plovoucí kelímek dávat postupně dřevo, hliník a ocel a nad ním roztočit magnety na šroubováku. Porovnat rychlost otáčení hliníku a magnetů.",
+  "source": {
+    "label": "Science ON (YouTube) — Rotující magnetické pole – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=bkCJV_M1rDw"
+  }
+}

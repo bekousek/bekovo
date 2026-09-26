@@ -1,0 +1,19 @@
+{
+  "id": "optika-laserovy-kapkovy-mikroskop",
+  "subtopicId": "opticke-pristroje",
+  "topicId": "optika",
+  "title": "Laserový kapkový mikroskop – mikroorganismy na zdi",
+  "type": "measurement",
+  "description": "Demonstrační pokus. Na hrotu kapátka nebo injekční stříkačky visí kapka vody (z tůňky, vázy, případně z kohoutku). Když ji prosvítíme laserem, promítne se na stěně ve vzdálenosti několika metrů velký kruhový obraz, ve kterém se pohybují stíny mikroorganismů a částeček. Kapka funguje jako velmi silná čočka. Velikost objektu lze odhadnout: skutečná velikost ≈ průměr kapky ÷ vzdálenost stěny × velikost stínu. Např. kapka 2 mm, stěna 2 m, stín 4 cm → asi 40 µm. Klíčová slova: čočka, zvětšení, mikroskop, laser.",
+  "materials": [
+    "laserové ukazovátko (zelené)",
+    "kapátko nebo stříkačka ve stojanu",
+    "voda z tůňky nebo vázy",
+    "bílá stěna v zatemněné místnosti"
+  ],
+  "procedure": "Upevnit stříkačku svisle, vytlačit visící kapku a prosvítit ji laserem proti stěně. Pozorovat stíny, změřit vzdálenost a velikost stínů a spočítat skutečnou velikost. Pozor na laser – nesvítit do očí.",
+  "source": {
+    "label": "Science ON (YouTube) — Kapkový mikroskop – Aleš T. Pilgr",
+    "url": "https://www.youtube.com/watch?v=qrviEl2eCEo"
+  }
+}

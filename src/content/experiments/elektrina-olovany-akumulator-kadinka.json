@@ -1,0 +1,21 @@
+{
+  "id": "elektrina-olovany-akumulator-kadinka",
+  "subtopicId": "elektricke-clanky",
+  "topicId": "elektrina",
+  "title": "Olověný akumulátor v kádince – nabít a rozsvítit LED",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel – kyselina sírová je žíravá, brýle, rukavice, větrání). Dva olověné plíšky se ponoří do zředěné kyseliny sírové (asi 30–35 %). Na povrchu se vytvoří tenká vrstva síranu olovnatého – článek je „vybitý“. Připojíme zdroj stejnosměrného napětí (asi 2–2,5 V) a necháme chvíli nabíjet: na kladné elektrodě vzniká tmavý oxid olovičitý, na záporné houbovité olovo. Po odpojení zdroje má článek napětí asi 2 V a krátce rozsvítí LED nebo roztočí motorek. Při příliš vysokém napětí se voda rozkládá na vodík a kyslík (nebezpečí výbuchu u autobaterií). Nabitý akumulátor má v elektrolytu víc kyseliny, a proto dříve se stav nabití měřil hustoměrem. Klíčová slova: akumulátor, nabíjení a vybíjení, elektrolyt, napětí.",
+  "materials": [
+    "2 olověné plíšky",
+    "kádinka",
+    "zředěná kyselina sírová",
+    "zdroj stejnosměrného napětí",
+    "voltmetr, LED, malý motorek",
+    "ochranné pomůcky"
+  ],
+  "procedure": "Ponořit plíšky do kyseliny, změřit napětí. Nabíjet ze zdroje asi 2,5 V několik minut, odpojit, změřit napětí a připojit LED či motorek. Nabíjení prodlužovat a porovnat dobu svitu.",
+  "source": {
+    "label": "Science ON (YouTube) — Jak funguje olověný akumulátor",
+    "url": "https://www.youtube.com/watch?v=l-iO0znz9vw"
+  }
+}
