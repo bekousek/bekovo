@@ -1,0 +1,19 @@
+{
+  "id": "plyny-vztlak-svicky-hustota-plynu",
+  "subtopicId": "vztlak-v-plynech",
+  "topicId": "plyny-7",
+  "title": "Zhasínání svíček podle výšky – hustota plynu závislá na teplotě",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (kvůli otevřenému ohni provádí učitel): pod skleněnou nádobu se přiklopí tři hořící svíčky různé výšky upevněné ve stojánku z modelovací hmoty. Vznikající horký oxid uhličitý je i přes vyšší molární hmotnost teplejší, a tedy méně hustý než okolní studený vzduch, takže stoupá a hromadí se nahoře v nádobě – svíčky proto zhasínají postupně od nejvyšší po nejnižší. Pokus žákům ukazuje, že o tom, zda se plyn ve vzduchu vznáší, nerozhoduje jen druh látky, ale i jeho okamžitá hustota daná teplotou – stejný princip jako u horkovzdušného balónu.",
+  "materials": [
+    "tři svíčky různé výšky",
+    "modelovací hmota (na stojánek)",
+    "nehořlavá skleněná nádoba (dostatečně velká, aby přikryla všechny svíčky)",
+    "zápalky"
+  ],
+  "procedure": "1. Svíčky seřaďte podle výšky a upevněte je vedle sebe do stojánku z modelovací hmoty. 2. Zapalte je a nechte pořádně rozhořet. 3. Přiklopte je společně skleněnou nádobou. 4. Pozorujte a zaznamenejte, v jakém pořadí svíčky zhasínají, a diskutujte proč.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2183/kdyz-je-oxid-uhlicity-lehci-nez-vzduch-(vliv-teploty-na-hustotu-plynu)"
+  }
+}
