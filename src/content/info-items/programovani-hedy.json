@@ -1,0 +1,19 @@
+{
+  "id": "programovani-hedy",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Hedy",
+  "url": "https://hedy.org/hedy",
+  "description": "Textový jazyk, který se po úrovních mění z téměř běžné řeči na Python. Má připravené lekce a učitel může založit třídu.",
+  "type": "kurz",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "Python",
+    "textové programování",
+    "úrovně",
+    "třída"
+  ],
+  "added": "2026-09-27"
+}

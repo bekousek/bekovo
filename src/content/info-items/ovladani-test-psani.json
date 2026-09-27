@@ -1,0 +1,19 @@
+{
+  "id": "ovladani-test-psani",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Test psaní (Psaní hravě)",
+  "url": "https://www.psanihrave.cz/test-psani",
+  "description": "Změří rychlost a přesnost psaní. Hodí se na začátek a konec bloku psaní všemi deseti.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "psaní všemi deseti",
+    "klávesnice",
+    "rychlost psaní"
+  ],
+  "added": "2026-09-27"
+}

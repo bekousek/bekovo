@@ -1,0 +1,24 @@
+{
+  "id": "kodovani-lisakuv-sifrator",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Lišákův šifrátor",
+  "url": "https://skaut-lisak.cz/sifrator/",
+  "description": "Zašifruje text přes 20 šiframi (Morseovka, polský kříž, Braillovo písmo, tančící figurky…) a vytiskne ho s klíčem nebo bez. Hodí se na šifrovací hru ve dvojicích.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "šifry",
+    "Morseovka",
+    "polský kříž",
+    "tisk"
+  ],
+  "source": {
+    "label": "Junák — středisko Lišák Neratovice",
+    "url": "https://skaut-lisak.cz/sifrator/"
+  },
+  "added": "2026-09-27"
+}

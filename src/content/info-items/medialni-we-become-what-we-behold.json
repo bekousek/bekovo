@@ -1,0 +1,19 @@
+{
+  "id": "medialni-we-become-what-we-behold",
+  "categoryId": "medialni-gramotnost",
+  "title": "We Become What We Behold",
+  "url": "https://ncase.itch.io/wbwwb",
+  "description": "Krátká hra Nickyho Case o tom, jak média vybírají „zajímavé“ záběry a roztáčejí spirálu strachu a konfliktu. Asi 5 minut hraní, pak diskuse.",
+  "type": "hra",
+  "duration": "5 min + diskuse",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "média",
+    "zprávy",
+    "polarizace",
+    "diskuse"
+  ],
+  "added": "2026-09-27"
+}

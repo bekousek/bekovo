@@ -22,7 +22,7 @@
   ],
   "goal": "Žáci pochopí, že počítač ukládá čísla jen pomocí zapnuto/vypnuto, a umí převést malé číslo do dvojkové soustavy.",
   "materials": [
-    "Sada 5 kartiček s 1, 2, 4, 8 a 16 tečkami (pro každou skupinu)",
+    "Kartičky s 1, 2, 4, 8 a 16 tečkami — velká sada k tabuli + malé sady do skupin (PDF níže)",
     "Tabule"
   ],
   "procedure": "Pět žáků před tabulí drží kartičky seřazené zprava doleva: 1, 2, 4, 8, 16. Třída hledá pravidlo — každá další kartička má dvakrát víc teček.\n\nZadávej čísla (např. 5, 10, 21) a žáci otáčejí kartičky lícem/rubem tak, aby součet viditelných teček dal zadané číslo. Otočená = 0, viditelná = 1. Zapiš na tabuli jako řadu nul a jedniček.\n\nVe skupinách: převádějte čísla 0–31 a hledejte, jak se chová nejpravější kartička (sudá/lichá čísla).\n\nZávěr: kolik čísel zvládneme s 5 kartičkami? A se 6? Propojení na bity a bajty.",
@@ -30,5 +30,13 @@
     "label": "CS Unplugged — Binary numbers",
     "url": "https://www.csunplugged.org/en/topics/binary-numbers/"
   },
-  "added": "2026-09-27"
+  "added": "2026-09-27",
+  "files": [
+    {
+      "label": "Kartičky k tisku",
+      "href": "/informatika-soubory/binarni-karticky.pdf",
+      "type": "pdf",
+      "note": "Strany 1–5: velké kartičky k tabuli (A4 na šířku). Strana 6: dvě sady malých kartiček do skupin na stříhání."
+    }
+  ]
 }

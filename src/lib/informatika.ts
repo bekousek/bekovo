@@ -15,11 +15,9 @@ export const ITEM_TYPE_LABELS: Record<InfoItem['type'], string> = {
   projekt: 'Projekt',
   hra: 'Hra / soutěž',
   'pracovni-list': 'Pracovní list',
-  aplikace: 'Aplikace / nástroj',
   video: 'Video',
   kurz: 'Kurz',
   metodika: 'Metodika',
-  odkaz: 'Odkaz',
 };
 
 export const ITEM_TYPE_ICONS: Record<InfoItem['type'], string> = {
@@ -28,11 +26,9 @@ export const ITEM_TYPE_ICONS: Record<InfoItem['type'], string> = {
   projekt: '🛠️',
   hra: '🎲',
   'pracovni-list': '📋',
-  aplikace: '💻',
   video: '🎬',
   kurz: '🎓',
   metodika: '📘',
-  odkaz: '🔗',
 };
 
 export const EQUIPMENT_LABELS: Record<Equipment, string> = {
@@ -67,6 +63,7 @@ export const ACCENTS: Record<InfoCategory['accent'], AccentClasses> = {
   red: { border: 'border-l-red-500', bg: 'bg-red-500', chip: 'bg-red-100 text-red-800', text: 'text-red-700' },
   orange: { border: 'border-l-orange-500', bg: 'bg-orange-500', chip: 'bg-orange-100 text-orange-800', text: 'text-orange-700' },
   amber: { border: 'border-l-amber-500', bg: 'bg-amber-500', chip: 'bg-amber-100 text-amber-800', text: 'text-amber-700' },
+  yellow: { border: 'border-l-yellow-400', bg: 'bg-yellow-500', chip: 'bg-yellow-100 text-yellow-800', text: 'text-yellow-700' },
   lime: { border: 'border-l-lime-500', bg: 'bg-lime-500', chip: 'bg-lime-100 text-lime-800', text: 'text-lime-700' },
   green: { border: 'border-l-green-500', bg: 'bg-green-500', chip: 'bg-green-100 text-green-800', text: 'text-green-700' },
   emerald: { border: 'border-l-emerald-500', bg: 'bg-emerald-500', chip: 'bg-emerald-100 text-emerald-800', text: 'text-emerald-700' },

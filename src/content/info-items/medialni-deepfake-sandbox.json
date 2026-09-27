@@ -1,0 +1,19 @@
+{
+  "id": "medialni-deepfake-sandbox",
+  "categoryId": "medialni-gramotnost",
+  "title": "Deepfake Sandbox",
+  "url": "https://deepfake.civai.org",
+  "description": "Z jedné fotky obličeje vyrobí za pár vteřin deepfake. Jako demonstrace učitele na vlastní fotce, pak diskuse, jak deepfake poznat.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "deepfake",
+    "AI",
+    "demonstrace",
+    "manipulace"
+  ],
+  "added": "2026-09-27"
+}

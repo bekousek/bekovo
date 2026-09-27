@@ -1,0 +1,24 @@
+{
+  "id": "ovladani-mysak",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Myšák — etudy pro klávesnici a myš",
+  "url": "https://www.zsvltava.cz/mysak/",
+  "description": "13 krátkých cvičení: skládanka, klik a dvojklik, skládání slov, znakové mozaiky, ASCII art, přepis textu na čas.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "myš",
+    "klávesnice",
+    "dvojklik",
+    "ASCII art"
+  ],
+  "source": {
+    "label": "ZŠ Vltava",
+    "url": "https://www.zsvltava.cz/mysak/"
+  },
+  "added": "2026-09-27"
+}

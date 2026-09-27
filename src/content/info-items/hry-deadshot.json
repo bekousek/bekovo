@@ -1,0 +1,16 @@
+{
+  "id": "hry-deadshot",
+  "categoryId": "hry",
+  "title": "Deadshot",
+  "url": "https://deadshot.io",
+  "description": "Online multiplayerová střílečka v prohlížeči.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "multiplayer",
+    "střílečka"
+  ],
+  "added": "2026-09-27"
+}

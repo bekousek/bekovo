@@ -1,0 +1,19 @@
+{
+  "id": "ai-3b1b-neuronove-site",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "3Blue1Brown: Neuronové sítě",
+  "url": "https://www.3blue1brown.com/lessons/neural-networks/",
+  "description": "Animovaná videa o tom, jak funguje neuronová síť — od rozpoznávání číslic po učení. Pro zvídavé deváťáky, anglicky (s titulky).",
+  "type": "video",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "neuronová síť",
+    "deep learning",
+    "video"
+  ],
+  "added": "2026-09-27"
+}

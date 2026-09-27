@@ -1,0 +1,19 @@
+{
+  "id": "ovladani-mousercise",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Mousercise",
+  "url": "https://www.minimouse.us/index.html",
+  "description": "Hravé cvičení myši pro nejmenší — pohyb, klikání a přetahování.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "myš",
+    "klikání",
+    "první třída"
+  ],
+  "added": "2026-09-27"
+}

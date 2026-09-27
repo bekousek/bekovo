@@ -1,0 +1,22 @@
+{
+  "id": "bezpecnost-it-kviz",
+  "categoryId": "bezpecnost",
+  "title": "IT kvíz (Datová Lhota)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota/it-kviz",
+  "description": "Kvíz ČT Déčko o úskalích internetu, navazuje na seriál Datová Lhota.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "kvíz",
+    "Datová Lhota",
+    "ČT"
+  ],
+  "source": {
+    "label": "ČT Déčko — Datová Lhota",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota/it-kviz"
+  },
+  "added": "2026-09-27"
+}

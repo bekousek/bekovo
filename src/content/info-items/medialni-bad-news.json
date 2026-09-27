@@ -1,0 +1,19 @@
+{
+  "id": "medialni-bad-news",
+  "categoryId": "medialni-gramotnost",
+  "title": "Bad News",
+  "url": "https://www.getbadnews.com/cz/",
+  "description": "Žáci se v simulaci stanou šiřiteli dezinformací a na vlastní kůži poznají triky jako hraní na emoce, polarizace nebo falešní experti.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "dezinformace",
+    "fake news",
+    "manipulace",
+    "simulace"
+  ],
+  "added": "2026-09-27"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "hry-little-alchemy",
+  "categoryId": "hry",
+  "title": "Little Alchemy",
+  "url": "https://littlealchemy.com",
+  "description": "Kombinuj živly a objevuj stovky nových prvků.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "kombinace",
+    "logika",
+    "experimentování"
+  ],
+  "added": "2026-09-27"
+}

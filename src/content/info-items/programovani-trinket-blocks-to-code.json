@@ -1,0 +1,21 @@
+{
+  "id": "programovani-trinket-blocks-to-code",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "From Blocks to Code (Hour of Python)",
+  "url": "https://hourofpython.trinket.io/from-blocks-to-code-with-trinket#/blocks/dragging-and-dropping",
+  "description": "Hodinový tutoriál: žáci začnou skládat bloky a postupně vidí, jak z nich vzniká kód v Pythonu.",
+  "type": "aktivita",
+  "duration": "45 min",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "Python",
+    "bloky",
+    "přechod na text",
+    "Trinket"
+  ],
+  "added": "2026-09-27"
+}

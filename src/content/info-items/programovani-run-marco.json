@@ -1,0 +1,18 @@
+{
+  "id": "programovani-run-marco",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Run Marco!",
+  "url": "https://runmarco.com",
+  "description": "Dobrodružná hra: žáci skládají příkazy z bloků, aby provedli Marca mapou. První programování pro menší děti.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "bloky",
+    "příkazy",
+    "první programování"
+  ],
+  "added": "2026-09-27"
+}

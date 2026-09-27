@@ -1,0 +1,21 @@
+{
+  "id": "programovani-rapid-router",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Rapid Router",
+  "url": "https://www.codeforlife.education/rapidrouter/",
+  "description": "Žáci programují dodávku, aby rozvezla zboží. Úrovně vedou od bloků přes cykly a podmínky až k Pythonu, takže jde i o most k textovému kódu.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "bloky",
+    "cykly",
+    "podmínky",
+    "Python",
+    "Code for Life"
+  ],
+  "added": "2026-09-27"
+}

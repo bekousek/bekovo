@@ -1,0 +1,19 @@
+{
+  "id": "ai-animated-drawings",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Animated Drawings",
+  "url": "https://sketch.metademolab.com/canvas",
+  "description": "Nahraj fotku nakreslené postavičky a AI ji rozpohybuje — tančí, skáče, chodí. Nejlepší s vlastními kresbami žáků.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "animace",
+    "kresba",
+    "Meta"
+  ],
+  "added": "2026-09-27"
+}

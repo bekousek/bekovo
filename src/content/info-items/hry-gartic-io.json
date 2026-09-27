@@ -1,0 +1,17 @@
+{
+  "id": "hry-gartic-io",
+  "categoryId": "hry",
+  "title": "Gartic.io",
+  "url": "https://gartic.io",
+  "description": "Jeden kreslí, ostatní hádají — celá třída v jedné místnosti.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "kreslení",
+    "hádání",
+    "celá třída"
+  ],
+  "added": "2026-09-27"
+}

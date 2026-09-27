@@ -1,0 +1,17 @@
+{
+  "id": "hry-skribbl",
+  "categoryId": "hry",
+  "title": "Skribbl.io",
+  "url": "https://skribbl.io",
+  "description": "Kreslení a hádání slov. V soukromé místnosti jde zadat vlastní slova — třeba pojmy z informatiky.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "kreslení",
+    "hádání",
+    "vlastní slova"
+  ],
+  "added": "2026-09-27"
+}

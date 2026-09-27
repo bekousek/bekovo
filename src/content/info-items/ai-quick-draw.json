@@ -1,0 +1,18 @@
+{
+  "id": "ai-quick-draw",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Quick, Draw!",
+  "url": "https://quickdraw.withgoogle.com/",
+  "description": "Žák má 20 vteřin na nakreslení zadané věci a neuronová síť hádá, co to je. Na konci je vidět, jak stejnou věc kreslili ostatní — tedy trénovací data.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "neuronová síť",
+    "kreslení",
+    "trénovací data"
+  ],
+  "added": "2026-09-27"
+}

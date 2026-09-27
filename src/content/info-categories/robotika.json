@@ -5,15 +5,15 @@
   "order": 9,
   "icon": "🤖",
   "accent": "teal",
-  "tagline": "Micro:bit, LEGO a další roboti ve třídě.",
+  "tagline": "Micro:bit, VEX a další roboti ve třídě.",
   "subcategories": [
     {
       "id": "microbit",
       "name": "Micro:bit"
     },
     {
-      "id": "lego",
-      "name": "LEGO robotika"
+      "id": "vex",
+      "name": "VEX"
     },
     {
       "id": "dalsi-roboti",

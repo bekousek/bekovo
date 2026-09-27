@@ -1,0 +1,18 @@
+{
+  "id": "ai-akinator",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Akinator",
+  "url": "https://en.akinator.com/",
+  "description": "Džin uhodne myšlenou postavu pomocí otázek ano/ne. Dobrý start rozhovoru o rozhodovacích stromech a o tom, co vlastně je „umělá inteligence“.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "rozhodovací strom",
+    "otázky",
+    "hádání"
+  ],
+  "added": "2026-09-27"
+}

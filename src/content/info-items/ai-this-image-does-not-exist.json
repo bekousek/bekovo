@@ -1,0 +1,19 @@
+{
+  "id": "ai-this-image-does-not-exist",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "This Image Does Not Exist",
+  "url": "https://thisimagedoesnotexist.com/",
+  "description": "30 obrázků: vytvořil je člověk, nebo AI? Průměrné skóre je 18 z 30 — dobrý start diskuse o generovaných obrázcích.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "generování obrázků",
+    "kvíz",
+    "poznej AI"
+  ],
+  "added": "2026-09-27"
+}

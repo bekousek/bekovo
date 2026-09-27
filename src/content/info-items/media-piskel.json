@@ -1,0 +1,19 @@
+{
+  "id": "media-piskel",
+  "categoryId": "media",
+  "subcategoryId": "animace",
+  "title": "Piskel",
+  "url": "https://www.piskelapp.com/p/create/sprite",
+  "description": "Editor pixel artu a animací po snímcích — třeba vlastní postavička do hry. Export do GIF nebo PNG.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "pixel art",
+    "animace",
+    "sprite",
+    "GIF"
+  ],
+  "added": "2026-09-27"
+}

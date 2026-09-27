@@ -1,0 +1,19 @@
+{
+  "id": "bezpecnost-phishing-quiz",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Phishing Quiz od Googlu",
+  "url": "https://phishingquiz.withgoogle.com",
+  "description": "Žáci u ukázkových e-mailů rozhodují, jestli jde o phishing, a dozvědí se, podle čeho to poznat.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "phishing",
+    "e-mail",
+    "podvody",
+    "Google"
+  ],
+  "added": "2026-09-27"
+}

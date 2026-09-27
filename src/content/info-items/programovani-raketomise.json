@@ -1,0 +1,20 @@
+{
+  "id": "programovani-raketomise",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Raketomise",
+  "url": "https://raketomise.cz/index.php",
+  "description": "Česká náhrada za RoboMise: žáci řídí vesmírnou loď příkazy. Sady úloh vedou od sekvencí přes cykly (opakuj N-krát, opakuj dokud) k podmínkám, žáci můžou tvořit i vlastní úlohy.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "RoboMise",
+    "sekvence",
+    "cykly",
+    "podmínky"
+  ],
+  "added": "2026-09-27"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ai-emoji-scavenger-hunt",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Emoji Scavenger Hunt",
+  "url": "https://archive.google/emojiscavengerhunt/",
+  "description": "Hra na mobilu: objeví se emoji a žák musí kamerou najít odpovídající věc, než vyprší čas. Rozpoznávání obrazu v praxi.",
+  "type": "hra",
+  "equipment": [
+    "mobil"
+  ],
+  "keywords": [
+    "rozpoznávání obrazu",
+    "kamera",
+    "emoji"
+  ],
+  "added": "2026-09-27"
+}

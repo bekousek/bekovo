@@ -1,0 +1,19 @@
+{
+  "id": "programovani-cargo-bot",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Cargo-Bot",
+  "url": "https://i4ds.github.io/CargoBot/?state=1",
+  "description": "Logická hra: žáci programují jeřáb, aby přeskládal bedny. Omezený počet příkazů je nutí používat funkce a opakování.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "logika",
+    "funkce",
+    "rekurze",
+    "jeřáb"
+  ],
+  "added": "2026-09-27"
+}
