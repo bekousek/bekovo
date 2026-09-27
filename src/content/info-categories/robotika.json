@@ -1,0 +1,23 @@
+{
+  "id": "robotika",
+  "name": "Robotika",
+  "shortName": "Robotika",
+  "order": 9,
+  "icon": "🤖",
+  "accent": "teal",
+  "tagline": "Micro:bit, LEGO a další roboti ve třídě.",
+  "subcategories": [
+    {
+      "id": "microbit",
+      "name": "Micro:bit"
+    },
+    {
+      "id": "lego",
+      "name": "LEGO robotika"
+    },
+    {
+      "id": "dalsi-roboti",
+      "name": "Další roboti a stavebnice"
+    }
+  ]
+}

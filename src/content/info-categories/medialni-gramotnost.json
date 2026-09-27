@@ -1,0 +1,10 @@
+{
+  "id": "medialni-gramotnost",
+  "name": "Mediální gramotnost a dezinformace",
+  "shortName": "Média a fakta",
+  "order": 7,
+  "icon": "📰",
+  "accent": "pink",
+  "tagline": "Ověřování zdrojů, manipulace, fake news a deepfaky.",
+  "subcategories": []
+}

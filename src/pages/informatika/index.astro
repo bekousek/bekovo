@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import InfoFilterBar from '../../components/informatika/InfoFilterBar.astro';
+import InfoItemCard from '../../components/informatika/InfoItemCard.astro';
+import { ACCENTS, categoryHref, getCategories, getItems, plural } from '../../lib/informatika';
+
+const categories = await getCategories();
+const items = await getItems();
+const byId = new Map(categories.map((c) => [c.id, c]));
+const counts: Record<string, number> = {};
+for (const item of items) counts[item.categoryId] = (counts[item.categoryId] ?? 0) + 1;
+---
+<BaseLayout
+  title="Informatika"
+  description="Hotové výukové bloky, aktivity a odkazy pro informatiku na ZŠ — rozdělené podle oblastí."
+>
+  <div data-inf-scope>
+    <div class="mb-8">
+      <h1 class="text-3xl font-bold text-gray-900">Informatika</h1>
+      <p class="mt-2 text-lg text-gray-600">
+        Hotové výukové bloky, aktivity a odkazy — vzít a jet.
+      </p>
+    </div>
+
+    <InfoFilterBar
+      mode="reveal"
+      items={items}
+      categories={categories}
+      placeholder="Hledat ve všech oblastech — název, nástroj, téma…"
+    />
+
+    <div data-inf-browse>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+        {categories.map((category) => {
+          const accent = ACCENTS[category.accent];
+          const count = counts[category.id] ?? 0;
+          return (
+            <a
+              href={categoryHref(category)}
+              class={`flex flex-col bg-white rounded-xl shadow-sm ring-1 ring-gray-200 border-l-4 ${accent.border} p-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200`}
+            >
+              <div class="flex items-start gap-3">
+                <span class="text-3xl shrink-0 leading-none" aria-hidden="true">{category.icon}</span>
+                <div class="flex-1 min-w-0">
+                  <h2 class="font-semibold text-gray-900 leading-tight">{category.name}</h2>
+                  <p class="mt-1 text-sm text-gray-600">{category.tagline}</p>
+                </div>
+              </div>
+              {category.subcategories.length > 0 && (
+                <p class="mt-3 text-xs text-gray-500 leading-relaxed">
+                  {category.subcategories.map((s) => s.name).join(' · ')}
+                </p>
+              )}
+              <div class="mt-auto pt-3">
+                <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${count > 0 ? accent.chip : 'bg-gray-100 text-gray-500'}`}>
+                  {count > 0 ? `${count} ${plural(count, 'položka', 'položky', 'položek')}` : 'zatím prázdné'}
+                </span>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+
+    <div data-inf-results hidden>
+      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+        {items.flatMap((item) => {
+          const category = byId.get(item.categoryId);
+          return category ? [<InfoItemCard item={item} category={category} showCategory />] : [];
+        })}
+      </div>
+      <p data-inf-empty hidden class="py-12 text-center text-gray-500">
+        Nic takového tu zatím není. Zkus jiné slovo nebo zruš filtry.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

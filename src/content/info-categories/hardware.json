@@ -1,0 +1,10 @@
+{
+  "id": "hardware",
+  "name": "Hardware",
+  "shortName": "Hardware",
+  "order": 4,
+  "icon": "🔧",
+  "accent": "orange",
+  "tagline": "Co je uvnitř počítače a jak to spolu funguje.",
+  "subcategories": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "informace-a-data",
+  "name": "Informace a data",
+  "shortName": "Data",
+  "order": 5,
+  "icon": "📊",
+  "accent": "cyan",
+  "tagline": "Jak informace hledat, sbírat, třídit a vyhodnocovat.",
+  "subcategories": [
+    {
+      "id": "vyhledavani",
+      "name": "Vyhledávání informací"
+    },
+    {
+      "id": "sber-a-trideni",
+      "name": "Sběr a třídění dat"
+    },
+    {
+      "id": "vizualizace",
+      "name": "Grafy a vizualizace dat"
+    }
+  ]
+}

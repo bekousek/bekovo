@@ -244,6 +244,94 @@ const osvItems = defineCollection({
   }),
 });
 
+/* ---------------------------------------------------------------------------
+ * Informatika (bekovo.cz/informatika)
+ *
+ * Banka hotových výukových bloků, aktivit a odkazů. Na rozdíl od fyziky se
+ * nečlení podle ročníků, ale podle oblastí (Bezpečnost, Robotika, …). Větší
+ * oblasti se dál dělí na podoblasti. Karty mají být stručné — často stačí
+ * název a odkaz.
+ * ------------------------------------------------------------------------- */
+
+const infoCategories = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/info-categories' }),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
+    /** Krátký název do navigace a štítků na kartách. */
+    shortName: z.string(),
+    order: z.number(),
+    icon: z.string(),
+    /** Barevný akcent — mapuje se na doslovné Tailwind třídy v src/lib/informatika.ts. */
+    accent: z.enum([
+      'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose',
+      'red', 'orange', 'amber', 'lime', 'green', 'emerald', 'teal', 'cyan',
+    ]),
+    /** Jedna věta na kartu oblasti. */
+    tagline: z.string(),
+    /** Podoblasti — pořadí v poli je pořadí na stránce. Nepovinné. */
+    subcategories: z.array(z.object({
+      id: z.string(),
+      name: z.string(),
+      /** Jedna věta pod nadpisem podoblasti. Nepovinná. */
+      description: z.string().optional(),
+    })).default([]),
+  }),
+});
+
+const infoItems = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/info-items' }),
+  schema: z.object({
+    id: z.string(),
+    categoryId: z.string(),
+    /** `id` podoblasti z `subcategories` mateřské oblasti. */
+    subcategoryId: z.string().optional(),
+    title: z.string(),
+    /** Hlavní odkaz — web, aplikace, video, Drive. Karta bez detailu vede rovnou sem. */
+    url: z.string().url().optional(),
+    /** Krátký popis, klidně jedna věta. Když je název dost výmluvný, vynech. */
+    description: z.string().optional(),
+    type: z.enum([
+      'blok',
+      'aktivita',
+      'projekt',
+      'hra',
+      'pracovni-list',
+      'aplikace',
+      'video',
+      'kurz',
+      'metodika',
+      'odkaz',
+    ]),
+    /** Co je k hodině potřeba — filtr „bez počítače“ apod. */
+    equipment: z.array(z.enum([
+      'bez-pocitace', 'pocitac', 'tablet', 'mobil', 'robot', 'microbit', '3d-tiskarna', 'vr',
+    ])).optional(),
+    grades: z.array(z.number().int().min(1).max(9)).optional(),
+    duration: z.string().optional(),
+    /** Klíčová slova pro vyhledávání. */
+    keywords: z.array(z.string()).default([]),
+    language: z.enum(['cs', 'sk', 'en']).optional(),
+    /** Detail hodiny — vyplň jen u hotových bloků. Odstavce oddělené prázdným řádkem. */
+    goal: z.string().optional(),
+    materials: z.array(z.string()).optional(),
+    procedure: z.string().optional(),
+    files: z.array(z.object({
+      label: z.string(),
+      href: osvHref,
+      type: z.enum(['pdf', 'doc', 'slides', 'sheet', 'image', 'audio', 'video', 'other']).default('other'),
+      note: z.string().optional(),
+    })).default([]),
+    source: z.object({
+      label: z.string(),
+      url: z.string().url().optional(),
+    }).optional(),
+    /** Moje poznámka — co fungovalo, na co si dát pozor. */
+    notes: z.string().optional(),
+    added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  }),
+});
+
 export const collections = {
   topics,
   subtopics,
@@ -255,4 +343,6 @@ export const collections = {
   scenarios,
   osvCategories,
   osvItems,
+  infoCategories,
+  infoItems,
 };

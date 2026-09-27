@@ -1,0 +1,23 @@
+{
+  "id": "ovladani-pc",
+  "name": "Ovládání a používání PC",
+  "shortName": "Ovládání PC",
+  "order": 3,
+  "icon": "🖱️",
+  "accent": "sky",
+  "tagline": "Myš, klávesnice, soubory a složky, operační systém.",
+  "subcategories": [
+    {
+      "id": "mys-a-klavesnice",
+      "name": "Myš, klávesnice a psaní"
+    },
+    {
+      "id": "soubory-a-slozky",
+      "name": "Soubory a složky"
+    },
+    {
+      "id": "operacni-system",
+      "name": "Operační systém a nastavení"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "robotika-makecode-microbit",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "MakeCode pro micro:bit",
+  "url": "https://makecode.microbit.org/",
+  "description": "Blokový i textový editor se simulátorem — jde učit i bez fyzických micro:bitů.",
+  "type": "aplikace",
+  "equipment": [
+    "pocitac",
+    "microbit"
+  ],
+  "keywords": [
+    "microbit",
+    "bloky",
+    "simulátor",
+    "javascript",
+    "python"
+  ],
+  "added": "2026-09-27"
+}

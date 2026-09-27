@@ -1,0 +1,31 @@
+{
+  "id": "programovani",
+  "name": "Programování a algoritmizace",
+  "shortName": "Programování",
+  "order": 8,
+  "icon": "🧩",
+  "accent": "violet",
+  "tagline": "Od prvních příkazů pro robota po textový kód.",
+  "subcategories": [
+    {
+      "id": "pro-nejmensi",
+      "name": "Začátky pro nejmenší",
+      "description": "Příkazy, směry a posloupnosti — často bez počítače."
+    },
+    {
+      "id": "blokove",
+      "name": "Blokové programování",
+      "description": "Scratch, MakeCode, Code.org a spol."
+    },
+    {
+      "id": "textove",
+      "name": "Přechod na textové programování",
+      "description": "Python, JavaScript a mosty z bloků do textu."
+    },
+    {
+      "id": "algoritmizace",
+      "name": "Algoritmizace",
+      "description": "Algoritmy, řazení, hledání, logické úlohy."
+    }
+  ]
+}

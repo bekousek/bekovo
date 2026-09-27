@@ -1,0 +1,19 @@
+{
+  "id": "3d",
+  "name": "3D tisk a modelování",
+  "shortName": "3D",
+  "order": 11,
+  "icon": "🖨️",
+  "accent": "amber",
+  "tagline": "Od prvního modelu v prohlížeči po výtisk na tiskárně.",
+  "subcategories": [
+    {
+      "id": "modelovani",
+      "name": "3D modelování"
+    },
+    {
+      "id": "tisk",
+      "name": "3D tisk"
+    }
+  ]
+}

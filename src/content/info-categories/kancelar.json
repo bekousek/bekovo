@@ -1,0 +1,23 @@
+{
+  "id": "kancelar",
+  "name": "Kancelářský balíček",
+  "shortName": "Kancelář",
+  "order": 15,
+  "icon": "📄",
+  "accent": "lime",
+  "tagline": "Textový editor, tabulky, prezentace.",
+  "subcategories": [
+    {
+      "id": "text",
+      "name": "Textový editor"
+    },
+    {
+      "id": "tabulky",
+      "name": "Tabulky"
+    },
+    {
+      "id": "prezentace",
+      "name": "Prezentace"
+    }
+  ]
+}

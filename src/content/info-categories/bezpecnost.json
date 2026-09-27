@@ -1,0 +1,27 @@
+{
+  "id": "bezpecnost",
+  "name": "Bezpečnost na internetu",
+  "shortName": "Bezpečnost",
+  "order": 2,
+  "icon": "🛡️",
+  "accent": "red",
+  "tagline": "Hesla, podvody, soukromí, kyberšikana — jak se v síti nespálit.",
+  "subcategories": [
+    {
+      "id": "hesla-a-ucty",
+      "name": "Hesla a účty"
+    },
+    {
+      "id": "podvody-a-phishing",
+      "name": "Podvody a phishing"
+    },
+    {
+      "id": "kybersikana",
+      "name": "Kyberšikana a rizikové chování"
+    },
+    {
+      "id": "soukromi",
+      "name": "Soukromí a digitální stopa"
+    }
+  ]
+}
