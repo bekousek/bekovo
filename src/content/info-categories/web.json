@@ -1,0 +1,19 @@
+{
+  "id": "web",
+  "name": "Webové stránky",
+  "shortName": "Web",
+  "order": 11,
+  "icon": "🌐",
+  "accent": "blue",
+  "tagline": "Jak web funguje a jak si postavit vlastní stránku.",
+  "subcategories": [
+    {
+      "id": "html-css",
+      "name": "HTML a CSS"
+    },
+    {
+      "id": "bez-kodu",
+      "name": "Tvorba webu bez kódu"
+    }
+  ]
+}

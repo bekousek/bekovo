@@ -1,0 +1,23 @@
+{
+  "id": "internet",
+  "name": "Internet a komunikace",
+  "shortName": "Internet",
+  "order": 16,
+  "icon": "📡",
+  "accent": "green",
+  "tagline": "Jak funguje internet, e-mail, online spolupráce a netiketa.",
+  "subcategories": [
+    {
+      "id": "jak-funguje-internet",
+      "name": "Jak funguje internet"
+    },
+    {
+      "id": "komunikace",
+      "name": "E-mail, chat a netiketa"
+    },
+    {
+      "id": "spoluprace",
+      "name": "Online spolupráce"
+    }
+  ]
+}

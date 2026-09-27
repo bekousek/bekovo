@@ -1,0 +1,17 @@
+{
+  "id": "3d-tinkercad",
+  "categoryId": "3d",
+  "subcategoryId": "modelovani",
+  "title": "Tinkercad",
+  "url": "https://www.tinkercad.com/",
+  "type": "aplikace",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "modelování",
+    "stl",
+    "3d tisk"
+  ],
+  "added": "2026-09-27"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "digitalni-wellbeing",
+  "name": "Digitální wellbeing",
+  "shortName": "Wellbeing",
+  "order": 1,
+  "icon": "🧘",
+  "accent": "emerald",
+  "tagline": "Zdravý vztah k technologiím — čas u obrazovky, sociální sítě, pozornost.",
+  "subcategories": [
+    {
+      "id": "cas-u-obrazovky",
+      "name": "Čas u obrazovky a pozornost"
+    },
+    {
+      "id": "socialni-site",
+      "name": "Sociální sítě a sebeobraz"
+    },
+    {
+      "id": "hry-a-zavislost",
+      "name": "Hry a závislostní design"
+    }
+  ]
+}

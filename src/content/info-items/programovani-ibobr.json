@@ -1,0 +1,19 @@
+{
+  "id": "programovani-ibobr",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Bobřík informatiky",
+  "url": "https://www.ibobr.cz/",
+  "description": "Soutěž s úlohami na informatické myšlení; archiv úloh se dá použít i v hodině.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "soutěž",
+    "logika",
+    "informatické myšlení"
+  ],
+  "language": "cs",
+  "added": "2026-09-27"
+}

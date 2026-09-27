@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import EmptyState from '../../../components/EmptyState.astro';
+import InfoFilterBar from '../../../components/informatika/InfoFilterBar.astro';
+import InfoItemCard from '../../../components/informatika/InfoItemCard.astro';
+import { ACCENTS, BASE, categoryHref, getCategories, getItems } from '../../../lib/informatika';
+
+export async function getStaticPaths() {
+  const categories = await getCategories();
+  return Promise.all(
+    categories.map(async (category) => ({
+      params: { category: category.id },
+      props: { category, items: await getItems(category.id), categories },
+    })),
+  );
+}
+
+const { category, items, categories } = Astro.props;
+const accent = ACCENTS[category.accent];
+
+// Karty seskupené podle podoblastí v pořadí z definice oblasti. Položky bez
+// podoblasti (nebo s neznámou) jdou do skupiny bez nadpisu — nahoru, když
+// oblast podoblasti nemá, jinak na konec jako „Ostatní“.
+const known = new Set(category.subcategories.map((s) => s.id));
+const loose = items.filter((i) => !i.subcategoryId || !known.has(i.subcategoryId));
+const groups = [
+  ...category.subcategories.map((sub) => ({
+    id: sub.id,
+    name: sub.name,
+    description: sub.description,
+    items: items.filter((i) => i.subcategoryId === sub.id),
+  })),
+  ...(loose.length > 0
+    ? [{ id: 'ostatni', name: category.subcategories.length > 0 ? 'Ostatní' : '', description: undefined, items: loose }]
+    : []),
+];
+---
+<BaseLayout
+  title={`${category.name} — Informatika`}
+  description={`${category.tagline} Výukové bloky, aktivity a odkazy pro informatiku na ZŠ.`}
+>
+  <Breadcrumb rootLabel="Informatika" rootHref={BASE} items={[{ label: category.name }]} />
+
+  <div data-inf-scope>
+    <div class="mb-6 flex items-start gap-3">
+      <span class="text-4xl shrink-0 leading-none" aria-hidden="true">{category.icon}</span>
+      <div>
+        <h1 class="text-2xl font-bold text-gray-900">{category.name}</h1>
+        <p class="mt-1 text-gray-600">{category.tagline}</p>
+      </div>
+    </div>
+
+    <nav class="mb-6 flex flex-wrap gap-1.5" aria-label="Oblasti informatiky">
+      {categories.map((other) => (
+        <a
+          href={categoryHref(other)}
+          aria-current={other.id === category.id ? 'page' : undefined}
+          class={`inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+            other.id === category.id
+              ? `${ACCENTS[other.accent].bg} text-white shadow-sm`
+              : 'bg-white text-gray-700 hover:bg-gray-50 border border-gray-200'
+          }`}
+        >
+          <span aria-hidden="true">{other.icon}</span>
+          <span>{other.shortName}</span>
+        </a>
+      ))}
+    </nav>
+
+    {items.length > 0 ? (
+      <>
+        <InfoFilterBar items={items} category={category} placeholder={`Hledat v oblasti ${category.name}…`} />
+
+        <div class="space-y-8">
+          {groups.filter((g) => g.items.length > 0).map((group) => (
+            <section data-inf-group>
+              {group.name && (
+                <div class="mb-3">
+                  <h2 class={`text-lg font-semibold ${accent.text}`}>{group.name}</h2>
+                  {group.description && <p class="text-sm text-gray-500">{group.description}</p>}
+                </div>
+              )}
+              <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 items-start">
+                {group.items.map((item) => <InfoItemCard item={item} category={category} />)}
+              </div>
+            </section>
+          ))}
+        </div>
+        <p data-inf-empty hidden class="py-12 text-center text-gray-500">
+          Nic takového tu zatím není. Zkus jiné slovo nebo zruš filtry.
+        </p>
+      </>
+    ) : (
+      <EmptyState
+        icon={category.icon}
+        title="Zatím tu nic není"
+        description="Oblast je připravená — obsah přibude brzy."
+      />
+    )}
+
+    {category.subcategories.length > 0 && items.length === 0 && (
+      <div class="mt-2 flex flex-wrap justify-center gap-1.5">
+        {category.subcategories.map((sub) => (
+          <span class={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium ${accent.chip}`}>
+            {sub.name}
+          </span>
+        ))}
+      </div>
+    )}
+  </div>
+</BaseLayout>

@@ -1,0 +1,27 @@
+{
+  "id": "media",
+  "name": "Digitální média",
+  "shortName": "Média",
+  "order": 12,
+  "icon": "🎬",
+  "accent": "rose",
+  "tagline": "Obrázky, video, zvuk, animace — tvorba a úpravy.",
+  "subcategories": [
+    {
+      "id": "grafika",
+      "name": "Obrázky a grafika"
+    },
+    {
+      "id": "video",
+      "name": "Video"
+    },
+    {
+      "id": "zvuk",
+      "name": "Zvuk a podcast"
+    },
+    {
+      "id": "animace",
+      "name": "Animace"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ai",
+  "name": "AI a strojové učení",
+  "shortName": "AI",
+  "order": 8,
+  "icon": "🧠",
+  "accent": "fuchsia",
+  "tagline": "Jak AI funguje, jak s ní pracovat a na co si dát pozor.",
+  "subcategories": [
+    {
+      "id": "jak-ai-funguje",
+      "name": "Jak AI funguje"
+    },
+    {
+      "id": "prace-s-ai",
+      "name": "Práce s AI nástroji"
+    },
+    {
+      "id": "etika-ai",
+      "name": "Etika a rizika AI"
+    }
+  ]
+}
