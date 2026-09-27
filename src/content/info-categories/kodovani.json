@@ -1,11 +1,11 @@
 {
-  "id": "data-a-kodovani",
-  "name": "Informace, data a kódování",
+  "id": "kodovani",
+  "name": "Kódování a šifrování",
   "shortName": "Kódování",
-  "order": 5,
+  "order": 6,
   "icon": "🔢",
   "accent": "indigo",
-  "tagline": "Jak počítač ukládá čísla, text, obrázky a zvuk — dvojková soustava, šifry, komprese.",
+  "tagline": "Jak počítač zapisuje čísla, text, obrázky a zvuk — a jak zprávu utajit.",
   "subcategories": [
     {
       "id": "dvojkova-soustava",

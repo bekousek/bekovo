@@ -2,7 +2,7 @@
   "id": "ai",
   "name": "AI a strojové učení",
   "shortName": "AI",
-  "order": 8,
+  "order": 10,
   "icon": "🧠",
   "accent": "fuchsia",
   "tagline": "Jak AI funguje, jak s ní pracovat a na co si dát pozor.",

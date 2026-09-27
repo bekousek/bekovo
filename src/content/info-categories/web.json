@@ -2,7 +2,7 @@
   "id": "web",
   "name": "Webové stránky",
   "shortName": "Web",
-  "order": 11,
+  "order": 13,
   "icon": "🌐",
   "accent": "blue",
   "tagline": "Jak web funguje a jak si postavit vlastní stránku.",

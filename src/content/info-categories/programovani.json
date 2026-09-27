@@ -2,7 +2,7 @@
   "id": "programovani",
   "name": "Programování a algoritmizace",
   "shortName": "Programování",
-  "order": 6,
+  "order": 8,
   "icon": "🧩",
   "accent": "violet",
   "tagline": "Od prvních příkazů pro robota po textový kód.",

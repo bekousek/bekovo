@@ -2,7 +2,7 @@
   "id": "kancelar",
   "name": "Kancelářský balíček",
   "shortName": "Kancelář",
-  "order": 13,
+  "order": 15,
   "icon": "📄",
   "accent": "lime",
   "tagline": "Textový editor, tabulky, prezentace.",

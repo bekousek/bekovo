@@ -2,7 +2,7 @@
   "id": "3d",
   "name": "3D tisk a modelování",
   "shortName": "3D",
-  "order": 9,
+  "order": 11,
   "icon": "🖨️",
   "accent": "amber",
   "tagline": "Od prvního modelu v prohlížeči po výtisk na tiskárně.",

@@ -2,7 +2,7 @@
   "id": "robotika",
   "name": "Robotika",
   "shortName": "Robotika",
-  "order": 7,
+  "order": 9,
   "icon": "🤖",
   "accent": "teal",
   "tagline": "Micro:bit, LEGO a další roboti ve třídě.",
