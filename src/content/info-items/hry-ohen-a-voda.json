@@ -1,0 +1,17 @@
+{
+  "id": "hry-ohen-a-voda",
+  "categoryId": "hry",
+  "title": "Oheň a voda",
+  "url": "https://www.fireboyandwatergirl.com/",
+  "description": "Kooperativní hra pro dva na jedné klávesnici (šipky a WASD) — bez spolupráce se nedá projít.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "Fireboy and Watergirl",
+    "spolupráce",
+    "dvojice"
+  ],
+  "added": "2026-09-27"
+}

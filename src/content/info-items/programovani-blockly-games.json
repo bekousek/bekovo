@@ -1,0 +1,19 @@
+{
+  "id": "programovani-blockly-games",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Blockly Games",
+  "url": "https://blockly.games",
+  "description": "Série her od Googlu (Puzzle, Bludiště, Pták, Želva, Film, Hudba, Pond), které vedou od prvních bloků až k JavaScriptu.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "bloky",
+    "bludiště",
+    "želví grafika",
+    "JavaScript"
+  ],
+  "added": "2026-09-27"
+}

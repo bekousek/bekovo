@@ -1,0 +1,20 @@
+{
+  "id": "programovani-krython",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Krython",
+  "url": "https://krython.vnovak.cz",
+  "description": "20 úkolů, ve kterých android Kryton česky provází základy Pythonu od print() dál. Postup se ukládá v prohlížeči, na konci je diplom.",
+  "type": "kurz",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "Python",
+    "print",
+    "textové programování",
+    "diplom"
+  ],
+  "added": "2026-09-27"
+}

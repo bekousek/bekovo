@@ -1,0 +1,18 @@
+{
+  "id": "media-storyboard-that",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Storyboard That",
+  "url": "https://www.storyboardthat.com/",
+  "description": "Komiksy a storyboardy z připravených postav a scén — příběh, návod nebo plán videa.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "komiks",
+    "storyboard",
+    "příběh"
+  ],
+  "added": "2026-09-27"
+}

@@ -265,7 +265,7 @@ const infoCategories = defineCollection({
     /** Barevný akcent — mapuje se na doslovné Tailwind třídy v src/lib/informatika.ts. */
     accent: z.enum([
       'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose',
-      'red', 'orange', 'amber', 'lime', 'green', 'emerald', 'teal', 'cyan',
+      'red', 'orange', 'amber', 'yellow', 'lime', 'green', 'emerald', 'teal', 'cyan',
     ]),
     /** Jedna věta na kartu oblasti. */
     tagline: z.string(),
@@ -287,7 +287,7 @@ const infoItems = defineCollection({
     /** `id` podoblasti z `subcategories` mateřské oblasti. */
     subcategoryId: z.string().optional(),
     title: z.string(),
-    /** Hlavní odkaz — web, aplikace, video, Drive. Karta bez detailu vede rovnou sem. */
+    /** Kde se aktivita dělá (web, video, Drive). Karta bez detailu vede rovnou sem. */
     url: z.string().url().optional(),
     /** Krátký popis, klidně jedna věta. Když je název dost výmluvný, vynech. */
     description: z.string().optional(),
@@ -297,11 +297,9 @@ const infoItems = defineCollection({
       'projekt',
       'hra',
       'pracovni-list',
-      'aplikace',
       'video',
       'kurz',
       'metodika',
-      'odkaz',
     ]),
     /** Co je k hodině potřeba — filtr „bez počítače“ apod. */
     equipment: z.array(z.enum([

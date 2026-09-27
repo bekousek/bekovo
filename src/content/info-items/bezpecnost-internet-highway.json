@@ -1,0 +1,21 @@
+{
+  "id": "bezpecnost-internet-highway",
+  "categoryId": "bezpecnost",
+  "title": "Internet Highway",
+  "url": "https://www.e-bezpeci.cz/internethighway/",
+  "description": "Hra E-Bezpečí: žáci jedou po „internetové dálnici“, s průvodci se učí pravidla bezpečného chování a odemykají další zóny.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "bezpečné chování",
+    "E-Bezpečí"
+  ],
+  "source": {
+    "label": "E-Bezpečí (UP Olomouc)",
+    "url": "https://www.e-bezpeci.cz/internethighway/"
+  },
+  "added": "2026-09-27"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "programovani-minecraft-hodina-kodu",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Minecraft Hodina kódu",
+  "url": "https://code.org/minecraft",
+  "description": "Hodinové tutoriály v Minecraftu — žáci skládají bloky příkazů a provádějí postavu světem. Na výběr je několik dobrodružství.",
+  "type": "aktivita",
+  "duration": "45 min",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "Minecraft",
+    "Hour of Code",
+    "bloky",
+    "code.org"
+  ],
+  "source": {
+    "label": "Code.org",
+    "url": "https://code.org/minecraft"
+  },
+  "added": "2026-09-27"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "programovani-app-inventor",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "MIT App Inventor — vlastní mobilní aplikace",
+  "url": "https://appinventor.mit.edu",
+  "description": "Žáci skládají z bloků vlastní aplikaci pro Android a hned ji zkouší v telefonu přes MIT AI2 Companion. Potřebují Google účet.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "keywords": [
+    "aplikace",
+    "Android",
+    "bloky",
+    "mobil"
+  ],
+  "added": "2026-09-27"
+}

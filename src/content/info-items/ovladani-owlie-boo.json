@@ -1,0 +1,20 @@
+{
+  "id": "ovladani-owlie-boo",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Owlie Boo — hry s myší pro nejmenší",
+  "url": "https://owlieboo.com/educational-games/",
+  "description": "Jednoduché hry na pohyb myší, klikání a přetahování pro úplné začátečníky.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "myš",
+    "klikání",
+    "přetahování",
+    "první třída"
+  ],
+  "added": "2026-09-27"
+}

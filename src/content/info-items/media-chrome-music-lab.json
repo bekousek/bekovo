@@ -1,0 +1,19 @@
+{
+  "id": "media-chrome-music-lab",
+  "categoryId": "media",
+  "subcategoryId": "zvuk",
+  "title": "Chrome Music Lab",
+  "url": "https://musiclab.chromeexperiments.com",
+  "description": "Hudební experimenty v prohlížeči — Song Maker, rytmus, spektrogram, zvukové vlny… Tvoření melodií bez znalosti not.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "hudba",
+    "zvuk",
+    "melodie",
+    "spektrogram"
+  ],
+  "added": "2026-09-27"
+}

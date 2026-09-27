@@ -1,0 +1,18 @@
+{
+  "id": "ai-autodraw",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "AutoDraw",
+  "url": "https://www.autodraw.com",
+  "description": "Žák nakreslí rychlou čmáranici a AI mu nabídne hotové obrázky toho, co asi myslel.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "kreslení",
+    "rozpoznávání",
+    "Google"
+  ],
+  "added": "2026-09-27"
+}

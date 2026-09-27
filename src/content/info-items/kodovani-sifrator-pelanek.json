@@ -1,0 +1,22 @@
+{
+  "id": "kodovani-sifrator-pelanek",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Šifrátor Radka Pelánka",
+  "url": "https://radekpelanek.cz/sifrator/",
+  "description": "Zašifruje text několika jednoduchými šiframi. Na stejném webu jsou i šifry k tisku a pokladovky pro děti.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "šifry",
+    "pokladovka"
+  ],
+  "source": {
+    "label": "Radek Pelánek",
+    "url": "https://radekpelanek.cz/sifrator/"
+  },
+  "added": "2026-09-27"
+}

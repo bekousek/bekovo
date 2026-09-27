@@ -1,0 +1,30 @@
+{
+  "id": "bezpecnost-netknights",
+  "categoryId": "bezpecnost",
+  "title": "NetKnights",
+  "url": "https://netknights.cz",
+  "description": "Hra O2 pro děti od 8 let: vyhni se nástrahám internetu a poraz Zlouna.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "language": "cs",
+  "keywords": [
+    "nástrahy internetu",
+    "O2"
+  ],
+  "source": {
+    "label": "Nadace O2 — O2 Bezpečně v síti",
+    "url": "https://netknights.cz"
+  },
+  "added": "2026-09-27"
+}

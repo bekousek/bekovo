@@ -1,0 +1,19 @@
+{
+  "id": "ovladani-mouse-accuracy",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Mouse Accuracy",
+  "url": "https://www.mouseaccuracy.com/",
+  "description": "Klikání na mizející terče na čas — rychlá rozcvička a soutěž v přesnosti myši.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "myš",
+    "přesnost",
+    "rozcvička",
+    "soutěž"
+  ],
+  "added": "2026-09-27"
+}

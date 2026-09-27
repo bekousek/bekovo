@@ -1,0 +1,17 @@
+{
+  "id": "hry-gartic-phone",
+  "categoryId": "hry",
+  "title": "Gartic Phone",
+  "url": "https://garticphone.com",
+  "description": "Tichá pošta s kreslením: jeden napíše větu, další ji nakreslí, další popíše kresbu…",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "kreslení",
+    "tichá pošta",
+    "celá třída"
+  ],
+  "added": "2026-09-27"
+}

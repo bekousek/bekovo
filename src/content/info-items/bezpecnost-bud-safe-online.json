@@ -1,0 +1,24 @@
+{
+  "id": "bezpecnost-bud-safe-online",
+  "categoryId": "bezpecnost",
+  "title": "Buď safe online — online kurz",
+  "url": "https://www.avast.com/cz/besafeonline/online-kurz",
+  "description": "Žáci jako špióni sledují chat dvou lidí a v každém tématu (ukradený účet, vydírání, sdílení fotek, hraní, schůzka s kámošem z netu, falešná celebrita…) volí, jak se zachovat. Za odpovědi hvězdy, na konci odznak.",
+  "type": "kurz",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "kyberšikana",
+    "vydírání",
+    "phishing",
+    "sociální sítě",
+    "Jirka Král"
+  ],
+  "source": {
+    "label": "Avast Foundation, Jirka Král a E-Bezpečí",
+    "url": "https://www.avast.com/cz/besafeonline/online-kurz"
+  },
+  "added": "2026-09-27"
+}

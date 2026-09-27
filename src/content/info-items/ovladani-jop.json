@@ -1,0 +1,31 @@
+{
+  "id": "ovladani-jop",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "JOP — Jednoduché ovládání počítače",
+  "url": "https://home.pf.jcu.cz/jop/",
+  "description": "Česká výuková hra pro 1. stupeň se sadami úloh na základy ovládání počítače. Stahuje se 120 MB — spusť ji předem, nebo si stáhni offline verzi.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "language": "cs",
+  "keywords": [
+    "myš",
+    "klávesnice",
+    "první stupeň",
+    "offline"
+  ],
+  "source": {
+    "label": "Pedagogická fakulta JU v Českých Budějovicích",
+    "url": "https://home.pf.jcu.cz/jop/"
+  },
+  "added": "2026-09-27"
+}

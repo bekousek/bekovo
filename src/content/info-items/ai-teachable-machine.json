@@ -1,0 +1,20 @@
+{
+  "id": "ai-teachable-machine",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Teachable Machine",
+  "url": "https://teachablemachine.withgoogle.com/train",
+  "description": "Žáci bez programování naučí vlastní model rozpoznávat obrázky z webkamery, zvuky nebo pózy. Názorně ukáže, co jsou trénovací data a proč se model plete.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "strojové učení",
+    "trénovací data",
+    "webkamera",
+    "model"
+  ],
+  "added": "2026-09-27"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "hardware-logicka-hradla",
+  "categoryId": "hardware",
+  "title": "Simulátor logických hradel",
+  "url": "https://academo.org/demos/logic-gate-simulator/",
+  "description": "Žáci skládají hradla AND, OR, NOT… a zkoumají, jak z nich vzniká logika počítače.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "logická hradla",
+    "AND",
+    "OR",
+    "NOT",
+    "logika"
+  ],
+  "added": "2026-09-27"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "hry-messcraft",
+  "categoryId": "hry",
+  "title": "MessCraft",
+  "url": "https://mess.eu.org/",
+  "description": "Minecraft v prohlížeči bez instalace, na výběr je několik verzí.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "Minecraft",
+    "prohlížeč"
+  ],
+  "added": "2026-09-27"
+}

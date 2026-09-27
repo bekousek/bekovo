@@ -1,0 +1,19 @@
+{
+  "id": "media-blob-opera",
+  "categoryId": "media",
+  "subcategoryId": "zvuk",
+  "title": "Blob Opera",
+  "url": "https://artsandculture.google.com/experiment/blob-opera/AAHWrq360NcGbw",
+  "description": "Čtyři „bloby“ zpívají operu podle toho, jak je žáci tahají myší, a o harmonii se stará strojové učení. Pěkný úvod k hodině o zvuku nebo o AI.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "hudba",
+    "opera",
+    "strojové učení",
+    "Google"
+  ],
+  "added": "2026-09-27"
+}

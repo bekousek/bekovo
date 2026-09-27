@@ -1,0 +1,20 @@
+{
+  "id": "bezpecnost-interland",
+  "categoryId": "bezpecnost",
+  "title": "Internetoví úžasňáci: Interland",
+  "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland",
+  "description": "Česká hra Googlu ve čtyřech světech: sdílení, podvody a phishing, hesla, laskavost online.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "phishing",
+    "hesla",
+    "sdílení",
+    "kyberšikana",
+    "Google"
+  ],
+  "added": "2026-09-27"
+}

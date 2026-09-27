@@ -1,0 +1,24 @@
+{
+  "id": "ovladani-linda-mezi-soubory",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "soubory-a-slozky",
+  "title": "Linda mezi soubory",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota/linda-mezi-soubory",
+  "description": "Adventura ČT Déčko: zlosyn uložil Lindu do počítače a zahesloval ji — žáci ji hledají mezi soubory a složkami a vyhýbají se virům.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "keywords": [
+    "soubory",
+    "složky",
+    "viry",
+    "Datová Lhota"
+  ],
+  "source": {
+    "label": "ČT Déčko — Datová Lhota",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota/linda-mezi-soubory"
+  },
+  "added": "2026-09-27"
+}

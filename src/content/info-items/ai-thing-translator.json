@@ -1,0 +1,19 @@
+{
+  "id": "ai-thing-translator",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Thing Translator",
+  "url": "https://experiments.withgoogle.com/thing-translator",
+  "description": "Namiř kameru na věc, AI ji rozpozná a řekne její název v cizím jazyce.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "keywords": [
+    "rozpoznávání obrazu",
+    "překlad",
+    "kamera"
+  ],
+  "added": "2026-09-27"
+}

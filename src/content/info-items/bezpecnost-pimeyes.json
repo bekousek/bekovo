@@ -1,0 +1,20 @@
+{
+  "id": "bezpecnost-pimeyes",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "PimEyes — vyhledávání podle obličeje",
+  "url": "https://pimeyes.com/en",
+  "description": "Ukázka, co se dá na internetu dohledat z jediné fotky obličeje. Jen jako demonstrace učitele na vlastní fotce — fotky žáků nenahrávejte.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "obličej",
+    "digitální stopa",
+    "soukromí",
+    "demonstrace"
+  ],
+  "added": "2026-09-27"
+}

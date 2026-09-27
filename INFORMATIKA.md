@@ -7,6 +7,13 @@ Rutina `/nightly-fill` se jí **nedotýká**.
 
 - `/informatika` — rozcestník oblastí + hledání a filtry napříč vším
 - `/informatika/<oblast>` — karty seskupené podle podoblastí, s hledáním
+**Zásada: na web patří jen hotové hodiny a aktivity — konkrétní zadání, co
+s dětmi dělat.** Samotná platforma (Scratch, Tinkercad, E-Bezpečí…) kartu
+nedostane; kartu dostane až konkrétní aktivita na ní. Stránka, na které se
+rovnou dá postavit celá hodina (hra, test, simulace), kartu dostat může.
+Sbírky s mnoha aktivitami (UmímeInformatiku, Hour of Code, archiv Bobříka…)
+se rozpadají na jednotlivé karty.
+
 - `/informatika/<oblast>/<položka>` — detail; vzniká **jen** u položek, které
   mají `goal`, `procedure`, `materials`, `files` nebo `notes`. Ostatní karty
   vedou rovnou na `url`.
@@ -21,16 +28,16 @@ Podoblasti jsou pole `subcategories` — jejich pořadí je pořadí na stránce
 
 Jeden JSON do `src/content/info-items/`, název souboru = `id`.
 
-Nejkratší možná karta (jen odkaz):
+Nejkratší možná karta (aktivita přímo na webu):
 
 ```json
 {
-  "id": "programovani-scratch",
+  "id": "programovani-raketomise",
   "categoryId": "programovani",
-  "subcategoryId": "blokove",
-  "title": "Scratch",
-  "url": "https://scratch.mit.edu/",
-  "type": "aplikace"
+  "subcategoryId": "algoritmizace",
+  "title": "Raketomise",
+  "url": "https://raketomise.cz/index.php",
+  "type": "aktivita"
 }
 ```
 
@@ -56,7 +63,10 @@ Hotový výukový blok — přidej, co dává smysl:
 ```
 
 **Typy** (`type`): `blok` (hotový výukový blok), `aktivita`, `projekt`, `hra`,
-`pracovni-list`, `aplikace`, `video`, `kurz`, `metodika`, `odkaz`.
+`pracovni-list`, `video`, `kurz`, `metodika`.
+
+**Soubory k tisku** patří do `public/informatika-soubory/` (odkaz
+`/informatika-soubory/…`), nebo na Google Drive.
 
 **Potřeba** (`equipment`): `bez-pocitace`, `pocitac`, `tablet`, `mobil`,
 `robot`, `microbit`, `3d-tiskarna`, `vr`.
