@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-csu-kouzlo-s-kartickami",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Kouzlo s otáčením kartiček (parita)",
+  "url": "https://www.csunplugged.org/en/topics/error-detection-and-correction/parity-magic/",
+  "description": "Učitel „kouzlem“ pozná, kterou kartičku žák otočil. Trik stojí na paritě — stejném principu, jakým počítač odhalí a opraví chybu v datech.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "parita",
+    "detekce chyb",
+    "kouzlo",
+    "sudá a lichá",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí paritní bit a umí sami najít a opravit jednu chybu v mřížce.",
+  "materials": [
+    "36 kartiček barevných jen z jedné strany (na tabuli ideálně magnetky)",
+    "Pro každou dvojici sada 36 kartiček"
+  ],
+  "procedure": "Žák vyskládá mřížku 5 × 5 náhodně otočených kartiček. Učitel „aby to bylo těžší“ přidá šestý řádek a sloupec — tak, aby v každém řádku i sloupci byl sudý počet barevných kartiček.\n\nUčitel se otočí, žák otočí jednu kartičku. Učitel ji najde: řádek a sloupec s lichým počtem barevných se kříží právě v ní.\n\nNech třídu hádat, jak trik funguje. Pak ho žáci ve dvojicích zkoušejí na sobě.\n\nZávěr: kartičky jsou bity, přidaný řádek a sloupec jsou paritní bity. Takhle počítač pozná, že se data při přenosu poškodila.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/04-kouzlo-s-kartickami.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/error-detection-and-correction/parity-magic/"
+  }
+}

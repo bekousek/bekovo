@@ -1,0 +1,49 @@
+{
+  "id": "internet-csu-kamenne-tabulky",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Kamenné tabulky — síťové protokoly",
+  "url": "https://classic.csunplugged.org/activities/network-protocols/",
+  "description": "Dvojice si posílají zprávu po kouscích přes nespolehlivé posly, kteří zprávy zdržují nebo ztrácejí. Žáci si musí vymyslet protokol — jako TCP/IP.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "protokol",
+    "TCP/IP",
+    "pakety",
+    "hraní rolí",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí, proč internet potřebuje protokoly (číslování paketů, potvrzení, opakované odeslání).",
+  "materials": [
+    "Hodně prázdných „tabulek“ po 6 znacích (asi 30 na žáka, PDF)",
+    "Akční karty pro posly: doruč / zdrž / nedoruč (PDF)",
+    "Stopky"
+  ],
+  "procedure": "Příprava (30 min): vytiskni a rozstříhej akční karty a tabulky. Připrav zprávy, které nejdou uhodnout ze smyslu (např. „1LHC255HD(RLLS“).\n\nRozděl třídu do dvojic, které sedí daleko od sebe a nevidí se. Několik žáků jsou poslové.\n\nOdesílatel rozepíše zprávu na tabulky (6 znaků na tabulku) a pošle je po poslech. Posel si vždy líže akční kartu a podle ní doručí, zdrží, nebo nedoručí.\n\nPo prvním kole dvojice vymyslí pravidla (číslování, potvrzení, opakování) a hraje se znovu. Poměrem karet měníš spolehlivost sítě.\n\nZávěr: porovnejte svá pravidla s tím, jak funguje TCP/IP.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/11-kamenne-tabulky.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/network-protocols/"
+  }
+}

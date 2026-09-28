@@ -1,0 +1,50 @@
+{
+  "id": "programovani-csu-nejlehci-nejtezsi",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Nejlehčí a nejtěžší — řadicí algoritmy",
+  "url": "https://classic.csunplugged.org/activities/sorting-algorithms/",
+  "description": "Skupiny řadí stejně velké krabičky podle hmotnosti jen pomocí rovnoramenných vah — porovnat smí vždy jen dvě. Objeví řazení výběrem i quicksort.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "řazení",
+    "quicksort",
+    "selection sort",
+    "váhy",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci vyzkouší různé způsoby řazení a zjistí, že chytrý postup (rozděl a panuj) potřebuje mnohem méně porovnání.",
+  "materials": [
+    "Pro každou skupinu 8 stejných nádobek s různým množstvím písku",
+    "Rovnoramenné váhy",
+    "Pracovní listy Sorting weights a Divide and conquer (PDF)"
+  ],
+  "procedure": "Diskuse: kde všude se věci řadí? Počítač porovnává vždy jen dvě hodnoty — přesně jako váhy.\n\nNajděte nejlehčí nádobku. Kolik vážení to stálo?\n\nSeřaďte všech 8 řazením výběrem (vždy najdi nejlehčí zbylou) a počítejte vážení.\n\nRozděl a panuj: vyber náhodnou nádobku, ostatní rozděl na lehčí a těžší, totéž opakuj v každé skupině (quicksort). Porovnejte počty vážení.\n\nZávěr: proč na metodě záleží, když se řadí milion položek?",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/07-trideni-zavazi.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/sorting-algorithms/"
+  }
+}

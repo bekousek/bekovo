@@ -1,0 +1,45 @@
+{
+  "id": "kodovani-csu-kid-krypto",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Kid Krypto — šifrování veřejným klíčem",
+  "url": "https://classic.csunplugged.org/activities/public-key-encryption/",
+  "description": "Nejnáročnější aktivita knihy: žáci šifrují číslo pomocí veřejné mapy a jen majitel tajné verze mapy ho umí rozluštit. Princip šifrování, na kterém stojí HTTPS.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "veřejný klíč",
+    "asymetrická šifra",
+    "HTTPS",
+    "kryptografie",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí princip šifrování veřejným klíčem — zamknout umí každý, odemknout jen majitel klíče.",
+  "materials": [
+    "Pro čtveřici 2 kopie listu Kid Krypto Maps (PDF)",
+    "Projekce listu Kid Krypto Encoding"
+  ],
+  "procedure": "Motivace: visací zámky na stole — každý může zaklapnout zámek Billa, otevřít ho umí jen Bill. Jde to i digitálně?\n\nNa projekci ukaž Billovu veřejnou mapu. Amy na každou křižovatku napíše náhodné číslo tak, aby součet dal tajnou zprávu. Pak za každou křižovatku sečte ji a její sousedy a pošle jen tyto součty.\n\nBill zná tajnou verzi mapy (vybrané křižovatky, jejichž okolí pokryje mapu přesně jednou). Sečte součty jen na nich — a má zprávu.\n\nČtveřice: dvojice si navzájem posílají zašifrovaná čísla. Kdo zkusí rozluštit bez klíče?\n\nPředem je potřeba aktivita Zmrzlinové vozy, ideálně i Sdílení tajemství a Peruánská mince.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/19-kid-krypto.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/public-key-encryption/"
+  }
+}

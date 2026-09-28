@@ -1,0 +1,52 @@
+{
+  "id": "programovani-csu-ledove-cesty",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Ledové cesty — Steinerovy stromy",
+  "url": "https://classic.csunplugged.org/activities/steiner-trees/",
+  "description": "Venku s kolíky a provázkem: skupiny propojují „vrty“ na zamrzlém jezeře co nejkratší sítí cest. Přidaná křižovatka mimo vrty cestu zkrátí!",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "Steinerův strom",
+    "nejkratší síť",
+    "venku",
+    "geometrie",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zjistí, že malá změna zadání (smí se přidat nové body) udělá z jednoduché úlohy velmi těžkou.",
+  "materials": [
+    "Pro skupinu 5–6 kolíků (stanové kolíky)",
+    "Několik metrů provázku nebo gumy",
+    "Metr nebo pravítko",
+    "Papír a tužka"
+  ],
+  "procedure": "Příběh: na zamrzlých jezerech v Kanadě pluhy prorážejí cesty mezi vrty. Cesty musí propojit všechny vrty a mít co nejmenší celkovou délku.\n\nSkupiny zatlučou 3 kolíky do trojúhelníku a zkoušejí je propojit provázkem co nejkratší sítí. Změří délku.\n\nObjevte, že přidání křižovatky uprostřed (úhly 120°) síť zkrátí. Pokračujte se 4 kolíky do čtverce a dalšími tvary.\n\nZávěr: srovnej s úlohou o minimální kostře (Blátov) — tam se nové body přidávat nesměly a úloha byla snadná; tady je extrémně těžká i pro počítač.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/16-ledove-cesty.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/steiner-trees/"
+  }
+}

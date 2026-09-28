@@ -18,16 +18,17 @@
     "binární",
     "dvojková soustava",
     "unplugged",
-    "bity"
+    "bity",
+    "CS Unplugged"
   ],
   "goal": "Žáci pochopí, že počítač ukládá čísla jen pomocí zapnuto/vypnuto, a umí převést malé číslo do dvojkové soustavy.",
   "materials": [
     "Kartičky s 1, 2, 4, 8 a 16 tečkami — velká sada k tabuli + malé sady do skupin (PDF níže)",
     "Tabule"
   ],
-  "procedure": "Pět žáků před tabulí drží kartičky seřazené zprava doleva: 1, 2, 4, 8, 16. Třída hledá pravidlo — každá další kartička má dvakrát víc teček.\n\nZadávej čísla (např. 5, 10, 21) a žáci otáčejí kartičky lícem/rubem tak, aby součet viditelných teček dal zadané číslo. Otočená = 0, viditelná = 1. Zapiš na tabuli jako řadu nul a jedniček.\n\nVe skupinách: převádějte čísla 0–31 a hledejte, jak se chová nejpravější kartička (sudá/lichá čísla).\n\nZávěr: kolik čísel zvládneme s 5 kartičkami? A se 6? Propojení na bity a bajty.",
+  "procedure": "Pět žáků před tabulí drží kartičky seřazené zprava doleva: 1, 2, 4, 8, 16. Třída hledá pravidlo — každá další kartička má dvakrát víc teček.\n\nZadávej čísla (např. 5, 10, 21) a žáci otáčejí kartičky lícem/rubem tak, aby součet viditelných teček dal zadané číslo. Otočená = 0, viditelná = 1. Zapiš na tabuli jako řadu nul a jedniček.\n\nVe skupinách: převádějte čísla 0–31 a hledejte, jak se chová nejpravější kartička (sudá/lichá čísla).\n\nZávěr: kolik čísel zvládneme s 5 kartičkami? A se 6? Propojení na bity a bajty.\n\nNa webu CS Unplugged navazují lekce „Codes for letters using binary representation“ (zprávy z písmen v binárce) a „Reinforcing sequencing in binary number systems“.",
   "source": {
-    "label": "CS Unplugged — Binary numbers",
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
     "url": "https://www.csunplugged.org/en/topics/binary-numbers/"
   },
   "added": "2026-09-27",
@@ -37,6 +38,14 @@
       "href": "/informatika-soubory/binarni-karticky.pdf",
       "type": "pdf",
       "note": "Strany 1–5: velké kartičky k tabuli (A4 na šířku). Strana 6: dvě sady malých kartiček do skupin na stříhání."
+    },
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/01-binarni-cisla.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
     }
-  ]
+  ],
+  "url": "https://www.csunplugged.org/en/topics/binary-numbers/how-binary-digits-work/",
+  "language": "cs"
 }

@@ -1,0 +1,51 @@
+{
+  "id": "ovladani-csu-tovarna-na-cokoladu",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "navrh-rozhrani",
+  "title": "Továrna na čokoládu — návrh rozhraní",
+  "url": "https://classic.csunplugged.org/activities/human-interface-design/",
+  "description": "Umpa-lumpové si nepamatují, jak otvírat dveře a zapínat plotýnky. Žáci navrhují ovládání tak, aby bylo pochopitelné bez návodu — dveře, sporák, ikony.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "uživatelské rozhraní",
+    "UX",
+    "design",
+    "ikony",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci si všimnou, že za „chybou uživatele“ bývá špatný návrh, a naučí se posuzovat, jestli je ovládání srozumitelné.",
+  "materials": [
+    "Pro skupinu listy How do you open doors? a Stove top (PDF)",
+    "Obrázky ikon k projekci (PDF)",
+    "Rozstříhané karty s ikonami (PDF)"
+  ],
+  "procedure": "Příběh: nová čokoládovna pro Umpa-lumpy, kteří si nic nepamatují a neumí číst.\n\nDveře: skupiny u obrázků dveří určují, jestli se tlačí, táhnou, nebo posouvají — a podle čeho to poznají. Které dveře jsou matoucí?\n\nSporák: které rozmístění knoflíků odpovídá kterým plotýnkám? Navrhněte lepší.\n\nIkony: skupiny hádají, co ikony znamenají, a navrhnou vlastní pro činnosti v továrně.\n\nZávěr: kde vás zlobí špatně navržené ovládání — mobil, dálkový ovladač, web?",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/20-tovarna-na-cokoladu.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/human-interface-design/"
+  }
+}

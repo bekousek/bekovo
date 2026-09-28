@@ -1,0 +1,50 @@
+{
+  "id": "programovani-csu-zmrzlinove-vozy",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Turistické městečko — zmrzlinové vozy",
+  "url": "https://classic.csunplugged.org/activities/dominating-sets/",
+  "description": "Kam postavit co nejméně zmrzlinových vozů, aby to měl každý nejvýš jeden blok? Žáci žetony hledají dominující množinu — překvapivě těžký problém.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "dominující množina",
+    "grafy",
+    "optimalizace",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci řeší optimalizační úlohu na grafu a poznají, že některé úlohy nemají rychlé řešení a jiné se dají snadno zadat pozpátku (jednosměrná funkce).",
+  "materials": [
+    "Pro skupinu mapa Ice Cream Vans (PDF)",
+    "Žetony dvou barev",
+    "Řešení k promítnutí (PDF)"
+  ],
+  "procedure": "Příběh: ve velmi horkém městě parkují zmrzlinové vozy na křižovatkách. Každý musí mít vůz nejvýš jeden blok od sebe.\n\nUkaž, jak položit žeton (vůz) a druhou barvou označit křižovatky, které obslouží.\n\nSkupiny zkoušejí rozmístění a snaží se snížit počet vozů. Na mapě stačí 6 vozů.\n\nProzraď trik: mapa vznikla ze 6 „hvězdiček“, které se pak zamaskovaly dalšími ulicemi — kdo zná původní hvězdičky, zná řešení. Tak fungují jednosměrné funkce v šifrování.\n\nNavazují aktivity Kid Krypto a Peruánské házení mincí.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/15-zmrzlinove-vozy.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/dominating-sets/"
+  }
+}

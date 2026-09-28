@@ -1,0 +1,39 @@
+{
+  "id": "kodovani-csu-kontrolni-cislice",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Kontrolní číslice v čárovém kódu",
+  "url": "https://www.csunplugged.org/en/topics/error-detection-and-correction/product-code-check-digits/",
+  "description": "Žáci přepočítají kontrolní číslici čárových kódů na obalech z domova a zjistí, jak pokladna pozná překlep.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "čárový kód",
+    "EAN",
+    "kontrolní součet",
+    "modulo",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci umí spočítat kontrolní číslici 12- a 13místného kódu a vysvětlí, proč odhalí překlep.",
+  "materials": [
+    "Obaly s 12- nebo 13místným čárovým kódem",
+    "Plakát Barcode Checksum (na webu lekce)",
+    "Tabule"
+  ],
+  "procedure": "Úvod: kontrolujete účtenku v obchodě? Jak pokladna pozná, že se kód načetl správně?\n\nUkaž výpočet: číslice střídavě násob 1 a 3, sečti, a kontrolní číslice doplní součet do nejbližšího násobku 10.\n\nŽáci ve dvojicích ověřují kódy na obalech. Pak jednu číslici změní a zkusí, jestli to kontrola odhalí.\n\nZávěr: kde další se kontrolní číslice používají (ISBN, rodné číslo, číslo účtu)?",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/error-detection-and-correction/product-code-check-digits/"
+  }
+}

@@ -18,6 +18,10 @@
     {
       "id": "sifry",
       "name": "Šifry a šifrování"
+    },
+    {
+      "id": "komprese-a-chyby",
+      "name": "Komprese a oprava chyb"
     }
   ]
 }

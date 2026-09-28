@@ -1,0 +1,50 @@
+{
+  "id": "programovani-csu-pochodove-rozkazy",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Pochodové rozkazy — přesné instrukce",
+  "url": "https://classic.csunplugged.org/activities/programming-languages/",
+  "description": "Jeden žák popisuje obrázek, ostatní kreslí jen podle jeho slov. Rozdíly ukážou, proč musí být program přesný — počítač dělá doslova, co mu řekneš.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "instrukce",
+    "programovací jazyk",
+    "diktát obrázku",
+    "přesnost",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zažijí, jak těžké je dát jednoznačné instrukce, a pochopí, proč mají programovací jazyky přesně danou sadu příkazů.",
+  "materials": [
+    "Karty s jednoduchými obrázky z tvarů (PDF)",
+    "Papír, tužka a pravítko pro každého"
+  ],
+  "procedure": "Diskuse: co by se stalo, kdyby lidé plnili pokyny doslova („projdi těmi dveřmi“ u zavřených dveří)?\n\nUkázka: nadiktuj 4 kroky (tečka uprostřed, úhlopříčky, jméno v levém trojúhelníku) a porovnejte výsledky.\n\nJeden žák dostane kartu s obrázkem a popisuje ho zády ke třídě — bez gest a bez otázek. Ostatní kreslí.\n\nPorovnejte obrázky s předlohou. Které pokyny byly nejasné? Zopakujte s dalším obrázkem, teď se smí ptát.\n\nVarianta: žáci si napíšou instrukce předem jako „program“ a vymění si je.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/13-pochodove-rozkazy.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/programming-languages/"
+  }
+}

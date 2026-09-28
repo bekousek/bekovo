@@ -1,0 +1,39 @@
+{
+  "id": "programovani-csu-zachranna-mise",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Kidbots: Záchranná mise",
+  "url": "https://www.csunplugged.org/en/topics/kidbots/rescue-mission/",
+  "description": "Jeden žák je robot na mřížce, druhý mu šipkami skládá program, třetí hlídá chyby. Robot musí dojít k cíli a nikam nenarazit.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "robot",
+    "šipky",
+    "mřížka",
+    "ladění",
+    "Kidbots",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci dávají a plní přesné instrukce, všímají si chyb v „programu“ a opravují je.",
+  "materials": [
+    "Karty se šipkami (na webu lekce)",
+    "Mřížka 8 × 8 (na podlaze nebo papírová z webu)",
+    "Odznaky rolí (na webu lekce)",
+    "Karty vlevo/vpravo pro ty, kdo si stranu pletou"
+  ],
+  "procedure": "Trojice: programátor, robot a tester (odznaky rolí). Na mřížce je robot a cíl, který je potřeba „zachránit“.\n\nProgramátor skládá šipky (vpřed, otoč vlevo, otoč vpravo), robot je provádí doslova, tester hlídá chyby.\n\nKdyž robot nedojde, trojice najde chybu v programu a opraví ji (ladění).\n\nRole se prohodí, přidejte překážky.\n\nReflexe: proč musí být instrukce tak přesné?",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/kidbots/rescue-mission/"
+  }
+}

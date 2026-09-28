@@ -1,0 +1,48 @@
+{
+  "id": "programovani-csu-lode-vyhledavani",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Lodě — vyhledávací algoritmy",
+  "url": "https://classic.csunplugged.org/activities/searching-algorithms/",
+  "description": "Hra na lodě, kde lodě mají čísla: žáci zkoušejí najít cíl co nejméně výstřely a objeví sekvenční hledání, půlení intervalu a hashování.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "vyhledávání",
+    "binární vyhledávání",
+    "hashování",
+    "lodě",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci porovnají lineární a binární vyhledávání a hashování a chápou, proč je seřazený seznam rychlejší.",
+  "materials": [
+    "Herní listy 1A/1B, 2A/2B, 3A/3B pro dvojice (PDF)",
+    "Na úvod ~15 kartiček s čísly a pár bonbonů nebo žetonů"
+  ],
+  "procedure": "Úvod: 15 žáků drží kartičky s čísly (neukazují je). Hledač „platí“ bonbonem za každé otočení. Pak se žáci seřadí podle velikosti a hledá se znovu — půlením stačí 3–4 bonbony.\n\nHra 1 (neseřazené lodě): dvojice hledají loď se zadaným číslem, počítají výstřely.\n\nHra 2 (seřazené lodě): stejně, ale čísla jsou seřazená — žáci objeví půlení.\n\nHra 3 (hashování): sloupec lodi se dá spočítat z ciferného součtu čísla.\n\nZávěr: která strategie je nejrychlejší a proč? Kde počítač vyhledává?\n\nNa novém webu je téma rozpracované do lekcí „How many guesses?“, „Divide and conquer“ a „The Great Number Hunt“.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/06-lode-vyhledavani.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/searching-algorithms/"
+  }
+}

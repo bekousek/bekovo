@@ -1,0 +1,38 @@
+{
+  "id": "kodovani-csu-komprese-obrazku",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Zmáčkni obrázek — komprese obrázků",
+  "url": "https://www.csunplugged.org/en/topics/image-representation/squeezing-pictures-into-less-space/",
+  "description": "Žáci podle čísel vybarvují obrázky a sami kódují vlastní vzory metodou run-length — obrázek zabere míň místa.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "komprese",
+    "run-length",
+    "pixely",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci umí zakódovat černobílý obrázek run-length kódováním a vysvětlí, proč se obrázky komprimují.",
+  "materials": [
+    "Pracovní listy Run Length Encoding (generují se na webu lekce)",
+    "Tužky a gumy"
+  ],
+  "procedure": "Navazuje na kódování obrázku do pixelů. Otázka: jak ušetřit místo, když má obrázek dlouhé řady stejných pixelů?\n\nUkaž kódování řádku jako počty střídajících se bílých a černých pixelů. Žáci podle kódu vybarví obrázek z listu.\n\nŽáci vytvoří vlastní vzor, převedou ho na kód a vymění si ho se spolužákem.\n\nReflexe: kdy komprese pomáhá hodně a kdy skoro vůbec (šachovnice)?",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/image-representation/squeezing-pictures-into-less-space/"
+  }
+}

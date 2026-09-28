@@ -1,0 +1,38 @@
+{
+  "id": "programovani-csu-modulo",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Modulo bez počítače — počítání na ciferníku",
+  "url": "https://www.csunplugged.org/en/topics/kidbots/modulo/",
+  "description": "Hodiny, klávesy piána a kruhová trať vlaku: žáci objeví operaci modulo (zbytek po dělení), kterou programy používají na každém kroku.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "modulo",
+    "zbytek po dělení",
+    "hodiny",
+    "matematika",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci chápou modulo jako „počítání dokola“ a najdou ho v běžném životě.",
+  "materials": [
+    "Ciferník, klávesy piána nebo nádraží s kruhovou tratí (na webu lekce)",
+    "Žetony"
+  ],
+  "procedure": "Otázka: který měsíc přijde 5 měsíců po listopadu? Kolik bude hodin za 10 hodin?\n\nŽáci posouvají žeton po ciferníku o zadaný počet kroků a zapisují, kde skončí.\n\nTotéž na klávesách piána (po 12 půltónech se opakuje stejný tón) a na kruhové trati.\n\nPojmenujte to: modulo = zbytek po dělení. Kde se v informatice používá — kontrolní číslice, želví grafika (360°), hashování.",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/kidbots/modulo/"
+  }
+}
