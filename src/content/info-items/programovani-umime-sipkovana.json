@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-sipkovana",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Šipkovaná",
+  "description": "Žáci pokládají do lesa šipky, aby skřítci došli domů, posbírali hříbky, nesrazili se a nespadli do vody. Průprava na programátorské myšlení už pro 1. stupeň.",
+  "type": "hra",
+  "keywords": [
+    "šipky",
+    "skřítci",
+    "první stupeň",
+    "programátorské myšlení",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/sipkovana",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/sipkovana"
+  },
+  "added": "2026-09-29"
+}

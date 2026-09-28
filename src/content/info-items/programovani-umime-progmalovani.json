@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-progmalovani",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "ProgMalování",
+  "description": "Programování a malování zároveň: žáci skládají z bloků program, který nakreslí zadaný obrázek. Pro úplné začátečníky a 1. stupeň.",
+  "type": "aktivita",
+  "keywords": [
+    "bloky",
+    "malování",
+    "začátečníci",
+    "první stupeň",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/malovani",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/malovani"
+  },
+  "added": "2026-09-29"
+}

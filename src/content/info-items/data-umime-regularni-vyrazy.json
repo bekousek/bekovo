@@ -1,0 +1,24 @@
+{
+  "id": "data-umime-regularni-vyrazy",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Regulární výrazy",
+  "description": "Vyhledávání v textu pomocí regulárních výrazů — od jednoduchých rozcviček po „černou magii“. Spíš pro starší a zdatnější žáky.",
+  "type": "aktivita",
+  "keywords": [
+    "regex",
+    "vyhledávání v textu",
+    "vzory",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/regularni-vyrazy",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/regularni-vyrazy"
+  },
+  "added": "2026-09-29"
+}

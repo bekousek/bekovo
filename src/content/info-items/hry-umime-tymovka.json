@@ -1,0 +1,23 @@
+{
+  "id": "hry-umime-tymovka",
+  "categoryId": "hry",
+  "title": "Týmovka",
+  "description": "Třídní kvíz: učitel založí hru z libovolného tématu Umíme informatiku, všichni odpovídají na stejné otázky a po každé se ukáže, kolik jich odpovědělo správně.",
+  "type": "hra",
+  "keywords": [
+    "kvíz",
+    "více hráčů",
+    "opakování",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/tymovka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/tymovka"
+  },
+  "added": "2026-09-29"
+}

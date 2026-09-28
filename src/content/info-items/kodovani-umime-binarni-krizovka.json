@@ -1,0 +1,24 @@
+{
+  "id": "kodovani-umime-binarni-krizovka",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "Binární křížovka",
+  "description": "Křížovka z nul a jedniček, která musí splnit všechny podmínky. Procvičuje binární čísla a logické spojky.",
+  "type": "aktivita",
+  "keywords": [
+    "binární čísla",
+    "logické spojky",
+    "křížovka",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/binarni-krizovka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/binarni-krizovka"
+  },
+  "added": "2026-09-29"
+}

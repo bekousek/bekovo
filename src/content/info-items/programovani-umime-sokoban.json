@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-sokoban",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Sokoban",
+  "description": "Dotlač všechny bedýnky na určená místa — jen dopředu a vždy jen jednu. Přes 100 zadání od velmi lehkých po velmi těžká.",
+  "type": "hra",
+  "keywords": [
+    "bedny",
+    "bludiště",
+    "plánování",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/sokoban",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/sokoban"
+  },
+  "added": "2026-09-29"
+}

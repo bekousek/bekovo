@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-python-zelva",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Python želva",
+  "description": "Želví grafika v Pythonu 3 — stejné úlohy jako blokové kreslení, jen se píšou textově. Přirozený krok z bloků k textu.",
+  "type": "aktivita",
+  "keywords": [
+    "Python",
+    "želva",
+    "turtle",
+    "přechod na text",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/python-zelva",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/python-zelva"
+  },
+  "added": "2026-09-29"
+}

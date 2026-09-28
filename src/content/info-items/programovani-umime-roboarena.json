@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-roboarena",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "RoboAréna",
+  "description": "Soutěž pro celou třídu: každý žák naprogramuje z bloků svého robota a roboti v aréně bojují o diamanty. Hraje se proti spolužákům nebo proti počítači.",
+  "type": "hra",
+  "keywords": [
+    "soutěž",
+    "více hráčů",
+    "robot",
+    "bloky",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/roboarena",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/roboarena"
+  },
+  "added": "2026-09-29"
+}

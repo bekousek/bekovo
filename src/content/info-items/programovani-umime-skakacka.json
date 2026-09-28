@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-skakacka",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Skákačka",
+  "description": "Číselné bludiště: skáče se vždy o tolik, kolik ukazuje políčko, a cílem je pravý dolní roh.",
+  "type": "hra",
+  "keywords": [
+    "bludiště",
+    "čísla",
+    "cesta",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/skakacka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/skakacka"
+  },
+  "added": "2026-09-29"
+}

@@ -7,6 +7,7 @@ Rutina `/nightly-fill` se jí **nedotýká**.
 
 - `/informatika` — rozcestník oblastí + hledání a filtry napříč vším
 - `/informatika/<oblast>` — karty seskupené podle podoblastí, s hledáním
+
 **Zásada: na web patří jen hotové hodiny a aktivity — konkrétní zadání, co
 s dětmi dělat.** Samotná platforma (Scratch, Tinkercad, E-Bezpečí…) kartu
 nedostane; kartu dostane až konkrétní aktivita na ní. Stránka, na které se

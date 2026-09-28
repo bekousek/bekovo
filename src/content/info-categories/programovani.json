@@ -25,7 +25,12 @@
     {
       "id": "algoritmizace",
       "name": "Algoritmizace",
-      "description": "Algoritmy, řazení, hledání, logické úlohy."
+      "description": "Algoritmy, čtení programů, funkce a rekurze."
+    },
+    {
+      "id": "logicke-ulohy",
+      "name": "Logické úlohy",
+      "description": "Hlavolamy, které trénují plánování a programátorské myšlení."
     }
   ]
 }

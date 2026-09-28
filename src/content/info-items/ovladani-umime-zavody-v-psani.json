@@ -1,0 +1,24 @@
+{
+  "id": "ovladani-umime-zavody-v-psani",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Závody v psaní",
+  "description": "Závod pro celou třídu: všichni naráz přepisují stejný text — kdo píše rychleji a správně?",
+  "type": "hra",
+  "keywords": [
+    "psaní všemi deseti",
+    "soutěž",
+    "více hráčů",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/zavody-v-psani",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/zavody-v-psani"
+  },
+  "added": "2026-09-29"
+}

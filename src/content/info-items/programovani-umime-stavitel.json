@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-stavitel",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Stavitel",
+  "description": "Stavitel Standa nosí kameny, kácí les a staví domy i hrady podle blokového programu žáků. Počet bloků bývá omezený, takže je nutné přemýšlet nad cykly.",
+  "type": "aktivita",
+  "keywords": [
+    "bloky",
+    "cykly",
+    "omezený počet bloků",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/stavitel",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/stavitel"
+  },
+  "added": "2026-09-29"
+}

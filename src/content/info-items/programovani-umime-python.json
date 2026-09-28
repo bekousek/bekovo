@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-python",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Programování v Pythonu",
+  "description": "Žáci píšou v prohlížeči programy v Pythonu 3, které pracují s textem a čísly, a hned se jim automaticky vyhodnotí.",
+  "type": "aktivita",
+  "keywords": [
+    "Python",
+    "automatické vyhodnocení",
+    "text",
+    "čísla",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/programovani-v-pythonu",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/programovani-v-pythonu"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "programovani-umime-robotanik",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Robotanik",
+  "description": "Jednoduchá pravidla, spousta úloh: základní zvládnou začátečníci, pokročilé potrápí i zkušené programátory a jsou výborný trénink rekurze.",
+  "type": "aktivita",
+  "keywords": [
+    "funkce",
+    "rekurze",
+    "bloky",
+    "robot",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/robotanik",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/robotanik"
+  },
+  "added": "2026-09-29"
+}
