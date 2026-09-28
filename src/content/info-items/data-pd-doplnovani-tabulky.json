@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-doplnovani-tabulky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Doplňování tabulky podle pravidel",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/20-evidujeme-priklad-2",
+  "description": "Řádky tabulky se plní obrázky, které různě znázorňují čísla (kostky, hodiny, karty…), a to v pořadí daném textem.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "tabulka",
+    "řazení",
+    "pravidla evidence",
+    "obrázky čísel",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák eviduje data v tabulce podle pravidel daných záhlavím a doprovodným textem a seřadí je.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "První řádek — před prací: Kde zjistíte, které obrázky patří do řádku? (V záhlaví řádku.) Žáci vyplní jen první řádek, nic dalšího.\n\nDiskuse: Podle čeho jste poznali, kam dát obrázek pro které číslo? Museli vzít v potaz kritérium řazení čísel z textu a počet buněk v řádku. Kdo má v textu lichá čísla 1, 3, 5, 7, 9? Sbírejte počty do tabulky na tabuli a nechte si od žáků poradit názvy záhlaví — i 0 je číslo.\n\nPak postupně další řádky; Datík se objeví po každém správně doplněném řádku. Na rozdíl od Vytvoření tabulky čísla v řádku nemusí jít po sobě.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: navazuje na Vytvoření tabulky, následují Slovníky.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/doplnovani-tabulky-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/20-evidujeme-priklad-2"
+  },
+  "added": "2026-09-29"
+}

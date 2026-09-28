@@ -1,0 +1,50 @@
+{
+  "id": "data-zi1-obrazkove-modely",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Modely jevů: koloběh vody a zasedací pořádek",
+  "description": "Žáci podle obrázku bez popisků vysvětlují koloběh vody, vymýšlejí modely sluneční soustavy a kreslí zasedací pořádek třídy.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "model",
+    "schéma",
+    "diagram",
+    "koloběh vody",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí obrázku znázorní jev a porovná, co různé modely ukazují a co vynechávají.",
+  "materials": [
+    "Pracovní list 8.2 — koloběh vody (PDF níže)",
+    "Papír, případně počítač (zasedací pořádek)"
+  ],
+  "procedure": "Zvídavá otázka: Jaké jevy kolem nás vysvětlujeme obrázky, schématy či diagramy? Koloběh vody, sluneční soustava, potravní pyramida, křižovatky…\n\nKoloběh vody (PL 8.2): začněte u velké vodní plochy a popište, co znamenají jednotlivé prvky obrázku (šipky nahoru = vypařování, vodní plocha může být moře i jezero). Žáci by jev měli znát, obrázek ne; jinak zvolte jiný obrázkový model bez slov. Nebojte se pracovat i s nejednoznačností prvků.\n\nZvídavá otázka: Jak můžeme znázornit sluneční soustavu a ukázat ji někomu jinému? Kreslené kuličky, drátěný model s drahami, aplet… Podněcujte k principiálně odlišným modelům a ať žáci vysvětlí, co jejich model ukazuje.\n\nZasedací pořádek: vytvořte zasedací pořádek vaší třídy v této učebně — na papír, nebo elektronicky. Nástroj neurčujte, volba nástroje ovlivňuje výsledný model. Rychlejší vytvoří pořádky pro různé situace (skupinová práce, diskuse).\n\nZvídavá otázka: V čem se zasedací pořádky liší a co mají společného? Stoly bývají schematické, bez dodržení poměru; někdo kreslí uličky, někdo fotky, jinému stačí jména. Zdůrazněte důležité prvky (místa, jména, orientace plánku) a to, co k orientaci nepotřebuji.\n\nRozšíření: vytvořte diagram, který pomůže převádět jednotky délky.\n\nShrnutí: Modely vytváříme, když potřebujeme jev někomu znázornit nebo vysvětlit. Liší se podrobností a přesností — nepodstatné věci zanedbáváme.",
+  "files": [
+    {
+      "label": "Pracovní list 8.2 — koloběh vody",
+      "href": "/informatika-soubory/imysleni/zi1-8-2-kolobeh-vody.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 33–34 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=33",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "internet-zi2-posta-a-email",
+  "categoryId": "internet",
+  "subcategoryId": "komunikace",
+  "title": "Jak putuje dopis a jak e-mail",
+  "description": "Na jednu stranu papíru žáci nakreslí cestu dopisu poštou, na druhou cestu e-mailu — a porovnají, v čem se oba systémy podobají.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "e-mail",
+    "pošta",
+    "komunikace",
+    "spam",
+    "hlavička e-mailu",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše e-mail jako systém a vysvětlí, proč zpráva nemusí dorazit.",
+  "materials": [
+    "Papír pro každého žáka"
+  ],
+  "procedure": "Zvídavá otázka: Co potřebuju, když posílám zásilku poštou? Obsah a adresu (jméno, ulice a číslo, PSČ, město, případně stát).\n\nCesta dopisu: na jednu stranu papíru popište či nakreslete, jak se dopis dostane z rukou pisatele do rukou adresáta. Např. napsání — schránka — sběrný přepravní uzel — třídění podle adresy — rozvoz na poštu (auto, vlak, letadlo) — doručení do schránky.\n\nZvídavá otázka: Co potřebuju k odeslání e-mailu? Vlastní schránku u poskytovatele a adresu příjemce: uživatelské jméno, @ a server poskytovatele (v Česku obvykle .cz).\n\nCesta e-mailu: na druhou stranu papíru nakreslete, jak si představujete elektronickou komunikaci. Protokoly v tom nebudou a nevadí to. S časem porovnejte oba principy ve dvojicích (jeden ukáže poštu, druhý e-mail). Nechcete kreslit? Zahrajte to jako divadlo.\n\nZvídavá otázka: Jak se může stát, že e-mail nedorazí? Chybná adresa, plná schránka, zablokování serverem jako nebezpečné, přesun do spamu.\n\nRozšíření: Co najdeme v hlavičce e-mailu a co tam zadává uživatel? Odesílatel, příjemci (kromě skryté kopie), datum, předmět, příznaky — datum a příznaky se doplní samy. Pomůže výpis došlé pošty.\n\nShrnutí: Internet je systém technických prvků, uživatelů, pravidel a služeb. Mezi nejznámější služby patří web a e-mail, který je sám také systém.",
+  "files": [
+    {
+      "label": "Učebnice, str. 58–60 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=58",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

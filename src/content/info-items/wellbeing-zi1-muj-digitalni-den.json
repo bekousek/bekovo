@@ -1,0 +1,49 @@
+{
+  "id": "wellbeing-zi1-muj-digitalni-den",
+  "categoryId": "digitalni-wellbeing",
+  "subcategoryId": "cas-u-obrazovky",
+  "title": "Zkratky v chatu a můj digitální den",
+  "description": "Žáci vysvětlují chatové zkratky (THX, BTW, LOL…) a do tabulky poctivě zapisují, co a jak dlouho dělají na digitálních zařízeních.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "čas u obrazovky",
+    "chat",
+    "zkratky",
+    "mobil",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák si uvědomí, které činnosti během dne dělá s digitální technologií a kolik času jimi tráví.",
+  "materials": [
+    "Pracovní list 13.3 — tabulka zařízení, aplikace, činnost, doba (PDF níže)"
+  ],
+  "procedure": "Zkratky: pojďte po jednom k tabuli napsat slušnou zkratku z online komunikace a říct její význam — JJ, NZ, PLS, THX, ASAP, BTW, FYI, IMHO, LOL, OMG… Počítejte s tím, že padnou i vulgární zkratky. Zkratky jsou také způsob kódování slov.\n\nZvídavá otázka: K čemu běžně používáš chytrý telefon? Telefonování, hledání spojení, výsledky zápasů, videoklipy…\n\nMůj digitální den (PL 13.3): vyplňte poctivě tabulku — zařízení, aplikace, činnost a doba v minutách, dole celkem. Přidejte dost řádků; vyplňovat lze chronologicky i souhrnně. Nejde jen o to, které činnosti dělám s technologií, ale i kolik času tak trávím.\n\nTip: přesnější měření mohou žáci udělat doma s rodiči, některé aplikace čas zaznamenávají samy. Aktivitu doplňte diskusí o tom, co na počítači dělají rodiče v zaměstnání.",
+  "files": [
+    {
+      "label": "Pracovní list 13.3 — tabulka mého digitálního dne",
+      "href": "/informatika-soubory/imysleni/zi1-13-3-muj-digitalni-den.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 49 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=49",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

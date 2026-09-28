@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-zi1-kartoteka-a-dvojkova-cisla",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "Policejní kartotéka a první dvojková čísla",
+  "description": "Žáci popíšou spolužáka dvoumístnými kódy (výška, oči, vlasy) a pak do mřížky vypisují dvojková čísla od 000 do 111.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "dvojková soustava",
+    "binární",
+    "bity",
+    "kód",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zjistí, že počet číslic kódu určuje, kolik možností rozliší, a objeví pravidelnost dvojkových čísel.",
+  "materials": [
+    "Pracovní list 4.5 — mřížka 8 × 3 (PDF níže)",
+    "Tabule"
+  ],
+  "procedure": "Kartotéka: vyšetřovatelé potřebují popis podle svědků. Kódy — výška: malá 00, střední 01, vysoká 10, nevím 11; oči: modré 00, zelené 01, hnědé 10, jiné 11; vlasy: blond 00, hnědé 01, černé 10, jiné 11. Každý zakóduje sám sebe (pořadí znaků je vždy stejné), pak kódem popíše někoho ze třídy a soused hádá, o koho jde.\n\nDiskuse: Stačily tři znaky k jednoznačné identifikaci? (Bez kombinatoriky.) A co když chci rozlišit víc než čtyři hodnoty — plešatý, šedivý — a pořád používat jen 0 a 1? Přidáním jednoho místa získám až osm hodnot.\n\nRozšíření — dvojková čísla (PL 4.5): co se v desítkové soustavě stane, když dojdou číslice? Stejný princip použijte jen s 0 a 1 a do mřížky 8 × 3 vypište po sobě jdoucí dvojková čísla 000 až 111. Kdo si neumí představit přechod mezi řády, udělá nejdřív stejnou mřížku s „normálními“ čísly. Přidejte sloupec s desítkovým číslem — prekoncept převodu.\n\nZvídavá otázka: Jak mřížku vyplnit rychle a bez chyby? V pravém sloupci se 0 a 1 střídají po jedné, v prostředním po dvou, v levém po čtyřech. V přidaném sloupci by se střídaly po osmi a zobrazená část by se zkopírovala. Nakreslete na tabuli nebo připravte v tabulkovém editoru.\n\nShrnutí: Informace můžeme kódovat i čísly, pokud jsou dána pravidla přiřazení. Pro lepší orientaci má každý znak stejný počet číslic — a na počtu číslic závisí počet možností, které rozliším.",
+  "files": [
+    {
+      "label": "Pracovní list 4.5 — mřížka na dvojková čísla",
+      "href": "/informatika-soubory/imysleni/zi1-4-5-dvojkova-cisla.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 19–20 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=19",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

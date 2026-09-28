@@ -1,0 +1,50 @@
+{
+  "id": "data-zi2-obedovy-system-a-zakovska",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Informační systémy: obědy a elektronická žákovská",
+  "description": "Žáci vyplní kartu uživatele obědového systému a ve skupinách rozeberou role v elektronické žákovské — co smí žák, učitel, rodič a administrátor.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "informační systém",
+    "uživatelské role",
+    "účet",
+    "osobní údaje",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše pomocí modelu informační systém, se kterým ve škole pracuje, a jeho uživatelské role.",
+  "materials": [
+    "Pracovní list 12.3 — karta uživatele obědového systému (PDF níže)",
+    "Tabule"
+  ],
+  "procedure": "Zvídavá otázka: Kolik uživatelů může pracovat na jednom počítači a jak je rozezná? Profily v operačním systému, účty v cloudu, e-mail, žákovská, čtenářské konto. Neprobrali-li jste to na 1. stupni, diskutujte, který způsob ověření identity je nejbezpečnější a jaké zařízení k němu počítač potřebuje.\n\nZvídavá otázka: Proč se vyžaduje účet s ověřením identity? Přihlášení je jednoznačná identifikace, získám přístup k osobním údajům a na účet jsou navázána práva.\n\nObědový systém (PL 12.3): v jídelně přikládáte kartu či čip ke čtečce. Do karty „LUNCHSYS“ zapište, jaké údaje systém o uživateli asi sbírá — údaje k identifikaci, evidenci objednaných, vydaných a zrušených obědů, informace o přihlášení. Zvídavým můžete otevřít ochranu osobních údajů: co systém nezbytně potřebuje? Nepoužíváte-li obědový systém, vezměte jiný jednoduchý.\n\nElektronická žákovská: ve dvojici rozmyslete, jaké typy uživatelů se do ní přihlašují; společně sepište role na tabuli (žák, vyučující, zákonný zástupce, administrátor, případně třídní, ředitel). Pak čtyři skupiny, každá jedna role: sepište všechny činnosti, které uživatel s touto rolí v systému dělá (žák prohlíží své známky, učitel známky uděluje a mění, administrátor spravuje uživatele…).\n\nSkupiny prezentují, ostatní doplňují. Verdikt neříkejte hned sami, nechte nejdřív diskutovat. Nejde o úplný výčet, ale o postup samotné analýzy.",
+  "files": [
+    {
+      "label": "Pracovní list 12.3 — karta uživatele obědového systému",
+      "href": "/informatika-soubory/imysleni/zi2-12-3-lunchsys.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 53–54 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=53",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

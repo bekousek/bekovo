@@ -1,0 +1,59 @@
+{
+  "id": "kodovani-zi1-zahonek-a-poklad",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Kódujeme čísly: bylinkový záhonek a cesta k pokladu",
+  "description": "Žáci rozmisťují bylinky na záhonek, porovnávají plánky pomocí čísel a podle kódů 010, 001… hledají poklad na mapě.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "čísla",
+    "kód",
+    "mapa",
+    "poklad",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí čísel zakóduje informaci a zjistí, že číselný kód musí mít domluvená pravidla.",
+  "materials": [
+    "Pracovní listy 4.1, 4.2 a 4.3 (PDF níže)"
+  ],
+  "procedure": "Kapitola stojí na hrách — diskusi veďte až po nich. Nejde o definici dvojkové soustavy, ale o zkušenost, že hodnotám v nějaké kategorii se dají přiřadit čísla.\n\nZáhonek (PL 4.1): Martina s Kamilou mají záhonek na dvě řady po pěti a koupily 3 majoránky, 4 bazalky, 2 tymiány a 1 meduňku. Každý navrhne rozmístění a pak ve třídě hledá někoho s nejpodobnějším záhonkem (bod za každou bylinku na stejném místě). Žáci zjistí, že porovnávat se rychleji dá se zkratkou nebo číslicí než s celými slovy.\n\nPlánek s čísly (PL 4.2): holky místo názvů zapsaly do plánku čísla. Jaké bylinky jsou v rozích? Které jsou kolem meduňky? Žáci se budou ptát, co znamená „kolem“ — v řešení stačí, když mají políčka společný aspoň roh.\n\nCesta k pokladu (PL 4.3): Karel zakódoval cestu směry — sever 010, východ 001, jih 101, západ 100. Podle sekvence 010-010-100-101-010-010-010-001-001-001-100-101-101 najdou žáci poklad v zahradním bazénu (cesta není nejkratší).\n\nDiskuse až po hledání: Je číselný zápis jednoznačný? Proč Karel nepoužil písmena S, V, J, Z (v jiném jazyce jsou jiná) nebo šipky (hůř se posílají SMS)? Rychlejším žákům dejte mapu a kód bez pravidel — zjistí, jestli má sekvence víc řešení. Mapku si můžete udělat z památek vašeho města.",
+  "files": [
+    {
+      "label": "Pracovní list 4.1 — bylinkový záhonek",
+      "href": "/informatika-soubory/imysleni/zi1-4-1-bylinkovy-zahonek.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 4.2 — plánek záhonku s čísly",
+      "href": "/informatika-soubory/imysleni/zi1-4-2-planek-zahonku.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 4.3 — mapa a kód cesty k pokladu",
+      "href": "/informatika-soubory/imysleni/zi1-4-3-cesta-k-pokladu.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 18–19 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=18",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-zi2-znakove-sady",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Rozsypaná diakritika: znakové sady Windows-1250 a Latin-2",
+  "description": "Dvě poloviny třídy dekódují stejnou číselnou zprávu podle různých znakových sad — a zjistí, proč se v textu někdy objeví „rozsypaný čaj“.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "znaková sada",
+    "diakritika",
+    "Windows-1250",
+    "Latin-2",
+    "kódování znaků",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí, proč se různé znakové sady mohou lišit, a navrhne vlastní sadu pro češtinu.",
+  "materials": [
+    "Pracovní list 2.4 — tabulky Windows-1250 a Latin-2 (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Jak se kódují česká písmena? Proč se při otevření textu někdy objeví místo nich jiné znaky? Stejným principem jako anglická, jen je potřeba víc čísel. Každý jazyk (někdy i víc sad pro jeden jazyk) má svou znakovou sadu a stejný kód v nich může znamenat něco jiného.\n\nDvě znakové sady (PL 2.4): třídu rozdělte na dvě poloviny, obě dostanou zprávu 84 – 248 – 237 – 154 – 157, každá ale jinou znakovou sadu. Podle Windows-1250 vyjde „Tříšť“, podle Latin-2 jen „Tří“ a dvě čísla nemají přiřazený znak. Číslo 84 budou v rozšířené části hledat marně — je v ASCII, společné všem sadám.\n\nVarianty: víc skupin a víc sad, nebo každý obě sady a porovná sám. Žáci mohou kód upravit podle Latin-2 (84 – 248 – 237 – 185 – 187) nebo vymýšlet slova s co nejvíc diakritikou.\n\nVlastní znaková sada: každý navrhne sadu se znaky, které používáme při psaní v češtině. Diskutujte pořadí znaků a zda nechybí interpunkce, matematické symboly, mezera (i nezlomitelná), @. Dají se s ní napsat všechna příjmení ve třídě a ve sboru?\n\nRozšíření: kódy se hodí na psaní speciálních znaků přes Alt + číslo. Vymysli mnemotechnickou pomůcku např. pro zavináč (64), pomlčku (0150), české uvozovky (0132 a 0147), krát (0215) nebo nezlomitelnou mezeru (0160).\n\nShrnutí: K zakódování textu slouží znakové sady — znaku odpovídá číslo v převodní tabulce a naopak. Různé sady mohou způsobit problémy.",
+  "files": [
+    {
+      "label": "Pracovní list 2.4 — tabulky Windows-1250 a Latin-2",
+      "href": "/informatika-soubory/imysleni/zi2-2-4-znakove-sady.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 11–13 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=11",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

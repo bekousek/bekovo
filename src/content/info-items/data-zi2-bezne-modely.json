@@ -1,0 +1,59 @@
+{
+  "id": "data-zi2-bezne-modely",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Běžné modely: fotosyntéza, noty a mapa výletu",
+  "description": "Žáci doplňují chybějící části schématu fotosyntézy, poznávají písničku z notového zápisu a podle mapy Babiččina údolí plánují výlet.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "model",
+    "schéma",
+    "mapa",
+    "noty",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí známé modely a některé použije k řešení problému z běžného života.",
+  "materials": [
+    "Pracovní listy 8.2, 8.3 a 8.4 (PDF níže, mapu nejlépe barevně)"
+  ],
+  "procedure": "Zvídavá otázka: Umíme doplnit chybějící části nějakého schématu? Nejdřív poznáme, co model znázorňuje, a podle svých znalostí doplníme. Ať žáci jmenují schémata ze školy i z volného času a proberte, jak model rozpoznávají — porovnáváme se zkušeností.\n\nFotosyntéza (PL 8.2): doplňte chybějící části obrázku. (Místo sacharidů by mohl být i chlorofyl.)\n\nPoznáte písničku? (PL 8.3): řešení Kočka leze dírou. Zajímejte se o strategii — dá se píseň poznat, i když neznám noty? Z polohy odvodím výšku tónu, z podoby délku. Druhý zápis je stejná píseň v jiné tónině a taktu. Vymyslete jiný model melodie — pro koho by byl lepší?\n\nPlánujeme výlet (PL 8.4): na mapě Babiččina údolí naplánujte výlet. Pro jakou skupinu bude? Co potřebujete? Máte v modelu všechny informace? Ve dvojicích, pak prezentace. Řešení není jedno — cyklisté, rodina s malým sourozencem… Ptejte se, podle jakých prvků mapy se rozhodovali. Mapa je model, který kóduje informace z reálného světa.\n\nRozšíření — modely v profesích: napište, s jakými modely pracuje architekt, popelář, lékař, programátor, herec, dentální hygienistka a k čemu. Za model, na který nikdo jiný nepřijde, tři body. Mají nějaký model společný? (Diář.) Jedna profese záměrně žádný specifický model nepoužívá.\n\nShrnutí: Model je znázornění něčeho obvykle reálného, hmatatelné i digitální. Aby pomohl vyřešit problém, musí být vhodný a obsahovat důležité prvky.",
+  "files": [
+    {
+      "label": "Pracovní list 8.2 — schéma fotosyntézy",
+      "href": "/informatika-soubory/imysleni/zi2-8-2-fotosynteza.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 8.3 — poznáte písničku?",
+      "href": "/informatika-soubory/imysleni/zi2-8-3-noty.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 8.4 — mapa Babiččina údolí",
+      "href": "/informatika-soubory/imysleni/zi2-8-4-mapa-vyletu.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 35–37 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=35",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

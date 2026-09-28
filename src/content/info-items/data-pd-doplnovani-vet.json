@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-doplnovani-vet",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Doplňování vět obrázky",
+  "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/32-data-priklad-5",
+  "description": "Žáci přetahují obrázky do vět (Vydrýsek → vydra) a vysvětlují, podle čeho se rozhodovali a proč někde chybovali.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5
+  ],
+  "duration": "25–45 min",
+  "keywords": [
+    "data",
+    "obrázek",
+    "text",
+    "kombinace dat",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák spojí obrazová a textová data a vysvětlí důvod výběru obrázku na dané místo.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1: nejdřív řekněte, že umístěný obrázek už nejde přesunout — ať si žáci nejdřív prohlédnou obrázky a přečtou věty. Modrý rámeček = správně, oranžový = chyba.\n\nDiskuse: Podle čeho jste se rozhodovali? (Věta je o zvířatech → vybírám zvíře; klíčové slovo Vydrýsek, šnek, tur → vydra, hlemýžď, býk.) Dejte chvíli na návrat k chybným větám — proč se to stalo? Pak: Které obrázky mám doplnit já? Chtějte podrobný popis cesty k výběru a řešte, zda by se do věty hodil i jiný obrázek.\n\nVe druhém příkladu se špatně umístěný obrázek vrátí zpět, ve třetím lze obrázky přesouvat, dokud nejsou všechny správně — žák opravuje řešení, aniž ví, kde přesně je chyba.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po úloze Hledání dat, dá se rozdělit i na dvě hodiny. Následuje Datíkova nespavost.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/doplnovani-vet-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/32-data-priklad-5"
+  },
+  "added": "2026-09-29"
+}

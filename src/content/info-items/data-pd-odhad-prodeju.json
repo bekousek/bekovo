@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-odhad-prodeju",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Odhad prodejů: kolik procent je výseč?",
+  "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/27-porovnavame-priklad-5",
+  "description": "Žáci odhadují podíly výrobců mobilů na trhu jen z výsečového grafu — nejdřív každý sám, pak třída hledá nejnižší a nejvyšší odhad.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7
+  ],
+  "duration": "20–25 min",
+  "keywords": [
+    "výsečový graf",
+    "procenta",
+    "odhad",
+    "legenda",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák odhadne procentuální podíl části z grafu a popíše postup odhadu.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Společně: promítněte graf se 3–4 výsečemi. Každý si zapíše vlastní odhad (papír nebo tabulkový kalkulátor) bez konzultace; možnosti u legendy zatím neukazujte.\n\nNa tabuli si připravte tabulku značka / nejvyšší / nejnižší odhad. Hledání extrémů je samo ukázkou postupu: začnete odhadem jednoho žáka a hlásí se jen ti s vyšším (nižším) odhadem, dokud nezůstane nejvyšší (nejnižší).\n\nCo vzít při odhadu v potaz? Nejdřív pořadí, pak známé velikosti výsečí (čtvrtina, polovina), porovnání s rovnoměrným rozdělením — a součet 100 %. Pak ukažte možnosti a vyberte.\n\nSamostatně: obtížnost 3 až 10 značek. Bez vedení v hodině by šlo jen o hádání.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Pexesu, rozvíjí Datíkovy baterie. Následují Páry.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/odhad-prodeju-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/27-porovnavame-priklad-5"
+  },
+  "added": "2026-09-29"
+}

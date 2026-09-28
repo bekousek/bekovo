@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-poruchy-robotu",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Poruchy robotů: zárodek databáze",
+  "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/29-kontrolujeme-priklad-5",
+  "description": "Ze dvou souvisejících tabulek (roboti a závady) žáci zjišťují, který robot má danou poruchu — hledají sloupec, který tabulky spojuje.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "databáze",
+    "související tabulky",
+    "kontrola dat",
+    "klíč",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák zjistí údaje ze souvisejících tabulek a posoudí, zda evidence dodržuje pravidla.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Nízká obtížnost — společně: Jak jsou tabulky sestaveny? (Jen záhlaví sloupců, řádky jsou záznamy databáze.) V čem se liší? (Skoro stejné sloupce, jen v jedné závada, v druhé název.) Jak poznám robota se závadou? Podle vylosovaných dat lze použít různé vazby (datum výroby, číslo sestavení, druh).\n\nStřední a vysoká obtížnost samostatně: po odpovědi tlačítko Další nalosuje nové tabulky. Body závisí i na tom, na kolikátý pokus žák odpoví — úloha je částečně hra.\n\nDiskuse zpřesňuje, který spojovací sloupec je jednoznačný — posiluje vědomí, jak se data ukládají v databázích.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Adopci zvířátka, následují Příklady 2–4 z Obrázkových tabulek.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/poruchy-robotu-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/29-kontrolujeme-priklad-5"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "kodovani-zi2-komprese",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Komprese: zkracujeme písničku Prší, prší i obrázek",
+  "description": "Žáci zapíšou sloku písničky a nahrazují opakující se slova odkazy; pak navrhnou, jak zmenšit obrázek slučováním pixelů.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "komprese",
+    "zkracování",
+    "opakování",
+    "pixely",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zjednoduší zápis textu a obrázku tak, aby zůstal zachován obsah.",
+  "materials": [
+    "Pracovní list 6.5 — obrázek k zmenšení (vyplněná i prázdná verze, PDF níže)",
+    "Papír"
+  ],
+  "procedure": "Zápis písně: napište první sloku písničky Prší, prší, jen se leje — jen hůlkovým písmem a každý verš na nový řádek. Můžete vzít i píseň z hudební výchovy či angličtiny, jen musí mít opakující se slova či verše.\n\nZvídavá otázka: Každé písmeno nás stálo energii. Dala by se ušetřit vhodným zkrácením, aby píseň zůstala zachována? Opakující se slova označíme kódem a pak píšeme jen kód.\n\nZkraťte tak písničku. Možné řešení: „Prší, #1, jen se leje. Kam koníčky pojedeme? #8 na luka, až kukačka zakuká. #8 #10 #11, #12 #13 #14.“ — číslo odkazuje na pořadí slova, které se opakuje. Místo čísel mohou žáci použít symboly nebo kreslit „pavouka“ z opakujících se částí.\n\nZvídavá otázka: Pamatujete si, jak šel zkrátit kód obrázku v mřížce? U rastru se shlukovala stejně barevná pole, u vektoru jsme vynechávali společný bod navazujících úseček.\n\nMenší obrázek (PL 6.5): na každý pixel potřebuje počítač paměť. Navrhněte, jak zmenšit počet pixelů a zachovat aspoň zhruba tvar. Nápověda: čtyři pixely tvořící čtverec spojte do jednoho — bílý bude, když byl bílý nanejvýš jeden z původních, jinak černý. Pro práci použijte prázdnou verzi listu, vyplněná je řešení.\n\nTaké platí: čím méně barev v obrázku rozlišuji, tím méně místa zabírá (navazuje kapitola o binárních číslech).",
+  "files": [
+    {
+      "label": "Pracovní list 6.5 — obrázek k zmenšení (pro žáky)",
+      "href": "/informatika-soubory/imysleni/zi2-6-5-zmensi-obrazek.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 6.5 — vzorové řešení",
+      "href": "/informatika-soubory/imysleni/zi2-6-5-zmensi-obrazek-reseni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 24–25 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=24",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

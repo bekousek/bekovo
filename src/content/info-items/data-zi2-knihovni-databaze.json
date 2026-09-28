@@ -1,0 +1,50 @@
+{
+  "id": "data-zi2-knihovni-databaze",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Knihovní databáze a chytré veřejné osvětlení",
+  "description": "Žáci šipkami propojí tabulky knihovny (autoři, knihy, výtisky, čtenáři, obory), přemýšlejí o registru obyvatel a jako firma navrhnou chytré lampy pro obec.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "databáze",
+    "relace",
+    "informační systém",
+    "chytré město",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák identifikuje prvky informačního systému a vztahy mezi nimi a zvažuje rizika jeho užívání.",
+  "materials": [
+    "Pracovní list 12.5 — tabulky knihovní databáze (PDF níže)"
+  ],
+  "procedure": "Knihovní databáze (PL 12.5): šipkami propojte tabulky autoři, knihy, výtisky, čtenáři a obory. K šipkám doplňte, jaký mají vztah a kolik prvků mohou propojit. Ve zbylém čase určete položky v tabulkách a naplňte je třemi záznamy.\n\nMetoda sněhové koule: nejdřív každý sám, pak ve dvojici, pak ve čtveřici, nakonec společně. Řešení: autor může mít víc knih a kniha víc autorů (M : N); kniha má víc výtisků, výtisk patří jedné knize (1 : N); výtisk je půjčen jednomu čtenáři, čtenář má víc výtisků; kniha může mít víc oborů a obor víc knih.\n\nRozšíření — zvídavá otázka: K čemu slouží registr obyvatel a jak musí být zabezpečen? Seznam občanů se jmény, daty narození, adresami, čísly průkazů pro potřeby úřadů — velmi citlivé údaje, musí být chráněny proti zneužití, poškození i ztrátě. Případně se domluvte s kolegou z občanské výchovy.\n\nChytré lampy: ve trojicích založte vývojářskou firmu. Obec chce osvětlení ulic, které se rozsvítí, jen když pod ním jde člověk nebo jede vozidlo. Navrhněte technické prvky, pravidla a popište, jak by celý systém fungoval. Jako motivaci lze použít články o chytrých lampách, mohou ale omezit kreativitu.\n\nShrnutí: Digitální informační systémy využíváme pasivně i aktivně s uživatelským účtem. Mají prvky (uživatele, tabulky…), vnitřní strukturu, zabezpečení a samotná data.",
+  "files": [
+    {
+      "label": "Pracovní list 12.5 — tabulky knihovní databáze",
+      "href": "/informatika-soubory/imysleni/zi2-12-5-knihovni-databaze.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 54–56 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=54",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

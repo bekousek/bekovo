@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-datik-a-prohlizece",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Datík a prohlížeče: tři modely, dva příběhy",
+  "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/12-resime-priklad-2",
+  "description": "Článek, graf StatCounteru a anketa o webových prohlížečích — žáci zjistí, které modely popisují totéž a proč se anketa liší.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "porovnání modelů",
+    "graf",
+    "anketa",
+    "prohlížeče",
+    "interpretace dat",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák porovná různé modely na stejné téma a zdůvodní, proč popisují odlišnou skutečnost.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Úloha je statická (stejná na všech zařízeních) a Datík ji nevyhodnocuje — je nutné ji řešit v hodině s otázkami.\n\nPřed prací: Jaký prohlížeč značí zkratka IE? (Žáci už Internet Explorer nemusí znát; zkratky jsou forma komprese.) Kolik modelů máme před sebou? (Text a dva grafy.)\n\nSamostatně: žáci si pečlivě přečtou celé zadání a vysvětlení napíšou celými větami do okna a potvrdí.\n\nDiskuse: Které modely popisovaly stejnou skutečnost a podle čeho jste to poznali? (Text článku a graf StatCounteru — odhad procent, popisky.) Co popisovala anketa a v čem se liší? (Markantní rozdíl u Internet Exploreru a Opery.) Jaký prohlížeč preferujete vy?\n\nNávaznost: po Bludišti, na závěr následuje Vigenèrova šifra.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/datik-a-prohlizece-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/12-resime-priklad-2"
+  },
+  "added": "2026-09-29"
+}

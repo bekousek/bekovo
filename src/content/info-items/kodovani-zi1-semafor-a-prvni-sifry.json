@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-zi1-semafor-a-prvni-sifry",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Semaforová abeceda a první šifry",
+  "description": "Žáci si vyhláskují jméno semaforovou abecedou a vyzkoušejí jednoduché šifry — přehazování písmen ve slově.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "šifry",
+    "semafor",
+    "Morseovka",
+    "přesmyčka",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zakóduje a dekóduje text a pochopí, proč zprávy potřebujeme utajit.",
+  "materials": [
+    "Pracovní list 3.2 — semaforová abeceda (PDF níže)",
+    "Případně kartičky s Morseovou abecedou"
+  ],
+  "procedure": "Zvídavá otázka: Jak si vojevůdci předávali zprávy na dálku? Poslové, holubi, vlajky, kouř, později světla, telegraf, dnes vysílačky. Nápady sbírejte na tabuli a hodnoťte výhody a nevýhody.\n\nSemaforová abeceda (PL 3.2): každý si nacvičí své jméno (nebo jméno oblíbené postavy), dobrovolník ho ukáže a ostatní podle kartiček dekódují. Nechte dost času na každé písmeno, klidně ho zopakujte. Alternativa: Morseova abeceda, nebo práce ve dvojicích vlastním tempem.\n\nZvídavá otázka: Co generálům na takovém předávání zpráv vadilo? Že je mohl zachytit nepřítel. Otázku můžete přenést na postavy z oblíbených příběhů — podstatou je potřeba zprávu udělat nečitelnou pro nepovolané.\n\nŠifra 1: v každém slově vyměň první písmeno za poslední, druhé za předposlední atd. (NÁPOVĚDA → ADVOPÁN). Zašifrujte větu ZÍTRA K OBĚDU BYCH CHTĚL KYNUTÉ KNEDLÍKY. Bystří žáci rychle objeví, že je to jen psaní pozpátku.\n\nZvídavá otázka: Jak zařídit, aby pravidlo nebylo hned vidět? Šifra 2: ve slově prohoď vždy dvojice sousedních písmen (NÁPOVĚDA → ÁNOPĚVAD). Tady se žáci zdrží — narazí na CH (jeden znak, nebo dva?) a na lichý počet písmen.",
+  "files": [
+    {
+      "label": "Pracovní list 3.2 — semaforová abeceda",
+      "href": "/informatika-soubory/imysleni/zi1-3-2-semaforova-abeceda.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 14–15 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=14",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

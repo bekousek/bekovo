@@ -1,0 +1,51 @@
+{
+  "id": "kodovani-zi2-bity-a-logika",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "Bity, barvy a pravdivostní tabulka vyznamenání",
+  "description": "Kolik barev zakóduje jeden, dva, čtyři bity? Žáci doplňují tabulku kombinací, pravdivostní tabulkou řeší vyznamenání a sčítají dvojková čísla.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "bit",
+    "dvojková soustava",
+    "pravdivostní tabulka",
+    "logika",
+    "barevná hloubka",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák ke kódování využívá binární čísla a zapíše podmínky pravdivostní tabulkou.",
+  "materials": [
+    "Pracovní list 7.8 — pravdivostní tabulka (PDF níže)",
+    "Tabule"
+  ],
+  "procedure": "Zvídavá otázka: Jak počítač ukládá informace? Pomocí nul a jedniček; místo pro jednu nulu či jedničku je bit. Žáci už mají zkušenost s kódováním textu a obrázku, takže odvodí, že si vše převádí na čísla. S fyzikou v zádech můžete diskutovat, proč právě dvojková soustava.\n\nZvídavá otázka: Barvy kódujeme pořadovým číslem. Kolik barev zakóduje jeden bit? Kolik bitů potřebujeme na 16 barev? Postupně přidávejte místo a vypisujte všechny kombinace (0, 1 → 00…11 → 000…111 → 0000…1111). Někomu dojde, že s každým bitem se počet barev zdvojnásobí. 1 bit = 2 barvy, 16 barev = 4 bity.\n\nVyznamenání (PL 7.8): na vyznamenání musí platit obě podmínky — žádná trojka a průměr nejvýš 1,5. Do tabulky zapisuj splnění 1, nesplnění 0 a do posledního sloupce, zda vyznamenání budu mít. A co kdyby stačila jen jedna podmínka? Chyták je poslední řádek — i tam je 1, nejde o „buď, anebo“.\n\nRozšíření: stejným principem jako v desítkové soustavě sečtěte dvě dvojková čísla písemně pod sebou — dobře se tam znázorní přechody mezi řády. Začněte opravdu jednoduchými příklady (1 + 1, 10 + 1…).\n\nShrnutí: Data v počítači jsou nuly a jedničky v bitech. Jeden bit rozliší dva stavy, každý další bit počet stavů zdvojnásobí — toho se využívá při kódování znaků i barev (barevná hloubka).",
+  "files": [
+    {
+      "label": "Pracovní list 7.8 — pravdivostní tabulka vyznamenání",
+      "href": "/informatika-soubory/imysleni/zi2-7-8-pravdivostni-tabulka.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 28–30 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=28",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "kodovani-pd-vigenerova-sifra",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Vigenèrova šifra online",
+  "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/11-resime-priklad-1",
+  "description": "Interaktivní šifrovací tabulka: žáci písmeno po písmenu šifrují a dešifrují zprávu s klíčem SIFROVANI a poznají princip i výhodu automatizace.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Vigenère",
+    "šifra",
+    "klíč",
+    "šifrování",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše postup šifrování s klíčem, vyřeší ho v jednotlivých krocích a využije pomocnou tabulku.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Před prací: Proč data někdy šifrujeme? (Tajné informace, kterým má rozumět jen někdo.) K čemu je klíč? (Najdou v textu úlohy.) Co udělám, když chci šifrovat INFORMACE klíčem DATA? Na tabuli napište zprávu a pod ni opakovaně klíč; žáci diktují písmena z průsečíků.\n\nSamostatně: šifrují zprávu PRACESDATYJE + vlastní slovo klíčem SIFROVANI. Vyberou písmeno zprávy a klíče, Šifruj; Zpět ruší po jednom, Kontrola až na konci. Ať si zprávu s opakovaným klíčem rozepíšou do tabulkového kalkulátoru nebo na čtverečkovaný papír. Nechte opravdu dost času.\n\nDiskuse: Do čeho se zašifrovala část zprávy, kterou jsme měli všichni stejnou? Pak dešifrování. Žáci poznají, jak se automatizace kroků vyplácí — k nástroji se budou vracet.\n\nKvůli obtížnosti úlohu samostatně bez vedení nedoporučujeme. V Microsoft Edge může zlobit zvýrazňování v tabulce.\n\nNávaznost: závěr práce s materiálem po úloze Datík a prohlížeče, klidně samostatná hodina. Ruční variantu s Vigenèrovým čtvercem najdete v kartě Šifrování ze Základů informatiky pro 2. stupeň.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/vigenerova-sifra-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/11-resime-priklad-1"
+  },
+  "added": "2026-09-29"
+}

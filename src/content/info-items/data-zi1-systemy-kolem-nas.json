@@ -1,0 +1,44 @@
+{
+  "id": "data-zi1-systemy-kolem-nas",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Systémy kolem nás: včelstvo, škola a chytré parkování",
+  "description": "Přes včelí roj a lidi ve škole žáci objeví, co je systém — prvky, jejich účel a vztahy — a rozeberou chytrý parkovací systém.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "systém",
+    "prvky",
+    "vztahy",
+    "chytré město",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák nalezne ve svém okolí systém a určí jeho prvky a vztahy mezi nimi.",
+  "materials": [
+    "Tabule na zápis prvků, účelu a vztahů"
+  ],
+  "procedure": "Heuristický rozhovor o včelách: Kdo tvoří včelí roj? (Matka, dělnice, trubci.) Kolik jich v roji je? (Matka jedna, dělnic v létě kolem 40 000, trubců kolem 500.) Jaké mají úkoly? Otázky neslouží k samotným odpovědím, ale ke zkušenosti s rozborem celku — rozpoznat prvky, jejich druhy a účel.\n\nLidé ve škole: každý napíše pod sebe, jací lidé se ve škole vyskytují a co tam dělají. Pod seznam libovolně znázorní vztahy — co od druhých čekají a co pro ně dělají. Pak ve dvojici porovnají a vytvoří společnou charakteristiku (žák, učitel, ředitel, rodič, školník…).\n\nJedna či dvě dvojice představí závěry, ostatní doplňují. Zapisujte průběžně na tabuli — nejlépe do tabulky prvek / účel / vztahy. Nejdůležitější je diskuse.\n\nRozšíření — chytré parkování: systém pozná, kolik míst je na parkovištích volných, a ukazuje to na tabulích po městě. Co takový systém musí obsahovat a k čemu který prvek je? (Senzor na místě, infotabule, propojení, databáze volných míst, server.) Můžete vzít i jinou chytrou technologii vaší obce nebo parkování v obchodním centru se světly nad místy.\n\nShrnutí: Systém se skládá z prvků, mezi kterými existují vztahy. Kolem sebe najdeme přirozené systémy i systémy vytvořené člověkem a technologiemi.",
+  "files": [
+    {
+      "label": "Učebnice, str. 42–43 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=42",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

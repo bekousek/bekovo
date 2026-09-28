@@ -1,0 +1,47 @@
+{
+  "id": "data-zi2-technologie-a-spolecnost",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Technologie a společnost: vědecká konference",
+  "description": "Skupiny zkoumají každá jedno téma — součásti počítače, pojmy kolem internetu, minulost a budoucnost počítačů, sci-fi, která se splnila, AI, život dřív a dnes — a výsledky prezentují na „konferenci“.",
+  "type": "projekt",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "technologie a společnost",
+    "AI",
+    "historie",
+    "projekt",
+    "dramatizace",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák věcně diskutuje nad otázkami souvisejícími s vývojem technologií a společnosti.",
+  "materials": [
+    "Papíry, pastelky, případně zdroje (knihy, internet)",
+    "Kostýmy a úprava třídy na konferenci (nepovinné)"
+  ],
+  "procedure": "Kapitola je pojatá projektově: na začátku společná otázka, pak každá skupina paralelně řeší jednu aktivitu a výsledky představí ostatním. Navrhujeme dramatizaci — výzkumné týmy se sjedou na konferenci a vymění si závěry. Skupiny rozdělte promyšleně, aktivity jsou různě těžké.\n\nSpolečná otázka: Co všechno si představujete pod pojmem počítač? Univerzální počítače (desktop, notebook, tablet, mobil) i počítače vestavěné v autech, pračkách, hodinkách, bankomatech. Stačí tři vlastnosti: digitální zařízení, zpracovává data programem, v interakci s uživatelem.\n\nSkupina 1 — z čeho se počítač skládá a co k němu připojíme; vyznačte součásti, jejichž parametry jsou důležité při výběru (procesor, RAM, disk, monitor…). Skupina 2 — pojmová mapa slov a zkratek kolem internetu (IP adresa, router, DNS, HTML, URL, cloud, youtuber…); označte ty, které někdo umí vysvětlit.\n\nSkupina 3 — jak se liší dnešní počítače od dřívějších a jak budou vypadat v budoucnu (klidně kreslete). Skupina 4 — co se v knihách a filmech zdálo jako sci-fi a stalo se skutečností (poraďte se s češtinářem).\n\nSkupina 5 — příležitosti a rizika rozvoje umělé inteligence (překlad, předpovědi, pomoc lidem s hendikepem × zneužití, strach ze „vzpoury robotů“). Skupina 6 — komiksem ukažte, co se dnes díky počítačům dělá jinak než dřív (pomůže zadat prostředí: škola, nemocnice, továrna, úřad).\n\nShrnutí: Počítače jsou nedílnou součástí života — usnadňují práci, slouží jako kompenzační pomůcky, zmenšují vzdálenosti. Některé trendy vznikají z poptávky, jiné změnily chování lidí (i negativně). Vývoj je rychlý a těžko předvídatelný.",
+  "files": [
+    {
+      "label": "Učebnice, str. 61–63 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=61",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

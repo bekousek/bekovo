@@ -1,0 +1,49 @@
+{
+  "id": "hardware-zi1-od-pocitadla-k-pocitaci",
+  "categoryId": "hardware",
+  "title": "Od počítadla k počítači",
+  "description": "Žáci porovnávají obrázky počítadel z různých dob a diskutují, jak se počítače mění a jestli se budou pořád zmenšovat.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "historie",
+    "počítadlo",
+    "abakus",
+    "vývoj počítačů",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák uvede příklady, jak se počítač změnil a proč.",
+  "materials": [
+    "Pracovní list 12.2 — obrázky počítadel (PDF níže)",
+    "Obrázky starých, zvlášť sálových počítačů"
+  ],
+  "procedure": "Zvídavá otázka: Pomocí čeho počítali naši předci a pomocí čeho počítáme my? Počítadlo (abakus) × kalkulačky, tabulkový kalkulátor, vyhledávač, programy, které umí i grafy.\n\nPočítadla (PL 12.2): v čem se jednotlivá počítadla liší a co mají společného? Žáci by měli objevit tři věci: počítadla sama nepočítají, jen uchovávají či zobrazují čísla a počítá člověk; některá mají odlišené objekty — řády; kuličky neznamenají vždy stejný počet a počítalo se v různých soustavách odpradávna.\n\nZvídavá otázka: Jak vypadala zařízení v minulosti a jak dnes? Budou se digitální zařízení pořád zmenšovat? Zmenšují se, zrychlují a jsou přívětivější; někdy ale zmenšování žádoucí není (malý monitor na psaní, malé ikony pro dalekozraké). Dřív je ovládal jen odborník, dnes každý.\n\nMějte připravené obrázky starších, hlavně sálových počítačů — ty žáci neznají. V diskusi o zmenšování nechte žáky jít vlastním směrem, jen dbejte, aby argumentovali.",
+  "files": [
+    {
+      "label": "Pracovní list 12.2 — počítadla",
+      "href": "/informatika-soubory/imysleni/zi1-12-2-pocitadla.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 47 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=47",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

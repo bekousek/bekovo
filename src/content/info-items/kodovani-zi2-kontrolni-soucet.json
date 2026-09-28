@@ -1,0 +1,55 @@
+{
+  "id": "kodovani-zi2-kontrolni-soucet",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Kontrolní součet a malovaná křížovka",
+  "description": "Žáci podle tabulky spočítají kontrolní součet zprávy „1. KONTROLA“ a vyluští malovanou křížovku (griddler).",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "kontrolní součet",
+    "chyby při přenosu",
+    "griddler",
+    "malovaná křížovka",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí kontrolního součtu ověří úplnost zprávy po přenosu.",
+  "materials": [
+    "Pracovní listy 6.7 a 6.8 (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Jak zařízení po přenosu pozná, že dostalo celý kód? Znaky ohodnotí a udělá kontrolní součet. Žáci budou odpovídat, že zpráva „dává smysl“ — jak to ale pozná počítač? Po vypadnutí písmene slovo smysl dávat může, jen jiný (vypadne × vpadne), a u obrázku to počítač nepozná vůbec.\n\nKontrolní součet (PL 6.7): podle tabulky (čárka, tečka, písmena A–Z a číslice 9 až 0 mají čísla 1–40) spočítej kontrolní součet zprávy 1. KONTROLA. Řešení: 180. Číslice jsou záměrně sestupně, aby se nula nepletla s písmenem O; tabulka má jen velká písmena bez diakritiky.\n\nRychlejší žáci navrhnou podobný kontrolní součet pro obrázek.\n\nRozšíření (PL 6.8): vyplňte malovanou křížovku (griddler) — čísla u řádků a sloupců jsou vlastně zhuštěný zápis obrázku.\n\nShrnutí: Kvůli přenosu se snažíme data zmenšit a abychom měli jistotu, že dorazila všechna, připojuje se kontrolní součet.",
+  "files": [
+    {
+      "label": "Pracovní list 6.7 — tabulka ke kontrolnímu součtu",
+      "href": "/informatika-soubory/imysleni/zi2-6-7-kontrolni-soucet.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 6.8 — malovaná křížovka",
+      "href": "/informatika-soubory/imysleni/zi2-6-8-malovana-krizovka.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 25–26 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=25",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

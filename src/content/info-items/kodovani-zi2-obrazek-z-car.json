@@ -1,0 +1,60 @@
+{
+  "id": "kodovani-zi2-obrazek-z-car",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Obrázek z čar: tvary a úsečky v souřadnicích",
+  "description": "Obrázkový hlavolam na rozehřátí, skládání tvarů ze čtverců a trojúhelníků a kreslení obrázků podle souřadnic navazujících úseček.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "vektorová grafika",
+    "souřadnice",
+    "úsečka",
+    "tvary",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zakóduje obrázek pomocí základních geometrických tvarů a souřadnic.",
+  "materials": [
+    "Pracovní listy 5.1, 5.2 a 5.5 (PDF níže)",
+    "Čtverečkovaný papír"
+  ],
+  "procedure": "Rozcvička (PL 5.1): jaké číslo patří místo otazníku? Číslo udává počet obrazců v daném místě — odpověď je 2. Můžete přidat další obrazcové hlavolamy (kryptograf.cz, mozkolam.cz).\n\nSkládání (PL 5.2): poskládejte ze čtverců a trojúhelníků obdélník, rovnoběžník a lichoběžník — rychlá připomínka, že objekty ve vektorové grafice se skládají ze základních tvarů (překrývání a otočení).\n\nZvídavá otázka: Jak popíšu čtverec nebo trojúhelník někomu jinému, aby ho nakreslil stejně? Popisem konstrukce, nebo souřadnicemi vrcholů, které spojím úsečkou.\n\nPopiš souřadnicemi čtverec o straně 2 a o 1 vpravo vedle něj rovnoramenný trojúhelník se stejnou výškou i základnou. (Čtverec [0,0] [2,0] [2,2] [0,2], trojúhelník [3,0] [5,0] [4,2].) Bez zkušenosti se souřadnicemi soustavu nakreslete, se zkušeností zkuste jen z představy.\n\nNavazující úsečky (PL 5.5): nakresli postupně [4,6], [5,5], [6,5], [5,4], [6,3], [5,3], [4,2], [3,3], [2,3], [3,4], [2,5] a doplň poslední bod (řešení [3,5]). A když úsečky nenavazují? Pak zapisujeme začátek i konec každé.\n\nVlastní obrázek z úseček: zapiš souřadnice na samostatný papír a vyměň se spolužákem z lavice před tebou, ať ho nakreslí.\n\nRozšíření: co se stane se souřadnicemi konců úsečky, když ji posunu nahoru, dolů, doprava, doleva, prodloužím na dvojnásobek nebo zkrátím na polovinu? Žáci kreslí úsečky jednou barvou a transformované druhou. Znají-li úhly, přidejte otáčení.",
+  "files": [
+    {
+      "label": "Pracovní list 5.1 — obrázkový hlavolam",
+      "href": "/informatika-soubory/imysleni/zi2-5-1-obrazkovy-hlavolam.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 5.2 — skládání tvarů",
+      "href": "/informatika-soubory/imysleni/zi2-5-2-skladani-tvaru.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 5.5 — navazující úsečky v souřadnicové síti",
+      "href": "/informatika-soubory/imysleni/zi2-5-5-navazujici-usecky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 22–23 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=22",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

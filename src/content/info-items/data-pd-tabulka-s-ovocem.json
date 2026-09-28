@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-tabulka-s-ovocem",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Tabulka s ovocem",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/21-evidujeme-priklad-3",
+  "description": "Obrázky ovoce a zeleniny žáci řadí do tabulky podle barvy a druhu a pak sami vymýšlejí názvy řádků a sloupců.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "tabulka",
+    "třídění",
+    "záhlaví",
+    "klíč",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák najde shodné znaky dat, nastaví pravidla pro evidenci v tabulce a podle nich ji vyplní.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1: obrázky se přetahují na správné místo, chybný se vrátí a počítá se skóre. Diskuse: Podle čeho jste poznali, kam obrázek patří? (Dva klíče: barva a typ ovoce.) Pokud nikoho nezarazí rajče mezi ovocem, nechte si to na konec.\n\nPříklad 2: žáci přetahují popisy do záhlaví. V čem se lišilo doplňování od prvního příkladu? Do záhlaví zapisujeme klíče, dovnitř data.\n\nPříklad 3 je kombinace obou. Rozšiřující otázka na závěr: patří rajče mezi ovoce, nebo zeleninu?\n\nÚloha je stejná jako Hudební nástroje (1. stupeň) — hodí se jako úvod do evidence dat, pokud žáci Hudební nástroje nedělali.\n\nNávaznost: po Čteme ze sportovní tabulky (klidně ve stejné hodině jako odlehčení), následuje Vytvoření tabulky.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/tabulka-s-ovocem-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/21-evidujeme-priklad-3"
+  },
+  "added": "2026-09-29"
+}

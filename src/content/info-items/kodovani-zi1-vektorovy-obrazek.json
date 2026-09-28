@@ -1,0 +1,62 @@
+{
+  "id": "kodovani-zi1-vektorovy-obrazek",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Obrázek z tvarů: tangram a domeček v souřadnicích",
+  "description": "Z dílků tangramu žáci skládají ptáčka a vlastní obrázky, rozkládají auto na tvary a domeček jedním tahem popíšou souřadnicemi.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "vektor",
+    "tangram",
+    "souřadnice",
+    "úsečka",
+    "obrázek",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák složí obrázek z daných geometrických tvarů či navazujících úseček.",
+  "materials": [
+    "Pracovní listy 6.2, 6.5 a 6.7 — tangram, auto, milimetrový papír (PDF níže)",
+    "Nůžky"
+  ],
+  "procedure": "Zvídavá otázka: Obrázek umíme složit z pixelů. Dal by se skládat i z něčeho jiného? Ze základních tvarů (mnohoúhelníků).\n\nTangram (PL 6.2): z dílků sestavte ptáčka podle vzoru. Barvy dílků ve skládačce záměrně neodpovídají barvám ve vzoru — podstatné jsou tvary, ne barvy; dílky stejného tvaru a velikosti lze zaměnit.\n\nZe stejných dílků sestav dva jiné obrázky: vlastní tvorba podporuje kreativitu a vede k rozkladu obrázku na části. Lehčí varianta s celým vzorem, těžší jen s obrysem. Pak povolte dílky překrývat.\n\nZvídavá otázka: Jak vytvoříme tvary, které v sadě nejsou? Rozdělíme, nebo překryjeme základní tvary.\n\nAuto (PL 6.5): nakresli varianty, z jakých dílků se mohlo auto skládat. Správných řešení je víc — jde o kola a výřez u kufru. Nechte žáky zkontrolovat, zda přiložená kostra je opravdu vzorem auta; trojúhelník vzadu je bílý a překrývá černé díly.\n\nRozšíření (PL 6.7 — milimetrový papír): nakresli domeček jedním tahem tak, aby vrcholy ležely na průsečících silnějších čar; čáry očísluj a zapiš souřadnice (vodorovná, svislá) začátku a konce každé čáry. Hezké je dojít k tomu, že konec jedné úsečky je začátkem další — stačí zapisovat postup kreslení.\n\nShrnutí: Obrázky se mohou skládat z několika základních objektů, které se mohou i překrývat. Jedním z nich je úsečka, kterou popíšu začátkem a koncem.",
+  "files": [
+    {
+      "label": "Pracovní list 6.2 — tangram a vzor ptáčka",
+      "href": "/informatika-soubory/imysleni/zi1-6-2-tangram.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 6.5 — auto z tvarů",
+      "href": "/informatika-soubory/imysleni/zi1-6-5-auto-z-tvaru.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 6.7 — milimetrový papír",
+      "href": "/informatika-soubory/imysleni/zi1-6-7-milimetrovy-papir.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 23–25 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=23",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

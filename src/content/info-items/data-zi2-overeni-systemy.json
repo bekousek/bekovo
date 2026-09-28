@@ -1,0 +1,49 @@
+{
+  "id": "data-zi2-overeni-systemy",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Ověřovací úlohy: systémy a technika (2. stupeň)",
+  "description": "Kdy si popovídat z očí do očí a kdy psát v chatu, otázky při výběru mobilu a model systému záchranné služby.",
+  "type": "pracovni-list",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "15–20 min",
+  "keywords": [
+    "ověření",
+    "test",
+    "systémy",
+    "komunikace",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák si ověří, že umí argumentovat o využití technologií a rozebrat model informačního systému.",
+  "materials": [
+    "Pracovní list C.1–3 (PDF níže)"
+  ],
+  "procedure": "C.1: Popiš situace, kdy je lepší si s kamarádem popovídat z očí do očí a kdy si psát přes chat (čekání na autobus, zážitky z dovolené, sdílení úkolů…). Důležitá je argumentace a sociální kontext, ne jediná správná odpověď.\n\nC.2: Napiš otázky, které ti musím zodpovědět, abys mi mohl doporučit chytrý telefon (cena, velikost displeje, baterie, účet, na co ho budu používat, kam budu ukládat fotky).\n\nC.3: Na obrázku je model systému (auta, zaměstnanci, role v posádce, výjezd, diagnóza). K čemu slouží a jaké jsou vztahy mezi prvky? Jde o systém zdravotnické záchranné služby.\n\nÚlohy nejsou primárně na klasifikaci. Řešení najdete v učebnici.",
+  "files": [
+    {
+      "label": "Úlohy C.1–3 na ověření systémů a techniky",
+      "href": "/informatika-soubory/imysleni/zi2-c-1-3-overeni-systemy.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 64 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=64",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

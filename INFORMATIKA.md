@@ -13,7 +13,11 @@ s dětmi dělat.** Samotná platforma (Scratch, Tinkercad, E-Bezpečí…) kartu
 nedostane; kartu dostane až konkrétní aktivita na ní. Stránka, na které se
 rovnou dá postavit celá hodina (hra, test, simulace), kartu dostat může.
 Sbírky s mnoha aktivitami (UmímeInformatiku, Hour of Code, archiv Bobříka…)
-se rozpadají na jednotlivé karty.
+se rozpadají na jednotlivé karty. Učebnice taky: **karta = jedna hodina**
+(dvouhodinová kapitola = dvě karty), pracovní listy k té hodině jdou do
+`files` té karty. Když stejnou aktivitu nabízí zahraniční sbírka i česká
+úprava, kartu dostane česká úprava (Blátov ze Základů informatiky místo
+Muddy City z CS Unplugged).
 
 - `/informatika/<oblast>/<položka>` — detail; vzniká **jen** u položek, které
   mají `goal`, `procedure`, `materials`, `files` nebo `notes`. Ostatní karty

@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-skytavka",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Škytavka: co chybí v řadě obrázků?",
+  "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/26-kontrolujeme-priklad-4",
+  "description": "Datík dostal škytavku a v pravidelné řadě obrázků vynechal jeden — žáci doplní chybějící, zdůvodní to a zkontrolují návrh spolužáka.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "kontrola dat",
+    "vzor",
+    "posloupnost",
+    "vzájemná kontrola",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák při kontrole odhalí pravidla evidence, navrhne doplnění a posoudí cizí návrh.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Před prací: Na co se Datík dívá a jaké typy obrázků to jsou? (Žáci je mohou znát z Datíkovy nespavosti.) Na rozdíl od ní Datík škytá kdekoli v řetězci, ne jen na konci, a pracuje se i s prázdným obrázkem.\n\nPříklad 1: vyber obrázek, napiš zdůvodnění, potvrď. Diskuse: Který jste vybrali a proč? Co je pro všechny stejné? Dojděte k pravidlu střídání (jako korálky dvou barev na náhrdelníku). U otázky „jaký mám vybrat já?“ se tvařte, že pravidlo ještě neznáte, a proberte všechny možnosti.\n\nPříklad 2 rozhodně zařaďte: žáci kontrolují a hodnotí návrh spolužáka — vede to k zajímavé diskusi a posiluje hledání stejných vzorů.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: ve stejné hodině po Odevzdávání obrázků; v další hodině Příklad 1 z Obrázkových tabulek.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/skytavka-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/26-kontrolujeme-priklad-4"
+  },
+  "added": "2026-09-29"
+}

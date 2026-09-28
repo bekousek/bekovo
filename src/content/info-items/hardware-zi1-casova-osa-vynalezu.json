@@ -1,0 +1,49 @@
+{
+  "id": "hardware-zi1-casova-osa-vynalezu",
+  "categoryId": "hardware",
+  "title": "Časová osa vynálezů a vysněný počítač",
+  "description": "Týmy tipují roky vynálezů od knihtisku po první smartphone, kreslí svůj vysněný počítač a diskutují, co potřebuje samořiditelné auto.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "historie",
+    "časová osa",
+    "vynálezy",
+    "autonomní auto",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák získá představu, jak (ne)dávno počítače vznikly, a přemýšlí o jejich budoucnosti.",
+  "materials": [
+    "Pracovní list 12.4 — seznam událostí (PDF níže)",
+    "Papíry a pastelky"
+  ],
+  "procedure": "Tipovačka: ve čtyřčlenných týmech tipujte rok události. Tým nejblíž skutečnosti dostane 5 bodů, další 4 atd.; při rozdílu pod 10 let bod navíc. Vyberte 5–7 událostí, např. Karlova univerzita 1348, knihtisk 1439/40, Wattův parní stroj 1765, Voltova baterie 1800, první počítač Z1 1938, první průmyslový robot 1961, ARPANET 1969, první PC 1981, první web 1991, Česko na internetu 1992.\n\nCílem není pamatovat si roky, ale vytvořit si představu, jak (ne)dávno se počítač objevil — proto jsou v seznamu i „nepočítačové“ události. Chcete-li to usnadnit, jděte chronologicky.\n\nVysněný počítač: nakresli, jak by měl vypadat tvůj vysněný počítač, a napiš, co by měl umět. Žáky neomezujte současnými trendy ani reálnou funkčností.\n\nRozšíření — samořiditelné auto: co potřebuje auto, aby jezdilo samo? Detekce polohy, pruhů, překážek a aut kolem, mapy, ovládání volantu, brzd a plynu. Nejde o skutečnou konstrukci, ale o úvahu, že jde opět o systém prvků ve vzájemných vazbách.\n\nShrnutí: Digitální technologie se stále vyvíjejí a jejich změny umožňují různé objevy.",
+  "files": [
+    {
+      "label": "Pracovní list 12.4 — události k tipování",
+      "href": "/informatika-soubory/imysleni/zi1-12-4-casova-osa.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 48 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=48",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

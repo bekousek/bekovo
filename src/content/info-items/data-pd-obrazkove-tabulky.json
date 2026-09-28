@@ -1,0 +1,47 @@
+{
+  "id": "data-pd-obrazkove-tabulky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Obrázkové tabulky: oprav přeházené obrázky",
+  "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/10-kontrolujeme-priklad-2",
+  "description": "V tabulce seřazených obrázků (kostky, hodiny, karty, lego…) jsou některé na špatném místě — žáci chybu najdou a opraví co nejmenším počtem výměn.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "kontrola dat",
+    "oprava chyb",
+    "řazení",
+    "tabulka",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná chybně umístěná data v tabulce a opraví evidenci podle záhlaví řádků a sloupců.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Podle čeho poznáte, který řádek je špatně? (Obrázky jsou v řádcích řazeny od 1 do 6 podle záhlaví sloupců.) Který druh obrázků musíte opravit? Sbírejte počty do tabulky na tabuli a zkontrolujte, že součet odpovídá počtu žáků.\n\nObrázky se vyměňují přetažením, správně umístěné se podbarví. Po opravě: Dokážete určit nejmenší počet přesunů? Ideální je dvojice, po jejíž výměně jsou oba obrázky správně — hledání nejrychlejší cesty k řešení.\n\nPříklady 2–4 (2. stupeň): oprava v řádcích, ve sloupci, nakonec v obojím.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: 1. stupeň — Příklad 1 po Škytavce, pak Znaky a ikony (začátečník). 2. stupeň — Příklady 2–4 po Adopci zvířátka / Poruchách robotů, pak Znaky a ikony (pokročilý, borec).",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/obrazkove-tabulky-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/10-kontrolujeme-priklad-2"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "data-pd-barvy",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Barvy: spočítej, vyfiltruj a seřaď",
+  "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/14-filtr-priklad-2",
+  "description": "Žáci spočítají, kolikrát je v tabulce která barva, vyberou barvy ze seznamu a seřadí je — podle počtu, případně ještě podle abecedy.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "filtrování",
+    "řazení",
+    "četnost",
+    "více kritérií",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák filtruje data, určí četnost a řadí podle primárního i sekundárního kritéria.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Jak zjistím, kterou barvu dát na první místo? (Najít v textu kritérium řazení a přejít od barev k číslům přes počet buněk.) Máte všichni tři barvy? Pokud ne, třetí barva bude poslední s nulou.\n\nSamostatně: výběr barvy v seznamu a zápis počtu. Datík kontroluje pořadí i počty. Diskuse: Jak jsou barvy seřazené v rozbalovacím seznamu? (Abecedně.) Kdy by bylo potřeba obě kritéria za sebou? (Např. červená a černá mají stejný počet.)\n\nPříklady 2 a 3 (2. stupeň): řazení podle primárního (počet) a sekundárního kritéria (abeceda), až 5 velikostí tabulky.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Řazení čísel. 1. stupeň pak Ovoce a zelenina, 2. stupeň Řazení prohlížečů.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/barvy-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/14-filtr-priklad-2"
+  },
+  "added": "2026-09-29"
+}

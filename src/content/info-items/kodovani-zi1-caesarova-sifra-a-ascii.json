@@ -1,0 +1,56 @@
+{
+  "id": "kodovani-zi1-caesarova-sifra-a-ascii",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Caesarova šifra a jak text kóduje počítač",
+  "description": "Posunutou abecedou žáci odhalí jméno slavného vojevůdce a podle tabulky ASCII dekódují zprávu z čísel.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Caesarova šifra",
+    "ASCII",
+    "klíč",
+    "šifry",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zašifruje a dešifruje text pomocí klíče a ví, že počítač přiřazuje každému znaku číslo.",
+  "materials": [
+    "Pracovní listy 3.8 a 3.10 (PDF níže)",
+    "Nůžky (varianta s posuvnou tabulkou)"
+  ],
+  "procedure": "Zvídavá otázka: Jak zajistit, aby se zpráva těžko dešifrovala cizímu, ale snadno adresátovi? Domluvit si klíč, který se dá měnit — jednoduché pravidlo s měnitelným parametrem.\n\nCaesarova šifra (PL 3.8): podle převodní tabulky (posun abecedy o 5) žáci dešifrují zprávu EPGDPN XVZNVM a dozvědí se jméno vojevůdce, po kterém se šifra jmenuje — JULIUS CAESAR.\n\nObtížnost upravíte snadno: princip tabulky předem nevysvětlujte a nechte žáky na něj přijít. Nebo tabulku rozstříhejte po řádcích a spodním řádkem posouvejte (musí se rozdělit i na další části, aby šel konec posunout dopředu). Rychlejší si navzájem šifrují název oblíbené knihy.\n\nRozšíření — zvídavá otázka: Jak si kóduje text počítač? Každému znaku přiřadí pořadové číslo. Nejde o utajení, ale naopak o to, aby si zprávu po přenosu každý přečetl stejně — k tomu slouží převodní tabulka (ASCII).\n\nDekódování ASCII (PL 3.10): 98-101-122-32-99-97-114-101-107-32-97-32-104-97-99-107-117 → „bez carek a hacku“. Zprávu můžete diktovat po znacích, nebo napsat na tabuli. Jako oddělovač se neosvědčila mezera — čísla splývají (zvlášť u dyskalkuliků). Slova jsou vybraná záměrně: ukazují, že základní ASCII neumí diakritiku.\n\nShrnutí: Text kódujeme pro snadný přenos na dálku. Aby zprávě neporozuměl nepovolaný, šifrujeme ji. Nevýhodou známých principů je snadné rozluštění.",
+  "files": [
+    {
+      "label": "Pracovní list 3.8 — Caesarova šifra",
+      "href": "/informatika-soubory/imysleni/zi1-3-8-caesarova-sifra.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 3.10 — zpráva a tabulka ASCII",
+      "href": "/informatika-soubory/imysleni/zi1-3-10-ascii.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 15–17 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=15",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

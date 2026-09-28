@@ -1,0 +1,46 @@
+{
+  "id": "programovani-pd-bludiste",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Bludiště v tabulce",
+  "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/18-resime-priklad-4",
+  "description": "Žáci hledají cestu bludištěm ve tvaru tabulky od startu k cíli a zapisují ji adresami buněk, ve kterých mění směr.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "bludiště",
+    "adresa buňky",
+    "cesta",
+    "tabulka",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák vyřeší hledání cesty v určeném počtu kroků a zapíše ji adresami buněk.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — společně s bludištěm velikosti 5: Je to opravdu bludiště, nebo labyrint? (Klidně ať si rozdíl vyhledají.) Odkud kam hledám cestu? Start je vždy vpravo dole (nultý krok), cíl vpravo nahoře. Ať žáci jmenují adresy buněk, které jsou na správné cestě křižovatkami.\n\nSamostatně bludiště velikosti 7: vybírají buňky, kde mění směr (písmeno a číslo zvlášť v seznamu), nesmí procházet stěnami (silnější ohraničení). Buňky se vybarvují a Datík hlásí stav.\n\nDiskuse: V čem se liší dva sousední kroky? (Buď v písmenu, nebo v čísle — nikdy v obojím ani v ničem.) Došli jste napoprvé? Tady postupujte citlivě.\n\nPříklad 2 (2. stupeň): tři velikosti bludiště — s velikostí roste počet kroků.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: 1. stupeň na závěr po Ovoci a zelenině; 2. stupeň po Kontrole referátů, následuje Datík a prohlížeče.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/bludiste-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/18-resime-priklad-4"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-razeni-prohlizecu",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Řazení prohlížečů podle grafu",
+  "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/8-filtr-priklad-1",
+  "description": "Podle výsečového grafu podílu webových prohlížečů žáci doplní a seřadí názvy v tabulce a vysvětlí, proč jedno číslo z grafu v tabulce chybí.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "20–25 min",
+  "keywords": [
+    "řazení",
+    "výsečový graf",
+    "tabulka",
+    "prohlížeče",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák doplní data z jednoho modelu (graf) do jiného (tabulka) a seřadí popisky podle čísel.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Objevuje se v příkladu řazení? (Tabulka sestupně, v grafu jen částečně.) Proč v tabulce chybí 12,72 % z většího grafu? (Jinak by součet nedal 100 % — tři nejmenší prohlížeče by se počítaly dvakrát.)\n\nSamostatně: názvy prohlížečů se přetahují do tabulky; ať se snaží napoprvé. Diskuse: Podle čeho jste poznali, kam název patří? Dva vztahy — barva výseče ↔ legenda (název) a číslo ve výseči ↔ číslo v tabulce; spojovacím článkem je výseč. Šlo by to jen podle velikosti výsečí?\n\nPříklad 2: podíly jsou náhodné a doplňuje se bez konkrétních čísel. Snahou je ukázat, že řadit se musí i popisky spojené s čísly a že řazení pomáhá ověřit, zda si tabulka a graf odpovídají.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Barvách, následují Datíkovy baterie.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/razeni-prohlizecu-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/8-filtr-priklad-1"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-grafovani",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Grafování: sběr papíru",
+  "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/19-data-priklad-4",
+  "description": "Podle textu o sběru papíru žáci upraví sloupcový graf, aby odpovídal, a zjistí, že i celkový součet se dá z grafu vyčíst.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "sloupcový graf",
+    "tvorba grafu",
+    "kontrola dat",
+    "součet",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák s porozuměním využije číselná data k tvorbě grafu a zkontroluje ho podle textu.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Je opravdu potřeba graf upravovat? Proč? Žáci odpovídají celou větou s hodnotami („Podle textu Brunclík nasbíral 14 kg, ale v grafu má 7.“). Ať zazní všechna příjmení, každé od jiného žáka. Celkový součet zatím nezmiňujte.\n\nSamostatně: čísla se zadávají do boxů pod grafem (klávesnice, šipky), kontrola tlačítkem Zkontroluj. Ujistěte se, že všichni mají graf odpovídající textu.\n\nPříklad 2: Podle čeho dalšího poznáte, že graf neodpovídá textu? (V textu je i celkový součet kilogramů.) Je součet v grafu vidět? Dá se z grafu zjistit? Stačí malý úkon — sečíst hodnoty. Žáci sečtou svůj graf a porovnají s textem.\n\nPříklad 3 je nejnáročnější — zkuste ho s rychlejšími žáky.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: první úloha na 2. stupni, následuje Doplňujeme sportovní tabulku.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/grafovani-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/19-data-priklad-4"
+  },
+  "added": "2026-09-29"
+}

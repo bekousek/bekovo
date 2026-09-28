@@ -1,0 +1,47 @@
+{
+  "id": "data-pd-razeni-cisel",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Řazení čísel pomocí adres buněk",
+  "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/16-filtr-priklad-4",
+  "description": "Žáci najdou v tabulce azurové buňky a seřadí jejich čísla — ne přepisováním, ale výběrem adres buněk (A1, C3…).",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "řazení",
+    "adresa buňky",
+    "vzestupně",
+    "sestupně",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhledá data podle kritéria a seřadí je pomocí adres buněk.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — společně s nejmenší tabulkou (9 čísel): Podle čeho poznám, která čísla řadit? (Azurové podbarvení je v zadání.) Které adresy mám postupně vybrat? Nechte si diktovat adresy, chyby neopravujte — nechte to na Datíkovi. Adresa buňky je jeden celek, i když se vybírá písmeno a číslo zvlášť.\n\nSamostatně: tabulka o velikosti 4 nebo 5 (16 nebo 25 čísel). Diskuse: Jak jste při řazení postupovali? Chtějte podrobný popis myšlenkového postupu, ne „kouknul jsem a viděl“ — nejdřív si vypsat všechny azurové buňky, pak hledat nejmenší… Dokázali jste to napoprvé?\n\nPříklad 2 (2. stupeň): desetinná čísla a 8 velikostí tabulky.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Znacích a ikonách, následuje Barvy.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/razeni-cisel-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/filtrujeme-tridime-a-radime/16-filtr-priklad-4"
+  },
+  "added": "2026-09-29"
+}

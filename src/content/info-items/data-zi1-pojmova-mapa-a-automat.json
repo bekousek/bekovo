@@ -1,0 +1,45 @@
+{
+  "id": "data-zi1-pojmova-mapa-a-automat",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Pojmová mapa nástrojů a automat na sušenky",
+  "description": "Žáci třídí hudební nástroje do pojmové mapy a grafem se šipkami (stavovým automatem) znázorní, co se děje při vhazování mincí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "pojmová mapa",
+    "automat",
+    "stavy",
+    "graf",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák použije pojmovou mapu ke znázornění struktury a graf k zachycení „co se stane, když…“.",
+  "materials": [
+    "Obrázky hudebních nástrojů (případně vytištěné na skládání po koberci)",
+    "Mince 1 Kč a 2 Kč na dramatizaci (nepovinné)"
+  ],
+  "procedure": "Pojmová mapa: vytvoř strukturu dělení hudebních nástrojů, aby se ti dobře pamatovalo, do jaké skupiny který patří. Pojmová mapa ukazuje strukturu systému a usnadňuje porozumění. Vybírejte nástroje, které žáci znají a u kterých odvodí, jak vzniká tón; jinak mějte připravené obrázky.\n\nRozšíření — automat na sušenky: sušenka stojí 5 Kč a do automatu lze vhazovat jen 1korunové a 2korunové mince. Pomocí grafu znázorněte, co se děje: vrcholy jsou stavy na displeji (0, 1, 2, … Kč), šipky vhození mince (jinou barvou 1 Kč, jinou 2 Kč). Koncové stavy (5 a 6 Kč) už stačí na vydání sušenky.\n\nVeďte heuristický rozhovor, nebo aktivitu zdramatizujte: jeden hraje automat, druhý zákazníka, ostatní popisují, co se děje. Objevit zápis grafem není nutné — můžete ho po scénce ukázat hotový a nechat žáky se v něm zorientovat.\n\nStavy lze pojmenovat i opačně (kolik zbývá doplatit) — pak by vznikl jediný koncový stav. Takovým grafům se odborně říká automaty.\n\nShrnutí: Grafy mohou zobrazit různé reálné situace. Grafy (pojmové mapy) slouží i ke znázornění souvisejících pojmů a pomáhají pochopit celý problém.",
+  "files": [
+    {
+      "label": "Učebnice, str. 36–37 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=36",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

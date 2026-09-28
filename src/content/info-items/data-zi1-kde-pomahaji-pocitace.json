@@ -1,0 +1,49 @@
+{
+  "id": "data-zi1-kde-pomahaji-pocitace",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Kde všude pomáhají počítače (a jak putuje e-mail)",
+  "description": "Žáci přiřazují technologie k oborům (zdravotnictví, doprava, obchod…), navrhují pomůcky pro lidi s hendikepem a porovnávají dopis s e-mailem.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "využití technologií",
+    "hendikep",
+    "kompenzační pomůcky",
+    "e-mail",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák uvede různé příklady využití digitálních technologií.",
+  "materials": [
+    "Pracovní list 13.5 — přiřazovačka odvětví a využití (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: V jakých odvětvích se využívá počítač? Dnes téměř ve všech.\n\nPřiřazovačka (PL 13.5): přiřaď odvětví (automobilový průmysl, zdravotnictví, doprava, finance, obchod) k tomu, k čemu technologie slouží — vykonává automatické činnosti, zobrazuje vnitřní orgány, počítá jízdné, ovládá výhybky, vydává peníze, čte čárový kód.\n\nZvídavá otázka: Jak pomáhají technologie hendikepovaným lidem? Jako kompenzační pomůcky — předčítání textu, převod řeči na text, zvětšení textu. Ve trojicích navrhněte, jak by technologie mohla v budoucnu pomoci lidem s různým hendikepem; ponechte volnost fantazii.\n\nRozšíření — dopis a e-mail: Co potřebuju k odeslání zásilky poštou? (Obsah a adresa.) Co k odeslání e-mailu? (Vlastní schránku a adresu příjemce: jméno @ server.) Jak se může stát, že e-mail nedorazí? (Chybná adresa, plná schránka, zablokování serverem, spam.)\n\nShrnutí: Technologie nás provázejí na každém kroku a používají se snad ve všech odvětvích. Usnadňují práci, ale nesou i rizika. Mezi často využívané služby internetu patří web, e-mail a chat či videohovory.",
+  "files": [
+    {
+      "label": "Pracovní list 13.5 — odvětví a využití technologií",
+      "href": "/informatika-soubory/imysleni/zi1-13-5-odvetvi.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 50–51 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=50",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

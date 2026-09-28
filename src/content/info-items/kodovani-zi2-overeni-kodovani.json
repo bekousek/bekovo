@@ -1,0 +1,55 @@
+{
+  "id": "kodovani-zi2-overeni-kodovani",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Ověřovací úlohy: kódování (2. stupeň)",
+  "description": "Pět úloh (znaková sada, klíč šifry, obrázek ze souřadnic, opakující se části věty) a čtyři bobří úlohy — Slavnostní menu, Maminka a kotě, Tajné zprávy, Šipková šifra.",
+  "type": "pracovni-list",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "ověření",
+    "test",
+    "Bobřík informatiky",
+    "kódování",
+    "šifry",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák si ověří, zda si odnesl zkušenost s kódováním znaků, šifrováním a kompresí.",
+  "materials": [
+    "Pracovní listy A.1–5 a A.6–9 (PDF níže)"
+  ],
+  "procedure": "Úlohy nejsou primárně na klasifikaci — ověřují, zda se zkušenost z hodin zafixovala.\n\nA.1: K má kód 75, abeceda je anglická, nejdřív velká, pak malá písmena. Jaký kód má jméno Jakub? A.2: Jaký byl klíč, když z KOSTEL vzniklo T4/T8/E7/E8/H8/T5? (HOTEL.) A.3: Zašifruj POSTEL levou tabulkou. A.4: Jaký obrázek kódují zadané souřadnice? A.5: Vyznač opakující se části věty HELENA NAMALUJE JELENA.\n\nBobří úlohy (kategorie Benjamin): Slavnostní menu — značky * a § určují formátování textu (podobně jako HTML). Maminka a kotě — příběh zapsaný „procedurami“ s parametry. Tajné zprávy — transpoziční šifra v mřížce o čtyřech sloupcích. Šipková šifra — jméno zašifrované odzadu šipkami.\n\nŘešení s rozborem najdete v učebnici.",
+  "files": [
+    {
+      "label": "Úlohy A.1–5 na ověření kódování",
+      "href": "/informatika-soubory/imysleni/zi2-a-1-5-overeni-kodovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Bobří úlohy A.6–9 na kódování",
+      "href": "/informatika-soubory/imysleni/zi2-a-6-9-bobri-ulohy-kodovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 31–33 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=31",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}
