@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-plosinovka",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Plošinovka",
+  "description": "Postavičku v plošinovce neovládají žáci šipkami, ale blokovým programem. Hlavně procvičuje podmínky.",
+  "type": "aktivita",
+  "keywords": [
+    "podmínky",
+    "bloky",
+    "hra",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/plosinovka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/plosinovka"
+  },
+  "added": "2026-09-29"
+}

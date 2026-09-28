@@ -1,0 +1,26 @@
+{
+  "id": "programovani-umime-zelvi-grafika",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Želví grafika",
+  "description": "Žáci skládají z bloků program, podle kterého želva kreslí obrázky — od čtverce přes vzory s opakováním a proměnné až po fraktály. Základy zvládnou i děti z 1. stupně.",
+  "type": "aktivita",
+  "keywords": [
+    "želva",
+    "bloky",
+    "opakování",
+    "proměnné",
+    "úhly",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/zelvi-grafika",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/zelvi-grafika"
+  },
+  "added": "2026-09-29"
+}

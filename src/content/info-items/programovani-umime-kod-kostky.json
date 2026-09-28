@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-kod-kostky",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Kód kostky",
+  "description": "Čtení cizích programů: madam a pan Kostka chodí po plánu přesně podle instrukcí a žák určuje, kam dojdou. Dobrá průprava před psaním vlastních programů.",
+  "type": "aktivita",
+  "keywords": [
+    "čtení kódu",
+    "porozumění programu",
+    "instrukce",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/kod-kostky",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/kod-kostky"
+  },
+  "added": "2026-09-29"
+}

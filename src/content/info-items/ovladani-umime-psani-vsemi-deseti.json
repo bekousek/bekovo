@@ -1,0 +1,24 @@
+{
+  "id": "ovladani-umime-psani-vsemi-deseti",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Psaní všemi deseti",
+  "description": "Přepis textů od prostřední řady přes diakritiku po čísla. Hotovo je, až žák píše rychle i správně.",
+  "type": "aktivita",
+  "keywords": [
+    "psaní všemi deseti",
+    "klávesnice",
+    "diakritika",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/psani-vsemi-deseti",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/psani-vsemi-deseti"
+  },
+  "added": "2026-09-29"
+}

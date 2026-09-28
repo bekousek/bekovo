@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-kulicka",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Kulička",
+  "description": "Kulička v bludišti se kutálí, dokud nenarazí do stěny — žáci s ní musí posbírat všechny poklady.",
+  "type": "hra",
+  "keywords": [
+    "bludiště",
+    "poklady",
+    "plánování",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/kulicka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/kulicka"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-auticka",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Autíčka",
+  "description": "Přecpané parkoviště (Rush Hour): posouvej auta tak, aby se žluté dostalo ven.",
+  "type": "hra",
+  "keywords": [
+    "Rush Hour",
+    "parkoviště",
+    "posouvání",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/rushhour",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/rushhour"
+  },
+  "added": "2026-09-29"
+}

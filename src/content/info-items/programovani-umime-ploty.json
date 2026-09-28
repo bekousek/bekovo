@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-ploty",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Ploty",
+  "description": "Postav jeden uzavřený plot tak, aby kolem každého políčka s číslem vedl přesně daný počet plotů.",
+  "type": "hra",
+  "keywords": [
+    "Slitherlink",
+    "plot",
+    "logika",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/ploty",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/ploty"
+  },
+  "added": "2026-09-29"
+}

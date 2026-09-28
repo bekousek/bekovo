@@ -1,0 +1,26 @@
+{
+  "id": "kancelar-umime-tabulky",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Tabulky",
+  "description": "Žáci dostanou data (CSV, XLSX nebo odkaz do Tabulek Google), zpracují je v libovolném tabulkovém editoru a odevzdají jen odpověď na otázku.",
+  "type": "aktivita",
+  "keywords": [
+    "Excel",
+    "Tabulky Google",
+    "LibreOffice",
+    "data",
+    "CSV",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/tabulky",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/tabulky"
+  },
+  "added": "2026-09-29"
+}

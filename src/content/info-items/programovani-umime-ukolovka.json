@@ -1,0 +1,24 @@
+{
+  "id": "programovani-umime-ukolovka",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Programátorská úkolovka",
+  "description": "Úkolem je spočítat tajný kód. Jak k němu žák dojde, je na něm — odevzdává jen výsledek. Úlohy jsou stavěné na Python, ale jde to v čemkoli.",
+  "type": "aktivita",
+  "keywords": [
+    "Python",
+    "výpočet",
+    "tajný kód",
+    "Umíme to"
+  ],
+  "url": "https://www.umimeinformatiku.cz/ukolovka",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "cs",
+  "source": {
+    "label": "Umíme informatiku",
+    "url": "https://www.umimeinformatiku.cz/ukolovka"
+  },
+  "added": "2026-09-29"
+}
