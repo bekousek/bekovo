@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-csu-skautska-mrizka",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Skautská šifrovací mřížka",
+  "url": "https://classic.csunplugged.org/activities/community-activities/scout-patrol-encryption/",
+  "description": "Skautský oddíl potřebuje lepší šifru: žáci vystřihnou otočnou mřížku 4 × 4, luští zprávu a zjistí, co je klíč a proč se musí bezpečně předat — jako u HTTPS.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "šifra",
+    "otočná mřížka",
+    "symetrický klíč",
+    "HTTPS",
+    "skauti",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci poznají symetrické šifrování na historické šifře a pochopí problém bezpečné výměny klíče.",
+  "materials": [
+    "Pracovní list Jenny’s cipher (v návodu)",
+    "Nůžky",
+    "Čtvercové papíry"
+  ],
+  "procedure": "Příběh: skautky dřív psaly zprávy pozpátku, ale to už každý zná. Jenny navrhne otočnou mřížku 4 × 4.\n\nSkupiny z listu vystřihnou 4 okénka a zkoušejí rozluštit ukázkovou zprávu (16 písmen). Mřížka jde přiložit v 8 polohách — která je správná?\n\nŽáci si navrhnou vlastní mřížku a zašifrují zprávu pro jinou skupinu.\n\nDiskuse: mřížka je klíč. Kolik různých klíčů existuje? Jak ho předat, aby ho nezískal nepřítel? Propojení na šifrování v prohlížeči (HTTPS).\n\nNávod je ve formátu .doc.",
+  "files": [
+    {
+      "label": "Návod Scout patrol secret grilles (anglicky, .doc)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/scout-patrol-encryption/Scouts_activity_on_symmetric_key_encryption.doc",
+      "type": "doc",
+      "note": "Paweł Perekietka, Agnieszka Kukla, Przemysław Pela."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — P. Perekietka, A. Kukla, P. Pela",
+    "url": "https://classic.csunplugged.org/activities/community-activities/scout-patrol-encryption/"
+  }
+}

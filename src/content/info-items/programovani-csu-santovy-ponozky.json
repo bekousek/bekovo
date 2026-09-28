@@ -1,0 +1,49 @@
+{
+  "id": "programovani-csu-santovy-ponozky",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Santovy špinavé ponožky — rozděl a panuj",
+  "url": "https://classic.csunplugged.org/activities/community-activities/divide-and-conquer/",
+  "description": "Veršovaný příběh: Santovy ponožky spadly do jednoho z 1024 dárků. Místo rozbalování všech stačí 10 vážení — pokaždé se polovina vyřadí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "rozděl a panuj",
+    "půlení",
+    "binární vyhledávání",
+    "Vánoce",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí sílu půlení: dvojnásobek dat znamená jen o jeden krok víc.",
+  "materials": [
+    "Obrázková kniha v PDF k předčítání nebo video",
+    "Nepovinně: rovnoramenné váhy a 32 stejných závaží, z nichž jedno je jiné"
+  ],
+  "procedure": "Přečti nebo pusť příběh (PDF nebo video na webu aktivity). Zastav před rozuzlením — jak by ponožky našli vy?\n\nDokonči příběh: dárky se rozdělí na dvě hromady a zváží, těžší polovina se dělí dál. 1024 → 512 → … → 1 = 10 vážení.\n\nMyšlenkový experiment: kolik vážení pro 2048 dárků? (11) Pro čtyřikrát víc? (+2) Kolik dárků zvládne 30 vážení? (přes miliardu)\n\nPropojení: vyhledávač, který hledá v seřazené miliardě slov, potřebuje jen asi 30 kroků.\n\nVarianta: vyzkoušejte to s vahami a závažím, které se liší.",
+  "files": [
+    {
+      "label": "Kniha Santa’s Dirty Socks (anglicky, 13 MB)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/divide-and-conquer/SantasDirtySocksGeneral.pdf",
+      "type": "pdf",
+      "note": "Ilustrovaný příběh k předčítání."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — Victor Chicha, Tim Powell, Michael Bell",
+    "url": "https://classic.csunplugged.org/activities/community-activities/divide-and-conquer/"
+  }
+}

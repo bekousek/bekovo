@@ -1,0 +1,46 @@
+{
+  "id": "media-csu-kresleni-cary",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Kreslení čáry z pixelů",
+  "url": "https://classic.csunplugged.org/activities/community-activities/line-drawing/",
+  "description": "Jak počítač ví, které pixely vybarvit, aby vznikla rovná čára? Žáci kreslí čáry do mřížky nejdřív od oka, pak podle Bresenhamova algoritmu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "pixely",
+    "Bresenham",
+    "algoritmus",
+    "souřadnice",
+    "grafika",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zjistí, že i rovná čára je pro počítač úloha, a vyzkoušejí algoritmus, který ji kreslí jen sčítáním.",
+  "materials": [
+    "Pracovní listy s mřížkou (PDF)",
+    "Tužka, pravítko a kružítko na kontrolu"
+  ],
+  "procedure": "Snadné čáry: podle souřadnic vybarvi v mřížce vodorovnou, svislou a šikmou čáru pod 45°. Zkontroluj pravítkem.\n\nTěžší čára: bez pravítka nakresli čáru z A do B. Sedí?\n\nBresenhamův algoritmus: A = 2 × změna Y, B = A − 2 × změna X, P = A − změna X. Pro každý krok v ose X: je-li P < 0, zůstaň na řádku a přičti A; jinak jdi o řádek výš a přičti B.\n\nNakresli čáru podle algoritmu a porovnej s prvním pokusem. V PDF je i řešení pro učitele a rozšíření na kružnici.",
+  "files": [
+    {
+      "label": "Drawing Lines with Pixels — pracovní listy (anglicky)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/line-drawing/line-drawing.pdf",
+      "type": "pdf",
+      "note": "Joshua Scott, University of Canterbury."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — Joshua Scott",
+    "url": "https://classic.csunplugged.org/activities/community-activities/line-drawing/"
+  }
+}

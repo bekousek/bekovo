@@ -1,0 +1,48 @@
+{
+  "id": "programovani-csu-robot-harold",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Robot Harold",
+  "url": "https://classic.csunplugged.org/activities/community-activities/harold-the-robot/",
+  "description": "Učitel hraje robota, který rozumí jen některým povelům. Žáci ho musí slovy navést, aby postavil věž z kostek — a zjistí, co robot umí a co ne.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "keywords": [
+    "robot",
+    "instrukce",
+    "příkazy",
+    "kostky",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zažijí, že počítač plní instrukce doslova a jen ty, které zná — a přemýšlejí, jakou sadu příkazů by robot měl mít.",
+  "materials": [
+    "Pár kostek nebo podobných předmětů"
+  ],
+  "procedure": "Na lavici leží kostky. Učitel (později žák) je robot Harold, který rozumí jen některým povelům — žákům je neprozradí.\n\nŽák Harolda slovy vede ke stavbě věže („posuň ruku doleva“, „vezmi kostku vedle ruky“). Na příliš složitý povel („postav je na sebe“) Harold zmateně kroutí hlavou.\n\nKdyž věž stojí, diskutujte: kterým povelům robot rozuměl? Které by dávaly smysl přidat? Je lepší malá sada příkazů, nebo velká?\n\nNavazuje na aktivitu Pochodové rozkazy; podobná je i oblíbená „výroba chleba se sýrem podle návodu“.",
+  "files": [
+    {
+      "label": "Návod Harold the Robot (anglicky)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/harold-the-robot/haroldtherobot.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Video s ukázkou (YouTube)",
+      "href": "https://www.youtube.com/watch?v=leBEFaVHllE",
+      "type": "video"
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita)",
+    "url": "https://classic.csunplugged.org/activities/community-activities/harold-the-robot/"
+  }
+}
