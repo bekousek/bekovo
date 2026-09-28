@@ -1,0 +1,38 @@
+{
+  "id": "programovani-csu-fitness-unplugged",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Kidbots: Fitness unplugged",
+  "url": "https://www.csunplugged.org/en/topics/kidbots/fitness-unplugged/",
+  "description": "Žáci si vymyslí „programovací jazyk“ ze značek pro cviky a napíšou v něm cvičební program s opakováním. Spolužáci ho odcvičí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "cykly",
+    "opakování",
+    "tělocvik",
+    "programovací jazyk",
+    "Kidbots",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci navrhnou jednoduchý jazyk instrukcí, použijí cyklus a spočítají, kolik cviků program znamená.",
+  "materials": [
+    "Odznaky rolí (na webu lekce)",
+    "Tabulky a fixy nebo papír",
+    "Obruč"
+  ],
+  "procedure": "Otázka: kdo vymýšlí programovací jazyky pro počítače?\n\nTrojice vymyslí značky pro cviky (dřep, výskok, skok přes obruč…) a značku pro opakování.\n\nNapíšou cvičební program s opakováním, jiná trojice ho „spustí“ a odcvičí.\n\nSpočítejte, kolik cviků program obsahoval (sčítání, násobení) a jestli se dal zapsat kratší.",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/kidbots/fitness-unplugged/"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "programovani-csu-binarni-vyhledavaci-strom",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Binární vyhledávací strom",
+  "url": "https://www.csunplugged.org/en/topics/data-structures-for-searching/binary-search-trees/",
+  "description": "Žáci s kartičkami čísel stavějí strom: menší vlevo, větší vpravo. Pak v něm hledají a porovnávají, jak rychle to jde.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "datové struktury",
+    "strom",
+    "vyhledávání",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci umí uložit data do binárního vyhledávacího stromu, najít v něm hodnotu a porovnat to s jinými způsoby hledání.",
+  "materials": [
+    "Kartičky s čísly (nebo slovy)",
+    "Tabule nebo velký papír"
+  ],
+  "procedure": "Předpoklad: žáci znají sekvenční a binární vyhledávání (Velký hon na čísla).\n\nStavba stromu: první kartička je kořen. Každá další jde od kořene dolů — je-li menší, doleva, je-li větší, doprava — až na volné místo.\n\nHledání: najdi zadané číslo. Kolik porovnání to stálo? Co když číslo ve stromu není?\n\nVarianty: vložte stejná čísla v jiném pořadí (třeba seřazená) — jak strom vypadá teď a proč je hledání pomalé?\n\nPozor, žáci často pletou binární vyhledávání a binární vyhledávací strom — ujasněte rozdíl.",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/data-structures-for-searching/binary-search-trees/"
+  }
+}

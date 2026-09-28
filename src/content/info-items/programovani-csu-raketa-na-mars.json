@@ -1,0 +1,40 @@
+{
+  "id": "programovani-csu-raketa-na-mars",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Kidbots: Raketa na Mars",
+  "url": "https://www.csunplugged.org/en/topics/kidbots/sending-a-rocket-to-mars/",
+  "description": "Starší verze Záchranné mise: programátor musí napsat celý program dopředu a „vystřelit raketu“ — za letu už ho nejde opravit.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "robot",
+    "program předem",
+    "ladění",
+    "Kidbots",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci napíšou celý program předem, otestují ho a opraví chyby — jako u skutečné vesmírné mise.",
+  "materials": [
+    "Karty se šipkami (na webu lekce)",
+    "Mřížka 8 × 8",
+    "Odznaky rolí",
+    "Kostky jako překážky"
+  ],
+  "procedure": "Trojice: programátor, robot (raketa) a tester. Na mřížce je start, Mars a překážky.\n\nProgramátor napíše celý program šipkami předem — raketa se pak už nedá řídit.\n\nRobot program provede, tester zapisuje, kde se raketa odchýlila.\n\nOprava programu a nový start. Postupně přidávejte překážky a delší cesty.\n\nReflexe: proč se programy pro rakety tak pečlivě testují předem?",
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://www.csunplugged.org/en/topics/kidbots/sending-a-rocket-to-mars/"
+  }
+}

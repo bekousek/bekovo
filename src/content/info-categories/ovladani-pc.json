@@ -18,6 +18,10 @@
     {
       "id": "operacni-system",
       "name": "Operační systém a nastavení"
+    },
+    {
+      "id": "navrh-rozhrani",
+      "name": "Návrh uživatelského rozhraní"
     }
   ]
 }

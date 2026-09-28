@@ -1,0 +1,48 @@
+{
+  "id": "internet-csu-pomerancova-hra",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Pomerančová hra — směrování a uváznutí",
+  "url": "https://classic.csunplugged.org/activities/routing-and-deadlock/",
+  "description": "Kruh žáků si podává pomeranče s písmeny, dokud každý nemá své dva. Kdo je „chamtivý“, zablokuje celou skupinu — přesně jako zprávy v síti.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "uváznutí",
+    "deadlock",
+    "síť",
+    "spolupráce",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zažijí uváznutí (deadlock) a hledají pravidla spolupráce, která mu předejdou.",
+  "materials": [
+    "Pro každého žáka 2 pomeranče (tenisáky, ovoce) označené jeho písmenem, jeden žák má jen jeden",
+    "Jmenovky s písmeny"
+  ],
+  "procedure": "Skupiny 5+ žáků sedí v kruhu, každý má písmeno. Rozdej pomeranče náhodně: každý drží dva cizí, jeden žák jen jeden (vždy je volná ruka).\n\nCíl: každý má oba své pomeranče. Pravidla: v jedné ruce jen jeden pomeranč, podávat se smí jen do prázdné ruky souseda.\n\nNech hrát. Brzy se ukáže, že kdo si své pomeranče hned podrží, může skupinu zablokovat.\n\nDiskuse: jakou strategii jste použili? Kde podobně vznikají zácpy (křižovatka, síť, tiskárna)?",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/10-pomerancova-hra.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/routing-and-deadlock/"
+  }
+}

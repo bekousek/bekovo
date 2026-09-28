@@ -1,0 +1,51 @@
+{
+  "id": "programovani-csu-chudy-kartograf",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Chudý kartograf — barvení mapy",
+  "url": "https://classic.csunplugged.org/activities/graph-colouring/",
+  "description": "Kartograf nemá na pastelky: žáci barví mapy tak, aby sousední státy měly různou barvu a barev bylo co nejméně.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "barvení grafu",
+    "mapy",
+    "optimalizace",
+    "rozvrh",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci poznají úlohu barvení grafu — typický příklad „opravdu těžkého“ problému, na který narazí i počítač (rozvrhy, přidělování frekvencí).",
+  "materials": [
+    "Pracovní listy s mapami (PDF)",
+    "Malé barevné žetony k posouvání",
+    "4 pastelky různých barev"
+  ],
+  "procedure": "Příběh: chudý kartograf má jen pár pastelek a sousední země musí mít různou barvu (dotyk v bodě se nepočítá).\n\nNa tabuli ukaž mapu se 4 zeměmi, kterou zvládnou 2 barvy.\n\nŽáci řeší mapy z pracovních listů. Nejdřív barví žetony (dají se přesouvat), pastelkou až nakonec. Cíl: co nejméně barev.\n\nSdílejte strategie. Proč nejde každá mapa dvěma barvami? Každá mapa na papíře jde nejvýš čtyřmi.\n\nZávěr: kde se řeší podobné úlohy — rozvrh hodin, zasedací pořádek, frekvence vysílačů.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/14-barveni-mapy.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/graph-colouring/"
+  }
+}

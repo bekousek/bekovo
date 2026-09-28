@@ -8,6 +8,10 @@
   "tagline": "Jak informace hledat, sbírat, třídit a vyhodnocovat.",
   "subcategories": [
     {
+      "id": "co-je-informace",
+      "name": "Co je informace"
+    },
+    {
       "id": "vyhledavani",
       "name": "Vyhledávání informací"
     },

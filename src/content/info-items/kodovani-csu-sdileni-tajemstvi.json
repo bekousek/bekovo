@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-csu-sdileni-tajemstvi",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Sdílení tajemství — průměrný věk bez prozrazení",
+  "url": "https://classic.csunplugged.org/activities/information-hiding/",
+  "description": "Skupina spočítá svůj průměrný věk, aniž by kdokoli prozradil svůj. Stačí blok papíru a náhodné číslo — úvod do kryptografických protokolů.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "kryptografie",
+    "soukromí",
+    "průměr",
+    "protokol",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci zjistí, že spolupracovat na výpočtu jde i bez sdílení soukromých údajů.",
+  "materials": [
+    "Pro skupinu malý bloček a propiska"
+  ],
+  "procedure": "Zeptej se: jde spočítat průměrný věk skupiny, aniž by kdokoli řekl svůj věk?\n\n6–10 žáků. První tajně napíše náhodné trojmístné číslo, list si utrhne a nechá. Na další list napíše součet náhodného čísla a svého věku a pošle bloček dál.\n\nKaždý další přičte svůj věk k číslu na horním listu, napíše výsledek na nový list, starý si utrhne.\n\nNa konci první žák odečte své náhodné číslo — vyjde součet věků. Vyděl počtem žáků.\n\nDiskuse: kdo mohl co zjistit? Co kdyby se dva domluvili? Kde se podobné protokoly používají (volby, statistiky)?",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/17-sdileni-tajemstvi.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/information-hiding/"
+  }
+}

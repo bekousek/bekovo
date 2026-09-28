@@ -1,0 +1,49 @@
+{
+  "id": "programovani-csu-hledani-pokladu",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Hledání pokladu — konečné automaty",
+  "url": "https://classic.csunplugged.org/activities/finite-state-automata/",
+  "description": "Žáci putují po třídě mezi „ostrovy“ (spolužáky s kartičkami), volí loď A nebo B a kreslí si mapu. Najdou nejkratší cestu k Ostrovu pokladů.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "konečný automat",
+    "mapa",
+    "stavy",
+    "pohyb po třídě",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci si zakreslí konečný automat (mapu stavů a přechodů) a najdou v něm cestu k cíli.",
+  "materials": [
+    "Karty ostrovů — vepředu název, vzadu kam jede loď A a B (PDF, přeložit a slepit)",
+    "Pracovní list s mapou pro každého žáka (PDF)",
+    "Tužky"
+  ],
+  "procedure": "Ukázka: na tabuli tři ostrovy, tři žáci drží ukázkové karty. Jeď lodí A, pak B… a zakresluj šipky do mapy.\n\nRozmísti po třídě 7 žáků s kartami ostrovů. Ostatní začínají na Pirátském ostrově, na každém ostrově si řeknou o loď A, nebo B a zapisují si cestu do mapy.\n\nCíl: najít Ostrov pokladů a zakreslit mapu všech tras.\n\nPorovnejte mapy a najděte nejkratší cestu (posloupnost A a B). Která posloupnost vede k cíli vždy?\n\nZávěr: takové mapy používají počítače k rozpoznávání textu, v automatech na nápoje nebo ve hrách. Rozšíření v PDF: záhadná mincová hra.",
+  "files": [
+    {
+      "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",
+      "href": "/informatika-soubory/cs-unplugged/12-hledani-pokladu.pdf",
+      "type": "pdf",
+      "note": "Vystřiženo z knihy CS Unplugged (2015), licence CC BY-NC-SA 3.0."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
+    "url": "https://classic.csunplugged.org/activities/finite-state-automata/"
+  }
+}
