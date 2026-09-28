@@ -1,0 +1,38 @@
+{
+  "id": "hardware-csu-trida-jako-pocitac",
+  "categoryId": "hardware",
+  "title": "Třída jako počítač",
+  "url": "https://classic.csunplugged.org/activities/community-activities/class-simulation-computer/",
+  "description": "Žáci hrají součásti počítače — procesor, paměť, displej — a podle jednoduchých instrukcí společně „spustí“ program.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "procesor",
+    "paměť",
+    "architektura",
+    "hraní rolí",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci si představí, jak součásti počítače spolupracují a že i z malé sady instrukcí jde poskládat zajímavý výpočet.",
+  "materials": [
+    "Kartičky s instrukcemi a „paměťové buňky“ (papíry na lavicích)",
+    "Tabule jako displej"
+  ],
+  "procedure": "Rozděl role: procesor čte instrukce jednu po druhé, paměť (několik žáků) si pamatuje čísla, sčítačka počítá, displej píše výsledek na tabuli.\n\nNapiš na kartičky krátký program z několika instrukcí (načti, sečti, ulož, vypiš) a nech třídu ho „spustit“.\n\nVarianta: do programu schválně dej chybu — jak dlouho trvá, než si třída všimne?\n\nVarianta: program počítá zajímavou řadu (třeba Fibonacciho) — pozná „počítač“, co vlastně dělá?\n\nPozn.: na webu CS Unplugged je aktivita vedená jako rozpracovaná; podrobnější scénář pro tři žáky (CPU, ALU/paměť, displej) má CSE4K12 — How Computers Work.",
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita)",
+    "url": "https://classic.csunplugged.org/activities/community-activities/class-simulation-computer/"
+  }
+}

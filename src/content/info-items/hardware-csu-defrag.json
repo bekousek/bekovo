@@ -1,0 +1,47 @@
+{
+  "id": "hardware-csu-defrag",
+  "categoryId": "hardware",
+  "title": "Defrag — hra na uklízení disku",
+  "url": "https://classic.csunplugged.org/activities/community-activities/defrag-game/",
+  "description": "Barevné kartičky s čísly leží na „disku“ napřeskáčku. Žáci je co nejmenším počtem tahů seskupí podle barev a seřadí — přesně jako defragmentace.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "disk",
+    "bloky",
+    "fragmentace",
+    "ukládání dat",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí, proč se soubor na disku rozdělí do bloků a proč se vyplatí bloky poskládat k sobě.",
+  "materials": [
+    "Sada kartiček: asi 4 barvy × 4 kartičky s čísly 1–4 (barevné kartotéční lístky s tečkami nebo barevné post-ity)"
+  ],
+  "procedure": "Úvod: soubor je na disku rozdělený do bloků, které nemusí ležet vedle sebe. Čím víc jsou rozházené, tím déle se soubor načítá.\n\nZamíchané kartičky vyskládej do dlouhé řady (disk). Barva = soubor, číslo = pořadí bloku.\n\nCíl: seskupit kartičky podle barev a v každé barvě seřadit čísla. Pravidla: přesouvá se vždy jen jedna kartička, jen na volné místo (volno je i před první a za poslední), každý přesun se počítá. Mezery mezi soubory jsou povolené, ale penalizované.\n\nSkupiny soutěží o co nejmenší počet tahů. Obtížnost zvýšíš víc barvami nebo kartičkami.\n\nZávěr: proč počítač defragmentuje? A proč to u SSD disků už nedělá?",
+  "files": [
+    {
+      "label": "Návod k Defrag game (anglicky)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/defrag-game/defrag-game.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — Shadi Ibrahim, SuYu, Tim Bell",
+    "url": "https://classic.csunplugged.org/activities/community-activities/defrag-game/"
+  }
+}

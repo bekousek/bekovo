@@ -1,0 +1,42 @@
+{
+  "id": "kodovani-csu-modemy",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "Modemy bez počítače — zpráva ukrytá v písničce",
+  "url": "https://classic.csunplugged.org/activities/community-activities/modems-unplugged/",
+  "description": "Žáci poslouchají krátké „písničky“: vysoký tón je 1, nízký 0. Po pěti tónech převedou binární číslo na písmeno a rozluští ukryté slovo — tak posílal data modem.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "binární čísla",
+    "modem",
+    "zvuk",
+    "hudba",
+    "šifra",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci procvičí dvojkovou soustavu a pochopí, jak se dají data přenášet zvukem.",
+  "materials": [
+    "Přehrávač a nahrávky E01–E06 (na webu aktivity)",
+    "Papír a tužka",
+    "Tabulka 1 = A, 2 = B, …"
+  ],
+  "procedure": "Připomeň dvojková čísla (aktivita Dvojková čísla s kartičkami).\n\nPusť první písničku. Žáci zapisují 1 za každý vysoký tón a 0 za nízký.\n\nTóny rozdělí do skupin po pěti, každou převedou na desítkové číslo a pak na písmeno (1 = A, 2 = B…).\n\nPokračujte dalšími nahrávkami (E01–E06), jde to i jako soutěž skupin.\n\nVýzva pro nadšence: video „Reaching out“ na webu skrývá přes 20 binárních zpráv — v melodii, nástrojích, obrazu i tanci.",
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita)",
+    "url": "https://classic.csunplugged.org/activities/community-activities/modems-unplugged/"
+  }
+}

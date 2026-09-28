@@ -1,0 +1,49 @@
+{
+  "id": "data-csu-databaze-bez-pocitace",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Databáze bez počítače",
+  "url": "https://classic.csunplugged.org/activities/community-activities/databases/",
+  "description": "Série lekcí, kde jsou databází sami žáci: třídí se podle otázek, hledají se podle vlastností a postupně se dostanou až k relačním databázím a detektivce v tabulce.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "databáze",
+    "dotazy",
+    "rozhodovací strom",
+    "tabulka",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí, co je databáze, záznam a dotaz, a propojí to s prací v tabulce nebo databázovém programu.",
+  "materials": [
+    "Návod Databases Unplugged (PDF, 46 stran) — kartičky a pracovní listy jsou v něm"
+  ],
+  "procedure": "Série na několik hodin — vyber si podle věku:\n\nLidská větvená databáze: žáci se dělí podle otázek ano/ne a vzniká rozhodovací strom.\n\nLidská databáze (úvod, pokročilá, expert): každý žák je záznam s vlastnostmi a třída „odpovídá na dotazy“ (kdo má…, kolik je…) postupně složitějšími podmínkami.\n\nDatabáze na počítači: data z profilových karet se zapíšou do tabulky a žáci je filtrují — v originále řeší vraždu z knihy.\n\nRelační databáze a filozofie databází pro starší žáky.",
+  "files": [
+    {
+      "label": "Databases Unplugged — kompletní návod (anglicky)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/databases/DatabasesUnplugged-Version2.pdf",
+      "type": "pdf",
+      "note": "Mark Dorling, Digital Schoolhouse, 46 stran."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — Mark Dorling, Digital Schoolhouse",
+    "url": "https://classic.csunplugged.org/activities/community-activities/databases/"
+  }
+}

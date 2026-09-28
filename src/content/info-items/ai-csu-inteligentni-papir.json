@@ -1,0 +1,51 @@
+{
+  "id": "ai-csu-inteligentni-papir",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Inteligentní kus papíru",
+  "url": "https://classic.csunplugged.org/activities/community-activities/artificial-intelligence/",
+  "description": "Učitel tvrdí, že jeho papír je chytřejší než kdokoli ve třídě — a papír opravdu neprohraje v piškvorkách 3 × 3. Je to inteligence, nebo jen poslušné plnění pravidel?",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "language": "en",
+  "added": "2026-09-29",
+  "grades": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "15 min",
+  "keywords": [
+    "piškvorky",
+    "program",
+    "inteligence",
+    "pravidla",
+    "diskuse",
+    "CS Unplugged"
+  ],
+  "goal": "Žáci pochopí, že program je jen soubor pravidel, a diskutují, jestli něco, co slepě plní pravidla, může být inteligentní.",
+  "materials": [
+    "Vytištěný (ideálně zalaminovaný) „inteligentní papír“ s pravidly piškvorek (PDF)",
+    "Tabule nebo flipchart a dvě fixy"
+  ],
+  "procedure": "Oznam, že papír v ruce je chytřejší než kdokoli ve třídě. Hlasování: kdo tomu věří, kdo ne? Nech žáky hádat, v čem by „inteligence“ papíru mohla být.\n\nVyhlas zápas: dobrovolník hraje piškvorky 3 × 3 na tabuli proti papíru. Za papír hraje druhý žák, který jen přesně čte a plní napsaná pravidla.\n\nPapír neprohraje. Opakujte s dalšími vyzyvateli.\n\nDiskuse: je papír inteligentní? Kdo byl chytrý — papír, žák, který ho četl, nebo autor pravidel? Tohle je program: programovací jazyk, procesor (žák) a programátor.\n\nNa webu jsou další aktivity z CS4FN: Mozek v pytli, Emoční robot, Sladký učící se počítač.",
+  "files": [
+    {
+      "label": "Návod Intelligent Piece of Paper (anglicky)",
+      "href": "https://classic.csunplugged.org/documents/activities/community-activities/artificial-intelligence/intelligentpaper.pdf",
+      "type": "pdf",
+      "note": "Autor Paul Curzon, CS4FN."
+    }
+  ],
+  "source": {
+    "label": "CS Unplugged (komunitní aktivita) — Paul Curzon, CS4FN",
+    "url": "https://classic.csunplugged.org/activities/community-activities/artificial-intelligence/"
+  }
+}
