@@ -36,7 +36,7 @@
     "Metr nebo pravítko",
     "Papír a tužka"
   ],
-  "procedure": "Příběh: na zamrzlých jezerech v Kanadě pluhy prorážejí cesty mezi vrty. Cesty musí propojit všechny vrty a mít co nejmenší celkovou délku.\n\nSkupiny zatlučou 3 kolíky do trojúhelníku a zkoušejí je propojit provázkem co nejkratší sítí. Změří délku.\n\nObjevte, že přidání křižovatky uprostřed (úhly 120°) síť zkrátí. Pokračujte se 4 kolíky do čtverce a dalšími tvary.\n\nZávěr: srovnej s Blátivým městem — tam se nové body přidávat nesměly a úloha byla snadná; tady je extrémně těžká i pro počítač.",
+  "procedure": "Příběh: na zamrzlých jezerech v Kanadě pluhy prorážejí cesty mezi vrty. Cesty musí propojit všechny vrty a mít co nejmenší celkovou délku.\n\nSkupiny zatlučou 3 kolíky do trojúhelníku a zkoušejí je propojit provázkem co nejkratší sítí. Změří délku.\n\nObjevte, že přidání křižovatky uprostřed (úhly 120°) síť zkrátí. Pokračujte se 4 kolíky do čtverce a dalšími tvary.\n\nZávěr: srovnej s úlohou o minimální kostře (Blátov) — tam se nové body přidávat nesměly a úloha byla snadná; tady je extrémně těžká i pro počítač.",
   "files": [
     {
       "label": "Kapitola z knihy CS Unplugged — postup a pracovní listy (anglicky)",

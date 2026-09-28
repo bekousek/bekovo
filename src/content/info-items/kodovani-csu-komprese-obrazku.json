@@ -30,7 +30,7 @@
     "Pracovní listy Run Length Encoding (generují se na webu lekce)",
     "Tužky a gumy"
   ],
-  "procedure": "Navazuje na lekci Malování podle čísel. Otázka: jak ušetřit místo, když má obrázek dlouhé řady stejných pixelů?\n\nUkaž kódování řádku jako počty střídajících se bílých a černých pixelů. Žáci podle kódu vybarví obrázek z listu.\n\nŽáci vytvoří vlastní vzor, převedou ho na kód a vymění si ho se spolužákem.\n\nReflexe: kdy komprese pomáhá hodně a kdy skoro vůbec (šachovnice)?",
+  "procedure": "Navazuje na kódování obrázku do pixelů. Otázka: jak ušetřit místo, když má obrázek dlouhé řady stejných pixelů?\n\nUkaž kódování řádku jako počty střídajících se bílých a černých pixelů. Žáci podle kódu vybarví obrázek z listu.\n\nŽáci vytvoří vlastní vzor, převedou ho na kód a vymění si ho se spolužákem.\n\nReflexe: kdy komprese pomáhá hodně a kdy skoro vůbec (šachovnice)?",
   "source": {
     "label": "CS Unplugged — Tim Bell, Ian H. Witten, Mike Fellows",
     "url": "https://www.csunplugged.org/en/topics/image-representation/squeezing-pictures-into-less-space/"
