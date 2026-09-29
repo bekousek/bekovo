@@ -1,0 +1,41 @@
+{
+  "id": "programovani-ar-retezec-kreseb",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Hádej, co to je teď? a Co to bylo?",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme#h.i9itqgrt7foz",
+  "description": "Z jednoho tvaru skupina kreslí řetězec proměn (deštník → hřib → …) bez gumování. Pak se hraje naopak: z hotové kresby žáci zpětně odhalují, z čeho se začínalo.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10 + 3 min",
+  "keywords": [
+    "tvar",
+    "posloupnost",
+    "zpětný postup",
+    "analýza",
+    "kreslení",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci vystihnou podstatu předmětu graficky a trénují postup dopředu (syntézu) i zpátky (analýzu).",
+  "materials": [
+    "Výkres s jedním základním tvarem (do skupiny 2–3 stejné)",
+    "Mazací tabule nebo projektor pro druhou část"
+  ],
+  "procedure": "Hádej, co to je teď? (10 min): skupina dostane tvar a dokresluje ho postupně na co nejvíc věcí. Bokem pod sebe píše, co z něj zrovna vzniklo. Nesmí gumovat ani překreslovat; každá nová kresba doplňuje předchozí. Cíl: co nejdelší řetězec. Obměny: dokresluje učitel na tabuli a žáci hádají, nebo žáci učitele navádějí. Soutěžit mohou jen skupiny se stejným výchozím tvarem.\n\nCo to bylo? (3 min): na tabuli je hotová kresba z řetězce, první kroky jsou zakryté. Z jakého tvaru se začínalo? Obměny: žáci hádají celý postup a ty potvrzuješ každý krok; nebo jdou „zpětným chodem“ a říkají, co smazat, aby se obrázek vrátil o krok (ideální je mazací tabule — hlídej, co přesně radí smazat); nebo hledají krok, ve kterém šlo pokračovat jinak.\n\nMyšlenkové obraty rozeber: z půlkruhu a rukojeti je deštník, přidáním symetrické části hřib. Přechod od věci k rostlině je pro starší děti překvapivě těžký — mají věci pevně zaškatulkované.\n\nStřídej tvary mezi třídami stejného ročníku, jinak se žáci informují navzájem.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

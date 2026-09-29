@@ -1,0 +1,42 @@
+{
+  "id": "kancelar-ar-dokresli-pismena",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Dokresli písmena",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu#h.30bwh432d7g",
+  "description": "Z písmene abecedy dokresli předmět, jehož název to písmeno obsahuje. Pak totéž písmeno v jiném fontu — jde to pořád? Co překáží? A co Webdings?",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "15 min",
+  "keywords": [
+    "písmo",
+    "font",
+    "serif",
+    "patkové písmo",
+    "Webdings",
+    "typografie",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci si prakticky osahají rozdíly mezi rodinami písma (patkové, bezpatkové, obrázkové) a zjistí, že klávesa zůstává stejná, i když se změní tvar znaku.",
+  "materials": [
+    "Papír s písmeny v několika fontech, nebo počítač s projektorem"
+  ],
+  "procedure": "Zadání: dokreslete písmeno tak, aby z něj vznikl předmět, jehož název to písmeno obsahuje. Skupinky pracují a hotovo hlásí zvednutou rukou.\n\nObměna: promítni velké písmeno a dokresluj ho podle pokynů třídy. Pak promítni stejné písmeno v jiném fontu: půjde dokreslit stejně? Co vadí? Písmeno v textovém poli můžete i otáčet.\n\nVyhodnocení: co překáželo? Patky (serify) si hraní s písmem komplikují. Jak asi vznikly, k čemu slouží a proč se patkové písmo používá? Nech čas na odpovědi.\n\nOtázka za zlatého bludišťáka: stejný znak, úplně jiný font — půjde obrázek vždycky dokreslit? Přepni na Webdings nebo jiný obrázkový font; klávesa zůstává stejná. Předem ověř, že tvůj editor tyto fonty nabízí.\n\nZásada celé sekce: nehodnotíme výtvarné schopnosti, ale postup a jeho zdůvodnění. Místo „tahle iniciála je příšerná“ se ptej: „Co tě vedlo k výběru tohoto písma?“",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

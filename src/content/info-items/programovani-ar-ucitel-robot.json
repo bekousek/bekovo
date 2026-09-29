@@ -1,0 +1,44 @@
+{
+  "id": "programovani-ar-ucitel-robot",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Učitel robotem",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu#h.yab3mdoo1kqx",
+  "description": "Učitel je robot, který umí jen pár slov z tabule a dělá doslova, co mu třída řekne. Úkol: dostat ho od stolu za dveře.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3 min na kolo",
+  "keywords": [
+    "robot",
+    "příkazy",
+    "přesné instrukce",
+    "cyklus",
+    "opakuj",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci zažijí, že počítač vykoná přesně to, co mu řeknou — nic nepřidá, nic neubere — a že i jednoduchý úkol se musí rozložit na drobné příkazy.",
+  "materials": [
+    "Nic — jen tabule se seznamem příkazů"
+  ],
+  "procedure": "Na tabuli napiš slova, která robot zná (třeba: vstaň, dopředu, dozadu, posuň, otoč vlevo, otoč vpravo, natáhni, chyť, stiskni, přitáhni). Zadej úkol, např. robot sedí za stolem a má odejít za dveře. Třída ho naviguje, hlásit se nemusí. Nevykonatelný příkaz robot odmítne zavrtěním hlavy.\n\nRobot je důsledný: na „vstaň“ nemůže vstát, dokud nemá odsunutou židli. Nesmyslné, ale proveditelné příkazy („otoč se desetkrát“) ale splní.\n\nObměny: každý žák smí dát jen jeden příkaz a jde se po řadě. Mezi slova propašuj pár nepoužitelných — kdo na ně přijde? Nebo musí každý použít slovo, které je zrovna na řadě (vznikají nečekané zápletky: má úloha pořád řešení?). Těžší: robot umí „opakuj“ a počítat do deseti — jaká nová struktura vznikla?\n\nVyhodnocení: pochval dobré příkazy, vysvětli, proč jiné nefungovaly, a hru zopakuj s jiným robotem a jiným úkolem. Při hře si všímej, kdo je aktivní, kdo mlčí a kdo nenápadně zasáhne ve správný čas — hodí se to pak pro skupinovou práci.\n\nNavazuje: Hádej, co kreslíš?, Popiš zloděje.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

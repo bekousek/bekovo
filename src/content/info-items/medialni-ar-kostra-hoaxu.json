@@ -1,0 +1,37 @@
+{
+  "id": "medialni-ar-kostra-hoaxu",
+  "categoryId": "medialni-gramotnost",
+  "title": "Kostra hoaxu — škrtni obsah, nech manipulaci",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka#h.eth6y1waiv0a",
+  "description": "Žáci v reklamě na „zázračné hubnutí“ nebo v řetězovém e-mailu nechají jen citově zabarvené univerzální věty, zbytek škrtnou — a doplní do kostry co největší nesmysl.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "15 min",
+  "keywords": [
+    "hoax",
+    "manipulace",
+    "fake news",
+    "řetězový e-mail",
+    "kritické myšlení",
+    "citově zabarvený text",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci rozpoznají univerzální manipulativní obraty („sdílejte, než to smažou“) a pochopí, že hoax je šablona, do které se dosazuje libovolný obsah.",
+  "materials": [
+    "Prodejní článek na doplňky stravy na hubnutí",
+    "Libovolný hoax nebo řetězový e-mail s typickými výzvami („sdílejte, než to smažou“)"
+  ],
+  "procedure": "Navazuje na „univerzální recept“: tam žáci poznali šablonu, do které se dosazují konkrétní věci. Tenhle text je podobný, jen silně citově zabarvený.\n\nZadání: v předloženém textu ponechte univerzální věty, které ovlivňují, jak text vnímáme. Zbytek škrtněte. Pak kostru doplňte tak, aby vznikl co největší nesmysl — čím humornější, tím lepší. Nakonec výsledky přečtěte.\n\nObměny: skupiny připraví emotivní kostru a vymění si ji, doplňuje jiná skupina. Nebo připrav kostru sám a slova na doplnění na kartičky. Místo reklamy použij typický „nigerijský dopis“. Na úvod mohou žáci jen hledat podobné texty a určit, které obraty mají společné.\n\nÚloha není triviální: zpočátku vyber materiál, kde jsou typické obraty vidět na první pohled, a teprve později dávej skutečné oříšky (inspirace na sisyfos.cz). Když žáci úlohu nepochopí, vysvětli na příkladu: učitel jde zkoušet vzpřímeně a rázně, nebo se šourá s hlavou mezi rameny — kdo má šanci na lepší známku?\n\nAutorka úlohu doporučuje spíš pro starší žáky.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

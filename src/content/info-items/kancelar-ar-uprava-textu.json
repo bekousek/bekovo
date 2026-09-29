@@ -1,0 +1,44 @@
+{
+  "id": "kancelar-ar-uprava-textu",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Úprava textu podle předlohy — a návod k ní",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty#h.su10z7keun7c",
+  "description": "Žáci naformátují Lorem Ipsum tak, aby co nejvíc připomínal tištěnou předlohu (okraje, odsazení, řádkování, sloupce), a postup sepíšou jako návod pro ostatní.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "20–60 min",
+  "keywords": [
+    "formátování",
+    "odstavec",
+    "okraje",
+    "řádkování",
+    "styly",
+    "tabulátor",
+    "Lorem Ipsum",
+    "návod",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci upraví text typograficky podle předlohy v libovolném editoru a svůj postup zapíší tak, aby ho mohl zopakovat někdo jiný.",
+  "materials": [
+    "1–2 stránky předloh s různou úpravou",
+    "Počítač s jakýmkoli textovým editorem",
+    "Připravený soubor s Lorem Ipsum",
+    "Blok a tužka"
+  ],
+  "procedure": "Úvod: proč Lorem Ipsum? (Text, který nedává smysl, pomáhá soustředit se jen na úpravu.) Jaký rozměr má A4 a vejde se na monitor? Proč se nepíše od kraje ke kraji? (Prsty, tiskárna.) Tiskovina má vždy okraje — kolik, to si na předloze změřte.\n\nZadání: upravte text tak, aby byl co nejpodobnější předloze, a postup napište jako návod. Každá předloha má schovanou nějakou fintu a dohromady by měly pokrýt co nejvíc nabídek editoru. Tabulky a textová pole ukaž zvlášť.\n\nÚskalí: odsazení prvního řádku mezerníkem — zachyť to během práce nebo při čtení návodů a vysvětli, proč je to špatně. Styly: buď je jen ukaž (jednorázová hodina), nebo je vysvětli předem i s dědičností a trvej na nich.\n\nVyhodnocení: promítni vždy předlohu, pak postup, nakonec výsledek. Dobré návody dejte na nástěnku nebo do třídního portfolia.\n\nOtázka za zlatého bludišťáka: proč tabulátor a ne mezery? Proč se mezery mezi sloupci „rozsypou“?\n\nZásada autorky: žáky neomezujeme výběrem editoru, a když už musíme, ukážeme, jak chybějící funkci obejít.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

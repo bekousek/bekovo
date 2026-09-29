@@ -1,0 +1,46 @@
+{
+  "id": "kodovani-ar-pismo-jak-jej-nezname",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Písmo, jak ho neznáme — od klínopisu k ASCII",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu#h.llrj5vqclgr6",
+  "description": "Projekt přes historii písma: ryjí se znaky do plastelíny, vzniká vlastní Rosettská deska a iniciála, řeší se, proč se digitalizuje do PDF, jak funguje ASCII a proč Alt+64 napíše zavináč — a nakonec příběh z piktogramů.",
+  "type": "projekt",
+  "equipment": [
+    "bez-pocitace",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "několik hodin (dá se rozdělit)",
+  "keywords": [
+    "historie písma",
+    "klínové písmo",
+    "Rosettská deska",
+    "ASCII",
+    "znaková sada",
+    "font",
+    "PDF",
+    "piktogram",
+    "mapa znaků",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci pochopí, co je znak, font a znaková sada, a proč počítač potřebuje tabulku, která každému znaku přiřadí číslo.",
+  "materials": [
+    "Plastelína nebo sádra a rámeček (víko od krabice), špičatý předmět nebo šroubovák",
+    "Papír, tužky, případně tiskárna",
+    "Počítač s internetem, Malování, textový editor",
+    "Videa z Khanovy akademie o historii písma (odkazy na stránce zdroje)"
+  ],
+  "procedure": "Projekt, délku a pořadí si přizpůsob. Nejde o algoritmizaci v užším smyslu, ale žáci se dozvědí hodně o historii, o sobě i o editorech.\n\n1. Klínové písmo: do placky z plastelíny (nebo sádrové tabulky) ryjte znaky špičatým předmětem. Vryp je silnější tam, kde se začíná — dá se tomu dát význam. Dokážete „vyrýpnout“ 25 různých znaků pro celou abecedu? (Video Historie písma z Khanovy akademie.)\n\n2. Vlastní Rosettská deska: nahoře krátký text latinkou (klidně kousek Karkulky), pod ním tentýž text ve vlastním vymyšleném písmu — i obrázkovém, kde obrázek může znamenat hlásku i slovo.\n\n3. Iniciála: k příběhu vytvořte zdobenou iniciálu. Stačí vytisknout co největší písmeno a dozdobit ho.\n\n4. Digitalizace: proč se staré knihy (třeba matriky v Moravském zemském archivu) digitalizují do PDF, a ne jen jako obrázky? Co by s textem udělal JPG? Zkuste v Malování.\n\n5. Tabulka znaků: ASCII má zavináč na pozici 64 — Alt+64 ho napíše (pozor, žáci pletou Alt a AltGr). Sestavte podobnou tabulku pro své písmo. Jde to? Proč ASCII funguje pro Arial, ale ve Webdings je na pozici 64 jiný znak?\n\n6. Piktogramy: najděte je ve fontech (v Google Docs pod „Vložit symbol“) a napište jen z nich krátký příběh. Přečte ho jiná skupina? Je piktogram znak, hláska, slovo — nebo symbol s víc výklady?\n\nZávěr: co najdeme pod pojmy „mapa znaků“ a „font“ v počítači?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

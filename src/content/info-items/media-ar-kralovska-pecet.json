@@ -1,0 +1,39 @@
+{
+  "id": "media-ar-kralovska-pecet",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Královská pečeť z iniciál",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu#h.lz46wgjv9cbt",
+  "description": "Jsi král a potřebuješ pečeť: v Malování propleť své iniciály do zdobného znaku — a zapiš postup tak podrobně, aby ho někdo zopakoval.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "10 min",
+  "keywords": [
+    "Malování",
+    "iniciály",
+    "logo",
+    "průhledný výběr",
+    "font",
+    "zápis postupu",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci pracují s písmem jako s grafikou (průhledný výběr, posun, zvětšení) a zapíší svůj postup včetně všech přepnutí.",
+  "materials": [
+    "Počítač s klasickým Malováním"
+  ],
+  "procedure": "Nejdřív vysvětli, co jsou iniciály, a první postup ukaž.\n\nZadání: jsi král a pečeť dokazuje tvé panovnické schopnosti — musí být zdobná. Vezmi své iniciály a propleť je do pěkného, netypického znaku, použij barvy. Písmena napiš každé jinou barvou, posouvej je průhledným výběrem a proplétej ve zvětšeném zobrazení. Postup zapiš včetně podrobností.\n\nObměny: navrhni logo firmy (znáte podobná?). Nebo zadej fonty a žáci mění jen barvy. Zdatní vloží pečeť do textového editoru a udělají kolem ní rámeček — jak se to dělá ve Wordu nebo jiném editoru?\n\nÚskalí: některá jména se na to nehodí — měj obměnu. Žáci volí nevhodné písmo nebo neumí přepnout výběr na průhledný.\n\nVyhodnocení: je zapsán úplný postup, včetně všech přepnutí a zvoleného fontu?\n\nOtázky za zlatého bludišťáka: jak zjistíš, jestli má font celou českou sadu znaků? Proč se v Times New Roman kurzívě mění tvar malého „a“, a v Arialu ne? (Pravá vs. nepravá kurzíva — pravá napodobuje psané písmo.)",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "data-ar-popis-zlodeje",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Popiš zloděje",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu#h.nfrknihy7d0b",
+  "description": "Na obrázku je chumel zvířat a jedno z nich je zloděj. Žáci se smí ptát jen ano/ne na vlastnosti a jméno zvířete nesmí vyslovit. Kolik otázek bylo potřeba?",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–5 min na kolo",
+  "keywords": [
+    "otázky ano/ne",
+    "společné rysy",
+    "vlastnosti",
+    "zobecnění",
+    "hádání",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci se učí hledat obecné rysy, které skupinu objektů odlišují, a klást otázky, které co nejvíc zúží výběr.",
+  "materials": [
+    "Obrázek s mnoha zvířaty (později stromy, stavbami nebo tvářemi v davu)"
+  ],
+  "procedure": "Promítni obrázek. Ty víš, kdo je zloděj; žáci se ptají na obecné vlastnosti, odpovídáš jen ANO/NE. Jméno žádného zvířete nesmí zaznít. Až si jsou jistí, tipují — jen jednou. Kdo tipne špatně, dál nehádá.\n\nVe skupinách: skupina se ptá, dokud slyší „ano“; pak je na řadě další. Vyhrává, kdo uhodne první.\n\nObtížnost zvedáš počtem objektů a jejich podobností (zvířata → stromy → architektura → tváře).\n\nPozor na výběr obrázku: když je zlodějem jediná zebra mezi slony, otázka „je pruhovaný?“ hru hned ukončí. Naopak zebra jako návnada vedle slona se zdviženým chobotem funguje skvěle. A když je zlodějem jediný ovocný strom mezi listnatými, ale bez plodů, děti často netuší, na co se ptát.\n\nVyhodnocení: kolik otázek jsme potřebovali? Které měly smysl? Co mají objekty společné a čím se liší? Kolik otázek by stačilo teď, když zloděje znáte?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

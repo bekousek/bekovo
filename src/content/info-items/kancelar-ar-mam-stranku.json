@@ -1,0 +1,43 @@
+{
+  "id": "kancelar-ar-mam-stranku",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Mám stránku — no a? Záhlaví, zápatí a obsah",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty#h.b1pz23ycg8za",
+  "description": "Žáci na stránkách z časopisu, učebnice a novin hledají, co mají společné (záhlaví, zápatí, tělo), zjistí správné názvy — a pak z rozstříhaných kousků skládají stránky zpět.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10 min",
+  "keywords": [
+    "záhlaví",
+    "zápatí",
+    "stránka",
+    "typografie",
+    "rozvržení",
+    "textový editor",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci si uvědomí, jak je stránka členěná (záhlaví, obsah, zápatí), a pojmenují její části správnými termíny.",
+  "materials": [
+    "Pro každou skupinu 2–3 druhy tiskovin (skripta, časopis, učebnice, noviny)",
+    "Tytéž stránky rozstříhané na záhlaví, zápatí, obsah a titulky",
+    "Počítač s internetem na dohledání názvů"
+  ],
+  "procedure": "1. část: najděte, co mají všechny tiskoviny společné a co je jiné. Vypište a pojmenujte společné prvky a zjistěte jejich správné názvy. Která skupina našla všechny? (Vesměs jde o členění na tři části, takže tahle fáze je krátká.)\n\n2. část: skupiny dostanou rozstříhané tiskoviny a skládají z nich zpět správné celky — bez pohledu na původní předlohy. Klidně jako soutěž.\n\nTiskoviny vyber pečlivě: když mají stejné písmo nebo podobný obsah, zpět poskládat nejdou.\n\nVyhodnocení: nejrychlejší skupina vysvětlí, podle čeho postupovala. Je její postup univerzální? (Téměř ne — při stejném fontu zbývá jen obsah, a ten může mást.)\n\nOtázka za zlatého bludišťáka: proč má záhlaví a zápatí volbu „jiné na první stránce“?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
