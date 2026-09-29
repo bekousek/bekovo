@@ -1,0 +1,59 @@
+{
+  "id": "ai-hoai-google-ai-quests",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "AI Quests — hra na výzkumníky Googlu",
+  "url": "https://research.google/ai-quests",
+  "description": "Příběhová hra od Google Research a Stanfordu: žáci sbírají a čistí data, trénují a testují model a nasazují ho — v jedné výpravě předpovídají povodně, ve druhé pomáhají lékařům s diagnózou očí. Anglicky, bez přihlášení.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "50 min",
+  "keywords": [
+    "strojové učení",
+    "životní cyklus AI",
+    "trénovací data",
+    "čištění dat",
+    "přesnost modelu",
+    "povodně",
+    "medicína",
+    "soukromí",
+    "Google",
+    "Hour of AI"
+  ],
+  "language": "en",
+  "goal": "Žáci projdou celý životní cyklus AI (data → trénink → testování → nasazení) a pochopí, že přesnost modelu závisí na lidských rozhodnutích o datech — a že konečné rozhodnutí má zůstat na člověku.",
+  "materials": [
+    "Počítač nebo tablet (ideálně jeden na žáka nebo dvojici)",
+    "Sluchátka",
+    "Dataprojektor na úvod",
+    "Anglická metodika a reflektivní listy k oběma výpravám (odkazy níže)"
+  ],
+  "procedure": "Vyber jednu ze dvou výprav. Market Marshes: předpověď povodní (data o srážkách a terénu). Dusky Dunes: AI pomáhá lékařům rozpoznat oční nemoc; řeší se ochrana soukromí, rozmanitost dat a označování snímků lékaři.\n\nÚvod (10 min): zažili jste povodeň? Jaké problémy způsobuje? (Opatrně — pro někoho může být téma citlivé.) Co je AI a jak by mohla pomoct?\n\nHra (30 min): žáci procházejí šest úkolů, které kopírují skutečný vývoj AI: hledání dat → čištění dat → výběr dat → trénink modelu → testování (při nízké přesnosti se hra vrátí k výběru dat) → nasazení. Ve hře je vede Mission Control a postava Luna. Každých 10–15 minut hlídej čas.\n\nOtázky během hry: proč sis vybral(a) zrovna tato data? Proč je čištění dat důležité? Jakou přesnost měla tvoje AI a čím to bylo?\n\nZávěr (10 min): jaké bylo nejdůležitější rozhodnutí ve hře? Proč nejde dosáhnout 100% přesnosti? Co by se mohlo pokazit, kdyby AI jednala bez lidského dohledu? Exit ticket: jaký další problém by mohla AI pomoct předpovídat?\n\nPři nedostatku zařízení: hrajte ve dvojicích/trojicích, nebo promítej a třída hlasuje o dalším kroku. Hra je jen anglicky (dabing s titulky) — spíš pro 7.–9. třídu, nebo hraj společně s promítáním a překládej.",
+  "files": [
+    {
+      "label": "Market Marshes — metodika pro učitele (anglicky)",
+      "href": "https://docs.google.com/document/d/1IEh-RRho8xxsUizQ9K4vAe7EbjHGWqltmFz7oPbdJBs/edit",
+      "type": "doc"
+    },
+    {
+      "label": "Dusky Dunes — metodika pro učitele (anglicky)",
+      "href": "https://docs.google.com/document/d/1qmiozLE0yulxZheSVNozkhuAws5yyPChuwvMaBJr92s/edit",
+      "type": "doc"
+    }
+  ],
+  "source": {
+    "label": "Google Research & Stanford Accelerator for Learning",
+    "url": "https://research.google/ai-quests/intl/en_gb/teacher-resources"
+  },
+  "added": "2026-09-29"
+}

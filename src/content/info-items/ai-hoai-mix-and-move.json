@@ -1,0 +1,47 @@
+{
+  "id": "ai-hoai-mix-and-move",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Mix & Move s AI — tanečník, remix a choreografie",
+  "url": "https://studio.code.org/s/mix-move-ai-2025/lessons/1/levels/1?lang=cs-CZ",
+  "description": "Žáci si s AI navrhnou tanečníka, zremixují písničku a bloky naprogramují choreografii do rytmu. Učí se psát prompty a rozhodovat, co z výstupu AI si nechají. Česky, bez přihlášení.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "generativní AI",
+    "prompt",
+    "tanec",
+    "hudba",
+    "remix",
+    "blokové programování",
+    "sekvence",
+    "Code.org",
+    "Hour of AI",
+    "Hodina kódu"
+  ],
+  "language": "cs",
+  "goal": "Žáci vytvoří s pomocí AI obrázek a kód, vysvětlí, že AI generuje nové věci podle toho, co se naučila, a sami rozhodnou, co z jejího výstupu použijí.",
+  "materials": [
+    "Počítač nebo tablet pro každého",
+    "Sluchátka (aktivita pracuje s hudbou)"
+  ],
+  "procedure": "Zahřátí (3 min): co byste chtěli, aby vám AI vytvořila? Kde jste se s AI setkali? Těšíte se na ni, nebo z ní máte obavy?\n\nSlovníček na tabuli: umělá inteligence, prompt (pokyn pro AI), generovat, kód. Pusťte společně úvodní video z 1. úrovně.\n\nHlavní část (40 min, vlastním tempem) má tři fáze: 1) návrh tanečníka — žáci píšou prompty a AI generuje postavu, 2) remix hudby, 3) kódování tanečních pohybů do rytmu.\n\nBěhem práce obcházej a ptej se: co měníš v promptu a jak to mění výsledek? Co jsi upravil(a) v kódu, který vygenerovala AI? Kdybys mohl(a) výstup změnit, co bys změnil(a)?\n\nPo fázi s tanečníkem krátce diskutujte: vypadala zvířata/postavy vždy tak, jak jste čekali? Proč asi ne? (AI se učí z určitých obrázků, takže má své předsudky.)\n\nZávěr: AI může nápady podnítit, ale nenahradí vaši kreativitu — rozhodovali jste vy.\n\nPříbuzné aktivity Code.org, když zbude čas: Dance Party: AI Edition (AI vybírá efekty podle tří emoji) a Music Lab: Jam Session.",
+  "source": {
+    "label": "Code.org — Hour of AI (plán lekce v češtině)",
+    "url": "https://studio.code.org/s/mix-move-ai-2025/lessons/1"
+  },
+  "added": "2026-09-29"
+}
