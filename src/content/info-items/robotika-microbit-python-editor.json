@@ -1,0 +1,28 @@
+{
+  "id": "robotika-microbit-python-editor",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "micro:bit v Pythonu — projekty v editoru",
+  "url": "https://python.microbit.org/v/3",
+  "description": "Oficiální editor Pythonu pro micro:bit se simulátorem — jde učit i bez fyzických micro:bitů. Záložka Ideas má 7 hotových projektů k úpravám (emoční odznak, krokoměr, výběr aktivity, pošli smajlíka, kostka, tleskací světla, Frère Jacques), záložka Reference ukázky kódu po tématech: proměnné, cykly, podmínky, tlačítka, akcelerometr, rádio, zvuk, sběr dat…",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "microbit"
+  ],
+  "language": "en",
+  "keywords": [
+    "micro:bit",
+    "Python",
+    "MicroPython",
+    "simulátor",
+    "rádio",
+    "senzory",
+    "textové programování"
+  ],
+  "source": {
+    "label": "Micro:bit Educational Foundation",
+    "url": "https://python.microbit.org/v/3"
+  },
+  "added": "2026-09-29"
+}
