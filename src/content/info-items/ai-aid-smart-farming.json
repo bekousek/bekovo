@@ -1,0 +1,110 @@
+{
+  "id": "ai-aid-smart-farming",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Smart Farming Simulator — desková hra o chytrém zemědělství",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/zemepis-01-chytre-technologie-v-zemedelstvi/",
+  "description": "Farmářská desková hra na 10 kol: skupiny kupují pozemky a plodiny, kostka přinese sucho, škůdce nebo povodně a AI technologie (chytré zavlažování, rozpoznání chorob, autonomní stroje) mohou úrodu zachránit.",
+  "type": "hra",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "90 min",
+  "keywords": [
+    "chytré technologie",
+    "zemědělství",
+    "desková hra",
+    "autonomní stroje",
+    "senzory",
+    "ekologie",
+    "zeměpis",
+    "mezipředmětové",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají, jak chytré technologie často založené na AI mohou přispět k efektivnějšímu a ekologičtějšímu zemědělství.",
+  "materials": [
+    "Pro každou skupinu (4 děti): infolist, mapa pozemků, účetní kniha, karty plodin a technologií (PDF k tisku)",
+    "Hrací kostka",
+    "Prezentace"
+  ],
+  "procedure": "Hra má 10 kol, každé kolo je jeden rok:\n1) Hráči koupí pozemek z mapy (dva typy půdy, sad, nebo skleník — jen jeden za kolo, musí se dohodnout).\n2) Na pozemky koupí plodiny (jedna na pozemek) a vše zapíší do účetní knihy.\n3) Jeden hráč hodí kostkou — globální událost platí pro celou skupinu: 1 plevel, 2 choroby, 3 dobré počasí, 4 škůdci, 5 sucho, 6 povodně. Podle tabulky v infolistu spočítají výnosy.\n4) Mohou koupit technologii, která je v dalších kolech ochrání, půjčovat si a obchodovat s pozemky. Plodiny se kupují každé kolo znovu, pozemek a technologie jen jednou.\n\nTechnologie: eliminace plevele (autonomní stroje s AI), identifikace chorob, automatizace orby, setí a sklizně (dvojnásobný výnos), obrana proti škůdcům (predikce z dat), chytré zavlažování (senzory vlhkosti). Proti povodním ochrana není.\n\nPlodiny mají slabiny (brambory — škůdci, pšenice a kukuřice — sucho…), takže se vyplatí přemýšlet, co pěstovat a do čeho investovat.\n\nReflexe: která technologie se vyplatila nejvíc? Co by znamenalo nasazení AI pro skutečné farmáře, krajinu a přírodu? Kdo si takové technologie může dovolit?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGWFdfMx8Y/L6Nm-vtX0-oRw5N2uaWtkA/view?utm_content=DAGWFdfMx8Y&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "SFM — Infolist",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_info-list.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "SFM — Mapa pozemků",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_mapa-pozemku.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "SFM — Účetní kniha",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_ucetni-kniha.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "SFM — Karty plodin",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_karty-plodin.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "SFM — Karty technologií",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_zemepis-01_karty-technologii.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Karty technologií (Canva)",
+      "href": "https://www.canva.com/design/DAGjAArJmq8/T801oN_OMhAfdUBGVahUkw/view?utm_content=DAGjAArJmq8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Karty plodin (Canva)",
+      "href": "https://www.canva.com/design/DAGjAPiDE14/b2ncDwWj3KnkS9Hg9m-DTA/view?utm_content=DAGjAPiDE14&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Mapa pozemků (Canva)",
+      "href": "https://www.canva.com/design/DAGi_wUHUSI/kdvFm81XWEorl0KTwQdE7A/view?utm_content=DAGi_wUHUSI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Účetní kniha (Canva)",
+      "href": "https://www.canva.com/design/DAGi__v2xaI/6YHn8yr6Z9pMmpa2mVxm4A/view?utm_content=DAGi__v2xaI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Infolist (Canva)",
+      "href": "https://www.canva.com/design/DAGi_0HScWI/ZBH7zXI_MrbcX1j2ZKTpIg/view?utm_content=DAGi_0HScWI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/zemepis-01-chytre-technologie-v-zemedelstvi/"
+  }
+}

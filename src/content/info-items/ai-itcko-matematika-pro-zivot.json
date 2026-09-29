@@ -31,7 +31,7 @@
   "procedure": "Diskuse (think-pair-share): kde potkáváme matematiku v běžném životě a v povoláních? (Procenta ve slevách, trojčlenka při vaření.)\n\nŽáci vyplní dotazník o svých představách o povolání a nahrají ho do chatbota, nebo je chatbot otázkami provede přímo.\n\nHodnotí doporučení a dávají chatbotovi zpětnou vazbu — upozorněte, že zpočátku odpovídá obecně a konkrétní je až po upřesnění.\n\nS chatbotem hledají příklady matematiky v povoláních, každý příklad na jeden lísteček. Lístečky shlukují podle oblastí a diskutují, které koncepty jsou nejužitečnější.\n\nZávěr: byl brainstorming s chatbotem přínosný (škála 1–5)? Proč?",
   "files": [],
   "source": {
-    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, duben 2025 (roč. 3, č. 8), s. 13)",
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0) (představeno v ITčku, duben 2025 (roč. 3, č. 8), s. 13)",
     "url": "https://kurikulum.aidetem.cz/"
   },
   "added": "2026-09-29"

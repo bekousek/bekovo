@@ -1,0 +1,63 @@
+{
+  "id": "ai-aid-mv-03-propaganda",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Generativní AI a propaganda — kampaň fiktivního kandidáta",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-03-vliv-generativni-ai-na-propagandu/",
+  "description": "Žáci vymyslí fiktivního kandidáta na prezidenta a emotivní slogan, přizpůsobí ho různým cílovým skupinám — a pak zjistí, jak snadno generativní AI zautomatizuje výrobu cílené propagandy.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "propaganda",
+    "generativní AI",
+    "politická kampaň",
+    "slogan",
+    "cílová skupina",
+    "emoce",
+    "mediální výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, že tvorbu propagandistického obsahu lze pomocí generativní AI automatizovat a přizpůsobit každé cílové skupině.",
+  "materials": [
+    "Počítače nebo tablety do dvojic či skupin",
+    "Pracovní list 1",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (5 min): kdo kandidoval na prezidenta v roce 2023? Komu prezident naslouchá? Podle čeho si voliči vybírají kandidáta (věk, region, hodnoty, mediální obraz, charisma, situace v zemi)? Připomeňte OCEAN model z minulé lekce.\n\nAktivita 1 (10 min): žáci samostatně vymyslí fiktivního kandidáta — jméno a krátký slogan. Předtím pusťte úryvek, kde šéf Cambridge Analytica říká, že volby se nevyhrávají fakty, ale emocemi. Úkol: najít problém, který lidi v ČR trápí, a odpovědět na něj heslem (jako „Take back control“ u brexitu). Ve dvojicích si slogany ukážou: jaký problém řeší, na koho cílí, jak na mě působí?\n\nAktivita 2: žáci samostatně napíšou dva facebookové příspěvky pro dva voliče s danými profily a OCEAN modely. Volič A: mladá svobodná žena z Brna, má ráda umění, divadlo a knihy, je otevřená a svědomitá. Volič B: ženatý senior z Prahy, zahrádkář a divák televize, tíhne k tradicím, je úzkostnější. Kdo chce, návrhy sdílí a třída vybere nejlepší.\n\nAktivita 3: s vybraným kandidátem pracuje celá třída v chatbotu (ChatGPT, Copilot, Gemini, Claude). Společně sestavte prompt („Jsi expert na politický marketing. Vytvoř dva příspěvky pro voliče A a B…“ — vzor je v metodice) a porovnejte výsledek AI s příspěvky žáků. Jak rychle a levně to šlo?\n\nReflexe: co to znamená pro volby, když se dá cílená propaganda vyrábět ve velkém? Jak ji poznat? Kdo by měl nést odpovědnost?\n\nNavazuje na Mikrocílení a darkposting.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-03_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-03_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGINn2lTG4/1DQW9BslfcAXgedEJwAAeA/view?mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-03_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-03-vliv-generativni-ai-na-propagandu/"
+  }
+}

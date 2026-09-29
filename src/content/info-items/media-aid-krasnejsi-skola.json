@@ -1,0 +1,62 @@
+{
+  "id": "media-aid-krasnejsi-skola",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Krásnější škola — návrhy vylepšení školy s AI v Canvě",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/ai-nastroje-v-canva-krasnejsi-skola/",
+  "description": "Žáci najdou místa ve škole, která by si zasloužila vylepšit, vyfotí je, v Canvě je s pomocí AI nástrojů přetvoří podle svých představ, hlasují o nejlepších návrzích a připraví prezentaci pro vedení školy.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac",
+    "tablet",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "podle pojetí (několik hodin)",
+  "keywords": [
+    "Canva",
+    "AI úprava fotografií",
+    "generativní AI",
+    "vizualizace",
+    "týmová spolupráce",
+    "škola",
+    "prezentace",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vizualizují své nápady pomocí AI nástrojů v Canvě a prezentují je — rozvíjejí týmovou práci a vizuální myšlení.",
+  "materials": [
+    "Zařízení s fotoaparátem",
+    "Tablet, notebook nebo PC pro žáka či skupinu",
+    "Kopie Canva tabule Krásnější škola a šablona prezentace (odkazy níže)",
+    "Projektor"
+  ],
+  "procedure": "Celým projektem provází Canva tabule se stanovišti. Stáhněte si vlastní kopii šablony (bit.ly/krasnejsi-skola), případně ji upravte a žákům sdílejte svou kopii, ne originál. Část objektů je zamčená, aby s nimi žáci omylem nehýbali.\n\nStanoviště:\n1. Základní pohyb po tabuli a rozcestník videonávodů (5–30 min podle zkušeností žáků).\n2. Nástin průběhu projektu.\n3. Nápady na místa, která si zaslouží vylepšení — každý píše na lístečky.\n4. Dokumentace místa mobilem nebo tabletem.\n5. Nahrání fotografií na tabuli.\n6. Úprava fotografií AI nástroji v Canvě podle představ žáků (videonávody jsou na stanovišti 1).\n7. Hlasování o nejlepších návrzích.\n8. Zpracování prezentace (šablona je připravená).\n\nVýstup můžete skutečně předat vedení školy nebo školnímu parlamentu.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_krasnejsi-skola_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Šablona tabule k projektu (Canva)",
+      "href": "https://www.canva.com/design/DAGdLmdR3eg/8F-OPLazMjhUlp8Vt9eeOA/view?utm_content=DAGdLmdR3eg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Šablona prezentace (Canva)",
+      "href": "https://www.canva.com/design/DAGdR4hiN9E/dQEToFbrrq4b8rkEPaaydA/view?utm_content=DAGdR4hiN9E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/ai-nastroje-v-canva-krasnejsi-skola/"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ai-aid-jupi-04-data-a-cloud",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 04 — Roboti s hlavou v oblacích (data a cloud)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/04-data-cloud-roboti-s-hlavou-v-oblacich/",
+  "description": "Roboti se připojí do cloudu a najednou jim „kohoutek“ kokrhá, teče z něj voda a střílí. Děti pro ně vytvoří datové portfolio ke dvěma významům jednoho slova — popis, obrázek, vlastnosti a zvuk.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "data",
+    "cloud",
+    "typy dat",
+    "víceznačná slova",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, co jsou data a v jakých podobách existují, a že cloud je místo na internetu, kam se data ukládají.",
+  "materials": [
+    "Vytištěný pracovní list",
+    "Prezentace",
+    "Psací potřeby"
+  ],
+  "procedure": "Evokace: jak si uchováváš vzpomínky z výletu (fotky, videa, zápisky)? Tomu se říká data — i texty, zvuky, tabulky, 3D objekty. Kde leží fotka z mobilu? A video z YouTube? (Děti často myslí, že „data“ = připojení k internetu.) Vezmi věc z lavice: jaká data by o ní robot potřeboval?\n\nPříběh: Ju a Pí se připojí do cloudu a všechno se jim pomotá — kohoutek kokrhá, stříká vodu a střílí, na půdě rostou rajčata, v peněžence jsou koruny stromů, kolem chodí volské oko a los, kterého je potřeba setřít.\n\nDiskuse: která slova v příběhu mají víc významů (kohoutek, půda, koruna, oko, vlna, los)? Napadají vás další (hranice, rys, jeřáb, pila)?\n\nAktivita (20 min): skupiny si vyberou víceznačné slovo (lépe podstatné jméno) a pro dva jeho významy připraví „data pro roboty“ podle pracovního listu: textový popis, obrázek, vlastnosti v tabulce a popis zvuku. Připomínejte, že jde o digitální data, ze kterých se AI učí.\n\nReflexe: co je cloud? Proč AI potřebuje rozmanitá data? Jak by se roboti bez nich rozhodovali?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_04_Data_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_04_Data_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGG5KRgd18/RVFy_wYvGBJg-1hOZdxoNw/view?utm_content=DAGG5KRgd18&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_04_Data_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/04-data-cloud-roboti-s-hlavou-v-oblacich/"
+  }
+}

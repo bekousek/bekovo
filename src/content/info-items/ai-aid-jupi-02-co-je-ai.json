@@ -1,0 +1,62 @@
+{
+  "id": "ai-aid-jupi-02-co-je-ai",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 02 — Roboti v muzeu (co je a co není AI)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/02-roboti-v-muzeu-co-je-a-co-neni-ai/",
+  "description": "Roboti navštíví v technickém muzeu příbuzné — dědečka pletací stroj, tetičku kalkulačku a babičku Atari. Děti pak v tabulce posuzují zařízení: vnímá okolí? učí se? rozhoduje se? A využívá tedy AI?",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "umělá inteligence",
+    "technologie",
+    "co je AI",
+    "robot",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti rozliší zařízení, která využívají AI, od těch, která jen vykonávají naprogramovaný úkol.",
+  "materials": [
+    "Vytištěný pracovní list",
+    "Prezentace k promítnutí",
+    "Psací potřeby"
+  ],
+  "procedure": "Evokace (10 min): proč lidé vymýšlejí technologie? Co je technologie (i pazourek nebo knihtisk)? V čem jsou jiné digitální technologie? Jak by vypadal svět bez nich? Kterou činnost by mohli dělat roboti?\n\nPříběh: Ju a Pí se jdou v technickém muzeu poradit s příbuznými. Dědeček pletací stroj umí jen pořád to samé, tetička kalkulačka jen počítá, co se jí zadá, až babička Atari jim poradí, že mohou mít vlastní umělou inteligenci.\n\nRozbor slov: co znamená „umělý“? A „inteligence“? AI je program, který napodobuje, jak lidé přemýšlejí nebo jednají. Které činnosti strojů považujeme za inteligentní (samořídicí auta, rozpoznání nemoci na rentgenu, doporučená videa)? Video: roboti parkouristé.\n\nAktivita (pracovní list): tabulka zařízení × tvrzení (vnímá okolí senzory, učí se nové věci, rozhoduje se…). Kde tvrzení platí, smajlík, jinak křížek. Tři a víc smajlíků = zařízení nejspíš využívá AI. Odpovědi se mohou lišit podle toho, jak si žáci zařízení představí — rozhoduje, jak zařízení data zpracovává (fotoaparát, který jen fotí × který pozná zvířata a sám doostří).\n\nZávěr: co by se dělo, kdyby všechny stroje měly AI (konvice, která sama začne vařit vodu…)?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_02_Co-je-a-neni-AI_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_02_Co-je-a-neni-AI_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGGuD9iedc/uN66QS6bztzkRWX6JWoidA/view?utm_content=DAGGuD9iedc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_02_Co-je-a-neni-AI_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/02-roboti-v-muzeu-co-je-a-co-neni-ai/"
+  }
+}

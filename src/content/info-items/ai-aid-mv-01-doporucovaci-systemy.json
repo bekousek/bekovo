@@ -1,0 +1,62 @@
+{
+  "id": "ai-aid-mv-01-doporucovaci-systemy",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Doporučovací systémy — co o nás ví TikTok",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-01-doporucovaci-systemy-na-socialnich-sitich/",
+  "description": "Žáci poznají pět modelů, jak sociální sítě vybírají obsah, přiřadí k nim konkrétní sítě a v dokumentu Wall Street Journal uvidí, že TikToku stačí jen to, jak dlouho se u videa zdržíš.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "90 min",
+  "keywords": [
+    "doporučovací systém",
+    "algoritmus",
+    "TikTok",
+    "sociální sítě",
+    "bublina",
+    "echo chamber",
+    "mediální výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí, že doporučovací systémy sledují uživatelské chování a podle něj nabízejí obsah, a rozliší různé modely doporučování.",
+  "materials": [
+    "Pracovní list 1 (modely sociálních sítí)",
+    "Prezentace a projektor",
+    "Dokument WSJ o TikToku (13 min, s automatickými českými titulky)"
+  ],
+  "procedure": "Evokace (10 min, think–pair–share): na jakých sítích máš účet a proč? Jak by mohl fungovat výběr obsahu (podle zájmů, skupin, lajků…)? Co všechno sítě sledují (kdy a jak často přistupuješ, co prohlížíš a jak reaguješ, jak dlouho se díváš, co sdílíš o sobě)?\n\nPro a proti: žáci na papír napíšou výhody a rizika doporučování (zajímavý obsah × bubliny, komnaty ozvěn, králičí nory, manipulace, srovnávání se, závislost). Na konci hodiny se k tomu vrátí.\n\nAktivita 1 (10 min): pracovní list s pěti modely fungování sociálních sítí — žáci ve skupinách přiřadí loga sítí k modelům (co neznají, dohledají).\n\nAktivita 2 (15 min): dokument Wall Street Journal. Desítky automatických účtů s předem danými zájmy jen sledovaly videa — a TikTok jim během desítek minut přizpůsobil obsah jen podle toho, jak dlouho se u videí zdržely. Až 95 % streamu je doporučeno algoritmem. (Video je z roku 2021.)\n\nReflexe: jak teď vidíš pozitiva a negativa doporučování? Jaký obsah může být nebezpečný (dezinformace, nenávist, kyberšikana)? Co s tím můžu dělat já?\n\nPokračuje lekcí Mikrocílení a darkposting.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGIGBlDJhY/mV0Dfy7cJ1UzTlQ1rNJOzA/view?utm_content=DAGIGBlDJhY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-01_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-01-doporucovaci-systemy-na-socialnich-sitich/"
+  }
+}

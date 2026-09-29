@@ -1,0 +1,60 @@
+{
+  "id": "ai-aid-jupi-07-predpojatost",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 07 — Ju a Pí na nákupu (předpojatost)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/07-predpojatost-ju-a-pi-na-nakupu/",
+  "description": "Roboti mají koupit jablka a ananas, ale hledají v supermarketu jabloně. Děti v Teachable Machine natrénují vlastní model a zjistí, že když AI dostane málo nebo jednostranné příklady, plete se.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "předpojatost",
+    "bias",
+    "trénovací data",
+    "Teachable Machine",
+    "počítačové vidění",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že když počítači připravíme špatná nebo jednostranná data, bude věci špatně rozpoznávat.",
+  "materials": [
+    "Prezentace a projektor",
+    "Zařízení s kamerou do skupin",
+    "Fotoaparát",
+    "Potřeby na tvoření (ovoce, obrázky…)"
+  ],
+  "procedure": "Příběh: roboti mají v supermarketu koupit jablka a ananas. Z odborných knih vědí, že jablka rostou na jabloních a ananas na keři — a tak marně hledají stromy mezi regály.\n\nDiskuse: lidé si vytvářejí představu z mnoha různých zkušeností, stroje se učí jen z dat, která dostanou. Jak všelijak může vypadat jablko (celé, nakrájené, zelené, v koláči)? A ananas?\n\nAktivita: skupiny v Teachable Machine natrénují vlastní model — připraví trénovací sadu (třeba jablka a ananasy) a testují, jak dobře model pozná nové věci. Co se stane s obrázky, které v trénovací sadě nebyly?\n\nDiskuse o předpojatosti: jak vzniká a jak se projeví třeba u rozpoznávání obličejů nebo doporučování.\n\nReflexe: jak model zlepšit? (Kvalitnější a rozmanitější data.)",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_07_Predpojatost_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_07_Predpojatost_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGG_Pil9t0/t9mPSoWtyMtiSGRpshYLBQ/view?utm_content=DAGG_Pil9t0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/07-predpojatost-ju-a-pi-na-nakupu/"
+  }
+}

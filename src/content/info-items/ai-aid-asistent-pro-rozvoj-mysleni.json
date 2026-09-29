@@ -1,0 +1,60 @@
+{
+  "id": "ai-aid-asistent-pro-rozvoj-mysleni",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Asistent pro rozvoj myšlení — chatbot, který se ptá",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/rozvoj-mysleni-s-vyuzitim-chatbota/",
+  "description": "Připravený AI asistent (pro ChatGPT nebo Gemini), který žákům místo odpovědí klade otázky. Hodí se k jakémukoli tématu: stačí napsat klíčové slovo, nebo použít jeden z připravených promptů na skupinovou práci či opakování.",
+  "type": "metodika",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "podle pojetí",
+  "keywords": [
+    "chatbot",
+    "AI asistent",
+    "sokratovské otázky",
+    "kritické myšlení",
+    "opakování",
+    "Gemini",
+    "ChatGPT",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci používají chatbota jako průvodce přemýšlením, ne jako zdroj hotových odpovědí.",
+  "materials": [
+    "Registrace žáků v ChatGPT nebo Gemini (v Copilotu asistent nefunguje)",
+    "Zařízení pro každého žáka nebo skupinu",
+    "Prezentace s odkazem na asistenta"
+  ],
+  "procedure": "Asistent klade otázky, které vedou k objevování různých úhlů pohledu a rozvíjení vlastních nápadů, a odpovědi dává jen výjimečně.\n\nNež začnete, upozorněte žáky: asistent je program, nemyslí jako my a může si vymýšlet — vše posuzujte a ověřujte. Nemá empatii, takže rady k osobním věcem berte s rezervou. A vše, co do něj napíšete, ukládá firma, která ho provozuje.\n\nSdílení: odkaz nebo QR kód z prezentace. Kdo je v prohlížeči přihlášený, tomu se asistent otevře rovnou v chatu. Bez placené licence může žák během konverzace narazit na denní limit.\n\nPoužití: napsat jen klíčové slovo tématu (žárovka, recyklace, Řecko…), nebo použít připravené prompty se zástupnými výrazy v [závorkách]. Třeba „Máme před sebou skupinovou práci na [téma]. Jak postupovat a jaké otázky si položit?“ nebo „V [dějepise] máme za sebou [národní obrození]. Pokládej mi otázky, ať zjistím, jestli umím vše potřebné.“\n\nReflexe: v čem vám asistent pomohl? Přišli jste na něco sami, co byste jinak nevymysleli?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_rozvoj-mysleni_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_rozvoj-mysleni_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGhrViJ0N4/St0bJhxFADSjfn8w8ItVyg/view?utm_content=DAGhrViJ0N4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/rozvoj-mysleni-s-vyuzitim-chatbota/"
+  }
+}

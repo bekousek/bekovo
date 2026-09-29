@@ -1,0 +1,60 @@
+{
+  "id": "web-aid-vibecoding-aplikace",
+  "categoryId": "web",
+  "subcategoryId": "bez-kodu",
+  "title": "Vibecoding — navrhni a postav aplikaci promptem",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/vibecoding-01-tvorba-jednoduchych-aplikaci/",
+  "description": "Žáci podle design thinkingu vymyslí, pro koho a k čemu bude jejich aplikace, napíšou zadávací prompt, v Macaly (nebo Google AI Studiu) ji nechají vygenerovat, ladí ji a nakonec ji ukážou na „tržišti aplikací“.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "90–160 min",
+  "keywords": [
+    "vibecoding",
+    "Macaly",
+    "Google AI Studio",
+    "prompt",
+    "design thinking",
+    "UX",
+    "uživatelská zkušenost",
+    "webová aplikace",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci navrhnou a vytvoří fungující aplikaci pomocí vibecodingu a pochopí, že kvalita aplikace vychází z kvality zadání.",
+  "materials": [
+    "Zařízení pro žáka nebo dvojici",
+    "Registrace v Macaly nebo Google AI Studiu",
+    "Samolepicí lístečky, psací potřeby",
+    "Připravená Canva tabule pro návrh (odkaz v metodice)",
+    "Prezentace"
+  ],
+  "procedure": "Výběr nápadu (45 min): podle principů design thinkingu žáci promýšlejí, komu je aplikace určena, jaký problém řeší, co má umět a jak se v ní uživatel pohybuje — včetně jednoduchého náčrtu. Pomůže připravená Canva tabule se stanovišti a časově omezenými úkoly.\n\nSeznámení s nástrojem (25 min): provedete žáky rozhraním Macaly (k dispozici je 22minutové instruktážní video).\n\nZadání (15 min): na základě návrhu žáci napíšou zadávací prompt. Můžete ukázat vzorový prompt, ze kterého vznikla kvízová hra.\n\nTvorba (30 min): žáci aplikaci generují, testují, upravují a publikují.\n\nReflexe (30 min): tržiště aplikací — každý tým představí, pro koho aplikace je a k čemu slouží, a předvede ji. Důležitý je i proces: co bylo nejtěžší? Museli jste měnit zadání? Co jste dělali, když aplikace nefungovala? Ostatní hodnotí: je ovladatelná? Je jasné, pro koho je? Co zlepšit?\n\nShrnutí: kvalita aplikace = kvalita zadání; vibecoding je postupné ladění; uživatelská zkušenost rozhoduje, jestli aplikace dává smysl ostatním.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Vibecoding_01_tvorba-webu-aplikaci-macaly_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Vibecoding_01_tvorba-webu-aplikaci-macaly_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAHBaPKjkv4/EX4TERIwbHm50TgieTqb6A/view?utm_content=DAHBaPKjkv4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/vibecoding-01-tvorba-jednoduchych-aplikaci/"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "id": "ai-aid-jupi-01-vnimani",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 01 — Roboti se představují (smysly a senzory)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/01-roboti-se-predstavuji-vnimani-a-uceni/",
+  "description": "Roboti Ju a Pí se chtějí pořád učit — jenže k učení je potřeba vnímat. Děti přiřazují lidským smyslům senzory strojů a v nemocnici sledují, jak roboti „pomáhají“ pacientům solárními panely a mazivem.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "senzory",
+    "smysly",
+    "vnímání",
+    "robot",
+    "Ju a Pí",
+    "pohádka",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že lidé vnímají smysly a stroje senzory, a popíší rozdíly mezi nimi.",
+  "materials": [
+    "Vytištěné pracovní listy 1 a 2",
+    "Prezentace k promítnutí",
+    "Psací potřeby"
+  ],
+  "procedure": "Série 9 lekcí o AI pro 3.–5. ročník. Každou provází pohádkový příběh robotů Ju (zvídavý, trochu nejistý) a Pí (praktický, bere vše doslova), kteří chtějí lidem pomáhat, ale všechno popletou. V plánu lekce je text příběhu k předčítání i vzorové odpovědi.\n\nEvokace (10 min): roboti se představí. Kdy ses naučil(a) něco nového a co jsi k tomu potřeboval(a)? Co jsou lidské smysly? Díky čemu získávají informace roboti — co je senzor? Pro starší: jaký senzor by nahradil vodicího psa?\n\nUvědomění (15 min): pracovní list 1 — pojmenuj pět smyslů na obrázcích a přiřaď k nim senzory s podobnou funkcí (chyták: mikrofon nepatří k chuti, tam je elektronický jazyk). Doplňkově: které dva smysly jsou nejdůležitější při vaření, lezení po stromech, čtení… a jaký senzor by na to použili roboti?\n\nPříběh (5 min): roboti v nemocnici „pomáhají“ pacientům věcmi, které by pomohly spíš robotům — solárními panely, mazivy, pípajícími polštáři.\n\nReflexe (15 min): které senzory roboti používali? Jak se liší vnímání lidí a strojů? Jak by nám stroje se senzory mohly pomáhat (skleník, samořídicí auto, vysavač)?\n\nKdyž zbude čas: pracovní list 2 — napiš robotovi přesné zadání, s čím má pomoct (ne jen „vyvenči psa“). S webkamerou se dá vyzkoušet Scroobly (postavička kopíruje pohyby těla — počítačové vidění).",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_01_Vnim%C3%A1ni-a-uceni_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_01_Vnimani-a-uceni_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGAEQU_UPc/CNkplYR1dtAZHDKYPgmVYA/view?utm_content=DAGAEQU_UPc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list 01",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_01_Vnim%C3%A1ni-a-uceni_pracovni-list-01.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 02",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_01_Vnim%C3%A1ni-a-uceni_pracovni-list-02.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/01-roboti-se-predstavuji-vnimani-a-uceni/"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "ai-aid-jupi-08-jazykove-modely",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 08 — Pí ve vesmíru slov (jazykové modely)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/08-jazykove-modely-pi-ve-vesmiru-slov/",
+  "description": "Pí hledá ve „vesmíru slov“, proč je Kočička smutná. Děti doplňují slova do příběhu, lepí si vlastní vesmír slov podle významové blízkosti a zjistí, proč chatbot někdy vymýšlí nesmysly.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "jazykový model",
+    "LLM",
+    "chatbot",
+    "pravděpodobnost",
+    "význam slov",
+    "halucinace",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že jazykový model se naučil z mnoha textů, jak lidé komunikují, a že občas generuje nesprávné věci.",
+  "materials": [
+    "Vytištěné pracovní listy",
+    "Čtvrtka, lepidlo, psací potřeby",
+    "Prezentace",
+    "Účet učitele v aplikaci generující text (pro závěrečnou ukázku)"
+  ],
+  "procedure": "Příběh: Ju a Pí se ocitnou ve vesmíru slov, kde má každé slovo své místo a kolem sebe slova, která s ním souvisejí. Chtějí zjistit, proč je Kočička smutná, a zkoušejí to přes jazykový model.\n\nVýklad: jazykový model se učil na obrovském množství textů a generuje odpověď podle toho, jaké slovo nejspíš následuje.\n\nHra na doplňování: děti doplňují slova do příběhu — různé volby vedou k různým významům.\n\nAktivita: děti si lepí vlastní vesmír slov — spojují obrázky a slova podle významové blízkosti. Tak si osahají, jak jazykové modely organizují informace.\n\nKdyž zbude čas: učitel ukáže chatbota a děti ověřují, jak generuje odpovědi — a proč někdy vytvoří nesmysl.\n\nReflexe: co jazykové modely umí a co ne? Proč je potřeba o jejich odpovědích přemýšlet?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_08_Jazykovy-model_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_08_Jazykovy-model_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGUwLtNz84/6g5v-arOJcZwvr8pbgZv6Q/view?utm_content=DAGUwLtNz84&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_08_Jazykovy-model_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/08-jazykove-modely-pi-ve-vesmiru-slov/"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ai-aid-vynalezci-slov",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Vynálezci slov — anglická slovíčka z Infinite Craft",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/anglictina-02-vynalezci-slov/",
+  "description": "Z vody a ohně je pára, z páry… V Infinite Craft žáci kombinují slova a AI vymýšlí nová. Neznámá anglická slovíčka zapisují s překladem a z pěti vybraných pak tvoří vlastní text.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "angličtina",
+    "slovní zásoba",
+    "Infinite Craft",
+    "jazykový model",
+    "překladač",
+    "DeepL",
+    "mezipředmětové",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci rozšíří anglickou slovní zásobu zábavnou formou a poznají, že nová slova ve hře generuje jazykový model.",
+  "materials": [
+    "Zařízení s internetem (mobil, tablet i počítač)",
+    "Pracovní list",
+    "Překladač DeepL nebo Google Translate",
+    "Prezentace"
+  ],
+  "procedure": "Infinite Craft (neal.fun/infinite-craft): každý začíná se čtyřmi slovy (voda, oheň, vítr, země). Přetažením jednoho slova na druhé vznikne nové. Slova tvoří velký jazykový model — stejný typ AI jako ChatGPT. Úplně nová kombinace se objeví jako „First Discovery“ (dnes už vzácné).\n\nAktivita (25 min): žáci kombinují slova a neznámá anglická slovíčka zapisují do pracovního listu s překladem (DeepL nebo Google Translate — také AI).\n\nPak si vyberou 5–10 slov, která neznali, a napíšou s nimi souvislý text o aspoň 120 slovech (třeba krátký příběh). Doporučení autorů: psát v DeepL Write, který opraví gramatiku a styl, ale text píše žák sám.\n\nVolitelně: porovnejte, kdo co v Infinite Craft vytvořil — při pilotáži to vyvolalo velký zájem.\n\nReflexe: která slova vás překvapila? Dávaly všechny kombinace smysl? Proč asi AI někdy vytvoří nesmysl?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_anglicky-jazyk-02_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_anglicky-jazyk-02_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGUCRuM7ro/jRugLmDETTlTp5rhVHus0Q/view?utm_content=DAGUCRuM7ro&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_anglicky-jazyk-02_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/anglictina-02-vynalezci-slov/"
+  }
+}

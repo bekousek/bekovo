@@ -1,0 +1,63 @@
+{
+  "id": "ai-aid-jupi-09-ambientni-inteligence",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 09 — Roboti mají robopejska (ambientní inteligence)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/09-ambientni-inteligence-roboti-maji-domaci-mazlicky/",
+  "description": "Robopejsek Připomňuf má roboty upozorňovat na úkoly, jenže ne vždy dělá, co má. Děti ve skupinách navrhují vlastní chytré zařízení a řeší, co všechno o nás takové věci vědí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "ambientní inteligence",
+    "chytrá domácnost",
+    "internet věcí",
+    "soukromí",
+    "osobní data",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že AI je schovaná i ve věcech kolem nás, a pojmenují přínosy i rizika takových zařízení.",
+  "materials": [
+    "Vytištěné pracovní listy (jeden do skupiny)",
+    "Prezentace",
+    "Psací potřeby"
+  ],
+  "procedure": "Příběh: Ju a Pí si pořídí robopejska Připomňufa, který jim má pomáhat připomínat úkoly — jenže ne vždy dělá, co by měl.\n\nDiskuse: jak by takový pejsek mohl fungovat a co by měl umět? Ambientní inteligence = technologie, které se nenápadně stávají součástí každodenního života (chytré reproduktory, hodinky, domácnost).\n\nAktivita (skupiny): navrhněte vlastní chytré zařízení s ambientní inteligencí — co umí, jak lidem pomáhá, jaké senzory potřebuje.\n\nRizika: jaká data by vaše zařízení sbíralo? Kdo k nim má přístup? Jak zajistit, aby bylo bezpečné a užitečné?\n\nReflexe: skupiny prezentují návrhy. Jaké výhody a jaké výzvy přináší AI v každodenních věcech?\n\nPoslední lekce série Ju a Pí.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_09_Ambientni-inteligence_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_09_Ambientni-inteligence_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGUwEJUPqE/529QCkq1vDFp7qGdNfY1qA/view?utm_content=DAGUwEJUPqE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_09_Ambientni-inteligence_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/09-ambientni-inteligence-roboti-maji-domaci-mazlicky/"
+  }
+}

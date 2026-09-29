@@ -1,0 +1,58 @@
+{
+  "id": "ai-aid-su-02-uceni-s-ucitelem",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Strojové učení 02 — Nalezence zařadí Teachable Machine",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-02-strojove-uceni-s-ucitelem/",
+  "description": "Žáci nahrají obrázky Fluffů a Earlů do Teachable Machine, natrénují model a nechají ho zařadit nalezence. Model tvrdí „Earl“ — ale proč? Testování dalších nalezenců prozradí, že rozhodují jen uši.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "strojové učení s učitelem",
+    "Teachable Machine",
+    "trénování modelu",
+    "testovací data",
+    "klasifikace obrázků",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci natrénují model rozpoznávání obrázků a zjistí, podle kterých znaků model rozhoduje.",
+  "materials": [
+    "Počítač nebo tablet (ne Android) pro žáka nebo skupinu",
+    "Obrázky mimozemšťanů ke stažení (bit.ly/mimozemstani02, ZIP)",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (10 min): jak jsme minule došli k tomu, kam patří nalezenec? Které znaky byly důležitější? Kdybychom rozhodnutí nechali na AI, jak by to dopadlo? (Hlasování.)\n\nAktivita 1 (15 min): žáci stáhnou a rozbalí obrázky (trénovací: složky Earlové a Fluffové; testovací: Nalezenec a Další nalezenci). V Teachable Machine: Get started → Image Project → Standard Image Model, přejmenovat třídy na „Fluffové“ a „Earlové“, nahrát obrázky, Train model (nezavírat okno). Pak nahrát obrázek nalezence a sledovat pravděpodobnost.\n\nModel řekne „Earl“. Jaké znaky rozhodly? (Správně: uši. Žákům to neříkejte, přijdou na to sami.)\n\nAktivita 2 (10 min): žáci postupně nahrají všechny další nalezence a sledují, jak se mění pravděpodobnost. Nalezenec bez uší je skoro vždy na 100 % Fluff. Určil model všechny podobně? Proč ne? Které znaky hrály největší roli?\n\nPojmy: proč se tomu říká „strojové učení s učitelem“? (Lidé modelu řekli, co je co.) Co by se stalo bez označených příkladů? Co udělá model, když mu do kamery ukážete vlastní obličej?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_02_Strojove-uceni-s-ucitelem_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_02_Strojove-uceni-s-ucitelem_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGEdUBpYqU/919jTF18wJX0e4qOt3hbtQ/view?utm_content=DAGEdUBpYqU&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-02-strojove-uceni-s-ucitelem/"
+  }
+}

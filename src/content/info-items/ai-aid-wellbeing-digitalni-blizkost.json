@@ -1,0 +1,77 @@
+{
+  "id": "ai-aid-wellbeing-digitalni-blizkost",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Digitální blízkost — AI společníci a simulovaná empatie",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/wellbeing-2-digitalni-blizkost/",
+  "description": "Sarinkaaaa3101, teenagerka vytvořená AI, provází žáky tématem vztahů s chatboty: čím se liší vztah člověk↔člověk od vztahu člověk→stroj a proč je AI společník, který má vždycky čas, lákavý i rizikový.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "AI společník",
+    "chatbot",
+    "digitální blízkost",
+    "simulovaná empatie",
+    "parasociální vztah",
+    "osamělost",
+    "wellbeing",
+    "Sára",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci rozliší oboustranný vztah mezi lidmi od jednostranného vztahu ke stroji a pojmenují přínosy i rizika AI společníků.",
+  "materials": [
+    "Zařízení s internetem pro každého nebo do dvojice",
+    "Pracovní list",
+    "Sářin deník (PDF)",
+    "Web fiktivní aplikace soulverse.cz",
+    "Prezentace"
+  ],
+  "procedure": "Druhá lekce trojice o fiktivní Sarinkaaaa3101 (první je Kdo je Sára?, třetí Deep Nudes).\n\nPříprava: předem citlivě zjistěte, zda se téma AI společníků žáků týká. Doporučuje se učit v tandemu se školním psychologem nebo preventistou.\n\nPozadí pro učitele: stále víc lidí, i mladých, navazuje citové pouto s chatboty navrženými jako důvěrní přátelé (Character.AI, Replika). Podle studie z roku 2025 lidé chatboty nejčastěji využívají jako společníky, se kterými sdílí emoce.\n\nVztah člověk↔člověk je oboustranný, vyvíjí se, zahrnuje empatii, nároky i nedorozumění. Vztah člověk→stroj je jednostranný — chatbot neprožívá emoce, jen je navržen tak, aby působil přívětivě. Neodsuzuje a je vždy k dispozici: to je výhoda i riziko. A za aplikací stojí firma, které svěřujeme citlivá data.\n\nEvokace (5 min): jaký je Sářin příběh z minulé lekce (stěhování z Prahy na vesnici, ztráta přátel)? Povídáš si s chatbotem? V čem se liší běžný chatbot od AI společníka (Character AI, My AI ve Snapchatu, Replika — jedno vlákno, které si vše pamatuje)? Obrátíš se s pocity na chatbota, nebo na kamaráda?\n\nAktivita 1 (5 min): žáci čtou Sářin deník (odkaz v prezentaci, nebo promítnout) a krátce diskutují, jak na ně působil.\n\nAktivita 2 (15 min): na časovou osu v pracovním listu zaznamenají momenty, které vedly k tomu, že se Sára upnula na AI společníka Kaie. Často souvisejí s nespokojeností v reálném životě.\n\nAktivita 3 (10 min): na webu fiktivní aplikace soulverse.cz si žáci přečtou, co jsou AI společníci, a v novinkách najdou omluvu vývojářů za ztrátu dat. Diskuse o přínosech a rizicích.\n\nReflexe: kdy může být rozhovor s chatbotem užitečný a kdy už ne? Na koho se obrátit, když se cítím osamělý(á)?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_wellbeing-02_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_wellbeing-02_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGo8l5C2wY/ACUlfTyEWqZYSJKWF0grcA/view?utm_content=DAGo8l5C2wY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_wellbeing-02_pracovni-list.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Sářin deník",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_wellbeing-02_sarin-denik.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Fiktivní aplikace AI společníků Soulverse",
+      "href": "https://soulverse.cz/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/wellbeing-2-digitalni-blizkost/"
+  }
+}
