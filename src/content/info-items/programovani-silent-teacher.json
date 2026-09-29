@@ -1,0 +1,27 @@
+{
+  "id": "programovani-silent-teacher",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Silent Teacher",
+  "url": "https://silentteacher.toxicode.fr/",
+  "description": "Hra bez jediného slova vysvětlení: žáci odhadují, co vypíše krátký kód, a z vlastních chyb si odvodí pravidla — proměnné, datové typy, rozdíl mezi = a ==, funkce a podmínky. Volba mezi Pythonem a JavaScriptem.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "Python",
+    "JavaScript",
+    "proměnné",
+    "podmínky",
+    "funkce",
+    "bez vysvětlování",
+    "Toxicode"
+  ],
+  "source": {
+    "label": "Toxicode",
+    "url": "https://www.toxicode.fr/learn"
+  },
+  "added": "2026-09-29"
+}

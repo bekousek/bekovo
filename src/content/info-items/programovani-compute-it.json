@@ -1,0 +1,23 @@
+{
+  "id": "programovani-compute-it",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Compute It",
+  "url": "https://compute-it.toxicode.fr/",
+  "description": "Role se obrátí — počítač je žák: čte krátké programy a hledá trasu, kterou kód předepisuje. Trénuje čtení kódu a základní programátorské pojmy. Autoři radí nevysvětlovat, jen napovídat, když se žák zasekne.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "čtení kódu",
+    "žák jako počítač",
+    "Toxicode"
+  ],
+  "source": {
+    "label": "Toxicode",
+    "url": "https://www.toxicode.fr/learn"
+  },
+  "added": "2026-09-29"
+}

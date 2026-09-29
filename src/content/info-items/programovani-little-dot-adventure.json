@@ -1,0 +1,25 @@
+{
+  "id": "programovani-little-dot-adventure",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Little Dot Adventure",
+  "url": "https://little-dot.toxicode.fr/",
+  "description": "Žák v každém kole vybere kartu s kódem a „provede“ ji, aby tečka postoupila světem — musí plánovat tahy dopředu. Kód se nepíše, jen čte. Vzniklo pro Hodinu kódu 2018, autoři ho vedou jako rozpracované.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "language": "en",
+  "keywords": [
+    "čtení kódu",
+    "karty",
+    "plánování",
+    "Hodina kódu",
+    "Toxicode"
+  ],
+  "source": {
+    "label": "Toxicode",
+    "url": "https://www.toxicode.fr/learn"
+  },
+  "added": "2026-09-29"
+}
