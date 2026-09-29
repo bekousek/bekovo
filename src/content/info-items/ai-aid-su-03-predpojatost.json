@@ -1,0 +1,60 @@
+{
+  "id": "ai-aid-su-03-predpojatost",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Strojové učení 03 — Předpojatý model (výprava na planetu Yemi)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-03-predpojatost/",
+  "description": "Model pořád rozhoduje podle uší. Pomůže, když přidáme další dvě mimozemské rodiny? Nepomůže — změnu přinese až výprava do zakázaných končin planety Yemi. Žáci na vlastním modelu poznají, co je předpojatost.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "předpojatost",
+    "bias",
+    "dataset",
+    "Teachable Machine",
+    "nevyvážená data",
+    "testování modelu",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí pojem předpojatost a vědí, že jí lze předcházet testováním modelu a úpravou datasetu.",
+  "materials": [
+    "Počítač nebo tablet (ne Android)",
+    "Připravený projekt Teachable Machine a obrázky další rodiny (odkazy v prezentaci)",
+    "Kartičky mimozemšťanů",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (10 min): minule model zařadil nalezence podle uší — jak jsme to ověřili? Jak funguje strojové učení s učitelem? Stále nevíme, kam nalezenec patří — co by pomohlo? (Víc dat, jiné informace, třeba DNA.)\n\nUvědomění: žáci otevřou předem připravený projekt v Teachable Machine. Díky expedici na mimozemskou planetu přibudou dvě další rodiny — rozšíří trénovací data a model znovu natrénují. Ani to ale nepomůže: model je dál předpojatý a nalezence přiřazuje podle uší.\n\nZměnu přinese až expedice do zakázaných končin planety Yemi s novými daty.\n\nVysvětlení: když model trénujeme na datech, která nejsou jednoznačná nebo jich je málo, špatně rozpoznává nová data. Ve skutečnosti nemusí být uši správný znak — může to být srst nebo detail, kterého jsme si ani nevšimli. Přesto podle něj model rozhoduje: je předpojatý.\n\nReflexe: kde se předpojatost projevuje ve skutečném světě (rozpoznávání obličejů, výběr uchazečů…)? Jak jí předcházet?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_03_Predpojatost_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_03_Predpojatost_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGEdlqIyfg/V-g85qsnfeM2AfSZkEtuhQ/view?utm_content=DAGEdlqIyfg&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-03-predpojatost/"
+  }
+}

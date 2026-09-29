@@ -1,0 +1,64 @@
+{
+  "id": "ai-aid-hadej-chemicke-prvky",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Hádej chemické prvky — hra s chatbotem",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/chemie-01-hadej-chemicke-prvky/",
+  "description": "Chatbot dává nápovědy, žáci ve skupinách hádají prvek z periodické tabulky. Za správnou odpověď se dozvědí vlastnosti a využití prvku — a ty pak ověřují v učebnici a spolehlivých zdrojích.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "chatbot",
+    "chemické prvky",
+    "periodická soustava",
+    "ověřování",
+    "hra",
+    "chemie",
+    "mezipředmětové",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci si zopakují vlastnosti a využití prvků a procvičí ověřování informací, které vygeneroval chatbot.",
+  "materials": [
+    "Zařízení s chatbotem do skupin (připravený AI asistent pro ChatGPT, nebo prompt pro jiného chatbota)",
+    "Pracovní list",
+    "Učebnice chemie a periodická soustava prvků",
+    "Prezentace"
+  ],
+  "procedure": "Úvod (5 min): tři pravidla práce s chatboty — přesně popsat, co chci; vygenerovaný text přečíst a kriticky posoudit; fakta ověřit z jiných zdrojů.\n\nHra (20 min): nasdílejte skupinám odkaz na AI asistenta (v ChatGPT musí být žáci přihlášení), nebo Google dokument s promptem pro jiného chatbota (vyzkoušejte si ho předem). Žáci začnou konverzaci slovem „Ahoj“ (nebo vloží prompt) a chatbot jim začne dávat nápovědy.\n\nKdyž žáci prvek uhodnou, chatbot jim řekne dvě vlastnosti, dvě možnosti využití a dvě informace z periodické soustavy. Žáci je zapíší do tabulky v pracovním listu a ověří v učebnici, periodické tabulce nebo spolehlivém zdroji. Sedělo to?\n\nReflexe: kolik informací od chatbota bylo správně? Kde se spletl? Proč je nutné ověřovat, i když zní sebejistě?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_chemie-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_chemie-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGS4EC-zCc/xGjPZ1OKVkK-fERw0SPaIw/view?utm_content=DAGS4EC-zCc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_chemie-01_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/chemie-01-hadej-chemicke-prvky/"
+  }
+}

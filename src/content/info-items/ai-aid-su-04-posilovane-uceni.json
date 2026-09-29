@@ -1,0 +1,69 @@
+{
+  "id": "ai-aid-su-04-posilovane-uceni",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Strojové učení 04 — Hexapawn: počítač se učí hrát hru",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-04-posilovane-uceni/",
+  "description": "Žáci hrají Hexapawn (mini-šachy 3×3) proti počítači, který se po každé prohře poučí. Na herním stromu sledují, jak se stroj učí pokusem a omylem — posilovaným učením.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "30–45 min",
+  "keywords": [
+    "posilované učení",
+    "Hexapawn",
+    "herní strom",
+    "pokus a omyl",
+    "odměna",
+    "strategie",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí, jak počítač pomocí posilovaného učení upravuje strategii podle výsledků předchozích her.",
+  "materials": [
+    "Počítač nebo tablet (ne Android)",
+    "Pracovní listy s herním stromem",
+    "Prezentace a projektor"
+  ],
+  "procedure": "Evokace (10 min): jak se učíme my? Pomáhá ti okamžitá zpětná vazba na chybu? Učíš se lépe, když ti někdo ukáže, nebo když si to vyzkoušíš? Závěr: lidé se učí z příkladů i pokusem a omylem (horká kamna). Stroje se z příkladů učit umí — a ze zkušeností?\n\nVideo: pět AI agentů se učí uběhnout 100 metrů. Za přibližování k cíli dostávají odměnu, za pád postih. Video má asi 11 minut — pusťte jen vybrané úseky.\n\nHexapawn: deska 3×3, tři pěšci na každé straně. Cílem je dostat pěšce na druhou stranu nebo vyřadit všechny soupeřovy. Žáci hrají proti počítači, který se po každé hře zlepšuje, a do herního stromu na pracovním listu doplňují možné tahy.\n\nVysvětlení: počítač (agent) jedná v prostředí (hra) a z výher a proher zjišťuje, které tahy vedou k úspěchu. Nikdo mu neřekl, co přesně dělat — naučil se to sám.\n\nReflexe: jak se změnila hra počítače po několika partiích? Kde se posilované učení používá (hry, roboti, samořídicí auta)?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_04_Posilovane-uceni_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_04_Posilovane-uceni_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGEnp9gMB4/rGPLF1WLhYvM4EnG4XiGhQ/view?utm_content=DAGEnp9gMB4&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list 01",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_04_Posilovane-uceni_pracovni-list-01.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 02",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_04_Posilovane-uceni_pracovni-list-02.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-04-posilovane-uceni/"
+  }
+}

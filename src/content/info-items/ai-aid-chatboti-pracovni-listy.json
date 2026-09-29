@@ -1,0 +1,64 @@
+{
+  "id": "ai-aid-chatboti-pracovni-listy",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Chatboti ve výuce — pracovní listy s pravidly a prompty",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/chatboti-ve-vyuce-pracovni-listy/",
+  "description": "Sada pracovních listů pro žáky: tři pravidla práce s chatboty, na co si dát pozor (soukromí, ověřování, přiznat použití) a desítka promptů k vyzkoušení — tabulky, kvízy, doplňovačky, hraní rolí, textové hry.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "chatbot",
+    "prompt",
+    "pravidla",
+    "ověřování",
+    "soukromí",
+    "halucinace",
+    "kritické myšlení",
+    "pracovní list",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci znají silné stránky i limity chatbotů, vyzkoušejí různé druhy promptů a vědí, proč výstupy ověřovat.",
+  "materials": [
+    "Vytištěné pracovní listy",
+    "Zařízení s chatbotem pro každého žáka",
+    "Prezentace"
+  ],
+  "procedure": "Tři pravidla: 1) vytvářej srozumitelná zadání, 2) nad textem od chatbota přemýšlej, 3) informace si ověřuj. Chatbot generuje slova podle pravděpodobnosti — nerozumí tomu, co píše, a proto občas napíše nesmysl.\n\nNa co si dát pozor: nikdy do chatbota nepiš soukromé věci o sobě ani o jiných (nic, co bys neřekl(a) člověku na ulici). Vše ověřuj. Když chatbota použiješ, přiznej to — třeba to obohatí i ostatní. Copy–paste nestačí.\n\nSilné a slabé stránky: mívají neotřelé nápady, hodně tě naučí, umí generovat programy × občas generují nesmysly, pletou si fakta, přepočítají se, nemyslí jako lidé.\n\nPrompty k vyzkoušení (žáci si odškrtávají): první pozdrav („Baví mě…, co pro mě můžeš udělat?“), tabulky, kvíz s více odpověďmi, děj knihy v emotikonech, vtip, slovníček pojmů pro spolužáky (ověřit!), doplňovačka (text se slovesy nahrazenými ___), hraní rolí (Creeper z Minecraftu zadává úkoly s Redstonem), edukativní textová hra.\n\nMetodika pro učitele obsahuje i podporu, jak chatboty zapojit do zadávání a hodnocení úkolů.\n\nNavazuje hackaton Vytváření AI asistentů (vyžaduje placenou licenci ChatGPT).",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_pracovni-listy_chatboti-ve-vyuce_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_pracovni-listy_chatboti-ve-vyuce_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGQ2g9cxyE/o562b5qVoo_3vgkqjYtlnA/view?utm_content=DAGQ2g9cxyE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní listy",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_pracovni-listy_chatboti-ve-vyuce_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/chatboti-ve-vyuce-pracovni-listy/"
+  }
+}

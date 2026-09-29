@@ -1,0 +1,57 @@
+{
+  "id": "ai-aid-algoritmicky-neviditelni",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Algoritmicky neviditelní — make-up, který oklame rozpoznávání tváří",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/vytvarna-vychova-02-algoritmicky-neviditelni/",
+  "description": "Podle umělce Adama Harveyho (CV Dazzle) žáci navrhují kontrastní make-up a účesy, které rozbijí rysy obličeje tak, aby je počítačové vidění nenašlo — a zkoušejí je před kamerou. Při tom řeší, k čemu se rozpoznávání tváří používá.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "počítačové vidění",
+    "rozpoznávání obličeje",
+    "CV Dazzle",
+    "Adam Harvey",
+    "soukromí",
+    "sledování",
+    "výtvarná výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí, jak funguje počítačové vidění, a zhodnotí jeho přínosy i rizika pro jednotlivce a společnost.",
+  "materials": [
+    "Počítač s kamerou",
+    "Barvy na obličej, látky, papírky, barevné pásky, lak na vlasy…",
+    "Prezentace"
+  ],
+  "procedure": "Video (10 min): tříminutové video o projektu Computer Vision Dazzle Adama Harveyho (s automatickými českými titulky). Harvey hledá způsoby, jak zmást systémy rozpoznávání tváří.\n\nDiskuse: co je počítačové vidění? (Systém natrénovaný na velkém množství obrázků, který rozpozná objekty i na nových záběrech, třeba z kamer na ulici.) Jak ho zmást? CV Dazzle narušuje klíčové rysy, podle kterých algoritmy tvář hledají — symetrii a typické rozložení obočí, očí, nosu a úst — nepravidelnými vzory, kontrastním make-upem a stylizovanými účesy. Inspirací byla válečná kamufláž lodí.\n\nAktivita (20 min): inspirace ukázkami make-upů a videem influencerky, která popisuje, co fungovalo a co ne: technologie je den ode dne těžší obelstít, systému stačí zlomek očí, nosu nebo úst, roušky nefungují (oči jsou vidět), nejlépe fungují třpytivé šperky. A systémy bývají rasově předpojaté — lidi tmavé pleti rozpoznávají hůř.\n\nŽáci navrhnou vlastní CV Dazzle make-up a průběžně testují, jestli je systém ještě pozná — třeba v nástroji Webcam Face Tracking (když se kolem obličeje objeví rámeček s pravděpodobností, tvář byla rozpoznána). Větší výzva: filtr ve Snapchatu nebo odemykání telefonu obličejem.\n\nReflexe: dokázal tvůj make-up zmást systém? Co fungovalo a co ne? kde se rozpoznávání tváří používá ve prospěch lidí a kde je zneužívané (sledování, represe)? Má člověk právo být „neviditelný“? Jak by to mělo regulovat právo?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_vytvarna-vychova-02_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_vytvarna-vychova-02_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGJ0WJrFR8/wcawBscG1NhKCyrcuSrN2A/view?utm_content=DAGJ0WJrFR8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/vytvarna-vychova-02-algoritmicky-neviditelni/"
+  }
+}

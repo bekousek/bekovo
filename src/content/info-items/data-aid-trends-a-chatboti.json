@@ -1,0 +1,57 @@
+{
+  "id": "data-aid-trends-a-chatboti",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Google Trends a chatboti — interpretace časové řady",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/data-02-vizualizace-dat-casova-rada/",
+  "description": "Proč v únoru 2024 všichni hledali Taylor Swift? Žáci čtou časové řady v Google Trends, porovnávají je (Taylor Swift × Michael Jackson) a nechávají graf analyzovat chatbota — a jeho tvrzení pak ověřují.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "Google Trends",
+    "časová řada",
+    "graf",
+    "interpretace dat",
+    "chatbot",
+    "analýza obrázku",
+    "ověřování",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci interpretují časovou řadu, porovnají více dotazů a kriticky ověří interpretaci vygenerovanou chatbotem.",
+  "materials": [
+    "Počítač pro žáka nebo dvojici",
+    "Chatbot, který umí číst obrázky (ChatGPT, Claude, Copilot, Gemini) — žáci by měli být registrovaní předem, hromadná registrace z jedné školní IP bývá blokovaná",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (5 min): co víte o Taylor Swift? A o Michaelu Jacksonovi? Odráží se to, co se děje v životě, v datech na internetu?\n\nGoogle Trends (ukázka): vyhledejte „Taylor Swift“ za posledních pět let. Ukažte filtry (region, období, kategorie, web/YouTube). V únoru 2024 byl zájem obrovský — víte proč?\n\nAnalýza chatbotem: udělejte snímek grafu, ořízněte ho, nahrajte do chatbota a zeptejte se, proč bylo v únoru 2024 jméno tolik vyhledávané (ať informace najde na internetu). Přečtěte odpověď společně.\n\nUpozornění: chatboti halucinují. Pravidla: přesné zadání → přemýšlet nad odpovědí → ověřit. Vygenerovaný text kriticky posuďte a dohledejte fakta.\n\nPorovnání: v Google Trends porovnejte „Taylor Swift“ a „Michael Jackson“. Co vidíte? Kdy zájem o Jacksona vystřelil?\n\nSamostatně: žáci si vyberou vlastní dotazy, porovnají je, nechají graf interpretovat chatbotem a jeho tvrzení ověří.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Data_02_interpretace-dat_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Data_02_interpretace-dat_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGQXbMYKmI/9HLRArPVvwn_6Dt4I-kiZQ/view?utm_content=DAGQXbMYKmI&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/data-02-vizualizace-dat-casova-rada/"
+  }
+}

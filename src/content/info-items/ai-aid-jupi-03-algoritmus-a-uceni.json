@@ -1,0 +1,68 @@
+{
+  "id": "ai-aid-jupi-03-algoritmus-a-uceni",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 03 — Roboti si čistí zuby (algoritmus vs. strojové učení)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/03-roboti-si-cisti-zuby-algritmus-a-strojove-uceni/",
+  "description": "Roboti čistí zuby podle knížky a vytopí koupelnu. Děti jim napíšou přesný algoritmus čištění zubů, učitel ho pak doslova provede s papírovým kartáčkem — a třída zjistí, že některé věci je lepší ukázat na příkladech.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "algoritmus",
+    "strojové učení",
+    "přesný postup",
+    "příklady",
+    "robot",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti rozliší dva způsoby, jak naučit stroj úkol: přesným postupem (algoritmus), nebo ukázkou mnoha příkladů (strojové učení).",
+  "materials": [
+    "Pracovní list s papírovými programovacími bloky",
+    "Vystříhané obrázky předmětů z tisknutelného listu (kartáček, tuba, víčko, sklenice… — nebo skutečný kartáček a pasta)",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (5 min): co všechno uděláš, když si čistíš zuby? Jak bys to popsal(a) robotovi? Co je algoritmus? Jak robot pozná, že jsou zuby čisté?\n\nPříběh: Ju a Pí čistí zuby podle knihy. Pasta skončí na stropě, „krouživé pohyby“ provádějí tancem a kružítkem po stěnách a „vypláchnout“ znamená vytopit koupelnu.\n\nAktivita 1: děti (samostatně, ve dvojicích nebo skupinách) vyplní papírové programovací bloky — ke každému předmětu co nejpřesnější instrukce. Návodné otázky: fungoval by popis v každé koupelně? Nechte souseda zkontrolovat, co chybí.\n\nAktivita 2: s papírovými (nebo skutečnými) předměty proveďte algoritmy dětí zcela doslova — když není řečeno, ze kterého konce tuby, mačkejte ten špatný. Cílem je zjistit, že některé věci je velmi těžké popsat.\n\nStrojové učení: co kdybychom robotům místo popisu ukázali spoustu videí lidí při čištění zubů? Video s roboty, kteří hrají fotbal (asi prvních 40 s) — dal by se fotbal naučit přesným postupem? Hlasování.\n\nReflexe (5 min): co bylo nejtěžší popsat? V čem se liší algoritmus od strojového učení? Který přístup je lepší pro fotbal nebo řízení auta? Co dalšího je skoro nemožné popsat (tanec, péče o miminko)?\n\nNavazuje: AI pro oceány na Code.org.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_03_Strojove-uceni_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_03_Strojove-uceni_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGG4DeprxQ/43hQH51c6dAQSimNsmWSdA/view?utm_content=DAGG4DeprxQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_03_Strojove-uceni_pracovni-list-01.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Tisknutelný list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_03_Strojove-uceni_tisknutelny-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/03-roboti-si-cisti-zuby-algritmus-a-strojove-uceni/"
+  }
+}

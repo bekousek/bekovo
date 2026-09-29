@@ -1,0 +1,64 @@
+{
+  "id": "ai-aid-jupi-06-uceni-ze-zkusenosti",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 06 — Robotí dobrodružství v bludišti (učení ze zkušeností)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/06-roboti-dobrodruzstvi-v-muzeu-uceni-se-z-prikladu/",
+  "description": "Roboti hledají v podzemním bludišti ztracenou Kočičku a sbírají ponožky. Děti zkoušejí strategie (pravidlo levé ruky, značkování cesty) a zjistí, že i stroje se učí pokusem a omylem — za odměnu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "posilované učení",
+    "pokus a omyl",
+    "odměna",
+    "bludiště",
+    "strategie",
+    "Hexapawn",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že stroje se stejně jako lidé mohou učit ze zkušeností — opakovaným zkoušením a zpětnou vazbou.",
+  "materials": [
+    "Pracovní list s bludištěm",
+    "Prezentace a projektor (video)",
+    "Psací potřeby"
+  ],
+  "procedure": "Příběh: kočička se ztratila a Ju a Pí se vydávají do podzemního bludiště pod městem — kam mizí všechny ponožky?\n\nDiskuse: jak se v bludišti neztratit? Strategie: pravidlo levé ruky, vracení se, značkování cesty.\n\nAktivita (pracovní list): děti procházejí bludištěm, sbírají ponožky a vyhýbají se ponožkochtivým myším. Pokus, omyl, nový pokus.\n\nVýklad: stejně se učí i AI — opakuje úkol, dostává zpětnou vazbu (odměnu) a vylepšuje strategii. Video: AI agenti se postupně učí běhat.\n\nReflexe: jaké strategie jste použili? Jak by roboti mohli naučené využít v jiném bludišti?\n\nKdyž zbude čas: hra Hexapawn (mini-šachy 3×3), na které je učení ze zkušeností krásně vidět — navazuje na kartu Posilované učení pro 2. stupeň.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_06_Uceni-ze-zkusenosti_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_06_Uceni-ze-zkusenosti_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGOMLRn9Yo/FlCkOSFjKzQK13RhPkNFNw/view?utm_content=DAGOMLRn9Yo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list 01",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_06_Uceni-ze-zkusenosti_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/06-roboti-dobrodruzstvi-v-muzeu-uceni-se-z-prikladu/"
+  }
+}

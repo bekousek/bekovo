@@ -1,0 +1,61 @@
+{
+  "id": "media-aid-tone-transfer",
+  "categoryId": "media",
+  "subcategoryId": "zvuk",
+  "title": "Zvukové proměny — Tone Transfer promění broukání v housle",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/hudebni-vychova-01-zvukove-promeny/",
+  "description": "Třída nahraje 15 vteřin broukání, zpěvu nebo cinkání lahví a aplikace Tone Transfer z toho udělá flétnu, saxofon či trubku. Žáci hádají nástroje a zjišťují, jak se AI naučila jejich barvu zvuku.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "Tone Transfer",
+    "barva zvuku",
+    "timbre",
+    "hudební nástroje",
+    "strojové učení",
+    "zvuk",
+    "hudební výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají, že každý nástroj má jedinečnou barvu zvuku, a pochopí, jak se ji AI naučila napodobit z mnoha nahrávek.",
+  "materials": [
+    "Počítač s reproduktory a projektorem",
+    "Externí mikrofon (doporučeno)",
+    "Melodický a perkusivní nástroj nebo cokoli, co vydává zvuk",
+    "Prezentace"
+  ],
+  "procedure": "Aktivita 1 (5 min): společně nahrajte do Tone Transfer 15vteřinový záznam — broukání, zpěv, mluvené slovo, jednoduchou melodii (ne akordy) nebo experiment s lahvemi a lavicemi. Třída musí být potichu, okno aplikace zatím neukazujte. Klikněte na Transform.\n\nAktivita 2 (5 min): pouštějte jednotlivé proměny a žáci hádají nástroj. Podle čeho ho poznali?\n\nVýklad: aplikace se to naučila strojovým učením — analyzovala spoustu nahrávek, co je pro který nástroj typické a čím se liší. Díky tomu umí vytvářet i úplně nové nahrávky.\n\nAktivita 3 (20 min): video o aplikaci (s automatickými českými titulky), pak projděte funkce včetně Fine tuningu. Žáci tvoří vlastní nahrávky samostatně, ve skupinách nebo celá třída. Místo nahrávky ze třídy jde použít i melodii ze Song Makeru (Chrome Music Lab).\n\nReflexe: poznali byste, že nahrávku vytvořila AI? K čemu by to mohl hudebník využít? A co to znamená pro skutečné hráče?\n\nNávod k aplikaci je na straně 2 metodiky. Předpoklad: žáci znají rozdíl mezi zvukem a hlukem.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_hudebni-vychova-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_hudebni-vychova-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGJ3M5bG2I/g4q0GN-bKI3F6JykxnY6BA/view?utm_content=DAGJ3M5bG2I&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/hudebni-vychova-01-zvukove-promeny/"
+  }
+}

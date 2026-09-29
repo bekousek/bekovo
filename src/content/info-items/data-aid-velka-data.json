@@ -1,0 +1,57 @@
+{
+  "id": "data-aid-velka-data",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Velká data — co o nás prozradilo vyhledávání v pandemii",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/data-01-velka-data/",
+  "description": "Žáci v Google Trends a vizualizacích The New Normal zkoumají, jak se během covidu změnilo, co lidé hledali a nakupovali — co se stalo „novou normou“ a co se vrátilo k původnímu stavu.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "velká data",
+    "big data",
+    "Google Trends",
+    "vizualizace",
+    "graf",
+    "interpretace dat",
+    "pandemie",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, že velká data zachycují chování lidí, a umí z grafů vyčíst a interpretovat změny.",
+  "materials": [
+    "Digitální zařízení do dvojic nebo skupin",
+    "Projektor a prezentace"
+  ],
+  "procedure": "Evokace (10 min): kdy byla vyhlášena pandemie covidu? Jak se změnil život kolem vás? Co lidé víc nakupovali (online nákupy, roušky, dezinfekce, notebooky na výuku)? Lišilo se to v různých zemích?\n\nAktivita 1 — The New Normal: promítněte vizualizaci změn ve vyhledávání na Googlu před pandemií, během ní a po ní. Kategorie: New Normal (změna, která zůstala), Unusual (změna, která se vrátila), Normal (beze změny). Projděte grafy blízké žákům, třeba „masks“. Proč se zájem měnil?\n\nAktivita 2 — What are we searching for: žáci hledají vzorce lidského chování v různých regionech.\n\nAktivita 3 — Google Trends: žáci samostatně hledají a interpretují změny vyhledávání před covidem, během něj a po něm.\n\nVýklad: Google zpracuje kolem 99 000 dotazů za sekundu. Velká data ale vznikají i na sociálních sítích, při platbách a v chytrých zařízeních.\n\nReflexe: co se dá z velkých dat vyčíst? Dají se podle nich předpovídat budoucí chování? Kdo taková data má?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Data_01_velka-data_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Data_01_velka-data_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGP6ds5wPs/fgJEG0_tlc4_6ojPAObbqA/view?utm_content=DAGP6ds5wPs&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/data-01-velka-data/"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "id": "ai-aid-mv-02-mikrocileni",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Mikrocílení a darkposting — případ Cambridge Analytica",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-02-mikrocileni-darkposting/",
+  "description": "Žáci si ve dvojicích vyplní osobnostní model OCEAN (sebe i spolužáka) a pak zjistí, jak podobný kvíz posloužil ke zneužití dat 87 milionů uživatelů Facebooku a k cílené politické reklamě.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "mikrocílení",
+    "darkposting",
+    "Cambridge Analytica",
+    "OCEAN model",
+    "osobní data",
+    "politická reklama",
+    "mediální výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí, jak lze mikrocílení na sociálních sítích zneužít v propagandě a proč jsou data o chování cenná.",
+  "materials": [
+    "Pracovní list 1 (OCEAN model)",
+    "Prezentace a projektor",
+    "Dokument NYT o Cambridge Analytica a video Transparency International o darkpostingu (s titulky)"
+  ],
+  "procedure": "Evokace (10 min): kde všude vídáme reklamu? Na jakých sítích vídáš sponzorovaný obsah? Proč ti asi byl ukázán?\n\nAktivita 1 — OCEAN (15 min): ve dvojicích si žáci přečtou charakteristiky modelu Velké pětky (otevřenost, svědomitost, extraverze, přívětivost, neuroticismus). Na škále 1–10 ohodnotí sebe i spolužáka a převedou to do pětiúhelníkového diagramu. Porovnají: jak moc se liší můj pohled na sebe od toho, jak mě vidí druhý?\n\nCambridge Analytica: dokument NYT. Výzkumník Aleksandr Kogan vytvořil v roce 2014 kvíz „This Is Your Digital Life“; kdo ho vyplnil, dal přístup k datům svým i všech přátel. Z OCEAN profilů a lajků vznikly podrobné modely asi 87 milionů uživatelů, které posloužily k mikrocílení v amerických volbách 2016.\n\nDarkposting: video Transparency International — reklama, kterou vidí jen vybraná skupina, takže ji nikdo jiný nemůže zkontrolovat. (Video je staršího data; tak přesné cílení dnes Facebook nenabízí, ale data o nás sbírá dál.)\n\nReflexe: co o tobě mohou sítě zjistit z lajků? Jak se bránit? Je v pořádku, aby politici cílili reklamu takhle přesně?\n\nNavazuje lekce Vliv generativní AI na propagandu.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-02_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-02_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGIMEmBs68/flWubyFAtUwbEztyYfSVkQ/view?mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-02_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-02-mikrocileni-darkposting/"
+  }
+}

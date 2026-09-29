@@ -1,0 +1,64 @@
+{
+  "id": "ai-aid-mv-06-analyza-kampani",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Strojová analýza vizuálů politických kampaní",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-06-strojova-analyza-politickych-kampani/",
+  "description": "Žáci rozebírají předvolební vizuály — náladu, symboly, cílovou skupinu, poselství — nejdřív sami, pak je nechají analyzovat chatbotem nebo nástrojem Fact Ninja a porovnají, co stroj viděl a co přehlédl.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "politická kampaň",
+    "vizuál",
+    "analýza obrázku",
+    "chatbot",
+    "Fact Ninja",
+    "cílová skupina",
+    "mediální výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci analyzují vizuální politickou komunikaci a zhodnotí, co v ní dokáže (a nedokáže) odhalit strojová analýza.",
+  "materials": [
+    "Digitální zařízení do dvojic",
+    "Vytištěný pracovní list (otázky k analýze)",
+    "Složka s vizuály kampaní (odkaz v prezentaci)",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (5 min): vybavíte si konkrétní kampaň? Každá strana cílí na určité voliče — podle čeho je můžeme rozdělit (věk, region, vzdělání, příjem, hodnoty, víra)?\n\nAktivita 1 (10 min): skupiny analyzují vizuál z prezentace podle otázek: jakou náladu vyvolává (vážně, ironicky, provokativně)? Proč je na něm právě tento motiv? Jaké detaily si všímáte? Pro koho je určen a kdo by nesouhlasil? Co víte o zmíněných stranách? Jakou zprávu předává a jaký může mít vliv? Jak by šlo stejnou myšlenku vyjádřit jinak? Skupiny prezentují.\n\nAktivita 2 (15 min): žáci si stáhnou další vizuály a ve dvojicích je nechají analyzovat různými nástroji — Fact Ninja, ChatGPT a dalšími chatboty. Každá dvojice jeden až dva vizuály, různé nástroje, aby šlo porovnávat.\n\nPorovnání: v čem se strojová analýza shodla s vaší? Co přehlédla, co si vymyslela? Který nástroj byl nejlepší? (V době psaní metodiky to byl Fact Ninja, pak ChatGPT.)\n\nTip: s víc časem mohou žáci navrhnout vlastní vizuál kampaně třeba v Canvě i s generovanými obrázky.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-06_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-06_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGQEibSe5A/YVsllq6oc-5_Bn8aOHcvvA/view?utm_content=DAGQEibSe5A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Tisknutelný list 01",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-06_tisknutelny-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-06-strojova-analyza-politickych-kampani/"
+  }
+}

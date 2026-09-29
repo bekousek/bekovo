@@ -1,0 +1,58 @@
+{
+  "id": "ai-aid-mv-04-rozpoznavani-emoci",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Strojové rozpoznávání emocí — pozná počítač, jak se cítíš?",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-04-strojove-rozpoznavani-emoci/",
+  "description": "Žáci zkoušejí na syntetických tvářích, jak těžké je číst emoce, a pak v nástroji MorphCast sledují, jak jejich výraz vyhodnocuje AI. Hlavně ale řeší, kdy je takové rozpoznávání v pořádku a kdy už ne.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "rozpoznávání emocí",
+    "počítačové vidění",
+    "MorphCast",
+    "analýza sentimentu",
+    "etika AI",
+    "soukromí",
+    "mediální výchova",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vědí, že AI umí s určitou přesností detekovat emoce z tváře, textu nebo hlasu, a posoudí etické otázky jejího nasazení.",
+  "materials": [
+    "Počítače nebo tablety s kamerou",
+    "Prezentace",
+    "MorphCast (bit.ly/morphcast) — zdarma bez přihlášení, každých 60 s vyskočí okno s licencí, stačí F5; podle autorů data neukládá"
+  ],
+  "procedure": "Evokace (10 min): z čeho poznáš, jak se cítíš? Zavři na 5 vteřin oči a vnímej se. Jak poznáváme emoce druhých? Popiš emoce na syntetických (AI) tvářích v prezentaci. Dokážeme je číst spolehlivě? A u zvířat? A mohou to umět stroje?\n\nAktivita 1 (15 min): v MorphCastu zapněte funkci Affect. Žáci střídají výrazy tak, aby prošli celou kružnici (negativní–pozitivní, aktivní–pasivní). Jak aplikace vyhodnotila neutrální výraz? Kde se spletla? Sedí klíčová slova k emoci, kterou žák zamýšlel?\n\nDiskuse: jak přesně to fungovalo? Poznala by aplikace emoce psa? (Ne, pokud nebyla trénovaná na zvířatech.) Jak takové aplikace vznikají? (Strojové učení na obrázcích tváří označených emocemi.)\n\nEtika: kde by se rozpoznávání emocí dalo využít (výuka, reklama, pohovory, policie, auta)? Kdy je to v pořádku a kdy už zásah do soukromí? Co když se splete?\n\nRozšíření v metodice: analýza sentimentu textu.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-04_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-04_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGJJT8reYc/kqDgZ4pL-UFNKw2c0rdxUw/view?utm_content=DAGJJT8reYc&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-04-strojove-rozpoznavani-emoci/"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ai-aid-etika-02-moralni-stroj",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Morální stroj — koho má samořídicí auto zachránit?",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/etika-02-etika-v-rozhodovani-inteligentnich-systemu/",
+  "description": "Tramvajové dilema pro autonomní auta: žáci volí mezi dvěma špatnými scénáři v Morálním stroji (pro ZŠ se zvířaty místo lidí) a porovnávají, jak se morální volby liší napříč kulturami.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "tramvajové dilema",
+    "Moral Machine",
+    "samořídicí auto",
+    "etika AI",
+    "rozhodování",
+    "morální preference",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, že inteligentní systémy se rozhodují autonomně, a diskutují, jak zajistit, aby rozhodovaly v souladu s lidmi.",
+  "materials": [
+    "Zařízení s internetem",
+    "Pracovní list (verze pro ZŠ a pro SŠ)",
+    "Prezentace"
+  ],
+  "procedure": "Úvod: tramvajový problém — tramvaj jede na pět spoutaných lidí, ty stojíš u výhybky; když zatáhneš za páku, zabije jednoho. Je to správné? Stejná dilemata můžou čekat samořídicí auta.\n\nMoral Machine: MIT Media Lab od roku 2014 sbírá miliony rozhodnutí z celého světa — auto bez řidiče si musí vybrat ze dvou špatných scénářů. Výsledky (Nature 2018) ukazují rozdíly mezi kulturami: kolektivistické kultury méně upřednostňují mladé před starými, individualistické víc dbají na počet zachráněných životů.\n\nAktivita: na ZŠ použijte dětskou verzi od AI dětem (bit.ly/moralni-stroj) — 5 scénářů se zvířaty místo lidí. Na SŠ přímo moralmachine.net („Start Judging“). Žáci volí a do pracovního listu zapisují, proč.\n\nDiskuse: rozhodli jste se všichni stejně? Podle čeho? Kdo by měl o pravidlech pro auta rozhodovat — programátoři, výrobci, stát? Porovnejte výsledky ČR s jinými zeměmi (v Moral Machine: Browse → Results).\n\nKdyž zbude čas: 30 absurdních variant tramvajového problému na neal.fun/absurd-trolley-problems.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_02_etika-v-rozhodovani_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_02_etika-v-rozhodovani_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGSJxPCNYE/vjMQVLjArn2UPs0_YZkXjA/view?utm_content=DAGSJxPCNYE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list pro ZŠ",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_02_etika-v-rozhodovani_pracovni-list-ZS.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list pro SŠ",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_02_etika-v-rozhodovani_pracovni-list-SS.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/etika-02-etika-v-rozhodovani-inteligentnich-systemu/"
+  }
+}

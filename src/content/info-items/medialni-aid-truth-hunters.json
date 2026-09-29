@@ -1,0 +1,66 @@
+{
+  "id": "medialni-aid-truth-hunters",
+  "categoryId": "medialni-gramotnost",
+  "title": "Truth Hunters — questy na fiktivní sociální síti Scrollr*",
+  "url": "https://truth-hunters.cz/",
+  "description": "Soutěžní hra na fiktivní sociální síti: žáci plní questy — poznávají AI obrázky, ověřují fakta přes Wayback Machine a hledání podle obrázku, čtou metadata fotek, nahlížejí do zdrojového kódu a odhalují phishing.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min (+ 45 min navazující lekce)",
+  "keywords": [
+    "ověřování faktů",
+    "AI obsah",
+    "metadata",
+    "Wayback Machine",
+    "reverzní vyhledávání obrázků",
+    "zdrojový kód",
+    "phishing",
+    "hoax",
+    "sociální síť",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci kriticky posuzují obsah sociální sítě a vyzkoušejí si konkrétní nástroje na ověřování informací.",
+  "materials": [
+    "Zařízení s internetem pro každého žáka",
+    "Pracovní list na zápis odpovědí a bodů",
+    "Prezentace",
+    "Pro navazující lekci: účty v Tiny (učitel i žáci) s připravenými Tinyboty"
+  ],
+  "procedure": "Hra nevyžaduje žádnou přípravu ani registraci. Žáci otevřou fiktivní síť Scrollr* (truth-hunters.cz), která vypadá jako Instagram nebo TikTok. Veškerý obsah je vymyšlený pro hru; reakce a komentáře vidí jen daný žák a po obnovení stránky zmizí.\n\nKaždý příspěvek je quest: má číslo, počet bodů a pod otazníkem zadání. Žáci si sami volí, které questy řeší a v jakém pořadí; těžší = víc bodů. Odpovědi a body zapisují do pracovního listu. Kdo tápe, toho nasměrujte zpět k zadání nebo na jiný quest.\n\nCo questy prověřují: rozpoznání AI obrázku, videa nebo textu; ověřování faktů přes Google, Wayback Machine a vyhledávání podle obrázku; metadata fotografie; zdrojový kód stránky; phishingová stránka a hoax; základy digitální gramotnosti.\n\nChatboty mohou žáci použít podle svého uvážení — autoři otestovali, kde odpovídají spolehlivě a kde zavádějí.\n\nNavazující lekce: projdete jednotlivé questy a prohloubíte témata. Žáci mohou úlohy probrat s připravenými Tinyboty v aplikaci Tiny (vyžaduje registraci učitele i žáků, od 13 let).",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-07_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-07_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Plán navazující lekce",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-07_plan-navazujici-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí — navazující lekce",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-07_prezentace-navazujici-lekce.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/medialni-vychova-07-zaklady-digitalni-a-medialni-gramotnosti/"
+  }
+}

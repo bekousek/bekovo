@@ -1,0 +1,64 @@
+{
+  "id": "data-aid-cerna-skrinka",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Černá skříňka — jak vzniká model",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/fyzika-01-model-cerna-skrinka/",
+  "description": "Co je uvnitř uzavřené krabičky? Skupiny ji zkoumají magnetem, kutálející se kuličkou a drátem, kreslí hypotézu a porovnávají výsledky. Zážitek s tvorbou modelu, který je vždycky jen zjednodušením — stejně jako model strojového učení.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "model",
+    "modelování",
+    "černá skříňka",
+    "hypotéza",
+    "nepřímé pozorování",
+    "strojové učení",
+    "fyzika",
+    "mezipředmětové",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vytvoří model neznámého systému, zhodnotí jeho přesnost a chápou, že modely jsou zjednodušení a ze své podstaty nepřesné.",
+  "materials": [
+    "Černá skříňka do každé skupiny (vyrobená z běžných materiálů nebo vytištěná na 3D tiskárně — návod v metodice)",
+    "Magnet, kovová kulička, drát",
+    "Pracovní list",
+    "Prezentace"
+  ],
+  "procedure": "Inspirováno prací německého didaktika fyziky Horsta Petricha. Předpoklad: žáci už umí vysvětlit pojem strojové učení.\n\nAktivita 1 (25 min): skupiny zkoumají vnitřní strukturu uzavřené skříňky — magnetem posouvají kovovou kuličku uvnitř, poslouchají, jak kulička při pohybu zní, prostrkují drát malou dírkou. Zapisují pozorování a kreslí hypotézu, jak to uvnitř vypadá. (Každá skupina může mít všechny metody, nebo jen jednu a pak se porovnává.)\n\nPorovnání: liší se zjištění podle metody? Která byla nejpřesnější? Jak byste postup zlepšili s víc časem nebo jiným nástrojem?\n\nVýklad: strojové učení také vytváří model z dat a hledá vztahy, které nejsou přímo vidět. Stejně pracují astronomové — mlhovinu Carina nevidí přímo, ale kombinují data z různých vlnových délek (dvouminutové video).\n\nVolitelně (15 min): natrénovat model v Teachable Machine.\n\nReflexe (15 min): jsou modely vždy přesné? Proč ne? Co z toho plyne pro modely AI, podle kterých se rozhoduje?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_fyzika-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_fyzika-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGTbgRx37A/OxI1JoH3x6U9Jae1RWdXmw/view?utm_content=DAGTbgRx37A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_fyzika-01_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/fyzika-01-model-cerna-skrinka/"
+  }
+}

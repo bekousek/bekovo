@@ -1,0 +1,67 @@
+{
+  "id": "ai-aid-etika-01-eticka-matice",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Etická matice — mobily ve škole očima žáků, rodičů a učitelů",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/etika-01-etika-vyvoje-a-vyuziti-technologii/",
+  "description": "Žáci sestaví etickou matici: co mobil ve škole přináší a čeho se bojí žáci, učitelé, rodiče a vývojáři. Na mladších to jde se sladkostmi (dítě, rodič, zubař), na starších s hrami, sítěmi nebo energy drinky.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "etika technologií",
+    "etická matice",
+    "aktéři",
+    "hodnoty",
+    "zájmy",
+    "mobil ve škole",
+    "pravidla",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci pojmenují zájmy a hodnoty různých aktérů a pochopí, že technologie nejsou neutrální — každý na ně může mít jiný oprávněný pohled.",
+  "materials": [
+    "Pracovní list s etickou maticí",
+    "Lístečky (post-it)",
+    "Prezentace"
+  ],
+  "procedure": "Evokace (10 min) — lístečková metoda: každý (nebo dvojice) zapíše situaci, na kterou měli různí lidé různý názor (třeba energetické nápoje: mladí × rodiče × učitelé). Lístečky se pak shlukují podle podobnosti.\n\nEtická matice: do řádků aktéři (žáci, rodiče, učitelé, vývojáři…), do sloupců co jim technologie přináší a jaké mají obavy. Téma pro 2. stupeň: mobily ve škole (pro žáky komunikace a zábava, pro učitele narušená pozornost…).\n\nCílem není zájmy hodnotit, ale respektovat je a zahrnout do komplexnějšího uvažování.\n\nTémata podle věku: 1. stupeň — jedení sladkostí (dítě, rodič, zubař). Další: počítačové hry (žák, rodič, učitel), sociální sítě (uživatel, rodič, vývojář), energetické nápoje ve škole (žák, vedení, zdravotník, prodejce).\n\nReflexe: kde se zájmy střetávají? Dá se najít řešení, které respektuje všechny? Navázat můžete tvorbou pravidel pro danou věc ve třídě nebo škole.",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_01_etika-vyvoje-a-vyuziti-technologii_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_01_etika-vyvoje-a-vyuziti-technologii_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGU18wpc1A/qTeZQZ7TZpsWaDM-VobGBQ/view?utm_content=DAGU18wpc1A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_Etika_01_etika-vyvoje-a-vyuziti-technologii_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/etika-01-etika-vyvoje-a-vyuziti-technologii/"
+  }
+}

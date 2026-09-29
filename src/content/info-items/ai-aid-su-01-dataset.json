@@ -1,0 +1,74 @@
+{
+  "id": "ai-aid-su-01-dataset",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Strojové učení 01 — Mimozemská detektivní kancelář (dataset)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-01-dataset/",
+  "description": "Ve vesnici se objevil malý mimozemšťan. Patří k Fluffům, nebo k Earlům? Žáci třídí portréty rodin, zapisují jejich znaky do tabulky a tím vlastně vytvářejí dataset — jako lidé, kteří připravují data pro AI.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "dataset",
+    "anotace",
+    "třídy",
+    "atributy",
+    "klasifikace",
+    "mimozemšťané",
+    "unplugged",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vysvětlí pojem dataset a popíší, jak se připravuje (rozdělení do tříd, pojmenování, hledání znaků).",
+  "materials": [
+    "Kartičky s rodinami mimozemšťanů (list pro tisk kartiček)",
+    "Pracovní list a list pro tisk tabulek",
+    "Prezentace"
+  ],
+  "procedure": "První karta balíčku Strojové učení; lekce 02 a 03 pokračují stejným příběhem v Teachable Machine.\n\nEvokace (10 min): jak se orientuješ v supermarketu? Věci třídíme do kategorií podle vlastností a použití. Díky popisu je umíme třídit, filtrovat a hledat podobnosti.\n\nAktivita 1 (5 min): skupiny dostanou kartičky mimozemšťanů a rozdělí je do rodin. (Žáci je často nejdřív řadí podle věku — v pořádku, časem dojdou k rozdělení na Fluffy a Early.)\n\nAktivita 2 (7 min): do tabulky zapíší u každé rodiny aspoň tři společné znaky (uši, srst, barvy, oči…).\n\nAktivita 3: podle znaků rozhodnou, ke které rodině patří nalezenec. Žádná odpověď není špatná — nalezenec má znaky obou rodin, klidně může být potomkem obou.\n\nVysvětlení: právě jste udělali to, co lidé dělají při přípravě datasetu — data rozdělili do tříd, pojmenovali je (anotace) a hledali vzory. Model strojového učení pak podle nalezených vzorů zařazuje obrázky, které nikdy „neviděl“.\n\nReflexe: které znaky rozhodly? Byly všechny stejně důležité? Co kdyby dat bylo víc nebo míň?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_01_Dataset_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_01_Dataset_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGEcDifz1E/UflOBGo_5YRKHz6_eWnU3A/view?utm_content=DAGEcDifz1E&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_01_Dataset_pracovni-list.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "List pro tisk kartiček",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_01_Dataset_list-pro-tisk-karticek.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "List pro tisk tabulek",
+      "href": "https://kurikulum.aidetem.cz/metodiky/karty/Informatika_Karty_01_Dataset_list-pro-tisk-tabulek.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/strojove-uceni-01-dataset/"
+  }
+}

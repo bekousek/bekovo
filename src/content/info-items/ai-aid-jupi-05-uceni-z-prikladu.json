@@ -1,0 +1,62 @@
+{
+  "id": "ai-aid-jupi-05-uceni-z-prikladu",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Ju a Pí 05 — Roboti na výstavě koček (učení z příkladů)",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/05-uceni-se-z-prikladu-roboti-na-vystave-kocek/",
+  "description": "Jak poznat kočku, když je každá jiná? Děti hledají společné znaky koček, zjistí, že AI si splete čivavu s muffinem, a vyzkoušejí si, jak se stroj učí z příkladů (třeba v Quick, Draw!).",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "učení z příkladů",
+    "rozpoznávání obrázků",
+    "trénovací data",
+    "Quick, Draw!",
+    "Ju a Pí",
+    "1. stupeň",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že počítače se mohou naučit rozpoznávat věci z příkladů, které připravili lidé, a že čím rozmanitější příklady, tím lépe.",
+  "materials": [
+    "Prezentace",
+    "Případně vytištěné pracovní listy",
+    "Volitelně počítač/tablet pro Quick, Draw!"
+  ],
+  "procedure": "Příběh: Ju a Pí se ocitnou na výstavě koček — tolik plemen, barev a velikostí! Jak poznat kočku, když je každá jiná?\n\nDiskuse: jak rozpoznáváme věci my? Jak by to mohl dělat počítač? Stroj se učí z příkladů, které mu lidé ukážou — a čím víc a rozmanitějších, tím přesněji.\n\nAktivita: děti analyzují obrázky a hledají společné znaky koček. Zjistí, proč je důležitá rozmanitá trénovací sada.\n\nChyby strojů: čivava, nebo muffin s čokoládou? Kdy se počítač splete a proč?\n\nUkázky: rozpoznávání ručně psaných číslic, hra Quick, Draw! (AI hádá, co kreslíš).\n\nReflexe: kde se rozpoznávání objektů pomocí AI hodí (samořídicí auta, zdravotnictví)?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_05_Uceni-z-prikladu_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_05_Uceni-z-prikladu_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGG6fksCKY/KORm-R5rSP4VSOz1an2rTg/view?utm_content=DAGG6fksCKY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://kurikulum.aidetem.cz/metodiky/jupi/Informatika_JuPi_05_Uceni-z-prikladu_pracovni-list-01.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/05-uceni-se-z-prikladu-roboti-na-vystave-kocek/"
+  }
+}

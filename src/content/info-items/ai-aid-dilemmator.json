@@ -1,0 +1,63 @@
+{
+  "id": "ai-aid-dilemmator",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Dilemmator — anglicky o etických dilematech s chatbotem",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/anglicky-jazyk-01-digitalni-kompetence/",
+  "description": "Chatbot Dilemmator (v nástroji Mizou) vede žáky anglicky debatou o jednom ze tří dilemat: mají rodiče sledovat sítě teenagerů? Je ghosting v pořádku? A co opisování? Žáci argumentují a pak porovnávají, kam je chatbot dovedl.",
+  "type": "blok",
+  "equipment": [
+    "mobil",
+    "tablet",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "angličtina",
+    "chatbot",
+    "Mizou",
+    "etické dilema",
+    "argumentace",
+    "ghosting",
+    "monitoring",
+    "cheating",
+    "mezipředmětové",
+    "AI dětem"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci v angličtině analyzují etické dilema a argumentují — chatbot slouží jako partner do diskuse.",
+  "materials": [
+    "Mobil nebo tablet pro každého žáka",
+    "Odkaz na chatbota Dilemmator v Mizou (v metodice)",
+    "Prezentace",
+    "Úroveň angličtiny A2 a vyšší"
+  ],
+  "procedure": "Chatbot Dilemmator je nakonfigurovaný v nástroji Mizou tak, aby se držel tří dilemat a vedl žáka otázkami.\n\nÚvod: představte chatbota (návrh úvodu v angličtině je v metodice). Řekněte dopředu, kolik času na diskusi mají.\n\nDiskuse s chatbotem (25 min): žák si vybere jedno dilema.\n• Monitoring teens on social media — mají rodiče sledovat sítě dospívajících kvůli bezpečí, i za cenu soukromí?\n• Ghosting — je v pořádku náhle ukončit komunikaci bez vysvětlení?\n• Cheating — opsat a získat krátkodobý úspěch, nebo zůstat poctivý?\nDilemmator klade otázky a pomáhá rozpoznat klíčové aspekty etického rozhodování.\n\nSdílení: žáci ve dvojicích nebo celou třídou porovnají, k jakým argumentům a postojům došli.\n\nReflexe: pomohl vám chatbot vidět věc z víc stran? V čem byl lepší nebo horší než diskuse se spolužákem?",
+  "files": [
+    {
+      "label": "Plán lekce (metodika)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_anglicky-jazyk-01_plan-lekce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k promítnutí",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_anglicky-jazyk-01_prezentace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k úpravě (Canva)",
+      "href": "https://www.canva.com/design/DAGJ5XiR5bo/FASCs5CSz_sen14lz14ohA/view?utm_content=DAGJ5XiR5bo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink&mode=preview",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY-NC-SA 4.0)",
+    "url": "https://kurikulum.aidetem.cz/knowledgebase/anglicky-jazyk-01-digitalni-kompetence/"
+  }
+}
