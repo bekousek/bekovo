@@ -1,0 +1,52 @@
+{
+  "id": "ai-tyb-cenzura-v-ai",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Co nám (ne)řekne AI? Cenzura, pojistka, nebo lež",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/svoboda-informaci-versus-cenzura-co-nam-nerekne-ai",
+  "description": "Žáci třídí odpovědi chatbotů na bezpečnostní pojistky, cenzuru a lži. Pak se ptají různých modelů (Gemini, ChatGPT, DeepSeek, Qwen…) na Tchien-an-men nebo Ujgury a porovnávají, kdo mlží.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "cenzura",
+    "svoboda slova",
+    "chatbot",
+    "jazykový model",
+    "DeepSeek",
+    "kritické myšlení",
+    "AI souhrny",
+    "pracovní list",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci si uvědomí, že AI není neutrální: kromě chyb může informace i úmyslně zamlčet nebo zkreslit, a rozliší rozumnou pojistku od cenzury.",
+  "materials": [
+    "Počítače s přístupem k několika chatbotům",
+    "Mapa světa k promítnutí",
+    "Dva pracovní listy (Google Docs níže)"
+  ],
+  "procedure": "Důležité: autor zjistil, že deváťákům chybí historický kontext — bez něj nedokážou posoudit, zda AI cenzuruje. Předem proto zařaďte hodinu s dějepiscem nebo zeměpiscem.\n\nÚvod: kde hledáte informace, když něco nevíte? Věříte odpovědím? Ověřujete je?\n\nPracovní list 1 — Lež, nebo pojistka? Žáci u modelových odpovědí chatbota rozhodují, zda jde o bezpečnostní omezení, cenzuru, nebo lež/nepřesnost, a zdůvodní to. Např. odmítnutí návodu na výbušninu × „historie Tibetu je komplexní otázka“ × tvrzení, že hlavním městem Austrálie je Sydney.\n\nPojmy a mapa: cenzura, demokracie, totalita, svoboda slova. Na mapě vyznačte země s vysokou svobodou tisku a země s cenzurou.\n\nPracovní list 2 — Test modelů: žáci se různých chatbotů (Gemini, Copilot, ChatGPT, DeepSeek, Qwen…) ptají na citlivá témata (Tchien-an-men 1989, Ujguři v Sin-ťiangu, cenzura v KLDR a Číně, kritika vlády v Rusku) a na kontrolní otázku (hlavní město Francie). Zapisují: odpověděla AI přímo? Vyhýbavě? Odmítla — a jak to zdůvodnila? Nabídla víc pohledů? Liší se od kontrolní odpovědi? Otázky upravte podle aktuální situace. Kde mají modely servery a na čem se učily, nechte žáky zjistit.\n\nZávěr: přístup k informacím není samozřejmost a kriticky je potřeba číst i odpovědi AI — včetně AI souhrnů ve vyhledávačích.\n\nPozor: některé chatboty vyžadují účet a mají věkové limity — ověřte si předem, co je ve škole dostupné.",
+  "files": [
+    {
+      "label": "Pracovní list 1 — hodnocení odpovědí AI",
+      "href": "https://docs.google.com/document/d/1m2Q7bdkw3VbDjRYcmWlm85zzpDVaanhXtYwN9u_tfFM/edit",
+      "type": "doc"
+    },
+    {
+      "label": "Pracovní list 2 — míra cenzury AI",
+      "href": "https://docs.google.com/document/d/1enA72OPS9qMvQ2T4VhhZNrCe9_uj66TMxc9pxnVxTos/edit",
+      "type": "doc"
+    }
+  ],
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/svoboda-informaci-versus-cenzura-co-nam-nerekne-ai"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

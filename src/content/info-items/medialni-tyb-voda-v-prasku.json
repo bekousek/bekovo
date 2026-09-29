@@ -1,0 +1,41 @@
+{
+  "id": "medialni-tyb-voda-v-prasku",
+  "categoryId": "medialni-gramotnost",
+  "title": "Pozor na vodu v prášku — hoaxy a ověřování",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce-clil/pozor-na-vodu-v-prasku-aneb-overujeme-informace-lekce-medialni-vychovy-s",
+  "description": "Sušená voda v e-shopu, „jed“ dihydrogen monoxid, had, který spolkl opilce, a muž vysoký 251 cm — co je hoax a co pravda? Lekce s česko-anglickou slovní zásobou (CLIL).",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "hoax",
+    "řetězový dopis",
+    "dihydrogen monoxid",
+    "ověřování",
+    "CLIL",
+    "angličtina",
+    "mediální výchova",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci rozpoznají hoax a řetězovou zprávu a vyzkoušejí si jednoduché ověření informace vyhledávačem.",
+  "materials": [
+    "Počítače s internetem",
+    "Weby buydehydratedwater.com a dhmo.org",
+    "hoax.cz"
+  ],
+  "procedure": "Slovníček (CLIL): hoax — poplašná zpráva, misleading message — klamavá zpráva, chain letter — řetězový dopis, authentic, true/false, spam, spread — šířit.\n\nÚvod: co je hoax — poplašná, nebezpečná a zbytečná řetězová zpráva. Projděte příklady na hoax.cz.\n\nActivity 1: je obrázek autentický? Zdůvodni.\n\nActivity 2: sušená voda „konečně v prodeji“ (buydehydratedwater.com). Působí web profesionálně? Jsou informace prezentované jako důvěryhodné? Existuje sušená voda?\n\nActivity 3: varování před „jedem“ dihydrogen monoxid, které máš sdílet dál. Je pravdivé? Splňuje kritéria hoaxu? Sdílel(a) bys ho? (Nápověda: co je dihydrogen monoxid? H₂O.)\n\nActivity 4: zpráva o hadovi, který v Indii spolkl spícího opilce, má video se 7 miliony zhlédnutí. Dokaž, že je to hoax, a sepiš, jak jsi postupoval(a).\n\nActivity 5: muž z Turecka měří 251 cm — pravda, nebo lež? (Pravda, Guinnessova kniha rekordů.)\n\nZávěr: než něco přepošleš, zadej do vyhledávače „hoax + část textu“. Nepřeposílej řetězové dopisy. Ověřuj z aspoň jednoho dalšího zdroje.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce-clil/pozor-na-vodu-v-prasku-aneb-overujeme-informace-lekce-medialni-vychovy-s"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "robotika-tyb-ozobot-kvetenstvi",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Ozobot kreslí květenství — cyklus v cyklu",
+  "url": "https://games.ozoblockly.com/shapetracer-freeform",
+  "description": "Okolík je pravidelný — květy vyrůstají paprskovitě z jednoho bodu, tedy cyklus. Složený okolík je cyklus v cyklu. Žáci ho naprogramují v online simulátoru a pak nechají Ozobota projet trasu na lavici.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "robot"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Ozobot",
+    "OzoBlockly",
+    "cyklus",
+    "vnořený cyklus",
+    "opakování",
+    "přírodopis",
+    "květenství",
+    "mezipředmětové",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci poznají v přírodním tvaru pravidelnost a zapíší ji pomocí opakování a vnořeného opakování.",
+  "materials": [
+    "Počítače s online simulátorem OzoBlockly Shape Tracer (funguje i bez robota)",
+    "Ozoboti na nahrání programu (volitelně)",
+    "Obrázky květenství: okolík (prvosenka), složený okolík (bršlice kozí noha)"
+  ],
+  "procedure": "Připomeňte květenství: okolík = květy s dlouhými stopkami vyrůstají paprskovitě z jednoho bodu. Vidíte pravidelnost? To je cyklus.\n\nSložený okolík: stopky okolíku končí dalšími okolíčky. Vidíte cyklus uvnitř cyklu?\n\nŽáci v simulátoru Shape Tracer naprogramují virtuálního Ozobota tak, aby nakreslil okolík a pak složený okolík. Opakovaně ladí, dokud tvar nesedí. Nakonec program nahrají do skutečného Ozobota a nechají ho projet tvar na lavici.\n\nTěžší výzva: jiná květenství, třeba černý bez.\n\nZ autorovy zkušenosti: botaniku si deváťáci moc nepamatovali a na složitější květenství jedna hodina nestačila — počítejte s víc časem nebo s připomenutím z přírodopisu.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/vykvetli-nam-ozoboti"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

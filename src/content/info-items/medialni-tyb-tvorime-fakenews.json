@@ -1,0 +1,40 @@
+{
+  "id": "medialni-tyb-tvorime-fakenews",
+  "categoryId": "medialni-gramotnost",
+  "title": "Tvoříme fake news — a pak dokážeme, že jsou falešné",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/udalosti-co-se-nestaly-lide-kteri-neexistuji-tvorili-jsme-fakenews",
+  "description": "Žáci v generátorech vyrobí falešnou „breaking news“, facebookový profil nebo SMS konverzaci. Důležitější je druhá půlka: vysvětlit, jak podvrh vznikl a podle čeho se pozná.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "fake news",
+    "podvrh",
+    "falešný screenshot",
+    "generátor",
+    "falešné obličeje",
+    "ověřování",
+    "mediální výchova",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci zjistí, jak snadné je zfalšovat zprávu, profil nebo konverzaci, a naučí se popsat znaky, podle kterých se podvrh pozná.",
+  "materials": [
+    "Počítače s internetem",
+    "Generátory: breakyourownnews.com (falešné zpravodajství), classtools.net/FB (falešný Facebook profil), classtools.net/SMS (falešná SMS konverzace)",
+    "Falešné obličeje: thispersondoesnotexist.com a test whichfaceisreal.com"
+  ],
+  "procedure": "1. část — tvorba: žáci vytvoří podvrh podle vlastního výběru: „breaking news“ jako z televize, celý falešný facebookový profil s příspěvky a přáteli, falešnou SMS konverzaci. K profilu se hodí obličej člověka, který neexistuje. Zkuste si test, kolik vygenerovaných obličejů poznáte.\n\n2. část — zdůvodnění (podle autora mnohem důležitější): každý připraví nevyvratitelné důkazy, že si vymýšlel. Jaké nástroje použil? Jak dlouho mu to trvalo? Podle čeho se podvrh pozná (vodoznak, detaily rozhraní, nesmysly v textu)? Jak nenaletět?\n\nPokračování: práce předložte mladším žákům. Ti hlasují, čemu věří, a hledají důkazy. Teprve pak jim ukažte, jak podvrhy vznikly.\n\nPozor: některé generátory z původního článku (2019) už neexistují — před hodinou si nástroje vyzkoušejte. Hlídejte, aby podvrhy necílily na skutečné spolužáky.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/udalosti-co-se-nestaly-lide-kteri-neexistuji-tvorili-jsme-fakenews"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

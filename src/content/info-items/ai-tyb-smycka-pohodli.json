@@ -1,0 +1,46 @@
+{
+  "id": "ai-tyb-smycka-pohodli",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Smyčka pohodlí — vězňovo dilema a moje červená linie",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/ai-jako-pohodlna-past-vyzkousejte-s-zaky-veznovo-dilema",
+  "description": "Učitel zadá esej, AI ji napíše, jiná AI ji opraví — všichni mají hotovo a nikdo se nic nenaučil. Pracovní list vede žáky přes vězňovo dilema k jejich „červené linii“: co bych na AI nikdy nedelegoval(a)?",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "etika AI",
+    "vězňovo dilema",
+    "teorie her",
+    "delegování",
+    "hodnoty",
+    "pracovní list",
+    "reflexe",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci pojmenují, co získáváme a co ztrácíme, když práci přenecháme AI, a každý si stanoví vlastní hranici, za kterou AI nepustí.",
+  "materials": [
+    "Pracovní list „Smyčka pohodlí“ (PDF níže)"
+  ],
+  "procedure": "Aktivita není o promptech, ale o hodnotách. Autor ji učil v tandemu se školní psycholožkou — doporučuje to.\n\nÚkol 1 — Pohodlná past: scénář „Učitel zadá esej, AI ji napíše za 10 sekund, učitel ji nechá opravit jinou AI. Oba jsou spokojení.“ Žáci do tabulky doplní, co jsme získali a co ztratili (žáci sami jmenují pracovitost, šanci naučit se něco nového, umět myslet, dovednost psát…).\n\nÚkol 2 — Vězňovo dilema (skupiny): vlastníš herní studio. Cesta člověka = drazí grafici a scénáristé, 2 roky, hra s „duší“. Cesta AI = měsíc, levně, vypadá skvěle. Co se stane s tvou firmou, když konkurence zvolí AI a ty ne? A jak budou vypadat hry za 10 let, když AI zvolí všichni? Vysvětli princip vězňova dilematu: pro jednotlivce se podraz vyplatí, když to udělají všichni, prohrají všichni.\n\nÚkol 3 — Digitální terapeut: žáci hodnotí situace, kdy AI zastupuje blízkého člověka, na škále 1 (v pohodě) až 5 (děsivé).\n\nÚkol 4 — Moje červená linie: co je ta jedna věc, kterou nikdy nesvěřím AI, i kdyby to bylo pomalejší a těžší? A proč? (Žáci psali třeba: své pocity, výběr dárku, výběr školy, přání mámě.)\n\nZávěr: AI ve škole nemá smysl odmítat ani bezhlavě oslavovat — jde o to umět ji používat a přitom pochybovat, přemýšlet a ověřovat.",
+  "files": [
+    {
+      "label": "Pracovní list „Smyčka pohodlí“",
+      "href": "https://www.tybrdo.cz/sites/default/files/foto/2026/02/pracovni-list-smycka-pohodli.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/ai-jako-pohodlna-past-vyzkousejte-s-zaky-veznovo-dilema"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

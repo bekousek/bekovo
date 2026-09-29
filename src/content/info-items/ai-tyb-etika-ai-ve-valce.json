@@ -1,0 +1,39 @@
+{
+  "id": "ai-tyb-etika-ai-ve-valce",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Autonomní drony — etika AI (nejen) ve válce",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/etika-vyuziti-umele-inteligence-nejen-ve-valce",
+  "description": "Od Skynetu v Terminátorovi k reálným AI dronům na Ukrajině: žáci řeší, jestli smí o útoku rozhodnout stroj. Skupinová diskuse, SWOT analýza a návrh pravidel pro regulaci.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "etika AI",
+    "autonomní AI",
+    "drony",
+    "válka",
+    "SWOT analýza",
+    "regulace",
+    "debata",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci vysvětlí, co je autonomní AI, zváží výhody a rizika jejího nasazení a zformulují, kde by podle nich měla vést hranice.",
+  "materials": [
+    "Projektor a ukázky z filmů (Terminátor 2 — vznik Skynetu, Matrix, Avengers: Age of Ultron; odkazy v článku)",
+    "Krátký článek nebo video o AI dronech na Ukrajině (odkazy v článku)",
+    "Papíry na SWOT"
+  ],
+  "procedure": "Úvod: autonomní drony nejsou sci-fi — už dnes samy navigují a vyhýbají se překážkám (Skydio, Shield AI, dron ČVUT, který „loví“ jiné drony). Co když k takovému dronu připevníme výbušninu a spoušť svěříme AI? Co je autonomní AI?\n\nPopkultura jako můstek: ukázka vzniku Skynetu z Terminátora 2, případně Matrix nebo Ultron. Pro dnešní patnáctileté jsou bližší hry (Call of Duty, Horizon Zero Dawn). Pozor, některé ukázky obsahují boj — pro mladší nevhodné.\n\nRealita: přečtěte citaci ukrajinského důstojníka („za půl roku piloti nebudou potřeba“) nebo pusťte krátké video. Proberte hlavní argumenty pro (přesnost, odolnost vůči rušení, rychlost, žádný stres) i proti (chybná identifikace cílů, rozhodování o životě bez člověka, zneužití teroristy).\n\nSkupinová diskuse nad tvrzeními: „Drony s AI by měly být vždy řízeny člověkem.“ × „Bezpilotní technika je budoucnost války a zachrání mnoho životů.“\n\nSWOT (10–15 min): čtyři skupiny, každá jedno písmeno — silné stránky, slabé stránky, příležitosti (využití v civilu), hrozby. Prezentace a diskuse.\n\nRegulace: má existovat mezinárodní zákaz zbraní plně ovládaných AI? Co by taková dohoda měla obsahovat?\n\nReflexe (vyberte podle věku): změnil se tvůj postoj k AI? Kde bys stanovil(a) hranici mezi technologií, která pomáhá, a tou, která je nebezpečná?",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/etika-vyuziti-umele-inteligence-nejen-ve-valce"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

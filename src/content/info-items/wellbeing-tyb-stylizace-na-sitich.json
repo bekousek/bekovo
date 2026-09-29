@@ -1,0 +1,43 @@
+{
+  "id": "wellbeing-tyb-stylizace-na-sitich",
+  "categoryId": "digitalni-wellbeing",
+  "subcategoryId": "socialni-site",
+  "title": "Jeden člověk, čtyři sítě — stylizace na sociálních sítích",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/je-nas-obraz-v-socialnich-sitich-pravdivy-a-co-na-zaci",
+  "description": "Podle trendu #dollypartonchallenge žáci vytvoří koláž „jak vypadám na LinkedInu, Facebooku, Instagramu a TikToku“, fotí přes papírový rámeček Instagramu a dělají anketu: nakolik sítě odrážejí realitu?",
+  "type": "projekt",
+  "equipment": [
+    "mobil",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "sociální sítě",
+    "sebeprezentace",
+    "stylizace",
+    "meme",
+    "IRL",
+    "anketa",
+    "Google Formuláře",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci si uvědomí, že obraz lidí na sítích neodpovídá realitě, a diskutují o vlastní sebeprezentaci.",
+  "materials": [
+    "Mobily nebo tablety na focení",
+    "Papírová šablona instagramového příspěvku (paperzip.co.uk/instagram-template, tisk na A3)",
+    "Aplikace na koláže (PicCollage) nebo generátor memů (imgflip.com)",
+    "Google Formuláře pro anketu"
+  ],
+  "procedure": "Úvodní otázky: napadlo vás, že lidé nejsou takoví, jak se prezentují na sítích? Stylizujete se vy sami? Víte, co znamená IRL? (In Real Life.)\n\nProjekt s rozdělenými rolemi — každý má svou část:\n\nČtyři sítě, čtyři styly: podle trendu #dollypartonchallenge vytvořte koláž čtyř fotek téhož člověka — LinkedIn (seriózní), Facebook (uvolněný), Instagram (filtry), TikTok. Klidně jako vtip se sebou samým (autor použil sebe, žákovské práce nezveřejňoval). Který obraz je pravý?\n\nInstagram v reálu: vystřihněte a vybarvěte papírový rámeček příspěvku a foťte přes něj stylizované záběry. Dvakrát tutéž scénu s jiným vyzněním: vážně × vesele, alarmující × klidně.\n\nMeme: na imgflip.com doplňte text do šablony (např. žena křičící na kočku). Vymyslet opravdu vtipný text je těžší, než to vypadá.\n\nPrůzkum: část žáků připraví ve Formulářích anketu „Nakolik sítě odrážejí realitu“, rozešle ji třídě a výsledky zpracuje do grafů.\n\nZávěr (nutný): co jsme vytvořili, proč a co jsme si uvědomili o své póze na sítích. „Naše sítě jsou přesně takové, jaké si je uděláme.“\n\nKonkrétní trend (článek je z roku 2020) nahraďte tím, co zrovna letí.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/je-nas-obraz-v-socialnich-sitich-pravdivy-a-co-na-zaci"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

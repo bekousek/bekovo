@@ -1,0 +1,43 @@
+{
+  "id": "data-tyb-informacni-system-hvezdicky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Informační systém z hvězdiček (PlantUML)",
+  "url": "https://www.planttext.com",
+  "description": "Žáci navrhnou informační systém ZOO, knihovny nebo autoservisu: sepíšou pojmy, uspořádají je do kategorií a podkategorií pomocí hvězdiček (* Zvířata, ** Savci, *** Psi) a PlantUML z toho nakreslí myšlenkovou mapu.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "informační systém",
+    "struktura",
+    "kategorie",
+    "nadřazený",
+    "podřazený",
+    "hierarchie",
+    "PlantUML",
+    "myšlenková mapa",
+    "diagram",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci identifikují prvky informačního systému a vztahy mezi nimi a zapíšou jeho hierarchii jednoduchým textovým kódem, ze kterého vznikne diagram.",
+  "materials": [
+    "Počítač s internetem (planttext.com funguje bez registrace)",
+    "Volitelně Mentimeter nebo Slido pro slovní mrak"
+  ],
+  "procedure": "Úvod: knihovna eviduje čtenáře, knihy a výpůjčky — žádná organizace nefunguje bez systému.\n\n1. Vyber si organizaci (ZOO, autoservis, knihovna, školní jídelna, prodejna aut, půjčovna her, zverimex…) a napiš vše, co tvoří a řeší. Hodí se společný slovní mrak.\n\n2. Návrh: role uživatelů, funkce systému, činnosti a položky. Uspořádej pojmy na nadřazené a podřazené a jdi do hloubky, ne jen dvě úrovně. Náčrt nakresli předem — někteří žáci s nadřazeností bojují („domácí mazlíček je nadřazený kočce“).\n\n3. Hvězdičky: čím méně hvězdiček, tím vyšší kategorie.\n* Zvířata\n** Savci\n*** Psi\n**** Kokršpaněl\n*** Kočky\n** Plazi\n\n4. Vizualizace: kód obal řádky @startmindmap a @endmindmap, vlož ho na planttext.com, stiskni Refresh (Alt+Enter) a ulož obrázek myšlenkové mapy.\n\nZávěr: dokážete z diagramu jiné skupiny vyčíst strukturu jejího systému? Naplňuje očekávaný výstup RVP I-9-3-01 (účel informačních systémů, jejich prvky a vztahy).",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/jak-ucit-tema-informacni-systemy-v-nove-informatice-treba-pomoci-hvezdicek"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

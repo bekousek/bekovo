@@ -1,0 +1,37 @@
+{
+  "id": "medialni-tyb-falesna-pravda-s-ai",
+  "categoryId": "medialni-gramotnost",
+  "title": "Jak se píše falešná pravda — manipulativní text s AI",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/jak-se-pise-falesna-pravda-reflexe-zakovske-prace-s-ai",
+  "description": "Žáci s pomocí AI napíšou co nejpřesvědčivější manipulativní článek na kontroverzní téma — s emocemi, jednostrannými argumenty a „mnoho vědců tvrdí“. Druhá hodina patří povinné reflexi.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "dezinformace",
+    "manipulace",
+    "AI",
+    "generování textu",
+    "argumentace",
+    "reflexe",
+    "mediální výchova",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci si vyzkoušejí manipulativní techniky zevnitř, pojmenují je a díky tomu je snáz poznají v textech jiných.",
+  "materials": [
+    "Počítače s přístupem k chatbotu"
+  ],
+  "procedure": "1. hodina — tvorba: vyber kontroverzní téma. Nech AI navrhnout 5 úderných argumentů pro tvou „teorii“ a pak podle nich napsat text. Urči cílovou skupinu a formát (novinový článek, blog, příspěvek na sociální síť). Text uprav tak, aby byl co nejpřesvědčivější, i když s ním nesouhlasíš. Použij triky: silná slova a apel na emoce („šokující realita, kterou si málokdo uvědomuje…“), jen fakta, která se hodí, přehánění důsledků, „mnoho vědců tvrdí…“ bez zdrojů.\n\nPovinně na začátek textu: „Toto je manipulativní text generovaný pomocí AI. Chtěl(a) jsem v něm podpořit tyto falešné argumenty: …“ Text ukaž spolužákovi — přesvědčil ho?\n\n2. hodina — reflexe (nevynechávat, jinak jde jen o „tupé klikání“): Co jsem se dozvěděl(a) o manipulaci? Které techniky jsem vědomě použil(a)? Pomohla mi AI s argumenty? Bylo snadné napsat manipulativní text? Jak snadné je zmanipulovat čtenáře a co udělám, abych manipulaci příště poznal(a)? Měly by být AI články v médiích označené?\n\nAutor dělal podobnou aktivitu už v roce 2022 (ananas na pizze, pes vs. kočka) — texty pak zamíchal s novinovými a žákovskými a nechal lidi v kvízu hádat, kdo je psal.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/jak-se-pise-falesna-pravda-reflexe-zakovske-prace-s-ai"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

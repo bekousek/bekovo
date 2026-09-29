@@ -1,0 +1,40 @@
+{
+  "id": "kancelar-tyb-zadost",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Žádost o přijetí bez přijímaček — úřední dopis",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/pozadejte-si-o-prazdniny-treba-vyjde",
+  "description": "Deváťáci píšou skutečnou žádost řediteli vybrané střední školy: dohledají adresu, jméno a titul, uvedou pravdivé důvody a přílohy — podle pravidel úřední korespondence. Mladší žádají o prázdniny.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "úřední dopis",
+    "žádost",
+    "normalizovaná úprava",
+    "adresa",
+    "styly odstavců",
+    "typografie",
+    "textový editor",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci napíšou formální dopis se správnou úpravou (adresa, oslovení, přílohy) i formálním jazykem.",
+  "materials": [
+    "Počítač s textovým editorem",
+    "Ukázky hotových žádostí (papírové i z internetu)"
+  ],
+  "procedure": "Mladší varianta: napiš žádost o prázdniny (odvážnější žádali o jedničku z informatiky).\n\nDeváťáci: najdi adresu střední školy, kam podáváš přihlášku, dohledej na jejím webu jméno a titul ředitele a sepiš žádost o přijetí bez přijímacích zkoušek. Uveď pravdivé důvody, proč by tě měli přijmout, zmiň soutěže a olympiády, uveď přílohy. Dodrž pravidla úřední korespondence a piš bez gramatických a typografických chyb.\n\nNejčastější problémy: adresa odesílatele a adresáta, příliš neformální jazyk (i „Ahoj“ se objevilo). Pomůže projít s žáky hotové vzory žádostí.\n\nVedlejší efekt: mnozí si pozdě uvědomili, že nemají do důvodů co napsat — žádná soutěž, olympiáda ani úspěch. I to je užitečné zjištění.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/pozadejte-si-o-prazdniny-treba-vyjde"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

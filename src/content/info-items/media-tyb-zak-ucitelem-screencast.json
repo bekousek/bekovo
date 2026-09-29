@@ -1,0 +1,42 @@
+{
+  "id": "media-tyb-zak-ucitelem-screencast",
+  "categoryId": "media",
+  "subcategoryId": "video",
+  "title": "Žák učitelem — scénář a výukový screencast",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/tvorime-scenare-k-vyukovym-screencastum",
+  "description": "Žáci si vyberou hru, web nebo program a připraví pro spolužáky pětiminutový návod: nejdřív scénář se styly nadpisů a screenshoty, pak nahrávku obrazovky s komentářem.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min scénář + nahrávání",
+  "keywords": [
+    "screencast",
+    "záznam obrazovky",
+    "návod",
+    "scénář",
+    "styly nadpisů",
+    "screenshot",
+    "video",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci zjistí, že vysvětlit něco druhému tak, aby to pochopil, není snadné, a naučí se strukturovat návod a pracovat se screenshoty.",
+  "materials": [
+    "Počítač s textovým editorem",
+    "Nástroj na záznam obrazovky se zvukem (např. zabudovaný ve Windows nebo ChromeOS)",
+    "Mikrofon nebo sluchátka s mikrofonem"
+  ],
+  "procedure": "Heslo projektu: nejlépe se naučíš, když to sám učíš.\n\n1. Scénář (asi 2 hodiny): vytvoř dokument se scénářem, ve kterém spolužákům představíš zajímavou hru, službu, program nebo web. Počítej s limitem 5 minut. Osnovu udělej pomocí stylů nadpisů (Nadpis 1, Nadpis 2…), doplň krátké odstavce, co budeš říkat, a screenshoty (pořídit, upravit, vložit). Dodrž jednotnou úpravu a typografii. Rozsah asi 2 strany A4 včetně obrázků.\n\n2. Nahrávání: podle scénáře nahraj záznam obrazovky s komentářem. Předem otestuj mikrofon a vysvětli rozdíl mezi záznamem celé obrazovky a výřezu.\n\n3. Promítání ve třídě: žáci u autora nechtěli videa zveřejňovat na YouTube a sociálních sítích — stačí prezentace v učebně.\n\nTémata od žáků: založení e-mailu, zabezpečení Facebooku, návody ke hrám, animace, Writer, PowerPoint.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/tvorime-scenare-k-vyukovym-screencastum"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
