@@ -1,0 +1,42 @@
+{
+  "id": "kancelar-ar-vypis-sifru",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Vypiš šifru do mřížky — neproporcionální písmo",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu#h.n7uv2ntffbgl",
+  "description": "Zprávu bez mezer a diakritiky je potřeba vepsat přesně do předtištěných políček. Který font to umí a jak se taková skupina písem jmenuje?",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "20–60 min",
+  "keywords": [
+    "neproporcionální písmo",
+    "monospace",
+    "font",
+    "velikost písma",
+    "šifra",
+    "formulář",
+    "typografie",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci samostatně objeví neproporcionální (monospace) písmo a nastaví velikost tak, aby se text trefil do mřížky.",
+  "materials": [
+    "Soubor s mřížkou vloženou jako pozadí (klidně po pěti znacích)",
+    "Text zprávy promítnutý na tabuli",
+    "Textový editor, který předem vyzkoušíš"
+  ],
+  "procedure": "Zadání: potřebuješ napsat šifrovaný text, ale nechceš, aby ho příjemce dlouho luštil. Zpráva bude bez diakritiky, bez mezer a vepsaná do předem daných políček. Musíš zvolit vhodný font — zjisti, jak na to. Jak se taková skupina fontů jmenuje?\n\nŘešení: neproporcionální písmo (v Google Docs se dá přímo vybrat), pak už jen trefit velikost.\n\nPředem si ověř, jaký editor použiješ a jaké písmo se do mřížky vejde. Pokud by bylo potřeba prostrkání, nech žáky najít jen název skupiny písem a zbytek ukaž na tabuli.\n\nPochval ty, kdo na to přijdou. Jako pokračování se hodí hry o šifrách z Khanovy akademie.\n\nOtázka za zlatého bludišťáka: kdy se v životě potřebuješ trefit do předtisku formuláře? (Stačí najít pár formulářů nebo starou složenku.)",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/p%C3%ADsmo-bez-wordu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

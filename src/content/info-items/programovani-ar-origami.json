@@ -1,0 +1,40 @@
+{
+  "id": "programovani-ar-origami",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Origami podle vlastního postupu",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami#h.egeys7xiqf05",
+  "description": "Dvoukolová hra: skupina najde postup tradiční skládačky, přepíše ho a složí podle sebe. Za týden dostane cizí postup a cizí hotový výrobek a musí složit obojí.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 20 min (ve dvou hodinách)",
+  "keywords": [
+    "origami",
+    "návod",
+    "postup",
+    "reverzní inženýrství",
+    "jemná motorika",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci zapíší postup skládání vlastními slovy, podle cizího postupu ho zopakují a z hotového výrobku se pokusí odvodit postup.",
+  "materials": [
+    "Název skládačky pro každou skupinu",
+    "Papír a tužka, papír na skládání (předem upravený do výchozího tvaru)",
+    "Počítač s internetem",
+    "Ve druhé hodině dva listy papíru na skupinu"
+  ],
+  "procedure": "1. kolo: skupina má zadanou tradiční skládačku. Najde postup, napíše ho vlastními slovy a teprve s hotovým popisem si přijde pro papír. Skládá podle svého postupu, bez počítače. Vyhrává skupina, která má skládačku před sebou. Pak všechny postupy i výrobky vyber a odnes.\n\n2. kolo (za týden): skupina dostane postup a hotový výrobek — ale od jiné skládačky. Úkol: složit dvě skládačky, jednu stejnou jako hotový výrobek, druhou podle návodu. Přimíchej materiál z jiných tříd, ať žáci neopisují.\n\nPoužívej klasické skládačky bez nůžek a lepidla — prostřihávané a lepené figurky se nedají rozložit a špatně se popisují. Papír vyzkoušej těsně před hodinou (vysušený od topení se může trhat).\n\nSložit origami jen z hotové ukázky je vysoká laťka. Když se to do deseti minut nikomu nedaří, povol počítače a Google.\n\nVyhodnocení: co bylo nejtěžší? Kde jste nevěděli, jak dál? Co byste příště udělali jinak?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

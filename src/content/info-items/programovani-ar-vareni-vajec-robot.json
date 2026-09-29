@@ -1,0 +1,40 @@
+{
+  "id": "programovani-ar-vareni-vajec-robot",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Robot vaří vajíčka natvrdo",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu#h.z58p48sipu7a",
+  "description": "Žáci napíšou robotovi příkazy, aby uvařil tři vajíčka natvrdo a nechal kuchyni uklizenou. Robot drží jen dvě věci a dělá jednu činnost — a kuchyň se dá zničit milionem způsobů.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10–15 min",
+  "keywords": [
+    "algoritmus",
+    "postup",
+    "příkazy",
+    "podmínka",
+    "ladění",
+    "robot",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci zapíší složitější postup jako posloupnost jednoduchých příkazů a hledají v postupech chyby.",
+  "materials": [
+    "Papír a tužka pro každého"
+  ],
+  "procedure": "Zadání: vlastníš robota. Může držet nejvýš dvě věci a dělat jen jednu činnost naráz. Je v uklizené kuchyni s ledničkou, dřezem a plynovým sporákem. Chceš tři vajíčka natvrdo na talířku na stole. Každý příkaz smí mít jedno sloveso, jedno podstatné jméno a jednu číslovku (předložky se nepočítají); výjimkou jsou podmínky typu „když je hrnec plný…“. Konec je, když jsou vajíčka na talířku a kuchyň uklizená; nádobí mýt nemusí. (Připomeň, že se vaří asi 10 minut od chvíle, kdy voda znovu začne vřít — dnes to všichni nevědí.)\n\nKaždý píše sám 10 minut. Pak se čte nahlas a třída s učitelem hledá chyby: „Pustil jsi vodu do hrnce a jdeš ke sporáku — voda pořád teče, vyplavil jsi kuchyni.“\n\nHlídej, co robot dělá s věcmi v rukou: často odloží vajíčka na kredenc a už je nezvedne — a někteří je dokonce oloupou a osolí, aniž by je uvařili. Aby žáci nedomýšleli, co na papíře není, papíry vyber a čti je náhodně.\n\nUdržuj spád a dělej z toho show, ale nikoho nezesměšňuj. Obvykle se opravdu nasnídá jen málokdo.\n\nNavazuje: Návod na kresbu, Hádání vlastností, Uvaž uzel.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-celou-skupinu"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

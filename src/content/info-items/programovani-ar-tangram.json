@@ -1,0 +1,42 @@
+{
+  "id": "programovani-ar-tangram",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Tangram podle návodu",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami#h.sj5bxocw9p7n",
+  "description": "Skupina si vybere tangramovou figuru a napíše postup skládání. Jiná skupina podle něj skládá, aniž by věděla, co má vzniknout. Kdo složí první?",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "tangram",
+    "návod",
+    "postup",
+    "prostorová orientace",
+    "geometrie",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci popíší prostorové skládání slovy a na cizím návodu zjišťují, kde postup selhává.",
+  "materials": [
+    "Tangram do každé skupiny (stačí z papíru)",
+    "List se 3–4 figurami a jejich postupem skládání, pro každou skupinu jiný",
+    "Pro učitele stránka se všemi figurami — siluety i postupy",
+    "Papír a tužka"
+  ],
+  "procedure": "Úvod: co je tangram a odkud pochází. Tangram si každá skupina vyrobí z papíru (hotové stojí kolem 40 Kč).\n\nKaždá skupina dostane list se čtyřmi figurami i s postupem skládání, jednu si vybere a napíše k ní vlastní postup. Pak si skupiny postupy vymění a skládají podle cizího návodu, aniž by věděly, jaká figura to má být. Kdo složí první, vyhrál.\n\nObměny: promítni siluety všech zadaných figur — skládání se tím zrychlí. Nebo dej skupinám zpočátku jen siluety — než napíšou návod, musí figuru samy složit. Když dlouho nikdo není hotový, promítni originální postupy a ať skupiny na návodu vyznačí, kde se zasekly.\n\nVyhodnocení: kde se kdo zasekl — byla chyba v postupu, nebo ve výkladu? Úlohy jsou zhruba rovnocenné, takže se dá hrát i na čas. Tangram dávej až pokročilým skupinám.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

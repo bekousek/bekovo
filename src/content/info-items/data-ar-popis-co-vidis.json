@@ -1,0 +1,41 @@
+{
+  "id": "data-ar-popis-co-vidis",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Popiš, co vidíš — čtyřmi slovy",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka#h.8whfljnlmrpq",
+  "description": "Unesli tě a máš telefon s policistou, ale únosci poslouchají. Máš čtyři slova, abys popsal(a) místnost, aniž bys řekl(a), že je to třída. Která vybereš?",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "od 3 min",
+  "keywords": [
+    "popis",
+    "klíčová slova",
+    "podstatné rysy",
+    "abstrakce",
+    "komprese informace",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci vybírají z mnoha vlastností ty nejpodstatnější a oddělují osobní dojem od analytického popisu.",
+  "materials": [
+    "Obrázky místností, skupin osob, skupin věcí"
+  ],
+  "procedure": "Zadání: unesli tě zločinci a dostal(a) ses k telefonu. Na druhé straně je policista, ale odposlouchávají tě. Máš čtyři slova (pak tři, pak dvě), abys charakterizoval(a) místnost nebo okolí budovy — aniž bys přímo řekl(a), že jde o třídu.\n\nObměny: popiš určitým počtem slov skupinu věcí na obrázku. Nebo dostaneš výčet slov k obrázku — která jsou nejdůležitější a která do výčtu nepatří? Místnosti na obrázcích popiš jediným slovem — jakým a proč? Nebo si v duchu vyber spolužáka a popiš ho deseti slovy; ostatní hádají. Popisuje se vzhled, ne chování!\n\nŽáci mohou uvažovat jinak než ty a najít jiný společný rys — každou volbu proto rozeber objektivně. Vyhodnocení je individuální: co se povedlo a co ne.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

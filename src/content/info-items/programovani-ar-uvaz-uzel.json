@@ -1,0 +1,43 @@
+{
+  "id": "programovani-ar-uvaz-uzel",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Uvaž uzel podle cizího návodu",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami#h.8q61nwtwtamq",
+  "description": "Skupina najde na internetu, jak se váže vylosovaný uzel, a přepíše postup vlastními slovy. Pak podle jejich kartičky váže „vazač“ jiné skupiny — bez toho, aby věděl, o jaký uzel jde.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "návod",
+    "postup",
+    "uzly",
+    "jemná motorika",
+    "hledání informací",
+    "video",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci vyberou vhodnou předlohu, vytáhnou z ní podstatné kroky a zapíší je tak, aby podle nich někdo jiný dokázal věc zopakovat.",
+  "materials": [
+    "Do každé skupiny šňůra asi 1 m, papír a tužka",
+    "Počítač s internetem",
+    "Kartičky s názvy základních uzlů",
+    "Nůžky (!)",
+    "Židle pro uzly, které se vážou kolem něčeho — dračí smyčku nevázat kolem žáka, ale přes židli"
+  ],
+  "procedure": "10 minut: každá skupina si vylosuje uzel, najde na internetu, jak se váže, a vlastními slovy ho přepíše na kartičku.\n\nPak každá skupina vybere „vazače“, který si sedne bokem, a kartičky se vymění. Vazači chodí po jednom s provazem před tabuli a jejich skupina je naviguje podle cizí kartičky. Nikdo neví, jaký uzel to má být.\n\nRozeného skauta, který váže uzly poslepu, udělej rozhodčím. Kdo napovídá nebo řekne název uzlu, hru ukončí — zopakujte ji jindy. Nůžky měj po ruce: žáci se do uzlovačky opravdu dokážou zamotat.\n\nVyhodnocení: úspěšný bývá zhruba jeden pokus z deseti, takže z toho soutěž nedělej. Hlavně sleduj, odkud skupiny braly návod: nejčastěji pustí video a nedokážou v něm najít podstatné body. Co bylo špatně, rozeber až po hře, ne před ní. Pozor na DIY videa — klíčové momenty v nich bývají vystřižené.\n\nObměny: urči zdroje návodů, nebo zadej jinou činnost předveditelnou s pomůckami (ze špejlí postavit ohniště, netypicky zašněrovat botu).",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/s-pom%C5%AFckami"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "programovani-ar-hadej-co-kreslis",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Hádej, co kreslíš?",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme#h.j7mpe4w4neso",
+  "description": "Učitel ukáže třídě jednoduchý obrázek a třída navádí spolužáka u tabule, jaké tvary a kam má kreslit. Kreslíř obrázek nevidí.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–5 min na kolo",
+  "keywords": [
+    "pokyny",
+    "geometrické tvary",
+    "orientace v ploše",
+    "diktát obrázku",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci popisují obrázek pomocí tvarů a jejich polohy a učí se dávat jednoznačné pokyny.",
+  "materials": [
+    "Tabule a křída/fix",
+    "Papír A4 a fix pro učitele"
+  ],
+  "procedure": "Žák stojí u tabule. Ty stojíš tak, aby na tebe od tabule nebylo vidět, a přímo před třídou nakreslíš na papír jednoduchý obrázek složený z geometrických tvarů (třeba myš: kapka, dvě ouška, spirálový ocásek). Kresbu drž směrem ke třídě. Třída navádí kreslíře: jaký tvar, kam, jak velký.\n\nKresli naživo, i když „neumíš kreslit“ — jde o schéma, ne o umění. Předtištěný obrázek třídu nudí; baví ji právě to, že vzniká na místě a nikdo neví, co to bude.\n\nObměny: stačí obrázek otočit (kapka „opačně“, ouška z kapek) a popis je hned těžší — třída pak často začne „odjinud“ a myš má nudli u nosu. V menší skupině dávají pokyny žáci po řadě. Pokročilejší: kreslíř stojí tak, že třída nevidí, co kreslí, a řídí se jen slyšenými pokyny (vyber disciplinovaného žáka).\n\nPravidla podle potřeby: nepojmenovávat, co to je, a přednostně používat geometrické výrazy. Třída se zlepšuje sama přímo před očima.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

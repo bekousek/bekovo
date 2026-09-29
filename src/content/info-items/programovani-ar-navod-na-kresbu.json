@@ -1,0 +1,41 @@
+{
+  "id": "programovani-ar-navod-na-kresbu",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Návod na kresbu",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-men%C5%A1%C3%AD-celky#h.tb4qik7iwe80",
+  "description": "Skupina vymyslí obrázek z geometrických tvarů a napíše k němu návod, aniž by prozradila, co to je. Jiná skupina podle návodu kreslí — a pak se porovnává.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10 min",
+  "keywords": [
+    "návod",
+    "postup",
+    "geometrické tvary",
+    "symetrie",
+    "přesné vyjadřování",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci zapíší postup tak, aby ho někdo jiný dokázal přesně provést, a zjistí, co se špatně vysvětluje a co špatně chápe.",
+  "materials": [
+    "List papíru pro každou skupinu",
+    "Jedna připravená ukázka kresby a postupu na tabuli"
+  ],
+  "procedure": "Rozděl třídu na sudý počet skupin (nebo dvojic), které na sebe nevidí. Nejdřív ukaž na tabuli jeden vzorový obrázek i s postupem — jinak žáci nevědí, jak začít.\n\n3 minuty: skupina vymyslí jednoduchý obrázek z geometrických tvarů a v bodech napíše, jak ho nakreslit. Nesmí napsat, co to je.\n\n3 minuty: návody si skupiny vymění a kreslí podle cizího návodu. Hlídej, aby si skupiny neradily.\n\nPak návody vrátí a autoři posoudí, jak se kresba povedla. Který krok byl nejtěžší? Kde vznikla chyba — ve vysvětlení, nebo v pochopení? Jak byste návod příště zlepšili? Nejlepší postupy nakresli na tabuli a rozeberte, proč fungují.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-men%C5%A1%C3%AD-celky"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

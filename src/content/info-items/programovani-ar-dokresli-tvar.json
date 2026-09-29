@@ -1,0 +1,43 @@
+{
+  "id": "programovani-ar-dokresli-tvar",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Dokresli tvar",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme#h.5v3w0u6cmq3l",
+  "description": "List s dvanácti různě otočenými kapkami (nebo jiným tvarem). Žáci z každé udělají jinou věc — jedinou podmínkou je, že tvar v kresbě zůstane.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10 min",
+  "keywords": [
+    "tvar",
+    "abstrakce",
+    "podstata",
+    "fantazie",
+    "kreslení",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci trénují tvarové vnímání a zjednodušení objektu na jeho hlavní rysy.",
+  "materials": [
+    "List s natištěnými obrysy jednoho tvaru v různých velikostech a natočeních (např. 12 kapek — stačí tvary z Wordu)",
+    "Tužka nebo propiska"
+  ],
+  "procedure": "Zadání: z každého obrysu vytvoř jinou věc, zvíře nebo cokoliv tě napadne. Kresba nemusí být hezká, jen tvar v ní musí zůstat. Ukaž nejdřív vlastní sadu — když učitel není výtvarník a umí se zasmát sám sobě, povzbudí to hlavně kluky, kteří „kreslit neumí“.\n\nObměny: soutěž skupin, kdo vymyslí víc věcí. Jen ovály → dokresli dítě, muže, ženu, námořníka, policistu… Co je charakterizuje? Totéž s výrazy tváře: kam se dívám, když chci poznat, jak člověk myslí to, co říká?\n\nMěj záložní úkol (kolečka na smajlíky) pro toho, kdo si s tvarem neporadí. Třída si tvary rychle vyzradí, proto střídej víc tvarů tak, aby na sebe žáci se stejnou předlohou neviděli.\n\nVyhodnocení: co skupiny vymyslely, nakresli na tabuli (z obdélníku hrnec, sklenice, sešit, dopravní značka, lokomotiva…) a nech ostatní přidat další.",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/kresl%C3%ADme-i-kdy%C5%BE-to-neum%C3%ADme"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

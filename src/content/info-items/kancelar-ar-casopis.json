@@ -1,0 +1,43 @@
+{
+  "id": "kancelar-ar-casopis",
+  "categoryId": "kancelar",
+  "subcategoryId": "text",
+  "title": "Jedno číslo časopisu — stejný obsah, jiný styl",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty#h.w667lykif1ne",
+  "description": "Všechny skupiny dostanou stejné texty a každá si vylosuje styl tiskoviny (vědecký časopis, humoristický plátek, noviny pro děti…). Výsledkem je celé číslo včetně loga, inzerce a tiráže.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "několik hodin",
+  "keywords": [
+    "časopis",
+    "sazba",
+    "typografie",
+    "layout",
+    "tiráž",
+    "inzerce",
+    "styl",
+    "textový editor",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci použijí vše, co umí o stránce, písmu a úpravě textu, a přizpůsobí vzhled tiskoviny jejímu stylu a čtenářům.",
+  "materials": [
+    "Sada textů, které tvoří jedno číslo „bulletinu“ (ze školního webu, obecního zpravodaje, reportáže…)",
+    "Lísteček se stylem tiskoviny pro každou skupinu (raději víc stylů než skupin)",
+    "Počítač s textovým editorem",
+    "Ukázka celého čísla novin nebo časopisu (redakce, tiráž, slovo šéfredaktora)"
+  ],
+  "procedure": "Připrav všem skupinám stejné texty, které dohromady tvoří jedno číslo. Ukaž, co všechno má celé číslo časopisu: redakci, tiráž, úvodník šéfredaktora…\n\nKaždá skupina si vylosuje styl: studentský časopis, noviny, vědecká publikace, humoristický časopis, noviny pro děti, klidně i „fake news“ postavené na dodaných textech. Obsah je daný; skupina tvoří vzhled: název, logo, styl, obrázky (z volných zdrojů). Texty smí upravovat.\n\nČasopis se financuje inzercí — jestli bude vícesloupcový a bude prodávat moduly, nebo celé strany, rozhodnou tvůrci.\n\nVýsledkem je vždy celé číslo, včetně tiráže na zadní straně. Každá skupina dělá všechno, práce se nedělí jako u třídního časopisu (ten může být navazující projekt).\n\nNa závěr časopisy předveďte a zhodnoťte: jak se skupina trefila do stylu? Obsahuje číslo opravdu všechno?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/a-cel%C3%A9-texty"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

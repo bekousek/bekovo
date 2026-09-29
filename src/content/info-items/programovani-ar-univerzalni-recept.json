@@ -1,0 +1,40 @@
+{
+  "id": "programovani-ar-univerzalni-recept",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Od vajíčka k univerzálnímu receptu",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka#h.hkwwswisliox",
+  "description": "Tři navazující úlohy: napiš, jak vaříš vajíčko; přepiš to na univerzální návod na tepelnou úpravu jakékoli potraviny; a z univerzálního návodu pak „uvař“ konkrétní jídlo.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "25–30 min",
+  "keywords": [
+    "zobecnění",
+    "abstrakce",
+    "šablona",
+    "univerzální postup",
+    "parametr",
+    "recept",
+    "unplugged",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci zobecní konkrétní postup na univerzální šablonu (hrnec → nádoba, voda → tekutina) a zase ji dosadí do konkrétních případů — to je jádro práce s funkcemi a parametry.",
+  "materials": [
+    "Papír a tužka",
+    "Univerzální postup k promítnutí",
+    "Případně připravená kostra textu s vynechanými místy"
+  ],
+  "procedure": "Autorka úlohy řadí k nejtěžším a doporučuje je spíš pro starší žáky, až když třída prošla předchozí rozcvičky. Slovní úlohy nedávej mezi prvními.\n\n1. Uvař vejce (5–10 min): napiš co nejpodrobněji, jak bys vařil(a) vajíčka natvrdo — ty sám/sama, ne robot. Postupy si žáci vymění nebo je čtou a ostatní hledají chyby. Porovnej s úlohou „Robot vaří vajíčka“: vyjadřování by mělo být jednodušší a objevovat se klasické struktury (posloupnost, podmínka, opakování).\n\n2. Tepelné zpracování potravin (10 min): napiš univerzální návod — nevaříš vejce, ale potravinu. Konec je vytažením potraviny z nádoby. Při čtení hledejte konkrétní slova, která tam nepatří (hrnec místo nádoba). Jednodušší varianta: tvoř návod společně („Co vezmeme jako první?“ — „Pánev.“ — „Existuje obecnější slovo?“), nebo dej kostru s mezerami k doplnění: na [zdroj tepla] položíme [nádobu] a do ní dáme [tekutinu]. Až je [tekutina] horká, vložíme [potravinu] a počkáme, dokud [není dostatečně zpracovaná]…\n\n3. Co bys uvařil? (do 10 min): univerzální postup je správný, ale vařit se podle něj nedá. Přepiš ho zpět na normální recept — nahraď obecná slova konkrétními. Která skupina vymyslí víc jídel? (Pozor na fritování nebo konfitování.)\n\nZávěr: co je těžší — napsat univerzální popis, nebo z něj udělat konkrétní recept? A nemusí to být jen vaření: co třeba početní postupy?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/slova-a-slov%C3%AD%C4%8Dka"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

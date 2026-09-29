@@ -1,0 +1,43 @@
+{
+  "id": "data-ar-hadani-vlastnosti",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Hádání vlastností",
+  "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-men%C5%A1%C3%AD-celky#h.g725cgep1nuy",
+  "description": "Na projekci je 50 předmětů. Mluvčí skupiny musí spolužáky navést k „jejich“ předmětům jen opisem společné vlastnosti („naše květy připomínají barvou slunce“).",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10–20 min",
+  "keywords": [
+    "vlastnosti",
+    "třídění",
+    "kategorie",
+    "společný rys",
+    "opis",
+    "skupinová práce",
+    "Algoritmické rozcvičky"
+  ],
+  "goal": "Žáci hledají společný rys skupiny objektů a popisují ho vlastními slovy, bez přímého pojmenování.",
+  "materials": [
+    "Projektor a stránka s mnoha objekty (např. 50 květů různých barev)",
+    "Stejná stránka vytištěná pro učitele s vyznačenými skupinami (ideálně zalaminovaná)"
+  ],
+  "procedure": "Promítni stránku s předměty. Na tvé tištěné kopii jsou vyznačené skupiny, které patří k sobě (např. všechny žluté květy); každá skupina žáků dostane přidělených několik skupin předmětů. Z každé skupiny jde k tabuli mluvčí.\n\nMluvčí nesmí vlastnost říct přímo, musí ji opsat: „Naše květy připomínají barvou slunce.“ Skupina pak řekne, které předměty máš na projekci označit. Skupiny se střídají po jednom dotazu. Konec, když jedna skupina označí všechny své předměty.\n\nTéma přizpůsob látce: v informatice třeba součástky počítače nebo vstupní a výstupní zařízení.\n\nPozor na výběr mluvčího. Když někdo neumí určit převažující rys, otoč role: skupina napovídá a mluvčí označuje. Nejistého žáka pošli k tabuli co nejdřív, dokud je výběr velký. Nevhodné poznámky na mluvčího nikdy nepřipusť.\n\nKdyž třída společný rys nenajde vůbec, posaď všechny a hledejte ho společně otázkami („Co vidíte? Jaké jsou?“). Je to cenná zpětná vazba — ani zdánlivě samozřejmá znalost nemusí být samozřejmá.\n\nVyhodnocení: nehodnoť, kdo byl první, ale kdo lépe určil vlastnosti a proč. Co byl dominantní rys?",
+  "source": {
+    "label": "Algoritmické rozcvičky — Miriam Sedláčková",
+    "url": "https://sites.google.com/view/algoritmicke-rozcvicky/%C3%BAvodn%C3%AD-%C3%BAlohy/pro-men%C5%A1%C3%AD-celky"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
