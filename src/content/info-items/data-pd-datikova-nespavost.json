@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-datikova-nespavost",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Datíkova nespavost: jaký obrázek bude další?",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/25-evidujeme-priklad-4",
+  "description": "Datík si před spaním promítá obrázky zvířat a rostlin v pravidelném pořadí — žáci odhalí pravidlo, vyberou další obrázek a zdůvodní to.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "pravidlo",
+    "posloupnost",
+    "vzor",
+    "evidence dat",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák eviduje data podle odhaleného pravidla a pravidlo zobecní.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Před prací: Co je na obrázcích, které si Datík promítá? Jaké typy obrázků to jsou? (Domácí, lesní, africká a hospodářská zvířata, rostliny.) Můžete do tabulky sbírat, kolik žáků má kterou kategorii.\n\nPříklad 1: žák klikne na obrázek, napíše zdůvodnění a potvrdí. Zdůrazněte pořádné odůvodnění.\n\nDiskuse: Který obrázek jste vybrali a proč? Co je v příkladu pro všechny stejné? Jaký mám vybrat já a mohl bych i jiný? Nechte přečíst víc zdůvodnění a doplnit je tak, aby jim rozuměli všichni (ne každý vidí na sousedův monitor). Postupně dojděte k obecnému pravidlu — střídání jako korálky na náhrdelníku.\n\nPlnění je jednoduché, klíčová je vedená diskuse mezi příklady — nespěchejte.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Doplňování vět, následuje Hudební nástroje.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/datikova-nespavost-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/25-evidujeme-priklad-4"
+  },
+  "added": "2026-09-29"
+}

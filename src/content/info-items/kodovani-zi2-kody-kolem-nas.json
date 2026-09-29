@@ -1,0 +1,66 @@
+{
+  "id": "kodovani-zi2-kody-kolem-nas",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Kódy kolem nás: emoce, smajlíky a symboly na oblečení",
+  "description": "Žáci hádají emoce z obličeje, vykládají zprávy se smajlíky, luští symboly na cedulce trika a přiřazují státům domény, měny a SPZ.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "kód",
+    "emoce",
+    "smajlíky",
+    "symboly",
+    "zkratky",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná zakódované informace kolem sebe a posoudí, kdy je kód dobrý.",
+  "materials": [
+    "Pracovní listy 1.2 (kartičky emocí k rozstříhání), 1.3, 1.5 a 1.6 (PDF níže)",
+    "Obaly od svačiny (rozšíření)"
+  ],
+  "procedure": "Zvídavá otázka: Když přijdete do školy, poznáte, jakou kdo má náladu? Podle výrazu tváře — nositelem informace může být obraz, který umíme dekódovat ze zkušenosti.\n\nEmoce (PL 1.2): 1. kolo — každý ukáže vymyšlenou emoci a ostatní hádají. 2. kolo — vylosovanou emoci znázorní do 10 vteřin. 3. kolo — jeden hraje oživlou loutku a druhý ji podle vylosované emoce instruuje. Varianta pro celou třídu: trojice se stejnou tajně vylosovanou emocí se beze slov hledají. Cíl: odlišit typické znaky emoce od znaků konkrétní tváře.\n\nSmajlíky (PL 1.3): co chtěl pisatel vyjádřit zprávami „Paráda ;-)“, „„Paráda““, „Paráda :/“… a v jaké situaci je mohl použít?\n\nZvídavá otázka: Jaké znaky, značky a symboly vidíte během dne? Budík, zapnuto/vypnuto, jízdní řád, dopravní značky, rozvrh, zvonění, čtečka v jídelně, loga… Symboly na cedulce trika (PL 1.5): co znamenají? Nejdřív každý napíše odhad, pak proberte, proč vypadají, jak vypadají.\n\nMezinárodní zkratky (PL 1.6): přiřaď ke státu trojici národní doména – kód měny – mezinárodní poznávací značka (Česko .cz CZK CZ, Japonsko, Rakousko, Slovensko, Slovinsko, USA, Švédsko, Švýcarsko). Záměrně jsou tu státy se stejnou měnou, podobnými názvy, USA bez národní domény a Švýcarsko s CH z Confoederatio Helvetica.\n\nRozšíření: Jaké domluvené kódy běžně potkáváme? PSČ, SPZ, EAN, ISBN, QR kód, kód banky… Vyndejte svačinu či obal a zkuste podle značky najít, z čeho je a do kterého kontejneru patří.\n\nShrnutí: Informaci nese téměř cokoli — je zakódována, přenesena a dekódována. Dobrý kód je ten, kterému rozumí téměř každý a dekóduje ho správně. Některé kódy lze číst strojově.",
+  "files": [
+    {
+      "label": "Pracovní list 1.2 — kartičky emocí",
+      "href": "/informatika-soubory/imysleni/zi2-1-2-karticky-emoci.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1.3 — zprávy se smajlíky",
+      "href": "/informatika-soubory/imysleni/zi2-1-3-smajliky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1.5 — symboly na cedulce trika",
+      "href": "/informatika-soubory/imysleni/zi2-1-5-symboly-na-obleceni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1.6 — domény, měny a poznávací značky",
+      "href": "/informatika-soubory/imysleni/zi2-1-6-mezinarodni-zkratky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 8–10 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=8",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

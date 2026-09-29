@@ -22,6 +22,20 @@
     {
       "id": "vizualizace",
       "name": "Grafy a vizualizace dat"
+    },
+    {
+      "id": "kontrola-dat",
+      "name": "Kontrola dat a hledání chyb"
+    },
+    {
+      "id": "modely",
+      "name": "Modely, schémata a grafy",
+      "description": "Jak zjednodušit skutečnost do obrázku nebo grafu (uzly a hrany) a vyřešit s ním problém."
+    },
+    {
+      "id": "systemy",
+      "name": "Systémy a technologie kolem nás",
+      "description": "Prvky a vztahy v systémech, informační systémy, databáze a technologie ve společnosti."
     }
   ]
 }

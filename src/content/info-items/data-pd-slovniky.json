@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-slovniky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Slovníky: ve kterém dílu hledat?",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/7-evidujeme-priklad-1",
+  "description": "Pojmy o datech žáci zařazují do barevných dílů slovníku — nejdřív odhadem, pak podle abecedního klíče — a vysvětlují jejich význam.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "třídění",
+    "abeceda",
+    "slovník",
+    "data a informace",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák eviduje textová data podle abecedního klíče a vysvětlí rozdíl mezi daty a informacemi.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Samostatně: žáci vybírají barvu dílu pro každý pojem — jen jednou, bez nápovědy a bez oprav. Záměrně dejte málo času.\n\nDiskuse: Jak jste bez nápovědy určovali díl? Jde o odhad — ať zazní, na čem stál. Kdo navrhne seřadit pojmy a dát do každého dílu jeden, tomu řekněte, ať si představí, že všichni mají stejný slovník, ale hledají v něm něco jiného.\n\nPo přečtení nápovědy: Který pojem byste teď hledali jinde a proč? Dojděte k rozsahům dílů: červený A–E, žlutý F–J, modrý K–O, zelený P–T, hnědý U–Ž. Povzbuďte i ty, kdo se báli chyby.\n\nPak si žáci klávesou F5 nechají vygenerovat nové pojmy a zařadí je už podle klíče. Využijte i vysvětlování jednotlivých pojmů spojených s daty.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Doplňování tabulky, následuje Adopce zvířátka.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/slovniky-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/7-evidujeme-priklad-1"
+  },
+  "added": "2026-09-29"
+}

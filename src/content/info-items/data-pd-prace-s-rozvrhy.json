@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-prace-s-rozvrhy",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Práce s rozvrhy: z rozvrhu graf a zpátky",
+  "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/17-porovnavame-priklad-2",
+  "description": "Z rozvrhu hodin žáci vyklikají sloupcový graf počtu hodin předmětů — a ve třetím příkladu naopak podle grafu navrhnou rozvrh.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "sloupcový graf",
+    "rozvrh",
+    "tabulka",
+    "tvorba grafu",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří k existujícímu modelu další, který popisuje stejnou skutečnost, a pozná, kdy si modely odpovídají.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Kterým předmětem začít, když chci sloupce od nejmenšího počtu výskytů? (Víc předmětů může mít stejný počet — připomínka řazení podle více kritérií.) Jakými způsoby mohu sloupce vyplňovat? Sbírejte návrhy a každý aspoň začněte — spočítat nejdřív všechny zkratky, nebo buňku po buňce podle dnů?\n\nV prvním příkladu se sloupec tvoří klikáním buňku po buňce, ve druhém stačí kliknout na výšku hodnoty — porovnejte efektivitu způsobů.\n\nPříklad 3: podle grafu žáci navrhují rozvrh do tabulky. Diskuse: díky čemu poznám, že si dva modely odpovídají?\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Datíkových bateriích, následuje Pexeso.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/prace-s-rozvrhy-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/17-porovnavame-priklad-2"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "kodovani-zi2-dva-stavy",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "Dva stavy: lodě, kabinet a počítání vstoje a vsedě",
+  "description": "Po partii lodí a úvaze o signalizaci „učitel je v kabinetu“ čtveřice žáků počítá do patnácti jen tím, že sedí, nebo stojí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "dvojková soustava",
+    "binární",
+    "dva stavy",
+    "lodě",
+    "pohybová aktivita",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák objeví, že dvěma stavy lze kódovat čísla, a přijde na princip dvojkové soustavy.",
+  "materials": [
+    "Čtverečkovaný papír na lodě (pole 10 × 10)"
+  ],
+  "procedure": "Lodě: ve dvojicích si zahrajte lodě v poli 10 × 10 — tři jednopolíčkové, dvě dvoupolíčkové, jedna trojpolíčková a jedna čtyřpolíčková loď, lodě se nedotýkají ani rohy, zásah = tah navíc. Pravidla předem sjednoťte.\n\nZvídavá otázka: Jak bych si poznamenal, kde měl soupeř lodě? Značkou ve čtverečku — každé pole nese informaci ano/ne. Ideální je najít spojitost s kódováním rastrového obrázku. Se zkušenějšími i o strategii (statistika častých polí).\n\nZvídavá otázka: Které věci kolem nás rozlišují jen dva stavy? Světlo, zámek na WC, klakson… Dnes je to těžší — světlo na kolo bliká, konvice má „keep warm“.\n\nKabinet: paní učitelka Vádiz a pan učitel Neumann chtějí, aby žáci věděli, kdo je v kabinetu, bez klepání. Navrhněte způsob a řekněte, kolik situací může nastat. Prosklené dveře? Soukromí! Každý potřebuje vlastní signál (světlo nad dveřmi) — nastanou čtyři situace.\n\nPočítání vstoje a vsedě: ve čtveřicích každý buď sedí, nebo stojí. Počítám od 0 do 5 a pro každé číslo musíte mít jinou kombinaci poloh, bez výměny míst. Jedna skupina předvádí, ostatní kontrolují. Pak do 10 — musíte postup změnit? Nakonec do 15. Kdo neobjeví systém, napovězte desítkovou soustavou: když dojdeme k 9, přičte se 1 v řádu nad. Těžší varianta: do 16 nebo odčítání od 16. Skupiny musí být stejně velké a ne víc než čtyři.",
+  "files": [
+    {
+      "label": "Učebnice, str. 27–28 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=27",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

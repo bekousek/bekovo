@@ -1,0 +1,61 @@
+{
+  "id": "kodovani-zi1-kodovani-obrazkem",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Kódování obrázkem: emoji pohádky a obrázková zpráva",
+  "description": "Žáci luští názvy pohádek zapsané emoji, obrázkový vzkaz a sami vymýšlejí, jak obrázky zakódovat datum.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "piktogramy",
+    "emoji",
+    "obrázek",
+    "kód",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák sdělí informaci obrázkem a ví, že piktogramy fungují bez ohledu na jazyk.",
+  "materials": [
+    "Pracovní listy 1.2, 1.4 a 1.8 (PDF níže)",
+    "Případně obrázky piktogramů (toalety, únikový východ, dopravní značky) nebo procházka po škole"
+  ],
+  "procedure": "Zvídavá otázka: Kde kolem sebe potkáváme informace zakódované obrázkem? Toalety, únikový východ, dopravní značky… Můžete se jít po škole na piktogramy podívat. Krátce proberte výhody (mezinárodní) a nevýhody (nepřesnost) obrázků místo textu.\n\nEmoji pohádky (PL 1.2): žáci luští názvy pohádek zapsané emoji — O pejskovi a kočičce, Tři oříšky pro Popelku, Dešťová víla, O dvanácti měsíčkách, S čerty nejsou žerty. Rychlejší vymýšlejí vlastní (s nabídkou emoji na projektoru).\n\nZvídavá otázka: Jak si lidé zapisovali zprávy, když ještě neměli písmo? Obrázky. Ústní předávání je nepřesné a časem se zapomíná — klidně si zahrajte kolo tiché pošty.\n\nObrázková zpráva (PL 1.4): vzkaz zní „Včera k obědu jsem měl smažený sýr.“ Nechte zaznít několik výkladů a hledejte, co měly společné — tak se najdou jasné symboly. Některá slova tvoří dvojice obrázků (před + slunce = včera), jiná slova chybí úplně. Pak každý zakóduje podobnou větu pro souseda vpravo (nebo název písničky).\n\nKódujeme datum: jedna řada vymyslí kód pro den, druhá pro měsíc, třetí pro rok. Podle společných pravidel pak každý zakóduje dnešní datum a svoje narozeniny. Počítejte s opakováním — napoprvé žáci kreslí čárky, napodruhé objevují oddělovače a zkracování velkých čísel (někoho napadnou římské číslice).\n\nRozšíření — záleží na pořadí symbolů? (PL 1.8): podle tabulky „indiánského písma“ žáci složí smysluplnou větu, přeházejí pořadí symbolů a oba zápisy dají sousedovi vlevo, ať obě věty přeloží. Jednodušší varianta: obě verze připraví učitel.\n\nShrnutí: Informaci můžeme zaznamenat textem i obrázkem. Piktogramy jsou univerzální, nezávislé na jazyku. Kód slouží k zaznamenání informace v nějaké podobě.",
+  "files": [
+    {
+      "label": "Pracovní list 1.2 — emoji pohádky",
+      "href": "/informatika-soubory/imysleni/zi1-1-2-emoji-pohadky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1.4 — obrázková zpráva",
+      "href": "/informatika-soubory/imysleni/zi1-1-4-obrazkova-zprava.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1.8 — tabulka indiánského písma",
+      "href": "/informatika-soubory/imysleni/zi1-1-8-indianske-pismo.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 8–10 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=8",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

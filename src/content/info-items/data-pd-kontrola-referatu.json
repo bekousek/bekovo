@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-kontrola-referatu",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Kontrola referátů: graf a tabulka nesedí",
+  "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/13-resime-priklad-3",
+  "description": "Graf a tabulka teplot za půl roku mají obsahovat stejná data, ale nesedí — žáci chybné hodnoty najdou a v grafu označí měsíc, který z tabulky zmizel.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "25 min",
+  "keywords": [
+    "kontrola dat",
+    "graf",
+    "tabulka",
+    "chyba v modelu",
+    "počasí",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák porovná dva modely stejných dat, ukáže na chyby a navrhne správné hodnoty.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Jsou v grafu a tabulce skutečné hodnoty? Třída se rozdělí na ano / ne / nevím — i „nevím“ je v pořádku, když žák řekne proč. Jak to nejrychleji zjistíte? Nespokojte se s „na internetu“ — kde, na jakém webu, kterému budete věřit (ČHMÚ)? Nejrychleji ale stačí porovnat grafy na více obrazovkách.\n\nSamostatně: žáci kliknou na nesouhlasné hodnoty v tabulce i grafu a stisknou Zkontrolovat. Ať se snaží napoprvé. Diskuse: Ve které datové řadě byla chyba? Co pomohlo k rychlé orientaci? Kolik kroků bylo potřeba?\n\nPříklad 2: v grafu označí všechny tři údaje za měsíc, který v tabulce chybí.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po úloze Páry, následuje Bludiště.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/kontrola-referatu-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/resime-problemy/13-resime-priklad-3"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-zi2-zprava-na-prstech",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Zpráva na prstech: přenos znaků kódovací tabulkou",
+  "description": "Trojice vysílač–přenašeč–přijímač si přes třídu posílá slovo INFORMACE jen čísly ukazovanými na prstech podle tabulky ASCII.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "ASCII",
+    "znaková sada",
+    "přenos",
+    "kódování znaků",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zakóduje a dekóduje znaky pomocí znakové sady a ví, proč vysílač i přijímač potřebují stejnou tabulku.",
+  "materials": [
+    "Pracovní list 2.2 — kódovací tabulka (PDF níže nebo na projektoru)",
+    "Lísteček se slovem pro každou trojici"
+  ],
+  "procedure": "Zvídavá otázka: Proč musíme při některých přenosech převést písmena na něco jiného? Kouřem, světlem, vlajkami ani po drátech nepřeneseme samotné písmeno — každý znak dostal kód z krátkých a dlouhých signálů. Vysílající i přijímající musí mít stejnou kódovací tabulku.\n\nPřenos na prstech: trojice — jeden u tabule (vysílač), druhý u protější stěny (přijímač), třetí uprostřed (přenašeč). Jen ukazováním čísel na prstech obou rukou přeneste zprávu INFORMACE podle tabulky (A = 65 … Z = 90). Vysílač dostane slovo na lístečku, tabulka může viset na projektoru — utajovat ji není třeba.\n\nŽáci se musí vypořádat s vysokými čísly — stačí odečítat 50 a na jedné ruce ukazovat desítky, na druhé jednotky. Pozor na zrcadlové ukazování (nebo ne? když se zpráva přenese zrcadlově dvakrát?). Zajímavé je domýšlení zbytku slova a opravování chybných písmen — umí to i stroj? (Automatické opravy při psaní.)",
+  "files": [
+    {
+      "label": "Pracovní list 2.2 — zadání a kódovací tabulka",
+      "href": "/informatika-soubory/imysleni/zi2-2-2-kodovaci-tabulka.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 11 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=11",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

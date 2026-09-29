@@ -1,0 +1,53 @@
+{
+  "id": "kodovani-zi1-rastrovy-obrazek",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Obrázek z políček: diktujeme rastrový obrázek",
+  "description": "Učitel diktuje políčka mřížky 8 × 8, žáci vybarvují a hledají, jak diktát zkrátit — přesně tak si obrázek ukládá počítač.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "pixel",
+    "rastr",
+    "rozlišení",
+    "obrázek",
+    "diktát",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zakóduje a dekóduje jednoduchý obrázek pomocí mřížky a ví, co je pixel a rozlišení.",
+  "materials": [
+    "Pracovní list 5 — tři mřížky 8 × 8 (PDF níže), případně čtverečkovaný papír",
+    "Pastelky (černá, oranžová)",
+    "Pravítko (rozšíření)",
+    "Přiblížená fotografie na ukázku pixelů"
+  ],
+  "procedure": "Zvídavá otázka: Jak si počítač pamatuje, jak obrázek vypadá? Rozřeže ho na malé dílky a u každého si pamatuje barvu.\n\nDiktát: do první mřížky 8 × 8 diktujte pole po poli — bílé, nebo černé. Jen u celobílých řádků prozraďte, že je bílý celý řádek, a pro kontrolu vždy ohlaste konec řádku. Opakuje-li se stejný řádek, zdůrazněte, že opakujete kód.\n\nZvídavá otázka: Šlo by diktování zjednodušit? Hlásit shluky stejně barevných polí, nahradit bílou nulou a černou jedničkou, a když známe velikost mřížky, nemusíme hlásit konce řádků.\n\nVe dvojicích: každý si do druhé mřížky nakreslí vlastní obrázek a nadiktuje ho spolužákovi, pak se vymění. Hodí se obrázky s opakujícími se vzory, aby si žáci sami zkoušeli zápis zkracovat. Rychlejší dvojice dostanou hotový obrázek, zakódují ho každý zvlášť a porovnají.\n\nVíc barev: 0 = bílá, 1 = černá, 2 = oranžová. Diktujte do třetí mřížky už bez hlášení konců řádků (jen u prvního či druhého řádku).\n\nRozšíření: Je lepší rozdělit obrázek na víc, nebo míň dílků? Víc dílků = oblejší tvary, ale víc paměti. Narýsuj pod sebe dva obdélníky 6 × 10 cm, jeden rozděl na čtverce 1 cm, druhý 0,5 cm, a v obou vybarvi stejně velké písmeno R.\n\nShrnutí: Rastrový obrázek se skládá z pixelů, každý má svou barvu. Na kolik dílů je obrázek rozdělen, říká rozlišení — ukažte na přiblížené fotografii.",
+  "files": [
+    {
+      "label": "Pracovní list 5 — tři mřížky 8 × 8",
+      "href": "/informatika-soubory/imysleni/zi1-5-mrizky-8x8.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 21–22 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=21",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

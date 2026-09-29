@@ -1,0 +1,47 @@
+{
+  "id": "data-pd-vytvoreni-tabulky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Vytvoření tabulky",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/31-evidujeme-priklad-6",
+  "description": "Z textu zadání žáci odvodí, kolik řádků a sloupců má tabulka mít, vytvoří ji a zaevidují do ní obrázky ve správném pořadí.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "tabulka",
+    "návrh tabulky",
+    "řádky a sloupce",
+    "evidence dat",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák navrhne a vytvoří tabulku pro evidenci dat a eviduje v ní data podle daného klíče.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Podle čeho poznáte, kolik řádků zadat? Kde najdete počet sloupců? Nechtějte číslo, jen kde informaci najdou: řádky z tabulky (druhy obrázků), sloupce z textu (kolik obrázků od každého druhu).\n\nŽáci zadají rozměry z klávesnice a přetahují obrázky. Pod tabulkou se počítají správné a špatné pokusy — ať pracují pečlivě. K dispozici je malá nápověda.\n\nDiskuse: Podle čeho poznám, kam obrázek přesunout? Musí brát v potaz tabulku (záhlaví řádku) i text (řadit od 6 po 1, nebo naopak). Ptejte se na víc obrázků, dokud si nejste jistí, že se rozhodují podle obou míst.\n\nPříklady 2 a 3 přidávají i záhlaví řádků a sloupců — žáci tak tvoří celou tabulku podle známých informací.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: na 1. stupni jen Příklad 1 po Hudebních nástrojích (pak Odevzdávání obrázků). Na 2. stupni celá úloha po Tabulce s ovocem, pak Doplňování tabulky.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/vytvoreni-tabulky-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/31-evidujeme-priklad-6"
+  },
+  "added": "2026-09-29"
+}

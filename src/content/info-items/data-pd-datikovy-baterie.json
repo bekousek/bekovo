@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-datikovy-baterie",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Datíkovy baterie: popisky výsečového grafu",
+  "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/22-porovnavame-priklad-3",
+  "description": "Datík vypráví, kolik hodin má kterých předmětů — žáci podle textu doplní hodnoty do výsečového grafu a pak i jeho legendu.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "výsečový graf",
+    "legenda",
+    "popisky",
+    "poměr",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák doplní číselné a textové popisky ke grafu podle textu a vysvětlí, podle čeho si odpovídají.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Podle čeho usuzujete, že text a graf k sobě patří? (Stejná jména předmětů v textu a legendě, tvar výsečí.) Dokud přicházejí nápady, zapojujte další žáky.\n\nSamostatně: hodnoty se vybírají v rozbalovacích seznamech; kontrolu ať pustí až s vybranými všemi hodnotami. Diskuse: Podle čeho jste rozpoznali, které číslo patří do výseče? Dva vztahy — barva výseče ↔ legenda (předmět v textu) a velikost výseče ↔ hodnota v poměru k celku.\n\nPříklad 2: žáci doplňují navíc legendu. Úloha ukazuje, jak důležité jsou správné popisky u grafu a jak vhodně prezentovat poměr částí celku.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Řazení prohlížečů, následuje Práce s rozvrhy.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/datikovy-baterie-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/22-porovnavame-priklad-3"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "data-zi1-overeni-modelovani",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Ověřovací úlohy: modely (1. stupeň)",
+  "description": "Křižovatka, záhadný zápis písničky a tři bobří úlohy — korálky AABBCC, linky metra a zvířátka z kaštanů.",
+  "type": "pracovni-list",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "ověření",
+    "test",
+    "Bobřík informatiky",
+    "modely",
+    "graf",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák si ověří, že umí vyčíst informace z modelu a poznat, co k řešení ještě potřebuje.",
+  "materials": [
+    "Pracovní listy B.1–2 a B.3–5 (PDF níže)"
+  ],
+  "procedure": "Úlohy nejsou primárně na klasifikaci — ověřují, zda se zkušenost s modely zafixovala.\n\nB.1 Křižovatka: co víš z obrázku o dopravní situaci a co potřebuješ k rozhodnutí, kdo pojede první? Obrázek nestačí — je potřeba znát pravidlo pravé ruky. B.2: čeho může být model obrázek vlevo a zápis vpravo? Nechte tipovat — oba zaznamenávají začátek písně Ovčáci, čtveráci.\n\nBobří úlohy (kategorie Mini): AABBCC — spoj řetězce písmen se šňůrkami korálků. Linky metra — ve které stanici začal Honza, když cestou do ZOO přestupoval jen jednou? Zvířátka z kaštanů — poznáš podle spojení kaštanů zápalkami, které zvířátko je které? (Ekvivalence grafů.)\n\nŘešení s rozborem najdete v učebnici.",
+  "files": [
+    {
+      "label": "Úlohy B.1–2 na ověření modelování",
+      "href": "/informatika-soubory/imysleni/zi1-b-1-2-overeni-modelovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Bobří úlohy B.3–5 na modelování",
+      "href": "/informatika-soubory/imysleni/zi1-b-3-5-bobri-ulohy-modelovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 38–40 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=38",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

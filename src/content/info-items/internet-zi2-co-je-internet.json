@@ -1,0 +1,50 @@
+{
+  "id": "internet-zi2-co-je-internet",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Co je internet: domácí síť, cloud a internet věcí",
+  "description": "Žáci popíšou, co je doma a ve škole připojené a jak, a ve dvojicích vykládají obrázky, které někdo nakreslil k tématu internet.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "internet",
+    "síť",
+    "cloud",
+    "internet věcí",
+    "wi-fi",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše internet jako systém zařízení a služeb.",
+  "materials": [
+    "Pracovní list 13.3 — obrázky k tématu internet (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Která zařízení jsou připojena k internetu doma a která ve škole — a jak? Doma notebook, tablet, mobil, chytrá televize, většinou přes wi-fi s routerem uprostřed. Ve škole navíc tiskárny, stolní počítače po kabelu, server a wi-fi routery.\n\nZvídavá otázka: Říkáme „jsem připojený na internet“. K čemu jsou naše zařízení vlastně připojena? K obrovské síti vzniklé propojením mnoha místních sítí.\n\nObrázky o internetu (PL 13.3): ve dvojici proberte, co chtěl autor obrázky říct. Jednoznačná odpověď není, ale měly by zaznít tři charakteristiky: internet je celosvětová síť s mnoha uzly a zařízeními; cloud — data a aplikace nejsou na mém zařízení, ale na vzdáleném serveru, a můžu s nimi pracovat odkudkoli a spolupracovat online; internet věcí — k síti lze připojit a na dálku ovládat i spotřebiče. Pokud žáci nepřijdou, doveďte je otázkami.",
+  "files": [
+    {
+      "label": "Pracovní list 13.3 — obrázky k tématu internet",
+      "href": "/informatika-soubory/imysleni/zi2-13-3-obrazky-internet.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 57–58 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=57",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

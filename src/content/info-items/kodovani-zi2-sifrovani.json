@@ -1,0 +1,66 @@
+{
+  "id": "kodovani-zi2-sifrovani",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Šifrování: polský kříž, Zlomky, přesmyčka a heslo",
+  "description": "Žáci luští velký polský kříž, šifrují slovo mřížkou čísel, odhalí přesmyčku ALAN TURING a sestaví si vlastní šifru s klíčovým slovem.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "šifry",
+    "polský kříž",
+    "přesmyčka",
+    "klíč",
+    "Vigenère",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zašifruje a dešifruje text pomocí několika šifer a pochopí roli klíče.",
+  "materials": [
+    "Pracovní listy 3.2, 3.4, 3.7 a 3.8 (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Co se stane, když zprávu přijme ten, komu nebyla určena? U citlivých věcí se prozradí, co nechceme. Diskuse míří k bezpečnému přenosu informací — neměňte ji na obecné „co se může stát při přenosu“.\n\nVelký polský kříž (PL 3.2): dešifruj zprávu pomocí klíče — vyjde POLSKO. Na začátku záměrně volíme šifry, které se nezapisují písmeny ani čísly. Rychlejší mohou objevovat, jak šifra funguje bez klíče, nebo zkusit „hebrejštinu“ či malý polský kříž.\n\nZvídavá otázka: Jaká je nevýhoda takové šifry? Nedá se snadno vysílat a kdo zná kříž, zprávu přečte. Zlomky (PL 3.4): pomocí mřížky 5 × 5 zašifruj PROGRAMATORKA (14/34/53/22/…). Proč chybí W a CH? Kvůli pěti skupinám po pěti — počet skupin i písmen musí být stejný, aby nebylo hned jasné, co je co.\n\nPřesmyčka: odhalte, jak se ze zprávy ALAN TURING stalo ANUNL RGATI. Text se po řádcích zapíše do tabulky a přečte po sloupcích. Na těžkou úlohu jim princip vysvětlete a nechte je jen dešifrovat.\n\nZvídavá otázka: Dá se text zašifrovat tak, aby ho nešlo rozluštit, i když znám princip? Ano, když do toho vstupuje heslo — pak se z kódu stává šifra. Vlastní klíč (PL 3.7): se sousedem doplňte do tabulky klíčové slovo a číselnou kombinaci (vzor CISLA a 87352: BEZPECNOST → C7/C2/A2/…) a pošlete si zašifrované slovo. Písmena ani číslice se v klíči nesmí opakovat — na to mají přijít sami.\n\nRozšíření (PL 3.8): Vigenèrovým čtvercem zašifrujte INFORMATIKA s heslem SKOLA (výsledek AXTZREKHTKS). Online si šifru mohou vyzkoušet v úloze Vigenèrova šifra na webu Práce s daty.\n\nShrnutí: Kódování používáme pro rychlý přenos, šifrování, když nechceme, aby zprávě rozuměl nepovolaný. Bezpečné jsou šifry s klíčem. Pozor — Morseovka ani Braillovo písmo nejsou šifry, ale kódy.",
+  "files": [
+    {
+      "label": "Pracovní list 3.2 — velký polský kříž",
+      "href": "/informatika-soubory/imysleni/zi2-3-2-polsky-kriz.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 3.4 — šifra Zlomky",
+      "href": "/informatika-soubory/imysleni/zi2-3-4-zlomky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 3.7 — šifra s klíčovým slovem",
+      "href": "/informatika-soubory/imysleni/zi2-3-7-klicove-slovo.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 3.8 — Vigenèrův čtverec",
+      "href": "/informatika-soubory/imysleni/zi2-3-8-vigenere.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 14–17 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=14",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

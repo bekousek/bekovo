@@ -1,0 +1,51 @@
+{
+  "id": "kodovani-zi1-navod-slovy",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Návod slovy: origami parník a značky bez písmen",
+  "description": "Žáci popíšou slovy skládání parníku tak, aby ho někdo složil bez obrázků, a hledají kolem sebe symboly, kterým rozumí i cizinec.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "návod",
+    "origami",
+    "postup",
+    "symboly",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák předá postup zakódovaný textem a posoudí, kdy je lepší text a kdy obrázek.",
+  "materials": [
+    "Pracovní list 2.6 (PDF níže)",
+    "Papír na skládání",
+    "Zpěvník, přístroje v učebně (rozšíření)"
+  ],
+  "procedure": "Zvídavá otázka: Je lepší zaznamenávat informaci obrázkem, nebo textem? Záleží na okolnostech — obrázek bývá rychlejší, text přesnější. Otázka se vrátí u dat (text × tabulka × graf) i v algoritmizaci (šipky, bloky, textový kód).\n\nParník slovy (PL 2.6): žáci zapíšou postup složení parníku slovy tak, aby ho někdo jiný složil bez obrázkové nápovědy. Pozor — obrázky v pracovním listu jsou záměrně ve špatném pořadí, žáci mají chybu najít a opravit. Chcete-li aktivitu zrychlit, dejte jim rovnou správné pořadí.\n\nTip: nechte spolužáka podle popisu opravdu skládat — hned je vidět, kde popis nestačí. Jednodušší varianta je lodička nebo čepice, těžší méně známé origami (diagramy např. na origami.cz).\n\nRozšíření — zvídavá otázka: Setkali jste se se zápisem pomocí symbolů, které nejsou českou abecedou? Obory mají vlastní mezinárodní značky.\n\nÚkoly: 1) Najdi na přístrojích v učebně informaci, která není napsaná slovem (přístroje ne pod napětím!). 2) Napiš matematický příklad, přečti ho spolužákovi a zapiš si výsledek, který ti řekne. 3) Ve zpěvníku urči symboly, kterým by rozuměl i kamarád ze zahraničí.\n\nShrnutí: Zaznamenaná informace se dá uložit a sdílet, digitálně i na velkou vzdálenost. Text je obvykle přesnější, ale závisí na jazyce — příjemce mu nemusí rozumět.",
+  "files": [
+    {
+      "label": "Pracovní list 2.6 — postup skládání parníku",
+      "href": "/informatika-soubory/imysleni/zi1-2-6-parnik.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 12–13 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=12",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

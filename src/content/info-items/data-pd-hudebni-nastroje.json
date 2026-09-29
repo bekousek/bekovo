@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-hudebni-nastroje",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Hudební nástroje v tabulce",
+  "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/28-evidujeme-priklad-5",
+  "description": "Žáci přetahují obrázky nástrojů do tabulky podle velikosti a typu, pak sami doplňují názvy řádků a sloupců.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "tabulka",
+    "třídění",
+    "záhlaví",
+    "klíč",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák eviduje data v tabulce podle klíče a sám nastaví pravidla podle shodných znaků.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1: obrázky přetahují do tabulky podle názvů řádků a sloupců. Špatně umístěný obrázek se vrátí zpět a v posledním řádku se počítá skóre. Diskuse: Komu se to povedlo napoprvé? Podle čeho jste poznali, kam obrázek patří? (Dva klíče — velikost a typ nástroje.)\n\nPříklad 2: tentokrát žáci přetahují textové popisy do záhlaví řádků a sloupců. Diskuse: V čem se lišilo doplňování v prvním a druhém příkladu? Do záhlaví píšeme klíče (názvy), dovnitř samotná data.\n\nPříklad 3 kombinuje obojí. Vždy existuje jediné správné řešení.\n\nNezobrazí-li se obrázky, ať žáci obnoví stránku.\n\nNávaznost: po Datíkově nespavosti; ve stejné hodině můžete stihnout Příklad 1 z úlohy Vytvoření tabulky.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/hudebni-nastroje-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/evidujeme-data/28-evidujeme-priklad-5"
+  },
+  "added": "2026-09-29"
+}

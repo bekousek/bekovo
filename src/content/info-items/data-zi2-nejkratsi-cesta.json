@@ -1,0 +1,60 @@
+{
+  "id": "data-zi2-nejkratsi-cesta",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Ohodnocené grafy: jízdní řád a nejkratší cesta",
+  "description": "Z jízdního řádu vlaku Liberec–Jablonec žáci nakreslí graf, vypíšou všechny trasy Štěkavým krajem a podle kilometrů najdou nejkratší.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "graf",
+    "ohodnocený graf",
+    "nejkratší cesta",
+    "jízdní řád",
+    "Dijkstra",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí ohodnocených grafů řeší problémy — hledá všechny cesty a nejkratší z nich.",
+  "materials": [
+    "Pracovní listy 9.3, 9.4 a 9.6 (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Mapa je model světa. Dá se pro některé situace ještě zjednodušit? Hledáme-li nejkratší cestu, nepotřebujeme přesný tvar silnice — stačí úsečka. Bez zkušenosti s grafy z 1. stupně začněte podobnou úlohou (mapa vesnice).\n\nZvídavá otázka: Co vyčtu z jízdního řádu? Časy a místa odjezdu a příjezdu, zastávky — a z toho, kudy a jak dlouho spoj jede.\n\nVlak Liberec–Jablonec (PL 9.3): podle výpisu popište, kudy vlak jede, jak dlouho mezi zastávkami a jakou vzdálenost ujede. Nakreslete graf. Hranu lze ohodnotit vzdáleností i časem — u posledního úseku vyjde rozpor v rychlosti. Rychlejší ověří hodnoty u dalších spojů a rychlíků.\n\nŠtěkavý kraj (PL 9.4): vypište všechny trasy z Alíkova do Harrykova, kde každým městem projedete nejvýš jednou (je jich 13). Jednodušší varianta: odeberte uzel E nebo hrany BD a GH; těžší: uzel či hrany přidejte a zjistěte, o kolik možností přibude.\n\nZvídavá otázka: Která trasa je nejkratší? Bez ohodnocení víme jen, která vede přes nejméně měst. Nejkratší trasa (PL 9.6): hrany mají kilometry — nejkratší je ABFH (11 km).\n\nZvídavá otázka: Musíme procházet a sčítat všechny trasy? Ne — v každém vrcholu stačí pamatovat si nejkratší součet od startu a kudy do něj vede (princip Dijkstrova algoritmu).",
+  "files": [
+    {
+      "label": "Pracovní list 9.3 — jízdní řád Liberec–Jablonec",
+      "href": "/informatika-soubory/imysleni/zi2-9-3-jizdni-rad.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 9.4 — trasy Štěkavým krajem",
+      "href": "/informatika-soubory/imysleni/zi2-9-4-stekavy-kraj.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 9.6 — ohodnocený graf, nejkratší trasa",
+      "href": "/informatika-soubory/imysleni/zi2-9-6-nejkratsi-trasa.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 38–40 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=38",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

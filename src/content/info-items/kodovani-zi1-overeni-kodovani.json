@@ -1,0 +1,54 @@
+{
+  "id": "kodovani-zi1-overeni-kodovani",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Ověřovací úlohy: kódování (1. stupeň)",
+  "description": "Pět krátkých úloh (Caesar, který zápis není TEXT, kód obrázku 3 × 3, tvary, piktogram) a dvě bobří úlohy — Počasí a Narozeninové balónky.",
+  "type": "pracovni-list",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "ověření",
+    "test",
+    "Bobřík informatiky",
+    "kódování",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák si ověří, zda si odnesl zkušenost s kódováním textu, čísel a obrázků.",
+  "materials": [
+    "Pracovní listy A.1–5 a A.6–7 (PDF níže)"
+  ],
+  "procedure": "Úlohy nejsou primárně na klasifikaci — slouží k ověření, že se zkušenost z hodin kódování zafixovala.\n\nA.1: Posunutím abecedy o 3 vpravo vzniklo CHLOP — jaké slovo bylo zašifrováno? (FILM) A.2: Která možnost nevznikla zašifrováním slova TEXT a proč? A.3: Kód kříže v poli 3 × 3 (0, 1, 0, 1, 1, 1, 0, 1, 0). A.4: Který obrázek vznikl ze zadaných tvarů? (Pozor, správná varianta je překlopená — princip, který v hodinách nezazněl.) A.5: Nakresli piktogram pro východ.\n\nBobří úlohy (ročníky 2014 a 2015, kategorie Mini): Počasí — podle piktogramů v tabulce a pravidel žáci určí, co budou děti 7. srpna dělat. Narozeninové balónky — z deseti balónků tří barev složí rok narození 1983.\n\nŘešení a rozbor úloh najdete v učebnici. Další podobné úlohy jsou v archivu soutěže Bobřík informatiky (ibobr.cz).",
+  "files": [
+    {
+      "label": "Úlohy A.1–5 na ověření kódování",
+      "href": "/informatika-soubory/imysleni/zi1-a-1-5-overeni-kodovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Bobří úlohy A.6–7 na kódování",
+      "href": "/informatika-soubory/imysleni/zi1-a-6-7-bobri-ulohy-kodovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 26–27 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=26",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

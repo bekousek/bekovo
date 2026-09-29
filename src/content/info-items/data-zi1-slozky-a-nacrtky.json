@@ -1,0 +1,45 @@
+{
+  "id": "data-zi1-slozky-a-nacrtky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Modely řeší problémy: složky na fotky a náčrtek čtverce",
+  "description": "Žáci navrhnou strukturu složek pro fotky z mobilu a z náčrtku zjišťují, co o čtverci vědí a co chybí k jeho sestrojení.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "model",
+    "složky",
+    "soubory",
+    "náčrtek",
+    "řešení problému",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí obrázkového modelu řeší zadaný problém a posoudí, zda má všechny potřebné informace.",
+  "materials": [
+    "Papír a tužka"
+  ],
+  "procedure": "Zvídavá otázka: K čemu nám modely vlastně jsou? Zaznamenáme do nich jen podstatné věci a znázornění nám může pomoct vyřešit problém.\n\nSložky na fotky: v telefonu máte spoustu fotek (vycházky se psem, výlety se školou a skautem, narozeniny, dovolená — a to z různých let) a chcete je přetáhnout do notebooku, kde se samy neseskupí. Nakreslete strukturu složek, ve které se budou fotky dobře hledat.\n\nJediné správné řešení neexistuje — nejdřív roky a uvnitř akce, nebo naopak. Při představování diskutujte, zda se ve struktuře bude opravdu dobře hledat a jaká má úskalí. Prezentovat si řešení mohou žáci i ve dvojicích.\n\nNáčrtek čtverce: máte čtverec o straně 8 cm. Pomocí náčrtku určete, co víme a zda nějaké informace k sestrojení chybí. Záludnost: druhou informací je samotný tvar — víme-li, že jde o čtverec, víme i o pravých úhlech a stejně dlouhých stranách. Na to musí žáci přijít sami, pomáhejte jen návodnými otázkami.\n\nDiskutabilní je, zda chybí pojmenování vrcholů: k sestrojení ho nepotřebujeme, k zápisu postupu by se hodilo. Náčrtek je také model — znázorňuje výsledek a známé informace a pomáhá najít postup (algoritmus) konstrukce.",
+  "files": [
+    {
+      "label": "Učebnice, str. 35–36 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=35",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

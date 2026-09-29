@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-hledani-dat",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Hledání dat: na co se dívá Datík?",
+  "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/33-data-priklad-6",
+  "description": "Robot Datík se dívá na obrázky — žáci hledají, co vidí všichni stejně, a zjistí, že i obrázky jsou data, která pojmenováváme slovy.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "data",
+    "informace",
+    "obrázky",
+    "společné znaky",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhodnotí data a informace, najde společné označení pro soubor dat a spojí data různého druhu.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Úvodní úloha celého materiálu pro 1. stupeň. Počítejte s řízenou diskusí — sama může vyplnit celou hodinu.\n\nPříklad 1: Vidí u vás Datík totéž co u mě (u souseda)? Na co se dívá? Vidí nějaká data? Žáci pojmenovávají obrázky (rostlina, kůň, mléko…) — všimněte si, že tentýž obrázek pojmenují různě (kytka, květina). Hledejte společné znaky toho, co Datík vidí na všech obrazovkách (devět černobílých obrázků). Z dat můžeme získat informace — popis společných znaků.\n\nPříklad 2: žáci zapíšou do okna vlastní zdůvodnění a potvrdí ho. Příklad 3: přetahují slova pod obrázky (drag & drop) — tatáž data mohou mít různé označení a různou podobu.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: následuje úloha Doplňování vět.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/hledani-dat-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/33-data-priklad-6"
+  },
+  "added": "2026-09-29"
+}

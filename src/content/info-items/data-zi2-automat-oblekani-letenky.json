@@ -1,0 +1,61 @@
+{
+  "id": "data-zi2-automat-oblekani-letenky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Automat na limonádu, oblékání a nejlevnější letenka",
+  "description": "Žáci grafem znázorní automat na mince, kontrolují model oblékání se šipkami a jako vyhledávač letenek hledají nejlevnější let Praha–New Orleans.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "automat",
+    "orientovaný graf",
+    "stavy",
+    "optimalizace",
+    "nejlevnější cesta",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí orientovaných grafů modeluje stavy a návaznost činností a hledá optimální řešení.",
+  "materials": [
+    "Pracovní listy 10.4 (řešení pro učitele), 10.5 a 10.6 (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Jak se automat rozhoduje, zda jsme hodili dost peněz? Rozpozná minci a přičte ji k tomu, co už v něm je; na začátku má nulu.\n\nAutomat na limonádu: limonáda stojí 7 Kč. Grafem znázorněte, co se stane po vhození mince 1, 2 nebo 5 Kč. PL 10.4 je vzorové řešení pro učitele. Méně času nebo slabší třída: snižte cenu a počet druhů mincí, nebo použijte automat na sušenky z 1. stupně.\n\nOblékání (PL 10.5): obrázek znázorňuje proces oblékání — zkontrolujte, zda je správně, a zdůvodněte. Šipka znamená podmíněnou následnost (nejdřív nátělník, pak triko); ponožky jsou na spodním prádle nezávislé. Podle schématu si kalhoty navléknu až po triku a čepici až úplně nakonec — obecně chybu určit nelze, každý posoudí podle svých zvyklostí.\n\nRozšíření — nejlevnější letenka (PL 10.6): jste internetový automat a hledáte nejlevnější spojení Praha–New Orleans podle cen mezi destinacemi. Nejlevnější PRG–PAR–JFK–MSY za 14 200 Kč (s jedním přestupem PRG–JFK–MSY 14 300 Kč). Postup odzadu: pro každé město si zapamatuj nejlevnější cestu do cíle.\n\nAlternativa: nejrychlejší vlakové spojení mezi dvěma městy — žáci si ho pak ověří na idos.cz.",
+  "files": [
+    {
+      "label": "List 10.4 — automat na limonádu (vzorové řešení pro učitele)",
+      "href": "/informatika-soubory/imysleni/zi2-10-4-automat-reseni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 10.5 — proces oblékání",
+      "href": "/informatika-soubory/imysleni/zi2-10-5-oblekani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 10.6 — ceny letenek",
+      "href": "/informatika-soubory/imysleni/zi2-10-6-letenky.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 43–45 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=43",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

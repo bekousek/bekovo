@@ -1,0 +1,49 @@
+{
+  "id": "data-zi2-orientovane-grafy-vylet",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Orientované grafy: převody jednotek a výlet s lanovkou",
+  "description": "Žáci si nakreslí graf na převody jednotek objemu a spočítají, kolika různými trasami může Liliana vzít studenty na Cípovou horu a zpět.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "orientovaný graf",
+    "kombinatorika",
+    "dekompozice",
+    "převody jednotek",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí orientovaného grafu řeší problém a využije dekompozici.",
+  "materials": [
+    "Pracovní list 10.2 — výlet na Cípovou horu (PDF níže)"
+  ],
+  "procedure": "Graf na převody: vytvořte graf, který pomůže převádět jednotky objemu (mm³, cm³, dm³, m³, km³, ml, cl, dl, l, hl). Jednodušší: jen duté míry; zajímavá je i obsah nebo čas. Nesměřujte k jednotné podobě — každý má mít model, který mu opravdu pomáhá; kontrolujte obsah.\n\nVýlet s lanovkou (PL 10.2): z domova do Bohdanova vedou tři cesty, z Bohdanova na Cípovou horu dvě (všechny oběma směry) a dolů jezdí lanovka, která nahoru turisty nebere. Liliana nechce jít nikdy dvakrát stejnou cestou. Kolik různých tras tam a zpět má? Řešení 24 = 6 (cesty A–B tam a zpět) × 4 (B–C tam a zpět).\n\nChcete-li zdůraznit potřebu grafického modelu, zadání jen diktujte. Je-li úloha těžká, nabalujte „kouli“: nejdřív jen uzly B a C s cestami IV a V, pak přidejte lanovku, pak uzel A s cestou I a zkoumejte, o kolik tras přibylo, pak cestu II… To je dekompozice.\n\nShrnutí: Vztah mezi dvěma prvky nemusí být obousměrný — hranu pak opatříme šipkou, která určuje přípustný směr.",
+  "files": [
+    {
+      "label": "Pracovní list 10.2 — výlet na Cípovou horu",
+      "href": "/informatika-soubory/imysleni/zi2-10-2-cipova-hora.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 42–43 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=42",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-cteme-ze-sportovni-tabulky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Čteme ze sportovní tabulky",
+  "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/2-data-priklad-1",
+  "description": "Pět otázek nad tabulkou skupiny mistrovství: kdo vyhrál, proč Maďarsko ne, kdo s kým remizoval — odpovědi nejsou vidět na první pohled.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "tabulka",
+    "vyhodnocení dat",
+    "sport",
+    "tabulkový kalkulátor",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhodnotí data s vědomým odůvodněním a pomocí základních výpočtů z nich získá nové informace.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Před prací: Čím se liší tento typ tabulky od křížové tabulky z úlohy Doplňujeme sportovní tabulku? Lze něco říct o výsledcích? Tabulky nesou typově stejná data (výhry, remízy, prohry) v jiné podobě a odpovídají na jiné otázky.\n\nOtázka 1: odpověď je zřejmá, ale ať ji žáci nejdřív zapíšou, ne vykřikují. Pak: Jak jste na ni přišli? Proč Maďarsko skupinu nevyhrálo? (V zápasech rozhodují góly, na konci se ale řadí podle bodů.)\n\nDalší otázky kombinují víc kritérií. K řešení použijte tabulkový kalkulátor, nebo aspoň papír a tužku — první varianta podpoří práci s digitálními daty, druhá porozumění. U každé otázky je nápověda.\n\nOtázky projděte postupně společně, tabulka je pro mnoho žáků nová. Řešení si mohou připravit i doma.\n\nNávaznost: po Doplňujeme sportovní tabulku, následuje Tabulka s ovocem.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/cteme-ze-sportovni-tabulky-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/2-data-priklad-1"
+  },
+  "added": "2026-09-29"
+}

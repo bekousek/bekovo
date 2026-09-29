@@ -1,0 +1,52 @@
+{
+  "id": "data-zi2-blatov",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Blátov: vydlážděte cesty co nejlevněji",
+  "description": "Město Blátov chce vydláždit jen tolik cest, aby se suchou nohou došlo od každého domku ke každému — a pak co nejlevněji. Česká úprava úlohy o minimální kostře grafu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "graf",
+    "kostra grafu",
+    "minimální kostra",
+    "Kruskal",
+    "Blátivé město",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák najde kostru grafu a minimální kostru a popíše postup, jakým řešení hledal.",
+  "materials": [
+    "Pracovní list 9.8 — plán Blátova (PDF níže)",
+    "Případně žetony nebo papírové čtverečky na „dlaždice“"
+  ],
+  "procedure": "Blátov (PL 9.8): v plánu je vidět, kolik dlaždic by bylo potřeba na každou cestu (mosty se nepočítají). Rada starších šetří — vydláždí se jen tolik, aby se z každého domku dalo dojít do každého suchou nohou (i když ne nejkratší cestou) a nevznikla okružní cesta. Navrhněte řešení, případně najděte všechna.\n\nÚloha má víc řešení. Důležité je, aby žáci formulovali postup, jak řešení hledali. Z informatického hlediska jde o hledání kostry grafu — žákům to ale neříkejte, informace je pro vás.\n\nRozšíření: Rada starších nakonec chce ušetřit co nejvíc — hledá řešení s nejmenším počtem dlaždic (minimální kostra). V učebnici je jedno z možných řešení.\n\nPostup, který můžete s žáky objevit: nejdřív označte nejkratší cesty, ale vždy zkontrolujte, zda by nevznikla okružní cesta. Když jsou nejkratší vyčerpány nebo vyřazeny, vezměte druhé nejkratší — a tak dál, dokud nejsou propojeny všechny domky (Kruskalův algoritmus).\n\nShrnutí: Pro řešení některých úloh potřebuju v grafu znát třeba vzdálenosti — číslem ohodnotím hranu. Takový graf se hodí k hledání nejkratší cesty i nejlevnějšího propojení všech míst (elektřina, vodovod, internet).",
+  "files": [
+    {
+      "label": "Pracovní list 9.8 — plán Blátova",
+      "href": "/informatika-soubory/imysleni/zi2-9-8-blatov.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 40–41 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=40",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}

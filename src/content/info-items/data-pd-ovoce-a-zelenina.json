@@ -1,0 +1,45 @@
+{
+  "id": "data-pd-ovoce-a-zelenina",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Ovoce a zelenina: tabulka a graf ve dvojici",
+  "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/30-porovnavame-priklad-6",
+  "description": "Ve dvojici jeden doplní tabulku podle grafu, druhý popisky grafu podle tabulky — a navzájem se kontrolují dřív než Datík.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    5
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "graf",
+    "tabulka",
+    "porovnání modelů",
+    "práce ve dvojici",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák porovná tabulku a graf jako dva modely téže skutečnosti a doplní chybějící data.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Představují moje tabulka a graf totéž? (Stejné počty a hodnoty, v tabulce chybí barvy, v grafu popisky.) Co bude prostředníkem při doplňování tabulky? (Porovnání čísla s výškou sloupce.) A při doplňování grafu? (Nejspíš barva.) Chtějte zdůvodnění.\n\nVe dvojicích: dohodnou se, kdo doplní tabulku a kdo graf. Každý zkontroluje toho druhého dřív, než nechají výsledek vyhodnotit Datíkem. Pozor, v bodovém grafu může hodnota odpovídat spíš horní hranici bodu než středu.\n\nPříklad 2: do tabulky se doplňují čísla; v seznamech je víc hodnot, než je položek. Záleží na pořadí kroků při doplňování?\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: po Barvách (spíš na začátku další hodiny), na závěr 1. stupně Bludiště.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/ovoce-a-zelenina-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/porovnavame-a-dokazeme-prezentovat/30-porovnavame-priklad-6"
+  },
+  "added": "2026-09-29"
+}

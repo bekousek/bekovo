@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-odevzdavani-obrazku",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Odevzdávání obrázků: co mezi ostatní nepatří?",
+  "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/24-kontrolujeme-priklad-3",
+  "description": "Datík má odevzdat obrázky jedné kategorie — žáci najdou ten, který mezi ostatní nepatří, a celou větou zdůvodní proč.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "20 min",
+  "keywords": [
+    "kontrola dat",
+    "chyba",
+    "třídění",
+    "zdůvodnění",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák nalezne chybu v evidenci obrazových dat, odhalí klíč třídění a zdůvodní svou odpověď.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Nejdřív společně: promítněte obrázky a přečtěte zadání. Třída se musí shodnout na jediném obrázku; odpověď napište celou větou podle diktátu a rozeberte ji (pes je zvíře, ale ne lesní).\n\nPříklad 1 samostatně: výběr lze měnit, dokud žák nestiskne Zkontrolovat; zdůvodnění píšou celou větou a potvrdí.\n\nDiskuse: Vybrali jste dobře? Přihlaste se, kdo vybíral mezi rostlinami (hospodářskými, lesními, domácími, africkými zvířaty) a přečtěte zdůvodnění. Kdo udělal chybu a nebojí se přihlásit? Automatická kontrola je jen první krok — pro informatické myšlení je podstatné zdůvodnění.\n\nKaždý žák má jiná, náhodně vylosovaná data — při promítání na to upozorněte. Stejné zadání s různými daty je výhoda: porovnávejte ve třídě četnosti a rozložení.\n\nNávaznost: předchází Příklad 1 z úlohy Vytvoření tabulky; ve stejné hodině navazuje Škytavka.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/odevzdavani-obrazku-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/kontrolujeme-data/24-kontrolujeme-priklad-3"
+  },
+  "added": "2026-09-29"
+}

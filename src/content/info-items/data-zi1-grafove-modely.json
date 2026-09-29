@@ -1,0 +1,56 @@
+{
+  "id": "data-zi1-grafove-modely",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Grafy kolem nás: rodokmen, mapa vesnice a vlaky",
+  "description": "Žáci kreslí vztahy postav, rodokmen a schematickou mapku vesnice, hledají v ní cesty a nakonec nejrychlejší vlakové spojení.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "graf",
+    "vrcholy",
+    "hrany",
+    "rodokmen",
+    "nejkratší cesta",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák pomocí grafu (vrcholů a hran) znázorní vztahy mezi objekty a hledá v něm cesty.",
+  "materials": [
+    "Pracovní listy 7.6 a 7.8 (PDF níže)"
+  ],
+  "procedure": "Postavy z knížky: vypište hlavní postavy knížky, kterou právě čtete, a znázorněte, jaký mají mezi sebou vztah. Alternativa: film, seriál, nebo mapa místa děje.\n\nZvídavá otázka: Jak přehledně a graficky znázornit pojmy a vztahy mezi nimi? Slova umístím do prostoru (vrcholy) a spojím čarami (hrany), pokud mají vztah; čáry mohu popsat. Kreslím jen důležité věci.\n\nRodokmen do třetího pokolení: rozmyslet, u koho začít a jak rozmístit osoby. V rodokmenu rozlišujeme i typy vazeb (manželé vodorovně, sourozenci „vidlicí“, rodiče a děti svisle). Je-li téma rodiny pro někoho citlivé, dělá rodokmen českého panovníka.\n\nMapka vesnice: cesta vede mezi školou a knihovnou; knihovnu spojuje jedna cesta s obecním úřadem a druhá s kostelem; z obchodu vedou cesty na úřad, do školy a do knihovny. Řešení vypadají různě — proberte, co je důležité a co vynechat (domky, tvar cest). Rozmístění vrcholů nehraje roli, pokud hrany vedou správně.\n\nHledáme cesty (PL 7.6): Může starosta dojít z úřadu do školy přímo? (Ne.) Dostanu se z kostela do obchodu nejvýš po třech cestách? (Ano, po dvou.) Kolika způsoby se dostanu z knihovny na úřad, když každou cestou i místem projdu nejvýš jednou? (Třemi.)\n\nRozšíření (PL 7.8): Jakou nevýhodu má takové schéma? Chybí délka či doba cesty. Na části železniční sítě s jízdními dobami najděte nejrychlejší spojení z Tanvaldu do Libuně bez započítání přestupů a s 5 minutami na každý přestup. Model zjednodušuje realitu — se zvídavými žáky jeho nedokonalosti rozeberte.\n\nShrnutí: Pro znázornění vztahů mezi objekty se hodí grafy. Skládají se z vrcholů (uzlů) a spojnic (hran) a umožňují v nich hledat například cesty.",
+  "files": [
+    {
+      "label": "Pracovní list 7.6 — otázky k mapce vesnice",
+      "href": "/informatika-soubory/imysleni/zi1-7-6-mapa-vesnice.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 7.8 — železniční síť",
+      "href": "/informatika-soubory/imysleni/zi1-7-8-zeleznicni-sit.pdf",
+      "type": "pdf",
+      "note": "Rozšiřující aktivita."
+    },
+    {
+      "label": "Učebnice, str. 29–32 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=29",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

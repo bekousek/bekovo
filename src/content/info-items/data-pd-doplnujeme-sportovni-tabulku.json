@@ -1,0 +1,46 @@
+{
+  "id": "data-pd-doplnujeme-sportovni-tabulku",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "co-je-informace",
+  "title": "Doplňujeme sportovní tabulku",
+  "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/4-data-priklad-2",
+  "description": "Žáci do křížové tabulky turnaje přetahují názvy států, zkratky, vlajky a skóre — kombinují textová, obrazová a číselná data.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "tabulka",
+    "typy dat",
+    "sport",
+    "křížová tabulka",
+    "Práce s daty",
+    "Datík",
+    "imyšlení"
+  ],
+  "language": "cs",
+  "goal": "Žák rozliší různé typy dat a umístí je na správné místo v tabulce.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (u některých kroků dvojice)",
+    "Projektor pro společnou práci"
+  ],
+  "procedure": "Příklad 1 — před prací: Kolika způsoby jsou státy v tabulce prezentovány (název, vlajka, zkratka)? Proč je užitečné mít v záhlaví sloupců jen zkratky? Každý způsob ať řekne jiný žák. Pak žáci samostatně přetahují data; chybně umístěná jdou přesouvat, dokud není tabulka plná.\n\nPříklad 2 — před prací: Proč je na úhlopříčce X? (Týmy nehrály samy se sebou.) Co znamenají čísla před a za dvojtečkou a komu patří? Ptejte se na konkrétní skóre nad i pod úhlopříčkou.\n\nPříklad 3: vyhodnocení je odložené — s daty lze manipulovat, dokud není tabulka zaplněná.\n\nNespěchejte a projděte všechny otázky — jen tak jde o uvědomělou činnost, ne o klikání.\n\nNávaznost: po úloze Grafování, v další hodině Čteme ze sportovní tabulky.",
+  "files": [
+    {
+      "label": "Metodika k úloze (PDF)",
+      "href": "/informatika-soubory/imysleni/prace-s-daty/doplnujeme-sportovni-tabulku-metodika.pdf",
+      "type": "pdf",
+      "note": "Otázky do diskuse, pokyny a očekávané odpovědi. Úlohu lze na webu také stáhnout pro práci offline."
+    }
+  ],
+  "source": {
+    "label": "Práce s daty — ZČU v Plzni (projekt imyšlení)",
+    "url": "https://pracesdaty.zcu.cz/index.php/co-jsou-data/4-data-priklad-2"
+  },
+  "added": "2026-09-29"
+}

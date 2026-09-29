@@ -1,0 +1,49 @@
+{
+  "id": "hardware-zi1-pocitac-a-sit",
+  "categoryId": "hardware",
+  "title": "Počítač a síť: zařízení, propojení a přihlašování",
+  "description": "Žáci porovnávají desktop, notebook, tablet a mobil, kreslí propojená zařízení doma, přiřazují kartičky zařízení–činnost–parametr a řadí způsoby přihlášení podle bezpečnosti.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "počítač",
+    "zařízení",
+    "síť",
+    "přihlášení",
+    "periferie",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vede rozhovor o počítači alespoň na úrovni občasného uživatele.",
+  "materials": [
+    "Pracovní list 11.5 — kartičky k rozstříhání, jedna sada na skupinu (PDF níže)"
+  ],
+  "procedure": "Zvídavá otázka: Na co se hodí počítač a podobná zařízení? Zábava, práce, učení — brainstorming neomezujte. Ať zazní, že počítač usnadňuje činnosti a dá se na něm tvořit. Málo zkušení žáci? Zahrajte variantu hry „Všechno lítá, co peří má“.\n\nPorovnání zařízení: ve čtveřicích porovnejte jednu dvojici (desktop, notebook, tablet, chytrý telefon) — v čem se liší a shodují. Každá čtveřice dostane jen jednu dvojici. Charakteristiky: velikost a váha, počet dílů, napájení a výdrž, přenositelnost, použitelnost na konkrétní činnosti.\n\nZvídavá otázka: Která zařízení máte doma propojená a jak? Konzole k televizi přes HDMI, mobil k notebooku přes USB či Bluetooth, pračky s NFC… Namaluj schematický plánek propojených zařízení v bytě. Pozor: úkol může být nepříjemný pro děti z ekonomicky slabších rodin nebo rodin, které si střeží soukromí.\n\nKartičky (PL 11.5): čtyři skupiny si udělají místo na zemi či spojených lavicích a přiřazují k sobě zařízení (monitor, sluchátka, kamera, tiskárna), jeho činnost a parametry (úhlopříčka v palcích, rozlišení, rychlost tisku…). Prázdná pole jsou jen kvůli stejné velikosti kartiček. Tabulku lze poskládat i jinak a nemusí to být špatně.\n\nRozšíření: Kolik uživatelů může pracovat na jednom počítači a jak je rozezná? Uživatelské profily a ověření identity. Napiš pod sebe způsoby ověření od nejméně po nejvíce bezpečný: bez hesla, rozpoznání obličeje, gesto, PIN, heslo, otisk prstu — a zdůvodni.\n\nShrnutí: Pod pojmem počítač je víc typů zařízení — jednoúčelových i univerzálních. Počítač se dá propojit s dalšími zařízeními do různě velké soustavy; každá součást má svůj účel a vlastnosti, podle kterých ji vybíráme.",
+  "files": [
+    {
+      "label": "Pracovní list 11.5 — kartičky zařízení, činností a parametrů",
+      "href": "/informatika-soubory/imysleni/zi1-11-5-karticky-zarizeni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 44–46 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=44",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "kodovani-zi1-kreslena-ticha-posta",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Proč si informace zapisujeme: kreslená tichá pošta",
+  "description": "Věta se střídavě překresluje do obrázku a zpátky do věty — na konci žáci porovnají, co z informace zbylo.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "zaznamenání informace",
+    "tichá pošta",
+    "text",
+    "obrázek",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí, že zapsaná informace se dá uchovat i předat, a porovná předání textem a obrázkem.",
+  "materials": [
+    "Čistý papír pro každého žáka",
+    "Tužky"
+  ],
+  "procedure": "Zvídavá otázka: Proč si vůbec některé informace zapisujeme? Abychom je nezapomněli a mohli je předat. Vyjděte z běžných situací — jak nezapomenu na úkol, jak si pamatuju zážitky z tábora.\n\nNa co si vzpomeneš? Žáci si zapíší odpovědi: 1) Koho jsi dnes ve škole potkal(a) jako prvního? 2) Dostal(a) jsi dnes úkol na doma (z čeho a jaký)? 3) Co musíš odpoledne doma udělat jako první? Při rozboru se ptejte, jak těžké bylo si vzpomenout a podle čeho si to pamatují.\n\nZvídavá otázka: Jak můžeme informaci předat někomu jinému a jaké to má (ne)výhody? Vyprávění potřebuje člověka vedle sebe, na dálku potřebujeme prostředníka (telefon). Porovnejte také informaci na papíře a v digitální podobě, obrázek a text.\n\nKreslená tichá pošta: každý napíše na horní řádek papíru větu, kdy, kde a s kým byl naposledy na výletě, a podá papír dál. Soused podle věty nakreslí obrázek a větu zahne, aby nebyla vidět. Další podle obrázku napíše větu a obrázek zahne… Po 4–6 předáních rozbalte a porovnejte první a poslední větu.\n\nTipy: směr předávání určete jmenovitě (jinak vznikne zmatek) a případně stanovte čas na jeden záznam, protože každý kreslí jinak rychle. Hru není nutné dohrát kolem celé třídy. Pokud můžete některé papíry promítnout, rozeberte, kde a proč se informace zkreslila — špatně nakreslený obrázek, nebo chybná asociace?",
+  "files": [
+    {
+      "label": "Učebnice, str. 11–12 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-1-stupen.pdf#page=11",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 1. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-1-stupen-zs.html"
+  },
+  "added": "2026-09-29"
+}

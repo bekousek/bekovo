@@ -1,0 +1,52 @@
+{
+  "id": "data-zi2-paralelni-cinnosti",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "modely",
+  "title": "Paralelní činnosti: linka na plnění moštu",
+  "description": "Žáci divadelně zahrají provoz dvou linek na plnění a zátkování lahví a pak posouvají korálky po modelu (Petriho síti), aby viděli, jak probíhá.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "1–3 × 45 min",
+  "keywords": [
+    "paralelní činnosti",
+    "Petriho síť",
+    "simulace",
+    "model",
+    "dramatizace",
+    "unplugged",
+    "imyšlení",
+    "Základy informatiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří a interpretuje model, ve kterém probíhá současně více činností.",
+  "materials": [
+    "Pracovní list 11.3 — model provozu (PDF níže)",
+    "Malé korálky nebo žetony pro každou dvojici"
+  ],
+  "procedure": "Kapitola je náročnější — doporučujeme ji jako nadstavbu nebo máte-li dost času (učebnice počítá s 3 hodinami). Žáci, kteří programují ve Scratchi, se s paralelními činnostmi potkávají běžně (víc postav najednou).\n\nZvídavá otázka: V reálu často probíhá víc činností najednou — po tratích jezdí víc vlaků a nesmí se srazit. Jak to namodelovat? Potřebujeme značky, které se v grafu pohybují současně. Ukažte mapu polohy vlaků (např. provoz.spravazeleznic.cz).\n\nScénka: v provozu plní jedna linka lahve moštu v bednách, vozík je odveze do meziskladu, a když je druhá linka volná, jiný vozík bednu převeze k zátkování. Znázorněte situaci divadelně, třeba ve třech skupinách. Už při přípravě musí žáci pojmenovat, co budou hrát (bedna, vozík, plnička…). Pokud se sami nezeptají, jak linka pozná, že může dát další bednu, zeptejte se vy.\n\nModel (PL 11.3): ve dvojicích posouvejte korálky (tokeny) po modelu provozu a simulujte, jak funguje. Model záměrně nevytváříme — cílem je zkušenost s pochopením cizího modelu. Pak proberte, co která část znamená, k čemu jsou stavy „hotovo“ a co se děje na černých obdélnících.\n\nShrnutí: Pro zobrazení některých činností potřebuju obdobu grafů, kde vrcholy jsou stavy a hrany přechody (automaty). Paralelní jevy už statický model nezachytí. Další úlohy s Petriho sítěmi a prezentace najdete v závěrečné práci J. Berkiho (odkaz v učebnici).",
+  "files": [
+    {
+      "label": "Pracovní list 11.3 — model plnění a zátkování lahví",
+      "href": "/informatika-soubory/imysleni/zi2-11-3-linka-na-most.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Učebnice, str. 46–47 — metodika s obrázky a řešením",
+      "href": "/informatika-soubory/imysleni/zaklady-informatiky-2-stupen.pdf#page=46",
+      "type": "pdf",
+      "note": "Celá učebnice (licence CC BY-SA 4.0), otevře se na začátku kapitoly."
+    }
+  ],
+  "source": {
+    "label": "Základy informatiky pro 2. stupeň ZŠ — J. Berki, J. Drábková (TU Liberec, imyšlení)",
+    "url": "https://archiv-imysleni.npi.cz/ucebnice/zaklady-informatiky-pro-zakladni-skoly.html"
+  },
+  "added": "2026-09-29"
+}
