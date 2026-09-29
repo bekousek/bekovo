@@ -1,0 +1,38 @@
+{
+  "id": "bezpecnost-itcko-stroopuv-efekt",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Zákeřný Stroopův efekt a klamavá tlačítka",
+  "description": "Přečíst slovo „ČERVENÁ“ napsané modře je snadné, pojmenovat barvu písma už ne. Na tomto efektu žáci pochopí, jak nás zmatou tlačítka v dialozích, cookies lištách a na podvodných webech.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "Stroopův efekt",
+    "dark patterns",
+    "cookies",
+    "rozhraní",
+    "manipulace",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše, jak rozhraní a podvodníci zneužívají automatické reakce, a ví, že má číst, na co kliká.",
+  "materials": [
+    "Barevně vytištěné názvy barev (shodné i neshodné s barvou písma)",
+    "Ukázky dialogových oken a cookies lišt"
+  ],
+  "procedure": "Byli jste někdy frustrovaní z toho, jak je program navržený? Klikáte na webu vždy uváženě?\n\nNechte žáky rychle číst názvy barev napsané odpovídající barvou. Pak slova, jejichž barva nesedí, a úkol pojmenovávat barvu písma, ne slovo. Proč je to těžší?\n\nPřeneste do online světa: zelené tlačítko bereme jako „OK“, oranžové jako varování. Když designér prohodí barvy nebo pořadí (uložit × zavřít bez uložení), lidé se ukvapí. Totéž dělají cookies lišty a weby lákající ke stažení malwaru.\n\nUkažte reálné příklady dialogů. Kde jste se už nachytali? Kde ještě se s podobnými triky setkáváme (cenovky v obchodech, reklamy)?",
+  "files": [],
+  "source": {
+    "label": "ITčko, leden 2023 (roč. 1, č. 5), s. 11 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

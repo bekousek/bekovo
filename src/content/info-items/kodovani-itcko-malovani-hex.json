@@ -1,0 +1,37 @@
+{
+  "id": "kodovani-itcko-malovani-hex",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Malování kódem: šestnáctková soustava",
+  "url": "https://codeweek.eu/resources/CodingAtHome/turning-code-into-pictures",
+  "description": "Z kartiček 8-4-2-1 žáci odvodí číslice 0–F a pak podle hexadecimálních kódů vybarvují řádky mřížky 8 × 8 — vznikne srdce, písmena a vlastní obrázky.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "šestnáctková soustava",
+    "hexadecimální",
+    "pixely",
+    "CodeWeek",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák pochopí princip hexadecimálního kódování a použije ho k zakódování a dekódování obrázku.",
+  "materials": [
+    "Mřížky 8 × 8 (čtverečkovaný papír)",
+    "Pastelky"
+  ],
+  "procedure": "Na tabuli čtyři čtverečky s hodnotami 8, 4, 2, 1. Vybarvením vzniknou čísla (3 = 2 + 1, 9 = 8 + 1). Společně vybarvěte všechna čísla 0–15.\n\nDvojmístná čísla se pro kód nehodí — nahraďte 10–15 písmeny A–F. Kód je hotový.\n\nŘádek mřížky 8 × 8 zapíšeme dvěma šestnáctkovými znaky (levá a pravá polovina). Žáci vybarvují podle zadaných kódů a vznikne srdce; pak luští další obrázky (třeba písmena), těžší varianta bez vybarvování jen v představě.\n\nVe dvojicích vytvoří vlastní obrázek, zapíšou kódy a vymění si je s jinou dvojicí.\n\nZajímavost: barvy na obrazovce se zapisují stejně — #FF0000 je červená, každá složka R, G, B má dvě šestnáctkové číslice.",
+  "files": [],
+  "source": {
+    "label": "CodeWeek — A. Bogliolo, Turning code into pictures (představeno v ITčku, duben 2025 (roč. 3, č. 8), s. 6)"
+  },
+  "added": "2026-09-29"
+}

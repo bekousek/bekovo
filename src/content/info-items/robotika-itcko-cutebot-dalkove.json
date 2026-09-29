@@ -1,0 +1,39 @@
+{
+  "id": "robotika-itcko-cutebot-dalkove",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Cutebot na dálkové ovládání",
+  "description": "Dvojice naprogramuje z jednoho micro:bitu ovladač a z druhého přijímač v cutebotovi a projede slalom. Řešení je mnoho — a jedna hodina obvykle nestačí.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "1–2 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "cutebot",
+    "rádio",
+    "dálkové ovládání",
+    "projekt",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví vysílač a přijímač a vyladí program tak, aby vozítko projelo dráhu.",
+  "materials": [
+    "Dvojice: 2× micro:bit, kabel, cutebot, počítač"
+  ],
+  "procedure": "Navazuje na rádiový projekt Nálada: vysílač a přijímač na stejném kanálu, jiném než ostatní dvojice.\n\nRole řidič a hlídač. Dvojice se dohodne, jak řídit: A a B mění poměr rychlostí kol pro zatáčení, přidá se couvání, jízda rovně a „zastavit auto“.\n\nPřijímač: cyklus s podmínkami podle přijaté hodnoty. Osvědčilo se psát vysílač i přijímač do jednoho programu a nahrát ho do obou micro:bitů.\n\nLadění: robot se stáčí do strany (kompenzace rychlostí), ovladač napájejte z USB notebooku. Řízení náklonem ať žáci klidně vyzkoušejí — je to slepá ulička, na kterou mají přijít sami. Do práce týmů zasahujte co nejmíň.\n\nZávod na čas: rozhoduje program i šikovnost řidiče.",
+  "files": [],
+  "source": {
+    "label": "Václav Fišer a Hana Šandová, seriál o micro:bitu v ITčku (představeno v ITčku, prosinec 2024 (roč. 3, č. 4), s. 10)"
+  },
+  "added": "2026-09-29"
+}

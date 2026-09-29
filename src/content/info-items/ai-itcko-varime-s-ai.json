@@ -1,0 +1,34 @@
+{
+  "id": "ai-itcko-varime-s-ai",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Vaříme s umělou inteligencí: jak kontext mění odpověď",
+  "description": "Stejná otázka „Co mám uvařit?“ dá jinou odpověď, když chatbot ví, že „vařím ve školní jídelně“, nebo že „mám v lednici pesto a těstoviny“. Žáci porovnávají a kriticky hodnotí odpovědi.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "chatbot",
+    "prompt",
+    "kontext",
+    "kritické myšlení",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák použije chatbota k řešení běžného problému a kriticky zhodnotí jeho odpovědi.",
+  "materials": [
+    "Chatbot, ke kterému má škola přístup odpovídající věku žáků (případně promítá učitel)"
+  ],
+  "procedure": "V ITčku se chatbot ovládá přes API v aplikaci Postman — to je zbytečně složité. Stačí běžné chatovací rozhraní: na začátek konverzace žáci napíšou roli či situaci, pak položí stejnou otázku.\n\nPorovnejte odpovědi na „Poraď mi, co mám uvařit“ pro „Vařím ve školní jídelně“ × „Učím se vařit jednoduchá jídla“ × „V lednici mám pesto a ve spíži těstoviny“.\n\nOtázky: Čím se odpovědi liší? Dá se podle nich opravdu vařit? Co je potřeba upřesnit? Jaká je jazyková úroveň, tyká, nebo vyká, povzbuzuje, nabízí další pomoc?\n\nHravé obměny: „vařím ve špičkové restauraci“, „vařím ve škole kouzel v Bradavicích“. Na závěr etika: kde AI pomáhá a kde má meze.",
+  "files": [],
+  "source": {
+    "label": "ITčko, květen 2023 (roč. 1, č. 9), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "kodovani-itcko-morseovka-vlastiveda",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Morseova abeceda ve vlastivědě",
+  "description": "Žáci luští v Morseově abecedě odpovědi na otázky o České republice, sami přijdou na obrázkové varianty zápisu a zašifrují vlastní „české NEJ“.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Morseovka",
+    "šifry",
+    "vlastivěda",
+    "pracovní list",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák se seznámí s Morseovou abecedou a dešifruje i zašifruje krátké sdělení.",
+  "materials": [
+    "Pracovní list DigiKoalice (odkaz níže)"
+  ],
+  "procedure": "Kde se Morseovka používá dnes? (Radioamatéři, skauti, stopovačky.) Rozdejte pracovní list a vysvětlete systém.\n\nPrvní šifru — název řeky — žáci vyřeší sami a porovnají. U dalších šifer nepoužívají tečky a čárky, ale obrázky: ať sami objeví, že jde pořád o Morseovku.\n\nKaždý vyhledá nějaké české NEJ z vlastivědy a zašifruje odpověď (tečky a čárky, nebo vlastní obrázky). Šifry si vymění.\n\nPomůcka: slova, kde dlouhá slabika je čárka a krátká tečka (A = a-kát). Sdělte téma příští hodiny Morseovkou.",
+  "files": [
+    {
+      "label": "Pracovní list Šifrování (DigiKoalice)",
+      "href": "https://digikoalice.cz/pracovni-list-codeweek-sifrovani/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "ITčko, duben 2023 (roč. 1, č. 8), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

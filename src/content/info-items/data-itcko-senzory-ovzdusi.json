@@ -1,0 +1,68 @@
+{
+  "id": "data-itcko-senzory-ovzdusi",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Data ze senzorů ovzduší: kouř, saharský prach a ohňostroje",
+  "url": "https://www.csvplot.com/",
+  "description": "Otevřená data amatérské sítě Sensor.Community: žáci nahrají CSV do online grafu a sledují, jak se nad Českem šířil kouř z požáru v Českém Švýcarsku, saharský prach nebo znečištění z novoročních ohňostrojů.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "otevřená data",
+    "CSV",
+    "graf",
+    "PM10",
+    "PM2,5",
+    "senzory",
+    "mapa",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vymezí problém, zpracuje reálná data do grafu, najde maxima a vysvětlí jejich příčinu.",
+  "materials": [
+    "Datové sady (odkazy níže)",
+    "Online nástroj CSV Plot",
+    "Mapa senzorů maps.sensor.community"
+  ],
+  "procedure": "Vyberte jednu událost: kouř z požáru v Českém Švýcarsku (26. 7. 2022), saharský prach (29. 3.–2. 4. 2024), nebo Silvestr 2023. Nejdřív objasněte pojmy PM10 a PM2,5, šíření na dálku, směr větru.\n\nStáhněte a rozbalte data, soubor jednoho senzoru či města nahrajte do CSV Plot. Na osu X čas (timestamp), na osu Y koncentraci (P1 = PM10, P2 = PM2,5).\n\nPožár: pro každý senzor určete čas a hodnotu prvního maxima a zapište do mapy — uvidíte, kudy kouřová vlečka postupovala. Sahara: jak dlouho prach přecházel, kdy koncentrace klesly a proč? Ohňostroje: kdy byla koncentrace nejvyšší a kdy se vzduch vyčistil?\n\nDiskutujte zdravotní dopady jemných částic, u ohňostrojů i hluk a zvířata. Ohňostroje zařaďte před Silvestrem — třeba to ovlivní nákup pyrotechniky.\n\nPro starší: Python skript od senzorvzduchu.cz stáhne data z libovolného senzoru.",
+  "files": [
+    {
+      "label": "Pojmy k požáru — pracovní list (Senzory do škol)",
+      "href": "https://www.senzorydoskol.cz/wp-content/uploads/2022/09/pojmy_pozar.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Data: požár České Švýcarsko 2022 (ZIP)",
+      "href": "https://www.senzorydoskol.cz/wp-content/uploads/2022/09/data_sensor.community.zip",
+      "type": "other"
+    },
+    {
+      "label": "Mapa s vyznačeným požárem a senzory",
+      "href": "https://www.senzorydoskol.cz/wp-content/uploads/2022/09/prechod_koure_pozar_CeskeSvycarsko.jpg",
+      "type": "image"
+    },
+    {
+      "label": "Data: saharský prach 2024 (ZIP)",
+      "href": "https://senzorvzduchu.cz/wp-content/uploads/2025/01/dataset-sahara.zip",
+      "type": "other"
+    },
+    {
+      "label": "Data: Silvestr 2023, 20 měst (ZIP)",
+      "href": "https://senzorvzduchu.cz/wp-content/uploads/2024/09/mesta-senzory_csv.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Michael Lažan, Senzory do škol / senzorvzduchu.cz; další díly v ITčku 11/2024 a 3/2025 (představeno v ITčku, listopad 2022 (roč. 1, č. 3), s. 9)"
+  },
+  "added": "2026-09-29"
+}

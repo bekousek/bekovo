@@ -1,0 +1,39 @@
+{
+  "id": "bezpecnost-itcko-kdo-je-sara",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Kdo je Sára? Digitální stopa a OSINT",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/kyberbezpecnost-01-kdo-je-sara-digitalni-stopa-osint/",
+  "description": "Sára je fiktivní postava s blogem a instagramem. Žáci z veřejně dostupných informací, metadat fotek a vyhledávání obrázkem rekonstruují její život — a pak přemýšlejí, co by šlo zjistit o nich.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "digitální stopa",
+    "OSINT",
+    "metadata",
+    "sociální sítě",
+    "soukromí",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná digitální stopu, použije metody OSINT a reflektuje rizika sdílení informací.",
+  "materials": [
+    "Počítač/tablet pro dvojici",
+    "Pracovní list s otázkami, videa k FotoForensics a vyhledávání obrázkem (vše zdarma na webu AI dětem)"
+  ],
+  "procedure": "Evokace: Máte účty na sociálních sítích? Co o sobě sdílíte? Sdílejí o vás něco jiní (rodiče, kamarádi) a se souhlasem? Sdílení není jen fotka — i poloha, reakce, komentáře, data z hodinek, herní statistiky, recenze, playlisty.\n\nUvědomění: dvojice dostanou odkaz na Sářin blog, pracovní list a krátká videa o metadatech (FotoForensics) a vyhledávání obrázkem. Za 20 minut odpovídají na otázky — od jednoduchých (celé jméno) po ty, kde je třeba metadata, mapy a souvislosti. Nemusí zodpovědět vše, mají spolupracovat.\n\nReflexe: Které otázky byly těžké? Z jakých zdrojů jste čerpali? Co vás překvapilo? Co by šlo zjistit o vás? Tipy, jak se chránit.\n\nUčitel má k dispozici celý Sářin příběh s odpověďmi — lze ho přečíst nebo vyvěsit.",
+  "files": [],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, květen 2025 (roč. 3, č. 9), s. 13)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

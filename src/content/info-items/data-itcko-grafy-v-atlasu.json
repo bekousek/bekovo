@@ -1,0 +1,36 @@
+{
+  "id": "data-itcko-grafy-v-atlasu",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Grafy v akci: data ze školního atlasu",
+  "description": "Žáci porovnávají v atlasu velikosti států, délky řek a lidnatost, z tabulky v atlasu nakreslí sloupcový graf a hledají grafy kolem sebe.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "sloupcový graf",
+    "atlas",
+    "porovnávání",
+    "zeměpis",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák si všímá grafických prvků v různých sděleních a sám graf vytvoří.",
+  "materials": [
+    "Školní atlasy",
+    "Čtverečkovaný papír",
+    "Případně tabulkový editor"
+  ],
+  "procedure": "Motivace: největší jahodu vybereme okem, ne měřením — vizualizace nám pomáhá rozhodovat.\n\nPodle obrázků v atlasu porovnávejte velikosti zemí, délky řek, lidnatost měst. Nechte žáky vymyslet vlastní způsob porovnání (na prsty, šířka palce, pravítko) a jen napovídejte.\n\nNajděte v atlasu tabulku (např. počet obyvatel evropských zemí) a několik prvních řádků převeďte na sloupcový graf na čtverečkovaný papír nebo v tabulkovém editoru.\n\nKde všude potkáváme grafy? Ukažte vývoj počasí na webu — k čemu tam graf slouží?",
+  "files": [],
+  "source": {
+    "label": "ITčko, říjen 2022 (roč. 1, č. 2), s. 7 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

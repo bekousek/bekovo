@@ -1,0 +1,36 @@
+{
+  "id": "programovani-itcko-stroj-na-pizzu",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Stroj na výrobu pizzy: podprogramy v pohybu",
+  "description": "Třída se promění ve stroj — každý žák je jedna součástka se svým pohybem a zvukem. Na zapínání, zrychlování a poruchách součástek žáci pochopí, co jsou podprogramy.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "podprogram",
+    "algoritmus",
+    "pohybová aktivita",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí jednotlivé kroky procesu a roli podprogramu v celém programu.",
+  "materials": [
+    "Volný prostor ve třídě"
+  ],
+  "procedure": "Žáci se postaví do řady a každý se stane jednou součástkou stroje na pizzu. Stroj má začátek a na konci musí vypadnout hotová pizza. Každý si vymyslí, co jeho součástka dělá, jak se u toho hýbe a jaký vydává zvuk (sypač mouky, hnětač, váleč, přidavač salámu… klidně i vymyšlené jako fotograf kvality).\n\nPosloupnost musí odpovídat výrobě — každá součástka má svůj smysl. Stroj zapněte, rozpohybujte, zrychlete, zpomalte a vypněte.\n\nCo se stane, když se součástka porouchá a musíte ji vyřadit? Jak to ovlivní výsledek?\n\nPropojte s výkladem: součástky jsou podprogramy, celý stroj je program. Podprogramy se dají vyrobit a opravit samostatně (i „v jiné továrně“) a do programu jen zapojit.\n\nObměna: jeden žák jde za dveře, třída postaví stroj na něco jiného (knedlíky, hamburger, šmoulí zmrzlina). Po návratu smí položit jen omezený počet otázek součástkám a hádá, co stroj vyrábí.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2022 (roč. 1, č. 1), s. 9 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

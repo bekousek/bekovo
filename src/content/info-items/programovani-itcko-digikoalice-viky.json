@@ -1,0 +1,38 @@
+{
+  "id": "programovani-itcko-digikoalice-viky",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Programování hrou s Viky Koudelkovou",
+  "url": "https://digikoalice.cz/vyukove-balicky-k-programovani-pro-zaky-zs-pro-offline-i-online/",
+  "description": "Lekce DigiKoalice pro 7.–9. třídu: „Najdi někoho, kdo…“, barevné kódy pro ozoboty (nebo lidské roboty s křídou) a šifra z názvů filmů.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace",
+    "robot"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CodeWeek",
+    "ozobot",
+    "barevné kódy",
+    "šifra",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák chápe programování jako řešení problémů a kreativitu, ne jen práci s počítačem.",
+  "materials": [
+    "Metodika a pracovní listy na webu DigiKoalice",
+    "Ozoboty a fixy (nepovinné)"
+  ],
+  "procedure": "Rozehřátí „Najdi někoho, kdo…“ otevře témata jako nomofobie, Minecraft nebo Scratch.\n\nSkupiny navrhují dráhu pro ozobota a zkoumají, jak barevné kódy mění jeho chování. Bez ozobotů si žáci nakreslí dráhu křídou nebo páskou a navigují se navzájem podle domluvených pokynů.\n\nNa konci luští šifru: chybějící písmena v názvech filmů dají tajenku CODE WEEK.",
+  "files": [],
+  "source": {
+    "label": "DigiKoalice (NPI ČR a MŠMT), Evropský týden programování (představeno v ITčku, listopad 2024 (roč. 3, č. 3), s. 8)"
+  },
+  "added": "2026-09-29"
+}

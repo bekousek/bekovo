@@ -1,0 +1,38 @@
+{
+  "id": "3d-itcko-blender-pribeh",
+  "categoryId": "3d",
+  "subcategoryId": "modelovani",
+  "title": "Můj příběh ve 3D: animace v Blenderu",
+  "url": "https://www.blender.org/",
+  "description": "Pětihodinový projekt: scénář a náčrty, modely postav a prostředí, základy animace, světlo a render, prezentace. Blender je zdarma — vznikl v něm i film Flow oceněný Oscarem.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "5 × 45 min",
+  "keywords": [
+    "Blender",
+    "3D modelování",
+    "animace",
+    "render",
+    "projekt",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří jednoduchou 3D scénu s materiálem, světlem a animací a odprezentuje ji.",
+  "materials": [
+    "Blender (zdarma; Windows, macOS, Linux)",
+    "Tahák klávesových zkratek",
+    "Modely zdarma na BlenderKit"
+  ],
+  "procedure": "1. hodina: krátký příběh a scénář s náčrty scén. Motivace: film Flow o kočce při povodni, celý vytvořený v Blenderu.\n\n2. hodina: základy ovládání (G posun, R rotace, S měřítko, numerická 7 pohled shora, 0 pohled kamery, Ctrl + Alt + Q čtyři pohledy) a modely postav a prostředí.\n\n3. hodina: animace a pohyb (časová osa, klíčové snímky).\n\n4. hodina: materiál a textura (Shading, Image Texture), světlo (typ Sun), pozadí (World), render F12 (Eevee rychlý, Cycles realistický).\n\n5. hodina: prezentace a zpětná vazba. Začněte jednoduše — domeček nebo skákající míček.",
+  "files": [],
+  "source": {
+    "label": "ITčko, červen 2025 (roč. 3, č. 10), s. 8 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

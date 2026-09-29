@@ -1,0 +1,39 @@
+{
+  "id": "robotika-itcko-microbit-radio",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Projekt Nálada: micro:bity si posílají emoce rádiem",
+  "url": "https://makecode.microbit.org/",
+  "description": "Tlačítkem A pošlu kamarádovi smajlíka, tlačítkem B mračouna — ale jen na našem tajném kanálu. Žáci poznají rádiovou komunikaci, kanály jako protokol a podmínky při příjmu.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "micro:bit",
+    "rádio",
+    "kanál",
+    "protokol",
+    "podmínka",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák naprogramuje odesílání a příjem zpráv mezi micro:bity a reakci na přijatou hodnotu.",
+  "materials": [
+    "micro:bit a kabel pro každého, počítač"
+  ],
+  "procedure": "Dvojice dostanou vlastní rádiový kanál (je jich 255) — domluvené číslo kanálu je vlastně komunikační protokol.\n\nVysílání: tlačítko A pošle číslo 1 a pro kontrolu zobrazí smajlíka, B pošle jiné číslo a zobrazí mračouna.\n\nPříjem: při přijetí čísla — když je číslo 1, ukaž smajlíka, jinak mračouna. Varianta s proměnnou: nastavit výchozí stav a porovnávat.\n\nV simulátoru se druhý micro:bit objeví po stisku tlačítka. Pak nahrát do desek a posílat si nálady.\n\nDiskuse: jak spolehlivé to je? Nouzový hlásič, hlasovací zařízení, víc obrázků?",
+  "files": [],
+  "source": {
+    "label": "Václav Fišer a Hana Šandová, seriál o micro:bitu v ITčku (představeno v ITčku, únor 2024 (roč. 2, č. 6), s. 11)"
+  },
+  "added": "2026-09-29"
+}

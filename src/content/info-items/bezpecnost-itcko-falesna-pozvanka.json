@@ -1,0 +1,36 @@
+{
+  "id": "bezpecnost-itcko-falesna-pozvanka",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Falešná pozvánka: jak snadno se vyrobí podvod",
+  "description": "Žáci napíšou co nejvěrohodnější pozvánku na „online třídní schůzky“, skryjí odkaz za zkracovač URL a odešlou ji z jednorázové adresy — pak diskutují, jak podvod poznat.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "phishing",
+    "zkracovač URL",
+    "jednorázový e-mail",
+    "manipulace",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zjistí, jak snadné je vyrobit důvěryhodně vypadající podvodnou zprávu, a ví, jak se takovým bránit.",
+  "materials": [
+    "Zkracovač URL (bit.ly apod.)",
+    "Služba jednorázového e-mailu (guerrillamail.com)"
+  ],
+  "procedure": "Projděte skutečné pozvánky na třídní schůzky: jaké informace obsahují, jakým stylem jsou psané?\n\nKaždý žák napíše pozvánku na smyšlené online hovorové hodiny tak, aby co nejvíc připomínala zprávu od učitele.\n\nPřes zkracovač vytvoří odkaz, který vypadá jako odkaz na schůzku, ale vede třeba na web školy. Odkaz vloží do pozvánky a odešlou ji z jednorázové adresy nastavené co nejdůvěryhodněji.\n\nÚprava pro školu: v ITčku se pozvánka posílá rodičům. Doporučujeme ji posílat jen na adresu učitele nebo spolužákovi ve dvojici, případně rodičům až po předchozí domluvě — jinak jde o skutečné klamání.\n\nKlíčová je diskuse: Jak těžké bylo pozvánku vyrobit? Proč je riskantní klikat na zkrácený odkaz? Podle čeho byste takovou zprávu poznali? Jak se bránit (neklikat na zkrácené adresy, kontrolovat odesílatele, elektronický podpis)?",
+  "files": [],
+  "source": {
+    "label": "ITčko, říjen 2022 (roč. 1, č. 2), s. 14 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

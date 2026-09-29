@@ -1,0 +1,38 @@
+{
+  "id": "programovani-itcko-cody-a-roby",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Cody a Roby: programování kartičkami",
+  "url": "https://codeweek.eu/resources/CodingAtHome/cody-and-roby",
+  "description": "Hra z Evropského týdne programování: hráči střídavě pokládají kartičky rovně / doprava / doleva a vedou robota Robyho po plánu. Kdo se splete, vypadává.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "karetní hra",
+    "příkazy",
+    "CodeWeek",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zadává a kontroluje posloupnost příkazů a sleduje stav robota.",
+  "materials": [
+    "Herní plán a kartičky povelů ke stažení na webu CodeWeek",
+    "Figurka Robyho (papírový panáček, modelína)"
+  ],
+  "procedure": "Zeptejte se, kdo by se chtěl naučit hru, ve které se robot ovládá kartičkami. Rozdejte herní plán a kartičky rovně, doprava, doleva; žáci je rozstříhají a vyrobí si Robyho.\n\nVe dvojicích nebo malých skupinách: hráči se střídají, každý přidá jeden povel. Všichni musí hlídat, kde Roby právě stojí a kam je natočený. Kdo zadá povel, po kterém Roby opustí plán, vypadává. Hra končí, když zbyde jediný hráč nebo dojdou kartičky.\n\nReflexe: co bylo nejtěžší, proč je přesnost pokynů důležitá a jak to souvisí s programováním.\n\nNa webu CodeWeek najdete další varianty (Turista, Had, Dva hadi, Cesta tam a zpátky, Jdi podle hudby…). Máte-li robota do čtvercové sítě, přeneste hru na něj.",
+  "files": [],
+  "source": {
+    "label": "ITčko, únor 2025 (roč. 3, č. 6), s. 7 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

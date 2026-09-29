@@ -1,0 +1,33 @@
+{
+  "id": "data-itcko-kdejsme",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Kde jsme v ČR? Mapa jmen a příjmení",
+  "url": "https://www.kdejsme.cz/",
+  "description": "Kolik Aniček žije v okresech? Kde nebydlí nikdo jménem Louková? Žáci hledají na kdejsme.cz a čtou mapu a graf vývoje jména v čase.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "vyhledávání",
+    "mapa",
+    "graf",
+    "jména",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhledá informace a orientuje se v mapě a grafu.",
+  "procedure": "Nejdřív společně: co znamenají dílky mapy a proč jsou některé tmavší? Kde jsou další údaje nad a pod mapou?\n\nÚkoly: najdi okres, kde žije přes 1 000 Annen; dva okresy bez příjmení Louková; průměrný věk lidí jménem Marie; počet Nováků v určitém roce; rok, kdy měl určitý počet lidí příjmení Papež. Vlastní jméno a příjmení samozřejmě také.\n\nSpolečně prohlédněte jméno Marie: mapa ukáže rozdíl sever × jih a graf vrchol popularity po válce.",
+  "files": [],
+  "source": {
+    "label": "ITčko, květen 2023 (roč. 1, č. 9), s. 11 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

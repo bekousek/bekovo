@@ -1,0 +1,37 @@
+{
+  "id": "web-itcko-obsidian-wiki",
+  "categoryId": "web",
+  "subcategoryId": "bez-kodu",
+  "title": "Vlastní wiki v Obsidianu: propojené poznámky",
+  "url": "https://obsidian.md/",
+  "description": "Žáci v aplikaci Obsidian vytvoří osobní wiki o tom, co je baví — poznámky v Markdownu propojené [[odkazy]] a štítky, s grafem vztahů. Ve škole pak „Ukaž svou wiki“.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min + domácí práce",
+  "keywords": [
+    "Markdown",
+    "hypertext",
+    "poznámky",
+    "wiki",
+    "Obsidian",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák používá Markdown (nadpisy, odrážky, checkboxy), vytváří propojené poznámky a chápe princip hypertextu.",
+  "materials": [
+    "Obsidian (zdarma, offline; Windows, macOS, Linux, mobil)"
+  ],
+  "procedure": "Ukažte princip: každá poznámka = jedna myšlenka, poznámky se propojují [[wiki odkazy]] a štítky #, Graph View ukáže síť vztahů.\n\nZadání (klidně jako domácí projekt): osobní wiki o koníčku — psi, dinosauři, Minecraft, pečení. Každá stránka má nadpisy, odrážky, odkazy na související stránky.\n\nDalší náměty: digitální knihovnička (každá kniha jedna poznámka, propojené postavy), mapa filmového vesmíru (postavy–herci–filmy jako malé ČSFD), deník se štítky.\n\nPrezentace „Ukaž svou wiki“. Učitel může připravit šablony a sdílený vault pro skupiny.",
+  "files": [],
+  "source": {
+    "label": "ITčko, květen 2025 (roč. 3, č. 9), s. 2 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

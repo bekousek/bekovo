@@ -1,0 +1,36 @@
+{
+  "id": "hardware-itcko-vybirame-pocitac",
+  "categoryId": "hardware",
+  "title": "Vybíráme počítač pro někoho jiného",
+  "description": "Student informatiky, grafička, babička, která čte zprávy a posílá e-maily: skupiny podle příběhu vyberou z aktuální nabídky vhodné zařízení a obhájí ho parametry.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "výběr počítače",
+    "parametry",
+    "argumentace",
+    "Vánoce",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák navrhne vhodné digitální zařízení podle požadavků a svou volbu zdůvodní parametry.",
+  "materials": [
+    "Karty s příběhy (připravte si vlastní, ITčko je má pro předplatitele)",
+    "Přístup k e-shopům",
+    "Časovač na tabuli"
+  ],
+  "procedure": "Krátké opakování součástí počítače a jejich funkcí. V prosinci lze zadat vánočně: „vybíráme dárek“.\n\nDvojice či malé skupiny dostanou 1–2 příběhy s požadavky (výkon na programování, přenositelnost, cena, velký displej, výdrž…). Na výběr mají asi 10 minut — hlídejte čas.\n\nPrezentace po příbězích: které požadavky jste rozpoznali a kterými parametry je vybrané zařízení splňuje? Ať stejný příběh řeší víc skupin — různá řešení jsou dobrá pro diskusi.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2024 (roč. 3, č. 4), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

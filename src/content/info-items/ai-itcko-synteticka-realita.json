@@ -1,0 +1,54 @@
+{
+  "id": "ai-itcko-synteticka-realita",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Syntetická realita: virtuální influenceři a deepfakes",
+  "url": "https://kurikulum.aidetem.cz/metodicke-materialy/medialni-vychova-05-synteticka-realita/",
+  "description": "Žáci poznají virtuální influencery (Lil Miquela, Aitana López…), představí si svět ovládaný AI tvůrci obsahu a ve čtyřech skupinách — hledači příležitostí, advokáti, sociologové, vzdělávací designéři — rozeberou jeho plusy a rizika.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "deepfake",
+    "virtuální influencer",
+    "syntetická média",
+    "mediální výchova",
+    "etika",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná syntetická média a formuluje pozitiva i rizika syntetické reality.",
+  "materials": [
+    "Prezentace, plán lekce a dva pracovní listy (AI dětem, odkazy níže)",
+    "Video o virtuálních influencerech"
+  ],
+  "procedure": "Evokace řetězenou diskusí: Koho sledujete na sociálních sítích a proč? Co si představíte pod pojmem syntetická realita? Ujistěte se, že padne pojem deepfake (případně krátká ukázka).\n\nAktivita 1: video o virtuálních influencerech a rozhovor nad konkrétními profily z prezentace.\n\nAktivita 2: představte si budoucnost, kdy sítím vládnou AI influenceři, kteří sami odpovídají, streamují a tvoří obsah. Čtyři skupiny dostanou část pracovního listu, vymyslí konkrétního influencera a odpoví na otázky (k čemu dobrému by sloužil / jaká právní, etická a morální dilemata přináší).\n\nMluvčí skupin prezentují, ostatní se ptají a doplňují — to je zároveň reflexe.",
+  "files": [
+    {
+      "label": "Pracovní list 01 (AI dětem)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-05_pracovni-list-01.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 02 (AI dětem)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-05_pracovni-list-02.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace k lekci (AI dětem)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_medialni-vychova-05_prezentace.pdf",
+      "type": "slides"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, listopad 2024 (roč. 3, č. 3), s. 14)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

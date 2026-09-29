@@ -1,0 +1,38 @@
+{
+  "id": "data-itcko-lentilky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Sladká informatika: sloupcový graf z lentilek",
+  "description": "Skupiny roztřídí hromádku lentilek podle barev, seřadí skupiny podle počtu a poskládají z nich sloupcový graf přímo na výkres.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "sloupcový graf",
+    "třídění",
+    "řazení",
+    "motivace",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák roztřídí objekty podle vlastnosti, seřadí skupiny podle počtu a vysvětlí, k čemu slouží sloupcový graf.",
+  "materials": [
+    "Balení lentilek pro každého žáka (umyté ruce!)",
+    "Výkres A3 na skupinu",
+    "Čtvercová síť, tužka, pastelky"
+  ],
+  "procedure": "Hodí se jako úvodní motivační hodina informatiky ve 4. ročníku. Pravidlo: během hodiny se nesmí sníst ani jedna lentilka.\n\nVe čtveřicích vysypou lentilky na společný výkres. Úkol: rozdělit je do skupin podle podobné vlastnosti — postup volí žáci sami. Obcházejte a otázkami zjišťujte, jak postupovali.\n\nSeřaďte skupiny podle počtu prvků: kde je nejmíň a kde nejvíc? Pak od nejmenší po největší.\n\nSestavte z lentilek sloupcový graf. Tužkou popište sloupce (druh) a řádky (počet). K čemu takový graf je? Kde se ještě objekty řadí v praxi?\n\nNa závěr pokládají lentilky do čtvercové sítě podle návodu (souřadnice) nebo vytvoří vlastní obrázek s návodem pro ostatní. Pak sladká tečka.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2023 (roč. 2, č. 1), s. 4 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

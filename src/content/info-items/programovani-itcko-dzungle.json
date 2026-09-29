@@ -1,0 +1,37 @@
+{
+  "id": "programovani-itcko-dzungle",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Kódy pro přežití v džungli",
+  "description": "Cesta z džungle po mřížce 7 × 7: každý krok stojí jídlo a vodu, zásoby a jeskyně je doplňují. Žáci hledají cestu, na kterou jim zásoby vystačí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "algoritmus",
+    "mřížka",
+    "podmínky",
+    "plánování",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše situaci podle pravidel, vyčte informace z modelu a naplánuje posloupnost kroků, která splní podmínky.",
+  "materials": [
+    "Čtverečkovaný papír, tužka",
+    "Případně Word/Excel na vytvoření vlastního plánu"
+  ],
+  "procedure": "Příběh: po průtrži mračen vám v džungli zbylo pět přídělů vody a pět přídělů jídla a musíte dojít k východu.\n\nKaždý si na papír překreslí mřížku 7 × 7 a zakreslí do ní sebe (start), políčka s vodou a jídlem, jeskyně (stany) a východ. Vedle si čárkami vede zásoby a zapisuje cestu.\n\nPravidla: každý krok (nahoru, dolů, vlevo, vpravo) stojí jeden příděl vody i jídla. Políčko s vodou nebo jídlem přidá dva příděly dané suroviny, jeskyně po čtyřech od obou. Do cíle je potřeba dojít aspoň s jedním přídělem od každého; komu cestou něco dojde, jde znovu na start.\n\nNejdřív vysvětlete piktogramy a princip na příkladu, pak žáci pracují sami nebo ve skupinách. Při kontrole chtějte odpovědi celou větou.\n\nZpestření: najděte nejkratší a nejdelší přežitelnou cestu, spočítejte, kolik různých cest splní podmínky, nebo změňte počáteční zásoby a hodnoty surovin. Plán lze vytvořit i v tabulkovém editoru.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2022 (roč. 1, č. 1), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

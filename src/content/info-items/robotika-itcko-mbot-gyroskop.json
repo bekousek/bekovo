@@ -1,0 +1,32 @@
+{
+  "id": "robotika-itcko-mbot-gyroskop",
+  "categoryId": "robotika",
+  "subcategoryId": "mbot",
+  "title": "mBot2: gyroskop a náklon",
+  "description": "Co je gyroskop a kde se používá? mBot2 hlídá svůj úhel natočení, při náklonu mění barvu LED a sám se otáčí zpět do výchozí polohy.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "mBot2",
+    "gyroskop",
+    "události",
+    "senzor",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák získá povědomí o gyroskopu a naprogramuje reakci robota na data z něj.",
+  "procedure": "Předem si připravte výklad (na YouTube je řada názorných videí): gyroskop drží osu v prostoru; v mBotovi je malá MEMS součástka kombinovaná s akcelerometrem.\n\nNejrychlejší cesta jsou událostní bloky (náklon vlevo/vpravo, zatřesení, volný pád) — na ně pověste světlo nebo zvuk.\n\nNáročnější program: na začátku vynulujte úhel osy z (jen jednou, mimo smyčku). Při odchylce svítí červeně a vypisuje hodnotu, robot se otáčí zpět k 0°, pak svítí zeleně a zastaví. Postavte ho na papír a papírem otáčejte.\n\nCo zkusit: překvapená reakce na zatřesení, vyšší tón při větším natočení.",
+  "files": [],
+  "source": {
+    "label": "Ondřej Merta, seriál o mBotu2 v ITčku (představeno v ITčku, listopad 2024 (roč. 3, č. 3), s. 10)"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "robotika-itcko-intelino",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Chytrý strojvedoucí: vláček Intelino",
+  "url": "https://lab.intelino.com/",
+  "description": "Vláček se programuje barevnými čtverci mezi kolejemi. Skupiny s rolemi inženýr, programátor a zapisovač zkoumají, co která kombinace dělá, a pak naprogramují jízdu tak, aby vlak zastavil na zastávce a nevykolejil.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Intelino",
+    "barevné kódy",
+    "testování",
+    "role ve skupině",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná funkci barevných značek a sestaví sekvenci podle potřeb dráhy.",
+  "materials": [
+    "Sada Intelino Smart Train na skupinu (max. 5 žáků)",
+    "Tablet s aplikací Intelino Play",
+    "Papír a psací potřeby"
+  ],
+  "procedure": "Rozdělte role (stavební inženýr, programátor, zapisovač…) a nakreslete na tabuli dráhu — nebo zadejte jen parametry (dvě slepé koleje, zastávka).\n\nSkupiny staví dráhu a zkoušením objevují, co spouští která kombinace čtverců (bílý čtverec vždy první ve směru jízdy, za ním barva). Zapisovač vše zapisuje.\n\nÚkol: vlak má projet co nejrychleji, pomalu zastavit na zastávce a nevykolejit. Porovnejte řešení skupin.\n\nBonus: jedno dítě v aplikaci přiřadí vlastní akci trojkombinaci s fialovým čtvercem, ostatní ji hádají. Aplikace funguje i jako dálkový ovladač a má další lekce.",
+  "files": [],
+  "source": {
+    "label": "Tomáš Driml (představeno v ITčku, září 2023 (roč. 2, č. 1), s. 6)"
+  },
+  "added": "2026-09-29"
+}

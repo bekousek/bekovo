@@ -1,0 +1,38 @@
+{
+  "id": "internet-itcko-domaci-sit",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Tvorba domácí sítě: řešíme modelové situace",
+  "description": "Slabá wi-fi v pokoji v paneláku, internet ve všech patrech domu, notebook pro studentku, první připojení pro prarodiče: skupiny navrhnou řešení (router, extender, mesh, powerline, kabel) a obhájí cenu i bezpečnost.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "wi-fi",
+    "router",
+    "mesh",
+    "powerline",
+    "domácí síť",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák porovná způsoby připojení k síti a navrhne vhodné řešení pro konkrétní situaci.",
+  "materials": [
+    "Přehled pojmů (router, modem, wi-fi, LTE, optika, mesh) — prezentace nebo aktuální produkty na webu",
+    "Karty se scénáři (níže nebo vlastní)"
+  ],
+  "procedure": "Teorie: router, modem, wi-fi, LTE, optické vlákno, mesh síť, extender, powerline.\n\nSkupiny po 3–4 dostanou scénář: slabý signál v dětském pokoji v paneláku; rodinný dům s více patry; studentka potřebuje připojit notebook v pokoji, doma je jen stolní počítač v obýváku; spořiví prarodiče chtějí videohovory a e-mail a mají jen modem. Stejný scénář ať řeší víc skupin.\n\nNavrhnou technické řešení a zváží cenu, jednoduchost a bezpečnost.\n\nPrezentace a diskuse o realizovatelnosti. Umí žáci vysvětlit rozdíl mezi drátovým a bezdrátovým připojením a obhájit návrh?",
+  "files": [],
+  "source": {
+    "label": "ITčko, červen 2025 (roč. 3, č. 10), s. 11 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

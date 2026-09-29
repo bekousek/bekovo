@@ -1,0 +1,36 @@
+{
+  "id": "programovani-itcko-digikoalice-koudy",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Programování se skejťákem Koudym",
+  "url": "https://digikoalice.cz/vyukove-balicky-k-programovani-pro-zaky-zs-pro-offline-i-online/",
+  "description": "Hotová lekce DigiKoalice pro 4.–6. třídu: přímka postojů, navigování kamaráda „parkourovou“ dráhou jednoduchým kódem a vybarvování tajného obrázku ve čtvercové síti.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CodeWeek",
+    "unplugged",
+    "algoritmus",
+    "Lightbot",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák aplikuje základní principy programování v reálném světě a diskutuje, k čemu je programování dobré.",
+  "materials": [
+    "Pracovní listy a metodika lekce na webu DigiKoalice"
+  ],
+  "procedure": "Přímka postojů: jeden konec místnosti je „úplně ano“, druhý „úplně ne“. Žáci se postaví podle názoru na výroky typu „programování je jen pro ajťáky“ a obhajují své místo.\n\nParkour: pomocí jednoduchých příkazů naviguje žák kamaráda dráhou — stejně jako v aplikaci Lightbot, na kterou lekce připravuje.\n\nZávěr: vybarvování ve čtvercové síti podle tajného kódu odhalí skrytý obrázek.",
+  "files": [],
+  "source": {
+    "label": "DigiKoalice (NPI ČR a MŠMT), Evropský týden programování (představeno v ITčku, listopad 2024 (roč. 3, č. 3), s. 8)"
+  },
+  "added": "2026-09-29"
+}

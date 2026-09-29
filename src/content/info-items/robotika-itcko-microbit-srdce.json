@@ -1,0 +1,38 @@
+{
+  "id": "robotika-itcko-microbit-srdce",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Bijící srdce: první program pro micro:bit",
+  "url": "https://makecode.microbit.org/",
+  "description": "Seznámení s deskou micro:bit a MakeCode: srdce na displeji v simulátoru, pak pulzující ve smyčce a nahrané do skutečné desky (včetně jednorázového spárování).",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "animace",
+    "cyklus",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák připojí micro:bit, vytvoří jednoduchý program v MakeCode a přenese ho do desky.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého",
+    "Počítač s prohlížečem Chrome"
+  ],
+  "procedure": "Dejte žákům micro:bit do ruky a popište ho (displej 5 × 5 LED, tlačítka A a B, senzory, rádio). Co všechno umí: animace, hudba, vzkazy, čidla, ovládání vozítka.\n\nV MakeCode založte projekt SRDCE, v simulátoru rozsviťte srdce. Pak ho rozpulzujte: ve smyčce střídejte velké a malé srdce.\n\nPřipojte desku kabelem. Poprvé ji spárujte (tři tečky u Stáhnout → Připojit zařízení) — pak už stačí jedno kliknutí a program jde rovnou do desky.\n\nRychlejší vymýšlejí složitější animace. Všechna srdce ve třídě tlučou — odrazový můstek pro další projekty.",
+  "files": [],
+  "source": {
+    "label": "Václav Fišer a Hana Šandová, seriál o micro:bitu v ITčku (představeno v ITčku, říjen 2023 (roč. 2, č. 2), s. 9)"
+  },
+  "added": "2026-09-29"
+}

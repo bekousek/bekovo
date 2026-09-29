@@ -1,0 +1,39 @@
+{
+  "id": "kodovani-itcko-unikovka-ze-sifer",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Úniková hra z řetězu šifer",
+  "description": "Učitel propojí několik druhů šifer tak, že řešení jedné je klíčem k další: najdi rozdíl na fotce, osmisměrka, křížovka a vybarvovací QR kód. Hodí se i na opakování učiva.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "šifry",
+    "úniková hra",
+    "QR kód",
+    "křížovka",
+    "osmisměrka",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák luští různé druhy šifer a rozluštěná data použije jako klíč k další šifře.",
+  "materials": [
+    "Tablety nebo mobily se čtečkou QR kódů",
+    "Tiskárna, černý fix"
+  ],
+  "procedure": "Příprava (učitel): 1) V Cleanup.pictures odstraňte z fotky objekt — otázka „co chybí?“ bude jednou z nápověd. 2) Na Flippity.net vytvořte osmisměrku ze slov, která jsou odpověďmi do křížovky. 3) Na crosswordlabs.com vytvořte křížovku (slova musí sdílet písmena). 4) Na mal-den-code.de vytvořte „vybarvovací“ QR kód: žáci vybarví písmena, která zbyla, a kód se dá načíst.\n\nObsahem mohou být pojmy z libovolného předmětu — příprava na písemku může být zábava. Šifry schovejte po třídě, chodbě či zahradě.\n\nSkupiny luští šifry postupně; celý řetěz lze zvládnout v jedné hodině nebo dávkovat po jedné šifře.\n\nTip: poprvé si řetěz projděte sami nebo s kolegou, ať odhalíte chyby. Každá šifra může postupně zpřesňovat místo „pokladu“.",
+  "files": [],
+  "source": {
+    "label": "ITčko, listopad 2024 (roč. 3, č. 3), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

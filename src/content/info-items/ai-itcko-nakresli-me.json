@@ -1,0 +1,35 @@
+{
+  "id": "ai-itcko-nakresli-me",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Nakresli mě, umělá inteligence: autoportrét z textu",
+  "description": "Žáci anglicky popíšou sami sebe (vzhled, styl malby) a generátor obrázků jim vytvoří portrét. Zadání zpřesňují, dokud se s obrázkem neztotožní — a diskutují, kdo je autorem.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "generování obrázků",
+    "prompt",
+    "autorství",
+    "angličtina",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák použije generativní AI k tvorbě obrázku podle vlastního zadání a zamyslí se nad jejími limity a autorstvím.",
+  "materials": [
+    "Generátor obrázků z textu — vyberte nástroj, který odpovídá věkovým podmínkám (pro mladší žáky zadává učitel na svém účtu)"
+  ],
+  "procedure": "Žáci sestaví textový popis sebe sama — co má být na obrázku a v jakém stylu (modern painting, oil painting…), ideálně anglicky.\n\nGenerátor vytvoří několik variant. Žák buď zpřesní zadání, nebo upraví jen část obrázku (funkce edit/inpainting), dokud nevznikne portrét, se kterým se ztotožní.\n\nDiskuse: Jakému zadání AI rozumí dobře a jakému ne? Kdo je autorem — žák, AI, nebo oba? Jak nástroj funguje a kde má limity?\n\nPřesah: obrázek jako podklad pro sloh nebo pro zamyšlení nad tím, jak se vidím.\n\nPozor na věkové limity a registrace u jednotlivých nástrojů — přehled doporučených aplikací pro školy vede AI dětem.",
+  "files": [],
+  "source": {
+    "label": "ITčko, listopad 2022 (roč. 1, č. 3), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

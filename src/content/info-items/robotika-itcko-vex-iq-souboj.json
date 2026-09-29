@@ -1,0 +1,38 @@
+{
+  "id": "robotika-itcko-vex-iq-souboj",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ: vycvič robota na souboj",
+  "url": "https://www.vexrobotika.cz/",
+  "description": "Základní podvozek VEX IQ doplněný senzorem barev, senzorem vzdálenosti, radlicí vpředu a dotykovým senzorem vzadu. Žáci naprogramují zápasníka a pořádají souboje robotů.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "VEX IQ",
+    "senzory",
+    "konstrukce",
+    "soutěž",
+    "blokové programování",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví robota podle návodu, rozdělí problém na části a naprogramuje reakce na senzory.",
+  "materials": [
+    "Sada VEX IQ (manuál ke standardní základně pohonu)",
+    "VEXcode IQ (bloky nebo Python)"
+  ],
+  "procedure": "Sestavte základní podvozek podle manuálu, přidejte senzor barev a vzdálenosti, vpředu radlici na odstrkování soupeře a vzadu dotykový senzor pro útok zezadu.\n\nNaprogramujte pohyb a reakce: soupeř před robotem (vzdálenost) → útok radlicí, náraz zezadu (dotyk) → otočka.\n\nSouboje dvou robotů v aréně. Žáci čtou data z manuálů samostatně, učitel zasahuje jen při zásecích.\n\nRozšíření: pohyblivá radlice, víc dotykových senzorů, naprogramování dálkového ovladače.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2022 (roč. 1, č. 1), s. 10 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

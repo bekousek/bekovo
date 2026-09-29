@@ -1,0 +1,38 @@
+{
+  "id": "robotika-itcko-mbot-ticha-posta",
+  "categoryId": "robotika",
+  "subcategoryId": "mbot",
+  "title": "Tichá pošta s mBotem: dálkové ovládání z počítače",
+  "description": "Přes bluetooth dongle a režim Živě posílá žák z počítače text, který se zobrazí na displeji robota u spolužáka. Stejně lze robota řídit šipkami na klávesnici.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "mBot2",
+    "bluetooth",
+    "režim živě",
+    "události",
+    "zpráva",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák naprogramuje bezdrátové ovládání robota z počítače pomocí událostí.",
+  "materials": [
+    "mBot2, mBlock 5",
+    "Makeblock bluetooth dongle (1 na robota a počítač)"
+  ],
+  "procedure": "Pravidla předem: s notebooky se po třídě neběhá.\n\nRozdíl režimů: Nahrát (program se nahraje kabelem a robot pak pracuje sám) × Živě (trvalé bezdrátové spojení, program spouštějí události z klávesnice počítače). Párování: dongle do USB, zapnout mBota, stisknout tlačítko na donglu, robot pípne.\n\nTichá pošta: po stisku mezerníku se na displeji robota zobrazí zadaný text, zazní tón a 10 s svítí zelená. Žáci si roboty vymění a píšou si navzájem — kdo nenaprogramuje, nepíše. Hra: zamíchat roboty a otázkami zjistit, s kým si píšu.\n\nŘízení pohybu šipkami: každá klávesa spustí pohyb, mezerník zastaví. Co zkusit: Morseovka, změna rychlosti proměnnou, světelná signalizace.",
+  "files": [],
+  "source": {
+    "label": "Ondřej Merta, seriál o mBotu2 v ITčku (představeno v ITčku, prosinec 2024 (roč. 3, č. 4), s. 8)"
+  },
+  "added": "2026-09-29"
+}

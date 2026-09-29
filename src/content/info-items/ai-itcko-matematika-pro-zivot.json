@@ -1,0 +1,38 @@
+{
+  "id": "ai-itcko-matematika-pro-zivot",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Matematika pro život: brainstorming s chatbotem",
+  "url": "https://kurikulum.aidetem.cz/knowledgebase/matematika-pro-zivot/",
+  "description": "Žáci vyplní dotazník o svých profesních představách, nechají chatbota doporučit povolání a spolu s ním hledají, kde se v těchto profesích používá matematika.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "chatbot",
+    "kariérové poradenství",
+    "matematika",
+    "think-pair-share",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák použije chatbota jako nástroj pro brainstorming a zhodnotí kvalitu jeho doporučení.",
+  "materials": [
+    "Pracovní list a prezentace (AI dětem)",
+    "Chatbot (připravený asistent v ChatGPT nebo prompt pro MS Copilot)",
+    "Samolepicí lístečky"
+  ],
+  "procedure": "Diskuse (think-pair-share): kde potkáváme matematiku v běžném životě a v povoláních? (Procenta ve slevách, trojčlenka při vaření.)\n\nŽáci vyplní dotazník o svých představách o povolání a nahrají ho do chatbota, nebo je chatbot otázkami provede přímo.\n\nHodnotí doporučení a dávají chatbotovi zpětnou vazbu — upozorněte, že zpočátku odpovídá obecně a konkrétní je až po upřesnění.\n\nS chatbotem hledají příklady matematiky v povoláních, každý příklad na jeden lísteček. Lístečky shlukují podle oblastí a diskutují, které koncepty jsou nejužitečnější.\n\nZávěr: byl brainstorming s chatbotem přínosný (škála 1–5)? Proč?",
+  "files": [],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, duben 2025 (roč. 3, č. 8), s. 13)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

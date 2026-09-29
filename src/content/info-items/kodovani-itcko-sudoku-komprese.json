@@ -1,0 +1,36 @@
+{
+  "id": "kodovani-itcko-sudoku-komprese",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "Komprese dat v sudoku",
+  "description": "Mini sudoku 3 × 3 ukazuje, že stačí uložit pár klíčových čísel a zbytek dopočítat algoritmem. Žáci zjistí, kdy je řešení jednoznačné a proč komprese šetří místo.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "komprese",
+    "redundance",
+    "sudoku",
+    "algoritmus",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák na příkladu ukáže, jaký význam má komprese dat a co ovlivňuje kompresi a dekompresi.",
+  "materials": [
+    "Čtverečkovaný papír",
+    "Pro žáky se SVP víčka od lahví ve třech barvách"
+  ],
+  "procedure": "Motivace: soubor se nevejde do e-mailu nebo na flash disk. Jak zmenšit soubor bez ztráty kvality?\n\nŽáci si nakreslí mřížku 3 × 3 se třemi předvyplněnými číslicemi tak, aby šla doplnit jen jedním způsobem (každá číslice 1–3 jednou v řádku i sloupci). Pak zkusí mřížku, kde je předvyplněných číslic málo a řešení je víc.\n\nJak by to dělal počítač? Místo celé tabulky si uloží jen klíčová data a pravidlo (algoritmus „sudoku“), podle kterého se zbytek — nadbytečná data — dopočítá.\n\nObrázky: bitmapa je velká tabulka barev; algoritmus hledá opakování (např. celý černý rámeček zapíše jednou). Vektorová grafika ukládá tvary rovnou matematicky.\n\nRozšíření: těžší sudoku, killer sudoku nebo kakuro — jiný algoritmus a jinak dlouhá dekomprese. Přirovnání ze života: lahev vody v batohu místo kelímků.\n\nŽák se SVP skládá víčka tří barev do mřížky, pak zavře oči, vy jedno víčko schováte a on určí, jaké chybí.",
+  "files": [],
+  "source": {
+    "label": "ITčko, říjen 2022 (roč. 1, č. 2), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

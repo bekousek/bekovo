@@ -1,0 +1,35 @@
+{
+  "id": "kodovani-itcko-nazvy-barev",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Není růžová jako růžová: názvy a kódy barev",
+  "description": "Učitel přečte název barvy (levandulová, rajčatová…), žáci ji v Malování namíchají a porovnají. Pak objeví HTML kódy barev, se kterými je barva vždy stejná.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "barvy",
+    "HTML kód",
+    "RGB",
+    "Malování",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zjistí, že slovní název barvy není jednoznačný, a použije přesný kód barvy.",
+  "materials": [
+    "Malování nebo jiný grafický editor",
+    "Seznam barev s HTML kódy (např. Wikipedie — Seznam barev)"
+  ],
+  "procedure": "Úvodní diskuse: Je růžová dívčí barva? Jak vnímáme muže v růžové košili? Na které „univerzální“ barvě se třída shodne?\n\nPřečtěte název barvy; každý najde v paletě odstín, který si pod ním představí, a vylije jím celou plochu. Porovnejte, kdo byl nejblíž.\n\nObměna: promítněte barvu a žáci hádají její název ve vzorníku.\n\nV seznamu barev je u každé HTML kód — vložený do editoru dá přesně tu barvu. Proč se barva jmenuje jantarová? Zajímavost: spor o barvu šatů z roku 2015 (modročerné, nebo zlatobílé?).",
+  "files": [],
+  "source": {
+    "label": "ITčko, listopad 2022 (roč. 1, č. 3), s. 7 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

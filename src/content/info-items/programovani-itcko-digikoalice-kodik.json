@@ -1,0 +1,31 @@
+{
+  "id": "programovani-itcko-digikoalice-kodik",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Programování s robůtkem Kódíkem",
+  "url": "https://digikoalice.cz/vyukove-balicky-k-programovani-pro-zaky-zs-pro-offline-i-online/",
+  "description": "Lekce DigiKoalice pro 1.–3. třídu: robůtek Kódík provází tvary, čtvercovou sítí a zápisem šipkami. Pracovní listy ke stažení, lze i bez počítače.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    1,
+    2,
+    3
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CodeWeek",
+    "šipky",
+    "čtvercová síť",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "files": [],
+  "source": {
+    "label": "DigiKoalice (NPI ČR a MŠMT), Evropský týden programování (představeno v ITčku, listopad 2024 (roč. 3, č. 3), s. 9)"
+  },
+  "added": "2026-09-29"
+}

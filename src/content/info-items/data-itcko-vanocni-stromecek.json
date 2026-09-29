@@ -1,0 +1,36 @@
+{
+  "id": "data-itcko-vanocni-stromecek",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Vánoční stromeček: od obrázku k tabulce a grafům",
+  "description": "Žáci dokreslí osově souměrnou polovinu stromečku ve čtvercové síti, spočítají čtverečky každé barvy do tabulky a vybarví podle ní výsečový i sloupcový graf.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "osová souměrnost",
+    "tabulka",
+    "sloupcový graf",
+    "výsečový graf",
+    "Vánoce",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák umístí data do tabulky a grafu a vysvětlí, k čemu je takový přehled užitečný.",
+  "materials": [
+    "Čtvercová síť s polovinou stromečku (připraví učitel)",
+    "Pastelky"
+  ],
+  "procedure": "Úvodní povídání o stromečcích (smrk, borovice, jedle, ozdoby) a připomenutí osové souměrnosti z matematiky.\n\nŽáci podle osy dokreslí druhou polovinu stromečku, čtverečky počítají.\n\nSpočítají čtverečky každé barvy a zapíšou do tabulky. Podle tabulky vybarví výsečový (koláčový) graf a sestaví sloupcový graf.\n\nK čemu je takový přehled v životě? (Malíř zjistí, kolik které barvy koupit.) Nakonec spočítají všechny vybarvené a nevybarvené plochy.\n\nPracovní list s řešením je v ITčku pro předplatitele; stromeček do sítě snadno nakreslíte i sami.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2024 (roč. 3, č. 4), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

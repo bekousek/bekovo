@@ -1,0 +1,35 @@
+{
+  "id": "programovani-itcko-galaxycodr",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "GalaxyCodr: vesmírná bloková hra",
+  "url": "https://galaxycodr.com/",
+  "description": "Příběhová hra na pěti planetách — od pohybu a cyklů přes podmínky, proměnné a souřadnice až po více postav a události. Slovensky, s účtem pro učitele a přehledem pokroku žáků.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "blokové programování",
+    "cykly",
+    "podmínky",
+    "proměnné",
+    "hra",
+    "ITčko"
+  ],
+  "language": "sk",
+  "goal": "Žák řeší úlohy blokovým programem s co nejmenším počtem bloků.",
+  "procedure": "Planety: Sandy (pohyb, posloupnost, cykly), Terra (podmínky a cykly s neurčitým počtem opakování), Crystal (proměnné a parametry), Votan (souřadnice), Zombie IX (více postav a události).\n\nUčitel si může založit třídu, přiřadit žáky kódem a sledovat, které úrovně splnili. Hra je slovensky, ale textu je málo.",
+  "files": [],
+  "source": {
+    "label": "ITčko, březen 2025 (roč. 3, č. 7), s. 2 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

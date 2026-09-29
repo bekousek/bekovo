@@ -17,7 +17,10 @@ se rozpadají na jednotlivé karty. Učebnice taky: **karta = jedna hodina**
 (dvouhodinová kapitola = dvě karty), pracovní listy k té hodině jdou do
 `files` té karty. Když stejnou aktivitu nabízí zahraniční sbírka i česká
 úprava, kartu dostane česká úprava (Blátov ze Základů informatiky místo
-Muddy City z CS Unplugged).
+Muddy City z CS Unplugged). Placené zdroje (e-magazín ITčko) se na web
+nenahrávají — postup se převypráví vlastními slovy a do `source` jde číslo
+a strana; pracovní listy jen tehdy, když jsou volně ke stažení jinde
+(DigiKoalice, AI dětem, CodeWeek).
 
 - `/informatika/<oblast>/<položka>` — detail; vzniká **jen** u položek, které
   mají `goal`, `procedure`, `materials`, `files` nebo `notes`. Ostatní karty
