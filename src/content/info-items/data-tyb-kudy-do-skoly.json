@@ -1,0 +1,41 @@
+{
+  "id": "data-tyb-kudy-do-skoly",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Kudy a jak do školy — společná mapa s vrstvami",
+  "url": "https://www.google.com/maps/d/",
+  "description": "Každý zakreslí do sdílené mapy svou cestu do školy — do vrstvy podle dopravy (pěšky, MHD, autobus, vlak, auto, kolo). Vznikne jednoduchý GIS třídy a přirozeně se otevře téma, co o nás ví poloha v mobilu.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Moje mapy",
+    "GIS",
+    "vrstvy",
+    "geolokace",
+    "historie polohy",
+    "soukromí",
+    "sdílení",
+    "zeměpis",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci pracují se sdílenou mapou (body, linie, vrstvy) a uvědomí si, že mobil může zaznamenávat jejich polohu.",
+  "materials": [
+    "Počítače, Google účty žáků",
+    "Předem připravená sdílená mapa v Google Moje mapy s vrstvami podle druhu dopravy"
+  ],
+  "procedure": "Příprava: sdílená mapa, kde každá vrstva = jeden způsob dopravy s barvou (pěšky červeně, MHD modře, autobus zeleně, vlak růžově, auto žlutě, kolo černě).\n\nÚkol: do správné vrstvy vlož přibližný bod bydliště, zakresli trasu do školy a barevně ji odliš. Vznikne náčrt, který ukáže převládající dopravu a rozptyl bydliště žáků.\n\nSoukromí: autora potěšilo, že žáci sami navrhli zadávat jen přibližnou polohu a trasy pojmenovat přezdívkou. Pokud to nenavrhnou sami, zeptejte se: je dobrý nápad dávat bydliště do sdílené mapy?\n\nDebata o poloze: mobil umí zaznamenávat, kde jste byli (historie polohy / Časová osa — dnes je uložená přímo v telefonu). Víte, jestli ji máte zapnutou? Kdo ji zapnul a proč? Mnohé deváťáky to překvapilo.\n\nCo se naučí: vlastní body zájmu, liniové a plošné prvky, barvy a tloušťka čar, vrstvy jako základ GIS, sdílení mapy.\n\nÚskalí: žáci intuitivně použijí „plánování trasy“, ale takovou trasu nejde přebarvit ani přesunout do vrstvy — ať ji raději kreslí ručně.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/kudy-a-jak-do-skoly-spolecna-prace-v-mapach-google"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

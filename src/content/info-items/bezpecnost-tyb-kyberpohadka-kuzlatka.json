@@ -1,0 +1,42 @@
+{
+  "id": "bezpecnost-tyb-kyberpohadka-kuzlatka",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "hesla-a-ucty",
+  "title": "Kyberpohádka o neposlušných kůzlátkách",
+  "url": "https://www.kyberpohadky.cz/kniha-kyberpohadek/",
+  "description": "Kůzlátka dávají živě na Instagram, že jsou sama doma, a máma koza má na elektronickém zámku PIN 1234. Klasická pohádka jako start debaty o soukromí, PINu a phishingu.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "30–45 min",
+  "keywords": [
+    "kyberpohádky",
+    "PIN",
+    "heslo",
+    "soukromí",
+    "phishing",
+    "EXIF",
+    "sociální sítě",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci na známém příběhu pojmenují kyberrizika: zveřejňování polohy a soukromí, slabý PIN a podvodníka, který se vydává za někoho jiného.",
+  "materials": [
+    "Audioverze nebo PDF Kyberpohádek (kyberpohadky.cz)",
+    "Reproduktor"
+  ],
+  "procedure": "Pusťte jen prvních asi 5 minut audioverze (celá má 16 minut) a průběžně ji komentujte. První část končí dramaticky: vlk uhodne jednoduchý kód zámku 1234 a vtrhne do domečku. Tady zastavte.\n\nDebata: co kůzlátka prozradila na sítích (jsou sama doma, kde jsou)? Co všechno o nás prozradí fotka (EXIF, poloha)? Jaký PIN měla máma zvolit? Vlk napodobující hlas mámy = typický phishing — čím se liší od podvodníka, který volá jako „bankéř“?\n\nZbytek pohádky: žáci ho čtou v PDF a vypisují klíčová slova týkající se kyberbezpečnosti. Starší žáci mohou PDF nechat shrnout chatbotem a ptát se ho, jak to s kůzlátky dopadlo.\n\nPro starší žáky navazuje Překecej Gandalfa a Strojové učení pozná slabé heslo.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/jak-spolu-souvisi-pohadka-o-neposlusnych-kuzlatkach-gandalf-a-umela-inteligence"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

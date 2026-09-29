@@ -1,0 +1,38 @@
+{
+  "id": "ai-tyb-ml-silne-heslo",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Strojové učení pozná slabé heslo",
+  "url": "https://machinelearningforkids.co.uk/",
+  "description": "V Machine Learning for Kids žáci vytvoří dvě kategorie — slabá a silná hesla —, naplní je příklady, natrénují model a testují, jestli nové heslo pozná. Bez registrace.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "strojové učení",
+    "klasifikace textu",
+    "trénovací data",
+    "heslo",
+    "Machine Learning for Kids",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci natrénují vlastní textový klasifikátor a při tom pojmenují, čím se silné heslo liší od slabého.",
+  "materials": [
+    "Počítač s internetem"
+  ],
+  "procedure": "Na machinelearningforkids.co.uk zvolte „Vyzkoušejte to hned“ (bez registrace, rozhraní je česky) a založte nový projekt s rozpoznáváním textu.\n\nTrénovat: vytvořte dvě kategorie — slabá hesla a silná hesla — a každou naplňte příklady. Vytrénujte model a otestujte, s jakou jistotou pozná nové heslo.\n\nAutor přiznává, že s asi 15 příklady v kategorii model hesla spolehlivě nerozlišoval. Jako ukázka principu to ale stačí — a dá se na tom krásně ukázat, proč AI potřebuje hodně dat.\n\nZávěr: podle čeho model asi rozhodoval? Jaké znaky má silné heslo? Kolik příkladů by model potřeboval?\n\nTřetí díl trojice Kyberpohádka o kůzlátkách → Překecej Gandalfa → strojové učení.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/jak-spolu-souvisi-pohadka-o-neposlusnych-kuzlatkach-gandalf-a-umela-inteligence"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

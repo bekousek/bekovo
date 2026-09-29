@@ -1,0 +1,40 @@
+{
+  "id": "ai-tyb-gandalf",
+  "categoryId": "ai",
+  "subcategoryId": "etika-ai",
+  "title": "Překecej Gandalfa — vylákej z AI heslo",
+  "url": "https://gandalf.lakera.ai",
+  "description": "Chatbot Gandalf střeží tajné heslo a žáci se ho snaží vylákat — prosbou, lstí, hrou na roli. S každou úrovní se Gandalf brání víc. Bez registrace, dá se psát i česky.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "Gandalf",
+    "Lakera",
+    "prompt injection",
+    "sociální inženýrství",
+    "chatbot",
+    "bezpečnost AI",
+    "heslo",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci si vyzkoušejí, jak funguje chatbot, a na vlastní kůži zažijí sociální inženýrství — jak snadno se dá z „hlídače“ vylákat tajemství.",
+  "materials": [
+    "Počítač nebo tablet s internetem"
+  ],
+  "procedure": "Motivace: pusť scénu z Pána prstenů, kde Gandalf na mostě křičí na Balroga „Tudy neprojdeš!“ Stejně jako ve filmu brání Gandalf i tady — tentokrát heslo.\n\nNa gandalf.lakera.ai se hraje bez registrace. Cílem je přimět Gandalfa, aby prozradil heslo pro danou úroveň. Po každém úspěchu se obtížnost zvedne a chatbot je ostražitější. Komunikovat se dá i česky.\n\nŽáci zkoušejí různé strategie: přímou prosbu, hru na roli, otázky na jednotlivá písmena, přepis hesla pozpátku nebo do básně… Ať si zapisují, co fungovalo.\n\nZávěr: přesně takhle může s tebou komunikovat útočník — sociálním inženýrstvím z tebe tahá informace, které bys neměl(a) prozradit. A totéž platí pro AI asistenty napojené na firemní data.\n\nAutor ho zařadil jako druhý díl trojice Kyberpohádka o kůzlátkách → Gandalf → strojové učení pozná slabé heslo. Žáky to podle něj neskutečně bavilo.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/jak-spolu-souvisi-pohadka-o-neposlusnych-kuzlatkach-gandalf-a-umela-inteligence"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

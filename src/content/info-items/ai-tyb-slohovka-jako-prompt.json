@@ -1,0 +1,39 @@
+{
+  "id": "ai-tyb-slohovka-jako-prompt",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Slohovka jako prompt — popis vysněného domu",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/kdyz-se-slova-meni-v-obrazky",
+  "description": "Žáci napíšou bohatý popis vysněného domu (přívlastky, doplňky…), ten se stane promptem pro generátor obrázků a pak se porovnává: odpovídá obrázek mé představě? Která slova chyběla?",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "prompt",
+    "generování obrázků",
+    "slovní zásoba",
+    "popis",
+    "čeština",
+    "mezipředmětové",
+    "imaginace",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci zjistí, jak přesnost a bohatost slov ovlivňuje výsledek generativní AI — a že popsat vlastní představu slovy je těžké i pro člověka.",
+  "materials": [
+    "Generátor obrázků, který respektuje detaily zadání (autor použil Microsoft Copilot; obrázky generoval učitel, protože žáci neměli účty)",
+    "Projektor"
+  ],
+  "procedure": "Tandem s češtinářem (autor učil s Ludmilou Kovaříkovou).\n\n1. Napiš: krátký popis vysněného domu. Použij, co znáš z mluvnice — přívlastky shodné, neshodné, několikanásobné, postupně rozvíjející, přísudky jmenné, doplňky.\n\n2. Generuj: slohovka se stává promptem. Učitel (nebo žáci, pokud mají účet) vygeneruje obrázky a žák vybírá z nabídnutých variant. Jednoduché bezplatné generátory detaily ignorují — použij pokročilejší model. Zkuste i upřesňující prompt.\n\n3. Přemýšlej a vylepšuj: odpovídá obrázek tvé představě? Co je jinak? Jaký upřesňující prompt bys zadal(a)? Která slova pomohla? Jak na tebe obrázek působí? Ukaž ho spolužákům.\n\n4. Reflexe: jaký je vztah mezi tvou představou a slovy? Je tvá slovní zásoba dostatečná? Dá se představa vůbec dokonale popsat slovy? Nakolik je AI, která použila jen tvá slova, kreativní a originální?\n\nZe žákovských reflexí: „Počítač mi do hlavy nevidí.“ Mnoha dětem se ale obrázek líbil víc než původní představa — AI do ní něco přidala.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/kdyz-se-slova-meni-v-obrazky"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

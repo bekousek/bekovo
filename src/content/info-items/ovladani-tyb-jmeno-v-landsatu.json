@@ -1,0 +1,42 @@
+{
+  "id": "ovladani-tyb-jmeno-v-landsatu",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Moje jméno z družicových snímků (s prvňáčky)",
+  "url": "https://landsat.gsfc.nasa.gov/apps/YourNameInLandsat-main/",
+  "description": "Prvňáčci hledají písmena na klávesnici, napíšou své jméno a NASA ho poskládá ze satelitních snímků řek, ostrovů a údolí. Pak písmena ve snímcích hledají a obtahují.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    1,
+    2,
+    3
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "klávesnice",
+    "písmena",
+    "NASA",
+    "Landsat",
+    "satelitní snímky",
+    "mapy",
+    "první třída",
+    "screenshot",
+    "Pavel Hodál"
+  ],
+  "goal": "Nejmenší žáci si procvičí hledání písmen na klávesnici a zjistí, že písmenka se dají najít i v krajině na Zemi.",
+  "materials": [
+    "Počítač nebo tablet (ideálně s dotykovým displejem a stylusem)",
+    "Starší žáci jako patroni na screenshoty"
+  ],
+  "procedure": "Na webu Your Name in Landsat (NASA) žák napíše své jméno bez diakritiky. Web ho poskládá ze satelitních snímků útvarů, které připomínají písmena. U každého snímku je vidět, kde na Zemi leží, a dá se prokliknout do map.\n\nS prvňáčky: 1) hledají písmena na klávesnici, 2) zapíšou jméno, 3) ve vygenerovaných snímcích hledají jednotlivá písmena, 4) pořídí se screenshot, 5) stylusem písmena tučně a barevně obtáhnou, 6) obrázek uloží. Screenshot a úpravy jsou pro sedmileté ještě složité — autorovi pomohli deváťáci-patroni.\n\nVarianta třídní učitelky: napíše na tabuli psacím písmem další slova, která děti umí. Ty je hledají na klávesnici v tiskací podobě, zapíšou do mapy a případně je stylusem napíšou psacím písmem.\n\nV nejjednodušší podobě to zvládnete za dvě minuty i se staršími — kde leží písmena mého jména?",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/zapis-svoje-jmeno-do-map-s-prvnacky-a-chromebookem"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

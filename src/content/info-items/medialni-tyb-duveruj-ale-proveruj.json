@@ -1,0 +1,40 @@
+{
+  "id": "medialni-tyb-duveruj-ale-proveruj",
+  "categoryId": "medialni-gramotnost",
+  "title": "Důvěřuj, ale prověřuj — čtyři weby o Brně",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce/duveruj-ale-proveruj-ne-vsemu-v-internetu-se-da-verit",
+  "description": "Deset minut na čtyři weby o Brně: oficiální stránky města, Wikipedii, TripAdvisor a Necyklopedii („z Brna je to 30 km do Saúdské Arábie“). Který je oficiální, který spolehlivý a který si dělá legraci?",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "důvěryhodnost webu",
+    "ověřování informací",
+    "Wikipedie",
+    "satira",
+    "oficiální zdroj",
+    "mediální výchova",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci posoudí důvěryhodnost webů a pojmenují znaky, podle kterých se spolehlivý zdroj pozná.",
+  "materials": [
+    "Počítač nebo tablet",
+    "Odkazy: brno.cz, cs.wikipedia.org/wiki/Brno, necyklopedie.org/wiki/Brno, stránka Brna na TripAdvisoru"
+  ],
+  "procedure": "Žáci mají 10 minut, aby prošli čtyři weby, které se týkají Brna, a zhodnotili jejich důvěryhodnost. (Klidně vyměňte za weby o vašem městě — Necyklopedie má stránku o mnoha městech.)\n\nOtázky: který web obsahuje hodně důvěryhodných informací? U kterého nevíme, kdo ho píše? Který je oficiální prezentací města? Který obsahuje nesmysly? Který jen parazituje na zajímavé doméně? Pojmenujte znaky důvěryhodného webu. Jak jste poznali, že informace nejsou pravdivé? Kde budete ověřovat informace do referátů? Může někdo z druhé strany světa uvěřit, že z Brna je to 30 km do Saúdské Arábie?\n\nKaždé rozhodnutí je nutné zdůvodnit.\n\nZ autorovy zkušenosti: podvod a Wikipedii žáci poznají. Problém dělá rozeznat oficiální prezentaci a hlavně zdůvodnit, podle čeho důvěryhodnost posuzují.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/duveruj-ale-proveruj-ne-vsemu-v-internetu-se-da-verit"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

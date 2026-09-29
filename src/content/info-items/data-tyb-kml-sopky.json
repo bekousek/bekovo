@@ -1,0 +1,42 @@
+{
+  "id": "data-tyb-kml-sopky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vizualizace",
+  "title": "Mapa sopek z dat od AI (KML soubory)",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce-informatika/kml-soubory-z-ai-prakticka-aktivita-pro-zemepis-a-informatiku",
+  "description": "Žáci si určí, jaká data o sopkách chtějí (souřadnice, aktivita, poslední erupce, počet obyvatel v okolí), nechají AI sestavit tabulku a převést ji do KML, zkontrolují ji a importují do mapy s vrstvami.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "KML",
+    "GIS",
+    "souřadnice",
+    "AI",
+    "datová tabulka",
+    "Google Moje mapy",
+    "vrstvy",
+    "sopky",
+    "zeměpis",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci navrhnou strukturu dat, ověří data vygenerovaná AI, převedou je do standardního formátu a zobrazí v mapě po vrstvách jako jednoduchý GIS.",
+  "materials": [
+    "Počítače s přístupem k chatbotu (autor použil Gemini)",
+    "Google Moje mapy (nebo Mapy.cz / Google Earth)",
+    "Textový editor na uložení souboru v UTF-8"
+  ],
+  "procedure": "Kontext (zeměpis): desková tektonika a Ohnivý kruh Pacifiku — proč sopky leží právě tam, kde leží?\n\n1. Data: žáci sami určí, co chtějí sledovat, a zadají AI, ať najde největší sopky světa a vypíše tabulku: jméno, souřadnice, typ, aktivní/neaktivní, nadmořská výška, stát, poslední erupce, nejničivější erupce, počet obyvatel do 30 km. Data zkontrolují — u encyklopedických údajů bývají v pořádku, u jiných nemusí.\n\n2. KML: prompt „exportuj data do KML, jako první uveď zeměpisnou délku, pak šířku“. Pozor: KML má pořadí délka–šířka, opačně než na papírových mapách! Pro pokročilé: doplňková data vlož do ExtendedData (GIS je načte jako atributovou tabulku) a do description přidej jednoduché HTML. Kód ulož jako .kml v UTF-8 (kvůli diakritice).\n\n3. Import: v Google Moje mapy založte mapu, vrstvu „Sopky“ a importujte soubor.\n\nRozšíření — skutečný GIS: vrstvy „Aktivní hrozba“ (červená) a „Spící obři“ (šedá), vrstva sopek s víc než 500 000 obyvateli v okolí, přidaná vrstva hranic tektonických desek (volně dostupné KML), vrstva nejničivějších erupcí s příběhy.\n\nHotová KML data se dají i stáhnout — smyslem je, aby si žáci sami stanovili, jaká data a v jakém rozsahu zpracují.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce-informatika/kml-soubory-z-ai-prakticka-aktivita-pro-zemepis-a-informatiku"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

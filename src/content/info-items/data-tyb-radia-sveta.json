@@ -1,0 +1,45 @@
+{
+  "id": "data-tyb-radia-sveta",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Rádia světa — sbíráme data v Radio Garden",
+  "url": "http://radio.garden",
+  "description": "Žáci na virtuální zeměkouli ladí živá rádia z celého světa a zapisují do sdílené tabulky, jestli hrají globální anglické hity, nebo místní hudbu. Z dat pak vznikne statistika a grafy.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min + zpracování dat",
+  "keywords": [
+    "sběr dat",
+    "sdílená tabulka",
+    "graf",
+    "Radio Garden",
+    "internet",
+    "hudba",
+    "zeměpis",
+    "mezipředmětové",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci společně nasbírají data, zpracují je do grafu a vyvodí závěr — a mimochodem zjistí, proč internetová rádia nejsou všude.",
+  "materials": [
+    "Počítače nebo tablety a sluchátka",
+    "Sdílená tabulka na zápis dat",
+    "Mapa internetové konektivity a hustoty zalidnění (Atlas Mapy.cz)"
+  ],
+  "procedure": "Úvod: na radio.garden roztočte zeměkouli a nalaďte jakékoli rádio světa, které vysílá přes internet.\n\nOtázky k mapě: kde je nejvíc stanic? Souvisí to s dostupností internetu? A s hustotou zalidnění? (Porovnejte s mapami v Atlasu Mapy.cz. Proč v centrální Austrálii nehraje nic?)\n\nSběr dat: každý si vybere aspoň 3 rozmanité oblasti světa a poslouchá. Hraje rádio západní anglické hity, nebo místní hudbu? Jaký jazyk převládá? Data zapisuje do sdílené tabulky. S asi 25 žáky se za hodinu nasbírá slušný vzorek.\n\nZpracování (v informatice nebo matematice): statistika a grafy. Ve třídě autora hrálo globalizované hity jen 45 % stanic a 77 % stanic hrálo v místním jazyce.\n\nBonus: everynoise.com má mapu stovek žánrů (chorvatský rock, mongolský metal…).\n\nMezipředmětově s hudebkou a zeměpisem. Nechte žáky mít sluchátka.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce/co-nas-mongolsky-metal-naucil-o-svetovych-radiich-dalsi-hudebka-s-vyuzitim"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

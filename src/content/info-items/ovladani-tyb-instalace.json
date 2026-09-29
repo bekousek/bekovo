@@ -1,0 +1,72 @@
+{
+  "id": "ovladani-tyb-instalace",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "operacni-system",
+  "title": "Co se děje při instalaci — příběhy a stanoviště",
+  "url": "https://www.tybrdo.cz/informatika/co-se-deje-pri-instalaci-od-kliknuti-k-pochopeni",
+  "description": "Lenka nemůže ve škole nainstalovat program, Mirkovi se „zbláznil“ prohlížeč, Honza chce super skin a Petr smazal rodinný notebook. Z příběhů se přechází k praktickým stanovištím: instalace z obchodu, doplněk prohlížeče, úklid prohlížeče, instalace OS.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "instalace",
+    "aplikace",
+    "administrátorská práva",
+    "doplňky prohlížeče",
+    "oznámení",
+    "záloha",
+    "licence",
+    "chromeOS Flex",
+    "řešení problémů",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci vědí, jaké jsou cesty k instalaci softwaru, kdo smí instalovat a proč jim to někdy nejde, a umí vyřešit běžný problém s prohlížečem.",
+  "materials": [
+    "Podklady ke stanovištím a dva pracovní listy (Google Drive níže)",
+    "Školní počítače, mobily",
+    "Připravený počítač s „otravným“ doplňkem prohlížeče",
+    "Pro pokročilé: starší notebook a USB s instalací chromeOS Flex"
+  ],
+  "procedure": "Příběhy na úvod (diskuse):\n• Lenka potřebuje do přírodopisu program Graphical Analysis — ve škole nemá administrátorská práva. A doma: .exe, .msi, .app, nebo .dmg? Nešla by webová aplikace?\n• Mirek odklikával všechna „Povolit oznámení“ a prohlížeč mu začal zobrazovat divné reklamy. Co s tím — odebrat oznámení, odinstalovat doplňky, obnovit nastavení?\n• Honza si chce do prohlížeče nainstalovat super skin, ale ve škole to nejde. Proč mají školy bezpečnostní politiky? Jak riskantní je „kurzor s koťátkem z TikToku“?\n• Petr přeinstaloval rodinný notebook a smazal všechna data. Co měl udělat jinak (záloha!)? Měl na to právo? Co jsou licence OS a které systémy jsou zdarma?\n\nPracovní list 1: rozdíly, práva, rizika a bezpečnost přehledně v tabulce.\n\nZeptej se žáků: máš doma na počítači administrátorská práva? Je tvůj mobil zabezpečený přes Family Link? Můžeš instalovat bez omezení? Autor zjistil, že to žáci většinou vůbec nevědí.\n\nStanoviště (pracovní list 2): 1) nainstaluj aplikaci z oficiálního obchodu — a šla by webová alternativa? 2) nainstaluj doplněk prohlížeče na blokování reklam, 3) vyřeš Honzův problém: najdi a odinstaluj otravný doplněk nebo obnov nastavení prohlížeče, 4) pro pokročilé ve skupině: nainstaluj chromeOS Flex na starší notebook (s výkonným strojem to trvá pár minut).\n\nTipy: na dvě hodiny je to nabité — příště by autor věnoval jednomu příběhu celou hodinu. „Otravné“ weby rychle mizí (Chrome je začne blokovat), mějte v záloze video.",
+  "files": [
+    {
+      "label": "Stanoviště Lenka",
+      "href": "https://drive.google.com/file/d/1FC3bus_AG9OpSnkmTpk2Nup4WmJ6O-Vv/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Stanoviště Honza a Mirek",
+      "href": "https://drive.google.com/file/d/1_YiVCc7DtfQRA9Qp_cXAy5bNgyxx3DSK/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Stanoviště Petr",
+      "href": "https://drive.google.com/file/d/1RZ7VC_l1zcENQBP3I_KvUMeAYFpAZHyq/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 1 — rozdíly, práva a rizika",
+      "href": "https://drive.google.com/file/d/1Ca94Sk5RgaryD3N6sdbs_4yjjoDK-P1c/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Pracovní list 2 — úkoly na stanovištích",
+      "href": "https://drive.google.com/file/d/1-n2iH41F7eQ4ORqsNuXGLND8cbM8oUFl/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/informatika/co-se-deje-pri-instalaci-od-kliknuti-k-pochopeni"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

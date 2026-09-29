@@ -1,0 +1,41 @@
+{
+  "id": "web-tyb-bumeetgram",
+  "categoryId": "web",
+  "subcategoryId": "bez-kodu",
+  "title": "Živá nástěnka vzkazů — Formulář + Tabulka + Gemini",
+  "url": "https://www.tybrdo.cz/technologie-ve-vyuce-informatika/bumeetgram-zivy-feed-vzkazu-bez-programovani",
+  "description": "Vzkazy z Google Formuláře se ukládají do Tabulky, ta se publikuje jako CSV a Gemini podle promptu napíše stránku, která je zobrazuje jako feed ve stylu Instagramu. Vibe coding, který zvládne i žák ZŠ.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "vibe coding",
+    "Gemini",
+    "Google Formuláře",
+    "Google Tabulky",
+    "CSV",
+    "HTML",
+    "Tailwind",
+    "Google Sites",
+    "webová aplikace",
+    "Pavel Hodál"
+  ],
+  "goal": "Žáci poskládají jednoduchou webovou aplikaci z běžných nástrojů: formulář jako vstup, tabulka jako „databáze“, AI jako programátor a Google Sites jako hosting.",
+  "materials": [
+    "Školní Google účty s přístupem ke Gemini (režim Canvas)",
+    "Google Formuláře, Tabulky a Sites"
+  ],
+  "procedure": "Nápad: nástěnka vzkazů (třeba pro školní akci, třídu nebo den otevřených dveří). Uživatel vyplní formulář a vzkaz se objeví jako karta na stránce.\n\n1. Formulář: pár otázek (komu, vzkaz, jedno výstižné slovo, jméno — volitelně). Odpovědi se ukládají do Tabulky.\n\n2. CSV: Tabulku publikujte na web ve formátu CSV (Soubor → Sdílet → Publikovat na web) a nastavte veřejný přístup. To je zdroj dat — žádná databáze.\n\n3. Prompt v Gemini (režim Canvas): jednostránková HTML aplikace s Tailwind CSS, responzivní mřížka jako Instagram/Pinterest, data načtená z adresy CSV, každý řádek jako karta se zaoblenými rohy, nejnovější nahoře, prázdné jméno = „Od: Anonym“, žádná zkušební data, zápatí s autorem. (Celý prompt je v článku.)\n\n4. Publikace: hotový HTML vložte do Google Sites přes „Vložit → Vlastní kód“.\n\nTo, co se žáci naučí, je hlavně architektura: odkud data přicházejí, kde se ukládají a jak se zobrazí. A že AI je parťák, kterému musím přesně popsat, co chci.\n\nPozor: veřejně publikovaná tabulka je vidět komukoli s odkazem — žádné osobní údaje. A zvažte moderaci vzkazů.",
+  "source": {
+    "label": "Pavel Hodál — Ty brďo (tybrdo.cz)",
+    "url": "https://www.tybrdo.cz/technologie-ve-vyuce-informatika/bumeetgram-zivy-feed-vzkazu-bez-programovani"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
