@@ -1,0 +1,50 @@
+{
+  "id": "ai-itb-popletene-stroje",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Popletené stroje — jak se učí umělá inteligence",
+  "url": "https://www.itbezstrachu.cz/digit%C3%A1ln%C3%AD-technologie#h.y3w98625qq0v",
+  "description": "Učitel hraje počítač a děti ho učí na příkladech, jak vypadá pastelka. Pak „učí“ třídicího robota v supermarketu — a zjistí, co se stane, když AI dostane špatná nebo nevyvážená data.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "umělá inteligence",
+    "AI",
+    "strojové učení",
+    "učení s učitelem",
+    "trénovací data",
+    "předpojatost",
+    "bias",
+    "unplugged",
+    "IT bez strachu"
+  ],
+  "goal": "Žáci se seznámí s principem strojového učení s učitelem, vyzkouší si ho na konkrétních příkladech a vysvětlí, co je předpojatost dat.",
+  "materials": [
+    "Obrázek „losos v peřejích“ vygenerovaný AI (v PDF)",
+    "Papír, čtvrtky, flipchart"
+  ],
+  "procedure": "Evokace v kroužku: co jste se dnes naučili nového? Jaký by byl svět, kdybychom se nedokázali učit? Umí se učit jen živé bytosti? Co si představíte pod slovem stroj? Lidé přišli na to, jak naučit stroje — a protože učení je znak inteligence, říkáme tomu umělá inteligence.\n\nUvědomění 1: „Já jsem počítač, vy moji učitelé. Stroje ale potřebují mnohem víc příkladů než lidé.“ Skupiny si vyberou 1–2 věci (např. pastelku) a za 5–10 minut dají dohromady aspoň 5 příkladů — kresby, skutečné předměty, fotky, plastelína. Pak je „počítači“ předloží a popíšou: jak se věc jmenuje, jak vypadá, k čemu slouží, proč vznikla, jak voní, jaký dělá zvuk. Tohle je strojové učení s učitelem.\n\nKolik různých věcí je jen v téhle třídě? A na světě? Ukaž obrázek lososa v peřejích, který AI namalovala jako plátky masa: jak se to mohlo stát? (Učila se na obrázcích steaku se štítkem „losos“.) Špatné příklady = špatné učení = předpojatost.\n\nUvědomění 2: robot ve skladu supermarketu zná kategorie (ovoce, zelenina, drogerie, pečivo…), ale neví, co do nich patří. Každá skupina si vylosuje kategorii a za 5 minut vypíše co nejvíc zboží.\n\nReflexe: skupiny představí kategorie, ostatní říkají, co chybí, a tipují, na který pás robot zapomenuté zboží dá. V čem můžeme udělat chybu (nevyvážená data — sto příkladů ovoce a jedna zelenina)? Co by se muselo naučit samořídicí auto?\n\nTipy autorů: Střídej krátké diskuse v kroužku a práci u stolů. Jde to i venku — jen přizpůsob příklady. V PDF je i slovníček pojmů (AI, strojové učení, předpojatost) s odkazy na aidetem.cz.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/18FAmdhKbLfqgXBf9wAn8xYwHWzQlD7Uv/view",
+      "type": "pdf",
+      "note": "Postup, obrázek k promítnutí a slovníček pojmů."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Eva Nečasová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/digit%C3%A1ln%C3%AD-technologie"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

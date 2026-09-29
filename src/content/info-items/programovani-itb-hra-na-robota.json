@@ -1,0 +1,48 @@
+{
+  "id": "programovani-itb-hra-na-robota",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Hra na robota a programátora — geometrické útvary šipkami",
+  "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD#h.uvir2011m16l",
+  "description": "Žáci zapisují cesty ve čtvercové síti šipkami, pak „naprogramují“ čtverec, obdélník nebo trojúhelník a vymění si list se spolužákem, který jako robot útvar narýsuje.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "šipky",
+    "čtvercová síť",
+    "robot",
+    "programátor",
+    "geometrie",
+    "symbolický zápis",
+    "unplugged",
+    "IT bez strachu"
+  ],
+  "goal": "Žák se seznámí s rolí programátora a robota, zapisuje cestu šipkami, orientuje se ve čtvercové síti a rýsuje útvary podle symbolického postupu.",
+  "materials": [
+    "Vytištěné pracovní listy (v PDF; přílohy 6 a 7 oboustranně na jeden list)",
+    "Pravítko, pastelky"
+  ],
+  "procedure": "Evokace: promítni obrázek „Co dělá programátor a robot?“ a nech skupiny doplnit, co která role dělá. Závěry napiš na tabuli.\n\nUvědomění — společně: list „Kudy vede cesta?“ na tabuli. Pojmenujte útvary na obrázku a podle šipek vyznačte cestu z bodu A; kde končí?\n\nSamostatně (pracovní list): 1) pojmenuj útvary ve čtvercové síti, 2) naprogramuj vlastní cestu z vybraného bodu — zapiš start a šipky, 3) na druhé straně narýsuj aspoň dva útvary a napiš pro robota program, jak je narýsovat, 4) vyměň si list se spolužákem — ten jako robot vyznačí barvou tvou cestu a zapíše koncový bod.\n\nReflexe: vraťte si listy a zkontrolujte zápis cesty, barevné vyznačení a program útvaru. Jaké útvary se objevily? Co dělalo potíže?\n\nPro rychlíky (přílohy 8–9): narýsuj čtyřúhelník podle zápisu, změř strany a úhlopříčky, spočítej obvod a obsah; zkus to bez sítě (šipka = 1 cm); poskládej z útvarů domeček.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1csPRvR250MUxudYFwf3fIk6jwa4j0yZu/view",
+      "type": "pdf",
+      "note": "Obrázky k promítnutí, pracovní listy, řešení a rozšiřující úlohy."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Marcela Přibylová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

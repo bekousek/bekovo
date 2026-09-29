@@ -1,0 +1,52 @@
+{
+  "id": "data-itb-evropska-mesta",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Evropská města — vlastní tabulka a otázky k ní",
+  "url": "https://www.itbezstrachu.cz/informa%C4%8Dn%C3%AD-syst%C3%A9my#h.n78b8k1ocxqa",
+  "description": "Žáci vyhledají údaje o pěti evropských městech, navrhnou přehlednou tabulku, vymyslí k ní otázky a vyzkouší je na spolužácích.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "tabulka",
+    "data",
+    "vyhledávání",
+    "Evropa",
+    "města",
+    "počet obyvatel",
+    "rozloha",
+    "vlastivěda",
+    "IT bez strachu"
+  ],
+  "goal": "Žák vyhledá informace, strukturovaně je zapíše do tabulky, kterou sám navrhne, a formuluje úlohy, na které tabulka odpovídá.",
+  "materials": [
+    "Zařízení s internetem",
+    "Atlas Evropy",
+    "Papíry různých velikostí a barev, psací potřeby, pravítka",
+    "Losovací obrázky evropských států a reflektivní pracovní list (v PDF)"
+  ],
+  "procedure": "Evokace: každý si vylosuje evropský stát a napíše vše, co si myslí, že o něm ví; pak to ověří v atlase a na internetu. Žáci se stejným státem utvoří skupiny (ideálně po třech) a sdílí poznámky.\n\nSkupiny diskutují: jak jste informace zapsali (věty, odrážky, schéma)? Jak je zapsat co nejpřehledněji? Na tabuli se obvykle objeví tabulka — tady žákům řekni, co je cílem hodiny.\n\nUvědomění — písemné zadání (! povinné, * bonus): ! vyber aspoň 5 evropských měst, ! navrhni tabulku (počet obyvatel, rozloha + další údaje), ! vymysli aspoň 3 otázky, na které tabulka odpoví, ! vytvoř finální pracovní list (nadpis, autor, tabulka, úlohy), ! na jiný papír napiš řešení, * list výtvarně ozvláštni, * přidej bonusové úlohy.\n\nReflexe: dvojice si vymění listy a vyřeší úlohy toho druhého. Co mají tabulky společného? Čím jsi zajistil přehlednost? Odkud jsi čerpal? Návrhy na úpravu rovnou zapracujte. Nakonec samostatně reflektivní pracovní list.\n\nTipy autorů: Dej dost času. Osvědčila se „galerie“ tabulek, kde žáci řeší úlohy ostatních. Někteří si špatně rozvrhnou papír a tabulka se nevejde. Rozšíření: víc měst a údajů, nebo přepis do tabulkového editoru.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1o8R8v_TDVnTeV-oeKCg66WoEcdhftWoH/view",
+      "type": "pdf",
+      "note": "Losovací obrázky, reflektivní pracovní list a ukázky prací žáků."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Magdalena Tylová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/informa%C4%8Dn%C3%AD-syst%C3%A9my"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
