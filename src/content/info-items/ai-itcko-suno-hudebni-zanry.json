@@ -1,0 +1,43 @@
+{
+  "id": "ai-itcko-suno-hudebni-zanry",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Hudební žánry a generování hudby (Suno)",
+  "url": "https://suno.com/",
+  "description": "Vennův diagram hip hopu a techna, poslech a porovnání, pak vlastní skladba vygenerovaná AI ve zvoleném žánru a třídní playlist.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "generování hudby",
+    "hudební žánry",
+    "Vennův diagram",
+    "Suno",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše rysy hudebních žánrů, vytvoří skladbu pomocí generativní AI a posoudí, zda odpovídá žánru.",
+  "materials": [
+    "Pracovní list s Vennovým diagramem (AI dětem, odkaz níže)",
+    "Účet v aplikaci Suno — zkontrolujte věkové podmínky, registraci ideálně z domova"
+  ],
+  "procedure": "Evokace: co jsou hudební žánry, jaký máte oblíbený a co je pro něj typické? Na tabuli Vennův diagram dvou žánrů (např. hip hop a techno) — co mají společného a čím se liší? Lze se zeptat i chatbota a odpověď rozebrat.\n\nPoslech: jedna skladba z každého žánru, žáci zapisují charakteristické prvky do diagramu; pak se vraťte k diagramu na tabuli.\n\nSuno: ukázky žánrů, v režimu Custom mode lze vložit vlastní text (úryvek školního řádu, citát z učebnice, autorský text). Každý vytvoří skladbu a pošle učiteli odkaz — vznikne třídní playlist.\n\nReflexe: odpovídají skladby žánru? Podle čeho to poznáte? Jak může AI vygenerovat píseň v daném stylu (učila se na obrovském množství skladeb — proto zní často klišovitě)?",
+  "files": [
+    {
+      "label": "Pracovní list — Vennův diagram (AI dětem)",
+      "href": "https://kurikulum.aidetem.cz/metodiky/digikomp/Digitalni-kompetence-AI_hudebni-vychova-02_pracovni-list.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, červen 2025 (roč. 3, č. 10), s. 13)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

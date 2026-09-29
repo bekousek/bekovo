@@ -1,0 +1,37 @@
+{
+  "id": "robotika-itcko-vex123-ryma",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123: robot proti rýmě",
+  "description": "Robota VEX 123 žáci programují tlačítky přímo na něm: nejdřív trasa z A do B mezi překážkami, pak musí dotlačit balíček kapesníků nemocnému kamarádovi — a objet ho, aby ho mohl tlačit dál.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX 123",
+    "tlačítkové programování",
+    "šipky",
+    "plánování",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozvrhne postup do kroků, zadá je robotovi a zapíše šipkami.",
+  "materials": [
+    "VEX 123 a čtyři dlaždice (plocha 6 × 6 polí)",
+    "Pastelky jako překážky",
+    "Balíček kapesníků"
+  ],
+  "procedure": "Seznámení: robota zapnete rozjetím dopředu o podložku, pak tlačítky zadáte příkazy (vpřed, otočka vlevo, vpravo) a prostředním spustíte. Příkazy se přidávají k předchozím — smažete je zamáváním robotem ve vzduchu.\n\nNa plochu 6 × 6 dejte překážky tak, aby omezily pohyb. Úkol: z A do B, trasu po úsecích zapsat šipkami do sešitu.\n\nHlavní úkol: dostrkat balíček kapesníků z políčka k nemocnému kamarádovi v bodě B. Kde bude robot muset balíček objet, aby ho mohl tlačit dál? Trasu zakreslete a zapište.",
+  "files": [],
+  "source": {
+    "label": "ITčko, květen 2023 (roč. 1, č. 9), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

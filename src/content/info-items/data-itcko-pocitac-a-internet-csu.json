@@ -1,0 +1,38 @@
+{
+  "id": "data-itcko-pocitac-a-internet-csu",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "kontrola-dat",
+  "title": "Má v ČR počítač a internet každý? Čteme data ČSÚ",
+  "url": "https://www.czso.cz/csu/czso/vyuzivani-informacnich-a-komunikacnich-technologii-v-domacnostech-a-mezi-osobami-2022",
+  "description": "Nad tabulkami Českého statistického úřadu o vybavení domácností žáci rozlišují, co čísla opravdu dokazují a co je jen naše domněnka.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "statistika",
+    "ČSÚ",
+    "interpretace dat",
+    "kritické myšlení",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák získá z dat informace, interpretuje je a odhaluje chyby v interpretacích.",
+  "materials": [
+    "Aktuální tabulky ČSÚ o domácnostech s počítačem a internetem (odkaz)",
+    "Projektor"
+  ],
+  "procedure": "Promítněte tabulky podílu domácností s počítačem a s internetem podle typu domácnosti a příjmu.\n\nSystematickými otázkami veďte k fakta × domněnky. Příklady: Mají všechny domácnosti bez dětí s počítačem i internet? (Nelze s jistotou — internet mohou mít jen v mobilu.) Projevil se covid (2020–2022) nárůstem? (U seniorů nárůst vidíme, ale příčinu data nedokazují.) Má každá rodina se dvěma dětmi internet, když je to 99,9 %? (Ne — za desetinou procenta jsou tisíce lidí.)\n\nNechte žáky formulovat vlastní tvrzení a spolužáci posoudí, zda je data opravdu podporují.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2022 (roč. 1, č. 4), s. 6 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

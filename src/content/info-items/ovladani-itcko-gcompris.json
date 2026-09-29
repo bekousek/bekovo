@@ -1,0 +1,35 @@
+{
+  "id": "ovladani-itcko-gcompris",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "GCompris: první myš a klávesnice",
+  "url": "https://gcompris.net/downloads-en.html",
+  "description": "Sada volných výukových her bez reklam v češtině. Pod ikonou kočky je 17 her na myš a klávesnici — pohyb, dvojklik, přetahování, kolečko, psaní písmen a slov i první textový editor.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "myš",
+    "klávesnice",
+    "psaní",
+    "open source",
+    "hry",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák procvičí ovládání myši a klávesnice.",
+  "procedure": "GCompris nainstalujte v učebně (Windows, Linux, macOS, Android, iOS; zdarma, podporuje více uživatelů).\n\nPro začátečníky: Moje první myš a klávesnice, Dvakrát klepni, Dokonči hádanku (přetahování), Klikni na mě, Ovládej hadici, Dolování zlata (kolečko a přiblížení), Čísla na kostce, Padající slova. Pokročilejší: Můj první textový procesor (nadpis, odstavce, uložení).\n\nHvězdy u her ukazují věk (žluté 2–6 let, červené od 7). Pod ikonou tučňáka jsou logické hry (řady, hanojská věž, sudoku). Esc ukončí hru, Ctrl + F celá obrazovka.",
+  "files": [],
+  "source": {
+    "label": "ITčko, červen 2025 (roč. 3, č. 10), s. 2 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

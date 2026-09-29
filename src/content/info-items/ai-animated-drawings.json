@@ -5,7 +5,7 @@
   "title": "Animated Drawings",
   "url": "https://sketch.metademolab.com/canvas",
   "description": "Nahraj fotku nakreslené postavičky a AI ji rozpohybuje — tančí, skáče, chodí. Nejlepší s vlastními kresbami žáků.",
-  "type": "aktivita",
+  "type": "blok",
   "equipment": [
     "pocitac"
   ],
@@ -13,7 +13,28 @@
   "keywords": [
     "animace",
     "kresba",
-    "Meta"
+    "Meta",
+    "ITčko"
   ],
-  "added": "2026-09-27"
+  "added": "2026-09-27",
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "45–90 min",
+  "goal": "Žák výtvarně ztvární postavu, rozpohybuje ji pomocí AI a vysvětlí, jak technologie pomohla v procesu animace.",
+  "materials": [
+    "Papír, pastelky, barvy nebo modelína (případně Malování)",
+    "Mobil, tablet nebo počítač s internetem",
+    "Volitelně Canva na sestříhání videa"
+  ],
+  "procedure": "Ukažte ukázky animovaných kreseb a krátce vysvětlete, co je generativní AI.\n\nKaždý si vybere postavu z pohádky či knihy a zapíše její atributy: fyzické rysy, typické předměty, povahu. Pak ji nakreslí, namaluje nebo vymodeluje — celou, s dobře viditelnými roztaženými končetinami. Digitálně: uzavřené plochy s černým obrysem v Malování, uložit jako JPG.\n\nV Animated Drawings nahrajte fotku, ořízněte, upravte masku a nastavte body kloubů (hlava, ruce, nohy). Vyberte pohyb (chůze, skok, tanec) a uložte MP4.\n\nRozšíření pro starší: z animací sestavte v Canvě video s textem, přechody a hudbou; soubor pošlete učiteli e-mailem jako přílohu.\n\nReflexe: jak AI poznala, kde má postava ruce a nohy? Co udělala dobře a kde chybovala?",
+  "source": {
+    "label": "Postup: AI dětem (Kurikulum AI) a M. Přibylová, představeno v ITčku 12/2024 a 5/2025",
+    "url": "https://kurikulum.aidetem.cz/metodicke-materialy/vytvarna-vychova-01-animace-postav/"
+  }
 }

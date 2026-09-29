@@ -1,0 +1,38 @@
+{
+  "id": "media-itcko-najdi-rozdil",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Najdi, co chybí: AI guma na fotky",
+  "url": "https://cleanup.pictures/",
+  "description": "Skupiny vyfotí chodbu nebo zahradu, v nástroji Cleanup.pictures z fotky „vygumují“ předmět a ostatní hádají, co zmizelo. Funguje i s fotkami z učiva (sloup z Pompejí, nohy kudlanky).",
+  "type": "blok",
+  "equipment": [
+    "tablet",
+    "pocitac"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "úprava fotografií",
+    "AI",
+    "pozornost",
+    "tablet",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše obsah obrázku, porovná ho s upraveným a určí změnu; seznámí se s nástrojem pro úpravu fotek.",
+  "materials": [
+    "Tablety nebo notebooky s internetem"
+  ],
+  "procedure": "Známá hra: děti odejdou, něco ve třídě změníte a hádají co. Teď digitálně.\n\nSkupiny vyfotí větší prostor, v Cleanup.pictures vyberou velikost gumy, přetřou objekt a ten zmizí. Obrázek ukážou ostatním, kteří hádají, co chybí. Přepínačem lze ukázat originál.\n\nVzdělávací varianta: stáhněte fotky k probíranému učivu a odeberte z nich podstatný detail. Obtížnost zvýšíte odebráním více objektů nebo zrcadlením originálu.\n\nPro učitele: stejným nástrojem lze na školních fotkách skrýt děti, jejichž rodiče nesouhlasí se zveřejněním.",
+  "files": [],
+  "source": {
+    "label": "ITčko, říjen 2023 (roč. 2, č. 2), s. 6 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "programovani-itcko-santa-tracker",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Santa Tracker: Code Lab a Code Boogie",
+  "url": "https://santatracker.google.com/",
+  "description": "Dvě vánoční blokové hry od Googlu: v Code Lab žáci provádějí elfa bludištěm co nejmenším počtem bloků (smyčky i vnořené smyčky), v Code Boogie skládají taneční choreografii.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "blokové programování",
+    "smyčky",
+    "Vánoce",
+    "Google",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví jednoduchý program z bloků a použije opakování.",
+  "procedure": "Code Lab: 14 kol, elf musí k dárku. Cílem je vyřešit kolo co nejmenším počtem bloků — ideální chvíle na zavedení smyček.\n\nCode Boogie: v části Dance class se v 9 úrovních naučí bloky, v Dance freestyle skládají vlastní taneční choreografii elfů.\n\nWeb je v angličtině, ale hry téměř nepotřebují text. Na stránce je i hra Quick Draw (strojové učení) a další vánoční minihry na oddech.",
+  "files": [],
+  "source": {
+    "label": "ITčko, listopad 2024 (roč. 3, č. 3), s. 3 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

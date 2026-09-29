@@ -1,0 +1,37 @@
+{
+  "id": "hardware-itcko-opravujeme-pocitac",
+  "categoryId": "hardware",
+  "title": "Opravujeme počítač: diagnostika z popisu závady",
+  "description": "Skupiny dostanou kartičky s popisem, co počítač dělá (piští, nenabíhá, přehřívá se…), dohledají pravděpodobnou závadu a navrhnou opravu i s cenou dílu.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "hardware",
+    "závady",
+    "řešení problémů",
+    "ověřování zdrojů",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše závadu hardwaru, navrhne její řešení a argumentuje.",
+  "materials": [
+    "Kartičky s fiktivními závadami (připravte si, ITčko je má pro předplatitele)",
+    "Internet, případně AI nástroje",
+    "Online časovač"
+  ],
+  "procedure": "Porouchaný počítač je skvělá pomůcka, ale většinou ho nemáme — složitější závady (grafická karta, disk) proto simulujeme popisem.\n\nSkupiny dostanou kartičky: co se počítači stalo a jak se chová. Na fórech, webu či pomocí AI najdou možnou příčinu a navrhnou řešení (např. výměna větráku). 10–15 minut. Stejné zadání ať má víc skupin.\n\nPrezentace: promítněte zadání, skupiny řeknou svou domněnku a řešení, porovnejte je. Odkud čerpali? Měl někdo takový problém doma? Dohledejte i ceny dílů.\n\nHodnoťte i proces — ověřili informace z více zdrojů? To je zásadní hlavně při použití AI.",
+  "files": [],
+  "source": {
+    "label": "ITčko, únor 2025 (roč. 3, č. 6), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

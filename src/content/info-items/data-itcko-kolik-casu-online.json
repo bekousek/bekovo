@@ -1,0 +1,41 @@
+{
+  "id": "data-itcko-kolik-casu-online",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Kolik času trávíš online? Třídní průzkum",
+  "description": "Žáci se sami dohodnou, jak sesbírat od spolužáků údaje o čase online, vybarví z nich sloupcový graf a porovnají, zda se jim grafy shodují.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "sběr dat",
+    "sloupcový graf",
+    "čas online",
+    "pracovní list",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sbírá data, zaznamená je do sloupcového grafu a vysloví odpovědi na jejich základě.",
+  "materials": [
+    "Pracovní list DigiKoalice (odkaz níže)"
+  ],
+  "procedure": "Proč lidé sbírají data? (Plánování škol, rozpočtu, výroby, záchranné akce.) Co znamená „online“ — nejen počítač, ale i tablet a mobil.\n\nRozdejte pracovní list: vybarví tolik okének, kolik spolužáků (včetně sebe) tráví online daný počet hodin — vznikne sloupcový graf.\n\nŽáci se sami domluví, jak data sesbírají. Pomáhejte otázkami: Jak poznáte, že jste se zeptali všech? Šlo by to efektivněji? Pak jen pozorujte.\n\nPorovnejte grafy — shodují se? Diskuse o spolupráci a o tom, co by příště udělali jinak. Nakonec čtěte z grafu: kolik žáků je online víc než pět hodin a co tam dělají?\n\nObměna: graf v Excelu z tabulky, nebo průzkum měsíců narození či domácích mazlíčků.",
+  "files": [
+    {
+      "label": "Pracovní list Sloupcový graf (DigiKoalice)",
+      "href": "https://digikoalice.cz/pracovni-list-codeweek-sloupcovy-graf/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "ITčko, březen 2023 (roč. 1, č. 7), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

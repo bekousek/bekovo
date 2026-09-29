@@ -1,0 +1,37 @@
+{
+  "id": "robotika-itcko-mbot-ai-modul",
+  "categoryId": "robotika",
+  "subcategoryId": "mbot",
+  "title": "mBot2 a AI: hlasové povely",
+  "description": "Přes jazykový model AI v mBlocku mBot2 poslouchá anglické povely — nakreslí jízdou čtverec, trojúhelník nebo kruh, rozsvítí barvu podle slova a přeloží slovíčko do jiného jazyka.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "mBot2",
+    "umělá inteligence",
+    "rozpoznávání řeči",
+    "angličtina",
+    "wi-fi",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vyzkouší práci s AI jazykovým modulem a zpracuje hlasový vstup v programu robota.",
+  "materials": [
+    "mBot2, aktuální mBlock 5 s účtem Makeblock",
+    "Školní wi-fi pro žáky (ověřte firewall předem)"
+  ],
+  "procedure": "Příprava: účet u Makeblocku (zdarma), wi-fi pro roboty. Pokud jsou AI bloky šedé, přepněte do režimu Živě a zpět. Úvod o AI třeba z aidetem.cz.\n\nPřipojení: blok s názvem sítě a heslem, robot oznámí „connected“. Každá komunikace trvá asi 4 s, ve třídě musí být ticho. Česky model neumí — pracuje se v angličtině.\n\nProgram 1: po stisku A robot 4 s poslouchá, zopakuje, co slyšel, a po B odjede tvar (rectangle, triangle, circle). Program 2: bez tlačítek pípne, poslouchá a rozsvítí red / green / blue. Program 3: přeloží slovíčko (třeba do španělštiny) a vysloví ho — kontrola v překladači.\n\nRozšíření: další povely a barvy; robot hlasem hlásí, kam se pohnula páčka. Přesah do angličtiny: robot pozná, kdo vyslovuje správně.",
+  "files": [],
+  "source": {
+    "label": "Ondřej Merta, seriál o mBotu2 v ITčku (představeno v ITčku, květen 2025 (roč. 3, č. 9), s. 8)"
+  },
+  "added": "2026-09-29"
+}

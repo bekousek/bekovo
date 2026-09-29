@@ -1,0 +1,42 @@
+{
+  "id": "ai-itcko-rostliny-kolem-nas",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Rostliny kolem nás: Pl@ntNet a péče o školní květiny",
+  "url": "https://kurikulum.aidetem.cz/metodicke-materialy/prirodopis-01-rostliny-kolem-nas/",
+  "description": "Žáci aplikací Pl@ntNet určí rostliny ve škole, ověří správnost podle dalších zdrojů, dohledají péči a ke každé květině připevní infocedulku.",
+  "type": "blok",
+  "equipment": [
+    "mobil",
+    "tablet"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "rozpoznávání obrazu",
+    "počítačové vidění",
+    "přírodopis",
+    "ověřování",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák použije aplikaci k určování rostlin, kriticky posoudí její výsledek a vysvětlí princip počítačového vidění.",
+  "materials": [
+    "Mobily/tablety s fotoaparátem a internetem",
+    "Pracovní listy 1–3 a prezentace (AI dětem)",
+    "Aplikace Pl@ntNet (zdarma, bez registrace)"
+  ],
+  "procedure": "Úvod: kde ve škole jsou rostliny a kdo se o ně stará? Co potřebují k růstu?\n\nSkupiny určují rostliny aplikací a zapisují je do pracovního listu. U jedné si podle obrázků na internetu ověří, že určení sedí.\n\nDohledají informace o péči, zapíšou do tabulky, vystřihnou ji jako cedulku a připevní ke květině. Je rostlina na vhodném místě? Rozdělte si služby na zalévání.\n\nSouhrn za třídu: kolik rostlin, kolik druhů, v jakém stavu. Reflexe: jak Pl@ntNet funguje (fotky od uživatelů, hlasování o správnosti, hledání vzorů na fotkách)?",
+  "files": [],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, březen 2025 (roč. 3, č. 7), s. 13)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

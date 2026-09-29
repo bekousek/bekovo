@@ -1,0 +1,32 @@
+{
+  "id": "bezpecnost-itcko-hra-pro-cestovatele",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Hra pro cestovatele, nebo nebezpečná aplikace?",
+  "description": "Check-iny ve Foursquare, selfie před kinem, fotky z dovolené v reálném čase: žáci přemýšlejí, jak se dá zneužít sdílená poloha a jak se chránit.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "poloha",
+    "digitální stopa",
+    "sociální sítě",
+    "stalking",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák si uvědomuje rizika digitální stopy spojené s polohou a umí je minimalizovat.",
+  "procedure": "Představte princip aplikací, kde se „checkujete“ na místech a sbíráte body a odznaky. Nevinná hra podporující cestování?\n\nOtázky: Jak se dají informace z takové aplikace zneužít? Jak ji používat bezpečněji? Je nutné dávat skutečnou fotku a pravdivé údaje?\n\nModelové situace: selfie před kinem na veřejném profilu (pachatel zjistí, kdy film končí); fotky z dovolené (zloděj ví, že byt je prázdný).\n\nShrňte prevenci: v přátelích jen ověření lidé, příspěvky jen pro přátele, fotky z dovolené až po návratu, nejdřív přemýšlet, pak sdílet.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2022 (roč. 1, č. 4), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

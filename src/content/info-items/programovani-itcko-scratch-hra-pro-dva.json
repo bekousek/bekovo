@@ -1,0 +1,37 @@
+{
+  "id": "programovani-itcko-scratch-hra-pro-dva",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Scratch: hra pro dva hráče s jablky",
+  "url": "https://scratch.mit.edu/",
+  "description": "Zjednodušená verze hry paper.io: dvě postavy ovládané šipkami a WASD sbírají jablka, rostou a vyhrává ta, která první dosáhne maximální velikosti.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Scratch",
+    "hra",
+    "proměnná",
+    "události",
+    "náhoda",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák v blokovém jazyce sestaví jednoduchou hru pro dva hráče, najde a opraví chyby.",
+  "materials": [
+    "Scratch (online nebo aplikace)"
+  ],
+  "procedure": "Postavy: smažte kocoura, přidejte dvě postavy tlačítek (hráči) a jablko. Kostým hráče si žáci mohou přebarvit.\n\nPohyb prvního hráče: po kliknutí na zelenou vlajku opakuj stále, uvnitř když je stisknuta šipka, změň x nebo y o 10 — pro všechny čtyři směry. Skript zkopírujte druhému hráči a změňte klávesy na W, A, S, D. Otestujte.\n\nRůst: když se hráč dotýká jablka, změň velikost o 1 (případně přičti do proměnné skóre).\n\nJídlo: jablko opakuj stále — když se dotýká hráče 1 nebo hráče 2, skoč na náhodnou pozici.\n\nRozšíření: konec hry při dosažení maximální velikosti, zvuky, víc druhů jídla. Hru zvládají i mladší žáci, pokud postupujete krok za krokem.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2022 (roč. 1, č. 4), s. 8 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

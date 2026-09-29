@@ -1,0 +1,39 @@
+{
+  "id": "data-itcko-informatika-s-mapou-cr",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Informatika s mapou České republiky",
+  "description": "Propojení s vlastivědou: žáci přes QR kódy hledají nadmořské výšky nejvyšších hor, řadí je, zakreslují povrch do mapy, přenášejí obrys ČR do čtvercové sítě a umisťují do ní města.",
+  "type": "blok",
+  "equipment": [
+    "tablet",
+    "mobil",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "vyhledávání",
+    "vlastivěda",
+    "mapa",
+    "čtvercová síť",
+    "QR kód",
+    "lapbook",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhledá informace, zapíše je do modelu (mapy či tabulky) a orientuje se na mapě ČR.",
+  "materials": [
+    "Tablety či mobily se čtečkou QR",
+    "Mapa ČR, čtvercová síť, pastelky"
+  ],
+  "procedure": "Úvod: jaký povrch má ČR, co je nadmořská výška, která hora je nejvyšší?\n\nLapbook o povrchu ČR: přes QR kód najdou mapu povrchu, vybarví hory a nížiny a popíšou pohoří. Na internetu dohledají výšky nejvyšších hor, zapíšou do tabulky (m n. m.) a seřadí. Název nejvyšší hory rozluští z jednoduché šifry.\n\nMapa ve čtvercové síti: podle vzoru přenesou obrys ČR do mřížky (klidně kreativně) a popíšou řádky a sloupce.\n\nMěsta v síti: libovolná města co nejpřesněji umístí do čtvercové sítě podle polohy na mapě.\n\nKontrolní otázky: nejvyšší hora a její výška, názvy pohoří, jak se měří nadmořská výška. Pracovní listy s QR kódy jsou v ITčku pro předplatitele.",
+  "files": [],
+  "source": {
+    "label": "ITčko, únor 2024 (roč. 2, č. 6), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

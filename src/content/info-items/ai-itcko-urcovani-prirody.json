@@ -1,0 +1,40 @@
+{
+  "id": "ai-itcko-urcovani-prirody",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Lovíme ptáky a rostliny s aplikací (Merlin Bird ID, Seek)",
+  "description": "„Pokémon GO“ se skutečnými druhy: skupiny venku určují ptáky podle zvuku či fotky v Merlin Bird ID a rostliny v aplikaci Seek, plní výzvy a porovnávají úlovky.",
+  "type": "blok",
+  "equipment": [
+    "mobil",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "rozpoznávání obrazu",
+    "rozpoznávání zvuku",
+    "mobilní aplikace",
+    "venku",
+    "přírodověda",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák nainstaluje a ovládá aplikaci, nahraje do ní obrazová i zvuková data a nechá je analyzovat.",
+  "materials": [
+    "Mobily/tablety (dle počtu skupin)",
+    "Aplikace Merlin Bird ID a Seek (zdarma; Seek určuje i bez internetu a bez účtu)",
+    "Případně kapesní dalekohledy"
+  ],
+  "procedure": "Vysvětlete jen, jak aplikaci stáhnout — instalaci a spuštění ať zvládnou žáci sami.\n\nMerlin: v Explore Birds zadejte město školy a dnešní datum — všichni dostanou stejný seznam druhů, které mohou v okolí potkat (v létě se seznam změní — tažní ptáci). Venku v časovém limitu určete co nejvíc druhů podle zvuku, fotky nebo klíče.\n\nSeek: vyberte pro třídu jednu výzvu (např. divoké rostliny) a skupiny ji plní co nejrychleji. Podporujte spolupráci — prozrazovat si místa, cíl třeba 30 druhů za třídu.\n\nPorovnejte úlovky, místa a zajímavosti. Založte nástěnku druhů (druh + zajímavost + zdroj).\n\nDiskuse: Která aplikace se ovládala nejlépe? Podaří se aplikaci obelstít? Zkuste také určovat klíčem (Co to tu kvete) a pak kreslit — kterou rostlinu si žáci pamatují lépe?",
+  "files": [],
+  "source": {
+    "label": "Tomáš Driml, díly v ITčku 3/2023 a 4/2023 (představeno v ITčku, březen 2023 (roč. 1, č. 7), s. 12)"
+  },
+  "added": "2026-09-29"
+}

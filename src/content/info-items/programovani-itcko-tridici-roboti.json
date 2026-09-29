@@ -1,0 +1,38 @@
+{
+  "id": "programovani-itcko-tridici-roboti",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Hra na třídicí roboty v Ježíškově skladu",
+  "description": "Víčko od lahve jako robot jezdí po mřížce s adresami A1, B2… a doručuje dárky dětem. Žáci zapisují cestu, hledají nejkratší a v týmové variantě se pohybují na povel.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "souřadnice",
+    "mřížka",
+    "posloupnost příkazů",
+    "unplugged",
+    "Vánoce",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zapíše postup pohybu ve dvourozměrném prostoru, opraví chybu a hledá efektivnější cestu.",
+  "materials": [
+    "Plánek skladu — mřížka se sloupci A, B, C… a řádky 1, 2, 3… (políčka cca 3 × 3 cm) pro každého",
+    "Víčko od lahve jako robot",
+    "Malé obrázky dárků a dětí (cca 2,5 × 2,5 cm)"
+  ],
+  "procedure": "Robot začíná na A1. Vysvětlete adresy políček a ověřte, že je žáci chápou. Robot umí jen čtyři směry.\n\nSpolečně: do mřížky položte jeden dárek, pohybujte robotem a popisujte jeho cestu — nejdřív ústně, pak zápisem (A1, A2, B2…). Pak totéž samostatně na vlastním plánku.\n\nRobot dárek nejen sebere, ale i doručí: přidejte obrázek dítěte, pak víc dárků a dětí a určete, kolik dárků robot unese najednou. Počítejte kroky a hledejte nejkratší cestu. Rychlejším přeškrtněte políčka s překážkami.\n\nTýmová varianta na větším plánu: 2–3 roboti startují na různých místech a všichni se pohnou o jedno políčko najednou na ťuknutí (každé 2 s, klidně metronom). Každý robot unese jen jeden dárek a musí ho dopravit do cíle.\n\nPro žáky se SVP zmenšete plánek a cestu zapisujte šipkami do řady čtverečků.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2022 (roč. 1, č. 4), s. 4 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "internet-itcko-klient-server",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Klient a server: běhací simulace načtení webu",
+  "description": "Třída simuluje načtení webové stránky: klient pošle požadavek přes switch (učitel) serveru, nosiči dat běhají s očíslovanými kousky stránky různými cestami a klient z nich poskládá web.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "klient",
+    "server",
+    "switch",
+    "IP adresa",
+    "pakety",
+    "pohybová aktivita",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše cestu dat internetem a vysvětlí roli klienta, serveru a switche.",
+  "materials": [
+    "Barevné papíry a lepicí páska na vyznačení cest na zemi",
+    "Rozstříhaná webová stránka v obálkách s adresou (kousky očíslované podle pořadí)",
+    "Nákres průběhu na tabuli",
+    "Videa Datová lhota (ČT edu)"
+  ],
+  "procedure": "Předem: žáci by měli vědět, co je Internet (síť) a internet (typ sítě). Vysvětlete pojmy IP adresa, switch, server, klient (pomohou videa Datová lhota nebo Nezkreslená věda).\n\nRole: jeden klient (prohlížeč) má požadavky na stránky, jeden server má složky s weby, učitel je switch, ostatní nosiči dat.\n\nKlient pošle požadavek přes switch. Server vezme složku a posílá kousky postupně podle čísel; kousky se stejným číslem mají stejnou prioritu. Každý kousek jde přes switch jinou cestou. Nakonec server pošle „konec“ a klient složí a ukáže stránku. Zopakujte až čtyřikrát (asi 20 minut).\n\nZávěr: Co je IP adresa? Rozdíl mezi serverem a switchem? Proč kousky putovaly různými cestami? Proč obrázky přicházejí poslední? Kdy je priorita dat důležitá?",
+  "files": [],
+  "source": {
+    "label": "ITčko, duben 2025 (roč. 3, č. 8), s. 11 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

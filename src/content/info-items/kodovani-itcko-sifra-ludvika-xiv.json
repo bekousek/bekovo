@@ -1,0 +1,35 @@
+{
+  "id": "kodovani-itcko-sifra-ludvika-xiv",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Velká šifra Ludvíka XIV.: jedno písmeno, více čísel",
+  "description": "Homofonní šifra: každé písmeno má jedno nebo více dvouciferných čísel a šifrant je střídá. Proč to ztěžuje luštění podle četnosti písmen?",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "30–45 min",
+  "keywords": [
+    "šifry",
+    "homofonní šifra",
+    "četnost písmen",
+    "historie",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zašifruje a dešifruje text homofonní šifrou a vysvětlí, proč častá písmena dostávají víc variant.",
+  "materials": [
+    "Tabulka: abeceda a pod každým písmenem jedno či více unikátních dvouciferných čísel (vytvoří učitel nebo žáci)"
+  ],
+  "procedure": "Příběh z obléhání Réalmontu (1626): luštitel přečetl zašifrovaný dopis hugenotů a konflikt skončil bez boje. Velkou šifrou pak Ludvík XIV. chránil svá tajemství.\n\nPrincip: pod písmena abecedy napište dvouciferná čísla. Každé číslo patří jen jednomu písmenu, ale písmeno může mít čísel víc — častá písmena (A, E, O…) jich mají víc. Při šifrování se varianty náhodně střídají.\n\nŽáci zašifrují krátkou větu a vymění si ji; pak luští zprávu od učitele. Hra na čas: rozluštěním zachráníte obléhané město.\n\nDiskuse: proč varianty pro častá písmena ztěžují luštění? (Nejde použít jednoduchou analýzu četnosti.)",
+  "files": [],
+  "source": {
+    "label": "ITčko, květen 2023 (roč. 1, č. 9), s. 9 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

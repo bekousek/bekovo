@@ -1,0 +1,36 @@
+{
+  "id": "media-itcko-omalovanky",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Tvoříme omalovánky v Malování",
+  "description": "Dvojice si navzájem nakreslí omalovánku z tvarů a čar, uloží ji jako PNG do sdílené složky a spolužák ji vybarví plechovkou.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Malování",
+    "tvary",
+    "ukládání souborů",
+    "PNG",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří obrázek, uloží ho do souboru a otevře soubor spolužáka.",
+  "materials": [
+    "Malování (nebo jiný jednoduchý editor)",
+    "Sdílená složka pro třídu"
+  ],
+  "procedure": "Co je omalovánka? Nevybarvený obrázek s černými obrysy. Žáci ve dvojicích kreslí omalovánku pro toho druhého pomocí tvarů a čar.\n\nUloží ji ve formátu PNG a pojmenují jménem kamaráda. Pozor: v JPEG se plochy plechovkou nevybarví čistě — později se k tomu můžete vrátit při výkladu formátů.\n\nKaždý otevře omalovánku od kamaráda a vybarví ji plechovkou (výplní).\n\nObměna: bludiště, které spolužák projde tužkou (a vyzkouší si nástroj Zpět).",
+  "files": [],
+  "source": {
+    "label": "ITčko, listopad 2022 (roč. 1, č. 3), s. 10 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

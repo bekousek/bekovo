@@ -1,0 +1,38 @@
+{
+  "id": "bezpecnost-itcko-posli-to-sesti-kamaradum",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Pošli to šesti kamarádům a vyhraj: řetězový e-mail",
+  "url": "https://hoax.cz/cze/",
+  "description": "Rozbor „výherního“ e-mailu cestovky, který chce rozeslat přátelům s kopií na soukromý seznam.cz. Žáci hledají varovné znaky a zjišťují, o co podvodníkovi jde.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "phishing",
+    "hoax",
+    "řetězový e-mail",
+    "osobní údaje",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozpozná podvodný e-mail, vysvětlí cíl útočníka a ví, jak reagovat.",
+  "materials": [
+    "Ukázka řetězového e-mailu (databáze hoax.cz)",
+    "Projektor"
+  ],
+  "procedure": "Promítněte ukázku: „vyhraj pobyt u moře“, podmínkou je rozeslat e-mail aspoň šesti přátelům a dát do kopie adresu soutěže.\n\nPodle čeho poznáte podvod? Cestovka se soukromým e-mailem, gramatické chyby, chybí podpis, odkaz vede přes přesměrování na jinou firmu, firma s tímto názvem neexistuje.\n\nO co podvodníkovi jde? Sbírá adresy z kopie — pro spam, další podvody, viry nebo prodej adres.\n\nJak se zachovat? Neodpovídat, varovat ostatní, označit jako spam a smazat. Pokud už jsem to přeposlal, omluvit se adresátům a požádat je o smazání.\n\nUkažte hoax.cz — lze tam ověřit podezřelou zprávu i nahlásit vlastní.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2022 (roč. 1, č. 1), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

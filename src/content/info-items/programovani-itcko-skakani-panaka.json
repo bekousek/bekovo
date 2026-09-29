@@ -1,0 +1,38 @@
+{
+  "id": "programovani-itcko-skakani-panaka",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Skákání panáka podle šipek",
+  "description": "Na chodník se nakreslí panák s čísly 1–12 a vedle něj „program“ ze šipek. Žáci skáčou podle algoritmu a vymýšlejí vlastní.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "20–45 min",
+  "keywords": [
+    "algoritmus",
+    "šipky",
+    "pohybová aktivita",
+    "venku",
+    "dekompozice",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák rozdělí úkol na kroky, zapíše je šipkami a podle zápisu postup provede.",
+  "materials": [
+    "Rovný povrch u školy",
+    "Barevné křídy"
+  ],
+  "procedure": "Vysvětlete, co je algoritmus: přesně daný sled kroků, který vede k cíli (čištění zubů, oblékání).\n\nNakreslete panáka s políčky 1–12 a vedle něj obdélník na program. Do obdélníku píšete šipky — každá šipka je jeden skok daným směrem. Děti začínají mimo panáka, takže program vždy začíná šipkou nahoru.\n\nMísto házení kamínkem dostane skokan program, který ho dovede na určené číslo. Při přešlapu nebo chybném kroku se vrací na začátek.\n\nJak by vypadal program k jinému číslu? A pro proskákání celého panáka tam a zpět? Děti vymýšlejí programy pro sebe navzájem.",
+  "files": [],
+  "source": {
+    "label": "ITčko, duben 2023 (roč. 1, č. 8), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

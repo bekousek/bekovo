@@ -1,0 +1,41 @@
+{
+  "id": "programovani-itcko-vyvojovy-diagram-tricko",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Kup si tričko s vývojovým diagramem",
+  "description": "Žáci doplní do vývojového diagramu kroky nákupu trička a pak nakreslí diagram pro vlastní činnost ze života.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "vývojový diagram",
+    "algoritmus",
+    "rozhodování",
+    "pracovní list",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše proces pomocí vývojového diagramu včetně rozhodování a sestaví vlastní diagram.",
+  "materials": [
+    "Pracovní list DigiKoalice (odkaz níže)"
+  ],
+  "procedure": "Zjistěte, zda žáci vývojový diagram znají. Pokud ano, ať ho vysvětlí; pokud ne, proveďte je hotovým diagramem návodnými otázkami. Všímejte si tvarů a barev rámečků — mají význam.\n\nDiskuse: jaké kroky člověk dělá, když si vybírá a kupuje tričko?\n\nVe dvojicích doplní do diagramu v pracovním listu správné pokyny ze spodní části listu (klidně jen čísly). Společně zkontrolujte.\n\nPak každá dvojice sestaví diagram pro jinou činnost ze života. Na závěr: dá se vývojový diagram použít i při učení?",
+  "files": [
+    {
+      "label": "Pracovní list Kup si tričko (DigiKoalice)",
+      "href": "https://digikoalice.cz/pracovni-list-codeweek-kup-si-triko/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "ITčko, květen 2023 (roč. 1, č. 9), s. 7 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

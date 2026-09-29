@@ -1,0 +1,36 @@
+{
+  "id": "data-itcko-inventura-obleceni",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Inventura oblečení: z textu do tabulky",
+  "description": "Obchod si vede prodeje jen jako text. Žáci z vět (někdy s dopočítáním) sestaví tabulku prodejů za tři měsíce a pak z ní čtou trendy.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "tabulka",
+    "záznam dat",
+    "Excel",
+    "Word",
+    "odhad",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zaznamená číselná data do tabulky a vyčte z ní odpovědi.",
+  "materials": [
+    "Excel nebo Word (tabulka), případně papír"
+  ],
+  "procedure": "Připravte zadání jako souvislý text o prodejích několika druhů zboží (kalhoty, trička, ponožky, boty) za leden–březen; některé údaje uveďte nepřímo („v únoru o 37 víc než v lednu“, „polovina…“, „celkem za tři měsíce…“).\n\nŽáci navrhnou tabulku (řádky zboží, sloupce měsíce) a doplní ji, chybějící hodnoty dopočítají.\n\nOtázky k tabulce: Které zboží se prodávalo stále méně? Které víc? Čeho se prodalo nejvíc a kdy?\n\nExtra úkol: v čem je tabulka lepší než text? Kvalifikovaný odhad: kolik triček se asi prodá v dubnu, když prodej roste zhruba stejně?",
+  "files": [],
+  "source": {
+    "label": "ITčko, leden 2023 (roč. 1, č. 5), s. 5 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

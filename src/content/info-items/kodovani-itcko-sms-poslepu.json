@@ -1,0 +1,36 @@
+{
+  "id": "kodovani-itcko-sms-poslepu",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "SMS poslepu na tlačítkovém telefonu",
+  "description": "Jak se psalo na starých mobilech: písmena jsou rozdělená na tlačítka 2–9 a vybírají se počtem stisků. Žáci zakódují krátkou SMS jako řadu čísel a luští zprávy spolužáků.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6,
+    7
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "kódování znaků",
+    "SMS",
+    "mobil",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák zakóduje a dekóduje text pomocí znakové sady tlačítkového telefonu.",
+  "materials": [
+    "Obrázek klávesnice tlačítkového telefonu (nakreslený na tabuli)",
+    "Lístečky papíru"
+  ],
+  "procedure": "Příběh: je rok 2002, zapomněl(a) jsi tělocvik a teta za chvíli odchází z domu. Musíš jí pod lavicí naslepo napsat SMS — bez diakritiky a do 160 znaků.\n\nŽáci si do sešitu nakreslí tlačítka telefonu s písmeny. Domluvte zápis [číslo tlačítka][počet stisků], mezera je 01 (A = 21, H = 42…). Na tabuli si společně přepište pár slov, pak si na lístečcích zakódujte běžné slovo a vyměňte si ho.\n\nKaždý sestaví svou zprávu a zapíše ji čísly. Pro interpunkci a velká písmena si domluvte další kódy.\n\nZprávy si náhodně vyměňte a rozluštěte. Pro rychlíky: kolikrát jste celkem museli stisknout tlačítka? Kdo nejvíc namáhal palce?\n\nŽákům se SVP dejte tabulku písmen s kódy a nechte je nejdřív jen přepisovat krátká slova.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2022 (roč. 1, č. 1), s. 7 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ai-itcko-deepl-chatpdf",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Tajemství starých textů: DeepL a ChatPDF",
+  "description": "Detektivní úkol s historickým dokumentem: skupiny ho s pomocí DeepL přeloží a zjednoduší, v ChatPDF se ho „vyptají“ a výsledky shrnou na plakát.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "překlad",
+    "práce s textem",
+    "chatbot",
+    "dějepis",
+    "čtenářská gramotnost",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák použije AI nástroje k porozumění složitému textu a kriticky posoudí jejich odpovědi.",
+  "materials": [
+    "Historický dokument v PDF (výňatek z kroniky, dopis J. A. Komenského, deník Kolumba…)",
+    "Přístup k DeepL a ChatPDF (ověřte věkové podmínky)"
+  ],
+  "procedure": "Úvod (10 min): třída dostane dokument v cizím jazyce nebo se složitými pojmy. Jak zjistit, co obsahuje?\n\nSkupiny po 3–4 (20 min): DeepL přeloží a zjednoduší text, zapíšou hlavní myšlenky; do ChatPDF nahrají PDF a ptají se: Kdy se to stalo? Kdo je autor? Jaké jsou hlavní myšlenky? Shrnutí na plakát nebo do prezentace.\n\nPrezentace (10 min) a reflexe (5 min): který nástroj byl užitečnější a proč? Ověřili jste odpovědi? Kde jinde se dají využít?\n\nPřipomeňte rizika „AI kamarádů“ (osobních chatbotů typu Replika).",
+  "files": [],
+  "source": {
+    "label": "ITčko, únor 2025 (roč. 3, č. 6), s. 4 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

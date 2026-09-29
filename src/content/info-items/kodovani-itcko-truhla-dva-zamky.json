@@ -1,0 +1,36 @@
+{
+  "id": "kodovani-itcko-truhla-dva-zamky",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Truhla plná tajemství: jak přenést tajemství bez sdílení klíče",
+  "description": "Dvě skupiny mají každá své zámky a klíče, které si nesmějí předat. Jak přesto poslat truhlu tak, aby ji otevřela jen skupina B? Unplugged princip šifrované komunikace.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "šifrování",
+    "klíč",
+    "bezpečný přenos",
+    "unplugged",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák prakticky vyzkouší princip bezpečného přenosu dat, kdy si strany nemusí předat klíč.",
+  "materials": [
+    "Krabice (např. od kapesníků) převázaná provázkem",
+    "Kolíčky dvou barev — „zámky“ skupin A a B"
+  ],
+  "procedure": "Příběh: ve tvém pokoji se zjevila truhla s mnoha zámky a klíčem a v ní úkol. Rozdělte třídu na skupinu A (má truhlu a svůj klíč) a skupinu B (má vlastní zámky a jen svůj klíč).\n\nPodmínky: truhla cestuje z místa A do místa B, klíč ani jedné skupiny nesmí opustit svou skupinu a otevřít ji musí skupina B.\n\nNechte skupiny hledat řešení. Klíč: truhla putuje tam a zpět — A zamkne svými kolíčky, B přidá své, A sundá své, B sundá své a otevře.\n\nAž to vyřeší, prozraďte, že právě objevili princip, na kterém stojí šifrování při přenosu dat mezi počítači. Diskutujte, kde by mohl číhat útočník.",
+  "files": [],
+  "source": {
+    "label": "ITčko, říjen 2022 (roč. 1, č. 2), s. 11 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

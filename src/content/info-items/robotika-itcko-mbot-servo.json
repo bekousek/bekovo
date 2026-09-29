@@ -1,0 +1,36 @@
+{
+  "id": "robotika-itcko-mbot-servo",
+  "categoryId": "robotika",
+  "subcategoryId": "mbot",
+  "title": "mBot2: servomotory a robotické rameno",
+  "description": "S rozšiřující sadou Smart World 3v1 žáci postaví robotické rameno, vyklápěcí přepravní robot nebo průzkumníka čtoucího barvy a ovládají serva programem i gamepadem.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "mBot2",
+    "servomotor",
+    "robotické rameno",
+    "konstrukce",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví podle návodu mechanismus se servem a řídí jeho natočení programem.",
+  "materials": [
+    "mBot2 + mBot2 Add on Pack Smart World 3v1 (2 serva, konstrukční díly)",
+    "Volitelně bluetooth gamepad"
+  ],
+  "procedure": "Servo se natáčí na přesný úhel 0–180° a udrží ho. V mBlocku rozšíření mBot2 shield — úhel lze nastavit, nebo změnit o hodnotu; určete, které servo (S3, S4), nebo všechna.\n\nTest 1: tlačítko A přepíná servo 0°–90°–180°, B vrátí na 0°. Test 2: servo se otáčí po 5° a na 180° se vynuluje.\n\nSestavy podle manuálu (děti zvládnou samy, na konci zkontrolujte dotažení): rameno s klepetem, přepravní robot s vyklápěcí korbou, průzkumník se senzorem barev (držet asi 3 mm nad povrchem).\n\nTýmová soutěž: rameno naloží kuličky na korbu přepravního robota, ten je odveze a vyklopí na určené místo, měří se čas.",
+  "files": [],
+  "source": {
+    "label": "Ondřej Merta, seriál o mBotu2 v ITčku (představeno v ITčku, červen 2025 (roč. 3, č. 10), s. 5)"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "media-itcko-pixel-art",
+  "categoryId": "media",
+  "subcategoryId": "grafika",
+  "title": "Pixel art: od čtverečkovaného papíru k Minecraftu",
+  "description": "Co je pixel a megapixel? Žáci si přiblíží fotku, namíchají barvy v RGB míchači, navrhnou pixelový obrázek na čtverečkovaný papír a postaví ho z kostek v Minecraftu nebo vybarví v Excelu.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "pixel",
+    "pixel art",
+    "Minecraft",
+    "Excel",
+    "RGB",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí, co je pixel, a vytvoří bitmapový obrázek pomocí digitálních technologií.",
+  "materials": [
+    "Čtverečkovaný papír",
+    "Minecraft (tvůrčí režim) nebo Excel se čtverečkovanou šablonou",
+    "Online RGB míchač (např. PhET Color Vision)"
+  ],
+  "procedure": "Přibližte fotku v počítači, až uvidíte čtverečky: pixel je nejmenší bod obrazu, megapixel je milion pixelů. Každý pixel na displeji se skládá z červené, zelené a modré — vyzkoušejte míchač barev.\n\nKaždý si na čtverečkovaný papír připraví předlohu (inspirace: „pixel art easy“) a popíše sloupce a řádky.\n\nMinecraft: v tvůrčím režimu postaví obrázek z barevných kostek a podívá se na něj z dálky — srdce už není hranaté.\n\nBez Minecraftu: v Excelu stačí čtverečkovaný podklad a výplň buněk, pak oddálit lupou.\n\nKdo je rychlý, vytvoří pracovní list s pixelovým obrázkem pro spolužáky.",
+  "files": [],
+  "source": {
+    "label": "Anna Hynešová a Marcela Přibylová, díly v ITčku 9/2022 a 10/2023 (představeno v ITčku, září 2022 (roč. 1, č. 1), s. 12)"
+  },
+  "added": "2026-09-29"
+}

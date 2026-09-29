@@ -5,7 +5,7 @@
   "title": "Minecraft Hodina kódu",
   "url": "https://code.org/minecraft",
   "description": "Hodinové tutoriály v Minecraftu — žáci skládají bloky příkazů a provádějí postavu světem. Na výběr je několik dobrodružství.",
-  "type": "aktivita",
+  "type": "blok",
   "duration": "45 min",
   "equipment": [
     "pocitac"
@@ -14,11 +14,19 @@
     "Minecraft",
     "Hour of Code",
     "bloky",
-    "code.org"
+    "code.org",
+    "ITčko"
   ],
   "source": {
-    "label": "Code.org",
-    "url": "https://code.org/minecraft"
+    "label": "Postup: ITčko, květen 2023 (roč. 1, č. 9), s. 2 — Nakladatelství FORUM"
   },
-  "added": "2026-09-27"
+  "added": "2026-09-27",
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "goal": "Žák skládá program z bloků, používá cykly a připravené funkce a hledá krátké řešení.",
+  "procedure": "Bez účtu a bez koupě Minecraftu. Jazyk přepnete úplně dole na stránce (je i ukrajinština) — hodí se, když ho některý žák omylem zavře.\n\nCesta hrdiny: kamarádi uvízli v jámě a pomůže jim jen golem Agent, když mu napíšete program. Příkazy se skládají pod sebe jako puzzle.\n\nPostupně přicházejí cykly (most z prken přes řeku), připravené funkce (vyčisti cestu u zamrzlé cesty) a nakonec volné tvoření. Diamanty svádějí z cesty — prodlouží jen program.\n\nPo každém úkolu se dá nahlédnout, jak řešení vypadá v Javě. Další dobrodružství: Minecraft Voyage (pod hladinou), Adventurer, Designer.\n\nNejvíc se hodí pro začátečníky ve 4.–5. třídě, starším jako zpestření."
 }

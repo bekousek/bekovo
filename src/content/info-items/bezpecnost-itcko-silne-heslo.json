@@ -1,0 +1,44 @@
+{
+  "id": "bezpecnost-itcko-silne-heslo",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "hesla-a-ucty",
+  "title": "Silné heslo: kolující flipy a pracovní list",
+  "description": "Pět skupin, pět otázek na kolujících papírech (kde se hesla používají, proč silná, co mají obsahovat, nejčastější hesla, kde je uchovávat), pak tvorba hesla podle pracovního listu a měřič síly.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "hesla",
+    "bezpečnost účtu",
+    "správce hesel",
+    "pracovní list",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák ví, co je silné heslo, a umí ho vytvořit.",
+  "materials": [
+    "Pět flipchartových papírů s otázkami",
+    "Pracovní list DigiKoalice (odkaz níže)",
+    "Měřič síly hesla na webu"
+  ],
+  "procedure": "Pět skupin, pět papírů s otázkami: Kde všude se hesla používají? Proč tvořit silná hesla? Co má heslo obsahovat? Jaká hesla se používají nejčastěji? Kde je dobré hesla uchovávat?\n\nKaždá skupina má 3 minuty na přečtení a doplnění odpovědí, pak papír posílá dál. Když se jí vrátí vlastní, shrne celé třídě, co se na něm sešlo.\n\nDoplňte, co zaznít má: délka aspoň 8–12 znaků, kombinace znaků, žádná jména a data, pro každý účet jiné heslo; nejčastější hesla typu 123456; správce hesel.\n\nPodle pracovního listu vytvoří heslo a ověří ho v měřiči síly. Upozorněte, že hesla z hodiny nesmí používat — viděli je spolužáci.",
+  "files": [
+    {
+      "label": "Pracovní list Silné heslo (DigiKoalice)",
+      "href": "https://digikoalice.cz/pracovni-list-codeweek-silne-heslo/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "ITčko, říjen 2023 (roč. 2, č. 2), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

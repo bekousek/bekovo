@@ -1,0 +1,34 @@
+{
+  "id": "data-itcko-knihovny-cz",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Pátrání v portálu Knihovny.cz",
+  "url": "https://www.knihovny.cz/",
+  "description": "Ve které knihovně je Masaryk mládeži z roku 1930? Čemu se věnují diplomové práce o Harrym Potterovi? Žáci vyhledávají a filtrují v souborném katalogu a pak vymýšlejí úlohy pro spolužáky.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "vyhledávání",
+    "filtry",
+    "knihovna",
+    "katalog",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák kombinuje vyhledávání a filtrování výsledků a najde knihovnu s hledanou knihou.",
+  "procedure": "Žáci dostanou obecné zadání a pracují sami; až když si nevědí rady, dostanou návodný postup.\n\nÚloha 1: najdi knihovnu, kde je kniha Masaryk mládeži ve vydání z roku 1930 (vyhledat, najít rok — ručně nebo filtrem, v detailu dostupnost).\n\nÚloha 2: čemu se věnují vysokoškolské práce na téma Harry Potter a kámen mudrců? (Filtr typ dokumentu.)\n\nÚloha 3: je víc knižních záznamů ke Kameni mudrců, nebo k Ohnivému poháru? (Filtr knihy + autorka Rowlingová, porovnat čísla.)\n\nPak žáci vytvoří vyhledávací úlohy pro spolužáky, co nejtěžší kombinací filtrů. Pozor: portál nezahrnuje všechny knihovny.",
+  "files": [],
+  "source": {
+    "label": "ITčko, prosinec 2022 (roč. 1, č. 4), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

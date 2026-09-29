@@ -1,0 +1,31 @@
+{
+  "id": "hardware-itcko-z-ceho-se-sklada-pocitac",
+  "categoryId": "hardware",
+  "title": "Z čeho se skládá počítač: bodovaná soutěž",
+  "description": "Kdo vyjmenuje nejvíc součástí počítače, jejich funkci, způsob připojení a zda jde o vstupní či výstupní zařízení? Až čtyři body za každou součástku.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "30 min",
+  "keywords": [
+    "součásti počítače",
+    "vstupní a výstupní zařízení",
+    "připojení",
+    "soutěž",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák pojmenuje součásti počítače, popíše jejich funkci a rozliší vstupní a výstupní zařízení.",
+  "procedure": "Rozproudění: co všechno se může skrývat pod pojmem počítač? Jak budou počítače vypadat v budoucnu? Jaká rizika nese AI?\n\nŽáci (klidně ve stejně velkých skupinách) napíšou co nejvíc součástí počítače, ke každé funkci, zda se připojuje kabelem, nebo bezdrátově, a zda je vstupní, nebo výstupní.\n\nBodování: bod za součástku, za funkci, za připojení a za vstup/výstup — až 4 body na položku.\n\nPo limitu projděte seznamy a nechte žáky říct, co je vlastně počítač (digitální zařízení, zpracovává data programem, komunikuje s uživatelem).\n\nJe-li úkol těžký, hrajte šibenici: vy vymyslíte součástku, žáci hádají a pak diskutujete její funkci.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2023 (roč. 2, č. 1), s. 12 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

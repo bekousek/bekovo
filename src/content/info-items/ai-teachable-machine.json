@@ -5,7 +5,7 @@
   "title": "Teachable Machine",
   "url": "https://teachablemachine.withgoogle.com/train",
   "description": "Žáci bez programování naučí vlastní model rozpoznávat obrázky z webkamery, zvuky nebo pózy. Názorně ukáže, co jsou trénovací data a proč se model plete.",
-  "type": "aktivita",
+  "type": "blok",
   "equipment": [
     "pocitac"
   ],
@@ -14,7 +14,23 @@
     "strojové učení",
     "trénovací data",
     "webkamera",
-    "model"
+    "model",
+    "ITčko"
   ],
-  "added": "2026-09-27"
+  "added": "2026-09-27",
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "goal": "Žák vytvoří vlastní model strojového učení, vysvětlí roli trénovacích dat a uvede příklady využití i limitů AI.",
+  "materials": [
+    "Počítač s webkamerou nebo sada obrázků (psi a kočky)"
+  ],
+  "procedure": "Kde se se strojovým učením potkáváme? (Hledání podobných fotek, doporučený obsah a reklamy.)\n\nGet Started → Image Project → Standard. Dvě třídy (Psi, Kočky), do každé nahrajte několik až nižší desítky obrázků a pojmenujte je. Train Model.\n\nV Preview přepněte na File a nahrajte testovací obrázek, který model neviděl. Sledujte pravděpodobnosti obou tříd.\n\nŽáci pak vytvoří vlastní model s více třídami (předměty, gesta, zvuky, pózy). Co když dáme špatná nebo nevyvážená data? Kde by se takový model hodil v životě?\n\nModel lze stáhnout a nástroj vygeneruje kostru kódu pro vlastní projekty.",
+  "source": {
+    "label": "Postup: ITčko, březen 2023 (roč. 1, č. 7), s. 9 — Nakladatelství FORUM"
+  }
 }

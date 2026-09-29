@@ -1,0 +1,39 @@
+{
+  "id": "robotika-itcko-bluebot-vceli-tanec",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Včelí tanec s Blue-Botem: opakování",
+  "description": "Včela Blue-Bot „tančí“ ostatním cestu od úlu ke slunečnici. Dvojice hledají tanec v aplikaci Blue-Bot, pak ho zkracují opakováním — a verzi pro včelku, která neumí zatočit doprava.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "tablet"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Blue-Bot",
+    "opakování",
+    "cyklus",
+    "tablet",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví program, rozpozná opakování a najde a opraví chybu.",
+  "materials": [
+    "Blue-Bot",
+    "Tablety s aplikací Blue-Bot a Blue's Blocs (česky)",
+    "Podložka s jezírkem nebo průhledná podložka s vlastní mapou"
+  ],
+  "procedure": "Příběh: včely tancem ukazují, kudy k potravě. Tanec musí být co nejkratší, aby se v něm nezamotaly.\n\nDvojice v aplikaci (Explorer → Repeats) na mapě s jezírkem vytvoří cestu od úlu ke slunečnici. Pokročilí pro včelku s poškozeným křídlem, která neumí zatočit vpravo (tlačítko lze v nastavení vypnout).\n\nV kruhu kolem podložky postupně připojujte tablety dvojic ke skutečnému Blue-Botovi a ověřujte. Chybu nejdřív hledá dvojice sama.\n\nZapište tanec na tabuli a zkraťte ho funkcí opakování. Složitější tance (kruhový, osmičkový) v Blue's Blocs.",
+  "files": [],
+  "source": {
+    "label": "Tomáš Driml (představeno v ITčku, únor 2023 (roč. 1, č. 6), s. 11)"
+  },
+  "added": "2026-09-29"
+}

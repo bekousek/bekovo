@@ -1,0 +1,38 @@
+{
+  "id": "media-itcko-obs-video",
+  "categoryId": "media",
+  "subcategoryId": "video",
+  "title": "Kvalitní video: prezentace v OBS a datový tok",
+  "url": "https://obsproject.com/",
+  "description": "Žáci nahrají minutový referát dvakrát — jen kamerou a jako prezentaci s malým oknem kamery v OBS Studiu — a porovnají kvalitu i velikost souborů při nízkém a vysokém datovém toku.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "video",
+    "OBS Studio",
+    "datový tok",
+    "streamování",
+    "velikost souboru",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák popíše souvislost mezi kvalitou záznamu a jeho velikostí a zkombinuje prezentaci se záznamem kamery.",
+  "materials": [
+    "PC s webkamerou a mikrofonem",
+    "OBS Studio (zdarma)",
+    "Krátká prezentace (např. referát z biologie nebo „moje oblíbená aplikace“)"
+  ],
+  "procedure": "Motivace: proč Netflix a YouTube upravují kvalitu podle připojení? Video v nejvyšší kvalitě zabírá velkou šířku pásma.\n\nV OBS vytvořte dvě scény: jen kamera + mikrofon; a prezentace (Window capture) s malým oknem kamery v rohu.\n\nV Nastavení → Výstup zvolte nejdřív datový tok videa 200 kb/s, pak 2000 kb/s. Poznamenejte si, kam se záznam ukládá.\n\nŽák přednese minutový referát, nahrávejte obě scény v obou nastaveních. Porovnejte kvalitu a velikosti souborů.\n\nZjištění: prezentace je čitelná i při nízkém toku, obraz přednášejícího ne. Nejúspornější je scéna s prezentací a malým oknem kamery při nižším toku.",
+  "files": [],
+  "source": {
+    "label": "ITčko, únor 2024 (roč. 2, č. 6), s. 14 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

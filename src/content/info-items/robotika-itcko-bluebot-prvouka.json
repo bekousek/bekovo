@@ -1,0 +1,40 @@
+{
+  "id": "robotika-itcko-bluebot-prvouka",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Blue-Bot pomáhá s prvoukou: spojnicový model",
+  "description": "Tři sloupce obrázků — zvíře, surovina, výrobek (kráva, mléko, máslo). Blue-Bot s fixem naprogramovaný po dráze nakreslí spojnice a vznikne nástěnka.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Blue-Bot",
+    "Bee-Bot",
+    "model",
+    "prvouka",
+    "spojnice",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří jednoduchý model skutečnosti a naprogramuje robota, aby ho zakreslil.",
+  "materials": [
+    "Blue-Bot (nebo Bee-Bot) s držákem na fix",
+    "Vytištěné obrázky 15 × 15 cm (krok robota)",
+    "Flipchart s rastrem 15 cm nebo průhledná podložka, fixy více barev"
+  ],
+  "procedure": "Na flipchart rozmístěte tři sloupce: zvířata, nezpracované produkty, zpracované produkty.\n\nV kruhu kolem plánu: robot na obrázku zvířete — se kterými produkty ho spojíme a proč? Stanovte dráhu a naprogramujte ji. Chybu opravte novými pokyny; složitější cestu rozdělte na úseky.\n\nKdyž dráha sedí, projede ji robot naposledy s fixem a nakreslí spojnici. Pokračujte, dokud nejsou spojené všechny obrázky. Role: kdo vybírá obrázky, kdo určuje dráhu, kdo programuje.\n\nRozšíření: další užitková zvířata a produkty, čtvrtý sloupec (další zpracování), jiná témata (predátor–kořist, odpad do kontejneru, vývoj hmyzu). Spojnice na fólii = slepá mapa na písemku.",
+  "files": [],
+  "source": {
+    "label": "Tomáš Driml (představeno v ITčku, listopad 2022 (roč. 1, č. 3), s. 5)"
+  },
+  "added": "2026-09-29"
+}

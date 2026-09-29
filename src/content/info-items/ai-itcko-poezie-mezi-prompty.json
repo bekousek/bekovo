@@ -1,0 +1,39 @@
+{
+  "id": "ai-itcko-poezie-mezi-prompty",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Poezie mezi prompty",
+  "url": "https://kurikulum.aidetem.cz/metodicke-materialy/cesky-jazyk-01-digitalni-kompetence/",
+  "description": "Tři obrázky vygenerované podle slok české básně: žáci popisují, co dominuje, hádají báseň a pak obrázky tvoří sami — k básni, kterou si vyberou.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "generování obrázků",
+    "klíčová slova",
+    "poezie",
+    "čeština",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák identifikuje klíčová slova a motivy básně, generuje k nim obrázek a posoudí, zda odpovídá obsahu.",
+  "materials": [
+    "Prezentace s obrázky ke Sládkově Lesní studánce (AI dětem)",
+    "Generátor obrázků odpovídající věku, případně DeepL na překlad"
+  ],
+  "procedure": "Promítněte tři obrázky: Co na nich vidíš? Co dominuje a proč? Jak na tebe působí?\n\nVeďte k poznání básně — každý obrázek je jedna sloka Lesní studánky (J. V. Sládek). Žáci ke slokám zapíšou klíčová slova a zjistí, že odpovídají tomu, co na obrázcích dominuje.\n\nVe skupinách si vyberou báseň, přeloží klíčová slova nebo sloky do angličtiny (generátory s ní pracují lépe) a vytvoří obrázek.\n\nSpolužáci hádají, ze které básně obrázek je; porovnejte text a obrázek.",
+  "files": [],
+  "source": {
+    "label": "AI dětem — Kurikulum umělé inteligence (CC BY 4.0) (představeno v ITčku, únor 2025 (roč. 3, č. 6), s. 13)",
+    "url": "https://kurikulum.aidetem.cz/"
+  },
+  "added": "2026-09-29"
+}

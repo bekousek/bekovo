@@ -1,0 +1,37 @@
+{
+  "id": "ovladani-itcko-jako-mysky",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Jako myšky: jak funguje kurzor",
+  "description": "Ve dvojici je jeden „myš“ a druhý „kurzor“: kurzor co nejvěrněji kopíruje pohyby myši víčkem po lavici a hádá, jaký symbol mu myš kreslí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "myš",
+    "kurzor",
+    "unplugged",
+    "koordinace",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák pochopí, jak se pohyb myši promítá do kurzoru, a pojmenuje, k čemu myš slouží.",
+  "materials": [
+    "Plyšová myška nebo balíček kapesníků pro „myš“",
+    "Víčko od lahve pro „kurzor“",
+    "Kartičky se symboly (číslice, písmena)"
+  ],
+  "procedure": "Motivace: tablet ovládáme prstem, ale počítač? Zahrajeme si na myšky.\n\nMyš sedí vpravo a pomalu pohybuje svým předmětem po lavici, kurzor stejně pohybuje víčkem. Musí se na sebe naladit a pohybovat se současně — jako na počítači.\n\nMyš dostane tajně kartičku se symbolem a „kreslí“ ho, kurzor hádá, co to je. Pak role vyměnit.\n\nNedaří se sladit? Zpomalte nebo kreslete po částech (u čtverce zastavit v rozích). Žákům se SVP nedávejte hned roli kurzoru.\n\nNa závěr výklad o počítačové myši a práce s ní. Obměna: kreslení prstem na záda.",
+  "files": [],
+  "source": {
+    "label": "ITčko, září 2023 (roč. 2, č. 1), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "ovladani-itcko-operacni-systemy",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "operacni-system",
+  "title": "Čím se liší operační systémy: vyzkoušej je v prohlížeči",
+  "url": "https://www.onworks.net/os-distributions/special-os/",
+  "description": "Přes OnWorks žáci spustí v prohlížeči několik operačních systémů (Linux, macOS-like…) a v každém změní pozadí, vytvoří složku a napíšou text. Který by si vybrali?",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "operační systém",
+    "Linux",
+    "virtualizace",
+    "uživatelské rozhraní",
+    "ITčko"
+  ],
+  "language": "cs",
+  "goal": "Žák chápe význam operačního systému, porovná různé systémy a zvládne jejich základní ovládání.",
+  "procedure": "Na OnWorks vyberte aspoň tři systémy (běžná linuxová distribuce, systém podobný macOS a další). Run Online → Start, po chvíli se načte emulované prostředí. Pozor, při nečinnosti se relace ukončí.\n\nV každém systému: změňte pozadí plochy, vytvořte na ploše složku, napište text v textovém editoru.\n\nPorovnejte: jak se vám pracovalo, co se vám líbilo, který systém byste si vzali domů (bez ohledu na cenu a hardware) a proč?\n\nNavazující téma: virtualizace — co to je, k čemu slouží, případně VirtualBox.",
+  "files": [],
+  "source": {
+    "label": "ITčko, leden 2023 (roč. 1, č. 5), s. 13 — Nakladatelství FORUM"
+  },
+  "added": "2026-09-29"
+}
