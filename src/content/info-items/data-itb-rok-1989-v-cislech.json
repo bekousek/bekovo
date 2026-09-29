@@ -1,0 +1,50 @@
+{
+  "id": "data-itb-rok-1989-v-cislech",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Rok 1989 v číslech",
+  "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD#h.el6gzsuio127",
+  "description": "K 17. listopadu: žáci najdou v tabulkách ČSÚ údaje z roku 1989 a dneška, vytvoří z nich matematické výroky („průměrná kráva dnes nadojí o 124 % víc“) a udělají plakát.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    5,
+    6
+  ],
+  "duration": "2 × 45 min + 45 min prezentace",
+  "keywords": [
+    "ČSÚ",
+    "statistika",
+    "tabulka",
+    "17. listopad",
+    "sametová revoluce",
+    "plakát",
+    "procenta",
+    "výroky z dat",
+    "IT bez strachu"
+  ],
+  "goal": "Žák najde ve statistické tabulce potřebné údaje, porovná rok 1989 a současnost, vytvoří z dat jednoduché matematické výroky a shrne je na plakátu.",
+  "materials": [
+    "Zařízení s internetem (tablety, počítače)",
+    "Papíry různých velikostí a barev, psací potřeby, pravítka",
+    "Infografika ČSÚ „30 let svobody v ČR“"
+  ],
+  "procedure": "Úvod: promítni infografiku ČSÚ „30 let svobody v ČR“. Každý si vybere aspoň jedno téma (televizor, pivo…) a 3 minuty píše, co z infografiky vyčte. Kdo neví jak začít, tomu úkol namodeluj nahlas. Sdílení ve dvojicích, pak pár ukázek nahlas.\n\nModelování: na webu ČSÚ v sekci „Česká republika od roku 1989 v číslech“ otevřete společně Tab. 01.01 Vybrané demografické údaje. Všimněte si jednotek (tisíce!), vypište počet obyvatel 1989 a 2021, spočítejte rozdíl a zformulujte výrok („V roce 2021 žilo v ČR o 155 000 lidí víc než v roce 1989.“). Zmiňte Československo a zaokrouhlování.\n\nVlastní práce: každý (nebo dvojice) si vybere tabulku a tvoří výroky podle postupu na tabuli: 1) vyberu údaje za 1989 a současnost, 2) prozkoumám název, jednotky a vysvětlivky, 3) dva výroky „V roce 1989… / V roce 2021…“, 4) spočítám o kolik více/méně, 5) třetí výrok, *6) spočítám procenta, *7) čtvrtý výrok.\n\nJednodušší tabulky: 01.02 Cizinci, 02.01 Počet obcí podle krajů, 14.01 Zjištěné trestné činy. Náročnější: 01.01 Demografie, 03.03 Spotřeba alkoholu a cigaret, 09.01 Zemědělství, 14.03 Nehody.\n\nVýroky zpracujte do plakátu (papírového nebo digitálního), obrázky nakreslete nebo najděte na pixabay.com. Na závěr krátké prezentace.\n\nTipy autorů: Tabulky předem projdi a vyber srozumitelné — některé děti odcházely se zkreslenou představou (hektary chráněného území si vyložily jako „80 000 národních parků“). Procenta pro 5. třídu přes 1 %: 3 982 l = 100 %, 1 % = 39,82 l, 8 916 : 39,82 ≈ 224 %.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1FYa2xQz5oV80kQZ5r-a2d91-_s-VdN8N/view",
+      "type": "pdf",
+      "note": "Postup, výběr tabulek, infografika a ukázka práce žáka."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Pavlína Loňková (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

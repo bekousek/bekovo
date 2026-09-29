@@ -1,0 +1,52 @@
+{
+  "id": "robotika-itb-roboticky-vysavac",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "Programujeme robotický vysavač (VEX 123)",
+  "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD#h.8jnlc6gxhi2s",
+  "description": "Gradovaný pracovní list: pohyb, zatáčení, zastavení před překážkou, blikající semafor v cyklu — a nakonec program, se kterým VEX 123 jezdí jako robotický vysavač.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "VEX 123",
+    "VEXcode 123",
+    "robot",
+    "vysavač",
+    "senzor",
+    "překážka",
+    "cyklus",
+    "IT bez strachu"
+  ],
+  "goal": "Žák popíše, jak funguje robotický vysavač a jakými senzory se vyhýbá překážkám, a sestaví, otestuje a opraví program, který jeho pohyb napodobí.",
+  "materials": [
+    "Roboti VEX 123 (nebo jiní programovatelní roboti)",
+    "Tablety s VEXcode 123 (code123.vex.com)",
+    "Ohraničené hřiště 2 × 2 desky",
+    "Rozstříhané obrázky vysavače na barevném papíře",
+    "Pracovní list (v PDF)"
+  ],
+  "procedure": "Aktivita předpokládá, že žáci už znají pohyb vpřed, zatáčení, zastavení před překážkou a opakování.\n\nMotivace: každý dostane dílek rozstříhaného obrázku; složením odhalí téma a zároveň se rozdělí do skupin (každý obrázek na jinak barevném papíře).\n\nEvokace: skupiny odpovídají na otázky — kdo má doma robotický vysavač? Výhody a nevýhody? Jak funguje? Jakými senzory pozná překážku? Jak na ni zareaguje? Jak zařídit, aby vysál celou plochu? Důležité odpovědi nech viset na tabuli.\n\nUvědomění: žáci postupně plní úkoly pracovního listu a každý hned testují na robotovi: 2 kroky vpřed, modré světlo, 2 kroky zpět → vpřed, otočka o 90°, vpřed → jízda a zastavení před překážkou (ukázat učiteli) → semafor ze tří barev s čekáním → semafor blikající dokola (ukázat učiteli) → sepsat, co má vysavač umět → program vysavače, klidně se zvuky a světly.\n\nReflexe: dvojice si navzájem předvedou vysavače a porovnají programy. Obvyklá řešení: náhodný pohyb s otočením po nárazu na překážku, nebo projetí všech políček po řádcích či ve spirále.\n\nTipy autorů: Z ověření ve 4. třídách: žáci pletou TURN RIGHT s TURN RIGHT FOR 90 DEGREES a DRIVE FORWARD s DRIVE FORWARD FOR 2 STEPS — nech je rozdíl vysvětlit navzájem. Kdo se zasekne na finálním programu, ať nahlas svými slovy popíše, co vysavač musí umět. Pro rychlíky: projeď všechna políčka hřiště a zakresli možné trasy.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1LDge4kxOKayebIt2iWrhv-gxMN7O5Y1H/view",
+      "type": "pdf",
+      "note": "Obrázek k rozstříhání, pracovní list a ukázky řešení."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Štěpánka Baierlová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

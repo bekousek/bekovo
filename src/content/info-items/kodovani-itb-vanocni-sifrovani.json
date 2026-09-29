@@ -1,0 +1,48 @@
+{
+  "id": "kodovani-itb-vanocni-sifrovani",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "(Nejen) vánoční šifrování — šifrovací hra od žáků",
+  "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD#h.yr94nkqibr0",
+  "description": "Žáci luští různé typy šifer, sepíšou si „šifrovací desatero“ a pak sami postaví šifrovací hru pro mladší spolužáky. V PDF je hotová hra se 6 šiframi a tajenkou VÁNOCE.",
+  "type": "projekt",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6
+  ],
+  "duration": "4 × 45 min",
+  "keywords": [
+    "šifra",
+    "šifrování",
+    "kódování",
+    "Cryptomania",
+    "šifrovací hra",
+    "Vánoce",
+    "Morseovka",
+    "Caesarova šifra",
+    "IT bez strachu"
+  ],
+  "goal": "Žák vyřeší ve skupině jednoduché šifry různých typů, pochopí, jak se šifry tvoří, a vytvoří šifru nebo celou šifrovací hru pro spolužáky.",
+  "materials": [
+    "Vytištěné šifry — např. šifrovací balíček pro školy a adventní kalendář z cryptomania.cz",
+    "Papíry, pastelky; případně počítač s Canvou"
+  ],
+  "procedure": "1. Seznámení se šiframi (60 min): skupiny luští šifry (balíček z Cryptomania.cz, případně Morseovka, Caesarova šifra, polský kříž, obrácená abeceda, Braillovo písmo…). Do každé skupiny dej někoho, kdo už šifroval (skaut, tábory).\n\n2. Šifrovací desatero (45 min): reflexe — jak jste šifry řešili? Co pomohlo? Co dělat, když nemám nápad? Jaké pomůcky existují? Shrň do desatera (inspirace: desatero Cryptomanie). Pak společně vyřešte vzorovou šifru „Na vlastní kůži“ — popište obrázek, určete zvířata podle srsti a čísla použijte jako pořadí písmene → GORILA.\n\n3. Tvorba vlastních šifer: varianta 1 — každý vytvoří samostatnou šifru a otestuje ji na spolužácích. Varianta 2 — společná šifrovací hra, kterou koordinuje učitel. Dohodněte se: kolik šifer, gradace obtížnosti, společné téma, kde šifry budou, jak vypadá výsledné řešení (písmena → slovo) a jak se odevzdává (formulář, kontrolní stanoviště).\n\nVe vzorové hře šesťáci připravili pro 1. stupeň 6 šifer (doplňovací, nadbytečná, barevná, malovací, abecedová, cestovací) rozmístěných po schodišti; z písmen vyšlo ECONAV → VÁNOCE.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1-wYd-Csk3FzhstPxOxXp48SdTVhlyg_t/view",
+      "type": "pdf",
+      "note": "Pozvánka, zadání šesti šifer, tabulka pro zápis a řešení."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Štěpánka Baierlová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "data-itb-kufr-do-prirody",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Cestujeme s kufrem do přírody — třídění informací o rybníku",
+  "url": "https://www.itbezstrachu.cz/informa%C4%8Dn%C3%AD-syst%C3%A9my#h.gjh15yrjd0y6",
+  "description": "Co všechno je u rybníka? Žáci pojmy třídí do barevných „kufrů“ (rostliny, živočichové, ostatní), dohledávají na internetu a řadí organismy podle toho, kde žijí.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "třídění",
+    "systém",
+    "kategorie",
+    "rybník",
+    "ekosystém",
+    "přírodověda",
+    "vyhledávání",
+    "IT bez strachu"
+  ],
+  "goal": "Žák uvede typické rostliny a živočichy rybníka, vysvětlí vztahy v ekosystému a zařadí organismy do systému podle daných vlastností.",
+  "materials": [
+    "Vytištěné pracovní listy (v PDF)",
+    "Digitální zařízení s internetem (mobily, tablety, počítače)",
+    "Případně krátké video o ekosystému rybníka"
+  ],
+  "procedure": "Motivace: krátké video o rybníku. Pak obrázek „Cestujeme s kufrem plným informací do přírody“ — k čemu budou kufry? Co do nich dáme?\n\nEvokace: obrázek „Co můžeme spatřit u rybníka?“ — žáci vyjmenovávají živočichy, rostliny a další pojmy, zapisuješ je na tabuli.\n\nČást 1 — třídění do kufrů: pojmy z tabule roztřiďte na rostliny (zelený kufr), živočichy (modrý) a ostatní (žlutý). Jednotlivě, ve dvojicích, nebo společně u promítnutého listu.\n\nČást 2 — hledání na internetu: otázkami vyvoď rozdělení na organismy žijící na souši, ve vodě a obojživelníky. Žáci doplní pracovní list „Ekosystém rybník“ — co neznají, dohledají. Tip: ať zkusí sami sestavit podobné třídicí schéma.\n\nČást 3 — „z kufru se vysypali živočichové a rostliny“: pracovní list se čtyřmi úkoly na pojmenování a roztřídění (s řešením v PDF).\n\nReflexe bez internetu — „Tvůj kufr plný informací“: vlož do kufru pojmy z ekosystému a vybarvi je podle skupin (rostliny/živočichové/ostatní; souš/voda/obojživelníci). Rychlíci: vlastní třídicí schéma nebo jiný ekosystém.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1mOgyqg9fy6X-coD7G9TCNBPLf7JM_JJz/view",
+      "type": "pdf",
+      "note": "Obrázky k promítnutí, pracovní listy, řešení a ukázky prací žáků (PDF má 12 MB)."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Marcela Přibylová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/informa%C4%8Dn%C3%AD-syst%C3%A9my"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

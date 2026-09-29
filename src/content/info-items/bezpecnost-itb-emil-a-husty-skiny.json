@@ -1,0 +1,50 @@
+{
+  "id": "bezpecnost-itb-emil-a-husty-skiny",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Emil a hustý skiny — komiks o phishingu",
+  "url": "https://www.itbezstrachu.cz/emil-a-hust%C3%A9-skiny-1",
+  "description": "Interaktivní komiks: Emilovi přijde od „kamaráda“ Pepy odkaz na husté skiny do Minecraftu a zadá heslo na podvodnou stránku. Žáci čtou, odpovídají na otázky a učí se silné heslo a dvoufázové ověření.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "phishing",
+    "podvodná stránka",
+    "heslo",
+    "dvoufázové ověření",
+    "herní účet",
+    "Minecraft",
+    "skiny",
+    "komiks",
+    "IT bez strachu"
+  ],
+  "goal": "Žák na konkrétním příběhu popíše rizikovou situaci online, pozná podvodnou (phishingovou) stránku a ví, jak se chránit silným heslem a dvoufázovým ověřením.",
+  "materials": [
+    "Počítače nebo tablety s internetem, dataprojektor",
+    "Vytištěný pracovní list s reflexí (v PDF i se správnými odpověďmi)"
+  ],
+  "procedure": "Motivace (10 min): „Vybaví se vám nepříjemná situace v online světě, do které jste se dostali vy nebo někdo z okolí?“ Minuta na zamyšlení, 1–2 min sdílení ve dvojicích, pak kdo chce, sdílí nahlas (časově ohranič; nikdo nemusí sdílet nic nepříjemného). Co bychom o sobě na internetu nikdy neměli prozradit a proč?\n\nUvědomění: žáci jdou na stránku Emil a hustý skiny, pozorně čtou komiksový příběh a průběžně odpovídají na otázky.\n\nReflexe: pracovní list — jak vypadá silné heslo? Kdo poslal Emilovi odkaz? (Nejspíš podvodník z ukradeného Pepova účtu.) Co bylo na herním portálu podezřelé? (Adresa byla jen velmi podobná oficiální.) Jak mohl Pepa krádeži předejít? (Dvoufázové ověření.) Co má Emil udělat teď? (Rychle změnit heslo a zapnout dvoufázové ověření.) Používáš silná hesla? Na závěr 3 informace, které byly nové. Kontrola ve dvojicích.\n\nPro rychlíky: Avast Be Safe Online (phishing, dvoufázové ověření) nebo cvičení bezpečnosti na UmímeInformatiku.\n\nTipy autorů: Třídy, které aktivitu testovaly, měly o sdílení vlastních zážitků velký zájem — počítej s tím v čase.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1S9-5-bK7SZDUySpgqMXPQ8TZCmJzCZ0U/view",
+      "type": "pdf",
+      "note": "Pracovní list s reflexí, správné odpovědi a ukázky prací žáků."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Miroslav Mráz (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/digit%C3%A1ln%C3%AD-technologie"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

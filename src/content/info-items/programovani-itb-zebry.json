@@ -1,0 +1,46 @@
+{
+  "id": "programovani-itb-zebry",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Zebry — logické úlohy řešené modelem",
+  "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD#h.vm3n3d6ns0ui",
+  "description": "Čtyři gradované „nevykoukatelné“ úlohy typu zebra (kdo má stříbrné auto, kdo chová kočičku…). Žáci si musí nakreslit vlastní model a zapsat do něj indicie.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "4 × 20 min",
+  "keywords": [
+    "zebra",
+    "logická úloha",
+    "modelování",
+    "schéma",
+    "indicie",
+    "tabulka",
+    "IT bez strachu"
+  ],
+  "goal": "Žák nakreslí vhodné schéma, zaznamená do něj informace z textu, na jeho základě úlohu vyřeší a porovná výhody různých modelů.",
+  "materials": [
+    "Vytištěné zadání úloh (v PDF i s řešením)"
+  ],
+  "procedure": "Úlohy rozlož aspoň do čtyř hodin, vždy jen na část hodiny. Pořadí: Parkování před domy → Kdo chová kočičku → Po prázdninách (z Logické olympiády) → Prázdniny.\n\n1. Samostatně (10–15 min): „Přečtěte si pozorně text, nakreslete si vhodný obrázek, doplňte do něj všechny údaje a odpovězte na otázku.“ Ať si každý najde klidné místo mimo lavici — vznikne tak víc různých modelů. Pro rychlíky měj jiný úkol, třeba vymyslet vlastní zebru.\n\n2. Rychlý sběr řešení: kdo má stříbrné auto? Kdo chová kočičku? Odpovědi jen zapisuj na tabuli, nehodnoť — víc nesprávných řešení rozproudí diskusi.\n\n3. Společné řešení: žáci postupně čtou po jedné větě a hned ji zakreslují do modelu na tabuli (klidně do několika modelů paralelně). Nech je zdůvodnit, proč informaci kreslí právě tam. Kdo si našel chybu? Z čeho vznikla?\n\n4. Porovnání modelů (hlavně u poslední úlohy, kde vzniká nejvíc různých schémat — domy, rozdělený papír, tabulka): nejde o lepší/horší, ale o to vidět různé možnosti.\n\nTipy autorů: Z ověření ve 4. třídách: první úloha je pro většinu nejtěžší, pak už mají na čem stavět. Nejčastější chyby: nepozorné čtení (měl/neměl, půjde/nepůjde) a tipování — pomáhají doplňující otázky „Proč by tam nemohla bydlet…?“. U první zebry můžeš model napovědět (řada očíslovaných domů).",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1Yy2Zhi14XBtLrdalHL9lTy6-_1bBr2at/view",
+      "type": "pdf",
+      "note": "Zadání všech čtyř úloh a jejich řešení."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Štěpánka Baierlová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/data-informace-a-modelov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}

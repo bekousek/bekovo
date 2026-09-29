@@ -1,0 +1,51 @@
+{
+  "id": "programovani-itb-auticka-po-cr",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Cestujeme s autíčky po České republice",
+  "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD#h.siuuf28viqxo",
+  "description": "Autíčka jezdí po mapě krajů podle šipkového programu. Žáci zjišťují, kam dojedou, hledají chybu řidiče a píšou vlastní trasy — a přitom opakují kraje a krajská města.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "šipky",
+    "algoritmus",
+    "ladění",
+    "hledání chyby",
+    "mapa",
+    "kraje",
+    "krajská města",
+    "vlastivěda",
+    "unplugged",
+    "IT bez strachu"
+  ],
+  "goal": "Žák sestaví a otestuje symbolický zápis cesty, najde a opraví v něm chybu a orientuje se v mapě krajů ČR včetně krajských měst.",
+  "materials": [
+    "Vytištěné pracovní listy (v PDF)",
+    "Mapa ČR, případně tablet nebo počítač s internetem",
+    "Vystřižená autíčka nebo jiné figurky, u kterých je vidět natočení"
+  ],
+  "procedure": "Evokace: promítni mapu krajů. Cestujete rádi? Jak zajistíte, že dojedete do cíle? Kolik je krajů, který je největší, ve kterém jsme my?\n\nUvědomění: promítni „Jedeme podle šipek“ — význam symbolů. Zdůrazni, že „otoč se vlevo/vpravo“ znamená otočení na místě.\n\nPracovní list „Kam dojedou auta“: žáci samostatně vyznačí trasy barvou auta a odškrtávají provedené příkazy, pak kontrola ve dvojicích a společně (řešení v přílohách 4–7). Pak s mapou určí, ve kterém kraji auta zastavila a jaké je krajské město (červené — Jihočeský, žluté — Praha, zelené — Karlovarský, modré vyjelo do Německa). Rychlíci: kterými kraji auta neprojela?\n\nReflexe — oboustranný list: „Najdi a oprav chybu řidiče“ (chybu udělal řidič červeného auta, po opravě dojede do Ústeckého kraje) a „Dojeď na daná místa“ — vyber auto, vyznač start a napiš trasu přes body A–D.\n\nTipy autorů: Na kraje a krajská města online: umimefakta.cz/cviceni-cr-kraje. Žáci bez zkušenosti mívají zpočátku problém s „jeď rovně dopředu“ a s pravolevou orientací — pomáhají figurky.",
+  "files": [
+    {
+      "label": "Metodika s pracovními listy a řešením",
+      "href": "https://drive.google.com/file/d/1wil52c3R7X4sNrGR3TbF34lmOlEA00QN/view",
+      "type": "pdf",
+      "note": "Obrázky k promítnutí, pracovní listy a řešení všech tras."
+    }
+  ],
+  "source": {
+    "label": "IT bez strachu na 1. stupni ZŠ — Marcela Přibylová (ZŠ Labyrinth Brno)",
+    "url": "https://www.itbezstrachu.cz/algoritmizace-a-programov%C3%A1n%C3%AD"
+  },
+  "language": "cs",
+  "added": "2026-09-29"
+}
