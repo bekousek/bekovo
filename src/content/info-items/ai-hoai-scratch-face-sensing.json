@@ -1,0 +1,56 @@
+{
+  "id": "ai-hoai-scratch-face-sensing",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Scratch Face Sensing — face filtr a „dokážeš napálit AI?“",
+  "url": "https://scratch.mit.edu/projects/1208621527/editor?tutorial=face-sensing",
+  "description": "Ve Scratchi žáci přes webkameru udělají face filtr (klobouk a brýle drží na obličeji) nebo hru ovládanou nakláněním hlavy. Pak zkoušejí AI napálit — pozná kreslený obličej? Kočku? Hlavu vzhůru nohama?",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "rozpoznávání obličeje",
+    "počítačové vidění",
+    "face filtr",
+    "webkamera",
+    "falešně pozitivní",
+    "falešně negativní",
+    "Scratch",
+    "Hour of AI"
+  ],
+  "language": "en",
+  "goal": "Žáci použijí předtrénovaný model detekce obličeje ve vlastním projektu, najdou jeho falešně pozitivní a falešně negativní výsledky a vysvětlí je tím, na jakých datech se učil.",
+  "materials": [
+    "Počítač s webkamerou (na tabletech rozšíření nemusí fungovat)",
+    "Obrázky obličejů, fotky zvířat, hračky na „napalování“ AI",
+    "Kartičky Face Sensing (anglicky, odkaz níže)"
+  ],
+  "procedure": "Scratch má české rozhraní, ale bloky Face Sensing a video návod jsou zatím jen anglicky. Nic se neinstaluje a nikam se neposílá: obraz z kamery zpracovává jen počítač žáka, Scratch ho neukládá a obličej nepozná, jen najde.\n\n1. Seznámení (10 min): přidej rozšíření Face Sensing (vlevo dole), klikni na blok „go to nose“ a obal ho blokem „opakuj stále“ — postava sleduje nos. Model se učil na milionech fotek obličejů a hledá vzory: nos je mezi očima a pusou…\n\n2. Projekt (30–60 min) — vyber jednu variantu. Face filtr: otevři startovní projekt (odkaz karty), klobouk přilep na temeno, brýle mezi oči. Velikost podle velikosti obličeje, natočení podle náklonu hlavy. Hra: postavu ovládej obličejem, sbírej předměty a počítej body. Další nápad: kreslení nosem.\n\n3. Dokážeš napálit AI? (20–30 min): falešně pozitivní — schovej se z kamery a ukaž kreslený obličej, fotku kočky, krávy nebo panáčka z Lega. Drží filtr? Falešně negativní — zakryj si část obličeje, nakloň hlavu, otoč fotku vzhůru nohama, ztlum světlo. Proč AI pozná kočku, ale krávu ne? (Kráva má jiné proporce než lidské obličeje v trénovacích datech.) Proč nepozná obličej vzhůru nohama? (Fotky v datech byly nejspíš všechny správně otočené.)\n\n4. Reflexe: co AI pozná a co ne? Zachází stejně s lidmi různé barvy pleti, věku a pohlaví? K čemu se detekce obličeje ve světě používá?",
+  "files": [
+    {
+      "label": "Plán lekce „Exploring AI with Scratch Face Sensing Blocks“ (anglicky)",
+      "href": "https://cms.scratchfoundation.org/assets/030eb636-8145-42d8-92cd-4e142b80eeb1",
+      "type": "pdf"
+    },
+    {
+      "label": "Kartičky Face Sensing (anglicky)",
+      "href": "https://cms.scratchfoundation.org/assets/33c783a9-fc0a-4dfd-b10e-2f9a1d9d60ce",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Scratch Foundation — Hour of AI",
+    "url": "https://www.scratchfoundation.org/learn/learning-library/face-sensing"
+  },
+  "added": "2026-09-29"
+}

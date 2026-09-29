@@ -1,0 +1,42 @@
+{
+  "id": "ai-hoai-neuron-sandbox",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Neuron Sandbox — mysli jako neuron",
+  "url": "https://www.cs.cmu.edu/~dst/NeuronSandbox/",
+  "description": "Obrázkové hádanky s jedním umělým neuronem: „Udělám si sendvič, když mám arašídové máslo A marmeládu?“ Žáci nastavují váhy a práh, dokud neuron nerozhoduje správně. Minimum textu, bez přihlášení.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "30–45 min",
+  "keywords": [
+    "neuron",
+    "neuronová síť",
+    "váhy",
+    "práh",
+    "perceptron",
+    "logické funkce",
+    "AND",
+    "OR",
+    "Hour of AI"
+  ],
+  "language": "en",
+  "goal": "Žáci pochopí, že umělý neuron sečte vstupy vynásobené vahami a porovná součet s prahem — a že „učení“ znamená hledání správných vah.",
+  "materials": [
+    "Počítač nebo tablet",
+    "Tabule na společné řešení prvního příkladu"
+  ],
+  "procedure": "Společně (10 min): promítni 1. úlohu „PB&J Sandwich“. Neuron má dva vstupy (mám arašídové máslo / mám marmeládu, 0 nebo 1), každý s vahou, a práh. Když součet vstupů × vah překročí práh, výstup je 1 (sendvič bude). Projděte tabulku všech čtyř kombinací — kde se aktuální výstup liší od požadovaného (červeně)? Zkuste změnit práh tak, aby sendvič vznikl, jen když mám obojí.\n\nSamostatně nebo ve dvojicích: další úlohy z nabídky (Wearing Boots, Playing Outside, Pool, Missing the Bus, Science Fair…). Posuvník nahoře přepíná, co se hledá: výstupy → váhy → hranice rozhodování. Obtížnost se nastavuje zvlášť, tlačítko „Ask for Hint“ napoví.\n\nZávěr: které úlohy nešly vyřešit a proč? (Jeden neuron nezvládne všechno — proto se neurony skládají do sítí.) Kde v běžném rozhodování „vážíme“ různé důvody?\n\nVýklad kolem úloh je anglicky, ale úlohy jsou hlavně obrázkové — anglický text stačí přeložit u první úlohy. Navazuje karta o neuronových sítích od 3Blue1Brown.",
+  "source": {
+    "label": "David S. Touretzky, Carnegie Mellon University; lekce AI4GA „Think Like a Neuron“ (Hour of AI)",
+    "url": "https://ai4ga.org/think-like-a-neuron/"
+  },
+  "added": "2026-09-29"
+}

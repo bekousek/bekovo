@@ -1,0 +1,51 @@
+{
+  "id": "programovani-hoai-bug-arena",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Bug Arena — naprogramuj AI brouka do arény",
+  "url": "https://aka.ms/bug-arena",
+  "description": "V MakeCode Arcade žáci naprogramují brouka, který se sám rozhoduje, kam lézt (náhodně, ve čtvercích, sem a tam), a pustí ho do arény proti ostatním AI broukům. Bez přihlášení.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "MakeCode Arcade",
+    "algoritmus",
+    "strategie",
+    "agent",
+    "klasická AI",
+    "blokové programování",
+    "Microsoft",
+    "Hour of AI"
+  ],
+  "language": "en",
+  "goal": "Žáci navrhnou algoritmus, podle kterého se herní postava sama rozhoduje, porovnají strategie v soutěži a pochopí, že i jednoduchá pravidla dělají z postavy „umělou inteligenci“ ve hře.",
+  "materials": [
+    "Počítač nebo tablet s internetem"
+  ],
+  "procedure": "Aktivita je „skillmapa“ — mapa se třemi cestami, každá je krátký návod s bloky. Horní cesta: náhodný pohyb (nejlehčí, asi 8 min). Prostřední: pohyb ve čtvercích (10 min). Dolní: sem a tam (nejtěžší, 11 min).\n\nÚvod: co dělá postavy ve hrách „chytrými“? Počítačový protivník nemusí nic „vědět“ — stačí mu pravidla, podle kterých se rozhoduje.\n\nŽáci si vyberou cestu a podle návodu naprogramují brouka. Po každém návodu ho pustí do arény (Tower) a sledují, jak si vede proti ostatním broukům. Rychlejší zkusí další cestu a porovnají, která strategie vyhrává častěji.\n\nZávěr: proč některá strategie vyhrává? Co by brouk potřeboval vědět o soupeřích, aby hrál lépe? Tady je rozdíl mezi „klasickou“ AI (pravidla napsaná člověkem) a strojovým učením (pravidla se naučí z dat).\n\nPřihlášení je potřeba jen pro uložení postupu. Rozhraní MakeCode jde přepnout do češtiny (ozubené kolečko → Language), texty návodů zůstávají anglicky.",
+  "files": [
+    {
+      "label": "Informace pro učitele (anglicky)",
+      "href": "https://arcade.makecode.com/skillmap/educator-info/bug-arena-info",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microsoft MakeCode — Hour of AI",
+    "url": "https://arcade.makecode.com/skillmap/educator-info/bug-arena-info"
+  },
+  "added": "2026-09-29"
+}

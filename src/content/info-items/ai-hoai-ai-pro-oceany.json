@@ -1,0 +1,45 @@
+{
+  "id": "ai-hoai-ai-pro-oceany",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "AI pro oceány — natrénuj AI, ať vyčistí moře",
+  "url": "https://studio.code.org/s/oceans/lessons/1/levels/1?lang=cs-CZ",
+  "description": "Žáci označují obrázky „ryba / není ryba“ a AI podle nich uklízí oceán. Pak ji učí vlastní pojmy (třeba jak vypadá „veselá“ ryba) a zjišťují, jak trénovací data a předsudky ovlivní výsledek. Česky, bez přihlášení.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "strojové učení",
+    "trénovací data",
+    "klasifikace",
+    "předpojatost",
+    "bias",
+    "oceán",
+    "Code.org",
+    "Hour of AI",
+    "Hodina kódu"
+  ],
+  "language": "cs",
+  "goal": "Žáci si natrénují skutečný model strojového učení a pochopí, že to, jak AI rozhoduje, určují data a štítky, které jí dal člověk.",
+  "materials": [
+    "Počítač nebo tablet pro každého (nebo dvojici)",
+    "Sluchátka (videa jsou anglicky s titulky)"
+  ],
+  "procedure": "Úvod (5 min): kde všude se setkáváte s AI? (filtr spamu, doporučená videa, překladač, rozpoznávání hlasu). Pusťte společně úvodní video z 1. úrovně a zeptejte se: co je strojové učení? — Počítač pozná vzory a rozhoduje se, aniž by mu někdo napsal přesná pravidla.\n\nÚrovně 2–4: žáci tlačítky označují obrázky jako „ryba“ / „není ryba“. Pak AI sama roztřídí 100 nových obrázků a vypustí do oceánu jen ryby. Kdo třídil pečlivě, má čisté moře.\n\nÚroveň 5 — video o trénovacích datech a předsudcích. Krátká diskuse: jak vaše označování ovlivnilo výsledek? Klíčové je, aby si žáci uvědomili, že označováním AI vlastně programují.\n\nÚroveň 6: žáci si z nabídky vyberou slovo, které popisuje rybu (často subjektivní, třeba nálada), a učí AI, které ryby mu odpovídají. Porovnejte ve dvojicích: dopadlo to u všech stejně? Proč ne?\n\nÚroveň 7 — dopady na společnost. Závěr: co by se stalo, kdyby takhle „subjektivně“ natrénovaná AI rozhodovala o lidech?\n\nTipy: aktivita sama neříká, co je správně — jde to „proklikat“. Nabádej žáky, ať se vracejí na „Train More“ a zkoušejí AI schválně naučit špatně. Nech je sedět ve dvojicích, ať nejsou každý ve své bublině se sluchátky.",
+  "source": {
+    "label": "Code.org — Hour of AI (plán lekce v češtině)",
+    "url": "https://studio.code.org/s/oceans/lessons/1?lang=cs-CZ"
+  },
+  "added": "2026-09-29"
+}
