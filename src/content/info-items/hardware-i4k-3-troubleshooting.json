@@ -1,0 +1,67 @@
+{
+  "id": "hardware-i4k-3-troubleshooting",
+  "categoryId": "hardware",
+  "title": "Jak fungují počítače 3/3a: Troubleshooting (když se počítač rozbije)",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/",
+  "description": "První část třetí modelové hodiny. Postup hledání závady od napájení po servis a kartičkový závod: skupiny sestavují postupy pro šest běžných problémů (myš, prohozené Z a Y, červený monitor, USB, nabíjení, tichá sluchátka).",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "troubleshooting",
+    "závady",
+    "řešení problémů",
+    "driver",
+    "nastavení",
+    "servis",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák navrhne možné příčiny běžných problémů s počítačem a jejich řešení a použije postup troubleshootingu.",
+  "materials": [
+    "Prezentace, pracovní list a příprava pro učitele (část první)",
+    "Vytištěné kartičky na kartičkový závod"
+  ],
+  "procedure": "Evokace: rozbila se vám někdy část počítače? Jak se to projevovalo a jak jste to řešili? Co je troubleshooting? Odpovědi na tabuli.\n\nUvědomění: monitor nic nezobrazuje, co s tím? Postup z prezentace (napájení počítače, napájení monitoru, kabely a jejich výměna… až servis) porovnají s vlastními nápady.\n\nKartičkový závod: skupiny sestaví postup pro šest problémů. Myš nereaguje, místo Z píše Y, monitor je do červena, USB nic, telefon se nenabíjí, sluchátka mlčí. Vybírají mezi příčinami jako chyba v nastavení, driver, poškozený kabel nebo port, noční režim či vypnutý Bluetooth. Společně procházejí řešení, restart a servis jsou také správná odpověď.\n\nČást jde odučit samostatně (45 min), nebo s částí o operačních systémech (90 min).",
+  "files": [
+    {
+      "label": "Materiály k hodině (Google Drive)",
+      "href": "https://drive.google.com/drive/folders/1_t8pLO-DITobdZUImCHfy79xXYLuGpbr",
+      "type": "other"
+    },
+    {
+      "label": "Příprava pro učitele (obě části)",
+      "href": "https://drive.google.com/file/d/1YdhoadiGoKW9u5arVSdcyWVSaOORxfsb/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace (obě části)",
+      "href": "https://drive.google.com/file/d/1bzxFSirp7ZeH882lzm_9ePov7yNGjat_/view",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list (obě části)",
+      "href": "https://drive.google.com/file/d/1EkN2EGc7uf7PqSia-kVZgxf3vkUVa6J7/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Kartičky na aktivitu",
+      "href": "https://drive.google.com/file/d/1Ln9Tb5w2o9NdV1hO1BzH2bdPdPS42sgq/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/"
+  }
+}

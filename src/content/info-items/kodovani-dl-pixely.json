@@ -1,0 +1,43 @@
+{
+  "id": "kodovani-dl-pixely",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Datová Lhota: Pixely (jak počítač ukládá obrázek)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Patnáctiminutová aktivita: obrázek jako šachovnice bodů. Děti vybarví jedničky v mřížce z nul a jedniček a vynoří se jim smajlík. Pak si povídají o rozlišení a o tom, jak zakódovat víc barev.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "duration": "15 min",
+  "keywords": [
+    "Datová Lhota",
+    "pixel",
+    "rozlišení",
+    "rastrový obrázek",
+    "nuly a jedničky",
+    "kódování barev",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že počítač ukládá obrázek jako mřížku pixelů, že barvu pixelu jde zapsat číslem a co znamená rozlišení.",
+  "materials": [
+    "Projektor s obrázkem ptáčka (příloha 1)",
+    "Vytištěný list Kódujeme pixely (příloha 2)",
+    "Tužka nebo pastelka"
+  ],
+  "procedure": "Šachovnice a pixely (3 min): jak asi počítač ukládá obrázek? Promítněte ptáčka rozloženého na čtverečky.\n\nKódujeme pixely (5 min): nula je bílá, jednička černá. Děti vybarví jedničky a objeví obrázek.\n\nRozlišení a barvy (5 min): proč obrázky na displeji nevypadají hranatě? Co je Full HD? Jak uložit víc barev než dvě?\n\nShrnutí (2 min): co je pixel, co je rozlišení a jak si počítač pixely pamatuje.\n\nHodí se jako rozšíření lekce Co je to počítačový program.",
+  "files": [
+    {
+      "label": "Popis aktivity s pracovním listem",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_pixely.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

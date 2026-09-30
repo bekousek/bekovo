@@ -1,0 +1,33 @@
+{
+  "id": "bezpecnost-i4k-bezpecnostni-pruvodce",
+  "categoryId": "bezpecnost",
+  "title": "Bezpečnostní průvodce internetem (hra)",
+  "url": "https://ebrithilnogare.github.io/TheSecurityGuideToTheInternet/",
+  "description": "Česká výuková hra v prohlížeči od MFF UK pro 2. stupeň. Hráč prochází úrovněmi se scénáři o malwaru, ochraně soukromí a šifrování na počítači i mobilu. Obsahuje i samostatný kvíz.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "Internet4Kids",
+    "kyberbezpečnost",
+    "malware",
+    "soukromí",
+    "šifrování",
+    "hra",
+    "kvíz",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/"
+  }
+}

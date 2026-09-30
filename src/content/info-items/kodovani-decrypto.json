@@ -1,0 +1,35 @@
+{
+  "id": "kodovani-decrypto",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Decrypto (šifrování slovními nápovědami)",
+  "url": "https://cs.boardgamearena.com/gamepanel?game=decrypto",
+  "description": "Dva týmy si posílají trojmístný kód zašifrovaný slovními nápovědami ke čtyřem tajným slovům. Vlastní tým má kód uhodnout, soupeř se ho snaží zachytit a z nápověd odhalit tajná slova. Deskovka, dá se hrát i online.",
+  "type": "hra",
+  "equipment": [
+    "bez-pocitace",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "desková hra",
+    "šifrování",
+    "kód",
+    "odposlech",
+    "asociace",
+    "týmová hra",
+    "Board Game Arena"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Thomas Dagenais-Lespérance (Le Scorpion Masqué) (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://cs.boardgamearena.com/gamepanel?game=decrypto"
+  },
+  "notes": "Online verze na Board Game Arena vyžaduje bezplatný účet. Hra je hezká ukázka, že šifra, kterou se tým domluví, časem prozradí svůj klíč."
+}

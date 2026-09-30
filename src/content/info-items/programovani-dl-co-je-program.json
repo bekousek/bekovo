@@ -1,0 +1,54 @@
+{
+  "id": "programovani-dl-co-je-program",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Datová Lhota: Co je to počítačový program",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Úvodní lekce k seriálu Datová Lhota: Kuba se nechá vtáhnout do počítače a zjišťuje, co je program, příkaz a programový kód, proč se programy kazí a k čemu jsou aktualizace. Děti vymýšlejí co nejpřesnější příkazy.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "2 × 40 min",
+  "keywords": [
+    "Datová Lhota",
+    "program",
+    "příkaz",
+    "programátor",
+    "chyba v programu",
+    "aktualizace",
+    "skrytý počítač",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že počítač nic neudělá bez příkazu, že programy píšou a testují programátoři, že v kódu bývají chyby a že aktualizace je opravují. Poznají skryté počítače kolem sebe.",
+  "materials": [
+    "Díly 1 „Zachraňte mě!“ a 6 „Aktualizuj!“ a talkshow „O programech a kódu“ a „O světě v počítači“",
+    "Vytištěný průběh lekce",
+    "Prázdné papíry"
+  ],
+  "procedure": "Úvod (5 min): jak často a na čem děti používají tablety, mobily a počítače.\n\nDíl 1 „Zachraňte mě!“ (15 min): jaké chyby Kuba udělal (sedl si k počítači, kde byl přihlášený někdo jiný, klikl na neznámý program). Při zastavování videa: jaké programy v Datové Lhotě viděl a co je příkaz. Aktivita Vymýšlení příkazů: učitel plní příkazy k chůzi doslova a děti je musí zpřesňovat, jako by mluvily s počítačem.\n\nDíl 6 „Aktualizuj!“ (20 min): v programovém kódu může být chyba, aktualizace ji opraví.\n\nPo přestávce talkshow „O programech a kódu“ a „O světě v počítači“ (2 × 15 min) a závěrečné shrnutí pojmů programátor, příkaz, program, aktualizace a skrytý počítač.\n\nTip z metodiky: ukažte dětem vnitřek skutečného počítače (základní deska, RAM, disk z bazaru).",
+  "files": [
+    {
+      "label": "Metodika lekce (scénář, přílohy)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML01-co-je-to-pocitacovy-program.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "hardware-i4k-1-co-je-uvnitr-pocitace",
+  "categoryId": "hardware",
+  "title": "Jak fungují počítače 1/3: Co je uvnitř počítače?",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/",
+  "description": "Modelová hodina MFF UK: procesor, RAM, SSD/HDD, rozšiřující karty, sběrnice a základní deska. Žáci sledují video, třídí kartičky komponent zvlášť pro počítač a pro mobil a zjišťují, že jsou si hodně podobné.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "hardware",
+    "procesor",
+    "RAM",
+    "SSD",
+    "HDD",
+    "základní deska",
+    "grafická karta",
+    "síťová karta",
+    "komponenty",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák popíše základní komponenty počítače a jejich funkci a vysvětlí, jak spolu pracují.",
+  "materials": [
+    "Prezentace, pracovní list a příprava pro učitele",
+    "Vytištěné kartičky komponent (ideálně pro počítač a mobil na různě barevném papíře)",
+    "Projektor, tabule"
+  ],
+  "procedure": "Evokace (5 min): co si představíš pod pojmem počítač? Kde všude doma jsou počítače? Co jsou „univerzální počítače“?\n\nVideo (8 min): Nezkreslená věda o hardwaru, stopované tak, aby žáci stihli zapisovat odpovědi do pracovního listu.\n\nKartičky (6 min): z hromádky vyber komponenty, které jsou v počítači, a pak ty, které jsou v mobilu. Porovnej.\n\nKomponenty (8 min): procesor jako loutkář, který tahá za provázky všech programů (frekvence, jádra). RAM pro to, co počítač právě dělá, a SSD/HDD pro dlouhodobé uložení. Grafická, zvuková a síťová karta.\n\nSpojovačka (6 min): které karty jsou v kterých zařízeních.\n\nReflexe Co se stane, když… (10 min): polovina skupin řeší situaci v mobilu, polovina v počítači. Jak spolupracuje procesor, RAM, úložiště, grafická a síťová karta při spuštění programu.",
+  "files": [
+    {
+      "label": "Materiály k hodině (Google Drive)",
+      "href": "https://drive.google.com/drive/folders/1GBtz5ieIjUxFddjVt84NAb8u7WNwIWQo",
+      "type": "other"
+    },
+    {
+      "label": "Příprava pro učitele",
+      "href": "https://drive.google.com/file/d/1tGkdwTcX_SDU-sfH8gh0WgHcuHOk4FuA/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace",
+      "href": "https://drive.google.com/file/d/1pB92-ToQUYwPhtz2qP_TYI3GbX7dHrze/view",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list",
+      "href": "https://drive.google.com/file/d/1G2dwLb5R6ODLwkjCFnMdEMoCzbWVn48B/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Kartičky komponent",
+      "href": "https://drive.google.com/file/d/18_QNRzbYjStFcL49fnE1ALX_5ciQxk6T/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Výukový list: List 1 — Co je v počítači",
+      "href": "https://drive.google.com/file/d/1_Q_UidnirdEWYDVi3GHHfwtKj_Y0a6XA/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "3d-doodle3d-privesek",
+  "categoryId": "3d",
+  "subcategoryId": "modelovani",
+  "title": "Přívěsek na klíče v Doodle3D Transform",
+  "url": "https://doodle3d.com/app/",
+  "description": "Doodle3D Transform je webová aplikace, ve které se 3D model „nakreslí“ a vytáhne do prostoru. Ovládá se ikonami, zvládnou ji i mladší žáci. Jako první projekt EDUTEAM navrhuje přívěsek na klíče netradičního tvaru a vytištění na 3D tiskárně.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac",
+    "tablet",
+    "3d-tiskarna"
+  ],
+  "keywords": [
+    "Doodle3D",
+    "3D modelování",
+    "3D tisk",
+    "přívěsek",
+    "kreslení",
+    "STL"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem",
+    "3D tiskárna (není nutná, model jde uložit jako STL)"
+  ],
+  "procedure": "Ukažte ukázkový přívěsek (obrázek a hotový STL od EDUTEAM níže) a krátké video tutoriály. Jsou v angličtině, ale dají se sledovat i bez porozumění.\n\nŽáci nakreslí obrys svého přívěsku, vytáhnou ho do 3D a nezapomenou na otvor pro kroužek. Model exportují jako STL a vytisknou.",
+  "files": [
+    {
+      "label": "Ukázka přívěsku (obrázek, EDUTEAM)",
+      "href": "https://drive.google.com/file/d/1UMmz9LwLwyCztyYnW4Nyv0vFTd1HY4Vz/view",
+      "type": "image"
+    },
+    {
+      "label": "Přívěsek k tisku (STL, EDUTEAM)",
+      "href": "https://drive.google.com/file/d/1wukAq3s_KiltrsZ2Mf3qINbfpnf3gGHw/view",
+      "type": "other"
+    },
+    {
+      "label": "Video tutoriál 1",
+      "href": "https://youtu.be/rkZNNzSJBps",
+      "type": "video"
+    },
+    {
+      "label": "Video tutoriál 2",
+      "href": "https://youtu.be/8YXBHqgbA3o",
+      "type": "video"
+    }
+  ],
+  "source": {
+    "label": "EDUTEAM — Inspirace pro výuku",
+    "url": "https://www.eduteam.cz/inspirace-pro-vyuku/"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "programovani-codeorg-klasicke-bludiste",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Klasické bludiště (Hodina kódu s Angry Birds)",
+  "url": "https://studio.code.org/hoc/1?lang=cs-CZ",
+  "description": "Nejznámější Hodina kódu od Code.org: dvacet úrovní, ve kterých bloky dovedeš ptáka k praseti. Postupně přibývají cykly „opakuj“ a podmínky „pokud“. Mezi úrovněmi krátká videa, prostředí česky.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Code.org",
+    "Hodina kódu",
+    "bludiště",
+    "Angry Birds",
+    "cyklus",
+    "podmínka",
+    "blokové programování"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Code.org — Hodina kódu (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://code.org/"
+  }
+}

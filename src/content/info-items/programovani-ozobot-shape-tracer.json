@@ -1,0 +1,29 @@
+{
+  "id": "programovani-ozobot-shape-tracer",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Ozobot Shape Tracer — kresli tvary kódem",
+  "url": "https://games.ozoblockly.com/shapetracer-basic",
+  "description": "Deset úrovní v prohlížeči: v OzoBlockly poskládej bloky pohybu tak, aby virtuální Ozobot obkreslil zadaný tvar. Pokročilá sada přidává opakování, volná verze kreslení bez zadání. Robota nepotřebujete.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "keywords": [
+    "Ozobot",
+    "OzoBlockly",
+    "blokové programování",
+    "geometrie",
+    "tvary",
+    "cyklus",
+    "bez robota"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Ozobot (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://ozoblockly.com/"
+  },
+  "notes": "Pokročilé úrovně: games.ozoblockly.com/shapetracer-advanced. Volné kreslení: games.ozoblockly.com/shapetracer-freeform. Další výzvy najdete v editoru OzoBlockly pod tlačítkem Explore Challenges."
+}

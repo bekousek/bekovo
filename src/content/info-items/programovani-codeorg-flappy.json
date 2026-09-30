@@ -1,0 +1,28 @@
+{
+  "id": "programovani-codeorg-flappy",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Flappy Code — naprogramuj si vlastní Flappy Bird",
+  "url": "https://studio.code.org/flappy/1?lang=cs-CZ",
+  "description": "Hodina kódu od Code.org v češtině: v deseti krocích žáci bloky událostí sestaví hru Flappy Bird. Určí, co se stane po kliknutí, při nárazu či průletu, změní scénu i rychlost a hru nasdílí spolužákům.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Code.org",
+    "Hodina kódu",
+    "Flappy Bird",
+    "události",
+    "tvorba hry",
+    "blokové programování"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Code.org — Hodina kódu (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://code.org/"
+  }
+}

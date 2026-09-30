@@ -1,0 +1,24 @@
+{
+  "id": "hry-hadej-slova",
+  "categoryId": "hry",
+  "title": "Hádej slova (česká Wordle)",
+  "url": "https://hadejslova.cz/",
+  "description": "Česká verze Wordle i s diakritikou: na šest pokusů uhodni pětipísmenné slovo, barvy prozradí, která písmena sedí. Na konec hodiny, kdy třída hádá společně nad projektorem nebo soupeří týmy.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "Wordle",
+    "slovní hra",
+    "logika",
+    "oddechovka",
+    "čeština"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "HadejSlova.cz (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://hadejslova.cz/"
+  }
+}

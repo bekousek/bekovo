@@ -1,0 +1,54 @@
+{
+  "id": "hardware-dl-kam-se-schovaji-data",
+  "categoryId": "hardware",
+  "title": "Datová Lhota: Kam se schovají data? (paměti, mazání, koš)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Podle dílu „Koukej mazat!“ děti poznají pevný disk, flashku, SD kartu i RAM, zjistí, že paměť má omezenou kapacitu, a že smazaný soubor jen putuje do koše, dokud se koš nevysype.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "paměť",
+    "pevný disk",
+    "RAM",
+    "SD karta",
+    "flashka",
+    "mazání",
+    "koš",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že data se dají ukládat na různá paměťová média s omezenou kapacitou a že smazaná data zmizí až po vysypání koše.",
+  "materials": [
+    "Díl 4 „Koukej mazat!“ a talkshow „O světě v počítači“ (kapitola o RAM)",
+    "Vytištěné papíry s aktivitou (příloha metodiky)",
+    "Tužky"
+  ],
+  "procedure": "Úvod (5 min): kde v počítači leží fotky a hry?\n\nDíl 4 „Koukej mazat!“ (5–10 min): pevný disk a jeho kapacita.\n\nMazání a koš (5–10 min): metafora přecpaného batohu. Když věci „vyhodíme“, jsou pořád v koši a jde je z něj vytáhnout. Místo se uvolní až po vysypání koše.\n\nDalší typy pamětí (3 min): flashka, SD karta a čím se liší.\n\nTalkshow „O světě v počítači“, kapitola o RAM (10 min).\n\nZávěr (7 min): shrnutí a zopakování nových pojmů.",
+  "files": [
+    {
+      "label": "Metodika lekce s aktivitou",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-kam-se-schovaji-data.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

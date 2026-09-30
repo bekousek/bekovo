@@ -1,0 +1,53 @@
+{
+  "id": "bezpecnost-dl-kdo-to-hackuje",
+  "categoryId": "bezpecnost",
+  "title": "Datová Lhota: Kdo to tady hackuje? (Wi-Fi router a etický hacking)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Lindiny soukromé zprávy zná celá škola, protože někdo hacknul neaktualizovaný domácí router. Žáci ve skupinách zkoumají, co všechno doma jde hacknout, odkud a proč by to někdo dělal.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "hacker",
+    "etický hacker",
+    "Wi-Fi router",
+    "IP adresa",
+    "aktualizace",
+    "šifrování",
+    "chytrá domácnost",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vědí, že hacknout jde prakticky každé zařízení s počítačem, nejsnáz to připojené k internetu, a že pomáhá aktualizovat a šifrovat komunikaci.",
+  "materials": [
+    "Díl 15 „Kdo to heknul?“",
+    "Wi-Fi router nebo aspoň jeho fotka",
+    "Tabule a fixy",
+    "Vytištěné pracovní listy (části A a B)"
+  ],
+  "procedure": "Úvod (5 min): společná myšlenková mapa na tabuli „Hacker“ (co dělá, co krade, co s tím mají hesla, IP adresa a viry).\n\nDíl 15 (15–20 min): kdo byl hacker a jak se dostal ke zprávám? Router nebyl aktualizovaný a komunikace nebyla šifrovaná. Ukažte skutečný router a kabely.\n\nUnplugged aktivita Co jde doma hacknout (10–15 min): skupiny (polovina část A, polovina část B) si k zařízením poznamenají, jestli jdou hacknout, kde musí hacker fyzicky být a proč by to dělal. Rozbor směřuje k tomu, že co obsahuje počítač, jde hacknout, a co je na internetu, jde hacknout na dálku.\n\nZávěr (5 min): reflexe, kdo je etický hacker.",
+  "files": [
+    {
+      "label": "Metodika lekce s pracovním listem",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/kdo_to_tady_hackuje.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Technický popis dílů 2. série",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

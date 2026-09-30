@@ -1,0 +1,54 @@
+{
+  "id": "internet-dl-k-cemu-je-cloud",
+  "categoryId": "internet",
+  "subcategoryId": "spoluprace",
+  "title": "Datová Lhota: K čemu je mi cloud? (role na sdíleném dokumentu)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Kuba zapomněl doma prezentaci, ale je uložená v cloudu. Po 16. dílu skupiny simulují na papíře A3 sdílenou nástěnku: vylosují si role vlastník a editor a zkoušejí, co která role smí.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    5,
+    6
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "cloud",
+    "cloudové úložiště",
+    "sdílený dokument",
+    "role",
+    "vlastník",
+    "editor",
+    "unplugged",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že cloud nejsou data v mobilu, ale spousta serverů na internetu, že slouží k ukládání, zálohování i společné práci a že na cloudu existují role s různými právy.",
+  "materials": [
+    "Díl 16 „Jeden cloud nebo mraky počítačů?“",
+    "Papíry A3 (jeden na skupinu)",
+    "Samolepicí lístečky (Post-it) dvou velikostí",
+    "Lístečky s rolemi VLASTNÍK a EDITOR nalepené předem na A3"
+  ],
+  "procedure": "Úvod (5 min): kdo slyšel slovo cloud? Co na něj ukládáme? K čemu je dobrý?\n\nDíl 16 (10 min): kde měl Kuba uložený úkol? Na cloudu ve Francii. Ukažte fotku skutečného datacentra: cloud v seriálu jako knihovna je jen metafora a cloudů je po světě mnoho.\n\nUnplugged aktivita Role na cloudu (20 min): skupiny po 3–4 dětech tvoří na papíře A3 „sdílenou nástěnku“ na téma, které si vyberou. Pod lístečky je skrytá role: jeden vlastník, ostatní editoři. Podle pokynů učitele zkoušejí, co která role může s dokumentem dělat.\n\nZávěr (5 min): reflexe. Metodika doporučuje lekci jako úvod k projektu se skutečným cloudem.",
+  "files": [
+    {
+      "label": "Metodika lekce s přílohami",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/k_cemu_je_mi_cloud.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

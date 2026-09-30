@@ -1,0 +1,51 @@
+{
+  "id": "bezpecnost-dl-pocitacove-viry",
+  "categoryId": "bezpecnost",
+  "title": "Datová Lhota: Počítačové viry",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Díl „Viry útočí“ a talkshow „O virech“: co viry dělají, co je antivir a proč aktualizovat. Děti nakreslí vir na tablet a vygumují ho „antivirem“: vrypy na papíře ukážou, že škoda po viru zůstává.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "počítačový vir",
+    "antivir",
+    "aktualizace",
+    "malware",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že viry škodí počítačům, tabletům i mobilům, že antivir pomáhá, ale nechrání stoprocentně ani neopraví způsobenou škodu, a že nejdůležitější je zodpovědné chování.",
+  "materials": [
+    "Díl 7 „Viry útočí“ a talkshow „O virech“",
+    "Vytištěné papíry s obrysem tabletu (příloha metodiky)",
+    "Obyčejná tužka a guma"
+  ],
+  "procedure": "Úvod (5 min): co víte o počítačových virech?\n\nDíl 7 „Viry útočí“ (15 min): počítačový vir, antivir a aktualizace, rozebrané u zastavovaného videa.\n\nAktivita Odstraňování viru (5 min): děti mají 2–3 minuty, aby obyčejnou tužkou nakreslily vir do obrysu tabletu. Pak ho vygumují. Guma je antivir. Zmizel vir úplně? Na papíře zůstaly vrypy, stejně jako po viru zůstanou smazané fotky.\n\nTalkshow „O virech“ (10 min) a závěrečné shrnutí (5 min).",
+  "files": [
+    {
+      "label": "Metodika lekce s pracovním listem",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-pocitacove-viry.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

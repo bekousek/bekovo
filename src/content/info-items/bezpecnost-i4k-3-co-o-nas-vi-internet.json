@@ -1,0 +1,60 @@
+{
+  "id": "bezpecnost-i4k-3-co-o-nas-vi-internet",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Jak funguje internet 3/4: Co o nás ví internet? (datová stopa, cookies)",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/",
+  "description": "Třetí modelová hodina: pakety a IP adresa jako „podpis“ všeho, co posíláme. Žáci odhadují osobu podle historie vyhledávání, zjišťují, co si o nich myslí Instagram, a řeší výhody a nevýhody cookies.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "datová stopa",
+    "digitální stopa",
+    "cookies",
+    "IP adresa",
+    "personalizace",
+    "historie vyhledávání",
+    "soukromí",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák vysvětlí, co je datová stopa a jak vzniká, odhadne vlastnosti člověka podle jeho stopy a uvede výhody a rizika toho, že si o nás servery pamatují informace.",
+  "materials": [
+    "Prezentace, pracovní list a příprava pro učitele (lehčí nebo těžší varianta)",
+    "Těžší varianta: zařízení žáků (Instagram, nastavení Googlu)"
+  ],
+  "procedure": "Lehčí varianta (6.–7. ročník): volitelné opakování, převoz dinosaura (pakety), pakety a IP adresy. Aktivita Co je pravda?, výklad o datové stopě a aktivita Křeček: z historie vyhledávání odhadují, kdo hledal a co se mu stalo. Reflexe Co o mně ví internet a výhody a nevýhody.\n\nTěžší varianta (8.–9. ročník): opakovací hlasovací kvíz, volitelně debata Kdo platí internet? (reklamy, AdBlock, poskytovatelé). Evokace Co si o vás myslí Instagram podle nabídky v „search & find“. Digitální stopa, analýza cizí historie vyhledávání, co o nás odhaduje Google. Cookies a jejich výhody a nevýhody. Reflexe: jak se chovat bezpečně.\n\nPříprava upozorňuje, že jeden příklad (aplikace sledující cyklus) nemusí být vhodný pro každou třídu. Nabízí náhradní skrytý snímek.",
+  "files": [
+    {
+      "label": "3. hodina — lehčí varianta (6.–7. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/3H_L.zip",
+      "type": "other"
+    },
+    {
+      "label": "3. hodina — těžší varianta (8.–9. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/3H_T.zip",
+      "type": "other"
+    },
+    {
+      "label": "Výukový list: List 2 — Klienti a pakety",
+      "href": "https://drive.google.com/file/d/1gJM3MVrj3gThDcQ31aLzqLl7G2vrs90w/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/"
+  }
+}

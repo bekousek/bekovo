@@ -1,0 +1,58 @@
+{
+  "id": "hardware-dl-aplikace-a-rychlost",
+  "categoryId": "hardware",
+  "title": "Datová Lhota: Proč se mi počítač „seká“? (procesor a operační paměť)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Díly „Krize v městečku“ a „Když je okno větší než dům“: moc spuštěných aplikací nestíhá procesor a zaplní operační paměť. Děti vybarvují „paměť“ ze 100 čtverečků a starší v učebně měří, kolik RAM zabere prohlížeč.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6
+  ],
+  "duration": "40 nebo 80 min",
+  "keywords": [
+    "Datová Lhota",
+    "procesor",
+    "operační paměť",
+    "RAM",
+    "spuštěné aplikace",
+    "záložky prohlížeče",
+    "restart",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že procesor nestíhá příliš mnoho spuštěných aplikací, že každá aplikace i záložka prohlížeče zabírá operační paměť a že pomáhá odinstalovat nepotřebné programy a zařízení občas restartovat.",
+  "materials": [
+    "Díly 11 „Krize v městečku“, 14 „Když je okno větší než dům“, volitelně 18 „Hra s daty“",
+    "Pracovní list Paměť (verze 1 000 MB nebo 8 000 MB) k promítnutí i vytištěný",
+    "Pastelky nebo fixy",
+    "Pro rozšíření: počítače se dvěma prohlížeči a tabulka na cloudu"
+  ],
+  "procedure": "Úvod (5 min): kdy se vám mobil nebo počítač zasekával? Kolik aplikací míváte spuštěných?\n\nDíl 11 (10–15 min): proč se Kubovi seká notebook? Je spuštěno moc programů, procesor je nestíhá řídit a zabírají paměť.\n\nAktivita Paměť (10–15 min): ve dvojicích „spouštějí“ aplikace vybarvováním čtverečků v poli, které představuje operační paměť. Když dojde místo, počítač se začne sekat.\n\nZávěr s dílem 14 (10 min): prohlížeč s mnoha záložkami zabírá místo hře.\n\nRozšíření pro pokročilejší (40 min, počítačová učebna): kolik operační paměti zabere prohlížeč s různým počtem záložek, výsledky zapisují do sdílené tabulky, případně díl 18.",
+  "files": [
+    {
+      "label": "Metodika lekce s pracovními listy",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_vliv_na_rychlost_pocitace.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Technický popis dílů 2. série",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

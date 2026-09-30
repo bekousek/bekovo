@@ -1,0 +1,54 @@
+{
+  "id": "internet-i4k-4-velke-opakovani",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Jak funguje internet 4/4: Velké opakování (Kahoot a bingo pojmů)",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/",
+  "description": "Závěrečná hodina série: žáci za pomoci spolužáků opakují servery, routery, připojení, pakety, datovou stopu a cookies. Kvíz v Kahootu a bingo s losováním definic pojmů.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "opakování",
+    "Kahoot",
+    "bingo",
+    "internet",
+    "pojmy",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák za pomoci spolužáků správně odpoví na otázky o fungování internetu a bezpečném chování na něm.",
+  "materials": [
+    "Příprava pro učitele a pracovní list (lehčí nebo těžší varianta)",
+    "Na Kahoot: projektor a připojená zařízení",
+    "Na bingo: vytištěné tabulky a nastříhané proužky s pojmy k losování"
+  ],
+  "procedure": "Učitel si z přípravy vybere, které části hodiny použije.\n\nKahoot: kvíz s otázkami ke všem předchozím hodinám.\n\nBingo: žáci mají tabulky s pojmy, učitel losuje (nebo čte) definice, například „aktivita, díky níž můžeme otestovat rychlost připojení“ nebo „přizpůsobení toho, co na internetu vidíme, podle toho, co jsme dělali dřív“. Žáci hledají odpovídající pojem.\n\nHodina nemá prezentaci, jen přípravu a pracovní list.",
+  "files": [
+    {
+      "label": "4. hodina — lehčí varianta (6.–7. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/4H_L.zip",
+      "type": "other"
+    },
+    {
+      "label": "4. hodina — těžší varianta (8.–9. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/4H_T.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/"
+  }
+}
