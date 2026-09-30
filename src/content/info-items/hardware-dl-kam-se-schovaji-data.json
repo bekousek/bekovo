@@ -1,9 +1,9 @@
 {
   "id": "hardware-dl-kam-se-schovaji-data",
   "categoryId": "hardware",
-  "title": "Datová Lhota: Kam se schovají data? (paměti, mazání, koš)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Podle dílu „Koukej mazat!“ děti poznají pevný disk, flashku, SD kartu i RAM, zjistí, že paměť má omezenou kapacitu, a že smazaný soubor jen putuje do koše, dokud se koš nevysype.",
+  "title": "Datová Lhota: Kam se schovají data?",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-kam-se-schovaji-data.pdf",
+  "description": "Pevný disk, SD karta, flashka a RAM: děti kreslí data na svůj papírový disk, zjistí, jak Janáček vytáhl Kubův úkol z koše, a spojují paměti s jejich popisem.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -15,40 +15,71 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "paměť",
     "pevný disk",
-    "RAM",
     "SD karta",
     "flashka",
+    "RAM",
+    "operační paměť",
+    "trvalé úložiště",
+    "ukládání",
     "mazání",
     "koš",
-    "ČT",
-    "1. stupeň"
+    "kartotéka",
+    "souborový systém",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že data se dají ukládat na různá paměťová média s omezenou kapacitou a že smazaná data zmizí až po vysypání koše.",
+  "goal": "Děti vědí, že data se trvale ukládají na pevný disk, SD kartu nebo flashku, že kapacita je omezená, že smazaná data nejdřív skončí v koši (v mobilu má koš každá aplikace) a že RAM bez elektřiny všechno zapomene.",
   "materials": [
-    "Díl 4 „Koukej mazat!“ a talkshow „O světě v počítači“ (kapitola o RAM)",
-    "Vytištěné papíry s aktivitou (příloha metodiky)",
-    "Tužky"
+    "Projektor a videa z Déčka",
+    "Prázdné papíry nebo vytištěný disk (příloha 2)",
+    "Vytištěná aktivita Paměti (příloha 1)",
+    "Tužky",
+    "Volitelně stará disketa"
   ],
-  "procedure": "Úvod (5 min): kde v počítači leží fotky a hry?\n\nDíl 4 „Koukej mazat!“ (5–10 min): pevný disk a jeho kapacita.\n\nMazání a koš (5–10 min): metafora přecpaného batohu. Když věci „vyhodíme“, jsou pořád v koši a jde je z něj vytáhnout. Místo se uvolní až po vysypání koše.\n\nDalší typy pamětí (3 min): flashka, SD karta a čím se liší.\n\nTalkshow „O světě v počítači“, kapitola o RAM (10 min).\n\nZávěr (7 min): shrnutí a zopakování nových pojmů.",
+  "procedure": "Úvod (5 min): Může člověk něco zapomenout? A počítač? Jak si počítač něco pamatuje? Podle odpovědí poznáte, jestli děti znají disk, SD kartu nebo flashku.\n\n4. díl — pevný disk (5–10 min): pusťte jen úsek 1:02–1:10 (připomenout, že kluci skáčou do počítače) a 2:04–2:18 — zastavte na obrazu disku. Co je disk? Místo, kam se všechno ukládá. Nižší úroveň: každý dostane papír jako svůj pevný disk a nakreslí, co by na něj uložil. Vyšší úroveň: krátká debata, co se na disk ukládá a jestli se tam vejde všechno na světě.\n\nMazání a koš (5–10 min): nižší úroveň — výklad přes batoh a odpadkový koš: smazaná věc jen skončí v koši a dá se vyndat, místo uvolní až vysypání. Vyšší úroveň — celý 4. díl: jakou chybu Kuba udělal? Pak úseky 1:45–2:03 (kartotéka — kde co na disku leží) a 2:54–3:09 (Marwin úkol nesmazal, jen přesunul záznam do koše). V mobilu má svůj koš každá aplikace, třeba Smazané fotky.\n\nDalší paměti (3 min): Jaké ještě znáte? SD karta, flashka, externí disk, DVD, v mobilu interní paměť. Flashka slouží hlavně k přenosu mezi počítači, SD karta v menších zařízeních. Všechno jsou to trvalá úložiště.\n\nTalkshow O světě v počítači — RAM (10 min): úseky 2:52–3:34 (jak se jmenuje ta další paměť) a 4:23–7:13 (čím se liší od disku): RAM potřebuje elektřinu, po vypnutí zmizí vše neuložené. Stačí, aby děti věděly, že RAM existuje — je to pro ně překvapivě těžký pojem.\n\nZávěr (7 min): pracovní list Paměti — spojit pevný disk, RAM, SD kartu a flashku s popisem. Které paměti jsou trvalá úložiště? Co se stane se smazanými daty? Která paměť potřebuje elektřinu?",
   "files": [
     {
-      "label": "Metodika lekce s aktivitou",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-kam-se-schovaji-data.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Aktivita Paměti a obrázek disku ke kreslení v příloze."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "4. díl — Koukej mazat!",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110004",
+      "type": "video",
+      "note": "Nižší úroveň jen úseky 1:02–1:10 a 2:04–2:18; vyšší celý díl, pak 1:45–2:03 a 2:54–3:09."
+    },
+    {
+      "label": "Kubova talkshow — O světě v počítači",
+      "href": "https://decko.ceskatelevize.cz/video/b38401",
+      "type": "video",
+      "note": "Úseky 2:52–3:34 a 4:23–7:13 (RAM vs. disk)."
+    },
+    {
+      "label": "Navíc: 12. díl — Košem to nekončí",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110002",
+      "type": "video",
+      "note": "Nadstavba pro zdatnější (přelom 1. a 2. stupně): ani vysypaný koš data hned nesmaže, místo se jen označí jako volné."
+    },
+    {
+      "label": "Navíc: 18. díl — Hra s daty",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110008",
+      "type": "video",
+      "note": "Nadstavba: plná interní paměť mobilu — nová hra se nevejde, dokud se nesmažou staré."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 3
+  },
+  "added": "2026-09-30"
 }

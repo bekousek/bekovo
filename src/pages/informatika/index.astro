@@ -2,10 +2,15 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import InfoFilterBar from '../../components/informatika/InfoFilterBar.astro';
 import InfoItemCard from '../../components/informatika/InfoItemCard.astro';
-import { ACCENTS, categoryHref, getCategories, getItems, plural } from '../../lib/informatika';
+import { ACCENTS, categoryHref, getCategories, getItems, getSeries, plural, seriesHref } from '../../lib/informatika';
 
 const categories = await getCategories();
 const items = await getItems();
+const series = await getSeries();
+const seriesCounts: Record<string, number> = {};
+for (const item of items) {
+  if (item.series) seriesCounts[item.series.id] = (seriesCounts[item.series.id] ?? 0) + 1;
+}
 const byId = new Map(categories.map((c) => [c.id, c]));
 const counts: Record<string, number> = {};
 for (const item of items) counts[item.categoryId] = (counts[item.categoryId] ?? 0) + 1;
@@ -60,6 +65,33 @@ for (const item of items) counts[item.categoryId] = (counts[item.categoryId] ?? 
           );
         })}
       </div>
+
+      {series.length > 0 && (
+        <section class="mt-10">
+          <h2 class="text-lg font-semibold text-gray-900">Série</h2>
+          <p class="mt-1 text-sm text-gray-600">Pořady a sady lekcí, jejichž karty jsou rozeseté po oblastech — tady pohromadě.</p>
+          <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {series.map((s) => {
+              const count = seriesCounts[s.id] ?? 0;
+              return (
+                <a
+                  href={seriesHref(s)}
+                  class="flex items-start gap-3 bg-white rounded-xl shadow-sm ring-1 ring-gray-200 border-l-4 border-l-gray-800 p-4 hover:shadow-md hover:-translate-y-0.5 transition-all duration-200"
+                >
+                  <span class="text-3xl shrink-0 leading-none" aria-hidden="true">{s.icon}</span>
+                  <div class="flex-1 min-w-0">
+                    <h3 class="font-semibold text-gray-900 leading-tight">{s.name}</h3>
+                    <p class="mt-1 text-sm text-gray-600">{s.tagline}</p>
+                    <span class="mt-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-700">
+                      {count} {plural(count, 'karta', 'karty', 'karet')}
+                    </span>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
     </div>
 
     <div data-inf-results hidden>

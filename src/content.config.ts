@@ -279,6 +279,13 @@ const infoCategories = defineCollection({
   }),
 });
 
+const infoFile = z.object({
+  label: z.string(),
+  href: osvHref,
+  type: z.enum(['pdf', 'doc', 'slides', 'sheet', 'image', 'audio', 'video', 'other']).default('other'),
+  note: z.string().optional(),
+});
+
 const infoItems = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/info-items' }),
   schema: z.object({
@@ -314,19 +321,55 @@ const infoItems = defineCollection({
     goal: z.string().optional(),
     materials: z.array(z.string()).optional(),
     procedure: z.string().optional(),
-    files: z.array(z.object({
-      label: z.string(),
-      href: osvHref,
-      type: z.enum(['pdf', 'doc', 'slides', 'sheet', 'image', 'audio', 'video', 'other']).default('other'),
-      note: z.string().optional(),
-    })).default([]),
+    files: z.array(infoFile).default([]),
     source: z.object({
       label: z.string(),
       url: z.string().url().optional(),
     }).optional(),
+    /** Patří do série (pořad s lekcemi apod.) — viz info-series. `part` je pořadí
+     *  v sérii; karty série se navzájem prolinkují a mají společnou stránku. */
+    series: z.object({
+      id: z.string(),
+      part: z.number().int().positive().optional(),
+    }).optional(),
     /** Moje poznámka — co fungovalo, na co si dát pozor. */
     notes: z.string().optional(),
     added: z.string().regex(/^\d{4}-\d{2}-\d{2}$/).optional(),
+  }),
+});
+
+/* Série — víc karet z jednoho zdroje (např. pořad a lekce k němu). Karty žijí
+ * ve svých oblastech, série je spojí společnou stránkou /informatika/serie/<id>
+ * s přehledem a průvodcem videi. */
+const infoSeries = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/info-series' }),
+  schema: z.object({
+    id: z.string(),
+    name: z.string(),
+    icon: z.string().default('📺'),
+    /** Jedna věta na kartu série. */
+    tagline: z.string(),
+    /** Delší úvod na stránku série. Odstavce oddělené prázdným řádkem. */
+    description: z.string().optional(),
+    url: z.string().url().optional(),
+    /** Videa (díly, bonusy). Ke kterým kartám video patří, se dopočítá z `files`
+     *  karet série podle shody `href`. */
+    videoGroups: z.array(z.object({
+      name: z.string(),
+      videos: z.array(z.object({
+        title: z.string(),
+        href: z.string().url(),
+        duration: z.string().optional(),
+        /** O čem díl je — jedna věta. */
+        about: z.string().optional(),
+      })),
+    })).default([]),
+    /** Materiály ke všem kartám najednou (úvod pro učitele apod.). */
+    files: z.array(infoFile).default([]),
+    source: z.object({
+      label: z.string(),
+      url: z.string().url().optional(),
+    }).optional(),
   }),
 });
 
@@ -343,4 +386,5 @@ export const collections = {
   osvItems,
   infoCategories,
   infoItems,
+  infoSeries,
 };

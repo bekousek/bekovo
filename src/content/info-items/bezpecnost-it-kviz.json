@@ -18,5 +18,9 @@
     "label": "ČT Déčko — Datová Lhota",
     "url": "https://decko.ceskatelevize.cz/datova-lhota/it-kviz"
   },
+  "series": {
+    "id": "datova-lhota",
+    "part": 13
+  },
   "added": "2026-09-27"
 }

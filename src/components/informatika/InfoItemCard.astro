@@ -7,10 +7,12 @@ import {
   LANGUAGE_LABELS,
   categoryHref,
   formatGrades,
+  getSeriesById,
   hasDetail,
   hostname,
   primaryHref,
   searchIndex,
+  seriesHref,
   subcategoryName,
   type InfoCategory,
   type InfoItem,
@@ -21,15 +23,18 @@ interface Props {
   category: InfoCategory;
   /** Na globálním hledání ukaž, do které oblasti položka patří. */
   showCategory?: boolean;
+  /** Na stránce série je štítek série zbytečný. */
+  hideSeries?: boolean;
 }
 
-const { item, category, showCategory = false } = Astro.props;
+const { item, category, showCategory = false, hideSeries = false } = Astro.props;
 const accent = ACCENTS[category.accent];
 const link = primaryHref(item);
 const detail = hasDetail(item);
 const host = hostname(item.url);
 const sub = subcategoryName(category, item.subcategoryId);
 const gradeLabel = formatGrades(item.grades);
+const series = item.series && !hideSeries ? await getSeriesById(item.series.id) : undefined;
 const facts = [
   item.duration ? `⏱️ ${item.duration}` : null,
   gradeLabel ? `🎓 ${gradeLabel}` : null,
@@ -74,6 +79,16 @@ const facts = [
           >
             <span aria-hidden="true">{category.icon}</span>
             <span>{sub ? `${category.shortName} › ${sub}` : category.shortName}</span>
+          </a>
+        )}
+        {series && (
+          <a
+            href={seriesHref(series)}
+            class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full font-medium bg-gray-100 text-gray-700 hover:bg-gray-200 transition-colors"
+            title={`Série ${series.name}`}
+          >
+            <span aria-hidden="true">{series.icon}</span>
+            <span>{series.name}</span>
           </a>
         )}
         {host && <span class="text-gray-400 truncate">{host}</span>}

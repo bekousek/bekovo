@@ -2,9 +2,9 @@
   "id": "internet-dl-ja-a-pocitacovy-svet",
   "categoryId": "internet",
   "subcategoryId": "jak-funguje-internet",
-  "title": "Datová Lhota: Já a počítačový svět (data a jejich velikost)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Proč se video posílá déle než fotka a text? Podle 5. dílu děti zjišťují, co jsou data, že se po internetu posílají rozdělená na pakety a že mají různou velikost. Pak vystřihují a lepí data do malé „paměti“.",
+  "title": "Datová Lhota: Já a počítačový svět",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML_02_Ja_a_pocitacovy_svet_final.pdf",
+  "description": "Proč se video nahrává déle než fotka? Děti zjistí, že data putují internetem v paketech, že mají různou velikost a že paměť zařízení není nekonečná — stříhají a lepí data do papírové paměti.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -16,39 +16,51 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "data",
     "velikost dat",
+    "paket",
     "internet",
-    "pakety",
+    "wifi",
+    "mobilní data",
     "šifrování",
     "paměť",
-    "ČT",
-    "1. stupeň"
+    "bajt",
+    "kilobajt",
+    "megabajt",
+    "gigabajt",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti rozlišují mezi svým zařízením a digitálním světem za internetem, vědí, co jsou data, a že video je větší než fotka a fotka větší než text.",
+  "goal": "Děti rozliší své zařízení a svět za ním propojený internetem, poznají dva významy slova data (fotky, videa a texty × mobilní data), vědí, že video bývá větší než fotka a fotka větší než text, a že paměť zařízení je omezená.",
   "materials": [
-    "Díl 5 „Kde to vázne?“",
-    "Vytištěný pracovní list k aktivitě Velikost dat (příloha metodiky)",
+    "Projektor a video z Déčka",
+    "Vytištěný pracovní list Velikost dat (příloha 1), pro vyšší úroveň tabulka jednotek (příloha 2)",
     "Nůžky a lepidlo"
   ],
-  "procedure": "Úvod (5 min): co si představíte pod slovem internet? Co jde na zařízení dělat bez připojení? Jak se k vám dostane video, které natočil někdo jiný?\n\nDíl 5 „Kde to vázne?“ (5 min): proč Kubovi trvalo odeslání videa tak dlouho?\n\nZastavování videa (10–15 min): co Kuba posílá do soutěže, jak data cestují po internetu. Pro pokročilejší i šifrování. Metafora s kostrou dinosaura, kterou je potřeba rozložit, převézt v několika autech a znovu složit: tak fungují pakety.\n\nAktivita Velikost dat (10–15 min): děti vystřihnou obdélníčky textů, fotek a videí a lepí je do „paměti“ na listu, aniž by se překrývaly. Zjistí, že se všechno nevejde a že video zabere nejvíc místa.\n\nZávěr (5 min): shrnutí pojmů data, velikost dat, internet a paket.",
+  "procedure": "Úvod (5 min): Co si představíte pod slovem internet? Co jde na mobilu dělat bez wifi a bez dat? Jak se do vašeho mobilu dostane video, které natočil někdo jiný? Mylné představy zatím nevyvracejte.\n\n5. díl (5 min): „Co se Kubovi nedařilo?“ — video se posílalo moc dlouho. Proč? Bylo ze všeho největší.\n\nZastavování videa (10–15 min): jaké tři věci Kuba posílá (text, fotka, video — zatím jim říkejte „věci“), kudy cestují, proč se šifrují (vyšší úroveň). Metafora s kostrou dinosaura: jak přestěhovat kostru do muzea v jiném městě? Rozložit podle plánku na kosti, poslat v několika autech a na místě složit — stejně se data dělí na pakety.\n\nAktivita Velikost dat (10–15 min): děti vystřihnou fotky, texty a videa a nalepí je do obdélníku „paměť“ — vejde se všechno. Pak podle velikosti pojmenují další útvary a zkusí je přilepit — už se nevejdou. Paměť je jako školní batoh; když se zařízení seká, může být plná. Teprve teď zaveďte slovo data (i s druhým významem — mobilní data) a tři cesty, jak data do zařízení přibudou: vyrobím, stáhnu, přetáhnu. Vyšší úroveň místo stříhání pracuje s tabulkou B–kB–MB–GB–TB (blecha, krtek, mýval, gorila, tyranosaurus) a rozhoduje, co se kam vejde.\n\nZávěr (5 min): Díky čemu si posílají data počítače na opačných koncích světa? Jak jedním slovem říct fotkám, videím a textům? Co z nich bývá největší? Proč se data šifrují?",
   "files": [
     {
-      "label": "Metodika lekce s pracovním listem",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML_02_Ja_a_pocitacovy_svet_final.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Pracovní list Velikost dat a tabulka jednotek v příloze."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "5. díl — Kde to vázne?",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110005",
+      "type": "video",
+      "note": "Celý díl, pak úseky 0:17–0:33, 1:23–1:49 (šifrování) a 2:56–3:28 (pakety — nechte obraz stát)."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 2
+  },
+  "added": "2026-09-30"
 }

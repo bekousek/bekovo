@@ -2,9 +2,9 @@
   "id": "bezpecnost-dl-soukromi",
   "categoryId": "bezpecnost",
   "subcategoryId": "soukromi",
-  "title": "Datová Lhota: Soukromí v digitálním světě (cookies a stopa)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Díl „Je libo sušenku?“ vysvětlí cookies a to, že nás weby při další návštěvě „poznají“. Talkshow o tom, co o nás internet ví, a na závěr metafora bydlení ve skleněném akváriu.",
+  "title": "Datová Lhota: Soukromí v digitálním světě",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/soukromi-v-digitalnim-svete.pdf",
+  "description": "Jak e-shop pozná, že jsme to zase my? Žáci poznají cookies (jako lístek v šatně), datovou stopu jako stopy ve sněhu a zamyslí se, jak by se jim žilo v domě se skleněnými stěnami.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -16,36 +16,59 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "soukromí",
     "cookies",
+    "datová stopa",
     "digitální stopa",
+    "reklama",
     "cílená reklama",
-    "osobní data",
-    "ČT"
+    "personalizace",
+    "server",
+    "e-shop",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že na internetu zanechávají stopu, že weby si je pamatují (třeba pomocí cookies) a podle toho jim cíleně zobrazují obsah, a umí říct výhody i nevýhody používání internetu.",
+  "goal": "Žáci vědí, že všechno, co na internetu dělají, zanechává stopu, že si nás servery pamatují třeba pomocí cookies, že obsah a reklamy se nám ukazují na míru a že provoz webů někdo platí. Internet má výhody i nevýhody — nemají tam dělat nic, o čem by nechtěli, aby věděla celá škola.",
   "materials": [
-    "Díl 10 „Je libo sušenku?“ a talkshow „Co o nás vědí na internetu“",
-    "Vytištěný průběh lekce"
+    "Projektor a videa z Déčka",
+    "Papíry na zápis odpovědí"
   ],
-  "procedure": "Cookies (10–15 min): co víte o cookies v počítači? Po zhlédnutí 10. dílu rozbor: web si nás pamatuje a při další návštěvě nás pozná.\n\nTalkshow „Co o nás vědí na internetu?“ (15–20 min): co všechno se o nás ukládá a kdo to může legálně i nelegálně získat. Cílené zobrazování reklam, zpráv a videí.\n\nZávěr (10 min): metafora akvária. Používat internet je jako bydlet v domě se skleněnými stěnami, kam může nahlédnout kdokoli. Jak byste se cítili? Jde to nějak řešit? Každý uvede aspoň jednu výhodu a jednu nevýhodu internetu.\n\nNavazuje na lekci Komunikace po internetu.",
+  "procedure": "10. díl (10–15 min): Slyšeli jste o cookies? Připomeňte brainstorming z lekce Komunikace po internetu. Před videem: „Co se stane, když potvrdíme cookies?“ Po celém dílu znovu úsek 1:05–2:10 — server nás při další návštěvě pozná a ví, co jsme si prohlíželi. Cookies jsou jako lístek v šatně: půlku máme v počítači, půlku má server a k ní si zapisuje, na co jsme klikali. Odmítnout je nejde všude, dají se ale průběžně mazat.\n\nTalkshow Co o nás vědí na internetu (15–20 min): Co o nás na internetu vědí? Všechno, co tam děláme. Úsek 0:30–0:58: datová stopa jako stopy v čerstvém sněhu — dají se zahrabat, ale neporušený sníh už nebude. Úsek 3:15–3:45: proč vidíme reklamu (každý server někomu patří a provoz stojí peníze). Úsek 5:09–5:35: k čemu jsou cookies dobré — skóre ve hře, košík v e-shopu. Nejsou jen dobré, ani jen špatné.\n\nZávěr (10 min): metafora akvária — jak by se vám žilo v domě se skleněnými stěnami? Závěsy pomůžou, ale ne dokonale. Smazat historii prohlížeče je jako smazat záznam z vlastní kamery — pohledu zvenku to nezabrání. Nikdo nás nesleduje pořád, ale může začít kdykoli. Každý napíše aspoň jednu výhodu a jednu nevýhodu toho, že se o nás sbírají informace, a ve skupinách je porovnají.",
   "files": [
     {
-      "label": "Metodika lekce",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/soukromi-v-digitalnim-svete.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Průběh lekce s časy k zastavování videí a častými otázkami dětí."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "10. díl — Je libo sušenku?",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110009",
+      "type": "video",
+      "note": "Celý díl, pak úsek 1:05–2:10."
+    },
+    {
+      "label": "Kubova talkshow — Co o nás vědí na internetu",
+      "href": "https://decko.ceskatelevize.cz/video/b39003",
+      "type": "video",
+      "note": "Celá, pak úseky 0:30–0:58, 3:15–3:45 a 5:09–5:35."
+    },
+    {
+      "label": "Navíc: 19. díl — Pán internetu",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110009",
+      "type": "video",
+      "note": "Nadstavba o reklamních serverech a reklamních cookies — cookie slouží jako „jméno“, pod kterým si o nás server vede složku. Žáci už musí znát pojem server."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 6
+  },
+  "added": "2026-09-30"
 }

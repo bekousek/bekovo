@@ -3,8 +3,8 @@
   "categoryId": "programovani",
   "subcategoryId": "pro-nejmensi",
   "title": "Datová Lhota: Co je to počítačový program",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Úvodní lekce k seriálu Datová Lhota: Kuba se nechá vtáhnout do počítače a zjišťuje, co je program, příkaz a programový kód, proč se programy kazí a k čemu jsou aktualizace. Děti vymýšlejí co nejpřesnější příkazy.",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML01-co-je-to-pocitacovy-program.pdf",
+  "description": "Počítač neudělá nic bez příkazu: děti vymýšlejí co nejpřesnější příkaz k chůzi, zjistí, proč Kubovi zmizel úkol (chyba v kódu, aktualizace), a vymyslí vlastní skrytý počítač.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -16,39 +16,73 @@
   ],
   "duration": "2 × 40 min",
   "keywords": [
-    "Datová Lhota",
-    "program",
+    "počítačový program",
     "příkaz",
+    "programový kód",
     "programátor",
     "chyba v programu",
+    "bug",
     "aktualizace",
     "skrytý počítač",
-    "ČT",
-    "1. stupeň"
+    "procesor",
+    "člověk vs. počítač",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že počítač nic neudělá bez příkazu, že programy píšou a testují programátoři, že v kódu bývají chyby a že aktualizace je opravují. Poznají skryté počítače kolem sebe.",
+  "goal": "Děti pochopí, že počítač nemyslí a jen plní příkazy z programového kódu, který píšou programátoři a programátorky. V kódu bývají chyby, proto se programy aktualizují. Počítače jsou schované i v pračce, autě nebo hodinkách.",
   "materials": [
-    "Díly 1 „Zachraňte mě!“ a 6 „Aktualizuj!“ a talkshow „O programech a kódu“ a „O světě v počítači“",
-    "Vytištěný průběh lekce",
-    "Prázdné papíry"
+    "Projektor a videa z Déčka",
+    "Prázdné papíry",
+    "Volitelně vyřazené díly počítače (základní deska, RAM, disk) — v bazaru bývají pod 100 Kč"
   ],
-  "procedure": "Úvod (5 min): jak často a na čem děti používají tablety, mobily a počítače.\n\nDíl 1 „Zachraňte mě!“ (15 min): jaké chyby Kuba udělal (sedl si k počítači, kde byl přihlášený někdo jiný, klikl na neznámý program). Při zastavování videa: jaké programy v Datové Lhotě viděl a co je příkaz. Aktivita Vymýšlení příkazů: učitel plní příkazy k chůzi doslova a děti je musí zpřesňovat, jako by mluvily s počítačem.\n\nDíl 6 „Aktualizuj!“ (20 min): v programovém kódu může být chyba, aktualizace ji opraví.\n\nPo přestávce talkshow „O programech a kódu“ a „O světě v počítači“ (2 × 15 min) a závěrečné shrnutí pojmů programátor, příkaz, program, aktualizace a skrytý počítač.\n\nTip z metodiky: ukažte dětem vnitřek skutečného počítače (základní deska, RAM, disk z bazaru).",
+  "procedure": "Úvod (5 min): zjistěte, jak často a k čemu děti používají mobil, tablet a počítač (u citlivějších otázek se klidně hlásí se zavřenýma očima). Představte postavy — Kubu, Marwina a Lindu.\n\n1. díl (20 min): před puštěním zadejte „Jaké chyby Kuba udělal?“ (sedl si k počítači, kde byl přihlášený někdo jiný, a klikl na neznámý program). Pak pouštějte úseky a ptejte se: kam Kuba letí (a že uvnitř počítače to doopravdy takhle nevypadá — ukažte fotku nebo skutečné díly), jaké programy ve Lhotě viděl a jaké znají děti, co je příkaz.\n\nVymýšlení příkazů: děti vám zadávají co nejpřesnější příkaz k chůzi a vy ho plníte doslova — jak dlouhý krok, kterou nohou, kterým směrem, jak vysoko zvednout nohu? Počítač si nic nedomyslí. Několik příkazů za sebou je programový kód — návod, podle kterého program pracuje.\n\n6. díl (20 min): „Co se stalo s Kubovým textem?“ Ne, neklikal moc rychle — v kódu editoru byla chyba, na kterou programátoři nepomysleli. Kdo ji opraví? Kdo jsou programátoři a programátorky (zmiňte obě podoby)? Co je aktualizace?\n\nTalkshow O programech a kódu (15 min): Má počítač mozek? Umí myslet? Pak ve dvojicích sepisují rozdíly mezi člověkem a počítačem — oblíbená aktivita, s mladšími klidně déle.\n\nTalkshow O světě v počítači (15 min): znovu pusťte úsek o skrytých počítačích a sbírejte, co dělají v autě, ledničce nebo pračce. Každý pak za 2 minuty vymyslí (a nakreslí) vlastní skrytý počítač — třeba bundu, která hřeje podle teploty venku.\n\nZávěr (10 min): Má počítač mozek? Co řídí program? Kdo je programátor/ka? Může počítač udělat něco bez příkazu? Může dělat chyby? Co je aktualizace? Kde bývají skryté počítače?",
   "files": [
     {
-      "label": "Metodika lekce (scénář, přílohy)",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML01-co-je-to-pocitacovy-program.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Průběh obou hodin s časy k zastavování videí, fotky dílů počítače a odpovědi na zvídavé otázky."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "1. díl — Zachraňte mě!",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110001",
+      "type": "video",
+      "note": "Celý díl, pak úseky 0:50–0:58, 1:35–1:45 a 2:29–2:43."
+    },
+    {
+      "label": "6. díl — Aktualizuj!",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110006",
+      "type": "video",
+      "note": "Celý díl, pak úseky 2:25–2:51, 3:13–3:41, 3:49–4:06 a 4:14–4:21."
+    },
+    {
+      "label": "Kubova talkshow — O programech a kódu",
+      "href": "https://decko.ceskatelevize.cz/video/b38403",
+      "type": "video",
+      "note": "Celá."
+    },
+    {
+      "label": "Kubova talkshow — O světě v počítači",
+      "href": "https://decko.ceskatelevize.cz/video/b38401",
+      "type": "video",
+      "note": "Celá, pak znovu 3:35–3:55 (skryté počítače)."
+    },
+    {
+      "label": "Navíc: 2. díl — Dva účty",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110002",
+      "type": "video",
+      "note": "V lekci se nepouští. Linda se na společném notebooku přihlásí na svůj účet a Kubovy programy zmizí; Marwin připomene, že do cizího soukromí se nekouká."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 1
+  },
+  "added": "2026-09-30"
 }
