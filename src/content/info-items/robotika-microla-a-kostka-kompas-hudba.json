@@ -1,0 +1,77 @@
+{
+  "id": "robotika-microla-a-kostka-kompas-hudba",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla A10–A14: hrací kostka, kompas a hudba",
+  "url": "https://microla.cz/aplikace/kategorie-a-zacatecnici/",
+  "description": "Navazující lekce pro začátečníky: elektronická hrací kostka na tlačítko a pak na zatřesení, kompas se stupni a kalibrací a první melodie. Hudba se v druhé lekci skládá podle notového zápisu takt po taktu.",
+  "type": "kurz",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "5 lekcí",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "náhodná čísla",
+    "kostka",
+    "akcelerometr",
+    "kompas",
+    "magnetometr",
+    "hudba",
+    "noty",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák použije náhodné číslo a podmínky, reaguje na zatřesení, čte hodnotu kompasu a zapíše melodii z not jako posloupnost tónů.",
+  "materials": [
+    "micro:bit a USB kabel, bateriový box",
+    "Počítač s MakeCode",
+    "Na hudbu: micro:bit V2 má reproduktor, k V1 je potřeba připojit sluchátka krokosvorkami na pin 0 a GND"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro starší editor s anglickými bloky. V dnešním MakeCode (makecode.microbit.org, jde přepnout do češtiny) vypadají bloky trochu jinak, ale postup platí.\n\nA10 Elektronická hrací kostka: proměnná „hod“, (pseudo)náhodné číslo 1–6 a šest obrázků s puntíky; hod tlačítkem A. Poslední lekce, která jde celá v simulátoru.\n\nA11 Hrací kostka v pohybu: místo tlačítka se hází zatřesením (akcelerometr); v simulátoru tlačítko „shake“.\n\nA12 Kompas: natočení ve stupních (0–359), kalibrace vyplněním kruhu po nahrání do desky (a proč ne u kovového stolu). Podle úhlu se vybere jedna z osmi šipek, která ukazuje k severu. Úkol: 16 šipek.\n\nA13 Začínáme s hudbou I: připojení sluchátek, přehrání připravené melodie a jednotlivé tóny; na závěr krátká skladbička.\n\nA14 Začínáme s hudbou II: notová osnova, délky not a pomlky; známou písničku žáci programují takt po taktu a hádají, co to je.",
+  "files": [
+    {
+      "label": "A10 Elektronická hrací kostka",
+      "href": "https://microla.cz/a10-elektronicka-hraci-kostka/",
+      "type": "other"
+    },
+    {
+      "label": "A11 Hrací kostka v pohybu",
+      "href": "https://microla.cz/aplikace-a11-hraci-kostka-v-pohybu/",
+      "type": "other"
+    },
+    {
+      "label": "A12 Kompas",
+      "href": "https://microla.cz/aplikace-12-kompas/",
+      "type": "other"
+    },
+    {
+      "label": "A13 Začínáme s hudbou I",
+      "href": "https://microla.cz/aplikace-a13-zaciname-s-hudbou-i/",
+      "type": "other"
+    },
+    {
+      "label": "A14 Začínáme s hudbou II",
+      "href": "https://microla.cz/aplikace-a14-zaciname-s-hudbou-ii/",
+      "type": "other"
+    },
+    {
+      "label": "Microla: připojení dalších zařízení (sluchátka, reproduktor)",
+      "href": "https://microla.cz/pro-zaky/pripojeni-dalsich-zarizeni/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}

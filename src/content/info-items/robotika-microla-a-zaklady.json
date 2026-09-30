@@ -1,0 +1,91 @@
+{
+  "id": "robotika-microla-a-zaklady",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla A1–A9: základy programování v blocích",
+  "url": "https://microla.cz/aplikace/kategorie-a-zacatecnici/",
+  "description": "Česká řada lekcí pro úplné začátečníky: první nápis, nekonečná smyčka, blikání a jas diody, proměnná a cyklus, svítilna zapínaná tlačítky i jedním tlačítkem a pohyb kurzoru po displeji. Každá lekce vysvětluje, proč bloky fungují.",
+  "type": "kurz",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "9 lekcí",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "blokové programování",
+    "proměnná",
+    "cyklus for",
+    "události",
+    "logická hodnota",
+    "souřadnice",
+    "začátečníci",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák rozumí základním stavebním kamenům programu: posloupnosti, nekonečné smyčce, proměnné, cyklu s pevným počtem opakování, událostem a logické hodnotě.",
+  "materials": [
+    "micro:bit a USB kabel (první lekce jdou i jen v simulátoru)",
+    "Počítač s MakeCode"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro starší editor s anglickými bloky. V dnešním MakeCode (makecode.microbit.org, jde přepnout do češtiny) vypadají bloky trochu jinak, ale postup platí.\n\nA1 Ahoj světe!: první program, který na displeji vypíše pozdrav, a seznámení s editorem a simulátorem.\n\nA2 Ahoj světe! — pokračování: nápis běží stále dokola díky smyčce „opakuj stále“; proč se před ni ani za ni nedá nic připojit.\n\nA3 Blikáme diodou: souřadnice diod na displeji (0–4), rozsvícení a zhasnutí jedné diody s pauzou, nastavení jasu 0–255.\n\nA4 a A5 Počítáme do deseti: konstanty a proměnné, číselné a textové hodnoty; displej ukáže čísla 0 až 9, nejdřív ručně, pak cyklem „for“ s řídicí proměnnou.\n\nA6 Zapínáme a vypínáme světlo: displej jako svítilna, tlačítko A zapíná, B vypíná. Programování reakcí na události.\n\nA7 Jedním tlačítkem: jako u skutečné lampy zapíná i vypíná tlačítko A. Stav si pamatuje logická proměnná (pravda/nepravda) a operace „ne“. Úkol: tlačítkem B měnit jas.\n\nA8 Ukládáme program: dva vnořené cykly postupně rozsvítí celý displej po řádcích; program se uloží a znovu otevře. Úkol: rozsvěcovat po sloupcích.\n\nA9 Dokončujeme základy: bloky plot, unplot, toggle a point. Kurzor na spodním řádku se tlačítky posouvá doleva a doprava a nesmí vyjet z displeje; v rohu bliká maják.",
+  "files": [
+    {
+      "label": "A1 Ahoj světe!",
+      "href": "https://microla.cz/a1-ahoj-svete/",
+      "type": "other"
+    },
+    {
+      "label": "A2 Ahoj světe! — pokračování",
+      "href": "https://microla.cz/a2-ahoj-svete-pokracovani/",
+      "type": "other"
+    },
+    {
+      "label": "A3 Blikáme diodou",
+      "href": "https://microla.cz/aplikace-a3-blikame-diodou/",
+      "type": "other"
+    },
+    {
+      "label": "A4 Počítáme do deseti",
+      "href": "https://microla.cz/a4-pocitame-do-deseti/",
+      "type": "other"
+    },
+    {
+      "label": "A5 Počítáme do deseti II",
+      "href": "https://microla.cz/aplikace-a5-pocitame-do-deseti-ii/",
+      "type": "other"
+    },
+    {
+      "label": "A6 Zapínáme a vypínáme světlo",
+      "href": "https://microla.cz/aplikace-a6-zapiname-a-vypiname-svetlo/",
+      "type": "other"
+    },
+    {
+      "label": "A7 Zapínáme a vypínáme jedním tlačítkem",
+      "href": "https://microla.cz/aplikace-a7-zapiname-a-vypiname-jednim-tlacitkem/",
+      "type": "other"
+    },
+    {
+      "label": "A8 Ukládáme program",
+      "href": "https://microla.cz/aplikace-a8-ukladame-program/",
+      "type": "other"
+    },
+    {
+      "label": "A9 Dokončujeme základy",
+      "href": "https://microla.cz/aplikace-a9-dokoncujeme-zaklady/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}

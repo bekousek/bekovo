@@ -1,0 +1,66 @@
+{
+  "id": "robotika-microla-a-komunikace",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla A15–A20: komunikace mezi micro:bity po drátě i rádiem",
+  "url": "https://microla.cz/aplikace/kategorie-a-zacatecnici/",
+  "description": "Jak spolu počítače mluví: dva micro:bity propojené dráty jako sériová linka, domluvený komunikační protokol mezi řídicím a podřízeným zařízením, pak rádio a posílání teploty a pohybu z jednoho micro:bitu na další.",
+  "type": "kurz",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "4 lekce",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "komunikace",
+    "sériová linka",
+    "protokol",
+    "master-slave",
+    "peer to peer",
+    "rádio",
+    "sítě"
+  ],
+  "language": "cs",
+  "goal": "Žák vysvětlí, proč se zařízení musí domluvit na protokolu, a naprogramuje přenos zprávy mezi micro:bity po drátě i rádiem.",
+  "materials": [
+    "Dva micro:bity na dvojici, bateriové boxy",
+    "Tři vodiče s krokosvorkami (pin 0, pin 1, GND) na drátové propojení",
+    "Počítač s MakeCode"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro starší editor s anglickými bloky. V dnešním MakeCode (makecode.microbit.org, jde přepnout do češtiny) vypadají bloky trochu jinak, ale postup platí.\n\nA15 Komunikace mezi micro:bity I: drátové spojení. Jedním drátem micro:bit vysílá (pin 0, TX), druhým poslouchá (pin 1, RX), oba musí mít stejnou rychlost. Připomíná rozhovor: ústa a uši.\n\nA16 Komunikace mezi micro:bity II: co je komunikační protokol (jako pravidla chování na královském dvoře) a jednoduchý příklad řídicí–podřízený (master–slave).\n\nA17 Bezdrátová komunikace I: stejný příklad přes rádio 2,4 GHz. Nastavení vysílacího výkonu, dosah kolem 12 metrů; micro:bit „poslouchá“ (ucho na displeji) a na tlačítko A pošle text všem ostatním.\n\nA20 Komunikace peer to peer: rádiová skupina (kanál), odesílání textu i čísel; jeden micro:bit posílá teplotu a údaje z pohybového senzoru, ostatní je zobrazují.\n\nHodí se jako úvod k tématu sítí a internetu: stejné principy (médium, rychlost, protokol, adresa/kanál) platí i pro skutečné sítě.",
+  "files": [
+    {
+      "label": "A15 Komunikace mezi micro:bity I",
+      "href": "https://microla.cz/aplikace-a15-komunikace-mezi-microbity-i/",
+      "type": "other"
+    },
+    {
+      "label": "A16 Komunikace mezi micro:bity II",
+      "href": "https://microla.cz/aplikace-a16-komunikace-mezi-microbity-ii/",
+      "type": "other"
+    },
+    {
+      "label": "A17 Bezdrátová komunikace I",
+      "href": "https://microla.cz/aplikace-a17-bezdratova-komunikace-i/",
+      "type": "other"
+    },
+    {
+      "label": "A20 Komunikace mezi micro:bity peer to peer",
+      "href": "https://microla.cz/aplikace-a20-komunikace-mezi-microbity-peer-to-peer/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}

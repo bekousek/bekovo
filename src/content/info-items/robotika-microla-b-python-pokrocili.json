@@ -1,0 +1,75 @@
+{
+  "id": "robotika-microla-b-python-pokrocili",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla B11–B15: Python — souběžné blikání, písmena, hudba, rádio",
+  "url": "https://microla.cz/aplikace/kategorie-b-mirne-pokrocili/",
+  "description": "Pokračování v MicroPythonu: více diod blikajících různou rychlostí bez uspávání programu, přepínání písmen ze seznamu (nápisy z více micro:bitů), melodie modulem music a rádio včetně toho, jak se dva stejné programy domluví, kdo začíná.",
+  "type": "kurz",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "5 lekcí",
+  "keywords": [
+    "micro:bit",
+    "Python",
+    "MicroPython",
+    "čas",
+    "running_time",
+    "seznam",
+    "music",
+    "rádio",
+    "protokol",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák řídí více dějů najednou sledováním času místo sleep(), pracuje se seznamem a indexem a navrhne jednoduchý protokol pro hru dvou micro:bitů.",
+  "materials": [
+    "micro:bit a USB kabel, na rádio aspoň dva micro:bity",
+    "Počítač s editorem python.microbit.org (nebo Mu)",
+    "Na hudbu: V2 má reproduktor, k V1 sluchátka na pin 0 a GND"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro editor Mu. Dnes je nejjednodušší psát v online editoru python.microbit.org, který má i simulátor.\n\nB11 Blikáme více diodami: dvě (a pak klidně šest) diod bliká každá jinou rychlostí. Program se neuspává, ale ve smyčce hlídá, kolik uplynulo času u každé diody. Základ pro hry a obsluhu více zařízení.\n\nB12 Písmena (Gymnázium Elgartova): tlačítkem B další písmeno abecedy, A předchozí; písmena jsou v seznamu a index se posouvá. Nahráním do více micro:bitů se skládají nápisy. Je tam nápověda i řešení.\n\nB13 Hudba: modul music, tempo, zápis not (H se píše jako B, snížení b, zvýšení #), oktáva a délka noty.\n\nB14 Radio II: modul radio a jeho nastavení (kanál, skupina, výkon, délka zprávy…), stejný program jako A17, ale s víc možnostmi.\n\nB15 Radio III: algoritmy pro hry dvou micro:bitů se stejným programem. Jak se domluví, kdo začíná, a jak poznají výpadek spojení.\n\nNavíc B18 Sériový monitor: výpis hodnot z micro:bitu do počítače při ladění. Návod počítá se starými ovladači a programem Tera Term; dnes stačí „Zobrazit data zařízení“ v MakeCode nebo sériová konzole v python.microbit.org.",
+  "files": [
+    {
+      "label": "B11 Blikáme více diodami",
+      "href": "https://microla.cz/aplikace-b11-blikame-vice-diodami/",
+      "type": "other"
+    },
+    {
+      "label": "B12 Písmena",
+      "href": "https://microla.cz/aplikace-b12-pismena/",
+      "type": "other"
+    },
+    {
+      "label": "B13 Hudba",
+      "href": "https://microla.cz/aplikace-b13-hudba/",
+      "type": "other"
+    },
+    {
+      "label": "B14 Radio II",
+      "href": "https://microla.cz/aplikace-b14-radio-ii/",
+      "type": "other"
+    },
+    {
+      "label": "B15 Radio III",
+      "href": "https://microla.cz/aplikace-b15-radio-iii/",
+      "type": "other"
+    },
+    {
+      "label": "B18 Sériový monitor",
+      "href": "https://microla.cz/aplikace-b18-seriovy-monitor/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}
