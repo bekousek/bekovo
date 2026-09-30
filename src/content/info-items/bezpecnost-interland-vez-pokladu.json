@@ -1,0 +1,64 @@
+{
+  "id": "bezpecnost-interland-vez-pokladu",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "hesla-a-ucty",
+  "title": "Interland: Věž pokladů",
+  "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland/landing/vez-pokladu",
+  "description": "Ostrov lekce Chraň si svá tajemství: silnými hesly žák přelstí hackera a zamkne věž s cennostmi. Hra na konec lekce o silném hesle, dvoufázovém ověření a nastavení soukromí.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min (celá lekce 2–3 hodiny)",
+  "keywords": [
+    "heslo",
+    "silné heslo",
+    "dvoufázové ověření",
+    "hacker",
+    "zabezpečení účtu",
+    "soukromí",
+    "zámek obrazovky",
+    "Interland",
+    "Internetoví úžasňáci",
+    "Be Internet Awesome",
+    "Google"
+  ],
+  "language": "cs",
+  "goal": "Žáci umí vytvořit silné a zapamatovatelné heslo, vědí, proč mít pro každý účet jiné, a znají základní ochranu účtu: dvoufázové ověření, zámek obrazovky, odhlášení na cizím počítači.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (nebo dvojici)",
+    "Projektor na prezentaci"
+  ],
+  "procedure": "Síla hesla: ukažte tři úrovně — slabé (123456, osobní údaje), středně silné (mujpesBAMBULKA — stroj ho hned neprolomí, ale kdo tě zná, uhodne ho) a silné (aspoň 8 znaků, velká i malá písmena, čísla, speciální znaky, v každé aplikaci jiné).\n\nAktivita: dvojice vymyslí hesla, napíšou je na tabuli a třída je roztřídí na slabá, středně silná a silná. Nejsilnější si ověřte v nástroji na odhad doby prolomení. Pak si ho všichni chvíli prohlížejí, smažte ho z tabule a zkuste ho zopakovat — je dobrý nápad napsat si ho na papírek? Jak mít silné heslo do více účtů?\n\nHeslo z písničky: vyber refrén (třeba „Na kolejích stála, za uchem květ“), vezmi první písmena slov a střídej velká a malá (NkSzUk), přidej číslici a znak (NkSzUk8&) a asociaci pro konkrétní účet. Každý si tak vytvoří vlastní heslo a ověří jeho sílu. Připomeňte, co do hesla nepatří: jméno, datum narození, přezdívka, škola, oblíbená kapela, slovo „heslo“.\n\nNech si to pro sebe: s učitelem nebo rodičem projděte nastavení účtu — změna hesla, kdo vidí fotky, upozornění na cizí přihlášení, údaje pro obnovení, dvoufázové ověření (něco, co víš + něco, co máš). Zamykání telefonu, odhlašování a neukládání hesel na školním počítači.\n\nInterland: žáci hrají Věž pokladů jednotlivě (mladší ve dvojicích). Po hře debata: Co má obsahovat supersilné heslo? Kdy ve skutečném životě silná hesla potřebujete? Kdo je hacker a jak ovlivňuje hru? Jaké citlivé informace je třeba chránit? Každý vytvoří tři cvičná hesla, která by ve hře prošla jako supersilná.",
+  "files": [
+    {
+      "label": "Prezentace ze školení — Lekce 3: Chraň si svá tajemství",
+      "href": "https://docs.google.com/presentation/d/1Uf1SpXwFzxICx6FzopYKzIU8KKKm6OK-HT6oEY-S-T8/edit",
+      "type": "slides",
+      "note": "Šablona — udělej si kopii a uprav. Lekce je na víc hodin, odkazy a pokyny jsou v poznámkách ke snímkům."
+    },
+    {
+      "label": "Metodika Internetoví úžasňáci",
+      "href": "https://drive.google.com/file/d/1LFBvmxGJzbFq3tgwZqu64TVPZIMpGVe5/view",
+      "type": "pdf",
+      "note": "Lekce 3 od s. 59, Věž pokladů s. 65."
+    },
+    {
+      "label": "Plakáty s tipy ke všem lekcím",
+      "href": "https://drive.google.com/file/d/1P0TykvJv5tKrsYkRC30vp5N3up1JnMso/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Google & Jules a Jim — Internetoví úžasňáci",
+    "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland"
+  },
+  "added": "2026-09-30"
+}
