@@ -1,0 +1,99 @@
+{
+  "id": "robotika-microbit-hry-pro-dva",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Hry pro dva na jednom micro:bitu",
+  "url": "https://makecode.microbit.org/",
+  "description": "Rychlost reakce, stisk přesně po 7 sekundách, přetahovaná diodou, horká brambora, hádání slov na čele nebo odebírání sirek. Krátké hry, které si žáci naprogramují a hned je hrají se spolužákem.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–3 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "hry",
+    "proměnná",
+    "čas",
+    "reakce",
+    "seznam",
+    "strategie",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák ukládá do proměnných body, čas a stav hry a hlídá podmínkou pravidla (předčasný stisk, konec hry).",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box, špejle nebo sirky na hru se sirkami"
+  ],
+  "procedure": "Rychlost reakce: A+B spustí hru, po náhodné době se zobrazí srdíčko. Kdo první stiskne svoje tlačítko (hráč vlevo A, hráč vpravo B), dostane bod. Kdo zmáčkne dřív, než se srdce ukáže, bod ztrácí. Hrajte se sousedem do pěti bodů.\n\n7 sekund: A spustí stopky, úkolem je stisknout B přesně po sedmi sekundách, bez dívání na hodiny. Micro:bit ukáže, o kolik ses spletl. Kdo je blíž?\n\nPřetahovaná (Tug-of-LED): svítící bod uprostřed řádku je lano, hráči mačkají co nejrychleji svá tlačítka a tahají ho na svou stranu.\n\nHorká brambora: micro:bit odpočítává náhodný čas, hráči si ho podávají a u koho „vybuchne“, prohrál. Tikání a výbuch se dá ozvučit. Hodí se i ke slovní kopané.\n\nHádej slovo (Heads Guess): micro:bit na čele ukazuje slova ze seznamu, spoluhráči je popisují. Náklon dopředu = uhodnuto, dozadu = dál. Na všechno je 30 sekund.\n\nOdebírání sirek: na hromádce je třeba 21 sirek, tlačítka A, B a A+B odeberou jednu, dvě nebo tři. Kdo vezme poslední, vyhrál. Hlídat, aby se nedalo vzít víc, než zbývá. Pak hledat vítěznou strategii.\n\nBim, bum, bác: micro:bit počítá nahlas s třídou a místo čísel dělitelných třemi ukáže BIM (zbytek po dělení). Hra Zastav sudé číslo: číslo tajně roste, A+B ho zastaví. Je sudé?",
+  "files": [
+    {
+      "label": "Prezentace Micro:Bit úkoly (zadání na promítání)",
+      "href": "https://docs.google.com/presentation/d/14PJA6rrPluoHa9D7Dj0dilkipvE3M3jKNxw8zwY-w-Q/edit?usp=sharing",
+      "type": "slides"
+    },
+    {
+      "label": "microbiti.cz: Odebírání sirek",
+      "href": "https://www.microbiti.cz/2024/11/odebirani-sirek.html",
+      "type": "other"
+    },
+    {
+      "label": "microbiti.cz: Bim, bum, bác",
+      "href": "https://www.microbiti.cz/2025/10/bim-bum-bac.html",
+      "type": "other",
+      "note": "Dělitelnost, sudá a lichá čísla"
+    },
+    {
+      "label": "microbiti.cz: Hry s využitím pole",
+      "href": "https://www.microbiti.cz/2020/02/hry-s-vyuzitim-pole-array.html",
+      "type": "other",
+      "note": "Pro pokročilé: zapamatuj si a zopakuj, kreslení po pixelech"
+    },
+    {
+      "label": "MakeCode: 7 seconds",
+      "href": "https://makecode.microbit.org/projects/7-seconds",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Tug-Of-LED",
+      "href": "https://makecode.microbit.org/projects/tug-of-led",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Hot Potato",
+      "href": "https://makecode.microbit.org/projects/hot-potato",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Heads Guess!",
+      "href": "https://makecode.microbit.org/projects/heads-guess",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Snap the dot",
+      "href": "https://makecode.microbit.org/projects/snap-the-dot",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

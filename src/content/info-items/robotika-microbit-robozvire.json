@@ -1,0 +1,68 @@
+{
+  "id": "robotika-microbit-robozvire",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Robozvíře: dlouhodobý projekt s emocemi a energií",
+  "url": "https://makecode.microbit.org/",
+  "description": "Závěrečný projekt pro začátečníky: zvířátko z krabičky s micro:bitem reaguje na světlo, hluk, teplo, zatřesení, zvednutí nebo pohlazení alobalovým čumáčkem a má emoce a energii, která mu ubývá.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "6–8 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "funkce",
+    "proměnná",
+    "senzory",
+    "piny",
+    "náhoda",
+    "výroba",
+    "projekt",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák navrhne chování zařízení, emoce schová do funkcí, propojí je s událostmi ze senzorů a stav zvířátka drží v proměnné.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box",
+    "Krabička (od čaje, sýrů…), barvy, lepidlo, izolepa",
+    "Alobal a krokosvorky na čumáček nebo packy",
+    "Magnet na „krmení“ (volitelně)"
+  ],
+  "procedure": "Plánování: prohlédnout starší výtvory a vymyslet, na co bude zvířátko reagovat (teplo/zima, hluk, světlo/tma, pád na bok, zvednutí do náruče, zatřesení, magnet = krmení, dotek) a jaké bude mít emoce (radost, smutek, únava, strach, zlost, pohoda).\n\nFunkce: každou emoci (obrázek, animaci, zvuk) schovat do funkce. Kód je přehlednější a emoce jde použít opakovaně.\n\nUdálosti: propojit vstupy s emocemi jako správní návrháři. Záleží na verzi micro:bitu (V2 má mikrofon a dotykové logo).\n\nDotek: dvě alobalové plošky, jedna na pin 0, druhá na GND. Spojením (nebo pohlazením) se vyvolá „při stisku P0“. Tak vzniknou packy nebo čumáček.\n\nNáhoda: náhodné emoce, které se objevují po čase nebo při zatřesení (využije se kód hrací kostky).\n\nEnergie: proměnná energie časem klesá. Pod určitou hranicí zvíře usne a energii tím získá. Návrhář musí rozhodnout: jak rychle ubývá, čím se doplní, jak zařídit, aby nešla pod nulu, jak dlouho zvíře spí.\n\nVýroba a výstava: krabičku upravit tak, aby šlo odpojit baterky a nahrát nový program. Na závěr fotografie do galerie a vzájemné předvádění.\n\nPro mladší je podobný, kratší projekt s papírovým zvířátkem v kartě „micro:bit: domácí mazlíček“ (Centrum robotiky).",
+  "files": [
+    {
+      "label": "microbiti.cz: Robozvíře",
+      "href": "https://www.microbiti.cz/2026/01/robozvire.html",
+      "type": "other",
+      "note": "Průběh kroužku hodinu po hodině, ukázkové programy"
+    },
+    {
+      "label": "Web kroužku micro:bit (Gymnázium Elgartova)",
+      "href": "https://sites.google.com/gymelg.cz/microbit-v-krouzku/zaciname",
+      "type": "other",
+      "note": "Úvodní hodiny, na které Robozvíře navazuje"
+    },
+    {
+      "label": "MakeCode: Pet Hamster (V2)",
+      "href": "https://makecode.microbit.org/projects/v2-pet-hamster",
+      "type": "other",
+      "note": "Krátká varianta: křeček reaguje na dotyk loga, zatřesení a hluk"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

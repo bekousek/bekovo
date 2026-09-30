@@ -1,0 +1,98 @@
+{
+  "id": "robotika-microbit-radio-hry",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Rádio v terénu: liška a lovec, epidemie, světlušky",
+  "url": "https://makecode.microbit.org/",
+  "description": "Pohybové hry pro celou třídu, kde micro:bity komunikují rádiem: hledání schovaného micro:bitu podle síly signálu, simulace šíření nemoci, synchronizace světlušek, horká brambora na dálku nebo hledání „nejlepšího kamaráda“.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–3 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "rádio",
+    "síla signálu",
+    "simulace",
+    "epidemie",
+    "hry",
+    "pohyb",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák využije sílu přijatého signálu a rádiové zprávy ve hře s více hráči a pozoruje, jak se v síti chová celý systém.",
+  "materials": [
+    "micro:bit s bateriovým boxem pro každého hráče",
+    "Počítač s MakeCode",
+    "Prostor na pohyb (tělocvična, chodba, hřiště)"
+  ],
+  "procedure": "Liška a lovec: jeden micro:bit (liška) je schovaný a vysílá, ostatní ho hledají podle síly signálu. Postup: 1) poslat si ve dvojici pozdrav; 2) místo zprávy zobrazit sílu signálu a zapsat ji ve vzdálenosti 4 m, 2 m, 1 m, 50 cm, 10 cm; 3) sílu signálu zobrazit graficky počtem svítících řádků. Začátečníci jen hledají, lišku schová učitel.\n\nEpidemie (Infection): hlavní micro:bit nakazí „pacienta nula“, nemoc se šíří, když se micro:bity přiblíží. Po inkubaci smutný obličej, pak lebka. Dokážete epidemii zastavit? Kdo byl pacient nula?\n\nSvětlušky: každý micro:bit bliká podle svých vnitřních hodin a když zahlédne blik souseda, trochu se posune. Po chvíli bliká celá třída naráz. Nejlépe potmě.\n\nHorká brambora na dálku (Tele-potato): „bramborou“ je číslo, které si micro:bity posílají rádiem a které cestou odpočítává. U koho dojde na nulu, prohrál.\n\nNejlepší kamarád: každý dostane lísteček s číslem skupiny (vždy dva stejné) a se sníženým vysílacím výkonem hledá toho, kdo má stejné číslo.\n\nČervená, zelená (Red Light Green Light): semafor vysílá stav, a kdo se při červené pohne, micro:bit to pozná akcelerometrem a hráč vypadává.\n\nTurniket a permanentka (projekt pro pokročilé): permanentka, turniket a pokladna si posílají zprávy. Zadání formou uživatelských scénářů („Jako lyžař chci…, aby…“).",
+  "files": [
+    {
+      "label": "microbiti.cz: Liška a lovec",
+      "href": "https://www.microbiti.cz/2024/12/liska-lovec.html",
+      "type": "other"
+    },
+    {
+      "label": "microbiti.cz: Turniket a permanentka",
+      "href": "https://www.microbiti.cz/2025/02/turniket-permanentka.html",
+      "type": "other"
+    },
+    {
+      "label": "MakeCode: Hot or Cold",
+      "href": "https://makecode.microbit.org/projects/hot-or-cold-multi",
+      "type": "other",
+      "note": "Podobná hra jako Liška a lovec (anglicky)"
+    },
+    {
+      "label": "MakeCode: Infection",
+      "href": "https://makecode.microbit.org/projects/infection",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Fireflies",
+      "href": "https://makecode.microbit.org/projects/fireflies",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Tele-potato",
+      "href": "https://makecode.microbit.org/projects/tele-potato",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Best Friends",
+      "href": "https://makecode.microbit.org/projects/best-friends",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Red Light Green Light",
+      "href": "https://makecode.microbit.org/projects/red-light-green-light",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Radio Games (všechny rádiové hry)",
+      "href": "https://makecode.microbit.org/projects/radio-games",
+      "type": "other",
+      "note": "Další: Rock Paper Scissors Teams, Multi Dice, Mood Radio"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

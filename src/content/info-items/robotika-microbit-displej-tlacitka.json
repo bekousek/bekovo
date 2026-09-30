@@ -1,0 +1,87 @@
+{
+  "id": "robotika-microbit-displej-tlacitka",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Displej a tlačítka: jmenovka, smajlíci, animace, SOS",
+  "url": "https://makecode.microbit.org/",
+  "description": "Balík prvních úkolů jen s deskou: digitální jmenovka, smajlíci na tlačítkách, rozsvícení a zhasnutí displeje, vlastní animace a SOS v Morseově abecedě. Gradované, rychlejší žáci pokračují kreslením bodů.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "duration": "2–3 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "displej",
+    "tlačítka",
+    "animace",
+    "Morseovka",
+    "události",
+    "bez modulů",
+    "začátečníci"
+  ],
+  "language": "cs",
+  "goal": "Žák zobrazí text, ikonu a vlastní obrázek, reaguje na tlačítka a zatřesení a z obrázků poskládá animaci.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box (aby šla jmenovka a animace nosit)"
+  ],
+  "procedure": "Úkoly jdou od nejjednodušších. Není cílem stihnout všechno: u animací se vyplatí nechat děti vyřádit, trénují tím představivost.\n\nDigitální jmenovka: při startu ukaž ikonu a pozdrav, v „opakuj stále“ střídej jméno programátora a vlastní obrázek. Nahrát do micro:bitu, připojit baterky a nosit.\n\nSmajlíci: tlačítko A ukáže veselého smajlíka, B smutného, A+B neutrálního.\n\nBlikání: při stisku A rozsviť všechny diody, při stisku B je zhasni, při zatřesení třikrát zablikej všemi diodami.\n\nAnimace: sestav za sebe několik nakreslených obrázků tak, aby vytvořily animaci (bijící srdce, déšť, běžící panáček, větrák…). Na konci výstava: ke každé animaci kartička s názvem a spolužáci hledají, který micro:bit ji má.\n\nSOS: při stisku A napiš na displej „SOS“, při stisku B zablikej všemi diodami SOS Morseovou abecedou (· · · — — — · · ·). Žáci si musí rozmyslet, jak dlouho svítí tečka a čárka a jak dlouhé jsou mezery.\n\nPro rychlejší — kreslení bodů: A rozsvítí bod uprostřed, B ho zhasne; bod na náhodném místě; „zrnění“ z náhodně rozsvěcovaných bodů; řádek vykreslený cyklem.\n\nBez počítače — čtení kódu: po třídě rozmístěte vytištěné programy s čísly, žáci ke kartičkám s popisem hledají správný kód (PDF je v plánu hodin na microbiti.cz).",
+  "files": [
+    {
+      "label": "Prezentace Micro:Bit úkoly (zadání na promítání)",
+      "href": "https://docs.google.com/presentation/d/14PJA6rrPluoHa9D7Dj0dilkipvE3M3jKNxw8zwY-w-Q/edit?usp=sharing",
+      "type": "slides"
+    },
+    {
+      "label": "microbiti.cz: Úvod ve škole i v kroužku",
+      "href": "https://www.microbiti.cz/2019/02/uvod-ve-skole-i-v-krouzku.html",
+      "type": "other",
+      "note": "Plán úvodních hodin, černobílé pracovní listy, karty ke čtení kódu"
+    },
+    {
+      "label": "microbiti.cz: Obrázky",
+      "href": "https://www.microbiti.cz/2019/02/obrazky.html",
+      "type": "other",
+      "note": "Gradované úlohy s obrázky a animacemi, s řešením"
+    },
+    {
+      "label": "microbiti.cz: Kreslení bodů",
+      "href": "https://www.microbiti.cz/2019/02/kresleni-bodu.html",
+      "type": "other",
+      "note": "Gradované úlohy se souřadnicemi, s řešením"
+    },
+    {
+      "label": "MakeCode: Flashing Heart",
+      "href": "https://makecode.microbit.org/projects/flashing-heart",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Name Tag",
+      "href": "https://makecode.microbit.org/projects/name-tag",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Smiley Buttons",
+      "href": "https://makecode.microbit.org/projects/smiley-buttons",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

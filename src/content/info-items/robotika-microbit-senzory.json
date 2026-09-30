@@ -1,0 +1,108 @@
+{
+  "id": "robotika-microbit-senzory",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Micro:bit měří: světlo, teplota, zvuk a magnet",
+  "url": "https://makecode.microbit.org/",
+  "description": "Vestavěná čidla bez dalších modulů: teploměr, měřič světla se smajlíky, rozsvícení tlesknutím, kompas, kouzelnický trik s magnetem a záznam dat do souboru. Spojuje informatiku s fyzikou.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–3 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "senzory",
+    "teplota",
+    "intenzita světla",
+    "mikrofon",
+    "kompas",
+    "magnetometr",
+    "datalogger",
+    "fyzika",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák přečte hodnotu ze senzoru, zjistí, v jakém rozsahu se pohybuje, a podmínkami ji převede na srozumitelný výstup.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box, úzká baterka nebo laserové ukazovátko",
+    "Magnet (stačí magnetka z lednice)",
+    "Zvuk a záznam dat do souboru umí jen micro:bit V2"
+  ],
+  "procedure": "Společný postup u všech čidel: nejdřív zobrazit hodnotu a zjistit, jak se mění (tlačítkem, nebo blokem „sériový zapiš“ a Zobrazit data zařízení). Pak zvolit hranice a podle nich ukazovat obrázky.\n\nTeploměr: na displeji teplota ve stupních Celsia. Porovnat s teploměrem ve třídě (micro:bit měří teplotu procesoru, takže se mírně liší), zkusit okno, dlaň, lednici.\n\nMěřič světla: veselý smajlík, když je světlo, smutný ve tmě, neutrální mezi tím. Kde má micro:bit světelné čidlo? (Měří přímo diodami displeje. Najdete to baterkou.)\n\nRozsvícení tlesknutím (V2): po tlesknutí se rozsvítí všechny diody a chvíli svítí, jako chytrá světla. Varianta: sfoukni ducha z displeje dechem do mikrofonu.\n\nKompas: ukaž šipkou nebo písmenem, kde je sever. Před prvním použitím micro:bit vyžádá kalibraci nakláněním.\n\nKouzelnický trik: s magnetem ukrytým v dlani si tlačítka A a B „prohodí“ funkci. Micro:bit magnet pozná magnetometrem. Kdo trik prokoukne?\n\nZáznam dat (V2): s rozšířením datalogger micro:bit ukládá měření do souboru MY_DATA.htm přímo v sobě. Hodina měření světla na okně nebo teploty venku, pak graf a export do tabulky.",
+  "files": [
+    {
+      "label": "Prezentace Micro:Bit úkoly (zadání na promítání)",
+      "href": "https://docs.google.com/presentation/d/14PJA6rrPluoHa9D7Dj0dilkipvE3M3jKNxw8zwY-w-Q/edit?usp=sharing",
+      "type": "slides"
+    },
+    {
+      "label": "microbiti.cz: Intenzita světla",
+      "href": "https://www.microbiti.cz/2023/02/intenzita-svetla.html",
+      "type": "other"
+    },
+    {
+      "label": "Pracovní list Intenzita světla",
+      "href": "https://drive.google.com/file/d/1-FTrV2ZGhhtPwB0q4JUyPHtTUuSihJE3/view",
+      "type": "pdf"
+    },
+    {
+      "label": "microbiti.cz: Ukládání dat",
+      "href": "https://www.microbiti.cz/2024/02/ukladani-dat.html",
+      "type": "other",
+      "note": "Datalogger v MakeCode i Pythonu (V2)"
+    },
+    {
+      "label": "MakeCode: Light Level Meter",
+      "href": "https://makecode.microbit.org/projects/light-level-meter",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Clap Lights (V2)",
+      "href": "https://makecode.microbit.org/projects/v2-clap-lights",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Blow Away (V2)",
+      "href": "https://makecode.microbit.org/projects/v2-blow-away",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Compass",
+      "href": "https://makecode.microbit.org/projects/compass",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Magic Button Trick",
+      "href": "https://makecode.microbit.org/projects/magic-button-trick",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Cat Napping — záznam dat (V2)",
+      "href": "https://makecode.microbit.org/projects/v2-cat-napping",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}
