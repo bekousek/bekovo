@@ -1,0 +1,98 @@
+{
+  "id": "robotika-microbit-naklon-pohyb",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Náklon a pohyb: šipky, krokoměr, vodováha, horizont",
+  "url": "https://makecode.microbit.org/",
+  "description": "Projekty s akcelerometrem: šipka podle náklonu, obrázek vždy vrškem nahoru, krokoměr na zápěstí, vodováha, umělý horizont z letadla a přistávací modul, který micro:bit hlídá místo vajíčka.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–4 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "akcelerometr",
+    "náklon",
+    "zatřesení",
+    "krokoměr",
+    "proměnná",
+    "fyzika",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák použije náklon a zatřesení jako vstup, v proměnné počítá kroky a naměřené hodnoty zrychlení převede na obrázek.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box, gumička nebo páska na připevnění k ruce",
+    "Na přistávací modul: papír, provázek, izolepa, špejle"
+  ],
+  "procedure": "Nejdřív prozkoumat: kde micro:bit má akcelerometr a co měří. I když leží, cítí tíhové zrychlení, proto pozná, jak je natočený.\n\nNaklonění: při naklonění vlevo zobraz šipku vlevo, při naklonění vpravo šipku vpravo. Pak přidat dopředu, dozadu a displej nahoru/dolů.\n\nObrázek vrškem nahoru: nakresli obrázek, u kterého je poznat vršek a spodek, a udržuj ho vrškem nahoru, ať micro:bit nakloníš kamkoli. Dobrá výzva i pro pokročilé.\n\nKrokoměr / skokoměr: první proměnná. Při zatřesení přičti jedna a zobraz počet. Micro:bit připevnit jako hodinky na ruku a chodit nebo skákat. Počítá líp v kapse, na kotníku, nebo s událostí 3g místo zatřesení? Vylepšení: po stovce skoků zablikej, počet ukaž jen na tlačítko (šetří baterky).\n\nVodováha: podle zrychlení v ose x (a y) rozsviť bod, který „steče“ k nižší straně; když je stůl rovně, ukaž smajlíka.\n\nUmělý horizont: změř hodnoty zrychlení v různých polohách (blok „sériový zapiš“ a Zobrazit data zařízení), zvol hranice a zobrazuj čáru horizontu jako v kokpitu letadla. Pokračování: náklonem posílat rádiem povely autíčku (volant).\n\nPřistání na planetě: místo vajíčka shazujeme micro:bit. Skupiny z omezeného materiálu postaví přistávací modul, micro:bit při tvrdém nárazu (událost 3g až 8g) ukáže křížek. Program je krátký, takže to jde i v úplně první hodině. Důležitý je příběh a vylepšování konstrukce.",
+  "files": [
+    {
+      "label": "Prezentace Micro:Bit úkoly (zadání na promítání)",
+      "href": "https://docs.google.com/presentation/d/14PJA6rrPluoHa9D7Dj0dilkipvE3M3jKNxw8zwY-w-Q/edit?usp=sharing",
+      "type": "slides"
+    },
+    {
+      "label": "microbiti.cz: Úvod ve škole i v kroužku",
+      "href": "https://www.microbiti.cz/2019/02/uvod-ve-skole-i-v-krouzku.html",
+      "type": "other",
+      "note": "Skokoměr s pracovním listem, obrázek vrškem nahoru"
+    },
+    {
+      "label": "microbiti.cz: Umělý horizont",
+      "href": "https://www.microbiti.cz/2023/03/umely-horizont.html",
+      "type": "other"
+    },
+    {
+      "label": "Pracovní list Umělý horizont",
+      "href": "https://drive.google.com/file/d/1-JqI3iSO68rqox_0Gw3F_okA53n_bUXs/view",
+      "type": "pdf"
+    },
+    {
+      "label": "microbiti.cz: Přistání na planetě",
+      "href": "https://www.microbiti.cz/2024/04/pristani-na-planete.html",
+      "type": "other"
+    },
+    {
+      "label": "Dejte mi pevný bod: micro:bit místo vajíček",
+      "href": "https://dejtemipevnybod.cz/2024/04/microbit-misto-vajicek/",
+      "type": "other",
+      "note": "Průběh projektu ve třídě"
+    },
+    {
+      "label": "MakeCode: Step Counter",
+      "href": "https://makecode.microbit.org/projects/step-counter",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Level (vodováha)",
+      "href": "https://makecode.microbit.org/projects/level",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Plot Acceleration",
+      "href": "https://makecode.microbit.org/projects/plot-acceleration",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

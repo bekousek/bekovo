@@ -1,0 +1,81 @@
+{
+  "id": "robotika-microbit-nahoda",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Náhoda: kostka, mince, věštírna, kámen-nůžky-papír",
+  "url": "https://makecode.microbit.org/",
+  "description": "Micro:bit jako hrací kostka, mince nebo věštírna, která odpoví na otázku. Náhodná čísla a podmínky, pak hra proti micro:bitu a hry „pryč od počítače“, při kterých se hází kostkou a plní úkoly.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "náhoda",
+    "kostka",
+    "podmínka",
+    "když-jinak",
+    "kámen nůžky papír",
+    "hry",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák vygeneruje náhodné číslo a podle něj vybere podmínkou obrázek nebo odpověď.",
+  "materials": [
+    "micro:bit a micro USB kabel pro každého (nebo dvojici)",
+    "Počítač s MakeCode (makecode.microbit.org, jde přepnout do češtiny); vše se dá zkusit i v simulátoru",
+    "Bateriový box, aby se dalo hrát v lavici i na koberci"
+  ],
+  "procedure": "Hod mincí: při stisku A náhodně ukaž jeden ze dvou obrázků (panna/orel). Tipni si předem a počítej, kolikrát jsi uhodl.\n\nHrací kostka: při zatřesení ukaž náhodný počet puntíků jako na kostce (ne číslo). Vylepšení: před zastavením se chvíli „točí“ náhodné puntíky.\n\nHra na podmínky bez počítače: někdo řekne podmínku s úkolem („když hodíš víc než čtyři, vyskoč“, „sudé — tleskni, liché — dupni“), všichni si hodí svou kostkou a plní.\n\nVěštírna: polož otázku ano/ne a micro:bit náhodně vybere jednu z odpovědí (Určitě ano! To neprojde. Zeptej se zítra…). Odpovědi si děti vymyslí samy.\n\nKámen-nůžky-papír: po zatřesení ukáže micro:bit náhodně kámen, nůžky, nebo papír. Zahraj si proti němu a vyhraj třikrát v řadě. Vylepšení: druhý micro:bit jako počítadlo bodů (A přičte bod hráči A, B hráči B, zatřesení ukáže skóre).\n\nKdo víc? (pokročilejší): A hodí kostkou první hráč, B druhý, micro:bit ukáže vítěze. Nezapomeňte na remízu.",
+  "files": [
+    {
+      "label": "Prezentace Micro:Bit úkoly (zadání na promítání)",
+      "href": "https://docs.google.com/presentation/d/14PJA6rrPluoHa9D7Dj0dilkipvE3M3jKNxw8zwY-w-Q/edit?usp=sharing",
+      "type": "slides"
+    },
+    {
+      "label": "microbiti.cz: If–then–else hry s kostkami",
+      "href": "https://www.microbiti.cz/2020/01/if-then-else.html",
+      "type": "other",
+      "note": "Osm gradovaných úloh s kostkou, s řešením"
+    },
+    {
+      "label": "microbiti.cz: Pracovní listy — podmínky",
+      "href": "https://www.microbiti.cz/2019/07/pracovni-listy-podminky.html",
+      "type": "other"
+    },
+    {
+      "label": "MakeCode: Coin Flipper",
+      "href": "https://makecode.microbit.org/projects/coin-flipper",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Dice",
+      "href": "https://makecode.microbit.org/projects/dice",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Rock Paper Scissors",
+      "href": "https://makecode.microbit.org/projects/rock-paper-scissors",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}

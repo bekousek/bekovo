@@ -1,0 +1,99 @@
+{
+  "id": "robotika-microbit-radio-zpravy",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Rádio: zprávy, housenka a hlasování",
+  "url": "https://makecode.microbit.org/",
+  "description": "Micro:bity si posílají zprávy vestavěným rádiem. Od chatu mezi dvojicí přes housenku, která leze z micro:bitu na micro:bit, až po hlasovací zařízení pro celou třídu a akordy hrané několika deskami.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–4 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "rádio",
+    "skupina",
+    "protokol",
+    "hlasování",
+    "seznam",
+    "komunikace",
+    "bez modulů"
+  ],
+  "language": "cs",
+  "goal": "Žák nastaví rádiovou skupinu, pošle a přijme text nebo číslo, na přijatou hodnotu zareaguje podmínkou a domluví se s ostatními na protokolu.",
+  "materials": [
+    "Aspoň dva micro:bity na dvojici nebo skupinu, bateriové boxy",
+    "Počítač s MakeCode; v simulátoru se druhý micro:bit objeví sám, jakmile program vysílá"
+  ],
+  "procedure": "Zprávy: při startu nastav rádiovou skupinu (dvojice stejné číslo 0–255), při stisku A/B pošli text (velkými písmeny bez diakritiky), při přijetí ho zobraz. Co vylepšit? Upozornění na novou zprávu, víc textů v seznamu, posílání obrázků.\n\nHousenka: nakresli animaci housenky, která leze po prostředním řádku displeje (schovej ji do funkce). Pak ať přeleze na učitelský micro:bit (pošli číslo 100 ve skupině 24), a když přijde 99, vrátí se k tobě. Finále: domluvte se, aby housenka sama prolezla přes všechny micro:bity ve třídě. Na čem se musíte domluvit?\n\nHlasování pro začátečníky: hlasovací zařízení pošle číslo odpovědi (A = 0, B = 1…), sčítací zařízení (klidně učitelovo) hlasy počítá. Nejjednodušší: jeden přijímač na každou odpověď.\n\nVolby: vysílač posílá číslo „strany“, přijímač počítá hlasy do proměnných. Pokročilí: výběr z více možností tlačítky, odeslání A+B, výsledky jako graf na displeji.\n\nDálkově ovládaný displej: několik micro:bitů vedle sebe tvoří jeden nápis, jiný micro:bit posílá text. Jak zařídit, aby všude běžel stejný program?\n\nAkordy: ovladač pošle název akordu (C, G, F…) a tři micro:bity zahrají každý jeden tón. Vznikne orchestr.",
+  "files": [
+    {
+      "label": "microbiti.cz: Zasílání zpráv",
+      "href": "https://www.microbiti.cz/2022/04/zasilani-zprav.html",
+      "type": "other",
+      "note": "Od textu po seznamy"
+    },
+    {
+      "label": "microbiti.cz: Housenka",
+      "href": "https://www.microbiti.cz/2022/10/housenka.html",
+      "type": "other"
+    },
+    {
+      "label": "Zadání Housenka k tisku",
+      "href": "https://drive.google.com/file/d/1xdAqowajkLklRIHO8rCiO1-Vzy1LyJlu/view",
+      "type": "pdf"
+    },
+    {
+      "label": "microbiti.cz: Hlasování pro začátečníky",
+      "href": "https://www.microbiti.cz/2019/04/hlasovani-pro-zacatecniky.html",
+      "type": "other"
+    },
+    {
+      "label": "Pracovní list Hlasování",
+      "href": "https://drive.google.com/file/d/1fWqysYIhx4M4BfSovtLa59aFxcf7k6QR/view",
+      "type": "pdf"
+    },
+    {
+      "label": "microbiti.cz: Volby s microbitem",
+      "href": "https://www.microbiti.cz/2021/10/volby-s-microbitem.html",
+      "type": "other"
+    },
+    {
+      "label": "microbiti.cz: Dálkově ovládaný displej",
+      "href": "https://www.microbiti.cz/2019/03/dalkove-ovladany-displej.html",
+      "type": "other"
+    },
+    {
+      "label": "microbiti.cz: Akordy",
+      "href": "https://www.microbiti.cz/2023/05/akordy.html",
+      "type": "other"
+    },
+    {
+      "label": "MakeCode: Micro Chat",
+      "href": "https://makecode.microbit.org/projects/micro-chat",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    },
+    {
+      "label": "MakeCode: Voting Machine",
+      "href": "https://makecode.microbit.org/projects/voting-machine",
+      "type": "other",
+      "note": "Návod krok za krokem v MakeCode (anglicky)"
+    }
+  ],
+  "source": {
+    "label": "microbiti.cz, projekty MakeCode a vlastní prezentace Micro:Bit úkoly",
+    "url": "https://www.microbiti.cz/"
+  },
+  "added": "2026-09-30"
+}
