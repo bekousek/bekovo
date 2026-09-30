@@ -1,0 +1,70 @@
+{
+  "id": "robotika-microla-c-hry",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla C1–C5: Morseovka, pokladnička, Asteroidy a Chytání vajec",
+  "url": "https://microla.cz/aplikace/kategorie-c-stredne-pokrocili/",
+  "description": "Projekty pro středně pokročilé v Pythonu: trenažér Morseovy abecedy se slovníkem, pokladnička z krabičky, hra Asteroidy (i v objektové verzi, první krůček k objektům) a „vlk chytá vejce“ se zrychlováním.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "5 projektů",
+  "keywords": [
+    "micro:bit",
+    "Python",
+    "MicroPython",
+    "hry",
+    "Morseova abeceda",
+    "slovník",
+    "objekty",
+    "třídy",
+    "náhoda",
+    "piny"
+  ],
+  "language": "cs",
+  "goal": "Žák sestaví větší program (hru) z proměnných, cyklů, náhody a podmínek a vyzkouší si slovník a první objekty.",
+  "materials": [
+    "micro:bit a USB kabel, bateriový box",
+    "Počítač s editorem python.microbit.org (nebo Mu)",
+    "Na pokladničku: krabička, karton, drátky a konektor k pinům 0, 1, 2 a GND, páječka"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro editor Mu. Dnes je nejjednodušší psát v online editoru python.microbit.org, který má i simulátor.\n\nC1 Morseova abeceda: tlačítkem B se klepe morseovka (krátký stisk tečka, dlouhý čárka), micro:bit měří délku stisku a podle kódovací tabulky (slovník) ji převádí na písmena; tlačítko A text vypíše nebo smaže.\n\nC2 Jednoduchá pokladnička (student gymnázia Elgartova): vhozená mince propojí kontakty pin–GND (každý otvor jiná hodnota: 10, 20, 50 Kč) a micro:bit sčítá, kolik je v krabičce. Výroba vyžaduje trochu pájení, program je i v blocích.\n\nC3 Hra Asteroidy: loď (blikající dioda) na spodním řádku se tlačítky A a B vyhýbá dvěma padajícím asteroidům v náhodných sloupcích. Po srážce se ukáže skóre.\n\nC4 Asteroidy objektově: stejná hra, ale asteroidy jsou objekty. Lehký úvod do objektového programování.\n\nC5 Chytání vajec: jako známá hra, vejce padají zleva i zprava a košík je chytá; hra se postupně zrychluje. Kód je připravený na vlastní rozšíření (víc vajec, počet rozbitých…).",
+  "files": [
+    {
+      "label": "C1 Morseova abeceda",
+      "href": "https://microla.cz/aplikace-c1-morseova-abeceda/",
+      "type": "other"
+    },
+    {
+      "label": "C2 Jednoduchá pokladnička",
+      "href": "https://microla.cz/aplikace-c2-jednoducha-pokladnicka/",
+      "type": "other"
+    },
+    {
+      "label": "C3 Hra Asteroidy",
+      "href": "https://microla.cz/aplikace-c3-hra-asteroidy/",
+      "type": "other"
+    },
+    {
+      "label": "C4 Hra Asteroidy objektově",
+      "href": "https://microla.cz/aplikace-c4-hra-asteroidy-objektove/",
+      "type": "other"
+    },
+    {
+      "label": "C5 Hra chytání vajec",
+      "href": "https://microla.cz/aplikace-c5-chytani-vajec/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}

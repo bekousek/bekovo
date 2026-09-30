@@ -1,0 +1,71 @@
+{
+  "id": "robotika-microla-moduly-vozitko",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla B16–B19, D1–D2: displej, servo, motory a vozítko s ovladačem",
+  "url": "https://microla.cz/aplikace/kategorie-d-zkuseni-uzivatele/",
+  "description": "Pro zkušené a kroužky: připojení dvouřádkového LCD displeje, serva a stejnosměrných motorů přes H-můstek, pak dálkový ovladač a vlastní vozítko řízené nakláněním druhého micro:bitu. Potřebuje součástky navíc.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "6 lekcí",
+  "keywords": [
+    "micro:bit",
+    "Python",
+    "MicroPython",
+    "servo",
+    "DC motor",
+    "H-můstek",
+    "PWM",
+    "LCD",
+    "vozítko",
+    "dálkové ovládání",
+    "rádio"
+  ],
+  "language": "cs",
+  "goal": "Žák připojí k micro:bitu výstupní zařízení s vlastním napájením, pochopí PWM a H-můstek a postaví rádiem ovládané vozítko.",
+  "materials": [
+    "micro:bity, bateriové boxy, počítač s python.microbit.org (nebo Mu)",
+    "Podle lekce: LCD displej 16×2 s potenciometry, servo, DC motory s driverem (např. Kitronik 5602 nebo L9110S/L298N), držák na 4 baterie AA, podvozek",
+    "Na klávesnicový ovladač: klávesnice 4×4"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro editor Mu. Dnes je nejjednodušší psát v online editoru python.microbit.org, který má i simulátor.\n\nB16 Dvouřádkový displej: zapojení LCD 16×2 k micro:bitu, když nestačí vypisovat text na 5 × 5 diod.\n\nB17 Servo: co je servo (motor, převodovka a elektronika v jednom) a jak ho natáčet.\n\nB19 DC motory: motor potřebuje vlastní napájení; analogový výstup pomocí PWM a H-můstek pro změnu směru otáčení.\n\nD1 Dálkový ovladač: micro:bit posílá rádiem stisknuté klávesy, náklon v osách X a Y, přepíná kanály a hlídá spojení signálem „heart beat“.\n\nD2 Vozítko s ovladačem: dva DC motory na driveru, ovladačem je druhý micro:bit. Náklon řídí jízdu, tlačítko A přepíná pohotovostní stav; spojení ukazuje blikající srdce. Na konci ukázka mechanické stavby.",
+  "files": [
+    {
+      "label": "B16 Dvouřádkový displej",
+      "href": "https://microla.cz/aplikace-b16-dvouradkovy-display/",
+      "type": "other"
+    },
+    {
+      "label": "B17 Servo",
+      "href": "https://microla.cz/aplikace-b17-servo/",
+      "type": "other"
+    },
+    {
+      "label": "B19 DC motory",
+      "href": "https://microla.cz/aplikace-b19-dc-motory/",
+      "type": "other"
+    },
+    {
+      "label": "D1 Dálkový ovladač",
+      "href": "https://microla.cz/aplikace-d1-dalkovy-ovladac/",
+      "type": "other"
+    },
+    {
+      "label": "D2 Vozítko s ovladačem",
+      "href": "https://microla.cz/aplikace-d2-vozitko-s-ovladacem/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}

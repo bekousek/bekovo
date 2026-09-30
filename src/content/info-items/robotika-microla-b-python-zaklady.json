@@ -1,0 +1,94 @@
+{
+  "id": "robotika-microla-b-python-zaklady",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Microla B1–B10: stejné základy v MicroPythonu",
+  "url": "https://microla.cz/aplikace/kategorie-b-mirne-pokrocili/",
+  "description": "Přechod z bloků na psaný kód: lekce B1–B10 kopírují lekce A1–A10, ale v MicroPythonu. Žák vidí, jak se známý blok zapíše textem, a navíc pracuje se seznamy obrázků a náhodnými čísly.",
+  "type": "kurz",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "10 lekcí",
+  "keywords": [
+    "micro:bit",
+    "Python",
+    "MicroPython",
+    "textové programování",
+    "while True",
+    "seznam",
+    "náhodná čísla",
+    "přechod z bloků"
+  ],
+  "language": "cs",
+  "goal": "Žák přepíše jednoduché programy z bloků do Pythonu a zvládne v něm smyčku, proměnnou, podmínku, tlačítka, seznam a náhodné číslo.",
+  "materials": [
+    "micro:bit a USB kabel",
+    "Počítač s editorem python.microbit.org (nebo Mu)",
+    "Vhodné pro žáky, kteří už prošli bloky (řada A)"
+  ],
+  "procedure": "Lekce vznikly v roce 2017 pro editor Mu. Dnes je nejjednodušší psát v online editoru python.microbit.org, který má i simulátor.\n\nB1 a B2 Ahoj světe!: první program v Pythonu, import knihovny microbit, pak výpis ve smyčce while True.\n\nB3 Blikáme diodou: rozsvícení a zhasnutí jedné diody se sleep().\n\nB4 a B5 Počítáme do deseti: proměnné a výpočty, pak kratší zápis s cyklem for a range().\n\nB6 a B7 Zapínáme a vypínáme světlo: tlačítka A a B, pak jedním tlačítkem s logickou proměnnou. Postup, který připravuje na složitější programy.\n\nB8 Připravené obrázky: vestavěné obrázky micro:bitu (Image.HEART…) a jejich seznam.\n\nB9 Náhodná čísla: modul random, výběr obrázku ze seznamu podle náhodného čísla.\n\nB10 Hrací kostka: kostka v Pythonu s vylepšením, tlačítkem B se volí nejvyšší číslo (6 až 9), tlačítkem A se hází.",
+  "files": [
+    {
+      "label": "B1 Ahoj světe!",
+      "href": "https://microla.cz/aplikace-b1-ahoj-svete/",
+      "type": "other"
+    },
+    {
+      "label": "B2 Ahoj světe! — pokračování",
+      "href": "https://microla.cz/aplikace-b2-ahoj-svete-pokracovani/",
+      "type": "other"
+    },
+    {
+      "label": "B3 Blikáme diodou",
+      "href": "https://microla.cz/aplikace-b3-blikame-diodou/",
+      "type": "other"
+    },
+    {
+      "label": "B4 Počítáme do deseti",
+      "href": "https://microla.cz/aplikace-b4-pocitame-do-deseti/",
+      "type": "other"
+    },
+    {
+      "label": "B5 Počítáme do deseti II",
+      "href": "https://microla.cz/b5-pocitame-do-deseti-ii/",
+      "type": "other"
+    },
+    {
+      "label": "B6 Zapínáme a vypínáme světlo",
+      "href": "https://microla.cz/aplikace-b6-zapiname-a-vypiname-svetlo/",
+      "type": "other"
+    },
+    {
+      "label": "B7 Zapínáme a vypínáme jedním tlačítkem",
+      "href": "https://microla.cz/aplikace-b7-zapiname-a-vypiname-jednim-tlacitkem/",
+      "type": "other"
+    },
+    {
+      "label": "B8 Připravené obrázky",
+      "href": "https://microla.cz/aplikace-b8-pripravene-obrazky/",
+      "type": "other"
+    },
+    {
+      "label": "B9 Náhodná čísla",
+      "href": "https://microla.cz/aplikace-b9-nahodna-cisla/",
+      "type": "other"
+    },
+    {
+      "label": "B10 Hrací kostka",
+      "href": "https://microla.cz/aplikace-b10-hraci-kostka/",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Microla.cz — Aplikace pro BBC micro:bit (Ivo Obr a další autoři)",
+    "url": "https://microla.cz/aplikace/"
+  },
+  "added": "2026-09-30"
+}
