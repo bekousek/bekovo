@@ -1,0 +1,58 @@
+{
+  "id": "robotika-it2school-robot-bb8",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Postav si robota BB-8 (Arduino a polystyrenové koule) (IT2School, modul E3)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E3_Robotik",
+  "description": "Skupiny postaví droida BB-8 ze Star Wars: tělo z polystyrenových koulí a papírmaše, uvnitř Arduino (nebo BlueCoLight) a motory. Robota pak ovládají z mobilu přes aplikaci.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac",
+    "mobil",
+    "robot"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "10 h",
+  "keywords": [
+    "IT2School",
+    "BB-8",
+    "Star Wars",
+    "Arduino",
+    "robot",
+    "papírmaše",
+    "Bluetooth",
+    "mobilní aplikace",
+    "projektový týden",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci se tvořivě a prakticky dostanou k elektronice a programování Arduina a spolupracují na společném výrobku, který se dá ukázat třeba na školní akci.",
+  "materials": [
+    "Seznam materiálu E3.1 (polystyrenové koule, papírmaše, barvy, Arduino UNO nebo BlueCoLight, motory, baterie…)",
+    "Stavební návod E3.2 a kód pro Arduino",
+    "Počítače na programování, mobil na ovládání"
+  ],
+  "procedure": "Úvod: představení záměru, třeba videem sedmnáctiletého Angela Casimira, který si BB-8 postavil. Plán: co potřebujeme, rozdělení do skupin, harmonogram.\n\nTělo: skupiny staví tělo z polystyrenových koulí a papírmaše. Vlastní nápady jsou vítané, BB-8 může být i sněhulák nebo včela.\n\nTechnika: zatímco papírmaše a barvy schnou, učitel ukáže desku (BlueCoLight nebo Arduino) a základy jejího programování. Pak se sestaví a naprogramuje vnitřek robota.\n\nKompletace a prezentace: vnitřek se vloží do koulí a robot se ovládá z mobilu.\n\nIdeální na projektový týden. V běžné výuce počítejte s dobou schnutí.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu E3 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/5_Erweiterungsmodule/E3_Robotik/pdf/0_E3_Modulbeschreibung_Robotik.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu E3 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E3_Robotik/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

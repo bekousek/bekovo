@@ -1,0 +1,59 @@
+{
+  "id": "ai-it2school-najdi-ai",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Najdi AI: kreslené dilema, obrázek plný AI a definice umělé inteligence (IT2School, modul KI-B1)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/8_KI-Basismodule/KI-B1_FindeKI",
+  "description": "Kde všude je kolem nás umělá inteligence? Mladší žáci diskutují nad kreslenými dilematy s typickými dětskými představami o AI a hledají AI v obrázku plném situací, starší zkoušejí AI nástroje (Quick, Draw!, FreddieMeter). Všichni pak podle schématu posuzují, co AI je a co ne.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–4 h",
+  "keywords": [
+    "IT2School",
+    "umělá inteligence",
+    "AI v každodenním životě",
+    "concept cartoons",
+    "kreslené dilema",
+    "obrázek plný AI",
+    "silná a slabá AI",
+    "senzory",
+    "Quick, Draw!",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají AI v situacích ze svého života, chápou ji jako výsledek automatizovaných procesů v počítačových systémech, rozliší silnou a slabou AI a vědí, že AI se rozhoduje podle dat ze senzorů.",
+  "materials": [
+    "Kreslená dilemata (concept cartoons) KI-B1.1 s metodikou",
+    "Pracovní list „Vlastnosti a definice AI“ KI-B1.2 (verze pro mladší i starší žáky) a nápovědy k rešerši",
+    "Obrázek plný situací s AI KI-B1.3",
+    "Sbírka příkladů AI nástrojů KI-B1.4 (pro variantu s technikou)"
+  ],
+  "procedure": "Varianta bez techniky (doporučená pro 4.–7. ročník): skupiny dostanou kreslené dilema, situaci s AI a bublinami, ve kterých jsou typické dětské představy. Jedna bublina je prázdná pro jejich názor. Diskutují a zapisují výsledky. Pak se společně projde, co je AI (pracovní list KI-B1.2), a porovná se s představami z úvodu. Nakonec žáci hledají AI v obrázku plném situací (KI-B1.3).\n\nVarianta s technikou (doporučená pro 8.–9. ročník): učitel ukáže AI nástroj ze sbírky (např. FreddieMeter), nebo si ho žáci sami vyzkoušejí (Quick, Draw!). Otázka „co to má společného s AI?“ a odpovědi do společné myšlenkové mapy. Pak pracovní list o definici AI a návrat k mapě.\n\nZávěr obou variant: žáci podle schématu posuzují vybrané příklady (vnímá systém okolí senzory? rozhoduje se podle dat? učí se?) a představí si výsledky.\n\nRešeršní úkoly na konci KI-B1.2 se hodí na prohloubení (1–2 h navíc).\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu KI-B1 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/8_KI-Basismodule/KI-B1_FindeKI/pdf/KI-B1.0_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu KI-B1 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/8_KI-Basismodule/KI-B1_FindeKI/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "id": "web-it2school-vlastni-web",
+  "categoryId": "web",
+  "subcategoryId": "html-css",
+  "title": "Webové stránky: HTML, CSS a kousek JavaScriptu v online editoru (IT2School, modul E4)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E4_Webseiten",
+  "description": "Žáci nahlédnou do zdrojového kódu známých webů, poznají značky HTML a styly CSS a v online editoru s živým náhledem (CodePen, Glitch nebo aplikace pro iPad) postaví vlastní stránku, kterou nakonec zveřejní.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "8–10 h",
+  "keywords": [
+    "IT2School",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "CodePen",
+    "Glitch",
+    "zdrojový kód",
+    "značky",
+    "webová stránka",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci znají značkovací jazyk HTML, umí jím zapsat informace na stránku, formátují ji pomocí CSS a vyzkoušejí si první skript v JavaScriptu.",
+  "materials": [
+    "Počítače s prohlížečem (CodePen funguje bez účtu, Glitch účet vyžaduje), případně iPady s HTML editorem",
+    "Projektor",
+    "Ukázkový projekt „We <3 IT2School“ z popisu modulu"
+  ],
+  "procedure": "Úvod: na projektoru se ukáže známá stránka a její zdrojový kód (pravé tlačítko, zobrazit zdroj). Jak složitý kód bývá? Pak jednoduchá stránka: hlavička a tělo, značky jako <html>, <p> a jejich párování.\n\nCvičení: menší úlohy v online editoru s živým náhledem, žáci sledují, jak se změna v kódu hned projeví. Následuje CSS (barvy, písmo, rozvržení) na ukázkovém projektu.\n\nVlastní web: každý žák nebo dvojice postaví vlastní stránku na zvolené téma. Pokročilí přidají kousek JavaScriptu.\n\nZávěr: prezentace a zveřejnění hotových stránek.\n\nPozn.: editor Thimble, podle kterého se modul původně jmenoval, už nefunguje. Popis modulu proto porovnává CodePen, Glitch a aplikaci pro iPad, a to i z hlediska ochrany dat.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu E4 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/5_Erweiterungsmodule/E4_Webseiten/pdf/E4_Webseiten.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu E4 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E4_Webseiten/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

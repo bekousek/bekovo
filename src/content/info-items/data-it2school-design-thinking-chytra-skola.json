@@ -1,0 +1,59 @@
+{
+  "id": "data-it2school-design-thinking-chytra-skola",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "systemy",
+  "title": "Design Thinking: chytrý dům a chytrá škola budoucnosti (IT2School, modul M1)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/6_Methodenmodule/M1_DesignThinking",
+  "description": "Žáci zmapují chytré technologie v domácnosti a nakreslí svůj vysněný chytrý dům. Pak metodou Design Thinking hledají, co by pomohlo jejich škole: dělají rozhovory, vytvářejí persony, hlasují o nápadech a staví papírové prototypy, které otestují s jinou skupinou.",
+  "type": "projekt",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "5–12 h",
+  "keywords": [
+    "IT2School",
+    "Design Thinking",
+    "chytrá domácnost",
+    "smart home",
+    "chytrá škola",
+    "persona",
+    "rozhovor",
+    "prototyp",
+    "projektový týden",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají metodu tvořivého řešení problémů, umí problém popsat, pojmenovat potřeby uživatelů a vyvinout a otestovat nápad na řešení.",
+  "materials": [
+    "Pracovní listy M1.1–M1.6 (Smart Home, plán Design Thinkingu pro učitele i žáky, správná otázka, persona)",
+    "Flipchart, nástěnky, fixy, papír, samolepicí lístky a hlasovací puntíky",
+    "Materiál na prototypy (karton, lepidlo, nůžky, provázky…)",
+    "Počítač s internetem na úvodní rešerši"
+  ],
+  "procedure": "Chytré technologie (1–2 h): myšlenková mapa „co jsou chytré technologie?“ Jaké máte doma, jaké byste chtěli? Skupiny si dohledají chytré technologie v domácnosti, nakreslí plakát svého vysněného chytrého domu a představí ho.\n\nChytrá škola, Design Thinking (4–10 h, klidně projektový den):\n1. Porozumění: představení metody (video, pracovní listy) a výběr otázky, např. „Jak mohou chytré technologie pomoct žákům a učitelům při učení?“ nebo „Jak by škola mohla být ekologičtější?“\n2. Pozorování: rozhovory se spolužáky, učiteli i školníkem, zápis zážitků a problémů.\n3. Syntéza: z poznatků vzniknou krátké příběhy a persony.\n4. Nápady: brainstorming pro konkrétní personu a hlasování puntíky.\n5. Prototyp: papírový model z výtvarného materiálu.\n6. Test: dvě skupiny si vymění prototypy a dají si zpětnou vazbu, následuje úprava.\n7. Prezentace před třídou, případně digitální prototyp.\n\nMetodu lze použít i k vymýšlení projektů v dalších modulech (3D tisk, wearables, Makey Makey).\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu M1 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/6_Methodenmodule/M1_DesignThinking/pdf/0_M1_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu M1 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/6_Methodenmodule/M1_DesignThinking/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

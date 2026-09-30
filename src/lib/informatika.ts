@@ -46,6 +46,7 @@ export const LANGUAGE_LABELS: Record<NonNullable<InfoItem['language']>, string> 
   cs: 'CZ',
   sk: 'SK',
   en: 'EN',
+  de: 'DE',
 };
 
 type AccentClasses = { border: string; bg: string; chip: string; text: string };

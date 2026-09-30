@@ -1,0 +1,56 @@
+{
+  "id": "ai-it2school-lov-na-banany-snap",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Lov na banány: strojové učení naprogramované ve Snap! (IT2School, modul KI-A1)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/9_KI-Aufbaumodule/KI-A1_Bananenjagd",
+  "description": "Žáci sami naprogramují ve Snap! tři způsoby strojového učení: opičku, která se tabulkou odměn (Q-learning) naučí přeskakovat sudy a pak i hrát pong, lineární regresi a shlukování (vektorovou kvantizaci). Ke každé části patří unplugged hra z modulu KI-B3.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "4–7 h",
+  "keywords": [
+    "IT2School",
+    "Snap!",
+    "strojové učení",
+    "posilované učení",
+    "Q-learning",
+    "lineární regrese",
+    "učení bez učitele",
+    "vektorová kvantizace",
+    "pong",
+    "odměna a trest",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci sami implementují ve Snap! jednoduché algoritmy posilovaného učení, učení s učitelem a bez učitele, a tím vidí, že AI není kouzlo.",
+  "materials": [
+    "Počítače s prohlížečem (Snap!)",
+    "Pracovní listy s řešením KI-A1.1–KI-A1.3 (Q-tabulka, regrese, vektorová kvantizace) a karty nápovědy",
+    "Hry z modulu KI-B3 (minišachy, opičky, zlatá horečka), pokud je třída ještě nehrála",
+    "Základy Snap! nebo Scratche"
+  ],
+  "procedure": "Posilované učení (2 h): pokud třída nezná modul KI-B3, nejdřív hraje minišachy. Učitel ukáže projekt „lov na banány“, kde se opička učí přeskakovat sudy. Dvojice ho podle pracovního listu samy postaví (Q-tabulka, odměna a trest) a porovnají s minišachy. Pak princip přenesou do připraveného projektu pongu. Skupiny předvedou, jak nastavily odměny a tresty. Na závěr videa o posilovaném učení v praxi.\n\nUčení s učitelem (1 h): po hře s opičkami žáci ve Snap! naprogramují lineární regresi.\n\nUčení bez učitele (1 h): po hře Zlatá horečka naprogramují vektorovou kvantizaci, tedy hledání shluků.\n\nHodiny lze učit jednotlivě i v libovolném pořadí. Bez předchozího modulu KI-B3 počítejte ke každé části s hodinou navíc na unplugged hru.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu KI-A1 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/9_KI-Aufbaumodule/KI-A1_Bananenjagd/pdf/KI-A1.0_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu KI-A1 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/9_KI-Aufbaumodule/KI-A1_Bananenjagd/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

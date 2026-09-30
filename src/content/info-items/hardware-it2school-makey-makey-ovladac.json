@@ -1,0 +1,59 @@
+{
+  "id": "hardware-it2school-makey-makey-ovladac",
+  "categoryId": "hardware",
+  "title": "Můj ovladač: Makey Makey a princip vstup–zpracování–výstup (IT2School, modul B6)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B6_MeinAnschluss",
+  "description": "Žáci připojí k počítači Makey Makey a zkoušejí, co všechno vede proud a dá se použít jako klávesa (banán, alobal, voda). Zjistí, jak funguje klávesnice, a pak ve skupinách naprogramují ve Scratchi zakázku, kterou se ovládá vlastním ovladačem.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–6 dvouhodin",
+  "keywords": [
+    "IT2School",
+    "Makey Makey",
+    "vstupní zařízení",
+    "klávesnice",
+    "vodivost",
+    "EVA",
+    "vstup–zpracování–výstup",
+    "Scratch",
+    "ovladač",
+    "projekt",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, jak fungují vstupní zařízení (klávesnice, myš, joystick), znají princip vstup–zpracování–výstup a navrhnou a naprogramují vlastní ovládání.",
+  "materials": [
+    "Makey Makey (nebo podobný ovladač) a počítač na každou sadu",
+    "Vodivé i nevodivé předměty: ovoce, alobal, voda, plastelína, papír, kov",
+    "Pracovní listy B6.1–B6.4, alternativní úvod B6.5",
+    "Základy Scratche (např. modul B5)"
+  ],
+  "procedure": "1. dvouhodina: učitel předvede ovladač s dobrovolníkem a jednoduchou hrou na projektoru. Pak ho dvojice samy připojují a zkoušejí různé materiály: co funguje a co mají společného? (pracovní list B6.1)\n\nDiskuse: jakými dalšími zařízeními ovládáme počítač? Jak počítač pozná, co jsme zmáčkli? Klávesnice je mřížka vodičů, stisk uzavře obvod v jednom bodě a mikrokontrolér to pošle počítači. Žáci si přečtou text B6.2, nakreslí z něj schéma a porovnají ho.\n\n2.–6. dvouhodina: učitel (nebo host z firmy) vystupuje jako zadavatel a dá čtyřem skupinám programátorské zakázky různé obtížnosti (B6.3, B6.4). Skupina zakázku promyslí, navrhne projekt (i s materiály ovladače) a krátce ho představí ostatním ke zpětné vazbě. Pak ho naprogramuje ve Scratchi a sestaví ovladač.\n\nZávěr: prezentace „zadavateli“ (nápad, grafika, kód, ukázka s ovladačem) a zpětná vazba.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B6 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B6_MeinAnschluss/pdf/0_B6_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B6 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B6_MeinAnschluss/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}
