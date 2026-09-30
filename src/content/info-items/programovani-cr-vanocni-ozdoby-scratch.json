@@ -1,0 +1,50 @@
+{
+  "id": "programovani-cr-vanocni-ozdoby-scratch",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Scratch: vánoční ozdoby a míchání barev",
+  "url": "https://scratch.mit.edu/projects/460555983",
+  "description": "Tři „zásobárny“ vánočních koulí — červená, zelená, modrá — ze kterých se ozdoby táhnou myší na stromek. Když se dvě koule překryjí, vznikne koule nové barvy. Nejdřív pracovní list o míchání barev, pak program.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "2–3 × 45 min",
+  "keywords": [
+    "Scratch",
+    "podmínka",
+    "cyklus",
+    "klonování",
+    "přetahování",
+    "míchání barev",
+    "Vánoce",
+    "mezipředmětové",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák navrhne slovně postup programu a naprogramuje postavu s podmínkou na dotyk jiné postavy.",
+  "materials": [
+    "Počítač s internetem a účty ve Scratchi",
+    "Pracovní list Míchání barev (příloha 1)",
+    "Pastelky",
+    "Vzorový projekt ve Scratchi"
+  ],
+  "procedure": "Žáci by už měli Scratch znát.\n\nMotivace (5–8 min): kdy a jak zdobíte stromeček doma?\n\nZadání: vytvořte tři koule (červenou, zelenou, modrou) ukotvené na jednom místě. Z nich se ozdoby myší přetahují na stromek. Když jedna barva překryje druhou, vznikne koule třetí barvy, kterou jde také přetáhnout.\n\nPracovní list: vybarvení kruhů (asi 5 min) — jaké barvy smícháním vzniknou — a slovní zápis programu v bodech (asi 8 min). Ve rohu listu jsou bloky, které se budou hodit.\n\nSpolečně: co je úkol, čím začít, jaké otázky musíme vyřešit. První kouli (např. zelenou) udělejte se třídou, pak 15 min samostatné práce.\n\nDvě průběžné kontroly nad programy žáků — ptejte se proč a jak. Podle hotové první koule žáci sami udělají další dvě.\n\nRozšíření: vlastní pozadí nakreslené třeba v Canvě.\n\nReflexe: Co bylo nejtěžší? Napadlo vás jiné řešení?",
+  "files": [
+    {
+      "label": "Metodika, pracovní list a ukázky programu (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/97_vanocni_ozdoby_michani_barev_scratch.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

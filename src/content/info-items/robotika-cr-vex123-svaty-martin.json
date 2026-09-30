@@ -1,0 +1,49 @@
+{
+  "id": "robotika-cr-vex123-svaty-martin",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123: Robotika se svatým Martinem",
+  "description": "Čtveřice si přečte legendu o svatém Martinovi a pak robota VEX 123 programuje podle šipkových zápisů. Kam robot dojede, tam je obrázek — podle něj děti najdou ve třídě kartu s úkolem k legendě. Poslední trasu vymyslí samy.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "90 min",
+  "keywords": [
+    "VEX 123",
+    "šipkový zápis",
+    "algoritmus",
+    "čtení s porozuměním",
+    "svatý Martin",
+    "QR kód",
+    "mezipředmětové",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák přečte šipkový zápis, zadá ho robotovi a sám sestaví program k cíli; zároveň pracuje s textem legendy.",
+  "materials": [
+    "Třídní sada VEX 123 (tři hřiště po 3 × 4 dílech)",
+    "iPady se čtečkou QR kódů",
+    "Vytištěné přílohy: rozložení hřiště, obrázky na plochu, kostým Martina na koni pro robota, zápisový list, karty s úkoly, legenda, šipkové zápisy"
+  ],
+  "procedure": "Příprava (asi 25 min): postavte tři hřiště, podle schématu rozmístěte obrázky a roboty. Ke každému hřišti připravte rozstříhané šipkové zápisy (6 postupů na dvojici), po třídě rozmístěte karty s úkoly a pro každou čtveřici vytiskněte legendu.\n\nMotivace (5 min): kdo dnes slaví svátek? Vydáme se s roboty prozkoumat legendu o svatém Martinovi.\n\nVysvětlení (10 min): skupina si nahlas přečte legendu. Zopakujte ovládání robota — zapnutí, smazání programu, jak poznám, že jsem stiskl šipku. Každý ve dvojici zadá tři programy v pořadí podle čísel; kam robot dojede, tam ho nechá stát a neotáčí ho.\n\nSamostatná práce (60 min): robot dojede na obrázek, děti podle něj najdou ve třídě kartu s úkolem a odpověď zapíšou. Pak se vystřídají. Poslední program vymyslí samy — cílem je QR kód, který načtou iPadem.\n\nReflexe (15 min): hra „místa si vymění ti, kdo…“ s otázkami k legendě (o co se Martin rozdělil, jaké měl povolání, které zvíře ho prozradilo). Co bylo nejtěžší na programování?\n\nTip: když tisknete šipkové zápisy černobíle, označte je barevnou tečkou podle puku — jinak se dvojicím pomíchají a program nevyjde.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/232_Robotika%20se%20svat%C3%BDm%20Martinem.pdf",
+      "type": "pdf",
+      "note": "Všech 8 příloh včetně hřiště, kostýmu pro robota a šipkových zápisů. Aktivita vyzkoušená na kroužku s 12 dětmi."
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

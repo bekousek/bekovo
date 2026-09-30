@@ -1,0 +1,51 @@
+{
+  "id": "ai-cr-mblock-kamen-nuzky-papir",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "mBlock: kámen, nůžky, papír s webkamerou",
+  "url": "https://ide.mblock.cc/#/?cloudProjectId=488861",
+  "description": "Žáci naučí počítač přes webkameru rozpoznat kámen, nůžky a papír (rozšíření Učitelný stroj v mBlocku) a pak naprogramují celou hru proti počítači: náhodná volba, podmínky, vyhlášení výsledku.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "90 min",
+  "keywords": [
+    "strojové učení",
+    "Teachable Machine",
+    "Učitelný stroj",
+    "mBlock",
+    "webkamera",
+    "rozpoznávání obrazu",
+    "podmínka",
+    "proměnná",
+    "náhodné číslo",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák natrénuje jednoduchý model na rozpoznávání obrazu a využije jeho výstup v programu s proměnnou a podmínkami.",
+  "materials": [
+    "PC s webkamerou a přístupem na ide.mblock.cc",
+    "Jednobarevná deska alespoň A3 jako pozadí (volitelně)",
+    "Vzorový projekt v mBlocku"
+  ],
+  "procedure": "Žáci by měli znát základy blokového programování (mBlock nebo Scratch). Úvod do strojového učení může předcházet samostatná hodina AI pro oceány na Code.org.\n\nUkažte hotovou hru proti počítači a vyzvěte žáky, ať si postaví vlastní.\n\nV mBlocku smažte výchozí postavy, vytvořte hlavní postavu a přidejte jí tři kostýmy: kámen, nůžky, papír. Přes „+ rozšíření“ přidejte Učitelný stroj a otevřete Trénink modelu. Pro každou ze tří kategorií nasnímejte aspoň 20 ukázek — před jednobarevným pozadím a z různých úhlů. Kategorie přejmenujte a klikněte na „Použij model“.\n\nProgram: textové pokyny, zvuk „kámen, nůžky, papír!“ (aby hráč opravdu ukázal na povel), proměnná „volba počítače“ = náhodné číslo 1–3, podle ní kostým. Pro každou volbu počítače pak podmínka když–tak–jinak podle výsledku rozpoznávání: remíza, výhra, nebo prohra. Třetí možnost už testovat nemusíte — patří do větve jinak.\n\nProgram je dlouhý, ale opakují se v něm téměř stejné bloky. Dobrá příležitost mluvit o tom, jak ho zkrátit.",
+  "files": [
+    {
+      "label": "Metodika se snímky programu (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/96_mBlock_kamen_nuzky_papir.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Vojtěch Škarda)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

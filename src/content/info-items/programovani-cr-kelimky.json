@@ -1,0 +1,48 @@
+{
+  "id": "programovani-cr-kelimky",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Programujeme s kelímky",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/113_programujeme_s_kelimky.pdf",
+  "description": "Z věže šesti kelímků postavit pyramidu jen pomocí šipek: ↑ zvedni, ↓ polož, → posuň doprava. Dvojice napíše program a druhá dvojice ho podle zápisu „spustí“.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "20–30 min",
+  "keywords": [
+    "unplugged",
+    "šipky",
+    "posloupnost",
+    "algoritmus",
+    "krokování",
+    "cyklus",
+    "kelímky",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák zapíše postup pomocí omezené sady příkazů a ověří ho tím, že ho provede někdo jiný.",
+  "materials": [
+    "6 kelímků do každé skupiny",
+    "Podložka s pozicemi pro stavbu (příloha 1)",
+    "Papír a tužka"
+  ],
+  "procedure": "Skupiny po čtyřech, každá dostane 6 kelímků a podložku. Na začátku stojí kelímky ve věži na startovní pozici (krok 0).\n\nÚkol: napište program, který kelímky přesune a postaví pyramidu. Příkazy jsou jen tři: ↑ zvedne kelímek, ↓ položí kelímek, → posune kelímek o pozici doprava.\n\nSkupina se rozdělí na dvě dvojice a každá napíše vlastní program. Pak si programy vymění a staví pyramidu přesně podle zápisu té druhé.\n\nNa závěr projděte programy: kde se chyby objevily? Opakují se v zápisu stejné kousky — dal by se použít cyklus?",
+  "files": [
+    {
+      "label": "Metodika a podložka (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/113_programujeme_s_kelimky.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

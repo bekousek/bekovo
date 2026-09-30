@@ -1,0 +1,49 @@
+{
+  "id": "programovani-cr-animovany-pribeh-scratchjr",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "ScratchJr: animovaný příběh",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Animovany-pribeh-ve-ScratchJr.pdf",
+  "description": "Samostatná práce pro děti, které už ScratchJr znají: podle pracovního listu vytvoří vlastní animovaný příběh s postavami, které spolu mluví přes zprávy.",
+  "type": "projekt",
+  "equipment": [
+    "tablet"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "ScratchJr",
+    "iPad",
+    "animace",
+    "příběh",
+    "posloupnost",
+    "zprávy",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří jednoduchý animovaný příběh, použije bloky pohybu a vzhledu a propojí postavy zprávami.",
+  "materials": [
+    "iPady s aplikací ScratchJr",
+    "Pracovní list se zadáním (příloha 1)"
+  ],
+  "procedure": "Úvodem si s dětmi povídejte, co má mít příběh: postavy, prostředí, začátek a konec, jak si postavy povídají.\n\nRozdejte pracovní list a projděte všechny body zadání ještě před samostatnou prací. Pak děti tvoří samy, učitel obchází.\n\nNa závěr děti představí své příběhy: o čem jsou, která část je bavila nejvíc a co bylo nejtěžší.\n\nNavazuje na kartu „ScratchJr: Pošli mi zprávu“ — zprávy mezi postavami tu děti uplatní ve vlastním projektu.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Animovany-pribeh-ve-ScratchJr.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

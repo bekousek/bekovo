@@ -1,0 +1,47 @@
+{
+  "id": "data-cr-julie-jede-do-kina",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Julie jede do kina",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/117_117_julie.pdf",
+  "description": "Úloha ze života: skupiny z plánku MHD, zastávkových jízdních řádů, vstupenek, popisu filmu a mapy kina zjišťují, jak se Julie dostane do kina a zpátky domů. Všech devět podkladů je v příloze k tisku.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "jízdní řád",
+    "mapa",
+    "MHD",
+    "schéma",
+    "vyhledávání informací",
+    "tabulka",
+    "skupinová práce",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhledá a zkombinuje informace z několika zdrojů (mapa, tabulky, text) a své řešení zdůvodní.",
+  "materials": [
+    "Vytištěné přílohy 1–9 pro každou skupinu (zadání, schéma MHD Plzeň, 4 zastávkové jízdní řády, vstupenky, popis filmu, mapa kina)",
+    "Papír a tužka"
+  ],
+  "procedure": "Skupiny po čtyřech, všechny mají stejné zadání. Nahlas ho přečtěte a nechte žáky zopakovat vlastními slovy.\n\nPřed samostatnou prací projděte podklady: Co je na schématu MHD? Podle čeho se orientuji (legenda)? Najdete zastávku Náměstí Republiky? Jakou barvou je tramvaj č. 2? U jízdních řádů: jak dlouho jede trolejbus 16 z Hlavního nádraží na Stavební stroje? Je ten čas jistý? Co ho ovlivňuje? A jak jinak než z papíru zjistit odjezd?\n\nNa práci mají skupiny 25–35 minut. Učitel je pozorovatel — sleduje, jak si dělí práci a kde se zasekávají, a pomáhá jen otázkou.\n\nSpolečná kontrola: řešení se mohou lišit. Když se liší, ať třída posoudí, které je lepší, a zdůvodní proč.\n\nReflexe: Kterou otázku jste řešili nejdéle? Zapojili se všichni? Která cesta z kina je nejrychlejší? Našli jste v plánku ještě jinou variantu? (Autobus 28 s tramvají 2.)\n\nPodklady jsou z Plzně (2021), ale úloha je uzavřená — všechno potřebné je v přílohách, takže funguje kdekoli. Můžete ji přestavět na vaše město.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/117_117_julie.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

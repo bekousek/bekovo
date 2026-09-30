@@ -1,0 +1,56 @@
+{
+  "id": "bezpecnost-cr-rizikove-chovani",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "kybersikana",
+  "title": "Rizikové chování — tým odborníků",
+  "description": "Skupiny se stanou týmem odborníků: přes QR kód si pustí krátké video o dítěti v tíživé situaci (šikana, kyberšikana, přísní rodiče), sepíšou, co je důležité, a navrhnou, co by dítě mohlo udělat. Na závěr kvíz v Kahootu.",
+  "type": "blok",
+  "equipment": [
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "šikana",
+    "kyberšikana",
+    "rizikové chování",
+    "případová studie",
+    "QR kód",
+    "video",
+    "Kahoot",
+    "role ve skupině",
+    "prevence",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák z videa vybere podstatné informace, vyvodí z nich doporučení a obhájí je před třídou.",
+  "materials": [
+    "iPady (jeden na skupinu), ideálně sluchátka",
+    "Barevné QR kódy s videi rozvěšené po třídě (příloha 1)",
+    "Pracovní list pro skupiny",
+    "Kahoot kvíz „Rizikové chování“"
+  ],
+  "procedure": "Nejdřív konzultujte aktivitu se školním metodikem prevence — témata můžou být pro některé děti osobní.\n\nPříprava: rozvěste barevné QR kódy s videi po třídě nebo chodbě a připravte lístečky stejných barev pro losování skupin. Šest videí (Jaruška, Petr, Marie, Adéla, Filip, Jirka) je na YouTube kanálu Centra robotiky.\n\nMotivace: „Dnes jste můj tým odborníků. Každá skupina dostane složku dítěte v tíživé situaci. Pusťte si video, zapište, co je důležité, a navrhněte, co by mohlo udělat. Máte 15 minut.“\n\nZopakujte práci s tabletem a čtečkou QR kódů. Na tabuli společně udělejte myšlenkovou mapu k rizikovému chování (šikana, kyberšikana, týrání, agrese). Skupiny si rozdělí role: časomíra, mluvčí, zapisovatel, IT technik.\n\nPrezentace: mluvčí představí případ, IT technik pustí video, skupina řekne svá doporučení. Ostatní doplňují nebo nesouhlasí — vždy se zdůvodněním.\n\nKvíz v Kahootu ve dvojicích a reflexe: Který případ byl nejtěžší? Uměl bys po dnešku poradit kamarádovi? Každý nakreslí na tabuli smajlíka, jak se teď cítí.",
+  "files": [
+    {
+      "label": "Metodika a QR kódy s videi (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/159_rizikove_chovani.pdf",
+      "type": "pdf",
+      "note": "Všech šest videí je veřejně na YouTube kanálu Centra robotiky (ověřeno v září 2026)."
+    },
+    {
+      "label": "Kahoot kvíz Rizikové chování",
+      "href": "https://create.kahoot.it/share/rizikove-chovani/9de55a72-c2d9-4695-ac49-0eaa0aba09ec",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Kristýna Setvínová, 1. ZŠ Plzeň, projekt DIGI Plzeň)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

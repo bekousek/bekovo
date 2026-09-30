@@ -1,0 +1,45 @@
+{
+  "id": "programovani-cr-roboti-spion",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Robotí špión — rozhodovací diagram",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/116_roboti_spion.pdf",
+  "description": "Roboti z Centra robotiky nosí nákrčníky v barvě, kterou jim určí diagram (velké uši? usmívá se? jakou má barvu trupu?). Který ze čtyř robotů má špatný nákrčník, a je tedy špión?",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "10–15 min",
+  "keywords": [
+    "vývojový diagram",
+    "rozhodovací strom",
+    "podmínka",
+    "ano/ne",
+    "rozcvička",
+    "logika",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák projde rozhodovací diagram a podle pozorování vlastností vyhodnotí, který objekt pravidlo porušuje.",
+  "materials": [
+    "Vytištěné zadání s diagramem a obrázky robotů (příloha 1)"
+  ],
+  "procedure": "Hodí se jako úvodní rozcvička pro jednotlivce, dvojice nebo skupiny.\n\nŽáci si přečtou zadání: mezi roboty se vloudil špión. Všichni roboti mají v zimě nosit nákrčník v barvě podle firemního diagramu. Zeptejte se, jestli rozumí slovům interní a diagram.\n\nŽáci u každého robota projdou diagram od shora (velké uši — ano/ne, usmívá se — ano/ne, barva trupu, žluté ruce) a porovnají výsledek s nákrčníkem, který robot opravdu má. Odpověď zakroužkují — pozor, jednou z možností je i „ani jedna varianta není správná“.\n\nReflexe: Znáte hru, která funguje podobně? (Myslím si zvíře.) K čemu jsou v ní otázky? Každá další otázka zúží okruh možností.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/116_roboti_spion.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

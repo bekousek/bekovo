@@ -1,0 +1,44 @@
+{
+  "id": "ovladani-cr-mistr-slozek-a-souboru",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "soubory-a-slozky",
+  "title": "Mise: Mistr složek a souborů",
+  "description": "Pracovní list se třemi misemi: vytvoř si složku se jménem, v ní tři podsložky a nakonec textový soubor uložený na správné místo. Kdo splní, získá titul Mistr složek a souborů.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "složka",
+    "soubor",
+    "podsložka",
+    "Průzkumník",
+    "ukládání",
+    "mise",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák samostatně vytvoří strukturu složek a uloží soubor na určené místo.",
+  "materials": [
+    "Počítač pro každého žáka",
+    "Pracovní list s misemi (příloha 1)"
+  ],
+  "procedure": "Motivace: dnes plníte mise a na konci získáte titul Mistr složek a souborů.\n\nRozdejte pracovní list a ještě před samostatnou prací projděte všechny body. Mise 1 — vytvoř složku se svým jménem. Mise 2 — uvnitř vytvoř tři další složky a zapiš jejich názvy. Mise 3 — v textovém editoru napiš jméno, oblíbené jídlo a koníček a soubor ulož na určené místo; zapiš jeho název. Za splněnou misi si žák zaškrtne „Hotovo“.\n\nReflexe: Jaký je rozdíl mezi složkou a souborem? Proč složky používáme? Co bylo nejtěžší?\n\nHodí se jako navazující hodina po kartě „První kroky s počítačem“.",
+  "files": [
+    {
+      "label": "Metodika a pracovní list (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Mise-Mistr-slozek-a-souboru.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "programovani-cr-bludiste-scratch",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Scratch: Gob v bludišti",
+  "url": "https://scratch.mit.edu/",
+  "description": "Gob musí projít bludištěm, posbírat všechny klíče a dojít domů. Pod některými klíči se skrývá číslice tajného čtyřmístného kódu. Učitel připraví projekt s úkoly a skrytými programy, děti programují jen pohyb Goba.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "45–60 min",
+  "keywords": [
+    "Scratch",
+    "bludiště",
+    "pohyb",
+    "posloupnost",
+    "kód",
+    "hra",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák naprogramuje pohyb postavy tak, aby prošla bludištěm přes všechny kontrolní body.",
+  "materials": [
+    "Počítač s internetem",
+    "Učitelský účet ve Scratchi s připraveným projektem"
+  ],
+  "procedure": "Motivace: Gob je strnulý jako socha a ty ho musíš rozpohybovat. Projdi bludištěm, posbírej všechny klíče a zapamatuj si čtyři čísla v pořadí, ve kterém je najdeš — tvoří tajný kód.\n\nPříprava učitele: ve svém účtu vytvořte projekt (bludiště jako pozadí, Gob, klíče, domeček) a sdílejte ho dětem. U některých úkolů předpřipravte bloky, takže děti nepotřebují předchozí znalost Scratche. Skryté programy: u Goba reakce na dotyk klíče, u čtyř klíčů odhalení číslice, u ostatních jen zmizení. Snímky programů jsou v metodice.\n\nDěti účet nepotřebují — jen pokud si chtějí projekt uložit.\n\nKód, který děti získají, můžete použít jako „klíč“ do další hodiny.",
+  "files": [
+    {
+      "label": "Metodika se snímky programů (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/89_bludiste.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

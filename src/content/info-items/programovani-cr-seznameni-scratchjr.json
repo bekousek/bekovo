@@ -1,0 +1,47 @@
+{
+  "id": "programovani-cr-seznameni-scratchjr",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Seznámení s aplikací ScratchJr",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/249_Seznameni-s-aplikaci-ScratchJr.pdf",
+  "description": "Průvodce prostředím ScratchJr po částech — plocha, postavy, pozadí, kategorie bloků — se snímky obrazovky v češtině. Děti každou část hned zkoušejí.",
+  "type": "blok",
+  "equipment": [
+    "tablet"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "3–4 × 45 min",
+  "keywords": [
+    "ScratchJr",
+    "iPad",
+    "úvod",
+    "prostředí",
+    "bloky",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák se zorientuje v prostředí ScratchJr a vyzkouší si všechny hlavní skupiny bloků.",
+  "materials": [
+    "iPady s aplikací ScratchJr",
+    "Projektor nebo interaktivní tabule (ideálně zrcadlení iPadu, např. Apple TV)"
+  ],
+  "procedure": "Metodika je obrazový průvodce: po stránkách ukazuje jednotlivé části aplikace a popisuje je česky. Promítejte ji a u každé části nechte děti hned zkoušet na svém iPadu.\n\nRozvrhněte si ji do tří až čtyř hodin — je to delší seznámení, ne jedna lekce.\n\nPozn.: metodika zmiňuje i online verzi ScratchJr na codejr.org, ta ale už nefunguje (odkaz vrací chybu). Počítejte s aplikací na iPadu.",
+  "files": [
+    {
+      "label": "Obrazový průvodce ScratchJr (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/249_Seznameni-s-aplikaci-ScratchJr.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

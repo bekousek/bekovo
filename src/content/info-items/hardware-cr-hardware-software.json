@@ -1,0 +1,45 @@
+{
+  "id": "hardware-cr-hardware-software",
+  "categoryId": "hardware",
+  "title": "Digitální zařízení — hardware a software",
+  "description": "Na co si sáhnu je hardware, programy jsou software. Pohybová hra s kartičkami, skládání počítače z popisků a na závěr „lovci chyb“ s pravdivými a nepravdivými tvrzeními.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "hardware",
+    "software",
+    "vstupní zařízení",
+    "výstupní zařízení",
+    "části počítače",
+    "třídění",
+    "pohybová hra",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák rozliší hardware a software, pojmenuje části počítače a rozdělí je na vstupní a výstupní zařízení.",
+  "materials": [
+    "Cedule HARDWARE a SOFTWARE",
+    "Kartičky s pojmy na pohybovou hru (příloha 1)",
+    "Obrázek počítače a kartičky s názvy částí pro každou skupinu (příloha 2)"
+  ],
+  "procedure": "Rozhovor: jaká digitální zařízení používáte doma? Fungoval by tablet bez aplikací? A aplikace bez tabletu? Na tabuli: HARDWARE = na co si sáhnu, to „tvrdé“; SOFTWARE = programy a aplikace, to „měkké“.\n\nPohybová hra: na dvě strany třídy dejte cedule HARDWARE a SOFTWARE. Děti postupně dostávají kartičku, odnesou ji ke správné ceduli a řeknou proč.\n\nRozebíráme počítač: skupiny po 4–5 přiřazují kartičky s názvy k obrázku počítače a periferií. Po kontrole rozdělte zařízení na vstupní a výstupní.\n\nLovci chyb: čtete tvrzení a děti zvedají ruku, když je pravdivé („Minecraft je hardware.“ ✗, „Klávesnice je hardware.“ ✓, „Tablet bez softwaru nebude fungovat.“ ✓).",
+  "files": [
+    {
+      "label": "Metodika a kartičky k tisku (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Digitalni-zarizeni-hardware-software.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

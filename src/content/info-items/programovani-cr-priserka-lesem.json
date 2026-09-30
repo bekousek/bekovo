@@ -1,0 +1,48 @@
+{
+  "id": "programovani-cr-priserka-lesem",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Proveď příšerku bezpečně lesem",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/93_proved_priserku_lesem.pdf",
+  "description": "Šest plánků lesa a pět šipkových programů: skupina přiřadí programy k plánkům a pro poslední plánek napíše program sama. Pak si skupiny programy navzájem zkontrolují.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "duration": "15–20 min",
+  "keywords": [
+    "unplugged",
+    "šipky",
+    "krokování",
+    "čtení programu",
+    "plánek",
+    "mřížka",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák přečte šipkový program, spojí ho s trasou na plánku a sám zapíše program pro novou trasu.",
+  "materials": [
+    "Sada 12 karet pro každou skupinu (příloha 1, ideálně zalaminovat)",
+    "Stíratelná fixa do každé skupiny"
+  ],
+  "procedure": "Příprava: vytiskněte a zalaminujte karty — do každé skupiny šest plánků lesa a šest karet s programy (program 6 je prázdný).\n\nMotivace: pomůžeme příšerkám bezpečně projít lesem domů, cestou se musí vyhnout stromům. Příšerka začíná vlevo dole.\n\nÚkol (10 min): přiřaďte pět programů k pěti plánkům. K poslednímu plánku napište program šipkami fixou na kartu č. 6. Při práci sledujte, jestli se zapojují všichni a jak spolu mluví.\n\nKontrola: jedna skupina popíše, který plánek dala k programu 1, ostatní si podle toho zkontrolují své řešení. Vlastní programy č. 6 položte doprostřed — jsou zapsané stejně? Jak je nejrychleji ověřit? (Každá skupina zkontroluje cizí program — nebo se skupiny posunou po stanovištích.)\n\nReflexe palcem (líbilo / celkem / ne) a rukou od země (jak těžké to bylo).",
+  "files": [
+    {
+      "label": "Metodika a karty k tisku (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/93_proved_priserku_lesem.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

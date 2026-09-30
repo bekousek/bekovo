@@ -1,0 +1,63 @@
+{
+  "id": "medialni-cr-vizualni-smog",
+  "categoryId": "medialni-gramotnost",
+  "title": "Vizuální smog — úniková hra",
+  "url": "https://read.bookcreator.com/CssB4GlMBTNgn9cduUlQlwyZN7t2/QrgOg2xYRhGDlcZTNwRxug",
+  "description": "Online úniková hra o reklamě a vizuálním smogu ve městě. Motivační kniha „Plzeň tě potřebuje!“, pak skupiny postupují přes úkoly (Flippity, LearningApps) a za každý vyřešený získají kód do další místnosti.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "30–60 min",
+  "keywords": [
+    "vizuální smog",
+    "reklama",
+    "veřejný prostor",
+    "úniková hra",
+    "escape room",
+    "MS Teams",
+    "Book Creator",
+    "LearningApps",
+    "Flippity",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žáci ve skupině spolupracují online a přemýšlejí, jak reklama a grafika ovlivňují veřejný prostor.",
+  "materials": [
+    "PC (případně mobil) pro každého žáka s internetem",
+    "MS Teams (nebo jiné prostředí, kde lze odemykat úkoly kódem)",
+    "Motivační kniha v Book Creatoru a úkoly v Flippity a LearningApps (odkazy v metodice)"
+  ],
+  "procedure": "Žáci si před hrou samostatně projdou knihu „Plzeň tě potřebuje!“ v Book Creatoru — je to motivační úvod.\n\nV MS Teams připravte řadu týmů (bez členů), každý s jedním úkolem jako příspěvkem. Přístup do dalšího týmu se odemyká kódem, který skupina získá vyřešením úkolu. Ukázkové úkoly k vizuálnímu smogu jsou hotové ve Flippity a LearningApps.\n\nSkupiny komunikují ve skupinových místnostech hlavní schůzky předmětu. Učitel do nich může vstupovat a posílat hromadná upozornění.\n\nKdo dojde do posledního týmu, napíše učiteli. Ostatní dostanou čas dokončit, pak se všichni vrátí do společné schůzky na zpětnou vazbu: úkoly, obtížnost, komunikace ve skupině.\n\nMetodika zároveň slouží jako šablona — stejným způsobem si v Teams postavíte únikovou hru na jakékoli jiné téma. Bez Teams stačí dávat úkoly postupně a kódy kontrolovat sami.",
+  "files": [
+    {
+      "label": "Metodika — příprava únikovky v MS Teams (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/101_vizualni_smog.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úkol ve Flippity",
+      "href": "https://www.flippity.net/sh.php?k=1rqcSDG4pkP3IVgygPE0m0IWP-xP-XFtk-zTjMfVgZy4",
+      "type": "other"
+    },
+    {
+      "label": "Úkol v LearningApps (1)",
+      "href": "https://learningapps.org/watch?v=pa8m9a68n21",
+      "type": "other"
+    },
+    {
+      "label": "Úkol v LearningApps (2)",
+      "href": "https://learningapps.org/watch?v=p2idz7bqn21",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Patrik Vaněk, FPE ZČU v Plzni)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

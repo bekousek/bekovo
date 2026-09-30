@@ -1,0 +1,50 @@
+{
+  "id": "robotika-cr-microbit-mazlicek",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "micro:bit: domácí mazlíček",
+  "description": "Děti vystřihnou a ozdobí papírové zvířátko, vloží do něj micro:bit a naprogramují, jak ho krmit, uspat nebo pohladit. Každá činnost je vlastní funkce.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "4 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "funkce",
+    "tlačítka",
+    "tamagoči",
+    "výroba",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří a zavolá vlastní funkce a pochopí, proč se opakovaný kód vyplatí zabalit do jednoho bloku.",
+  "materials": [
+    "micro:bity",
+    "iPady (nebo PC) s MakeCode",
+    "Šablona zvířátka (příloha 1)",
+    "Pastelky, fixy, nůžky, lepidlo",
+    "Ulamovací nůž na otvory pro LED displej a tlačítka A+B"
+  ],
+  "procedure": "Předpoklad: děti umí založit projekt, napsat jednoduchý program a nahrát ho do micro:bitu.\n\nMotivace: dnes si z micro:bitů vyrobíme elektronická zvířátka. Jaké máte doma mazlíčky, nebo jaké byste chtěli?\n\nVýroba: podle šablony děti zvířátko vystřihnou, vybarví a slepí. Vyřízněte otvory pro displej a tlačítka.\n\nDo jedné šablony vložte micro:bit a společně sepište na flipchart, co má mazlíček umět: jak ho krmit, uspat, pohladit…\n\nV MakeCode ukažte kategorii Funkce: jak funkci vytvořit, pojmenovat a zavolat. Funkce je kus kódu, který se v programu dá použít opakovaně jako jeden blok. Pak děti pracují podle pracovního listu (příloha 3).\n\nHotový program nahrají do mazlíčka, otestují a na konci si zvířátka navzájem předvedou.",
+  "files": [
+    {
+      "label": "Metodika, šablona zvířátka a pracovní list (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/36_micro_mazlik.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}
