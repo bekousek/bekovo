@@ -1,0 +1,65 @@
+{
+  "id": "bezpecnost-interland-reka-reality",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
+  "title": "Interland: Řeka reality",
+  "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland/landing/reka-reality",
+  "description": "Ostrov lekce Neskákej na fejky: při přechodu řeky žák rozlišuje fakta od výmyslů a nenaletí phisherovi. Hra na konec lekce o phishingu, falešných profilech a dezinformacích.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min (celá lekce 2–3 hodiny)",
+  "keywords": [
+    "phishing",
+    "fejky",
+    "falešný profil",
+    "dezinformace",
+    "hoax",
+    "boti",
+    "phisher",
+    "kritické myšlení",
+    "Interland",
+    "Internetoví úžasňáci",
+    "Be Internet Awesome",
+    "Google"
+  ],
+  "language": "cs",
+  "goal": "Žáci poznají typické znaky phishingu a falešného profilu, vědí, jak reagovat na zprávu od neznámého, a u informací na internetu se ptají po zdroji, motivu a tom, kdo z nich má prospěch.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (nebo dvojici)",
+    "Projektor na prezentaci"
+  ],
+  "procedure": "Phishing: projděte znaky podvodné zprávy — podezřelá adresa odesílatele, neosobní oslovení, chyby ze strojového překladu, naléhavost („hned“, „jinak přijdeš o…“), nezabezpečený odkaz a po kliknutí nedodělaná stránka. Pak společně posuzujte ukázkové e-maily: je tenhle v pořádku? Podle čeho to poznáte?\n\nKdo doopravdy jsi: jak ověřit profil — podezřelá fotka, jméno, informace o sobě, jak dlouho účet existuje, jestli aktivita odpovídá. Nad situacemi volte reakci (ignorovat, zeptat se „my se známe?“, zkontrolovat profil, zablokovat, přidat do přátel, dát mu údaje): žádost o sledování od neznámého „Roberta“; SMS „Ahoj, tady Karolína, pamatuješ si mě z léta?“; zpráva „Viděl jsem tě na chodbě, kde bydlíš? Vyzvednu tě.“\n\nBoti a důvěryhodnost: co je bot. Čtyři otázky k ověření informace — zdravý rozum, odbornost zdroje, motiv, kdo z toho má prospěch. U řetězových zpráv a hoaxů hledejte chybějící zdroj a datum, nelogičnost a výzvu „pošli to dál“.\n\nInterland: žáci hrají Řeku reality jednotlivě (mladší ve dvojicích). Po hře debata: Kdo je phisher a jak se ve hře chová? Kdy jste museli rozhodovat, jestli je něco na internetu skutečné, a čeho jste si všimli? Podle čeho poznáte, že je nějaká situace divná? Jaký je to pocit narazit na něco podezřelého a co uděláte, když si nejste jistí? Jednu věc, kterou budete teď dělat jinak.",
+  "files": [
+    {
+      "label": "Prezentace ze školení — Lekce 2: Neskákej na fejky",
+      "href": "https://docs.google.com/presentation/d/1d69Z7mTIR_9Fx_E7ti_BvR5Rp0bBFwydqPcEnEbWD-g/edit",
+      "type": "slides",
+      "note": "Šablona — udělej si kopii a uprav. Lekce je na víc hodin, odkazy a pokyny jsou v poznámkách ke snímkům."
+    },
+    {
+      "label": "Metodika Internetoví úžasňáci",
+      "href": "https://drive.google.com/file/d/1LFBvmxGJzbFq3tgwZqu64TVPZIMpGVe5/view",
+      "type": "pdf",
+      "note": "Lekce 2 od s. 29, Řeka reality s. 57."
+    },
+    {
+      "label": "Plakáty s tipy ke všem lekcím",
+      "href": "https://drive.google.com/file/d/1P0TykvJv5tKrsYkRC30vp5N3up1JnMso/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Google & Jules a Jim — Internetoví úžasňáci",
+    "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland"
+  },
+  "added": "2026-09-30"
+}

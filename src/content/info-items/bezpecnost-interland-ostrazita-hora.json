@@ -1,0 +1,63 @@
+{
+  "id": "bezpecnost-interland-ostrazita-hora",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Interland: Ostražitá hora",
+  "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland/landing/ostrazita-hora",
+  "description": "Ostrov lekce Sdílej s rozmyslem: na horské cestě žák rozhoduje, co a s kým sdílí, a nenechá se vyzradit megasdílečem. Hra jako vyvrcholení lekce o digitální stopě a soukromí.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min (celá lekce 2–3 hodiny)",
+  "keywords": [
+    "sdílení",
+    "digitální stopa",
+    "soukromí",
+    "osobní údaje",
+    "reputace",
+    "megasdíleč",
+    "Interland",
+    "Internetoví úžasňáci",
+    "Be Internet Awesome",
+    "Google"
+  ],
+  "language": "cs",
+  "goal": "Žáci si uvědomí, že co jednou zveřejní, na internetu zůstane a může to vidět i ten, s kým nepočítali. Rozliší, co sdílet veřejně, co jen s přáteli a co vůbec, a respektují, že soukromí druhých může mít jiné hranice než jejich.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (nebo dvojici)",
+    "Projektor na prezentaci"
+  ],
+  "procedure": "Úvod bez počítače: každý si vymyslí (nepravdivé) tajemství a ve dvojici se baví, jestli by ho někomu svěřil, komu a proč — a jak by se cítil, kdyby ho někdo prozradil bez jeho vědomí. Pak totéž společně ve třídě.\n\nDigitální stopa: vysvětlete, že každý klik, fotka, komentář i lajk po nás zůstává jako stopa v blátě. Skupiny si vyberou známou osobnost a hrají si na digitální detektivy — co o ní píšou média, co sdílí sama, jaké fotky, k čemu se vyjadřuje. Z nasbíraných stop pak napíšou krátkou charakteristiku (co má ráda, na čem jí záleží) a porovnají, nakolik je to pravdivý obraz.\n\nModelové situace k diskusi: spolužačka má po štípnutí hmyzem ošklivou vyrážku a nechce, aby se to vědělo; někdo vyfotí cizí deník a zveřejní ho; kamarádovi napíšeš veřejně „Hezkou dovolenou“ (co jsi tím prozradil?); spolužák si založil falešný účet jiného žáka s jeho osobními údaji. Mají to ostatní právo vědět? Komu to říct?\n\nInterland: žáci hrají Ostražitou horu jednotlivě (mladší ve dvojicích). Po hře debata: Které příspěvky ze hry byste sdíleli i ve skutečnosti a proč? Proč se jedné postavě říká megasdíleč a jak jeho chování ovlivňuje hru? Stalo se vám, že jste omylem nasdíleli něco, co jste neměli? Co uděláte, když něco osobního nasdílíte vy — nebo někdo o vás? Jednu věc, kterou budete teď dělat jinak.\n\nNavazující aktivity v metodice: Jak nás vidí ostatní (trička s emoji, podle kterých třída hádá majitele), Oříznutá realita (co fotka nechá mimo rámec).",
+  "files": [
+    {
+      "label": "Prezentace ze školení — Lekce 1: Sdílej s rozmyslem",
+      "href": "https://docs.google.com/presentation/d/1KXKtePR5w4Hn1iaeUTX6B7fhV0MeVpe67n0MTUmVLmY/edit",
+      "type": "slides",
+      "note": "Šablona — udělej si kopii a uprav. Lekce je na víc hodin, odkazy a pokyny jsou v poznámkách ke snímkům."
+    },
+    {
+      "label": "Metodika Internetoví úžasňáci",
+      "href": "https://drive.google.com/file/d/1LFBvmxGJzbFq3tgwZqu64TVPZIMpGVe5/view",
+      "type": "pdf",
+      "note": "Lekce 1 od s. 9, Ostražitá hora s. 26."
+    },
+    {
+      "label": "Plakáty s tipy ke všem lekcím",
+      "href": "https://drive.google.com/file/d/1P0TykvJv5tKrsYkRC30vp5N3up1JnMso/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Google & Jules a Jim — Internetoví úžasňáci",
+    "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland"
+  },
+  "added": "2026-09-30"
+}

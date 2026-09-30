@@ -1,0 +1,65 @@
+{
+  "id": "bezpecnost-interland-kralovstvi-laskavosti",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "kybersikana",
+  "title": "Interland: Království laskavosti",
+  "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland/landing/kralovstvi-laskavosti",
+  "description": "Ostrov lekce Laskavost je super: žák blokuje a nahlašuje potížisty a šíří laskavost, aby se do města vrátil klid. Hra na konec lekce o kyberšikaně, roli zastánce a tónu zpráv.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "duration": "45 min (celá lekce 2–3 hodiny)",
+  "keywords": [
+    "kyberšikana",
+    "laskavost",
+    "zastánce",
+    "přihlížející",
+    "blokování",
+    "nahlášení",
+    "komunikace",
+    "potížista",
+    "Interland",
+    "Internetoví úžasňáci",
+    "Be Internet Awesome",
+    "Google"
+  ],
+  "language": "cs",
+  "goal": "Žáci rozliší role při šikaně (agresor, oběť, přihlížející, zastánce), znají možnosti oběti i zastánce (nereagovat, zablokovat, nahlásit, říct dospělému) a uvědomí si, jak snadno se psaná zpráva nebo popisek obrázku pochopí jinak.",
+  "materials": [
+    "Počítač nebo tablet s prohlížečem pro každého žáka (nebo dvojici)",
+    "Projektor na prezentaci"
+  ],
+  "procedure": "Nepřihlížej bezpráví: představte čtyři role při šikaně — agresor, oběť, přihlížející a zastánce. Co může oběť udělat: nereagovat, agresora zablokovat, nahlásit ho v aplikaci a říct to dospělému, kterému věří.\n\nJak se zastat druhých: skupiny dostanou situace a ke každé vymyslí veřejnou a soukromou reakci zastánce — spolužákovi se posmívají pod videem, kde zpívá; snímek s kamarádovým komentářem se zesměšněním koluje po škole; někdo si založil falešný účet spolužáka a píše pod ním ošklivosti o druhých.\n\n…ale řekni to slušně: skupiny přepisují negativní komentáře tak, aby stejný názor zazněl konstruktivně, a hledají odpověď, která konverzaci obrátí k lepšímu.\n\nPozor, jak to říkáš: čtěte nahlas stejné zprávy („Je mi to jedno“, „HNED MI ZAVOLEJ“, „Ok, dobře“) pokaždé jiným tónem. Jak to může pochopit příjemce? Jak by to odesílatel mohl napsat jasněji? Jak slova mění smysl: k jednomu obrázku dva opačné popisky („Nejlepší vědec na světě“ × „Trapný šprt“) — jak popisek mění význam a pocit?\n\nInterland: žáci hrají Království laskavosti jednotlivě (mladší ve dvojicích). Po hře debata: Která situace vás zaujala nejvíc? Kdy je vhodné někoho zablokovat a kdy nahlásit? Proč se postavě říká potížista a jak ovlivňuje hru? Kdy jste sami na internetu šířili laskavost? Co budete dělat jinak?",
+  "files": [
+    {
+      "label": "Prezentace ze školení — Lekce 4: Laskavost je super",
+      "href": "https://docs.google.com/presentation/d/1mFeQoDT_cx-sY1BE2e7VG9vfqLwmmD7H63cVI2VlJv0/edit",
+      "type": "slides",
+      "note": "Šablona — udělej si kopii a uprav. Lekce je na víc hodin, odkazy a pokyny jsou v poznámkách ke snímkům."
+    },
+    {
+      "label": "Metodika Internetoví úžasňáci",
+      "href": "https://drive.google.com/file/d/1LFBvmxGJzbFq3tgwZqu64TVPZIMpGVe5/view",
+      "type": "pdf",
+      "note": "Lekce 4 od s. 67, Království laskavosti s. 85."
+    },
+    {
+      "label": "Plakáty s tipy ke všem lekcím",
+      "href": "https://drive.google.com/file/d/1P0TykvJv5tKrsYkRC30vp5N3up1JnMso/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Google & Jules a Jim — Internetoví úžasňáci",
+    "url": "https://beinternetawesome.withgoogle.com/cs_cz/interland"
+  },
+  "added": "2026-09-30"
+}
