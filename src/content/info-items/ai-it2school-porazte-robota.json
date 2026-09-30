@@ -1,0 +1,62 @@
+{
+  "id": "ai-it2school-porazte-robota",
+  "categoryId": "ai",
+  "subcategoryId": "jak-ai-funguje",
+  "title": "Porazte robota: minišachy, hodné a zlé opičky a zlatá horečka (IT2School, modul KI-B3)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/8_KI-Basismodule/KI-B3_SchlagDenRoboter",
+  "description": "Unplugged hry, ve kterých žáci sami hrají AI: v minišachách „robot“ z papírových žetonů postupně přestane prohrávat (posilované učení), podle obrázků opiček se učí, které koušou (učení s učitelem), a třídí nálezy zlata do skupin (učení bez učitele). K tomu klasická AI z pravidel a faktů.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2–5 h",
+  "keywords": [
+    "IT2School",
+    "strojové učení",
+    "posilované učení",
+    "učení s učitelem",
+    "učení bez učitele",
+    "klasická AI",
+    "minišachy",
+    "Hexapawn",
+    "rozhodovací pravidla",
+    "shlukování",
+    "unplugged",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci charakterizují AI a zařadí příklady ze svého života, porovnají klasickou AI s učící se AI a vysvětlí principy učení s učitelem, bez učitele a posilovaného učení.",
+  "materials": [
+    "Sbírka příkladů AI KI-B3.1 (nebo kreslená dilemata z KI-B1)",
+    "Minišachy KI-B3.2.x: hrací plán, karty tahů, barevné žetony",
+    "Klasická AI KI-B3.3, hra s opičkami KI-B3.4 (i jako prezentace)",
+    "Učení bez učitele KI-B3.5a Zlatá horečka nebo KI-B3.5b Nákupní košík",
+    "Zápisy do sešitu KI-B3.6, ke každé hře je vysvětlující video (odkazy v seznamu materiálů)"
+  ],
+  "procedure": "1.–2. hodina, co je AI? Klasická AI a strojové učení: žáci u příkladů z běžného života diskutují, jestli jde o AI a jak moc je „chytrá“. Pak hrají minišachy proti „robotovi“, kterého představují karty s tahy a žetony. Po každé prohře robot odebere žeton tahu, který vedl k prohře, takže se postupně učí vyhrávat. Porovnání se strojem, který hraje podle pevně daných pravidel.\n\n3. hodina, klasická AI: znalosti se zapíšou jako fakta a pravidla a logickým usuzováním se z nich odvozují nové.\n\n4. hodina, učení s učitelem: podle obrázků opiček s různými znaky se žáci učí pravidlo, které opičky koušou a které ne, a zjišťují, proč se naučený model může splést.\n\n5. hodina, učení bez učitele a shrnutí: nálezy zlata (nebo nákupní košíky) žáci roztřídí do skupin bez předem daných kategorií. Na závěr přiřazují k problémům vhodný přístup.\n\nNa 2 h stačí první dvouhodina. Na 3–4 h se zbytek dá zvládnout skládankovou metodou (každá skupina jeden typ učení). Minišachy (Hexapawn) mají i českou kartu „Strojové učení 04“ z AI dětem.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu KI-B3 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/8_KI-Basismodule/KI-B3_SchlagDenRoboter/pdf/KI-B3.0_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu KI-B3 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/8_KI-Basismodule/KI-B3_SchlagDenRoboter/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

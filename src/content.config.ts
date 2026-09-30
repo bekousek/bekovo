@@ -309,7 +309,7 @@ const infoItems = defineCollection({
     duration: z.string().optional(),
     /** Klíčová slova pro vyhledávání. */
     keywords: z.array(z.string()).default([]),
-    language: z.enum(['cs', 'sk', 'en']).optional(),
+    language: z.enum(['cs', 'sk', 'en', 'de']).optional(),
     /** Detail hodiny — vyplň jen u hotových bloků. Odstavce oddělené prázdným řádkem. */
     goal: z.string().optional(),
     materials: z.array(z.string()).optional(),

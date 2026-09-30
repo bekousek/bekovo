@@ -1,0 +1,61 @@
+{
+  "id": "robotika-it2school-calliope-mini",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Calliope mini: Robo-rallye, Hanna jde do nemocnice a alarm pro třídní výlet (IT2School, modul B8)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B8_Calliope",
+  "description": "Nejdřív unplugged Robo-rallye (co znamená programovat), pak seznámení s deskou Calliope mini v MakeCode nebo Open Roberta. Žáci pak řeší příběhové zakázky: pomůcky pro Hannu v nemocnici (proti nudě, alarm, teploměr) nebo pro třídu 7.A na výletě (alarm, krokoměr).",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–8 h",
+  "keywords": [
+    "IT2School",
+    "Calliope mini",
+    "MakeCode",
+    "Open Roberta",
+    "mikrokontrolér",
+    "EVA",
+    "alarm",
+    "krokoměr",
+    "Robo-rallye",
+    "unplugged",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci vidí informatiku jako tvořivou činnost, chápou princip vstup–zpracování–výstup a naprogramují desku tak, aby řešila problém z jejich světa.",
+  "materials": [
+    "Desky Calliope mini (lze nahradit micro:bitem, úlohy stačí drobně upravit)",
+    "Počítače s internetem (makecode.calliope.cc nebo lab.open-roberta.org)",
+    "Pracovní listy B8.1–B8.6",
+    "Na Robo-rallye papírky A/B, případně píšťalka nebo triangl",
+    "Na alarm a krokoměr: karton, lepidlo, nůžky, krokosvorky"
+  ],
+  "procedure": "Úvod bez počítače (1. stupeň nebo třídy bez zkušeností, 45 min): Robo-rallye (B8.1), kde jeden žák je robot a ostatní ho řídí přesnými příkazy.\n\nSeznámení s deskou (15–30 min): co je na desce vidět (tlačítka, LED matice, senzory, napájení)? Ukázka editoru: jak se program píše a jak se nahraje do desky (B8.2).\n\nPrvní úlohy (45 min): krátké programovací zakázky (B8.3, na 2. stupni tutoriál B8.5), při kterých žáci poznají bloky.\n\nPříběhový projekt (60–120 min): 1. stupeň pracuje s příběhem „Hanna musí do nemocnice“ (B8.4) a navrhne jí pomůcky: něco proti nudě, alarm pro plyšovou ovečku, odpovídání, když se jí špatně mluví, měření teploty. 2. stupeň řeší „7.A na školním výletě“ (B8.6): alarm (lehká a těžká varianta), krokoměr a další.\n\nPrezentace: skupiny předvedou řešení a na projektoru ukážou program. Pak může následovat vlastní nápad.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B8 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B8_Calliope/pdf/0_B8_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B8 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B8_Calliope/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

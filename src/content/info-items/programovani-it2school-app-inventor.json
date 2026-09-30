@@ -1,0 +1,56 @@
+{
+  "id": "programovani-it2school-app-inventor",
+  "categoryId": "programovani",
+  "subcategoryId": "blokove",
+  "title": "Moje aplikace: kvíz a kreslení na fotku v App Inventoru (IT2School, modul B7)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B7_MeineApp",
+  "description": "Žáci podle tutoriálu naprogramují v MIT App Inventoru jednoduchý kvíz, podle karet aplikaci, která vyfotí obrázek a nechá po něm kreslit prstem, a pak vlastní aplikaci, třeba k jinému předmětu. Rozšíření: přes Bluetooth ovládají světlo BlueCoLight.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "4–6 h",
+  "keywords": [
+    "IT2School",
+    "App Inventor",
+    "mobilní aplikace",
+    "Android",
+    "kvíz",
+    "blokové programování",
+    "Bluetooth",
+    "BlueCoLight",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají prostředí App Inventoru (Designer a Blocks), naprogramují a otestují první mobilní aplikaci a navrhnou vlastní.",
+  "materials": [
+    "Úvod pro žáky B7.1, tutoriál kvízu B7.2 a karty B7.3",
+    "Počítače se stabilním internetem (App Inventor neběží offline) a mobily s Androidem, případně emulátor",
+    "Volitelně sada BlueCoLight (B7.4, návod a bezpečnostní pokyny)"
+  ],
+  "procedure": "Úvod: učitel krátce ukáže App Inventor a vysvětlí vztah mezi návrhem obrazovky (Designer) a programem z bloků (Blocks).\n\nKvíz (1 h): žáci podle tutoriálu B7.2 postaví jednoduchou kvízovou aplikaci a vyzkoušejí ji v mobilu.\n\nKreslení na fotku (2–3 h): podle karet B7.3 vznikne aplikace, která tlačítkem vyfotí obrázek a pak se po něm dá kreslit tahy prstu.\n\nVlastní projekt: žáci navrhnou a naprogramují vlastní aplikaci. Můžete zadat, že má sloužit při výuce jiného předmětu (slovíčka, kvíz z dějepisu…).\n\nRozšíření: s modulem BlueCoLight (B7.4) aplikace přes Bluetooth ovládá barevné světlo.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B7 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B7_MeineApp/pdf/0_B7_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B7 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B7_MeineApp/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

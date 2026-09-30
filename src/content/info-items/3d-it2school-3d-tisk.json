@@ -1,0 +1,62 @@
+{
+  "id": "3d-it2school-3d-tisk",
+  "categoryId": "3d",
+  "subcategoryId": "modelovani",
+  "title": "3D tisk: vykrajovátka, Tinkercad a parametrické modely v BlocksCADu (IT2School, modul B4)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B4_3D-Druck",
+  "description": "Tři navazující cesty k 3D tisku: vykrajovátka na cukroví z nakreslené siluety (CookieCAD), vlastní model v Tinkercadu nebo SketchUpu od nápadu z plastelíny po výtisk a parametrická květina naprogramovaná z bloků v BlocksCADu. Na závěr papírové VR brýle na prohlížení modelů.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "3d-tiskarna"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–6 h",
+  "keywords": [
+    "IT2School",
+    "3D tisk",
+    "CookieCAD",
+    "Cookie Caster",
+    "Tinkercad",
+    "SketchUp",
+    "BlocksCAD",
+    "parametrický model",
+    "vykrajovátko",
+    "FDM",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, jak funguje 3D tiskárna (vrstvení materiálu), vymodelují a vytisknou vlastní objekt a v BlocksCADu si vyzkoušejí cykly, proměnné a podmínky při parametrickém modelování.",
+  "materials": [
+    "Pracovní listy a karty nápovědy B4.1–B4.9",
+    "Počítače s internetem (Tinkercad, CookieCAD, BlocksCAD)",
+    "Černý karton, bílý papír, nůžky a foťák/mobil (na vykrajovátka)",
+    "Plastelína nebo LEGO na první nápady",
+    "3D tiskárna (nebo tisk přes partnerskou firmu, FabLab či online službu)"
+  ],
+  "procedure": "Úvod: kdo už slyšel o 3D tisku? Co znamená „3D“? Krátké video, jak tiskárna tiskne po vrstvách.\n\nCesta A, vykrajovátka (1. stupeň i začátečníci): žáci nakreslí tvar, přenesou ho na černý karton a vystřihnou, vyfotí na bílém pozadí a nahrají do CookieCADu, ten z fotky udělá model vykrajovátka. Po vytištění se dá společně péct cukroví. Vrstvení tiskárny si děti zkusí napodobit polevou.\n\nCesta B, vlastní model (Tinkercad/SketchUp): nápad (brainstorming nebo Design Thinking) a první model z plastelíny či LEGA, představení ve skupině a zpětná vazba, modelování v Tinkercadu (doporučeno přes třídní účet s přezdívkami, bez e-mailů žáků) nebo v SketchUpu, jak funguje tiskárna (pracovní list), tisk prototypu a prezentace.\n\nCesta C, parametrický model (BlocksCAD, 2. stupeň): úvod do prostředí, cvičení z pracovního listu a karet nápovědy, model květiny z bloků (cykly, proměnné), pak vlastní parametrický projekt.\n\nZávěr: papírové VR brýle pro mobil a prohlížení vlastních modelů ve virtuální realitě.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B4 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B4_3D-Druck/pdf/0_B4_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B4 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B4_3D-Druck/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

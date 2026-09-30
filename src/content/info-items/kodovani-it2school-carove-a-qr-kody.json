@@ -1,0 +1,58 @@
+{
+  "id": "kodovani-it2school-carove-a-qr-kody",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Čárové a QR kódy: od supermarketu po QR rallye (IT2School, modul B3)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B3_Codes",
+  "description": "Žáci zjistí, jak je složený čárový kód EAN a jak se počítá kontrolní číslice (učitel ji „uhodne“ jako kouzelník), aplikacemi v mobilu zkoumají potraviny v supermarketu, vyrobí vlastní QR kódy a připraví z nich rallye po škole.",
+  "type": "blok",
+  "equipment": [
+    "mobil",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "5–8 dvouhodin",
+  "keywords": [
+    "IT2School",
+    "čárový kód",
+    "EAN",
+    "GTIN",
+    "kontrolní číslice",
+    "QR kód",
+    "supermarket",
+    "exkurze",
+    "QR rallye",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci vědí, jak je složený čárový kód EAN/GTIN, umí spočítat kontrolní číslici a vysvětlit, k čemu slouží, znají použití čárových a QR kódů v obchodě a umí QR kód sami vytvořit.",
+  "materials": [
+    "Pracovní listy B3.1–B3.10",
+    "Výrobky s čárovými kódy (potraviny, knihy, hračky)",
+    "Mobily se čtečkou čárových/QR kódů (Wi-Fi pro instalaci aplikací)",
+    "Plánek školy na QR rallye"
+  ],
+  "procedure": "Čárové kódy (1 h): žáci skenují kódy na přinesených výrobcích mobilem. Co mají všechny společné, co se stane u pokladny? Alternativní úvod: „kouzelnický trik“, kdy si učitel nechá nadiktovat kód bez poslední číslice a tu hned doplní. Pak pracovní list o stavbě kódu: kód země, výrobce, výrobek a kontrolní číslice (číslice střídavě ×1 a ×3, doplnit do celé desítky).\n\nKódy v supermarketu (2–4 h): scénář „kamarád nesnáší lepek/laktózu, jak si má vybírat jídlo?“ Skupiny si nainstalují aplikaci na skenování potravin, zkoumají výrobky (doma nebo v nejbližším obchodě) a vyplňují pracovní list. Pokud to jde, domluvte si exkurzi „do zákulisí“ obchodu: kdy se zboží skenuje, kde jsou uložené ceny, jak funguje automatické objednávání? Skupiny pak výsledky porovnají s internetem a připraví prezentaci.\n\nQR kódy (1 h): kde je potkáváme, jak jsou složené, kolik se do nich vejde. Žáci vyrobí vlastní QR kódy v generátoru.\n\nQR rallye (1–2 h): skupiny naplánují trasu po škole, rozmístí kódy (zapisují je do plánku, aby se daly zase posbírat) a vymění si trasy.\n\nRozšíření: jak budou kódy vypadat v budoucnu (RFID čipy)? Nápady se dají rozvinout metodou Design Thinking.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B3 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B3_Codes/pdf/0_B3_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B3 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B3_Codes/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

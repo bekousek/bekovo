@@ -1,0 +1,60 @@
+{
+  "id": "kodovani-it2school-od-mrkani-k-sifrovani",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "Od mrkání k šifrování: protokoly, morseovka a obrázky z čísel (IT2School, modul B1)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B1_Blinzeln",
+  "description": "Žáci si vymyslí protokol, jak se domluvit jen mrkáním, pak ve skupinách staví morseovku s baterkou a žárovičkou, plechovkový telefon, řeč paží a přenášejí obrázek pomocí čísel. Na závěr si vyrobí Caesarův šifrovací kotouč.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "3–8 h",
+  "keywords": [
+    "IT2School",
+    "protokol",
+    "kódování",
+    "dvojková soustava",
+    "morseovka",
+    "pixely",
+    "Caesarova šifra",
+    "fernkommunikace",
+    "unplugged",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, že každá komunikace potřebuje domluvená pravidla (protokol), umí zakódovat informaci do znaků (morseovka, čísla u obrázku) a znají první jednoduché šifrování.",
+  "materials": [
+    "Pracovní listy B1.1–B1.7 (verze pro 1. stupeň GS a pro 2. stupeň Sek I)",
+    "Na morseovku: baterie, drát, žárovičky, kolíčky na prádlo, dřevěné destičky, kancelářské sponky",
+    "Na plechovkový telefon: plechovky a provázek",
+    "Na Caesarův kotouč: karton, nůžky, lepidlo, kružítko, rozdvojené sponky",
+    "Pastelky na „malování podle čísel“"
+  ],
+  "procedure": "Úvod (1 h): příběh šéfredaktora Jeana-Dominiqua Baubyho, který po mrtvici (locked-in syndrom) napsal knihu jen mrkáním jednoho oka (trailer k filmu „Skafandr a motýl“, nebo příběh převyprávějte). Žáci ve dvojicích vymyslí a vyzkoušejí vlastní mrkací protokol: jak začít, jak ukončit, jak opravit chybu. Závěrečná otázka: co to má společného s informatikou?\n\nKomunikace na dálku: jak se lidé domlouvali před internetem (kouřové signály, semafor, telegraf)?\n\nKrátká varianta (asi 3 h): skupiny paralelně řeší čtyři úkoly a pak je představí: řeč paží (vlastní protokol), stavba morseovky, malování podle čísel (přenos obrázku) a plechovkový telefon.\n\nDelší varianta (4–6 h) má tři navazující bloky:\n1. Řeč paží a stavba morseovky (baterie, žárovička, kolíček jako klíč), vysílání zpráv.\n2. Obrázky z čísel: počítač zná jen čísla, jak tedy uloží obrázek? Žáci vybarvují černobílé i barevné rastry podle čísel, pak navrhnou vlastní obrázek pro souseda a vzájemně si je zkontrolují.\n3. Šifrování: jak udržet zprávu v tajnosti? Žáci slepí Caesarův kotouč, šifrují a luští zprávy a přemýšlejí, jak šifru prolomit.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu B1 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/2_Basismodule/B1_Blinzeln/pdf/0_B1_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu B1 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/2_Basismodule/B1_Blinzeln/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

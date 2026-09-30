@@ -1,0 +1,55 @@
+{
+  "id": "robotika-it2school-chytre-obleceni",
+  "categoryId": "robotika",
+  "subcategoryId": "dalsi-roboti",
+  "title": "Wearables: chytré oblečení s LEDkami a Arduinem (IT2School, modul E2)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E2_Wearables",
+  "description": "Od chytrých hodinek a textilií v medicíně k vlastnímu výrobku: žáci kreslí schémata obvodů s baterií a LEDkami, podle návodu ušijí první „chytrou“ věc (třeba plyšáka, který měří horečku) a pak navrhnou a naprogramují vlastní tričko, tašku nebo náramek.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "12–15 h",
+  "keywords": [
+    "IT2School",
+    "wearables",
+    "chytré oblečení",
+    "smart textil",
+    "Arduino",
+    "LilyPad",
+    "LED",
+    "sériové a paralelní zapojení",
+    "šití",
+    "projekt",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci poznají tvořivou stránku informatiky, prakticky pracují s elektronikou a mikrokontrolérem a znají užitečná použití „nositelné“ techniky v módě, sportu i medicíně.",
+  "materials": [
+    "Mikrokontrolér na textil (např. LilyPad Arduino), LEDky, senzory, baterie, vodivá nit, krokosvorky",
+    "Oblečení a doplňky na úpravu (tričko, taška, čepice, náramek), šicí potřeby",
+    "Počítače (Arduino IDE nebo blokové prostředí jako EduBlocks)"
+  ],
+  "procedure": "Úvod: kde se dnes používají nositelné technologie? Chytré hodinky, fitness náramky, textilie, které hlídají pacientům teplotu, dech a tep, bezpečnostní oblečení, móda.\n\nZáklady elektřiny: napětí, odpor, LED a baterie, sériové a paralelní zapojení. Žáci kreslí schémata a zapojují je krokosvorkami.\n\nPodle návodu: přidá se mikrokontrolér a žáci podle návodu vyrobí první chytrý výrobek, třeba plyšáka, který měří horečku (odkaz na návod v popisu modulu), a poznají programování Arduina.\n\nVlastní projekt: nápad (může pomoci metoda Design Thinking, modul M1), případně na zadané téma, např. „bezpečnost v silničním provozu“, pak výroba, programování a prezentace.\n\nHodí se jako projektový týden nebo spolupráce informatiky, výtvarné výchovy a fyziky.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu E2 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/5_Erweiterungsmodule/E2_Wearables/pdf/E2_Wearables.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu E2 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/5_Erweiterungsmodule/E2_Wearables/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

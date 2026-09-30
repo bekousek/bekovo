@@ -1,0 +1,59 @@
+{
+  "id": "ai-it2school-muj-asistent-snap",
+  "categoryId": "ai",
+  "subcategoryId": "prace-s-ai",
+  "title": "Můj asistent: hlasový pomocník ze Snap!, mobilu a krabice (IT2School, modul KI-A2)",
+  "url": "https://github.com/idiethelm/IT2School-mirror/tree/main/9_KI-Aufbaumodule/KI-A2_MeinAssistent",
+  "description": "Žáci připojí mobil k projektu ve Snap! a vyzkoušejí asistenta, který na pozdrav reaguje výrazem tváře. Pak ho naučí rozumět dalším větám, v projektovém plánu navrhnou vlastního asistenta (pro seniory, na slovíčka, do kuchyně) a postaví mu tělo z krabice.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "4–8 h",
+  "keywords": [
+    "IT2School",
+    "hlasový asistent",
+    "Snap!",
+    "rozpoznávání řeči",
+    "mobil",
+    "use–modify–create",
+    "projektový plán",
+    "canvas",
+    "osobní údaje",
+    "projekt",
+    "němčina"
+  ],
+  "language": "de",
+  "added": "2026-09-30",
+  "goal": "Žáci použijí AI modely ve vlastní aplikaci, navrhnou, jak má asistent s lidmi mluvit, a posoudí, jaká data potřebuje a jaká by (i z etických důvodů) sbírat neměl.",
+  "materials": [
+    "Počítače se Snap! a mobily (připojení podle úvodního projektu KI-A2.1)",
+    "Projektový plán (canvas) KI-A2.2 a šablona držáku na mobil KI-A2.3",
+    "Karton, krabice a výtvarný materiál podle přehledu KI-A2.4",
+    "Předchozí základní modul o AI (např. KI-B2 nebo KI-B3)"
+  ],
+  "procedure": "Úvod: podnět nebo kreslená dilemata o hlasových asistentech z modulu KI-B1. Cíl: postavit vlastního digitálního asistenta.\n\nUse (vyzkoušej): žáci otevřou hotový projekt, spojí mobil se Snap! a zkoušejí asistenta, který mění výraz tváře podle toho, jak ho pozdravíme.\n\nModify (uprav): projekt vylepší, aby asistent rozuměl dalším větám.\n\nCreate (vytvoř): skupiny vyplní projektový plán, co má asistent umět, jaká data potřebuje a jaká ne, a pak ho naprogramují. Nápady: asistent, který si povídá se seniory, zkouší slovíčka, radí s úkoly nebo v kuchyni předčítá další krok receptu. Asistent dostane tělo z krabice s držákem na mobil.\n\nZávěr: představení asistentů na výstavě (gallery walk) a diskuse o datech, která by asistent sbírat neměl.\n\nMateriál je zatím jen v němčině (Internet4Kids z IT2School zatím přeložili modul B2). Originál počítá s účastí zástupce partnerské firmy (Unternehmensvertreter*in), tu lze bez problému vynechat.",
+  "files": [
+    {
+      "label": "Popis modulu KI-A2 a plán hodin (PDF, německy)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/blob/main/9_KI-Aufbaumodule/KI-A2_MeinAssistent/pdf/KI-A2.0_Modulbeschreibung.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Všechny materiály modulu KI-A2 (pracovní listy, řešení)",
+      "href": "https://github.com/idiethelm/IT2School-mirror/tree/main/9_KI-Aufbaumodule/KI-A2_MeinAssistent/pdf",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "IT2School — gemeinsam IT entdecken (Wissensfabrik, OFFIS a Univerzita Oldenburg; odkaz z Internet4Kids, MFF UK)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}
