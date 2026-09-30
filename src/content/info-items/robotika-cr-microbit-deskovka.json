@@ -1,0 +1,51 @@
+{
+  "id": "robotika-cr-microbit-deskovka",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "micro:bit: desková hra s elektronickou kostkou",
+  "description": "Týmy vyrobí vlastní deskovou hru se 46 poli, portály a poli „vpřed/vzad“. Jeden micro:bit slouží jako kostka a přes rádio posílá hod figurkám z micro:bitů, které ukazují, kam se hráč posouvá.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "4 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "rádio",
+    "proměnná",
+    "podmínka",
+    "náhodné číslo",
+    "desková hra",
+    "beta testování",
+    "týmová práce",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žáci navrhnou pravidla hry a naprogramují micro:bity, které si přes rádio předávají hodnotu hodu.",
+  "materials": [
+    "micro:bity s bateriemi a kabely",
+    "PC s MakeCode",
+    "Karton, barevné papíry, lepidlo, nůžky, fixy",
+    "iPady na fotodokumentaci"
+  ],
+  "procedure": "Předpoklad: žáci už umí s micro:bitem podmínky a rádio.\n\nMotivace: jaké znáte deskové hry? Co mají společné, v čem se liší?\n\nZadání: vytvořte deskovou hru s pravidly, kde micro:bit nahradí kostku a figurky z micro:bitů reagují na to, jestli jde hráč vpřed, nebo vzad.\n\nHrací plán: 46 polí, START a CÍL. Portály A–D (dvojice polí stejné barvy, fungují oběma směry). Pole vpřed: 2× +3, 1× +1. Pole vzad: 2× −1, 1× −2, 1× −5.\n\nPrůběh v týmech po čtyřech: výroba plánu (klidně v pracovních činnostech nebo výtvarce), vymyšlení pravidel (8 min brainstorming a doptávání), slovní popis chování micro:bitu na tabuli, ukázka užitečných bloků a komentářů v kódu (kdo co naprogramoval), programování kostky a figurek, beta testování, hraní a hodnocení ve skupinách.\n\nZ autorčiny zkušenosti: na kroužku připravila jeden hrací plán předem, aby zbyl čas na programování, a stejně potřebovala hodinu navíc. Programy kostky i figurky jsou v metodice jako snímky.",
+  "files": [
+    {
+      "label": "Metodika se snímky programů a fotkami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/56_deskovka_microbit.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

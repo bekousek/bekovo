@@ -1,0 +1,49 @@
+{
+  "id": "bezpecnost-cr-bezpecne-na-internetu",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Bezpečně na internetu — řízená diskuse",
+  "description": "Od „co všechno děláme online“ k pěti tématům: osobní údaje, heslo, cizí lidé, fake news a kyberšikana. Končí pěti pravidly, která si třída sepíše.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "osobní údaje",
+    "heslo",
+    "cizí lidé",
+    "grooming",
+    "fake news",
+    "kyberšikana",
+    "diskuse",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák ví, které údaje nesdílet, jak vypadá silné heslo a co dělat, když je mu online něco nepříjemné.",
+  "materials": [
+    "Tabule nebo flipchart",
+    "Projektor (volitelně videa ČT edu)"
+  ],
+  "procedure": "Úvod: Co všechno děláme online? Odpovědi pište na tabuli (hry, YouTube, chat s kamarády, TikTok, hudba…). Navazujte: Co máme na internetu rádi? Může být nebezpečný? Stalo se vám něco?\n\nPak vyberte témata podle třídy (inspiraci dá ČT edu, okruh Bezpečně v online prostředí):\n\n1) Osobní údaje — co byste neřekli cizímu na ulici? Společně sepište, co je bezpečné sdílet (oblíbená barva, jídlo) a co ne (adresa, heslo, telefon, škola, fotky bez souhlasu rodičů).\n\n2) Heslo — proč ne „123456“? Vymyslete slabé a silnější heslo.\n\n3) Cizí lidé — modelové věty „Pošleš mi fotku?“, „Nikomu neříkej, že si píšeme“, „Přidej si mě“. Je každé „dítě“ v chatu opravdu dítě? Co dělat: neodpovídat, říct dospělému, zablokovat, odejít.\n\n4) Fake news — je všechno pravda? Proč někdo lže? Jak informaci ověřit?\n\n5) Kyberšikana (citlivě a stručně) — posměch, nadávky, vylučování z chatu, sdílení fotek. Co se děje online, je stejně skutečné jako ve škole.\n\nZávěr — pět pravidel: neprozrazuj osobní údaje; používej silná hesla; nevěř všemu, ověřuj; když je ti něco nepříjemné, řekni to dospělému; chovej se slušně online i offline.\n\nRozšíření pro starší: digitální stopa, AI a deepfake, sociální sítě, manipulace.",
+  "files": [
+    {
+      "label": "Metodika (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Bezpecne-na-internetu.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

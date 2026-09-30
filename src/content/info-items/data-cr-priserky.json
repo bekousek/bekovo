@@ -1,0 +1,46 @@
+{
+  "id": "data-cr-priserky",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "sber-a-trideni",
+  "title": "Příšerky — kolika způsoby je roztřídíte?",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/115_priserky.pdf",
+  "description": "Skupina dostane sadu kartiček s příšerkami a za 10 minut vymyslí co nejvíc způsobů, jak je roztřídit — a každý umí vysvětlit. Pak se ptáme, jestli by to za nás zvládl program.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5
+  ],
+  "duration": "15–20 min",
+  "keywords": [
+    "třídění",
+    "vlastnosti",
+    "kritérium",
+    "strukturovaná data",
+    "filtrování",
+    "skupinová práce",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák hledá shodné a odlišné vlastnosti objektů a podle zvoleného kritéria z nich vybírá skupiny.",
+  "materials": [
+    "Sada příšerek pro každou skupinu (příloha 1, ideálně zalaminovat)",
+    "Papír na zapisování"
+  ],
+  "procedure": "Skupiny po 3–4 dostanou sadu příšerek. Úkol: najít co nejvíc způsobů, jak příšerky roztřídit. Každý způsob zapsat a umět vysvětlit. Čas 10 minut.\n\nSkupiny sedí v kruhu a postupně představují svá třídění.\n\nDiskuse: Dal by se napsat program, který by podle našich kritérií vybral správné příšerky? Jak by takové zadání muselo znít? Kde kolem sebe vidíme podobné třídění (e-shop, filtry)?\n\nNakonec zhodnoťte i spolupráci ve skupině — co fungovalo a co příště udělat jinak.",
+  "files": [
+    {
+      "label": "Metodika a příšerky k tisku (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/115_priserky.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

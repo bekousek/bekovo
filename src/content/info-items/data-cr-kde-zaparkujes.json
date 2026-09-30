@@ -1,0 +1,48 @@
+{
+  "id": "data-cr-kde-zaparkujes",
+  "categoryId": "informace-a-data",
+  "subcategoryId": "vyhledavani",
+  "title": "Kde zaparkuješ? Město jako laboratoř rozhodování",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Kde-zaparkujes-Mesto-jako-laborator-rozhodovani.pdf",
+  "description": "Rodiče mají 150 Kč a chtějí zaparkovat co nejblíž kroužku od 18:00 do 19:30. Dvojice zkoumají mapu parkovacích zón, počítají cenu a rozhodují se — značky jim případně pomůže přečíst AI aplikace.",
+  "type": "blok",
+  "equipment": [
+    "tablet"
+  ],
+  "grades": [
+    4,
+    5
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "rozhodování",
+    "mapa",
+    "parkování",
+    "finanční gramotnost",
+    "umělá inteligence",
+    "parky.ai",
+    "QR kód",
+    "mezipředmětové",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák vyhledá v mapě a podmínkách potřebné údaje, spočítá varianty a své rozhodnutí zdůvodní.",
+  "materials": [
+    "Zadání k promítnutí (příloha 1)",
+    "Vytištěný QR kód s mapou parkovacích zón do každé dvojice (příloha 2)",
+    "iPady se čtečkou QR kódů, volitelně aplikace parky.ai"
+  ],
+  "procedure": "Zadání: rodiče vás vezou na kroužek od 18:00 do 19:30, na parkování mají 150 Kč a chtějí stát co nejblíž. Kde zaparkují a kolik zaplatí? Automat zaokrouhluje na půlhodiny. Pozor — nerozhoduje jen vzdálenost a cena za hodinu, ale i to, v kolik se parkuje (večer mohou platit jiná pravidla).\n\nZadání promítněte, dvojice dostanou QR kód s mapou zón a hledají. Kdo si neví rady se značkou, může ji vyfotit do aplikace parky.ai, která ji pomocí AI přečte a vysvětlí.\n\nZávěr: Kde jste zaparkovali a proč? Kolik zbylo? Potřebovali jste AI, nebo značky znáte?\n\nNa diskusi: Proč se v centru za parkování platí? Co by se stalo, kdyby bylo všude zdarma? Kdy je lepší auto a kdy MHD?\n\nMapa v příloze je z Plzně (parkingplzen.cz). Úloha funguje i tak, ale ještě líp zabere s mapou zón vašeho města a skutečnou adresou, kam děti jezdí na kroužky.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Kde-zaparkujes-Mesto-jako-laborator-rozhodovani.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

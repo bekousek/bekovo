@@ -1,0 +1,51 @@
+{
+  "id": "programovani-cr-hanojske-veze",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "Hanojské věže z krabic",
+  "url": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/114_hanojske_veze.pdf",
+  "description": "Hlavolam v životní velikosti: sedm krabic a tři kužely. Mladší řeší problém a měří čas, na druhém stupni se z řešení odvodí rekurzivní algoritmus — a spočítá se, kdy podle legendy nastane konec světa.",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "20–60 min",
+  "keywords": [
+    "Hanojské věže",
+    "rekurze",
+    "dekompozice",
+    "podproblém",
+    "hlavolam",
+    "pohybová aktivita",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák řeší problém rozkladem na menší podproblémy; starší žáci zapíší postup rekurzivně.",
+  "materials": [
+    "7 krabic v sedmi velikostech, které jdou na sebe skládat (stačí i méně)",
+    "3 kužely (tělocvična)"
+  ],
+  "procedure": "Legenda: v chrámu u Hanoje přesouvají mniši 64 zlatých disků mezi třemi kolíky. Až je přesunou všechny, nastane konec světa.\n\nPravidla: bere se vždy jen jedna, a to horní krabice, a nikdy se nesmí položit větší na menší. Cíl: přesunout celou věž z kuželu A na kužel C.\n\n1. stupeň: zůstaňte u problémové úlohy. Skupiny řeší a můžete jim měřit čas. Nejdůležitější je rozbor: našli jste postup, který pomáhal? Zlepšovali jste se?\n\n2. stupeň: rozeberte rekurzivní postup. Přesunout 4 krabice z A na C = přesunout 3 horní na B, největší na C, pak 3 z B na C. A jak přesunout 3? Stejně. Zápis:\n\npřesun(N, start, cíl): když N = 1, přesuň krabici ze startu do cíle; jinak přesun(N−1, start, pomocný), přesun(1, start, cíl), přesun(N−1, pomocný, cíl).\n\nFunkce, která volá sama sebe, je rekurze. Na závěr se vraťte k legendě: nejmenší počet tahů je 2ⁿ − 1, pro 64 disků při tahu za sekundu je to zhruba 580 miliard let.",
+  "files": [
+    {
+      "label": "Metodika s přílohami (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/114_hanojske_veze.pdf",
+      "type": "pdf",
+      "note": "Obrázkový rozbor rekurzivního postupu pro 4 krabice a fotky z hodiny."
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Martina Jedličková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ovladani-cr-prvni-kroky-s-pocitacem",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "operacni-system",
+  "title": "První kroky s počítačem",
+  "description": "Zapnutí a přihlášení, části pracovní plochy, rozdíl mezi složkou a souborem (šuplík a věc v něm), přípony souborů a první uložený dokument „O mně“.",
+  "type": "blok",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    4
+  ],
+  "duration": "45–90 min",
+  "keywords": [
+    "přihlášení",
+    "uživatelský účet",
+    "pracovní plocha",
+    "hlavní panel",
+    "tlačítko Start",
+    "složka",
+    "soubor",
+    "přípona",
+    "Průzkumník",
+    "Centrum robotiky"
+  ],
+  "language": "cs",
+  "goal": "Žák se přihlásí, pojmenuje hlavní části plochy, rozliší složku a soubor a uloží dokument do vlastní složky.",
+  "materials": [
+    "Počítač pro každého žáka (případně dvojice)",
+    "Přihlašovací údaje žáků",
+    "Projektor nebo interaktivní tabule"
+  ],
+  "procedure": "Děti samy hledají vypínač. Upozorněte, že systém chvíli naběhne. Na přihlašovací obrazovce vysvětlete, k čemu je uživatelský účet a heslo, a nechte je přihlásit se — s klávesnicí budou potřebovat pomoct.\n\nPromítněte svou plochu (upozorněte, že ikony můžou mít jinde) a společně hledejte: plocha, hlavní panel, tlačítko Start, otevřené programy, hodiny, ikony zvuku a připojení k internetu.\n\nSložka je jako krabice nebo šuplík, soubor je konkrétní věc uvnitř. Příklad: složka „Prázdniny“ a v ní „fotka_u_more.jpg“ a „vylet.docx“. Vysvětlete přípony (.jpg, .docx, .pdf, .png, .csv).\n\nKrok za krokem společně: otevřít Průzkumník, vytvořit složku se svým příjmením, spustit textový editor, napsat jednu až dvě věty o sobě a uložit do své složky jako „O mně“. Hlídejte diakritiku, velká písmena a místo uložení.\n\nReflexe otázkami (Co je složka? Kam jsme ukládali?) a společné vypnutí přes nabídku systému — ne podržením tlačítka.",
+  "files": [
+    {
+      "label": "Metodika (PDF)",
+      "href": "https://tf-prod-skoleni.s3.eu-central-1.amazonaws.com/prirucky/Prvni-kroky-s-pocitacem.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Centrum robotiky Plzeň — Inspirace do výuky (Tereza Beránková)",
+    "url": "https://centrumrobotiky.eu/ped-robotika"
+  },
+  "added": "2026-09-30"
+}
