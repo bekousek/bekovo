@@ -1,0 +1,26 @@
+{
+  "id": "hardware-museum-of-obsolete-objects",
+  "categoryId": "hardware",
+  "title": "Museum of Obsolete Objects (videa o zastaralé technice)",
+  "url": "https://www.youtube.com/@MoooJvM",
+  "description": "Krátká videa připomínají, jak se používaly věci, které děti už neznají: disketa, psací stroj, magnetofon, počítadlo nebo psací brk. Hodí se k hádání „co to je a k čemu to bylo“ nebo k časové ose vývoje techniky.",
+  "type": "video",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "historie techniky",
+    "disketa",
+    "psací stroj",
+    "magnetofon",
+    "zastaralá technologie",
+    "video",
+    "YouTube"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Museum of Obsolete Objects (YouTube) (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://www.youtube.com/@MoooJvM"
+  }
+}

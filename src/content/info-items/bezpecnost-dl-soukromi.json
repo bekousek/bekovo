@@ -1,0 +1,51 @@
+{
+  "id": "bezpecnost-dl-soukromi",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Datová Lhota: Soukromí v digitálním světě (cookies a stopa)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Díl „Je libo sušenku?“ vysvětlí cookies a to, že nás weby při další návštěvě „poznají“. Talkshow o tom, co o nás internet ví, a na závěr metafora bydlení ve skleněném akváriu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "soukromí",
+    "cookies",
+    "digitální stopa",
+    "cílená reklama",
+    "osobní data",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že na internetu zanechávají stopu, že weby si je pamatují (třeba pomocí cookies) a podle toho jim cíleně zobrazují obsah, a umí říct výhody i nevýhody používání internetu.",
+  "materials": [
+    "Díl 10 „Je libo sušenku?“ a talkshow „Co o nás vědí na internetu“",
+    "Vytištěný průběh lekce"
+  ],
+  "procedure": "Cookies (10–15 min): co víte o cookies v počítači? Po zhlédnutí 10. dílu rozbor: web si nás pamatuje a při další návštěvě nás pozná.\n\nTalkshow „Co o nás vědí na internetu?“ (15–20 min): co všechno se o nás ukládá a kdo to může legálně i nelegálně získat. Cílené zobrazování reklam, zpráv a videí.\n\nZávěr (10 min): metafora akvária. Používat internet je jako bydlet v domě se skleněnými stěnami, kam může nahlédnout kdokoli. Jak byste se cítili? Jde to nějak řešit? Každý uvede aspoň jednu výhodu a jednu nevýhodu internetu.\n\nNavazuje na lekci Komunikace po internetu.",
+  "files": [
+    {
+      "label": "Metodika lekce",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/soukromi-v-digitalnim-svete.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

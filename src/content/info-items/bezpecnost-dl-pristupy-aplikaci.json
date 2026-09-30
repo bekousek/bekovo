@@ -1,0 +1,54 @@
+{
+  "id": "bezpecnost-dl-pristupy-aplikaci",
+  "categoryId": "bezpecnost",
+  "subcategoryId": "soukromi",
+  "title": "Datová Lhota: Nemám v kapse špiona? (oprávnění aplikací)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Aplikace na úpravu fotek o Kubovi ví všechno, protože jí povolil každý přístup. Žáci si na svých mobilech prohlédnou oprávnění aplikací a ve skupinách vymyslí „zlou“ aplikaci, která by lidi šmírovala.",
+  "type": "blok",
+  "equipment": [
+    "mobil",
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "oprávnění aplikací",
+    "poloha",
+    "kamera",
+    "mikrofon",
+    "soukromí",
+    "smartphone",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci vědí, že aplikace v mobilu mohou přistupovat k poloze, kameře, galerii či kontaktům, a že povolit všechno, oč si řeknou, je riskantní.",
+  "materials": [
+    "Díl 17 „Špión nebo kamarád?“",
+    "Příloha A metodiky (k čemu mohou aplikace přistupovat) k promítnutí",
+    "Smartphony žáků (nebo náhradní řešení)",
+    "Papíry A4 a A3, pastelky a fixy"
+  ],
+  "procedure": "Úvod (5–10 min): žáci píšou na tabuli aplikace, které používají, a jednou větou říkají, co dělají.\n\nDíl 17 (10 min): kdo o Kubovi špehoval informace? K čemu mohou aplikace chtít přístup a jak se to dá zneužít (kamera, mikrofon, galerie, GPS, internet, Bluetooth)?\n\nAktivita se smartphony (10–15 min): k čemu mají přístup aplikace v mém telefonu? Žáci projdou nastavení oprávnění.\n\nUnplugged aktivita Vymýšlení vlastní aplikace (5 min): ve skupinách si „zahrají na hackery“ a navrhnou lákavou aplikaci, která by ve skutečnosti sbírala data.\n\nZávěr (2–3 min): stručné shrnutí.",
+  "files": [
+    {
+      "label": "Metodika lekce s přílohou",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_pristupy_k_informacim.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Technický popis dílů 2. série",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

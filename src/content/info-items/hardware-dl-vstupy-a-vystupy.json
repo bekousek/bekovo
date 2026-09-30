@@ -1,0 +1,40 @@
+{
+  "id": "hardware-dl-vstupy-a-vystupy",
+  "categoryId": "hardware",
+  "title": "Datová Lhota: Vstupy a výstupy počítače",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Desetiminutová aktivita k talkshow „O jádru a operačním systému“: jaká periferní zařízení jde připojit a která posílají data do počítače, která z něj a která oběma směry (dotyková obrazovka).",
+  "type": "aktivita",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "duration": "10 min",
+  "keywords": [
+    "Datová Lhota",
+    "vstupní zařízení",
+    "výstupní zařízení",
+    "periferie",
+    "dotyková obrazovka",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti rozliší vstupní a výstupní zařízení a vědí, že některá, třeba dotyková obrazovka, jsou obojí.",
+  "materials": [
+    "Talkshow „O jádru a operačním systému“, kapitola Periferní zařízení (4:00–5:08)",
+    "Projektor, případně vytištěný seznam zařízení (příloha)"
+  ],
+  "procedure": "Periferní zařízení (5 min): pusťte úsek talkshow. Jaká zařízení jde k počítači připojit? Jak do mobilu zadáváme informace? Dotyková obrazovka je také periferie.\n\nVstupy a výstupy (5 min): děti rozřadí klávesnici, myš, sluchátka, monitor, tiskárnu, kameru, foťák a dotykovou obrazovku na vstupní a výstupní, případně kroužkují na listu ve dvojicích. Pro rychlé: touchpad, skener, joystick, vibrační motorek, flashka.\n\nHodí se jako rozšíření lekce Já a počítačový svět.",
+  "files": [
+    {
+      "label": "Popis aktivity s přílohou",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_vstupy%20a%20vystupy.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

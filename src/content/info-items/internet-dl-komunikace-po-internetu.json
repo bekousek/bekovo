@@ -1,0 +1,53 @@
+{
+  "id": "internet-dl-komunikace-po-internetu",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Datová Lhota: Komunikace po internetu (routery, servery, IP adresa)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Děti sledují, jak data putují přes routery a servery, a naučí se zakreslit tok informací do jednoduchého schématu internetu. Závěr: co dáme na internet, nad tím ztrácíme kontrolu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "2 × 40 min",
+  "keywords": [
+    "Datová Lhota",
+    "internet",
+    "router",
+    "server",
+    "IP adresa",
+    "tok dat",
+    "schéma sítě",
+    "ČT"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti vědí, že data mezi dvěma zařízeními putují přes mnoho dalších počítačů, že každé zařízení má IP adresu, co dělá router a server, a umí na schématu zakreslit cestu dat.",
+  "materials": [
+    "Díl 9 „Cesta na se(r)ver“ a talkshow „O datech na internetu“ a „O bezpečnosti na internetu“",
+    "Vytištěný pracovní list se schématem internetu (1 ks na dítě)",
+    "Tužka a pravítko"
+  ],
+  "procedure": "Úvod (10 min): brainstorming, co všechno na internetu děláme.\n\nDíl 9 „Cesta na se(r)ver“ (20 min): co je router, „křižovatka“, přes kterou data jdou dál.\n\nTalkshow „O datech na internetu“ (15 min): co je server a co na něm bývá uložené.\n\nPo přestávce talkshow „O bezpečnosti na internetu“ (15 min): co se děje s daty, která dáme na internet.\n\nZávěr s pracovním listem (10–15 min): děti pojmenují značky ve schématu (černá kolečka jsou routery, prázdná kolečka servery a uživatelská zařízení) a samy dokreslí pokračování sítě. Koncová zařízení mají jen jednu cestu k routeru.\n\nMetodika doporučuje tuto lekci jako začátek, pokud s Datovou Lhotou začínáte až na 2. stupni.",
+  "files": [
+    {
+      "label": "Metodika lekce s pracovním listem",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/komunikace-po-internetu.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

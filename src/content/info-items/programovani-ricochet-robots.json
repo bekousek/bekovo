@@ -1,0 +1,27 @@
+{
+  "id": "programovani-ricochet-robots",
+  "categoryId": "programovani",
+  "subcategoryId": "logicke-ulohy",
+  "title": "Ricochet Robots (desková hra na nejkratší cestu)",
+  "url": "https://www.zatrolene-hry.cz/spolecenska-hra/ricochet-robots-315/",
+  "description": "Vylosuje se cíl a všichni v duchu hledají, jak k němu dostat robota na co nejméně tahů. Robot jede, dokud nenarazí na překážku. Kdo nahlásí nejnižší počet, předvede řešení. Plán se skládá z dílů, takže každá úloha je jiná.",
+  "type": "hra",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "keywords": [
+    "desková hra",
+    "nejkratší cesta",
+    "plánování",
+    "algoritmus",
+    "logika",
+    "Alex Randolph"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Alex Randolph (Hans im Glück) (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://www.zatrolene-hry.cz/spolecenska-hra/ricochet-robots-315/"
+  },
+  "notes": "Hraje libovolný počet hráčů (klidně celá třída nad jedním plánem), od 10 let. Česká pravidla jsou ke stažení na Zatrolených hrách."
+}

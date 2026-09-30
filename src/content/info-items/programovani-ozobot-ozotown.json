@@ -1,0 +1,27 @@
+{
+  "id": "programovani-ozobot-ozotown",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "OzoTown — doveď Ozobota domů",
+  "url": "https://games.ozoblockly.com/ozotown-basic",
+  "description": "Deset úrovní navigace po čarách v prohlížeči: bloky OzoBlockly naváděj virtuálního Ozobota po křižovatkách městečka až domů. Stačí ikony, robot není potřeba.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "keywords": [
+    "Ozobot",
+    "OzoBlockly",
+    "blokové programování",
+    "navigace",
+    "křižovatky",
+    "bez robota"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Ozobot (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://ozoblockly.com/"
+  }
+}

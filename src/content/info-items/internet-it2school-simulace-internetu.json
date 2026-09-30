@@ -1,0 +1,70 @@
+{
+  "id": "internet-it2school-simulace-internetu",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Internet jako hra na role (IT2School, modul B2)",
+  "url": "https://drive.google.com/drive/folders/1s_j2F6087tAMDF3Xco2jN7f3GCMFv8FO",
+  "description": "Žáci postaví kartonový model internetu a pak ho sami „hrají“: dvojice obsluhují stanice klient, domácí router, poskytovatel, DNS a webový server, ostatní sedí jako routery a předávají si brožuru protokolu, dokud se stránka nenačte.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "IT2School",
+    "internet",
+    "simulační hra",
+    "hra na role",
+    "router",
+    "DNS",
+    "poskytovatel",
+    "IP adresa",
+    "protokol",
+    "sekvenční diagram",
+    "unplugged"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žáci chápou, jak se připojujeme k internetu a jak se přenášejí data mezi počítači, a správně používají pojmy klient, router, poskytovatel, DNS, IP adresa a webový server.",
+  "materials": [
+    "Materiály B2.2.0–B2.2.6: obrázky a papírové modely, karty stanic, materiály pro stanice, brožura protokolu, skupinové karty",
+    "Kartonové stojany a provázky na model",
+    "Pracovní list B2.3 Sekvenční diagram a vzorové řešení",
+    "Ideálně další prostor (aula, tělocvična)"
+  ],
+  "procedure": "Internet jako model: jak si myslíte, že funguje internet? Pak se v kruhu krok po kroku staví kartonový model. Klient, vzdálený webový server s IP adresou, domácí router připojený kabelem, poskytovatel, soused se svým routerem, další klienti na Wi-Fi, DNS jako telefonní seznam jmen a IP adres a nakonec síť routerů. Na modelu ukažte, že k serveru vede víc cest a výpadek jednoho routeru nevadí.\n\nSimulační hra: žáci si vymyslí přihlašovací jméno a bezpečné heslo k poskytovateli. Dvojice obsluhují stanice, ostatní sedí mezi nimi jako routery tak, aby se dotkli konečky prstů. Brožura protokolu začíná u klienta. Na každé stanici se nahlas přečte požadavek nebo odpověď (odesílatel, příjemce, zpráva) a brožura putuje dál, až klient „dostane“ výtisk webové stránky.\n\nZávěr: žáci proces zakreslí do sekvenčního diagramu podle pracovního listu.\n\nMateriál je český překlad německého projektu IT2School. Adresa školy je v něm zástupná (www.tvoje-skola.cz).",
+  "files": [
+    {
+      "label": "Všechny materiály modulu B2 v češtině (Google Drive)",
+      "href": "https://drive.google.com/drive/folders/1s_j2F6087tAMDF3Xco2jN7f3GCMFv8FO",
+      "type": "other"
+    },
+    {
+      "label": "Popis modulu a plán hodin",
+      "href": "https://drive.google.com/file/d/1juOd5kNkJFrCGiMXVx663zrFneCQXSzJ/view",
+      "type": "doc"
+    },
+    {
+      "label": "Brožura protokolu",
+      "href": "https://drive.google.com/file/d/1hp62FMkdrRPINZrUtlJ1_6yeq4ftrQ-U/view",
+      "type": "doc"
+    },
+    {
+      "label": "Sekvenční diagram (pracovní list)",
+      "href": "https://drive.google.com/file/d/1AHKXqzRrXOnxGYy608cwlKxxJpH0mn3Z/view",
+      "type": "doc"
+    }
+  ],
+  "source": {
+    "label": "IT2School — Společně objevujeme IT (překlad Internet4Kids, MFF UK) (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/it2school"
+  }
+}

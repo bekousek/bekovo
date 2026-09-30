@@ -1,0 +1,26 @@
+{
+  "id": "programovani-botlogic",
+  "categoryId": "programovani",
+  "subcategoryId": "algoritmizace",
+  "title": "BotLogic",
+  "url": "https://botlogic.us/",
+  "description": "Logická hra v prohlížeči: jednoduchými příkazy programuj robota bludišti, která jsou čím dál těžší. Víc bodů dostaneš za rychlejší řešení s méně příkazy, takže se vyplatí hledat co nejkratší program.",
+  "type": "hra",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "keywords": [
+    "bludiště",
+    "robot",
+    "příkazy",
+    "optimalizace",
+    "logika"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "BotLogic.us (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://botlogic.us/"
+  }
+}

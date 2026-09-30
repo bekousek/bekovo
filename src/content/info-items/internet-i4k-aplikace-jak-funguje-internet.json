@@ -1,0 +1,35 @@
+{
+  "id": "internet-i4k-aplikace-jak-funguje-internet",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Jak funguje internet — interaktivní aplikace",
+  "url": "https://internet4kids.mff.cuni.cz/jakfungujeinternet/",
+  "description": "Česká webová aplikace z MFF UK, která vizualizuje fungování internetu. Úlohy v pěti kapitolách: Internet z dálky, Klienti a pakety, Typy připojení, Servery a křižovatky a závěrečná Postav síť. Rozbor úloh je v záložce O aplikaci.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "Internet4Kids",
+    "internet",
+    "pakety",
+    "server",
+    "router",
+    "typy připojení",
+    "simulace",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/"
+  }
+}

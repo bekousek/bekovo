@@ -1,0 +1,32 @@
+{
+  "id": "programovani-code-monster",
+  "categoryId": "programovani",
+  "subcategoryId": "textove",
+  "title": "Code Monster (první kroky v JavaScriptu)",
+  "url": "http://www.crunchzilla.com/code-monster",
+  "description": "Příšerka Crunchzilla dává pokyny a žák upravuje krátké kousky JavaScriptu. Změna čísla hned překreslí obrázek vedle. Lekce postupují od posouvání obdélníků po cykly a funkce. Když se zasekneš, můžeš lekci přeskočit.",
+  "type": "kurz",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "JavaScript",
+    "textové programování",
+    "kreslení",
+    "proměnné",
+    "cykly",
+    "funkce",
+    "Crunchzilla"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Crunchzilla (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "http://www.crunchzilla.com/"
+  }
+}

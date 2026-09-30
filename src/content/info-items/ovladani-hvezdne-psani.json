@@ -1,0 +1,26 @@
+{
+  "id": "ovladani-hvezdne-psani",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "mys-a-klavesnice",
+  "title": "Hvězdné psaní",
+  "url": "https://hvezdnepsani.cz/",
+  "description": "Česká hra na psaní všemi deseti ve vesmíru: psaním na klávesnici sestřeluješ nepřátelské lodě. Úrovně vedou ke správnému prstokladu, bonusové zrychlují. Zdarma a se systémem tříd pro školy.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "keywords": [
+    "psaní všemi deseti",
+    "prstoklad",
+    "klávesnice",
+    "rychlost psaní",
+    "hra",
+    "třídy"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Hvězdné psaní (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://hvezdnepsani.cz/"
+  }
+}

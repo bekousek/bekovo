@@ -1,0 +1,73 @@
+{
+  "id": "ovladani-i4k-3-operacni-system",
+  "categoryId": "ovladani-pc",
+  "subcategoryId": "operacni-system",
+  "title": "Jak fungují počítače 3/3b: Co dělá operační systém?",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/",
+  "description": "Druhá část třetí modelové hodiny MFF UK. Šest úkolů operačního systému (správa souborů a paměti, zabezpečení, multitasking, periferie, rozhraní) s analogiemi knihovníka a pracovního stolu. Na závěr přiřazování pojmů k definicím.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "operační systém",
+    "správa souborů",
+    "správa paměti",
+    "multitasking",
+    "periferie",
+    "uživatelské rozhraní",
+    "zabezpečení",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák popíše a vysvětlí vybrané funkce operačního systému.",
+  "materials": [
+    "Prezentace, pracovní list a příprava pro učitele (část druhá)"
+  ],
+  "procedure": "Evokace: jaké znáte operační systémy? Jaké jste používali? Co mají společného? Je OS program? Co asi dělá?\n\nUvědomění: OS se stará o šest věcí. Správa souborů (knihovník, který ví, co kde je). Správa paměti (pracovní stůl, který se po použití uklidí). Zabezpečení, multitasking, obsluha periferií a uživatelské rozhraní.\n\nReflexe: žáci samostatně nebo ve skupině na čas přiřazují pojmy k definicím. Pak kontrola s prezentací.\n\nČást jde odučit samostatně (45 min), nebo s částí o troubleshootingu (90 min).",
+  "files": [
+    {
+      "label": "Materiály k hodině (Google Drive)",
+      "href": "https://drive.google.com/drive/folders/1_t8pLO-DITobdZUImCHfy79xXYLuGpbr",
+      "type": "other"
+    },
+    {
+      "label": "Příprava pro učitele (obě části)",
+      "href": "https://drive.google.com/file/d/1YdhoadiGoKW9u5arVSdcyWVSaOORxfsb/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Prezentace (obě části)",
+      "href": "https://drive.google.com/file/d/1bzxFSirp7ZeH882lzm_9ePov7yNGjat_/view",
+      "type": "slides"
+    },
+    {
+      "label": "Pracovní list (obě části)",
+      "href": "https://drive.google.com/file/d/1EkN2EGc7uf7PqSia-kVZgxf3vkUVa6J7/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Výukový list: List 2 — Operační systém",
+      "href": "https://drive.google.com/file/d/19GR0uZ06FtZZz7EMrFPg6IRNdAgHs8XL/view",
+      "type": "pdf"
+    },
+    {
+      "label": "Výukový list: List 3 — Procesy v počítači",
+      "href": "https://drive.google.com/file/d/1dn7Qy4m9aLBLZi1lRc_YtP63otI0P5wE/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-hardware/"
+  }
+}

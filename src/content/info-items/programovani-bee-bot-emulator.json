@@ -1,0 +1,36 @@
+{
+  "id": "programovani-bee-bot-emulator",
+  "categoryId": "programovani",
+  "subcategoryId": "pro-nejmensi",
+  "title": "Bee-Bot a Blue-Bot v prohlížeči (emulátory)",
+  "url": "https://beebot.terrapinlogo.com/",
+  "description": "Online emulátor Bee-Bota s tematickými podložkami a úrovněmi (víc otočení, opakování). Blue-Bot emulátor navíc zobrazuje zápis algoritmu a přes Bluetooth rozjede i skutečného Blue-Bota. Algoritmizace pro nejmenší, i když robota nemáte.",
+  "type": "aktivita",
+  "equipment": [
+    "pocitac",
+    "tablet"
+  ],
+  "grades": [
+    1,
+    2,
+    3
+  ],
+  "keywords": [
+    "Bee-Bot",
+    "Blue-Bot",
+    "emulátor",
+    "podložka",
+    "algoritmus",
+    "posloupnost",
+    "opakování",
+    "bez robota",
+    "1. stupeň"
+  ],
+  "language": "en",
+  "added": "2026-09-30",
+  "source": {
+    "label": "Terrapin (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://weblogo.terrapinlogo.com/?app=blue-bot"
+  },
+  "notes": "Blue-Bot emulátor: weblogo.terrapinlogo.com/?app=blue-bot"
+}

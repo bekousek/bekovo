@@ -1,0 +1,62 @@
+{
+  "id": "internet-i4k-2-pripojeni",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Jak funguje internet 2/4: Jak se připojíme? (Wi-Fi, kabel, data, hotspot, satelit)",
+  "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/",
+  "description": "Druhá modelová hodina: čím se liší Wi-Fi, kabel, mobilní data, hotspot a satelit. Pokus s routerem bez připojení k internetu, hledání nejbližšího BTS vysílače a měření rychlosti připojení.",
+  "type": "blok",
+  "equipment": [
+    "pocitac",
+    "mobil"
+  ],
+  "grades": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "Internet4Kids",
+    "Wi-Fi",
+    "router",
+    "mobilní data",
+    "BTS vysílač",
+    "hotspot",
+    "satelit",
+    "přenosová rychlost",
+    "speedtest",
+    "MFF UK"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák vyjmenuje druhy připojení k internetu, uvede jejich výhody a nevýhody a rozhodne, které připojení se hodí pro danou situaci.",
+  "materials": [
+    "Prezentace, pracovní list a příprava pro učitele (lehčí nebo těžší varianta)",
+    "Wi-Fi router (ideálně připojitelný do síťové zásuvky ve třídě)",
+    "Mobily nebo počítače žáků pro speedtest"
+  ],
+  "procedure": "Evokace (4–5 min): jak se připojujeme k internetu? V těžší variantě situace: jedete se třídou na vodu, kde a jak budete mít internet?\n\nWi-Fi a pokus s routerem: router zapojíme do elektřiny, ale ne do sítě. Uvidí ho telefony? Otevře se google.cz? Wi-Fi je jen spojení k routeru, ne samotný internet.\n\nKabely: proč jsou rychlejší a spolehlivější a jak zpráva doputuje přes oceán. V těžší variantě porovnání drátu a bezdrátu ve dvojicích.\n\nMobilní data a BTS vysílače (těžší varianta: žáci přes QR kód najdou nejbližší BTS u školy), hotspot a satelity.\n\nReflexe: výhody a nevýhody jednotlivých připojení a speedtest. Změřené rychlosti zapisují do tabulky, případně jako domácí úkol doma, na chatě nebo u babičky.",
+  "files": [
+    {
+      "label": "2. hodina — lehčí varianta (6.–7. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/2H_L.zip",
+      "type": "other"
+    },
+    {
+      "label": "2. hodina — těžší varianta (8.–9. ročník): příprava, prezentace, pracovní list",
+      "href": "https://internet4kids.mff.cuni.cz/wp-content/uploads/2024/08/2H_T.zip",
+      "type": "other"
+    },
+    {
+      "label": "Výukový list: List 3 — Typy připojení",
+      "href": "https://drive.google.com/file/d/1tvdURFTNvzhbF5QUVP2zJ_ribiXceGx0/view",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Internet4Kids — MFF UK (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://internet4kids.mff.cuni.cz/vyuka-internetu/"
+  }
+}

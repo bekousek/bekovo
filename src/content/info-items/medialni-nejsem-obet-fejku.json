@@ -1,0 +1,38 @@
+{
+  "id": "medialni-nejsem-obet-fejku",
+  "categoryId": "medialni-gramotnost",
+  "title": "Nejsem oběť fejku (online úniková hra)",
+  "url": "https://sites.google.com/view/nejsem-obet-fejku/domovsk%C3%A1-str%C3%A1nka/poj%C4%8F-si-zahr%C3%A1t",
+  "description": "Bulvár píše, že follower zemřel, protože napodobil youtubera. Jak se to stalo doopravdy? Pět únikových místností s kvízy, šiframi, videi a podcasty a na konci vlastní věcný článek. Po dokončení si žák stáhne certifikát.",
+  "type": "hra",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "úniková hra",
+    "fake news",
+    "ověřování informací",
+    "bulvár",
+    "influencer",
+    "kritické myšlení",
+    "porozumění textu",
+    "mediální výchova"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Žák ověřuje informace z emočně laděného článku, rozliší bulvár od seriózního zpravodajství a sám napíše věcnou zprávu.",
+  "materials": [
+    "Počítač s internetem pro každého žáka nebo dvojici",
+    "Tužka a papír na kódy k zámkům"
+  ],
+  "procedure": "Hra je detektivní pátrání. Influencer láká mladé k pochybným kombinacím potravin a doplňků, jeden z jeho followerů při napodobování zemře a média o tom informují bulvárním článkem.\n\nŽáci procházejí 5 místností, v každé klikají na předměty a plní 3–5 úkolů (kvízy, doplňování textu, videa, podcasty, šifry). Kódy si zapisují na papír a zadávají do zámku, který je pustí do další místnosti. Otevřenou mají vždy jen stránku aktuální místnosti.\n\nZávěrečný úkol: na základě nalezených indicií napsat věcný článek seriózního média.\n\nNa webu jsou i motivační videa, dešifrovací klíč a závěrečný dotazník.",
+  "source": {
+    "label": "Informační centrum pro mládež Uherské Hradiště (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://sites.google.com/view/nejsem-obet-fejku/domovsk%C3%A1-str%C3%A1nka"
+  }
+}

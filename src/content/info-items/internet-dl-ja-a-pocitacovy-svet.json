@@ -1,0 +1,54 @@
+{
+  "id": "internet-dl-ja-a-pocitacovy-svet",
+  "categoryId": "internet",
+  "subcategoryId": "jak-funguje-internet",
+  "title": "Datová Lhota: Já a počítačový svět (data a jejich velikost)",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "description": "Proč se video posílá déle než fotka a text? Podle 5. dílu děti zjišťují, co jsou data, že se po internetu posílají rozdělená na pakety a že mají různou velikost. Pak vystřihují a lepí data do malé „paměti“.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    2,
+    3,
+    4
+  ],
+  "duration": "40 min",
+  "keywords": [
+    "Datová Lhota",
+    "data",
+    "velikost dat",
+    "internet",
+    "pakety",
+    "šifrování",
+    "paměť",
+    "ČT",
+    "1. stupeň"
+  ],
+  "language": "cs",
+  "added": "2026-09-30",
+  "goal": "Děti rozlišují mezi svým zařízením a digitálním světem za internetem, vědí, co jsou data, a že video je větší než fotka a fotka větší než text.",
+  "materials": [
+    "Díl 5 „Kde to vázne?“",
+    "Vytištěný pracovní list k aktivitě Velikost dat (příloha metodiky)",
+    "Nůžky a lepidlo"
+  ],
+  "procedure": "Úvod (5 min): co si představíte pod slovem internet? Co jde na zařízení dělat bez připojení? Jak se k vám dostane video, které natočil někdo jiný?\n\nDíl 5 „Kde to vázne?“ (5 min): proč Kubovi trvalo odeslání videa tak dlouho?\n\nZastavování videa (10–15 min): co Kuba posílá do soutěže, jak data cestují po internetu. Pro pokročilejší i šifrování. Metafora s kostrou dinosaura, kterou je potřeba rozložit, převézt v několika autech a znovu složit: tak fungují pakety.\n\nAktivita Velikost dat (10–15 min): děti vystřihnou obdélníčky textů, fotek a videí a lepí je do „paměti“ na listu, aniž by se překrývaly. Zjistí, že se všechno nevejde a že video zabere nejvíc místa.\n\nZávěr (5 min): shrnutí pojmů data, velikost dat, internet a paket.",
+  "files": [
+    {
+      "label": "Metodika lekce s pracovním listem",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML_02_Ja_a_pocitacovy_svet_final.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}
