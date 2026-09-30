@@ -1,9 +1,9 @@
 {
   "id": "hardware-dl-aplikace-a-rychlost",
   "categoryId": "hardware",
-  "title": "Datová Lhota: Proč se mi počítač „seká“? (procesor a operační paměť)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Díly „Krize v městečku“ a „Když je okno větší než dům“: moc spuštěných aplikací nestíhá procesor a zaplní operační paměť. Děti vybarvují „paměť“ ze 100 čtverečků a starší v učebně měří, kolik RAM zabere prohlížeč.",
+  "title": "Datová Lhota: Spuštěné aplikace a rychlost počítače",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_vliv_na_rychlost_pocitace.pdf",
+  "description": "Proč se počítač seká? Moc spuštěných programů a záložek zahltí procesor i operační paměť. Žáci vybarvují programy do mřížky paměti a ve druhé hodině měří ve správci úloh, kolik paměti zabere prohlížeč.",
   "type": "blok",
   "equipment": [
     "bez-pocitace",
@@ -13,46 +13,77 @@
     5,
     6
   ],
-  "duration": "40 nebo 80 min",
+  "duration": "40 min (+ 40 min u počítačů)",
   "keywords": [
-    "Datová Lhota",
+    "rychlost počítače",
+    "sekání",
     "procesor",
+    "jádro procesoru",
     "operační paměť",
     "RAM",
-    "spuštěné aplikace",
     "záložky prohlížeče",
+    "odinstalování",
     "restart",
-    "ČT"
+    "správce úloh",
+    "swapování",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že procesor nestíhá příliš mnoho spuštěných aplikací, že každá aplikace i záložka prohlížeče zabírá operační paměť a že pomáhá odinstalovat nepotřebné programy a zařízení občas restartovat.",
+  "goal": "Žáci vědí, že procesor nestíhá řídit příliš mnoho spuštěných aplikací a že každá aplikace i záložka prohlížeče zabírá místo v omezené operační paměti. Umí poradit: zavřít okna a záložky, odinstalovat nepoužívané aplikace a zařízení občas restartovat.",
   "materials": [
-    "Díly 11 „Krize v městečku“, 14 „Když je okno větší než dům“, volitelně 18 „Hra s daty“",
-    "Pracovní list Paměť (verze 1 000 MB nebo 8 000 MB) k promítnutí i vytištěný",
-    "Pastelky nebo fixy",
-    "Pro rozšíření: počítače se dvěma prohlížeči a tabulka na cloudu"
+    "Projektor a videa z Déčka",
+    "Pracovní list Paměť — verze 1 000 MB nebo 8 000 MB (příloha)",
+    "Pastelky",
+    "Pro rozšíření: počítačová učebna se dvěma prohlížeči a tabulky k vyplnění (odkazy v souborech)"
   ],
-  "procedure": "Úvod (5 min): kdy se vám mobil nebo počítač zasekával? Kolik aplikací míváte spuštěných?\n\nDíl 11 (10–15 min): proč se Kubovi seká notebook? Je spuštěno moc programů, procesor je nestíhá řídit a zabírají paměť.\n\nAktivita Paměť (10–15 min): ve dvojicích „spouštějí“ aplikace vybarvováním čtverečků v poli, které představuje operační paměť. Když dojde místo, počítač se začne sekat.\n\nZávěr s dílem 14 (10 min): prohlížeč s mnoha záložkami zabírá místo hře.\n\nRozšíření pro pokročilejší (40 min, počítačová učebna): kolik operační paměti zabere prohlížeč s různým počtem záložek, výsledky zapisují do sdílené tabulky, případně díl 18.",
+  "procedure": "Úvod (5 min): Komu se někdy mobil sekal? Kdy? Kolik aplikací mívá spuštěných najednou? Kterou má nainstalovanou, ale obvykle nespuštěnou? Zdůrazněte rozdíl mezi spuštěnou a nespuštěnou aplikací — na mobilu může aplikace běžet, i když její okno nevidíme.\n\n11. díl (10–15 min): „Proč se Kubovi seká notebook?“ Procesor (úsek 3:08–3:18) nestíhá řídit všechny panáčky (2:58–3:37) — každá jeho část řídí jednoho a ostatní čekají. Vyšší úroveň: jádra procesoru a frekvence v GHz se hodí i při výběru herního zařízení. Co Kubovi poradit (3:47–4:20)? Odinstalovat, co nepoužívá — spousta aplikací se spouští sama po startu.\n\nAktivita Paměť (10–15 min): ve dvojicích s pracovním listem — mřížka 100 čtverečků je operační paměť. Kolik MB je jeden čtvereček? Kolik čtverečků zabere prohlížeč, sociální síť, přehrávač, grafický editor a hra? Úlohy: vejdou se další programy? Co vypnout, aby se spustila hra? Tvar programů nehraje roli, jen počet čtverečků.\n\n14. díl (10 min): „Proč se to sekalo tentokrát?“ Moc otevřených záložek — každá zabírá místo jako samostatná aplikace. Řešení: zavřít záložky, a když v paměti zůstanou „trosky“, restartovat. Shrnutí: dva důvody sekání a tři rady (zavřít, odinstalovat, restartovat).\n\nRozšíření u počítačů (40 min, vyšší úroveň): půlka třídy Chrome, půlka Edge. Žáci odhadnou a pak ve správci úloh (Ctrl+Shift+Esc, sloupec Paměť) změří, kolik paměti zabere prohlížeč s jedinou záložkou: video na Déčku, článek na Wikipedii, obrázek, web školy. Výsledky sbírejte do promítnuté tabulky a porovnejte prohlížeče. K rozdílu mezi operační pamětí a úložištěm lze pustit 18. díl. Na závěr: jaký je rozdíl mezi restartem a zaklapnutím notebooku?",
   "files": [
     {
-      "label": "Metodika lekce s pracovními listy",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_vliv_na_rychlost_pocitace.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Pracovní listy Paměť ve dvou obtížnostech i s řešením."
     },
     {
-      "label": "Technický popis dílů 2. série",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
-      "type": "pdf"
+      "label": "11. díl — Krize v městečku",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110001",
+      "type": "video",
+      "note": "Celý díl; podle potřeby úseky 2:17–2:33, 3:08–3:18, 2:58–3:37 a 3:47–4:20."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "14. díl — Když je okno větší než dům",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110004",
+      "type": "video",
+      "note": "Celý díl; při shrnutí úsek 1:23–1:50."
+    },
+    {
+      "label": "18. díl — Hra s daty",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110008",
+      "type": "video",
+      "note": "Volitelně k rozšíření: plné úložiště mobilu — na rozdíl od 11. a 14. dílu nejde o operační paměť."
+    },
+    {
+      "label": "Tabulka pro žáky — Kolik paměti zabere prohlížeč",
+      "href": "https://docs.google.com/spreadsheets/d/1O8lqwEi8Z3JUDHpq1JNVT-DbIowSEIkEcxV9yVF6BYc/edit",
+      "type": "sheet",
+      "note": "Šablona pro variantu u počítačů — každému žákovi kopii."
+    },
+    {
+      "label": "Tabulka pro učitele — souhrn měření",
+      "href": "https://docs.google.com/spreadsheets/d/1dwRY9BbCgWf0gzQ5LTp9EeVou2loXkAEGUO9hBqyunY/edit",
+      "type": "sheet",
+      "note": "K promítnutí; list „varianta B“ je pro ukázku jen na učitelském počítači."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 8
+  },
+  "added": "2026-09-30"
 }

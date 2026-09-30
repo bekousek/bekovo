@@ -2,42 +2,61 @@
   "id": "kodovani-dl-pixely",
   "categoryId": "kodovani",
   "subcategoryId": "kodovani-informace",
-  "title": "Datová Lhota: Pixely (jak počítač ukládá obrázek)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Patnáctiminutová aktivita: obrázek jako šachovnice bodů. Děti vybarví jedničky v mřížce z nul a jedniček a vynoří se jim smajlík. Pak si povídají o rozlišení a o tom, jak zakódovat víc barev.",
+  "title": "Datová Lhota: Pixely",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_pixely.pdf",
+  "description": "Jak počítač uloží obrázek? Děti vybarví jedničky v mřížce nul a jedniček a vynoří se smajlík; pak si vysvětlí rozlišení a jak čísly zakódovat víc barev.",
   "type": "aktivita",
   "equipment": [
     "bez-pocitace"
   ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
   "duration": "15 min",
   "keywords": [
-    "Datová Lhota",
     "pixel",
     "rozlišení",
     "rastrový obrázek",
     "nuly a jedničky",
-    "kódování barev",
-    "ČT",
-    "1. stupeň"
+    "kódování obrazu",
+    "barvy",
+    "čtvercová síť",
+    "unplugged",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že počítač ukládá obrázek jako mřížku pixelů, že barvu pixelu jde zapsat číslem a co znamená rozlišení.",
+  "goal": "Děti vědí, že obrázek se v počítači ukládá jako „šachovnice“ bodů — pixelů, že barvu bodu jde zapsat číslem a že rozlišení je počet pixelů na šířku a na výšku.",
   "materials": [
-    "Projektor s obrázkem ptáčka (příloha 1)",
-    "Vytištěný list Kódujeme pixely (příloha 2)",
-    "Tužka nebo pastelka"
+    "Projektor na obrázek ptáčka z pixelů (příloha 1)",
+    "Vytištěná mřížka nul a jedniček (příloha 2)",
+    "Pastelky"
   ],
-  "procedure": "Šachovnice a pixely (3 min): jak asi počítač ukládá obrázek? Promítněte ptáčka rozloženého na čtverečky.\n\nKódujeme pixely (5 min): nula je bílá, jednička černá. Děti vybarví jedničky a objeví obrázek.\n\nRozlišení a barvy (5 min): proč obrázky na displeji nevypadají hranatě? Co je Full HD? Jak uložit víc barev než dvě?\n\nShrnutí (2 min): co je pixel, co je rozlišení a jak si počítač pixely pamatuje.\n\nHodí se jako rozšíření lekce Co je to počítačový program.",
+  "procedure": "Šachovnice a pixely (3 min): Jak počítač ukládá obrázek? Rozloží ho na čtverečky a každý má svou barvu. Na ptáčkovi ukažte, že hranatost zmizí, když jsou čtverečky malé — oko nás klame. Čtverečkům se říká pixely.\n\nKódujeme pixely (5 min): počítač si všechno pamatuje v nulách a jedničkách — nula ať je bílá, jednička černá. Děti vybarví všechny jedničky v mřížce a vynoří se smajlík. Další obrázky nabízí Pixel Painter z CS Unplugged.\n\nRozlišení a barvy (5 min): Proč na mobilu obrázky hranaté nejsou? Body jsou maličké. Rozlišení = kolik pixelů má displej nebo obrázek na šířku a na výšku (Full HD 1920 × 1080). A víc barev? Víc čísel — třeba 2 je červená, 3 zelená — a ta se převedou na nuly a jedničky.\n\nZávěr (2 min): Co je pixel? Co je rozlišení? Jak si počítač pamatuje pixely? Volně navazuje na kapitolu Nuly a jedničky z talkshow O světě v počítači; hodí se jako rozšíření lekce Co je to počítačový program.",
   "files": [
     {
-      "label": "Popis aktivity s pracovním listem",
+      "label": "Postup aktivity (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_pixely.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Obrázek ptáčka k promítnutí a mřížka se smajlíkem k tisku."
+    },
+    {
+      "label": "Kubova talkshow — O světě v počítači",
+      "href": "https://decko.ceskatelevize.cz/video/b38401",
+      "type": "video",
+      "note": "Volitelně kapitola Nuly a jedničky."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 12
+  },
+  "added": "2026-09-30"
 }

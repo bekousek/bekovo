@@ -5,6 +5,7 @@ export { FILE_TYPE_ICONS, formatDate, formatGrades, normalize };
 
 export type InfoCategory = CollectionEntry<'infoCategories'>['data'];
 export type InfoItem = CollectionEntry<'infoItems'>['data'];
+export type InfoSeries = CollectionEntry<'infoSeries'>['data'];
 export type Equipment = NonNullable<InfoItem['equipment']>[number];
 
 export const BASE = '/informatika';
@@ -97,6 +98,10 @@ export function primaryHref(item: InfoItem): { href: string; external: boolean }
   return null;
 }
 
+export function seriesHref(series: Pick<InfoSeries, 'id'>): string {
+  return `${BASE}/serie/${series.id}`;
+}
+
 export function subcategoryName(category: InfoCategory, id?: string): string | null {
   if (!id) return null;
   return category.subcategories.find((s) => s.id === id)?.name ?? null;
@@ -148,4 +153,26 @@ export async function getItems(categoryId?: string): Promise<InfoItem[]> {
 
 export function plural(n: number, one: string, few: string, many: string): string {
   return n === 1 ? one : n >= 2 && n <= 4 ? few : many;
+}
+
+export async function getSeries(): Promise<InfoSeries[]> {
+  const series = await getCollection('infoSeries');
+  return series.map((s) => s.data).sort((a, b) => a.name.localeCompare(b.name, 'cs'));
+}
+
+export async function getSeriesById(id: string): Promise<InfoSeries | undefined> {
+  return (await getSeries()).find((s) => s.id === id);
+}
+
+/** Karty jedné série v pořadí `part` (bez pořadí na konec, pak abecedně). */
+export async function getSeriesItems(seriesId: string): Promise<InfoItem[]> {
+  const items = await getItems();
+  return items
+    .filter((i) => i.series?.id === seriesId)
+    .sort((a, b) => {
+      const pa = a.series?.part ?? Infinity;
+      const pb = b.series?.part ?? Infinity;
+      if (pa !== pb) return pa - pb;
+      return a.title.localeCompare(b.title, 'cs');
+    });
 }

@@ -14,9 +14,14 @@ import {
   formatGrades,
   getCategories,
   getItems,
+  getSeriesById,
+  getSeriesItems,
   hasDetail,
   hostname,
+  primaryHref,
+  seriesHref,
   subcategoryName,
+  type InfoItem,
 } from '../../../lib/informatika';
 
 export async function getStaticPaths() {
@@ -37,6 +42,17 @@ const { item, category } = Astro.props;
 const accent = ACCENTS[category.accent];
 const sub = subcategoryName(category, item.subcategoryId);
 const gradeLabel = formatGrades(item.grades);
+
+// Karta ze série: pořadí v sérii a sousední karty pro listování.
+const series = item.series ? await getSeriesById(item.series.id) : undefined;
+const seriesItems = series ? await getSeriesItems(series.id) : [];
+const seriesIndex = seriesItems.findIndex((i) => i.id === item.id);
+const neighbour = (other?: InfoItem) => {
+  const link = other ? primaryHref(other) : null;
+  return other && link ? { title: other.title, ...link } : null;
+};
+const prev = neighbour(seriesItems[seriesIndex - 1]);
+const next = neighbour(seriesItems[seriesIndex + 1]);
 const paragraphs = item.procedure?.split(/\n{2,}/).map((p) => p.trim()).filter(Boolean) ?? [];
 
 const meta = [
@@ -93,6 +109,41 @@ const meta = [
         ))}
       </dl>
     </header>
+
+    {series && (
+      <nav
+        class="mt-4 rounded-xl border border-gray-200 bg-white px-5 py-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm"
+        aria-label={`Série ${series.name}`}
+      >
+        <a href={seriesHref(series)} class="font-medium text-gray-900 hover:text-primary-700">
+          <span aria-hidden="true">{series.icon}</span> Série {series.name}
+          <span class="font-normal text-gray-500">· {seriesIndex + 1} z {seriesItems.length}</span>
+        </a>
+        <span class="flex-1"></span>
+        {prev && (
+          <a
+            href={prev.href}
+            target={prev.external ? '_blank' : undefined}
+            rel={prev.external ? 'noopener noreferrer' : undefined}
+            class="text-gray-600 hover:text-primary-700"
+            title={prev.title}
+          >
+            ← předchozí
+          </a>
+        )}
+        {next && (
+          <a
+            href={next.href}
+            target={next.external ? '_blank' : undefined}
+            rel={next.external ? 'noopener noreferrer' : undefined}
+            class="text-gray-600 hover:text-primary-700"
+            title={next.title}
+          >
+            další →
+          </a>
+        )}
+      </nav>
+    )}
 
     {item.goal && (
       <section class="mt-4 rounded-xl border border-gray-200 bg-white p-5">

@@ -1,40 +1,76 @@
 {
   "id": "hardware-dl-vstupy-a-vystupy",
   "categoryId": "hardware",
-  "title": "Datová Lhota: Vstupy a výstupy počítače",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Desetiminutová aktivita k talkshow „O jádru a operačním systému“: jaká periferní zařízení jde připojit a která posílají data do počítače, která z něj a která oběma směry (dotyková obrazovka).",
+  "title": "Datová Lhota: Vstupy a výstupy",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_vstupy%20a%20vystupy.pdf",
+  "description": "Počítač není uzavřený svět: děti vyjmenují periferní zařízení z talkshow a zakroužkují červeně vstupní a zeleně výstupní — a dotyková obrazovka je obojí.",
   "type": "aktivita",
   "equipment": [
     "bez-pocitace"
   ],
+  "grades": [
+    2,
+    3,
+    4,
+    5
+  ],
   "duration": "10 min",
   "keywords": [
-    "Datová Lhota",
     "vstupní zařízení",
     "výstupní zařízení",
     "periferie",
+    "periferní zařízení",
     "dotyková obrazovka",
-    "ČT",
-    "1. stupeň"
+    "klávesnice",
+    "myš",
+    "monitor",
+    "tiskárna",
+    "firmware",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti rozliší vstupní a výstupní zařízení a vědí, že některá, třeba dotyková obrazovka, jsou obojí.",
+  "goal": "Děti vědí, že k počítači se připojují periferní zařízení, a rozliší vstupní (klávesnice, myš, kamera), výstupní (monitor, sluchátka, tiskárna) a obojí zároveň (dotyková obrazovka, flashka).",
   "materials": [
-    "Talkshow „O jádru a operačním systému“, kapitola Periferní zařízení (4:00–5:08)",
-    "Projektor, případně vytištěný seznam zařízení (příloha)"
+    "Projektor a talkshow z Déčka",
+    "Vytištěný list k zakroužkování (příloha 1)",
+    "Červená a zelená pastelka"
   ],
-  "procedure": "Periferní zařízení (5 min): pusťte úsek talkshow. Jaká zařízení jde k počítači připojit? Jak do mobilu zadáváme informace? Dotyková obrazovka je také periferie.\n\nVstupy a výstupy (5 min): děti rozřadí klávesnici, myš, sluchátka, monitor, tiskárnu, kameru, foťák a dotykovou obrazovku na vstupní a výstupní, případně kroužkují na listu ve dvojicích. Pro rychlé: touchpad, skener, joystick, vibrační motorek, flashka.\n\nHodí se jako rozšíření lekce Já a počítačový svět.",
+  "procedure": "Periferní zařízení (5 min): pusťte z talkshow O jádru a operačním systému kapitolu Periferní zařízení (4:00–5:08) — co všechno jde k počítači připojit? Ve videu byla klávesnice, myš, sluchátka, tiskárna a foťák; doplňte monitor, kameru, skener, flashku. Jak zadám informace do mobilu? Dotyková obrazovka je také periferie — klávesnice na obrazovce je jen program.\n\nVstupy a výstupy (5 min): některá zařízení posílají data do počítače, jiná je dostávají, některá obojí. Děti na listu zakroužkují vstupní červeně a výstupní zeleně. Rozšíření: joystick s vibracemi, skener, externí disk — a třeba i internet. Shrnutí: počítač přijímá vstupy a posílá výstupy, díky tomu s ním komunikujeme.\n\nHodí se jako rozšíření lekce Já a počítačový svět. Kdo chce vidět, co se děje uvnitř, pustí 3. díl (cesta znaku z klávesnice do editoru) nebo 13. díl (myš má vlastní malý počítač a firmware).",
   "files": [
     {
-      "label": "Popis aktivity s přílohou",
+      "label": "Postup aktivity (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_vstupy%20a%20vystupy.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "List k zakroužkování ve verzi k promítnutí i k tisku."
+    },
+    {
+      "label": "Kubova talkshow — O jádru a operačním systému",
+      "href": "https://decko.ceskatelevize.cz/video/b38402",
+      "type": "video",
+      "note": "Kapitola Periferní zařízení, 4:00–5:08."
+    },
+    {
+      "label": "Navíc: 3. díl — Pokažená klávesnice",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110003",
+      "type": "video",
+      "note": "Co se děje po stisku klávesy: ovladač klávesnice, jádro a textový editor."
+    },
+    {
+      "label": "Navíc: 13. díl — O myši a lidech",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110003",
+      "type": "video",
+      "note": "Myš od kakaa: malý počítač uvnitř myši a firmware."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 11
+  },
+  "added": "2026-09-30"
 }

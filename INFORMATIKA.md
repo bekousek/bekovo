@@ -25,6 +25,24 @@ a strana; pracovní listy jen tehdy, když jsou volně ke stažení jinde
 - `/informatika/<oblast>/<položka>` — detail; vzniká **jen** u položek, které
   mají `goal`, `procedure`, `materials`, `files` nebo `notes`. Ostatní karty
   vedou rovnou na `url`.
+- `/informatika/serie/<série>` — stránka série (viz níže).
+
+## Série
+
+Když má jeden zdroj víc hodin (pořad s lekcemi — Datová Lhota), nedělá se
+karta na každý díl ani jedna souhrnná karta. **Karta = lekce**, každá ve své
+oblasti, a všechny nesou `"series": { "id": "datova-lhota", "part": 3 }`
+(`part` = doporučené pořadí). Série je jeden JSON v `src/content/info-series/`
+a dostane vlastní stránku: úvod, karty v pořadí, **průvodce videi**
+(`videoGroups` — všechny díly s odkazem a jednou větou o čem jsou) a soubory
+ke všem lekcím najednou (úvod pro učitele, technické popisy).
+
+Průvodce sám dopočítá, ke které lekci video patří: stačí, aby karta měla to
+video ve `files` se **stejným `href`** jako v `videoGroups` (typ `video`,
+do `note` časy úseků k zastavování). Díly, které žádná lekce nepouští, se
+přidají do `files` nejbližší lekce s popiskem „Navíc: …“, ať nic nevisí.
+Karty série mají štítek s odkazem na stránku série a na detailu listování
+předchozí/další; rozcestník `/informatika` ukáže série pod oblastmi.
 
 ## Oblasti
 

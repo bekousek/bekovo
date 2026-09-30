@@ -2,9 +2,9 @@
   "id": "internet-dl-k-cemu-je-cloud",
   "categoryId": "internet",
   "subcategoryId": "spoluprace",
-  "title": "Datová Lhota: K čemu je mi cloud? (role na sdíleném dokumentu)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Kuba zapomněl doma prezentaci, ale je uložená v cloudu. Po 16. dílu skupiny simulují na papíře A3 sdílenou nástěnku: vylosují si role vlastník a editor a zkoušejí, co která role smí.",
+  "title": "Datová Lhota: K čemu je mi cloud?",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/k_cemu_je_mi_cloud.pdf",
+  "description": "Cloud není v mobilu, ale v halách plných serverů. Po dílu o Kubově zapomenuté prezentaci si skupiny bez počítačů vyzkouší sdílenou nástěnku z post-itů s rolemi vlastník, editor a čtenář.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -15,40 +15,52 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "cloud",
     "cloudové úložiště",
     "sdílený dokument",
     "role",
     "vlastník",
     "editor",
+    "čtenář",
+    "přístupová práva",
+    "spolupráce",
+    "server",
+    "datacentrum",
     "unplugged",
-    "ČT"
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že cloud nejsou data v mobilu, ale spousta serverů na internetu, že slouží k ukládání, zálohování i společné práci a že na cloudu existují role s různými právy.",
+  "goal": "Žáci vědí, že cloud je mnoho počítačů (serverů) na internetu, kam se dají ukládat a zálohovat data a kde se dá spolupracovat, a že uživatelé sdíleného dokumentu mají různé role a práva. Dobrý úvod před projektem ve skutečném cloudu.",
   "materials": [
-    "Díl 16 „Jeden cloud nebo mraky počítačů?“",
-    "Papíry A3 (jeden na skupinu)",
-    "Samolepicí lístečky (Post-it) dvou velikostí",
-    "Lístečky s rolemi VLASTNÍK a EDITOR nalepené předem na A3"
+    "Projektor, 16. díl z Déčka a fotka skutečného datacentra (příloha A)",
+    "Papíry A3 — jeden na skupinu",
+    "Post-ity dvou velikostí",
+    "Lístečky s rolemi VLASTNÍK (jeden na skupinu) a EDITOR, předem přilepené na A3 nápisem dolů"
   ],
-  "procedure": "Úvod (5 min): kdo slyšel slovo cloud? Co na něj ukládáme? K čemu je dobrý?\n\nDíl 16 (10 min): kde měl Kuba uložený úkol? Na cloudu ve Francii. Ukažte fotku skutečného datacentra: cloud v seriálu jako knihovna je jen metafora a cloudů je po světě mnoho.\n\nUnplugged aktivita Role na cloudu (20 min): skupiny po 3–4 dětech tvoří na papíře A3 „sdílenou nástěnku“ na téma, které si vyberou. Pod lístečky je skrytá role: jeden vlastník, ostatní editoři. Podle pokynů učitele zkoušejí, co která role může s dokumentem dělat.\n\nZávěr (5 min): reflexe. Metodika doporučuje lekci jako úvod k projektu se skutečným cloudem.",
+  "procedure": "Úvod (5 min): Kdo slyšel slovo cloud? Umí ho někdo vysvětlit dvěma větami? Co se tam ukládá a k čemu je dobrý? Pozor na představu, že cloud je aplikace nebo paměť v mobilu.\n\n16. díl (10 min): „Kde měl Kuba uložený úkol?“ — na cloudu ve Francii. Ukažte fotku datacentra: cloudů je po světě mnoho (i v Česku) a knihovna ve Lhotě je jen metafora. Doptejte se: ukládají se soubory do mobilu? Je potřeba internet? Může se na soubory podívat kdokoli (úsek 1:24–1:45; heslo 4321 je špatné)? Jaké má cloud výhody?\n\nAktivita Role na cloudu (20 min): skupiny po 3–4 si za minutu vyberou téma nástěnky a vylosují role. Editor přidává příspěvky, vlastník navíc může cizí příspěvky strhnout. Za 7 minut má být na nástěnce aspoň 7 příspěvků na velkých post-itech; učitel může přidávat „partyzánské“ příspěvky. Pak se nástěnky „nasdílí“ celé třídě: všichni jsou čtenáři, potichu chodí po třídě a lepí malé komentáře. Nakonec vlastníci smí smazat nejvýš dva komentáře.\n\nReflexe (5 min): Jaké byly role? Kde by nástěnky byly doopravdy? Jaké má cloud nevýhody (potřebuju internet a data, někdo mi práci přepíše, provozovatel službu zruší — zálohovat i jinam)? Každá skupina napíše větu „Dnes jsem se dozvěděl/a, že…“ pro spolužáka, který chyběl. Vystavit nástěnky na chodbě = zveřejnit je pro všechny — rozhodnou vlastníci.",
   "files": [
     {
-      "label": "Metodika lekce s přílohami",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/k_cemu_je_mi_cloud.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Fotka datacentra a ukázka nástěnky v příloze."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "16. díl — Jeden cloud nebo mraky počítačů?",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110006",
+      "type": "video",
+      "note": "Celý díl; při dotazech úseky 2:05–2:26, 0:53–1:08 a 1:24–1:45. Závěr dílu (Lindin stream zahltí školní wifi) se hodí k debatě o streamování."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 7
+  },
+  "added": "2026-09-30"
 }

@@ -2,13 +2,12 @@
   "id": "bezpecnost-dl-pristupy-aplikaci",
   "categoryId": "bezpecnost",
   "subcategoryId": "soukromi",
-  "title": "Datová Lhota: Nemám v kapse špiona? (oprávnění aplikací)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Aplikace na úpravu fotek o Kubovi ví všechno, protože jí povolil každý přístup. Žáci si na svých mobilech prohlédnou oprávnění aplikací a ve skupinách vymyslí „zlou“ aplikaci, která by lidi šmírovala.",
+  "title": "Datová Lhota: Aplikace a jejich přístupy k informacím",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_pristupy_k_informacim.pdf",
+  "description": "Aplikace na úpravu fotek ví, kudy Kuba chodí domů. Žáci si ve vlastním mobilu projdou oprávnění aplikací, zakážou zbytečné přístupy a ve skupinách vymyslí vlastní „zlou“ aplikaci.",
   "type": "blok",
   "equipment": [
-    "mobil",
-    "bez-pocitace"
+    "mobil"
   ],
   "grades": [
     6,
@@ -16,39 +15,51 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
-    "oprávnění aplikací",
+    "aplikace",
+    "oprávnění",
+    "přístupová práva",
     "poloha",
+    "GPS",
     "kamera",
     "mikrofon",
-    "soukromí",
+    "kontakty",
+    "mikrotransakce",
     "smartphone",
-    "ČT"
+    "soukromí",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Žáci vědí, že aplikace v mobilu mohou přistupovat k poloze, kameře, galerii či kontaktům, a že povolit všechno, oč si řeknou, je riskantní.",
+  "goal": "Žáci vědí, že aplikace v mobilu mohou přistupovat k poloze, fotkám, kontaktům, kameře nebo platbám a že tyto přístupy lze zneužít. Umí v nastavení zkontrolovat a zakázat oprávnění, která aplikace nepotřebuje.",
   "materials": [
-    "Díl 17 „Špión nebo kamarád?“",
-    "Příloha A metodiky (k čemu mohou aplikace přistupovat) k promítnutí",
-    "Smartphony žáků (nebo náhradní řešení)",
-    "Papíry A4 a A3, pastelky a fixy"
+    "Projektor a 17. díl z Déčka",
+    "Seznam periferií a informací (příloha A) — na tabuli, zatím zakrytý",
+    "Mobily žáků (nebo školní, případně postup na slajdech — osobní telefony si nepůjčovat)",
+    "Papíry a fixy pro skupiny"
   ],
-  "procedure": "Úvod (5–10 min): žáci píšou na tabuli aplikace, které používají, a jednou větou říkají, co dělají.\n\nDíl 17 (10 min): kdo o Kubovi špehoval informace? K čemu mohou aplikace chtít přístup a jak se to dá zneužít (kamera, mikrofon, galerie, GPS, internet, Bluetooth)?\n\nAktivita se smartphony (10–15 min): k čemu mají přístup aplikace v mém telefonu? Žáci projdou nastavení oprávnění.\n\nUnplugged aktivita Vymýšlení vlastní aplikace (5 min): ve skupinách si „zahrají na hackery“ a navrhnou lákavou aplikaci, která by ve skutečnosti sbírala data.\n\nZávěr (2–3 min): stručné shrnutí.",
+  "procedure": "Úvod (5–10 min): žáci chodí k tabuli, píšou aplikace, které používají, a jednou větou řeknou, co dělají. Hlídejte pestrost (hry, sociální sítě, mapy, komunikátory, škola) — stačí asi osm.\n\n17. díl (10 min): „Kdo o Kubovi špiónil?“ — Marwin přes aplikaci na úpravu fotek. K čemu chtějí aplikace přístup (úsek 2:02–2:17)? Odkryjte seznam: kamera, mikrofon, galerie, poloha, internet, Bluetooth, kontakty, platby. Jak se dá který přístup zneužít (2:22–2:52)? Poloha prozradí, kdy nejsme doma; kontakty poslouží k rozesílání spamu naším jménem; platby k mikrotransakcím ve hrách.\n\nAktivita s mobily (10–15 min): žáci u aplikací z tabule zjistí, k čemu mají povolený přístup (Android: Nastavení → Aplikace → vybrat aplikaci → Oprávnění; iOS: Nastavení → vybrat aplikaci). Kdo chce, sdílí, co ho překvapilo. Přístup jde často povolit jen jednorázově, a když aplikace přestane fungovat, dá se vrátit. Upozorněte, že firmy o nás sbírají data i jinak (cookies) — dnes jde o to nedávat aplikacím víc, než potřebují. Nakonec mobily uklidit.\n\nVlastní zlá aplikace (5 min): Proč navigace potřebuje polohu? Povolíte nové hře nákupy? Skupiny za 2–3 minuty vymyslí lákavou aplikaci, která potají zneužívá nějaký přístup, a představí ji. Skutečný příklad: svítilna, která chce polohu i úložiště a prodává data dál.\n\nTipy pro mladší (2–3 min): každá skupina jednou větou — kontroluj, k čemu mají aplikace přístup; zakaž, co nepotřebují; nestahuj z neprověřených zdrojů.",
   "files": [
     {
-      "label": "Metodika lekce s přílohou",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/aplikace_a_jejich_pristupy_k_informacim.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Seznam periferií a informací k promítnutí v příloze."
     },
     {
-      "label": "Technický popis dílů 2. série",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
-      "type": "pdf"
+      "label": "17. díl — Špion nebo kamarád?",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110007",
+      "type": "video",
+      "note": "Celý díl, pak úseky 2:02–2:17 a 2:22–2:52. Díl sám se hodí už pro 4.–5. třídu."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 9
+  },
+  "added": "2026-09-30"
 }

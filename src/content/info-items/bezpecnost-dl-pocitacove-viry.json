@@ -1,9 +1,10 @@
 {
   "id": "bezpecnost-dl-pocitacove-viry",
   "categoryId": "bezpecnost",
+  "subcategoryId": "podvody-a-phishing",
   "title": "Datová Lhota: Počítačové viry",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Díl „Viry útočí“ a talkshow „O virech“: co viry dělají, co je antivir a proč aktualizovat. Děti nakreslí vir na tablet a vygumují ho „antivirem“: vrypy na papíře ukážou, že škoda po viru zůstává.",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-pocitacove-viry.pdf",
+  "description": "Vir natočil Kubu přes webkameru a rozeslal video po škole. Děti zjistí, co je vir a antivir, proč aktualizovat a neklikat na neznámé odkazy — a gumováním nakresleného viru, že škoda po viru zůstane.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -15,37 +16,55 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "počítačový vir",
     "antivir",
     "aktualizace",
+    "spyware",
+    "ransomware",
+    "špehoun",
+    "vyděrač",
+    "webkamera",
+    "odkaz",
     "malware",
-    "ČT",
-    "1. stupeň"
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že viry škodí počítačům, tabletům i mobilům, že antivir pomáhá, ale nechrání stoprocentně ani neopraví způsobenou škodu, a že nejdůležitější je zodpovědné chování.",
+  "goal": "Děti vědí, že vir je program, který škodí zařízení, a že proti virům pomáhá zapnutý a aktualizovaný antivir a opatrnost s odkazy. Vyšší úroveň: ani antivir nechrání stoprocentně a škodu už obvykle nevrátí.",
   "materials": [
-    "Díl 7 „Viry útočí“ a talkshow „O virech“",
-    "Vytištěné papíry s obrysem tabletu (příloha metodiky)",
+    "Projektor a videa z Déčka",
+    "Vytištěný list Odstraňování viru s obrysem tabletu (příloha 1)",
     "Obyčejná tužka a guma"
   ],
-  "procedure": "Úvod (5 min): co víte o počítačových virech?\n\nDíl 7 „Viry útočí“ (15 min): počítačový vir, antivir a aktualizace, rozebrané u zastavovaného videa.\n\nAktivita Odstraňování viru (5 min): děti mají 2–3 minuty, aby obyčejnou tužkou nakreslily vir do obrysu tabletu. Pak ho vygumují. Guma je antivir. Zmizel vir úplně? Na papíře zůstaly vrypy, stejně jako po viru zůstanou smazané fotky.\n\nTalkshow „O virech“ (10 min) a závěrečné shrnutí (5 min).",
+  "procedure": "Úvod (5 min): Setkali jste se s virem? Co je antivir? Co jsou aktualizace? Mluvte o viru a antiviru, ne o virusu — dětem je to srozumitelnější.\n\n7. díl (15 min): před puštěním „Co je počítačový vir a co nám může způsobit?“ Pak úseky: 2:35–2:41 (jak zařízení chránit — antivir), 3:35–4:06 (jakou chybu Kuba udělal — klikl na neznámý odkaz na hru), 4:06–4:22 (co slíbil — antivir vždy zapnutý a aktualizovaný). Aktualizaci si mladší představí jako očkování proti novým virům. Vyšší úroveň: ani aktualizovaný antivir není stoprocentní.\n\nAktivita Odstraňování viru (5 min): děti obyčejnou tužkou nakreslí do obrysu tabletu vir (jen 2–3 minuty), pak ho gumou-antivirem vygumují. Zůstaly na papíře vrypy? Antivir vir smaže, ale škodu nenapraví — Kubovo video s okurkou už koluje po škole.\n\nTalkshow O virech (10 min): celá, pak úseky 1:00–2:02 (špehouni sledují, co píšete, a zapnou kameru; vyděrači zašifrují soubory a chtějí peníze), 4:20–4:31 (jak se vir ke Kubovi dostal) a 4:31–5:21 (i mobil potřebuje antivir). Kdo má čas, zmíní adware a viry na flashce.\n\nZávěr (5 min): Co je vir? Jak se proti virům bránit? Chrání antivir stoprocentně? Dostane se vir i do mobilu? Napraví antivir škodu, kterou vir udělal?",
   "files": [
     {
-      "label": "Metodika lekce s pracovním listem",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/ML04-pocitacove-viry.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "List Odstraňování viru v příloze."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "7. díl — Viry útočí",
+      "href": "https://decko.ceskatelevize.cz/video/e216543112110001",
+      "type": "video",
+      "note": "Celý díl, pak úseky 2:35–2:41, 3:35–4:06 a 4:06–4:22."
+    },
+    {
+      "label": "Kubova talkshow — O virech",
+      "href": "https://decko.ceskatelevize.cz/video/b38404",
+      "type": "video",
+      "note": "Celá, pak 1:00–2:02, 4:20–4:31 a 4:31–5:21. Těžební viry lekce záměrně vynechává."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 4
+  },
+  "added": "2026-09-30"
 }

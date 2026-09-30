@@ -2,9 +2,9 @@
   "id": "internet-dl-komunikace-po-internetu",
   "categoryId": "internet",
   "subcategoryId": "jak-funguje-internet",
-  "title": "Datová Lhota: Komunikace po internetu (routery, servery, IP adresa)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Děti sledují, jak data putují přes routery a servery, a naučí se zakreslit tok informací do jednoduchého schématu internetu. Závěr: co dáme na internet, nad tím ztrácíme kontrolu.",
+  "title": "Datová Lhota: Komunikace po internetu",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/komunikace-po-internetu.pdf",
+  "description": "Kudy putuje fotka od kamaráda? Žáci kreslí do schématu internetu cestu přes routery a servery, poznají IP adresu, streamování i stahování a sepíšou, proč z internetu nic spolehlivě nesmažeš.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -16,38 +16,75 @@
   ],
   "duration": "2 × 40 min",
   "keywords": [
-    "Datová Lhota",
     "internet",
+    "wifi",
     "router",
     "server",
     "IP adresa",
-    "tok dat",
+    "upload",
+    "streamování",
+    "stahování",
     "schéma sítě",
-    "ČT"
+    "bezpečnost",
+    "digitální stopa",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Děti vědí, že data mezi dvěma zařízeními putují přes mnoho dalších počítačů, že každé zařízení má IP adresu, co dělá router a server, a umí na schématu zakreslit cestu dat.",
+  "goal": "Žáci vědí, že data mezi dvěma zařízeními putují přes mnoho dalších počítačů (routery, servery), že každé zařízení má IP adresu, kterou je všechno odeslané „podepsané“, a že nad daty, která dají na internet, ztrácí kontrolu. Tok dat umí zakreslit do jednoduchého schématu.",
   "materials": [
-    "Díl 9 „Cesta na se(r)ver“ a talkshow „O datech na internetu“ a „O bezpečnosti na internetu“",
-    "Vytištěný pracovní list se schématem internetu (1 ks na dítě)",
-    "Tužka a pravítko"
+    "Projektor a videa z Déčka",
+    "Vytištěný pracovní list Schéma internetu (příloha 1b) pro každého",
+    "Obrázek wifi routeru a domů (příloha 1a) k promítnutí",
+    "Tužka, pravítko, červená a modrá pastelka"
   ],
-  "procedure": "Úvod (10 min): brainstorming, co všechno na internetu děláme.\n\nDíl 9 „Cesta na se(r)ver“ (20 min): co je router, „křižovatka“, přes kterou data jdou dál.\n\nTalkshow „O datech na internetu“ (15 min): co je server a co na něm bývá uložené.\n\nPo přestávce talkshow „O bezpečnosti na internetu“ (15 min): co se děje s daty, která dáme na internet.\n\nZávěr s pracovním listem (10–15 min): děti pojmenují značky ve schématu (černá kolečka jsou routery, prázdná kolečka servery a uživatelská zařízení) a samy dokreslí pokračování sítě. Koncová zařízení mají jen jednu cestu k routeru.\n\nMetodika doporučuje tuto lekci jako začátek, pokud s Datovou Lhotou začínáte až na 2. stupni.",
+  "procedure": "Co děláme na internetu (10 min): žáci sepíšou, co se dá dělat s připojením. Pak napište na tabuli WIFI, ROUTER, SERVER, IP ADRESA — kdo je zná a umí je vysvětlit? Na obrázku domů vysvětlete: wifi router je krabička, přes kterou se připojíme (vzduchem = wifi, nebo kabelem), a z domu vede kabel k větším routerům. Když router vypneme, internet nezmizí — zmizí jen wifi signál.\n\n9. díl (20 min): „Kam se Kuba ze svého počítače dostal?“ — na router. Úseky: 2:18–2:32 (router = křižovatka pro data), 2:32–2:40 (přes kolik routerů šla hra? zastavte na schématu — černá kolečka jsou routery, prázdná zařízení a servery), 2:40–2:51 (IP adresa jako adresa bydliště; pozor na záměnu s telefonním číslem). Pracovní list: žáci pojmenují svůj počítač a červeně zakreslí, kudy k nim putuje Kubova fotka mazlíčka — správných cest je víc. Rozšíření: jeden router se porouchá, hledejte jinou cestu.\n\nTalkshow O datech na internetu (15 min): Jak se video dostane do mobilu? Někdo ho natočí, uploaduje na server a k nám se pošle kopie. Úseky 0:42–0:56 (upload), 0:56–1:14 (server = výkonný počítač, dělá služby jako obchod nebo knihovna), vyšší úroveň 3:42–5:13 (streamování vs. stahování — žáci sepíšou výhody a nevýhody). V listu pojmenují servery a modře zakreslí cestu požadavku na server a zpět.\n\nTalkshow O bezpečnosti na internetu (15 min): Dají se věci z internetu smazat? Po videu: proč ne — kdokoli si je mezitím mohl uložit. Ve dvojicích sepsat rady: nedávat na internet nic, co bych nevyvěsil na školní nástěnku; lidé mohou lhát a mít falešné profily; v nesnázích se obrátit na dospělého (rodiče, třídní, metodik prevence, Linka bezpečí).\n\nZávěr (10–15 min): v listu doplnit legendu (routery, servery, uživatelské počítače) a dokreslit pokračování sítě — zařízení a servery vždy jen na konci jedné cesty. Debata v kruhu: kudy jde fotka ke kamarádovi, proč je router křižovatka, streamujete, nebo stahujete, co je bezpečné uploadovat?",
   "files": [
     {
-      "label": "Metodika lekce s pracovním listem",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/komunikace-po-internetu.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Pracovní list se schématem internetu a obrázky k wifi routeru v příloze."
     },
     {
-      "label": "Úvodní informace ke všem lekcím (návaznost, RVP)",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
-      "type": "pdf"
+      "label": "9. díl — Cesta na se(r)ver",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110008",
+      "type": "video",
+      "note": "Celý díl, pak úseky 2:18–2:32, 2:32–2:40 (nechte stát schéma) a 2:40–2:51."
+    },
+    {
+      "label": "Kubova talkshow — O datech na internetu",
+      "href": "https://decko.ceskatelevize.cz/video/b38631",
+      "type": "video",
+      "note": "Celá, pak 0:42–0:56 a 0:56–1:14; vyšší úroveň 3:42–4:18 a 4:18–5:13."
+    },
+    {
+      "label": "Kubova talkshow — O bezpečnosti na internetu",
+      "href": "https://decko.ceskatelevize.cz/video/b38632",
+      "type": "video",
+      "note": "Celá."
+    },
+    {
+      "label": "Kubova talkshow — O počítačích na internetu",
+      "href": "https://decko.ceskatelevize.cz/video/b41528",
+      "type": "video",
+      "note": "Vyšší úroveň: úsek 2:43–3:29 podrobněji o routerech — klidně jako opakování v další hodině."
+    },
+    {
+      "label": "Navíc: 8. díl — Stránko, otevři se!",
+      "href": "https://decko.ceskatelevize.cz/video/e217543112110007",
+      "type": "video",
+      "note": "V lekci se nepouští. Jak prohlížeč staví stránku podle HTML kódu a co dělá skript — hodí se k úvodu do tvorby webu."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 5
+  },
+  "added": "2026-09-30"
 }

@@ -1,0 +1,82 @@
+{
+  "id": "datova-lhota",
+  "name": "Datová Lhota",
+  "icon": "📺",
+  "tagline": "Animovaný seriál ČT o tom, jak uvnitř fungují počítač, mobil a internet — 20 dílů, 8 talkshow a 10 modelových lekcí z MFF UK.",
+  "description": "Kuba a Marwin skáčou do světa uvnitř počítače: programy jsou tu domy, panáčci v nich pracují podle programového kódu a data putují v balících. Každý díl začne obyčejným problémem — počítač se seká, úkol zmizel, někdo čte cizí zprávy — a v Datové Lhotě se ukáže, co se opravdu děje. Díly mají kolem pěti minut; v Kubových talkshow zpovídá Kuba obyvatele Lhoty podrobněji.\n\nK seriálu vznikly na MFF UK modelové lekce vyzkoušené v desítkách tříd: scénář hodiny s otázkami před videem, časy, kde video zastavit, aktivitami a pracovními listy. Lekce k 1. sérii míří na 2.–5. ročník (Komunikace po internetu a Soukromí od 4. třídy), lekce ke 2. sérii na 5. ročník až začátek 7. ročníku. Každá má dvě úrovně obtížnosti. Kdo začíná až na 2. stupni, ať podle autorů začne lekcí Komunikace po internetu a princip seriálu ukáže na 1. a 2. dílu.",
+  "url": "https://decko.ceskatelevize.cz/datova-lhota",
+  "videoGroups": [
+    {
+      "name": "1. série — díly 1–10 (asi 5 min)",
+      "videos": [
+        { "title": "1. díl — Zachraňte mě!", "href": "https://decko.ceskatelevize.cz/video/e217543112110001", "about": "Kuba klikne na cizím přihlášeném počítači na neznámý program a ocitne se v městečku programů uvnitř počítače." },
+        { "title": "2. díl — Dva účty", "href": "https://decko.ceskatelevize.cz/video/e217543112110002", "about": "Linda se na společném notebooku přihlásí na svůj účet a Kubovy spuštěné programy se začnou bourat." },
+        { "title": "3. díl — Pokažená klávesnice", "href": "https://decko.ceskatelevize.cz/video/e217543112110003", "about": "Klávesnice píše jiná písmena: cesta znaku z klávesnice přes ovladač a jádro až do textového editoru." },
+        { "title": "4. díl — Koukej mazat!", "href": "https://decko.ceskatelevize.cz/video/e217543112110004", "about": "Janáček vytáhne Kubův úkol ze školního koše — pevný disk, kartotéka souborů a proč koš vysypat." },
+        { "title": "5. díl — Kde to vázne?", "href": "https://decko.ceskatelevize.cz/video/e217543112110005", "about": "Video do soutěže se nahrává pomalu: šifrování, dělení na pakety a velikost dat." },
+        { "title": "6. díl — Aktualizuj!", "href": "https://decko.ceskatelevize.cz/video/e217543112110006", "about": "Textový editor zničí Kubův úkol — chyba v programovém kódu a proč instalovat aktualizace." },
+        { "title": "7. díl — Viry útočí", "href": "https://decko.ceskatelevize.cz/video/e216543112110001", "about": "Vir Kubovi zapne webkameru a video rozešle po škole: antivir, aktualizace a neznámé odkazy." },
+        { "title": "8. díl — Stránko, otevři se!", "href": "https://decko.ceskatelevize.cz/video/e217543112110007", "about": "Na stránce kroužku chybí fotka: jak prohlížeč staví stránku podle HTML kódu a co dělá skript." },
+        { "title": "9. díl — Cesta na se(r)ver", "href": "https://decko.ceskatelevize.cz/video/e217543112110008", "about": "Kuba se nemůže přihlásit do hry: routery jako křižovatky, IP adresa a příliš jednoduché heslo." },
+        { "title": "10. díl — Je libo sušenku?", "href": "https://decko.ceskatelevize.cz/video/e217543112110009", "about": "Reklama na doplňky k plyšové okurce: jak e-shop pozná návštěvníka pomocí cookies." }
+      ]
+    },
+    {
+      "name": "2. série — díly 11–20 (asi 5 min)",
+      "videos": [
+        { "title": "11. díl — Krize v městečku", "href": "https://decko.ceskatelevize.cz/video/e220553112110001", "about": "Notebook se seká, protože běží moc programů najednou a čtyři jádra procesoru nestíhají." },
+        { "title": "12. díl — Košem to nekončí", "href": "https://decko.ceskatelevize.cz/video/e220553112110002", "about": "Záchrana smazané fotky z interní paměti mobilu — ani vysypaný koš data hned nesmaže." },
+        { "title": "13. díl — O myši a lidech", "href": "https://decko.ceskatelevize.cz/video/e220553112110003", "about": "Myš od kakaa nereaguje: malý počítač uvnitř myši, firmware a cesta zprávy o pohybu až ke kurzoru." },
+        { "title": "14. díl — Když je okno větší než dům", "href": "https://decko.ceskatelevize.cz/video/e220553112110004", "about": "Hra se nevejde do paměti kvůli záložkám prohlížeče — operační paměť a restart jako úklid." },
+        { "title": "15. díl — Kdo to heknul?", "href": "https://decko.ceskatelevize.cz/video/e220553112110005", "about": "Někdo čte Lindiny zprávy: hacknutý Wi-Fi router, aktualizace firmwaru a šifrování." },
+        { "title": "16. díl — Jeden cloud nebo mraky počítačů?", "href": "https://decko.ceskatelevize.cz/video/e220553112110006", "about": "Kuba nechal prezentaci doma, a tak ji s Marwinem jdou hledat až na cloud do Francie." },
+        { "title": "17. díl — Špion nebo kamarád?", "href": "https://decko.ceskatelevize.cz/video/e220553112110007", "about": "Aplikace na úpravu fotek o Kubovi ví všechno, protože jí povolil přístup skoro ke všemu." },
+        { "title": "18. díl — Hra s daty", "href": "https://decko.ceskatelevize.cz/video/e220553112110008", "about": "Nová hra se nevejde do mobilu: plná interní paměť a „líné“ mazání starých her." },
+        { "title": "19. díl — Pán internetu", "href": "https://decko.ceskatelevize.cz/video/e220553112110009", "about": "Kdo nás sleduje přes reklamy? Reklamní servery, reklamní cookies a reklama na míru." },
+        { "title": "20. díl — Děsivě chytrá domácnost", "href": "https://decko.ceskatelevize.cz/video/e220553112110010", "about": "Kluci ovládnou přes Wi-Fi vysavač a hračky — internet věcí a jeho rizika." }
+      ]
+    },
+    {
+      "name": "Kubovy talkshow",
+      "videos": [
+        { "title": "O světě v počítači", "href": "https://decko.ceskatelevize.cz/video/b38401", "duration": "8:00", "about": "S panáčkem z Nabídkova: programy a vlákna, nuly a jedničky, paměť RAM, skryté počítače, disk a paměťová karta. Navazuje na 1. díl." },
+        { "title": "O programech a kódu", "href": "https://decko.ceskatelevize.cz/video/b38403", "duration": "6:54", "about": "S panáčkem z Textova: programový kód a procesor, chyby v kódu, aktualizace. Navazuje na 6. díl." },
+        { "title": "O jádru a operačním systému", "href": "https://decko.ceskatelevize.cz/video/b38402", "duration": "7:09", "about": "S panáčkem z Jádra: operační systém a periferní zařízení. Navazuje na 3. díl." },
+        { "title": "O virech", "href": "https://decko.ceskatelevize.cz/video/b38404", "duration": "6:04", "about": "Host je vir: špehouni, vyděrači, jak se vir dostal ke Kubovi a viry v mobilu. Navazuje na 7. díl." },
+        { "title": "O datech na internetu", "href": "https://decko.ceskatelevize.cz/video/b38631", "duration": "5:48", "about": "Jak se video dostane na server a z něj k nám; streamování vs. stahování." },
+        { "title": "O bezpečnosti na internetu", "href": "https://decko.ceskatelevize.cz/video/b38632", "duration": "5:12", "about": "Proč z internetu nejde nic spolehlivě smazat a proč se tam dá snadno lhát." },
+        { "title": "O počítačích na internetu", "href": "https://decko.ceskatelevize.cz/video/b41528", "duration": "8:24", "about": "S panáčkem z Routeru: servery, routery, IP adresa a jak cestují data. Navazuje na 9. díl." },
+        { "title": "Co o nás vědí na internetu", "href": "https://decko.ceskatelevize.cz/video/b39003", "duration": "6:24", "about": "Datová stopa, jak fungují cookies, kdo platí internet a co se o nás dá uhodnout. Navazuje na 10. díl." }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "label": "Úvodní informace k modelovým lekcím",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/uvodni_informace.pdf",
+      "type": "pdf",
+      "note": "Pro jaký věk která lekce je, dvě úrovně obtížnosti, návaznost lekcí (obr. 1) a vazba na očekávané výstupy RVP. Přečíst před první lekcí."
+    },
+    {
+      "label": "Technický popis dílů 1–10 a použité metafory",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu.pdf",
+      "type": "pdf",
+      "note": "Co se v dílech děje „doopravdy“ — s časy. Hodí se číst při sledování dílu."
+    },
+    {
+      "label": "Technický popis dílů 11–20",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
+      "type": "pdf",
+      "note": "Technika každého dílu, nové pojmy a didaktické tipy — i k dílům, které žádná lekce nepouští."
+    },
+    {
+      "label": "Kam dál — tipy na navazující zdroje",
+      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/_kam-dal.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "ČT Déčko, MFF UK a CZ.NIC — Datová Lhota ve škole",
+    "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
+  }
+}

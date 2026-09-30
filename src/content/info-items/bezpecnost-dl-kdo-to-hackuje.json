@@ -1,9 +1,10 @@
 {
   "id": "bezpecnost-dl-kdo-to-hackuje",
   "categoryId": "bezpecnost",
-  "title": "Datová Lhota: Kdo to tady hackuje? (Wi-Fi router a etický hacking)",
-  "url": "https://decko.ceskatelevize.cz/datova-lhota",
-  "description": "Lindiny soukromé zprávy zná celá škola, protože někdo hacknul neaktualizovaný domácí router. Žáci ve skupinách zkoumají, co všechno doma jde hacknout, odkud a proč by to někdo dělal.",
+  "subcategoryId": "hesla-a-ucty",
+  "title": "Datová Lhota: Kdo to tady hackuje?",
+  "url": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/kdo_to_tady_hackuje.pdf",
+  "description": "Janáček čte Lindiny zprávy přes hacknutý Wi-Fi router. Žáci kreslí myšlenkovou mapu o hackování, v plánku bytu hledají, co všechno jde hacknout a odkud, a poznají etické hackery.",
   "type": "blok",
   "equipment": [
     "bez-pocitace"
@@ -14,40 +15,59 @@
   ],
   "duration": "40 min",
   "keywords": [
-    "Datová Lhota",
     "hacker",
+    "hackování",
     "etický hacker",
     "Wi-Fi router",
     "IP adresa",
     "aktualizace",
+    "firmware",
+    "heslo",
     "šifrování",
-    "chytrá domácnost",
-    "ČT"
+    "end-to-end",
+    "internet věcí",
+    "IoT",
+    "myšlenková mapa",
+    "video",
+    "Datová Lhota",
+    "ČT Déčko"
   ],
   "language": "cs",
-  "added": "2026-09-30",
-  "goal": "Žáci vědí, že hacknout jde prakticky každé zařízení s počítačem, nejsnáz to připojené k internetu, a že pomáhá aktualizovat a šifrovat komunikaci.",
+  "goal": "Žáci vědí, že Wi-Fi router je brána domácnosti k internetu, že hacknout jde prakticky každé zařízení s počítačem (nejsnáz to připojené k internetu) a jak se bránit: aktualizovat, měnit výchozí hesla, zakrývat webkameru, používat end-to-end šifrování. Znají pojem etický hacker.",
   "materials": [
-    "Díl 15 „Kdo to heknul?“",
-    "Wi-Fi router nebo aspoň jeho fotka",
-    "Tabule a fixy",
-    "Vytištěné pracovní listy (části A a B)"
+    "Projektor a 15. díl z Déčka",
+    "Wi-Fi router, nebo aspoň jeho fotka (příloha A)",
+    "Tabule a barevné fixy",
+    "Vytištěný pracovní list s plánkem bytu (příloha B)"
   ],
-  "procedure": "Úvod (5 min): společná myšlenková mapa na tabuli „Hacker“ (co dělá, co krade, co s tím mají hesla, IP adresa a viry).\n\nDíl 15 (15–20 min): kdo byl hacker a jak se dostal ke zprávám? Router nebyl aktualizovaný a komunikace nebyla šifrovaná. Ukažte skutečný router a kabely.\n\nUnplugged aktivita Co jde doma hacknout (10–15 min): skupiny (polovina část A, polovina část B) si k zařízením poznamenají, jestli jdou hacknout, kde musí hacker fyzicky být a proč by to dělal. Rozbor směřuje k tomu, že co obsahuje počítač, jde hacknout, a co je na internetu, jde hacknout na dálku.\n\nZávěr (5 min): reflexe, kdo je etický hacker.",
+  "procedure": "Úvod (5 min): společná myšlenková mapa na tabuli — co si představíte pod slovy hacker a hackování? (hesla, krádež dat, vydírání, viry, IP adresa…)\n\n15. díl (15–20 min): „Kdo je hacker?“ — Janáček starší; program si nejspíš jen stáhl, problém byl neaktualizovaný router a nešifrované zprávy. Úseky: 1:45–2:11 (hacknutý byl Wi-Fi router — ukažte ho i s kabely; internet do něj nevede zásuvkou ani anténkami), 2:05–2:20 (program přelepoval IP adresy a zprávy šly přes hackera — jako přelepená adresa na obálce), 3:28–4:01 (Marwin aktualizoval router a změnil výchozí heslo). Vyšší úroveň: kdyby Linda psala přes aplikaci s end-to-end šifrováním, zprávy by nepřečetl. Doplňte mapu jinou barvou a přidejte etické hackery, kteří slabá místa hledají legálně. Připomeňte, že i Marwinova past je ve skutečnosti trestný čin — hacknutí se hlásí, ne oplácí.\n\nAktivita Co jde doma hacknout (10–15 min): skupiny dostanou plánek bytu (půlka část A, půlka B) a u každého zařízení — router, chůvička na wifi, notebook s webkamerou, chytrá televize, mixér, bojler na Bluetooth, chytré auto — zapisují, jestli jde hacknout, kde musí hacker být a proč by to dělal. Co má v sobě počítač, jde hacknout; co je na internetu, jde hacknout na dálku; jinak musí hacker blízko.\n\nReflexe (5–10 min): doplnit mapu. Jak se bránit? Může hacker ovládnout jadernou elektrárnu? (Velmi těžko — řídicí počítače nejsou na internetu.) Dá se zabezpečení otestovat? (Ano, dělají to etičtí hackeři.) Každá skupina řekne jednu věc, kterou začne dělat jinak.",
   "files": [
     {
-      "label": "Metodika lekce s pracovním listem",
+      "label": "Scénář lekce (PDF)",
       "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/kdo_to_tady_hackuje.pdf",
-      "type": "pdf"
+      "type": "pdf",
+      "note": "Fotky routeru a pracovní list s plánkem bytu v příloze."
     },
     {
-      "label": "Technický popis dílů 2. série",
-      "href": "https://decko.ceskatelevize.cz/cms/datova-lhota/docs/technicky-popis-dilu-2-serie.pdf",
-      "type": "pdf"
+      "label": "15. díl — Kdo to heknul?",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110005",
+      "type": "video",
+      "note": "Celý díl, pak úseky 1:45–2:11, 2:05–2:20 a 3:28–4:01."
+    },
+    {
+      "label": "Navíc: 20. díl — Děsivě chytrá domácnost",
+      "href": "https://decko.ceskatelevize.cz/video/e220553112110010",
+      "type": "video",
+      "note": "Nadstavba o internetu věcí: vysavač a hračky ovládnuté přes Wi-Fi — pohodlí i riziko. Hodí se i k tématu skrytých počítačů."
     }
   ],
   "source": {
-    "label": "Datová Lhota ve škole — ČT, MFF UK a CZ.NIC (tip z EDUTEAM — Inspirace pro výuku)",
+    "label": "ČT Déčko & MFF UK — Datová Lhota ve škole",
     "url": "https://decko.ceskatelevize.cz/datova-lhota#datova-lhota-ve-skole"
-  }
+  },
+  "series": {
+    "id": "datova-lhota",
+    "part": 10
+  },
+  "added": "2026-09-30"
 }
