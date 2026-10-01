@@ -1,0 +1,48 @@
+{
+  "id": "kancelar-simandl-06-staty-podobne-cr",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Státy světa jsou si podobné: řazení a ukotvení záhlaví",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/razeni.pdf",
+  "description": "Které státy se nejvíc podobají Česku rozlohou, počtem obyvatel nebo spotřebou ropy? Žáci šikovně řadí podle různých sloupců a ukotví záhlaví.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "řazení",
+    "ukotvení příček",
+    "zeměpis",
+    "státy světa",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí řadit řádky podle zvoleného sloupce, orientovat se v seřazené tabulce a ukotvit příčky.",
+  "materials": [
+    "Tabulka států světa z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/Staty.aspx) s charakteristikami Obyvatelstvo, Rozloha a Spotřeba ropy, uložená jako staty_sveta.xlsx"
+  ],
+  "procedure": "Zadání: data v staty_sveta.xlsx šikovně seřaď a urči:\n\n1. Kterých pět států je rozlohou nejpodobnějších ČR?\n2. Které tři státy lidnatější než ČR mají nejméně obyvatel?\n3. Které tři státy mají největší spotřebu ropy?\n4. Který stát má spotřebu ropy nejpodobnější ČR?\n5. Zajisti, aby záhlaví zůstalo vidět při posunu tabulky.\n\nPředpoklady: řazení podle prvního sloupce, funkce Najít.\n\nPedagogický konflikt: řazení podle prvního sloupce k výsledku nevede.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/razeni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

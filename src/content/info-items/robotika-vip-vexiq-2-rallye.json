@@ -1,0 +1,50 @@
+{
+  "id": "robotika-vip-vexiq-2-rallye",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ 2: robotí rallye s překážkami",
+  "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/",
+  "description": "Robot bez senzorů má projet dráhu z kostek a zajet do cíle. Vzdálenosti a úhly (i 2 × 45°) žáci hledají pokusem a omylem a ladí program.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX IQ",
+    "VEXcode IQ",
+    "Basebot",
+    "blokové programování",
+    "dráha",
+    "úhly",
+    "ladění",
+    "pokus-omyl",
+    "odhad vzdálenosti"
+  ],
+  "language": "cs",
+  "goal": "Žák naplánuje a sestaví program, ve kterém robot objede překážky, testuje různé hodnoty rychlosti a délky a ladí řešení.",
+  "materials": [
+    "Robot VEX IQ (Basebot) pro dvojici",
+    "Počítač s VEXcode IQ",
+    "Připravená dráha vyznačená kostkami s cílovou zatáčkou"
+  ],
+  "procedure": "Navazuje na předchozí aktivitu sady; žáci pracují ve dvojicích, učitel radí a pomáhá s technikou.\n\nŽáci si nejdřív prohlédnou dráhu. Senzor vzdálenosti zatím nemají — vzdálenosti zjišťují pokusem a omylem.\n\nPostup: zjistit vzdálenost k první překážce a zastavit před ní, otočit o 90° vpravo, popojet. Pak správně spočítat úhel, aby robot projel šikmo středem před vstupem do cílové zatáčky (2 × 45°), otočit a zajet do cíle bez dotyku stěn.\n\nKdyž robot kostku posune, vraťte ji na původní místo.\n\nZ výuky: odhad vzdálenosti a první otočka jdou dobře, nejtěžší je nastavení úhlů a najetí do cíle — přirozeně to vede k testování a úpravám.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Kocina-sada.pdf",
+      "type": "pdf",
+      "note": "Všech 8 aktivit: cíle, postup, ukázková řešení ve VEXcode IQ a reflexe z výuky."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kocina: Využití robotické stavebnice VEX IQ ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/"
+  },
+  "added": "2026-09-30"
+}

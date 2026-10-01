@@ -1,0 +1,59 @@
+{
+  "id": "robotika-vip-scratch-microbit-1-naklon",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 1: detektor náklonu",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Micro:bit ukazuje šipkou na displeji, kam je nakloněný — dopředu, dozadu, do stran i šikmo. Žáci poznají akcelerometr a experimentují s prahovými hodnotami.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "akcelerometr",
+    "náklon",
+    "podmínky",
+    "vlastní bloky"
+  ],
+  "language": "cs",
+  "goal": "Žák pochopí princip akcelerometru a naprogramuje grafické zobrazení směru náklonu pomocí podmínek.",
+  "procedure": "Úvod: učitel představí akcelerometr a jak micro:bit čte osy X a Y. Micro:bit se propojí se Scratchem přes rozšíření micro:bit (Scratch Link a Bluetooth). Ve Scratchi jsou k dispozici jen některé funkce micro:bitu — displej, tlačítka, náklon a piny.\n\nŘešení: program se spustí prvním nakloněním (není potřeba vlaječka ani tlačítka). V nekonečné smyčce čte náklon a zobrazuje šipku. Složené směry (šikmo) se musí testovat dřív než základní, jinak se přiřadí špatně — žáci na to přijdou testováním.\n\nPro přehlednost oddělte složené směry do vlastních bloků (Moje bloky).\n\nNechte žákům čas experimentovat s prahovými hodnotami náklonu.",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

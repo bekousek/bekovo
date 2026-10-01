@@ -1,0 +1,49 @@
+{
+  "id": "robotika-vip-vexiq-6-roboti-zrak",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ 6: robotí zrak — optický senzor barev",
+  "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/",
+  "description": "Optický senzor rozpozná červenou, zelenou a modrou kostku a LED senzor se rozsvítí stejnou barvou. V druhé části se robot otáčí o 45° vlevo a vpravo a barvy hlásí za pohybu — program je rozdělený na dvě vlákna.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX IQ",
+    "VEXcode IQ",
+    "Basebot",
+    "blokové programování",
+    "optický senzor",
+    "rozpoznání barev",
+    "paralelní skripty",
+    "dekompozice"
+  ],
+  "language": "cs",
+  "goal": "Žák naprogramuje reakci na barvu z optického senzoru a propojí více senzorů v jednom scénáři rozděleném na části.",
+  "materials": [
+    "Robot VEX IQ s optickým senzorem a dotykovým LED senzorem",
+    "Barevné kostky (červená, zelená, modrá)",
+    "Počítač s VEXcode IQ"
+  ],
+  "procedure": "Navazuje na předchozí aktivitu sady; žáci pracují ve dvojicích, učitel radí a pomáhá s technikou.\n\nNový senzor: optický — na rozdíl od LED senzoru barvy rozpoznává. Zkontrolujte připojení a porty.\n\nAktivita 1: optický senzor stále sleduje prostor před sebou a podle barvy předložené kostky rozsvítí LED senzor červeně, zeleně nebo modře.\n\nAktivita 2: robot se stále otáčí o 45° vpravo a vlevo a hlásí barvy kostek, které má před sebou.\n\nŘešení: rozdělte program na dva skripty — jeden řídí otáčení, druhý snímání barev. Úloha je náročná na správně sestavený scénář; rozdělení problému na části je hlavní přínos hodiny.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Kocina-sada.pdf",
+      "type": "pdf",
+      "note": "Všech 8 aktivit: cíle, postup, ukázková řešení ve VEXcode IQ a reflexe z výuky."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kocina: Využití robotické stavebnice VEX IQ ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/"
+  },
+  "added": "2026-09-30"
+}

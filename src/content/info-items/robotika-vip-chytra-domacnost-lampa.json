@@ -1,0 +1,51 @@
+{
+  "id": "robotika-vip-chytra-domacnost-lampa",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Chytrá domácnost: automatická lampa",
+  "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/",
+  "description": "Dva micro:bity: jeden venku měří světlo a rádiem posílá signál, druhý rozsvítí LED (nebo RGB) diodu v lampičce z krabice. Žáci musí přijít na to, proč s jedním micro:bitem lampa bliká dokola.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "chytrá domácnost",
+    "projekt",
+    "piny",
+    "výrobek",
+    "senzor světla",
+    "rádio",
+    "LED",
+    "RGB dioda"
+  ],
+  "language": "cs",
+  "goal": "Žák zapojí diodu na pin, použije senzor světla a rádiovou komunikaci a pochopí, proč jeden micro:bit nestačí (lampa by „viděla“ sama sebe).",
+  "materials": [
+    "2× micro:bit s bateriemi",
+    "LED nebo RGB dioda, krokosvorky nebo vodiče",
+    "Kartonová krabice, papír na stínidlo"
+  ],
+  "procedure": "Úvod k sérii: začněte brainstormingem — jaká chytrá zařízení doma znáte (lampa ovládaná telefonem, alarm, termostat, lednice s recepty)? Všechna mají uvnitř mikropočítač, stejně jako micro:bit. Ať si žáci přinesou krabičku, do které hotové zařízení schovají.\n\nZadání: vytvořte automatickou lampu, která se zapne a vypne podle venkovního čidla světla. Použijte 2 micro:bity a diodu.\n\nSenzor: nastaví skupinu rádia, ikonu „vypnuto“ a proměnnou svítí. Každých 100 ms zkontroluje úroveň světla; když klesne pod hranici, pošle 1 a změní ikonu. Proměnná hlídá, aby se signál neposílal pořád dokola.\n\nLampa: po přijetí 1 zapne všechny piny (bílé světlo z RGB diody), jinak je vypne. Pozor na správné zapojení katody do GND.\n\nVýrobek: micro:bit do krabice, díra pro diodu, stínidlo z papírového válce. Senzor musí zůstat venku.\n\nHodnocení: sledujte, zda žákům dojde, proč jeden micro:bit nestačí. Žáci mohou přijít i s úplně jiným řešením.",
+  "files": [
+    {
+      "label": "Zadání projektů s řešením a zapojením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Chytra-domacnost-s-microbitem.pdf",
+      "type": "pdf",
+      "note": "Všech pět projektů: zadání, poznámky pro učitele, cíle a hodnocení, vzorové programy v MakeCode a fotky hotových výrobků."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Štefl: Projekty chytré domácnosti s micro:bitem (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/"
+  },
+  "added": "2026-09-30"
+}

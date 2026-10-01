@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-vip-clil-6-kodovani-obrazku",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "CLIL 6: Picture encoding (bitmapa z nul a jedniček)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Žáci kreslí pixel art do mřížky 5 × 5, zjišťují, z kolika čtverečků je obrázek, kódují a dekódují černobílé bitmapy a nakonec vymýšlejí vlastní kód pro šestiúhelníkovou dlažbu.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "bitmapa",
+    "pixel",
+    "pixel art",
+    "rastrový obrázek",
+    "kódování obrazu"
+  ],
+  "language": "en",
+  "goal": "Žák zná princip bitmapového obrázku, umí jednoduchý obrázek zakódovat a dekódovat a ví, jaké chyby přitom mohou vzniknout.",
+  "materials": [
+    "Přílohy L6A1 (mřížka 5 × 5), L6A2 (kruhy), L6A3 (pracovní list), L6A4 (dlaždice)",
+    "Učitelský počítač s tabulkovým editorem (nepovinné)"
+  ],
+  "procedure": "Warm-up: v mřížce 5 × 5 nakreslete černobílý obrázek (ukázka: deštník), ostatní hádají.\n\nAktivita 1 — Circles: z čeho je obrázek? Kolik čtverečků mají další obrázky? Cvičení Smaller/Bigger procvičí komparativ. Promítejte obrázky stejně velké — rozhoduje počet pixelů, ne velikost. Pak kódujte obrázek 5 × 5 jako 1 = černá, 0 = bílá (jako náramky v minulé hodině).\n\nAktivita 2 — Pictures: obrázek → kód, kód → obrázek (druhý kód záměrně není rozdělený do řádků, žáci musí odpočítávat po osmi). Pak vlastní obrázek zakódovat, vyměnit, dekódovat a zkontrolovat — chyba vznikla buď při kódování, nebo při dekódování.\n\nAktivita 3 — Tiles: stroj pokládá černé a bílé šestiúhelníkové dlaždice. Dvojice se dohodnou na kódu (smí použít jakákoli čísla), nakreslí obrázek, zakódují a vymění. Diskuse: kódovali jste po řádcích, sloupcích? Která strategie je nejjednodušší a jednoznačná?",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

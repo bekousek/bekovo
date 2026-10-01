@@ -1,0 +1,49 @@
+{
+  "id": "kancelar-simandl-16-tesime-se-na-prazdniny",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Těšíme se na prázdniny: COUNTIF a výsečový graf",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/countif.pdf",
+  "description": "Třída brainstormingem vybere letní a zimní prázdninové aktivity, každý hlasuje ve formuláři a žáci pak funkcí COUNTIF spočítají oblíbenost a vykreslí ji výsečovým grafem.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "keywords": [
+    "COUNTIF",
+    "COUNTIFS",
+    "výsečový graf",
+    "dotazník",
+    "vlastní data",
+    "prázdniny",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák chápe a umí použít funkci pro počet výskytů textu (COUNTIF).",
+  "materials": [
+    "Google Formulář, jehož odpovědi stáhnete jako tabulku pro žáky — otázky Jméno, Letní aktivita, Zimní aktivita (výběr z pevné nabídky), tabulka pro žáky jako volny_cas.xlsx"
+  ],
+  "procedure": "Příprava: se žáky brainstormingem vyberte 5–8 letních a 5–8 zimních aktivit. Každý v dotazníku zvolí svou nejoblíbenější. Zkontrolujte, že se v odpovědích neobjevila jiná aktivita. Učitel může vyplnit s žáky.\n\nZadání: ve volny_cas.xlsx vytvoř sloupec Letní aktivita se všemi nabízenými aktivitami a vedle sloupec Počet — kolik spolužáků má danou aktivitu nejradši. Vytvoř graf, který vhodně ukáže poměr aktivit (název, legenda). Totéž pro zimní aktivity — klidně na nový list.\n\nPředpoklady: relativní adresy, výsečový graf.\n\nPedagogický konflikt: žák COUNTIF nezná a ruční počítání je náročné.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/countif.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

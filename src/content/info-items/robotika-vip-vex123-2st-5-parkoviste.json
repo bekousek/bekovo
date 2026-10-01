@@ -1,0 +1,49 @@
+{
+  "id": "robotika-vip-vex123-2st-5-parkoviste",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 na 2. stupni 5: parkoviště",
+  "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/",
+  "description": "Robot najde na parkovišti volné místo a zaparkuje, pak spočítá obsazená a volná místa na jedné i obou stranách a zdatnější skupiny vypíšou do konzole plánek parkoviště.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX 123",
+    "VEXcode 123",
+    "blokové programování",
+    "podprogramy",
+    "optický senzor",
+    "proměnné",
+    "konzole",
+    "když-tak-jinak"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří a upraví program s podprogramy, podmínkou a optickým senzorem.",
+  "materials": [
+    "Dvojice: VEX 123, počítač nebo tablet",
+    "2 dlaždice a 8 kostek jako zaparkovaná auta (lze nahradit menšími předměty)"
+  ],
+  "procedure": "Plocha: krajní řady jsou parkovací místa, prostřední řada příjezdová cesta, první pole u startu se nepočítají. Kostky (auta) se náhodně rozmisťují.\n\nÚkol 1: robot jede po parkovišti, u každého místa se otočí a zkontroluje ho senzorem. Obsazeno → otočit zpět a jet dál, volno → zaparkovat a skončit (opakuj n krát, když-tak-jinak; jinak-větev může zůstat prázdná).\n\nÚkol 2: spočítat obsazená místa na jedné straně a vypsat do konzole.\n\nÚkol 3: volná i obsazená na obou stranách (dvě proměnné). Nestačí robota na konci otočit a pustit stejný program — úloha není souměrná.\n\nBonus: plánek parkoviště v konzoli.\n\nTip: kostky VEX IQ jsou velké jako políčko a robot mezi nimi těsně projíždí — posuňte je nebo použijte menší překážky.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Tomicek-sada.pdf",
+      "type": "pdf",
+      "note": "Šest aktivit: cíle, postup, programy ve VEXcode 123, herní plochy a reflexe z výuky v 6.–8. ročníku."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — F. Tomíček: Robotická hračka VEX 123 ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/"
+  },
+  "added": "2026-09-30"
+}

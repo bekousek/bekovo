@@ -1,0 +1,49 @@
+{
+  "id": "kancelar-simandl-03-hustota-zalidneni",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Hlavy na kilometru čtverečním: relativní adresy",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/relativni.pdf",
+  "description": "Žáci počítají hustotu zalidnění všech států světa jedním vzorcem roztaženým přes sloupec a přemýšlejí, co znamená hustota Bangladéše a Austrálie. Záludná otázka: jaká je průměrná hustota zalidnění souše?",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "vzorce",
+    "relativní adresa",
+    "hustota zalidnění",
+    "zeměpis",
+    "mezipředmětové",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí kopírovat vzorec s relativními adresami efektivně (roztažením) a přemýšlí o dopadech velmi vysoké a velmi nízké hustoty zalidnění.",
+  "materials": [
+    "Tabulka států světa z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/Staty.aspx) s charakteristikami Obyvatelstvo a Rozloha, uložená jako staty_sveta.xlsx"
+  ],
+  "procedure": "Zadání: v souboru staty_sveta.xlsx označ prázdný sloupec Hustota zalidnění (i s jednotkami) a spočítej ji pro každý stát.\n\nOtázky: Jaká je hustota zalidnění ČR? Bangladéše — jaké problémy to ve velké zemi přináší? Austrálie? A jaká je průměrná hustota zalidnění zemské souše (bez Antarktidy)?\n\nPředpoklady: žák umí napsat vzorec s aritmetickými operacemi a zná vzorec pro hustotu zalidnění.\n\nPedagogický konflikt: žák nechce vypisovat vzorce ručně pro dvě stě států.\n\nČastá chyba: hustotu souše počítají jako průměr hustot jednotlivých států. Správně je celkový počet obyvatel děleno celkovou rozlohou.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/relativni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "kancelar-simandl-13-vyssi-nez-ucitel-1",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Jsem vyšší než pan učitel I: funkce KDYŽ",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/kdyz1.pdf",
+  "description": "Žáci zadají svou výšku do formuláře a v tabulce spočítají rozdíl proti učiteli. Vypsat „ano/ne“ ručně je otrava — přichází funkce KDYŽ a rozdíl mezi „je nižší“ a „není vyšší“.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "KDYŽ",
+    "IF",
+    "podmínka",
+    "logická funkce",
+    "dotazník",
+    "vlastní data",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák chápe a umí použít funkci KDYŽ a rozliší „je nižší“ a „není vyšší“.",
+  "materials": [
+    "Google Formulář, jehož odpovědi stáhnete jako tabulku pro žáky — otázky Jméno a Výška [cm], tabulka pro žáky jako vyska_postavy.xlsx",
+    "Učitel zná svou výšku"
+  ],
+  "procedure": "Příprava: žáci se změří (nebo si výšku pamatují) a vyplní formulář. Učitel zkontroluje reálnost (120–200 cm).\n\nZadání: ve vyska_postavy.xlsx přidej sloupec Rozdíl výšek — o kolik cm je žák vyšší než vyučující (nižší = záporně). Další sloupec Vyšší než učitel: „ano“, pokud je vyšší, jinak „ne“ (i při stejné výšce).\n\nPředpoklady: vzorce, absolutní adresa.\n\nPedagogický konflikt: žák funkci KDYŽ nezná a ruční vyplňování je zdlouhavé.\n\nVarianty: délka chodidla, rozpětí paží, obvod krku.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/kdyz1.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

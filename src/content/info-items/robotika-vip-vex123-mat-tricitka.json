@@ -1,0 +1,62 @@
+{
+  "id": "robotika-vip-vex123-mat-tricitka",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 v matematice: podložka Třicítka (2. ročník)",
+  "url": "https://home.pf.jcu.cz/~vip/algoritmicke-ulohy-pro-robota-vex-123-na-podporu-vyuky-pocetnich-operaci/",
+  "description": "Robot v číselné tabulce 1–30: o 1 a o 10 víc nebo míň, nejnižší a nejvyšší dosažitelné číslo, různé cesty ke stejnému cíli, oprava programu, šipkový zápis a nakonec robot kreslí obdélník a čtverec.",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    2,
+    3
+  ],
+  "keywords": [
+    "VEX 123",
+    "matematika",
+    "číselná tabulka",
+    "desítky a jednotky",
+    "šipkový zápis",
+    "oprava programu",
+    "mezipředmětové",
+    "první stupeň"
+  ],
+  "language": "cs",
+  "goal": "Žák se orientuje v číselné tabulce, určuje směr pohledu robota, rozumí vztahům o 1 a o 10 větší a menší a sestavuje a opravuje programy.",
+  "materials": [
+    "VEX 123 pro dvojici",
+    "Podložka Třicítka (č. 5)",
+    "Vytištěná zadání, zalaminovaná podložka nebo interaktivní tabule pro kreslení cest"
+  ],
+  "procedure": "Podložky si musíte vyrobit — políčko odpovídá jednomu kroku robota. Čísla podložek jsou u každé úlohy v závorce (1–4 jednořádkové Desítky: bez nuly, s nulou, přes 10, se zápornými čísly; 5 Třicítka jako tabulka 1–30).\n\nPravidlo: robot se smí dívat jen vodorovně nebo svisle, ne šikmo (z 1 se nemůže dívat na 12).\n\nÚlohy 16–29: orientace na Třicítce, najdi cíl, nakresli cestu (bez robota), nejnižší a nejvyšší číslo, vymysli program, různé cesty ke stejnému cíli, oprav program, šipky (bez robota), součet, co robot nakreslí, obdélník, čtverec.\n\nUčitel zadává pokyny postupně, nechá žákům čas, pak zjišťuje, kam robota položili, a vede je ke zdůvodnění. Cesty kontrolujte kreslením na promítnutou nebo zalaminovanou podložku.\n\nÚlohy 16, 20 a 21 jsou k promítání, ostatní k tisku.",
+  "files": [
+    {
+      "label": "Úvod pro učitele (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Uvod-pro-ucitele.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Metodika pro učitele (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Metodika.pdf",
+      "type": "pdf",
+      "note": "Všech 29 úloh: zadání, metodické poznámky, informatický i matematický cíl a řešení."
+    },
+    {
+      "label": "Zadání úloh k tisku (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Zadani-uloh-k-tisku.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Zadání úloh k promítání (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Zadani-uloh-k-promitani.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Halounová: Algoritmické úlohy pro robota VEX 123 na podporu výuky početních operací (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/algoritmicke-ulohy-pro-robota-vex-123-na-podporu-vyuky-pocetnich-operaci/"
+  },
+  "added": "2026-09-30"
+}

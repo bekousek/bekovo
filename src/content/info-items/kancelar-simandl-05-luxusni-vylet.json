@@ -1,0 +1,50 @@
+{
+  "id": "kancelar-simandl-05-luxusni-vylet",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Rezervujeme luxusní výlet: formát čísla vs. zaokrouhlení",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/zaokrouhleni.pdf",
+  "description": "Kolik by stála plavba na Mauricius za 3 324 € v různé dny roku? Žáci počítají s původním i zaokrouhleným kurzem, oba vypadají stejně — a přesto vycházejí jiné ceny.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "formát buňky",
+    "zaokrouhlení",
+    "ZAOKROUHLIT",
+    "měna",
+    "kurz",
+    "finanční gramotnost",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí formátovat čísla v buňce, použít funkci ZAOKROUHLIT a zná rozdíl mezi zaokrouhlením a pouhým formátem buňky.",
+  "materials": [
+    "Vývoj kurzu koruny vůči euru za poslední rok z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/KurzyMen.aspx) uložený jako kurzy_men.xlsx"
+  ],
+  "procedure": "Zadání: v kurzy_men.xlsx označ prázdný sloupec Zaokrouhlený kurz a funkcí zaokrouhli kurz na jedno desetinné místo. V obou sloupcích nastav zobrazení na desetihaléře (např. 25,4).\n\nVýlet lodí stojí 3 324 €. Spočítej cenu v korunách (se zkratkou Kč) pro každý den — jednou s původním, jednou se zaokrouhleným kurzem.\n\nVysvětli: proč se ceny liší, když jsou oba kurzy zobrazené stejně?",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/zaokrouhleni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "robotika-vip-scratch-microbit-6-morseovka",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 6: překladač Morseovy abecedy",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Tlačítkem A tečka, B čárka, obě tlačítka oddělí písmeno a náklonem vpřed se zpráva přeloží — Scratch najde každý znak v seznamu Morseovky a sestaví slovo.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "Morseova abeceda",
+    "seznamy",
+    "kódování",
+    "převod dat",
+    "historie"
+  ],
+  "language": "cs",
+  "goal": "Žák převádí data mezi formami pomocí dvou souběžných seznamů a pozná historický kontext Morseovky.",
+  "procedure": "Vysvětlete Morseovku, její historii a převod pomocí seznamů. Pro začátečníky je verze 2 zadání.\n\nKroky: skript vytvoří dva seznamy (abeceda a Morseovka, na stejných pozicích) — dlouhý, ale jednoduchý. Start je vyvolá, nastaví index a smaže seznam input.\n\nZadávání: obě tlačítka = další písmeno (index + 1, nová prázdná položka, krátké čekání proti dvojímu posunu), A = tečka, B = čárka (připojit znak k položce na indexu).\n\nPřevod (náklon vpřed): slovo vyprázdnit, projít input od prvního záznamu, každý kód najít v seznamu Morseovky a na stejném místě v abecedě vzít písmeno. Výsledek vypsat bublinou.",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

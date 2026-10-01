@@ -1,0 +1,49 @@
+{
+  "id": "robotika-vip-vex123-2st-4-dira-v-plote",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 na 2. stupni 4: díra v plotě",
+  "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/",
+  "description": "Uprostřed plochy je zeď z kostek s jednou dírou, která se přesouvá. Robot ji musí sám najít optickým senzorem, projet a dojet do cíle — nejdřív s mantinelem, pak bez něj.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX 123",
+    "VEXcode 123",
+    "blokové programování",
+    "větvení",
+    "když-tak-jinak",
+    "optický senzor",
+    "proměnná",
+    "autonomní robot"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří program s větvením, upraví ho pro ztížené podmínky a využije optický senzor.",
+  "materials": [
+    "Dvojice: VEX 123, počítač nebo tablet",
+    "2 dlaždice, mantinel, 5 (pro bonus 6) kostek"
+  ],
+  "procedure": "Plocha: dvě dlaždice, na jednom konci mantinel. Kostky v prostřední řadě tvoří zeď s dírou, díra se může přesunout. Start v rohu, cíl naproti u mantinelu.\n\nÚkol 1: robot kontroluje, zda je před ním zeď; když ano, posune se na vedlejší pole, když ne, projede na druhou stranu a dojede do cíle (i tady pomůže senzor a mantinel). Vyžaduje když-tak-jinak.\n\nÚkol 2: bez mantinelu — k cíli je potřeba jiná cesta, třeba proměnná počítající kroky.\n\nBonus: v cíli svítit zeleně, když cíle nedosáhl (díra chybí — o kostku víc), fialově. Pozor: původní počet opakování už nestačí.\n\nZ výuky: žáci psali 6 scénářů podle polohy díry — robot ale má díru hledat sám. Většina volila vnořená větvení místo elegantnější proměnné. Rychlým chybí náročnější úkol, připravte si rozšíření.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Tomicek-sada.pdf",
+      "type": "pdf",
+      "note": "Šest aktivit: cíle, postup, programy ve VEXcode 123, herní plochy a reflexe z výuky v 6.–8. ročníku."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — F. Tomíček: Robotická hračka VEX 123 ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/"
+  },
+  "added": "2026-09-30"
+}

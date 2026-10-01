@@ -1,0 +1,49 @@
+{
+  "id": "robotika-vip-vexiq-4-narazovy-senzor",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ 4: dotkni se a jednej — nárazníkový senzor",
+  "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/",
+  "description": "Jak hlídat prostor za robotem? Žáci přijdou na tlačítko — nárazník. Robot couvá, dokud nenarazí, a pak jezdí tam a zpět mezi dvěma překážkami podle dvou senzorů.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX IQ",
+    "VEXcode IQ",
+    "Basebot",
+    "blokové programování",
+    "nárazníkový senzor",
+    "bumper",
+    "senzor vzdálenosti",
+    "kombinace senzorů",
+    "opakuj stále"
+  ],
+  "language": "cs",
+  "goal": "Žák vyzkouší, jak senzor reaguje, napíše program reagující na náraz a porovná, kdy se hodí senzor vzdálenosti a kdy nárazník.",
+  "materials": [
+    "Robot VEX IQ se senzorem vzdálenosti vpředu a nárazníkem vzadu",
+    "Počítač s VEXcode IQ"
+  ],
+  "procedure": "Navazuje na předchozí aktivitu sady; žáci pracují ve dvojicích, učitel radí a pomáhá s technikou.\n\nDiskuse: senzor vpředu hlídá překážky před robotem — co za ním? Druhý senzor vzdálenosti nemáme… Žáci dojdou k tlačítku, které se při dotyku zmáčkne.\n\nÚkol 1: robot couvá a zastaví, až se stiskne nárazník (bumper v bloku opakuj dokud).\n\nÚkol 2: robot jezdí stále dopředu a dozadu mezi dvěma překážkami — vpředu zastaví 10 cm od zdi (senzor vzdálenosti), vzadu při stisku nárazníku. Celé v opakuj stále; hlídejte pořadí částí programu.\n\nZ výuky: potíže bývají se strukturou a pořadím příkazů, většina skupin ale dojde k funkčnímu řešení.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Kocina-sada.pdf",
+      "type": "pdf",
+      "note": "Všech 8 aktivit: cíle, postup, ukázková řešení ve VEXcode IQ a reflexe z výuky."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kocina: Využití robotické stavebnice VEX IQ ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/"
+  },
+  "added": "2026-09-30"
+}

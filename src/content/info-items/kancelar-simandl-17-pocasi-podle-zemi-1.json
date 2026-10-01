@@ -1,0 +1,48 @@
+{
+  "id": "kancelar-simandl-17-pocasi-podle-zemi-1",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Počasí podle zemí I: text do sloupců a Nahradit",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/rozdeleni.pdf",
+  "description": "Sloupec „stanice (země)“ je potřeba rozdělit na dva a odstranit závorky. Pak žáci řadí a hledají, jaké je počasí v severských zemích, v Rusku a kde je teď v Itálii ideálně.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "keywords": [
+    "text do sloupců",
+    "Nahradit",
+    "řazení",
+    "počasí",
+    "zeměpis",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí rozdělit text do více sloupců, hromadně odstranit znak funkcí Nahradit a hlídá, aby při úpravách nepřišel o data.",
+  "materials": [
+    "Aktuální počasí v evropských městech z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/AktualniPocasiEvropa.aspx) uložené jako pocasi_evropa.xlsx"
+  ],
+  "procedure": "Zadání: v pocasi_evropa.xlsx rozděl sloupec se stanicí a zemí na dva (název stanice, název státu, bez závorek). Pak data seřaď a urči:\n\n1. Jaká je oblačnost na stanicích v ČR?\n2. Jaké jsou teploty v severských zemích (Švédsko, Norsko, Finsko)?\n3. Jaké jsou teploty na ruských stanicích? Jsou výrazně odlišné? Proč?\n4. Kde je teď v Itálii ideální počasí (zohledni i vítr a oblačnost)?\n\nPozor: před rozdělením vložte za sloupec prázdný sloupec, jinak se přepíšou vedlejší data. Oddělovač je „(“, uzavírací závorku smažte funkcí Nahradit.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/rozdeleni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

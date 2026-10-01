@@ -1,0 +1,54 @@
+{
+  "id": "kancelar-simandl-19-kazdy-jsme-jiny",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Projekt Každý jsme jiný: měření tělesných dispozic",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/kazdy_jiny.pdf",
+  "description": "Skupiny změří ve třídě každá jednu tělesnou dispozici (výšku, chodidlo, rozpětí paží, tep…), data zpracují v tabulce, ošetří nesmyslné vstupy, vykreslí grafem a výsledky odprezentují.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "projekt",
+    "vlastní data",
+    "měření",
+    "ověření dat",
+    "graf",
+    "skupinová práce",
+    "přírodopis",
+    "mezipředmětové",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák získá vlastní data měřením, zpracuje je (řazení, minimum, maximum, průměr, kontrola úplnosti a validity) a prezentuje je grafem.",
+  "materials": [
+    "Metr, stopky a další měřidla — náročnější půjčte z kabinetu tělocviku nebo biologie",
+    "Sdílená tabulka pro zapisování dat",
+    "Projektor pro prezentace"
+  ],
+  "procedure": "Motivace: je zajímavé sledovat, jak se lidé liší. Brainstormingem vyberte snadno měřitelné dispozice (výška, délka chodidla, rozpětí paží, obvod krku, tep za minutu, vitální kapacita plic). Nevhodné jsou obvod pasu, hrudníku nebo hmotnost.\n\nSkupiny si rozeberou po jedné dispozici, změří všechny spolužáky včetně sebe a zapíšou jméno a hodnotu do tabulky.\n\nPožadavky podle úrovně třídy: do číselného sloupce nejde vložit text ani nesmysl (výška pod 120 nebo nad 220 cm), kontrola, že jsou data od všech (funkce na počet řádků), seřazení, minimum, maximum, průměr, graf.\n\nDohodněte formu výstupu (krátká zpráva s grafem, prezentace, nástěnka), kritéria hodnocení a čas. Vlastní měření začněte až další hodinu, aby si žáci obstarali pomůcky. Náročnější části můžete přerušit a ukázat na příkladu.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/kazdy_jiny.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

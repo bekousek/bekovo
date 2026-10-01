@@ -1,0 +1,53 @@
+{
+  "id": "robotika-vip-chytra-domacnost-proti-kradezi",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Chytrá domácnost: hlídač proti krádeži",
+  "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/",
+  "description": "Dva micro:bity si neustále posílají signál; když se od sebe vzdálí (slabý signál) nebo spojení zmizí, spustí alarm, dokud je zase nepřiblížíte. Na obou běží stejný program.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "chytrá domácnost",
+    "projekt",
+    "piny",
+    "výrobek",
+    "rádio",
+    "síla signálu",
+    "RSSI",
+    "vysílací výkon",
+    "bzučák",
+    "alarm"
+  ],
+  "language": "cs",
+  "goal": "Žák použije pokročilé funkce rádia (sílu přijatého signálu, vysílací výkon) k odhadu vzdálenosti a zapojí periferii, která na vzdálení upozorní.",
+  "materials": [
+    "2× micro:bit",
+    "Bzučák",
+    "Kousek kartonu jako destička"
+  ],
+  "procedure": "Úvod k sérii: začněte brainstormingem — jaká chytrá zařízení doma znáte (lampa ovládaná telefonem, alarm, termostat, lednice s recepty)? Všechna mají uvnitř mikropočítač, stejně jako micro:bit. Ať si žáci přinesou krabičku, do které hotové zařízení schovají.\n\nZadání: vytvořte zařízení, které spustí alarm, když se od sebe vzdálí. Využijte 2 micro:bity a aspoň jednu periferii.\n\nPrincip: micro:bity si navzájem posílají zprávy. Z proměnné přijatý paket — síla signálu odhadnou vzdálenost; nad hranicí (nebo když zprávy delší dobu nepřicházejí) spustí alarm. Alarm běží, dokud se znovu nepřiblíží.\n\nNa obou micro:bitech je stejný kód — teoreticky lze propojit i víc zařízení.\n\nLadění: menší vysílací výkon = citlivější na krátké vzdálenosti (pozná posun o pár centimetrů). Hlídejte, zda se micro:bity po přiblížení znovu spojí.\n\nVýrobek: kompaktní destička z kartonu s micro:bitem a bzučákem.",
+  "files": [
+    {
+      "label": "Zadání projektů s řešením a zapojením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Chytra-domacnost-s-microbitem.pdf",
+      "type": "pdf",
+      "note": "Všech pět projektů: zadání, poznámky pro učitele, cíle a hodnocení, vzorové programy v MakeCode a fotky hotových výrobků."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Štefl: Projekty chytré domácnosti s micro:bitem (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/"
+  },
+  "added": "2026-09-30"
+}

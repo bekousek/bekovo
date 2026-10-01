@@ -1,0 +1,48 @@
+{
+  "id": "kodovani-vip-clil-1-kody-kolem-nas",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "CLIL 1: Codes around us (kódy kolem nás)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Úvodní lekce v angličtině: žáci přepisují věty do emoji a luští je navzájem, pak „vysvětlují mimozemšťanovi“ cedule z celého světa. Poznají, že kód bez klíče si každý vyloží jinak.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "kód",
+    "emoji",
+    "značky",
+    "piktogramy"
+  ],
+  "language": "en",
+  "goal": "Žák si uvědomí kódy kolem sebe (značky, visačky, předpověď počasí), umí jednoduchý kód vysvětlit a ví, že bez dohodnutého klíče kód nefunguje.",
+  "materials": [
+    "Projektor nebo vytištěné přílohy L1A1 (emoji) a L1A2 (cedule)",
+    "Na tabuli slovesa must / have to / can / cannot"
+  ],
+  "procedure": "Úvod a warm-up: vysvětlete rozdíl mezi encoding a coding (programováním) — klidně česky. Naváděcí otázky: Jak víš, že můžeš přejít silnici? Jak poznáš, jestli smíš žehlit tričko? Jak bude zítra? (semafor, visačka, ikony počasí v telefonu).\n\nAktivita 1 — Emojis: skupiny po 3–4 dostanou větu (např. „The treasure is under the palm tree.“) a sadu emoji. Větu zakódují, ostatní skupiny ji luští. Stejné emoji si každý vyloží jinak — chybí klíč.\n\nAktivita 2 — Signs: mimozemšťan přinesl cedule z různých zemí (čeština, španělština, řečtina, japonština, cedule bez textu). Žáci píší význam co nejjednodušší větou („You cannot camp here.“). Diskuse: které cedule jsou jasné i bez jazyka a které ne?\n\nZávěr: jaké další kódy kolem sebe vidíme (dopravní značky, vlajky, visačky)? Hlavní myšlenka: kód musí být jednoznačný, nebo musí existovat klíč.\n\nTip: chyby v angličtině opravujte pozitivně — v první CLIL hodině se žáci bojí mluvit.",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

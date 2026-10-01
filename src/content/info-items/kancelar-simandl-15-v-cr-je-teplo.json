@@ -1,0 +1,47 @@
+{
+  "id": "kancelar-simandl-15-v-cr-je-teplo",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "V ČR je docela teplo: podmíněné formátování",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/podm_form.pdf",
+  "description": "Kde v Evropě je tepleji než v Praze? Žáci spočítají rozdíl teplot a obarví buňky žlutě a modře, v rozšíření čtyřmi barvami s překrývajícími se podmínkami.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "keywords": [
+    "podmíněné formátování",
+    "počasí",
+    "Evropa",
+    "teplota",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí použít podmíněné formátování s disjunktními i překrývajícími se podmínkami na větší rozsah buněk.",
+  "materials": [
+    "Aktuální počasí v evropských městech z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/AktualniPocasiEvropa.aspx) uložené jako pocasi_evropa.xlsx"
+  ],
+  "procedure": "Zadání: v pocasi_evropa.xlsx přidej sloupec Rozdíl teplot [°C] — o kolik je v daném místě tepleji než v Praze (chladněji = záporně). Buňku obarvi žlutě, jestliže je tam tepleji než v Praze, světle modře, jestliže tam tepleji není.\n\nRozšíření: oranžově, je-li tam tepleji aspoň o 7 °C, tmavě modře, je-li chladněji aspoň o 7 °C. Správně je sloupec obarvený až čtyřmi barvami.\n\nPedagogický konflikt: žák neví, jak přidat další podmínku, aniž by smazal první, ani jak vyřešit překrývající se podmínky.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/podm_form.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

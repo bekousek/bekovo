@@ -1,0 +1,47 @@
+{
+  "id": "robotika-vip-vexiq-1-prvni-jizda",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ 1: první jízda — seznámení s robotem",
+  "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/",
+  "description": "Úvodní hodina s VEX IQ: baterie, menu mozku, porty a kabely, připojení k VEXcode a první programy — jízda vpřed, třikrát rovně s odbočkou a čtverec (ideálně s opakováním).",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX IQ",
+    "VEXcode IQ",
+    "Basebot",
+    "blokové programování",
+    "úvodní hodina",
+    "čtverec",
+    "opakování"
+  ],
+  "language": "cs",
+  "goal": "Žák vytvoří a nahraje jednoduchý program, otestuje ho, upraví podle pozorování a popíše, jak program ovlivňuje chování robota.",
+  "materials": [
+    "Robot VEX IQ (Basebot) pro každého žáka nebo dvojici",
+    "Počítač s VEXcode IQ"
+  ],
+  "procedure": "Úvod (učitel ukazuje názorně): jak vložit a vyndat baterii, zapnutí, menu na displeji mozku — kde jsou stažené programy a připojená zařízení, zda fungují. Motory a senzory se připojují datovým kabelem do portů na boku mozku.\n\nVEXcode: připojit mozek k počítači, správně nastavit porty motorů a senzorů.\n\nÚkol 1: robot popojede kousek vpřed (při startu + dopředu x mm) — stáhnout, odpojit, spustit z displeje.\n\nÚkol 2: robot jede třikrát dopředu a pokaždé zatočí na jinou stranu.\n\nÚkol 3: robot objede čtverec. Někteří skládají opakující se bloky za sebou, jiní přijdou na blok opakuj — ukažte obě řešení.\n\nTato hodina je víc řízená než další; je nutná, když žáci s roboty začínají.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Kocina-sada.pdf",
+      "type": "pdf",
+      "note": "Všech 8 aktivit: cíle, postup, ukázková řešení ve VEXcode IQ a reflexe z výuky."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kocina: Využití robotické stavebnice VEX IQ ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/"
+  },
+  "added": "2026-09-30"
+}

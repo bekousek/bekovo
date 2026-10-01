@@ -1,0 +1,60 @@
+{
+  "id": "robotika-vip-scratch-microbit-2-bludiste",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 2: bludiště ovládané náklonem",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Scratch vygeneruje náhodné bludiště a žáci naklápěním micro:bitu vedou postavičku k cíli. Programují pohyb, kolize se zdí, start a počítání bodů.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "akcelerometr",
+    "hra",
+    "kolize",
+    "bludiště",
+    "skóre"
+  ],
+  "language": "cs",
+  "goal": "Žák programuje reakce na vstup ze senzoru, řeší kolize objektů a sestaví jednoduchou hru s bodováním.",
+  "procedure": "Pracovní soubor obsahuje hotový generátor náhodného bludiště (rekurze, podle návodu griffpatche) — žáci ho nemění.\n\nÚkol žáků: postavička se pohybuje podle náklonu micro:bitu. Po každém kroku test — je ve zdi? Pak ji vrátit zpět. Po dosažení cíle přičíst bod.\n\nStart kola: po zprávě od generátoru nastavit velikost postavy (hodnoty jsou v zadání), posunout ji mimo plochu do levého dolního rohu a posouvat doprava a nahoru, dokud není celá v chodbě. Pak poslat zprávu ovládání.\n\nUčitel ukáže propojení micro:bitu se Scratchem a hlídá detekci kolizí. Rychlejší žáci si bludiště upraví.",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "kancelar-simandl-07-nakupujeme-eura",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Nakupujeme eura: spojnicový graf I",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/spojnice1.pdf",
+  "description": "Žáci vytvoří spojnicový graf vývoje kurzu eura za rok (bez značek, s popisky) a z něj vyčtou, kdy bylo nejvýhodnější eura kupovat.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "graf",
+    "spojnicový graf",
+    "kurz",
+    "měna",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vytvořit spojnicový graf s názvem, popisky os a legendou a číst z něj.",
+  "materials": [
+    "Vývoj kurzu koruny vůči euru za poslední rok z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/KurzyMen.aspx) uložený jako kurzy_men.xlsx"
+  ],
+  "procedure": "Zadání: z kurzy_men.xlsx vytvoř graf vhodného typu pro vývoj kurzu koruny vůči euru za poslední rok. Hodnot je hodně, značky proto nepoužívej. Doplň název grafu, názvy os, popisky osy X a legendu.\n\nZ grafu zjisti: kdy bylo za poslední rok nejvýhodnější eura nakupovat a kdy naopak nejméně?\n\nMožná obtíž: řádky jsou seřazené od nejnovějšího data, graf tak může vyjít obráceně. Buď tabulku nejdřív seřaďte vzestupně podle data, nebo u osy X zvolte kategorie v obráceném pořadí.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/spojnice1.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "notes": "Postupy v „možných obtížích“ jsou psané pro Excel 2003 — v novém Excelu, LibreOffice nebo Tabulkách Google se liší názvy nabídek, princip platí.",
+  "added": "2026-09-30"
+}
