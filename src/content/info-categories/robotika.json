@@ -5,7 +5,7 @@
   "order": 9,
   "icon": "🤖",
   "accent": "teal",
-  "tagline": "Micro:bit, VEX, mBot a další roboti ve třídě.",
+  "tagline": "Micro:bit a VEX ve třídě.",
   "subcategories": [
     {
       "id": "microbit",
@@ -14,14 +14,6 @@
     {
       "id": "vex",
       "name": "VEX"
-    },
-    {
-      "id": "mbot",
-      "name": "mBot2 (Makeblock)"
-    },
-    {
-      "id": "dalsi-roboti",
-      "name": "Další roboti a stavebnice"
     }
   ]
 }

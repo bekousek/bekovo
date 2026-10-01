@@ -4,7 +4,7 @@
   "subcategoryId": "microbit",
   "title": "Chytrá domácnost: měřič hluku",
   "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/",
-  "description": "Micro:bit V2 měří hluk vestavěným mikrofonem a podle hladiny rozsvítí jednu nebo druhou diodu; při dlouhém hluku pípá. Ukáže rozdíl mezi verzemi V1 a V2.",
+  "description": "Micro:bit V2 měří hluk vestavěným mikrofonem a podle hladiny ukazuje na displeji klidnou, nebo varovnou ikonu; při dlouhém hluku pípá vestavěným reproduktorem. Ukáže rozdíl mezi verzemi V1 a V2.",
   "type": "projekt",
   "equipment": [
     "microbit",
@@ -25,16 +25,14 @@
     "micro:bit V2",
     "mikrofon",
     "hlasitost",
-    "LED",
     "noční klid"
   ],
   "language": "cs",
   "goal": "Žák použije nové bloky pro zvuk u micro:bitu V2 a pochopí rozdíl mezi událostí a průběžnou kontrolou v cyklu.",
   "materials": [
-    "micro:bit V2 (s mikrofonem a reproduktorem)",
-    "2 diody, případně bzučák"
+    "micro:bit V2 (s mikrofonem a reproduktorem) a bateriový box"
   ],
-  "procedure": "Úvod k sérii: začněte brainstormingem — jaká chytrá zařízení doma znáte (lampa ovládaná telefonem, alarm, termostat, lednice s recepty)? Všechna mají uvnitř mikropočítač, stejně jako micro:bit. Ať si žáci přinesou krabičku, do které hotové zařízení schovají.\n\nZadání: vytvořte měřič hluku, který varuje při překročení hlasitosti. Využijte micro:bit V2 a diody.\n\nVzorové řešení: při nízké hlasitosti svítí jedna dioda, nad hranicí zhasne a rozsvítí se druhá. Trvá-li hluk déle, micro:bit pípá. Ke každému stavu ikona na displeji.\n\nPozor: bloky „při nízké/vysoké intenzitě zvuku“ se spustí jen jednou při změně stavu. Pro průběžnou kontrolu je potřeba cyklus opakuj stále.\n\nNic se zapojovat nemusí — V2 má mikrofon i reproduktor. Hranice a způsob varování (pípání, blikání) si volí žáci.\n\nZkontrolujte, zda žáci chápou rozdíly mezi V1 a V2 a limity V1.",
+  "procedure": "Úvod k sérii: začněte brainstormingem — jaká chytrá zařízení doma znáte (lampa ovládaná telefonem, alarm, termostat, lednice s recepty)? Všechna mají uvnitř mikropočítač, stejně jako micro:bit. Ať si žáci přinesou krabičku, do které hotové zařízení schovají.\n\nZadání: vytvořte měřič hluku, který varuje při překročení hlasitosti. Využijte micro:bit V2.\n\nŘešení: při nízké hlasitosti klidná ikona, nad hranicí varovná. Trvá-li hluk déle, micro:bit pípá.\n\nPozor: bloky „při nízké/vysoké intenzitě zvuku“ se spustí jen jednou při změně stavu. Pro průběžnou kontrolu je potřeba cyklus opakuj stále.\n\nNic se zapojovat nemusí — V2 má mikrofon i reproduktor. Hranice a způsob varování (pípání, blikání displeje) si volí žáci.\n\nZkontrolujte, zda žáci chápou rozdíly mezi V1 a V2 a limity V1.",
   "files": [
     {
       "label": "Zadání projektů s řešením a zapojením (PDF)",
@@ -47,5 +45,6 @@
     "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Štefl: Projekty chytré domácnosti s micro:bitem (bakalářská práce)",
     "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/"
   },
-  "added": "2026-09-30"
+  "added": "2026-09-30",
+  "notes": "Upraveno bez přídavných součástek: originální řešení používá bzučák a diody, tady stačí micro:bit V2 s vestavěným reproduktorem a displejem."
 }
