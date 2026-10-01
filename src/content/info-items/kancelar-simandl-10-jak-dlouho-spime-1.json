@@ -1,0 +1,51 @@
+{
+  "id": "kancelar-simandl-10-jak-dlouho-spime-1",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Jak dlouho spíme I: MIN, MAX, PRŮMĚR",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/jedn_fce.pdf",
+  "description": "Žáci vyplní do formuláře, kolik hodin týdně spí, a pak ve výsledné tabulce hledají nejdelší, nejkratší a průměrný spánek třídy i průměr na den u každého.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "funkce",
+    "MIN",
+    "MAX",
+    "PRŮMĚR",
+    "dotazník",
+    "vlastní data",
+    "spánek",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí matematizovat úkol, spočítat minimum, maximum a průměr a zkopírovat vzorec s relativními adresami.",
+  "materials": [
+    "Google Formulář, jehož odpovědi stáhnete jako tabulku pro žáky — otázky Jméno a Délka spánku týdně [hod], tabulka pro žáky jako spanek.xlsx"
+  ],
+  "procedure": "Příprava: každý sečte hodiny spánku za týden a vyplní formulář. Učitel zkontroluje, že data jsou reálná (nikdo nespí 180 hodin týdně) a že vyplnili všichni, a tabulku dá žákům.\n\nZadání: urči nejdelší, nejkratší a průměrnou týdenní dobu spánku ve třídě a průměrnou denní dobu spánku každého žáka.\n\nMetoda: „hození do vody“, samostatná práce.\n\nVarianty: počet sourozenců, dojezdový čas nebo vzdálenost do školy, zameškané hodiny.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/jedn_fce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

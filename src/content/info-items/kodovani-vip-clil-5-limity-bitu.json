@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-vip-clil-5-limity-bitu",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "CLIL 5: The limits of ones and zeros (kolik vyjádří bity)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Táborníci si posílají vlajky na náramcích z černých a bílých korálků. Žáci náramky čtou, tvoří, přepisují na 0 a 1, pak přidávají bit pro nové barvy a nakonec dekódují zprávu v pětibitovém kódu — i s chybou FLAW místo FLAG.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "bit",
+    "binární kód",
+    "počet kombinací",
+    "chyba přenosu",
+    "vlajky"
+  ],
+  "language": "en",
+  "goal": "Žák zapíše informaci dvojkově, ví, kolik možností dává daný počet bitů, a umí přidáním bitu rozšířit kód.",
+  "materials": [
+    "Pracovní list L5A1 — náramky (barvy doplněné i textem kvůli barvoslepým)",
+    "Příloha L5A2 — tabulka pětibitového kódu písmen"
+  ],
+  "procedure": "Warm-up: náramek má 6 korálků, čte se po třech dvojicích podle pravidel na listu. Ke které vlajce náramek patří? Po každé dvojici korálků vyřaďte jednu možnost; zeptejte se na strategii.\n\nAktivita 1: vytvořte náramky k zadaným vlajkám (popis vlajek procvičí přídavná jména).\n\nAktivita 2: stroj vyrábí náramky podle instrukcí z 0 a 1 — co znamená 1 a co 0? Napište instrukce pro další vlajky. Chceme víc než 4 barvy pozadí? Se dvěma korálky to nejde, přidáme třetí — kolik je teď možností (8)?\n\nAktivita 3: tabulka A = 00001 … Z = 11010. Žáci zakódují své jméno a vymění se sousedem. Pak dekódují zprávu táborníků — vyjde OUR FLAW IS GONE. Kde vznikla chyba? (Jedna číslice: G 00111 → W 10111.) Jak by vypadal kód pro písmeno navíc?\n\nZávěr: jak se takovým chybám bránit?",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

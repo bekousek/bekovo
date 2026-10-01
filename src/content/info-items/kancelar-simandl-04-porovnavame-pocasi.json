@@ -1,0 +1,49 @@
+{
+  "id": "kancelar-simandl-04-porovnavame-pocasi",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Porovnáváme počasí v ČR: absolutní adresy",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/absolutni.pdf",
+  "description": "O kolik je jinde v republice tepleji než v Praze-Libuši? Žáci vloží sloupec s rozdílem teplot a narazí na to, že bez absolutní adresy vyjde Libuš jiná než Libuš.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "vzorce",
+    "absolutní adresa",
+    "$",
+    "počasí",
+    "zeměpis",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vložit sloupec mezi stávající a kopírovat vzorec s absolutní adresou.",
+  "materials": [
+    "Tabulka aktuálního počasí v ČR z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/AktualniPocasiCr.aspx) uložená jako pocasi_cr.xlsx"
+  ],
+  "procedure": "Zadání: v pocasi_cr.xlsx vlož za sloupec teploty nový sloupec Rozdíl teplot. Urči, o kolik stupňů je v daném místě tepleji než v Praze-Libuši (chladněji = záporné číslo).\n\nDoplňující otázka: jaké vlivy mají na teplotu v jednotlivých místech zásadní význam?\n\nPředpoklady: vzorce s relativními adresami.\n\nPedagogický konflikt: po roztažení vzorce žákům nejspíš vyjde, že v Praze-Libuši je o několik stupňů jinak než v Praze-Libuši.\n\nMísto Libuše můžete zvolit jakoukoli jinou stanici.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/absolutni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

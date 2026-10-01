@@ -1,0 +1,48 @@
+{
+  "id": "kancelar-simandl-11-jak-dlouho-spime-2",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Jak dlouho spíme II: sloupcový graf",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/sloupce.pdf",
+  "description": "Navazuje na Jak dlouho spíme I: sloupcový graf průměrného spánku každého žáka ukáže, kdo ve třídě spí nejdéle a kdo nejkratší dobu.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "graf",
+    "sloupcový graf",
+    "vlastní data",
+    "spánek",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vytvořit sloupcový graf s popisky a číst z něj.",
+  "materials": [
+    "Tabulka spanek.xlsx z úlohy Jak dlouho spíme I"
+  ],
+  "procedure": "Zadání: ze spanek.xlsx vytvoř graf vhodného typu, který porovná průměrnou dobu spánku jednotlivých žáků. Doplň název grafu, názvy os, popisky osy X a legendu. Kdo spí v průměru nejdéle a kdo nejkratší dobu?\n\nPředpoklad: žák zná základní typy grafů a ví, kdy který použít.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/sloupce.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

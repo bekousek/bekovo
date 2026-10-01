@@ -1,0 +1,49 @@
+{
+  "id": "robotika-vip-vex123-2st-1-how-to",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 na 2. stupni 1: How to — úvodní hodina",
+  "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/",
+  "description": "Seznámení s VEX 123: ovládání tlačítky (projet 5 bodů a vrátit se, dva roboti proti sobě bez srážky), pak VEXcode — co je stejné jako ve Scratchi a co ne, cykly, proměnné, vlastní bloky, optický senzor a konzole.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX 123",
+    "VEXcode 123",
+    "blokové programování",
+    "úvodní hodina",
+    "tlačítka",
+    "konzole",
+    "Scratch",
+    "spolupráce"
+  ],
+  "language": "cs",
+  "goal": "Žák se seznámí s robotem VEX 123 a prostředím VEXcode 123.",
+  "materials": [
+    "VEX 123 a počítač nebo tablet pro každého žáka",
+    "Dlaždice hrací plochy"
+  ],
+  "procedure": "Úvod do robotiky, zapnutí a vypnutí robota.\n\nProgramování tlačítky: robot projede 5 bodů na dlaždici, na každém zatroubí a skončí na startu. Ve dvojici: jeden jede od 4 přes A–D, druhý od D přes 1–4, spustí současně a nesmí se srazit — musí se domluvit.\n\nVEXcode: připojení robota. Hledejte bloky, které znáte ze Scratche, a nové (pokud, cyklus while). Jednoduché pohybové scénáře včetně cyklu (čtverec), vzhled a zvuky, proměnné a vlastní bloky.\n\nNa závěr optický senzor a konzole — tisk textu, čísel a proměnných.\n\nZ výuky: po prvním zatroubení nezájem zmizí; žáci se Scratchem se ve VEXcode orientují bez vysvětlování.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Tomicek-sada.pdf",
+      "type": "pdf",
+      "note": "Šest aktivit: cíle, postup, programy ve VEXcode 123, herní plochy a reflexe z výuky v 6.–8. ročníku."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — F. Tomíček: Robotická hračka VEX 123 ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/"
+  },
+  "added": "2026-09-30"
+}

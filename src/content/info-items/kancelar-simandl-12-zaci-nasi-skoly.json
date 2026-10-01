@@ -1,0 +1,50 @@
+{
+  "id": "kancelar-simandl-12-zaci-nasi-skoly",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Žáci naší školy: suma, procenta a výsečový graf",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/suma.pdf",
+  "description": "Každý žák zjistí počet chlapců a dívek v jedné třídě školy. Třída pak počítá procenta, součty za celou školu, kreslí sloupcový a výsečový graf a zamyká list, aby šlo měnit jen vstupní čísla.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "SUMA",
+    "procenta",
+    "výsečový graf",
+    "zámek listu",
+    "dotazník",
+    "vlastní data",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí spočítat sumu a podíl části v celku v procentech, zvolit vhodný typ grafu a zamknout list s odemčenými vstupními buňkami.",
+  "materials": [
+    "Google Formulář, jehož odpovědi stáhnete jako tabulku pro žáky — otázky Název třídy, Počet chlapců, Počet dívek, tabulka pro žáky jako zaci_skoly.xlsx"
+  ],
+  "procedure": "Příprava: učitel přidělí žákům třídy školy, žáci zjistí počty (od žáků nebo třídního učitele) a vyplní formulář. Učitel zkontroluje reálnost dat (ve třídě není víc než 40 žáků).\n\nZadání:\n1. Kolik procent dívek a chlapců je v každé třídě? (Kolik procent chlapců je v tvé třídě, kolik dívek ve třídě, kterou jsi zkoumal?)\n2. Kolik chlapců a dívek chodí do celé školy?\n3. Jeden graf s počty dívek a chlapců v každé třídě.\n4. Graf poměru dívek a chlapců v celé škole.\n5. U obou grafů název, názvy os, popisky a legenda.\n6. Zamkni list tak, aby šly měnit jen počty chlapců a dívek.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/suma.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

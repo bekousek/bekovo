@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-vip-clil-3-sifry",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "CLIL 3: Cyphers (Morseovka, polský kříž, zlomková šifra)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Warm-up tichá pošta na prstech s tabulkou z minulé hodiny, pak tři šifry: Morseova abeceda (pracovní list s rodinnými vztahy), polský kříž a šifra ze zlomků. Žáci šifry porovnávají a posílají si vlastní zprávy.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "šifra",
+    "Morseova abeceda",
+    "polský kříž",
+    "zlomky",
+    "kryptografie"
+  ],
+  "language": "en",
+  "goal": "Žák zná různé typy šifer, umí jednoduchou šifru zašifrovat i rozluštit a porovná, jak se která dá přenášet.",
+  "materials": [
+    "Tabulka z lekce 2 (A=65 … Z=90)",
+    "Přílohy L3A1 (Morseovka), L3A2 (pracovní list), L3A3 (polský kříž), L3A4 (zlomky)"
+  ],
+  "procedure": "Warm-up: tři žáci v řadě — vysílač, přenašeč, příjemce. Slovo INFORMATION přenesou jen na prstech podle tabulky čísel z minulé hodiny.\n\nAktivita 1 — Morse code: žáci rozluští pracovní list s tajnou zprávou (procvičí i slovní zásobu o rodině). Diskuse: kdy Morseovka vznikla a k čemu sloužila? Jak se dá poslat (papír, zvuk)? Jaká jsou rizika zvukového přenosu?\n\nAktivita 2 — Polish Cross: rozluštit „CIPHER BROKEN“, pak zašifrovat vlastní zprávu a vyměnit se sousedem. Čím se liší od Morseovky? (Musí se kreslit, nejde napsat na klávesnici ani poslat zvukem.)\n\nAktivita 3 — Fractions: šifra ze zlomků („one over four“). Žáci šifrují vlastní zprávy — existují dva správné způsoby zápisu; nechte to vyplout na povrch a diskutujte.\n\nZávěr: když zbude čas nebo zájem, další hodinu týmy navrhnou vlastní šifru; vyhrává ta, kterou ostatní nerozluští.",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

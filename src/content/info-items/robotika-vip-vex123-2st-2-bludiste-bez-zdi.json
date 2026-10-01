@@ -1,0 +1,50 @@
+{
+  "id": "robotika-vip-vex123-2st-2-bludiste-bez-zdi",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 na 2. stupni 2: bludiště bez zdí",
+  "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/",
+  "description": "Robot se řídí jen barvami: podprogram pro červenou, zelenou a modrou. Žáci kostkami postaví cestu do cíle s co nejmenším počtem barev, pak navrhnou bludiště pro ostatní.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7,
+    8
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX 123",
+    "VEXcode 123",
+    "blokové programování",
+    "čtení programu",
+    "podprogramy",
+    "optický senzor",
+    "barvy",
+    "tvorba úloh"
+  ],
+  "language": "cs",
+  "goal": "Žák čte hotový program, upravuje ho a využívá podprogramy.",
+  "materials": [
+    "VEX 123 a zařízení pro každého žáka",
+    "Pro skupinu 4 dlaždice s mantinelem a 5 kostek od každé barvy",
+    "Připravený program se třemi podprogramy a plánek plochy"
+  ],
+  "procedure": "Úkol 1 (jednotlivě, plocha pro skupinu): každý dostane hotový program — robot hledá barvu vždy napravo od sebe (senzor VEX 123 špatně rozlišuje barvu podložky, zelenou a modrou) a podle ní provede podprogram. Pokud barvu nenajde, program skončí. Rozmístěte kostky tak, aby robot projel celou trasu najednou, s co nejmenším počtem kostek (nejlepší řešení: 5 — 1 červená, 2 zelené, 2 modré).\n\nPozor: vpravo od robota musí být místo na kostku a kostka zároveň vytvoří překážku.\n\nÚkol 2 (skupina): upravte podprogramy barev (ne triviální, ale ani složité sekvence) a připravte vlastní bludiště pro ostatní. Snadněji jde, když se nejdřív vymyslí kroky, a teprve potom start a cíl.\n\nHrací plocha z dlaždic VEX 123 s mantinely; místo kostek VEX IQ poslouží barevné papíry přeložené do „áčka“, čtvercovou síť jde vytisknout.\n\nAutor by aktivitu příště zařadil spíš do 6.–7. ročníku.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Tomicek-sada.pdf",
+      "type": "pdf",
+      "note": "Šest aktivit: cíle, postup, programy ve VEXcode 123, herní plochy a reflexe z výuky v 6.–8. ročníku."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — F. Tomíček: Robotická hračka VEX 123 ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/roboticka-hracka-vex-123-ve-vyuce-informatiky-na-2-stupni-zs/"
+  },
+  "added": "2026-09-30"
+}

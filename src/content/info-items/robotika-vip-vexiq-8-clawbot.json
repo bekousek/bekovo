@@ -1,0 +1,52 @@
+{
+  "id": "robotika-vip-vexiq-8-clawbot",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX IQ 8: Clawbot — první úchop",
+  "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/",
+  "description": "Žáci podle návodu přidají robotovi klepeta na třetím motoru. Robot dojede ke kostce, zastaví podle senzoru, sevře ji a couvne. Úhel sevření se ladí — moc malý kostku pustí, moc velký program zasekne.",
+  "type": "blok",
+  "equipment": [
+    "robot",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "VEX IQ",
+    "VEXcode IQ",
+    "Basebot",
+    "blokové programování",
+    "Clawbot",
+    "klepeta",
+    "motor",
+    "úchop",
+    "stavba",
+    "ladění"
+  ],
+  "language": "cs",
+  "goal": "Žák naprogramuje otevírání a zavírání klepet externím motorem, zastaví robota senzorem vzdálenosti a ladí úhel otočení motoru.",
+  "materials": [
+    "Robot VEX IQ s nástavbou Simple Clawbot (návod: instructions.online/?id=4093-VEX_IQ_Simple_Clawbot_2.0)",
+    "Senzor vzdálenosti",
+    "Kostka k uchopení",
+    "Počítač s VEXcode IQ"
+  ],
+  "procedure": "Navazuje na předchozí aktivitu sady; žáci pracují ve dvojicích, učitel radí a pomáhá s technikou.\n\nStavba: podle online návodu sestavte klepeta a připojte je k základnímu robotovi. Klepeta ovládá další motor (v řešení port 4): točení dopředu svírá, dozadu rozevírá.\n\nPozor na to, že program běží shora dolů: když nastavíte sevření větší, než dovolí kostka, motor požadovaného úhlu nedosáhne a program se zasekne.\n\nZadání: robot jede ke kostce, díky senzoru vzdálenosti zastaví, otevře klepeta, uchopí kostku a couvne s ní. Začínejte se zavřenými klepety — i úhel otevření je třeba najít.\n\nHledání správného úhlu zabere víc času a pokusů — to je dobrý trénink ladění.",
+  "files": [
+    {
+      "label": "Sada úloh s řešením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/Kocina-sada.pdf",
+      "type": "pdf",
+      "note": "Všech 8 aktivit: cíle, postup, ukázková řešení ve VEXcode IQ a reflexe z výuky."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kocina: Využití robotické stavebnice VEX IQ ve výuce informatiky na 2. stupni ZŠ (závěrečná práce)",
+    "url": "https://home.pf.jcu.cz/~vip/ulohy-pro-robotickou-ucebni-pomucku-lego-mindstorms-ve-scratchi/"
+  },
+  "added": "2026-09-30"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-vip-clil-2-znakove-sady",
+  "categoryId": "kodovani",
+  "subcategoryId": "kodovani-informace",
+  "title": "CLIL 2: Character encoding (znakové sady a ASCII)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Žáci podle slova HELLO = 72 69 76 76 79 sami odhalí, jak je abeceda zakódovaná, vytvoří si vlastní znakovou sadu pro češtinu a zjistí, proč musí mít všechny počítače stejnou tabulku. Na závěr dekódují zprávu v ASCII.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "ASCII",
+    "znaková sada",
+    "Unicode",
+    "emoji",
+    "diakritika"
+  ],
+  "language": "en",
+  "goal": "Žák umí kódovat a dekódovat znaky podle znakové sady, uvědomí si složitost kódování různých jazyků a ví, proč počítače potřebují jednotnou tabulku.",
+  "materials": [
+    "Příloha L2A1 — prázdná tabulka s čísly 65–90",
+    "Příloha L2A2 — tabulka ASCII",
+    "Projektor"
+  ],
+  "procedure": "Warm-up: Podívejte se na visačky na oblečení — jaké kódy tam vidíte? Žáci kreslí symboly na tabuli, pak je společně vysvětlíte.\n\nAktivita 1 — Small character set: na tabuli „HELLO 72 69 76 76 79“. Žáci doplňují tabulku čísel 65–90 písmeny. Princip neprozrazujte, dávejte další slova, dokud na něj nepřijdou. Pak dekódují 69 70 70 73 67 73 69 78 67 89 (EFFICIENCY).\n\nAktivita 2: každý vytvoří znakovou sadu pro češtinu (co s ř, č, á, CH?). Jeden žák zakóduje TŘEŠEŇ, ostatní dekódují svou tabulkou — skoro nikomu to nevyjde. Proto musí mít počítače jednu společnou tabulku. Diskuse: které jazyky mají jiné znaky? Co dalšího do tabulky patří (číslice, interpunkce, mezera, velká a malá písmena, emoji)?\n\nAktivita 3 — ASCII: dekódujte 87 104 97 116 32 105 115… (What is the purpose of coding?). Hlídejte velká a malá písmena a mezery.\n\nZávěr: mají kód i emoji? Proč se někdy na jiném telefonu emoji nezobrazí?",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

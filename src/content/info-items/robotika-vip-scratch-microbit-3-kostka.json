@@ -1,0 +1,59 @@
+{
+  "id": "robotika-vip-scratch-microbit-3-kostka",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 3: hrací kostka",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Po zatřesení micro:bitem padne náhodné číslo s animací na displeji. V ukázkovém řešení si hráč nejdřív tlačítky nastaví, kolik stěn kostka má.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "náhoda",
+    "náhodné číslo",
+    "animace",
+    "tlačítka"
+  ],
+  "language": "cs",
+  "goal": "Žák použije generování náhodných čísel, reakci na fyzickou akci a jednoduchou animaci výsledku.",
+  "procedure": "Vysvětlete generování náhodných čísel a jak micro:bit hlásí stisk tlačítka nebo zatřesení.\n\nVzorové řešení: po spuštění se program zeptá, kolik čísel bude kostka mít. Hráč maximum nastaví tlačítkem A a odešle tlačítkem B. Pak se do proměnné vygeneruje náhodné číslo z rozsahu, přehraje se připravená animace a výsledek se zobrazí na displeji.",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

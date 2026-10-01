@@ -1,0 +1,51 @@
+{
+  "id": "kancelar-simandl-20-nakup-pohonnych-hmot",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Projekt Nákup pohonných hmot: ceny na čerpačkách",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/poh_hmoty.pdf",
+  "description": "Skupiny zjistí ceny benzínu a nafty na okolních čerpacích stanicích, porovnají je v tabulce a grafu a postaví kalkulačku „kolik zaplatím / kolik natankuji“ se zamčenými buňkami a kontrolou vstupů.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "projekt",
+    "vlastní data",
+    "kalkulačka",
+    "ověření dat",
+    "zámek listu",
+    "finanční gramotnost",
+    "graf",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák získá data v terénu, zpracuje je (řazení, min, max, průměr, graf) a vytvoří uživatelsky přívětivou kalkulačku s ověřením vstupů.",
+  "materials": [
+    "Google Formulář, jehož odpovědi stáhnete jako tabulku pro žáky — otázky Název stanice, Cena benzín [Kč/l], Cena nafta [Kč/l]"
+  ],
+  "procedure": "Motivace: kolik stojí jízda autem? Odhadněte cenu litru benzínu a nafty. Žáci vyjmenují čerpací stanice v okolí.\n\nSkupiny si rozdělí stanice (aspoň jeden člen musí mít možnost tam cenu zjistit) a zapíšou ceny Natural 95 a nafty do sdíleného formuláře. Učitel zkontroluje reálnost cen.\n\nZpracování: seřazení podle ceny, minimum, maximum, průměr, graf cen na jednotlivých stanicích.\n\nKalkulačka: uživatel vybere stanici (třeba indexem) a množství → cena, nebo částku → kolik litrů. Uživatel smí měnit jen vstupní buňky a program hlídá nesmysly (−30 litrů, 100 000 Kč). Nezapomenout na jednotky.\n\nPředem dohodněte odevzdání, prezentaci, hodnocení a časový plán.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/poh_hmoty.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

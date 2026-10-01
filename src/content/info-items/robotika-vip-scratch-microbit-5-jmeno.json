@@ -1,0 +1,60 @@
+{
+  "id": "robotika-vip-scratch-microbit-5-jmeno",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 5: skládání jména ze seznamu písmen",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Naklápěním micro:bitu listujete abecedou, tlačítkem B přidáte písmeno, A smaže poslední, obě tlačítka jméno dokončí a Scratch ho vypíše. Úloha na seznamy a řetězce ve dvou obtížnostech.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "seznamy",
+    "řetězce",
+    "abeceda",
+    "index",
+    "vstup"
+  ],
+  "language": "cs",
+  "goal": "Žák pracuje se seznamy a řetězci, ošetří přetečení indexu a zpracuje uživatelský vstup.",
+  "procedure": "Vysvětlete seznamy, řetězce a proč na správné vizualizaci dat záleží. Žákům bez zkušeností se seznamy dejte verzi 2 zadání a pracovního souboru.\n\nKroky: skript naplní seznam abecedou. Reset vymaže seznam jména a proměnné (a začne od A). Náklon posouvá pozici v abecedě — před každým posunem kontrola, aby nevyjel mimo seznam. B přidá zobrazené písmeno, A smaže poslední. Stisk obou tlačítek ukončí zadávání a výsledek se zobrazí jako text.\n\nBonus: mazání posledního písmena (smazat poslední položku seznamu).",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

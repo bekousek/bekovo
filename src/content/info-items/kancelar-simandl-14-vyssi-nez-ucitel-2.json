@@ -1,0 +1,47 @@
+{
+  "id": "kancelar-simandl-14-vyssi-nez-ucitel-2",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Jsem vyšší než pan učitel II: vnořená KDYŽ",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/kdyz2.pdf",
+  "description": "Pokračování: tentokrát tři výsledky — „žák“, „učitel“, nebo „remíza“. Jedna podmínka nestačí a žáci musejí funkce KDYŽ vnořit.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "keywords": [
+    "KDYŽ",
+    "IF",
+    "vnořená podmínka",
+    "logická funkce",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák chápe víceúrovňové větvení funkce KDYŽ a myslí i na situaci rovnosti.",
+  "materials": [
+    "Tabulka vyska_postavy.xlsx z úlohy Jsem vyšší než pan učitel I"
+  ],
+  "procedure": "Zadání: přidej sloupec Rozdíl výšek jako v první části. Další sloupec Je vyšší: „žák“, pokud je vyšší žák, „učitel“, pokud je vyšší učitel, „remíza“, pokud jsou stejně vysocí.\n\nPředpoklady: vzorce s absolutní adresou, základní KDYŽ se dvěma variantami.\n\nPedagogický konflikt: jednou podmínkou nejdou podchytit tři situace.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/kdyz2.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

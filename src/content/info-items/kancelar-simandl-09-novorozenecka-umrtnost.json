@@ -1,0 +1,50 @@
+{
+  "id": "kancelar-simandl-09-novorozenecka-umrtnost",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Kde umírají novorozenci: bodový graf XY",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/pokr_grafy.pdf",
+  "description": "Souvisí novorozenecká úmrtnost s bohatstvím státu? Žáci vytvoří bodový graf proti paritě kupní síly a objeví tvar připomínající nepřímou úměrnost.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    9
+  ],
+  "keywords": [
+    "graf",
+    "bodový graf",
+    "XY",
+    "korelace",
+    "HDP",
+    "globální výchova",
+    "mezipředmětové",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vytvořit bodový graf XY, vyvodit z něj závěr a chápe souvislosti současného světa.",
+  "materials": [
+    "Tabulka států světa z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/Staty.aspx) s charakteristikami Novorozenecká úmrtnost a Parita kupní síly, uložená jako staty_sveta.xlsx"
+  ],
+  "procedure": "Zadání: ze staty_sveta.xlsx zjisti, zda novorozenecká úmrtnost souvisí s bohatstvím státu (paritou kupní síly na obyvatele). Pokud ano, čím je to způsobeno? Nápověda: použij bodový graf XY.\n\nVysvětlete paritu kupní síly: kolik zboží a služeb si průměrný obyvatel koupí — HDP na obyvatele upravené o cenovou hladinu (příklad Portugalsko vs. ČR je v metodickém listu).\n\nOčekávaný výsledek: body připomínají graf nepřímé úměrnosti.\n\nVarianty: místo úmrtnosti zkoumejte střední délku života nebo počet uživatelů internetu.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/pokr_grafy.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

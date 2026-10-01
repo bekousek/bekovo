@@ -1,0 +1,66 @@
+{
+  "id": "robotika-vip-led-pasek-3-senzory",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "LED pásek 3: ovládání senzory (Grove)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-pro-microbit-se-svitivou-led-paskou/",
+  "description": "Duhu ovládají gesta, pásek se plní otočným knoflíkem (s chybou k opravě), jas řídí světelné čidlo a z ultrazvukového senzoru vznikne svítící metr s displejem. Nakonec čtení cizího programu a hledání jeho slabiny.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "2 × 45 min",
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "LED pásek",
+    "NeoPixel",
+    "RGB",
+    "senzory",
+    "Grove",
+    "mapuj",
+    "ultrazvuk",
+    "gesto",
+    "potenciometr",
+    "čtení kódu",
+    "ladění"
+  ],
+  "language": "cs",
+  "goal": "Žák ovládá pásek hodnotami ze senzorů, převádí rozsahy funkcí mapuj, zjišťuje si rozsah čidla ve svém prostředí a čte a opravuje hotový program.",
+  "materials": [
+    "micro:bit s LED páskem",
+    "Rozšiřující deska a moduly Grove: senzor gest (I2C), otočný snímač úhlu, světelné čidlo, ultrazvukový senzor, 4místný displej",
+    "Baterka nebo svítilna (když nejde použít mobil)"
+  ],
+  "procedure": "Příprava: LED pásek (NeoPixel) připojte na P0 — stejně ve všech úlohách. V MakeCode přidejte rozšíření neopixel; každý program začíná blokem, který nastaví proměnnou strip na pásek s daným počtem diod. Žáci by měli znát proměnné, cykly a podmínky a mít za sebou pár hodin s micro:bitem.\n\nV MakeCode přidejte také rozšíření Grove.\n\nÚloha 8 — gesto vlevo/vpravo mění směr toku duhy (senzor gest do I2C).\n\nÚloha 9A — funkce mapuj: hodnotu otočného knoflíku (0–1023 na P1) převeďte na 0–9 na displeji. Zaokrouhlit je potřeba celou funkci mapuj, ne hodnotu čidla.\n\nÚloha 9 — program plní pásek podle knoflíku, ale nefunguje dobře. Najděte proč a opravte (shift pixels na konec cyklu, záporné číslo pro správný směr).\n\nÚloha 10 — po pásku jezdí jen jedna rozsvícená dioda (blok clear).\n\nÚloha 11 — jas pásku (0–255) podle knoflíku; barva musí být nastavená v opakuj stále.\n\nÚloha 12 — jas podle světelného čidla: nejdřív zjistěte minimum (zakrytá ruka) a maximum (baterka) ve vaší třídě.\n\nÚloha 13 — metr: vzdálenost z ultrazvuku = počet rozsvícených diod (1 cm = 1 dioda). Nezapomeňte na clear.\n\nÚloha 14 — digitální metr: přidejte 4místný displej na P2 a omezte hodnoty na to, co pásek umí (blok omez hodnotu, zaokrouhlení).\n\nÚloha 15 — co dělá hotový program? Ověřte hypotézu a najděte jeho slabinu (co když podmínka nikdy neplatí?).",
+  "files": [
+    {
+      "label": "Metodika pro učitele (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Metodicke_listy_pro_ucitele.pdf",
+      "type": "pdf",
+      "note": "Zadání, cíle, metodické poznámky a vzorová řešení všech 15 úloh."
+    },
+    {
+      "label": "Zadání úloh pro žáky (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Zadani_uloh_pro_zaky.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Zdrojové kódy řešení (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Zdrojovekody.zip",
+      "type": "other",
+      "note": "Soubory .hex k přímému nahrání do micro:bitu."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — P. Minář: Sada úloh pro micro:bit se svítivou LED páskou (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-pro-microbit-se-svitivou-led-paskou/"
+  },
+  "added": "2026-09-30"
+}

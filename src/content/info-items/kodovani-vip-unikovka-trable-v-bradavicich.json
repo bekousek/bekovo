@@ -1,0 +1,65 @@
+{
+  "id": "kodovani-vip-unikovka-trable-v-bradavicich",
+  "categoryId": "kodovani",
+  "subcategoryId": "sifry",
+  "title": "Úniková hra Trable v Bradavicích",
+  "url": "https://home.pf.jcu.cz/~vip/informaticka-unikovka-pro-mladsi-zaky/",
+  "description": "Informatická úniková hra ze světa Harryho Pottera pro skupinu asi 5 dětí: šest úloh (obrázková šifra, šifrovací kolečko, klíče podle pravidel, runy s chybou, puzzle podle souřadnic, nejkratší cesta v grafu) otevírá truhly s kódovými zámky. Všechno je připravené k tisku i s nahrávkami zadání.",
+  "type": "hra",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    4,
+    5,
+    6
+  ],
+  "duration": "45–60 min + úvod a reflexe",
+  "keywords": [
+    "úniková hra",
+    "šifry",
+    "Caesarova šifra",
+    "šifrovací kolečko",
+    "graf",
+    "nejkratší cesta",
+    "souřadnice",
+    "detekce chyby",
+    "logické podmínky",
+    "Harry Potter",
+    "skupinová práce"
+  ],
+  "language": "cs",
+  "goal": "Žák řeší informatické problémy ve skupině: dekóduje a kóduje podle klíče, hledá chybu v kódu, pracuje se souřadnicemi a soustavou pravidel a hledá nejkratší cestu v grafu.",
+  "materials": [
+    "4 uzamykatelné truhly nebo krabice a sejf v podobě knihy (rozměry kartiček jsou v metodice)",
+    "Číselné zámky (trojmístný, čtyřmístný, pětimístný) a písmenkový zámek s nastavitelným slovem TOAD",
+    "Sada klíčů (aspoň 9), replika hůlky, látkový sáček",
+    "Vytištěné herní podklady a reproduktor k počítači nebo tabletu na zvukové nahrávky",
+    "Bez zámků to jde také — kódy pak kontroluje učitel"
+  ],
+  "procedure": "Příběh: Filch zabavil Ronovi hůlku a zamkl ji do truhly. Děti musí projít šesti nástrahami, než se vrátí.\n\nPrůběh: příchod a seznámení s místností, pravidla (nepoužívat náhodné kódy, přenášet smí jen to, co najdou v truhlách), úvodní nahrávka, herní fáze a na konci závěr příběhu a řízená reflexe.\n\n1 Pobertův plánek: najít chybějící střed mapy cest, na rubu kartičky je obrázková šifra; legenda visí ve třídě. Kód 3276.\n2 Kočka: z nápovědy odvodit posun šifrovacího kolečka a rozluštit PSNMF → KNIHA (sejf v knize).\n3 Kouzla a klíče: přiřadit kouzla k pohybům hůlky a rozmístit klíče na hrací plochu tak, aby platila všechna pravidla zároveň; klíč na poli s hvězdou otevře sejf.\n4 Starodávné runy: přiřadit anglická slova k runám a najít to chybně zapsané (TOAD) — písmenkový zámek.\n5 Puzzle: podle souřadnic doplnit poloviny obrázků, na rubu obrázková šifra, čísla seřadit.\n6 Únik z Tajemné komnaty: na mapě (grafu) najít cestu s nejmenším počtem ochranných kouzel a doplnit čísla na vlajkách. Kód 124.\n\nPříprava: legendy a průvodce kouzly připevněte na nástěnku, mapu a desku puzzle přilepte na lavice, kartičky plánku rozmístěte po třídě daleko od sebe a truhly také rozházejte, aby děti prozkoumaly celou místnost.\n\nNahrávky (8 stop, 13 s až 1 min 7 s) může nahradit učitel jako vypravěč. Samostatné čtení zadání dětmi autorka nedoporučuje — zdržuje.",
+  "files": [
+    {
+      "label": "Metodická příručka (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/09/Metodika-ke-hr%CC%8Ce-2.pdf",
+      "type": "pdf",
+      "note": "Zadání, informatické cíle, předpokládaný postup a řešení všech úloh, seznam pomůcek a rozmístění."
+    },
+    {
+      "label": "Soubory k tisku (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/09/Soubory-k-tisku-2.zip",
+      "type": "other"
+    },
+    {
+      "label": "Zvukové nahrávky zadání (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/09/Zvukove%CC%81-nahra%CC%81vky-2.zip",
+      "type": "audio"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — informatická únikovka (diplomová práce učitelky 1. stupně)",
+    "url": "https://home.pf.jcu.cz/~vip/informaticka-unikovka-pro-mladsi-zaky/"
+  },
+  "notes": "Určeno pro 4.–5. ročník, zvládnou to i o něco starší. Pro celou třídu je potřeba víc sad, nebo hrajte po skupinách na stanovištích.",
+  "added": "2026-09-30"
+}

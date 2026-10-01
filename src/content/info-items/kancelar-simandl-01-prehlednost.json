@@ -1,0 +1,48 @@
+{
+  "id": "kancelar-simandl-01-prehlednost",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Přehlednost nade vše: úprava tabulky počasí",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/elementarni.pdf",
+  "description": "Žáci „hození do vody“ smažou z tabulky aktuálního počasí zbytečné sloupce, upraví šířky a ztuční záhlaví — a ověří, že tučně je opravdu celý první řádek.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "keywords": [
+    "formátování",
+    "šířka sloupce",
+    "mazání sloupců",
+    "počasí",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí odstraňovat sloupce, měnit jejich šířku a formátovat víc buněk najednou.",
+  "materials": [
+    "Tabulka aktuálního počasí v ČR z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/AktualniPocasiCr.aspx) uložená jako pocasi_cr.xlsx"
+  ],
+  "procedure": "Zadání: otevři pocasi_cr.xlsx. Smaž sloupce, které považuješ za zbytečné (nápověda: data v nich jsou si velmi podobná). Uprav šířku sloupců, ve kterých není vidět celý údaj. Zajisti, aby záhlaví všech sloupců bylo tučně.\n\nKontrola: napiš do prvního řádku libovolného sloupce text — je opravdu tučně?\n\nMetoda: samostatná práce, „hození do vody“. Pedagogický konflikt — žák nejspíš nebude umět naformátovat celý řádek najednou a na postup musí přijít.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/elementarni.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

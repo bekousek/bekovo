@@ -1,0 +1,50 @@
+{
+  "id": "kodovani-vip-clil-4-binarni-mysleni",
+  "categoryId": "kodovani",
+  "subcategoryId": "dvojkova-soustava",
+  "title": "CLIL 4: Binary thinking (dva stavy a kontrolní bit)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Žáci hledají v životě věci se dvěma stavy a formulují je větou „If the light is on, the state is 1.“ Pak čtou hlasovací tabulku s kontrolními značkami a doplní data, přes která se rozlila káva.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "binární",
+    "dva stavy",
+    "kontrolní bit",
+    "parita",
+    "hlasování",
+    "oprava chyb"
+  ],
+  "language": "en",
+  "goal": "Žák zná princip dvojkového zápisu, pozná, kdy lze situaci popsat dvěma stavy, a umí s kontrolním bitem doplnit poškozená data.",
+  "materials": [
+    "Přílohy L4A1 (šifra z obrázků) a L4A2 (hlasování)",
+    "Připravené věty If …, the state is … k doplnění"
+  ],
+  "procedure": "Warm-up: rozluštěte obrázkovou šifru (START). Skupiny pak vytvoří vlastní zprávu z daných písmen plus jednoho nového a ostatní ho musí odhalit.\n\nAktivita 1: Může být víc než dvě čísla? Ukažte třetí polohu vypínače. Dvojice hledají situace se dvěma stavy a zapisují je v zero conditional: „If you vote yes, the state is 1. If you vote no, the state is 0.“ Sporné návrhy (semafor s oranžovou, výtah, který stojí) rozeberte se třídou.\n\nAktivita 2 — Voting: Martin a Sonia hlasují o barvě gauče (1/0). Pod čarou jsou značky x a o — co znamenají? (Shodli se / neshodli se.) Na kterých barvách se shodli? Měsíc nato se na hlasovací lístek rozlila káva — dokážete podle značek doplnit, jak hlasovali?\n\nZávěr: kde jinde se takový kontrolní zápis hodí? Zdůrazněte roli kontrolního bitu.",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

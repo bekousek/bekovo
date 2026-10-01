@@ -1,0 +1,49 @@
+{
+  "id": "kodovani-vip-clil-7-komprese",
+  "categoryId": "kodovani",
+  "subcategoryId": "komprese-a-chyby",
+  "title": "CLIL 7: Compression (komprese obrázku)",
+  "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/",
+  "description": "Žáci zmenšují bitmapy slučováním čtyř pixelů v jeden a sledují, kdy obrázek ztratí smysl. Velký obrázek komprimuje devět skupin najednou jako paralelní počítač. Nakonec kódují barevné řádky zkráceně a dekódují graf screen time.",
+  "type": "blok",
+  "equipment": [
+    "bez-pocitace"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "duration": "45 min",
+  "keywords": [
+    "CLIL",
+    "angličtina",
+    "unplugged",
+    "mezipředmětové",
+    "komprese",
+    "RLE",
+    "ztrátová komprese",
+    "bitmapa",
+    "paralelní zpracování",
+    "screen time"
+  ],
+  "language": "en",
+  "goal": "Žák zná princip komprese, umí zkomprimovat jednoduchou bitmapu a zná výhody i nevýhody komprese.",
+  "materials": [
+    "Přílohy L7A1 (šipka), L7A2 (komprese), L7A3 (týmový obrázek — 9 dílů), L7A4 (barvy), L7A5 (graf)"
+  ],
+  "procedure": "Warm-up: dva obrázky šipky — co se stalo? (Menší, méně čtverečků, horší.) Pravda/nepravda vstáváním a sedáním. Kdo přijde na slučování čtyř čtverečků v jeden, vysvětlí ostatním.\n\nAktivita 1: zkomprimujte 4 obrázky podle pravidel — zůstal význam? Pak přiřaďte obrázky před a po kompresi: jeden „po“ je záměrně chybný a dva různé obrázky po kompresi splynou.\n\nAktivita 2 — Team code: velký obrázek rozdělte na 9 dílů (na rub napište souřadnice A1, B2…), každá skupina komprimuje svůj díl, pak je složíte. Počítač to dělá stejně — rozdělí práci. Rychlé skupiny kontrolují ostatní.\n\nAktivita 3 — Colours: odhalte, jak je zakódovaný první obrázek, a stejně zakódujte druhý. Který obrázek bude mít nejdelší instrukce? Barevný obrázek: co když tři barvy začínají na B (Black, Brown, Blue)?\n\nAktivita 4 — Graph: dekódovaný obrázek je graf screen time; doplňte věty v present continuous.\n\nZávěr: kde jste se dnes setkali s kompresí? Žáci zformulují vlastní definici.",
+  "files": [
+    {
+      "label": "Metodické a pracovní listy všech 7 lekcí (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/kurka_metodicke_a_pracovni_listy.pdf",
+      "type": "pdf",
+      "note": "Metodické listy v angličtině s českým shrnutím každé lekce, na konci pracovní listy (přílohy L1A1–L7A5). Podrobný průběh a ověření v praxi je v diplomové práci."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Kůrka: Výuka teoretické informatiky pomocí metody CLIL (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-vyukovych-materialu-pro-vyuku-tematu-kodovani-dat-pomoci-metody-clil/"
+  },
+  "added": "2026-09-30"
+}

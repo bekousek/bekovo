@@ -1,0 +1,48 @@
+{
+  "id": "kancelar-simandl-02-stejna-prijmeni",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Máme stejná příjmení: hledání v tabulce",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/hledani.pdf",
+  "description": "Kolik lidí v ČR má stejné příjmení jako ty, tvůj kamarád nebo starosta? Žáci hledají v rozsáhlých tabulkách četnosti příjmení a dohledávají si informace na internetu.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    6,
+    7
+  ],
+  "keywords": [
+    "hledání",
+    "Najít",
+    "příjmení",
+    "četnost",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vyhledávat v rozsáhlé oblasti buněk a dohledat si podpůrné informace na internetu.",
+  "materials": [
+    "Seznamy mužských a ženských příjmení s pořadím a četností z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/CetnostJmen.aspx) uložené jako prijmeni_muzi.xlsx a prijmeni_zeny.xlsx"
+  ],
+  "procedure": "Zadání: otevři oba soubory a zjisti:\n\n1. Jaké je nejčetnější mužské a ženské příjmení v ČR?\n2. Kolik mužů (žen) má stejné příjmení jako ty?\n3. Kolik má stejné příjmení jako tvůj nejlepší kamarád (kamarádka)?\n4. Kolik osob má stejné příjmení jako starosta tvé obce?\n5. Kolik žen má stejné příjmení, jako měla za svobodna manželka prvního prezidenta ČR?\n\nMetoda: „hození do vody“, samostatná práce.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/hledani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

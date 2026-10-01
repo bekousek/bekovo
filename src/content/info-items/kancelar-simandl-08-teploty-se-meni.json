@@ -1,0 +1,49 @@
+{
+  "id": "kancelar-simandl-08-teploty-se-meni",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Teploty se mění: spojnicový graf II",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/spojnice2.pdf",
+  "description": "Graf teplot v Praze za posledních 24 hodin se značkami v každé hodnotě. Rozšíření: druhý graf porovná Prahu s Popradem — kde bylo tepleji o půlnoci?",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8
+  ],
+  "keywords": [
+    "graf",
+    "spojnicový graf",
+    "počasí",
+    "teplota",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí vytvořit spojnicový graf s pokročilými úpravami a číst z něj.",
+  "materials": [
+    "Vývoj počasí za posledních 24 hodin ve vybraných městech z Online přípravny úloh (http://dbs.pf.jcu.cz/simandl/VyvojPocasi.aspx) uložený jako pocasi_vyvoj.xlsx"
+  ],
+  "procedure": "Zadání: z pocasi_vyvoj.xlsx vytvoř graf vhodného typu pro vývoj teplot v Praze, se značkami v každé hodnotě, názvem, názvy os, popisky osy X a legendou. Kdy bylo za posledních 24 hodin nejtepleji a kdy nejchladněji?\n\nRozšíření: druhý graf s teplotami v Praze a v Popradu. Kde je teď tepleji? Kde bylo tepleji o půlnoci?\n\nMožné obtíže: osa X může seskupit údaje po dnech bez ohledu na hodiny — nastavte ji jako kategorie. Řádky jsou od nejnovějšího, graf je obrácený — seřaďte vzestupně nebo otočte pořadí kategorií.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/spojnice2.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "notes": "Postupy v „možných obtížích“ jsou psané pro Excel 2003 — v novém Excelu, LibreOffice nebo Tabulkách Google se liší názvy nabídek, princip platí.",
+  "added": "2026-09-30"
+}

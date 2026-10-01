@@ -1,0 +1,53 @@
+{
+  "id": "kancelar-simandl-21-nakup-potravin",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Projekt Nákup potravin: vyplatí se supermarket?",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/potraviny.pdf",
+  "description": "Dvojice zjistí ceny stejného nákupu v různých obchodech — od hypermarketu po večerku. Vytvoří účtenku, rozdělí si potraviny, porovnají ceny grafy a výsledky prezentují.",
+  "type": "projekt",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "projekt",
+    "vlastní data",
+    "účtenka",
+    "zaokrouhlení",
+    "graf",
+    "finanční gramotnost",
+    "výchova ke zdraví",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák získá vlastní data, vytvoří účtenku se vzorci a zaokrouhlením a porovná ceny grafem.",
+  "materials": [
+    "Seznam potravin vybraný brainstormingem",
+    "Sdílená tabulka pro výsledky dvojic",
+    "Projektor pro prezentace"
+  ],
+  "procedure": "Motivace: vyplatí se nakupovat ve velkém supermarketu, nebo vyjde nákup podobně i v obchodě u domu?\n\nDvojice si rozdělí obchody tak, aby byly zastoupené všechny typy prodejen. Zboží se nekupuje, stačí zapsat ceny.\n\nBrainstorming seznamu potravin (nejdřív nápady bez hodnocení, pak kritický výběr): potraviny dostupné téměř všude se srovnatelnou kvalitou, běžná denní spotřeba domácnosti. Vhodné je navázat na výchovu ke zdraví.\n\nVýstup 1: účtenka — název, cena za kus, počet kusů, cena celkem, součet nákupu, součet zaokrouhlený na koruny a název obchodu.\n\nVýstup 2: dvojice si rozdělí potraviny, od spolužáků zjistí ceny ze všech obchodů a vytvoří grafy; jedna dvojice zpracuje celkovou cenu nákupu (nejzajímavější graf).\n\nDohodněte formu prezentace, hodnocení a časový plán.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/potraviny.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}

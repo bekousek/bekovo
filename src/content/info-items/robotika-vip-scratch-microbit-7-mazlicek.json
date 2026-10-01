@@ -1,0 +1,61 @@
+{
+  "id": "robotika-vip-scratch-microbit-7-mazlicek",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Scratch + micro:bit 7: mazlíček na pinech",
+  "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/",
+  "description": "Mazlíček ve Scratchi náhodně chce jíst, hrát si nebo spát a pečovatel odpovídá přes micro:bit — spojí prsty pin a stiskne tlačítko. Správná péče přidá bod, špatná ubere.",
+  "type": "blok",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "Scratch",
+    "micro:bit",
+    "Scratch Link",
+    "hardware a software",
+    "piny",
+    "zprávy",
+    "vysílání zpráv",
+    "podmínky",
+    "skóre",
+    "virtuální mazlíček"
+  ],
+  "language": "cs",
+  "goal": "Žák pracuje s podmínkami, se vstupem z pinů a se zprávami mezi postavami ve Scratchi.",
+  "procedure": "Připravená postava Mazlíček: po vlaječce náhodně vybere požadavek (krmení, hraní, spánek), oznámí ho a čeká. Po odpovědi vyhodnotí — správně +1, špatně −1 — a vybere další požadavek.\n\nÚkol žáků — postava Pečovatel: propojení pinu spustí smyčku čekající na tlačítko, podle volby pošle zprávu Mazlíčkovi.\n\nPozor: Scratch bere propojení pinu jen jako okamžik doteku, ne trvalý stav. Po odeslání zprávy musí žák pin rozpojit — díky čekání má asi 7–8 sekund.\n\nZdůrazněte jasnou strukturu podmínek pro vyhodnocení odpovědi.",
+  "files": [
+    {
+      "label": "Metodické listy pro učitele (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-metodika.zip",
+      "type": "other",
+      "note": "Samostatné PDF ke každé ze 7 úloh."
+    },
+    {
+      "label": "Zadání pro žáky (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-zadani.zip",
+      "type": "other",
+      "note": "U úloh 5 a 6 jsou dvě verze — verze 2 pro žáky bez zkušeností se seznamy."
+    },
+    {
+      "label": "Pracovní soubory Scratch (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-pracovni_soubory.zip",
+      "type": "other"
+    },
+    {
+      "label": "Řešení úloh (ZIP)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/02/novak-reseni.zip",
+      "type": "other"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Novák: Sada úloh k výuce programování ve Scratchi s BBC micro:bit (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/sada-uloh-k-vyuce-programovani-v-prostredi-scratch-s-vyuzitim-bbc-microbit/"
+  },
+  "added": "2026-09-30"
+}

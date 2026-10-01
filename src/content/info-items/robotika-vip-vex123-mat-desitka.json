@@ -1,0 +1,62 @@
+{
+  "id": "robotika-vip-vex123-mat-desitka",
+  "categoryId": "robotika",
+  "subcategoryId": "vex",
+  "title": "VEX 123 v matematice: podložka Desítka (1. ročník)",
+  "url": "https://home.pf.jcu.cz/~vip/algoritmicke-ulohy-pro-robota-vex-123-na-podporu-vyuky-pocetnich-operaci/",
+  "description": "Robot stojí na číselné ose a žáci tlačítky programují, aby dojel na výsledek příkladu. Sčítání, odčítání, přechod přes desítku, první záporná čísla a úlohy bez robota (tabulka, zkrácený zápis).",
+  "type": "blok",
+  "equipment": [
+    "robot"
+  ],
+  "grades": [
+    1,
+    2
+  ],
+  "keywords": [
+    "VEX 123",
+    "matematika",
+    "sčítání",
+    "odčítání",
+    "číselná osa",
+    "mezipředmětové",
+    "tlačítka",
+    "první stupeň"
+  ],
+  "language": "cs",
+  "goal": "Žák ovládá robota tlačítky a opakovaně spouští program; pohyb robota po ose chápe jako přičítání a odečítání a plánuje cestu k výsledku.",
+  "materials": [
+    "VEX 123 pro skupinu",
+    "Podložky Desítka (č. 1–4)",
+    "Vytištěná zadání a interaktivní tabule pro úlohy k promítání"
+  ],
+  "procedure": "Podložky si musíte vyrobit — políčko odpovídá jednomu kroku robota. Čísla podložek jsou u každé úlohy v závorce (1–4 jednořádkové Desítky: bez nuly, s nulou, přes 10, se zápornými čísly; 5 Třicítka jako tabulka 1–30).\n\nPohyb robota (úlohy 1–4): seznámení — zapnutí posunutím k zelenému tlačítku, co udělá které tlačítko, otočka o 90°, opakované spuštění prostředním tlačítkem, smazání programu zatřesením. Kam dojede robot, když smíš tlačítko vpřed stisknout jen dvakrát (opakované přičítání)? Orientace na Desítce.\n\nPodložka Desítka (úlohy 5–15, 1. ročník): odhadni cíl, kolik kroků vpřed, kde je start, kam se robot dívá (couvání a záporná čísla v úloze 8), přechod přes 10, cílové číslo. Bez robota: urči změnu, tabulka, zkrácený zápis. Nakonec neznámé číslo.\n\nNejdřív sčítání, pak kombinace sčítání a odčítání. Úlohy 1–4 a 15 jsou k promítání, ostatní k tisku.\n\nPodle učitelů, kteří úlohy vyzkoušeli, si žáci často ani neuvědomí, že počítají.",
+  "files": [
+    {
+      "label": "Úvod pro učitele (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Uvod-pro-ucitele.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Metodika pro učitele (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Metodika.pdf",
+      "type": "pdf",
+      "note": "Všech 29 úloh: zadání, metodické poznámky, informatický i matematický cíl a řešení."
+    },
+    {
+      "label": "Zadání úloh k tisku (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Zadani-uloh-k-tisku.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Zadání úloh k promítání (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/04/Zadani-uloh-k-promitani.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Halounová: Algoritmické úlohy pro robota VEX 123 na podporu výuky početních operací (diplomová práce)",
+    "url": "https://home.pf.jcu.cz/~vip/algoritmicke-ulohy-pro-robota-vex-123-na-podporu-vyuky-pocetnich-operaci/"
+  },
+  "added": "2026-09-30"
+}

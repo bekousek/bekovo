@@ -1,0 +1,55 @@
+{
+  "id": "robotika-vip-chytra-domacnost-alarm-dvere",
+  "categoryId": "robotika",
+  "subcategoryId": "microbit",
+  "title": "Chytrá domácnost: alarm na dveře",
+  "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/",
+  "description": "Micro:bit na dveřích pozná otevření podle magnetu a pošle rádiem signál druhému, který spustí sirénu. Vypnout ji jde až po zavření dveří a stisku tlačítka. Kalibrace přes sériovou linku.",
+  "type": "projekt",
+  "equipment": [
+    "microbit",
+    "pocitac"
+  ],
+  "grades": [
+    7,
+    8,
+    9
+  ],
+  "keywords": [
+    "micro:bit",
+    "MakeCode",
+    "chytrá domácnost",
+    "projekt",
+    "piny",
+    "výrobek",
+    "magnetometr",
+    "kompas",
+    "rádio",
+    "bzučák",
+    "tlačítko",
+    "sériová linka",
+    "alarm"
+  ],
+  "language": "cs",
+  "goal": "Žák vymyslí způsob detekce pohybu (magnet, kompas, druhý micro:bit), zkalibruje ho výpisem do sériové linky a navrhne systém spuštění a vypnutí alarmu.",
+  "materials": [
+    "2× micro:bit",
+    "Magnet",
+    "Bzučák a tlačítko, vodiče",
+    "2 krabice — z jedné vyřízněte zkušební dveře"
+  ],
+  "procedure": "Úvod k sérii: začněte brainstormingem — jaká chytrá zařízení doma znáte (lampa ovládaná telefonem, alarm, termostat, lednice s recepty)? Všechna mají uvnitř mikropočítač, stejně jako micro:bit. Ať si žáci přinesou krabičku, do které hotové zařízení schovají.\n\nZadání: vytvořte dveřní alarm. Použijte 1–2 micro:bity a aspoň jednu periferii.\n\nSenzor: micro:bit na dveřích každých 100 ms měří magnetické pole. Rozmezí pro „zavřeno“ zjistěte výpisem hodnot do sériové konzole (rychlejší než LED displej), pak výpis z kódu odstraňte. Mimo rozmezí pošle signál alarmu; proměnná zapnuto zabrání opakovanému posílání. Na displeji 0 = zavřeno, 1 = otevřeno.\n\nAlarm: po signálu hraje melodii. Vypnout jde jen tehdy, když jsou dveře zavřené, a stiskem přidaného tlačítka (zapojení podle schématu: pin + GND).\n\nVýrobek: senzor na provizorní kartonové dveře, alarm do krabice s dírami pro tlačítko a bzučák.\n\nHodnocení: způsob detekce, využití více periferií, nápaditost.",
+  "files": [
+    {
+      "label": "Zadání projektů s řešením a zapojením (PDF)",
+      "href": "https://home.pf.jcu.cz/~vip/wp-content/uploads/2026/03/Chytra-domacnost-s-microbitem.pdf",
+      "type": "pdf",
+      "note": "Všech pět projektů: zadání, poznámky pro učitele, cíle a hodnocení, vzorové programy v MakeCode a fotky hotových výrobků."
+    }
+  ],
+  "source": {
+    "label": "Kabinet VIP, PF JU v Českých Budějovicích — M. Štefl: Projekty chytré domácnosti s micro:bitem (bakalářská práce)",
+    "url": "https://home.pf.jcu.cz/~vip/projekty-chytre-domacnosti-s-microbitem/"
+  },
+  "added": "2026-09-30"
+}

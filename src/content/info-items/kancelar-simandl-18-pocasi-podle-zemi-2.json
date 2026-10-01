@@ -1,0 +1,50 @@
+{
+  "id": "kancelar-simandl-18-pocasi-podle-zemi-2",
+  "categoryId": "kancelar",
+  "subcategoryId": "tabulky",
+  "title": "Počasí podle zemí II: filtrování",
+  "url": "http://dbs.pf.jcu.cz/simandl/pdf/filtrovani.pdf",
+  "description": "Žáci jako zaměstnanci cestovky obsluhují náročného zákazníka: filtrují evropské stanice podle země, oblačnosti a rozdílu teploty proti Praze.",
+  "type": "pracovni-list",
+  "equipment": [
+    "pocitac"
+  ],
+  "grades": [
+    8,
+    9
+  ],
+  "keywords": [
+    "filtr",
+    "automatický filtr",
+    "A",
+    "NEBO",
+    "počasí",
+    "zeměpis",
+    "tabulkový procesor",
+    "Excel",
+    "Šimandl"
+  ],
+  "language": "cs",
+  "goal": "Žák umí použít základní i rozšířené filtrování, logické podmínky A a NEBO a kriticky hodnotí výsledky svými zeměpisnými znalostmi.",
+  "materials": [
+    "Soubor pocasi_evropa.xlsx uložený v úloze Počasí podle zemí I"
+  ],
+  "procedure": "Zadání:\n\n• Zobraz jen stanice v Rakousku. Jaká je nad Rakouskem oblačnost?\n• Nad kolika stanicemi je jasno? Kde z nich je nejtepleji?\n• Jaká je teplota v Praze? Zobraz stanice, kde se teplota od Prahy liší nejvýš o 3 °C. Kterou stanici jsi nečekal?\n• Zobraz stanice, kde se teplota od Prahy liší aspoň o 10 °C a je jasno nebo málo oblačno.\n\nMotivace: žák je pracovník cestovní kanceláře a učitel náročný zákazník, který chce jet tam, kde je teď třeba jasno a aspoň 20 °C.\n\nPedagogický konflikt: žák nezná automatický filtr a ruční hledání je zdlouhavé.",
+  "files": [
+    {
+      "label": "Metodický list úlohy (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/filtrovani.pdf",
+      "type": "pdf"
+    },
+    {
+      "label": "Celá sada 21 úloh (PDF)",
+      "href": "http://dbs.pf.jcu.cz/simandl/pdf/ulohy_cele.pdf",
+      "type": "pdf"
+    }
+  ],
+  "source": {
+    "label": "Online přípravna úloh — Václav Šimandl, PF JU v Českých Budějovicích (přes Kabinet VIP)",
+    "url": "http://dbs.pf.jcu.cz/simandl/Ulohy.aspx"
+  },
+  "added": "2026-09-30"
+}
