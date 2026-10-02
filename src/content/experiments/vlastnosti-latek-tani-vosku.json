@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-tani-vosku",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Netradiční tání vosku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, žáci mohou pomáhat): kus barevného vosku ze svíčky napíchnutý na vidličce se ponoří až na dno kádinky s horkou vodou. Vosk se postupně taví a roztavené barevné kapky stoupají k hladině, kde se rozlévají. Pokus ukazuje jak změnu skupenství (tání vosku), tak rozdíl v hustotě mezi roztaveným voskem a vodou.",
+  "materials": [
+    "kádinka nebo sklenice",
+    "kousek barevného vosku (svíčka)",
+    "horká voda",
+    "vidlička"
+  ],
+  "procedure": "1. Do kádinky nalijeme horkou vodu. 2. Na vidličku napíchneme kus barevného vosku a ponoříme jej až na dno. 3. Vosk začne tát, barevné kapky roztaveného vosku stoupají vzhůru a na hladině se rozlévají. 4. S žáky diskutujeme o skupenství vosku a o tom, proč roztavený vosk stoupá (nižší hustota než voda).",
+  "source": {
+    "label": "2. ZŠ Sokolov – Jednoduché pokusy",
+    "url": "https://2zs.sokolov.cz/Download/Fyzika/Fyzika.pdf"
+  }
+}
