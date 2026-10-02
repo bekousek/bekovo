@@ -1,0 +1,11 @@
+{
+  "id": "pohyb-grafy-mereni-cesty-do-skoly",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Dlouhodobé měření a graf vlastní cesty do školy",
+  "description": "Žák si po dobu jednoho týdne měří čas a vzdálenost pravidelné trasy (cesta do školy pěšky, na kole nebo MHD) – trasu rozdělí na úseky (chůze, čekání na zastávce, jízda) a pro každý úsek spočítá průměrnou rychlost (v = s/t) pomocí stopek a pásma nebo mobilní aplikace. Na závěr sestrojí graf dráhy na čase a graf rychlosti na čase pro celou cestu a u každého úseku zdůvodní z tvaru grafu, zda šlo o klid, rovnoměrný nebo zrychlený/zpomalený pohyb.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/matematika-venku-pro-druhy-stupen/"
+  }
+}

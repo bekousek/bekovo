@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-grafy-zavod-superhrdinu",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Závod superhrdinů – čtení a porovnávání grafu dráhy na čase",
+  "type": "group-work",
+  "description": "Aktivita na čtení s-t grafu v motivačním kontextu: žáci z grafu závodu dvou superhrdinů určují vítěze, kdo startoval rychleji a kdo v polovině trati vedl. U složitější varianty se čtyřmi závodníky navíc řadí závodníky podle dráhy i okamžité rychlosti v zadaných časech. Na závěr ve dvojicích sepíší krátkou reportáž ze závodu na základě přečteného grafu.",
+  "source": {
+    "label": "KDF MFF UK – Úlohy na grafy (M. Kekule)",
+    "url": "http://kdf.mff.cuni.cz/~kekule/grafy/pdf/R-6.pdf"
+  }
+}

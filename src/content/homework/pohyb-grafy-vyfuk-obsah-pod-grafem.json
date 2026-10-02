@@ -1,0 +1,11 @@
+{
+  "id": "pohyb-grafy-vyfuk-obsah-pod-grafem",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Dráha jako obsah plochy pod grafem rychlosti – ověř to vlastním měřením",
+  "description": "Žák si nejprve nastuduje z textu Výfučtení: Grafy (Výfuk), jak se dráha při rovnoměrném i rovnoměrně zrychleném pohybu dá určit jako obsah plochy pod grafem v(t) (obdélník, trojúhelník). Poté si zvolí krátkou trasu (jízda na kole, běh nebo chůze se zrychlováním), rozdělí ji na úseky s přibližně konstantní rychlostí, rychlosti změří (aplikace v mobilu nebo čas a vzdálenost) a sestrojí graf v(t). Spočítá dráhu jako součet obsahů obdélníků a trojúhelníků pod grafem a výsledek porovná se skutečně naměřenou délkou trasy – zjistí, jak přesná byla jeho aproximace.",
+  "source": {
+    "label": "Výfuk – Výfučtení X.II Grafy",
+    "url": "https://static.fykos.cz/problems/vyfuk/10/media/serial2.cs.pdf"
+  }
+}
