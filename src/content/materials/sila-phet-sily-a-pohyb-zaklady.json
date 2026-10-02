@@ -1,0 +1,9 @@
+{
+  "id": "sila-phet-sily-a-pohyb-zaklady",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "PhET: Síly a pohyb – základy (Přetahovaná)",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace, na obrazovce Přetahovaná žáci skládají síly více postaviček táhnoucích na obě strany a sledují, jak se sčítají do výsledné síly – včetně případu, kdy se síly navzájem vyruší. Doplňuje abstraktní vektorový sčítač o konkrétní, intuitivní kontext sil působících podél jedné přímky.",
+  "url": "https://phet.colorado.edu/cs/simulations/forces-and-motion-basics"
+}

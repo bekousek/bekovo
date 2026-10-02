@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-08-24",
+  "lastPicked": "2026-09-29",
   "history": [
     {
       "date": "2026-05-08",
@@ -470,6 +470,12 @@
       "subtopic": "tepelne-motory--parni-stroj",
       "result": "pr-pending",
       "items": 10
+    },
+    {
+      "date": "2026-09-29",
+      "subtopic": "sila--skladani-sil",
+      "result": "pr-pending",
+      "items": 6
     }
   ],
   "skipUntil": {},
