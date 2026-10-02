@@ -75,7 +75,12 @@
     "2026-08-19-optika--faze-mesice-zatmeni",
     "2026-08-20-plyny-7--atmosfera",
     "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek",
-    "2026-09-21-kapaliny-7--hydrostaticky-tlak"
+    "2026-09-21-kapaliny-7--hydrostaticky-tlak",
+    "2026-09-28-pohyb--grafy",
+    "2026-09-29-sila--skladani-sil",
+    "2026-09-30-skupenstvi-latek--skupenske-teplo",
+    "2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+    "2026-10-02-vlastnosti-latek--latky-a-telesa"
   ],
   "history": [
     {
@@ -761,6 +766,56 @@
       "processedAt": "2026-09-24T16:30:55.454Z",
       "driveFileId": "",
       "note": "manifest doruceny mailem (result: pr-pending, PR routina nezalozila); obsah porovnan proti vetvi claude/dreamy-pascal-k08t77 — 16/17 souboru byte-identickych, 17. se lisi jen pomlckou (em-dash vs en-dash); PR #125 zalozena a zmergovana rucne 2026-09-24"
+    },
+    {
+      "manifestId": "2026-09-28-pohyb--grafy",
+      "subtopic": "pohyb--grafy",
+      "branch": "routine/nightly-2026-09-28-pohyb--grafy",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/166",
+      "merged": false,
+      "processedAt": "2026-10-02T12:29:11.112Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-09-29-sila--skladani-sil",
+      "subtopic": "sila--skladani-sil",
+      "branch": "routine/nightly-2026-09-29-sila--skladani-sil",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/167",
+      "merged": false,
+      "processedAt": "2026-10-02T12:29:11.112Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-09-30-skupenstvi-latek--skupenske-teplo",
+      "subtopic": "skupenstvi-latek--skupenske-teplo",
+      "branch": "routine/nightly-2026-09-30-skupenstvi-latek--skupenske-teplo",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/168",
+      "merged": false,
+      "processedAt": "2026-10-02T12:29:11.112Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+      "subtopic": "tepelne-motory--proudovy-raketovy-motor",
+      "branch": "routine/nightly-2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/169",
+      "merged": false,
+      "processedAt": "2026-10-02T12:29:11.112Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-02-vlastnosti-latek--latky-a-telesa",
+      "subtopic": "vlastnosti-latek--latky-a-telesa",
+      "branch": "routine/nightly-2026-10-02-vlastnosti-latek--latky-a-telesa",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/170",
+      "merged": false,
+      "processedAt": "2026-10-02T12:29:11.112Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
     }
   ]
 }
