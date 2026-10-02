@@ -22,6 +22,13 @@ nenahrávají — postup se převypráví vlastními slovy a do `source` jde č�
 a strana; pracovní listy jen tehdy, když jsou volně ke stažení jinde
 (DigiKoalice, AI dětem, CodeWeek).
 
+**Jen technika, kterou škola má: micro:bity, VEX, iPady, počítače, 3D tiskárna
+a VR brýle z kartonu.** Aktivity, které potřebují jiné roboty nebo robotické
+stavebnice (mBot, Ozobot, Cutebot, LEGO Spike/EV3, Arduino…), Minecraft
+Education nebo přídavné součástky k micro:bitu (LED pásky, Grove, diody,
+bzučáky, serva), na web nepatří. Obyčejné kostky Lego bez elektroniky
+a online hry a emulátory, které robota nepotřebují, jsou v pořádku. Materiály v němčině se nepřidávají.
+
 - `/informatika/<oblast>/<položka>` — detail; vzniká **jen** u položek, které
   mají `goal`, `procedure`, `materials`, `files` nebo `notes`. Ostatní karty
   vedou rovnou na `url`.
