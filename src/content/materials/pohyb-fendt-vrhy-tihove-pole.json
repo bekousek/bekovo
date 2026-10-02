@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-fendt-vrhy-tihove-pole",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Vrh vodorovný a šikmý vrh – pohyb v tíhovém poli (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta simuluje vodorovný vrh, šikmý vrh i volný pád v tíhovém poli Země. Žáci nastavují počáteční výšku, rychlost a úhel vrhu a sledují trajektorii v reálném čase; vektory složek rychlosti jsou zobrazeny barevně. Applet usnadňuje pochopení skládání rovnoměrného vodorovného pohybu s rovnoměrně zrychleným svislým pohybem. Vše v češtině.",
+  "url": "https://www.walter-fendt.de/html5/phcz/projectile_cz.htm"
+}
