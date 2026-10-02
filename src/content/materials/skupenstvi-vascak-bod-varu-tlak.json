@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-vascak-bod-varu-tlak",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Vaščák: Bod varu a atmosférický tlak (animace)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Fyzika ve škole (RNDr. Vladimír Vaščák) znázorňující závislost teploty varu kapaliny na atmosférickém tlaku – např. proč se voda vaří při nižší teplotě ve vyšší nadmořské výšce. Animace je česky a spustitelná přímo v prohlížeči bez instalace, dobře doplňuje výklad o skupenském teplu varu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_teplota_varu&l=cz"
+}

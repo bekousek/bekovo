@@ -1,0 +1,18 @@
+{
+  "id": "skupenstvi-kondenzace-vodnich-par",
+  "subtopicId": "skupenske-teplo",
+  "topicId": "skupenstvi-latek",
+  "title": "Kondenzace vodních par",
+  "type": "qualitative",
+  "description": "Demonstrační pokus, který doplňuje již zařazené pokusy o odpařování jako jejich opačný protějšek: ukazuje, že při kondenzaci vodní páry se uvolňuje skupenské teplo kondenzace, stejně velké jako skupenské teplo vypařování téže kapaliny. Kelímek s vodou o teplotě mírně nižší než okolí se překryje listem papíru, na kterém páry z hladiny kondenzují – termovizní kamera zachytí nepatrné, ale zřetelné zahřátí papíru (přibližně o 1 °C) v místě kondenzace. Pokus vyžaduje termovizní kameru, efekt je kvůli malé teplotní změně bez ní obtížně postřehnutelný.",
+  "materials": [
+    "termovizní kamera",
+    "kelímek s vodou (o teplotě o cca 2 °C nižší než okolí, např. studená voda z kohoutku)",
+    "list papíru"
+  ],
+  "procedure": "Naplňte kelímek vodou o teplotě o pár stupňů nižší, než je teplota okolí. Překryjte horní okraj kelímku listem papíru tak, aby se dotýkal hladiny. Termovizní kamerou sledujte teplotu papíru nad hladinou vody – díky kondenzaci vodních par zde teplota krátkodobě vzroste přibližně o 1 °C, než se opět ustaví rovnováha s okolím.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1624/kondenzace-vodnich-par"
+  }
+}
