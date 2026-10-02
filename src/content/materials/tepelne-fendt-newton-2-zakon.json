@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-fendt-newton-2-zakon",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "2. Newtonův zákon – měření na vzduchové dráze (Walter Fendt)",
+  "type": "applet",
+  "description": "Česká HTML5 simulace vzduchové/válečkové dráhy umožňuje měnit hmotnost vozíku a tažnou sílu závaží a sledovat výsledné zrychlení – přímou ilustraci vztahu F = m·a, který stojí za tím, proč motor s větším tahem urychlí raketu nebo letadlo rychleji. Žák si naměřené hodnoty zapíše a proloží křivkou.",
+  "url": "https://www.walter-fendt.de/html5/phcz/newtonlaw2_cz.htm"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-phet-sily-pohyb-zaklady",
+  "subtopicId": "proudovy-raketovy-motor",
+  "topicId": "tepelne-motory",
+  "title": "Síly a pohyb: základy (PhET, česky)",
+  "type": "applet",
+  "description": "Česká HTML5 simulace PhET ukazuje vztah mezi silou, třením, hmotností a zrychlením – žák táhne objekt a sleduje, jak velikost tahové síly motoru ovlivňuje zrychlení tělesa. Jde o základní mechaniku, na které stojí vysvětlení, proč silnější tah proudového nebo raketového motoru znamená vyšší zrychlení.",
+  "url": "https://phet.colorado.edu/cs/simulations/forces-and-motion-basics"
+}
