@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-phet-magnet-kompas",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Magnet a kompas",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace PhET zobrazující magnetické pole a póly magnetu a jejich vliv na střelku kompasu. Vhodná jednoduchá vizualizace magnetičnosti látek.",
+  "url": "https://phet.colorado.edu/cs/simulations/magnet-and-compass"
+}

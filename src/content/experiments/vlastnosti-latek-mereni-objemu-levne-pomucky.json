@@ -1,0 +1,23 @@
+{
+  "id": "vlastnosti-latek-mereni-objemu-levne-pomucky",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Měření objemu těles levnými pomůckami",
+  "type": "measurement",
+  "description": "Žákovský pokus (provádí žáci): řada měření objemu jako příprava na pozdější počítání hustoty. Žáci pomocí injekčních stříkaček a vytěsňování vody měří objem skleněné kuličky a fazole, skupinově odhadují objem vydechnutého vzduchu a samostatně navrhují vlastní postup, jak změřit objem jedné kapky vody.",
+  "materials": [
+    "dva druhy injekčních stříkaček",
+    "kelímky od jogurtu nebo jiné malé nádoby",
+    "skleněné kuličky",
+    "fazole",
+    "trubičky",
+    "5l nádoba na vodu",
+    "odměrky",
+    "velký lavor"
+  ],
+  "procedure": "1. Vytěsňovací metoda: ponoření kuličky nebo fazole do stříkačky s vodou a odečtení rozdílu objemu. 2. Skupinové měření objemu vydechnutého vzduchu. 3. Žáci samostatně navrhují postup, jak změřit objem jedné kapky vody.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/objem-nekolik-mereni-a-aktivit-s-levnymi-pomuckami/"
+  }
+}

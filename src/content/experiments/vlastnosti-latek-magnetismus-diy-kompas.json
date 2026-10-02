@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-latek-magnetismus-diy-kompas",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Magnetismus – test feromagnetických látek a DIY kompas",
+  "type": "qualitative",
+  "description": "Žákovský pokus (provádí žáci): žáci nejprve formulují hypotézu, které kovové předměty magnet přitáhne, a ověřují ji testováním – zjišťují, že magnet nepřitahuje všechny kovy, jen feromagnetické látky (železo, kobalt, nikl). Následně si vyrobí vlastní kompas: zmagnetizují ocelovou jehlu opakovaným tahem magnetu jedním směrem, umístí ji na plovák z polystyrenu na vodní hladinu a určí světové strany. Doplňkově zkoumají chování neodymového magnetu s cereáliemi obohacenými o železo a se zápalkami na vodní hladině.",
+  "materials": [
+    "magnet (ideálně i neodymový)",
+    "ocelová jehla nebo špendlík",
+    "kousek polystyrenu",
+    "miska s vodou",
+    "různé kovové předměty k testování",
+    "cereálie s obsahem železa, zápalky"
+  ],
+  "procedure": "1. Žáci hypotézují, které předměty magnet přitáhne, a test ověří. 2. Diskuse o feromagnetických látkách (železo, kobalt, nikl). 3. Zmagnetizování jehly tahem magnetu stále stejným směrem, umístění na polystyrenový plovák do vody, určení severu a jihu. 4. Pozorování interakce neodymového magnetu s cereáliemi a zápalkami na vodní hladině.",
+  "source": {
+    "label": "Fyzikum.cz",
+    "url": "https://fyzikum.cz/magnetismus-diy-kompas-a-jine-jednoduche-aktivity/"
+  }
+}
