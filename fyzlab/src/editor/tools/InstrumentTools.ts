@@ -14,9 +14,14 @@ export class PhotogateTool extends TapTool {
   protected onTap(p: Vec2): void {
     const ctx = this.ctx;
     const at = ctx.snap.point(p);
+    // Čitelný výchozí název „Fotobrána N" místo interního id (i1, i2…).
+    const gateCount = ctx.store.doc.entities.filter(
+      (e) => e.kind === 'instrument' && e.type === 'photogate',
+    ).length;
     const gate: Instrument = {
       kind: 'instrument',
       id: newEntityId(ctx.store.doc, 'i'),
+      name: `Fotobrána ${gateCount + 1}`,
       type: 'photogate',
       transform: { x: at.x, y: at.y, angle: 0 },
       gate: { halfLength: 0.5 },
