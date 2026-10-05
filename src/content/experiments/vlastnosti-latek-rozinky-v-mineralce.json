@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-rozinky-v-mineralce",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Rozinky v minerálce",
+  "type": "qualitative",
+  "description": "Žákovský pokus (provádí žáci): do sklenice s perlivou minerálkou nasypou rozinky. Ty se nejprve potopí na dno, poté se na jejich povrchu začnou zachytávat bublinky oxidu uhličitého, které snižují jejich průměrnou hustotu, takže rozinky stoupají k hladině. Tam bublinky odpadnou a rozinky znovu klesají – děj se opakovaně vrací.",
+  "materials": [
+    "rozinky",
+    "perlivá minerálka",
+    "sklenice"
+  ],
+  "procedure": "1. Do sklenice nalijeme perlivou minerálku. 2. Nasypeme pár rozinek a pozorujeme. 3. Žáci sami vysvětlují, proč rozinky klesají a stoupají (bublinky CO₂ mění jejich průměrnou hustotu).",
+  "source": {
+    "label": "2. ZŠ Sokolov – Jednoduché pokusy",
+    "url": "https://2zs.sokolov.cz/Download/Fyzika/Fyzika.pdf"
+  }
+}

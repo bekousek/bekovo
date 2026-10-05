@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-latek-vodivost-slane-vody",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Vodivost slané vody",
+  "type": "qualitative",
+  "description": "Žákovský pokus (provádí žáci): jednoduchý elektrický obvod s plochou baterií a žárovkou 2,5 V, kde se vodiče ponoří do sklenice s vodou, aniž by se vzájemně dotýkaly. V čisté vodě žárovka nesvítí. Po přidání kuchyňské soli a rozmíchání se voda stane vodivou a žárovka se rozsvítí – žáci tak zjišťují, že elektrická vodivost látky závisí na jejím složení.",
+  "materials": [
+    "sklenice s vodou",
+    "kuchyňská sůl",
+    "dva vodiče",
+    "plochá baterie",
+    "žárovka 2,5 V",
+    "plastová lžička"
+  ],
+  "procedure": "1. Sestavíme obvod se zdrojem napětí, žárovkou a sklenicí s vodou; vodiče ponoříme do vody, aniž by se dotýkaly. 2. Žárovka zpočátku nesvítí. 3. Přidáme 3–4 lžičky kuchyňské soli a zamícháme – žárovka se rozsvítí. 4. Vysvětlíme, že čistá voda vede proud špatně, ale rozpuštěná sůl obsahuje nabité ionty, které vedení proudu umožní.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus17.htm"
+  }
+}

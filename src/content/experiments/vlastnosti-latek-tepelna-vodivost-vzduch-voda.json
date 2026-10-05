@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-tepelna-vodivost-vzduch-voda",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Tepelná vodivost vody a vzduchu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): zkumavka navlečená na prst se naplní vodou, nebo se nechá prázdná (se vzduchem), a horní konec se opatrně zahřívá nad plamenem svíčky. Horní část obsahu se zahřívá, ale dole u prstu zůstává teplota nízká. Žáci tak na vlastní kůži pozorují, že kapaliny a plyny vedou teplo mnohem hůře než pevné látky (kovy).",
+  "materials": [
+    "zkumavka",
+    "voda",
+    "svíčka nebo jiný bezpečný zdroj tepla"
+  ],
+  "procedure": "1. Prázdnou zkumavku navlékneme na prst a horní konec podržíme nad plamenem svíčky – dole u prstu teplota citelně nestoupá. 2. Totéž zopakujeme se zkumavkou naplněnou vodou – opět se ohřívá jen horní část, dolní zůstává chladná. 3. S žáky diskutujeme, proč kapaliny a plyny vedou teplo špatně na rozdíl od kovů.",
+  "source": {
+    "label": "2. ZŠ Sokolov – Jednoduché pokusy",
+    "url": "https://2zs.sokolov.cz/Download/Fyzika/Fyzika.pdf"
+  }
+}

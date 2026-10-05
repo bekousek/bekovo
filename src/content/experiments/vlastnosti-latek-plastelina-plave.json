@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-plastelina-plave",
+  "subtopicId": "latky-a-telesa",
+  "topicId": "vlastnosti-latek",
+  "title": "Jak udělat, aby plastelína plavala",
+  "type": "qualitative",
+  "description": "Žákovský pokus (provádí žáci): váleček z plastelíny vložený do vody se potopí, protože má vyšší hustotu než voda. Po přetvarování do dutého tvaru (např. miska nebo loďka), který uvnitř uzavírá vzduch, stejná plastelína na hladině plave. Žáci tak sami objevují, že i hustší materiál než voda může plavat, pokud je vhodně tvarován.",
+  "materials": [
+    "miska s vodou",
+    "plastelína"
+  ],
+  "procedure": "1. Váleček z plastelíny položíme na hladinu vody – potopí se. 2. Vyjmeme jej a přetvarujeme do dutého tvaru (loďka, miska) tak, aby uvnitř zůstal vzduch. 3. Znovu položíme na hladinu – nyní plave. 4. S žáky diskutujeme, proč (průměrná hustota tělesa plastelína + vzduch je nižší než hustota vody) a jaké je to využití v praxi (lodě, ponorky).",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus3.htm"
+  }
+}
