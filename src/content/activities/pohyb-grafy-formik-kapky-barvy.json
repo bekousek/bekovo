@@ -1,0 +1,12 @@
+{
+  "id": "pohyb-grafy-formik-kapky-barvy",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Formík a kapky barvy – od pohybu ke grafu dráhy na čase",
+  "type": "method",
+  "description": "Žákovská aktivita s pracovním listem: žáci si představí auto, které v pravidelných časových intervalech kape barvu na silnici, a kreslí, jak by kapky vypadaly při klidu, rovnoměrném a zrychleném pohybu. Poté přiřazují „pokapané“ silnice ke krátkým příběhům (policejní honička, čekání na semaforu) a nakonec překreslují všechny pohyby do grafu závislosti dráhy na čase – propojují přírůstek dráhy za stejný čas s tvarem křivky (vodorovná čára, přímka, rostoucí či klesající strmost).",
+  "source": {
+    "label": "KDF MFF UK – Úlohy na grafy (M. Kekule)",
+    "url": "http://kdf.mff.cuni.cz/~kekule/grafy/pdf/R-1.pdf"
+  }
+}
