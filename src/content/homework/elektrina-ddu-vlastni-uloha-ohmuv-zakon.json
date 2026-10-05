@@ -1,0 +1,10 @@
+{
+  "id": "elektrina-ddu-vlastni-uloha-ohmuv-zakon",
+  "subtopicId": "elektricky-odpor",
+  "topicId": "elektrina",
+  "title": "Vymysli vlastní úlohu na Ohmův zákon",
+  "description": "Některé příklady na Ohmův zákon se vyřeší jen dosazením do vzorce. U jiných je potřeba ještě nějaký další výpočet, trik nebo úvaha.\n\nTvým úkolem je vymyslet právě takovou úlohu na Ohmův zákon, kde kromě dosazení do vzorce bude potřeba ještě další úvaha. Kromě zadání odevzdej i vzorové řešení.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

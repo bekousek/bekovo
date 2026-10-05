@@ -105,6 +105,11 @@ const homework = defineCollection({
     title: z.string(),
     description: z.string(),
     driveFileUrl: z.string().url().optional(),
+    // Doplňkové odkazy k zadání (inspirační video, návod, hádanka…).
+    links: z.array(z.object({
+      label: z.string(),
+      url: z.string().url(),
+    })).optional(),
     source: sourceSchema,
   }),
 });

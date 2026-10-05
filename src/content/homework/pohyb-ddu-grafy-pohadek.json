@@ -1,0 +1,16 @@
+{
+  "id": "pohyb-ddu-grafy-pohadek",
+  "subtopicId": "grafy",
+  "topicId": "pohyb",
+  "title": "Grafy pohybu pohádkových postav",
+  "description": "Pohyb postav z příběhu se dá zjednodušeně zakreslit do grafu. Podívej se na hádanku s grafy pohádek v odkazu a zkus uhodnout, o které pohádky jde.\n\nTvým úkolem je vytvořit podobné grafy pro 2 jiné pohádky (nebo filmy, seriály, knížky…). Každý graf musí mít alespoň 3 postavy.\n\nGrafy můžeš kreslit ručně, nebo je vytvořit digitálně (např. v Canvě). Pak je můžeš dát hádat spolužákům.",
+  "links": [
+    {
+      "label": "Hádanka: grafy pohádek (Cryptomania)",
+      "url": "https://www.cryptomania.cz/pohadky/"
+    }
+  ],
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

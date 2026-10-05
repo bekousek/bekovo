@@ -1,0 +1,16 @@
+{
+  "id": "elektrina-ddu-homopolarni-motor",
+  "subtopicId": "elektromotor",
+  "topicId": "elektrina",
+  "title": "Vyrob nejjednodušší elektromotor",
+  "description": "Nejjednodušší elektromotor (tzv. homopolární motor) se dá vyrobit jen z baterie, magnetu a kousku drátu. Tvým úkolem je takový motor vyrobit a natočit video, jak funguje. Inspirovat se můžeš videem v odkazu.\n\nPár tipů pro funkční motor:\n– Obrus drátek v místech, kde se dotýká baterie a magnetu, aby bylo vodivé spojení co nejlepší.\n– Nejlépe funguje čerstvá, nabitá baterie.\n– Magnety musí být neodymové (stříbrné). Feritové magnety (černé) fungovat nebudou, protože nevedou proud.\n\nPozor: Drát baterii zkratuje, takže se drát i baterie rychle zahřívají. Obvod nenechávej zapojený déle než pár sekund a po pokusu drát od baterie odpoj.",
+  "links": [
+    {
+      "label": "Video: DIY Button Battery Homopolar Motor (4 min)",
+      "url": "https://www.youtube.com/watch?v=p29gy0OBaY8"
+    }
+  ],
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

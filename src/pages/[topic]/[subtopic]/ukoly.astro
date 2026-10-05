@@ -41,7 +41,18 @@ const { topic, subtopic, homeworkItems } = Astro.props;
                 <h3 class="font-semibold text-gray-900">{hw.title}</h3>
                 {hw.source && <SourceBadge source={hw.source} />}
               </div>
-              <p class="text-sm text-gray-600 mt-1">{hw.description}</p>
+              <p class="text-sm text-gray-600 mt-1 whitespace-pre-line">{hw.description}</p>
+              {hw.links && hw.links.length > 0 && (
+                <ul class="mt-2 space-y-1">
+                  {hw.links.map((link) => (
+                    <li>
+                      <a href={link.url} target="_blank" rel="noopener noreferrer" class="text-sm text-primary-600 hover:text-primary-700">
+                        {link.label} ↗
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
               {hw.driveFileUrl && (
                 <a href={hw.driveFileUrl} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 mt-2 text-sm text-primary-600 hover:text-primary-700">
                   {fileLinkLabel(hw.driveFileUrl)}
