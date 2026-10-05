@@ -1,7 +1,7 @@
 {
-  "id": "mechanika-ddu-cena-provozu-spotrebice",
-  "subtopicId": "vykon",
-  "topicId": "mechanika",
+  "id": "elektrina-ddu-cena-provozu-spotrebice",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
   "title": "Kolik stojí provoz spotřebiče?",
   "description": "Každý elektrický spotřebič má na štítku uvedený výkon (příkon) ve wattech. Z výkonu a doby, po kterou spotřebič běží, se dá spočítat spotřebovaná energie v kWh – a z ní i to, kolik za provoz zaplatíme.\n\nTvým úkolem je:\n1. Podívat se na vyúčtování za elektřinu u vás doma a zjistit, kolik korun stojí 1 kWh.\n2. Vybrat si jeden libovolný spotřebič a z jeho štítku zjistit, jaký má výkon.\n3. Odhadnout, jak dlouho spotřebič za den běží, a spočítat, kolik korun stojí jeho měsíční provoz.",
   "source": {
