@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-geogebra-vektor-rychlosti",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Vektor okamžité rychlosti při různých pohybech (GeoGebra)",
+  "type": "applet",
+  "description": "GeoGebra applet demonstruje, jak se mění směr a velikost vektoru okamžité rychlosti při různých druzích pohybu. Vizuálně propojuje kinematiku s vektorovým znázorněním a pomáhá žákům pochopit rozdíl mezi skalárem (rychlost) a vektorem (rychlost s směrem). Vhodné jako doplněk k výkladu přímočarého a kruhového pohybu.",
+  "url": "https://www.geogebra.org/m/rmrp2ayh"
+}

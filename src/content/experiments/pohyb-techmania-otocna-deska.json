@@ -1,0 +1,16 @@
+{
+  "id": "pohyb-techmania-otocna-deska",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Otočná deska – kruhový pohyb a setrvačné jevy (Techmania)",
+  "type": "qualitative",
+  "description": "Žákovský pokus při exkurzi do Techmania Science Center v Plzni. Interaktivní exponát Edutoria: žáci se mohou otáčet na otočné desce a přímo zažít kruhový pohyb a setrvačné jevy při rotaci. Změnou polohy těla (přitažením nebo rozpaženáím rukou) žáci pozorují změnu úhlové rychlosti, čímž intuitivně pochopí zachování momentu hybnosti. Exponát propojuje kruhový pohyb s každodenní zkušeností a výrazně podporuje fyzikální intuici.",
+  "materials": [
+    "exkurze do Techmania Science Center Plzeň"
+  ],
+  "procedure": "Žák stojí nebo sedí na otočné desce, exponát je uveden do pomalé rotace. Žák zkouší měnit polohu těla – při přitažení rukou se otáčení urychlí, při rozpažení zpomalí. Učitel vede diskuzi o kruhovém pohybu, proč se mění rychlost otáčení a co je dostředivá síla.",
+  "source": {
+    "label": "Techmania Science Center – Edutorium",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/760/otocna-deska"
+  }
+}
