@@ -1,0 +1,20 @@
+{
+  "id": "sila-fyzsuplik-rozklad-sily-lano",
+  "subtopicId": "skladani-sil",
+  "topicId": "sila",
+  "title": "Rozklad síly na napnutém laně",
+  "type": "measurement",
+  "description": "Žákovský pokus: dva žáci drží napnuté lano (alespoň 4 m) za konce, do jeho středu učitel zavěsí závaží (např. PET láhev s vodou, cca 1 kg). Lano se prohne a už ho nelze narovnat – žáci na vlastní kůži zažijí, že tíhu závaží vyrovnávají dvě šikmé tahové síly v laně. Z naměřeného průhybu a délky lana lze určit úhel prohnutí a z něj velikost tahové síly v laně; výsledek lze ověřit siloměrem.",
+  "materials": [
+    "lano/provaz délky alespoň 4 m (ideálně s poutky na koncích)",
+    "tenký provázek stejné délky (na zvýraznění průhybu)",
+    "závaží ~1 kg (např. PET láhev s vodou a hákem ve víčku)",
+    "svinovací metr",
+    "siloměr (volitelně na ověření)"
+  ],
+  "procedure": "Dva žáci uchopí konce lana a napnou ho vodorovně. Učitel (nebo třetí žák) zavěsí závaží doprostřed lana – lano se viditelně prohne a už ho nejde dotáhnout do rovna, ať žáci táhnou jakkoli silně. Nad lano lze napnout druhý, nepovolující provázek, který zvýrazní velikost průhybu. Změří se vzdálenost žáků a průhyb lana, dopočítá se úhel prohnutí a z něj tahová síla v laně. Volitelně lze výpočet ověřit siloměrem zapojeným do lana.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/rozklad_sily_na_lane.pdf"
+  }
+}
