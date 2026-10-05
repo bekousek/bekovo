@@ -1,0 +1,10 @@
+{
+  "id": "pohyb-ddu-dopravni-znacky-m-s",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Dopravní značky v m/s",
+  "description": "Rychlost můžeme udávat v různých jednotkách. Na silnicích se používají kilometry za hodinu (km/h), ve fyzice je ale základní jednotkou metr za sekundu (m/s).\n\nTvým úkolem je najít alespoň 3 různé dopravní značky, které omezují rychlost (všechny jsou v km/h). Ke každé takové značce vyrob model nové značky, na které bude stejná rychlost v m/s.\n\nVyrobené značky přines do školy.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

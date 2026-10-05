@@ -1,0 +1,20 @@
+{
+  "id": "magnetismus-ddu-vyroba-kompasu",
+  "subtopicId": "magneticke-pole-zeme",
+  "topicId": "magnetismus",
+  "title": "Vyrob si kompas",
+  "description": "Střelka kompasu je malý magnet, který se natáčí podle magnetického pole Země. Takový kompas si můžeš vyrobit i doma.\n\nBudeš potřebovat mísu s vodou, jehlu nebo špendlík, kousek polystyrenu nebo korku a magnet. Jak postupovat, ti poradí návod nebo video v odkazech.\n\nVyrobený kompas natoč na video a zkontroluj, jestli opravdu ukazuje na sever (třeba porovnáním s kompasem v mobilu).",
+  "links": [
+    {
+      "label": "Návod: Jak vyrobit kompas",
+      "url": "https://militaryrange.com/zpravodaj/jak-vyrobit-kompas"
+    },
+    {
+      "label": "Video: výroba kompasu (ČT Déčko)",
+      "url": "https://decko.ceskatelevize.cz/video/i208204"
+    }
+  ],
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

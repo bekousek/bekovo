@@ -1,0 +1,10 @@
+{
+  "id": "mereni-ddu-spotreba-vody-vodomer",
+  "subtopicId": "objem",
+  "topicId": "mereni",
+  "title": "Kolik vody doma spotřebujete za den?",
+  "description": "Objem vody, kterou doma spotřebujete, měří vodoměr. Má ho každá domácnost a údaj na něm je v metrech krychlových (m³).\n\nÚkol má více kroků:\n1. Najdi doma vodoměr (obvykle bývá v šachtě v koupelně, na WC nebo ve sklepě – popros rodiče o pomoc).\n2. Opiš stav vodoměru (všechna čísla na něm).\n3. Přesně o den později opiš stav vodoměru znovu.\n4. Vypočítej, o kolik m³ se číslo zvětšilo – tolik vody jste za den spotřebovali. Výsledek převeď z m³ na litry (1 m³ = 1 000 l, tedy násobíš tisícem).\n\nOpsané hodnoty i spotřebu v litrech si zapiš a odevzdej.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

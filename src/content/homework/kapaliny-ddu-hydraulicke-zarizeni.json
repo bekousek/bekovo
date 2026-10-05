@@ -1,0 +1,20 @@
+{
+  "id": "kapaliny-ddu-hydraulicke-zarizeni",
+  "subtopicId": "pascaluv-zakon",
+  "topicId": "kapaliny-7",
+  "title": "Hydraulické zařízení ze stříkaček",
+  "description": "Hydraulická zařízení fungují díky Pascalovu zákonu: když pístem stlačíme kapalinu v uzavřené nádobě, tlak se v ní šíří všemi směry stejně. Stlačením jednoho pístu tak můžeme pohnout jiným pístem na druhém konci hadičky.\n\nTvým úkolem je vyrobit takové zařízení ze stříkaček. Může to být zvedák, lis, výtah nebo třeba robotické rameno – musí se ale hýbat tím, že stlačíš píst.\n\nStříkačky se dají koupit v lékárně. Hotový výtvor přines do školy. Pro inspiraci se podívej na videa v odkazech.",
+  "links": [
+    {
+      "label": "Video: Hydraulická zařízení (1 min)",
+      "url": "https://www.youtube.com/watch?v=dqdrn1Ux5-Y"
+    },
+    {
+      "label": "Video: hydraulické rameno z kartonu (6 min, anglicky)",
+      "url": "https://www.youtube.com/watch?v=P2r9U4wkjcc"
+    }
+  ],
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

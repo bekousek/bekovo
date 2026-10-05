@@ -1,0 +1,10 @@
+{
+  "id": "elektricke-obvody-ddu-vypinace-na-chodbe",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Vypínače na chodbě",
+  "description": "Na dlouhých chodbách nebo schodištích je potřeba, aby se světlo dalo rozsvítit i zhasnout z obou konců.\n\nTvým úkolem je nakreslit schéma obvodu s jednou žárovkou, dvěma přepínači a jednou baterií, který takovou situaci řeší.\n\nNápověda: Žádnou jinou součástku než tyto čtyři nepotřebuješ. Je ale nutné použít přepínače (součástka se třemi vývody), obyčejný spínač nestačí.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "elektrina-ddu-spotreba-elektriny-domacnost",
+  "subtopicId": "silnoproud",
+  "topicId": "elektrina",
+  "title": "Kolik elektřiny doma spotřebujete za den?",
+  "description": "Za elektřinu platíme podle spotřebované elektrické energie v kilowatthodinách (kWh). Tvým úkolem je zjistit, kolik elektřiny spotřebujete doma za jeden den. Můžeš to udělat dvěma způsoby – a když zkusíš oba, můžeš výsledky porovnat.\n\nZpůsob 1: změřit\nNajdi doma elektroměr (většinou bývá na chodbě, ve sklepě nebo v pilíři u plotu – případně se zeptej rodičů). Opiš z něj hodnotu v kWh. Přesně o den později hodnotu opiš znovu a spočítej, o kolik se změnila. Pak spočítej, kolik vás ten den elektřina stála (počítej s cenou 5 Kč za 1 kWh).\n\nZpůsob 2: spočítat\nZjisti od rodičů, kolik jste za poslední rok zaplatili za elektřinu. Spočítej, kolik to průměrně vychází na jeden den. Při ceně 5 Kč za 1 kWh pak vypočítej, kolik kWh elektřiny v takový průměrný den spotřebujete.\n\nU každého způsobu si zapiš potřebné údaje i výpočet a odevzdej je.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "castice-latky-ddu-model-atomu",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Vyrob model atomu",
+  "description": "Atom se skládá z jádra, ve kterém jsou protony a neutrony, a z obalu, ve kterém jsou elektrony. Tvým úkolem je vyrobit model atomu libovolného prvku.\n\nPoužít můžeš jakýkoliv materiál, který máš k dispozici (karton, drátek, dřevo, modelínu, alobal, polystyren…). Podmínkou je, aby v modelu byl správný počet protonů, neutronů a elektronů – tak, aby byl atom stabilní a elektricky neutrální.\n\nNápověda: Počet protonů zjistíš z protonového čísla v periodické tabulce. Elektronů musí být stejně jako protonů, aby byl atom neutrální.",
+  "source": {
+    "label": "Vlastní zadání"
+  }
+}
