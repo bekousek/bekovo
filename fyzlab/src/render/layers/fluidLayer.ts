@@ -8,7 +8,14 @@
 import { Graphics } from 'pixi.js';
 import type { Fluid, SceneDoc } from '@engine/scene/schema';
 
-const ALPHA = 0.75;
+const ALPHA = 0.8;
+/**
+ * Vykreslovací poloměr = particleRadius × FILL. Částice se spawnují v mřížce
+ * s roztečí 2·particleRadius; kdyby se kreslily poloměrem r, jen by se dotýkaly
+ * a mezi nimi zůstaly kosočtvercové díry („objem z půlky prázdný"). Kreslení
+ * o něco větším poloměrem sousedy překryje → souvislá kapalina.
+ */
+const FILL = 1.35;
 
 export class FluidLayer {
   readonly g: Graphics;
@@ -43,7 +50,7 @@ export class FluidLayer {
       const def = this.defs.get(id);
       if (!def || xy.length < 2) continue;
       const color = parseInt(def.color.replace('#', ''), 16);
-      const r = def.particleRadius;
+      const r = def.particleRadius * FILL;
       for (let i = 0; i + 1 < xy.length; i += 2) {
         this.g.circle(xy[i]!, xy[i + 1]!, r).fill({ color, alpha: ALPHA });
       }

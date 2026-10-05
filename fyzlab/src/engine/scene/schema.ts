@@ -262,8 +262,8 @@ export const FluidSchema = z.object({
     width: z.number().positive(),
     height: z.number().positive(),
   }),
-  /** Poloměr interakce [m]; doporučeno 0.05–0.10. Menší = jemnější ale pomalejší. */
-  particleRadius: z.number().positive().default(0.06),
+  /** Poloměr interakce [m]; doporučeno 0.03–0.07. Menší = jemnější ale pomalejší. */
+  particleRadius: z.number().positive().default(0.04),
 });
 
 export const EntitySchema = z.discriminatedUnion('kind', [
