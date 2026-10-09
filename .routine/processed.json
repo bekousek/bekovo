@@ -75,7 +75,14 @@
     "2026-08-19-optika--faze-mesice-zatmeni",
     "2026-08-20-plyny-7--atmosfera",
     "2026-08-23-skupenstvi-latek--zmeny-skupenstvi-latek",
-    "2026-09-21-kapaliny-7--hydrostaticky-tlak"
+    "2026-09-21-kapaliny-7--hydrostaticky-tlak",
+    "2026-10-03-akustika--hudebni-nastroje",
+    "2026-10-04-astronomie--vznik-a-zanik-hvezd",
+    "2026-10-05-castice-latky--casticove-slozeni-latek",
+    "2026-10-06-elektricke-obvody--zkrat",
+    "2026-10-07-elektrina--elektromagneticke-vlneni",
+    "2026-10-08-elektrostatika--ionty",
+    "2026-10-09-energie--ucinnost"
   ],
   "history": [
     {
@@ -761,6 +768,69 @@
       "processedAt": "2026-09-24T16:30:55.454Z",
       "driveFileId": "",
       "note": "manifest doruceny mailem (result: pr-pending, PR routina nezalozila); obsah porovnan proti vetvi claude/dreamy-pascal-k08t77 — 16/17 souboru byte-identickych, 17. se lisi jen pomlckou (em-dash vs en-dash); PR #125 zalozena a zmergovana rucne 2026-09-24"
+    },
+    {
+      "manifestId": "2026-10-03-akustika--hudebni-nastroje",
+      "subtopic": "akustika--hudebni-nastroje",
+      "branch": "routine/nightly-2026-10-03-akustika--hudebni-nastroje",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/173",
+      "merged": true,
+      "processedAt": "2026-10-09T12:14:53.427Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-04-astronomie--vznik-a-zanik-hvezd",
+      "subtopic": "astronomie--vznik-a-zanik-hvezd",
+      "branch": "routine/nightly-2026-10-04-astronomie--vznik-a-zanik-hvezd",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/174",
+      "merged": true,
+      "processedAt": "2026-10-09T12:15:15.803Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-05-castice-latky--casticove-slozeni-latek",
+      "subtopic": "castice-latky--casticove-slozeni-latek",
+      "branch": "routine/nightly-2026-10-05-castice-latky--casticove-slozeni-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/175",
+      "merged": true,
+      "processedAt": "2026-10-09T12:15:39.080Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-06-elektricke-obvody--zkrat",
+      "subtopic": "elektricke-obvody--zkrat",
+      "branch": "routine/nightly-2026-10-06-elektricke-obvody--zkrat",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/176",
+      "merged": true,
+      "processedAt": "2026-10-09T12:16:03.530Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-07-elektrina--elektromagneticke-vlneni",
+      "subtopic": "elektrina--elektromagneticke-vlneni",
+      "branch": "routine/nightly-2026-10-07-elektrina--elektromagneticke-vlneni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/177",
+      "merged": true,
+      "processedAt": "2026-10-09T12:16:26.192Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-08-elektrostatika--ionty",
+      "subtopic": "elektrostatika--ionty",
+      "branch": "routine/nightly-2026-10-08-elektrostatika--ionty",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/178",
+      "merged": true,
+      "processedAt": "2026-10-09T12:16:48.854Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-09-energie--ucinnost",
+      "subtopic": "energie--ucinnost",
+      "branch": "routine/nightly-2026-10-09-energie--ucinnost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/179",
+      "merged": true,
+      "processedAt": "2026-10-09T12:17:12.954Z",
+      "driveFileId": ""
     }
   ]
 }
