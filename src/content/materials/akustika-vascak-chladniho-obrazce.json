@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-chladniho-obrazce",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Vaščák: Chladniho obrazce – interaktivní animace",
+  "type": "applet",
+  "description": "HTML5 animace z české sbírky Fyzika ve škole (Vaščák) ukazuje Chladniho obrazce — vzory vytvořené práškem na kmitající desce, které zviditelňují uzlové čáry vlastních kmitů při různých frekvencích. Hudebníci a výrobci nástrojů (např. housloví mistři) používají stejný princip k ladění desek nástroje.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=kv_chladni&l=cz"
+}

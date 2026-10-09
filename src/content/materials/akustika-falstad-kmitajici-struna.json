@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-kmitajici-struna",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Falstad: Kmitající struna (Loaded String)",
+  "type": "applet",
+  "description": "Interaktivní applet zobrazuje stojaté vlnění na struně upevněné na obou koncích. Žák strunu virtuálně \"rozezní\" (pluck) a vidí, jak se výsledný kmit skládá z jednotlivých harmonických (vyšších tónů) — stejný princip, podle kterého zní struna kytary nebo housličky.",
+  "url": "http://www.falstad.com/loadedstring/"
+}
