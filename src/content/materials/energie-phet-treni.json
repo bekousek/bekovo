@@ -1,0 +1,9 @@
+{
+  "id": "energie-phet-treni",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "PhET: Tření",
+  "type": "applet",
+  "description": "Interaktivní simulace zobrazující tření mezi dvěma povrchy na mikroskopické úrovni a vznik tepla jako důsledek tření. Pomáhá vysvětlit, proč je u reálných strojů účinnost vždy nižší než 100 % — část energie se mění na teplo.",
+  "url": "https://phet.colorado.edu/cs/simulations/friction"
+}

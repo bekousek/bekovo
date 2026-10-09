@@ -1,0 +1,9 @@
+{
+  "id": "energie-vascak-kladkostroj",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vaščák: Kladkostroj",
+  "type": "applet",
+  "description": "Animace kladkostroje (soustavy pevných a volných kladek) ukazující vztah mezi silou a dráhou při zvedání břemene. Lze využít k diskuzi o tom, že ideální kladkostroj zachovává práci, zatímco reálný má ztráty třením v kladkách a hmotností kladek (účinnost < 100 %).",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_kladkostroj&l=cz"
+}

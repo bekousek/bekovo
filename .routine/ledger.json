@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-08",
+  "lastPicked": "2026-10-09",
   "history": [
     {
       "date": "2026-05-08",
@@ -506,6 +506,12 @@
       "subtopic": "elektrostatika--ionty",
       "result": "pr-pending",
       "items": 8
+    },
+    {
+      "date": "2026-10-09",
+      "subtopic": "energie--ucinnost",
+      "result": "pr-pending",
+      "items": 12
     }
   ],
   "skipUntil": {},
