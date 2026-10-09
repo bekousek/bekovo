@@ -1,0 +1,11 @@
+{
+  "id": "energie-ucinnost-elektrarny-badatelsky",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Badatelský úkol: Proč žádná elektrárna nemá 100% účinnost?",
+  "description": "Dlouhodobější badatelský úkol: žák si na webu Svět energie (ČEZ) vyhledá a porovná účinnost různých typů elektráren (např. paroplynová plynová elektrárna až 55 %, klasická kondenzační uhelná elektrárna nejvýše asi 45 %) a zapíše je do srovnávací tabulky. Na základě textu vlastními slovy vysvětlí, proč se část vstupní energie paliva vždy ztrácí jako odpadní teplo do okolí a proč kombinace plynové a parní turbíny ztráty snižuje. Výstupem je krátký písemný souhrn nebo plakát porovnávající alespoň dva typy elektráren.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/energetika-ctive/paroplynove-elektrarny"
+  }
+}

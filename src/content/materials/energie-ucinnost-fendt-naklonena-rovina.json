@@ -1,0 +1,9 @@
+{
+  "id": "energie-ucinnost-fendt-naklonena-rovina",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Walter Fendt: Síly na nakloněné rovině",
+  "type": "applet",
+  "description": "Interaktivní applet zobrazující síly při rovnoměrném pohybu tělesa po nakloněné rovině — lze nastavit úhel sklonu, hmotnost tělesa a součinitel tření. Ukazuje, jak tření zvyšuje potřebnou tažnou sílu a snižuje účinnost nakloněné roviny jako jednoduchého stroje.",
+  "url": "https://www.walter-fendt.de/html5/phcz/inclinedplane_cz.htm"
+}

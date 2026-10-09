@@ -1,0 +1,9 @@
+{
+  "id": "energie-vascak-treni",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vaščák: Tření",
+  "type": "applet",
+  "description": "Animace vzniku a působení třecí síly mezi dvěma povrchy. Pomáhá žákům pochopit jeden z hlavních důvodů, proč je účinnost reálných strojů a mechanismů nižší než 100 %.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_treni&l=cz"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "energie-ucinnost-odraz-kulicky",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Měření účinnosti odrazu pružné kuličky",
+  "description": "Dlouhodobější badatelský úkol: žák doma opakovaně pouští pružnou kuličku (např. pingpongový nebo tenisový míček) z výšky h₀ na alespoň tři různé povrchy (stůl, dlažba, povrch zakrytý látkou/papírem) a měří výšky po jednotlivých odrazech. Z poměru výšek, který je úměrný poměru polohových energií, spočítá účinnost odrazu η = h₁/h₀ pro každý povrch, zapíše naměřené hodnoty do tabulky s výpočty a vynese do grafu. Úkol ukazuje, že při každém odrazu se část energie ztrácí (přemění na tepelnou energii kuličky a podložky), takže η je vždy menší než 100 %.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/skola-doma/"
+  }
+}

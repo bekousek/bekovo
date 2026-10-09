@@ -1,0 +1,19 @@
+{
+  "id": "energie-vrtacka-generator",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vrtačka jako generátor — vzájemná přeměna elektrické a mechanické energie",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus (předvádí učitel): elektromotor vrtačky se po odpojení napájení otáčením zvenčí chová jako generátor a vyrábí elektřinu, což se ukáže na připojené LED diodě nebo voltmetru. Žáci vidí, že motor a generátor jsou principiálně stejné zařízení fungující obráceně, a diskutují, proč se část vložené mechanické práce přemění na teplo v ložiskách a vinutí místo na elektřinu — tedy proč je účinnost takové přeměny menší než 100 %.",
+  "materials": [
+    "ruční vrtačka (nebo jiný malý stejnosměrný elektromotor)",
+    "LED dioda nebo malá žárovka",
+    "voltmetr nebo multimetr",
+    "vodiče"
+  ],
+  "procedure": "Učitel otáčí sklíčidlem vypnuté vrtačky rukou nebo jiným motorkem a na vývody motoru připojí LED/voltmetr. Ukáže, že se rozsvítí/naměří napětí. Diskutuje s žáky, proč je takto vyrobený výkon menší než výkon vložený do otáčení, a kde se ztrácí (tření v ložiskách, odpor vinutí, hluk).",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/cs/videopokusy/umi-vrtacka-vyrobit-elektrinu"
+  }
+}

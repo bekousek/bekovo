@@ -1,0 +1,20 @@
+{
+  "id": "energie-vlastni-kladkostroj-ucinnost",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vlastní kladkostroj — měření účinnosti",
+  "type": "measurement",
+  "description": "ŽÁKOVSKÝ pokus: žáci ve skupinách sami sestaví kladkostroj (ze zápůjčních kladek, provázku a závaží) a siloměrem změří sílu potřebnou ke zvednutí závaží. Z poměru užitečné práce (zvednutí závaží) a práce vykonané (tažná síla × dráha konce lana) spočítají účinnost svého kladkostroje a porovnají ji s teoretickou hodnotou.",
+  "materials": [
+    "kladky (2–3 ks)",
+    "provázek nebo lano",
+    "siloměr",
+    "závaží",
+    "stojan nebo improvizovaná konstrukce"
+  ],
+  "procedure": "1) Skupina sestaví kladkostroj z dostupných kladek a provázku. 2) Siloměrem změří tíhu závaží a sílu potřebnou k jeho zvednutí přes kladkostroj. 3) Změří dráhu konce taženého lana a dráhu zvednutí závaží. 4) Spočítají užitečnou práci (W_už = mgh) a celkovou práci (W_celk = F·s) a jejich poměr — účinnost η. 5) Diskutují, proč η < 100 % (tření v kladkách, hmotnost kladky a lana).",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/kladkostroj.pdf"
+  }
+}
