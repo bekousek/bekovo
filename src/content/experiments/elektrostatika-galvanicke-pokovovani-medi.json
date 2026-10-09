@@ -1,0 +1,21 @@
+{
+  "id": "elektrostatika-galvanicke-pokovovani-medi",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Galvanické pokovování mědí — viditelný pohyb iontů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus prováděný výhradně učitelem (zředěná kyselina je pouze v rukou učitele, žáci jen pozorují): do okyseleného roztoku modré skalice (síranu měďnatého) jsou ponořeny měděný pásek (kladná elektroda) a hliníková lžíce (záporná elektroda) připojené ke zdroji napětí. Po připojení proudu se na lžíci během několika minut vyloučí viditelná vrstva červené mědi, zatímco měděný pásek se naopak obrušuje — efektní přímá demonstrace směrového pohybu kladných iontů mědi k záporné elektrodě.",
+  "materials": [
+    "modrá skalice (síran měďnatý)",
+    "zředěná kyselina sírová (k okyselení, pouze v rukou učitele, s ochrannými brýlemi)",
+    "měděný pásek",
+    "hliníková lžíce",
+    "kádinka s vodou",
+    "zdroj napětí a vodiče s krokosvorkami"
+  ],
+  "procedure": "Ve vodě rozpustíme skalici a mírně okyselíme. Měděný pásek připojíme ke kladnému pólu zdroje, hliníkovou lžíci k zápornému. Necháme proud procházet alespoň 2 minuty, poté lžíci vytáhneme — na jejím povrchu se vyloučila měď. Vysvětlíme: kladné ionty mědi se pohybují k záporné elektrodě a vylučují se na ní jako kovová měď.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/2016/elektrolyza.pdf"
+  }
+}

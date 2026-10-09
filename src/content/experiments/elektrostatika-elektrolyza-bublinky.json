@@ -1,0 +1,20 @@
+{
+  "id": "elektrostatika-elektrolyza-bublinky",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Elektrolýza slané vody — bublinky a vznik plynu",
+  "type": "qualitative",
+  "description": "Demonstrační i žákovská varianta pokusu: do kádinky s osolenou vodou vložíme dvě kovové elektrody (lžičky) připojené ke zdroji napětí. Po zapnutí proudu se na elektrodách bouřlivě tvoří bublinky plynu — žák vidí přímý důkaz toho, že průchodem proudu kapalinou probíhá chemická reakce způsobená pohybem iontů. Žákovskou verzi lze provést bezpečně s plochou 9V baterií a krokosvorkami, demonstrační s výkonnějším zdrojem pro výraznější efekt.",
+  "materials": [
+    "2 nerezové nebo hliníkové lžičky (elektrody)",
+    "kádinka nebo sklenice s vodou",
+    "kuchyňská sůl",
+    "zdroj napětí (žákovská verze: plochá baterie 4,5–9 V; demonstrační: regulovatelný zdroj)",
+    "vodiče s krokosvorkami"
+  ],
+  "procedure": "Vodu v nádobě osolíme, vložíme obě elektrody tak, aby se uvnitř nedotýkaly, připojíme ke zdroji. Po zapnutí proudu pozorujeme tvorbu bublinek na obou elektrodách — důkaz probíhající chemické reakce vyvolané pohybem iontů v roztoku.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/2016/elektrolyza.pdf"
+  }
+}
