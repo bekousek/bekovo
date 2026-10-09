@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-vascak-obvod",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Elektrický obvod — animace (Vaščák, česky)",
+  "type": "applet",
+  "description": "Česká animace základního elektrického obvodu (napětí, proud, odpor) ze stránek Vaščák — Fyzika ve škole. Slouží jako úvodní vizualizace vztahu mezi odporem a proudem před výkladem zkratu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=ele_obvod&l=cz"
+}

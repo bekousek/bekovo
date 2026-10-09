@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-phet-cck-virtual-lab",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Stavebnice obvodů: DC — virtuální laboratoř (PhET, česky)",
+  "type": "applet",
+  "description": "Rozšířená česká verze PhET stavebnice obvodů, kde mají vodiče reálnou rezistivitu. Žák může přímo vytvořit zkrat (spojit póly baterie vodičem s malým odporem) a sledovat, jak se vodič zahřívá a jak prudce roste proud — bezpečná virtuální demonstrace nebezpečí zkratu.",
+  "url": "https://phet.colorado.edu/cs/simulations/circuit-construction-kit-dc-virtual-lab"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-zkrat-phet-odpor-dratu",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Odpor drátu — PhET (česky)",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace PhET ukazuje, jak odpor vodiče závisí na jeho délce, průřezu a materiálu (rezistivitě). Pomáhá žákům pochopit, proč krátký nebo tlustý vodič s téměř nulovým odporem propustí velký proud — klíčové pro vysvětlení principu zkratu.",
+  "url": "https://phet.colorado.edu/cs/simulations/resistance-in-a-wire"
+}
