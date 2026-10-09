@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-zvuk",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "PhET: Zvuk",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace zobrazuje zvuk jako podélnou vlnu zhoustnutí a zředění vzduchu šířící se od zdroje. Žáci mění frekvenci a amplitudu zdroje a sledují, jak se to projeví na výšce a hlasitosti tónu — tedy na tom, co u hudebního nástroje vnímáme jako tón a sílu zvuku.",
+  "url": "https://phet.colorado.edu/cs/simulations/sound"
+}

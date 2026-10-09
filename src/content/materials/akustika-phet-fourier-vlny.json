@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-fourier-vlny",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "PhET: Fourier – dělejte vlny",
+  "type": "applet",
+  "description": "Česky lokalizovaná simulace ukazuje, jak sečtením několika harmonických (vyšších tónů) vzniká složitější tvar zvukové vlny. Na jednodušší úrovni (2–3 harmonické) žáci objeví, proč stejně vysoký tón zní na kytaře a na flétně jinak — barva tónu je dána poměrem a silou jednotlivých harmonických.",
+  "url": "https://phet.colorado.edu/cs/simulations/fourier-making-waves"
+}

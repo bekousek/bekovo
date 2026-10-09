@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-rezonance",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Vaščák: Rezonance – interaktivní animace",
+  "type": "applet",
+  "description": "HTML5 animace z české sbírky Fyzika ve škole (Vaščák) ukazuje, že těleso kmitá nejsilněji, je-li buzeno na své vlastní frekvenci. Vysvětluje, proč rezonanční skříň nebo tělo nástroje (kytara, housle) zesiluje jen určité tóny a proč je naladění nástroje citlivé na vlastní frekvenci jeho částí.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=kv_rezonance&l=cz"
+}

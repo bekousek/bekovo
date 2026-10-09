@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-stojate-vlneni",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Vaščák: Stojaté vlnění – interaktivní animace",
+  "type": "applet",
+  "description": "HTML5 animace z české sbírky Fyzika ve škole (Vaščák) zobrazuje vznik stojatého vlnění skládáním dvou protichůdných vln, s uzly a kmitnami. Přímo ukazuje princip, na kterém kmitají struny i vzduchové sloupce hudebních nástrojů a vzniká základní tón a jeho harmonické.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=kv_vlnostojate&l=cz"
+}
