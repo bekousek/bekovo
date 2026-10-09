@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-phet-radiove-vlny",
+  "subtopicId": "elektromagneticke-vlneni",
+  "topicId": "elektrina",
+  "title": "PhET: Rádiové vlny a elektromagnetická pole",
+  "type": "applet",
+  "description": "Interaktivní simulace ukazuje, jak kmitající elektron v anténě vysílače vytváří elektromagnetickou vlnu, která se šíří k přijímači. Lze zobrazit pole jako křivku nebo vektory a měnit frekvenci a amplitudu.",
+  "url": "https://phet.colorado.edu/cs/simulations/radio-waves"
+}

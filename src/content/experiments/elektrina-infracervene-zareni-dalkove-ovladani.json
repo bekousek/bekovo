@@ -1,0 +1,17 @@
+{
+  "id": "elektrina-infracervene-zareni-dalkove-ovladani",
+  "subtopicId": "elektromagneticke-vlneni",
+  "topicId": "elektrina",
+  "title": "Infračervené záření – zviditelnění paprsku dálkového ovládání",
+  "type": "qualitative",
+  "description": "Žákovský pokus (lze provést jednotlivě, ve dvojicích, nebo jako rychlou demonstraci): žáci namíří zapnuté dálkové ovládání (TV, klimatizace apod.) proti objektivu kamery telefonu a při zmáčknutí tlačítka uvidí na displeji blikající fialovobílé světlo – kamera zviditelní infračervené záření (vlnová délka cca 950 nm), které je pro lidské oko neviditelné. Pokus ukazuje, že infračervené záření je součástí elektromagnetického spektra sousedící s viditelným světlem a že se běžně využívá v domácích spotřebičích.",
+  "materials": [
+    "dálkové ovládání (TV, klimatizace apod.)",
+    "mobilní telefon s fotoaparátem nebo webkamera (bez IR filtru)"
+  ],
+  "procedure": "Zapneme kameru telefonu nebo webkameru a namíříme proti ní dálkové ovládání ze vzdálenosti několika centimetrů. Stiskneme libovolné tlačítko na dálkovém ovládání a sledujeme displej kamery – dioda dálkového ovládání začne blikat viditelným (bílofialovým) světlem, ačkoliv lidským okem bez kamery žádné záření nevidíme. Pokud dioda na displeji nebliká, je třeba zkontrolovat baterie ovládání, nebo kamera/telefon má vestavěný IR filtr (novější telefony), který experiment znemožňuje.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/cs/fyzika/optika/2105/infracervene-zareni---dalkove-ovladani"
+  }
+}
