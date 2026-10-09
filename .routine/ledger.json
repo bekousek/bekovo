@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-03",
+  "lastPicked": "2026-10-04",
   "history": [
     {
       "date": "2026-05-08",
@@ -476,6 +476,12 @@
       "subtopic": "akustika--hudebni-nastroje",
       "result": "pr-pending",
       "items": 6
+    },
+    {
+      "date": "2026-10-04",
+      "subtopic": "astronomie--vznik-a-zanik-hvezd",
+      "result": "pr-pending",
+      "items": 4
     }
   ],
   "skipUntil": {},
