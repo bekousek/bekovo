@@ -1,0 +1,19 @@
+{
+  "id": "elektrostatika-elektrolyza-brambora",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Elektrolýza mědi v bramboře",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojicích/skupinách s nízkým napětím (6 V), bezpečný. Do plátku syrové brambory se zapíchnou dva izolované měděné vodiče asi 2–3 cm od sebe a připojí se k 6V baterii. Šťáva v bramboře obsahuje ionty a funguje jako elektrolyt, proto roztokem může procházet proud. Po několika minutách se u vodiče spojeného s kladným pólem (anoda) objeví nazelenalé zbarvení (sloučeniny mědi) a u vodiče se záporným pólem (katoda) vznikají bublinky plynu (vodík) — žáci tak na vlastní oči uvidí, že vedení proudu kapalinou a chemické změny na elektrodách (elektrolýza) souvisí s pohybem iontů.",
+  "materials": [
+    "syrová brambora (rozpůlená na plátek)",
+    "2 izolované měděné vodiče (dráty)",
+    "baterie 6 V",
+    "nůž na rozřezání brambory"
+  ],
+  "procedure": "1. Bramboru rozřízni na plátek. 2. Do plátku zapíchni dva odizolované měděné vodiče asi 2–3 cm od sebe. 3. Konce vodičů připoj ke pólům 6V baterie. 4. Po několika minutách sleduj: u vodiče u kladného pólu (anoda) se objeví nazelenalé zbarvení (sloučeniny mědi), u vodiče u záporného pólu (katoda) vznikají bublinky plynu (vodík). 5. Vysvětli, že šťáva v bramboře obsahuje ionty, díky nimž kapalina vede proud, a že průchod proudu vyvolává chemické změny — elektrolýzu.",
+  "source": {
+    "label": "Techmania Digital",
+    "url": "https://digital.techmania.cz/experimentuj-elektrina/"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-cukr-a-sul",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Cukr a sůl — rozpouštění (PhET)",
+  "type": "applet",
+  "description": "Interaktivní simulace ukazuje, jak se iontové látky (sůl) a kovalentní látky (cukr) chovají při rozpouštění ve vodě — iontová látka se rozpadá na ionty, které umožňují vedení elektrického proudu, kovalentní látka nikoli. Simulace je v češtině a obsahuje i mikroskopický pohled na mřížku a vzniklé ionty.",
+  "url": "https://phet.colorado.edu/cs/simulations/sugar-and-salt-solutions"
+}

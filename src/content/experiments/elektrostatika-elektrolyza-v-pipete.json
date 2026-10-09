@@ -1,0 +1,24 @@
+{
+  "id": "elektrostatika-elektrolyza-v-pipete",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Elektrolýza v pipetě — žákovský pokus se slanou vodou",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve skupinkách pod dohledem učitele (kvůli manipulaci se zápalkou): slanou vodou naplněná plastová pipeta propíchnutá dvěma špendlíky (elektrodami) je připojena ke zdroji napětí. Vznikající plyn (vodík) odchází hadičkou do roztoku saponátu, kde tvoří bubliny, jež lze bezpečně zapálit zapálenou sirkou (nepatrné množství vodíku jen tiše „štěkne“). Žáci na vlastní oči uvidí, že průchodem proudu slanou vodou vznikají nové látky — přímý důkaz vedení proudu pomocí iontů (Na⁺ a Cl⁻) a jejich reakcí na elektrodách.",
+  "materials": [
+    "plastová jednorázová pipeta",
+    "2 špendlíky",
+    "kousek akvarijní hadičky",
+    "2 kolíčky na prádlo (jako stojánek)",
+    "sirky",
+    "slaná voda",
+    "kádinka s roztokem saponátu",
+    "zdroj napětí 9–12 V",
+    "2 vodiče s krokosvorkami"
+  ],
+  "procedure": "Pipetu naplníme slanou vodou a propíchneme dvěma špendlíky asi 1 cm od sebe (nesmí se dotýkat). Na pipetu nasadíme hadičku vedoucí pod hladinu saponátového roztoku, pipetu upevníme na stojánek z kolíčků. Připojíme zdroj ke špendlíkům — v pipetě vznikají bublinky plynu, který hadičkou putuje do saponátu a tvoří bubliny na hladině. Přiblížením zapálené sirky bubliny tiše „štěknou“ (hoří vodík). Po skončení si prohlédneme změnu barvy roztoku v pipetě a úbytek jednoho ze špendlíků — důkaz chemické reakce vyvolané pohybem iontů Na⁺ a Cl⁻.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/elektro/elektrolyza_v_pipete.pdf"
+  }
+}
