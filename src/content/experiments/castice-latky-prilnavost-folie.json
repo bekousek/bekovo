@@ -1,0 +1,24 @@
+{
+  "id": "castice-latky-prilnavost-folie",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Přilnavost předmětů na napnuté potravinářské fólii",
+  "type": "qualitative",
+  "description": "Žákovský pokus: na rám (např. pekáč) se napne potravinářská fólie a žáci na ni postupně kladou různé předměty — skleněný tácek, kovovou lžíci, nůžky, kovové pero, papírovou krabičku, dřevěnou tužku. Fólii s předmětem pak pomalu naklápějí až do svislé polohy a sledují, při jakém náklonu předmět spadne. Těžší hladké předměty (sklo, kov) drží na fólii mnohem déle než lehké hranaté (papírová krabička), protože se mezi fólií a předmětem vytlačí téměř všechen vzduch a uplatní se přilnavost (adheze) mezi povrchy — projev mezimolekulárních sil. Pro srovnání lze pokus zopakovat s běžným igelitovým sáčkem, který takto nedrží, což žákům ukáže, že jev souvisí s vlastnostmi konkrétního materiálu, ne s magnetismem.",
+  "materials": [
+    "potravinářská fólie",
+    "igelitový sáček (pro srovnání)",
+    "rám nebo pekáč na napnutí fólie",
+    "skleněný tácek",
+    "kovová lžíce",
+    "nůžky",
+    "kovové pero",
+    "papírová krabička",
+    "dřevěná tužka"
+  ],
+  "procedure": "Na rám nebo pekáč napněte potravinářskou fólii. Na fólii položte vodorovně jeden z předmětů a pomalu fólii i s předmětem naklápějte až do svislé polohy. Zaznamenejte, při jakém náklonu předmět odpadne. Zopakujte s dalšími předměty a porovnejte výsledky. Nakonec zkuste totéž s běžným igelitovým sáčkem místo potravinářské fólie a diskutujte, proč se chová jinak.",
+  "source": {
+    "label": "VNUF 1999",
+    "url": "http://vnuf.cz/sbornik/prispevky/04-10-Nevedelova.html"
+  }
+}
