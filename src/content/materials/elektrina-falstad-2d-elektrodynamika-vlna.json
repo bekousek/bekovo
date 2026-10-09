@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-falstad-2d-elektrodynamika-vlna",
+  "subtopicId": "elektromagneticke-vlneni",
+  "topicId": "elektrina",
+  "title": "Falstad: 2D elektrodynamika – šíření elektromagnetické vlny",
+  "type": "applet",
+  "description": "Pokročilý applet znázorňuje šíření elektromagnetické vlny ve 2D od zdroje (antény), včetně odrazu, stojatého vlnění, vlnovodů a difrakce, pomocí barevného zobrazení pole. Vhodné jen jako doplňkový/motivační materiál pro zvídavější žáky pod vedením učitele – rozhraní a popisky jsou pouze v angličtině a zobrazení je abstraktnější než u ostatních appletů.",
+  "url": "https://www.falstad.com/emwave1/"
+}
