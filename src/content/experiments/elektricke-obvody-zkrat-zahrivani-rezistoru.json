@@ -1,0 +1,18 @@
+{
+  "id": "elektricke-obvody-zkrat-zahrivani-rezistoru",
+  "subtopicId": "zkrat",
+  "topicId": "elektricke-obvody",
+  "title": "Zahřívání nízkoodporového rezistoru proudem — model funkce pojistky a jističe",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): malý rezistor s velmi nízkým odporem (řádu ohmů nebo desetin ohmu) se bez dalšího komentáře připojí k baterii. Po chvíli se rezistor začne silně zahřívat, z povrchu se kouří a nepříjemně páchne. Učitel se žáků zeptá, odkud tento jev znají (žárovka, varná konvice, elektrický vařič), a poté vysvětlí, že na stejném principu fungují pojistky a jističe: dojde-li ve vedení ke zkratu a proud výrazně vzroste, přepálí se drátek v pojistce nebo vypadne jistič, čímž se obvod včas odpojí.",
+  "materials": [
+    "malý rezistor s velmi nízkým odporem (řádu ohmů nebo desetin ohmu)",
+    "baterie",
+    "spojovací vodiče"
+  ],
+  "procedure": "1) Připojte nízkoodporový rezistor přímo k baterii bez dalšího odporu v obvodu. 2) Nechte obvod sepnutý jen krátce a sledujte, jak se rezistor rychle zahřívá, případně se z něj kouří a zapáchá. 3) Obvod rozpojte. 4) Zeptejte se žáků, odkud znají zahřívání vodiče proudem. 5) Vysvětlete souvislost se zkratem a principem pojistky (přepálení drátku) a jističe (vypnutí při nadproudu). Provádějte v dobře větrané místnosti.",
+  "source": {
+    "label": "KDF MFF UK – Heuréka, Elektrické obvody",
+    "url": "https://www.mff.cuni.cz/data/nodes/53171/Elektricke-obvody-2-cast.pdf"
+  }
+}
