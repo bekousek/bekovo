@@ -12,42 +12,53 @@ interface Props {
 
 type Layout = 1 | 2 | 4;
 
-// A4 portrait — milimetry pro layout, body (pt) pro výstup PDF (1 mm = 2.83465 pt).
+// Milimetry pro layout, body (pt) pro výstup PDF (1 mm = 2.83465 pt).
 const MM_TO_PT = 2.83465;
-const A4_W_MM = 210;
-const A4_H_MM = 297;
-const MARGIN = 12; // mm — vnější okraj
-const GAP = 4;     // mm — mezera mezi buňkami v 2× / 4× layoutu
+const A4_LONG_MM = 297;
+const A4_SHORT_MM = 210;
+const GAP = 4; // mm — mezera mezi buňkami v 2× / 4× layoutu
+
+/**
+ * Rozměry listu a vnější okraj pro daný layout. Zdrojové zápisy jsou A5 na
+ * výšku, takže 2× = A4 na šířku se dvěma A5 vedle sebe (téměř 1:1). Na A4 na
+ * výšku by se dvě stránky vedle sebe zmenšily na ~60 % do úzkých sloupců.
+ */
+function sheetMM(layout: Layout) {
+  if (layout === 2) return { w: A4_LONG_MM, h: A4_SHORT_MM, margin: 5, landscape: true };
+  return { w: A4_SHORT_MM, h: A4_LONG_MM, margin: 12, landscape: false };
+}
 
 /** Rozměry jedné buňky (mm) pro daný layout. */
 function cellMM(layout: Layout) {
+  const s = sheetMM(layout);
   if (layout === 1) {
-    return { w: A4_W_MM - 2 * MARGIN, h: A4_H_MM - 2 * MARGIN };
+    return { w: s.w - 2 * s.margin, h: s.h - 2 * s.margin };
   }
   if (layout === 2) {
-    return { w: (A4_W_MM - 2 * MARGIN - GAP) / 2, h: A4_H_MM - 2 * MARGIN };
+    return { w: (s.w - 2 * s.margin - GAP) / 2, h: s.h - 2 * s.margin };
   }
   return {
-    w: (A4_W_MM - 2 * MARGIN - GAP) / 2,
-    h: (A4_H_MM - 2 * MARGIN - GAP) / 2,
+    w: (s.w - 2 * s.margin - GAP) / 2,
+    h: (s.h - 2 * s.margin - GAP) / 2,
   };
 }
 
 /** Pozice levého-horního rohu každé buňky na listu (v mm). */
 function cellPositions(layout: Layout): Array<[number, number]> {
   const c = cellMM(layout);
-  if (layout === 1) return [[MARGIN, MARGIN]];
+  const m = sheetMM(layout).margin;
+  if (layout === 1) return [[m, m]];
   if (layout === 2) {
     return [
-      [MARGIN, MARGIN],
-      [MARGIN + c.w + GAP, MARGIN],
+      [m, m],
+      [m + c.w + GAP, m],
     ];
   }
   return [
-    [MARGIN, MARGIN],
-    [MARGIN + c.w + GAP, MARGIN],
-    [MARGIN, MARGIN + c.h + GAP],
-    [MARGIN + c.w + GAP, MARGIN + c.h + GAP],
+    [m, m],
+    [m + c.w + GAP, m],
+    [m, m + c.h + GAP],
+    [m + c.w + GAP, m + c.h + GAP],
   ];
 }
 
@@ -105,11 +116,13 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
       Array.from({ length: totalPages }, (_, i) => i),
     );
 
+    const sheetDim = sheetMM(layout);
     const cell = cellMM(layout);
     const cellWPt = cell.w * MM_TO_PT;
     const cellHPt = cell.h * MM_TO_PT;
-    const a4WPt = A4_W_MM * MM_TO_PT;
-    const a4HPt = A4_H_MM * MM_TO_PT;
+    const a4WPt = sheetDim.w * MM_TO_PT;
+    const a4HPt = sheetDim.h * MM_TO_PT;
+    const margin = sheetDim.margin;
 
     const positions = cellPositions(layout);
     const cellsPerSheet = positions.length;
@@ -159,20 +172,21 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
 
       // Čáry pro stříhání (jen pokud je list dostatečně zaplněný).
       if (layout >= 2 && filledCells >= 2) {
-        const midX = (MARGIN + cell.w + GAP / 2) * MM_TO_PT;
+        const midX = (margin + cell.w + GAP / 2) * MM_TO_PT;
+        const overhang = Math.min(4, margin - 1);
         page.drawLine({
-          start: { x: midX, y: (MARGIN - 4) * MM_TO_PT },
-          end:   { x: midX, y: a4HPt - (MARGIN - 4) * MM_TO_PT },
+          start: { x: midX, y: (margin - overhang) * MM_TO_PT },
+          end:   { x: midX, y: a4HPt - (margin - overhang) * MM_TO_PT },
           thickness: 0.5,
           dashArray: [2, 2],
           opacity: 0.4,
         });
       }
       if (layout === 4 && filledCells >= 3) {
-        const midY = a4HPt - (MARGIN + cell.h + GAP / 2) * MM_TO_PT;
+        const midY = a4HPt - (margin + cell.h + GAP / 2) * MM_TO_PT;
         page.drawLine({
-          start: { x: (MARGIN - 4) * MM_TO_PT, y: midY },
-          end:   { x: a4WPt - (MARGIN - 4) * MM_TO_PT, y: midY },
+          start: { x: (margin - 4) * MM_TO_PT, y: midY },
+          end:   { x: a4WPt - (margin - 4) * MM_TO_PT, y: midY },
           thickness: 0.5,
           dashArray: [2, 2],
           opacity: 0.4,
@@ -250,7 +264,8 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
       }
     }
 
-    const doc = new jsPDF('p', 'mm', 'a4');
+    const sheetDim = sheetMM(layout);
+    const doc = new jsPDF(sheetDim.landscape ? 'l' : 'p', 'mm', 'a4');
     const positions = cellPositions(layout);
     const cellsPerSheet = positions.length;
     const cellAspect = cell.h / cell.w;
@@ -279,12 +294,13 @@ export default function NotebookExport({ contentId, latex, pdfHref, pdfPageCount
       if (layout >= 2 && filledCells >= 2) {
         doc.setDrawColor(170);
         doc.setLineDashPattern([2, 2], 0);
-        const midX = MARGIN + cell.w + GAP / 2;
-        doc.line(midX, MARGIN - 4, midX, A4_H_MM - MARGIN + 4);
+        const midX = sheetDim.margin + cell.w + GAP / 2;
+        const overhang = Math.min(4, sheetDim.margin - 1);
+        doc.line(midX, sheetDim.margin - overhang, midX, sheetDim.h - sheetDim.margin + overhang);
       }
       if (layout === 4 && filledCells >= 3) {
-        const midY = MARGIN + cell.h + GAP / 2;
-        doc.line(MARGIN - 4, midY, A4_W_MM - MARGIN + 4, midY);
+        const midY = sheetDim.margin + cell.h + GAP / 2;
+        doc.line(sheetDim.margin - 4, midY, sheetDim.w - sheetDim.margin + 4, midY);
       }
     }
     doc.save(`zapis-${layout}x.pdf`);
