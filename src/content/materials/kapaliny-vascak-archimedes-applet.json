@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-vascak-archimedes-applet",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Vaščák: Archimédův zákon",
+  "type": "applet",
+  "description": "Interaktivní applet ze sbírky Vaščák – Fyzika ve škole demonstrující Archimédův zákon a vztlakovou sílu na tělese ponořeném do kapaliny. Žák sleduje, jak velikost vztlakové síly závisí na objemu ponořené části tělesa a hustotě kapaliny.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mech_archimedes&l=cz"
+}

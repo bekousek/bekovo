@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-fendt-vztlakova-sila-applet",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Walter Fendt: Vztlaková síla v kapalinách",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta v české lokalizaci ukazující vztlakovou sílu působící na těleso ponořené do kapaliny. Umožňuje měnit hustotu kapaliny a objem ponořeného tělesa a sledovat velikost vztlakové síly.",
+  "url": "https://www.walter-fendt.de/html5/phcz/buoyantforce_cz.htm"
+}
