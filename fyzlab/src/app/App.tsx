@@ -136,8 +136,11 @@ export default function App() {
         </div>
       )}
 
+      {/* Fotobrany jsou odsazené o šířku panelu nástrojů (ten je vlevo, vertikálně
+          na střed a sahá skoro přes celou výšku) — jinak se překrývají.
+          Safe-area zůstává kvůli displejům s výřezem. */}
       {runtime && (
-        <div className="absolute bottom-28 left-[var(--safe-left)] sm:bottom-24">
+        <div className="absolute bottom-28 left-[calc(var(--safe-left)+4rem)] sm:bottom-24">
           <GatePanel runtime={runtime} />
         </div>
       )}
