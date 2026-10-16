@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-radiacni-pozadi-vyska",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Radiační pozadí na Zemi, v letadle a na oběžné dráze",
+  "type": "method",
+  "description": "Učitel promítne třídě reálná data z pixelových detektorů ionizujícího záření (typ MX10) naměřená na zemském povrchu, na palubě letadla a na družici na oběžné dráze. Žáci porovnávají, jak se dávka záření liší s výškou a prostředím, a diskutují o atmosféře jako přirozeném štítu proti kosmickému záření. Pracuje se s již publikovanými daty, žádný reálný zářič ani vlastní přístroj nejsou potřeba.",
+  "source": {
+    "label": "VNUF 2015",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/20-30-Vicha_V,_Kaplan_M.pdf"
+  }
+}
