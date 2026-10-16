@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-michani-barev",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Vaščák: Subtraktivní a aditivní míchání barev",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace v češtině ukazuje rozdíl mezi aditivním mícháním barev (překrývání barevných světel) a subtraktivním mícháním (barevné filtry a pigmenty, které světlo pohlcují). Žák si může obě varianty přímo zobrazit a porovnat výsledné barvy.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_michanibarev&l=cz"
+}

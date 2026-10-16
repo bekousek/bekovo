@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-hranol-spektrum",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Vaščák: Optický hranol – rozklad světla na spektrum",
+  "type": "applet",
+  "description": "HTML5 simulace v češtině znázorňuje, jak se bílé světlo při průchodu hranolem rozkládá na barvy spektra (duhu) díky různému indexu lomu pro různé vlnové délky.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_hranol&l=cz"
+}

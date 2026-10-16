@@ -1,0 +1,19 @@
+{
+  "id": "optika-barevna-kola-setrvacnost",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Barevná kola – míchání barev setrvačností oka",
+  "type": "qualitative",
+  "description": "Žákovský pokus: žáci si z lepenky a barevných papírů vyrobí vlastní kotouč (např. půlený červeno-žlutý) s osou ze špendlíku ve středu. Po roztočení kotouče oko díky setrvačnosti zrakového vjemu splyne jednotlivé barvy do jedné smíšené (např. červená + žlutá = vjem oranžové). Na rozdíl od skládání barevných světel nebo pigmentů jde o fyziologický jev – setrvačnost vidění, ne optické míchání.",
+  "materials": [
+    "silnější lepenka nebo karton",
+    "barevné papíry nebo samolepicí fólie (alespoň 2 barvy)",
+    "špendlík",
+    "nůžky, kružítko"
+  ],
+  "procedure": "Na lepenku nalepit barevné výseče, vystřihnout kotouč o průměru cca 8–20 cm. Do středu zapíchnout špendlík jako osu. Kotouč roztočit mezi prsty nebo na jednoduchém stojánku a pozorovat, jakou barvu žáci vidí při různých rychlostech otáčení a různých kombinacích barev.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/optika/barevna_kola.pdf"
+  }
+}

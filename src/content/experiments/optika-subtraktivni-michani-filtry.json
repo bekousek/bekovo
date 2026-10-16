@@ -1,0 +1,18 @@
+{
+  "id": "optika-subtraktivni-michani-filtry",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Subtraktivní míchání barev – skládání barevných filtrů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, případně ve skupinkách žáci): přes sebe se proti světlu postupně překládají průsvitné barevné filtry (azurová, purpurová, žlutá). Žáci pozorují, že průnikem dvou filtrů vzniká nová, tmavší barva a průnikem všech tří černá – na rozdíl od skládání barevných světel (RGB), kde vzniklá barva je světlejší. Vhodné pro srovnání s aditivním mícháním barev (viz pokus Skládání barev RGB).",
+  "materials": [
+    "3 průsvitné barevné fólie/filtry – azurová, purpurová, žlutá",
+    "zdroj bílého světla nebo okno",
+    "bílý podklad nebo papír"
+  ],
+  "procedure": "Filtry postupně klást přes sebe proti světlu nebo na bílou plochu. Zapisovat barvu vzniklou překryvem každé dvojice a všech tří filtrů. Porovnat s dřívějším pokusem skládání barevných světel RGB a společně zformulovat rozdíl mezi aditivním a subtraktivním mícháním barev.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/cmyk.pdf"
+  }
+}
