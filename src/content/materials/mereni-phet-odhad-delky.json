@@ -1,0 +1,9 @@
+{
+  "id": "mereni-phet-odhad-delky",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "PhET — Odhad délky, plochy a objemu (Estimation)",
+  "type": "applet",
+  "description": "Simulace, kde žák nejprve odhaduje délku úsečky, plochu nebo objem porovnáním s jednotkovým měřítkem a poté si odhad ověří přesným změřením. Trénuje dovednost odhadu délky před samotným měřením.",
+  "url": "https://phet.colorado.edu/cs/simulations/estimation"
+}
