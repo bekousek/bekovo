@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-newtonuv-kotouc",
+  "subtopicId": "barvy",
+  "topicId": "optika",
+  "title": "Vaščák: Newtonův kotouč",
+  "type": "applet",
+  "description": "HTML5 animace v češtině zobrazuje rotující kotouč se segmenty barev spektra, který při dostatečné rychlosti otáčení splyne do bílé – demonstrace aditivního míchání barev a setrvačnosti vidění.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=opt_newtonkotouc&l=cz"
+}
