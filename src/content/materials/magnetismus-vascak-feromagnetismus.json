@@ -1,0 +1,9 @@
+{
+  "id": "magnetismus-vascak-feromagnetismus",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Vaščák: Animace feromagnetismu",
+  "type": "applet",
+  "description": "Interaktivní HTML5 animace ze sbírky Vaščák – Fyzika ve škole, ukazující jev feromagnetismu, tedy proč jsou některé látky (železo, nikl, kobalt) silně přitahovány magnetem. Doplňuje animaci permanentního magnetu ze stejné sekce „Magnetické pole“.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mag_ferro&l=cz"
+}
