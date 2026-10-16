@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-sanky-koberec-setrvacnost",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Zákon setrvačnosti – sáňky a koberec",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s žákovskou účastí. Na hladkou podlahu se položí koberec, na koberec sáňky (nebo dřevěná deska na kolečkách) s dobrovolným žákem. Koberec je jednou vytažen pomalu (sáňky se pohybují s kobercem), jednou rychle (sáňky zůstanou téměř na místě). Pokus názorně ukazuje, že těleso v klidu setrvává v klidu a těleso v rovnoměrném přímočarém pohybu setrvává v tomto pohybu, dokud na něj nepůsobí výsledná síla – přímá demonstrace setrvačnosti jako vlastnosti spojené s rovnoměrným přímočarým pohybem.",
+  "materials": [
+    "velký koberec nebo pevná rohož",
+    "sáňky nebo nízká deska na kolečkách",
+    "dobrovolný žák jako pasažér",
+    "hladká podlahová plocha (tělocvična nebo chodba)"
+  ],
+  "procedure": "Rozložte koberec na hladkou plochu, na koberec umístěte sáňky s dobrovolníkem. Nejprve táhněte koberec pomalu – sáňky se pohybují spolu s kobercem. Poté koberec vytáhněte rychlým trhem – sáňky zůstanou na místě, koberec vyklouzne zpod nich. Diskutujte se žáky, proč se chování liší při různé rychlosti vytahování.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "https://fyzikalnipokusy.cz/4308/zakon-setrvacnosti-netradicne"
+  }
+}

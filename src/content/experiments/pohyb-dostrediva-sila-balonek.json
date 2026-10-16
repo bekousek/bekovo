@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-dostrediva-sila-balonek",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Dostředivá síla – mince v balonku a závaží na provázku",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvou variantách demonstrující kruhový pohyb. Varianta 1: mince vložená do nafouknutého balonku obíhá po vnitřní stěně, je-li balonek rozkýván do kruhu – dostředivou sílu zajišťuje pnutí stěny. Varianta 2: závaží na provázku žáci roztočí v kruhu a provázek pustí; závaží odletí ve směru tečny, nikoli dostředně. Obě varianty ukazují, že při kruhovém pohybu se směr rychlosti neustále mění a těleso ke kruhovému pohybu potřebuje dostředivou sílu.",
+  "materials": [
+    "nafukovací balonek",
+    "mince nebo skleněná kulička",
+    "provázek (cca 50 cm)",
+    "závaží (gumička, korek nebo malý předmět)"
+  ],
+  "procedure": "Var. 1: Vložte minci do balonku, nafukněte a uzavřete. Rozkývejte balonek do kruhu a sledujte pohyb mince po vnitřní stěně. Var. 2: Připevněte závaží na provázek a roztočte ho v horizontálním kruhu nad hlavou. Ve vhodném okamžiku provázek pusťte a sledujte, kterým směrem závaží odletí. Diskutujte rozdíl mezi kruhovým pohybem (neustálá změna směru) a přímočarým pohybem.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/dostrediva-sila"
+  }
+}
