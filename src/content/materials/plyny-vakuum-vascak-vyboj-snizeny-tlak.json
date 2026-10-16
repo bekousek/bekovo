@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-vascak-vyboj-snizeny-tlak",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Elektrický výboj při sníženém tlaku – animace (Vaščák)",
+  "type": "applet",
+  "description": "Animace znázorňuje elektrický výboj v plynu při postupně snižovaném tlaku a ukazuje praktickou aplikaci sníženého tlaku – princip výbojek a zářivek. Simulace probíhá bez reálného vysokého napětí, slouží jako motivační ukázka, co se s plynem děje při přibližování k vakuu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=elplyn_trubice&l=cz"
+}

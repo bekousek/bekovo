@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vakuum-vascak-vyska-tlak",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Atmosférický tlak a nadmořská výška – animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace ukazuje, jak atmosférický tlak klesá s rostoucí nadmořskou výškou, protože nad daným bodem je tenčí vzduchový sloupec. Doplňuje téma tlaku vzduchu o souvislost s vakuem jako limitním stavem, kdy tlak klesá k nule.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_vyska_tlak&l=cz"
+}
