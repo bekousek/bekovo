@@ -1,0 +1,20 @@
+{
+  "id": "plyny-vakuum-podtlakova-fontana",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Podtlaková fontánka ze zavařovací sklenice",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (připravuje a předvádí učitel). Do víčka zavařovací sklenice se vsadí dvě kabelové průchodky s hadičkami různé délky; sklenice s vodou se zavíčkuje a obrátí dnem vzhůru. Voda uvnitř odtéká delší hadičkou ven, čímž ve sklenici vzniká podtlak – ten přes kratší hadičku nasává vodu z vedlejší nádobky a ta uvnitř obrácené sklenice tryská jako fontánka. Efektní vizualizace vzniku a účinku podtlaku.",
+  "materials": [
+    "skleněná zavařovací sklenice se šroubovacím víčkem",
+    "2× elektrikářská kabelová průchodka",
+    "PVC hadice průměru 8 mm (kratší a delší kus)",
+    "stará propisovačka jako tryska",
+    "nádobka s (ideálně obarvenou) vodou"
+  ],
+  "procedure": "Do víčka se vyvrtají dva otvory a vsadí se do nich kabelové průchodky, z jedné se vyrobí tryska z přední části propisky. Sklenice s cca 0,5 l vody se zavíčkuje a obrátí dnem vzhůru; kratší hadička se ponoří do nádobky s vodou mimo sklenici. Voda ze sklenice odtéká delší hadičkou ven, čímž uvnitř sklenice vzniká podtlak; ten přes krátkou hadičku nasává vodu z nádobky a ta uvnitř sklenice tryská jako fontánka.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/pretazene/dve_fontany.pdf"
+  }
+}

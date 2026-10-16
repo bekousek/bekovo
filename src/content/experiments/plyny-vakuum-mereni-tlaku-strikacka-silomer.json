@@ -1,0 +1,19 @@
+{
+  "id": "plyny-vakuum-mereni-tlaku-strikacka-silomer",
+  "subtopicId": "vakuum",
+  "topicId": "plyny-7",
+  "title": "Měření atmosférického tlaku injekční stříkačkou a siloměrem",
+  "type": "measurement",
+  "description": "Žákovský pokus (skupinová práce). Žáci nejprve siloměrem změří třecí sílu pístu v neucpané injekční stříkačce, poté stříkačku ucpou prstem a znovu vytáhnou píst – rozdíl naměřených sil odpovídá tlakové síle vzduchu. Po vydělení plochou pístu (změřenou posuvným měřítkem) žáci vypočítají atmosférický tlak a výsledek porovnají mezi skupinami (vychází řádově 80–120 kPa), včetně diskuze o zdrojích chyb měření.",
+  "materials": [
+    "injekční stříkačka (ideálně 20 ml, pro skupiny i 5 ml)",
+    "siloměr (do 50 N, stačí i 20 N)",
+    "posuvné měřítko",
+    "tabulka nebo sešit na zápis výsledků"
+  ],
+  "procedure": "1. Žáci vytáhnou píst z prázdné (neucpané) stříkačky a siloměrem změří třecí sílu pístu. 2. Stříkačku ucpou prstem a znovu vytahují píst, přičemž siloměrem měří potřebnou sílu. 3. Rozdíl obou sil je tlaková síla vzduchu; vydělením plochou pístu (dopočtenou z průměru posuvným měřítkem) získají tlak vzduchu. 4. Výsledky skupin se porovnají a diskutuje se o zdrojích chyb měření.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/2016/atm_tlak_se_strikackami.pdf"
+  }
+}
