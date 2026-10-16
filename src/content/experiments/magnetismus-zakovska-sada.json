@@ -1,0 +1,21 @@
+{
+  "id": "magnetismus-zakovska-sada",
+  "subtopicId": "magnety",
+  "topicId": "magnetismus",
+  "title": "Žákovská sada magnetů – co magnet přitahuje a co ne",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve skupinkách po třech: žáci dostanou sadu se dvěma tyčovými keramickými magnety, vzorky různých materiálů (kancelářská sponka, hřebík, pružina, plastová spona, alobal, mosazná podložka, matice, dřevěný kolík), hrstí hřebíčků, kompasem a šroubem jako pólovým nástavcem. Postupně na pracovních kartách zkoušejí, které materiály magnet přitahuje, určují póly magnetu pomocí kompasu a zapisují výsledky podle vzoru na kartě.",
+  "materials": [
+    "2 tyčové keramické magnety",
+    "vzorky materiálů (kovové i nekovové)",
+    "hrst centimetrových hřebíčků",
+    "malý kompas",
+    "šroub s válcovou hlavou jako pólový nástavec",
+    "pracovní karty"
+  ],
+  "procedure": "Žáci v trojicích postupně projdou sadu stanovišť/karet: nejprve zkouší, které vzorky materiálů magnet přitahuje a které ne, poté pomocí kompasu určí severní a jižní pól magnetu, nakonec pozorují, kolik hřebíčků magnet unese. Výsledky zapisují do pracovního listu podle vzoru na kartě.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/zakovske_magnety.pdf"
+  }
+}
