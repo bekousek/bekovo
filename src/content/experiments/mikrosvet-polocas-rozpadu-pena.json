@@ -1,0 +1,21 @@
+{
+  "id": "mikrosvet-polocas-rozpadu-pena",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Poločas rozpadu pěny — model exponenciálního rozpadu",
+  "type": "measurement",
+  "description": "Žákovský pokus. Žáci ve sklenici vyrobí co nejvyšší pěnu (voda se saponátem) a v pravidelných časových intervalech měří a zapisují její výšku. Z naměřených dat sestaví graf poklesu výšky pěny v čase a spočítají, za jak dlouho klesla na polovinu — tedy „poločas rozpadu“ pěny. Pokles výšky pěny má stejný matematický tvar (exponenciální úbytek) jako poločas přeměny radioaktivních izotopů, takže pokus slouží jako bezpečná a levná analogie principu poločasu rozpadu bez nutnosti pracovat s reálným radioaktivním zdrojem.",
+  "materials": [
+    "vysoká sklenice nebo odměrný válec",
+    "voda",
+    "saponát na nádobí",
+    "pravítko nebo papírek s milimetrovým měřítkem",
+    "stopky",
+    "tabulka na zápis dat"
+  ],
+  "procedure": "Ve sklenici vyšlehat co nejvyšší pěnu z vody se saponátem. Od okamžiku vzniku měřit v pravidelných intervalech (např. po 10–15 s) výšku pěny a zapisovat do tabulky. Z dat vynést graf výšky pěny v čase a odečíst, za jak dlouho klesla výška na polovinu počáteční hodnoty — porovnat, zda je tento čas přibližně stejný při různém startu (konstantní poločas, nezávislý na počáteční výšce).",
+  "source": {
+    "label": "Učíme se venku — Poločas rozpadu pěny",
+    "url": "https://ucimesevenku.cz/skola-doma/#pena"
+  }
+}

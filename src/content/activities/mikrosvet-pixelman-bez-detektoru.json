@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-pixelman-bez-detektoru",
+  "subtopicId": "radioaktivita",
+  "topicId": "mikrosvet",
+  "title": "Zpracování dat z pixelového detektoru radioaktivity bez detektoru",
+  "type": "group-work",
+  "description": "Žákovská aktivita ve skupinách u počítačů. Pomocí volně dostupného softwaru „Pixelman bez detektoru“ a připravených pracovních listů žáci zpracovávají reálná data naměřená pixelovým detektorem ionizujícího záření, aniž by škola potřebovala vlastní fyzický detektor nebo radioaktivní zdroj. Na autentických vědeckých datech rozlišují stopy různých částic, počítají záblesky a odhadují typ záření — bezpečná náhrada reálného měření radioaktivity pro ZŠ.",
+  "source": {
+    "label": "VNUF 2022",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/27-13-Vicha_V.pdf"
+  }
+}
