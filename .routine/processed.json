@@ -82,7 +82,19 @@
     "2026-10-06-elektricke-obvody--zkrat",
     "2026-10-07-elektrina--elektromagneticke-vlneni",
     "2026-10-08-elektrostatika--ionty",
-    "2026-10-09-energie--ucinnost"
+    "2026-10-09-energie--ucinnost",
+    "2026-10-10-kapaliny-7--vztlakova-sila",
+    "2026-10-11-magnetismus--magnety",
+    "2026-10-12-mechanika--vykon",
+    "2026-10-13-mereni--delka",
+    "2026-10-14-mikrosvet--radioaktivita",
+    "2026-10-15-optika--barvy",
+    "2026-10-16-plyny-7--vakuum",
+    "2026-09-28-pohyb--grafy",
+    "2026-09-29-sila--skladani-sil",
+    "2026-09-30-skupenstvi-latek--skupenske-teplo",
+    "2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+    "2026-10-02-vlastnosti-latek--latky-a-telesa"
   ],
   "history": [
     {
@@ -831,6 +843,121 @@
       "merged": true,
       "processedAt": "2026-10-09T12:17:12.954Z",
       "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-10-kapaliny-7--vztlakova-sila",
+      "subtopic": "kapaliny-7--vztlakova-sila",
+      "branch": "routine/nightly-2026-10-10-kapaliny-7--vztlakova-sila",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/181",
+      "merged": false,
+      "processedAt": "2026-10-16T12:18:22.350Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-11-magnetismus--magnety",
+      "subtopic": "magnetismus--magnety",
+      "branch": "routine/nightly-2026-10-11-magnetismus--magnety",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/182",
+      "merged": false,
+      "processedAt": "2026-10-16T12:18:38.924Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-12-mechanika--vykon",
+      "subtopic": "mechanika--vykon",
+      "branch": "routine/nightly-2026-10-12-mechanika--vykon",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/183",
+      "merged": false,
+      "processedAt": "2026-10-16T12:18:59.056Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-13-mereni--delka",
+      "subtopic": "mereni--delka",
+      "branch": "routine/nightly-2026-10-13-mereni--delka",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/184",
+      "merged": false,
+      "processedAt": "2026-10-16T12:19:16.333Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-14-mikrosvet--radioaktivita",
+      "subtopic": "mikrosvet--radioaktivita",
+      "branch": "routine/nightly-2026-10-14-mikrosvet--radioaktivita",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/185",
+      "merged": false,
+      "processedAt": "2026-10-16T12:19:32.409Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-15-optika--barvy",
+      "subtopic": "optika--barvy",
+      "branch": "routine/nightly-2026-10-15-optika--barvy",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/186",
+      "merged": false,
+      "processedAt": "2026-10-16T12:19:49.599Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-10-16-plyny-7--vakuum",
+      "subtopic": "plyny-7--vakuum",
+      "branch": "routine/nightly-2026-10-16-plyny-7--vakuum",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/187",
+      "merged": false,
+      "processedAt": "2026-10-16T12:20:06.531Z",
+      "driveFileId": "",
+      "note": "merge-skipped-unattended-classifier-block"
+    },
+    {
+      "manifestId": "2026-09-28-pohyb--grafy",
+      "branch": "routine/nightly-2026-09-28-pohyb--grafy",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/166",
+      "merged": false,
+      "status": "skipped-existing-conflicting-pr",
+      "processedAt": "2026-10-16T12:20:33.690Z",
+      "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
+    },
+    {
+      "manifestId": "2026-09-29-sila--skladani-sil",
+      "branch": "routine/nightly-2026-09-29-sila--skladani-sil",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/167",
+      "merged": false,
+      "status": "skipped-existing-conflicting-pr",
+      "processedAt": "2026-10-16T12:20:33.691Z",
+      "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
+    },
+    {
+      "manifestId": "2026-09-30-skupenstvi-latek--skupenske-teplo",
+      "branch": "routine/nightly-2026-09-30-skupenstvi-latek--skupenske-teplo",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/168",
+      "merged": false,
+      "status": "skipped-existing-conflicting-pr",
+      "processedAt": "2026-10-16T12:20:33.691Z",
+      "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
+    },
+    {
+      "manifestId": "2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+      "branch": "routine/nightly-2026-10-01-tepelne-motory--proudovy-raketovy-motor",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/169",
+      "merged": false,
+      "status": "skipped-existing-conflicting-pr",
+      "processedAt": "2026-10-16T12:20:33.691Z",
+      "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
+    },
+    {
+      "manifestId": "2026-10-02-vlastnosti-latek--latky-a-telesa",
+      "branch": "routine/nightly-2026-10-02-vlastnosti-latek--latky-a-telesa",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/170",
+      "merged": false,
+      "status": "skipped-existing-conflicting-pr",
+      "processedAt": "2026-10-16T12:20:33.691Z",
+      "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
     }
   ]
 }
