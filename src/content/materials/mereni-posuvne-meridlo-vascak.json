@@ -1,0 +1,9 @@
+{
+  "id": "mereni-posuvne-meridlo-vascak",
+  "subtopicId": "delka",
+  "topicId": "mereni",
+  "title": "Posuvné měřítko — animace odečítání (Vaščák)",
+  "type": "applet",
+  "description": "Interaktivní animace ukazuje, jak se správně odečítá délka na posuvném měřítku (šuplera) s hlavní i noniovou stupnicí — jednom z přesnějších délkových měřidel probíraných v tématu Délka.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mech_posuvka&l=cz"
+}
