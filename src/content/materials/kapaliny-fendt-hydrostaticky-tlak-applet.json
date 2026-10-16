@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-fendt-hydrostaticky-tlak-applet",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Walter Fendt: Hydrostatický tlak v kapalinách",
+  "type": "applet",
+  "description": "HTML5 applet v češtině zobrazující, jak hydrostatický tlak v kapalině závisí na hloubce a hustotě kapaliny. Doplňuje téma vztlakové síly, protože vztlak vzniká právě z rozdílu hydrostatického tlaku na horní a spodní stěnu tělesa.",
+  "url": "https://www.walter-fendt.de/html5/phcz/hydrostaticpressure_cz.htm"
+}

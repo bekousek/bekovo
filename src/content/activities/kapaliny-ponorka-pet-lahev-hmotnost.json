@@ -1,0 +1,12 @@
+{
+  "id": "kapaliny-ponorka-pet-lahev-hmotnost",
+  "subtopicId": "vztlakova-sila",
+  "topicId": "kapaliny-7",
+  "title": "Ponorka z PET lahve – řízení hloubky hmotností",
+  "type": "group-work",
+  "description": "Žáci ve skupinách sestaví model ponorky z malé PET lahve s vodotěsně provlečenou akvarijní hadičkou ve víčku a se zátěží (šroubky) u dna. Po položení na hladinu akvária se ponorka sama začne plnit vodou a klesá ke dnu, po vyfouknutí vzduchu hadičkou voda uniká a ponorka stoupá k hladině. Aktivita vede žáky k pochopení, že ponorka (na rozdíl od ryby, která měchýřem mění objem) řídí svou hloubku změnou hmotnosti – nasáváním a vytlačováním vody z vnitřních nádrží. Vhodné jako skupinová badatelská mini-úloha navazující na probrání vztlakové síly a srovnání s modelem rybího měchýře.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/ryby__lode__ponorky.pdf"
+  }
+}
