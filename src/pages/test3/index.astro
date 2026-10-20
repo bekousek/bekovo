@@ -1,0 +1,60 @@
+---
+/** Návrh 3 — Kabinet: úvod. Témata po ročnících, u každé podkapitoly barevné počty druhů. */
+import ProtoLayout from '../../layouts/ProtoLayout.astro';
+import ProtoMark from '../../components/proto/ProtoMark.astro';
+import { getLibrary } from '../../lib/library/data';
+import { GRADES, KINDS, countKind } from '../../lib/library/model';
+import '@fontsource-variable/atkinson-hyperlegible-next';
+import '../../styles/proto-kabinet.css';
+
+const lib = await getLibrary();
+---
+<ProtoLayout title="Kabinet" concept="kabinet" current={3} themeColor="#f3f5f7">
+  <div class="kb-wrap">
+    <div class="kb-bar">
+      <a class="kb-brand" href="/test3"><ProtoMark size={22} /> Kabinet</a>
+    </div>
+    <header class="kb-head">
+      <h1 class="kb-h1">Kabinet fyziky</h1>
+      <p class="kb-sum">
+        {KINDS.map((k) => (
+          <span class="kb-count" data-k={k}>
+            {countKind(k, lib.items.filter((i) => i.kind === k).length)}
+          </span>
+        ))}
+      </p>
+    </header>
+
+    <nav class="kb-grades" aria-label="Ročníky">
+      {GRADES.map((g) => <a href={`#g${g}`}>{g}. třída</a>)}
+    </nav>
+
+    {GRADES.map((g) => (
+      <section class="kb-grade" id={`g${g}`} aria-labelledby={`gh${g}`}>
+        <h2 id={`gh${g}`}>{g}. třída</h2>
+        <div class="kb-topics">
+          {lib.topics.filter((t) => t.grade === g).map((t) => (
+            <div class="kb-topic">
+              <h3>{t.name}</h3>
+              <ul>
+                {t.subtopics.map((s) => (
+                  <li>
+                    <a href={`/test3/${t.id}/${s.id}`}>
+                      <span class="n">{s.name}</span>
+                      <span class="kb-mini">
+                        {KINDS.filter((k) => s.counts[k]).map((k) => (
+                          <span class="kb-count" data-k={k}>{countKind(k, s.counts[k])}</span>
+                        ))}
+                        {s.total === 0 && <span class="none">zatím prázdné</span>}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+</ProtoLayout>

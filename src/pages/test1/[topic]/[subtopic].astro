@@ -1,0 +1,358 @@
+---
+/**
+ * Návrh 1 — Přípravna: jedna podkapitola jako pracovní místo. Všechny druhy
+ * v jednom seznamu se záložkami a čipy, detail v panelu (PC) nebo listu (telefon),
+ * výběr do Hodiny.
+ */
+import ProtoLayout from '../../../layouts/ProtoLayout.astro';
+import Shell from '../../../components/proto/pripravna/Shell.astro';
+import Detail from '../../../components/proto/pripravna/Detail.astro';
+import Icon from '../../../components/proto/Icon.astro';
+import { getLibrary, getProtoSubtopicPaths, sectionLinks } from '../../../lib/library/data';
+import { AUDIENCE_LABEL, KINDS, KIND_LABEL, MATERIAL_TYPE_ORDER, TYPE_LABEL, plural } from '../../../lib/library/model';
+import '../../../styles/proto-pripravna.css';
+
+export const getStaticPaths = getProtoSubtopicPaths;
+
+const { topicId, subtopicId } = Astro.props;
+const lib = await getLibrary();
+const topic = lib.topicById.get(topicId)!;
+const sub = lib.subById.get(subtopicId)!;
+const items = lib.bySub.get(subtopicId) ?? [];
+
+const countBy = <T extends string>(list: typeof items, f: (i: (typeof items)[number]) => T) => {
+  const m = new Map<T, number>();
+  for (const i of list) m.set(f(i), (m.get(f(i)) ?? 0) + 1);
+  return m;
+};
+const exps = items.filter((i) => i.kind === 'pokus');
+const acts = items.filter((i) => i.kind === 'aktivita');
+const mats = items.filter((i) => i.kind === 'material');
+const audCounts = countBy(exps, (i) => i.audience ?? 'none');
+const measCount = exps.filter((i) => i.type === 'measurement').length;
+const actTypes = countBy(acts, (i) => i.type);
+const matTypes = countBy(mats, (i) => i.type);
+const hosts = [...countBy(mats, (i) => i.host ?? '')]
+  .filter(([h, n]) => h && n >= 2)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 5);
+
+type Chip = { group: string; value: string; label: string; n: number };
+const chipSets: Record<string, Chip[]> = {
+  pokus: [
+    ...(['zak', 'demo', 'oboje'] as const)
+      .filter((a) => audCounts.get(a))
+      .map((a) => ({ group: 'aud', value: a, label: AUDIENCE_LABEL[a], n: audCounts.get(a)! })),
+    ...(audCounts.get('none') ? [{ group: 'aud', value: 'none', label: 'Neuvedeno', n: audCounts.get('none')! }] : []),
+    ...(measCount ? [{ group: 'meas', value: 'measurement', label: 'S měřením', n: measCount }] : []),
+  ],
+  aktivita: ['game', 'method', 'group-work', 'other']
+    .filter((t) => actTypes.get(t))
+    .map((t) => ({ group: 'type', value: t, label: TYPE_LABEL[t], n: actTypes.get(t)! })),
+  material: [
+    ...MATERIAL_TYPE_ORDER.filter((t) => matTypes.get(t)).map((t) => ({ group: 'type', value: t, label: TYPE_LABEL[t], n: matTypes.get(t)! })),
+    ...hosts.map(([h, n]) => ({ group: 'host', value: h, label: h, n })),
+  ],
+};
+// Čipy se ukazují jen tehdy, když v datech opravdu rozlišují.
+for (const k of Object.keys(chipSets)) if (chipSets[k].length < 2) chipSets[k] = [];
+
+const metaFor = (i: (typeof items)[number]) => {
+  const parts: { text: string; cls?: string }[] = [{ text: KIND_LABEL[i.kind].one, cls: 'k' }];
+  if (i.kind === 'pokus') {
+    if (i.audience) parts.push({ text: AUDIENCE_LABEL[i.audience], cls: `aud-${i.audience}` });
+    if (i.type === 'measurement') parts.push({ text: 'S měřením' });
+    if (i.materials.length) parts.push({ text: `${i.materials.length} ${plural(i.materials.length, 'pomůcka', 'pomůcky', 'pomůcek')}` });
+  } else if (i.kind !== 'ukol') {
+    parts.push({ text: i.typeLabel });
+  }
+  // Zdroj zkrácený už při buildu — na telefonu má meta řádek jen jednu linku.
+  const label = i.host ?? i.source?.label;
+  if (label) parts.push({ text: label.length > 30 ? `${label.slice(0, 29).trimEnd()}…` : label });
+  return parts;
+};
+---
+<ProtoLayout title={`${sub.name} · Přípravna`} concept="pripravna" current={1} topicId={topic.id} subtopicId={sub.id} themeColor="#eef2f6">
+  <Shell topic={topic} subtopic={sub}>
+    <p class="pp-crumb"><a href="/test1">Témata</a> / {topic.name} · {topic.grade}. třída</p>
+    <h1 class="pp-h1">{sub.name}</h1>
+    <ul class="pp-sections" aria-label="Další k podkapitole">
+      {sectionLinks(sub).map((l) => <li><a href={l.href}>{l.label}</a></li>)}
+    </ul>
+
+    <div class="pp-tabs" role="group" aria-label="Druh položek">
+      <button type="button" class="pp-tab" data-tab="all" aria-pressed="true">Vše <span class="num" data-tab-num="all">{items.length}</span></button>
+      {KINDS.map((k) => (
+        <button type="button" class="pp-tab" data-tab={k} aria-pressed="false" disabled={sub.counts[k] === 0}>
+          {KIND_LABEL[k].many} <span class="num" data-tab-num={k}>{sub.counts[k]}</span>
+        </button>
+      ))}
+    </div>
+
+    <div class="pp-filters">
+      <label class="pp-search">
+        <Icon name="search" size={16} class="ico" />
+        <span class="sr-only">Hledat v podkapitole</span>
+        <input type="search" data-query placeholder="Hledat v podkapitole (/)" autocomplete="off" />
+      </label>
+      {Object.entries(chipSets).map(([kind, chips]) => (
+        <div class="pp-chips" data-chips-for={kind} hidden>
+          {chips.map((c) => (
+            <button type="button" class="pp-chip" data-group={c.group} data-value={c.value} aria-pressed="false">
+              {c.label} <span class="num">{c.n}</span>
+            </button>
+          ))}
+        </div>
+      ))}
+    </div>
+
+    <div class="pp-work">
+      <section aria-label="Položky">
+        <p class="pp-count" data-count aria-live="polite"></p>
+        {items.length > 0 ? (
+          <ol class="pp-list">
+            {items.map((i) => (
+              <li
+                class="pp-row"
+                data-key={i.key}
+                data-kind={i.kind}
+                data-type={i.type}
+                data-aud={i.audience ?? 'none'}
+                data-host={i.host ?? ''}
+                data-search={i.search}
+              >
+                <a class="pp-row-main" href={`#${i.key}`} data-open={i.key}>
+                  <span class="pp-row-title">{i.title}</span>
+                  <span class="pp-row-ex">{i.excerpt}</span>
+                  <span class="pp-row-meta">{metaFor(i).map((p) => <span class={p.cls}>{p.text}</span>)}</span>
+                </a>
+                <span class="pp-row-actions">
+                  {i.url && (
+                    <a class="pp-open" href={i.url} target="_blank" rel="noopener noreferrer" aria-label={`Otevřít: ${i.title}`} title="Otevřít v nové záložce">
+                      <Icon name="external" size={18} />
+                    </a>
+                  )}
+                  <button type="button" class="pp-add" data-add={i.key} aria-pressed="false" aria-label={`Do hodiny: ${i.title}`} title="Přidat do hodiny">
+                    <Icon name="plus" class="off" /><Icon name="check" class="on" />
+                  </button>
+                </span>
+              </li>
+            ))}
+          </ol>
+        ) : null}
+        <div class="pp-empty" data-empty hidden>
+          Nic neodpovídá. <button type="button" data-reset>Zrušit filtry</button>
+        </div>
+        {items.length === 0 && (
+          <div class="pp-empty">
+            K podkapitole zatím nejsou žádné pokusy, aktivity, materiály ani úkoly. Noční rutina je doplňuje postupně.
+          </div>
+        )}
+      </section>
+
+      <aside class="pp-pane" aria-label="Detail položky" data-pane>
+        {items.map((i, n) => <Detail item={i} open={n === 0} />)}
+        {items.length === 0 && <p class="pp-count">Tady se zobrazí detail vybrané položky.</p>}
+      </aside>
+    </div>
+  </Shell>
+
+  <dialog class="pp-dialog" id="pp-detail-dialog" aria-label="Detail položky">
+    <div class="pp-dialog-bar">
+      <button type="button" class="pp-iconbtn" data-close aria-label="Zpět na seznam"><Icon name="back" /></button>
+      <strong>{sub.name}</strong>
+    </div>
+    <div class="pp-dialog-body" data-dialog-body></div>
+  </dialog>
+</ProtoLayout>
+
+<script>
+  import { getTray, openDialog, toggleTray, TRAY_EVENT } from '../../../lib/library/browser';
+  import { KIND_LABEL, normalize, plural, type Kind } from '../../../lib/library/model';
+
+  const rows = [...document.querySelectorAll<HTMLLIElement>('.pp-row')];
+  const tabs = [...document.querySelectorAll<HTMLButtonElement>('[data-tab]')];
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('.pp-chip')];
+  const chipBoxes = [...document.querySelectorAll<HTMLElement>('[data-chips-for]')];
+  const input = document.querySelector<HTMLInputElement>('[data-query]')!;
+  const counter = document.querySelector<HTMLElement>('[data-count]')!;
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  const pane = document.querySelector<HTMLElement>('[data-pane]')!;
+  const dialog = document.getElementById('pp-detail-dialog') as HTMLDialogElement;
+  const dialogBody = dialog.querySelector<HTMLElement>('[data-dialog-body]')!;
+  const wide = matchMedia('(min-width: 900px)');
+
+  let kind: 'all' | Kind = 'all';
+
+  const nouns: Record<string, [string, string, string]> = {
+    all: ['položka', 'položky', 'položek'],
+    pokus: ['pokus', 'pokusy', 'pokusů'],
+    aktivita: ['aktivita', 'aktivity', 'aktivit'],
+    material: ['materiál', 'materiály', 'materiálů'],
+    ukol: ['úkol', 'úkoly', 'úkolů'],
+  };
+
+  const activeChips = () => {
+    const m = new Map<string, Set<string>>();
+    for (const c of chips) {
+      if (c.getAttribute('aria-pressed') !== 'true') continue;
+      const g = c.dataset.group!;
+      if (!m.has(g)) m.set(g, new Set());
+      m.get(g)!.add(c.dataset.value!);
+    }
+    return m;
+  };
+
+  const rowValue = (row: HTMLElement, group: string) =>
+    group === 'aud' ? row.dataset.aud : group === 'host' ? row.dataset.host : group === 'meas' ? row.dataset.type : row.dataset.type;
+
+  const apply = () => {
+    const words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
+    const active = activeChips();
+    const matchesQuery = (row: HTMLElement) => words.every((w) => row.dataset.search!.includes(w));
+    let visible = 0;
+    let inKind = 0;
+    for (const row of rows) {
+      const okKind = kind === 'all' || row.dataset.kind === kind;
+      if (okKind) inKind += 1;
+      let ok = okKind && matchesQuery(row);
+      for (const [g, values] of active) if (ok) ok = values.has(rowValue(row, g)!);
+      row.hidden = !ok;
+      if (ok) visible += 1;
+    }
+    // Počty v záložkách a čipech sledují hledání.
+    for (const tab of tabs) {
+      const k = tab.dataset.tab!;
+      const n = rows.filter((r) => (k === 'all' || r.dataset.kind === k) && matchesQuery(r)).length;
+      tab.querySelector('.num')!.textContent = String(n);
+    }
+    for (const chip of chips) {
+      const n = rows.filter(
+        (r) => (kind === 'all' || r.dataset.kind === kind) && matchesQuery(r) && rowValue(r, chip.dataset.group!) === chip.dataset.value,
+      ).length;
+      chip.querySelector('.num')!.textContent = String(n);
+    }
+    const [one, few, many] = nouns[kind];
+    const filtering = words.length > 0 || active.size > 0;
+    counter.textContent = filtering
+      ? `${visible} z ${inKind} ${plural(inKind, one, few, many)}`
+      : `${inKind} ${plural(inKind, one, few, many)}`;
+    empty.hidden = !(rows.length && visible === 0);
+  };
+
+  for (const tab of tabs) {
+    tab.addEventListener('click', () => {
+      kind = tab.dataset.tab as typeof kind;
+      tabs.forEach((t) => t.setAttribute('aria-pressed', String(t === tab)));
+      for (const box of chipBoxes) box.hidden = box.dataset.chipsFor !== kind;
+      chips.forEach((c) => c.setAttribute('aria-pressed', 'false'));
+      apply();
+    });
+  }
+  for (const chip of chips) {
+    chip.addEventListener('click', () => {
+      chip.setAttribute('aria-pressed', String(chip.getAttribute('aria-pressed') !== 'true'));
+      apply();
+    });
+  }
+  input.addEventListener('input', apply);
+  document.querySelector('[data-reset]')?.addEventListener('click', () => {
+    input.value = '';
+    chips.forEach((c) => c.setAttribute('aria-pressed', 'false'));
+    apply();
+  });
+
+  // --- Výběr položky -------------------------------------------------------
+
+  let selected: string | null = null;
+  const detailOf = (key: string) => document.querySelector<HTMLElement>(`[data-detail="${CSS.escape(key)}"]`);
+
+  const select = (key: string, { open = true } = {}) => {
+    const detail = detailOf(key);
+    if (!detail) return;
+    selected = key;
+    rows.forEach((r) => r.classList.toggle('is-selected', r.dataset.key === key));
+    document.querySelectorAll<HTMLElement>('[data-detail]').forEach((d) => (d.hidden = d !== detail));
+    if (wide.matches) {
+      if (detail.parentElement !== pane) pane.prepend(detail);
+      pane.scrollTop = 0;
+      history.replaceState(history.state, '', `#${key}`);
+    } else if (open) {
+      dialogBody.replaceChildren(detail);
+      dialog.querySelector('strong')!.textContent = KIND_LABEL[rows.find((r) => r.dataset.key === key)!.dataset.kind as Kind].one;
+      openDialog(dialog);
+      dialogBody.scrollTop = 0;
+      dialog.scrollTop = 0;
+    }
+  };
+
+  dialog.querySelector('[data-close]')!.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('close', () => {
+    const detail = dialogBody.firstElementChild;
+    if (detail) pane.append(detail);
+    rows.find((r) => r.dataset.key === selected)?.querySelector<HTMLElement>('.pp-row-main')?.focus({ preventScroll: true });
+  });
+
+  for (const row of rows) {
+    row.querySelector('[data-open]')!.addEventListener('click', (e) => {
+      e.preventDefault();
+      select(row.dataset.key!);
+    });
+  }
+
+  // --- Hodina ----------------------------------------------------------------
+
+  const paintAdds = () => {
+    const tray = new Set(getTray());
+    document.querySelectorAll<HTMLButtonElement>('[data-add]').forEach((b) => {
+      const on = tray.has(b.dataset.add!);
+      b.setAttribute('aria-pressed', String(on));
+      b.querySelectorAll<HTMLElement>('[data-when]').forEach((s) => (s.hidden = s.dataset.when !== (on ? 'on' : 'off')));
+    });
+  };
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('[data-add]');
+    if (btn) toggleTray(btn.dataset.add!);
+  });
+  window.addEventListener(TRAY_EVENT, paintAdds);
+  window.addEventListener('storage', paintAdds);
+  paintAdds();
+
+  // --- Klávesnice: „/" hledat, Esc vyčistit, ↑↓ pohyb v seznamu -------------
+
+  document.addEventListener('keydown', (e) => {
+    const target = e.target as HTMLElement;
+    const typing = /^(INPUT|TEXTAREA|SELECT)$/.test(target.tagName);
+    if (e.key === '/' && !typing) {
+      e.preventDefault();
+      input.focus();
+    } else if (e.key === 'Escape' && target === input) {
+      input.value = '';
+      apply();
+    } else if ((e.key === 'ArrowDown' || e.key === 'ArrowUp') && !typing && wide.matches && !dialog.open) {
+      const visible = rows.filter((r) => !r.hidden);
+      if (!visible.length) return;
+      e.preventDefault();
+      const idx = visible.findIndex((r) => r.dataset.key === selected);
+      const next = visible[Math.min(Math.max(idx + (e.key === 'ArrowDown' ? 1 : -1), 0), visible.length - 1)];
+      select(next.dataset.key!);
+      next.scrollIntoView({ block: 'nearest' });
+    }
+  });
+
+  apply();
+  const fromHash = decodeURIComponent(location.hash.slice(1));
+  if (fromHash && detailOf(fromHash)) {
+    select(fromHash);
+    rows.find((r) => r.dataset.key === fromHash)?.scrollIntoView({ block: 'center' });
+  } else if (wide.matches && rows[0]) {
+    select(rows[0].dataset.key!, { open: false });
+    history.replaceState(history.state, '', location.pathname + location.search);
+  }
+  wide.addEventListener('change', () => {
+    if (!wide.matches) return;
+    if (dialog.open) dialog.close();
+    const key = selected ?? rows.find((r) => !r.hidden)?.dataset.key;
+    if (key) select(key, { open: false });
+  });
+</script>

@@ -1,0 +1,22 @@
+---
+/** Návrh 2 — Rejstřík: globální hledání nad všemi položkami (React ostrůvek). */
+import ProtoLayout from '../../layouts/ProtoLayout.astro';
+import Rejstrik from '../../components/proto/Rejstrik.tsx';
+import '@fontsource-variable/public-sans';
+import '../../styles/proto-rejstrik.css';
+---
+<ProtoLayout title="Rejstřík" concept="rejstrik" current={2} themeColor="#f2f4f7">
+  <Rejstrik client:only="react">
+    <div slot="fallback" class="rj">
+      <main class="rj-main">
+        <header class="rj-head">
+          <h1>Rejstřík</h1>
+          <p class="rj-sub">Načítám rejstřík…</p>
+        </header>
+        <ol class="rj-list" aria-hidden="true">
+          {Array.from({ length: 8 }, () => <li class="rj-skel"><i></i><span></span></li>)}
+        </ol>
+      </main>
+    </div>
+  </Rejstrik>
+</ProtoLayout>

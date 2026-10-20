@@ -1,0 +1,209 @@
+---
+/**
+ * Návrh 1 — Hodina: vybrané položky z libovolných podkapitol a sloučený seznam
+ * pomůcek „co nachystat". Odkaz ?h=… je zároveň sdílení (otevřít na telefonu)
+ * i tisková A4. Vykresluje se v prohlížeči z /test/library.json.
+ */
+import ProtoLayout from '../../layouts/ProtoLayout.astro';
+import Shell from '../../components/proto/pripravna/Shell.astro';
+import Icon from '../../components/proto/Icon.astro';
+import { getLibrary } from '../../lib/library/data';
+import '../../styles/proto-pripravna.css';
+
+// Ukázková hodina pro prázdný stav: dva pokusy a applet k teplu.
+const lib = await getLibrary();
+const sample = (lib.bySub.get('teplo-a-jeho-sireni') ?? []);
+const sampleKeys = [
+  ...sample.filter((i) => i.kind === 'pokus' && i.materials.length).slice(0, 2),
+  ...sample.filter((i) => i.type === 'applet').slice(0, 1),
+].map((i) => i.key);
+---
+<ProtoLayout title="Moje hodina" concept="pripravna" current={1} themeColor="#eef2f6">
+  <Shell>
+    <h1 class="pp-h1">Moje hodina</h1>
+    <p class="pp-crumb" style="margin-top: 4px;" data-summary>Načítám…</p>
+
+    <div class="pp-notice pp-noprint" data-shared hidden>
+      <span data-shared-text></span>
+      <button type="button" class="pp-btn" data-adopt>Uložit jako moji hodinu</button>
+    </div>
+
+    <div class="pp-d-actions pp-noprint" style="margin: 16px 0 20px;">
+      <button type="button" class="pp-btn primary" data-print><Icon name="print" size={16} /> Vytisknout</button>
+      <button type="button" class="pp-btn" data-share><Icon name="share" size={16} /> <span>Poslat odkaz</span></button>
+      <button type="button" class="pp-btn" data-clear><Icon name="trash" size={16} /> Vyprázdnit</button>
+    </div>
+
+    <div class="pp-hodina" data-hodina>
+      <section class="pp-panel" aria-labelledby="h-nachystat" style="order: 0;">
+        <h2 id="h-nachystat">Co nachystat <span class="num" data-mat-count></span></h2>
+        <ul class="pp-check" data-materials></ul>
+        <p class="pp-count" data-materials-empty hidden>Vybrané položky nemají uvedené pomůcky.</p>
+      </section>
+      <section class="pp-panel" aria-labelledby="h-polozky">
+        <h2 id="h-polozky">Položky <span class="num" data-item-count></span></h2>
+        <ul class="pp-tray-list" data-items></ul>
+      </section>
+      <section class="pp-panel" aria-labelledby="h-spustit" data-launch-panel hidden>
+        <h2 id="h-spustit">Spustit v hodině</h2>
+        <ul class="pp-links" data-launch></ul>
+      </section>
+    </div>
+
+    <div class="pp-empty" data-empty hidden>
+      Hodina je prázdná. Přidej položky tlačítkem + v kterékoli podkapitole. <a href="/test1">Vybrat podkapitolu</a>, nebo si prohlédni
+      <a href={`/test1/hodina?h=${sampleKeys.join(',')}`}>ukázkovou hodinu k teplu</a>.
+    </div>
+  </Shell>
+</ProtoLayout>
+
+<style is:global>
+  @media (min-width: 900px) {
+    [data-hodina] { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; }
+  }
+</style>
+
+<script>
+  import { getTray, setTray, storeGet, storeSet, TRAY_EVENT, trayHref } from '../../lib/library/browser';
+  import { KIND_LABEL, MATERIAL_ACTION, normalize, plural, type Kind } from '../../lib/library/model';
+
+  type Item = {
+    k: string; kind: Kind; t: string; type: string; topic: string; sub: string;
+    url?: string; host?: string; mat?: string[]; opt?: number[];
+  };
+  type Index = { topics: { id: string; name: string; subtopics: { id: string; name: string }[] }[]; items: Item[] };
+
+  const $ = <T extends HTMLElement>(s: string) => document.querySelector<T>(s)!;
+  const CHECK_KEY = 'bekovo-proto-hodina-hotovo';
+
+  const params = new URLSearchParams(location.search);
+  const shared = params.get('h')?.split(',').filter(Boolean) ?? null;
+
+  main();
+
+  async function main() {
+  const index: Index = await (await fetch('/test/library.json')).json();
+  const byKey = new Map(index.items.map((i) => [i.k, i]));
+  const subName = new Map(index.topics.flatMap((t) => t.subtopics.map((s) => [s.id, s.name])));
+
+  const sameSet = (a: string[], b: string[]) => a.length === b.length && a.every((k) => b.includes(k));
+
+  const current = () => {
+    const mine = getTray();
+    if (shared && !sameSet(shared, mine)) return { keys: shared, isShared: true };
+    return { keys: mine, isShared: false };
+  };
+
+  const checked = new Set<string>(JSON.parse(storeGet(CHECK_KEY) ?? '[]'));
+
+  const render = () => {
+    const { keys, isShared } = current();
+    const items = keys.map((k) => byKey.get(k)).filter((i): i is Item => Boolean(i));
+
+    $('[data-shared]').hidden = !isShared;
+    $('[data-shared-text]').textContent = `Otevřel jsi sdílenou hodinu (${items.length} ${plural(items.length, 'položka', 'položky', 'položek')}). Tvoje uložená hodina se nemění.`;
+    $('[data-empty]').hidden = items.length > 0;
+    $('[data-hodina]').hidden = items.length === 0;
+    document.querySelectorAll<HTMLElement>('[data-print],[data-share],[data-clear]').forEach((b) => (b.hidden = items.length === 0));
+    $<HTMLButtonElement>('[data-clear]').hidden = items.length === 0 || isShared;
+
+    // Sloučené pomůcky: stejné znění (bez diakritiky a velikosti písmen) = jedna položka.
+    const merged = new Map<string, { text: string; who: string[]; optional: boolean }>();
+    for (const item of items) {
+      (item.mat ?? []).forEach((m, idx) => {
+        const key = normalize(m).replace(/\s+/g, ' ').trim();
+        const entry = merged.get(key) ?? { text: m, who: [], optional: true };
+        entry.who.push(item.t);
+        entry.optional &&= Boolean(item.opt?.includes(idx));
+        merged.set(key, entry);
+      });
+    }
+    const mats = [...merged.entries()].sort((a, b) => Number(a[1].optional) - Number(b[1].optional));
+    $('[data-materials]').replaceChildren(
+      ...mats.map(([key, m]) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<label><input type="checkbox"><span><span data-t></span> <small data-o></small><br><small class="pp-who" data-w></small></span></label>`;
+        li.querySelector('[data-t]')!.textContent = m.text;
+        li.querySelector('[data-o]')!.textContent = m.optional && !/volitel/i.test(m.text) ? '(volitelně)' : '';
+        li.querySelector('[data-w]')!.textContent = m.who.length > 1 ? `pro ${m.who.length} položky: ${m.who.join(', ')}` : `pro: ${m.who[0]}`;
+        const box = li.querySelector('input')!;
+        box.checked = checked.has(key);
+        box.addEventListener('change', () => {
+          box.checked ? checked.add(key) : checked.delete(key);
+          storeSet(CHECK_KEY, JSON.stringify([...checked]));
+        });
+        return li;
+      }),
+    );
+    const required = mats.filter(([, m]) => !m.optional).length;
+    $('[data-mat-count]').textContent = mats.length ? `${required}${mats.length > required ? ` + ${mats.length - required} volitelně` : ''}` : '';
+    $('[data-materials-empty]').hidden = mats.length > 0;
+
+    $('[data-item-count]').textContent = String(items.length);
+    $('[data-items]').replaceChildren(
+      ...items.map((item) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<span class="t"><a></a><small></small></span>`;
+        const a = li.querySelector('a')!;
+        a.href = `/test1/${item.topic}/${item.sub}#${item.k}`;
+        a.textContent = item.t;
+        li.querySelector('small')!.textContent = `${KIND_LABEL[item.kind].one} · ${subName.get(item.sub) ?? ''}`;
+        if (!isShared) {
+          const rm = document.createElement('button');
+          rm.type = 'button';
+          rm.className = 'pp-add pp-noprint';
+          rm.setAttribute('aria-label', `Odebrat z hodiny: ${item.t}`);
+          rm.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>';
+          rm.addEventListener('click', () => setTray(getTray().filter((k) => k !== item.k)));
+          li.append(rm);
+        }
+        return li;
+      }),
+    );
+
+    const launch = items.filter((i) => i.url);
+    $('[data-launch-panel]').hidden = launch.length === 0;
+    $('[data-launch]').replaceChildren(
+      ...launch.map((i) => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = i.url!;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = `${MATERIAL_ACTION[i.type] ?? 'Otevřít'}: ${i.t}${i.host ? ` (${i.host})` : ''} ↗`;
+        li.append(a);
+        return li;
+      }),
+    );
+
+    const req = mats.filter(([, m]) => !m.optional).length;
+    $('[data-summary]').textContent = items.length
+      ? `${items.length} ${plural(items.length, 'položka', 'položky', 'položek')} · ${req} ${plural(req, 'pomůcka', 'pomůcky', 'pomůcek')} k nachystání`
+      : 'Zatím nic nevybráno.';
+  };
+
+  $('[data-print]').addEventListener('click', () => window.print());
+  $('[data-clear]').addEventListener('click', () => {
+    if (confirm('Vyprázdnit hodinu?')) setTray([]);
+  });
+  $('[data-adopt]').addEventListener('click', () => {
+    setTray(shared ?? []);
+    history.replaceState(null, '', '/test1/hodina');
+    location.reload();
+  });
+  $('[data-share]').addEventListener('click', async () => {
+    const url = new URL(trayHref(current().keys), location.origin).href;
+    const label = $('[data-share] span');
+    if (navigator.share) {
+      try { await navigator.share({ title: 'Hodina | Bekovo', url }); } catch { /* zrušeno */ }
+    } else {
+      await navigator.clipboard?.writeText(url);
+      label.textContent = 'Odkaz zkopírován';
+      setTimeout(() => (label.textContent = 'Poslat odkaz'), 2000);
+    }
+  });
+  window.addEventListener(TRAY_EVENT, render);
+  window.addEventListener('storage', render);
+  render();
+  }
+</script>
