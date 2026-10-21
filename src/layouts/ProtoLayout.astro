@@ -1,0 +1,33 @@
+---
+/**
+ * Rámec prototypů přehledů (/test*). Bez canonical a OG, s noindex — stránky
+ * nejsou v navigaci ani v sitemapě. Každý návrh si nese vlastní styly a písmo.
+ */
+import '../styles/global.css';
+import ProtoSwitcher from '../components/proto/ProtoSwitcher.astro';
+
+interface Props {
+  title: string;
+  concept: 'rozcestnik' | 'pripravna' | 'rejstrik' | 'kabinet';
+  current: 0 | 1 | 2 | 3;
+  topicId?: string;
+  subtopicId?: string;
+  themeColor?: string;
+}
+const { title, concept, current, topicId, subtopicId, themeColor = '#1b1d1f' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="cs" data-concept={concept}>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="theme-color" content={themeColor} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>{title} · návrh | Bekovo</title>
+</head>
+<body>
+  <ProtoSwitcher current={current} topicId={topicId} subtopicId={subtopicId} />
+  <slot />
+</body>
+</html>

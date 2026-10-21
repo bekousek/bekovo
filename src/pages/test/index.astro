@@ -1,0 +1,119 @@
+---
+/** Rozcestník prototypů přehledů — tři návrhy a odkazy, na čem je vyzkoušet. */
+import ProtoLayout from '../../layouts/ProtoLayout.astro';
+import ProtoMark from '../../components/proto/ProtoMark.astro';
+import { getLibrary } from '../../lib/library/data';
+
+const lib = await getLibrary();
+const samples = [
+  { t: 'energie', s: 'teplo-a-jeho-sireni' },
+  { t: 'castice-latky', s: 'atom' },
+  { t: 'elektrina', s: 'transformator' },
+]
+  .map(({ t, s }) => lib.subById.get(s) && { t, s, sub: lib.subById.get(s)! })
+  .filter(Boolean) as { t: string; s: string; sub: { name: string; total: number } }[];
+
+const concepts = [
+  {
+    n: 1,
+    name: 'Přípravna',
+    when: 'Příprava hodiny',
+    text: 'Jedna podkapitola jako pracovní místo. Pokusy, aktivity, materiály i úkoly v jednom seznamu se záložkami a filtry, detail s pomůckami a postupem hned vedle. Co se hodí, přidáš do Hodiny, která sloučí pomůcky do jednoho seznamu k nachystání a vytiskne ho na A4.',
+    try: samples.map((x) => ({ label: `${x.sub.name} (${x.sub.total})`, href: `/test1/${x.t}/${x.s}` })).concat([{ label: 'Moje hodina', href: '/test1/hodina' }]),
+  },
+  {
+    n: 2,
+    name: 'Rejstřík',
+    when: 'Hledání napříč tématy',
+    text: 'Jedno hledací pole nad celou bankou (2 414 položek), filtry s živými počty a odkazy, které se dají uložit. „Mám po ruce": zaklikneš pomůcky, které máš, a pokusy se seřadí podle toho, kolik jich chybí.',
+    try: [
+      { label: 'hledání „balónek"', href: '/test2?q=balonek' },
+      { label: 'applety pro 7. třídu', href: '/test2?r=7&m=applet' },
+      { label: 'mám balónek, láhev, vodu a svíčku', href: '/test2?p=balonek,lahev,voda,svicka' },
+    ],
+  },
+  {
+    n: 3,
+    name: 'Kabinet',
+    when: 'Přímo v hodině',
+    text: 'Kartičky podle druhu: na telefonu poličky, které projedeš palcem, na PC mřížka. Karta se otevře jako recept (pomůcky a postup) a pokus jde spustit v režimu „V hodině": velké písmo, krok za krokem, telefon během pokusu nezhasne.',
+    try: samples.map((x) => ({ label: `${x.sub.name} (${x.sub.total})`, href: `/test3/${x.t}/${x.s}` })),
+  },
+];
+---
+<ProtoLayout title="Návrhy přehledů" concept="rozcestnik" current={0}>
+  <main class="hub">
+    <p class="brand"><ProtoMark size={22} /> Bekovo</p>
+    <h1>Tři návrhy přehledů</h1>
+    <p class="lead">
+      Všechny běží na skutečných datech webu. Otevři stejnou podkapitolu ve všech třech a přepínej je černou lištou nahoře.
+      Lišta drží podkapitolu, na které právě jsi. Současný web se nemění.
+    </p>
+    <ol class="cards">
+      {concepts.map((c) => (
+        <li class="card">
+          <p class="when"><span class="n">{c.n}</span> {c.when}</p>
+          <h2><a href={`/test${c.n}`}>{c.name}</a></h2>
+          <p>{c.text}</p>
+          <p class="try-label">Vyzkoušej:</p>
+          <ul class="try">
+            {c.try.map((t) => <li><a href={t.href}>{t.label}</a></li>)}
+          </ul>
+        </li>
+      ))}
+    </ol>
+    <section class="notes">
+      <h2>Na co se dívat</h2>
+      <ul>
+        <li>Stejný úkol ve všech třech: např. „najdi demonstrační pokus k teplu a nachystej si na něj pomůcky".</li>
+        <li>Telefon i PC: každý návrh má na telefonu vlastní rozvržení, ne zmenšené PC.</li>
+        <li>Štítek žákovský / demonstrační se odvozuje z úvodu popisu; kde v textu chybí, je „neuvedeno".</li>
+        <li>Režim „V hodině" drží displej rozsvícený jen přes HTTPS (na bekovo.cz ano).</li>
+      </ul>
+    </section>
+  </main>
+</ProtoLayout>
+
+<style>
+  :global([data-concept='rozcestnik'] body) {
+    margin: 0;
+    background: #f4f5f7;
+    color: #111315;
+    font: 400 16px/24px system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+  .hub { max-width: 1120px; margin: 0 auto; padding: 24px 16px 64px; }
+  .brand { display: flex; align-items: center; gap: 8px; margin: 0 0 24px; font-weight: 700; }
+  h1 { margin: 0; font-size: 24px; line-height: 30px; letter-spacing: -0.015em; }
+  .lead { max-width: 64ch; margin: 8px 0 0; color: #4d535a; }
+  .cards { display: grid; gap: 16px; margin: 28px 0 0; padding: 0; list-style: none; }
+  .card { display: flex; flex-direction: column; padding: 22px 22px 18px; border-radius: 14px; background: #fff; border: 1px solid #e2e5e9; }
+  .card p { margin: 0 0 12px; color: #33383d; }
+  .when { display: flex; align-items: center; gap: 8px; color: #4d535a !important; font-size: 14px; font-weight: 600; }
+  .n { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 6px; background: #1b1d1f; color: #fff; font-size: 13px; }
+  .card h2 { margin: 0 0 8px; font-size: 24px; line-height: 30px; }
+  .card h2 a { color: inherit; text-decoration: none; }
+  .card h2 a:hover { text-decoration: underline; text-underline-offset: 4px; }
+  .try-label { margin: auto 0 6px !important; padding-top: 4px; font-size: 14px; font-weight: 600; }
+  .try { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; padding: 0; list-style: none; }
+  .try a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 12px;
+    border-radius: 8px;
+    background: #eef0f3;
+    color: #111315;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  .try a:hover { background: #e2e5e9; }
+  .notes { margin-top: 36px; max-width: 72ch; }
+  .notes h2 { margin: 0 0 8px; font-size: 18px; }
+  .notes ul { margin: 0; padding-left: 20px; list-style: disc; color: #33383d; }
+  .notes li { margin: 4px 0; }
+  @media (min-width: 900px) {
+    .hub { padding: 40px 32px 80px; }
+    h1 { font-size: 30px; line-height: 36px; }
+    .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+</style>

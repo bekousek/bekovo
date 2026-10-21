@@ -1,0 +1,202 @@
+---
+/**
+ * Rám Přípravny: tónovaný postranní panel + horní lišta (L-rám) a bílý list.
+ * Na telefonu se panel schová do menu a zůstane jen lišta s Hodinou.
+ */
+import ProtoMark from '../ProtoMark.astro';
+import Icon from '../Icon.astro';
+import { getLibrary, type SubtopicInfo, type TopicInfo } from '../../../lib/library/data';
+import { normalize } from '../../../lib/library/model';
+
+interface Props {
+  topic?: TopicInfo;
+  subtopic?: SubtopicInfo;
+}
+const { topic, subtopic } = Astro.props;
+const lib = await getLibrary();
+const jump = lib.topics.flatMap((t) =>
+  t.subtopics.map((s) => ({
+    n: s.name,
+    t: `${t.name} · ${t.grade}.`,
+    h: `/test1/${t.id}/${s.id}`,
+    c: s.total,
+    s: normalize(`${s.name} ${t.name}`),
+  })),
+);
+---
+<div class="pp-app">
+  <aside class="pp-side" aria-label="Navigace Přípravny">
+    <a class="pp-brand" href="/test1"><ProtoMark size={20} /> Bekovo <small>Přípravna</small></a>
+    {topic && (
+      <>
+        <p class="pp-side-label">{topic.name} · {topic.grade}. třída</p>
+        <ul class="pp-nav">
+          {topic.subtopics.map((s) => (
+            <li>
+              <a href={`/test1/${topic.id}/${s.id}`} aria-current={s.id === subtopic?.id ? 'page' : undefined}>
+                <span>{s.name}</span><span class="num">{s.total}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+    <p class="pp-side-label">Přehled</p>
+    <ul class="pp-nav">
+      <li><a href="/test1" aria-current={!topic && Astro.url.pathname.replace(/\/$/, '') === '/test1' ? 'page' : undefined}>Všechna témata</a></li>
+      <li>
+        <a href="/test1/hodina" aria-current={Astro.url.pathname.startsWith('/test1/hodina') ? 'page' : undefined}>
+          <span>Moje hodina</span><span class="num" data-tray-num></span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+
+  <div class="pp-main">
+    <header class="pp-top">
+      <button type="button" class="pp-iconbtn pp-menu-btn" data-menu-open aria-label="Otevřít menu">
+        <Icon name="menu" />
+      </button>
+      <a href="/test1" class="pp-top-title" style="color: inherit; text-decoration: none;">
+        <ProtoMark size={20} /> Přípravna
+      </a>
+      <div class="pp-jump">
+        <div class="pp-jump-box" data-jump>
+          <Icon name="search" size={16} class="ico" />
+          <input type="search" placeholder="Skok na podkapitolu…" aria-label="Skok na podkapitolu" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" />
+          <kbd>Ctrl K</kbd>
+          <ul class="pp-jump-list" role="listbox" hidden></ul>
+        </div>
+      </div>
+      <div class="pp-top-actions">
+        <a class="pp-hodina-link" href="/test1/hodina">
+          Hodina <span class="count" data-tray-count aria-live="polite">0</span>
+        </a>
+      </div>
+    </header>
+    <main class="pp-sheet">
+      <slot />
+    </main>
+  </div>
+</div>
+
+<dialog class="pp-dialog" id="pp-menu" aria-label="Menu">
+  <div class="pp-dialog-bar">
+    <button type="button" class="pp-iconbtn" data-close aria-label="Zavřít menu"><Icon name="close" /></button>
+    <strong>Přípravna</strong>
+  </div>
+  <div class="pp-dialog-body">
+    <div class="pp-jump-box" data-jump style="width: 100%;">
+      <Icon name="search" size={16} class="ico" />
+      <input type="search" placeholder="Skok na podkapitolu…" aria-label="Skok na podkapitolu" autocomplete="off" role="combobox" aria-expanded="false" aria-autocomplete="list" />
+      <ul class="pp-jump-list" role="listbox" hidden></ul>
+    </div>
+    {topic && (
+      <>
+        <p class="pp-side-label" style="margin-left: 0;">{topic.name} · {topic.grade}. třída</p>
+        <ul class="pp-nav">
+          {topic.subtopics.map((s) => (
+            <li>
+              <a href={`/test1/${topic.id}/${s.id}`} aria-current={s.id === subtopic?.id ? 'page' : undefined}>
+                <span>{s.name}</span><span class="num">{s.total}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </>
+    )}
+    <p class="pp-side-label" style="margin-left: 0;">Přehled</p>
+    <ul class="pp-nav">
+      <li><a href="/test1">Všechna témata</a></li>
+      <li><a href="/test1/hodina">Moje hodina</a></li>
+    </ul>
+    <slot name="menu" />
+  </div>
+</dialog>
+
+<script type="application/json" id="pp-jump-data" set:html={JSON.stringify(jump)} />
+
+<script>
+  import { getTray, openDialog, TRAY_EVENT } from '../../../lib/library/browser';
+  import { normalize } from '../../../lib/library/model';
+
+  type Jump = { n: string; t: string; h: string; c: number; s: string };
+  const jumps: Jump[] = JSON.parse(document.getElementById('pp-jump-data')?.textContent ?? '[]');
+
+  // Počet položek v Hodině v liště i v panelu.
+  const paintTray = () => {
+    const n = getTray().length;
+    document.querySelectorAll<HTMLElement>('[data-tray-count]').forEach((el) => {
+      el.textContent = String(n);
+      el.toggleAttribute('data-zero', n === 0);
+    });
+    document.querySelectorAll<HTMLElement>('[data-tray-num]').forEach((el) => (el.textContent = n ? String(n) : ''));
+  };
+  paintTray();
+  window.addEventListener(TRAY_EVENT, paintTray);
+  window.addEventListener('storage', paintTray);
+
+  // Menu na telefonu.
+  const menu = document.getElementById('pp-menu') as HTMLDialogElement | null;
+  document.querySelector('[data-menu-open]')?.addEventListener('click', () => menu && openDialog(menu));
+  menu?.querySelector('[data-close]')?.addEventListener('click', () => menu.close());
+
+  // Skok na podkapitolu: našeptávač nad 88 podkapitolami.
+  document.querySelectorAll<HTMLElement>('[data-jump]').forEach((box) => {
+    const input = box.querySelector('input')!;
+    const list = box.querySelector('ul')!;
+    let active = 0;
+    let shown: Jump[] = [];
+    const render = () => {
+      const words = normalize(input.value.trim()).split(/\s+/).filter(Boolean);
+      shown = words.length ? jumps.filter((j) => words.every((w) => j.s.includes(w))).slice(0, 12) : [];
+      active = 0;
+      list.replaceChildren(
+        ...shown.map((j, i) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = j.h;
+          a.setAttribute('role', 'option');
+          a.setAttribute('aria-selected', String(i === active));
+          a.innerHTML = `<span></span><small></small>`;
+          a.querySelector('span')!.textContent = j.n;
+          a.querySelector('small')!.textContent = `${j.t} · ${j.c}`;
+          li.append(a);
+          return li;
+        }),
+      );
+      if (words.length && !shown.length) {
+        const li = document.createElement('li');
+        li.textContent = 'Žádná podkapitola tohoto názvu.';
+        li.style.cssText = 'padding:8px 10px;color:var(--muted)';
+        list.append(li);
+      }
+      list.hidden = !words.length;
+      input.setAttribute('aria-expanded', String(!list.hidden));
+    };
+    const mark = () =>
+      list.querySelectorAll('a').forEach((a, i) => a.setAttribute('aria-selected', String(i === active)));
+    input.addEventListener('input', render);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowDown') { active = Math.min(active + 1, shown.length - 1); mark(); e.preventDefault(); }
+      else if (e.key === 'ArrowUp') { active = Math.max(active - 1, 0); mark(); e.preventDefault(); }
+      else if (e.key === 'Enter' && shown[active]) { location.href = shown[active].h; }
+      else if (e.key === 'Escape') { input.value = ''; render(); }
+    });
+    input.addEventListener('blur', () => setTimeout(() => (list.hidden = true), 150));
+    input.addEventListener('focus', () => input.value && render());
+  });
+
+  // Ctrl/⌘+K skočí do hledání podkapitol.
+  document.addEventListener('keydown', (e) => {
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      const visible = [...document.querySelectorAll<HTMLInputElement>('[data-jump] input')].find((i) => i.offsetParent);
+      if (visible) visible.focus();
+      else if (menu) {
+        openDialog(menu);
+        menu.querySelector<HTMLInputElement>('[data-jump] input')?.focus();
+      }
+    }
+  });
+</script>

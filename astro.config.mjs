@@ -13,5 +13,6 @@ export default defineConfig({
     plugins: [tailwindcss()]
   },
 
-  integrations: [react(), sitemap()]
+  // Prototypy pod /test* nejsou v navigaci ani v sitemapě (viz src/layouts/ProtoLayout.astro).
+  integrations: [react(), sitemap({ filter: (page) => !/^\/test\d?(\/|$)/.test(new URL(page).pathname) })]
 });

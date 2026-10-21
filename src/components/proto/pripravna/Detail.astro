@@ -1,0 +1,83 @@
+---
+/** Plný detail položky v Přípravně — v panelu vpravo (PC) i v celoobrazovkovém listu (telefon). */
+import Icon from '../Icon.astro';
+import type { LibraryItem } from '../../../lib/library/data';
+import { AUDIENCE_LABEL, KIND_LABEL, MATERIAL_ACTION } from '../../../lib/library/model';
+import { fileLinkLabel } from '../../../lib/fileLink';
+
+interface Props {
+  item: LibraryItem;
+  /** První položka je vidět hned (PC), ještě před spuštěním skriptu. */
+  open?: boolean;
+}
+const { item, open = false } = Astro.props;
+const optionalCount = item.optional.filter(Boolean).length;
+---
+<article class="pp-detail" data-detail={item.key} hidden={!open}>
+  <h2 class="pp-d-title">{item.title}</h2>
+
+  <div class="pp-d-tags">
+    <span class="pp-pill">{KIND_LABEL[item.kind].one}{item.kind !== 'ukol' && item.type !== 'measurement' ? ` · ${item.typeLabel}` : ''}</span>
+    {item.audience && <span class:list={['pp-pill', item.audience]}>{AUDIENCE_LABEL[item.audience]}</span>}
+    {item.type === 'measurement' && <span class="pp-pill">S měřením</span>}
+    {item.host && <span class="pp-pill">{item.host}</span>}
+  </div>
+
+  <div class="pp-d-actions">
+    {item.url && (
+      <a class="pp-btn primary" href={item.url} target="_blank" rel="noopener noreferrer">
+        {MATERIAL_ACTION[item.type] ?? 'Otevřít'} <Icon name="external" size={16} />
+      </a>
+    )}
+    <button type="button" class:list={['pp-btn', !item.url && 'primary']} data-add={item.key} aria-pressed="false">
+      <span data-when="off">Přidat do hodiny</span><span data-when="on" hidden>V hodině</span>
+    </button>
+  </div>
+
+  <div class="pp-d-body">
+    {item.paragraphs.map((p) => <p>{p}</p>)}
+  </div>
+
+  {item.materials.length > 0 && (
+    <section class="pp-d-sec">
+      <h3>Pomůcky <span class="num">{item.materials.length - optionalCount}{optionalCount > 0 && ` + ${optionalCount} volitelně`}</span></h3>
+      <ul class="pp-check">
+        {item.materials.map((m, i) => (
+          <li>
+            <label>
+              <input type="checkbox" />
+              <span>{m}{item.optional[i] && !/volitel/i.test(m) && <small> (volitelně)</small>}</span>
+            </label>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {item.kind === 'pokus' && item.steps.length > 0 && (
+    <section class="pp-d-sec">
+      <h3>Postup</h3>
+      <ol class="pp-steps">{item.steps.map((s) => <li>{s}</li>)}</ol>
+    </section>
+  )}
+
+  {item.links.length > 0 && (
+    <section class="pp-d-sec">
+      <h3>Odkazy</h3>
+      <ul class="pp-links">
+        {item.links.map((l) => <li><a href={l.url} target="_blank" rel="noopener noreferrer">{l.label} ↗</a></li>)}
+      </ul>
+    </section>
+  )}
+
+  {(item.source || item.driveFileUrl) && (
+    <footer class="pp-d-foot">
+      {item.driveFileUrl && <a href={item.driveFileUrl} target="_blank" rel="noopener noreferrer">{fileLinkLabel(item.driveFileUrl)}</a>}
+      {item.source && (
+        item.source.url
+          ? <span>Zdroj: <a href={item.source.url} target="_blank" rel="noopener noreferrer">{item.source.label} ↗</a></span>
+          : <span>Zdroj: {item.source.label}</span>
+      )}
+    </footer>
+  )}
+</article>

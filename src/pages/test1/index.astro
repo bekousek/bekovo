@@ -1,0 +1,45 @@
+---
+/** Návrh 1 — Přípravna: úvod s rejstříkem všech podkapitol a počty položek. */
+import ProtoLayout from '../../layouts/ProtoLayout.astro';
+import Shell from '../../components/proto/pripravna/Shell.astro';
+import { getLibrary } from '../../lib/library/data';
+import { GRADES } from '../../lib/library/model';
+import '../../styles/proto-pripravna.css';
+
+const lib = await getLibrary();
+// Barvy ročníků ze současného webu (src/styles/global.css). taste-skill-ignore
+const gradeColor: Record<number, string> = { 6: '#10b981', 7: '#3b82f6', 8: '#f59e0b', 9: '#ef4444' };
+const total = lib.items.length;
+---
+<ProtoLayout title="Přípravna" concept="pripravna" current={1} themeColor="#eef2f6">
+  <Shell>
+    <h1 class="pp-h1">Přípravna</h1>
+    <p class="pp-crumb" style="margin-top: 4px;">
+      {total.toLocaleString('cs-CZ')} položek v {lib.topics.reduce((n, t) => n + t.subtopics.length, 0)} podkapitolách. Vyber podkapitolu, nebo do ní skoč přes hledání (Ctrl K).
+    </p>
+    <div class="pp-index-grid">
+      {GRADES.map((g) => (
+        <section class="pp-grade" aria-labelledby={`g${g}`}>
+          <h2 id={`g${g}`}><i style={`background:${gradeColor[g]}`}></i>{g}. třída</h2>
+          <div class="pp-topics-cols">
+            {lib.topics.filter((t) => t.grade === g).map((t) => (
+              <div class="pp-topic">
+                <h3>{t.name}</h3>
+                <ul>
+                  {t.subtopics.map((s) => (
+                    <li>
+                      <a href={`/test1/${t.id}/${s.id}`}>
+                        <span>{s.name}</span>
+                        <span class="num">{s.total}</span>
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      ))}
+    </div>
+  </Shell>
+</ProtoLayout>

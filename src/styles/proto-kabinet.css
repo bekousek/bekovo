@@ -1,0 +1,467 @@
+/*
+ * Návrh 3 — „Kabinet". Styl pastel-consumer (design-taste-frontend, seed 2110085964):
+ * světlé dlaždice v odstínu druhu s tmavým inkoustem téhož odstínu, jeden velký
+ * rádius. Tvář: barvy druhů z palety LaTeX zápisů (zfred, zfgreen, zfblue + okr),
+ * písmo Atkinson Hyperlegible Next — čitelné na dálku a na telefonu v ruce.
+ */
+[data-concept='kabinet'] {
+  --ground: #f3f5f7;
+  --surface: #ffffff;
+  --raised: #eef1f4;
+  --border: #e3e6ea;
+  --rule: #eef0f2;
+  --control: #d3d8dd;
+  --text: #1b1d1f;
+  --muted: #565b60;
+  --primary: #1b1d1f;
+  --radius-card: 20px;
+  --radius-inner: 12px;
+  --radius-control: 12px;
+  --gap: 16px;
+  --font: 'Atkinson Hyperlegible Next Variable', 'Atkinson Hyperlegible Next', system-ui, sans-serif;
+
+  --pokus-soft: #fbe6df;
+  --pokus-ink: #74280f;
+  --pokus-mark: #b54530;
+  --aktivita-soft: #dff1e5;
+  --aktivita-ink: #17512d;
+  --aktivita-mark: #2a8a4c;
+  --material-soft: #dde9f6;
+  --material-ink: #16416b;
+  --material-mark: #2a6dab;
+  --ukol-soft: #f5ead2;
+  --ukol-ink: #5f3f00;
+  --ukol-mark: #a86f0c;
+  color-scheme: light;
+}
+
+[data-concept='kabinet'] body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--text);
+  font: 400 16px/24px var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+.kb-wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px 64px; }
+
+/* ---- Hlavička ------------------------------------------------------------- */
+
+.kb-bar { display: flex; align-items: center; gap: 8px; height: 56px; }
+.kb-brand { display: inline-flex; align-items: center; gap: 8px; color: var(--text); font-weight: 700; text-decoration: none; }
+.kb-brand svg { color: var(--pokus-mark); }
+.kb-bar .kb-crumb { color: var(--muted); }
+.kb-bar .kb-crumb a { color: inherit; }
+.kb-head { padding: 8px 0 4px; }
+.kb-kicker { margin: 0; color: var(--muted); }
+.kb-kicker a { color: inherit; }
+.kb-h1 { margin: 2px 0 0; font-size: 28px; line-height: 34px; font-weight: 700; letter-spacing: -0.015em; }
+.kb-sum { margin: 8px 0 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.kb-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.kb-count[data-k='pokus'] { background: var(--pokus-soft); color: var(--pokus-ink); }
+.kb-count[data-k='aktivita'] { background: var(--aktivita-soft); color: var(--aktivita-ink); }
+.kb-count[data-k='material'] { background: var(--material-soft); color: var(--material-ink); }
+.kb-count[data-k='ukol'] { background: var(--ukol-soft); color: var(--ukol-ink); }
+.kb-sec { display: flex; gap: 8px; margin: 16px -16px 0; padding: 0 16px; list-style: none; overflow-x: auto; scrollbar-width: none; }
+.kb-sec li { flex: none; }
+.kb-sec a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-size: 15px;
+  white-space: nowrap;
+  text-decoration: none;
+}
+.kb-sec a:hover { border-color: var(--control); }
+
+/* ---- Poličky -------------------------------------------------------------- */
+
+.kb-shelf { margin-top: 32px; }
+.kb-shelf-head { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 12px; }
+.kb-shelf-head h2 { margin: 0; font-size: 22px; line-height: 28px; font-weight: 700; display: flex; align-items: baseline; gap: 8px; }
+.kb-shelf-head h2 .num { color: var(--muted); font-weight: 400; font-size: 18px; font-variant-numeric: tabular-nums; }
+.kb-shelf-head .kb-more { margin-left: auto; order: 1; }
+.kb-shelf-head .kb-seg { order: 2; }
+.kb-seg { display: inline-flex; gap: 4px; padding: 3px; background: var(--raised); border-radius: var(--radius-control); }
+.kb-seg button {
+  border: 1px solid transparent;
+  min-height: 36px;
+  padding: 0 12px;
+  border-radius: 9px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.kb-seg button[aria-pressed='true'] { background: var(--surface); color: var(--text); border-color: var(--border); }
+.kb-more {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  color: var(--text);
+  font-weight: 600;
+  font-size: 15px;
+}
+.kb-more:hover { background: var(--raised); }
+
+/* Telefon: vodorovná polička se snapem. PC: mřížka, první dvě řady. */
+.kb-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80%;
+  gap: 12px;
+  margin: 0 -16px;
+  padding: 2px 16px 8px;
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 16px;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.kb-row::-webkit-scrollbar { display: none; }
+.kb-shelf.is-open .kb-row { grid-auto-flow: row; grid-template-columns: 1fr; margin: 0; padding: 0; overflow: visible; }
+
+.kb-card {
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  overflow: hidden;
+}
+.kb-card[hidden] { display: none; }
+.kb-card-hit {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 18px 14px;
+  color: inherit;
+  text-decoration: none;
+}
+.kb-card-hit:hover h3 { text-decoration: underline; text-underline-offset: 3px; }
+.kb-tag {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.kb-card[data-k='pokus'] .kb-tag, .kb-tag[data-k='pokus'] { background: var(--pokus-soft); color: var(--pokus-ink); }
+.kb-card[data-k='aktivita'] .kb-tag, .kb-tag[data-k='aktivita'] { background: var(--aktivita-soft); color: var(--aktivita-ink); }
+.kb-card[data-k='material'] .kb-tag, .kb-tag[data-k='material'] { background: var(--material-soft); color: var(--material-ink); }
+.kb-card[data-k='ukol'] .kb-tag, .kb-tag[data-k='ukol'] { background: var(--ukol-soft); color: var(--ukol-ink); }
+.kb-card h3 { margin: 0; font-size: 19px; line-height: 25px; font-weight: 700; }
+.kb-card-ex {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 22px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.kb-card-foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: 0 10px 0 18px;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 14px;
+}
+.kb-card-foot .grow { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kb-launch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  background: var(--material-soft);
+  color: var(--material-ink);
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.kb-launch:hover { filter: brightness(0.96); }
+.kb-live-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  padding: 0 14px;
+  border-radius: var(--radius-control);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+}
+.kb-card[data-k='pokus'] .kb-live-btn { background: var(--pokus-soft); color: var(--pokus-ink); }
+.kb-card[data-k='aktivita'] .kb-live-btn { background: var(--aktivita-soft); color: var(--aktivita-ink); }
+.kb-live-btn:hover { filter: brightness(0.96); }
+
+.kb-empty {
+  margin-top: 32px;
+  padding: 24px;
+  border-radius: var(--radius-card);
+  background: var(--surface);
+  border: 1px dashed var(--control);
+  color: var(--muted);
+}
+
+/* ---- Karta jako recept (dialog) ------------------------------------------ */
+
+.kb-recipe {
+  width: 100%;
+  max-width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: var(--surface);
+  color: var(--text);
+}
+.kb-recipe::backdrop { background: rgb(27 29 31 / 0.45); }
+.kb-recipe-bar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: env(safe-area-inset-top) 8px 0;
+  background: var(--surface);
+  border-bottom: 1px solid var(--rule);
+}
+.kb-iconbtn { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: var(--radius-control); color: inherit; }
+.kb-iconbtn:hover { background: var(--raised); }
+.kb-recipe-body { padding: 20px 20px calc(40px + env(safe-area-inset-bottom)); }
+.kb-rec { display: flex; flex-direction: column; gap: 20px; }
+.kb-rec[hidden] { display: none; }
+.kb-rec h2 { margin: 0; font-size: 28px; line-height: 34px; font-weight: 700; letter-spacing: -0.01em; }
+.kb-rec-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.kb-rec-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.kb-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 0 22px;
+  border-radius: 14px;
+  background: var(--primary);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.kb-btn:hover { background: #33373b; }
+.kb-btn.soft { background: var(--raised); color: var(--text); }
+.kb-rec-desc p { margin: 0 0 12px; font-size: 17px; line-height: 27px; }
+.kb-rec h3 { margin: 0 0 10px; font-size: 20px; font-weight: 700; }
+.kb-ingr { margin: 0; padding: 0; list-style: none; display: grid; gap: 4px; }
+.kb-ingr label { display: flex; gap: 12px; align-items: flex-start; padding: 8px 12px; border-radius: 10px; background: var(--raised); font-size: 17px; line-height: 24px; cursor: pointer; }
+.kb-ingr input { width: 22px; height: 22px; margin-top: 1px; flex: none; accent-color: var(--pokus-mark); }
+.kb-ingr input:checked + span { text-decoration: line-through; color: var(--muted); }
+.kb-ingr small { color: var(--muted); font-size: 14px; }
+.kb-steps { margin: 0; padding: 0; list-style: none; counter-reset: step; display: grid; gap: 12px; }
+.kb-steps li { counter-increment: step; display: grid; grid-template-columns: 36px 1fr; gap: 12px; font-size: 17px; line-height: 26px; }
+.kb-steps li::before {
+  content: counter(step);
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--pokus-soft);
+  color: var(--pokus-ink);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.kb-rec-foot { padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 15px; display: flex; flex-direction: column; gap: 4px; }
+.kb-rec-foot a { color: var(--material-ink); }
+
+/* ---- Režim „V hodině" ----------------------------------------------------- */
+
+.kb-live {
+  width: 100%;
+  max-width: 100%;
+  height: 100dvh;
+  max-height: 100dvh;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: #0f1011;
+  color: #f4f4f4;
+  --live-size: 30px;
+}
+.kb-live[data-size='1'] { --live-size: 38px; }
+.kb-live[data-size='2'] { --live-size: 48px; }
+.kb-live::backdrop { background: #0f1011; }
+.kb-live-inner {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
+  height: 100%;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.kb-live-top { display: flex; align-items: center; gap: 8px; min-height: 56px; padding: 0 8px; }
+.kb-live-top .title { flex: 1; min-width: 0; color: #b4b4b4; font-size: 15px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kb-live-top .kb-iconbtn:hover { background: #222426; }
+.kb-wake { color: #949494; font-size: 13px; white-space: nowrap; }
+.kb-wake[data-on] { color: #7fd29a; }
+.kb-live-stage {
+  overflow-y: auto;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  touch-action: pan-y;
+}
+.kb-live-label { margin: 0 0 12px; color: #b4b4b4; font-size: 18px; font-weight: 700; }
+.kb-live-text { margin: 0; font-size: var(--live-size); line-height: 1.3; font-weight: 600; letter-spacing: -0.01em; max-width: 30ch; }
+.kb-live-ingr { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.kb-live-ingr label { display: flex; gap: 16px; align-items: center; padding: 12px 16px; border-radius: 14px; background: #1c1e20; font-size: calc(var(--live-size) * 0.72); line-height: 1.3; cursor: pointer; }
+.kb-live-ingr input { width: 28px; height: 28px; flex: none; accent-color: #7fd29a; }
+.kb-live-ingr input:checked + span { text-decoration: line-through; color: #8a8f94; }
+.kb-live-nav { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 12px; padding: 12px 16px 16px; }
+.kb-live-nav button {
+  min-height: 64px;
+  border-radius: 18px;
+  background: #222426;
+  color: #f4f4f4;
+  font-size: 18px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.kb-live-nav button:disabled { opacity: 0.35; }
+.kb-live-nav [data-next] { background: #f4f4f4; color: #0f1011; }
+.kb-live-progress { color: #b4b4b4; font-size: 16px; font-variant-numeric: tabular-nums; text-align: center; min-width: 64px; }
+.kb-live-dots { display: flex; gap: 6px; justify-content: center; margin-top: 6px; }
+.kb-live-dots i { width: 6px; height: 6px; border-radius: 50%; background: #3a3d40; }
+.kb-live-dots i[data-on] { background: #f4f4f4; }
+
+/* ---- Úvod /test3 ---------------------------------------------------------- */
+
+.kb-grades { position: sticky; top: 0; z-index: 5; display: flex; gap: 8px; padding: 10px 0; background: var(--ground); overflow-x: auto; scrollbar-width: none; }
+.kb-grades a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.kb-grade { scroll-margin-top: 72px; margin-top: 28px; }
+.kb-grade > h2 { margin: 0 0 12px; font-size: 24px; font-weight: 700; }
+.kb-topics { columns: 1; column-gap: var(--gap); }
+.kb-topic { break-inside: avoid; margin-bottom: var(--gap); padding: 18px 18px 8px; border-radius: var(--radius-card); background: var(--surface); border: 1px solid var(--border); }
+.kb-topic h3 { margin: 0 0 6px; font-size: 20px; font-weight: 700; }
+.kb-topic ul { margin: 0; padding: 0; list-style: none; }
+.kb-topic li + li { border-top: 1px solid var(--rule); }
+.kb-topic a { display: flex; flex-direction: column; gap: 6px; padding: 12px 0; color: var(--text); text-decoration: none; }
+.kb-topic a:hover .n { text-decoration: underline; text-underline-offset: 3px; }
+.kb-topic .n { font-size: 17px; font-weight: 600; }
+.kb-mini { display: flex; flex-wrap: wrap; gap: 6px; }
+.kb-mini .kb-count { height: 24px; font-size: 13px; padding: 0 8px; }
+.kb-mini .none { color: var(--muted); font-size: 14px; }
+
+:focus-visible { outline: 3px solid #2a6dab; outline-offset: 2px; }
+.kb-live :focus-visible { outline-color: #f4f4f4; }
+
+/* ---- Breakpointy ---------------------------------------------------------- */
+
+@media (min-width: 600px) {
+  .kb-row { grid-auto-columns: 46%; }
+  .kb-topics { columns: 2; }
+}
+
+@media (min-width: 900px) {
+  .kb-wrap { padding: 0 32px 80px; }
+  .kb-sec { flex-wrap: wrap; margin: 16px 0 0; padding: 0; overflow: visible; }
+  .kb-shelf-head .kb-seg { order: 0; }
+  .kb-h1 { font-size: 32px; line-height: 38px; }
+  .kb-row {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-auto-columns: auto;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+  }
+  .kb-shelf.is-open .kb-row { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  /* Na PC ukazuje polička jednu řadu, zbytek za „Zobrazit vše". */
+  .kb-shelf:not(.is-open) .kb-card:nth-child(n + 4) { display: none; }
+  .kb-topics { columns: 3; }
+  .kb-recipe {
+    width: min(760px, calc(100% - 48px));
+    height: auto;
+    max-height: calc(100dvh - 48px);
+    margin: auto;
+    border-radius: var(--radius-card);
+  }
+  .kb-recipe-body { padding: 24px 32px 32px; }
+  .kb-ingr { grid-template-columns: 1fr 1fr; }
+  .kb-live-stage { padding: 24px 64px; align-items: flex-start; }
+  .kb-live-nav { padding: 16px 64px 32px; }
+  .kb-live-nav button { min-height: 72px; font-size: 20px; }
+}
+
+@media (min-width: 1200px) {
+  .kb-row, .kb-shelf.is-open .kb-row { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .kb-shelf:not(.is-open) .kb-card:nth-child(n + 4) { display: flex; }
+  .kb-shelf:not(.is-open) .kb-card:nth-child(n + 5) { display: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .kb-card, .kb-seg button, .kb-more, .kb-btn, .kb-launch, .kb-live-nav button { transition: background-color 160ms, filter 160ms, border-color 160ms; }
+  .kb-live-text, .kb-live-ingr { animation: kb-in 200ms ease-out; }
+  @keyframes kb-in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+}
+
+/* „Zobrazit vše" jen tam, kde se polička na PC nevejde do jedné řady. */
+@media (min-width: 900px) {
+  .kb-more[data-total='3'] { display: none; }
+}
+@media (min-width: 1200px) {
+  .kb-more[data-total='4'] { display: none; }
+}
+
+/* Atribut hidden musí vyhrát i nad display z tříd výše. */
+[data-concept='kabinet'] [hidden] { display: none !important; }
