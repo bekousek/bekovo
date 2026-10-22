@@ -1,0 +1,27 @@
+---
+/** Hra pro žáky: vydělej, nakup díly, slož PC, nainstaluj systém. */
+import GameLayout from '../../layouts/GameLayout.astro';
+import BuildPcGame from '../../components/build-pc/BuildPcGame.tsx';
+import '@fontsource-variable/pixelify-sans';
+import '@fontsource-variable/atkinson-hyperlegible-next';
+import '../../styles/build-pc.css';
+---
+<GameLayout
+  title="Postav si PC"
+  description="Hra pro 9. třídu: vydělej si na brigádách, nakup kompatibilní díly, slož počítač a nainstaluj systém."
+>
+  <BuildPcGame client:only="react">
+    <div slot="fallback" class="bpc">
+      <main class="bpc-main">
+        <h1 class="t-pixel t-48">Postav si PC</h1>
+        <p class="t-muted" style="margin-top:16px">Načítám hru…</p>
+      </main>
+    </div>
+  </BuildPcGame>
+  <noscript>
+    <div class="bpc"><main class="bpc-main">
+      <h1 class="t-pixel t-48">Postav si PC</h1>
+      <p style="margin-top:16px">Hra potřebuje zapnutý JavaScript.</p>
+    </main></div>
+  </noscript>
+</GameLayout>
