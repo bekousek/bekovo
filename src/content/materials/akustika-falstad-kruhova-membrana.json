@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-kruhova-membrana",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Falstad: Kruhová membrána (kmity bubnu)",
+  "type": "applet",
+  "description": "Interaktivní applet simuluje kmitové módy kruhové membrány, například bubnu. Kliknutím na čtverečky lze zvolit různé vidy kmitání a sledovat vzorce kmiten a uzlů, případně kombinovat více módů najednou — ukazuje, proč buben nemá jednoduchou harmonickou řadu tónů jako struna.",
+  "url": "https://www.falstad.com/circosc/"
+}
