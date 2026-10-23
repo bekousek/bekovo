@@ -1,0 +1,9 @@
+{
+  "id": "akustika-walter-fendt-podelne-vlneni",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Walter Fendt: Stojaté podélné vlnění ve vzduchovém sloupci",
+  "type": "applet",
+  "description": "Česká HTML5 simulace stojatého podélného vlnění vzduchu v trubici s otevřenými či uzavřenými konci. Zobrazuje kmitání částic vzduchu, uzly a kmitny výchylky i tlaku a umožňuje měnit délku trubice a volit mód — fyzikální základ dechových nástrojů, jako je flétna nebo varhanní píšťala.",
+  "url": "https://www.walter-fendt.de/html5/phcz/standinglongitudinalwaves_cz.htm"
+}

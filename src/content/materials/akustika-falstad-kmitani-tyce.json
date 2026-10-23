@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-kmitani-tyce",
+  "subtopicId": "hudebni-nastroje",
+  "topicId": "akustika",
+  "title": "Falstad: Kmitání tyče (ohybové vlny)",
+  "type": "applet",
+  "description": "Applet simuluje ohybové (příčné) kmity tuhé tyče po rozkmitání nebo přetažení myší. Graf dole ukazuje jednotlivé normální módy a jejich skládání a lze volit různé uložení konců tyče — princip, na kterém zní laditelné tyčinky xylofonu nebo zvonkohry.",
+  "url": "https://www.falstad.com/barwaves/"
+}
