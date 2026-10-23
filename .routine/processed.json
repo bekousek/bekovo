@@ -94,7 +94,14 @@
     "2026-09-29-sila--skladani-sil",
     "2026-09-30-skupenstvi-latek--skupenske-teplo",
     "2026-10-01-tepelne-motory--proudovy-raketovy-motor",
-    "2026-10-02-vlastnosti-latek--latky-a-telesa"
+    "2026-10-02-vlastnosti-latek--latky-a-telesa",
+    "2026-10-17-pohyb--rychlost",
+    "2026-10-18-sila--sila-a-jeji-znazorneni",
+    "2026-10-19-skupenstvi-latek--vztah-teploty-a-tlaku",
+    "2026-10-20-tepelne-motory--parni-stroj",
+    "2026-10-21-vlastnosti-latek--skupenske-prechody",
+    "2026-10-22-akustika--hudebni-nastroje",
+    "2026-10-23-astronomie--nocni-obloha"
   ],
   "history": [
     {
@@ -958,6 +965,76 @@
       "status": "skipped-existing-conflicting-pr",
       "processedAt": "2026-10-16T12:20:33.691Z",
       "note": "PR already open from an earlier run and is now CONFLICTING vs main (mergeStateStatus=DIRTY); needs manual close or rebase, not auto-recreated"
+    },
+    {
+      "manifestId": "2026-10-17-pohyb--rychlost",
+      "subtopic": "pohyb--rychlost",
+      "branch": "routine/nightly-2026-10-17-pohyb--rychlost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/190",
+      "merged": true,
+      "processedAt": "2026-10-23T12:22:21.000Z",
+      "driveFileId": "",
+      "note": "merged via standalone gh pr merge after batch auto-merge was blocked"
+    },
+    {
+      "manifestId": "2026-10-18-sila--sila-a-jeji-znazorneni",
+      "subtopic": "sila--sila-a-jeji-znazorneni",
+      "branch": "routine/nightly-2026-10-18-sila--sila-a-jeji-znazorneni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/191",
+      "merged": false,
+      "processedAt": "2026-10-23T12:20:45.299Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-19-skupenstvi-latek--vztah-teploty-a-tlaku",
+      "subtopic": "skupenstvi-latek--vztah-teploty-a-tlaku",
+      "branch": "routine/nightly-2026-10-19-skupenstvi-latek--vztah-teploty-a-tlaku",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/192",
+      "merged": false,
+      "processedAt": "2026-10-23T12:21:02.055Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-20-tepelne-motory--parni-stroj",
+      "subtopic": "tepelne-motory--parni-stroj",
+      "branch": "routine/nightly-2026-10-20-tepelne-motory--parni-stroj",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/193",
+      "merged": false,
+      "processedAt": "2026-10-23T12:21:19.053Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-21-vlastnosti-latek--skupenske-prechody",
+      "subtopic": "vlastnosti-latek--skupenske-prechody",
+      "branch": "routine/nightly-2026-10-21-vlastnosti-latek--skupenske-prechody",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/194",
+      "merged": false,
+      "processedAt": "2026-10-23T12:21:36.625Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-22-akustika--hudebni-nastroje",
+      "subtopic": "akustika--hudebni-nastroje",
+      "branch": "routine/nightly-2026-10-22-akustika--hudebni-nastroje",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/195",
+      "merged": false,
+      "processedAt": "2026-10-23T12:21:53.757Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-23-astronomie--nocni-obloha",
+      "subtopic": "astronomie--nocni-obloha",
+      "branch": "routine/nightly-2026-10-23-astronomie--nocni-obloha",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/196",
+      "merged": false,
+      "processedAt": "2026-10-23T12:22:11.183Z",
+      "driveFileId": "",
+      "note": "auto-merge-blocked-by-classifier"
     }
   ]
 }
