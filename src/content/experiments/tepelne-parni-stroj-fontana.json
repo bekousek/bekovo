@@ -1,0 +1,21 @@
+{
+  "id": "tepelne-parni-stroj-fontana",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Parní fontána z plechovky",
+  "type": "qualitative",
+  "description": "DEMONSTRAČNÍ pokus (sestavuje a předvádí učitel kvůli pájení a otevřenému plameni): do prázdné plechovky od kávy s pájeným víčkem a zasunutou kovovou trubičkou se nalije trochu vody tak, aby konec trubičky zasahoval pod hladinu. Plechovka se zahřívá na vařiči — vzduch a pára uvnitř se rozpínají a tlačí vodu tryskou ven, takže vznikne stříkající fontánka. Pokus ukazuje, jak tlak horké páry v uzavřené nádobě koná práci a vytlačuje kapalinu — stejný princip, na kterém funguje parní stroj (přeměna tepla na pohyb přes tlak páry).",
+  "materials": [
+    "plechovka s víčkem z cínovaného plechu (např. od kávy)",
+    "měděná nebo mosazná trubička",
+    "trafopájka, cín, kalafuna",
+    "kleště, pilník na kov",
+    "táborový plynový vařič nebo svíčky",
+    "voda"
+  ],
+  "procedure": "1) Do víčka plechovky propíchnout a rozšířit otvor na průměr trubičky. 2) Trubičku zasunout do otvoru a z obou stran zapájet cínem, aby byl spoj vzduchotěsný. 3) Konec trubičky vyčnívající z víčka lehce zmáčknout kleštěmi (musí zůstat průchodný) — zúžení zrychlí proud páry. 4) Do plechovky nalít menší množství vody tak, aby trubička zasahovala pod hladinu (čím méně vody/více vzduchu, tím ochotněji fontána pracuje). 5) Plechovku zahřívat na vařiči — po chvíli začne tryskou unikat stříkající proud páry a vody.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač): Parní fontána",
+    "url": "https://fyzikalnisuplik.websnadno.cz/navody/parni_fontana.pdf"
+  }
+}
