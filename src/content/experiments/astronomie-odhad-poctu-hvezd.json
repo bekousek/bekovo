@@ -1,0 +1,18 @@
+{
+  "id": "astronomie-odhad-poctu-hvezd",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Odhad počtu hvězd a světelné znečištění",
+  "type": "measurement",
+  "description": "Žákovský pokus: žáci si vyrobí čtvercový rám o známém rozměru (např. 20×20 cm) a drží ho v definované vzdálenosti od oka (např. 50 cm), čímž vymezí určitou část noční oblohy. Spočítají hvězdy viditelné uvnitř rámu a vynásobením počtem „rámů\", které by se vešly do celé pozorované polokoule, odhadnou celkový počet hvězd nad obzorem. Měřením na více místech (město vs. venkov bez umělého osvětlení) žáci názorně zjistí vliv světelného znečištění na to, kolik hvězd je vidět.",
+  "materials": [
+    "čtvercový rám o známém rozměru (papírový, drátěný nebo 3D tištěný, např. 20×20 cm)",
+    "svítilna, ideálně s červeným filtrem (nerušící noční vidění)",
+    "papír a tužka na zápis počtu hvězd"
+  ],
+  "procedure": "V jasnou bezměsíčnou noc se žáci přesunou na otevřené místo. Rámeček drží v určené vzdálenosti od oka, čímž vymezí stálou úhlovou plochu oblohy, a spočítají v ní viditelné hvězdy. Měření zopakují na více místech (např. ve městě a na venkově) a výsledky mezi sebou porovnají – vyvodí vztah mezi světelným znečištěním a počtem pozorovatelných hvězd.",
+  "source": {
+    "label": "FyzWeb – Hložek: Dalekohledy ve výuce",
+    "url": "https://fyzweb.cz/materialy/hlozek/FyzWeb-6-7-Odhad-poctu-hvezd-a-svetelne-znecisteni.pdf"
+  }
+}
