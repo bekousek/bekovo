@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-phet-fazovy-diagram-pokrocila",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "PhET: Stavy hmoty – pokročilá verze s fázovým diagramem",
+  "type": "applet",
+  "description": "Pokročilejší PhET simulace (na rozdíl od základní verze) umožňuje vybrat konkrétní látku (neon, argon, kyslík nebo voda) a sledovat její skutečný fázový diagram (P-T diagram) – oblasti pevné, kapalné a plynné fáze oddělené křivkami. Žáci mění teplotu i tlak posuvníky a přímo vidí, jak tyto dvě veličiny společně určují skupenství látky. Simulace je lokalizována do češtiny.",
+  "url": "https://phet.colorado.edu/cs/simulations/states-of-matter"
+}

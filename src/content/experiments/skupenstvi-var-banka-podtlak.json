@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-var-banka-podtlak",
+  "subtopicId": "vztah-teploty-a-tlaku",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody v baňce – kondenzace páry vytváří podtlak",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): voda se v baňce přivede k varu, baňka se odstaví od ohně a na její hrdlo se natáhne nafukovací balonek. Pára uvnitř baňky postupně zkondenzuje na kapalinu, čímž výrazně klesne tlak uvnitř baňky a balonek se vtáhne dovnitř podtlakem (lze urychlit politím baňky studenou vodou). Pokus ukazuje opačný směr jevu než klasický var za sníženého tlaku: zde naopak kondenzace páry způsobí pokles tlaku. Volitelná navazující varianta s hadičkou (inspirovaná historickým Papinovým parním čerpadlem) demonstruje, že chladnoucí baňka nasaje vodu z vedlejší nádoby.",
+  "materials": [
+    "Erlenmeyerova baňka (cca 100 ml)",
+    "nafukovací balonek",
+    "kahan nebo plynový vařič",
+    "studená voda na polití baňky"
+  ],
+  "procedure": "Do baňky nalít trochu vody a zahřát k varu, dokud pára nevytlačí vzduch z baňky. Baňku odstavit od ohně a ihned přetáhnout přes hrdlo balonek. Počkat, až pára uvnitř zkondenzuje (lze urychlit politím baňky studenou vodou) – balonek se vtáhne dovnitř vlivem vzniklého podtlaku. Volitelně lze balonek nahradit hadičkou vedoucí do nádoby s vodou – po zchladnutí baňka vodu nasaje.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/var_vody_s_bankou.pdf"
+  }
+}
