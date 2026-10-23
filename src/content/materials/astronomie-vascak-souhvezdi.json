@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-souhvezdi",
+  "subtopicId": "nocni-obloha",
+  "topicId": "astronomie",
+  "title": "Souhvězdí – animace (Vaščák, Fyzika ve škole)",
+  "type": "applet",
+  "description": "Interaktivní animace souhvězdí z českého webu Fyzika ve škole (RNDr. Vladimír Vaščák), ze stejné sady appletů jako fáze Měsíce nebo Keplerovy zákony. Vhodná jako rychlé připomenutí vzhledu souhvězdí a orientace na noční obloze.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_souhvezdi_geol&l=cz"
+}
