@@ -25,7 +25,8 @@ export interface Target {
   pad: readonly [number, number];
   label: string;
   labelTop?: boolean;
-  /** Nezvětšovat na 44 px (sousední sloty RAM by se překryly). */
+  /** Nezvětšovat na 44 px (sousední sloty RAM by se překryly). Popisky
+   *  RAM se střídají nahoře a dole, aby se nepřekrývaly ani na malé obrazovce. */
   noMin?: boolean;
 }
 
@@ -81,9 +82,9 @@ export const TARGETS: Record<TargetId, Target> = {
   'fan-cpu': { id: 'fan-cpu', view: 'board', rect: FAN_CPU, pad: [4, 4], label: 'CPU_FAN', labelTop: true },
   'fan-sys': { id: 'fan-sys', view: 'board', rect: FAN_SYS, pad: [4, 4], label: 'SYS_FAN' },
   A1: { id: 'A1', view: 'board', rect: [DIMM_X.A1, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'A1', noMin: true },
-  A2: { id: 'A2', view: 'board', rect: [DIMM_X.A2, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'A2', noMin: true },
+  A2: { id: 'A2', view: 'board', rect: [DIMM_X.A2, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'A2', noMin: true, labelTop: true },
   B1: { id: 'B1', view: 'board', rect: [DIMM_X.B1, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'B1', noMin: true },
-  B2: { id: 'B2', view: 'board', rect: [DIMM_X.B2, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'B2', noMin: true },
+  B2: { id: 'B2', view: 'board', rect: [DIMM_X.B2, DIMM_Y, DIMM_W, DIMM_H], pad: [2, 2], label: 'B2', noMin: true, labelTop: true },
   m2: { id: 'm2', view: 'board', rect: M2, pad: [2, 3], label: 'Slot M.2' },
   'm2-screw': { id: 'm2-screw', view: 'board', rect: M2_SCREW, pad: [4, 4], label: 'Šroubek' },
   standoffs: { id: 'standoffs', view: 'case', rect: [CBOARD.x, CBOARD.y, CBOARD.w, CBOARD.h], pad: [0, 0], label: 'Distanční sloupky' },

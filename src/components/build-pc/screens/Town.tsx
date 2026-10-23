@@ -331,21 +331,20 @@ function TownScene() {
 }
 
 function Sign({ b }: { b: Building }) {
-  const w = Math.max(30, b.sign.length * 5 + 8);
+  // DotGothic16 má znak široký asi půl em: 8 px písma ≈ 4 px na znak.
+  const w = Math.max(30, b.sign.length * 4 + 10);
   const cx = b.x + b.w / 2;
-  const y = b.id === 'home' ? b.top + 28 : b.id === 'library' ? b.top + 9 : b.top + 8;
-  const sy = b.id === 'home' ? BASE - 34 : b.id === 'library' ? b.top + 14 : y;
+  const sy = b.id === 'home' ? BASE - 35 : b.id === 'library' ? b.top + 13 : b.top + 7;
   return (
     <g>
-      <rect x={Math.round(cx - w / 2)} y={sy - 1} width={w} height={9} fill={PAL.night} />
-      <rect x={Math.round(cx - w / 2) + 1} y={sy} width={w - 2} height={7} fill={PAL.ink} />
+      <rect x={Math.round(cx - w / 2)} y={sy - 1} width={w} height={11} fill={PAL.night} />
+      <rect x={Math.round(cx - w / 2) + 1} y={sy} width={w - 2} height={9} fill={PAL.ink} />
       <text
         x={cx}
-        y={sy + 6}
+        y={sy + 7.5}
         textAnchor="middle"
-        fontFamily="'Pixelify Sans Variable', 'Pixelify Sans', sans-serif"
-        fontSize={7}
-        fontWeight={600}
+        fontFamily="'DotGothic16', sans-serif"
+        fontSize={8}
         fill={PAL.gold}
       >
         {b.sign}
