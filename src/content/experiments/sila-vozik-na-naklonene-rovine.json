@@ -1,0 +1,18 @@
+{
+  "id": "sila-vozik-na-naklonene-rovine",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Vozík na nakloněné rovině",
+  "type": "measurement",
+  "description": "Žákovský pokus: skupiny siloměrem měří, jakou silou je potřeba přidržet hračkové autíčko (nebo vlastní vozík) na prkně položeném jako nakloněná rovina – a jak se tato síla mění se sklonem roviny. Čím strmější rovina, tím větší potřebná síla. Demonstrační rozšíření s papírovým úhloměrem jako sklonoměrem umožňuje vynést graf závislosti síly na úhlu sklonu.",
+  "materials": [
+    "prkno nebo deska jako nakloněná rovina",
+    "siloměr",
+    "hračkové autíčko nebo vlastnoručně vyrobený vozík",
+    "papírový úhloměr (volitelně, na měření sklonu)"
+  ],
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/vozik_na_naklonene_rovine.pdf"
+  }
+}

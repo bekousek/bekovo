@@ -1,0 +1,17 @@
+{
+  "id": "sila-tezistova-tycka",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Těžišťová tyčka",
+  "type": "qualitative",
+  "description": "Žákovský pokus: skupina položí dřevěnou tyčku (cca 40 cm) na nataženém prstu a posouvá ji, dokud nenajde rovnovážný bod – vyjde uprostřed tyčky. Poté na jeden konec připne kolíček na prádlo a znovu hledá bod rovnováhy, který se posune směrem ke kolíčku. Pokus lze opakovat s více kolíčky v různém rozmístění a doplnit úvahou, kde v tomto bodě působí tíhová síla celé soustavy. Demonstrační úvod: učitel totéž ukazuje na koštěti, kde je těžiště výrazně mimo geometrický střed.",
+  "materials": [
+    "dřevěná tyčka cca 40 cm (ne špejle, moc se ohýbá)",
+    "2–3 kolíčky na prádlo na skupinu",
+    "pro demonstraci: koště nebo mop"
+  ],
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/tezistova_tycka.pdf"
+  }
+}
