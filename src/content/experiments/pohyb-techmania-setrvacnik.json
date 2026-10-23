@@ -1,0 +1,16 @@
+{
+  "id": "pohyb-techmania-setrvacnik",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Setrvačník – rotační pohyb a zachování hybnosti (Techmania)",
+  "type": "qualitative",
+  "description": "Žákovský pokus při exkurzi do Techmania Science Center v Plzni. Interaktivní exponát Edutoria: žáci uchopí rychle rotující setrvačník a pokouší se změnit jeho orientaci v prostoru. Silný odpor rotujícího tělesa vůči změně osy otáčení je přímo hmatatelný – jde o efekt zachování momentu hybnosti. Exponát propojuje rotační pohyb se zkušeností z každodenní techniky (stabilizátory jízdních kol, gyroskofy, kosmické sondy).",
+  "materials": [
+    "exkurze do Techmania Science Center Plzeň"
+  ],
+  "procedure": "Žák uchopí roztočený setrvačník za madla a snaží se změnit jeho orientaci v různých směrech. Pociťuje silný odpor – gyroskopický efekt. Učitel vysvětlí princip: rychle rotující těleso si zachovává osu otáčení, dokud na něj nepůsobí vnější moment síly. Diskuze o aplikacích: kola jízdních kol, stabilizátory lodí, gyroskopy v navigaci.",
+  "source": {
+    "label": "Techmania Science Center – Edutorium",
+    "url": "http://edu.techmania.cz/cs/katalog/edutorium/413/setrvacnik"
+  }
+}
