@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-sublimace-sucheho-ledu",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Sublimace suchého ledu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus se suchým ledem (pevný oxid uhličitý), který učitel vždy manipuluje v ochranných rukavicích. Kousek suchého ledu položený na citlivé váhy ukazuje postupný úbytek hmotnosti, jak sublimuje přímo na plyn beze stopy kapaliny. Ve druhé části nasypeme lžičku suchého ledu do nafukovacího balónku a zavážeme — balónek se sám nafoukne vznikajícím plynným CO₂ (zahřátí dlaněmi jev urychlí).",
+  "materials": [
+    "suchý led",
+    "ochranné rukavice",
+    "citlivé váhy (nepovinně)",
+    "nafukovací balónek"
+  ],
+  "procedure": "Kousek suchého ledu položíme na váhy a sledujeme úbytek hmotnosti. Poté nasypeme suchý led do balónku, zavážeme a sledujeme samovolné nafukování.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/suchy_led.pdf"
+  }
+}

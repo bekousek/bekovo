@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-latek-plechacek-prilepeny-ledem",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Přilepení plecháčku ke sklu bez lepidla",
+  "type": "qualitative",
+  "description": "Žákovský pokus se zdánlivým „kouzlem“: na skleněnou destičku izolovanou kouskem polystyrenu nakapeme trochu vody a položíme na ni plecháček s roztlučeným ledem a kuchyňskou solí. Sůl potřebuje ke svému rozpouštění a tání ledu skupenské teplo, které odebírá z vody pod plecháčkem — ta zmrzne a plecháček se po pár minutách „přilepí“ ke skle, aniž by šel zvednout.",
+  "materials": [
+    "plecháček (např. od konzervy)",
+    "podložní sklo",
+    "kousek polystyrenu",
+    "drcený led",
+    "voda",
+    "kuchyňská sůl"
+  ],
+  "procedure": "Na izolovanou skleněnou destičku nakapeme vodu, navrch položíme plecháček s ledem a solí, po několika minutách zkusíme plecháček zvednout.",
+  "source": {
+    "label": "VNUF 2000",
+    "url": "https://vnuf.cz/sbornik/prispevky/05-29-Reichl.html"
+  }
+}

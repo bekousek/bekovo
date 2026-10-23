@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-teplota-varu-vody",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Teplota varu vody",
+  "type": "measurement",
+  "description": "Žákovský pokus vyvracející častou miskoncepci, že teplota vroucí vody roste s intenzitou varu. Žáci přivedou vodu ve dvou stejných nádobách k varu při různě intenzivním zahřívání (jedna vře zvolna, druhá bouřlivě) a teploměrem zjistí, že teplota zůstává kolem 100 °C bez ohledu na to, jak bouřlivě voda vře.",
+  "materials": [
+    "2 teploměry (nebo 1 teploměr a 2 postupná měření)",
+    "2 stejné nádoby",
+    "vařič nebo kahan s regulovatelným výkonem",
+    "stojan"
+  ],
+  "procedure": "Do obou nádob nalijeme stejné množství vody, přivedeme k varu při různém tepelném výkonu a teploměrem porovnáme naměřené teploty vroucí vody.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1886/teplota-varu-vody"
+  }
+}

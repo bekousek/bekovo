@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-foukani-urychluje-vyparovani",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Jak foukání urychluje vypařování kapalin",
+  "type": "qualitative",
+  "description": "Žákovský pokus vysvětlující, proč foukáme na horký čaj. Žáci navlhčí jeden list papíru technickým lihem, druhý nechají suchý, a na oba stejně intenzivně foukají. Hřbetem ruky pak porovnají, že navlhčený papír chladne mnohem rychleji — proudění vzduchu urychluje odpařování a to odebírá teplo.",
+  "materials": [
+    "technický líh",
+    "dva listy papíru"
+  ],
+  "procedure": "Jeden papír navlhčíme lihem, druhý zůstane suchý. Na oba foukáme stejně dlouho a porovnáváme teplotu hřbetem ruky.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1625/jak-proudeni-vzduchu-urychluje-vyparovani-kapalin"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-balonek-na-bance-var-kondenzace",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Var a kapalnění vodní páry v baňce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus se dvěma efekty skupenských přeměn, provádí jen učitel u otevřeného plamene. Do baňky s trochou vody přetáhneme hrdlo kouskem nafukovacího balónku a zahříváme — po dosažení varu se balónek rychle nafoukne vodní parou. Ve druhé variantě vroucí baňku odstavíme z plamene, přetáhneme hrdlo balónkem a necháme chladnout (lze urychlit politím studenou vodou) — pára uvnitř zkondenzuje, vznikne podtlak a balónek se vtáhne dovnitř.",
+  "materials": [
+    "baňka (např. Erlenmeyerova)",
+    "voda",
+    "kousky nafukovacího balónku",
+    "vařič nebo kahan",
+    "stojan"
+  ],
+  "procedure": "Var: do baňky nalijeme vodu, přetáhneme hrdlo balónkem a zahříváme do varu — balónek se nafoukne. Kondenzace: vroucí baňku odstavíme, přetáhneme balónkem a necháme chladnout — balónek se vtáhne dovnitř.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/var_vody_s_bankou.pdf"
+  }
+}

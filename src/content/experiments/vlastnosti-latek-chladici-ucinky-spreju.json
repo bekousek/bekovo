@@ -1,0 +1,17 @@
+{
+  "id": "vlastnosti-latek-chladici-ucinky-spreju",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Chladicí účinky sprejů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus: učitel nastříká běžný sprej (deodorant, sprej na prach) na tepelně izolující podložku nebo na hřbet ruky žáka. Rychlé odpařování kapaliny ze spreje odebírá okolí skupenské teplo vypařování, takže povrch viditelně a hmatatelně chladne. Provádět ve větrané třídě nebo venku.",
+  "materials": [
+    "sprej (deodorant, sprej na prach apod.)",
+    "dřevěná nebo plastová podložka"
+  ],
+  "procedure": "Sprej nastříkáme na podložku nebo hřbet ruky a necháme žáky okamžitě hmatem porovnat teplotu místa před a po nástřiku.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1595/chladici-ucinky-spreju"
+  }
+}
