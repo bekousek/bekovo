@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-vyparovani-plocha-hladiny",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Závislost rychlosti vypařování na ploše hladiny",
+  "type": "measurement",
+  "description": "Skupinový žákovský pokus: do mističek různého průměru nalijeme stejné množství technického lihu, zvážíme a po hodině zvážíme znovu. Žáci porovnají úbytek hmotnosti a zjistí, že z širší hladiny se odpaří více kapaliny za stejný čas — rychlost vypařování roste s plochou hladiny.",
+  "materials": [
+    "váhy (citlivost alespoň 0,01 g)",
+    "technický líh",
+    "mističky různých průměrů",
+    "posuvné měřítko"
+  ],
+  "procedure": "Změříme průměry mističek, nalijeme do nich stejné množství lihu, zvážíme, po uplynutí alespoň hodiny zvážíme znovu a porovnáme úbytek hmotnosti vzhledem k ploše hladiny.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1721/zavislost-rychlosti-vyparovani-na-obsahu-plochy-hladiny-kapaliny"
+  }
+}

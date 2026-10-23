@@ -1,0 +1,18 @@
+{
+  "id": "vlastnosti-latek-chladici-hlinena-nadoba",
+  "subtopicId": "skupenske-prechody",
+  "topicId": "vlastnosti-latek",
+  "title": "Chladicí nádoba na víno",
+  "type": "qualitative",
+  "description": "Žákovský pokus demonstrující odpařovací chlazení: neglazovaná hliněná nádoba (např. květináč) namočená do studené vody saje vodu na povrch, kde se odpařuje a tím nádobu i její obsah chladí. Žáci mohou teploměrem porovnat, jak rychle klesá teplota vody uvnitř takto zvlhčené nádoby oproti nádobě v suchu — stejný princip jako lidské pocení nebo tradiční hliněné chladničky.",
+  "materials": [
+    "neglazovaná hliněná nádoba (květináč)",
+    "studená voda",
+    "teploměr"
+  ],
+  "procedure": "Hliněnou nádobu namočíme do studené vody, dovnitř umístíme láhev s vodou a teploměrem sledujeme pokles teploty v porovnání s nádobou, která zůstala suchá.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/chladici_nadoba_na_vino.pdf"
+  }
+}
