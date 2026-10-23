@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-phet-chodici-panacek",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "PhET – Chodící panáček (rychlost, zrychlení, poloha)",
+  "type": "applet",
+  "description": "Interaktivní simulace, kde žák ovládá panáčka a v reálném čase sleduje grafy polohy, rychlosti a zrychlení. Umožňuje experimentovat s rovnoměrným i nerovnoměrným pohybem a propojit pohyb s jeho grafickým zápisem.",
+  "url": "https://phet.colorado.edu/cs/simulations/moving-man"
+}

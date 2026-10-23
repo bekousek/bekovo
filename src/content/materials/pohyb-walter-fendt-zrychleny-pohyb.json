@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-walter-fendt-zrychleny-pohyb",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Walter Fendt – Rovnoměrně zrychlený pohyb",
+  "type": "applet",
+  "description": "Applet simuluje auto pohybující se s konstantním zrychlením; žák nastaví počáteční polohu, rychlost a zrychlení a sleduje tři grafy (dráha, rychlost, zrychlení v čase). Vhodné použít kvalitativně (bez vzorců) jako doplněk k tématu rychlosti a nerovnoměrného pohybu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/acceleration_cz.htm"
+}

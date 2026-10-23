@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-vozik-metronom",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb pomalého vozíku s metronomem a kostkami",
+  "type": "measurement",
+  "description": "Demonstrační pokus (lze provést i jako žákovský ve skupinkách s vlastním hračkářským autíčkem). Po stole pustíme pomalu jedoucí hračku na baterky a při každém tiknutí metronomu položíme k jejímu zadnímu kolu značku. Vznikne řada značek se stejnými rozestupy, z čehož žáci odvodí definici rovnoměrného pohybu (stejná dráha za stejný čas) a vypočítají rychlost vozíku z naměřených rozestupů a známého intervalu metronomu.",
+  "materials": [
+    "pomalu jedoucí hračka na baterky (autíčko, mašinka, tank)",
+    "metronom (stačí aplikace v mobilu)",
+    "sada stejných malých značek (dřevěné kostky, kamínky)",
+    "pravítko nebo svinovací metr"
+  ],
+  "procedure": "1) Spustíme metronom a vozík současně. 2) Při každém tiknutí položíme značku k zadnímu kolu vozíku. 3) Po zastavení změříme rozestupy mezi značkami. 4) Z konstantního rozestupu a známého intervalu tiknutí (např. 1 s) žáci vypočítají rychlost vozíku v = s/t. 5) Zopakujeme s jinou rychlostí vozíku nebo rytmem metronomu, žáci předem tipují výsledek.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/pokusy_s_pomalymi_voziky.pdf"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pohyb-vozik-relativni-rychlost",
+  "subtopicId": "rychlost",
+  "topicId": "pohyb",
+  "title": "Skládání a vzájemná rychlost pohybujících se vozíků",
+  "type": "qualitative",
+  "description": "Demonstrační pokus ukazující, že rychlost je relativní veličina závislá na vztažné soustavě. Na velkou desku položenou na stole pustíme pomalu jedoucí vozík – nejprve s deskou v klidu, poté deskou pohybujeme ve směru nebo proti směru jízdy vozíku a žáci pozorují, jak se vzhledem k nim mění rychlost vozíku (zrychlení, zpomalení, zastavení, i jízda opačným směrem). Variantou je vypuštění dvou stejných vozíků různými směry nebo rychlostmi a kvalitativní porovnání, jak rychle se od sebe vzdalují.",
+  "materials": [
+    "dva pomalu jedoucí vozíky na baterky (nebo jeden vozík + velká deska, kterou lze posouvat po stole)",
+    "pravítko nebo svinovací metr",
+    "stopky"
+  ],
+  "procedure": "1) Pustíme vozík na nehybné desce, pozorujeme rovnoměrný pohyb. 2) Deskou pohybujeme ve směru jízdy vozíku – vozík se vzhledem k žákům pohybuje rychleji. 3) Deskou pohybujeme proti směru – vozík se zpomalí, zastaví nebo couvá. 4) Alternativně vypustíme dva vozíky stejným nebo opačným směrem a necháme žáky diskutovat a odhadnout jejich vzájemnou rychlost.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/pokusy_s_pomalymi_voziky.pdf"
+  }
+}
