@@ -1,0 +1,18 @@
+{
+  "id": "sila-rozklad-sily-na-lane",
+  "subtopicId": "sila-a-jeji-znazorneni",
+  "topicId": "sila",
+  "title": "Rozklad síly na laně",
+  "type": "measurement",
+  "description": "Žákovský pokus: dva žáci napnou mezi sebou cca 4 m dlouhé lano a do jeho středu se zavěsí 1kg závaží (např. PET láhev s vodou) – lano se prohne a nejde napnout zpět dokonale rovně, ať žáci táhnou jakkoli silně. Z délky lana a velikosti průhybu se určí úhel prohnutí a z něj tahová síla v laně, kterou lze ověřit siloměrem. Pokus žákům ukazuje, že skládáním dvou šikmých sil vzniká výslednice rovná tíze závaží.",
+  "materials": [
+    "lano nebo provaz min. 4 m",
+    "tenký provázek stejné délky (na zvýraznění průhybu)",
+    "1kg závaží (např. PET láhev s vodou)",
+    "siloměr na ověření"
+  ],
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/rozklad_sily_na_lane.pdf"
+  }
+}
