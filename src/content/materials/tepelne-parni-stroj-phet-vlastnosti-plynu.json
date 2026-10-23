@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-parni-stroj-phet-vlastnosti-plynu",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Vlastnosti plynu – PhET simulace (píst, objem, teplota)",
+  "type": "applet",
+  "description": "Lokalizovaná česká simulace zobrazuje plyn v nádobě uzavřené pístem – lze měnit objem, teplotu a množství plynu a sledovat, jak píst koná práci při expanzi plynu. Pomáhá žákům pochopit, proč expandující horká pára v parním stroji tlačí píst a koná práci.",
+  "url": "https://phet.colorado.edu/cs/simulations/gas-properties"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "tepelne-parni-stroj-fendt-dejeplynu",
+  "subtopicId": "parni-stroj",
+  "topicId": "tepelne-motory",
+  "title": "Děje s ideálním plynem – interaktivní applet (Walter Fendt)",
+  "type": "applet",
+  "description": "Applet ukazuje plyn ve válci s pohyblivým pístem – stejný mechanismus, na kterém pracuje parní stroj. Žák volí izobarický, izochorický nebo izotermický děj a applet šipkami zobrazuje, jak plyn přijímá/odevzdává teplo a koná práci posouváním pístu.",
+  "url": "https://www.walter-fendt.de/html5/phcz/gasprocesses_cz.htm"
+}
