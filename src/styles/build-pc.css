@@ -722,9 +722,10 @@ p { margin: 0; }
 .view-tab:focus-visible { outline: none; border-color: var(--c-cyan); }
 
 .ws-world { position: relative; width: 100%; height: 100%; transform-origin: 50% 50%; }
-.view-zoom-in { animation: view-zoom-in 280ms steps(4) both; }
-.view-zoom-out { animation: view-zoom-out 280ms steps(4) both; }
-.view-turn { animation: view-turn 320ms steps(4) both; }
+/* backwards, ne both: po doběhnutí nesmí na scéně zůstat transform */
+.view-zoom-in { animation: view-zoom-in 280ms steps(4) backwards; }
+.view-zoom-out { animation: view-zoom-out 280ms steps(4) backwards; }
+.view-turn { animation: view-turn 320ms steps(4) backwards; }
 @keyframes view-zoom-in { from { transform: scale(0.55); opacity: 0.3; } }
 @keyframes view-zoom-out { from { transform: scale(1.4); opacity: 0.3; } }
 @keyframes view-turn { from { transform: scaleX(0.1); } 50% { transform: scaleX(0.55); } }
@@ -760,7 +761,9 @@ p { margin: 0; }
 }
 /* Místa jsou neviditelná: jméno se ukáže až po najetí myší nebo fokusu. */
 .drop:hover .drop__ring { outline: 2px dashed var(--c-cyan); }
-.drop--big:hover .drop__ring { outline: none; }
+/* Podložka a skříň leží pod drobnými místy: nikdy je nezvedat nad ně (z-index), jinak by je zakryly. */
+.drop--big:hover .drop__ring,
+.drop--big.drop--over .drop__ring { outline: none; background: none; }
 .drop--target .drop__ring { animation: target 900ms steps(2) infinite; }
 .drop--target .drop__ring,
 .drop--over .drop__ring { outline: var(--s) solid var(--c-gold); }
@@ -781,7 +784,6 @@ p { margin: 0; }
 .drop--over .drop__label,
 .drop--target .drop__label,
 .drop--debug .drop__label { visibility: visible; }
-.drop:hover, .drop:focus-visible, .drop--over { z-index: 4; }
 .drop__label--top { top: auto; bottom: 100%; transform: translate(-50%, -6px); }
 .drop--debug .drop__ring { background: rgba(115, 239, 247, 0.25); outline: 1px dashed var(--c-cyan); }
 @keyframes target { 50% { opacity: 0.35; } }

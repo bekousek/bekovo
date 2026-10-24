@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useRef, useState, type PointerEvent as RPointerEvent, type ReactNode } from 'react';
+import { createPortal } from 'react-dom';
 import { useGame, type GameState, type Rot } from '../state';
 import { Dialog, ScreenHead } from '../ui';
 import { ArtSvg, Icon, fitScale } from '../pixel/Sprite';
@@ -527,14 +528,20 @@ function HandTools({ item, paste, setPaste, onDrop }: { item: Item; paste: strin
   );
 }
 
+/**
+ * Díl pod prstem. Kreslí se přímo do <body>: uvnitř scény by ho posunula
+ * animace pohledu (transform mění, od čeho se počítá position: fixed)
+ * a ořízl rámeček.
+ */
 function Ghost({ item, x, y, scale, rot }: { item?: Item; x: number; y: number; scale: number; rot: Rot }) {
   if (!item) return null;
   const art = SPRITES[item.sprite];
   const sc = Math.min(Math.max(1, Math.round(scale)), fitScale(art, 200, 140));
-  return (
+  return createPortal(
     <div className="ghost" style={{ transform: `translate(${x - (art.w * sc) / 2}px, ${y - (art.h * sc) / 2}px)` }}>
       <ArtSvg art={art} scale={sc} rotate={item.sprite === 'cpu' ? rot : 0} />
-    </div>
+    </div>,
+    document.body,
   );
 }
 
