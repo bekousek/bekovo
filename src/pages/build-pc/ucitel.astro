@@ -1,0 +1,117 @@
+---
+/** Metodika ke hře /build-pc: průběh hodiny, ekonomika, pasti, ceník a všechny otázky. */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { QUESTIONS, JOBS, CATEGORY_LABEL, PAY_PER_CORRECT, PERFECT_BONUS, QUESTIONS_PER_JOB, START_SAVINGS } from '../../components/build-pc/data/questions';
+import { CATEGORIES, PARTS, PRICES_DATE, PRICES_SOURCE, formatKc, specsOf } from '../../components/build-pc/data/parts';
+import { GOALS, cheapestFit } from '../../components/build-pc/logic/bench';
+
+const cheapest = GOALS.map((g) => {
+  const c = cheapestFit(g.id);
+  const parts = c ? [c.rig.cpu, c.rig.mb, c.rig.ram, ...c.rig.storage, c.rig.gpu, c.rig.psu, c.rig.case, c.rig.cooler, c.rig.os].filter(Boolean) : [];
+  return { goal: g, price: c?.price ?? 0, parts: parts.map((p) => p!.short) };
+});
+const lesson = [
+  ['0–5 min', 'Úvod', 'Žáci otevřou bekovo.cz/build-pc, zadají přezdívku a vyberou zakázku (herní PC, střih videa, škola).'],
+  ['5–20 min', 'Brigády', 'Kvízové brigády po 5 otázkách. Po každé odpovědi se ukáže vysvětlení, „Další“ se odemkne až po 1,5 s.'],
+  ['20–28 min', 'Obchod', 'Nákup dílů za vydělané peníze. Kontrola kompatibility je jen na požádání, nekompatibilní díl jde koupit i vrátit.'],
+  ['28–38 min', 'Dílna', 'Skládání podle účtenky, první zapnutí (POST s kontrolkami), instalace systému.'],
+  ['38–42 min', 'Programy', 'Stažení základních programů v simulovaném prohlížeči s pastmi.'],
+  ['42–45 min', 'Reflexe', 'Výsledková karta: splnil jsi zakázku? Nepřeplatil jsi? Kde jsi udělal chybu?'],
+];
+---
+<BaseLayout title="Postav si PC: pro učitele" description="Metodika ke hře Postav si PC pro 9. třídu: průběh hodiny, ekonomika, pasti v obchodě, ceník a všechny otázky s odpověďmi.">
+  <article class="max-w-4xl mx-auto prose-sm space-y-10 py-4">
+    <header class="space-y-3">
+      <h1 class="text-3xl font-bold">Postav si PC: pro učitele</h1>
+      <p class="text-lg text-gray-700">Hra na jednu vyučovací hodinu pro 9. třídu. Žáci si na brigádách vydělají, nakoupí kompatibilní díly za skutečné ceny, složí počítač, nainstalují systém a bezpečně stáhnou programy.</p>
+      <p><a class="inline-block rounded bg-primary-600 px-4 py-2 font-semibold text-white hover:bg-primary-700" href="/build-pc">Spustit hru</a></p>
+    </header>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Průběh hodiny</h2>
+      <table class="w-full text-left text-sm">
+        <thead><tr class="border-b"><th class="py-2 pr-4">Čas</th><th class="py-2 pr-4">Část</th><th class="py-2">Co se děje</th></tr></thead>
+        <tbody>
+          {lesson.map(([t, n, d]) => <tr class="border-b align-top"><td class="py-2 pr-4 whitespace-nowrap">{t}</td><td class="py-2 pr-4 font-semibold">{n}</td><td class="py-2">{d}</td></tr>)}
+        </tbody>
+      </table>
+      <p>Hra se ukládá do prohlížeče, takže pomalejší žáci můžou příští hodinu pokračovat na stejném počítači. Na sdíleném počítači začne další žák přes Menu → „Smazat a začít znovu“.</p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Ekonomika</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li>Na startu má žák {formatKc(START_SAVINGS)}.</li>
+        <li>Brigáda = {QUESTIONS_PER_JOB} otázek, {formatKc(PAY_PER_CORRECT)} za správnou odpověď, bonus {formatKc(PERFECT_BONUS)} za všech pět.</li>
+        <li>Vrácení zboží: plná cena minus 149 Kč za dopravu (odkaz na zákonnou 14denní lhůtu při nákupu na internetu).</li>
+      </ul>
+      <p>Nejlevnější sestavy, které zakázku splní (počítá hra sama z katalogu):</p>
+      <ul class="list-disc pl-6 space-y-1">
+        {cheapest.map((c) => <li><b>{c.goal.title}</b>: {formatKc(c.price)} ({c.parts.join(', ')})</li>)}
+      </ul>
+      <p class="text-sm text-gray-600">Ve výsledku hra porovná žákovu sestavu s nejlevnější vhodnou. Kdo zaplatí víc než 1,5násobek, „přeplatil“.</p>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Pasti v obchodě a v dílně</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><b>Patice:</b> Intel (LGA1700, LGA1851) nepasuje do desky AM5 a naopak. Při vkládání procesoru se ukáže proč.</li>
+        <li><b>Paměti:</b> DDR4 nejde do desky pro DDR5 (jiný zářez, ve scéně je vidět výstupek ve slotu).</li>
+        <li><b>Formát:</b> deska ATX se nevejde do skříně Fractal Pop Mini (jen mATX a mITX).</li>
+        <li><b>Grafika:</b> Intel s písmenem F bez grafické karty = černý monitor, při zapnutí svítí kontrolka VGA.</li>
+        <li><b>Zdroj:</b> RTX 5070 chce 650 W, se zdrojem 600 W se počítač při startu vypne.</li>
+        <li><b>Chladič:</b> Ryzen 7 9700X/9800X3D a Core Ultra 265KF ho v krabici nemají. ARCTIC Alpine 17 umí jen Intel.</li>
+        <li><b>Skládání:</b> zlatý trojúhelník procesoru, pasta „jako hrášek“, větrák do CPU_FAN, moduly RAM do A2 + B2, monitor do grafické karty.</li>
+        <li><b>Programy:</b> reklamní výsledky, stahovací portály s přibalenou lištou, crack, phishing „dárková karta“ a falešné varování „počítač je zavirovaný“.</li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Parametry odkazu</h2>
+      <ul class="list-disc pl-6 space-y-1">
+        <li><a class="text-primary-700 underline" href="/build-pc?demo">/build-pc?demo</a>: nová hra začne se 100 000 Kč (na předvádění u tabule).</li>
+        <li><a class="text-primary-700 underline" href="/build-pc?hitbox">/build-pc?hitbox</a>: v dílně ukáže všechny klikací zóny.</li>
+      </ul>
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Ceník</h2>
+      <p>Skutečné modely a ceny z {PRICES_SOURCE} k {PRICES_DATE}. Ceny jsou v souboru <code>src/components/build-pc/data/parts.ts</code>, jednou ročně stačí přepsat čísla. Výkon ve hrách a doba exportu jsou zaokrouhlené odhady pro hru.</p>
+      {CATEGORIES.map((c) => (
+        <div class="space-y-1">
+          <h3 class="text-lg font-semibold">{c.plural}</h3>
+          <table class="w-full text-left text-sm">
+            <tbody>
+              {PARTS.filter((p) => p.cat === c.id).map((p) => (
+                <tr class="border-b align-top">
+                  <td class="py-1 pr-4">{p.name}</td>
+                  <td class="py-1 pr-4 text-gray-600">{specsOf(p).map((s) => `${s.label}: ${s.value}`).join(' · ')}</td>
+                  <td class="py-1 text-right whitespace-nowrap font-semibold">{p.price === 0 ? 'zdarma' : formatKc(p.price)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      ))}
+    </section>
+
+    <section class="space-y-3">
+      <h2 class="text-2xl font-bold">Všechny otázky ({QUESTIONS.length})</h2>
+      <p>Správná odpověď je tučně. Ve hře se pořadí možností míchá a otázky se neopakují, dokud žák nevyčerpá téma.</p>
+      {JOBS.map((j) => (
+        <details class="rounded border border-gray-200 bg-white p-4">
+          <summary class="cursor-pointer font-semibold">{j.title}: {CATEGORY_LABEL[j.id]} ({QUESTIONS.filter((q) => q.cat === j.id).length})</summary>
+          <ol class="mt-3 list-decimal space-y-3 pl-6">
+            {QUESTIONS.filter((q) => q.cat === j.id).map((q) => (
+              <li>
+                <p class="font-medium">{q.text}{q.img ? ' (s obrázkem dílu)' : ''}</p>
+                <p><b>{q.options[0]}</b> · <span class="text-gray-600">{q.options.slice(1).join(' · ')}</span></p>
+                <p class="text-sm text-gray-600">{q.explain}</p>
+              </li>
+            ))}
+          </ol>
+        </details>
+      ))}
+    </section>
+  </article>
+</BaseLayout>
