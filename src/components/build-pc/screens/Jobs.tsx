@@ -155,7 +155,7 @@ function Quiz() {
       <section className="quiz__card px-frame px-panel" aria-live="polite">
         <h2 ref={cardRef} tabIndex={-1} className="quiz__q">{q.text}</h2>
         {q.img ? (
-          <div className="quiz__img"><Sprite name={q.img} scale={q.img === 'cpu' ? 8 : 6} title="Obrázek dílu" /></div>
+          <div className="quiz__img"><Sprite name={q.img} fit={[300, 170]} title="Obrázek dílu" /></div>
         ) : null}
         <div className="quiz__opts">
           {order.map((orig, i) => {

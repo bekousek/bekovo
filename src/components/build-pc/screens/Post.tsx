@@ -24,12 +24,12 @@ export default function Post() {
   }, [finished]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const backToBench = () => {
-    update((d) => { d.asm.panel = false; d.asm.monitor = null; });
+    update((d) => { d.asm.panel = false; });
     go('workshop');
   };
 
-  // Bez procesoru, paměti nebo grafiky se obraz vůbec neobjeví.
-  const black = !res.ok && (res.leds.vga || res.leds.cpu || res.leds.dram);
+  // Bez napájení procesoru, paměti, grafiky nebo kabelu k monitoru se obraz vůbec neobjeví.
+  const black = !res.ok && !!res.dark;
 
   return (
     <div style={{ display: 'grid', gap: 24 }}>

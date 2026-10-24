@@ -39,12 +39,3 @@ export function spriteOf(p: Part): SpriteKey {
 }
 
 /** Měřítko spritu v obchodě, aby díly různých velikostí působily vyrovnaně. */
-export function shopScale(p: Part): number {
-  switch (p.cat) {
-    case 'ram': case 'gpu': case 'mb': return 4;
-    case 'storage': return p.kind === 'hdd' ? 4 : 5;
-    case 'cooler': return p.kind === 'aio' ? 4 : 5;
-    case 'case': return 3;
-    default: return 5;
-  }
-}

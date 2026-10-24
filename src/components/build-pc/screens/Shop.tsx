@@ -6,7 +6,7 @@ import {
   CATEGORIES, PART_BY_ID, PRICES_DATE, PRICES_SOURCE, formatKc, partsIn, specsOf, type Category, type Part,
 } from '../data/parts';
 import { checkBuild, type Issue } from '../logic/compat';
-import { installedIds, refundOf, RETURN_FEE, shopScale, spriteOf } from '../logic/assembly';
+import { installedIds, refundOf, RETURN_FEE, spriteOf } from '../logic/assembly';
 import { sfx } from '../sfx';
 
 export default function Shop() {
@@ -200,7 +200,7 @@ function Product({ p, inCart, owned, onAdd, onRemove }: { p: Part; inCart: boole
   const specs = specsOf(p);
   return (
     <article className="prod px-frame">
-      <div className="prod__art"><Sprite name={spriteOf(p)} scale={shopScale(p)} /></div>
+      <div className="prod__art"><Sprite name={spriteOf(p)} fit={[150, 100]} /></div>
       <div className="prod__body">
         <h3 className="prod__name">{p.name}</h3>
         <p className="prod__blurb">{p.blurb}</p>

@@ -32,7 +32,7 @@ const TOPICS: Topic[] = [
         <div className="lib-items">
           {PARTS_INFO.map((p) => (
             <div key={p.name} className="lib-item">
-              <div className="lib-item__art"><Sprite name={p.sprite} scale={p.sprite === 'gpu' || p.sprite === 'ram' ? 2 : 3} /></div>
+              <div className="lib-item__art"><Sprite name={p.sprite} fit={[128, 72]} /></div>
               <div><h3>{p.name}</h3><p>{p.text}</p></div>
             </div>
           ))}

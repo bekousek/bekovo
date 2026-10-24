@@ -141,7 +141,7 @@ export default function Start() {
                   aria-pressed={goal === g.id}
                   onClick={() => { setGoal(g.id); sfx('click'); }}
                 >
-                  <span className="st-goal__art"><Sprite name={GOAL_ART[g.id]} scale={3} /></span>
+                  <span className="st-goal__art"><Sprite name={GOAL_ART[g.id]} fit={[72, 64]} /></span>
                   <span className="st-goal__title">{g.title}</span>
                   <span className="st-goal__text">{g.pitch}</span>
                 </button>
@@ -163,16 +163,16 @@ export default function Start() {
 function HeroDesk() {
   return (
     <div className="st-desk">
-      <Sprite name="case" scale={6} />
+      <Sprite name="case" scale={4} />
       <div className="st-desk__parts">
-        <Sprite name="gpu" scale={4} />
+        <Sprite name="gpu" scale={3} />
         <div className="st-desk__row">
-          <Sprite name="cpu" scale={4} />
-          <Sprite name="psu" scale={4} />
+          <Sprite name="cpu" scale={2} />
+          <Sprite name="psu" scale={2} />
         </div>
         <div className="st-desk__row">
-          <Sprite name="ram" scale={3} />
-          <Sprite name="ssd" scale={4} />
+          <Sprite name="ram" scale={2} />
+          <Sprite name="ssd" scale={2} />
         </div>
       </div>
     </div>

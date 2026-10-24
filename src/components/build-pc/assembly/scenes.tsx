@@ -1,301 +1,257 @@
-/** Kresby dílny. Všechny souřadnice pocházejí ze slots.ts. */
+/**
+ * Kresby dílny ve světě 400 × 300. Pohled „Skříň“ i „Deska“ kreslí stejný svět
+ * (deska je jen přiblížená), „Záda“ mají vlastní svět. Souřadnice jsou ze slots.ts.
+ */
 import { Rects } from '../pixel/Sprite';
 import type { PalKey } from '../pixel/palette';
 import { NOTCH, type Px } from '../pixel/sprites';
+import { box, disc, dots, fan, hstripes, line, r, ring, vstripes } from '../pixel/draw';
 import { PART_BY_ID, type Cooler, type Motherboard, type Ram } from '../data/parts';
 import type { GameState, RamSlot } from '../state';
 import {
-  ATX24_BOARD, BACK_CASE, BOARD, C_ATX24, C_EPS, C_PCIE, C_SOCKET, CASE, CBOARD, COOLER_AREA, DIMM_H, DIMM_W,
-  DIMM_X, DIMM_Y, DRIVE_BAY, EPS_BOARD, FAN_CPU, FAN_SYS, GPU_POWER, GPU_RECT, HDD_RECT, HDD_SATA, LEVER, M2,
-  M2_SCREW, PCIE_BOARD, PORT_GPU, PORT_MB, PSU_BAY, SCENE_H, SCENE_W, SOCKET, type Rect,
+  ATX24, B, BACK_CASE, BOARD, CASE, CROP, DIMM_H, DIMM_W, DIMM_X, DIMM_Y, DRIVE_BAY, EPS8, FAN_CPU, FAN_SYS,
+  FRONT, GPU_POWER, GPU_RECT, HDD_RECT, HDD_SATA, IO_SHIELD, LEVER, M2, M2_SCREW, PCIE1, PCIE2, PCIEX1, PORT_GPU,
+  PORT_MB, POWER_BTN, PSU_BACK, PSU_BAY, PSU_SWITCH, SATA_MB, SHROUD_Y, SLOTS_BACK_Y, SOCKET, SOCKET_FRAME,
+  USB_MB, WORLD_H, WORLD_W, type Rect, type View,
 } from './slots';
 
-const r = (rect: Rect, c: PalKey): Px => [rect[0], rect[1], rect[2], rect[3], c];
-const bx = (x: number) => BOARD.x + x;
-const by = (y: number) => BOARD.y + y;
-const cx = (x: number) => CBOARD.x + x;
-const cy = (y: number) => CBOARD.y + y;
-
-function dots(x0: number, y0: number, w: number, h: number, step: number, c: PalKey): Px[] {
-  const out: Px[] = [];
-  for (let y = y0; y < y0 + h; y += step) for (let x = x0; x < x0 + w; x += step) out.push([x, y, 1, 1, c]);
-  return out;
-}
-
-function stripes(x: number, y: number, w: number, h: number, step: number, c: PalKey): Px[] {
-  const out: Px[] = [];
-  for (let yy = y + 1; yy < y + h - 1; yy += step) out.push([x + 1, yy, w - 2, 1, c]);
-  return out;
-}
-
+const R = (rect: Rect, c: PalKey): Px => [rect[0], rect[1], rect[2], rect[3], c];
 const ramAccent = (id: string): PalKey => ((PART_BY_ID[id] as Ram).mem === 'DDR5' ? 'red' : 'gold');
+const { x: bx, y: by } = B;
 
-// ——— Deska zblízka ———
+function room(): Px[] {
+  return [r(0, 0, WORLD_W, 294, 'night'), ...dots(6, 6, WORLD_W, 286, 16, 'ink'), r(0, 294, WORLD_W, 6, 'orange'), r(0, 294, WORLD_W, 1, 'gold')];
+}
 
-export function BoardScene({ s }: { s: GameState }) {
+// ——— Skříň zboku (a přiblížená deska) ———
+
+export function SideScene({ s, view }: { s: GameState; view: View }) {
   const a = s.asm;
   const mb = a.mb ? (PART_BY_ID[a.mb] as Motherboard) : undefined;
-  const inCase = !!a.caseId;
-  const bg: Px[] = inCase
-    ? [[0, 0, SCENE_W, SCENE_H, 'night'], ...dots(4, 4, SCENE_W, SCENE_H, 12, 'ink')]
-    : [[0, 0, SCENE_W, SCENE_H, 'teal'], ...dots(3, 3, SCENE_W, SCENE_H, 6, 'green')];
+  const boardInCase = !!a.caseId;
+  const onMat = !!mb && !boardInCase;
+  const zoom = view === 'board';
+
+  const px: Px[] = [];
+  if (zoom && !boardInCase) {
+    // Deska leží na antistatické podložce na stole (díváš se na ni shora).
+    const [cx, cy, cw, ch] = CROP.board;
+    px.push(r(cx, cy, cw, ch, 'teal'), ...dots(cx + 3, cy + 3, cw, ch, 6, 'green'));
+    if (!mb) px.push(...hstripes(BOARD.x, BOARD.y, BOARD.w, 1, 1, 'lime'), r(BOARD.x, BOARD.y + BOARD.h - 1, BOARD.w, 1, 'lime'), r(BOARD.x, BOARD.y, 1, BOARD.h, 'lime'), r(BOARD.x + BOARD.w - 1, BOARD.y, 1, BOARD.h, 'lime'));
+  } else {
+    px.push(...room(), ...caseShell(s));
+  }
+  const showBoard = !!mb && (boardInCase || (zoom && onMat));
+  if (showBoard) px.push(...board(mb!), ...boardParts(s));
+  if (!zoom || boardInCase) px.push(...caseParts(s, boardInCase));
+
   return (
     <>
-      <Rects px={bg} />
-      {!mb ? <Rects px={[[BOARD.x, BOARD.y, BOARD.w, 1, 'green'], [BOARD.x, BOARD.y + BOARD.h - 1, BOARD.w, 1, 'green'], [BOARD.x, BOARD.y, 1, BOARD.h, 'green'], [BOARD.x + BOARD.w - 1, BOARD.y, 1, BOARD.h, 'green']]} /> : null}
-      {mb ? <Rects px={boardBase(mb)} /> : null}
-      {mb ? <Rects px={socketPx(!!a.cpu, !!a.cpu?.lever)} /> : null}
-      {a.cpu ? <Rects px={cpuInSocket()} /> : null}
-      {a.paste && !a.cooler ? <Rects px={[[SOCKET[0] + 14, SOCKET[1] + 14, 4, 4, 'silver'], [SOCKET[0] + 15, SOCKET[1] + 13, 2, 6, 'silver']]} /> : null}
-      {mb ? <Rects px={dimmPx(a.ram, mb)} /> : null}
-      {mb ? <Rects px={m2Px(a.m2)} /> : null}
-      {a.cooler ? <Rects px={coolerPx(a.cooler.id)} /> : null}
-      {mb ? <Rects px={fanHeaders(!!a.cooler?.fan)} /> : null}
+      <Rects px={px} />
+      {a.panel && (!zoom || boardInCase) ? <Glass /> : null}
     </>
   );
 }
 
-function boardBase(mb: Motherboard): Px[] {
+function caseShell(s: GameState): Px[] {
+  const a = s.asm;
   const px: Px[] = [
-    [BOARD.x, BOARD.y, BOARD.w, BOARD.h, 'ink'],
-    [BOARD.x, BOARD.y, BOARD.w, 1, 'slate'],
-    [BOARD.x, BOARD.y, 1, BOARD.h, 'slate'],
-    // otvory na šrouby
-    [bx(4), by(4), 3, 3, 'silver'], [bx(133), by(4), 3, 3, 'silver'], [bx(4), by(131), 3, 3, 'silver'],
-    [bx(133), by(131), 3, 3, 'silver'], [bx(72), by(4), 3, 3, 'silver'], [bx(72), by(131), 3, 3, 'silver'],
-    // vstupy a výstupy vzadu
-    [bx(0), by(10), 10, 50, 'slate'],
-    [bx(2), by(14), 6, 3, 'night'], [bx(2), by(19), 6, 3, 'night'], [bx(2), by(26), 6, 4, 'night'],
-    [bx(2), by(34), 6, 5, 'night'], [bx(2), by(44), 2, 2, 'sky'], [bx(5), by(44), 2, 2, 'lime'], [bx(2), by(50), 6, 3, 'night'],
-    // chladiče napájení
-    [bx(14), by(2), 44, 8, 'night'], ...stripes(bx(14), by(2), 44, 8, 2, 'slate'),
-    [bx(12), by(12), 6, 42, 'night'], [bx(13), by(14), 4, 38, 'slate'],
-    // napájení 8pin a 24pin
-    r(EPS_BOARD, 'night'), ...dots(EPS_BOARD[0] + 1, EPS_BOARD[1] + 1, 9, 2, 2, 'slate'),
-    r(ATX24_BOARD, 'night'), ...dots(ATX24_BOARD[0] + 2, ATX24_BOARD[1] + 1, 4, 25, 2, 'slate'),
-    // sloty PCIe
-    r(PCIE_BOARD, 'night'), [PCIE_BOARD[0] + 1, PCIE_BOARD[1] + 2, PCIE_BOARD[2] - 2, 1, 'slate'],
-    [PCIE_BOARD[0] + PCIE_BOARD[2], PCIE_BOARD[1] - 1, 4, 7, 'silver'],
-    [bx(12), by(106), 24, 4, 'night'],
-    // čipset, baterie, SATA, panel
-    [bx(96), by(98), 26, 26, 'night'], ...stripes(bx(96), by(98), 26, 26, 3, 'slate'),
-    [bx(68), by(112), 8, 10, 'silver'], [bx(67), by(113), 10, 8, 'silver'], [bx(70), by(115), 4, 4, 'white'],
-    [bx(128), by(92), 7, 4, 'night'], [bx(128), by(98), 7, 4, 'night'], [bx(128), by(104), 7, 4, 'night'],
-    [bx(104), by(130), 10, 3, 'night'],
+    // plášť skříně
+    r(CASE.x, CASE.y, CASE.w, CASE.h, 'slate'), r(CASE.x + 2, CASE.y + 2, CASE.w - 4, CASE.h - 4, 'ink'),
+    r(52, 14, 284, 270, 'night'),
+    // přední panel se síťkou (vpravo) a horní panel
+    R(FRONT, 'ink'), ...dots(FRONT[0] + 2, FRONT[1] + 4, 7, FRONT[3] - 8, 3, 'night'),
+    ...dots(70, 12, 240, 2, 6, 'night'),
+    // nožky
+    r(64, 288, 28, 6, 'ink'), r(64, 288, 28, 1, 'slate'), r(304, 288, 28, 6, 'ink'), r(304, 288, 28, 1, 'slate'),
+    // tlačítko napájení a USB nahoře vpředu
+    r(POWER_BTN[0], POWER_BTN[1], POWER_BTN[2], POWER_BTN[3], 'slate'), r(POWER_BTN[0] + 3, POWER_BTN[1] + 1, 6, 2, s.os.done ? 'sky' : 'night'),
+    r(292, 8, 8, 2, 'night'), r(302, 8, 8, 2, 'night'),
+    // zadní větrák (z boku je vidět jen hrana) a záslepky slotů vlevo
+    r(53, 20, 6, 50, 'ink'), ...hstripes(54, 22, 4, 46, 4, 'slate'),
+    r(52, 133, 5, 98, 'slate'), ...hstripes(52, 146, 5, 98, 14, 'ink'),
+    // přední větráky zevnitř
+    r(326, 24, 9, 92, 'ink'), ...hstripes(327, 27, 7, 86, 5, 'slate'),
+    r(326, 124, 9, 92, 'ink'), ...hstripes(327, 127, 7, 86, 5, 'slate'),
+    // průchodky na kabely vpravo od desky
+    ...[30, 92, 168].flatMap((y) => [r(250, y, 10, 22, 'ink'), r(254, y + 2, 2, 18, 'night')]),
+    // kryt zdroje a otvory pro zdroj a disky
+    r(52, SHROUD_Y, 284, 48, 'ink'), r(52, SHROUD_Y, 284, 2, 'slate'), ...dots(186, SHROUD_Y + 6, 70, 30, 4, 'night'),
+    R(PSU_BAY, 'night'), r(PSU_BAY[0], PSU_BAY[1], PSU_BAY[2], 1, 'slate'),
+    R(DRIVE_BAY, 'night'), r(DRIVE_BAY[0], DRIVE_BAY[1] + 12, DRIVE_BAY[2], 1, 'slate'), r(DRIVE_BAY[0], DRIVE_BAY[1] + 24, DRIVE_BAY[2], 1, 'slate'),
   ];
-  // Popisek typu pamětí u slotů (DDR4 / DDR5) jako barevný proužek
-  px.push([DIMM_X.A1 - 2, DIMM_Y + DIMM_H + 4, 33, 2, mb.mem === 'DDR5' ? 'red' : 'gold']);
-  return px;
-}
-
-function socketPx(hasCpu: boolean, lever: boolean): Px[] {
-  const [x, y, w, h] = SOCKET;
-  const px: Px[] = [[x - 2, y - 2, w + 4, h + 4, 'silver'], [x, y, w, h, 'night']];
-  if (!hasCpu) px.push(...dots(x + 2, y + 2, w - 3, h - 3, 3, 'gold'));
-  // značka trojúhelníku v rohu patice
-  px.push([x - 2, y + h - 1, 4, 1, 'gold'], [x - 2, y + h - 2, 3, 1, 'gold'], [x - 2, y + h - 3, 2, 1, 'gold'], [x - 2, y + h - 4, 1, 1, 'gold']);
-  const lx = LEVER[0] + 1;
-  if (lever) px.push([lx, LEVER[1], 2, LEVER[3], 'silver'], [lx - 1, LEVER[1] + LEVER[3] - 2, 4, 2, 'white']);
-  else px.push([lx, LEVER[1] - 14, 2, 18, 'silver'], [lx - 1, LEVER[1] - 16, 4, 2, 'white']);
-  return px;
-}
-
-function cpuInSocket(): Px[] {
-  const [x, y] = SOCKET;
-  return [
-    [x, y, 32, 32, 'teal'],
-    [x + 2, y + 2, 28, 28, 'silver'],
-    [x + 4, y + 4, 24, 24, 'white'],
-    [x + 7, y + 10, 18, 1, 'silver'],
-    [x + 7, y + 14, 12, 1, 'silver'],
-    [x + 7, y + 18, 15, 1, 'silver'],
-    [x, y + 28, 1, 4, 'gold'], [x + 1, y + 29, 1, 3, 'gold'], [x + 2, y + 30, 1, 2, 'gold'], [x + 3, y + 31, 1, 1, 'gold'],
-  ];
-}
-
-function dimmPx(ram: Partial<Record<RamSlot, string>>, mb: Motherboard): Px[] {
-  const px: Px[] = [];
-  const bump = DIMM_Y + Math.round((DIMM_H * (NOTCH[mb.mem] + 1)) / 32);
-  (Object.keys(DIMM_X) as RamSlot[]).forEach((slot) => {
-    const x = DIMM_X[slot];
-    const id = ram[slot];
-    if (id) {
-      px.push(
-        [x, DIMM_Y + 1, DIMM_W, DIMM_H - 2, 'night'],
-        [x + 1, DIMM_Y + 3, 2, DIMM_H - 6, ramAccent(id)],
-        [x, DIMM_Y - 2, DIMM_W, 2, 'white'], [x, DIMM_Y + DIMM_H, DIMM_W, 2, 'white'],
-      );
-    } else {
-      const recommended = slot === 'A2' || slot === 'B2';
-      px.push(
-        [x, DIMM_Y, DIMM_W, DIMM_H, recommended ? 'slate' : 'night'],
-        [x + 1, DIMM_Y + 1, 2, DIMM_H - 2, recommended ? 'night' : 'ink'],
-        [x + 1, bump, 2, 2, 'silver'],
-        [x - 1, DIMM_Y - 3, 2, 3, 'silver'], [x + 3, DIMM_Y + DIMM_H, 2, 3, 'silver'],
-      );
-    }
-  });
-  return px;
-}
-
-function m2Px(m2: GameState['asm']['m2']): Px[] {
-  const [x, y] = M2;
-  const px: Px[] = [[x, y, 3, 7, 'night'], [x + 3, y + 3, 36, 1, 'night']];
-  if (m2) {
-    px.push([x + 2, y, 38, 7, 'teal'], [x + 5, y + 1, 20, 5, 'night'], [x + 6, y + 2, 10, 1, 'white'], [x + 28, y + 1, 6, 5, 'slate']);
+  if (!a.caseId) {
+    // distanční sloupky, na které se přišroubuje deska
+    for (const [x, y] of HOLES) px.push(r(bx(x), by(y), 3, 3, 'gold'), r(bx(x) + 1, by(y) + 1, 1, 1, 'orange'));
   }
-  px.push(m2?.screwed
-    ? [M2_SCREW[0], M2_SCREW[1], 3, 3, 'silver']
-    : [M2_SCREW[0], M2_SCREW[1], 3, 3, 'gold']);
-  if (m2?.screwed) px.push([M2_SCREW[0] + 1, M2_SCREW[1] + 1, 1, 1, 'slate']);
+  return px;
+}
+
+const HOLES: [number, number][] = [[5, 5], [84, 5], [167, 5], [5, 103], [167, 103], [5, 199], [84, 199], [167, 199]];
+
+function board(mb: Motherboard): Px[] {
+  const W = BOARD.w, H = BOARD.h;
+  const px: Px[] = [
+    r(BOARD.x, BOARD.y, W, H, 'ink'),
+    r(BOARD.x, BOARD.y, W, 1, 'slate'), r(BOARD.x, BOARD.y, 1, H, 'slate'),
+    r(BOARD.x, BOARD.y + H - 1, W, 1, 'night'), r(BOARD.x + W - 1, BOARD.y, 1, H, 'night'),
+  ];
+  for (const [x, y] of HOLES) px.push(r(bx(x), by(y), 3, 3, 'silver'), r(bx(x) + 1, by(y) + 1, 1, 1, 'night'));
+  px.push(
+    // zadní panel s porty (u zad skříně)
+    r(bx(0), by(10), 12, 66, 'slate'), r(bx(1), by(11), 10, 64, 'silver'), ...hstripes(bx(1), by(13), 10, 60, 4, 'slate'),
+    // chladiče napájení procesoru
+    r(bx(16), by(2), 58, 12, 'night'), r(bx(16), by(2), 58, 1, 'slate'), ...vstripes(bx(17), by(4), 56, 9, 3, 'slate'),
+    r(bx(14), by(16), 12, 64, 'night'), r(bx(14), by(16), 1, 64, 'slate'), ...hstripes(bx(16), by(18), 9, 60, 3, 'slate'),
+    // napájení: 8pin CPU a 24pin ATX
+    R(EPS8, 'night'), ...dots(EPS8[0] + 2, EPS8[1] + 2, 9, 4, 3, 'slate'),
+    R(ATX24, 'night'), ...dots(ATX24[0] + 2, ATX24[1] + 2, 6, 31, 3, 'slate'),
+    r(bx(166), by(82), 9, 12, 'night'), ...dots(bx(168), by(84), 6, 9, 3, 'slate'),
+    // konektory větráků
+    R(FAN_CPU, 'night'), ...dots(FAN_CPU[0] + 1, FAN_CPU[1] + 1, 9, 2, 2, 'gold'),
+    R(FAN_SYS, 'night'), ...dots(FAN_SYS[0] + 1, FAN_SYS[1] + 1, 9, 2, 2, 'gold'),
+    // sloty PCIe: horní x16 (oplechovaný), x1, dolní x16 (jen x4)
+    R(PCIE1, 'night'), r(PCIE1[0], PCIE1[1], PCIE1[2], 1, 'silver'), r(PCIE1[0], PCIE1[1] + 6, PCIE1[2], 1, 'silver'), r(PCIE1[0] + 1, PCIE1[1] + 3, PCIE1[2] - 2, 1, 'ink'),
+    r(PCIE1[0] + PCIE1[2], PCIE1[1] - 2, 6, 11, 'white'),
+    R(PCIEX1, 'night'), r(PCIEX1[0] + 1, PCIEX1[1] + 2, PCIEX1[2] - 2, 1, 'ink'),
+    R(PCIE2, 'night'), r(PCIE2[0] + 1, PCIE2[1] + 3, PCIE2[2] - 2, 1, 'ink'), r(PCIE2[0] + PCIE2[2], PCIE2[1] - 2, 6, 11, 'slate'),
+    // čipset, SATA, baterie, zvuk, panel tlačítek
+    r(bx(124), by(140), 36, 34, 'night'), r(bx(124), by(140), 36, 1, 'slate'), ...hstripes(bx(126), by(143), 32, 29, 3, 'slate'), r(bx(136), by(154), 12, 3, 'red'),
+    ...[0, 7, 14, 21].flatMap((d) => [r(SATA_MB[0], SATA_MB[1] + d, 9, 5, 'night'), r(SATA_MB[0] + 2, SATA_MB[1] + d + 2, 6, 1, 'slate')]),
+    ...disc(bx(100), by(186), 7, 'silver'), ...ring(bx(100), by(186), 7, 1, 'slate'), r(bx(97), by(183), 3, 2, 'white'),
+    r(bx(16), by(174), 52, 1, 'teal'), r(bx(20), by(178), 26, 18, 'night'), ...dots(bx(50), by(178), 14, 18, 4, 'gold'),
+    r(bx(140), by(198), 22, 6, 'night'), ...dots(bx(141), by(199), 21, 5, 2, 'gold'),
+    // M.2 slot se sloupkem na šroubek
+    r(M2[0], M2[1], 4, M2[3], 'night'), r(M2[0] + 4, M2[1] + 4, 52, 1, 'slate'),
+    // patice procesoru
+    R(SOCKET_FRAME, 'silver'), R(SOCKET, 'night'),
+    r(SOCKET_FRAME[0] + 1, SOCKET_FRAME[1] + 1, 2, 2, 'slate'), r(SOCKET_FRAME[0] + 37, SOCKET_FRAME[1] + 1, 2, 2, 'slate'),
+    r(SOCKET_FRAME[0] + 1, SOCKET_FRAME[1] + 37, 2, 2, 'slate'), r(SOCKET_FRAME[0] + 37, SOCKET_FRAME[1] + 37, 2, 2, 'slate'),
+    // značka trojúhelníku vlevo dole
+    r(SOCKET_FRAME[0], SOCKET_FRAME[1] + 39, 5, 1, 'gold'), r(SOCKET_FRAME[0], SOCKET_FRAME[1] + 38, 4, 1, 'gold'), r(SOCKET_FRAME[0], SOCKET_FRAME[1] + 37, 3, 1, 'gold'), r(SOCKET_FRAME[0], SOCKET_FRAME[1] + 36, 2, 1, 'gold'),
+  );
+  // výstupek ve slotech RAM odpovídá zářezu paměti daného typu
+  const bump = DIMM_Y + Math.round((DIMM_H * NOTCH[mb.mem]) / 64);
+  for (const slot of ['A1', 'A2', 'B1', 'B2'] as RamSlot[]) {
+    const x = DIMM_X[slot];
+    const rec = slot === 'A2' || slot === 'B2';
+    px.push(r(x, DIMM_Y, DIMM_W, DIMM_H, rec ? 'slate' : 'night'), r(x + 1, DIMM_Y + 1, 3, DIMM_H - 2, rec ? 'night' : 'ink'), r(x + 1, bump, 3, 3, 'silver'));
+  }
+  px.push(r(DIMM_X.A1 - 2, DIMM_Y + DIMM_H + 4, 39, 2, mb.mem === 'DDR5' ? 'red' : 'gold'));
+  return px;
+}
+
+function boardParts(s: GameState): Px[] {
+  const a = s.asm;
+  const px: Px[] = [];
+  const [sx, sy] = SOCKET;
+  if (!a.cpu) px.push(...dots(sx + 2, sy + 2, 33, 33, 3, 'gold'));
+  else {
+    px.push(
+      r(sx, sy, 36, 36, 'teal'), r(sx, sy + 35, 36, 1, 'navy'), r(sx + 35, sy, 1, 36, 'navy'),
+      ...[8, 12, 22, 26].map((d) => r(sx + d, sy + 2, 1, 2, 'gold')), ...[8, 12, 22, 26].map((d) => r(sx + d, sy + 32, 1, 2, 'gold')),
+      r(sx + 5, sy + 5, 26, 26, 'slate'), r(sx + 5, sy + 5, 25, 25, 'silver'), r(sx + 6, sy + 6, 23, 23, 'white'),
+      r(sx + 9, sy + 10, 8, 2, 'slate'), r(sx + 9, sy + 14, 16, 1, 'silver'), r(sx + 9, sy + 18, 12, 1, 'silver'), r(sx + 9, sy + 22, 14, 1, 'silver'),
+      r(sx, sy + 31, 1, 5, 'gold'), r(sx + 1, sy + 32, 1, 4, 'gold'), r(sx + 2, sy + 33, 1, 3, 'gold'), r(sx + 3, sy + 34, 1, 2, 'gold'), r(sx + 4, sy + 35, 1, 1, 'gold'),
+    );
+  }
+  if (a.paste && !a.cooler) px.push(...disc(sx + 18, sy + 18, 4, 'silver'), r(sx + 16, sy + 16, 2, 1, 'white'));
+  // páčka patice: zavřená leží podél patice, otevřená trčí nahoru
+  const lx = LEVER[0] + 1;
+  if (a.cpu?.lever) px.push(r(lx, LEVER[1] + 2, 2, LEVER[3] - 2, 'silver'), r(lx - 1, LEVER[1] + LEVER[3] - 2, 4, 2, 'white'));
+  else px.push(r(lx, LEVER[1] - 16, 2, 20, 'silver'), r(lx - 1, LEVER[1] - 18, 4, 2, 'white'));
+  // paměti
+  for (const slot of ['A1', 'A2', 'B1', 'B2'] as RamSlot[]) {
+    const id = a.ram[slot];
+    const x = DIMM_X[slot];
+    if (id) px.push(r(x, DIMM_Y + 1, DIMM_W, DIMM_H - 2, 'night'), r(x, DIMM_Y + 1, 1, DIMM_H - 2, 'slate'), r(x + 1, DIMM_Y + 3, 3, DIMM_H - 6, ramAccent(id)), r(x, DIMM_Y - 2, DIMM_W, 2, 'white'), r(x, DIMM_Y + DIMM_H, DIMM_W, 2, 'white'));
+    else px.push(r(x - 1, DIMM_Y - 3, 2, 3, 'silver'), r(x + 4, DIMM_Y + DIMM_H, 2, 3, 'silver'));
+  }
+  // SSD M.2
+  if (a.m2) px.push(r(M2[0] + 3, M2[1] + 1, 54, 8, 'teal'), r(M2[0] + 3, M2[1] + 1, 54, 1, 'green'), r(M2[0] + 6, M2[1] + 2, 28, 6, 'night'), r(M2[0] + 8, M2[1] + 3, 12, 2, 'white'), r(M2[0] + 38, M2[1] + 2, 8, 6, 'ink'));
+  px.push(a.m2?.screwed ? r(M2_SCREW[0], M2_SCREW[1], 4, 4, 'silver') : r(M2_SCREW[0], M2_SCREW[1], 4, 4, 'gold'));
+  if (a.m2?.screwed) px.push(r(M2_SCREW[0] + 1, M2_SCREW[1] + 2, 2, 1, 'slate'));
+  // chladič procesoru
+  if (a.cooler) px.push(...coolerPx(a.cooler.id));
+  if (a.cooler?.fan) px.push(R(FAN_CPU, 'white'), r(FAN_CPU[0] + 1, FAN_CPU[1] + 1, 2, 2, 'ink'), r(FAN_CPU[0] - 6, FAN_CPU[1] + 4, 8, 2, 'night'));
+  // kabely zapojené do desky
+  if (a.cables.eps) px.push(r(EPS8[0] - 1, EPS8[1] - 1, 14, 9, 'night'), r(EPS8[0] + 4, CASE.y + 4, 6, EPS8[1] - CASE.y - 4, 'ink'), r(EPS8[0] + 5, CASE.y + 4, 1, EPS8[1] - CASE.y - 4, 'gold'));
+  if (a.cables.atx) px.push(r(ATX24[0] - 2, ATX24[1] - 1, 12, 36, 'night'), r(ATX24[0] - 1, ATX24[1] + 14, 2, 8, 'slate'), r(ATX24[0] + 10, ATX24[1] + 4, 16, 26, 'ink'), ...vstripes(ATX24[0] + 10, ATX24[1] + 5, 16, 24, 3, 'slate'));
   return px;
 }
 
 function coolerPx(id: string): Px[] {
-  const [x, y] = COOLER_AREA;
+  const [sx, sy] = SOCKET;
+  const cx = sx + 18, cy = sy + 18;
   if (id === 'box') {
-    return [
-      [x + 10, y + 2, 32, 48, 'night'], [x + 6, y + 6, 40, 40, 'night'], [x + 2, y + 10, 48, 32, 'night'],
-      [x + 12, y + 8, 28, 36, 'ink'], [x + 8, y + 12, 36, 28, 'ink'],
-      [x + 22, y + 22, 8, 8, 'slate'],
-      [x + 25, y + 10, 2, 12, 'slate'], [x + 25, y + 30, 2, 12, 'slate'], [x + 10, y + 25, 12, 2, 'slate'], [x + 30, y + 25, 12, 2, 'slate'],
-    ];
+    // nízký chladič z krabice: díváš se přímo na jeho větrák
+    return [...disc(cx, cy, 29, 'ink'), ...ring(cx, cy, 29, 1, 'slate'), ...fan(cx, cy, 25, { frame: 'slate', blade: 'silver', bg: 'night', hub: 'ink' }), r(cx - 3, cy - 1, 6, 2, 'red')];
   }
   const cooler = PART_BY_ID[id] as Cooler;
   if (cooler.kind === 'aio') {
+    // pumpa na procesoru, hadice vedou k chladiči nahoře ve skříni
     return [
-      [x + 20, 0, 3, y + 14, 'night'], [x + 29, 0, 3, y + 14, 'night'],
-      [x + 12, y + 12, 28, 28, 'night'], [x + 14, y + 14, 24, 24, 'ink'], [x + 22, y + 24, 8, 4, 'sky'],
+      r(96, 15, 150, 7, 'slate'), r(97, 16, 148, 5, 'night'), ...vstripes(98, 16, 146, 5, 2, 'ink'), r(96, 22, 150, 5, 'ink'),
+      r(cx - 9, 22, 3, cy - 14 - 22, 'night'), r(cx + 6, 22, 3, cy - 14 - 22, 'night'),
+      r(cx - 14, cy - 14, 28, 28, 'slate'), r(cx - 13, cy - 13, 26, 26, 'night'), ...ring(cx, cy, 8, 1, 'sky'), r(cx - 2, cy - 1, 4, 2, 'sky'),
     ];
   }
+  // věžový chladič: shora je vidět horní žebro s konci heatpipe, větrák zboku
+  const x = sx - 10, y = sy - 18;
   return [
-    [x + 4, y + 6, 44, 40, 'silver'], ...stripes(x + 4, y + 6, 44, 40, 2, 'slate'),
-    [x, y + 4, 5, 44, 'night'], [x + 47, y + 4, 5, 44, 'night'],
-    [x + 1, y + 12, 3, 28, 'ink'], [x + 48, y + 12, 3, 28, 'ink'],
-    [x + 14, y + 22, 2, 8, 'orange'], [x + 22, y + 22, 2, 8, 'orange'], [x + 30, y + 22, 2, 8, 'orange'], [x + 38, y + 22, 2, 8, 'orange'],
+    r(x, y, 52, 66, 'slate'), r(x + 1, y + 1, 50, 64, 'silver'), r(x + 1, y + 1, 50, 1, 'white'), ...hstripes(x + 2, y + 4, 48, 60, 6, 'slate'),
+    r(x + 14, y + 22, 24, 20, 'ink'), r(x + 18, y + 30, 16, 3, 'silver'),
+    ...[[8, 10], [16, 10], [34, 10], [42, 10], [8, 52], [16, 52], [34, 52], [42, 52]].map(([dx, dy]) => r(x + dx, y + dy, 3, 3, 'orange')),
+    r(x + 52, y + 2, 8, 62, 'ink'), r(x + 52, y + 2, 1, 62, 'slate'), ...hstripes(x + 54, y + 6, 5, 56, 5, 'slate'),
   ];
 }
 
-function fanHeaders(connected: boolean): Px[] {
-  const px: Px[] = [r(FAN_CPU, 'night'), r(FAN_SYS, 'night'), ...dots(FAN_SYS[0] + 1, FAN_SYS[1] + 1, 7, 1, 2, 'gold')];
-  if (connected) px.push(r(FAN_CPU, 'white'), [FAN_CPU[0] + 3, FAN_CPU[1] + 3, 2, 3, 'night']);
-  else px.push(...dots(FAN_CPU[0] + 1, FAN_CPU[1] + 1, 7, 1, 2, 'gold'));
-  return px;
-}
-
-// ——— Skříň z boku ———
-
-function room(): Px[] {
-  return [[0, 0, SCENE_W, SCENE_H, 'night'], [0, 144, SCENE_W, 6, 'orange'], [0, 144, SCENE_W, 1, 'gold']];
-}
-
-export function CaseScene({ s }: { s: GameState }) {
-  const a = s.asm;
-  const px: Px[] = [
-    ...room(),
-    [CASE.x, CASE.y, CASE.w, CASE.h, 'ink'],
-    [CASE.x + 4, CASE.y + 4, CASE.w - 8, CASE.h - 8, 'night'],
-    // záď: výřez pro I/O a záslepky slotů
-    [CASE.x + 4, 20, 6, 36, 'slate'],
-    [CASE.x + 4, 72, 6, 32, 'slate'], ...stripes(CASE.x + 4, 72, 6, 32, 4, 'ink'),
-    // přední větráky
-    [CASE.x + CASE.w - 10, 12, 6, 40, 'ink'], [CASE.x + CASE.w - 10, 56, 6, 40, 'ink'],
-    [CASE.x + CASE.w - 9, 28, 4, 8, 'slate'], [CASE.x + CASE.w - 9, 72, 4, 8, 'slate'],
-    // kryt zdroje dole
-    [CASE.x + 4, 110, CASE.w - 8, 30, 'ink'], [CASE.x + 4, 110, CASE.w - 8, 1, 'slate'],
-    r(PSU_BAY, 'night'),
-    // šachta na disky
-    r(DRIVE_BAY, 'slate'), [DRIVE_BAY[0] + 2, DRIVE_BAY[1] + 4, 24, 14, 'night'], [DRIVE_BAY[0] + 2, DRIVE_BAY[1] + 22, 24, 14, 'night'],
-  ];
-
-  if (!a.caseId) {
-    px.push(
-      [cx(3), cy(3), 2, 2, 'gold'], [cx(91), cy(3), 2, 2, 'gold'], [cx(3), cy(91), 2, 2, 'gold'],
-      [cx(91), cy(91), 2, 2, 'gold'], [cx(48), cy(3), 2, 2, 'gold'], [cx(48), cy(91), 2, 2, 'gold'],
-    );
-  } else {
-    px.push(...caseBoard(s));
-  }
-  if (a.psu) px.push(r(PSU_BAY, 'slate'), [PSU_BAY[0] + 4, PSU_BAY[1] + 4, 16, 16, 'ink'], ...stripes(PSU_BAY[0] + 4, PSU_BAY[1] + 4, 16, 16, 3, 'night'), [PSU_BAY[0] + 28, PSU_BAY[1] + 6, 18, 6, 'gold']);
-  if (a.gpu) px.push(...gpuSide());
-  if (a.hdd) px.push(r(HDD_RECT, 'silver'), [HDD_RECT[0] + 6, HDD_RECT[1] + 3, 14, 7, 'white'], [HDD_RECT[0] + 7, HDD_RECT[1] + 4, 8, 1, 'blue'], r(HDD_SATA, 'night'));
-  px.push(...cables(s));
-  if (a.panel) {
-    px.push([CASE.x, CASE.y, CASE.w, CASE.h, 'ink'], [CASE.x + 2, CASE.y + 2, CASE.w - 4, 1, 'slate']);
-  }
-  return (
-    <>
-      <Rects px={px} />
-      {a.panel ? (
-        <>
-          <rect x={CASE.x + 8} y={CASE.y + 8} width={CASE.w - 16} height={96} fill="#29366f" opacity={0.85} />
-          <rect x={CASE.x + 12} y={CASE.y + 12} width={30} height={2} fill="#73eff7" opacity={0.6} />
-          <rect x={CASE.x + 12} y={CASE.y + 16} width={14} height={2} fill="#73eff7" opacity={0.6} />
-        </>
-      ) : null}
-    </>
-  );
-}
-
-function caseBoard(s: GameState): Px[] {
-  const a = s.asm;
-  const px: Px[] = [
-    [CBOARD.x, CBOARD.y, CBOARD.w, CBOARD.h, 'ink'],
-    [CBOARD.x, CBOARD.y, CBOARD.w, 1, 'slate'],
-    [cx(0), cy(6), 6, 30, 'slate'],
-    r(C_ATX24, 'night'), ...dots(C_ATX24[0] + 1, C_ATX24[1] + 1, 4, 17, 2, 'slate'),
-    r(C_EPS, 'night'),
-    r(C_PCIE, 'night'),
-    [cx(66), cy(68), 16, 16, 'night'], ...stripes(cx(66), cy(68), 16, 16, 3, 'slate'),
-  ];
-  (['A1', 'A2', 'B1', 'B2'] as RamSlot[]).forEach((slot, i) => {
-    const id = a.ram[slot];
-    px.push([cx(50 + i * 4), cy(6), 2, 40, id ? ramAccent(id) : 'night']);
-  });
-  if (a.m2) px.push([cx(14), cy(50), 26, 3, 'teal']);
-  if (a.cooler) {
-    const c = a.cooler.id === 'box' ? null : (PART_BY_ID[a.cooler.id] as Cooler);
-    if (c?.kind === 'aio') px.push([C_SOCKET[0] + 4, C_SOCKET[1] + 4, 16, 16, 'night'], [C_SOCKET[0] + 9, C_SOCKET[1] + 10, 6, 3, 'sky'], [C_SOCKET[0] + 6, CASE.y + 4, 3, C_SOCKET[1] - CASE.y, 'night'], [C_SOCKET[0] + 14, CASE.y + 4, 3, C_SOCKET[1] - CASE.y, 'night']);
-    else if (c) px.push([C_SOCKET[0] - 2, C_SOCKET[1] - 2, 28, 28, 'silver'], ...stripes(C_SOCKET[0] - 2, C_SOCKET[1] - 2, 28, 28, 2, 'slate'), [C_SOCKET[0] - 4, C_SOCKET[1], 3, 24, 'night']);
-    else px.push([C_SOCKET[0], C_SOCKET[1], 24, 24, 'night'], [C_SOCKET[0] + 9, C_SOCKET[1] + 9, 6, 6, 'slate']);
-  } else if (a.cpu) {
-    px.push([C_SOCKET[0] + 4, C_SOCKET[1] + 4, 16, 16, 'silver']);
-  } else {
-    px.push([C_SOCKET[0] + 2, C_SOCKET[1] + 2, 20, 20, 'silver'], [C_SOCKET[0] + 4, C_SOCKET[1] + 4, 16, 16, 'night']);
-  }
-  return px;
-}
-
-function gpuSide(): Px[] {
-  const [x, y, w, h] = GPU_RECT;
-  return [
-    [x - 4, y - 2, 4, h + 4, 'silver'],
-    [x, y, w, h - 2, 'slate'],
-    [x, y, w, 2, 'silver'],
-    [x + 26, y + 5, 24, 2, 'lime'],
-    [x + 4, y + h - 2, 60, 2, 'teal'],
-    r(GPU_POWER, 'night'),
-  ];
-}
-
-function cables(s: GameState): Px[] {
+function caseParts(s: GameState, boardInCase: boolean): Px[] {
   const a = s.asm;
   const px: Px[] = [];
-  if (a.cables.atx) {
-    px.push([136, C_ATX24[1] + 8, 4, 110 - C_ATX24[1] - 8, 'night'], [137, C_ATX24[1] + 8, 1, 110 - C_ATX24[1] - 8, 'slate'],
-      [C_ATX24[0] - 1, C_ATX24[1] - 1, 8, 20, 'night'], [C_ATX24[0] + 6, C_ATX24[1] + 8, 4, 4, 'night'], [134, 108, 8, 3, 'night']);
+  if (a.psu) {
+    const [x, y, w, h] = PSU_BAY;
+    px.push(...box(x + 2, y + 2, w - 4, h - 4, 'ink', 'slate'), r(x + 14, y + 8, 40, 18, 'gold'), r(x + 17, y + 11, 26, 2, 'ink'), r(x + 17, y + 15, 18, 1, 'ink'), r(x + 17, y + 19, 22, 1, 'ink'), r(x + w - 8, y + 4, 4, h - 8, 'night'), ...dots(x + w - 7, y + 6, 2, h - 12, 3, 'slate'));
   }
-  if (a.cables.eps) {
-    px.push([CASE.x + 12, C_EPS[1] + 1, 3, 110 - C_EPS[1], 'night'], [CASE.x + 12, C_EPS[1], C_EPS[0] - CASE.x - 10, 3, 'night'],
-      [C_EPS[0] - 1, C_EPS[1] - 1, 11, 5, 'night'], [CASE.x + 13, C_EPS[1] + 4, 1, 100 - C_EPS[1], 'slate']);
+  if (a.hdd) px.push(...box(HDD_RECT[0], HDD_RECT[1], HDD_RECT[2], HDD_RECT[3], 'silver', 'slate'), r(HDD_RECT[0] + 6, HDD_RECT[1] + 3, 30, 13, 'white'), r(HDD_RECT[0] + 8, HDD_RECT[1] + 5, 16, 2, 'blue'), r(HDD_RECT[0] + 8, HDD_RECT[1] + 10, 22, 1, 'slate'), R(HDD_SATA, 'night'));
+  if (a.gpu && boardInCase) {
+    const [x, y, w, h] = GPU_RECT;
+    px.push(
+      r(x - 4, y - 2, 4, h + 4, 'silver'), r(x - 5, y - 4, 6, 3, 'white'),
+      ...box(x, y, w, h, 'night', 'slate'), r(x + 1, y + 1, w - 2, 3, 'ink'), r(x + 1, y + 1, w - 2, 1, 'silver'),
+      ...line(x + 40, y + 5, x + 52, y + h - 6, 'slate'), ...line(x + 120, y + 5, x + 108, y + h - 6, 'slate'),
+      r(x + 66, y + 11, 40, 3, 'lime'), r(x + 3, y + h - 7, w - 6, 5, 'ink'),
+      R(GPU_POWER, 'night'), ...dots(GPU_POWER[0] + 1, GPU_POWER[1] + 1, 11, 2, 3, 'slate'),
+    );
   }
-  if (a.cables.pcie && a.gpu) {
-    px.push([GPU_POWER[0] + 2, GPU_POWER[1] + 3, 3, 110 - GPU_POWER[1] - 3, 'night'], [GPU_POWER[0] - 1, GPU_POWER[1] - 1, 10, 5, 'night'], [GPU_POWER[0] + 3, GPU_POWER[1] + 3, 1, 108 - GPU_POWER[1] - 3, 'lime']);
-  }
-  if (a.cables.sata && a.hdd) {
-    px.push([HDD_SATA[0] - 5, HDD_SATA[1] + 4, 2, 110 - HDD_SATA[1] - 4, 'night'], [HDD_SATA[0] - 5, HDD_SATA[1] + 3, 7, 2, 'night'], [HDD_SATA[0] - 1, HDD_SATA[1] - 1, 5, 12, 'night']);
+  // kabely ze zdroje
+  if (a.cables.atx && boardInCase) px.push(r(252, 66, 10, SHROUD_Y - 66, 'ink'), ...vstripes(253, 66, 9, SHROUD_Y - 66, 3, 'slate'));
+  if (a.cables.pcie && a.gpu) px.push(r(GPU_POWER[0] - 2, GPU_POWER[1] - 4, 16, 8, 'night'), r(GPU_POWER[0] + 14, GPU_POWER[1] - 3, 238 - GPU_POWER[0], 5, 'ink'), r(GPU_POWER[0] + 14, GPU_POWER[1] - 2, 238 - GPU_POWER[0], 1, 'lime'));
+  if (a.cables.sata && a.hdd) px.push(r(HDD_SATA[0] - 2, HDD_SATA[1] - 1, 8, 16, 'night'), r(HDD_SATA[0], HDD_SATA[1] + 15, 4, 280 - HDD_SATA[1] - 15, 'ink'));
+  // datový kabel: z disku nahoru k portům SATA na pravém okraji desky
+  if (a.cables.data && a.hdd && boardInCase) {
+    const [sx, sy] = SATA_MB;
+    const cx = HDD_RECT[0] + 4;
+    px.push(
+      r(cx - 1, HDD_RECT[1] - 3, 5, 3, 'red'), r(cx, sy + 2, 2, HDD_RECT[1] - 3 - sy - 2, 'red'),
+      r(sx + 9, sy + 2, cx - sx - 9, 2, 'red'), r(sx + 4, sy + 1, 5, 4, 'red'),
+    );
   }
   return px;
+}
+
+function Glass() {
+  // tvrzené sklo bočnice: interiér je vidět, jen ztmavený
+  return (
+    <>
+      <rect x={CASE.x + 4} y={CASE.y + 4} width={CASE.w - 8} height={CASE.h - 8} fill="#29366f" opacity={0.42} />
+      <rect x={CASE.x} y={CASE.y} width={CASE.w} height={6} fill="#566c86" />
+      <rect x={CASE.x} y={CASE.y + CASE.h - 6} width={CASE.w} height={6} fill="#566c86" />
+      <rect x={CASE.x} y={CASE.y} width={6} height={CASE.h} fill="#566c86" />
+      <rect x={CASE.x + CASE.w - 6} y={CASE.y} width={6} height={CASE.h} fill="#566c86" />
+      <polygon points={`${CASE.x + 30},${CASE.y + 6} ${CASE.x + 60},${CASE.y + 6} ${CASE.x + 10},${CASE.y + 80} ${CASE.x + 6},${CASE.y + 60}`} fill="#f4f4f4" opacity={0.12} />
+    </>
+  );
 }
 
 // ——— Záda počítače ———
@@ -305,29 +261,81 @@ export function BackScene({ s }: { s: GameState }) {
   const [x, y, w, h] = BACK_CASE;
   const px: Px[] = [
     ...room(),
-    [x, y, w, h, 'ink'], [x + 2, y + 2, w - 4, h - 4, 'night'],
-    // panel vstupů a výstupů desky
-    [x + 8, y + 8, 26, 52, 'silver'],
-    [x + 11, y + 12, 6, 3, 'night'], [x + 19, y + 12, 6, 3, 'night'], [x + 11, y + 18, 6, 3, 'night'], [x + 19, y + 18, 6, 3, 'night'],
-    [x + 11, y + 25, 6, 3, 'night'], [x + 19, y + 25, 6, 3, 'night'],
-    r(PORT_MB, 'night'), [PORT_MB[0] + 1, PORT_MB[1] + 1, PORT_MB[2] - 2, 1, 'slate'],
-    [x + 12, y + 44, 8, 6, 'night'], [x + 12, y + 53, 2, 2, 'sky'], [x + 16, y + 53, 2, 2, 'lime'], [x + 20, y + 53, 2, 2, 'red'],
-    // zadní větrák
-    [x + 40, y + 8, 30, 30, 'night'], [x + 44, y + 12, 22, 22, 'ink'], [x + 52, y + 20, 6, 6, 'slate'],
-    // záslepky slotů
-    [x + 8, y + 70, 60, 40, 'slate'],
+    r(x, y, w, h, 'slate'), r(x + 2, y + 2, w - 4, h - 4, 'ink'),
+    r(x + 6, 288, 26, 6, 'ink'), r(x + w - 32, 288, 26, 6, 'ink'),
+    // šroubky bočnice na pravé hraně
+    r(x + w - 6, y + 30, 3, 6, 'silver'), r(x + w - 6, y + 236, 3, 6, 'silver'),
   ];
-  for (let i = 0; i < 6; i++) px.push([x + 9, y + 72 + i * 6, 58, 1, 'ink']);
-  if (a.gpu) {
-    px.push([x + 8, y + 80, 60, 14, 'silver'], r(PORT_GPU, 'night'), [PORT_GPU[0] + 1, PORT_GPU[1] + 1, PORT_GPU[2] - 2, 1, 'slate'],
-      [PORT_GPU[0] + 14, PORT_GPU[1], 7, 4, 'night'], [PORT_GPU[0] + 26, PORT_GPU[1], 7, 4, 'night'], [PORT_GPU[0] + 38, PORT_GPU[1], 7, 4, 'night']);
+  // panel portů desky (jen když je deska ve skříni)
+  if (a.caseId) {
+    const [ix, iy, iw, ih] = IO_SHIELD;
+    px.push(
+      r(ix, iy, iw, ih, 'silver'), r(ix, iy, iw, 1, 'white'),
+      ...[[0, 0], [13, 0], [0, 7], [13, 7]].flatMap(([dx, dy]) => [r(USB_MB[0] + dx, USB_MB[1] + dy, 10, 5, 'night'), r(USB_MB[0] + dx + 2, USB_MB[1] + dy + 2, 6, 1, 'sky')]),
+      r(ix + 4, iy + 22, 11, 9, 'night'), ...dots(ix + 6, iy + 24, 8, 2, 2, 'gold'),
+      r(ix + 20, iy + 22, 8, 8, 'night'),
+      R(PORT_MB, 'night'), r(PORT_MB[0] + 2, PORT_MB[1] + 4, 7, 1, 'silver'), r(PORT_MB[0] + 2, PORT_MB[1] + 1, 7, 2, 'ink'),
+      r(PORT_MB[0] + 15, PORT_MB[1], 9, 5, 'night'),
+      ...disc(ix + 7, iy + 55, 2, 'sky'), ...disc(ix + 14, iy + 55, 2, 'lime'), ...disc(ix + 21, iy + 55, 2, 'red'),
+    );
+  } else {
+    px.push(r(IO_SHIELD[0], IO_SHIELD[1], IO_SHIELD[2], IO_SHIELD[3], 'night'));
   }
-  // zdroj
-  px.push([x + 4, y + 112, w - 8, 22, 'slate'], [x + 8, y + 115, 16, 16, 'ink'], ...stripes(x + 8, y + 115, 16, 16, 3, 'night'),
-    [x + 52, y + 118, 10, 8, 'night'], [x + 64, y + 119, 4, 6, 'red']);
+  // zadní větrák
+  px.push(r(182, 24, 66, 66, 'slate'), r(183, 25, 64, 64, 'ink'), ...fan(215, 57, 28, { frame: 'slate', blade: 'slate', bg: 'night', hub: 'ink' }), ...ring(215, 57, 20, 1, 'silver'), ...ring(215, 57, 12, 1, 'silver'));
+  // záslepky slotů (7 vodorovných plíšků), grafika zabírá dva
+  for (let i = 0; i < 7; i++) {
+    const sy = SLOTS_BACK_Y + i * 14;
+    if (a.gpu && i < 2) continue;
+    px.push(r(140, sy, 96, 12, 'slate'), ...dots(150, sy + 4, 80, 4, 4, 'ink'), r(136, sy + 4, 3, 3, 'silver'));
+  }
+  if (a.gpu) {
+    px.push(
+      r(140, SLOTS_BACK_Y, 96, 28, 'silver'), r(140, SLOTS_BACK_Y, 96, 1, 'white'), r(136, SLOTS_BACK_Y + 4, 3, 3, 'silver'), r(136, SLOTS_BACK_Y + 18, 3, 3, 'silver'),
+      R(PORT_GPU, 'night'), r(PORT_GPU[0] + 2, PORT_GPU[1] + 1, 7, 2, 'ink'),
+      r(PORT_GPU[0] + 15, PORT_GPU[1], 9, 5, 'night'), r(PORT_GPU[0] + 28, PORT_GPU[1], 9, 5, 'night'), r(PORT_GPU[0] + 41, PORT_GPU[1], 9, 5, 'night'),
+      ...dots(206, SLOTS_BACK_Y + 4, 26, 20, 3, 'slate'),
+    );
+  }
+  // zdroj: mřížka, zásuvka na kabel, vypínač
+  if (a.psu) {
+    const [px0, py0, pw, ph] = PSU_BACK;
+    const on = a.psuSwitch;
+    px.push(
+      r(px0, py0, pw, ph, 'slate'), r(px0 + 1, py0 + 1, pw - 2, ph - 2, 'ink'),
+      ...dots(px0 + 6, py0 + 5, 64, 36, 3, 'slate'),
+      r(222, 248, 20, 14, 'night'), r(226, 252, 2, 5, 'silver'), r(231, 252, 2, 5, 'silver'), r(236, 252, 2, 5, 'silver'),
+      r(228, 262, 8, 32, 'night'),
+      R(PSU_SWITCH, 'night'), on ? r(PSU_SWITCH[0] + 1, PSU_SWITCH[1] + 1, 8, 6, 'lime') : r(PSU_SWITCH[0] + 1, PSU_SWITCH[1] + 7, 8, 6, 'red'),
+      on ? r(PSU_SWITCH[0] + 4, PSU_SWITCH[1] + 9, 2, 3, 'slate') : r(PSU_SWITCH[0] + 3, PSU_SWITCH[1] + 2, 4, 3, 'slate'),
+    );
+  } else {
+    px.push(r(PSU_BACK[0], PSU_BACK[1], PSU_BACK[2], PSU_BACK[3], 'night'));
+  }
   if (a.monitor) {
     const port = a.monitor === 'gpu' ? PORT_GPU : PORT_MB;
-    px.push([port[0] - 2, port[1] - 1, 13, 6, 'ink'], [port[0] + 4, port[1] + 5, 3, SCENE_H - port[1] - 11, 'ink']);
+    px.push(r(port[0] - 2, port[1] - 2, 15, 9, 'night'), r(port[0] - 1, port[1] - 1, 13, 7, 'ink'), r(port[0] + 4, port[1] + 7, 4, 287 - port[1] - 7, 'ink'));
   }
   return <Rects px={px} />;
+}
+
+/** Malá mapka celé skříně s rámečkem, kam se právě díváš (v přiblížení na desku). */
+export function MiniMap({ onMat }: { onMat: boolean }) {
+  const [cx, cy, cw, ch] = CROP.board;
+  return (
+    <svg width={80} height={60} viewBox={`0 0 ${WORLD_W} ${WORLD_H}`} shapeRendering="crispEdges" aria-hidden="true">
+      <rect x={0} y={0} width={WORLD_W} height={WORLD_H} fill="#1a1c2c" />
+      <rect x={CASE.x} y={CASE.y} width={CASE.w} height={CASE.h} fill="#566c86" />
+      <rect x={CASE.x + 6} y={CASE.y + 6} width={CASE.w - 12} height={CASE.h - 12} fill="#333c57" />
+      <rect x={52} y={SHROUD_Y} width={284} height={48} fill="#1a1c2c" />
+      {onMat ? null : <rect x={BOARD.x} y={BOARD.y} width={BOARD.w} height={BOARD.h} fill="#29366f" />}
+      <rect x={cx} y={cy} width={cw} height={ch} fill="none" stroke="#ffcd75" strokeWidth={10} />
+    </svg>
+  );
+}
+
+/** Prázdná deska na bílém papíře pro manuál. */
+export function ManualBoard({ mb }: { mb: Motherboard }) {
+  const [cx, cy, cw, ch] = CROP.board;
+  return <Rects px={[r(cx, cy, cw, ch, 'white'), ...board(mb)]} />;
 }

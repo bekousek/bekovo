@@ -23,9 +23,12 @@ export interface Asm {
   psu: string | null;
   gpu: string | null;
   hdd: string | null;
-  cables: { atx: boolean; eps: boolean; pcie: boolean; sata: boolean };
+  /** sata = napájení disku ze zdroje, data = datový kabel z disku do desky. */
+  cables: { atx: boolean; eps: boolean; pcie: boolean; sata: boolean; data: boolean };
   panel: boolean;
   monitor: 'gpu' | 'mb' | null;
+  /** Vypínač na zadní straně zdroje. */
+  psuSwitch: boolean;
   /** Díly, u kterých žák zjistil, že nepasují. */
   blocked: string[];
 }
@@ -96,6 +99,8 @@ export interface GameState {
   asm: Asm;
   notes: Note[];
   postTries: number;
+  /** Kolikrát si žák v dílně řekl o nápovědu (Co dál? nebo po třetím omylu). */
+  hints: number;
 
   os: OsState;
   sw: SwState;
@@ -117,9 +122,10 @@ export function emptyAsm(): Asm {
     psu: null,
     gpu: null,
     hdd: null,
-    cables: { atx: false, eps: false, pcie: false, sata: false },
+    cables: { atx: false, eps: false, pcie: false, sata: false, data: false },
     panel: false,
     monitor: null,
+    psuSwitch: false,
     blocked: [],
   };
 }
@@ -150,6 +156,7 @@ export function newGame(): GameState {
     asm: emptyAsm(),
     notes: [],
     postTries: 0,
+    hints: 0,
     os: {
       step: 0, osId: null, keyboard: null, disk: null, user: '', pass: '',
       privacy: { location: true, ads: true, diag: true }, done: false,

@@ -36,8 +36,17 @@ export function ArtSvg({ art, scale = 4, title, className, rotate = 0, tint }: A
   );
 }
 
-export function Sprite({ name, ...rest }: { name: SpriteKey } & Omit<ArtProps, 'art'>) {
-  return <ArtSvg art={SPRITES[name]} {...rest} />;
+/** Největší měřítko, ve kterém se kresba vejde do rámečku. Od 2× jen celá čísla, ať jsou všechny pixely stejně velké. */
+export function fitScale(art: Art, maxW: number, maxH: number): number {
+  const f = Math.min(maxW / art.w, maxH / art.h);
+  if (f >= 2) return Math.floor(f);
+  return f >= 1.5 ? 1.5 : 1;
+}
+
+/** `fit` = rámeček [šířka, výška] v CSS px, do kterého se díl zvětší. */
+export function Sprite({ name, fit, scale, ...rest }: { name: SpriteKey; fit?: readonly [number, number] } & Omit<ArtProps, 'art'>) {
+  const art = SPRITES[name];
+  return <ArtSvg art={art} scale={fit ? fitScale(art, fit[0], fit[1]) : scale} {...rest} />;
 }
 
 export function Icon({ name, scale = 2, ...rest }: { name: IconKey } & Omit<ArtProps, 'art'>) {

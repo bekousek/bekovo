@@ -653,38 +653,100 @@ p { margin: 0; }
   .bpc-main { padding: 16px 16px 40px; }
 }
 
-.ws-receipt { padding: 16px 16px 24px; gap: 8px; }
-.ws-lines { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
-.ws-line {
+.ws-receipt { padding: 16px 16px 24px; gap: 12px; }
+
+/* Účtenka v dílně: díly a nářadí. Nic nesvítí, žák sám pozná, co kam patří. */
+.tray { display: grid; gap: 4px; }
+.tray__title {
+  font-family: var(--f-pixel); font-size: 16px; font-weight: 400; color: var(--c-slate);
+  padding-bottom: 4px; border-bottom: var(--px) dashed var(--c-silver);
+}
+.tray__list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.tray-row {
   appearance: none; border: 0; width: 100%; cursor: pointer; text-align: left;
-  display: grid; grid-template-columns: 24px 1fr; gap: 2px 10px; align-items: start;
-  padding: 8px 8px; min-height: 44px;
-  font-family: var(--f-pixel); font-size: 16px; font-weight: 400; line-height: 1.25;
+  display: grid; grid-template-columns: 68px 1fr; gap: 10px; align-items: center;
+  padding: 6px; min-height: 52px;
   color: var(--c-night); background: transparent;
 }
-.ws-line:hover:not([disabled]) { background: #e6eaee; }
-.ws-line[disabled] { cursor: default; }
-.ws-line__mark { width: 24px; height: 24px; display: grid; place-items: center; font-size: 18px; }
-.ws-line__name { display: flex; justify-content: space-between; gap: 8px; }
-.ws-line__name > span:last-child { white-space: nowrap; }
-.ws-line__sub { grid-column: 2; font-family: var(--f-read); font-size: 14px; line-height: 1.35; color: var(--c-slate); }
-.ws-line--done { color: var(--c-slate); }
-.ws-line--done .ws-line__name { color: var(--c-slate); }
-.ws-line--now { background: var(--c-gold); }
-.ws-line--now:hover:not([disabled]) { background: #ffd98f; }
-.ws-line--now .ws-line__sub { color: var(--c-night); }
-.ws-line--held { background: var(--c-night); color: var(--c-white); }
-.ws-line--held .ws-line__sub { color: var(--c-silver); }
-.ws-line--block .ws-line__sub { color: var(--c-red); font-weight: 600; }
-.ws-progress { font-family: var(--f-pixel); font-size: 16px; color: var(--c-slate); display: flex; justify-content: space-between; padding-top: 8px; border-top: var(--px) dashed var(--c-silver); }
+.tray-row:hover:not([disabled]) { background: #e6eaee; }
+.tray-row[disabled] { cursor: default; }
+.tray-row:focus-visible { outline: var(--px) solid var(--c-blue); outline-offset: calc(-1 * var(--px)); }
+.tray-row__art {
+  width: 68px; height: 52px;
+  display: grid; place-items: center;
+  background: var(--c-ink);
+}
+.tray-row__text { display: grid; gap: 2px; min-width: 0; }
+.tray-row__name {
+  display: flex; align-items: center; gap: 6px;
+  font-family: var(--f-pixel); font-size: 16px; font-weight: 400; line-height: 1.2;
+}
+.tray-row__note { font-family: var(--f-read); font-size: 14px; line-height: 1.35; color: var(--c-slate); }
+.tray-row--done .tray-row__name { color: var(--c-slate); }
+.tray-row--held { background: var(--c-night); color: var(--c-white); }
+.tray-row--held:hover:not([disabled]) { background: var(--c-night); }
+.tray-row--held .tray-row__note { color: var(--c-silver); }
+.tray-row--block .tray-row__note { color: var(--c-red); font-weight: 600; }
+.tray-row__link { margin-left: 84px; }
+
+.ws-help { display: grid; gap: 4px; padding-top: 12px; border-top: var(--px) dashed var(--c-silver); }
+.ws-help__note { font-size: 14px; color: var(--c-slate); text-align: center; }
 
 .ws-scene { display: grid; gap: 12px; min-width: 0; }
+/* Účtenka je dlouhá: scéna zůstává při posouvání vidět. */
+@media (min-width: 761px) { .ws-scene { position: sticky; top: calc(var(--hud) + 12px); } }
 .ws-scene__bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; }
-.ws-scene__title { font-size: 24px; }
-.ws-stage { position: relative; padding: 16px; display: grid; justify-items: center; }
-.ws-tip { display: flex; gap: 12px; align-items: flex-start; padding: 14px 18px; min-height: 64px; }
+.ws-scene__tools { display: flex; flex-wrap: wrap; gap: 8px; }
+.ws-caption { font-size: 16px; color: var(--c-silver); max-width: 70ch; }
+/* minmax(0, 1fr): sloupec se nesmí roztáhnout podle scény, jinak by se měřítko nikdy nezmenšilo */
+.ws-stage { position: relative; padding: 16px; display: grid; grid-template-columns: minmax(0, 1fr); justify-items: center; }
+/* Na úzkém displeji by mapka zakryla desku, stačí popisek pohledu. */
+@media (max-width: 760px) { .stage-minimap { display: none; } }
+.ws-tip { display: flex; gap: 12px; align-items: flex-start; padding: 14px 18px; min-height: 88px; }
 .ws-tip p { font-size: 17px; }
-.ws-tools { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.ws-tip--bad { --line: var(--c-red); }
+.ws-tip--ok { --line: var(--c-green); }
+
+/* Přepínač pohledů: ikona ukazuje, odkud se na počítač díváš. */
+.view-tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.view-tab {
+  appearance: none; cursor: pointer;
+  display: inline-flex; align-items: center; gap: 8px;
+  min-height: 44px; padding: 6px 14px 6px 10px;
+  font-family: var(--f-pixel); font-size: 16px; font-weight: 400;
+  color: var(--c-white); background: var(--c-ink);
+  border: var(--px) solid var(--c-slate);
+}
+.view-tab:hover { background: var(--c-navy); }
+.view-tab[aria-selected='true'] { background: var(--c-gold); color: var(--c-night); border-color: var(--c-night); }
+.view-tab:focus-visible { outline: none; border-color: var(--c-cyan); }
+
+.ws-world { position: relative; width: 100%; height: 100%; transform-origin: 50% 50%; }
+.view-zoom-in { animation: view-zoom-in 280ms steps(4) both; }
+.view-zoom-out { animation: view-zoom-out 280ms steps(4) both; }
+.view-turn { animation: view-turn 320ms steps(4) both; }
+@keyframes view-zoom-in { from { transform: scale(0.55); opacity: 0.3; } }
+@keyframes view-zoom-out { from { transform: scale(1.4); opacity: 0.3; } }
+@keyframes view-turn { from { transform: scaleX(0.1); } 50% { transform: scaleX(0.55); } }
+
+.stage-tag {
+  position: absolute; z-index: 2;
+  padding: 2px 6px;
+  max-width: 30%;
+  font-family: var(--f-pixel); font-size: 16px; font-weight: 400; line-height: 1.2;
+  color: var(--c-silver); background: var(--c-night);
+  pointer-events: none;
+}
+@media (max-width: 760px) { .stage-tag { font-size: 14px; } }
+.stage-minimap {
+  position: absolute; right: 12px; top: 12px; z-index: 2;
+  display: grid; justify-items: center; gap: 2px;
+  padding: 4px 4px 2px;
+  font-family: var(--f-pixel); font-size: 14px; color: var(--c-silver);
+  background: var(--c-night);
+  border: 2px solid var(--c-slate);
+  pointer-events: none;
+}
 
 .drop {
   position: absolute;
@@ -692,30 +754,34 @@ p { margin: 0; }
   background: transparent;
   cursor: pointer;
 }
-.drop[disabled] { cursor: default; }
 .drop__ring {
   position: absolute; inset: 0;
   pointer-events: none;
 }
+/* Místa jsou neviditelná: jméno se ukáže až po najetí myší nebo fokusu. */
+.drop:hover .drop__ring { outline: 2px dashed var(--c-cyan); }
+.drop--big:hover .drop__ring { outline: none; }
 .drop--target .drop__ring { animation: target 900ms steps(2) infinite; }
 .drop--target .drop__ring,
 .drop--over .drop__ring { outline: var(--s) solid var(--c-gold); }
 .drop--over .drop__ring { animation: none; background: rgba(255, 205, 117, 0.25); }
-.drop--nope .drop__ring {
-  animation: none;
-  outline: var(--s) solid var(--c-orange);
-  background: rgba(177, 62, 83, 0.25);
-}
 .drop:focus-visible { outline: none; }
 .drop:focus-visible .drop__ring { outline: var(--s) solid var(--c-cyan); animation: none; }
 .drop__label {
-  position: absolute; left: 50%; top: 100%;
+  position: absolute; left: 50%; top: 100%; z-index: 3;
   transform: translate(-50%, 6px);
   padding: 2px 6px;
   font-family: var(--f-pixel); font-size: 16px; font-weight: 400; white-space: nowrap;
   background: var(--c-night); color: var(--c-gold);
   pointer-events: none;
+  visibility: hidden;
 }
+.drop:hover .drop__label,
+.drop:focus-visible .drop__label,
+.drop--over .drop__label,
+.drop--target .drop__label,
+.drop--debug .drop__label { visibility: visible; }
+.drop:hover, .drop:focus-visible, .drop--over { z-index: 4; }
 .drop__label--top { top: auto; bottom: 100%; transform: translate(-50%, -6px); }
 .drop--debug .drop__ring { background: rgba(115, 239, 247, 0.25); outline: 1px dashed var(--c-cyan); }
 @keyframes target { 50% { opacity: 0.35; } }
@@ -723,11 +789,31 @@ p { margin: 0; }
 .ghost {
   position: fixed; left: 0; top: 0; z-index: 70;
   pointer-events: none;
-  filter: drop-shadow(0 8px 0 rgba(26, 28, 44, 0.5));
+  filter: drop-shadow(0 8px 0 rgba(26, 28, 44, 0.5)); /* taste-skill-ignore: tažený díl je vrstva nad scénou */
 }
 
-.ws-choice { display: grid; gap: 12px; padding: 18px 20px; }
+/* Díl v ruce: nářadí se rozbalí přímo pod jeho řádkem v účtence. */
+.tray-hand { display: grid; gap: 10px; justify-items: start; padding: 4px 10px 8px; background: var(--c-night); color: var(--c-white); font-size: 15px; }
+.tray-hand__cpu { display: flex; gap: 12px; align-items: center; }
+.tray-hand__cpu svg { flex: none; }
+
 .ws-choice__opts { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Manuál desky: prázdná deska s popisky a pravidly. */
+.bpc-dialog--wide { width: min(940px, 100%); }
+.manual { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 20px; align-items: start; }
+@media (max-width: 760px) { .manual { grid-template-columns: 1fr; justify-items: center; } }
+.manual__board { position: relative; flex: none; }
+.manual__tag {
+  position: absolute;
+  transform: translate(-50%, 2px);
+  padding: 0 4px;
+  font-family: var(--f-pixel); font-size: 14px; font-weight: 400; white-space: nowrap; line-height: 1.3;
+  color: var(--c-white); background: var(--c-night);
+  pointer-events: none;
+}
+.manual__tag--top { transform: translate(-50%, calc(-100% - 2px)); }
+.manual__rules { display: grid; gap: 10px; margin: 0; padding-left: 20px; font-size: 16px; }
 
 /* ——— POST / monitor ——— */
 

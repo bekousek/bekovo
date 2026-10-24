@@ -1,10 +1,10 @@
 /**
- * Kroky dílny odvozené z účtenky: každý koupený díl je řádek, k tomu kroky
- * bez dílu (pasta, kabely, bočnice, monitor). Stejná logika rozhoduje,
- * co se smí položit kam (place) i co ukáže POST.
+ * Logika dílny. Žák si z účtenky vezme díl, kabel nebo nářadí a sám hledá,
+ * kam patří. Nic nesvítí: špatné místo se vysvětlí, po druhém omylu přijde
+ * nápověda, po třetím se správné místo ukáže. Co chybí, prozradí až zapnutí.
  */
 import {
-  PART_BY_ID, type Case, type Cooler, type Cpu, type Gpu, type Motherboard, type Psu, type Ram, type Storage,
+  CATEGORIES, PART_BY_ID, type Case, type Cooler, type Cpu, type Gpu, type Motherboard, type Part, type Psu, type Ram, type Storage,
 } from '../data/parts';
 import {
   boardFitsCase, coolerFitsCpu, cpuFitsBoard, psuEnough, ramFitsBoard, whyCase, whyCooler, whyCpu, whyRam,
@@ -12,37 +12,34 @@ import {
 import { addNote, emptyAsm, type Asm, type GameState, type RamSlot } from '../state';
 import type { SpriteKey } from '../pixel/sprites';
 import { spriteOf } from '../logic/assembly';
-import type { TargetId, View } from './slots';
-
-export type LineStatus = 'done' | 'ready' | 'wait' | 'block' | 'extra' | 'missing';
-
-export interface Line {
-  key: string;
-  label: string;
-  partId?: string;
-  price?: number;
-  sprite?: SpriteKey;
-  status: LineStatus;
-  sub?: string;
-  view: View;
-  targets: TargetId[];
-  /** Lákavé, ale špatné cíle: ukážou se a po upuštění vysvětlí proč ne. */
-  traps: TargetId[];
-  tool?: 'rotate' | 'paste';
-  /** Krok se provede ťuknutím na řádek (bez přetahování). */
-  instant?: 'panel' | 'power';
-  /** Díl jde z počítače zase vyndat. */
-  removable?: boolean;
-  indent?: boolean;
-}
+import { TARGETS, type TargetId } from './slots';
 
 const SLOTS: RamSlot[] = ['A1', 'A2', 'B1', 'B2'];
 
 /** Dva kanály = jeden modul v kanálu A a druhý v kanálu B. */
 export const ramDual = (slots: RamSlot[]) => slots.some((x) => x[0] === 'A') && slots.some((x) => x[0] === 'B');
-const CONNECTORS: TargetId[] = ['atx24', 'eps8', 'gpu-power', 'hdd-sata'];
 
-const owned = <T>(s: GameState, cat: string) => s.owned.map((id) => PART_BY_ID[id]).filter((p) => p?.cat === cat) as T[];
+export type ItemState = 'box' | 'mat' | 'in' | 'block' | 'extra' | 'used';
+
+export interface Item {
+  key: string;
+  label: string;
+  sprite: SpriteKey;
+  partId?: string;
+  price?: number;
+  state: ItemState;
+  note: string;
+  holdable: boolean;
+  /** Díl jde zase vyndat (zdroj, karta, disk, paměť, SSD). */
+  removable?: boolean;
+  /** Kde to hledat (nápověda po druhém omylu). */
+  hint: string;
+  /** Správná místa (ukážou se po třetím omylu nebo přes „Co dál?“). */
+  goal: TargetId[];
+  group: 'part' | 'tool';
+}
+
+const owned = <T extends Part>(s: GameState, cat: string) => s.owned.map((id) => PART_BY_ID[id]).filter((p) => p?.cat === cat) as T[];
 
 export function activeParts(s: GameState) {
   const a = s.asm;
@@ -61,367 +58,437 @@ export function activeParts(s: GameState) {
 /** Skříň, do které se deska bude dávat: první koupená, do které se vejde. */
 export function caseFor(s: GameState): Case | undefined {
   const cases = owned<Case>(s, 'case');
-  const mb = s.asm.mb ? (PART_BY_ID[s.asm.mb] as Motherboard) : undefined;
+  const mb = s.asm.mb ? (PART_BY_ID[s.asm.mb] as Motherboard) : owned<Motherboard>(s, 'mb')[0];
   if (!mb) return cases[0];
   return cases.find((c) => boardFitsCase(mb, c)) ?? cases[0];
 }
 
-function boardPrereqs(s: GameState): string[] {
+const ORDER = CATEGORIES.map((c) => c.id);
+
+export function buildItems(s: GameState): Item[] {
   const a = s.asm;
-  const todo: string[] = [];
-  if (!a.cpu?.lever) todo.push('procesor');
-  const cpu = a.cpu ? (PART_BY_ID[a.cpu.id] as Cpu) : undefined;
-  const coolerAvailable = (cpu?.boxCooler ?? false) || owned<Cooler>(s, 'cooler').some((c) => !cpu || coolerFitsCpu(c, cpu));
-  if (coolerAvailable && !(a.cooler?.fan)) todo.push('chladič');
-  const mb = a.mb ? (PART_BY_ID[a.mb] as Motherboard) : undefined;
-  const ramOk = owned<Ram>(s, 'ram').some((r) => !mb || ramFitsBoard(r, mb));
-  const ramPlaced = Object.values(a.ram).length;
-  const firstRam = Object.values(a.ram)[0];
-  const need = firstRam ? (PART_BY_ID[firstRam] as Ram).modules : 1;
-  if (ramOk && ramPlaced < need) todo.push('paměť');
-  const nvme = owned<Storage>(s, 'storage').some((x) => x.kind === 'nvme');
-  if (nvme && !a.m2?.screwed) todo.push('SSD');
-  return todo;
-}
-
-export function buildLines(s: GameState): Line[] {
-  const a = s.asm;
-  const lines: Line[] = [];
-  const blocked = (id: string) => a.blocked.includes(id);
-  const mb = a.mb ? (PART_BY_ID[a.mb] as Motherboard) : undefined;
-  const base = (over: Partial<Line> & Pick<Line, 'key' | 'label' | 'status'>): Line => ({ view: 'board', targets: [], traps: [], ...over });
-
-  // ——— Základní deska ———
-  const mbs = owned<Motherboard>(s, 'mb');
-  if (mbs.length === 0) lines.push(base({ key: 'mb-missing', label: 'Základní deska', status: 'missing', sub: 'Chybí. Kup ji v obchodě.' }));
-  for (const p of mbs) {
-    const common = { key: `mb:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: spriteOf(p) };
-    if (a.mb === p.id) lines.push(base({ ...common, status: 'done', sub: a.caseId ? 'Ve skříni.' : 'Leží na antistatické podložce.' }));
-    else if (a.mb) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ji vrátit.' }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Polož desku na antistatickou podložku.', targets: ['mat'] }));
-  }
-
-  // ——— Procesor ———
-  const cpus = owned<Cpu>(s, 'cpu');
-  if (cpus.length === 0) lines.push(base({ key: 'cpu-missing', label: 'Procesor', status: 'missing', sub: 'Chybí. Kup ho v obchodě.' }));
-  for (const p of cpus) {
-    const common = { key: `cpu:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: 'cpu' as SpriteKey };
-    if (a.cpu?.id === p.id) {
-      if (!a.cpu.lever) lines.push(base({ ...common, status: 'ready', sub: 'Procesor sedí. Teď zavři páčku patice.', targets: ['lever'] }));
-      else lines.push(base({ ...common, status: 'done', sub: 'V patici, páčka zavřená.' }));
-    } else if (a.cpu) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ho vrátit.' }));
-    else if (!mb) lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív polož desku na podložku.' }));
-    else if (blocked(p.id)) lines.push(base({ ...common, status: 'block', sub: whyCpu(p, mb) }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Otoč procesor, aby zlatý trojúhelník seděl s trojúhelníkem na patici, a vlož ho.', targets: ['socket'], tool: 'rotate' }));
-  }
-
-  // ——— Chladič (z krabice procesoru nebo dokoupený) ———
+  const items: Item[] = [];
+  const parts = [...s.owned].map((id) => PART_BY_ID[id]).filter(Boolean).sort((x, y) => ORDER.indexOf(x.cat) - ORDER.indexOf(y.cat));
+  const seen = new Set<string>();
   const cpuIn = a.cpu ? (PART_BY_ID[a.cpu.id] as Cpu) : undefined;
-  const coolers = owned<Cooler>(s, 'cooler');
-  const coolerLine = (key: string, label: string, part: Cooler | null, price?: number) => {
-    const sprite: SpriteKey = part ? spriteOf(part) : 'cooler';
-    const common = { key, label, partId: part?.id, price, sprite };
-    const id = part ? part.id : 'box';
-    if (a.cooler?.id === id) {
-      if (!a.cooler.fan) lines.push(base({ ...common, status: 'ready', sub: 'Zapoj kabel větráku do konektoru na desce.', targets: ['fan-cpu'], traps: ['fan-sys'], sprite: 'plugFan' }));
-      else lines.push(base({ ...common, status: 'done', sub: 'Nasazený, větrák zapojený do CPU_FAN.' }));
-      return;
-    }
-    if (a.cooler) { lines.push(base({ ...common, status: 'extra', sub: part ? 'Navíc. Můžeš ho vrátit.' : 'Nepoužitý, nevadí.' })); return; }
-    if (!a.cpu?.lever) { lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív vlož procesor.' })); return; }
-    if (part && cpuIn && blocked(part.id)) { lines.push(base({ ...common, status: 'block', sub: whyCooler(part, cpuIn) })); return; }
-    if (part && !a.paste) { lines.push(base({ ...common, status: 'ready', sub: 'Nejdřív nanes na procesor teplovodivou pastu.', tool: 'paste' })); return; }
-    lines.push(base({
-      ...common, status: 'ready', targets: ['cpu-top'],
-      sub: part ? 'Pasta je na procesoru. Nasaď chladič.' : 'Chladič z krabice má pastu nanesenou z výroby. Nasaď ho na procesor.',
-    }));
-  };
-  if (cpuIn?.boxCooler) coolerLine('cooler:box', 'Chladič z krabice CPU', null);
-  for (const c of coolers) coolerLine(`cooler:${c.id}`, c.short, c, c.price);
-  if (!cpuIn?.boxCooler && coolers.length === 0 && cpus.length > 0 && !cpus.some((c) => c.boxCooler)) {
-    lines.push(base({ key: 'cooler-missing', label: 'Chladič', status: 'missing', sub: 'Chybí. Procesor ho nemá v krabici, kup ho v obchodě.' }));
-  }
 
-  // ——— Paměť ———
-  const rams = owned<Ram>(s, 'ram');
-  const usedRam = Object.values(a.ram)[0];
-  if (rams.length === 0) lines.push(base({ key: 'ram-missing', label: 'Operační paměť', status: 'missing', sub: 'Chybí. Kup ji v obchodě.' }));
-  for (const p of rams) {
-    const placed = Object.values(a.ram).filter((x) => x === p.id).length;
-    const common = { key: `ram:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: spriteOf(p) };
-    if (placed >= p.modules) {
-      const slots = SLOTS.filter((sl) => a.ram[sl] === p.id);
-      lines.push(base({
-        ...common, status: 'done', removable: !a.panel,
-        sub: p.modules === 1
-          ? `Ve slotu ${slots[0]}. Jeden modul = jeden kanál.`
-          : ramDual(slots) ? `V ${slots.join(' a ')}, běží ve dvou kanálech.` : `V ${slots.join(' a ')}: jen jeden kanál.`,
-      }));
-    } else if (usedRam && usedRam !== p.id) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ji vrátit.' }));
-    else if (!mb) lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív polož desku na podložku.' }));
-    else if (blocked(p.id)) lines.push(base({ ...common, status: 'block', sub: whyRam(p, mb) }));
-    else {
-      const free = SLOTS.filter((sl) => !a.ram[sl]);
-      lines.push(base({
-        ...common, status: 'ready', targets: free,
-        sub: placed === 0
-          ? `Zasuň ${p.modules === 2 ? 'oba moduly' : 'modul'} do slotů. Výrobce desky doporučuje šedé sloty A2 a B2.`
-          : 'Zasuň i druhý modul.',
-      }));
-    }
-  }
-
-  // ——— SSD M.2 ———
-  const storages = owned<Storage>(s, 'storage');
-  if (storages.length === 0) lines.push(base({ key: 'storage-missing', label: 'Disk', status: 'missing', sub: 'Chybí. Kup ho v obchodě.' }));
-  for (const p of storages.filter((x) => x.kind === 'nvme')) {
-    const common = { key: `ssd:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: 'ssd' as SpriteKey };
-    if (a.m2?.id === p.id) {
-      if (!a.m2.screwed) lines.push(base({ ...common, status: 'ready', sub: 'Přišroubuj konec SSD šroubkem.', targets: ['m2-screw'] }));
-      else lines.push(base({ ...common, status: 'done', sub: 'Ve slotu M.2, přišroubovaný.', removable: !a.panel }));
-    } else if (a.m2) lines.push(base({ ...common, status: 'extra', sub: 'Do druhého slotu M.2 se v této hře nedává. Můžeš ho vrátit.' }));
-    else if (!mb) lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív polož desku na podložku.' }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Zasuň SSD šikmo do slotu M.2 a přitlač ho.', targets: ['m2'] }));
-  }
-
-  // ——— Deska do skříně ———
-  const kase = caseFor(s);
-  if (!kase) lines.push(base({ key: 'case-missing', label: 'Skříň', status: 'missing', sub: 'Chybí. Kup ji v obchodě.', view: 'case' }));
-  else {
-    const common = { key: `case:${kase.id}`, label: `Deska do skříně ${kase.short}`, partId: kase.id, price: kase.price, sprite: 'mb' as SpriteKey, view: 'case' as View };
-    if (a.caseId) lines.push(base({ ...common, status: 'done', sub: 'Deska je přišroubovaná na sloupcích.' }));
-    else if (!mb) lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív polož desku na podložku.' }));
-    else if (blocked(kase.id)) lines.push(base({ ...common, status: 'block', sub: whyCase(mb, kase) }));
-    else {
-      const todo = boardPrereqs(s);
-      if (todo.length) lines.push(base({ ...common, status: 'wait', sub: `Nejdřív dodělej na desce: ${todo.join(', ')}.` }));
-      else lines.push(base({ ...common, status: 'ready', sub: 'Přenes desku do skříně na distanční sloupky.', targets: ['standoffs'] }));
-    }
-    for (const other of owned<Case>(s, 'case').filter((c) => c.id !== kase.id)) {
-      lines.push(base({ key: `case:${other.id}`, label: other.short, partId: other.id, price: other.price, status: 'extra', sub: 'Druhá skříň navíc. Můžeš ji vrátit.', view: 'case' }));
+  for (const p of parts) {
+    if (seen.has(p.id) || p.cat === 'os') continue;
+    seen.add(p.id);
+    const base = { key: `part:${p.id}`, label: p.short, sprite: spriteOf(p), partId: p.id, price: p.price, group: 'part' as const };
+    const blocked = a.blocked.includes(p.id);
+    switch (p.cat) {
+      case 'mb': {
+        const used = a.mb === p.id;
+        const state: ItemState = used ? (a.caseId ? 'in' : 'mat') : a.mb ? 'extra' : blocked ? 'block' : 'box';
+        items.push({ ...base, state, holdable: state === 'box' || state === 'mat',
+          note: state === 'in' ? 'Ve skříni.' : state === 'mat' ? 'Na podložce. Až bude osazená, dej ji do skříně.' : state === 'extra' ? 'Navíc, můžeš ji vrátit.' : 'V krabici.',
+          hint: 'Desku polož na antistatickou podložku (pohled Deska), nebo ji rovnou přišroubuj do skříně na distanční sloupky (pohled Skříň).',
+          goal: used ? ['standoffs'] : ['mat', 'standoffs'] });
+        break;
+      }
+      case 'cpu': {
+        const used = a.cpu?.id === p.id;
+        const state: ItemState = used ? 'in' : a.cpu ? 'extra' : blocked ? 'block' : 'box';
+        items.push({ ...base, sprite: 'cpu', state, holdable: state === 'box',
+          note: used ? (a.cpu!.lever ? 'V patici, páčka zavřená.' : 'V patici, páčka je ještě otevřená.') : state === 'block' ? 'Nepasuje do patice desky.' : state === 'extra' ? 'Navíc, můžeš ho vrátit.' : 'V krabici.',
+          hint: 'Procesor patří do čtvercové patice se zlatými kontakty uprostřed desky.', goal: ['socket'] });
+        break;
+      }
+      case 'ram': {
+        const placed = Object.values(a.ram).filter((x) => x === p.id).length;
+        const other = Object.values(a.ram).some((x) => x && x !== p.id);
+        const mods = (p as Ram).modules;
+        const state: ItemState = placed >= mods ? 'in' : other ? 'extra' : blocked ? 'block' : 'box';
+        items.push({ ...base, state, holdable: state === 'box', removable: state === 'in',
+          note: state === 'in' ? 'Zasunutá v desce.' : placed > 0 ? `Zasunuto ${placed} z ${mods} modulů.` : state === 'block' ? 'Nepasuje do slotů desky.' : state === 'extra' ? 'Navíc, můžeš ji vrátit.' : mods === 2 ? 'V krabici, 2 moduly.' : 'V krabici, 1 modul.',
+          hint: 'Paměti patří do dlouhých slotů vpravo od patice. Manuál desky radí, které sloty použít.', goal: mods === 2 ? ['A2', 'B2'] : ['A2'] });
+        break;
+      }
+      case 'storage': {
+        const st = p as Storage;
+        const used = st.kind === 'nvme' ? a.m2?.id === p.id : a.hdd === p.id;
+        const other = st.kind === 'nvme' ? !!a.m2 && !used : !!a.hdd && !used;
+        const state: ItemState = used ? 'in' : other ? 'extra' : 'box';
+        items.push({ ...base, state, holdable: state === 'box', removable: used,
+          note: used ? (st.kind === 'nvme' ? (a.m2!.screwed ? 'Ve slotu M.2, přišroubované.' : 'Ve slotu M.2, ještě nepřišroubované.') : 'V šachtě na disky.') : state === 'extra' ? 'Navíc, můžeš ho vrátit.' : 'V krabici.',
+          hint: st.kind === 'nvme' ? 'SSD M.2 se zasouvá do krátkého slotu pod paticí procesoru a přišroubuje se.' : 'Pevný disk patří do šachty vpředu dole ve skříni.',
+          goal: st.kind === 'nvme' ? ['m2'] : ['drive-bay'] });
+        break;
+      }
+      case 'gpu': {
+        const used = a.gpu === p.id;
+        const state: ItemState = used ? 'in' : a.gpu ? 'extra' : 'box';
+        items.push({ ...base, sprite: 'gpu', state, holdable: state === 'box', removable: used,
+          note: used ? 'V horním slotu PCIe x16.' : state === 'extra' ? 'Navíc, můžeš ji vrátit.' : 'V krabici.',
+          hint: 'Grafická karta patří do horního dlouhého slotu PCIe x16. Deska už musí být ve skříni.', goal: ['pcie'] });
+        break;
+      }
+      case 'psu': {
+        const used = a.psu === p.id;
+        const state: ItemState = used ? 'in' : a.psu ? 'extra' : 'box';
+        items.push({ ...base, sprite: 'psu', state, holdable: state === 'box', removable: used,
+          note: used ? 'Ve skříni. Jeho kabely najdeš dole v nářadí.' : state === 'extra' ? 'Navíc, můžeš ho vrátit.' : 'V krabici.',
+          hint: 'Zdroj patří dole vzadu do prostoru pod krytem skříně (pohled Skříň).', goal: ['psu-bay'] });
+        break;
+      }
+      case 'case': {
+        const used = caseFor(s)?.id === p.id;
+        items.push({ ...base, sprite: 'case', state: blocked ? 'block' : used ? 'in' : 'extra', holdable: false,
+          note: blocked ? 'Deska se do ní nevejde.' : used ? (a.panel ? 'Stojí na stole, zavřená.' : 'Stojí na stole, bočnice je sundaná.') : 'Druhá skříň navíc, můžeš ji vrátit.',
+          hint: '', goal: [] });
+        break;
+      }
+      case 'cooler': {
+        const used = a.cooler?.id === p.id;
+        const state: ItemState = used ? 'in' : a.cooler ? 'extra' : blocked ? 'block' : 'box';
+        items.push({ ...base, state, holdable: state === 'box',
+          note: used ? 'Na procesoru.' : state === 'block' ? 'Nejde připevnit na tenhle procesor.' : state === 'extra' ? 'Navíc, můžeš ho vrátit.' : 'V krabici, pastu přibalenou nemá nanesenou.',
+          hint: 'Chladič se nasazuje přímo na procesor v patici. Mezi ně patří pasta.', goal: ['socket'] });
+        break;
+      }
     }
   }
-
-  // ——— Zdroj ———
-  const psus = owned<Psu>(s, 'psu');
-  if (psus.length === 0) lines.push(base({ key: 'psu-missing', label: 'Zdroj', status: 'missing', sub: 'Chybí. Kup ho v obchodě.', view: 'case' }));
-  for (const p of psus) {
-    const common = { key: `psu:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: 'psu' as SpriteKey, view: 'case' as View };
-    if (a.psu === p.id) lines.push(base({ ...common, status: 'done', sub: 'Přišroubovaný dole ve skříni.', removable: !a.panel }));
-    else if (a.psu) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ho vrátit.' }));
-    else if (!a.caseId) lines.push(base({ ...common, status: 'wait', sub: 'Nejdřív dej desku do skříně.' }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Zasuň zdroj na jeho místo dole ve skříni.', targets: ['psu-bay'] }));
+  // chladič z krabice procesoru
+  const boxCpu = owned<Cpu>(s, 'cpu').find((c) => c.boxCooler);
+  if (boxCpu) {
+    const used = a.cooler?.id === 'box';
+    const state: ItemState = used ? 'in' : a.cooler ? 'extra' : 'box';
+    items.push({ key: 'part:box-cooler', label: 'Chladič z krabice CPU', sprite: 'cooler', group: 'part', state, holdable: state === 'box',
+      note: used ? 'Na procesoru.' : state === 'extra' ? 'Nepoužitý, nevadí.' : 'Pasta je na něm nanesená z výroby.',
+      hint: 'Chladič se nasazuje přímo na procesor v patici.', goal: ['socket'] });
   }
 
-  // ——— Grafická karta ———
-  for (const p of owned<Gpu>(s, 'gpu')) {
-    const common = { key: `gpu:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: 'gpu' as SpriteKey, view: 'case' as View };
-    if (a.gpu === p.id) lines.push(base({ ...common, status: 'done', sub: 'Ve slotu PCIe x16, přišroubovaná.', removable: !a.panel }));
-    else if (a.gpu) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ji vrátit.' }));
-    else if (!a.caseId) lines.push(base({ ...common, status: 'wait', sub: 'Karta se dává až do desky ve skříni.' }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Zasuň kartu do horního slotu PCIe x16, až cvakne pojistka.', targets: ['pcie'] }));
+  // ——— Kabely a nářadí ———
+  const tool = (key: string, label: string, sprite: SpriteKey, state: ItemState, note: string, hint: string, goal: TargetId[]): Item =>
+    ({ key, label, sprite, state, note, hint, goal, holdable: state === 'box', group: 'tool' });
+  items.push(tool('tool:paste', 'Teplovodivá pasta', 'paste', a.paste ? 'used' : 'box',
+    a.paste ? 'Nanesená na procesoru.' : 'Tuba z krabice chladiče.', 'Pasta se nanáší na kovové víčko procesoru v patici, ještě před chladičem.', ['socket']));
+  if (a.cooler) {
+    items.push(tool('cable:fan', 'Kabel větráku chladiče', 'plugFan', a.cooler.fan ? 'used' : 'box',
+      a.cooler.fan ? 'Zapojený.' : 'Visí z chladiče.', 'Hledej malý čtyřpinový konektor poblíž patice. Manuál desky říká, který to je.', ['fan-cpu']));
   }
-
-  // ——— Pevný disk ———
-  for (const p of storages.filter((x) => x.kind === 'hdd')) {
-    const common = { key: `hdd:${p.id}`, label: p.short, partId: p.id, price: p.price, sprite: 'hdd' as SpriteKey, view: 'case' as View };
-    if (a.hdd === p.id) lines.push(base({ ...common, status: 'done', sub: 'V šachtě na disky.', removable: !a.panel }));
-    else if (a.hdd) lines.push(base({ ...common, status: 'extra', sub: 'Navíc. Můžeš ho vrátit.' }));
-    else if (!a.caseId) lines.push(base({ ...common, status: 'wait', sub: 'Disk se montuje do skříně.' }));
-    else lines.push(base({ ...common, status: 'ready', sub: 'Zasuň disk do šachty vpředu ve skříni.', targets: ['drive-bay'] }));
+  if (a.psu) {
+    items.push(tool('cable:atx', 'Kabel 24pin ATX', 'plug24', a.cables.atx ? 'used' : 'box', a.cables.atx ? 'Zapojený.' : 'Ze zdroje.', 'Nejširší konektor desky je na jejím pravém okraji.', ['atx24']));
+    items.push(tool('cable:eps', 'Kabel 8pin CPU', 'plug8', a.cables.eps ? 'used' : 'box', a.cables.eps ? 'Zapojený.' : 'Ze zdroje, na konektoru je nápis CPU.', 'Napájení procesoru je v levém horním rohu desky.', ['eps8']));
+    items.push(tool('cable:pcie', 'Kabel PCIe 6+2pin', 'plugPcie', a.cables.pcie ? 'used' : 'box', a.cables.pcie ? 'Zapojený.' : 'Ze zdroje, na konektoru je nápis PCIe.', 'Napájecí konektor grafické karty je na její horní hraně.', ['gpu-power']));
+    items.push(tool('cable:sata', 'Kabel SATA (napájení)', 'plugSata', a.cables.sata ? 'used' : 'box', a.cables.sata ? 'Zapojený.' : 'Ze zdroje, plochý konektor.', 'Napájecí konektor SATA je na konci pevného disku.', ['hdd-sata']));
   }
-
-  // ——— Kabely ze zdroje ———
-  const cableTraps = (right: TargetId) => CONNECTORS.filter((c) => c !== right && (c !== 'gpu-power' || a.gpu) && (c !== 'hdd-sata' || a.hdd));
-  if (!a.psu || !a.caseId) {
-    lines.push(base({ key: 'cables', label: 'Kabely ze zdroje', status: 'wait', view: 'case', sub: 'Až bude zdroj i deska ve skříni.' }));
-  } else {
-    const cable = (key: keyof Asm['cables'], label: string, target: TargetId, sprite: SpriteKey, how: string) => {
-      const done = a.cables[key];
-      lines.push(base({
-        key: `cable:${key}`, label, sprite, view: 'case', indent: true,
-        status: done ? 'done' : 'ready', sub: done ? 'Zapojeno.' : how,
-        targets: done ? [] : [target], traps: done ? [] : cableTraps(target),
-      }));
-    };
-    cable('atx', 'Kabel 24pin → deska', 'atx24', 'plug24', 'Nejširší konektor. Patří na pravý okraj desky.');
-    cable('eps', 'Kabel 8pin → procesor', 'eps8', 'plug8', 'Napájení procesoru, zapojuje se nahoře vlevo.');
-    if (a.gpu) cable('pcie', 'Kabel PCIe → grafika', 'gpu-power', 'plugPcie', 'Napájení grafické karty, zapojuje se do jejího horního okraje.');
-    if (a.hdd) cable('sata', 'Kabel SATA → disk', 'hdd-sata', 'plugSata', 'Plochý konektor do pevného disku.');
+  if (a.hdd) {
+    items.push(tool('cable:data', 'Kabel SATA (data)', 'plugData', a.cables.data ? 'used' : 'box', a.cables.data ? 'Zapojený.' : 'Tenký, jeden konec už je v disku.', 'Datové porty SATA jsou na pravém okraji desky. Manuál desky ukáže kde.', ['sata-mb']));
   }
-
-  // ——— Bočnice, monitor, zapnutí ———
-  const cablesDone = !!a.psu && !!a.caseId && a.cables.atx && a.cables.eps && (!a.gpu || a.cables.pcie) && (!a.hdd || a.cables.sata);
-  const coolerDone = !!a.cooler?.fan || !(cpuIn?.boxCooler || coolers.length);
-  const inside = cablesDone && coolerDone;
-  lines.push(base({
-    key: 'panel', label: 'Bočnice', view: 'case',
-    status: a.panel ? 'done' : inside ? 'ready' : 'wait',
-    sub: a.panel ? 'Zavřená.' : inside ? 'Všechno je zapojené. Ťukni a zavři skříň.' : 'Až bude všechno uvnitř zapojené.',
-    instant: 'panel',
-  }));
-  const portRight: TargetId = a.gpu ? 'port-gpu' : 'port-mb';
-  lines.push(base({
-    key: 'monitor', label: 'Monitor (kabel HDMI)', view: 'back', sprite: 'hdmi',
-    status: a.monitor ? 'done' : a.panel ? 'ready' : 'wait',
-    sub: a.monitor ? (a.monitor === 'gpu' ? 'Zapojený do grafické karty.' : 'Zapojený do desky.') : a.panel ? 'Otoč počítač a zapoj monitor do správného výstupu.' : 'Až bude skříň zavřená.',
-    targets: a.monitor ? [] : [portRight],
-    traps: a.monitor || !a.gpu ? [] : ['port-mb'],
-  }));
-  lines.push(base({
-    key: 'power', label: 'Zapnout počítač', view: 'back',
-    status: a.monitor ? 'ready' : 'wait',
-    sub: a.monitor ? 'Všechno je zapojené. Zmáčkni tlačítko napájení.' : 'Až bude zapojený monitor.',
-    instant: 'power',
-  }));
-
-  return lines;
+  items.push(tool('cable:hdmi', 'Kabel HDMI od monitoru', 'hdmi', a.monitor ? 'used' : 'box', a.monitor ? 'Zapojený.' : 'Druhý konec vede do monitoru.', 'Monitor se zapojuje vzadu (pohled Záda). Když máš grafickou kartu, patří do ní.', a.gpu ? ['port-gpu'] : ['port-mb']));
+  if (owned<Case>(s, 'case').length) {
+    items.push(tool('tool:panel', 'Bočnice se sklem', 'case', a.panel ? 'used' : 'box', a.panel ? 'Nasazená.' : 'Opřená o stůl.', 'Bočnice patří na otevřenou stranu skříně (pohled Skříň).', ['panel']));
+  }
+  return items;
 }
 
-export interface PlaceResult {
+export interface Result {
   ok: boolean;
   text: string;
+  /** Špatné místo: počítá se do nápověd po druhém a třetím pokusu. */
+  miss?: boolean;
 }
 
-const T = (ok: boolean, text: string): PlaceResult => ({ ok, text });
+const OK = (text: string): Result => ({ ok: true, text });
+const NO = (text: string, miss = false): Result => ({ ok: false, text, miss });
 
-/** Pokus položit díl z řádku `line` na cíl `target`. Mění draft stavu. */
-export function place(d: GameState, line: Line, target: TargetId): PlaceResult {
+function wrongPlace(target: TargetId, what: string): Result {
+  return NO(`${TARGETS[target].what} ${what} sem nepatří.`, true);
+}
+
+/** Pokus dát vybranou věc na místo. Mění draft stavu. */
+export function apply(d: GameState, item: Item, target: TargetId): Result {
   const a = d.asm;
-  const p = line.partId ? PART_BY_ID[line.partId] : undefined;
+  const p = item.partId ? PART_BY_ID[item.partId] : undefined;
+  const kind = item.key.startsWith('part:') ? (item.key === 'part:box-cooler' ? 'cooler' : p!.cat) : item.key;
 
-  if (line.traps.includes(target)) {
-    if (target === 'fan-sys') {
-      addNote(d, 'mistake', 'Větrák procesoru jsi chtěl zapojit do SYS_FAN.');
-      return T(false, 'SYS_FAN je pro větráky skříně. Větrák procesoru patří do CPU_FAN, jinak deska po startu hlásí chybu a procesor se může přehřát.');
-    }
-    if (target === 'port-mb') {
-      addNote(d, 'mistake', 'Monitor jsi chtěl zapojit do desky, i když máš grafickou kartu.');
-      return T(false, 'Monitor by zůstal černý. Když je v počítači grafická karta, obraz počítá ona. Zapoj ho do výstupu na kartě.');
-    }
-    addNote(d, 'mistake', 'Kabel ze zdroje jsi chtěl zapojit do špatného konektoru.');
-    return T(false, 'Tenhle konektor má jiný tvar a počet pinů. Najdi ten, kam kabel pasuje.');
-  }
-  if (!line.targets.includes(target)) return T(false, 'Sem to nepatří.');
-
-  switch (line.key.split(':')[0]) {
-    case 'mb':
-      a.mb = line.partId!;
-      return T(true, 'Deska leží na podložce. Statická elektřina jí tu neublíží.');
-    case 'cpu': {
-      if (target === 'lever') {
-        a.cpu!.lever = true;
-        return T(true, 'Páčka zavřená, procesor je pevně v patici.');
+  switch (kind) {
+    case 'mb': {
+      const mb = p as Motherboard;
+      if (target === 'mat') {
+        if (a.caseId) return NO('Deska už je přišroubovaná ve skříni.');
+        a.mb = mb.id;
+        return OK('Deska leží na antistatické podložce. Statická elektřina z rukou jí tady neublíží a procesor, chladič i paměti se na stole montují snáz.');
       }
+      if (target === 'standoffs') {
+        const kase = caseFor(d);
+        if (!kase) return NO('Nemáš skříň. Kup ji v obchodě.');
+        if (!boardFitsCase(mb, kase)) {
+          if (!a.blocked.includes(kase.id)) a.blocked.push(kase.id);
+          addNote(d, 'mistake', `Deska ${mb.form} se nevejde do skříně ${kase.short}.`, true);
+          return NO(`${whyCase(mb, kase)} Otvory v desce nesedí na sloupky. Vrať desku nebo skříň.`);
+        }
+        a.mb = mb.id;
+        a.caseId = kase.id;
+        return OK('Deska je přišroubovaná na distančních sloupcích. Nedotýká se kovové stěny, takže se kontakty na její spodní straně nezkratují.');
+      }
+      return wrongPlace(target, 'Základní deska');
+    }
+    case 'cpu': {
+      if (target !== 'socket') return wrongPlace(target, 'Procesor');
       const cpu = p as Cpu;
-      const mb = PART_BY_ID[a.mb!] as Motherboard;
+      if (!a.mb) return NO('Procesor patří do patice na základní desce. Nejdřív polož desku na podložku nebo do skříně.');
+      const mb = PART_BY_ID[a.mb] as Motherboard;
       if (!cpuFitsBoard(cpu, mb)) {
         if (!a.blocked.includes(cpu.id)) a.blocked.push(cpu.id);
         addNote(d, 'mistake', `Koupil jsi procesor s jinou paticí, než má deska (${cpu.socket} × ${mb.socket}).`, true);
-        return T(false, `${whyCpu(cpu, mb)} Vrať procesor nebo desku a kup kus se stejnou paticí.`);
+        return NO(`${whyCpu(cpu, mb)} Vrať procesor nebo desku a kup kus se stejnou paticí.`);
       }
       if (a.cpuRot !== 0) {
         addNote(d, 'tip', 'Procesor jde do patice jen jedním směrem: podle zlatého trojúhelníku.');
-        return T(false, 'Nesedí to: zlatý trojúhelník na procesoru musí být ve stejném rohu jako trojúhelník na patici. Otoč procesor.');
+        return NO('Procesor nedosedl. Zlatý trojúhelník na jeho rohu musí být ve stejném rohu jako značka na patici. Natoč ho tlačítkem v účtence nebo klávesou R.');
       }
       a.cpu = { id: cpu.id, seated: true, lever: false };
-      return T(true, 'Procesor dosedl bez tlačení. Teď zavři páčku.');
+      return OK('Procesor dosedl sám, bez tlačení. Kontakty v patici jsou křehké, proto se nikdy netlačí. Teď ho zajisti páčkou patice.');
+    }
+    case 'tool:paste': {
+      if (target !== 'socket') return wrongPlace(target, 'Pasta');
+      if (!a.cpu) return NO('Pasta patří na procesor, a ten ještě není v patici.');
+      if (a.cooler) return NO('Chladič už na procesoru sedí. Pasta patří pod něj, takže je pozdě.');
+      a.paste = true;
+      return OK('Kapka pasty velká jako hrášek je na procesoru. Chladič ji při přitlačení rozprostře a vyplní drobné nerovnosti, kde by jinak byl vzduch.');
     }
     case 'cooler': {
-      if (target === 'fan-cpu') {
-        a.cooler!.fan = true;
-        return T(true, 'Větrák je v CPU_FAN. Deska ho bude roztáčet podle teploty procesoru.');
-      }
-      const cpu = PART_BY_ID[a.cpu!.id] as Cpu;
+      if (target !== 'socket') return wrongPlace(target, 'Chladič');
+      if (!a.cpu) return NO('Chladič se nasazuje na procesor. V patici zatím žádný není.');
+      if (!a.cpu.lever) return NO('Procesor ještě není zajištěný. Nejdřív zavři páčku patice.');
+      const cpu = PART_BY_ID[a.cpu.id] as Cpu;
       if (p) {
         const cooler = p as Cooler;
         if (!coolerFitsCpu(cooler, cpu)) {
           if (!a.blocked.includes(cooler.id)) a.blocked.push(cooler.id);
           addNote(d, 'mistake', `Chladič ${cooler.short} nepasuje na patici ${cpu.socket}.`, true);
-          return T(false, `${whyCooler(cooler, cpu)} Vrať ho a kup chladič pro ${cpu.socket}.`);
+          return NO(`${whyCooler(cooler, cpu)} Vrať ho a kup chladič pro ${cpu.socket}.`);
+        }
+        if (!a.paste) {
+          addNote(d, 'mistake', 'Chladič bez teplovodivé pasty.');
+          return NO('Stop! Mezi procesor a chladič patří teplovodivá pasta. Bez ní by mezi nimi zůstal vzduch, který vede teplo špatně, a procesor by se přehříval.', true);
         }
       }
       a.cooler = { id: p ? p.id : 'box', fan: false };
-      return T(true, 'Chladič sedí na procesoru. Ještě zapoj jeho větrák.');
+      const extra = !p && a.paste ? ' Pasta byla na chladiči už z výroby, tvoje vrstva navíc nebyla potřeba.' : '';
+      return OK(`Chladič je přišroubovaný na procesoru. Jeho větrák ale zatím nemá proud.${extra}`);
+    }
+    case 'cable:fan': {
+      if (target === 'fan-cpu') { a.cooler!.fan = true; return OK('Větrák chladiče je v CPU_FAN. Deska podle teploty procesoru řídí jeho otáčky a hlídá, jestli se točí.'); }
+      if (target === 'fan-sys') {
+        addNote(d, 'mistake', 'Větrák procesoru jsi zapojoval do SYS_FAN.');
+        return NO('SYS_FAN je pro větráky skříně. Deska by hlásila, že větrák procesoru nefunguje, a procesor by se mohl přehřát. Najdi CPU_FAN.', true);
+      }
+      return wrongPlace(target, 'Kabel větráku');
     }
     case 'ram': {
+      const slot = SLOTS.find((x) => x === target);
+      if (!slot) return wrongPlace(target, 'Paměť RAM');
       const ram = p as Ram;
-      const mb = PART_BY_ID[a.mb!] as Motherboard;
+      if (!a.mb) return NO('Paměti se zasouvají do desky. Nejdřív ji polož na podložku nebo do skříně.');
+      const mb = PART_BY_ID[a.mb] as Motherboard;
       if (!ramFitsBoard(ram, mb)) {
         if (!a.blocked.includes(ram.id)) a.blocked.push(ram.id);
         addNote(d, 'mistake', `Koupil jsi paměť ${ram.mem}, deska bere ${mb.mem}.`, true);
-        return T(false, `${whyRam(ram, mb)} Podívej se na zářez modulu a výstupek ve slotu: nesedí na sebe.`);
+        return NO(`${whyRam(ram, mb)} Zářez na modulu nesedí na výstupek ve slotu.`);
       }
-      const slot = target as RamSlot;
+      if (a.ram[slot]) return NO(`Slot ${slot} je už obsazený.`);
       a.ram[slot] = ram.id;
-      const placed = SLOTS.filter((sl) => a.ram[sl] === ram.id);
-      if (placed.length < ram.modules) return T(true, `Modul cvakl do ${slot}. Zbývá druhý.`);
-      if (ram.modules === 2) {
-        if (placed.includes('A2') && placed.includes('B2')) return T(true, 'Oba moduly sedí v A2 a B2. Paměť poběží ve dvou kanálech, tedy rychleji.');
-        if (ramDual(placed)) {
-          addNote(d, 'tip', 'Výrobce desky doporučuje pro dva moduly sloty A2 a B2.');
-          return T(true, 'Paměť poběží ve dvou kanálech (jeden modul v A, druhý v B). Výrobce ale doporučuje sloty A2 a B2, jsou stabilnější.');
-        }
-        addNote(d, 'tip', 'Dva moduly ve stejném kanálu (A1+A2 nebo B1+B2) běží jen v jednom kanálu.');
-        return T(true, `Funguje to, ale ${placed.join(' a ')} jsou oba v kanálu ${placed[0][0]}, takže paměť poběží jen v jednom kanálu. Příště dej moduly do A2 a B2.`);
+      const placed = SLOTS.filter((x) => a.ram[x] === ram.id);
+      if (placed.length < ram.modules) return OK(`Modul cvakl do ${slot}, západky se zavřely. Vezmi druhý modul.`);
+      if (ram.modules === 1) return OK(`Modul je v ${slot}. Jeden modul ale běží jen v jednom kanálu.`);
+      if (placed.includes('A2') && placed.includes('B2')) return OK('Oba moduly jsou v A2 a B2, přesně podle manuálu. Paměť poběží ve dvou kanálech, procesor čte z obou modulů naráz.');
+      if (ramDual(placed)) {
+        addNote(d, 'tip', 'Výrobce desky doporučuje pro dva moduly sloty A2 a B2.');
+        return OK('Paměť poběží ve dvou kanálech (jeden modul v A, druhý v B). Manuál ale doporučuje A2 a B2, jsou elektricky výhodnější.');
       }
-      return T(true, `Modul je v ${slot}. Jeden modul běží jen v jednom kanálu.`);
+      addNote(d, 'tip', 'Dva moduly ve stejném kanálu (A1+A2 nebo B1+B2) běží jen v jednom kanálu.');
+      return OK(`Funguje to, ale ${placed.join(' a ')} jsou oba v kanálu ${placed[0][0]}, takže paměť poběží jen v jednom kanálu a pomaleji. Podívej se do manuálu.`);
     }
-    case 'ssd': {
-      if (target === 'm2-screw') {
-        a.m2!.screwed = true;
-        return T(true, 'SSD je přišroubované. Kabely nepotřebuje, data i proud vedou přímo slotem.');
+    case 'storage': {
+      const st = p as Storage;
+      if (st.kind === 'nvme') {
+        if (target !== 'm2') return wrongPlace(target, 'SSD M.2');
+        if (!a.mb) return NO('SSD M.2 se zasouvá do desky. Nejdřív ji polož na podložku nebo do skříně.');
+        a.m2 = { id: st.id, screwed: false };
+        return OK('SSD zasunuté šikmo do slotu M.2 a přitlačené. Ještě ho zajisti šroubkem (klikni na něj).');
       }
-      a.m2 = { id: p!.id, screwed: false };
-      return T(true, 'SSD je ve slotu. Teď ho přišroubuj.');
+      if (target !== 'drive-bay') return wrongPlace(target, 'Pevný disk');
+      if (!caseFor(d)) return NO('Nemáš skříň.');
+      a.hdd = st.id;
+      return OK('Disk je v šachtě. Potřebuje ještě napájení ze zdroje (kabel SATA).');
     }
-    case 'case': {
-      const kase = p as Case;
-      const mb = PART_BY_ID[a.mb!] as Motherboard;
-      if (!boardFitsCase(mb, kase)) {
-        if (!a.blocked.includes(kase.id)) a.blocked.push(kase.id);
-        addNote(d, 'mistake', `Deska ${mb.form} se nevejde do skříně ${kase.short}.`, true);
-        return T(false, `${whyCase(mb, kase)} Otvory na šrouby nesedí na sloupky. Vrať desku nebo skříň.`);
-      }
-      a.caseId = kase.id;
-      return T(true, 'Deska je ve skříni na distančních sloupcích, nedotýká se kovu.');
-    }
-    case 'psu':
-      a.psu = p!.id;
-      return T(true, 'Zdroj je na svém místě. Větrák zdroje míří dolů, kde si bere chladný vzduch.');
-    case 'gpu':
+    case 'gpu': {
+      if (target === 'pcie2') return NO('Tohle je dolní slot. Vypadá jako x16, ale elektricky má jen 4 linky, karta by v něm byla pomalejší. Grafika patří do horního slotu PCIe x16.', true);
+      if (target !== 'pcie') return wrongPlace(target, 'Grafická karta');
+      if (!a.caseId) return NO('Grafika se zasouvá až do desky přišroubované ve skříni. Karta je těžká a na stole by desku prohnula, navíc se musí přišroubovat k zádům skříně.');
       a.gpu = p!.id;
-      return T(true, 'Karta cvakla do slotu PCIe x16. Ještě ji bude potřeba napájet ze zdroje.');
-    case 'hdd':
-      a.hdd = p!.id;
-      return T(true, 'Disk je v šachtě. Potřebuje kabel SATA ze zdroje.');
-    case 'cable': {
-      const key = line.key.split(':')[1] as keyof Asm['cables'];
-      a.cables[key] = true;
-      return T(true, 'Zacvaknuto. Konektor jde zapojit jen jedním směrem.');
+      return OK('Karta cvakla do horního slotu PCIe x16 a je přišroubovaná k zádům skříně. Bez napájení ze zdroje ale fungovat nebude.');
     }
-    case 'monitor':
-      a.monitor = a.gpu ? 'gpu' : 'mb';
-      return T(true, 'Monitor je zapojený.');
+    case 'psu': {
+      if (target !== 'psu-bay') return wrongPlace(target, 'Zdroj');
+      if (!caseFor(d)) return NO('Nemáš skříň.');
+      a.psu = p!.id;
+      return OK('Zdroj je dole pod krytem. Jeho větrák míří dolů, kde si bere chladný vzduch. Kabely ze zdroje teď najdeš v nářadí.');
+    }
+    case 'cable:atx': {
+      if (target === 'eps8' || target === 'gpu-power' || target === 'hdd-sata') return wrongCable(d, 'Kabel 24pin');
+      if (target !== 'atx24') return wrongPlace(target, 'Kabel 24pin');
+      if (!a.caseId) return NO('Deska ještě není ve skříni, kabel ze zdroje by k ní nedosáhl.');
+      a.cables.atx = true;
+      return OK('24pin je zacvaknutý. Tímhle kabelem dostává proud celá deska.');
+    }
+    case 'cable:eps': {
+      if (target === 'gpu-power') {
+        addNote(d, 'mistake', 'Kabel 8pin CPU jsi chtěl zapojit do grafické karty.');
+        return NO('Pozor! Konektory CPU (EPS) a PCIe vypadají podobně, ale mají jiné klíčování a jinak zapojené dráty. Na kabelu je napsáno CPU, patří do procesoru.', true);
+      }
+      if (target === 'atx24' || target === 'hdd-sata') return wrongCable(d, 'Kabel 8pin CPU');
+      if (target !== 'eps8') return wrongPlace(target, 'Kabel 8pin CPU');
+      if (!a.caseId) return NO('Deska ještě není ve skříni, kabel by k ní nedosáhl.');
+      a.cables.eps = true;
+      return OK('8pin CPU je zapojený. Procesor má vlastní napájení, protože si při zátěži bere hodně proudu.');
+    }
+    case 'cable:pcie': {
+      if (target === 'eps8') {
+        addNote(d, 'mistake', 'Kabel PCIe jsi chtěl zapojit do napájení procesoru.');
+        return NO('Pozor! PCIe a CPU (EPS) konektor vypadají podobně, ale nejsou zaměnitelné. Na kabelu je napsáno PCIe, patří do grafické karty.', true);
+      }
+      if (target === 'atx24' || target === 'hdd-sata') return wrongCable(d, 'Kabel PCIe');
+      if (target !== 'gpu-power') return wrongPlace(target, 'Kabel PCIe');
+      if (!a.gpu) return NO('Grafická karta ještě není ve skříni.');
+      a.cables.pcie = true;
+      return OK('Karta má napájení. Silná grafika si bere mnohem víc proudu, než jí dá slot na desce.');
+    }
+    case 'cable:sata': {
+      if (target === 'sata-mb') return NO('Porty SATA na desce jsou pro datový kabel. Tenhle plochý kabel ze zdroje je napájení a patří do disku.', true);
+      if (target === 'atx24' || target === 'eps8' || target === 'gpu-power') return wrongCable(d, 'Kabel SATA');
+      if (target !== 'hdd-sata') return wrongPlace(target, 'Kabel SATA');
+      if (!a.hdd) return NO('V šachtě zatím není disk.');
+      a.cables.sata = true;
+      return OK('Disk má napájení. Data ale vede jiný, tenký kabel do desky.');
+    }
+    case 'cable:data': {
+      if (target === 'hdd-sata') return NO('Tohle je širší napájecí konektor disku a datový kabel v disku už je. Druhý konec patří do desky, do portu SATA.', true);
+      if (target === 'atx24' || target === 'eps8' || target === 'gpu-power' || target === 'fan-cpu' || target === 'fan-sys') return wrongCable(d, 'Datový kabel SATA');
+      if (target !== 'sata-mb') return wrongPlace(target, 'Datový kabel SATA');
+      if (!a.caseId) return NO('Deska ještě není ve skříni.');
+      a.cables.data = true;
+      return OK('Disk je propojený s deskou. Napájení dává zdroj, data tečou tímhle kabelem přes desku do procesoru.');
+    }
+    case 'cable:hdmi': {
+      if (target === 'port-gpu') { a.monitor = 'gpu'; return OK('Monitor je zapojený do grafické karty, ta bude počítat obraz.'); }
+      if (target === 'port-mb') {
+        if (a.gpu) {
+          addNote(d, 'mistake', 'Monitor jsi zapojoval do desky, i když máš grafickou kartu.');
+          return NO('Když je v počítači grafická karta, obraz počítá ona a výstup na desce zůstane černý. Zapoj monitor do karty.', true);
+        }
+        a.monitor = 'mb';
+        return OK('Monitor je zapojený do desky. Obraz bude počítat grafika v procesoru.');
+      }
+      if (target === 'usb-mb') return NO('Tohle jsou porty USB (klávesnice, myš). Kabel HDMI má jiný, lichoběžníkový tvar.', true);
+      return wrongPlace(target, 'Kabel HDMI');
+    }
+    case 'tool:panel': {
+      if (target !== 'panel') return wrongPlace(target, 'Bočnice');
+      a.panel = true;
+      return OK('Bočnice je zavřená. Vzduch teď proudí skříní od předních větráků k zadnímu a dovnitř nepadá prach.');
+    }
   }
-  return T(false, 'Sem to nepatří.');
+  return wrongPlace(target, item.label);
 }
 
-/** Vyndání dílu z počítače (zdroj, karta, disk, paměť). */
-export function remove(d: GameState, line: Line) {
+function wrongCable(d: GameState, name: string): Result {
+  addNote(d, 'mistake', 'Kabel ze zdroje jsi zkoušel zapojit do špatného konektoru.');
+  return NO(`${name} sem nejde: konektor má jiný tvar a jiný počet pinů. Každý kabel pasuje jen tam, kam patří.`, true);
+}
+
+/** Místa, na která se kliká bez nářadí (páčka, šroubek, vypínač, tlačítko). */
+export function directAction(d: GameState, target: TargetId): Result | 'power' | null {
   const a = d.asm;
-  const kind = line.key.split(':')[0];
-  if (kind === 'psu') { a.psu = null; a.cables = { atx: false, eps: false, pcie: false, sata: false }; }
-  if (kind === 'gpu') { a.gpu = null; a.cables.pcie = false; }
-  if (kind === 'hdd') { a.hdd = null; a.cables.sata = false; }
-  if (kind === 'ssd') { a.m2 = null; }
-  if (kind === 'ram') { for (const sl of SLOTS) if (a.ram[sl] === line.partId) delete a.ram[sl]; }
+  if (target === 'lever') {
+    if (!a.cpu) return NO('Páčku zavři, až bude procesor v patici.');
+    if (a.cpu.lever) return null;
+    a.cpu.lever = true;
+    return OK('Páčka zavřená, procesor je pevně přitlačený ke kontaktům patice.');
+  }
+  if (target === 'm2-screw') {
+    if (!a.m2) return null;
+    if (a.m2.screwed) return null;
+    a.m2.screwed = true;
+    return OK('SSD je přišroubované. Kabely nepotřebuje: data i proud vedou přímo slotem M.2.');
+  }
+  if (target === 'psu-switch') {
+    if (!a.psu) return NO('Ve skříni zatím není zdroj.');
+    a.psuSwitch = !a.psuSwitch;
+    return OK(a.psuSwitch ? 'Vypínač zdroje je v poloze I (zapnuto). Teď jde počítač zapnout tlačítkem na skříni.' : 'Vypínač zdroje je v poloze O (vypnuto).');
+  }
+  if (target === 'power-btn') {
+    if (!a.psu) return NO('Nic se nestalo. Počítač nemá zdroj.');
+    if (!a.psuSwitch) return NO('Nic se nestalo. Zdroj má vzadu vlastní vypínač a ten je vypnutý (pohled Záda).');
+    if (!a.cables.atx) return NO('Nic se nestalo. Deska nedostává proud: chybí kabel 24pin ze zdroje.');
+    return 'power';
+  }
+  return null;
+}
+
+export const DIRECT: TargetId[] = ['lever', 'm2-screw', 'psu-switch', 'power-btn'];
+
+/** Vyndání dílu z počítače. */
+export function remove(d: GameState, item: Item) {
+  const a = d.asm;
+  const p = item.partId ? PART_BY_ID[item.partId] : undefined;
+  if (!p) return;
+  if (p.cat === 'psu') { a.psu = null; a.psuSwitch = false; a.cables = { ...a.cables, atx: false, eps: false, pcie: false, sata: false }; }
+  if (p.cat === 'gpu') { a.gpu = null; a.cables.pcie = false; if (a.monitor === 'gpu') a.monitor = null; }
+  if (p.cat === 'storage') {
+    if ((p as Storage).kind === 'hdd') { a.hdd = null; a.cables.sata = false; a.cables.data = false; } else a.m2 = null;
+  }
+  if (p.cat === 'ram') { for (const sl of SLOTS) if (a.ram[sl] === p.id) delete a.ram[sl]; }
   a.panel = false;
-  a.monitor = null;
 }
 
 export function resetAsm(d: GameState) {
   d.asm = emptyAsm();
+}
+
+/** Co dál? Další rozumný krok (pro tlačítko nápovědy). */
+export function nextStep(s: GameState, items: Item[]): { text: string; itemKey?: string; goal?: TargetId[] } {
+  const a = s.asm;
+  const find = (pred: (i: Item) => boolean) => items.find(pred);
+  const part = (cat: string) => find((i) => i.state === 'box' && i.partId !== undefined && PART_BY_ID[i.partId]?.cat === cat);
+  const blocked = items.find((i) => i.state === 'block');
+  if (blocked) return { text: `${blocked.label} nepasuje. Vrať ho v účtence a kup správný díl.` };
+  const mb = find((i) => i.key.startsWith('part:') && !!i.partId && PART_BY_ID[i.partId]?.cat === 'mb' && (i.state === 'box'));
+  if (!a.mb && mb) return { text: 'Vezmi základní desku a polož ji na antistatickou podložku.', itemKey: mb.key, goal: ['mat'] };
+  if (a.mb && !a.cpu) { const c = part('cpu'); if (c) return { text: 'Vlož procesor do patice. Pozor na zlatý trojúhelník.', itemKey: c.key, goal: ['socket'] }; }
+  if (a.cpu && !a.cpu.lever) return { text: 'Zavři páčku patice, ať procesor drží.', goal: ['lever'] };
+  const coolerItem = find((i) => i.state === 'box' && (i.key === 'part:box-cooler' || (!!i.partId && PART_BY_ID[i.partId]?.cat === 'cooler')));
+  if (a.cpu && !a.cooler && coolerItem) {
+    if (coolerItem.key !== 'part:box-cooler' && !a.paste) return { text: 'Než nasadíš chladič, nanes na procesor teplovodivou pastu.', itemKey: 'tool:paste', goal: ['socket'] };
+    return { text: 'Nasaď chladič na procesor.', itemKey: coolerItem.key, goal: ['socket'] };
+  }
+  if (a.cooler && !a.cooler.fan) return { text: 'Zapoj kabel větráku chladiče do desky.', itemKey: 'cable:fan', goal: ['fan-cpu'] };
+  const ram = find((i) => i.state === 'box' && !!i.partId && PART_BY_ID[i.partId]?.cat === 'ram');
+  if (a.mb && ram) return { text: 'Zasuň paměti. Manuál desky radí, které sloty použít.', itemKey: ram.key, goal: ram.goal };
+  const nvme = find((i) => i.state === 'box' && i.goal[0] === 'm2');
+  if (a.mb && nvme && !a.m2) return { text: 'Zasuň SSD do slotu M.2.', itemKey: nvme.key, goal: ['m2'] };
+  if (a.m2 && !a.m2.screwed) return { text: 'Přišroubuj SSD šroubkem.', goal: ['m2-screw'] };
+  const mbItem = find((i) => i.state === 'mat');
+  if (mbItem) return { text: 'Deska je osazená. Přenes ji do skříně na distanční sloupky.', itemKey: mbItem.key, goal: ['standoffs'] };
+  const psu = part('psu');
+  if (!a.psu && psu) return { text: 'Dej zdroj do skříně.', itemKey: psu.key, goal: ['psu-bay'] };
+  const gpu = part('gpu');
+  if (a.caseId && gpu && !a.gpu) return { text: 'Zasuň grafickou kartu.', itemKey: gpu.key, goal: ['pcie'] };
+  const hdd = find((i) => i.state === 'box' && i.goal[0] === 'drive-bay');
+  if (hdd && !a.hdd) return { text: 'Dej pevný disk do šachty.', itemKey: hdd.key, goal: ['drive-bay'] };
+  if (a.psu && a.caseId && !a.cables.atx) return { text: 'Zapoj napájení desky (24pin).', itemKey: 'cable:atx', goal: ['atx24'] };
+  if (a.psu && a.caseId && !a.cables.eps) return { text: 'Zapoj napájení procesoru (8pin CPU).', itemKey: 'cable:eps', goal: ['eps8'] };
+  if (a.gpu && a.psu && !a.cables.pcie) return { text: 'Zapoj napájení grafické karty.', itemKey: 'cable:pcie', goal: ['gpu-power'] };
+  if (a.hdd && a.psu && !a.cables.sata) return { text: 'Zapoj napájení disku.', itemKey: 'cable:sata', goal: ['hdd-sata'] };
+  if (a.hdd && a.caseId && !a.cables.data) return { text: 'Propoj disk s deskou datovým kabelem SATA.', itemKey: 'cable:data', goal: ['sata-mb'] };
+  if (!a.monitor) return { text: 'Zapoj monitor vzadu kabelem HDMI.', itemKey: 'cable:hdmi', goal: a.gpu ? ['port-gpu'] : ['port-mb'] };
+  if (!a.panel) return { text: 'Nasaď bočnici.', itemKey: 'tool:panel', goal: ['panel'] };
+  if (a.psu && !a.psuSwitch) return { text: 'Zapni vypínač na zadní straně zdroje.', goal: ['psu-switch'] };
+  return { text: 'Zkus počítač zapnout tlačítkem na horní straně skříně.', goal: ['power-btn'] };
 }
 
 export interface PostResult {
@@ -431,6 +498,8 @@ export interface PostResult {
   problem?: string;
   fix?: string;
   needShop?: boolean;
+  /** Bez obrazu (černý monitor). */
+  dark?: boolean;
 }
 
 export function postResult(s: GameState): PostResult {
@@ -438,42 +507,49 @@ export function postResult(s: GameState): PostResult {
   const a = s.asm;
   const leds = { cpu: false, dram: false, vga: false, boot: false };
   const log: PostResult['log'] = [];
-  const fail = (key: keyof typeof leds | null, problem: string, fix: string, needShop = false): PostResult => {
+  const fail = (key: keyof typeof leds | null, problem: string, fix: string, opts: { shop?: boolean; dark?: boolean } = {}): PostResult => {
     if (key) leds[key] = true;
-    return { ok: false, leds, log, problem, fix, needShop };
+    return { ok: false, leds, log, problem, fix, needShop: opts.shop, dark: opts.dark ?? true };
   };
 
   if (!cpu) return fail('cpu', 'Deska nenašla procesor.', 'Vlož procesor do patice.');
-  if (!a.cooler?.fan) {
-    log.push({ text: `Procesor ${cpu.short}`, ok: true });
-    return fail('cpu', 'Procesor se během pár sekund přehřál a počítač se vypnul. Chybí chladič.', 'Kup chladič pro patici procesoru a nasaď ho.', true);
-  }
+  if (!a.cables.eps) return fail('cpu', 'Procesor nemá napájení: do levého horního rohu desky nevede kabel 8pin CPU.', 'Zapoj kabel 8pin CPU ze zdroje.');
+  if (!a.cooler) return fail('cpu', 'Procesor se během pár sekund přehřál a počítač se sám vypnul. Chybí chladič.', 'Nasaď chladič (procesor s chladičem v krabici ho má přibalený).', { shop: !cpu.boxCooler });
+  if (!ram) return fail('dram', 'Deska nenašla žádnou paměť RAM. Bez paměti počítač nenaběhne.', 'Zasuň paměť stejného typu, jaký bere deska.', { shop: true });
+  if (gpu && !a.cables.pcie) return fail('vga', 'Grafická karta nemá napájení ze zdroje, takže nedává obraz.', 'Zapoj do karty kabel PCIe ze zdroje.');
+  if (!gpu && cpu.igpu === 'none') return fail('vga', `${cpu.short} nemá vestavěnou grafiku a v počítači není grafická karta. Monitor zůstal černý.`, 'Kup grafickou kartu, nebo vyměň procesor za model s grafikou.', { shop: true });
+  if (!a.monitor) return fail(null, 'Větráky se roztočily, ale monitor zůstal tmavý: není zapojený kabel HDMI.', 'Zapoj monitor vzadu do správného výstupu.');
+
   log.push({ text: `Procesor ${cpu.short} · ${cpu.cores} jader`, ok: true });
-
-  if (!ram) return fail('dram', 'Deska nenašla žádnou paměť RAM. Bez paměti počítač nenaběhne.', 'Kup paměť stejného typu, jaký bere deska, a zasuň ji.', true);
+  if (!a.cooler.fan) {
+    log.push({ text: 'CPU Fan Error! Větrák procesoru se netočí.', ok: false });
+    return fail(null, 'Deska hlásí „CPU Fan Error“: větrák chladiče není zapojený do CPU_FAN.', 'Zapoj kabel větráku chladiče do konektoru CPU_FAN.', { dark: false });
+  }
   const mods = Object.values(a.ram).length;
-  log.push({ text: `Paměť ${ram.totalGB} GB ${ram.mem} · ${mods === 2 ? 'dva kanály' : 'jeden kanál'}`, ok: true });
-
-  if (!gpu && cpu.igpu === 'none') {
-    return fail('vga', `${cpu.short} nemá vestavěnou grafiku a v počítači není grafická karta. Monitor zůstal černý.`, 'Kup grafickou kartu, nebo vyměň procesor za model s grafikou.', true);
-  }
+  log.push({ text: `Paměť ${ram.totalGB} GB ${ram.mem} · ${ramDual(Object.keys(a.ram) as RamSlot[]) ? 'dva kanály' : 'jeden kanál'}${mods === 1 ? ' (1 modul)' : ''}`, ok: true });
   log.push({ text: gpu ? `Grafika ${gpu.short}` : `Grafika v procesoru (${cpu.igpuName})`, ok: true });
-
   if (psu && gpu && !psuEnough(psu, gpu)) {
-    log.push({ text: `Zdroj ${psu.watts} W`, ok: false });
-    return fail(null, `Při startu grafické karty se zdroj ${psu.short} přetížil a počítač se vypnul. ${gpu.short} chce aspoň ${gpu.recPsu} W.`, 'Vyndej zdroj, vrať ho a kup silnější.', true);
+    log.push({ text: `Zdroj ${psu.watts} W přetížen`, ok: false });
+    return fail(null, `Při startu grafické karty se zdroj ${psu.short} přetížil a počítač se vypnul. ${gpu.short} chce aspoň ${gpu.recPsu} W.`, 'Vyndej zdroj, vrať ho a kup silnější.', { shop: true, dark: false });
   }
-
-  if (storage.length === 0) {
-    return fail('boot', 'Deska nenašla žádný disk, na který by šel nainstalovat systém.', 'Kup SSD a zasuň ho do slotu M.2.', true);
-  }
-  log.push({ text: `Disk ${storage.map((x) => x.short).join(', ')}`, ok: true });
+  const hddOnly = storage.length > 0 && storage.every((x) => x.kind === 'hdd');
+  if (storage.length === 0) return fail('boot', 'Deska nenašla žádný disk, na který by šel nainstalovat systém.', 'Zasuň SSD do slotu M.2 (nebo kup disk).', { shop: true, dark: false });
+  if (hddOnly && !a.cables.sata) return fail('boot', 'Pevný disk nemá napájení, deska ho nevidí.', 'Zapoj do disku napájecí kabel SATA ze zdroje.', { dark: false });
+  if (hddOnly && !a.cables.data) return fail('boot', 'Disk se točí, ale deska ho nevidí: nevede k ní datový kabel.', 'Propoj disk s portem SATA na desce datovým kabelem.', { dark: false });
+  const hddLost = !!a.hdd && !hddOnly && (!a.cables.sata || !a.cables.data);
+  const seen = hddLost ? storage.filter((x) => x.kind !== 'hdd') : storage;
+  log.push({ text: `Disk ${seen.map((x) => x.short).join(', ')}`, ok: true });
+  if (hddLost) log.push({ text: `Pevný disk nenalezen (chybí ${a.cables.sata ? 'datový kabel' : 'napájení'})`, ok: false });
 
   const osOwned = s.owned.some((id) => PART_BY_ID[id]?.cat === 'os');
   if (!osOwned) {
     log.push({ text: 'Instalační USB nenalezeno', ok: false });
-    return fail(null, 'Počítač funguje, ale nemá z čeho nainstalovat systém.', 'V obchodě si vyber systém. Linux Mint je zdarma.', true);
+    return fail(null, 'Počítač funguje, ale nemá z čeho nainstalovat systém.', 'V obchodě si vyber systém. Linux Mint je zdarma.', { shop: true, dark: false });
   }
   log.push({ text: 'Instalační USB se systémem', ok: true });
   return { ok: true, leds, log };
+}
+
+export function isBlocked(asm: Asm, id: string) {
+  return asm.blocked.includes(id);
 }

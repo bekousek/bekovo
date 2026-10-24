@@ -53,6 +53,7 @@ export default function Finish() {
   if (compatMistake) next.push(`${compatMistake.text} Příště před placením zmáčkni „Zkontrolovat sestavu“.`);
   else if (mistakes.length) next.push(`${mistakes[0].text} Příště si dobře přečti popisky na desce.`);
   if (traps) next.push('Programy stahuj jen z oficiálních webů a odškrtávej přibalené doplňky.');
+  if (s.hints >= 4 && next.length < 3) next.push(`V dílně jsi potřeboval nápovědu ${s.hints}×. Příště zkus nejdřív Manuál desky a popisky míst.`);
   if (tips.length && next.length < 3) next.push(tips[0].text);
   if (next.length === 0) next.push('Všechno sedí. Zkus jinou zakázku a postav ji levněji!');
 
@@ -98,6 +99,7 @@ export default function Finish() {
             <dt>Zbývá na účtu</dt><dd>{formatKc(s.money)}</dd>
             <dt>Vrácené zboží</dt><dd>{s.returns}</dd>
             <dt>Chyby při skládání</dt><dd>{mistakes.length}</dd>
+            <dt>Nápovědy v dílně</dt><dd>{s.hints}</dd>
             <dt>Bezpečně stažené programy</dt><dd>{safeTasks} z {s.sw.done.length}</dd>
             <dt>Pasti při stahování</dt><dd>{traps ? `spadl jsi do ${traps}` : 'žádná'}</dd>
             <dt>Falešný „čistič“</dt><dd>{s.sw.fell.includes(SCAREWARE_ID) ? 'naletěl jsi' : s.sw.dodged.includes(SCAREWARE_ID) ? 'zavřel jsi ho' : '—'}</dd>

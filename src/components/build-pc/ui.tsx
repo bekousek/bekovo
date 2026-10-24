@@ -89,7 +89,7 @@ export function Money({ value }: { value: number }) {
   );
 }
 
-export function Dialog({ title, children, actions, onClose }: { title: string; children: ReactNode; actions: ReactNode; onClose?: () => void }) {
+export function Dialog({ title, children, actions, onClose, wide }: { title: string; children: ReactNode; actions: ReactNode; onClose?: () => void; wide?: boolean }) {
   const ref = useRef<HTMLDivElement>(null);
   useEffect(() => {
     const prevFocus = document.activeElement as HTMLElement | null;
@@ -101,7 +101,7 @@ export function Dialog({ title, children, actions, onClose }: { title: string; c
   }, [onClose]);
   return (
     <div className="bpc-dialog-backdrop" role="presentation" onClick={(e) => { if (e.target === e.currentTarget && onClose) onClose(); }}>
-      <div ref={ref} className="bpc-dialog px-frame px-panel" role="dialog" aria-modal="true" aria-label={title}>
+      <div ref={ref} className={`bpc-dialog px-frame px-panel${wide ? ' bpc-dialog--wide' : ''}`} role="dialog" aria-modal="true" aria-label={title}>
         <h2 className="t-24">{title}</h2>
         {children}
         <div className="bpc-dialog__actions">{actions}</div>

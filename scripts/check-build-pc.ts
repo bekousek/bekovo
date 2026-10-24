@@ -31,6 +31,29 @@ for (const j of JOBS) {
 }
 ok(`${QUESTIONS.length} otázek v ${JOBS.length} brigádách`);
 
+// ——— Délka odpovědí nesmí prozradit správnou ———
+// Žáci rychle zjistí, že „nejdelší odpověď bývá správně“. Strategie „klikni
+// na nejdelší“ smí uspět jen o málo častěji než náhoda (25 %).
+let longestHits = 0;
+for (const q of QUESTIONS) {
+  const lens = q.options.map((o) => o.length);
+  const max = Math.max(...lens);
+  const ties = lens.filter((l) => l === max).length;
+  if (lens[0] === max) longestHits += 1 / ties;
+  const longestWrong = Math.max(...lens.slice(1));
+  if (lens[0] > longestWrong * 1.25 && lens[0] - longestWrong > 3) {
+    fail(`${q.id}: správná odpověď je výrazně delší než všechny špatné (${lens[0]} × ${longestWrong} znaků)`);
+  }
+}
+const longestRate = longestHits / QUESTIONS.length;
+if (longestRate > 0.35) fail(`strategie „nejdelší odpověď“ uspěje v ${Math.round(longestRate * 100)} % otázek (max 35 %)`);
+for (const j of JOBS) {
+  const qs = QUESTIONS.filter((q) => q.cat === j.id);
+  const strict = qs.filter((q) => q.options[0].length > Math.max(...q.options.slice(1).map((o) => o.length))).length;
+  if (strict / qs.length > 0.4) fail(`brigáda ${j.id}: správná odpověď je nejdelší v ${strict} z ${qs.length} otázek`);
+}
+ok(`strategie „nejdelší odpověď“ uspěje v ${Math.round(longestRate * 100)} % otázek (náhoda 25 %)`);
+
 // ——— Sprity ———
 for (const [k, a] of Object.entries({ ...SPRITES, ...ICONS })) if (!artInBounds(a)) fail(`sprite ${k} přesahuje plátno`);
 ok('sprity jsou uvnitř plátna');
