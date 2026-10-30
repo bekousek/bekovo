@@ -49,7 +49,7 @@ export class FluidTool implements Tool {
         viscosity: 0.01,
         color: '#60a5fa',
         region: { x, y, width: w, height: h },
-        particleRadius: 0.06,
+        particleRadius: 0.035,
       };
       this.ctx.store.apply(cmdAddEntity('Přidat kapalinu', fluid));
       this.ctx.state.setSelection([fluid.id]);
