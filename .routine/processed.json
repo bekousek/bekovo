@@ -101,7 +101,14 @@
     "2026-10-20-tepelne-motory--parni-stroj",
     "2026-10-21-vlastnosti-latek--skupenske-prechody",
     "2026-10-22-akustika--hudebni-nastroje",
-    "2026-10-23-astronomie--nocni-obloha"
+    "2026-10-23-astronomie--nocni-obloha",
+    "2026-10-24-castice-latky--casticove-slozeni-latek",
+    "2026-10-25-elektricke-obvody--elektricky-obvod",
+    "2026-10-26-elektrina--transformator",
+    "2026-10-27-elektrostatika--ionty",
+    "2026-10-28-energie--ucinnost",
+    "2026-10-29-kapaliny-7--spojene-nadoby",
+    "2026-10-30-magnetismus--magneticke-pole-zeme"
   ],
   "history": [
     {
@@ -1035,6 +1042,69 @@
       "processedAt": "2026-10-23T12:22:11.183Z",
       "driveFileId": "",
       "note": "auto-merge-blocked-by-classifier"
+    },
+    {
+      "manifestId": "2026-10-24-castice-latky--casticove-slozeni-latek",
+      "subtopic": "castice-latky--casticove-slozeni-latek",
+      "branch": "routine/nightly-2026-10-24-castice-latky--casticove-slozeni-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/198",
+      "merged": true,
+      "processedAt": "2026-10-30T13:14:45.356Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-25-elektricke-obvody--elektricky-obvod",
+      "subtopic": "elektricke-obvody--elektricky-obvod",
+      "branch": "routine/nightly-2026-10-25-elektricke-obvody--elektricky-obvod",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/199",
+      "merged": true,
+      "processedAt": "2026-10-30T13:15:09.432Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-26-elektrina--transformator",
+      "subtopic": "elektrina--transformator",
+      "branch": "routine/nightly-2026-10-26-elektrina--transformator",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/200",
+      "merged": true,
+      "processedAt": "2026-10-30T13:15:32.164Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-27-elektrostatika--ionty",
+      "subtopic": "elektrostatika--ionty",
+      "branch": "routine/nightly-2026-10-27-elektrostatika--ionty",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/201",
+      "merged": true,
+      "processedAt": "2026-10-30T13:15:55.304Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-28-energie--ucinnost",
+      "subtopic": "energie--ucinnost",
+      "branch": "routine/nightly-2026-10-28-energie--ucinnost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/202",
+      "merged": true,
+      "processedAt": "2026-10-30T13:16:21.926Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-29-kapaliny-7--spojene-nadoby",
+      "subtopic": "kapaliny-7--spojene-nadoby",
+      "branch": "routine/nightly-2026-10-29-kapaliny-7--spojene-nadoby",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/203",
+      "merged": true,
+      "processedAt": "2026-10-30T13:16:45.402Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-10-30-magnetismus--magneticke-pole-zeme",
+      "subtopic": "magnetismus--magneticke-pole-zeme",
+      "branch": "routine/nightly-2026-10-30-magnetismus--magneticke-pole-zeme",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/204",
+      "merged": true,
+      "processedAt": "2026-10-30T13:17:08.463Z",
+      "driveFileId": ""
     }
   ]
 }
