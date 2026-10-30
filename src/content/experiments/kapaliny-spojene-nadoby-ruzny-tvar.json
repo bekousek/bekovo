@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-spojene-nadoby-ruzny-tvar",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Spojené nádoby různého tvaru — vyrovnávání hladin",
+  "type": "qualitative",
+  "description": "Žákovský pokus (lze provést i jako demonstrační ukázku). Několik průhledných nádob či trubic různého tvaru a průřezu je u dna propojeno hadičkou. Po nalití obarvené vody žáci pozorují, že se volná hladina kapaliny ve všech nádobách ustálí ve stejné výšce bez ohledu na tvar nebo průřez jednotlivého ramene. Vhodné jako stanicová práce ve dvojicích nebo skupinách, žáci si princip ověří vlastním pozorováním.",
+  "materials": [
+    "2–4 průhledné nádoby/trubice různého tvaru a průřezu",
+    "spojovací hadička",
+    "voda",
+    "potravinářské barvivo"
+  ],
+  "procedure": "Nádoby propojte u dna hadičkou bez vzduchových bublin. Nalijte obarvenou vodu do jedné z nádob a sledujte, jak se hladina ustálí ve všech nádobách ve stejné výšce, i když mají různý tvar nebo průřez. Žáci zapíší pozorování a zformulují závěr (zákon spojených nádob).",
+  "source": {
+    "label": "Pokusy z UPOL — videopokusy",
+    "url": "http://pokusy.upol.cz/skolni-pokusy/mechanika/tlak-v-tekutinach/spojene-nadoby-14/"
+  }
+}

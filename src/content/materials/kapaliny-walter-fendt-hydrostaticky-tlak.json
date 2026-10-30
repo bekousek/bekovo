@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-walter-fendt-hydrostaticky-tlak",
+  "subtopicId": "spojene-nadoby",
+  "topicId": "kapaliny-7",
+  "title": "Hydrostatický tlak v kapalinách — Walter Fendt",
+  "type": "applet",
+  "description": "Interaktivní HTML5 applet v češtině: U-trubicový manometr měří hydrostatický tlak podle vzorce p = h·ρ·g. Žák myší ponořuje manometr do různé hloubky a volí hustotu kapaliny; výška rozdílu hladin v manometru ukazuje tlak v hPa. Applet vysvětluje princip, na kterém stojí i vyrovnávání hladin ve spojených nádobách.",
+  "url": "https://www.walter-fendt.de/html5/phcz/hydrostaticpressure_cz.htm"
+}
