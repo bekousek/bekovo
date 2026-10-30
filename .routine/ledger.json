@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-29",
+  "lastPicked": "2026-10-30",
   "history": [
     {
       "date": "2026-05-08",
@@ -554,6 +554,12 @@
       "subtopic": "kapaliny-7--spojene-nadoby",
       "result": "pr-pending",
       "items": 3
+    },
+    {
+      "date": "2026-10-30",
+      "subtopic": "magnetismus--magneticke-pole-zeme",
+      "result": "pr-pending",
+      "items": 2
     }
   ],
   "skipUntil": {},
