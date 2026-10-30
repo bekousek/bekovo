@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-phet-acidobazicke-roztoky",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Acidobazické roztoky — ionty vznikající disociací ve vodě (PhET)",
+  "type": "applet",
+  "description": "Interaktivní simulace v češtině, kde lze na molekulární úrovni sledovat, jak se látka ve vodě rozpadá (disociuje) na ionty, a porovnat silný a slabý elektrolyt podle míry disociace.",
+  "url": "https://phet.colorado.edu/cs/simulations/acid-base-solutions"
+}
