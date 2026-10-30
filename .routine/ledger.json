@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-24",
+  "lastPicked": "2026-10-25",
   "history": [
     {
       "date": "2026-05-08",
@@ -524,6 +524,12 @@
       "subtopic": "castice-latky--casticove-slozeni-latek",
       "result": "pr-pending",
       "items": 7
+    },
+    {
+      "date": "2026-10-25",
+      "subtopic": "elektricke-obvody--elektricky-obvod",
+      "result": "pr-pending",
+      "items": 9
     }
   ],
   "skipUntil": {},

@@ -1,0 +1,18 @@
+{
+  "id": "eo-zarovka-pres-predmety",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Soutěž: žárovka přes co nejvíc předmětů",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve dvojicích: žáci se snaží rozsvítit žárovku zapojenou pomocí co nejvíce běžných předmětů z penálu a kapes (klíče, mince, tužka, nůžky...), které zařadí do série mezi žárovku a baterii a navzájem je musí propojit tak, aby se dotýkaly. Zapisují si rekord dvojice i rekord třídy. Aktivita vede k objevení rozdílu mezi vodiči a nevodiči a k pochopení podmínek uzavřeného obvodu.",
+  "materials": [
+    "plochá baterie",
+    "malá žárovka (s objímkou nebo bez)",
+    "běžné předměty z penálu a kapes (klíče, mince, tužka, nůžky, sponky...)"
+  ],
+  "procedure": "Žáci ve dvojicích zkouší zapojit žárovku k baterii tak, aby svítila přes co nejvíc předmětů současně zařazených do obvodu (předměty se musí vzájemně dotýkat). Zapíší svůj rekord i rekord třídy, poté společně shrnou, co všechny úspěšné obvody měly společné (vodivé spojení, uzavřený obvod, funkční baterie a žárovka).",
+  "source": {
+    "label": "Metodika Heuréka — Elektrické obvody (I. Dvořáková, KDF MFF UK)",
+    "url": "https://mff.cuni.cz/data//nodes/53171/Elektricke-obvody-1-cast.pdf"
+  }
+}

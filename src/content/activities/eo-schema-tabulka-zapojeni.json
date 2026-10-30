@@ -1,0 +1,12 @@
+{
+  "id": "eo-schema-tabulka-zapojeni",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Elektrický obvod: od schématu k zapojení a tabulce",
+  "type": "group-work",
+  "description": "Vícehodinová žákovská aktivita ve dvojicích nebo malých skupinách: žáci postupně zapojují žárovku a baterii, popisují vlastnosti uzavřeného obvodu, učí se číst a kreslit schéma obvodu, vyplňují tabulku „svítí–nesvítí“ pro různá zapojení a sestavují sériové i paralelní zapojení se spínači či přepínači podle zadaného schématu nebo tabulky. Žáci pracují samostatně ve skupinách, učitel pouze koordinuje a pomáhá.",
+  "source": {
+    "label": "Metodika Heuréka — Elektrické obvody (I. Dvořáková, KDF MFF UK)",
+    "url": "https://mff.cuni.cz/data//nodes/53171/Elektricke-obvody-1-cast.pdf"
+  }
+}

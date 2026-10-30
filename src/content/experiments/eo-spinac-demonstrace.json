@@ -1,0 +1,18 @@
+{
+  "id": "eo-spinac-demonstrace",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Demonstrace spínače v elektrickém obvodu",
+  "type": "qualitative",
+  "description": "Demonstrační pokus s učitelskou sadou elektrických obvodů na magnetické tabuli: učitel staví obvod se žárovkou, LED, bzučákem nebo motorkem a se žáky diskutuje, co musí obvod splňovat, aby fungoval (uzavřený obvod, dva vodiče k oběma pólům zdroje). Ke každému zapojení se nakreslí schéma. Následně učitel předvede obvod bez spínače (ovládaný ručním spojováním krokosvorek) a poté s přidaným spínačem/vypínačem — žáci vysvětlují, co se uvnitř spínače děje.",
+  "materials": [
+    "učitelská sada elektrických obvodů na magnetické tabuli (žárovky, LED, spínač, vypínač, bzučák, motorek)",
+    "baterie 3× monočlánek AA (4,5 V)",
+    "magnetická tabule"
+  ],
+  "procedure": "Učitel sestaví na tabuli obvod se zdrojem a žárovkou, se žáky diskutuje podmínky uzavřeného obvodu a ke každému zapojení nakreslí schéma. Poté předvede obvod bez spínače (ovládaný spojováním krokosvorek) a s přidaným spínačem/vypínačem, žáci vysvětlují, co se uvnitř spínače děje.",
+  "source": {
+    "label": "Fyzikální šuplík — Učitelské elektrické obvody, příručka uživatele (V. Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/prirucky/ucitelske_elektricke_obvody_-_prirucka.pdf"
+  }
+}

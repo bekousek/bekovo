@@ -1,0 +1,12 @@
+{
+  "id": "eo-schodistove-krizove-zapojeni",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Schodišťové a křížové zapojení – ovládání světla ze dvou míst",
+  "type": "method",
+  "description": "Demonstrační aktivita s učitelskou sadou elektrických obvodů: žáci nejprve zkouší vymyslet, jak ovládat jednu žárovku ze dvou míst (zjistí, že sériové ani paralelní zapojení obyčejných vypínačů nefunguje), poté učitel představí přepínače (součástka se třemi vývody) a sestaví schodišťové a křížové zapojení — reálnou analogii k osvětlení na chodbě nebo schodišti, kterou žáci znají z domova.",
+  "source": {
+    "label": "Fyzikální šuplík — Učitelské elektrické obvody, příručka uživatele (V. Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/prirucky/ucitelske_elektricke_obvody_-_prirucka.pdf"
+  }
+}
