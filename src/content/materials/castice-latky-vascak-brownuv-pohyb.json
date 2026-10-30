@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-vascak-brownuv-pohyb",
+  "subtopicId": "casticove-slozeni-latek",
+  "topicId": "castice-latky",
+  "title": "Brownův pohyb – animace (Vaščák, česky)",
+  "type": "applet",
+  "description": "Česká interaktivní animace z cyklu Physics at School (M. Vaščák) znázorňující neuspořádaný pohyb drobných částic (např. pylových zrnek) v kapalině nebo plynu, který vzniká nárazy neviditelných molekul. Slouží jako přímý vizuální důkaz existence a neustálého pohybu částic, na který navazuje animace difúze ze stejné série. Běží v prohlížeči bez instalace.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_brownuv_pohyb&l=cz"
+}

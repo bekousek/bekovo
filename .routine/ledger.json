@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-17",
+  "lastPicked": "2026-10-24",
   "history": [
     {
       "date": "2026-05-08",
@@ -518,6 +518,12 @@
       "subtopic": "pohyb--rychlost",
       "result": "pr-pending",
       "items": 5
+    },
+    {
+      "date": "2026-10-24",
+      "subtopic": "castice-latky--casticove-slozeni-latek",
+      "result": "pr-pending",
+      "items": 7
     }
   ],
   "skipUntil": {},
