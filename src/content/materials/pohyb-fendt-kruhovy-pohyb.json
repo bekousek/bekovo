@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-fendt-kruhovy-pohyb",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Rovnoměrný pohyb po kružnici – vektory (Walter Fendt)",
+  "type": "applet",
+  "description": "HTML5 applet Waltera Fendta animuje pohyb tělesa po kružnici a v reálném čase zobrazuje vektory polohy, rychlosti a dostředivého zrychlení. Žáci mohou měnit poloměr a úhlovou rychlost a sledovat, jak se vektory mění. Slouží k pochopení toho, proč je kruhový pohyb – i při konstantní rychlosti – pohybem zrychleným. Applet je celý v češtině.",
+  "url": "https://www.walter-fendt.de/html5/phcz/circularmotion_cz.htm"
+}
