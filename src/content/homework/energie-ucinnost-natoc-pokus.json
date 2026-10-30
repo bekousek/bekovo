@@ -1,0 +1,11 @@
+{
+  "id": "energie-ucinnost-natoc-pokus",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Natoč a vysvětli pokus o účinnosti stroje nebo spotřebiče",
+  "description": "Dlouhodobější badatelský úkol: žák si doma vybere jednoduchý stroj nebo spotřebič (např. elektromotorek z hračky, vlastní kladkostroj, žárovka) a během několika dní provede sérii měření příkonu a výkonu při různém zatížení. Z naměřených hodnot vypočítá účinnost η = P_výkon/P_příkon pro jednotlivá zatížení, zapíše je do tabulky a natočí krátké video, ve kterém srozumitelně vysvětlí, kam se „ztracená“ energie odvedla (teplo, tření) a jak by šlo účinnost zvýšit. Formát je inspirován dlouholetou soutěží Vím proč (Skupina ČEZ), kde žáci natáčí a vysvětlují vlastní fyzikální pokusy.",
+  "source": {
+    "label": "Vím proč (ČEZ)",
+    "url": "https://www.vimproc.cz/"
+  }
+}
