@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-25",
+  "lastPicked": "2026-10-26",
   "history": [
     {
       "date": "2026-05-08",
@@ -530,6 +530,12 @@
       "subtopic": "elektricke-obvody--elektricky-obvod",
       "result": "pr-pending",
       "items": 9
+    },
+    {
+      "date": "2026-10-26",
+      "subtopic": "elektrina--transformator",
+      "result": "pr-pending",
+      "items": 3
     }
   ],
   "skipUntil": {},

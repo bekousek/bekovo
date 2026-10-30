@@ -1,0 +1,19 @@
+{
+  "id": "elektrina-transformator-princip-dve-civky",
+  "subtopicId": "transformator",
+  "topicId": "elektrina",
+  "title": "Princip transformátoru na dvou cívkách",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel): dvě cívky volně položené na sobě – jedna připojená na zdroj střídavého napětí, druhá na žárovičku. Po přiložení cívek k sobě se žárovička rozsvítí, přestože nejsou vodivě spojeny – přenos energie zajišťuje proměnné magnetické pole. Při oddálení cívek jas klesá; po vložení společného ocelového jádra do obou cívek svítí žárovička i na větší vzdálenost, protože jádro soustředí magnetický tok. Pokus ukazuje základní princip transformátoru bez nutnosti měřit konkrétní transformační poměr.",
+  "materials": [
+    "dvě cívky (podobné parametry, řádově stovky závitů)",
+    "ocelová tyč jako společné jádro",
+    "školní zdroj střídavého napětí (nízké napětí)",
+    "žárovička na nízké napětí"
+  ],
+  "procedure": "1) Jednu cívku připoj na zdroj střídavého napětí, druhou na žárovičku – zatím bez jádra. 2) Cívky polož na sebe – žárovička se rozsvítí. 3) Jednu cívku postupně vzdaluj – jas žárovičky klesá. 4) Vlož do obou cívek společné ocelové jádro – žárovička svítí i při větší vzdálenosti cívek, protože jádro soustředí magnetický tok. Upozornění: při použití jádra hrozí přepálení žárovičky, sleduj napětí.",
+  "source": {
+    "label": "Fyzikální šuplík (V. Piskač): Pokusy s cívkami",
+    "url": "https://fyzikalnisuplik.websnadno.cz/2016/pokusy_s_civkami.pdf"
+  }
+}
