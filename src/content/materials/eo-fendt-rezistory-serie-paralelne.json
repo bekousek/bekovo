@@ -1,0 +1,9 @@
+{
+  "id": "eo-fendt-rezistory-serie-paralelne",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Walter Fendt: Zapojování rezistorů (sériově a paralelně)",
+  "type": "applet",
+  "description": "Česká HTML5 simulace, kde žák skládá rezistory do série nebo paralelně a sleduje, jak se měří napětí a proud v různých částech obvodu; hodnoty se počítají automaticky, takže lze aktivitu použít i čistě kvalitativně bez počítání podle Ohmova zákona.",
+  "url": "https://www.walter-fendt.de/html5/phcz/combinationresistors_cz.htm"
+}

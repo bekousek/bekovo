@@ -1,0 +1,12 @@
+{
+  "id": "eo-model-semaforu",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Model semaforu s vícepolohovým přepínačem",
+  "type": "method",
+  "description": "Demonstrační aktivita s učitelskou sadou elektrických obvodů: z LED diod (červená, žlutá, zelená) a třípolohového přepínače se na magnetické tabuli sestaví model semaforu. Žáci sledují, jak přepínač volí mezi třemi větvemi obvodu, a diskutují realističnost modelu (např. že skutečný semafor svítí červenou a žlutou současně při přechodu na zelenou).",
+  "source": {
+    "label": "Fyzikální šuplík — Učitelské elektrické obvody, příručka uživatele (V. Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/prirucky/ucitelske_elektricke_obvody_-_prirucka.pdf"
+  }
+}

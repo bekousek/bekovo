@@ -1,0 +1,9 @@
+{
+  "id": "eo-vascak-animace-obvod",
+  "subtopicId": "elektricky-obvod",
+  "topicId": "elektricke-obvody",
+  "title": "Vaščák: Elektrický obvod (animace)",
+  "type": "applet",
+  "description": "Česká interaktivní animace ze série Elektrický proud na vascak.cz, ukazující základní schéma elektrického obvodu. Vhodná jako úvodní vizualizace pojmu uzavřený/otevřený obvod.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=ele_obvod&l=cz"
+}
