@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-10-28",
+  "lastPicked": "2026-10-29",
   "history": [
     {
       "date": "2026-05-08",
@@ -546,6 +546,12 @@
     {
       "date": "2026-10-28",
       "subtopic": "energie--ucinnost",
+      "result": "pr-pending",
+      "items": 3
+    },
+    {
+      "date": "2026-10-29",
+      "subtopic": "kapaliny-7--spojene-nadoby",
       "result": "pr-pending",
       "items": 3
     }
