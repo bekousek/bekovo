@@ -1,0 +1,21 @@
+{
+  "id": "elektrostatika-elektrolyza-okysele-vody-hrebiky",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Elektrolýza okyselené vody s hřebíky",
+  "type": "qualitative",
+  "description": "Žákovský pokus. Žáci si sestaví jednoduchou elektrolyzní aparaturu ze dvou železných hřebíků zapojených na 9V baterii a ponořených do vody okyselené citronovou šťávou nebo octem (kyselina zvyšuje počet volných iontů v roztoku, a tím jeho vodivost). Po 3–5 minutách pozorují na elektrodách vznik bublinek plynu a zjišťují, že na jedné elektrodě vzniká zhruba dvakrát více plynu než na druhé — vodík se u katody uvolňuje rychleji než kyslík u anody.",
+  "materials": [
+    "sklenice",
+    "2 železné hřebíky",
+    "2 vodiče s krokosvorkami",
+    "baterie 9 V",
+    "citronová šťáva nebo ocet",
+    "destička z pěnového polystyrenu (držák hřebíků)"
+  ],
+  "procedure": "1) Do sklenice nalij vodu a přidej cca 10 kapek citronové šťávy nebo octa na 50 ml vody. 2) Dva očištěné hřebíky zapíchni do polystyrenové destičky tak, aby se ve vodě nedotýkaly, a propoj je vodiči s opačnými póly 9V baterie. 3) Hřebíky ponoř do okyseleného roztoku. 4) Nech elektrolýzu probíhat 3–5 minut a sleduj, na které elektrodě vzniká více plynu (vodík vzniká přibližně dvakrát rychleji než kyslík).",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/chemie/pokus10.htm"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrostatika-vascak-oloveny-akumulator",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Olověný akumulátor — pohyb iontů v elektrolytu (animace)",
+  "type": "applet",
+  "description": "Animace ukazuje, jak se při nabíjení a vybíjení olověného akumulátoru pohybují ionty v elektrolytu (kyselina sírová) mezi elektrodami. Dokládá, že i uvnitř běžné baterie probíhá pohyb iontů působením elektrického pole.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=elkap_akumulator&l=cz"
+}

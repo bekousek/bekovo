@@ -1,0 +1,25 @@
+{
+  "id": "elektrostatika-vodivost-ruznych-roztoku",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Vodivost různých vodných roztoků — srovnávací pokus",
+  "type": "qualitative",
+  "description": "Žákovský pokus ve skupinách. Žáci pomocí žárovky zapojené v obvodu s elektrolytickou vanou testují, zda vede elektrický proud pět různých kapalin: destilovaná voda, destilovaná voda s rozpuštěným cukrem, voda z vodovodu, roztok kuchyňské soli (NaCl) a roztok modré skalice (síranu měďnatého, CuSO₄). U roztoku CuSO₄ navíc po několika minutách pozorují, jak se na záporné elektrodě (katodě) vylučuje měď. Zdroj napětí pro ZŠ volí učitel bezpečně nízký (baterie nebo školní zdroj do 12 V), srovnání zůstává jen kvalitativní (svítí/nesvítí).",
+  "materials": [
+    "elektrolytická vana nebo kádinka s uhlíkovými elektrodami",
+    "žárovka s objímkou",
+    "bezpečný zdroj napětí (baterie nebo školní zdroj do 12 V)",
+    "destilovaná voda",
+    "cukr",
+    "voda z vodovodu",
+    "kuchyňská sůl (NaCl)",
+    "modrá skalice — síran měďnatý (CuSO₄)",
+    "lžíce",
+    "skleněná tyčinka"
+  ],
+  "procedure": "1) Do kádinky nalij vždy jeden z pěti testovaných roztoků. 2) Ponoř uhlíkové elektrody zapojené v sérii se žárovkou a zdrojem napětí. 3) Obvod zapínej jen pod dohledem učitele a sleduj, zda se žárovka rozsvítí. 4) Výsledky zapiš do tabulky (vede/nevede). 5) U roztoku CuSO₄ nech obvod zapojený několik minut a pozoruj vylučování mědi na katodě. 6) S žáky proberte, proč destilovaná voda a cukerný roztok nevedou (chybí volné ionty), zatímco NaCl a CuSO₄ ano (disociují na ionty).",
+  "source": {
+    "label": "Metodický portál RVP — fyzika",
+    "url": "https://mojeedu.npi.cz/rvp/portal-1747"
+  }
+}
