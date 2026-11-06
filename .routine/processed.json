@@ -108,7 +108,10 @@
     "2026-10-27-elektrostatika--ionty",
     "2026-10-28-energie--ucinnost",
     "2026-10-29-kapaliny-7--spojene-nadoby",
-    "2026-10-30-magnetismus--magneticke-pole-zeme"
+    "2026-10-30-magnetismus--magneticke-pole-zeme",
+    "2026-11-02-mikrosvet--skaly-v-mikrosvete",
+    "2026-11-04-plyny-7--atmosfera",
+    "2026-11-06-sila--silomer"
   ],
   "history": [
     {
@@ -1104,6 +1107,33 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/204",
       "merged": true,
       "processedAt": "2026-10-30T13:17:08.463Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-02-mikrosvet--skaly-v-mikrosvete",
+      "subtopic": "mikrosvet--skaly-v-mikrosvete",
+      "branch": "routine/nightly-2026-11-02-mikrosvet--skaly-v-mikrosvete",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/207",
+      "merged": true,
+      "processedAt": "2026-11-06T13:16:02.062Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-04-plyny-7--atmosfera",
+      "subtopic": "plyny-7--atmosfera",
+      "branch": "routine/nightly-2026-11-04-plyny-7--atmosfera",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/208",
+      "merged": true,
+      "processedAt": "2026-11-06T13:16:27.452Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-06-sila--silomer",
+      "subtopic": "sila--silomer",
+      "branch": "routine/nightly-2026-11-06-sila--silomer",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/209",
+      "merged": true,
+      "processedAt": "2026-11-06T13:16:51.844Z",
       "driveFileId": ""
     }
   ]
