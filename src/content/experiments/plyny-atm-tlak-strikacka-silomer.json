@@ -1,0 +1,19 @@
+{
+  "id": "plyny-atm-tlak-strikacka-silomer",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Měření atmosférického tlaku injekční stříkačkou a siloměrem",
+  "type": "measurement",
+  "description": "Žákovský pokus ve skupinách: žáci ucpou prstem otvor injekční stříkačky a siloměrem změří sílu potřebnou k vytažení pístu (tlaková síla vzduchu + tření v pístu), poté stejným způsobem změří zvlášť jen třecí sílu (bez ucpání otvoru). Z rozdílu obou sil a plochy pístu (průměr změří posuvným měřítkem) vypočítají skutečnou hodnotu atmosférického tlaku v kPa. Na konci učitel výsledky jednotlivých skupin shrne na tabuli a třída společně diskutuje, proč se naměřené hodnoty liší od tabulkových ~101 kPa.",
+  "materials": [
+    "injekční stříkačka (nejlépe 20 ml, jde i 5–10 ml)",
+    "siloměr 0–20 N nebo 0–50 N",
+    "posuvné měřítko",
+    "tabulka na zápis a výpočet výsledků skupin"
+  ],
+  "procedure": "1) Žáci vytlačí vzduch ze stříkačky, ucpou otvor prstem a siloměrem vytahují píst – změří potřebnou sílu. 2) Stejným způsobem, ale bez ucpání otvoru, změří pouze třecí sílu pístu. 3) Vypočítají rozdíl obou sil = tlaková síla vzduchu. 4) Posuvným měřítkem změří průměr pístu a spočítají jeho plochu. 5) Z tlakové síly a plochy vypočítají tlak vzduchu p = F/S (vychází řádově 80–120 kPa). 6) Výsledky všech skupin se porovnají, spočítá se průměr a diskutují se příčiny odchylek od tabulkové hodnoty ~101 kPa.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/2016/atm_tlak_se_strikackami.pdf"
+  }
+}

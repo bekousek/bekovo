@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vascak-atm-tlak-vyska",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Atmosférický tlak – nadmořská výška (animace Vaščák)",
+  "type": "applet",
+  "description": "Interaktivní animace z cyklu Fyzika ve škole ukazuje, jak se atmosférický tlak vzduchu mění se stoupající nadmořskou výškou. Žák vizuálně vidí souvislost mezi výškou nad mořem a tlakem vzduchu, kterou lze propojit i s měřením v horách nebo v letadle.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_vyska_tlak&l=cz"
+}
