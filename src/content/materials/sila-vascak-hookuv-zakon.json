@@ -1,0 +1,9 @@
+{
+  "id": "sila-vascak-hookuv-zakon",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Vaščák: Hookův zákon",
+  "type": "applet",
+  "description": "Interaktivní animace z projektu Physics at School (Vladimír Vaščák) znázorňující Hookův zákon — vztah mezi velikostí síly a prodloužením pružiny, tedy princip, na kterém je postaven siloměr. Dostupná v češtině.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_hook&l=cz"
+}
