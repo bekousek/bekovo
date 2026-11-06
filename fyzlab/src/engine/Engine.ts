@@ -37,7 +37,14 @@ export class Engine {
   private constructor(rigid: RigidModule, doc: SceneDoc) {
     this.rigid = rigid;
     this.optics = new OpticsModule((id) => rigid.poseOf(id));
-    this.fluid = new FluidModule((id) => rigid.poseOf(id));
+    this.fluid = new FluidModule(
+      (id) => rigid.poseOf(id),
+      (id, ix, iy) => rigid.applyImpulse(id, ix, iy),
+      (id) => {
+        const s = rigid.stateOf(id);
+        return s ? { vx: s.vx, vy: s.vy } : null;
+      },
+    );
     this.instruments = new InstrumentsModule(
       (id) => rigid.poseOf(id),
       (id) => rigid.stateOf(id),
