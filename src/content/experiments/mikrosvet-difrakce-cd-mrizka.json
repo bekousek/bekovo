@@ -1,0 +1,21 @@
+{
+  "id": "mikrosvet-difrakce-cd-mrizka",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Difrakce na kompaktním disku – měření mikroskopických drážek",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ pokus (učitel provádí měření a výpočet, výsledek prezentuje žákům): laserové ukazovátko se namíří na záznamovou stranu CD, které funguje jako optická mřížka tvořená mikroskopickými rovnoběžnými drážkami (tzv. pity). Na stínítku vznikají difrakční maxima, z jejichž rozestupu a známé vlnové délky laseru lze vypočítat mřížkovou konstantu CD – vychází řádově 1,6 μm, tedy velikost srovnatelná s bakterií. Pokus žákům ukazuje, že i běžný předmět skrývá strukturu v mikrometrovém měřítku, kterou lze odhalit nikoli pohledem, ale fyzikálním měřením pomocí světla – paralela k tomu, jak vědci „vidí“ to, co je pod rozlišovací mezí oka.",
+  "materials": [
+    "laserové ukazovátko (zelené nebo červené)",
+    "kompaktní disk (CD) v plastové krabičce",
+    "čtvrtka papíru",
+    "pravítko",
+    "nůžky",
+    "podložka"
+  ],
+  "procedure": "Do čtvrtky vystřihneme otvor pro laserové ukazovátko (uprostřed, cca 6 cm od spodního okraje). CD postavíme do krabičky záznamovou stranou ven. Ve vzdálenosti l = 25 cm od disku umístíme rovnoběžně čtvrtku s ukazovátkem. Paprsek namíříme do středu disku a na čtvrtce označíme stopy difrakčních maxim 1. řádu po obou stranách přímého odrazu. Změříme jejich vzájemnou vzdálenost 2y. Z geometrie (přepočet úhlu ze zjištěných l a y) a ze známé vlnové délky laseru (např. zelený laser λ = 532 nm) učitel spočítá mřížkovou konstantu CD b podle b·sinα = λ. Bezpečnost: laser nikdy nesměrovat do očí.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1647/difrakce-monochromatickeho-svetla-na-kompaktnim-disku"
+  }
+}
