@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-pixel-usb-mikroskop",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Měření velikosti pixelu USB mikroskopem",
+  "type": "measurement",
+  "description": "ŽÁKOVSKÝ pokus: žáci přiloží USB mikroskop k svítícímu monitoru, mobilu nebo tabletu a zaostří na obraz. V softwaru mikroskopu podle zadaného zvětšení změří velikost jednoho pixelu (resp. subpixelu) – struktury, kterou pouhým okem ze čtecí vzdálenosti nelze vůbec rozlišit. Ze zjištěné velikosti pixelu a rozměrů displeje lze dopočítat jeho rozlišení. Pokus přímo demonstruje, že „hladký“ obraz se při zvětšení rozpadá na drobné stavební jednotky – přirozený můstek k myšlence, že i hmota kolem nás má na malém měřítku skrytou strukturu (atomy, molekuly), kterou odhalíme jen vhodným přístrojem.",
+  "materials": [
+    "počítač nebo notebook",
+    "USB mikroskop (běžně dostupný, cca 300–800 Kč)",
+    "libovolný svítící displej (monitor, mobil, tablet)"
+  ],
+  "procedure": "Připojit a nainstalovat USB mikroskop. Přiložit k bíle svítícímu displeji a zaostřit, aby byly vidět jednotlivé barevné plošky (subpixely). V programu mikroskopu zadat použité zvětšení (odečtené přímo z mikroskopu) a změřit velikost jednoho pixelu. Žáci dále změří výšku a šířku displeje bez rámu a vypočítají jeho nativní rozlišení; porovnají s udávanou hodnotou výrobce.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/1673/mereni-velikosti-pixelu"
+  }
+}
