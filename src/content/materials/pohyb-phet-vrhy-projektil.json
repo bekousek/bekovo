@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-phet-vrhy-projektil",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Pohyb projektilu – vrhy (PhET)",
+  "type": "applet",
+  "description": "Interaktivní simulace vrhů z dílny PhET (University of Colorado). Žáci nastavují úhel, počáteční rychlost a hmotnost projektilu a sledují trajektorie šikmého vrhu, vodorovného vrhu i volného pádu v jednom prostředí. Simulace zobrazuje vektory rychlosti v reálném čase a umožňuje zapnout odpor vzduchu. Ideální k porovnání různých druhů pohybů a k pochopení skládání svislého a vodorovného pohybu.",
+  "url": "https://phet.colorado.edu/cs/simulations/projectile-motion"
+}
