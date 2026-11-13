@@ -1,0 +1,9 @@
+{
+  "id": "elektricke-obvody-bezpecnost-phet-travoltage",
+  "subtopicId": "bezpecnost-pri-praci-s-elektrinou",
+  "topicId": "elektricke-obvody",
+  "title": "PhET: Džon Travoltage (statický výboj a uzemnění)",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET v češtině, ve které žák táhne postavičku po koberci a sleduje, jak se na jejím těle hromadí elektrický náboj. Při dotyku kliky se náboj vybije jiskrou — simulace ukazuje princip přenosu náboje, elektrického výboje a uzemnění, které souvisí i s bezpečností při práci s elektřinou.",
+  "url": "https://phet.colorado.edu/sims/html/john-travoltage/latest/john-travoltage_cs.html"
+}
