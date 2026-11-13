@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-parni-fontana",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Parní fontána z plechovky",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (sestavuje a provádí učitel – pájení a otevřený plamen): do víčka kovové plechovky se připájí tenká měděná trubička, dovnitř se nalije trocha vody a plechovka se zahřívá na vařiči. Vroucí voda se mění v páru, jejíž tlak v uzavřené nádobě vytlačuje zbylou vodu tryskou ven jako fontánu. Pokus ukazuje souvislost mezi varem kapaliny a nárůstem tlaku syté páry v uzavřeném prostoru.",
+  "materials": [
+    "plechová konzerva s víčkem",
+    "měděná nebo mosazná trubička",
+    "pájka, kalafuna, trafopájka",
+    "zdroj tepla (vařič)"
+  ],
+  "procedure": "Do víčka plechovky propíchněte a rozšiřte otvor, zasuňte trubičku a připájejte ji z obou stran víčka. Do plechovky nalijte malé množství vody (nenaplňujte ji celou, ať zůstane uvnitř vzduch) a zahřívejte na vařiči – po chvíli začne tryskou unikat vodní fontána.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/navody/parni_fontana.pdf"
+  }
+}

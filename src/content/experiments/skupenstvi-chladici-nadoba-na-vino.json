@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-chladici-nadoba-na-vino",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Chladicí nádoba na víno – chlazení odpařováním",
+  "type": "qualitative",
+  "description": "Žákovský pokus: nádoba z neglazované (porézní) hlíny se namočí do studené vody a postaví se do ní láhev s nápojem. Voda nasátá do stěn nádoby se odpařuje do okolí a odebírá teplo, čímž láhev uvnitř citelně chladne. Pokus ukazuje, že vypařování je endotermický děj – spotřebovává skupenské teplo z okolí – na principu starých „pouštních lednic\".",
+  "materials": [
+    "neglazovaná hliněná nádoba (nebo květináč)",
+    "studená voda",
+    "láhev s nápojem",
+    "teploměr (volitelně)"
+  ],
+  "procedure": "Hliněnou nádobu namočte do studené vody, aby nasákla. Postavte do ní láhev a nechte stát na vzduchu. Po 20–30 minutách porovnejte teplotu povrchu nádoby/láhve s kontrolní láhví ponechanou bez nádoby.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/chladici_nadoba_na_vino.pdf"
+  }
+}

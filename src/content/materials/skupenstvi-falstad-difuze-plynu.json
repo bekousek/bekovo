@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-falstad-difuze-plynu",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Falstad: Simulace plynu – difuze a volná expanze",
+  "type": "applet",
+  "description": "Simulace kinetické teorie plynů se scénáři „2 Gases\" a „Free Expansion\", které vizuálně ukazují difuzi (míchání) plynů s různými rychlostmi částic. Ovládání (start/stop, počet molekul, teplota) je jednoduché a srozumitelné i bez znalosti angličtiny.",
+  "url": "https://www.falstad.com/gas/gas.html"
+}
