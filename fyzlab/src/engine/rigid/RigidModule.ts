@@ -245,6 +245,17 @@ export class RigidModule implements SimModule {
     return { id, x: t.x, y: t.y, angle: body.rotation(), vx: lv.x, vy: lv.y, omega: body.angvel() };
   }
 
+  /**
+   * Aplikuje okamžitý impuls [N·s] na těžiště dynamického tělesa. Používá
+   * kapalinový modul pro reakci na částice (obousměrná vazba). Statická a
+   * neexistující tělesa se ignorují.
+   */
+  applyImpulse(id: string, ix: number, iy: number): void {
+    const body = this.bodies.get(id);
+    if (!body || !body.isDynamic()) return;
+    body.applyImpulse({ x: ix, y: iy }, true);
+  }
+
   setKinematics(id: string, transform?: TransformPatch, velocity?: VelocityPatch): void {
     const body = this.bodies.get(id);
     if (!body) return;
