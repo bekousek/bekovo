@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-stojate-vlneni-struna",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Falstad: Stojaté vlnění na struně",
+  "type": "applet",
+  "description": "Applet ukazuje vznik stojatého vlnění na struně rozkmitané škubnutím nebo kliknutím, včetně rozkladu na jednotlivé vidy kmitání. Běží přímo v prohlížeči jako JavaScript applet.",
+  "url": "https://www.falstad.com/loadedstring/"
+}

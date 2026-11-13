@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-rychlost-zvuku",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Vaščák: Rychlost zvuku",
+  "type": "applet",
+  "description": "Animace k tématu rychlosti šíření zvuku v různém prostředí, navazující na animace o rezonanci a Dopplerově jevu. Z české sbírky Fyzika ve škole.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=kv_rychlost_zvuku&l=cz"
+}

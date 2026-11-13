@@ -1,0 +1,9 @@
+{
+  "id": "akustika-vascak-odraz-vlneni",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Vaščák: Odraz vlnění",
+  "type": "applet",
+  "description": "Animace odrazu vlnění od pevného a volného konce, ukazuje rozdíl ve fázi odražené vlny. Z české sbírky Fyzika ve škole.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=kv_odraz_vlneni&l=cz"
+}

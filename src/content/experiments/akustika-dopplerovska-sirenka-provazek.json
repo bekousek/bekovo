@@ -1,0 +1,20 @@
+{
+  "id": "akustika-dopplerovska-sirenka-provazek",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Dopplerovská sirénka na provázku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel nebo žák pod jeho dohledem, ve velkém prostoru nebo venku). Na konec zhruba metr dlouhého provázku je přivázaná krabička s piezosirénkou, 9V baterií a vypínačem. Po zapnutí sirénky a jejím roztočení nad hlavou slyší posluchači stojící vedle zřetelné kolísání výšky tónu – při přibližování zní tón výš, při vzdalování níž. Jde o demonstraci Dopplerova jevu jiným, vlastnoručně vyrobeným zdrojem zvuku než u roztočené trubice („husí krk“) nebo ultrazvukového senzoru.",
+  "materials": [
+    "piezosirénka (např. 2800 Hz)",
+    "9V alkalická baterie",
+    "vypínač",
+    "malá plastová krabička",
+    "pevný provázek (cca 1 m)"
+  ],
+  "procedure": "Piezosirénka, baterie a vypínač se zabudují a přišroubují do plastové krabičky; do víčka se vyvrtají otvory pro lepší šíření zvuku a do boční stěny dva otvory na provázek. Krabička se zavěsí na konec provázku, druhý konec se chytí mezi dva prsty a po zapnutí sirénky se krabička roztočí nad hlavou v kruhu. Posluchači stojící v bezpečné vzdálenosti slyší periodické kolísání tónu v rytmu otáčení.",
+  "source": {
+    "label": "Fyzikální šuplík (V. Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/doplerovska_sirenka.pdf"
+  }
+}
