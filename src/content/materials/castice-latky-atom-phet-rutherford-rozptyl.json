@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-phet-rutherford-rozptyl",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "PhET: Rutherfordův rozptyl",
+  "type": "applet",
+  "description": "Interaktivní simulace porovnává Thomsonův model „pudinku se švestkami“ s Rutherfordovým jaderným modelem — žák střílí vzorek alfa částic na atom a sleduje, jak se od něj odráží, a tím objevuje, že kladný náboj a hmota jsou soustředěny v malém jádru.",
+  "url": "https://phet.colorado.edu/cs/simulations/rutherford-scattering"
+}

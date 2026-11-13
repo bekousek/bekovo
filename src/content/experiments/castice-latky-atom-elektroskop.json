@@ -1,0 +1,19 @@
+{
+  "id": "castice-latky-atom-elektroskop",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Elektrování těles třením a elektroskop",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, žáci sledují a zapisují): skleněná a plastová (vinidurová) tyč jsou zpočátku elektricky neutrální; po otření kůží nebo hadříkem se nabijí a náboj se ukáže pomocí elektroskopu — čím větší náboj, tím větší výchylka ručky. Pokus konkrétně ukazuje, že tělesa obsahují nabité částice (elektrony), které lze třením přesouvat z jednoho tělesa na druhé, a slouží jako můstek k vysvětlení stavby atomu (jádro + obal elektronů).",
+  "materials": [
+    "skleněná tyč",
+    "plastová (vinidurová) tyč",
+    "kožešina nebo hadřík",
+    "jednoduchý elektroskop"
+  ],
+  "procedure": "Otřít skleněnou tyč hadříkem a přiblížit k elektroskopu — sledovat výchylku. Totéž zopakovat s plastovou tyčí otřenou kožešinou. Porovnat velikost náboje (výchylky) a znaménko náboje u obou materiálů.",
+  "source": {
+    "label": "FyzWeb – Elektrování těles",
+    "url": "http://fyzweb.cz/materialy/videopokusy/POKUSY/ELEKTROVANI/POPIS.HTM"
+  }
+}

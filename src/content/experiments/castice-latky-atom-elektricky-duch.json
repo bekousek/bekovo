@@ -1,0 +1,19 @@
+{
+  "id": "castice-latky-atom-elektricky-duch",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Elektrický duch",
+  "type": "qualitative",
+  "description": "Žákovský pokus z domácích pomůcek: z papírové utěrky se vystřihne „duch“, který se po přiblížení nabitého balónku rozvlní a přitahuje se k balónku. Pokus demonstruje, že různé materiály se nabíjejí odlišně — některé snadno odevzdávají elektrony (nabijí se kladně), jiné je snadno přijímají (nabijí se záporně) — a že i lehký neutrální předmět je nabitým tělesem přitahován. Dobře ilustruje myšlenku, že v atomech a materiálech jsou pohyblivé nabité částice.",
+  "materials": [
+    "papírová utěrka (kuchyňská role)",
+    "nůžky",
+    "nafukovací balónek",
+    "vlněný svetr nebo vlasy k natření balónku"
+  ],
+  "procedure": "Vystřihni z papírové utěrky tvar „ducha“ (tenké proužky). Nafoukni balónek a potři jej o vlasy nebo vlněný svetr. Přibliž nabitý balónek k papírovému duchovi — ten se k balónku přitáhne a začne „tančit“.",
+  "source": {
+    "label": "VIDA! Pokusy do školy",
+    "url": "https://vida.cz/blog/elektricky-duch"
+  }
+}

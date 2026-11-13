@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-fendt-rutherford-rozptyl",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Walter Fendt: Rutherfordův rozptyl (CZ)",
+  "type": "applet",
+  "description": "Applet simuluje rozptyl alfa částic na atomovém jádře různé velikosti náboje a umožňuje měnit parametry (rychlost, náboj jádra) a sledovat trajektorie odražených částic.",
+  "url": "https://www.walter-fendt.de/html5/phcz/rutherfordscattering_cz.htm"
+}
