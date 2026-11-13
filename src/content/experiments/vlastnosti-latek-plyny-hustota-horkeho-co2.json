@@ -1,0 +1,19 @@
+{
+  "id": "vlastnosti-latek-plyny-hustota-horkeho-co2",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Když je oxid uhličitý lehčí než vzduch",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, otevřený plamen): tři svíčky různé výšky přiklopené nádobou zhasínají v pořadí od nejvyšší po nejnižší, protože horký CO₂ vznikající hořením má navzdory vyšší hustotě za pokojové teploty nižší hustotu než studený okolní vzduch a hromadí se u stropu nádoby. Pokus odhaluje častou miskoncepci, že CO₂ je vždy těžší než vzduch, a je vhodný pro diskusi a predikci.",
+  "materials": [
+    "tři svíčky různé výšky",
+    "modelovací hmota (na stojánek)",
+    "nehořlavá skleněná nádoba",
+    "zápalky"
+  ],
+  "procedure": "Svíčky seřadíme podle výšky a upevníme do modelovací hmoty. Zapálíme je, necháme rozhořet a přiklopíme skleněnou nádobou. Před odkrytím necháme žáky predikovat, v jakém pořadí svíčky zhasnou, a pak sledujeme a diskutujeme skutečný výsledek.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů (KDF MFF UK)",
+    "url": "http://fyzikalnipokusy.cz/2183/kdyz-je-oxid-uhlicity-lehci-nez-vzduch-(vliv-teploty-na-hustotu-plynu)"
+  }
+}

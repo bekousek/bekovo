@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-vascak-izotermicky-dej",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Vaščák: Stlačování plynu při stálé teplotě",
+  "type": "applet",
+  "description": "Animace zobrazuje stlačování plynu pístem při stálé teplotě — žák vidí, že se zmenšujícím se objemem roste tlak plynu. Lze ukázat čistě kvalitativně jako vztah mezi stlačením a tlakem plynu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_izotermicky_dej&l=cz"
+}

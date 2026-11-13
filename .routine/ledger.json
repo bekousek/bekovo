@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-11-07",
+  "lastPicked": "2026-11-09",
   "history": [
     {
       "date": "2026-05-08",
@@ -584,6 +584,12 @@
       "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
       "result": "pr-pending",
       "items": 7
+    },
+    {
+      "date": "2026-11-09",
+      "subtopic": "vlastnosti-latek--plyny",
+      "result": "pr-pending",
+      "items": 13
     }
   ],
   "skipUntil": {},
