@@ -111,7 +111,13 @@
     "2026-10-30-magnetismus--magneticke-pole-zeme",
     "2026-11-02-mikrosvet--skaly-v-mikrosvete",
     "2026-11-04-plyny-7--atmosfera",
-    "2026-11-06-sila--silomer"
+    "2026-11-06-sila--silomer",
+    "2026-11-07-skupenstvi-latek--zmeny-skupenstvi-latek",
+    "2026-11-09-vlastnosti-latek--plyny",
+    "2026-11-10-akustika--vlneni",
+    "2026-11-11-astronomie--vesmir",
+    "2026-11-12-castice-latky--atom",
+    "2026-11-13-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou"
   ],
   "history": [
     {
@@ -1134,6 +1140,60 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/209",
       "merged": true,
       "processedAt": "2026-11-06T13:16:51.844Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-07-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
+      "branch": "routine/nightly-2026-11-07-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/211",
+      "merged": true,
+      "processedAt": "2026-11-13T13:15:22.026Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-09-vlastnosti-latek--plyny",
+      "subtopic": "vlastnosti-latek--plyny",
+      "branch": "routine/nightly-2026-11-09-vlastnosti-latek--plyny",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/212",
+      "merged": true,
+      "processedAt": "2026-11-13T13:15:49.121Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-10-akustika--vlneni",
+      "subtopic": "akustika--vlneni",
+      "branch": "routine/nightly-2026-11-10-akustika--vlneni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/213",
+      "merged": true,
+      "processedAt": "2026-11-13T13:16:17.603Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-11-astronomie--vesmir",
+      "subtopic": "astronomie--vesmir",
+      "branch": "routine/nightly-2026-11-11-astronomie--vesmir",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/214",
+      "merged": true,
+      "processedAt": "2026-11-13T13:16:42.552Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-12-castice-latky--atom",
+      "subtopic": "castice-latky--atom",
+      "branch": "routine/nightly-2026-11-12-castice-latky--atom",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/215",
+      "merged": true,
+      "processedAt": "2026-11-13T13:17:06.152Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-13-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "subtopic": "elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "branch": "routine/nightly-2026-11-13-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/216",
+      "merged": true,
+      "processedAt": "2026-11-13T13:17:29.824Z",
       "driveFileId": ""
     }
   ]
