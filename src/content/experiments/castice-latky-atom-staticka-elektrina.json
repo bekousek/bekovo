@@ -1,0 +1,20 @@
+{
+  "id": "castice-latky-atom-staticka-elektrina",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Statická elektřina s balónky a fólií",
+  "type": "qualitative",
+  "description": "Žákovský pokus (lze provádět ve dvojicích): nafouknutý balónek potřený o vlasy se přilepí na stěnu nebo strop; plastová fólie potřená o vlasy přitahuje vlasy; dva balónky potřené o sebe se navzájem odpuzují; zelektrovaný balónek přitahuje drobné kousky papírku. Pokus ukazuje, že třením vzniká kladný a záporný náboj, stejné náboje se odpuzují a opačné přitahují — přímá demonstrace existence nabitých částic (elektronů), které lze při tření přenášet mezi tělesy, což navazuje na stavbu atomu (obal z elektronů).",
+  "materials": [
+    "2 nafukovací balónky",
+    "provázek",
+    "plastový obal na sešit nebo eurofólie",
+    "kousky papíru",
+    "vlasy nebo vlněná tkanina"
+  ],
+  "procedure": "Nafoukni balónek, potři jej o vlasy nebo tkaninu a přilož ke stěně nebo stropu — zůstane viset. Potři plastový obal o vlasy a přibliž k vlasům — vlasy se k němu natáhnou. Dva balónky potři o sebe, zavěs vedle sebe na provázky — budou se odpuzovat. Zelektrovaným balónkem přibliž k nastříhaným kouskům papíru — papírky se přilepí.",
+  "source": {
+    "label": "ZŠ Letohrad – Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus6.htm"
+  }
+}

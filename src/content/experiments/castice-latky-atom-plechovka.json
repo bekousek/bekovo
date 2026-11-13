@@ -1,0 +1,19 @@
+{
+  "id": "castice-latky-atom-plechovka",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "Plechovka v pohybu",
+  "type": "qualitative",
+  "description": "Žákovský pokus: prázdná hliníková plechovka položená na boku na rovném povrchu se začne kutálet směrem k nabitému balónku, aniž by se ho dotkl. Balónek potřený o hadřík se nabije záporně; ve vodivé plechovce se volné elektrony od balónku odtlačí na vzdálenější stranu, bližší strana se tak jeví kladně nabitá a je přitahována. Pokus hezky ukazuje, že v látkách (zde v kovu) se nacházejí volně pohyblivé nabité částice — elektrony — což přímo souvisí se stavbou atomu.",
+  "materials": [
+    "prázdná hliníková plechovka od nápoje",
+    "nafukovací balónek",
+    "hadřík nebo vlněná látka",
+    "rovný hladký povrch (stůl)"
+  ],
+  "procedure": "Polož prázdnou plechovku na stůl na bok. Nafoukni balónek a potři ho hadříkem nebo o vlasy, aby se nabil. Přibliž balónek těsně k plechovce (bez dotyku) — plechovka se začne kutálet směrem k balónku.",
+  "source": {
+    "label": "VIDA! Pokusy do školy",
+    "url": "https://vida.cz/blog/plechovka-v-pohybu"
+  }
+}

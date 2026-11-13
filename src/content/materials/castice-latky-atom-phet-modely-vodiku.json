@@ -1,0 +1,9 @@
+{
+  "id": "castice-latky-atom-phet-modely-vodiku",
+  "subtopicId": "atom",
+  "topicId": "castice-latky",
+  "title": "PhET: Modely atomu vodíku",
+  "type": "applet",
+  "description": "Simulace umožňuje postupně přepínat mezi historickými modely atomu vodíku (klasický, Thomsonův, Rutherfordův, Bohrův model) a sledovat, jak se liší jejich předpovědi. Pro 6. třídu je vhodné pustit jen první čtyři modely odpovídající probírané historii, pokročilejší kvantové modely vynechat.",
+  "url": "https://phet.colorado.edu/cs/simulations/models-of-the-hydrogen-atom"
+}
