@@ -1,5 +1,5 @@
 {
-  "lastPicked": "2026-11-10",
+  "lastPicked": "2026-11-11",
   "history": [
     {
       "date": "2026-05-08",
@@ -596,6 +596,12 @@
       "subtopic": "akustika--vlneni",
       "result": "pr-pending",
       "items": 12
+    },
+    {
+      "date": "2026-11-11",
+      "subtopic": "astronomie--vesmir",
+      "result": "pr-pending",
+      "items": 9
     }
   ],
   "skipUntil": {},

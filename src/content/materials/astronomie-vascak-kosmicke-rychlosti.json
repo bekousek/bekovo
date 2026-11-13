@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-kosmicke-rychlosti",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "Vaščák: Kosmické rychlosti (Newtonův kanón)",
+  "type": "applet",
+  "description": "Interaktivní česká simulace Newtonova myšlenkového experimentu s dělem na vrcholu vysoké hory: žák posuvníkem zvyšuje rychlost vystřeleného tělesa a sleduje, jak se jeho dráha mění – od dopadu na Zem přes kruhovou oběžnou dráhu (první kosmická rychlost) až po únik z gravitačního pole Země (druhá kosmická rychlost). Applet vizuálně propojuje gravitaci s principem, na kterém funguje umístění družic na oběžnou dráhu i let kosmických sond mimo Zemi.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=gp_kosmicke_rychlosti&l=cz"
+}
