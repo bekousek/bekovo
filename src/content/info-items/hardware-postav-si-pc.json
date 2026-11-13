@@ -1,0 +1,23 @@
+{
+  "id": "hardware-postav-si-pc",
+  "categoryId": "hardware",
+  "title": "Postav si PC: hra na celou hodinu",
+  "url": "https://bekovo.cz/build-pc",
+  "description": "Žáci si na kvízových brigádách vydělají, nakoupí kompatibilní díly za skutečné ceny, složí počítač podle účtenky, nainstalují systém a bezpečně stáhnou programy.",
+  "type": "hra",
+  "equipment": ["pocitac", "tablet"],
+  "grades": [8, 9],
+  "duration": "45 min",
+  "keywords": ["sestavení počítače", "kompatibilita", "patice", "DDR5", "operační systém", "instalace", "bezpečné stahování", "kvíz"],
+  "language": "cs",
+  "goal": "Žák vybere díly podle účelu a rozpočtu, pozná nekompatibilní kombinace, popíše postup sestavení počítače a bezpečně nainstaluje systém i programy.",
+  "procedure": "Žáci otevřou bekovo.cz/build-pc a vyberou zakázku (herní PC, střih videa, levné PC do školy).\n\nNa brigádách odpovídají na otázky z hardwaru, systému, sítí, bezpečnosti a dat. Za správnou odpověď dostanou peníze, po každé otázce vidí vysvětlení.\n\nV obchodě nakoupí díly. Kontrola kompatibility je jen na požádání, chyby se projeví až při skládání nebo prvním zapnutí.\n\nV dílně skládají podle účtenky, pak nainstalují systém a programy. Výsledek porovná sestavu se zakázkou a s nejlevnější vhodnou sestavou.\n\nPrůběh hodiny, ceník a všechny otázky jsou na bekovo.cz/build-pc/ucitel.",
+  "files": [
+    { "label": "Metodika pro učitele", "href": "https://bekovo.cz/build-pc/ucitel", "type": "other" }
+  ],
+  "source": {
+    "label": "Bekovo, inspirováno hrou IT Město Zdeňka Šťasty",
+    "url": "https://game.zdenekstasta.cz/"
+  },
+  "added": "2026-10-22"
+}
