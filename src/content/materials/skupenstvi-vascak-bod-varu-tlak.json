@@ -1,0 +1,9 @@
+{
+  "id": "skupenstvi-vascak-bod-varu-tlak",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Vaščák: Bod varu a atmosférický tlak",
+  "type": "applet",
+  "description": "Česká animace ukazuje, jak teplota varu vody závisí na vnějším (atmosférickém) tlaku – při nižším tlaku voda vře při nižší teplotě. Propojuje var s dříve probraným tlakem vzduchu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_teplota_varu&l=cz"
+}
