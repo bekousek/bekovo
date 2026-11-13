@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-falstad-molekuly",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Falstad: Pohyb molekul plynu",
+  "type": "applet",
+  "description": "Applet simuluje neuspořádaný pohyb a srážky molekul plynu v nádobě; barva molekuly ukazuje její kinetickou energii. Rozhraní je anglické, ale ovládání je minimální a samotná animace je čistě vizuální — vhodné spíš jako učitelská demonstrace.",
+  "url": "https://circuitjs1.falstad.com/gas/"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "vlastnosti-latek-plyny-phet-vlastnosti-plynu",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "PhET: Vlastnosti plynu",
+  "type": "applet",
+  "description": "Česká lokalizace simulace PhET Gas Properties — žáci pumpují molekuly plynu do nádoby s pístem a sledují, jak se měří tlak, objem a teplota. Lze používat čistě kvalitativně (např. čím víc molekul napumpuješ, tím víc stoupne tlak) bez nutnosti počítat.",
+  "url": "https://phet.colorado.edu/cs/simulations/gas-properties"
+}

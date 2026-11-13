@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-plyny-princip-zavarovani",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Princip zavařování",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, otevřený plamen): zahřátý vzduch ve dvou k sobě přiložených sklenicích při hoření svíčky částečně uniká, po vychladnutí klesne jeho tlak pod atmosférický a okolní vzduch přitlačí sklenice pevně k sobě. Vysvětluje žákům známý jev — proč víčko na zavařovací sklenici drží tak pevně.",
+  "materials": [
+    "2 stejné zavařovací sklenice",
+    "hrubší papír (čtvrtka)",
+    "svíčka",
+    "zápalky",
+    "špejle"
+  ],
+  "procedure": "Do jedné sklenice vložíme a zapálíme svíčku, na hrdlo položíme navlhčené papírové prstence vystřižené z čtvrtky a přiklopíme druhou sklenicí dnem nahoru. Po zhasnutí svíčky počkáme, až sestava zcela vychladne, a teprve pak zkusíme sklenice oddělit.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů (KDF MFF UK)",
+    "url": "http://fyzikalnipokusy.cz/1905/princip-zavarovani"
+  }
+}

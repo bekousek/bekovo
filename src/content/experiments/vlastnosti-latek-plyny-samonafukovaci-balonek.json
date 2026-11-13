@@ -1,0 +1,21 @@
+{
+  "id": "vlastnosti-latek-plyny-samonafukovaci-balonek",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Samonafukovací balónek",
+  "type": "qualitative",
+  "description": "Žákovský pokus: reakcí jedlé sody (nebo kypřicího prášku) s octem vzniká oxid uhličitý, který nafoukne balónek nasazený na hrdle lahve. Ukazuje, že při chemické reakci může vznikat plyn, který zabírá objem a vyvíjí tlak.",
+  "materials": [
+    "nafukovací balónek",
+    "PET lahev 0,5 l s úzkým hrdlem",
+    "2 dcl octa",
+    "půl sáčku jedlé sody nebo kypřicího prášku",
+    "trychtýř",
+    "provázek"
+  ],
+  "procedure": "Trychtýřem nasypeme do balónku jedlou sodu nebo kypřicí prášek, do lahve nalijeme ocet. Balónek opatrně navlékneme na hrdlo lahve (lze zajistit provázkem) a poté jej zvedneme, aby se prášek vysypal do octa — uvolňující se CO₂ balónek nafoukne.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů (KDF MFF UK)",
+    "url": "http://fyzikalnipokusy.cz/1900/samonafukovaci-balonek"
+  }
+}

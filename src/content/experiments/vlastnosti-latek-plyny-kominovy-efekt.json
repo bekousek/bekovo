@@ -1,0 +1,20 @@
+{
+  "id": "vlastnosti-latek-plyny-kominovy-efekt",
+  "subtopicId": "plyny",
+  "topicId": "vlastnosti-latek",
+  "title": "Komínový efekt",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, otevřený plamen): ohřátý vzduch nad svíčkou má nižší hustotu a stoupá podloženou trubkou vzhůru, čímž vzniká podtlak, do kterého je zespodu nasáván chladnější vzduch. Ukazuje, jak rozdíl hustoty plynu způsobený teplotou pohání proudění (princip komína).",
+  "materials": [
+    "dortová svíčka",
+    "nehořlavá podložka pod svíčku",
+    "zapalovač",
+    "průhledná trubka (např. z plexiskla, délka cca 1 m)",
+    "2 kvádříky na podložení trubky"
+  ],
+  "procedure": "Zapálenou svíčku nejprve přiklopíme trubkou položenou přímo na podložce — plamen po chvíli zhasne, protože chybí přívod vzduchu. Poté trubku podložíme kvádříky, aby mohl zespodu proudit vzduch, a svíčku znovu zapálíme — plamen se v proudícím vzduchu mihotá, ale nezhasíná.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů (KDF MFF UK)",
+    "url": "http://fyzikalnipokusy.cz/4556/kominovy-efekt"
+  }
+}
