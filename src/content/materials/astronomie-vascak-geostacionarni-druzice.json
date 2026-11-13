@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-vascak-geostacionarni-druzice",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "Vaščák: Geostacionární družice",
+  "type": "applet",
+  "description": "Česká simulace ukazuje oběžnou dráhu geostacionární družice: žák vidí souvislost mezi výškou dráhy nad Zemí, rychlostí družice a dobou jejího oběhu, která se musí přesně shodovat s dobou otočení Země, aby družice stále „visela“ nad stejným místem. Applet propojuje teorii gravitace a oběžných drah s konkrétním praktickým využitím – satelitním vysíláním, GPS nebo předpovědí počasí.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=gp_geostacionarni&l=cz"
+}

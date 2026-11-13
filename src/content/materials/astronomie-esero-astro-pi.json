@@ -1,0 +1,9 @@
+{
+  "id": "astronomie-esero-astro-pi",
+  "subtopicId": "vesmir",
+  "topicId": "astronomie",
+  "title": "ESERO: Astro Pi – naprogramuj kód pro Mezinárodní kosmickou stanici",
+  "type": "link",
+  "description": "Program ESA/ESERO, v němž žáci programují v jazyce Python kód, který skutečně běží na palubě Mezinárodní kosmické stanice na palubních mikropočítačích Astro Pi. Jednodušší Mise Zero zvládnou i začátečníci – stačí zobrazit krátký vzkaz a obrázek na LED displeji pomocí dat ze senzoru, náročnější Mise Space Lab (například měření rychlosti ISS pomocí počítačového vidění) je pro zkušenější žáky. Spojuje téma vesmírných technologií s informatikou.",
+  "url": "https://www.eserocz.cz/astro-pi"
+}
