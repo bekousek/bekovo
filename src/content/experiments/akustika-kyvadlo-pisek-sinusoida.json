@@ -1,0 +1,21 @@
+{
+  "id": "akustika-kyvadlo-pisek-sinusoida",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Kyvadlo s pískem kreslí sinusoidu",
+  "type": "qualitative",
+  "description": "Žákovský pokus (ve dvojici nebo trojici). Papírový kornout naplněný jemným suchým pískem je zavěšen na niti jako kyvadlo s malým otvorem na špičce. Kyvadlo se rozkýve a pod ním se rovnoměrnou rychlostí táhne dlouhý pás balicího papíru – unikající písek na papíře zanechá pravidelnou vlnitou stopu, sinusoidu. Pokus žákům názorně ukazuje, že periodický kmitavý pohyb odpovídá stejnému grafu (sinusoidě), jakým se popisuje i mechanické vlnění.",
+  "materials": [
+    "čtvrtka a lepidlo (na kornout)",
+    "jemný suchý písek",
+    "nit",
+    "dva stojany (nebo třetí žák místo stojanů)",
+    "dlouhý pás balicího papíru",
+    "nůžky"
+  ],
+  "procedure": "Z čtvrtky se vyrobí kornout s malým otvorem na špičce, zavěsí se na niti mezi dvěma stojany (nebo je drží třetí žák) tak, aby mohl volně kývat, a naplní se pískem. Kyvadlo se rozkýve a pod ním se rovnoměrnou rychlostí táhne dlouhý pás balicího papíru – unikající písek na papíře zanechá pravidelnou vlnitou stopu (sinusoidu), kterou lze porovnat s grafem vlnění probíraným v teorii.",
+  "source": {
+    "label": "ZŠ Letohrad — Domácí pokusy z fyziky",
+    "url": "https://www.zsletohrad.cz/eu/fyzika/pokus12.htm"
+  }
+}

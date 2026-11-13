@@ -1,0 +1,9 @@
+{
+  "id": "akustika-phet-vlneni-na-strune",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "PhET: Vlnění na struně",
+  "type": "applet",
+  "description": "Interaktivní simulace příčného vlnění na napnuté struně – žák nastavuje amplitudu, frekvenci, tlumení a typ konce struny (pevný, volný, bez odrazu) a pozoruje vznik postupné i stojaté vlny. Simulace je v HTML5, plně v češtině.",
+  "url": "https://phet.colorado.edu/cs/simulations/wave-on-a-string"
+}

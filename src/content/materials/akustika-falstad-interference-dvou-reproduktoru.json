@@ -1,0 +1,9 @@
+{
+  "id": "akustika-falstad-interference-dvou-reproduktoru",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Falstad: Interference zvuku ze dvou reproduktorů",
+  "type": "applet",
+  "description": "Applet simuluje interferenci zvuku ze dvou reproduktorů – žák měří vzdálenost reproduktorů a fázi a sleduje i poslouchá, kde vzniká konstruktivní a kde destruktivní interference. Běží přímo v prohlížeči jako JavaScript applet.",
+  "url": "https://www.falstad.com/interference/"
+}

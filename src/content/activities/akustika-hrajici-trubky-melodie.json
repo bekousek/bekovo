@@ -1,0 +1,12 @@
+{
+  "id": "akustika-hrajici-trubky-melodie",
+  "subtopicId": "vlneni",
+  "topicId": "akustika",
+  "title": "Hrající trubky – melodie z barevných trubek",
+  "type": "game",
+  "description": "Skupinová aktivita, při které žáci z instalatérských trubek různé délky vyrobí sadu „hracích trubek“: úderem nataženou dlaní do konce trubky se rozkmitá vzduchový sloupec a vznikne stojaté podélné zvukové vlnění, jehož frekvence (tón) závisí na délce trubky. S pěti i více takto naladěnými trubkami pak třída společně zahraje jednoduchou melodii podle barevně odlišeného zápisu, učitel funguje jako dirigent. Aktivita propojuje fyziku stojatého vlnění s hudební produkcí a spoluprací celé třídy.",
+  "source": {
+    "label": "Sbírka fyzikálních pokusů KDF MFF UK",
+    "url": "http://fyzikalnipokusy.cz/2102/hrajici-trubky"
+  }
+}
