@@ -117,7 +117,14 @@
     "2026-11-10-akustika--vlneni",
     "2026-11-11-astronomie--vesmir",
     "2026-11-12-castice-latky--atom",
-    "2026-11-13-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou"
+    "2026-11-13-elektricke-obvody--bezpecnost-pri-praci-s-elektrinou",
+    "2026-11-14-elektrina--elektrarny",
+    "2026-11-15-elektrostatika--ionty",
+    "2026-11-16-energie--ucinnost",
+    "2026-11-17-kapaliny-7--tlak",
+    "2026-11-18-magnetismus--magneticke-pole-zeme",
+    "2026-11-19-mechanika--prace-na-jednoduchych-strojich",
+    "2026-11-20-mereni--cas"
   ],
   "history": [
     {
@@ -1194,6 +1201,69 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/216",
       "merged": true,
       "processedAt": "2026-11-13T13:17:29.824Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-14-elektrina--elektrarny",
+      "subtopic": "elektrina--elektrarny",
+      "branch": "routine/nightly-2026-11-14-elektrina--elektrarny",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/218",
+      "merged": true,
+      "processedAt": "2026-11-20T13:15:20.085Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-15-elektrostatika--ionty",
+      "subtopic": "elektrostatika--ionty",
+      "branch": "routine/nightly-2026-11-15-elektrostatika--ionty",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/219",
+      "merged": true,
+      "processedAt": "2026-11-20T13:15:44.238Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-16-energie--ucinnost",
+      "subtopic": "energie--ucinnost",
+      "branch": "routine/nightly-2026-11-16-energie--ucinnost",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/220",
+      "merged": true,
+      "processedAt": "2026-11-20T13:16:08.679Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-17-kapaliny-7--tlak",
+      "subtopic": "kapaliny-7--tlak",
+      "branch": "routine/nightly-2026-11-17-kapaliny-7--tlak",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/221",
+      "merged": true,
+      "processedAt": "2026-11-20T13:16:32.103Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-18-magnetismus--magneticke-pole-zeme",
+      "subtopic": "magnetismus--magneticke-pole-zeme",
+      "branch": "routine/nightly-2026-11-18-magnetismus--magneticke-pole-zeme",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/222",
+      "merged": true,
+      "processedAt": "2026-11-20T13:16:55.537Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-19-mechanika--prace-na-jednoduchych-strojich",
+      "subtopic": "mechanika--prace-na-jednoduchych-strojich",
+      "branch": "routine/nightly-2026-11-19-mechanika--prace-na-jednoduchych-strojich",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/223",
+      "merged": true,
+      "processedAt": "2026-11-20T13:17:19.332Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-20-mereni--cas",
+      "subtopic": "mereni--cas",
+      "branch": "routine/nightly-2026-11-20-mereni--cas",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/224",
+      "merged": true,
+      "processedAt": "2026-11-20T13:17:42.863Z",
       "driveFileId": ""
     }
   ]
