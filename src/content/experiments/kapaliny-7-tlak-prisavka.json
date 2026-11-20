@@ -1,0 +1,17 @@
+{
+  "id": "kapaliny-7-tlak-prisavka",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Přísavka – jak atmosférický tlak drží těleso na podložce",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (předvádí učitel, případně si ho zkouší žáci ve dvojicích). Gumovou nebo silikonovou přísavku přitlačíme na hladkou podložku tak, aby se vytlačil vzduch zpod ní. Uvnitř vznikne oblast se sníženým tlakem, zatímco z vnější strany působí na celou plochu přísavky nezměněný atmosférický tlak – vzniklá tlaková síla F = p·S ji přitiskne k podložce. Žáci zjistí, že přísavku nelze odtrhnout přímým tahem, ale snadno se uvolní nadzdvižením okraje, kdy se tlak vyrovná.",
+  "materials": [
+    "gumová nebo silikonová přísavka (domácí potřeby)",
+    "hladká podložka – sklo, dlaždice nebo lesklý stůl"
+  ],
+  "procedure": "1. Přísavku důkladně přitiskneme na hladký povrch, aby se vytlačil vzduch. 2. Zkusíme ji odtrhnout přímým tahem – nejde to, nebo jen velkou silou. 3. Nadzdvihneme okraj přísavky prstem – vzduch pod ní se vyrovná s okolím a přísavka se snadno uvolní. 4. Vysvětlíme: atmosférický tlak působí na celou plochu S silou F = p·S, která přísavku přitiskuje k podložce, dokud je uvnitř nižší tlak než venku.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/Mechanika-tekutin.html"
+  }
+}

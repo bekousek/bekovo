@@ -1,0 +1,19 @@
+{
+  "id": "kapaliny-7-tlak-strikacka-atmosfericky-tlak",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Měření atmosférického tlaku injekční stříkačkou",
+  "type": "measurement",
+  "description": "Žákovský pokus (ve dvojicích). Píst injekční stříkačky bez jehly vytáhneme na určitý objem, ústí uzavřeme (prstem nebo zátkou) a siloměrem zjišťujeme sílu F potřebnou k dalšímu vytažení pístu, dokud se neutrhne podtlak uvnitř. Ze známého průměru pístu spočítáme jeho plochu S a z naměřené síly dopočítáme tlak p = F/S, který porovnáme s tabulkovou hodnotou atmosférického tlaku (přibližně 100 kPa).",
+  "materials": [
+    "injekční stříkačka bez jehly (např. 20 ml)",
+    "siloměr (dynamometr)",
+    "pravítko nebo posuvné měřidlo na průměr pístu",
+    "kalkulačka"
+  ],
+  "procedure": "1. Ústí stříkačky uzavřeme a píst vytáhneme na vhodný objem. 2. Siloměrem táhneme za píst a odečteme sílu F, při které se píst začne pohybovat (uvolní se podtlak). 3. Změříme průměr pístu a spočítáme jeho plochu S = π·(d/2)². 4. Vypočítáme p = F/S a výsledek porovnáme s hodnotou normálního atmosférického tlaku ~100 000 Pa; diskutujeme rozdíly (tření pístu, netěsnost).",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/Mechanika-tekutin.html"
+  }
+}
