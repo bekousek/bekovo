@@ -1,0 +1,9 @@
+{
+  "id": "kapaliny-7-tlak-phet-pod-tlakem",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "PhET: Pod tlakem",
+  "type": "applet",
+  "description": "Interaktivní simulace PhET lokalizovaná do češtiny, ve které žáci mění hloubku, hustotu kapaliny, tvar nádoby i gravitaci a sledují, jak se tlak měří tlakoměrem. Na rozdíl od simulace zaměřené na proudění se tato soustředí na samotný pojem tlaku, jeho závislost na hloubce a hustotě a na atmosférický tlak.",
+  "url": "https://phet.colorado.edu/cs/simulations/under-pressure"
+}

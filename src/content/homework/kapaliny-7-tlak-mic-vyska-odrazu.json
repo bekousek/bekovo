@@ -1,0 +1,11 @@
+{
+  "id": "kapaliny-7-tlak-mic-vyska-odrazu",
+  "subtopicId": "tlak",
+  "topicId": "kapaliny-7",
+  "title": "Jak tlak v míči ovlivňuje výšku odrazu?",
+  "description": "Dlouhodobější domácí badatelský úkol: žák nahustí míč (fotbalový nebo basketbalový) postupně na několik různých tlaků (např. málo / středně / hodně nahuštěný, případně s pumpičkou s manometrem), pouští ho vždy ze stejné pevné výšky (1–2 m) a opakovaně (alespoň 5–10×) měří výšku prvního odrazu – ideálně natočením zpomaleného videa na mobilu. Data zapisuje do tabulky, počítá průměry a sestaví jednoduchý graf závislosti výšky odrazu na tlaku v míči. Odevzdá tabulku nebo graf s naměřenými hodnotami a krátké vysvětlení, proč vyšší tlak vzduchu v míči zvyšuje jeho pružnost a výšku odrazu.",
+  "source": {
+    "label": "Science on Stage Europe – Under Pressure (iStage 3)",
+    "url": "https://www.science-on-stage.eu/sites/default/files/material/istage3_en_under-pressure.pdf"
+  }
+}
