@@ -1,0 +1,11 @@
+{
+  "id": "elektrostatika-bramborova-baterie",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Bramborová baterie — domácí výzkum",
+  "description": "Žák si doma sestaví jednoduchý galvanický článek z brambory (nebo citronu) a dvou různých kovových elektrod (např. měděný drát či mince a pozinkovaný hřebík či svorka). Multimetrem změří napětí článku a vyzkouší, jak se napětí mění při různých kombinacích kovů nebo při zapojení více článků za sebou (sériově) — třeba kolik brambor je potřeba k rozsvícení malé LED diody. Výsledky i pozorování zapisuje a na konci shrne, co se o vzniku elektrického napětí z elektrolytu (šťáva brambory obsahuje ionty) dozvěděl. Pokud není k dispozici multimetr, lze napětí jen odhadnout zapojením více článků do série s LED diodou jako jednoduchým indikátorem.",
+  "source": {
+    "label": "FYKOS",
+    "url": "https://old.fykos.org/_media/rocnik28/ulohy/pdf/uloha28_1_e.pdf"
+  }
+}

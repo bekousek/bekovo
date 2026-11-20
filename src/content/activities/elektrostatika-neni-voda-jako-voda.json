@@ -1,0 +1,12 @@
+{
+  "id": "elektrostatika-neni-voda-jako-voda",
+  "subtopicId": "ionty",
+  "topicId": "elektrostatika",
+  "title": "Není voda jako voda — určování typu vody podle vodivosti",
+  "type": "group-work",
+  "description": "Badatelská skupinová aktivita: žáci dostanou několik neoznačených vzorků vody (např. destilovaná, kohoutková, minerálka, mořská). Ve skupinách si naplánují postup měření, pomocí konduktometru změří elektrickou vodivost jednotlivých vzorků — ta souvisí s množstvím rozpuštěných minerálních látek (iontů) ve vodě — a podle naměřených hodnot vzorky seřadí a přiřadí k jejich původu. Aktivita trénuje celý badatelský cyklus (hypotéza, plán pokusu, měření, vyhodnocení, návrat k hypotéze) a propojuje jej s pojmem iontové vodivosti kapalin.",
+  "source": {
+    "label": "GLOBE Czech — do výuky",
+    "url": "https://globe-czech.cz/portfolio/cz/neni-voda-jako-voda"
+  }
+}
