@@ -1,0 +1,9 @@
+{
+  "id": "pohyb-vascak-sikmy-vrh",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Šikmý vrh – animace (Vaščák)",
+  "type": "applet",
+  "description": "HTML5 animace z kolekce Vaščák (Fyzika ve škole) zobrazuje šikmý vrh s nastavitelným úhlem a počáteční rychlostí. Žáci sledují tvar trajektorie (parabola) a složky pohybu. Animace je součástí rozsáhlé sady simulací vrhů a lze ji využít k porovnání šikmého vrhu s vodorovným vrhem. Nevyžaduje instalaci, funguje v prohlížeči.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_vrh_sikmy&l=cz"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pohyb-matematicke-kyvadlo-mereni",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Matematické kyvadlo – měření doby kmitu a kmitavý pohyb",
+  "type": "measurement",
+  "description": "Žákovský i demonstrační pokus. Závaží zavěšené na nitce vytvoří matematické kyvadlo a jeho kmitavý pohyb (periodické opakování výchylky přes rovnovážnou polohu) ilustruje kmitavý pohyb jako druh pohybu. Žáci měří dobu kmitu stopkami pro různé délky nitky, zaznamenávají výsledky do tabulky a sledují, že perioda závisí na délce závěsu, nikoliv na hmotnosti závaží. Pokus propojuje kmitavý pohyb s praktickým měřením a grafickým zpracováním dat.",
+  "materials": [
+    "závaží (korek, kovová matice nebo klíč)",
+    "nit nebo provázek (50–150 cm)",
+    "stopky nebo mobilní telefon s časomírou",
+    "pravítko nebo svinovací metr"
+  ],
+  "procedure": "Připevněte závaží na nit různých délek (50, 75, 100, 125 cm). Pro každou délku změřte dobu 10 kmitů, vypočítejte periodu jako průměr. Zaznamenejte výsledky do tabulky a sestrojte graf závislosti periody na délce nitky. Diskutujte, co je kmitavý pohyb a čím se liší od přímočarého nebo kruhového pohybu.",
+  "source": {
+    "label": "Pokusy z UPOL – videopokusy KEF UP",
+    "url": "http://pokusy.upol.cz/videopokusy/mechanicke-kmitani-a-vlneni/matematicke-kyvadlo-a-tihove-zrychleni-5/"
+  }
+}
