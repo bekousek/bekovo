@@ -1,0 +1,9 @@
+{
+  "id": "energie-vascak-diesel-motor",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vaščák: Vznětový (dieselový) motor",
+  "type": "applet",
+  "description": "Animace principu vznětového motoru, kde se palivo vznítí stlačením vzduchu bez zapalovací svíčky. Umožňuje porovnat se čtyřdobým zážehovým motorem a diskutovat rozdíly v účinnosti a využití energie paliva u obou typů motorů.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_diesel&l=cz"
+}

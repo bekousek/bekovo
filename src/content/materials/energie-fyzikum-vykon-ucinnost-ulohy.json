@@ -1,0 +1,9 @@
+{
+  "id": "energie-fyzikum-vykon-ucinnost-ulohy",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Fyzikum: Sada úloh — výkon a účinnost",
+  "type": "worksheet",
+  "description": "Interaktivní sbírka úloh na téma výkon a účinnost (např. výpočet příkonu elektromotoru při dané účinnosti, přepočet kWh na MJ) s okamžitým vyhodnocením správnosti. Úlohy jsou řešitelné dosazením do vztahu η = P/P₀ a jednotkovými převody.",
+  "url": "https://ulohy.fyzikum.cz/index.php?filtered=filtered&root_category=7&category_id=28&tags=t-vykon&hide_filter=true"
+}

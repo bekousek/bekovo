@@ -1,0 +1,21 @@
+{
+  "id": "energie-naklonena-rovina-ucinnost",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Velká nakloněná rovina — vliv tření na účinnost",
+  "type": "measurement",
+  "description": "DEMONSTRAČNÍ skupinová aktivita: dobrovolník sedící na skateboardu (nebo kolečkové židli) je spolužáky vytahován po velké nakloněné rovině (žebřík opřený o bednu nebo lavičku). Z hmotnosti dobrovolníka, úhlu sklonu roviny a dříve naměřené třecí síly na rovné podlaze žáci vypočítají teoretickou tažnou sílu a porovnají ji se silou skutečně naměřenou siloměrem. Pokus žákům prakticky ukazuje, že reálná síla (a práce) potřebná u jednoduchého stroje je vždy větší než ideální bezztrátová hodnota — proto je účinnost nakloněné roviny vždy menší než 100 %.",
+  "materials": [
+    "žebřík (jako nakloněná rovina)",
+    "bedna nebo lavička jako podstavec",
+    "skateboard nebo kolečková židle",
+    "siloměr",
+    "sklonoměr",
+    "osobní váha"
+  ],
+  "procedure": "1) Dobrovolník se posadí na skateboard a zváží se i se skateboardem. 2) Žebřík se opře o bednu, sklonoměrem se změří úhel náklonu. 3) Na rovné podlaze se siloměrem změří třecí síla potřebná k tažení dobrovolníka. 4) Z hmotnosti, úhlu sklonu a třecí síly žáci vypočítají teoretickou tažnou sílu „do kopce“. 5) Siloměrem se změří skutečná síla při tažení po nakloněné rovině a porovná se s výpočtem.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/jednoduche_stroje_ve_velkem.pdf"
+  }
+}
