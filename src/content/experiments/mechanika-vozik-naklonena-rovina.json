@@ -1,0 +1,20 @@
+{
+  "id": "mechanika-vozik-naklonena-rovina",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Vozík na nakloněné rovině",
+  "type": "measurement",
+  "description": "Žákovský pokus: každá skupina dostane prkénko, siloměr a hračkové autíčko a siloměrem měří sílu potřebnou k udržení autíčka na nakloněné rovině při různém sklonu. Žáci zjistí, že čím je rovina strmější, tím větší síla je potřeba. Volitelné demonstrační rozšíření učitelem: lehký vozík s malým třením a vrtulovým pohonem — se zvětšujícím se sklonem vozík stále jede „do kopce“, při určitém úhlu se zastaví a od něj se už rozjede dolů; z hmotnosti vozíku a tahu vrtule lze i spočítat rovnovážný úhel a porovnat s naměřeným.",
+  "materials": [
+    "prkénko (nakloněná rovina)",
+    "siloměr (do 5 N)",
+    "hračkové autíčko",
+    "papírový úhloměr se závěsem (sklonoměr) — pro demonstrační variantu",
+    "lehký vozík s malým třením a vrtulovým pohonem — pro demonstrační variantu"
+  ],
+  "procedure": "1) Skupina položí autíčko na nakloněnou desku a siloměrem (uvázaným nebo přidrženým) měří sílu nutnou k udržení autíčka v klidu. 2) Sklon desky se postupně zvyšuje a síla se znovu měří a zapisuje. 3) Z dat se vynese graf závislosti síly na sklonu a porovná se s očekáváním (síla roste s úhlem). 4) V demonstrační variantě učitel použije vozík s vrtulí: při nulovém sklonu vozík jede, při zvyšujícím se náklonu se zpomaluje, až se při určitém úhlu zastaví a pak se rozjede dolů — tah vrtule se rovná složce tíhové síly podél nakloněné roviny.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/mechanika/vozik_na_naklonene_rovine.pdf"
+  }
+}
