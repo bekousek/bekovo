@@ -1,0 +1,12 @@
+{
+  "id": "elektrina-cykloelektrarna",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "CykloElektrárna – kolo jako zdroj elektřiny",
+  "type": "group-work",
+  "description": "Žáci se střídají v šlapání na kole propojeném s generátorem a sami si vyrábějí elektřinu – lze tak rozsvítit žárovku, ohřát trochu vody nebo dobít baterii. Aktivita ukazuje, že elektřina se nebere jen „ze zásuvky“, ale musí ji něco vyrobit (ve škole sval, v elektrárně turbína), a žáci na vlastním těle pocítí, kolik práce výroba elektřiny stojí. Rozšíření o fotovoltaický panel a baterii dál demonstruje myšlenku ukládání energie a energetické soběstačnosti. Technické provedení (uchycení generátoru na kolo) si škola musí zajistit sama.",
+  "source": {
+    "label": "Maker Faire Praha",
+    "url": "https://makerfaire.cz/projekt/cykloelektrarna/"
+  }
+}

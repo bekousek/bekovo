@@ -1,0 +1,20 @@
+{
+  "id": "elektrina-generator-na-kliku",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Generátor na kliku – jak vzniká elektřina v elektrárně",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (kliku může pod dohledem otáčet i žák): malý stejnosměrný elektromotorek, roztočený klikou přes kladky a gumičku na vysoké otáčky, funguje obráceně jako generátor a rozsvítí LED. Pokus prakticky ukazuje princip, na němž je založena výroba elektřiny ve vodní i tepelné elektrárně – mechanická energie otáčení (u reálné elektrárny dodávaná turbínou poháněnou vodou, párou nebo větrem) se mění na elektrickou. Dvě LED zapojené antiparalelně navíc ukazují, že směr indukovaného proudu závisí na směru otáčení.",
+  "materials": [
+    "malý stejnosměrný elektromotorek (např. z vyřazené CD/DVD mechaniky)",
+    "stavebnice s kladkami, nosníkem a ložisky (např. Merkur) nebo jiná konstrukce s klikou",
+    "2× LED (např. červená a žlutá) zapojené antiparalelně",
+    "gumička jako řemínek mezi kladkami",
+    "deska/stojánek z překližky na upevnění"
+  ],
+  "procedure": "Motorek se pomocí kladek a gumičky propojí s klikou tak, aby jeho otáčením šlo roztočit kotvu motorku na vysoké otáčky. Na vývody motorku se připojí dvě LED opačné polarity (antiparalelně). Otáčením kliky jedním směrem se rozsvítí jedna LED, otáčením opačným směrem druhá – žáci si tak ověří, že roztočený motorek funguje jako zdroj elektrického proudu (generátor), stejně jako turbína roztáčená vodou nebo párou v elektrárně.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/fyzika/svetlo_na_kliku.pdf"
+  }
+}

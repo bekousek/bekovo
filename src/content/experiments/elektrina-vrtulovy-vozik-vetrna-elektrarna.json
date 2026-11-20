@@ -1,0 +1,22 @@
+{
+  "id": "elektrina-vrtulovy-vozik-vetrna-elektrarna",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Vrtulový vozík – model větrné elektrárny",
+  "type": "qualitative",
+  "description": "Žákovský pokus: z překližky, modelářského elektromotorku a plastové vrtulky žáci postaví vozík, který lze použít jako model malé větrné elektrárny. Při ofukování vrtule (fénem) se motorek chová jako generátor stejnosměrného proudu a žáci měří napětí voltmetrem v závislosti na rychlosti otáčení vrtule; po připojení baterie naopak vozík jezdí (přeměna elektrické energie na pohybovou).",
+  "materials": [
+    "překližka a balzový hranolek",
+    "2 osy s kolečky",
+    "modelářský elektromotorek",
+    "plastová vrtulka",
+    "voltmetr",
+    "plochá baterie",
+    "vysoušeč vlasů (fén)"
+  ],
+  "procedure": "Vozík bez baterie upevníme na stole, vývody motorku připojíme k voltmetru a na vrtuli namíříme proud vzduchu z fénu – sledujeme vznik napětí (motor funguje jako generátor). Následně připojíme motorek k baterii a sledujeme, jak roztočená vrtule pohání vozík (motor funguje jako motor).",
+  "source": {
+    "label": "Svět energie (ČEZ) – Hrátky s obnovitelnými zdroji",
+    "url": "https://svetenergie.cz/file/edee/se/energetika-interaktivne/hratky-s-obnovitelnymi-zdroji.pdf"
+  }
+}

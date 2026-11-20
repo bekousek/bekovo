@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-vascak-transformator",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Vaščák: Transformátor – interaktivní animace",
+  "type": "applet",
+  "description": "Animace principu transformátoru – jak se měnící se napětí a proud přenáší mezi primárním a sekundárním vinutím. Vysvětluje, proč se elektřina z elektrárny přenáší po vedení na vysoké napětí.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=ac_transformator&l=cz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-vascak-trifazovy-generator",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Vaščák: Třífázový generátor – interaktivní animace",
+  "type": "applet",
+  "description": "Animace třífázového generátoru, jaký se reálně používá ve velkých elektrárnách (tepelných, vodních, jaderných) k výrobě střídavého proudu.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mag_generator&l=cz"
+}
