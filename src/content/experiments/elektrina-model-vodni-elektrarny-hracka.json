@@ -1,0 +1,22 @@
+{
+  "id": "elektrina-model-vodni-elektrarny-hracka",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Model vodní elektrárny z dětské hračky",
+  "type": "qualitative",
+  "description": "Žákovský pokus: z plastové dětské hračky (vodní kolo), cívky navinuté na hřebíku, feritových magnetů a citlivého voltmetru žáci postaví jednoduchý model vodní elektrárny. Pozorují, jak proud vody roztáčí lopatkové kolo a jak pohyb magnetů kolem cívky indukuje měřitelné napětí – trojí přeměna energie: vodní → pohybová → elektrická.",
+  "materials": [
+    "plastová hračka „vodní kolo“",
+    "velký hřebík nebo šroub",
+    "smaltovaný měděný drát",
+    "2–4 feritové magnety",
+    "oboustranná lepicí páska",
+    "citlivý stejnosměrný voltmetr",
+    "kbelík nebo umyvadlo s vodou"
+  ],
+  "procedure": "Hračku postavíme do umyvadla/kbelíku a lijeme na ni vodu – sledujeme otáčení lopatkového kola. Poté na hřebík namotáme cívku z drátu, připojíme k voltmetru, na okraj kola nalepíme feritové magnety tak, aby při otáčení míjely cívku, a znovu pustíme vodu – sledujeme vznik napětí na voltmetru.",
+  "source": {
+    "label": "Svět energie (ČEZ) – Hrátky s obnovitelnými zdroji",
+    "url": "https://svetenergie.cz/file/edee/se/energetika-interaktivne/hratky-s-obnovitelnymi-zdroji.pdf"
+  }
+}

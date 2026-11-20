@@ -1,0 +1,13 @@
+{
+  "id": "elektrina-vrtacka-jako-generator-videopokus",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Vrtačka jako generátor – videopokus s pracovním listem",
+  "type": "qualitative",
+  "description": "Demonstrační videopokus: žáci sledují, jak funguje elektromotor ve vrtačce, a diskutují/zapisují, jak by motor mohl běžet obráceně jako generátor. Navazující otázky spojují princip elektromagnetické indukce s výrobou elektřiny v jaderné, vodní a solární elektrárně – žáci mají určit, které typy elektráren generátor využívají a které ne.",
+  "procedure": "Učitel promítne videopokus (nebo žáci sledují samostatně), poté žáci ve dvojicích zodpoví otázky z pracovního listu: rozdíl motor/generátor, role elektromagnetické indukce, přiřazení typu elektrárny k principu pohonu generátoru.",
+  "source": {
+    "label": "Svět energie (ČEZ)",
+    "url": "https://www.svetenergie.cz/file/edee/se/pokusy/pl_pokus-05_vyucujici.pdf"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "elektrina-fo47-tepelna-elektrarna-uhli",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "FO 47. ročník — Spotřeba uhlí tepelné elektrárny (kategorie EF)",
+  "description": "Domácí badatelský a výpočtový úkol z archivu Fyzikální olympiády (kategorie E/F, 47. ročník): tepelná elektrárna má pět turbín o výkonu 110 MW každá, spaluje uhlí s výhřevností 12 MJ/kg a celková účinnost přeměny tepla na elektřinu je 36 %. Úkolem žáka je vypočítat, kolik tun uhlí elektrárna spotřebuje za hodinu plného provozu, a výsledek si ověřit podle řešení v archivu.",
+  "source": {
+    "label": "Fyzikální olympiáda",
+    "url": "https://kof.zcu.cz/fo/archiv/fo47ef1_z.pdf"
+  }
+}

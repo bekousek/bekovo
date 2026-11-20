@@ -1,0 +1,9 @@
+{
+  "id": "elektrina-vascak-alternator-dynamo",
+  "subtopicId": "elektrarny",
+  "topicId": "elektrina",
+  "title": "Vaščák: Alternátor a dynamo – interaktivní animace",
+  "type": "applet",
+  "description": "Interaktivní animace principu alternátoru a dynama – jak se otáčením cívky v magnetickém poli vyrábí elektrický proud. Ukazuje základní princip, na kterém funguje generátor v každé elektrárně.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mag_alternator&l=cz"
+}
