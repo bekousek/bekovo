@@ -1,0 +1,11 @@
+{
+  "id": "mechanika-vaha-na-principu-paky",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Domácí váha na principu páky — vážení drobných předmětů",
+  "description": "Žák si doma sestaví jednoduchou váhu využívající princip páky (nit jako závěs, dvě špejle spojené gumičkou jako rameno, ukazatel zarovnaný např. se škvírou ve dveřích skříňky). Úkolem je najít vhodný referenční závaží (např. list papíru A4 o známé hmotnosti ~5 g nebo A5 ~2,5 g) a pomocí poměru ramen r1, r2 a vztahu m1 = m2 · r2/r1 změřit a zapsat hmotnost několika drobných předmětů v domácnosti (papírová kancelářská sponka, papírový ubrousek apod.), u opakovatelně malých hmotností i vážením více kusů najednou a dělením počtem (např. 10 sponek a výsledek vydělit deseti). Je to badatelský úkol s otevřeným koncem — žák musí sám navrhnout postup kalibrace, zvolit vhodné referenční hmotnosti a výsledky zdokumentovat (tabulka naměřených předmětů a jejich hmotností), nikoli jen spočítat jeden zadaný příklad.",
+  "source": {
+    "label": "Učíme se venku",
+    "url": "https://ucimesevenku.cz/skola-doma/#vahy"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "mechanika-co-je-tezsi",
+  "subtopicId": "prace-na-jednoduchych-strojich",
+  "topicId": "mechanika",
+  "title": "Co je těžší?",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (lze použít i jako problémovou úlohu pro žáky) odhalující miskoncepci, že „co vypadá masivněji, je těžší/převáží“. Ze dvou stejně dlouhých dřevěných tyčinek, do jedné zapíchneme 4 špendlíky (po dvou z každé strany), do druhé 3 špendlíky (všechny z jedné strany) a na rovnoramenných vahách z dlouhé tyče ukážeme, že tyčinka se 4 špendlíky je těžší. Po spojení obou tyčinek do jednoho tělesa (papírovým proužkem) se ale překlopí těžší/lehčí strana a převáží tyčinka se 3 špendlíky — protože má těžiště posunuté dál od otočného bodu, a tedy větší moment tíhové síly. Pokus výborně ukazuje žákům, že o rovnováze na páce nerozhoduje jen hmotnost, ale moment síly (hmotnost × vzdálenost od osy otáčení).",
+  "materials": [
+    "dřevěná tyč obdélníkového průřezu, délka 35 cm (rovnoramenné váhy)",
+    "2 dřevěné kostky (podpěry)",
+    "2 stejné dřevěné tyčinky čtvercového průřezu, délka 12 cm",
+    "7 špendlíků",
+    "2 jehly",
+    "průhledná izolepa",
+    "proužek papíru",
+    "vodové barvy"
+  ],
+  "procedure": "1) Obě tyčinky nabarvíme různými barvami (např. červená a modrá). 2) Do červené zapíchneme 4 špendlíky (2 z každé strany), do modré 3 špendlíky (všechny z jedné strany). 3) Z dlouhé tyče a jehly procházející jejím středem (položené na dvou kostkách) uděláme rovnoramenné váhy a ukážeme, že červená tyčinka je těžší než modrá. 4) Papírovým proužkem s izolepou spojíme obě tyčinky do jednoho tělesa (okraj se špendlíky u modré tyčinky musí zůstat mimo spojovací proužek) a propíchneme spojovacím proužkem jehlu, kterou opět položíme na kostky. 5) Žáci s překvapením zjistí, že spojené těleso se nakloní na modrou stranu — ačkoliv samotná modrá tyčinka byla lehčí, má po spojení větší moment tíhové síly, protože její těžiště je dál od osy otáčení.",
+  "source": {
+    "label": "VNUF 1996",
+    "url": "http://vnuf.cz/sbornik_old/Veletrh_01/01_09_Kastilova.html"
+  }
+}
