@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-elektromotor",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Walter Fendt: Stejnosměrný elektromotor",
+  "type": "applet",
+  "description": "HTML5 applet v češtině demonstrující princip stejnosměrného elektromotoru — přeměnu elektrické energie na mechanickou pomocí síly na vodič v magnetickém poli. Doplňuje generátor jako protipól přeměny energie a umožňuje diskusi o ztrátách (teplo, tření), které snižují účinnost elektromotoru.",
+  "url": "https://www.walter-fendt.de/html5/phcz/electricmotor_cz.htm"
+}

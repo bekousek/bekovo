@@ -1,0 +1,9 @@
+{
+  "id": "energie-vascak-ctyrdoby-motor",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Vaščák: Čtyřdobý motor",
+  "type": "applet",
+  "description": "Animace pracovního cyklu čtyřdobého (zážehového) spalovacího motoru — sání, komprese, výbuch, výfuk. Vhodné pro výklad přeměny chemické energie paliva na mechanickou práci a ztrát (zejména tepelných), které snižují účinnost motoru pod 100 %.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=mf_ctyrtakt&l=cz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "energie-fendt-generator",
+  "subtopicId": "ucinnost",
+  "topicId": "energie",
+  "title": "Walter Fendt: Generátor elektrického proudu",
+  "type": "applet",
+  "description": "HTML5 applet v češtině ukazující princip elektromagnetické indukce v generátoru — otáčením cívky v magnetickém poli vzniká elektrický proud. Vhodné pro diskusi o přeměně mechanické energie na elektrickou a o ztrátách, které snižují účinnost výroby elektřiny.",
+  "url": "https://www.walter-fendt.de/html5/phcz/generator_cz.htm"
+}
