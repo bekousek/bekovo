@@ -100,6 +100,31 @@ export function findInstrumentAt(doc: SceneDoc, p: Vec2, tol: number): string | 
   return null;
 }
 
+/** Najde optický zdroj (laser/svazek/bod), jehož marker leží do `tol` od bodu. */
+export function findOpticalSourceAt(
+  doc: SceneDoc,
+  getPose: PoseProvider,
+  p: Vec2,
+  tol: number,
+): string | null {
+  for (let i = doc.entities.length - 1; i >= 0; i--) {
+    const e = doc.entities[i]!;
+    if (e.kind !== 'opticalSource') continue;
+    let wx = e.transform.x;
+    let wy = e.transform.y;
+    if (e.parentId) {
+      const pp = getPose(e.parentId);
+      if (pp) {
+        const local = rotate({ x: e.transform.x, y: e.transform.y }, pp.angle);
+        wx = pp.x + local.x;
+        wy = pp.y + local.y;
+      }
+    }
+    if (Math.hypot(wx - p.x, wy - p.y) <= tol) return e.id;
+  }
+  return null;
+}
+
 /** Najde kloub, jehož kotva (kterýkoli konec) leží do `tol` od bodu. */
 export function findJointAt(
   doc: SceneDoc,
