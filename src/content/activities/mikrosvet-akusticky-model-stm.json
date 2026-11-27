@@ -1,0 +1,12 @@
+{
+  "id": "mikrosvet-akusticky-model-stm",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Akustický model skenovacího tunelového mikroskopu (STM)",
+  "type": "group-work",
+  "description": "Žáci ve skupinách modelují princip skenovacího tunelového mikroskopu: atomy na povrchu vzorku představují pravidelně rozmístěné malé plastové lahvičky, některé částečně naplněné vodou, což mění jejich rezonanční frekvenci a modeluje jiný typ atomu. Pomocí dvou chytrých telefonů — jeden jako zdroj zvuku dané frekvence, druhý jako přijímač — žáci „skenují“ plochu nad lahvičkami a z intenzity zvuku (rezonance) určují jejich polohu a případně i to, které obsahují vodu. Aktivita přímo ukazuje klíčovou myšlenku škál mikrosvěta: atomy nelze nikdy pozorovat přímo, jen nepřímo měřit a z naměřených dat odvozovat, jak vypadají.",
+  "source": {
+    "label": "VNUF 2022",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/27-09-Koupilova_Z.pdf"
+  }
+}

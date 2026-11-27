@@ -1,0 +1,18 @@
+{
+  "id": "mikrosvet-hledani-tvaru-hrotem",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Hledání tvarů hrotem – proč mikroskop nevidí atomy",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus ve skupinách: pod síťku nebo mřížku se skryje plochý tvar vystřižený z kartonu. Žáci přes síťku protlačují špendlíky nebo hřebíčky s velkým hrotem a zaznamenávají, jak hluboko který prochází; totéž pak zopakují se špendlíky s menším hrotem. Porovnáním obrazů získaných „hrubou“ a „jemnou“ sondou zjišťují, že čím menší je hrot, tím jemnější detaily lze odhalit. Učitel na závěr propojí pokus s principem mikroskopie: viditelné světlo má jako „sonda“ příliš velkou vlnovou délku na to, aby rozlišilo atomy, zatímco elektronový mikroskop používá mnohem kratší sondu a atomy zobrazit dokáže.",
+  "materials": [
+    "síto nebo pletivo/mřížka",
+    "špendlíky nebo hřebíčky dvou různých velikostí hrotu",
+    "skryté ploché tvary vystřižené z kartonu (šablony)"
+  ],
+  "procedure": "Pod síťku se umístí skrytý tvar, který žáci nevidí. Žáci postupně protlačují špendlíky s velkým hrotem skrz síťku a zaznamenávají, které procházejí hlouběji a které méně hluboko — tím si otisknou hrubý obraz skrytého tvaru. Totéž zopakují se špendlíky s malým hrotem a porovnají jemnost obou obrazů. Na závěr diskutují, proč jemnější sonda dává přesnější obraz, a učitel to propojí s rozdílem mezi optickým a elektronovým mikroskopem.",
+  "source": {
+    "label": "CERN Science in School",
+    "url": "https://scienceinschool.web.cern.ch/article/2021/exploring-the-universe-from-very-small-to-very-large"
+  }
+}
