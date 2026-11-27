@@ -1,0 +1,11 @@
+{
+  "id": "sila-tuhost-pruzinky-propisky",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Tuhost pružinky z propisky",
+  "description": "Dlouhodobější badatelský úkol domů z korespondenčního semináře Výfuk. Žák rozebere obyčejnou propisovací tužku, najde v ní malou pružinku a sám si navrhne postup, jak změřit její tuhost — např. zavěšením různě těžkých závaží (mince, šroubky, drobné předměty o zjistitelné hmotnosti) a změřením prodloužení pružinky. Úloha je otevřená: žák musí sám zvolit vhodné pomůcky z domácnosti, zapsat naměřené hodnoty do tabulky a ověřit, že prodloužení roste úměrně se zavěšenou silou (F = k·Δl) — tedy prakticky objevit princip, na kterém funguje školní siloměr.",
+  "source": {
+    "label": "Výfuk",
+    "url": "https://vyfuk.org/zadani/13/5"
+  }
+}
