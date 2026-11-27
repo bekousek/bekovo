@@ -1,0 +1,11 @@
+{
+  "id": "plyny-globe-prumerna-teplota",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Průměrná teplota – dlouhodobé měření a graf",
+  "description": "Dlouhodobý badatelský úkol: žák měří venkovní teplotu na několika různých místech (např. na slunci, ve stínu, u zdi domu, na trávě) po dobu přibližně dvou týdnů, naměřené hodnoty zapisuje do tabulky a vynáší do grafu. Na základě dat formuluje a ověřuje hypotézu, proč se teplota na různých místech liší, a na závěr výsledky i s grafem prezentuje. Úkol trénuje celý badatelský cyklus (otázka → hypotéza → měření → závěr) a propojuje atmosféru s tématem počasí.",
+  "source": {
+    "label": "GLOBE Czech — do výuky",
+    "url": "https://globe-czech.cz/portfolio/cz/prumerna-teplota"
+  }
+}
