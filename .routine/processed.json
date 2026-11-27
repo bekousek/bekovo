@@ -124,7 +124,12 @@
     "2026-11-17-kapaliny-7--tlak",
     "2026-11-18-magnetismus--magneticke-pole-zeme",
     "2026-11-19-mechanika--prace-na-jednoduchych-strojich",
-    "2026-11-20-mereni--cas"
+    "2026-11-20-mereni--cas",
+    "2026-11-21-mikrosvet--skaly-v-mikrosvete",
+    "2026-11-22-optika--faze-mesice-zatmeni",
+    "2026-11-23-plyny-7--atmosfera",
+    "2026-11-25-sila--silomer",
+    "2026-11-26-skupenstvi-latek--zmeny-skupenstvi-latek"
   ],
   "history": [
     {
@@ -1264,6 +1269,51 @@
       "prUrl": "https://github.com/bekousek/bekovo/pull/224",
       "merged": true,
       "processedAt": "2026-11-20T13:17:42.863Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-21-mikrosvet--skaly-v-mikrosvete",
+      "subtopic": "mikrosvet--skaly-v-mikrosvete",
+      "branch": "routine/nightly-2026-11-21-mikrosvet--skaly-v-mikrosvete",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/226",
+      "merged": true,
+      "processedAt": "2026-11-27T13:15:33.974Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-22-optika--faze-mesice-zatmeni",
+      "subtopic": "optika--faze-mesice-zatmeni",
+      "branch": "routine/nightly-2026-11-22-optika--faze-mesice-zatmeni",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/227",
+      "merged": true,
+      "processedAt": "2026-11-27T13:15:58.113Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-23-plyny-7--atmosfera",
+      "subtopic": "plyny-7--atmosfera",
+      "branch": "routine/nightly-2026-11-23-plyny-7--atmosfera",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/228",
+      "merged": true,
+      "processedAt": "2026-11-27T13:16:23.170Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-25-sila--silomer",
+      "subtopic": "sila--silomer",
+      "branch": "routine/nightly-2026-11-25-sila--silomer",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/229",
+      "merged": true,
+      "processedAt": "2026-11-27T13:16:47.071Z",
+      "driveFileId": ""
+    },
+    {
+      "manifestId": "2026-11-26-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "subtopic": "skupenstvi-latek--zmeny-skupenstvi-latek",
+      "branch": "routine/nightly-2026-11-26-skupenstvi-latek--zmeny-skupenstvi-latek",
+      "prUrl": "https://github.com/bekousek/bekovo/pull/230",
+      "merged": true,
+      "processedAt": "2026-11-27T13:17:11.446Z",
       "driveFileId": ""
     }
   ]
