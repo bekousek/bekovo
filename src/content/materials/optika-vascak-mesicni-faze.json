@@ -1,0 +1,9 @@
+{
+  "id": "optika-vascak-mesicni-faze",
+  "subtopicId": "faze-mesice-zatmeni",
+  "topicId": "optika",
+  "title": "Vaščák: Měsíční fáze (animace)",
+  "type": "applet",
+  "description": "Česky psaná interaktivní animace z dílny Vladimíra Vaščáka (Fyzika ve škole). Ukazuje postupnou změnu osvětlené části Měsíce při jeho oběhu kolem Země a propojuje pohled z vesmíru s tím, co vidíme ze Země.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/template.php?s=gp_mesic_geol&l=cz"
+}
