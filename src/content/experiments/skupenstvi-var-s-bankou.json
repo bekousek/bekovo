@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-var-s-bankou",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Var vody v baňce: nafukování a vtahování balónku",
+  "type": "qualitative",
+  "description": "Demonstrační pokus (provádí učitel u otevřeného plamene). Na hrdlo baňky s trochou vody se natáhne nafukovací balónek. Při varu vodní pára balónek prudce nafoukne – ukazuje se tak, jak se objem při vypařování výrazně zvětšuje. Po odstavení baňky z plamene pára uvnitř kondenzuje, vzniká podtlak a balónek se vtáhne zpět do baňky, což demonstruje opačný jev – kapalnění objem naopak zmenšuje.",
+  "materials": [
+    "Erlenmeyerova baňka (100 ml)",
+    "nafukovací balónek",
+    "vařič nebo kahan",
+    "stojánek na baňku"
+  ],
+  "procedure": "Do baňky nalijeme trochu vody a na hrdlo natáhneme balónek. Baňku zahříváme na vařiči, dokud voda nezačne vřít – balónek se nafoukne párou. Pak baňku odstavíme z plamene (lze urychlit politím studenou vodou) – pára zkondenzuje, vznikne podtlak a balónek se vtáhne dovnitř.",
+  "source": {
+    "label": "Fyzikální šuplík",
+    "url": "https://fyzikalnisuplik.websnadno.cz/termika/var_vody_s_bankou.pdf"
+  }
+}

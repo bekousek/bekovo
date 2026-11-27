@@ -1,0 +1,19 @@
+{
+  "id": "skupenstvi-tani-ledu-kov-plast",
+  "subtopicId": "zmeny-skupenstvi-latek",
+  "topicId": "skupenstvi-latek",
+  "title": "Tání ledu na kovu a na plastu – vliv vedení tepla",
+  "type": "qualitative",
+  "description": "Žákovský pokus: dvě stejně velké kostky ledu se položí současně na kovový povrch (tácek, poklice) a na plastový povrch (tácek, prkénko). Žáci pozorují a stopují čas, za který kostka na kovu roztaje – je výrazně kratší než na plastu, protože kov vede teplo z okolí k ledu lépe než plast, který se chová jako tepelný izolant. Pokus spojuje téma tání se schopností materiálů vést teplo.",
+  "materials": [
+    "2 stejně velké kostky ledu",
+    "kovový tácek nebo poklice",
+    "plastový tácek nebo prkénko",
+    "stopky"
+  ],
+  "procedure": "Obě kostky ledu položíme současně na oba povrchy při pokojové teplotě. Měříme čas do úplného roztání každé kostky, výsledky porovnáme a vysvětlíme rozdílem ve vedení tepla.",
+  "source": {
+    "label": "VIDA! – Pokusy do školy",
+    "url": "https://vida.cz/blog/vodic-a-izolant"
+  }
+}
