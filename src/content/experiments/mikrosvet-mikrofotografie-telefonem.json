@@ -1,0 +1,19 @@
+{
+  "id": "mikrosvet-mikrofotografie-telefonem",
+  "subtopicId": "skaly-v-mikrosvete",
+  "topicId": "mikrosvet",
+  "title": "Mikrofotografie chytrým telefonem přes mikroskop",
+  "type": "qualitative",
+  "description": "ŽÁKOVSKÝ pokus: žáci přiloží fotoaparát chytrého telefonu k okuláru školního optického mikroskopu (ideálně na jednoduchém stojánku) a vyfotí nebo natočí zvětšený obraz vzorku — třeba textilní vlákno, drobnou elektronickou součástku nebo list rostliny. Porovnávají, co je vidět pouhým okem a co teprve po zvětšení, a diskutují, do jaké míry se zvětšením blíží rozměrům buněk a vláken (mikrometry), ale stále zůstávají daleko od rozměru atomů (desetiny nanometru). Pokus tak na vlastní zkušenosti ukazuje, kde končí možnosti běžného optického mikroskopu.",
+  "materials": [
+    "školní optický mikroskop s výměnnými objektivy",
+    "chytrý telefon",
+    "stojánek nebo klip na uchycení telefonu k okuláru",
+    "vzorek k pozorování (textilní vlákno, drobná součástka, biologický preparát)"
+  ],
+  "procedure": "Mikroskop se zaostří na vzorek při nízkém zvětšení, telefon se přiloží objektivem kamery přímo k okuláru a pomocí samospouště (kvůli potlačení chvění) se pořídí fotografie nebo krátké video. Postup se zopakuje s jiným zvětšením a vzorkem a výsledné fotografie se porovnají.",
+  "source": {
+    "label": "VNUF 2016",
+    "url": "https://vnuf.cz/sbornik/prispevky/pdf/21-08-Hubenak_J,_Polak_J.pdf"
+  }
+}
