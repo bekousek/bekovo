@@ -623,7 +623,7 @@ export function waterInBoxScene(): SceneDoc {
         viscosity: 0.05,
         color: '#3b82f6',
         region: { x: 0.1, y: 0.1, width: 2.8, height: 1.8 },
-        particleRadius: 0.07,
+        particleRadius: 0.04,
       },
     ],
   } satisfies SceneDocInput);
@@ -679,7 +679,7 @@ export function twoDensitiesScene(): SceneDoc {
         viscosity: 0.05,
         color: '#f59e0b',
         region: { x: 0.1, y: 0.1, width: 2.8, height: 1.0 },
-        particleRadius: 0.07,
+        particleRadius: 0.04,
       },
       {
         kind: 'fluid',
@@ -689,7 +689,7 @@ export function twoDensitiesScene(): SceneDoc {
         viscosity: 0.05,
         color: '#3b82f6',
         region: { x: 0.1, y: 1.2, width: 2.8, height: 1.0 },
-        particleRadius: 0.07,
+        particleRadius: 0.04,
       },
     ],
   } satisfies SceneDocInput);
