@@ -1,0 +1,20 @@
+{
+  "id": "pohyb-kyvadlo-mouka-sinusoida",
+  "subtopicId": "druhy-pohybu",
+  "topicId": "pohyb",
+  "title": "Kyvadlo s moukou kreslí sinusoidu – skládání pohybů",
+  "type": "qualitative",
+  "description": "Demonstrační pokus. Papírový kornout naplněný hrubou moukou se kyvadlovitě houpá nad černým papírem, který se pohybuje rovnoměrně přímočaře kolmo na rovinu kmitů. Mouka zanechává na papíru sinusoidu – elegantní vizualizace dvou druhů pohybů najednou: kmitavého pohybu kyvadla a rovnoměrného přímočarého pohybu podložky. Pokus umožňuje porovnat oba druhy pohybů a ukázat jejich skládání, čímž dobře uzavírá celé téma druhů pohybů.",
+  "materials": [
+    "papírový kornout nebo plastová lahvička s dírkou",
+    "hrubá mouka nebo suchý písek",
+    "velký arch černého papíru nebo čtvrtky",
+    "provázek jako závěs kyvadla (60–100 cm)",
+    "podložka pohybující se rovnoměrně (deska s kolečky nebo tažená rukou)"
+  ],
+  "procedure": "Naplňte kornout moukou a zavěste ho jako kyvadlo. Umístěte pod něj arch černého papíru na desce s kolečky. Rozkmitejte kyvadlo a začněte rovnoměrně posouvat papír kolmo na rovinu kmitů. Mouka nakreslí sinusoidu. Tvar křivky vysvětlete jako výsledek skládání dvou pohybů – kmitavého (vertikální složka) a rovnoměrného přímočarého (horizontální složka).",
+  "source": {
+    "label": "VNUF",
+    "url": "https://vnuf.cz/sbornik/prispevky/08-19-Reichl.html"
+  }
+}
