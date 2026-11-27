@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vascak-bod-varu-tlak",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Bod varu vody a atmosférický tlak (animace Vaščák)",
+  "type": "applet",
+  "description": "Interaktivní animace z cyklu Fyzika ve škole ukazuje, jak teplota varu vody závisí na atmosférickém tlaku – při nižším tlaku (např. v horách) voda vaří už při nižší teplotě. Žák si může posouvat hodnotu tlaku a sledovat změnu teploty varu v reálném čase.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_teplota_varu&l=cz"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "plyny-vascak-dynamicky-vztlak-kridlo",
+  "subtopicId": "atmosfera",
+  "topicId": "plyny-7",
+  "title": "Dynamický vztlak křídla (animace Vaščák)",
+  "type": "applet",
+  "description": "Animace z cyklu Fyzika ve škole znázorňuje vznik dynamického vztlaku na křídle letadla pomocí Bernoulliho principu – rychlejší proudění vzduchu nad křídlem způsobuje nižší tlak než pod křídlem. Dobře doplňuje video Veritasium o tom, proč létají letadla.",
+  "url": "https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mech_kridlo&l=cz"
+}
