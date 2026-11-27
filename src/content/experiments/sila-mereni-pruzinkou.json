@@ -1,0 +1,20 @@
+{
+  "id": "sila-mereni-pruzinkou",
+  "subtopicId": "silomer",
+  "topicId": "sila",
+  "title": "Měření síly pružinkou",
+  "type": "measurement",
+  "description": "Žákovský pokus. Žáci nejprve změří volnou délku pružinky a poté její prodloužení při postupném zavěšení 1 až 4 závažíček — vznikne tabulka síla/prodloužení. Stejnou pružinkou pak zkusí nadzvednout ze stolu pouzdro na psací potřeby, přetáhnout totéž pouzdro po stole a nadzvednout jeden konec špejle o 1 cm, pokaždé znovu změří délku pružinky. Nakonec porovnají prodloužení z těchto tří situací s tabulkou ze závaží a odhadnou, jak velká síla v každém případě působila — pochopí tak, že siloměr funguje na principu úměrného prodloužení pružiny.",
+  "materials": [
+    "pružinka",
+    "pravítko",
+    "4 závažíčka (nebo mince/podložky stejné hmotnosti)",
+    "špejle",
+    "pouzdro na psací potřeby"
+  ],
+  "procedure": "1) Změř volnou délku pružinky. 2) Zavěs 1 závažíčko, změř délku, zapiš do tabulky. 3) Zopakuj pro 2, 3 a 4 závažíčka. 4) Pomocí pružinky nadzvedni ze stolu pouzdro, změř délku pružinky. 5) Táhni pouzdro pružinkou po stole, změř délku. 6) Přidrž jeden konec špejle prstem, druhý konec zahákni pružinkou a nadzvedni o 1 cm, změř délku. 7) Porovnej délky z kroků 4–6 s tabulkou ze závaží (kroky 1–3) a odhadni, jak velká síla v daném případě působila.",
+  "source": {
+    "label": "Fyzikální šuplík (Václav Piskač)",
+    "url": "https://fyzikalnisuplik.websnadno.cz/lp/prima_-_mereni_sily.pdf"
+  }
+}
